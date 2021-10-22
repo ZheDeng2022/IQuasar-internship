@@ -1,1 +1,2 @@
-int date = ""
+date = ""
+print(date)
