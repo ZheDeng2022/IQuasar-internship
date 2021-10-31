@@ -1,37 +1,39 @@
+import sys
 import csv
-import requests
-import xml.etree.ElementTree as ET
-  
-def loadXML():
+import numpy as np
+import pandas as pd
+import defusedxml.ElementTree as ET
 
-    url = 'https://jats.nlm.nih.gov/publishing/tag-library/1.0/FullArticleSamples/pnas_sample.txt'
-  
-    resp = requests.get(url)
-  
- 
-    with open('/Users/swapna.velleleth/IQuasar/nihArticle.xml', 'wb') as f:
-        f.write(resp.content)
-          
-def parseXML(xmlfile):
-  
-    tree = ET.parse(xmlfile)
+fileName = "pmc_result-2.xml"
 
-    root = tree.getroot()
-  
-    authorNames = []
-  
+try:
+    tree = ET.parse(fileName)
 
-    for item in root.findall('./front/article-meta/contrib-group/contrib/name/surname'):
-        print(item.text)
-      
-   
-  
-  
-def savetoCSV():
-    pass
-      
-#loadXML()
+except FileNotFoundError:
+    print(f"File not found: {fileName}")
+    sys.exit(1)
 
-parseXML('nihArticle.xml')
+refs = {'publication-type' : [],'article-title' : [], 'author' : [], 'source' : [], 'year' : []}
+for i in tree.findall('./article/back/ref-list/ref/element-citation'):
+    refs['publication-type'].append(i.attrib['publication-type'])
+    refs['article-title'].append(i.find('./article-title').text)
+    refs['source'].append(i.find('./source').text)
+    refs['year'].append(i.find('./year').text)
+    #refs['volume'].append(i.find('./volume').text)
+    #refs['pub-id'].append(i.find('./pub-id[@pub-id-type="pmid"]').text)
 
-      
+
+header = ['publication-type', 'article-title', 'source', 'year']
+
+with open('parsed.csv','w') as f:
+    writer = csv.writer(f)
+
+    writer.writerow(header)
+
+    for i in range(len(refs['publication-type'])):
+        writer.writerow([refs['publication-type'][i], refs['article-title'][i],refs['source'][i],refs['year'][i]])
+
+
+referencesDF = pd.read_csv('parsed.csv')
+
+print(referencesDF)
