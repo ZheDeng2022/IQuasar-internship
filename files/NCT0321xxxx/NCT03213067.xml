@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03213067</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Version 1</org_study_id>
+    <nct_id>NCT03213067</nct_id>
+  </id_info>
+  <brief_title>Mitochondrial and Microbiota Relationship</brief_title>
+  <official_title>Can Metagenomic and Metadata be Combined Using Bioinformatics and Computational Biology Methods to Personalise Patient Treatment.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Newcastle University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Newcastle-upon-Tyne Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Newcastle University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Gastrointestinal (GI) dysmotility in patients with mitochondrial disease are increasingly&#xD;
+      recognized and often include dysphagia, abdominal pain, abdominal distention, bacterial&#xD;
+      overgrowth, constipation, and in severe cases surgery. Although the proposed pathological&#xD;
+      mechanisms underlying the development of GI dysmotility remain diverse, potential mechanisms&#xD;
+      include mitochondrial dysfunction of smooth muscle within the GI tract and visceral myopathy.&#xD;
+      Moreover, bacteria within the GI tract, termed 'gut microbiota' has also been identified as a&#xD;
+      key contributor towards GI dysmotility.&#xD;
+&#xD;
+      Aim: The aim of this study is to assess the role that the gut microbiota has on clinical&#xD;
+      disease expression in patients with mitochondrial disease.&#xD;
+&#xD;
+      Objectives: This is a feasibility study to assess:&#xD;
+&#xD;
+        1. How does clinical disease severity impact upon the gut microbiota in mitochondrial&#xD;
+           patients compared to healthy controls.&#xD;
+&#xD;
+        2. How diagnostic and therapeutic approaches for mitochondrial disease be improved.&#xD;
+&#xD;
+      Methods: This is a pilot study and is part of the Newcastle Mitochondrial Research Biobank.&#xD;
+      Stool samples will be collected from patients with a Mitochondrial Encephalomyopathy Lactic&#xD;
+      Acidosis and Stroke-like episodes (MELAS) phenotype carrier of the m.3243 A&gt;G mutation (N=20)&#xD;
+      from the United Kingdom Medical Research Council (MRC) Centre for Mitochondrial Disease&#xD;
+      Patient Cohort (RES/0211/7552, the largest cohort of mitochondrial patients in the world) and&#xD;
+      the mitochondrial clinic and age and gender matched healthy controls (N=20). DNA will be&#xD;
+      extracted from stool samples and the 16S rRNA gene (V4 region) will be sequenced. This data&#xD;
+      will be analysed using bioinformatics pipelines and computational biology.&#xD;
+&#xD;
+      Long Term Goal: To generate novel information relating to how the gut microbiota impacts upon&#xD;
+      clinical disease expression. This information could then be used to build a predictive model&#xD;
+      designed to optimise diagnosis and therapeutic treatments. This method also holds potential&#xD;
+      for use as a model for ageing and diseases associated with mitochondria not working properly,&#xD;
+      such as diabetes, cancer and Parkinson's disease. This research has the potential to reduce&#xD;
+      costs to the NHS and improve patient care and their quality of life.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background Mitochondrial diseases are an important group of inherited neurometabolic&#xD;
+      disorders that invariably exhibit multi-organ involvement, are relentlessly progressive, and&#xD;
+      result in significant morbidity and mortality. They may manifest as discrete clinical&#xD;
+      syndromes such as mitochondrial encephalomyopathy, lactic acidosis, and stroke like episodes&#xD;
+      (MELAS), chronic and progressive external ophthalmoplegia (CPEO), and maternally inherited&#xD;
+      deafness and diabetes (MIDD), or more commonly with a wide overlapping spectrum of clinical&#xD;
+      features, including hypertrophic cardiomyopathy and gastrointestinal (GI) dysmotility.&#xD;
+      Symptoms arising from gastrointestinal (GI) dysmotility in patients with mitochondrial&#xD;
+      disease are increasingly recognized and often include dysphagia, abdominal pain, abdominal&#xD;
+      distention, bacterial overgrowth, constipation, and in severe cases, intestinal pseudo&#xD;
+      obstruction mimicking an acute surgical abdomen. The high incidence of this was recently&#xD;
+      confirmed when we surveyed 86 mitochondrial patients about GI symptoms. Sixty five percent of&#xD;
+      patients experienced GI dysmotility symptoms, including constipation, early satiety,&#xD;
+      abdominal pain and abdominal distension (under preparation for publication). Although the&#xD;
+      proposed pathological mechanisms underlying the development of GI dysmotility remain diverse,&#xD;
+      potential mechanisms include mitochondrial dysfunction of smooth muscle within the GI tract&#xD;
+      and visceral myopathy. Moreover, bacteria within the GI tract, termed 'gut microbiota' has&#xD;
+      also been identified as a key contributor towards GI dysmotility.&#xD;
+&#xD;
+      Rationale To date, there are few effective treatments for patients with mitochondrial disease&#xD;
+      and those available are predominantly supportive in nature with no proven treatment efficacy,&#xD;
+      and poor understanding of the links between the gut microbiota, mitochondrial disease, GI&#xD;
+      dysmotility and patient health and quality of life. Treatments include various antibiotics&#xD;
+      and laxatives which are generic and not disease specific. Long term effects of drugs are&#xD;
+      unknown and the impact these have on the GI tract and gut microbiota in mitochondrial&#xD;
+      disorders are currently unknown. It is essential to optimise supportive therapeutic&#xD;
+      strategies and design novel modalities to improve clinical management. Although advances in&#xD;
+      technology now provide more biological information than ever before, the complexity and&#xD;
+      volume of data generated exceeds the ability to analyse, interpret and translate this&#xD;
+      information back into the clinical management, highlighting the need to increase clinical&#xD;
+      analytical capabilities. The use of bioinformatics and computational biology to combine&#xD;
+      metagenomics data relating to the gut microbiota and metadata (patient characteristics;&#xD;
+      phenotype/genotype) is one approach to identify and predict what factors, such as drugs,&#xD;
+      phenotype and genotype, induce gut microbiota dysbiosis.&#xD;
+&#xD;
+      Elucidating the complexity and workings of the gut microbiota in mitochondrial disease&#xD;
+      provides a unique approach and deeper understanding of the biology in general, which is&#xD;
+      currently lacking in primary mitochondrial disorders. This research will contribute to the&#xD;
+      gut microbiome field and provide a novel insight into the complex microbe:microbe and&#xD;
+      microbiota-host interactions. The new insights generated here will provide the foundation for&#xD;
+      interventional studies aimed at manipulating the gut microbiome and relieving disease burden&#xD;
+      in patients with mitochondrial disease and potentially diseases associated with mitochondrial&#xD;
+      dysfunction, such as obesity, diabetes and neuro-degenerative disorders such as dementia and&#xD;
+      Parkinson's disease.&#xD;
+&#xD;
+      Objectives&#xD;
+&#xD;
+      The working hypotheses is that patients with mitochondrial disease experience GI dysmotility,&#xD;
+      and that the gut microbiota accentuates clinical disease severity. This study aims to provide&#xD;
+      novel information relating to:&#xD;
+&#xD;
+        1. How does clinical disease severity impact upon the gut microbiota in mitochondrial&#xD;
+           patients compared to healthy controls.&#xD;
+&#xD;
+        2. How diagnostic and therapeutic approaches for mitochondrial disease can be improved.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 11, 2017</start_date>
+  <completion_date type="Actual">February 2, 2019</completion_date>
+  <primary_completion_date type="Actual">February 2, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>16S rRNA gene</measure>
+    <time_frame>6 months</time_frame>
+    <description>DNA will be extracted from stool samples and the 16S rRNA gene (V4 region) will be sequenced.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Mitochondrial Diseases</condition>
+  <arm_group>
+    <arm_group_label>Mitochondrial Disease Patients</arm_group_label>
+    <description>Male and Females &gt;18 years at the time of screening&#xD;
+Patients must have proven genetic disease (confirmed by assessment of heteroplasmy in blood and urine samples) of the m.3243 A&gt;G mutation.&#xD;
+Capacity to provide informed consent taken before any study related activities.&#xD;
+Ability and willingness to adhere to the protocol, including all appointments.&#xD;
+Ability to read and converse in English.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Control Group</arm_group_label>
+    <description>Male and Females &gt;18 years at the time of screening&#xD;
+Capacity to provide informed consent taken before any study related activities.&#xD;
+Ability and willingness to adhere to the protocol, including all appointments.&#xD;
+Ability to read and converse in English.</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      DNA will be extracted from stool samples and the 16S rRNA gene (V4 region) will be sequenced.&#xD;
+      The DNA will then be stored in the Newcastle Mitochondrial Research Biobank&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Mitochondrial diseases are an important group of inherited neurometabolic disorders that&#xD;
+        invariably exhibit multi-organ involvement, are relentlessly progressive, and result in&#xD;
+        significant morbidity and mortality. They may manifest as discrete clinical syndromes such&#xD;
+        as mitochondrial encephalomyopathy, lactic acidosis, and stroke like episodes (MELAS),&#xD;
+        chronic and progressive external ophthalmoplegia (CPEO), and maternally inherited deafness&#xD;
+        and diabetes (MIDD), or more commonly with a wide overlapping spectrum of clinical&#xD;
+        features, including hypertrophic cardiomyopathy and gastrointestinal (GI) dysmotility&#xD;
+        (Gorman et al., 2016; Taylor &amp; Turnbull, 2005).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Mitochondrial Patients&#xD;
+&#xD;
+          -  Male and Females &gt;18 years at the time of screening&#xD;
+&#xD;
+          -  Patients must have proven genetic disease (confirmed by assessment of heteroplasmy in&#xD;
+             blood and urine samples) of the m.3243 A&gt;G mutation.&#xD;
+&#xD;
+          -  Capacity to provide informed consent taken before any study related activities.&#xD;
+&#xD;
+          -  Ability and willingness to adhere to the protocol, including all appointments.&#xD;
+&#xD;
+          -  Ability to read and converse in English.&#xD;
+&#xD;
+        Healthy Controls&#xD;
+&#xD;
+          -  Male and Females &gt;18 years at the time of screening&#xD;
+&#xD;
+          -  Capacity to provide informed consent taken before any study related activities.&#xD;
+&#xD;
+          -  Ability and willingness to adhere to the protocol, including all appointments.&#xD;
+&#xD;
+          -  Ability to read and converse in English.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Previous history of contraindicated conditions including stroke, brain lesion(s) or&#xD;
+             tumour.&#xD;
+&#xD;
+          -  Abnormal clinical results as determined by physician.&#xD;
+&#xD;
+          -  Patient without capacity to provide informed consent.&#xD;
+&#xD;
+          -  Patient's unwillingness to adhere to the protocol, including all appointments.&#xD;
+&#xD;
+          -  Language barriers preventing patients from reading and conversing in English.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Grainne Gorman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Consultant Neurologist and Clinical Senior Lecturer</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Grainne Gorman</name>
+      <address>
+        <city>Newcastle upon Tyne</city>
+        <state>Tyne And Wear</state>
+        <zip>NE2 4HH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>June 2019</verification_date>
+  <study_first_submitted>July 7, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 7, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 11, 2017</study_first_posted>
+  <last_update_submitted>June 25, 2019</last_update_submitted>
+  <last_update_submitted_qc>June 25, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 26, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Mitochondrial Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

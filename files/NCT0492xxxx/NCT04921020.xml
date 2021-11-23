@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04921020</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-485</org_study_id>
+    <nct_id>NCT04921020</nct_id>
+  </id_info>
+  <brief_title>Assessment of Eyelid Topology and Kinetics Based on Deep Learning Method</brief_title>
+  <official_title>Department of Ophthalmology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study plans to assess eyelid topology (such as margin reflex distance, eyelid contour,&#xD;
+      and corneal exposure area) and blinking (such as frequency, velocity, and duration), using&#xD;
+      deep learning method to automatically extract eyelid topological features, and to predict&#xD;
+      subtypes of levator function, using deep learning method to extract blinking features, in&#xD;
+      order to provide new ideas and means to assess eyelid topology and kinetics.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 1, 2020</start_date>
+  <completion_date type="Anticipated">August 1, 2026</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>one-dimensional parameters of eyelid topology</measure>
+    <time_frame>through study completion, 5 years</time_frame>
+    <description>Palpebral fissure length [Margin reflex distance 1, Margin reflex distance 2], Lid length [Upper lid length, Lower lid length], Multiple mid-pupil lid distances</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>two-dimensional parameters of eyelid topology</measure>
+    <time_frame>through study completion, 5 years</time_frame>
+    <description>Palpebral fissure area [Medial area, Corneal area, Lateral area]</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>subtypes of levator function</measure>
+    <time_frame>through study completion, 5 years</time_frame>
+    <description>Levator function is classified into three categories: good, fair and poor</description>
+  </primary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Eyelid Diseases</condition>
+  <arm_group>
+    <arm_group_label>Normal participants</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with blepharoptosis</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with blepharospasm</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with dry eye disease</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with Graves' disease</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Photography</intervention_name>
+    <description>Facial photographs and blinking videos are taken</description>
+    <arm_group_label>Normal participants</arm_group_label>
+    <arm_group_label>Patients with Graves' disease</arm_group_label>
+    <arm_group_label>Patients with blepharoptosis</arm_group_label>
+    <arm_group_label>Patients with blepharospasm</arm_group_label>
+    <arm_group_label>Patients with dry eye disease</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        100 normal volunteers without eyelid diseases 100 patients with blepharoptosis 100 patients&#xD;
+        with blepharospasm 100 patients with dry eye disease 100 patients with Graves' disease&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. normal volunteers without eyelid diseases&#xD;
+&#xD;
+          2. patients with blepharoptosis&#xD;
+&#xD;
+          3. patients with blepharospasm&#xD;
+&#xD;
+          4. patients with dry eye disease&#xD;
+&#xD;
+          5. patients with Graves' disease&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        variable ptosis (e.g., myasthenia gravis), entropion, ectropion, enophthalmos,&#xD;
+        exophthalmos, strabismus, and abnormalities of pupil&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Juan Ye</last_name>
+    <phone>+86-571-87783897</phone>
+    <email>yejuan@zju.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lixia Lou</last_name>
+    <phone>+86-15088681589</phone>
+    <email>loulixia110@zju.edu.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Juan Ye</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Juan Ye</last_name>
+      <phone>+86-571-87783897</phone>
+      <email>yejuan@zju.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 10, 2021</study_first_posted>
+  <last_update_submitted>June 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Eyelid Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

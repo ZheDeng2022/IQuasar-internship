@@ -1,0 +1,353 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04850079</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018-2806</org_study_id>
+    <nct_id>NCT04850079</nct_id>
+  </id_info>
+  <brief_title>EHR Precision Drug Treatment in Neonates</brief_title>
+  <official_title>Electronic Health Record (EHR)-Embedded Decision Support Platform for Individualized Precision Drug Treatment in Neonates</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Hospital Medical Center, Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Gerber Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Hospital Medical Center, Cincinnati</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This observational study is designed to evaluate the integration of a model-informed,&#xD;
+      clinically individualized pharmacokinetics (PK) profile (precision dosing dashboard) into&#xD;
+      prescribing clinicians' existing workflows to improve safety and efficacy of morphine dosing&#xD;
+      for neonates. We will use user-centered participatory design methods and real-time analysis&#xD;
+      to inform the refinement of our recently developed Electronic Health Record (EHR) model-based&#xD;
+      decision support tool and test it during the pre-and post-implementation stages.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim 1: To successfully implement a morphine PK and individualized precision dosing decision&#xD;
+      aid into workflows of neonatal prescribing clinicians.&#xD;
+&#xD;
+      This study will evaluate the steps required to successfully implement a population&#xD;
+      pharmacokinetic (PK) model-informed real-time decision support interface for the prescribing&#xD;
+      of neonatal pain and sedation medications. Currently, most opiate and benzodiazepine&#xD;
+      treatment is done by empirical dosing without any knowledge of drug concentrations, which can&#xD;
+      easily lead to under or over-dosing of medications. Our background data show that over 65% of&#xD;
+      infants who are placed on morphine experience blood concentrations well above the currently&#xD;
+      suggested target ranges. This project will incorporate PK model-informed dosing and&#xD;
+      eventually include real-time drug concentration information feedback directly into&#xD;
+      prescribers' workflows so that they can make a data-informed decision, thus allowing maximal&#xD;
+      therapeutic efficacy while minimizing the likelihood of adverse events. The expected outcomes&#xD;
+      are better clinical efficacy and safety with fewer side effects in the neonatal population.&#xD;
+&#xD;
+      Study design Open label, prospective, quasi-experimental study that will use data collected&#xD;
+      during patients' Neonatal Intensive Care Unit (NICU) hospitalization at Cincinnati Children's&#xD;
+      Medical Center (CCHMC).&#xD;
+&#xD;
+      The study will use user-centered participatory design methods to establish the optimal means&#xD;
+      of incorporating this decision support into already existing workflows. These findings will&#xD;
+      allow us to implement the clinical decision support directly into clinical practice during&#xD;
+      the study period. During and following implementation, we will use a mixed methods approach&#xD;
+      through continually evaluating the effectiveness of the precision dosing application through&#xD;
+      technical analytics, real-time user feedback, and clinical data feedback. Technical process&#xD;
+      outcomes will consist of usage analysis statistics such as application access logs, time&#xD;
+      spent viewing the application, and technical error rates (e.g., failure of the application to&#xD;
+      launch or load data). Users will have the option to provide direct in-app feedback. Such&#xD;
+      feedback is necessary for successful agile software development and will be incorporated into&#xD;
+      regular revisions of the tool. In addition, we will use clinical data including subjective&#xD;
+      bedside pain and sedation assessments as well as objective morphine concentration data to&#xD;
+      help further refine the PK/PD models.&#xD;
+&#xD;
+      Prospective evaluation of the decision support tool We will start using the tool to provide&#xD;
+      dosing guidance based on patient information and the morphine PK model predictions but&#xD;
+      without using morphine concentrations as feedback for 3-6 months. This is anticipated to be&#xD;
+      the time required to prospectively test the tool while putting in place the logistics for&#xD;
+      timed sampling and morphine concentration measurements in real-time. Only members of the&#xD;
+      study team will have access to the tool at this time. When the clinical team is discussing&#xD;
+      the morphine usage over the last 24 hours and before the pain/sedation plan is developed, the&#xD;
+      member of the study team that is reviewing the tool will introduce this information on&#xD;
+      rounds. Currently the NICU clinical pharmacist on the study team reviews NeoRelief during&#xD;
+      rounds to assess morphine doses being used and the estimated concentrations based on the&#xD;
+      model. The tool will be made available to the other members of the study team as part of the&#xD;
+      roll out. The model-based dosing suggestions are not meant to take the place of clinical&#xD;
+      judgement. It is impossible to take into account all of the unique variables that go in to&#xD;
+      developing a pain management plan for a patient. If the clinical team choses to deviate from&#xD;
+      the recommendations, the clinical pharmacists will make a note as to why the decision was&#xD;
+      made to deviate from the recommendation.&#xD;
+&#xD;
+      Once the logistics of morphine concentration measurement and reporting by the mass&#xD;
+      spectrometry laboratory have been worked out, we will continue with the prospective&#xD;
+      evaluation of the decision support tool by now also taking into account morphine&#xD;
+      concentration measurement(s) as 'feedback' using remnant samples. This will allow for&#xD;
+      Bayesian estimation and prediction of a patient's individual PK profile. Again, since the&#xD;
+      goal is the incorporation of the tool into the workflow, only members of the study team will&#xD;
+      have access to the tool information. When the team is discussing the morphine usage over the&#xD;
+      last 24 hours and before the pain/sedation plan is developed this information will be&#xD;
+      introduced on rounds. This will provide us with an objective way to determine if it is being&#xD;
+      effectively incorporated into the workflow.&#xD;
+&#xD;
+      Study population and inclusion criteria:&#xD;
+&#xD;
+      Participants will be preterm and term neonates who receive intravenously (IV) administered&#xD;
+      morphine for 24 hours or more in the CCHMC NICU as part of standard clinical pain care&#xD;
+      management. Our target is a minimum of 200 evaluable research participants. All infants in&#xD;
+      the CCHMC NICU regardless of gender, race, or age are potential subjects. We anticipate that&#xD;
+      enrolled participants will be of mixed demographics. There will be no exclusions based on&#xD;
+      gender or ethnicity.&#xD;
+&#xD;
+      Data Collection and Management:&#xD;
+&#xD;
+      A central electronic database will be constructed for storing all study-related data. REDCap&#xD;
+      will be used as the database software and will be password protected. REDCap is a secure,&#xD;
+      web-based application for building and managing online surveys and databases and a resource&#xD;
+      of the Center for Clinical and Translational Science and Training provided to researchers&#xD;
+      affiliated with the University of Cincinnati Academic Health Center. Access will be&#xD;
+      restricted to the primary investigator and designated study personnel.&#xD;
+&#xD;
+      Demographic and Clinical Data: Patient demographic data and clinical data will be collected&#xD;
+      from the electronic medical record EPIC. Data to be collected will include:&#xD;
+&#xD;
+        -  Patient ID&#xD;
+&#xD;
+        -  Birth measurements - weight, length, head circumference&#xD;
+&#xD;
+        -  Age - estimated gestational, chronological, corrected gestational, postmenstrual&#xD;
+&#xD;
+        -  Diagnosis&#xD;
+&#xD;
+        -  Post-operative complications, as applicable&#xD;
+&#xD;
+        -  Date and time of morphine initiation&#xD;
+&#xD;
+        -  Morphine dose and infusion rates&#xD;
+&#xD;
+        -  Times and changes to morphine infusion rates&#xD;
+&#xD;
+        -  Time and dose of any morphine boluses given&#xD;
+&#xD;
+        -  Prior history of opiate and benzodiazepine exposure&#xD;
+&#xD;
+        -  Concomitant medications and any other medication levels&#xD;
+&#xD;
+        -  Medical conditions and diagnoses&#xD;
+&#xD;
+        -  Laboratory values - Creatinine and transaminases&#xD;
+&#xD;
+        -  Vital signs - heart rate, respiratory rate, blood pressure, and oxygen saturation&#xD;
+&#xD;
+        -  NPASS scores: Along with physiologic indicators of pain (i.e., vital signs), behavioral&#xD;
+           indicators of pain will be collected using the Neonatal Pain Agitation and Sedation&#xD;
+           Scale. The NPASS is a validated pain scoring system that incorporates crying and&#xD;
+           irritability, behavioral state, facial expression, extremity tone, and vital signs (HR,&#xD;
+           RR, BP, SaO2) to assess neonatal pain and sedation that is consistently used in the&#xD;
+           CCHMC NICU.&#xD;
+&#xD;
+        -  Withdrawal Assessment Tool - Version 1 (WAT-1) scoring for signs of withdrawal (if&#xD;
+           available); otherwise by collecting data on patients subjectively withdrawing, and/or&#xD;
+           requiring a taper as per the clinical team.&#xD;
+&#xD;
+      The study will include the collection of discarded blood samples (remnant samples) from&#xD;
+      neonates who are already receiving morphine as part of their standard of care. This approach&#xD;
+      is successfully utilized in several 'POPS' studies (Pediatric Opportunistic Pharmacokinetic&#xD;
+      Studies as part of Pharmacokinetics of Understudied Drugs Administered to Children per&#xD;
+      Standard of Care program) conducted by the Pediatric Trials Network (http://pediatric&#xD;
+      trials.org/).&#xD;
+&#xD;
+      Analysis Plan and Sample Size:&#xD;
+&#xD;
+      Primary clinical outcomes will be a comparison of pre-implementation compared with&#xD;
+      post-implementation amounts of morphine given, as measured by number of PRN medications&#xD;
+      given, area under the morphine concentration time curve, and cumulative amount of morphine&#xD;
+      exposure above target concentration. Secondary outcomes will include an evaluation of&#xD;
+      usability of the application using the System Usability Scale, indicating the extent to which&#xD;
+      the tool is being used by those who have access and the extent to which it is effectively&#xD;
+      incorporated into rounds to provide effective and safe analgesia for neonates with&#xD;
+      effectiveness, efficiency, and satisfaction. After the initial development period, we will&#xD;
+      collect data obtained from 200 neonates for a minimum of 18 months for analysis of both the&#xD;
+      process and clinical outcomes.&#xD;
+&#xD;
+      Aim 2. Characterize the morphine exposure-response relationship by prospective evaluation of&#xD;
+      dose requirements, morphine concentration, and pain parameters using PK and PD modeling.&#xD;
+&#xD;
+      We will use validated approaches that have been supported by the U.S. Food and Drug&#xD;
+      Administration and European Medicines Agency to develop a population PK/PD model using&#xD;
+      nonlinear mixed effect analysis based on plasma concentrations of morphine and pain and&#xD;
+      sedation assessment scores and vital sign trends (PD data) in relation to the clinical&#xD;
+      procedure of study data enriched with retrospectively collected data. This methodology not&#xD;
+      only allows one to estimate the &quot;typical&quot; pharmacokinetic and pharmacodynamic profile for the&#xD;
+      population but also will characterize between and within PK variability for each patient over&#xD;
+      time. Through a hierarchical modeling process, clinical characteristics can be identified to&#xD;
+      help account for some of the observed variabilities and ultimately result in improved patient&#xD;
+      specific dosing. This approach is particularly useful in identifying age related effects and&#xD;
+      given the general sparseness of blood samples, the population approach is well suited for&#xD;
+      studying pharmacokinetics and pharmacodynamics in pediatric populations. The model will&#xD;
+      include a description of the maturation of morphine metabolism and clearance based on&#xD;
+      postmenstrual age and time after birth as described in the literature. Model development and&#xD;
+      validation will be performed according to good modeling practices.&#xD;
+&#xD;
+      Aim 3. Evaluate generalizability of the precision dosing platform by extending the platform&#xD;
+      to include a synergistic medication, midazolam.&#xD;
+&#xD;
+      Development of midazolam module:&#xD;
+&#xD;
+      The NeoRelief decision support application is a modular platform developed to be extended to&#xD;
+      other frequently used medications in the NICU such as midazolam. Published midazolam PK&#xD;
+      models will will be coded in and serve as the starting point for a fully functional decision&#xD;
+      support tool for precision dosing of midazolam. This process will be supported by the CCHMC&#xD;
+      IS team who integrated systems specifications and interphase requirements for secure data&#xD;
+      exchange between Epic and the morphine decision support platform.&#xD;
+&#xD;
+      Analysis Plan and Sample Size The evaluation plan and measures will be the same as those&#xD;
+      enumerated for Specific Aim 1; (a) technical analytics including usage rates, time spent in&#xD;
+      the application, accessibility; (b) user feedback and usability testing; (c) clinical&#xD;
+      outcomes including doses of medication given, PRN doses administered, and cumulative dosing&#xD;
+      measurements. After the initial development period, we will collect data obtained from 50&#xD;
+      neonates for a minimum of 18 months for analysis of both the process and clinical outcomes.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 28, 2018</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Total morphine dose</measure>
+    <time_frame>18 months</time_frame>
+    <description>Comparison of pre-implementation compared with post-implementation amounts of morphine given,</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>As needed (pro re nata; PRN) medication</measure>
+    <time_frame>18 months</time_frame>
+    <description>Number of as needed (PRN) doses of morphine</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Target concentration</measure>
+    <time_frame>18 months</time_frame>
+    <description>Cumulative amount of morphine exposure above target concentration</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Usability of the application</measure>
+    <time_frame>18 months</time_frame>
+    <description>Evaluation of usability of the application using the System Usability Scale</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Pain, Acute</condition>
+  <condition>Pain, Chronic</condition>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      The study will include the collection of discarded blood samples (remnant samples) from&#xD;
+      neonates who are already receiving morphine as part of their standard of care. This approach&#xD;
+      is successfully utilized in several 'POPS' studies (Pediatric Opportunistic Pharmacokinetic&#xD;
+      Studies as part of Pharmacokinetics of Understudied Drugs Administered to Children per&#xD;
+      Standard of Care program) conducted by the Pediatric Trials Network (http://pediatric&#xD;
+      trials.org/).&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        participants will be preterm and term neonates who receive intravenously (IV) administered&#xD;
+        morphine for 24 hours or more in the CCHMC NICU as part of standard clinical pain care&#xD;
+        management. Our target is a minimum of 200 evaluable research participants. All infants in&#xD;
+        the CCHMC NICU regardless of gender, race, or age are potential subjects. We anticipate&#xD;
+        that enrolled participants will be of mixed demographics. Newborns are considered&#xD;
+        vulnerable subjects. There will be no exclusions based on gender or ethnicity.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age criteria: Corrected postmenstrual age ≥24 completed weeks&#xD;
+&#xD;
+          2. Treatment with IV morphine for &gt;24 hours per standard of care clinical pain management&#xD;
+&#xD;
+          3. Admitted to CCHMC NICU&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Allergy to morphine&#xD;
+&#xD;
+          2. Confounding medical condition leading to therapy with other opiates&#xD;
+&#xD;
+          3. ECMO treatment&#xD;
+&#xD;
+          4. Concomitant medications that interfere with morphine metabolism/PK as determined by&#xD;
+             the PI&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>24 Weeks</minimum_age>
+    <maximum_age>12 Months</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Alexander A Vinks, PharmD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Children's Hospital Medical Center, Cincinnati</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cincinnati Children's Hospital Medical Center</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45229-3026</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://pubmed.ncbi.nlm.nih.gov/31618453/</url>
+    <description>Electronic Health Record-Embedded Decision Support Platform for Morphine Precision Dosing in Neonates</description>
+  </link>
+  <results_reference>
+    <citation>Vinks AA, Punt NC, Menke F, Kirkendall E, Butler D, Duggan TJ, Cortezzo DE, Kiger S, Dietrich T, Spencer P, Keefer R, Setchell KDR, Zhao J, Euteneuer JC, Mizuno T, Dufendach KR. Electronic Health Record-Embedded Decision Support Platform for Morphine Precision Dosing in Neonates. Clin Pharmacol Ther. 2020 Jan;107(1):186-194. doi: 10.1002/cpt.1684. Epub 2019 Dec 11.</citation>
+    <PMID>31618453</PMID>
+  </results_reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 20, 2021</study_first_posted>
+  <last_update_submitted>April 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>neonatal pain and sedation management</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Pain</mesh_term>
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

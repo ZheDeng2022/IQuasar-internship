@@ -1,0 +1,179 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03151512</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16/0128</org_study_id>
+    <nct_id>NCT03151512</nct_id>
+  </id_info>
+  <brief_title>UNDISTORT Correction of Distortions in Diffusion MRI V1.0</brief_title>
+  <acronym>UNDISTORT</acronym>
+  <official_title>Correction of Distortions in Diffusion MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University College, London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a three-year project funded by a Cancer Research UK Multidisciplinary Award and&#xD;
+      brings together a team from UCL Division of Medicine, Computer Science and University College&#xD;
+      London Hospital. The aim is to develop Magnetic Resonance (MR) sequences and mathematical&#xD;
+      algorithms to reduce the distortions in MR images, especially of the prostate.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a three-year project funded by a Cancer Research UK Multidisciplinary Award and&#xD;
+      brings together a team from UCL Division of Medicine, Computer Science and University College&#xD;
+      London Hospital. The aim is to develop Magnetic Resonance (MR) sequences and mathematical&#xD;
+      algorithms to reduce the distortions in MR images, especially of the prostate. Current NICE&#xD;
+      guidelines include a type of MR imaging called Diffusion Weighted MRI for the detection of&#xD;
+      tumour within the prostate, and for active surveillance of low risk confirmed disease.&#xD;
+      However, approximately 40% of prostate diffusion images suffer from severe localised&#xD;
+      distortions and this is most marked in the peripheral zone of the prostate where 75% of&#xD;
+      prostate cancers occur. The source of these distortions is magnetic field imperfections due&#xD;
+      to the presence of rectal gas or metallic hip implants.&#xD;
+&#xD;
+      The research study will ask both healthy volunteers and patients to undergo research MR scans&#xD;
+      and use the acquired data for analysis. For patients, the scans may be either additional&#xD;
+      sequences acquired during an extended clinical session, or a separate additional session&#xD;
+      entirely for research.&#xD;
+&#xD;
+      The output from the research will be modified ways to run an MR scanner and compute the final&#xD;
+      images.&#xD;
+&#xD;
+      The work should lead to improved diagnostic accuracy and a reduced number of non-diagnostic&#xD;
+      studies. It will have broader impact through application to diffusion imaging of other body&#xD;
+      sites, including whole-body diffusion MRI and non-cancer applications. If successful, the&#xD;
+      results would provide evidence for a larger trial with the eventual outcome being&#xD;
+      manufacturers incorporating modified MR sequences and data processing into clinical systems&#xD;
+      worldwide.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 29, 2017</start_date>
+  <completion_date type="Actual">March 31, 2021</completion_date>
+  <primary_completion_date type="Actual">March 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Dice similarity score to assess distortions</measure>
+    <time_frame>Three Years</time_frame>
+    <description>Dice score provides a measure of how similar is the distortion-corrected image to a reference.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Radiological scoring of image quality</measure>
+    <time_frame>Three Years</time_frame>
+    <description>Diffusion images will be scored blinded to correction scheme on a scale: 1 - undiagnostic, 2- distorted but diagnostic, 3 - undistorted. The change in score following the proposed method will be reported.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diffusion coefficient consistency</measure>
+    <time_frame>Three Years</time_frame>
+    <description>Diffusion coefficients (ADC) in relatively undistorted regions will be compared pre and post distortion correction to quantify any changes (if the algorithm is working correctly, none are expected in these regions).</description>
+  </secondary_outcome>
+  <enrollment type="Actual">37</enrollment>
+  <condition>MR Image Distortion Correction</condition>
+  <condition>Prostate Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will recruit patients within the UCLH imaging pathway and healthy participants&#xD;
+        for research Magnetic Resonance imaging. There is no requirement for participants to be&#xD;
+        imaged more than once for this study. Following the MR scan, no further involvement is&#xD;
+        required from the participants. This is a single-centre study and all imaging will take&#xD;
+        place at UCLH. The de-identified data will be processed by members of the study team within&#xD;
+        UCL.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  For the development and testing phases, there are no specific inclusion criteria.&#xD;
+             Assessment of the primary outcome measure (reduced distortions) also does not require&#xD;
+             specific inclusion criteria. The intended application of our methods is to prostate&#xD;
+             cancer and this is reflected in some of the secondary outcome measures. Recruitment&#xD;
+             will come from the UCLH imaging bookings system. This list will include many men&#xD;
+             having prostate scans and many of these will subsequently be found to have at least a&#xD;
+             suspicion of cancer. Note there is no requirement for a suspicion of cancer to be&#xD;
+             recruited for the study.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subjects unable to have an MRI scan due to contraindications for MRI, for example,&#xD;
+             pacemaker and certain other implants, severe claustrophobia.&#xD;
+&#xD;
+          -  Subjects unable to give informed consent.&#xD;
+&#xD;
+          -  Children and vulnerable populations.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>120 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Atkinson</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UCLH</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University College London Hospital</name>
+      <address>
+        <city>London</city>
+        <zip>NW1 2BU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <link>
+    <url>https://www.ucl.ac.uk/medical-imaging/research/cruk-award</url>
+    <description>Summary of project</description>
+  </link>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>May 3, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 12, 2017</study_first_posted>
+  <last_update_submitted>October 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MRI</keyword>
+  <keyword>distortion correction</keyword>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <keyword>prostheses</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The funder would like to see the best use made of data. As yet we are undecided on the scope or mechanism for this, but data would only be shared anonymously and under a material transfer agreement. Participants agree at the time of consent to their data being used in further research and teaching.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

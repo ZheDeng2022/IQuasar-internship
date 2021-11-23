@@ -1,0 +1,354 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04954885</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OSU-20187</org_study_id>
+    <secondary_id>NCI-2021-06339</secondary_id>
+    <nct_id>NCT04954885</nct_id>
+  </id_info>
+  <brief_title>Evaluating Modifiable Biomarkers for the Prediction of Immunotherapy Response and Toxicity</brief_title>
+  <official_title>Evaluating Modifiable Biomarkers for the Prediction of Immunotherapy Response and Toxicity</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ohio State University Comprehensive Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Ohio State University Comprehensive Cancer Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluates gut microbiome and functional status as modifiable biomarkers in&#xD;
+      predicting immunotherapy response and toxicity in patients with stage IV non-squamous&#xD;
+      non-small cell lung cancer receiving pembrolizumab alone or in combination with pemetrexed&#xD;
+      and carboplatin on the INSIGNIA trial. The goal of this study is to estimate the extent to&#xD;
+      which future interventions that seek to rationally modify the gut microbiome and/or&#xD;
+      functional status can improve outcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVE:&#xD;
+&#xD;
+      I. To quantify the performance of two modifiable biomarkers -- the microbiome and functional&#xD;
+      status - to use as predictive and/or prognostic indicators of clinical benefit (overall&#xD;
+      survival, progression-free survival) in lung cancer patients who receive randomized treatment&#xD;
+      combinations prescribed by the INSIGNA protocol.&#xD;
+&#xD;
+      SECONDARY OBJECTIVE:&#xD;
+&#xD;
+      I. To quantify the predictive power of two modifiable biomarkers - the microbiome and&#xD;
+      functional status -- for the development of immune-related adverse events (irAEs).&#xD;
+&#xD;
+      OUTLINE:&#xD;
+&#xD;
+      Patients receive treatment by their treating physician as described in the INSIGNA protocol&#xD;
+      based on their designated treatment arm. Patients then undergo stool sample collection,&#xD;
+      complete questionnaires and functional status assessments, such as short physical performance&#xD;
+      battery over 10 minutes and 6 minute walk test, at baseline, days 40 (cycle 3), day 80 (cycle&#xD;
+      5), day 180 (cycle 10) and end of treatment (up to 2 years).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 18, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Performance of the microbiome as predictive indicator of clinical benefit (overall survival, progression free survival)</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Count tables derived from the Kraken/Bracken pipeline output will be used to calculate the diversity metric Simpson's Index to quantify the number of species and evenness of the stool microbiome samples. Diversity will be binarized into high versus (vs) low at the median value, and then this variable used to stratify a Kaplan-Meier survival curve (predictive indicator). This will be further stratified by first-line treatment type (Arms A&amp;B vs Arm C) to evaluate microbe diversity predicts response by treatment (prognostic indicator).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance of the microbiome as prognostic indicator of clinical benefit (overall survival, progression free survival)</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>The calculation will follow the methods described above but performed within treatment type (Arms A&amp;B separately from Arm C). The interpretation will rely on the comparison between treatments. For example, if a highly diverse microbiome is significantly predictive of overall survival in Arms A&amp;B but not within Arm C, then it would be a prognostic indicator of outcome in the context of treatment with ICIs. If it is predictive of response in both treatment groups then we will be unable to discern whether it is prognostic.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance of functional status as predictive indicator of clinical benefit (progression free survival)</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Functional status will be measured using a variety of methods including the 6 minute walk test (6MWT), for which they will be stratified by the median distance walked. This stratification will be used in a Kaplan-Meier survival curve to measure time to event, where the event is progression free survival.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance of functional status as prognostic indicator of clinical benefit (progression free survival)</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Physical activity will also be measured using a Short Physical Performance Battery (SPPB). Patients will be stratified by =&lt; 7 and &gt; 7 via grouping those assigned to the &quot;very low physical function (0-3)&quot; and &quot;low physical function (4-6)&quot; groups together, and the &quot;moderate physical function (7-9)&quot; and &quot;high physical function (10-12)&quot; groups together, assuming roughly equal split in the populations assigned by the stratification.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Microbiome alpha diversity</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Diversity will be calculated and stratified as described above, and the stratification will be used in a Kaplan-Meier survival curve to measure time to event, where the event is development of an immune related adverse events (irAEs).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Relative abundance of the phylum Bacteroidetes</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>The relative abundance of Bacteroidetes will be used as a continuous variable in a Cox proportional hazards model where the event is development of an irAE as described above. Uni-and multi-variate tests will be performed controlling for the effects of age, body mass index and smoking status. Additional covariates will be explored in an exploratory fashion.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Predictive power of the 6MWT and SPPB</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Will be quantified for the development in irAEs. Diversity will be calculated and stratified as described above, and the stratification will be used in a Kaplan-Meier survival curve to measure time to event, where the event is development of an irAE.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Microbiome and functional status to tumor biomarkers</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Will be compared. Will show significant associations with the outcomes of interest and particularly with markers of the immune system and inflammation.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Functional trajectory analysis</measure>
+    <time_frame>Baseline up to 2 years</time_frame>
+    <description>Linear mixed-effects models will be used to characterize functional status trajectories through the course of treatment. This model allows for the estimation of intercept and slopes for each patient and group. Participants' functional status scores will be modeled using a segmented mixed model with random change points to estimate when functional status scores change during treatment. Will calculate Somers' Dxy and the c-statistic, in the case of the Cox regression models, and area under receiver-operating characteristic curves in the case of the logistic regression, to identify the model with the highest prediction accuracy in the hold-out data. Co-linearity would be indicated by variables with alternating inclusion in the model.</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Lung Non-Squamous Non-Small Cell Carcinoma</condition>
+  <condition>Stage IIIB Lung Cancer AJCC v8</condition>
+  <condition>Stage IV Lung Cancer AJCC v8</condition>
+  <condition>Stage IVA Lung Cancer AJCC v8</condition>
+  <condition>Stage IVB Lung Cancer AJCC v8</condition>
+  <arm_group>
+    <arm_group_label>Ancillary-correlative (biospecimen, questionnaire, testing)</arm_group_label>
+    <description>Patients receive treatment by their treating physician as described in the INSIGNA protocol based on their designated treatment arm. Patients then undergo stool sample collection, complete questionnaires and functional status assessments, such as short physical performance battery over 10 minutes and 6 minute walk test, at baseline, days 40 (cycle 3), day 80 (cycle 5), day 180 (cycle 10) and end of treatment (up to 2 years).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Biospecimen Collection</intervention_name>
+    <description>Undergo stool sample</description>
+    <arm_group_label>Ancillary-correlative (biospecimen, questionnaire, testing)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Physical Performance Testing</intervention_name>
+    <description>Undergo short physical performance battery</description>
+    <arm_group_label>Ancillary-correlative (biospecimen, questionnaire, testing)</arm_group_label>
+    <other_name>Physical Fitness Testing</other_name>
+    <other_name>Physical Function Testing</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Physical Performance Testing</intervention_name>
+    <description>Perform 6-minute walk test</description>
+    <arm_group_label>Ancillary-correlative (biospecimen, questionnaire, testing)</arm_group_label>
+    <other_name>Physical Fitness Testing</other_name>
+    <other_name>Physical Function Testing</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Questionnaire Administration</intervention_name>
+    <description>Complete questionnaires</description>
+    <arm_group_label>Ancillary-correlative (biospecimen, questionnaire, testing)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals who received randomized treatment from the INSIGNA protocol&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histologically or cytologically confirmed stage IV non-squamous non-small cell lung&#xD;
+             cancer (NSCLC) (includes M1a, M1b stage disease, and American Joint Committee on&#xD;
+             Cancer (AJCC) 7th edition. Patients with T4NX disease (stage IIIB) with nodule in&#xD;
+             ipsilateral lung lobe are eligible if they are not candidates for combined&#xD;
+             chemotherapy and radiation.&#xD;
+&#xD;
+          -  Formalin-fixed paraffin-embedded tumor tissue from a procedure performed within 6&#xD;
+             months prior to registration is available for submission following registration.&#xD;
+             Formalin-fixed paraffin-embedded tumor tissue within six months of randomization&#xD;
+             available for analysis.&#xD;
+&#xD;
+          -  PD-L1 expression tumor proportion score (TPS) &gt;= 1% in tumor cells, using the MERCK&#xD;
+             Food and Drug Administration (FDA) approved test as performed by local laboratories at&#xD;
+             the participating institutions.&#xD;
+&#xD;
+          -  Patients must have measurable or non-measurable disease per the revised Response&#xD;
+             Evaluation Criteria in Solid Tumors (RECIST) guideline (version 1.1). Presence of&#xD;
+             malignant pleural fluid alone is allowed as study eligibility.&#xD;
+&#xD;
+          -  Age &gt;=18 years.&#xD;
+&#xD;
+          -  Eastern Cooperative Oncology Group (ECOG) performance status 0-2.&#xD;
+&#xD;
+          -  Women of childbearing potential and sexually active males must be strongly advised to&#xD;
+             use an accepted and effective method of contraception or to abstain from sexual&#xD;
+             intercourse for the duration of their participation in the study.&#xD;
+&#xD;
+          -  Absolute neutrophil count (ANC) &gt;= 1500/mm^3 (within 14 days of randomization)&#xD;
+&#xD;
+          -  Platelets &gt;= 100,000/mm^3 (within 14 days of randomization)&#xD;
+&#xD;
+          -  Prothrombin time (PT)/international normalized ratio (INR) =&lt; 1.5 (within 14 days of&#xD;
+             randomization)&#xD;
+&#xD;
+               -  Or if patient on therapeutic anticoagulation, PT/INR =&lt; 3.0&#xD;
+&#xD;
+          -  Partial thromboplastin time (PTT) =&lt; institutional upper limit of normal (ULN) OR, if&#xD;
+             patient is on therapeutic anticoagulation, PTT must be =&lt; 1.5 x ULN (within 14 days of&#xD;
+             randomization)&#xD;
+&#xD;
+          -  Total Bilirubin =&lt; 1.5 mg/dL (within 14 days of randomization)&#xD;
+&#xD;
+          -  Serum glutamic-oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) &lt; 5&#xD;
+             X upper limit of normal (ULN) (within 14 days of randomization)&#xD;
+&#xD;
+          -  Serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) &lt; 5 X&#xD;
+             upper limit of normal ULN (within 14 days of randomization)&#xD;
+&#xD;
+          -  Calculated creatinine clearance &gt;= 45ml/min to be eligible to receive pemetrexed&#xD;
+             (within 14 days prior to randomization).&#xD;
+&#xD;
+          -  Serum creatinine =&lt; 1.5 X institutional upper limit of normal (ULN) serum creatinine&#xD;
+             (within 14 days prior to randomization)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients must NOT have received the following:&#xD;
+&#xD;
+               -  Prior systemic chemotherapy or immunotherapy for advanced metastatic NSCLC.&#xD;
+                  Patients treated with any prior checkpoint inhibitors for lung cancer are&#xD;
+                  ineligible. Chemotherapy for non-metastatic disease (e.g. adjuvant therapy) is&#xD;
+                  allowed if at least 6 months have elapsed since the prior chemotherapy and&#xD;
+                  registration. Local therapy, e.g. palliative radiation, is allowed as long as a&#xD;
+                  period of 14 days has passed since completion.&#xD;
+&#xD;
+          -  Methotrexate (MTX) given in low doses for non-malignant conditions with last dose at&#xD;
+             least 14 days prior to date of registration will be allowed. Other low-dose&#xD;
+             chemotherapeutics for non-malignant conditions will be considered, but review by the&#xD;
+             study chair is required.&#xD;
+&#xD;
+          -  Patient with known EGFR mutations (except exon 20 insertion), BRAF mutation (V600) or&#xD;
+             ALK or ROS1 translocations that can be treated with oral tyrosine kinase inhibitors&#xD;
+             are excluded.&#xD;
+&#xD;
+          -  Patients with symptomatic brain metastases are excluded. Patients with treated or&#xD;
+             asymptomatic brain metastases are eligible if off steroids for at least 14 days.&#xD;
+             Anticonvulsants are allowed.&#xD;
+&#xD;
+          -  Patients with active malignancy within the last 2 years are excluded (adequately&#xD;
+             treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately&#xD;
+             treated stage I or II cancer from which the patient is currently in complete&#xD;
+             remission, or any other cancer from which the patient has been disease free for five&#xD;
+             years are eligible).&#xD;
+&#xD;
+          -  Patients must not have known pre-existing and clinically active interstitial lung&#xD;
+             disease.&#xD;
+&#xD;
+          -  Patients must not have significant gastrointestinal disorders with diarrhea as a major&#xD;
+             symptom (e.g. Crohn's disease, malabsorption, etc.)&#xD;
+&#xD;
+          -  Patients must not have history of auto-immune condition requiring ongoing or&#xD;
+             intermittent systemic treatment.&#xD;
+&#xD;
+          -  Patients must not have history of clinically relevant cardiovascular abnormalities&#xD;
+             such as uncontrolled hypertension, congestive heart failure New York Heart Association&#xD;
+             (NYHA) classification of 3, unstable angina or poorly controlled arrhythmia, or&#xD;
+             myocardial infarction within 6 months.&#xD;
+&#xD;
+          -  Patients must not have any other concomitant serious illness or organ system&#xD;
+             dysfunction that in the opinion of the investigator would either compromise patient&#xD;
+             safety or interfere with the evaluation of the safety of the study drug.&#xD;
+&#xD;
+          -  Patients must not plan to receive any other investigational agents during the course&#xD;
+             of therapy.&#xD;
+&#xD;
+          -  Women must not be pregnant or breast-feeding due to potential harm to the fetus or&#xD;
+             infant from cytotoxic chemotherapy and the unknown risk of pembrolizumab.&#xD;
+&#xD;
+               -  All females of childbearing potential must have a blood test or urine study&#xD;
+                  within 2 weeks prior to registration to rule out pregnancy.&#xD;
+&#xD;
+               -  A female of childbearing potential is any woman, regardless of sexual orientation&#xD;
+                  or whether they have undergone tubal ligation, who meets the following&#xD;
+                  criteria:1) has not undergone a hysterectomy or bilateral oophorectomy; or 2) has&#xD;
+                  not been naturally postmenopausal for at least 24 consecutive months (i.e., has&#xD;
+                  had menses at any time in the preceding 24 consecutive months).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Daniel Spakowicz, PhD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ohio State University Comprehensive Cancer Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>The Ohio State University Comprehensive Cancer Center</last_name>
+    <phone>800-293-5066</phone>
+    <email>OSUCCCClinicaltrials@osumc.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Amna Bibi</last_name>
+    <email>amna.bibi@osumc.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Ohio State University Comprehensive Cancer Center</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>43210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dan Spakowicz</last_name>
+      <phone>614-293-1797</phone>
+      <email>Daniel.Spakowicz@osumc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Dan Spakowicz</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://cancer.osu.edu</url>
+    <description>The Jamesline</description>
+  </link>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>July 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Ohio State University Comprehensive Cancer Center</investigator_affiliation>
+    <investigator_full_name>Daniel Spakowicz</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

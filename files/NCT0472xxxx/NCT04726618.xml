@@ -1,0 +1,214 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04726618</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1000070140</org_study_id>
+    <nct_id>NCT04726618</nct_id>
+  </id_info>
+  <brief_title>Development of Hardware and Software for Pulmonary Magnetic Resonance Imaging Using Inhaled Tracer Gases</brief_title>
+  <official_title>Development of Hardware and Software for Pulmonary Magnetic Resonance Imaging Using Inhaled Tracer Gases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Hospital for Sick Children</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Hospital for Sick Children</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a single centre study. The overarching hypothesis of this study is that MRI with&#xD;
+      inhaled tracer gases can provide high quality images of lung function to complement&#xD;
+      conventional 1H MRI. The study interventions do not affect the standard of care.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Respiratory diseases are a significant healthcare burden worldwide. In Canada, this is&#xD;
+      expected to increase. Non-invasive medical imaging tests are able to provide regional&#xD;
+      functional and structural information of the lung and may aid in the diagnosis and treatment&#xD;
+      of respiratory diseases. Current examples include chest x-ray, x-ray computed tomography&#xD;
+      (CT), and nuclear medicine techniques. However, these techniques suffer from various&#xD;
+      associated limitations. X-ray based methods offer high resolution and rapid acquisitions, but&#xD;
+      only reflect lung structure and anatomy by measuring tissue density. Nuclear medicine&#xD;
+      techniques may be used to measure lung function but suffer from poor resolution and long&#xD;
+      acquisition times. Furthermore, both x-ray based and nuclear medicine imaging techniques make&#xD;
+      use of ionizing radiation, which may not be suitable for longitudinal imaging, or imaging in&#xD;
+      vulnerable populations such as children.&#xD;
+&#xD;
+      Conventional Magnetic Resonance Imaging (MRI) images the 1H nucleus (proton) attached to&#xD;
+      water molecules in biological tissues. MRI can provide high-resolution anatomical and&#xD;
+      functional information of the lung with multiparametric contrast without the use of ionizing&#xD;
+      radiation. However, major drawbacks associated with conventional 1H MRI of the lung are the&#xD;
+      low tissue density, large magnetic susceptibility differences between numerous air/tissue&#xD;
+      interfaces, and image corruption by cardiorespiratory motion during the necessarily long&#xD;
+      image acquisition time frame. Wo;;&#xD;
+&#xD;
+      One strategy which may be employed to overcome the limitations associated with conventional&#xD;
+      1H MRI is the application of safe MR-sensitive inhaled tracer gases. This allows for the&#xD;
+      direct visualization of the spatial distribution of these gases, revealing regional&#xD;
+      ventilation directly. In this study we aim to develop, implement, and test these technologies&#xD;
+      for improved in-vivo imaging of lung structure and function in adults and children with no&#xD;
+      history of respiratory disease.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">October 2021</start_date>
+  <completion_date type="Anticipated">February 15, 2026</completion_date>
+  <primary_completion_date type="Anticipated">February 15, 2026</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The primary objective of this study is to develop the necessary imaging sequences, reconstruction algorithms, and hardware to acquire high quality lung images using HP 129Xe, 19F MRI, and conventional 1H MRI.</measure>
+    <time_frame>5 years</time_frame>
+    <description>This objective will initially begin with preliminary work to demonstrate the ability to acquire in vivo 129Xe and/or 19F MR images in participants with no history of respiratory disease. This study will also focus on the advancement of MR imaging hardware and software to optimize image acquisition and reconstruction. Imaging capability will be evaluated on the basis of image quality, signal-to-noise ratio, contrast-to-noise ratio, image resolution, and scan duration. We will also explore new methods of generating image contrast with these gases.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of 19F MRI to HP 129Xe MRI</measure>
+    <time_frame>5 years</time_frame>
+    <description>19F MRI and HP 129Xe MRI are both inhaled tracer gases for MR imaging of lung function. In this study we aim to demonstrate 19F imaging and compare image quality against HP 129Xe in adults and children.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of intra and inter-scan reproducibility</measure>
+    <time_frame>5 years</time_frame>
+    <description>Repeat measurements will be performed within the study visit to evaluate intra-scan reproducibility. Additionally, repeat measures will be performed in participants during subsequent visits on different days to quantify inter-scan repeatability of imaging measures developed in this study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of MR imaging to pulmonary function testing</measure>
+    <time_frame>5 years</time_frame>
+    <description>The imaging measures developed in this study will be compared to pulmonary function tests which are considered the clinical gold standard for measuring lung function.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Healthy Volunteers</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Hyperpolarized 129-xenon gas and Perfluoropropane gas</intervention_name>
+    <description>Hyperpolarized 129-xenon gas will be used as a contrast agent for MRI. Xenon will be inhaled by the participant at a maximum dose volume of 1/6 of the participant's total lung capacity.&#xD;
+Perfluoropropane will also be used as a contrast agent for MRI. Perfluoropropane will be inhaled as a normoxic mixture (21% O2 and 79% perfluoropropane).</description>
+    <other_name>Tracer Gases</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        50 male and females aged 6-75 with no history of respiratory disease will be used for this&#xD;
+        study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Consent provided&#xD;
+&#xD;
+          -  Aged 6-75 years old&#xD;
+&#xD;
+          -  In good general health as evidenced by medical history&#xD;
+&#xD;
+          -  Meets MRI screening criteria&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Has diagnosis of pulmonary disease&#xD;
+&#xD;
+          -  FEV1 &lt;70%&#xD;
+&#xD;
+          -  Requires supplemental oxygen&#xD;
+&#xD;
+          -  Has had a respiratory infection within the past 2 weeks&#xD;
+&#xD;
+          -  Pregnant or lactating*&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Giles Santyr, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Hospital for Sick Children</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Giles Santyr, PhD</last_name>
+    <phone>416-813-7654</phone>
+    <phone_ext>301394</phone_ext>
+    <email>giles.santyr@sickkids.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sharon Braganza, MSc</last_name>
+    <phone>416-813-7654</phone>
+    <phone_ext>307937</phone_ext>
+    <email>sharon.braganza@sickkids.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Hospital for Sick Children</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 0A4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Giles Santyr, PhD</last_name>
+      <phone>4168137654</phone>
+      <email>giles.santyr@sickkids.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sharon Braganza, MSc</last_name>
+      <phone>4168137654</phone>
+      <phone_ext>307937</phone_ext>
+      <email>sharon.braganza@sickkids.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Giles Santyr, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>January 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2021</study_first_posted>
+  <last_update_submitted>September 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The Hospital for Sick Children</investigator_affiliation>
+    <investigator_full_name>Giles Santyr</investigator_full_name>
+    <investigator_title>Senior Scientist</investigator_title>
+  </responsible_party>
+  <keyword>Lung MRI</keyword>
+  <keyword>Healthy</keyword>
+  <keyword>HP Xenon gas</keyword>
+  <keyword>Perfluoropropane gas</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Xenon</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

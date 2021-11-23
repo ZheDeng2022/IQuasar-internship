@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04968418</url>
+  </required_header>
+  <id_info>
+    <org_study_id>(870)110-16</org_study_id>
+    <nct_id>NCT04968418</nct_id>
+  </id_info>
+  <brief_title>Deep Neural Network for Stroke Patient Gait Analysis and Classification</brief_title>
+  <official_title>A Deep Neural Network for Abnormal Gait Patterns Based on Inertial Sensors Among Post-Stroke Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cheng-Hsin General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Taiwan University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cheng-Hsin General Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Lower limbs of stroke patients gradually recover through Brunnstrom stages, from initial&#xD;
+      flaccid status to gradually increased spasticity, and eventually decreased spasticitiy.&#xD;
+      Throughout this process. after stroke patients can start walking, their gait will show&#xD;
+      abnormal gait patterns from healthy subjects, including circumduction gait, drop foot, hip&#xD;
+      hiking and genu recurvatum.&#xD;
+&#xD;
+      For these abnormal gait patterns, rehabilitation methods include ankle-knee orthosis(AFO) or&#xD;
+      increasing knee/pelvic joint mobility for assistance. Prior to this study, similar research&#xD;
+      has been done to differentiate stroke gait patterns from normal gait patterns, with an&#xD;
+      accuracy of over 96%.&#xD;
+&#xD;
+      This study recruits subject who has encountered first ever cerebrovascular incident and can&#xD;
+      currently walk independently on flat surface without assistance, and investigators record&#xD;
+      gait information via inertial measurement units strapped to their bilateral ankle, wrist and&#xD;
+      pelvis to detect acceleration and angular velocity as well as other gait parameters. The IMU&#xD;
+      used in this study consists of a 3-axis accelerometer, 3-axis gyroscope and 3-axis&#xD;
+      magnetometer, with a highest sampling rate of 128Hz.&#xD;
+&#xD;
+      Afterwards, investigators use these gait information collected as training data and testing&#xD;
+      data for a deep neural network (DNN) model and compare clinical observation results by&#xD;
+      physicians simultaneously, in order to determine whether the DNN model is able to&#xD;
+      differentiate the types of abnormal gait patterns mentioned above.&#xD;
+&#xD;
+      If this model is applied in the community, investigators hope it is available to early detect&#xD;
+      abnormal gait patterns and perform early intervention to decrease possibility of fallen&#xD;
+      injuries.&#xD;
+&#xD;
+      This is a non-invasive observational study and doesn't involve medicine use. Participants are&#xD;
+      only required to perform walking for 6 minutes without assistance on a flat surface. This&#xD;
+      risk is extremely low and the only possible risk of this study is falling down during&#xD;
+      walking.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Abnormal gait patterns can be observed among stroke patient who are able to start ambulation&#xD;
+      training, including circumduction gait, drop foot, hip hiking and genu recurvatum. The first&#xD;
+      6 months after a cerebrovascular incident is considered the golden period for post-stroke&#xD;
+      rehabilitation, therefore intensive intervention during this period will provide significant&#xD;
+      help to stroke patients. Currently, clinical treatment methods still heavily rely on&#xD;
+      subjective diagnosis by physiatrists and therapists, therefore investigators hope by&#xD;
+      establishing a more objective method to classify abnormal gait patterns, it will provide more&#xD;
+      significant assistance during long term rehabilitation planning.&#xD;
+&#xD;
+      In this observational study, investigators plan to recruit 100 stroke patients with first&#xD;
+      ever, unilateral stroke and are able to perform walking on a flat surface for 6 minutes&#xD;
+      without assistance. Inclusion criteria includes age over 20 years old with first time stroke&#xD;
+      and affected lower limb Brunnstrom stage III-V, and functional ambulation category VI.&#xD;
+      Participants should be able to walk on a flat surface without assistance for 6 minutes and&#xD;
+      their Mini-Mental State Examination (MMSE) should be over 25, which means participants can&#xD;
+      comply to orders and cooperate with investigators in this study. Exclusion criteria includes&#xD;
+      severe central nervous system (CNS)/peripheral neurological disorders apart from stroke, and&#xD;
+      those with high risk of falling down during walking. Those who cannot cooperate with testing&#xD;
+      and with severe visual/auditory/cognition deficits are also excluded. Patients with lower&#xD;
+      limb fracture within recent 6 months are excluded as well.&#xD;
+&#xD;
+      Investigators recruit participants from outpatient clinics as well as physical therapy rooms&#xD;
+      and patients will not receive any extra medications before/after this gait study.&#xD;
+      Participants will continue their physical therapy programs as well as medical regime without&#xD;
+      any restriction by participating this study. The study method in this study is to strap&#xD;
+      multiple inertial measurement units (IMUs) on participants' bilateral wrists, ankles and&#xD;
+      pelvis, and participants are requested to walk indoors on a flat surface for 6 minutes under&#xD;
+      their most comfortable pace. The IMUs used in this study consists of a 3-axis accelerometer,&#xD;
+      3-axis gyroscope and 3-axis magnetometer, with a highest sampling rate of 128Hz. Non-invasive&#xD;
+      orthosis such as ankle-foot orthosis (AFO) are allowed to increase gait stability and&#xD;
+      symmetry. Meanwhile, experienced clinical physiatrists and physical therapists will record&#xD;
+      whether the patients' gait patterns show abnormal gait patterns such as circumduction gait,&#xD;
+      drop foot, hip hiking or back knee. The participants are allowed to leave after completion of&#xD;
+      6 minute walking test without any discomfort.&#xD;
+&#xD;
+      A deep neural network (DNN) model is constructed to be trained for abnormal gait pattern&#xD;
+      analysis. The DNN model constructed for this study consists of an input layer, 6 hidden&#xD;
+      layers, detection output layer and classification output layer. Each hidden layer consists of&#xD;
+      100 neurons and detection output layer will label each gait data as normal gait[1,0] or&#xD;
+      stroke gait[0,1]. Afterwards, the classification layer will label each abnormal stroke gait&#xD;
+      pattern as stroke gait, circumduction gait, drop foot, hip hiking and back knee as&#xD;
+      [1,1,1,1,1]. After completion of collecting clinical gait data from participants in this&#xD;
+      study, investigators use the collected gait data for DNN training, and investigators use&#xD;
+      k-fold cross validation method to divide participants' gait data into 5 collections randomly,&#xD;
+      with 4 of them used as training data while the remaining used as testing data, and the&#xD;
+      testing will be repeated for 5 times. Then investigators will compare clinical observed&#xD;
+      information done by physiatrists/therapists and DNN model results to see whether the DNN&#xD;
+      model is available of differentiating circumduction gait, drop foot, hip hiking and genu&#xD;
+      recurvatum.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Anticipated">July 15, 2021</start_date>
+  <completion_date type="Anticipated">May 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Deep neural network (DNN) model accuracy of detecting abnormal stroke gait patterns</measure>
+    <time_frame>2 years</time_frame>
+    <description>Investigators compare clinically observed abnormal gait patterns with DNN model detection. Accuracy of the DNN model will be compared to clinical observed data after cross validation, which results in a series of labeling. Investigators compare those labels with actual observed clinical abnormal gait patterns to determine whether DNN is available of identifying abnormal stroke gait patterns accurately.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Gait Disorders, Neurologic</condition>
+  <condition>Artificial Intelligence</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>APDM OPAL system wearable IMU</intervention_name>
+    <description>The OPAL system contains wearable IMUs with a sampling rate of 128 Hz and a resolution of 17.5 bits. Each IMU has a size of about 44mm 40mm 14mm × × and weighs less than 25 gm.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Investigators focus on unilateral stroke patient over 20 years old who visit Cheng Hsin&#xD;
+        General Hospital outpatient clinic on a regular basis.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age over 20 years old with first time stroke&#xD;
+&#xD;
+          2. And affected lower limb Brunnstrom stage III-V&#xD;
+&#xD;
+          3. Functional ambulation category VI&#xD;
+&#xD;
+          4. Participants should be able to walk on flat surface without assistance for 6 minutes&#xD;
+&#xD;
+          5. Mini-Mental State Examination (MMSE) should be over 25 and can comply to orders and&#xD;
+             cooperate with our study&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Severe central nervous system(CNS)/peripheral nervous system(PNS)neurological&#xD;
+             disorders apart from stroke&#xD;
+&#xD;
+          2. Patients with high risk of falling down during walking&#xD;
+&#xD;
+          3. Patients who cannot cooperate with testing&#xD;
+&#xD;
+          4. Patients with severe visual/auditory/cognition deficits&#xD;
+&#xD;
+          5. Patients with lower limb fracture within recent 6 months&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Szu-Fu Chen, MD, PHD</last_name>
+    <role>Study Director</role>
+    <affiliation>Szu-Fu Chen</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cheng Hsin General Hospital</name>
+      <address>
+        <city>Taipei City</city>
+        <zip>112401</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Kerrigan DC, Frates EP, Rogan S, Riley PO. Hip hiking and circumduction: quantitative definitions. Am J Phys Med Rehabil. 2000 May-Jun;79(3):247-52.</citation>
+    <PMID>10821310</PMID>
+  </reference>
+  <reference>
+    <citation>Trojaniello D, Cereatti A, Pelosin E, Avanzino L, Mirelman A, Hausdorff JM, Della Croce U. Estimation of step-by-step spatio-temporal parameters of normal and impaired gait using shank-mounted magneto-inertial sensors: application to elderly, hemiparetic, parkinsonian and choreic gait. J Neuroeng Rehabil. 2014 Nov 11;11:152. doi: 10.1186/1743-0003-11-152.</citation>
+    <PMID>25388296</PMID>
+  </reference>
+  <reference>
+    <citation>Abaid N, Cappa P, Palermo E, Petrarca M, Porfiri M. Gait detection in children with and without hemiplegia using single-axis wearable gyroscopes. PLoS One. 2013 Sep 4;8(9):e73152. doi: 10.1371/journal.pone.0073152. eCollection 2013.</citation>
+    <PMID>24023825</PMID>
+  </reference>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 20, 2021</study_first_posted>
+  <last_update_submitted>July 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 23, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nervous System Diseases</mesh_term>
+    <mesh_term>Gait Disorders, Neurologic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>According to the investigator's IRB statement, patient information will only be used in this research and will not be used for other purposes.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

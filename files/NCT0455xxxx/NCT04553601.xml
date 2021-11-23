@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04553601</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KYH2019-039</org_study_id>
+    <nct_id>NCT04553601</nct_id>
+  </id_info>
+  <brief_title>Molecular Imaging Visualization of Tumor Heterogeneity in Non-small Cell Lung Cancer</brief_title>
+  <official_title>Molecular Imaging Visualization of Tumor Heterogeneity in Non-small Cell Lung Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The First Affiliated Hospital of Xiamen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The First Affiliated Hospital of Xiamen University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To assess the potential usefulness of radiogenomics for tumor driving genes heterogeneity in&#xD;
+      non-small cell lung cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients with advanced NSCLC underwent 18F-FDG PET/CT and PET/CT-guided synchronous targeted&#xD;
+      biopsy of primary and distant metastatic tumors. The LIFEx package was used to extract PET&#xD;
+      and CT radiomic features from primary and metastatic lesions. The radiomic ROI sites of&#xD;
+      primary and distant metastatic tumors were point-to-point corresponding to the PET/ CT-guided&#xD;
+      targeted biopsy sites. Whole exon sequencing of primary and distant metastatic tumor samples&#xD;
+      obtained by PET/CT-guided targeted biopsy was used to get genomic data of primary and distant&#xD;
+      metastatic tumor. Predictive radiogenomics models were established and validation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2019</start_date>
+  <completion_date type="Anticipated">October 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Patients with advanced NSCLC underwent 18F-FDG PET/CT and PET/CT-guided synchronous targeted biopsy of primary and distant metastatic tumors.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Radiomic feature selection and model establishment</measure>
+    <time_frame>3 years</time_frame>
+    <description>In this study, the investigators first selected the features with significant differences between genes mutant and wild type in the training set using the Mann-Whitney U test, obtaining a total of 53 features with p value &lt; 0.05. Then, the least absolute shrinkage and selection operator (LASSO) algorithm was used to select the optimal predictive features among the 53 selected in the training set. The LASSO algorithm adds a L1 regularization term to a least square algorithm to avoid overfitting. A prediction model was established by logistic regression, and the radiomics signature score (rad-score) for each participant was calculated based on the selected discriminating radiomic features. The model performance was tested in the validation set. The receiver operating characteristic (ROC) curve and the area under the curve (AUC) were used to evaluate the model performance in the training and validation sets.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Genes mutation detection</measure>
+    <time_frame>30 days</time_frame>
+    <description>Genes mutation detection was performed on histological specimens obtained by surgical resection or puncture. Genes mutation detection was conducted by the examination of the whole-exome sequencing. The whole-exome sequencing is performed by the Novogene company (www.novogene.com). If any genes mutation in the whole-exome sequencing was detected, the tumor was considered genes mutant. Otherwise, the tumor was classified as no mutant of genes type.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Image acquisition</measure>
+    <time_frame>30 days</time_frame>
+    <description>The imaging acquisition protocol was established following the Image Biomarker Standardisation Initiative (IBSI) reporting guidelines. All the details of the procedures are provided in the electronic supplementary material. 18F-FDG PET/CT (Discovery MI, GE Healthcare, Milwaukee, WI, USA) examination was performed within 1 month before treatment. Briefly, 18F-FDG PET/CT images were acquired 60 ± 5 min after 18F-FDG injection in accordance with the European Association of Nuclear Medicine (EANM) guidelines, version 1.0 (version 2.0 from February 2015). A 3D LOR reconstruction algorithm was used to reconstruct the PET images. The attenuation correction of PET images was carried out with CT data, and the corrected PET images were fused with CT images.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Radiomic feature extraction</measure>
+    <time_frame>30 days</time_frame>
+    <description>The LIFEx package (version 4.00, http://www.lifexsoft.org) was used to extract the texture features of PET/CT images of lesions in the same VOI. The PET/CT image of the patient in the DICOM format was imported into the software. Two experienced PET/CT diagnostic physicians semi-automatically delineated the region of interest of the target lesion using a threshold of 40% of the maximum standardized uptake value (SUVmax). Then, the software program automatically calculates and extracts 47 PET radiomic features and 45 CT radiomic features.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>NSCLC</condition>
+  <condition>PET/CT</condition>
+  <condition>Biopsy</condition>
+  <condition>Radiomics</condition>
+  <condition>Genomics</condition>
+  <condition>Whole-exome Sequencing</condition>
+  <arm_group>
+    <arm_group_label>8F-FDG PET/CT and PET/CT-guide targeted biopsy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each subject receive a single intravenous injection of 18F-FDG PET/CT and PET/CT-guide targeted biopsy within the specified time.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>18F-FDG PET/CT and PET/CT-guide targeted biopsy in another group of participants</intervention_name>
+    <description>Each subject receive a single intravenous injection of 18F-FDG PET/CT and PET/CT-guide targeted biopsy within the specified time</description>
+    <arm_group_label>8F-FDG PET/CT and PET/CT-guide targeted biopsy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Criteria: Inclusion Criteria:&#xD;
+&#xD;
+          -  (i) adult patients (aged 18 years or order);&#xD;
+&#xD;
+          -  (ii) patients with suspected or newly diagnosed or previously treated malignant tumors&#xD;
+             (supporting evidence may include magnetic resonance imaging (MRI), CT, tumor markers&#xD;
+             and pathology report);&#xD;
+&#xD;
+          -  (iii) patients who had scheduled both 18F-FDG PET/CT scans and PET/CT guided biopsy;&#xD;
+&#xD;
+          -  (iv) patients who were able to provide informed consent (signed by participant, parent&#xD;
+             or legal representative) and assent according to the guidelines of the Clinical&#xD;
+             Research Ethics Committee.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  (i) patients with non-malignant lesions;&#xD;
+&#xD;
+          -  (ii) patients with pregnancy;&#xD;
+&#xD;
+          -  (iii) the inability or unwillingness of the research participant, parent or legal&#xD;
+             representative to provide written informed consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Long Sun, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The First Affiliated Hospital of Xiamen University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Long Sun, PhD</last_name>
+    <phone>86 0592-2137077</phone>
+    <email>13178352662@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Haojun Chen, PhD</last_name>
+    <phone>86 0592-2137166</phone>
+    <email>leochen0821@foxmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>First affiliated hospital of xiamen university</name>
+      <address>
+        <city>XiaMen</city>
+        <state>Fujian</state>
+        <zip>0086-361000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Long Sun, doctor</last_name>
+      <phone>86 0592-2137077</phone>
+      <email>13178352662@163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 17, 2020</study_first_posted>
+  <last_update_submitted>September 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>NSCLC, PET/CT, radiogenomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fluorodeoxyglucose F18</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

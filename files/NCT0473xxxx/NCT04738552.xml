@@ -1,0 +1,135 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04738552</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TJU-20D.009</org_study_id>
+    <nct_id>NCT04738552</nct_id>
+  </id_info>
+  <brief_title>A Study of Detection of Paroxysmal Events Utilizing Computer Vision and Machine Learning</brief_title>
+  <official_title>A Study of Detection of Paroxysmal Events Utilizing Computer Vision and Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Neuro Event Labs Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Neuro Event Labs Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Increased computational power has made it possible to implement complex image recognition&#xD;
+      tasks and machine learning to be implemented in every day usage. The computer vision and&#xD;
+      machine learning based solution used in this project (Nelli) is an automatic seizure&#xD;
+      detection and reporting method that has a CE mark for this specific use.&#xD;
+&#xD;
+      The present study will provide data to expand the utility and detection capability of NELLI&#xD;
+      and enhance the accuracy and clinical utility of automated computer vision and machine&#xD;
+      learning based seizure detection.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective, blind comparison to the clinical gold standard for seizure&#xD;
+      characterization. This study is intended to compare the Nelli Software's ability to identify&#xD;
+      seizure events to vEEG review in adults with suspected nighttime seizures. Simultaneously,&#xD;
+      Nelli will continuously record audio and video while video-electroencephalography (vEEG) is&#xD;
+      recorded per typical standard of care. Events with positive motor manifestations will be&#xD;
+      independently identified, following standard clinical practice, by three epileptologists&#xD;
+      using clinical vEEG data. Nelli Software will review the audio and video data and&#xD;
+      independently identify events with positive motor manifestations. The outcomes of event&#xD;
+      identification will be compared between Epileptologists and the Nelli Software. For each&#xD;
+      category of event captured the positive percent agreement will be calculated using the exact&#xD;
+      binomial method. The primary endpoint of this study is to demonstrate that Nelli is able to&#xD;
+      identify seizures that have a positive motor component with a sensitivity of &gt; 70%.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">January 9, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of a seizure detection system</measure>
+    <time_frame>During routine seizure monitoring in the hospital - up to one week</time_frame>
+    <description>The primary outcome measure will be the sensitivity of the Nelli system to detect seizrues with a positive motor component in comparison to independent Neurologist review of vEEG collected in an epilepsy monitoring unit. This is a blinded comparison to the clinical gold standard (vEEG)</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Epilepsy</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Nelli</intervention_name>
+    <description>Nelli detects and registers activity that is indicative of seizure events. Nelli captures, stores, and processes video and audio recordings from each patient. Biomarker data is collected during periods of rest for the length of an examination period, which may span several days or months (when used inside and outside of a hospital setting, respectively), as prescribed by a treating physician.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with suspected motor seizures that are undergoing video-EEG monitoring for routine&#xD;
+        clinical care.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All patients undergoing video-EEG monitoring for clinical purposes who are suspected&#xD;
+             of having seizures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Thomas Jefferson University</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>January 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 3, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 4, 2021</study_first_posted>
+  <last_update_submitted>September 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

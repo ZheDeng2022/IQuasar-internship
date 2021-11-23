@@ -1,0 +1,221 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04954365</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PROMPT</org_study_id>
+    <nct_id>NCT04954365</nct_id>
+  </id_info>
+  <brief_title>Post Operative Nausea and Vomiting (PONV) Rescue Outcomes After Amisulpride Treatment</brief_title>
+  <acronym>PROMPT</acronym>
+  <official_title>PROMPT (PONV Rescue Outcomes After Amisulpride Treatment)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Acacia Pharma Ltd</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>ArborMetrix</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Acacia Pharma Ltd</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      PROMPT (PONV Rescue Outcomes after AMisulPride Treatment) is an observational Phase IV study&#xD;
+      designed to evaluate real-world evidence in relation to the care continuum of Post Operative&#xD;
+      Nausea and Vomiting (PONV), as well as the effectiveness and safety of common pharmacologic&#xD;
+      rescue treatment regimens compared to IV amisulpride. There will be no predefined hypothesis&#xD;
+      regarding the magnitude of efficacy or safety of various treatment regimens from the cohorts&#xD;
+      observed. We are not proposing to directly recruit patients into this study.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Deidentified Electronic Health Record (EHR) information related to treatment of Post&#xD;
+      Operative Nausea and Vomiting (PONV) will be collected from academic and community hospitals&#xD;
+      throughout the United States. Deidentified EHRs for patients receiving treatment for PONV&#xD;
+      will be harvested in two cohorts:&#xD;
+&#xD;
+      Cohort 1, Rescue treatment according to the standard of care (SOC) at each study site prior&#xD;
+      to the introduction of IV amisulpride into clinical practice&#xD;
+&#xD;
+      Cohort 2, Rescue treatment IV amisulpride.&#xD;
+&#xD;
+      There is no planned investigational agent, prescribed treatment regimen, or mandated&#xD;
+      intervention, and treating clinicians will determine therapy for PONV according to clinical&#xD;
+      judgment. The projected inclusion over the course of this observational study is to enroll a&#xD;
+      total of 20,000+ patient EHRs evenly divided among those that received SOC and amisulpride&#xD;
+      treatment. Effectiveness and safety outcomes will be analyzed using standard statistical&#xD;
+      methods for observational studies. Comparison of deidentified patient EHRs in Cohort 1 and&#xD;
+      Cohort 2, including response rates, will be compiled and analyzed by an independent medical&#xD;
+      data analytics company.&#xD;
+&#xD;
+      In regard to a Quality Assurance (QA) Plan that addresses data validation and registry&#xD;
+      procedures, including any plans for site monitoring and auditing, ArborMetrix performs QA as&#xD;
+      part of regular business. QA involves both automation testing and manual testing strategies&#xD;
+      including Failure Mode and Effects Analysis (FMEA), bounds testing and exploratory testing.&#xD;
+      Monitoring and auditing is done in line with their continued work toward HITRUST Compliance.&#xD;
+&#xD;
+      Regarding data checks to compare data entered into the registry against predefined rules for&#xD;
+      range or consistency with other data fields in the registry, data validation is built into&#xD;
+      the registry configuration based on predefined rules as part of the data analytics and&#xD;
+      measures development. When receiving data in a batch, legal values, legal relationships,&#xD;
+      primary keys, constraints, duplicates, range, format, length, data type, parent-child&#xD;
+      relationship, variable name are all checked at both import and staging. The analytic process&#xD;
+      checks naming, ticket #, unit test (Statistical Analysis System (SAS), Structure Query&#xD;
+      Language (SQL)), integration, rules, range, consistency, outliers, missing and distribution.&#xD;
+      As part of the Risk and Reliability (RR) Adjustment, ArborMetrix checks missing, unique&#xD;
+      values, Observed to Expected (OE) ratio, C-stats, R squared and adjusted R squared. Report&#xD;
+      validation in the UI (User Interface), which in this case means the registry platform,&#xD;
+      compares reporting dictionary to analytic definition.&#xD;
+&#xD;
+      Regarding source data verification and assessing the accuracy, completeness, or&#xD;
+      representativeness of registry data, data for PROMPT is being pulled directly from the EMR&#xD;
+      system (i.e., external data sources) into the registry. No source data verification will be&#xD;
+      conducted.&#xD;
+&#xD;
+      Regarding Standard Operating Procedures to address registry operations and analysis&#xD;
+      activities, such as patient recruitment, data collection, data management, data analysis,&#xD;
+      reporting for adverse events, and change management - there is no patient recruitment for&#xD;
+      PROMPT. It is an observational study. Information on data collection/management/analysis is&#xD;
+      answered in other questions. The change management system involves a Change Management Board,&#xD;
+      Change Management Request form outlining event spurring the change, requested date/time,&#xD;
+      engineers assigned, devices and/or systems being changed, a description of the change&#xD;
+      including technical details, impact, risk validation method and backout plan. The Request is&#xD;
+      peer reviewed and approved by leadership and technical personnel prior to implementation.&#xD;
+&#xD;
+      Plan for missing data to address situations where variables are reported as missing,&#xD;
+      unavailable, non-reported, uninterpretable, or considered missing because of data&#xD;
+      inconsistency or out-of-range results - As part of the data integration process, if variables&#xD;
+      necessary to meet measure criteria are deemed not available, Acacia will determine the next&#xD;
+      steps (i.e., remove measure, change measure criteria, etc.).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2021</start_date>
+  <completion_date type="Anticipated">December 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2024</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>2 Years</target_duration>
+  <primary_outcome>
+    <measure>Time to PACU Discharge</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Time in mins from administration of first PONV rescue medication to discharge from post-anaesthesia care unit</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">20000</enrollment>
+  <condition>Nausea and Vomiting, Postoperative</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <description>Patients that received rescue treatment according to the standard of care (SOC).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2</arm_group_label>
+    <description>Patients that received rescue treatment with IV amisulpride.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Rescue Post-Operative Nausea and Vomiting (PONV) treatment according to the standard of care (SOC)</intervention_name>
+    <description>Rescue Post-Operative Nausea and Vomiting (PONV) treatment</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Amisulpride</intervention_name>
+    <description>Rescue Post-Operative Nausea and Vomiting (PONV) treatment with Amisulpride</description>
+    <arm_group_label>Cohort 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All adult patients (age ≥ 18 years) having Post-Operative Nausea and Vomiting (PONV) during&#xD;
+        their Post-Anesthesia Care Unit (PACU) stay, regardless of type of surgery, anesthesia,&#xD;
+        pre-medication, comorbidities, etc.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All adult patients (age ≥ 18 years)&#xD;
+&#xD;
+          -  Patients having Post-Operative Nausea and Vomiting (PONV) during their Post-Anesthesia&#xD;
+             Care Unit (PACU) stay, regardless of type of surgery, anesthesia, pre-medication,&#xD;
+             comorbidities, etc.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients that do not meet the above inclusion criteria.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gabriel Fox, MB BChir</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Acacia Pharma</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gabriel Fox, MB BChir</last_name>
+    <phone>+44-(0)1223-919760</phone>
+    <email>gabrielfox@acaciapharma.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Kurt P Grady, PharmD</last_name>
+    <phone>(317) 505-1280</phone>
+    <email>kurtgrady@acaciapharma.com</email>
+  </overall_contact_backup>
+  <link>
+    <url>http://bynder.acaciapharma.com/m/5d7c2cd0d58865f7/original/Barhemsys-Prescribing-Information.pdf</url>
+    <description>BARHEMSYS Prescribing Information</description>
+  </link>
+  <reference>
+    <citation>Candiotti KA, Kranke P, Bergese SD, Melson TI, Motsch J, Siddiqui N, Chung F, Rodriguez Y, Minkowitz HS, Ayad SS, Diemunsch P, Fox G. Randomized, Double-Blind, Placebo-Controlled Study of Intravenous Amisulpride as Treatment of Established Postoperative Nausea and Vomiting in Patients Who Have Had No Prior Prophylaxis. Anesth Analg. 2019 Jun;128(6):1098-1105. doi: 10.1213/ANE.0000000000003733.</citation>
+    <PMID>31094774</PMID>
+  </reference>
+  <reference>
+    <citation>Habib AS, Kranke P, Bergese SD, Chung F, Ayad S, Siddiqui N, Motsch J, Leiman DG, Melson TI, Diemunsch P, Fox GM, Candiotti KA. Amisulpride for the Rescue Treatment of Postoperative Nausea or Vomiting in Patients Failing Prophylaxis: A Randomized, Placebo-controlled Phase III Trial. Anesthesiology. 2019 Feb;130(2):203-212. doi: 10.1097/ALN.0000000000002509.</citation>
+    <PMID>30475232</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 16, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nausea</mesh_term>
+    <mesh_term>Vomiting</mesh_term>
+    <mesh_term>Postoperative Nausea and Vomiting</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Amisulpride</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

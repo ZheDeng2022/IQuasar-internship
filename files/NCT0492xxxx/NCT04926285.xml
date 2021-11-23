@@ -1,0 +1,462 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04926285</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-0450</org_study_id>
+    <nct_id>NCT04926285</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Venetoclax With Escalating Doses of Omacetaxine in Patients With Acute Myeloid Leukemia</brief_title>
+  <acronym>VEN-OM</acronym>
+  <official_title>VEN-OM: Phase Ib Study of Safety and Efficacy of Venetoclax When Combined With Escalating Doses of Omacetaxine in Patients With Relapsed/Refractory Acute Myeloid Leukemia Failing Treatment With Venetoclax-Containing Regimens</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Illinois at Chicago</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Illinois at Chicago</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This will be a single arm, open label Phase Ib dose-escalation study of the combination of&#xD;
+      VEN and OM, conducted using an innovative Bayesian Optimal Interval-design, to find the MTD&#xD;
+      in participants with relapsed/refractory hematologic malignancies including those failing&#xD;
+      treatment with venetoclax-containing regimens. Treatment plan will consist of an induction&#xD;
+      phase, followed by a consolidation phase if applicable.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a Phase Ib study of VEN and OM, the investigator will conduct a Bayesian Optimal&#xD;
+      Interval-designed trial following the approach of Yuan et al 40 to find the MTD with a target&#xD;
+      DLT rate of 2%, 4 pre-specified doses, and between 24 and up to 30 participants. Beginning&#xD;
+      with the first participant treated at the lowest dose of OM 0.625 mg/m2 q12h with VEN 400 mg,&#xD;
+      dose escalation and de-escalation of OM will involve a comparison of the observed DLT rate&#xD;
+      (p) at the current dose with a pair of fixed, pre-specified boundary rates: λe (escalation)&#xD;
+      with p ≤ 0.157; λd (de-escalation) with p ≥ 0.238; or otherwise remain at the same dose per&#xD;
+      the dosing schedule. The trial will start with a cohort size of 1 participant (unless DLT is&#xD;
+      experienced) and escalated for each subsequent participant until the first DLT occurs and the&#xD;
+      current dose cohort is expanded to 3.40 In a simulation of these conditions with a target DLT&#xD;
+      rate of 20% (1), the percentage correct selection of the MTD is between 60% with enrollment&#xD;
+      of 20 participants and 70% with enrollment of 24 participants. Implementation of the trial&#xD;
+      design will be performed using R package 'BOIN'. If the investigator observes an unexpected&#xD;
+      toxicity in Cohort 1 the investigator will use OM 0.5 mg/m2 daily with VEN for Cohort -1&#xD;
+      Following each cycle, participants will be evaluated for complete response (CR) by&#xD;
+      International Working Group (IWG) criteria 41&#xD;
+&#xD;
+      The subject visit schedule and procedures are below:&#xD;
+&#xD;
+      Screening Visit:&#xD;
+&#xD;
+      Physical Exam (vital signs, medical history, prior therapies, height and weight) Urine&#xD;
+      Pregnancy Test, EKG, Blood Work (Complete blood count, (CBC), basic metabolic panel (BMP),&#xD;
+      Uric Acid, Albumin, ALT/AST, bilirubin, alkaline phosphatase, protein, LDH, PT/INR, PTT and&#xD;
+      fibrinogen, HIV, Hepatitis B/C) Bone Marrow Aspirate&#xD;
+&#xD;
+      Treatment Visits:&#xD;
+&#xD;
+      Day 1 of Each Cycle:&#xD;
+&#xD;
+      Physical Exam Urine Pregnancy Test, EKG, (only after 1st, 7th and 11th dose of study&#xD;
+      medication) Blood Work (Complete blood count, (CBC), basic metabolic panel (BMP), Uric Acid,&#xD;
+      Albumin, ALT/AST, bilirubin, alkaline phosphatase, protein, LDH, PT/INR, PTT and fibrinogen,&#xD;
+      HIV, Hepatitis B/C) Study Drug (s) Given&#xD;
+&#xD;
+      Day 28 of each Cycle:&#xD;
+&#xD;
+      Bone Marrow Biopsy Safety Follow Up Visit: (14 days + 7 days after the last dose of&#xD;
+      treatment) performed 14 days (±7 days) after the last dose of treatment. Physical Exam, Blood&#xD;
+      Work (Complete blood count, (CBC), basic metabolic panel (BMP), Uric Acid, Albumin, ALT/AST,&#xD;
+      bilirubin, alkaline phosphatase, protein, LDH, PT/INR, PTT and fibrinogen, HIV, Hepatitis&#xD;
+      B/C) Long Term Follow Up Visit: (every 2 months ±14 days for 12 months), Physical Exam Blood&#xD;
+      Work (Complete blood count, (CBC), basic metabolic panel (BMP), Uric Acid, Albumin, ALT/AST,&#xD;
+      bilirubin, alkaline phosphatase, protein, LDH, PT/INR, PTT and fibrinogen, HIV, Hepatitis&#xD;
+      B/C)&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 2021</start_date>
+  <completion_date type="Anticipated">May 2025</completion_date>
+  <primary_completion_date type="Anticipated">May 2025</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Maximum tolerated dose (MTD) of Omacetaxine in combination with Venetoclax</measure>
+    <time_frame>12 months</time_frame>
+    <description>What is the MTD of Omacetaxine in combination with Venetoclax?</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy of Omacetaxine in combination with Venetoclax</measure>
+    <time_frame>16 weeks</time_frame>
+    <description>Number of participants achieving Overall Response Rate (ORR) after 3 cycles which includes Complete Response (CR) and Complete Remission with Incomplete hematologic recovery (CRi )</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evaluate AEs</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants having treatment related AES using CTCAE v5.0 criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival (OS)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Number of participants having OS measured from the date of entry to the date of death from any cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival (OS)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants having OS measured from the date of entry to the date of death from any cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Event Free Survival (EFS)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Number of participants having EFS measured from the date of entry to the date of treatment failure, disease relapse, or death from any cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Event Free Survival (EFS)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants having EFS measured from the date of entry to the date of treatment failure, disease relapse, or death from any cause</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Relapsed or Refractory Hematologic Malignancies</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Omacetaxine 0.625 mg/m2 SQ injection q12h days 1-7 with Venetoclax 400 mg orally daily on days 4-28 Cycles are 28 days</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Omacetaxine 1.25 mg/m2 SQ injection q12h days 1-7 with Venetoclax 400 mg orally daily on days 4-28 Cycles are 28 days</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Omacetaxine 2.0 mg/m2 SQ injection q12h days 1-7 with Venetoclax 400 mg orally daily on days 4-28 Cycles are 28 days</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Omacetaxine 2.5 mg/m2 SQ injection q12h days 1-7 with Venetoclax 400 mg orally daily on days 4-28 Cycles are 28 days</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Omacetaxine</intervention_name>
+    <description>Escalating doses of Omacetaxine 0.625 mg/m2 q12h, 1.25 mg/m2 q12h, 2.0 mg/m2 q12h, and 2.5 mg/m2 q12h</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_label>Cohort 2</arm_group_label>
+    <arm_group_label>Cohort 3</arm_group_label>
+    <arm_group_label>Cohort 4</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Venetoclax</intervention_name>
+    <description>Venetoclax at 400mg</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_label>Cohort 2</arm_group_label>
+    <arm_group_label>Cohort 3</arm_group_label>
+    <arm_group_label>Cohort 4</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age 18-75 years of age at time of consent.&#xD;
+&#xD;
+          2. Have relapsed/refractory AML (primary or secondary) and have progressed on ≥ 1 line of&#xD;
+             therapy, at least one of which must have included a VEN-containing regimen.&#xD;
+&#xD;
+          3. Eastern Cooperative Oncology Group (ECOG) Performance score 0-2 (see Appendix 1).&#xD;
+&#xD;
+          4. Prior cancer treatment must be completed at least 21 days prior to registration and&#xD;
+             the subject must have recovered from all reversible acute toxic effects of the regimen&#xD;
+             (other than alopecia) to ≤ Grade 1 or baseline.&#xD;
+&#xD;
+             i. With the exception of Hydroxyurea; if Hydroxyurea is used to reduce the white blood&#xD;
+             blast count to &lt; 25 x 109/L, then it must be discontinued at least 48 hours prior to&#xD;
+             registration and bone marrow/peripheral blood sampling, and the subject must have&#xD;
+             recovered from all reversible acute toxic effects to ≤ Grade 1 or baseline.&#xD;
+&#xD;
+          5. Life expectancy of 6 months or greater as determined by the treating physician.&#xD;
+&#xD;
+          6. Demonstrate adequate organ function as defined in the table below; all screening labs&#xD;
+             to be obtained within 28 days prior to registration.&#xD;
+&#xD;
+             System Laboratory Value Renal Creatinine/Calculated creatinine clearance (CrCl) CrCl ≥&#xD;
+             50 mL/min using the Cockcroft-Gault formula Hepatic Bilirubin ≤ 1.5 × upper limit of&#xD;
+             normal (ULN). Excluding patients diagnosed with Gilbert's syndrome Aspartate&#xD;
+             aminotransferase (AST) ≤ 3 × ULN Alanine aminotransferase (ALT) ≤ 3 × ULN&#xD;
+&#xD;
+          7. Provided written informed consent and HIPAA authorization for release of personal&#xD;
+             health information, approved by an Institutional Review Board (IRB).&#xD;
+&#xD;
+          8. NOTE: HIPAA authorization may be included in the informed consent or obtained&#xD;
+             separately.&#xD;
+&#xD;
+          9. Females of childbearing potential must have a negative serum pregnancy test within 7&#xD;
+             days prior to registration. NOTE: Females are considered of child bearing potential&#xD;
+             unless they are surgically sterile (have undergone a hysterectomy, bilateral tubal&#xD;
+             ligation, or bilateral oophorectomy) or they have not experienced menstruation for at&#xD;
+             least 12 consecutive months&#xD;
+&#xD;
+         10. Females of childbearing potential and males must be willing to use effective&#xD;
+             contraception during treatment and for at least 30 days after the last dose of&#xD;
+             Venetoclax. Females will be advised to use effective contraception for at least 6&#xD;
+             months after the last dose of omacetaxine and males for at least 3 months after the&#xD;
+             last dose of omacetaxine.&#xD;
+&#xD;
+         11. As determined by the enrolling physician or protocol designee, ability of the subject&#xD;
+             to understand and comply with study procedures for the entire length of the study.&#xD;
+&#xD;
+        6.2 Exclusion Criteria&#xD;
+&#xD;
+        Subjects meeting any of the criteria below may not participate in the study:&#xD;
+&#xD;
+          1. Patients with history of prior use of Omacetaxine.&#xD;
+&#xD;
+          2. White blood cell count &gt; 25 × 109/L (hydroxyurea permitted to decrease WBC count).&#xD;
+&#xD;
+          3. History of other malignancies within 1 year prior to study entry, with the exception&#xD;
+             of: adequately treated in situ carcinoma of the cervix uteri or carcinoma in situ of&#xD;
+             breast; basal cell carcinoma of the skin or localized squamous cell carcinoma of the&#xD;
+             skin; previous malignancy confined and surgically resected (or treated with other&#xD;
+             modalities) with curative intent.&#xD;
+&#xD;
+          4. Unresolved &gt; grade 2 DIC.&#xD;
+&#xD;
+          5. Investigational drug use within 4 weeks of study entry.&#xD;
+&#xD;
+          6. History of CHF requiring treatment, left ventricular ejection fraction ≤ 40%, cardiac&#xD;
+             insufficiency grade III or IV per New York Heart Association classification (NYHA; see&#xD;
+             Appendix 2), or chronic stable angina&#xD;
+&#xD;
+          7. Patients who are HIV positive.&#xD;
+&#xD;
+          8. Known CNS involvement with AML.&#xD;
+&#xD;
+          9. Previous hematopoietic stem cell transplant within 2 months.&#xD;
+&#xD;
+         10. Patients who are positive for hepatitis B or C infection with the exception of those&#xD;
+             with an undetectable viral load over the prior 3 months. Subjects with serologic&#xD;
+             evidence of prior vaccination to HBV (i.e., HBs Ag-, and anti-HBs+) may participate.&#xD;
+&#xD;
+         11. Active uncontrolled infection or severe systemic infection. Enrollment is possible&#xD;
+             after control of infection, at discretion of the treating physician.&#xD;
+&#xD;
+         12. Pregnant or breastfeeding (NOTE: breast milk cannot be stored for future use while the&#xD;
+             mother is being treated on study).&#xD;
+&#xD;
+         13. Patients who have received strong and/or moderate CYP3A inducers or inhibitors within&#xD;
+             7 days prior to the initiation of study treatment unless therapy is deemed necessary&#xD;
+             by the treating physician. (See Section 8.7.2, Table 3 and Appendix 3).&#xD;
+&#xD;
+         14. Patients who have consumed grapefruit, grapefruit products, Seville oranges (including&#xD;
+             marmalade containing Seville oranges) or Starfruit within 3 days prior to the&#xD;
+             initiation of study treatment.&#xD;
+&#xD;
+         15. Malabsorption syndrome or other condition that precludes enteral route of&#xD;
+             administration.&#xD;
+&#xD;
+         16. Psychological, familial, sociological, or geographical condition that would preclude&#xD;
+             study compliance and follow-up.&#xD;
+&#xD;
+         17. Unable or unwilling to undergo a screening bone marrow study.&#xD;
+&#xD;
+         18. Other severe acute or chronic medical or psychiatric condition, or laboratory&#xD;
+             abnormality that may increase the risk associated with study participation or&#xD;
+             investigational product administration or may interfere with the interpretation of&#xD;
+             study results and, in the judgment of the investigator, would make the patient&#xD;
+             inappropriate for enrollment in this study.&#xD;
+&#xD;
+        1. Age 18-75 years of age at time of consent. 2. Have relapsed/refractory AML (primary or&#xD;
+        secondary) and have progressed on ≥ 1 line of therapy, at least one of which must have&#xD;
+        included a VEN-containing regimen.&#xD;
+&#xD;
+        3. Eastern Cooperative Oncology Group (ECOG) Performance score 0-2 (see Appendix 1).&#xD;
+&#xD;
+        4. Prior cancer treatment must be completed at least 21 days prior to registration and the&#xD;
+        subject must have recovered from all reversible acute toxic effects of the regimen (other&#xD;
+        than alopecia) to ≤ Grade 1 or baseline.&#xD;
+&#xD;
+        i. With the exception of Hydroxyurea; if Hydroxyurea is used to reduce the white blood&#xD;
+        blast count to &lt; 25 x 109/L, then it must be discontinued at least 48 hours prior to&#xD;
+        registration and bone marrow/peripheral blood sampling, and the subject must have recovered&#xD;
+        from all reversible acute toxic effects to ≤ Grade 1 or baseline.&#xD;
+&#xD;
+        5. Life expectancy of 6 months or greater as determined by the treating physician.&#xD;
+&#xD;
+        6. Demonstrate adequate organ function as defined in the table below; all screening labs to&#xD;
+        be obtained within 28 days prior to registration.&#xD;
+&#xD;
+        System Laboratory Value Renal Creatinine/Calculated creatinine clearance (CrCl) CrCl ≥ 50&#xD;
+        mL/min using the Cockcroft-Gault formula Hepatic Bilirubin ≤ 1.5 × upper limit of normal&#xD;
+        (ULN). Excluding patients diagnosed with Gilbert's syndrome Aspartate aminotransferase&#xD;
+        (AST) ≤ 3 × ULN Alanine aminotransferase (ALT) ≤ 3 × ULN&#xD;
+&#xD;
+        7. Provided written informed consent and HIPAA authorization for release of personal health&#xD;
+        information, approved by an Institutional Review Board (IRB).&#xD;
+&#xD;
+        8. NOTE: HIPAA authorization may be included in the informed consent or obtained&#xD;
+        separately.&#xD;
+&#xD;
+        9. Females of childbearing potential must have a negative serum pregnancy test within 7&#xD;
+        days prior to registration. NOTE: Females are considered of child bearing potential unless&#xD;
+        they are surgically sterile (have undergone a hysterectomy, bilateral tubal ligation, or&#xD;
+        bilateral oophorectomy) or they have not experienced menstruation for at least 12&#xD;
+        consecutive months 10. Females of childbearing potential and males must be willing to use&#xD;
+        effective contraception during treatment and for at least 30 days after the last dose of&#xD;
+        Venetoclax. Females will be advised to use effective contraception for at least 6 months&#xD;
+        after the last dose of omacetaxine and males for at least 3 months after the last dose of&#xD;
+        omacetaxine.&#xD;
+&#xD;
+        11. As determined by the enrolling physician or protocol designee, ability of the subject&#xD;
+        to understand and comply with study procedures for the entire length of the study.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients with history of prior use of Omacetaxine.&#xD;
+&#xD;
+          2. White blood cell count &gt; 25 × 109/L (hydroxyurea permitted to decrease WBC count).&#xD;
+&#xD;
+          3. History of other malignancies within 1 year prior to study entry, with the exception&#xD;
+             of: adequately treated in situ carcinoma of the cervix uteri or carcinoma in situ of&#xD;
+             breast; basal cell carcinoma of the skin or localized squamous cell carcinoma of the&#xD;
+             skin; previous malignancy confined and surgically resected (or treated with other&#xD;
+             modalities) with curative intent.&#xD;
+&#xD;
+          4. Unresolved &gt; grade 2 DIC.&#xD;
+&#xD;
+          5. Investigational drug use within 4 weeks of study entry.&#xD;
+&#xD;
+          6. History of CHF requiring treatment, left ventricular ejection fraction ≤ 40%, cardiac&#xD;
+             insufficiency grade III or IV per New York Heart Association classification (NYHA; see&#xD;
+             Appendix 2), or chronic stable angina&#xD;
+&#xD;
+          7. Patients who are HIV positive.&#xD;
+&#xD;
+          8. Known CNS involvement with AML.&#xD;
+&#xD;
+          9. Previous hematopoietic stem cell transplant within 2 months.&#xD;
+&#xD;
+         10. Patients who are positive for hepatitis B or C infection with the exception of those&#xD;
+             with an undetectable viral load over the prior 3 months. Subjects with serologic&#xD;
+             evidence of prior vaccination to HBV (i.e., HBs Ag-, and anti-HBs+) may participate.&#xD;
+&#xD;
+         11. Active uncontrolled infection or severe systemic infection. Enrollment is possible&#xD;
+             after control of infection, at discretion of the treating physician.&#xD;
+&#xD;
+         12. Pregnant or breastfeeding (NOTE: breast milk cannot be stored for future use while the&#xD;
+             mother is being treated on study).&#xD;
+&#xD;
+         13. Patients who have received strong and/or moderate CYP3A inducers or inhibitors within&#xD;
+             7 days prior to the initiation of study treatment unless therapy is deemed necessary&#xD;
+             by the treating physician. (See Section 8.7.2, Table 3 and Appendix 3).&#xD;
+&#xD;
+         14. Patients who have consumed grapefruit, grapefruit products, Seville oranges (including&#xD;
+             marmalade containing Seville oranges) or Starfruit within 3 days prior to the&#xD;
+             initiation of study treatment.&#xD;
+&#xD;
+         15. Malabsorption syndrome or other condition that precludes enteral route of&#xD;
+             administration.&#xD;
+&#xD;
+         16. Psychological, familial, sociological, or geographical condition that would preclude&#xD;
+             study compliance and follow-up.&#xD;
+&#xD;
+         17. Unable or unwilling to undergo a screening bone marrow study.&#xD;
+&#xD;
+         18. Other severe acute or chronic medical or psychiatric condition, or laboratory&#xD;
+             abnormality that may increase the risk associated with study participation or&#xD;
+             investigational product administration or may interfere with the interpretation of&#xD;
+             study results and, in the judgment of the investigator, would make the patient&#xD;
+             inappropriate for enrollment in this study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Quigley, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Illinois at Chicago</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>John Quigley, MD</last_name>
+    <phone>312-413-1300</phone>
+    <email>seanq@uic.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Annette Kinsella, RN</last_name>
+    <phone>312-996-5931</phone>
+    <email>annettek@uic.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Illinois Cancer Center</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>John Qigley, MD</last_name>
+      <phone>312-413-1300</phone>
+      <email>seanq@uic.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Annette Kinsella, RN</last_name>
+      <phone>312-996-5931</phone>
+      <email>annettek@uic.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>June 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 15, 2021</study_first_posted>
+  <last_update_submitted>October 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Illinois at Chicago</investigator_affiliation>
+    <investigator_full_name>John Quigley</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Leukemia, Myeloid, Acute</mesh_term>
+    <mesh_term>Hematologic Neoplasms</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Venetoclax</mesh_term>
+    <mesh_term>Homoharringtonine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,516 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04894708</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PV7284</org_study_id>
+    <nct_id>NCT04894708</nct_id>
+  </id_info>
+  <brief_title>Study on the Use of Artificial Intelligence (Fujifilm) for Polyp Detection in Colonoscopy</brief_title>
+  <acronym>Fuji AI</acronym>
+  <official_title>Prospective Randomized Study on the Use of Artificial Intelligence (Fujifilm) for Polyp Detection in Colonoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitätsklinikum Hamburg-Eppendorf</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>FUJIFILM Deutschland, Branch office of FUJIFILM Europe GmbH</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universitätsklinikum Hamburg-Eppendorf</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Colonoscopy is currently the best method of detection of intestinal tumors and polyps,&#xD;
+      particularly because polyps can also be biopsied and removed. There is a clear correlation&#xD;
+      between the adenoma detection rate and prevented carcinomas, so adenoma detection rate is the&#xD;
+      main parameter for the outcome quality of diagnostic colonoscopy. The efficiency of&#xD;
+      preventive colonoscopy needs optimisation by increase in adenoma detection rate, as it is&#xD;
+      known from many studies that approximately 15-30% of all adenomas can be overlooked. This&#xD;
+      mainly applies to smaller and flat adenomas. However, since even smaller polyps may be&#xD;
+      relevant for colorectal cancer development, the aim of colonoscopy should be to preferably be&#xD;
+      able to recognize all polyps and other changes.The latest and by far the most interesting&#xD;
+      development in this field is the use of artificial intelligence systems. They consist of a&#xD;
+      switched-on software with a small computer connected to the endoscope processor; the&#xD;
+      patient's introduced endoscope is completely unchanged.&#xD;
+&#xD;
+      The present study therefore compares the adenoma detection rate (ADR) of the latest&#xD;
+      generation of devices with high-resolution imaging from Fujifilm with and without the&#xD;
+      connection of artificial intelligence.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Methods of Computer Vision (CV) and Artificial Intelligence (AI) provide completely new&#xD;
+      opportunities, e.g. in the automatic polyp detection and differentiation of a lesion based on&#xD;
+      its endoscopic image. Computer vision using artificial intelligence methods means the&#xD;
+      application of &quot;trained&quot; so-called deep neural net (DNN) with a set of defined images (e.g.&#xD;
+      everyday scenes) and well-known solutions ( e.g. name of the pictured item; c.f. e.g. the&#xD;
+      &quot;ImageNet Challenge&quot;). The technical feasibility of using AI algorithms in endoscopy has&#xD;
+      already been proven in many cases. In the present study, it is an AI system from Fujifilm,&#xD;
+      which is already clinically usable. By using Fujifilm high-resolution imaging devices in&#xD;
+      colonoscopies, AI will be added randomly.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 28, 2020</start_date>
+  <completion_date type="Anticipated">September 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adenoma detection rate</measure>
+    <time_frame>during procedure to histological examination result, approximately 2 days</time_frame>
+    <description>Difference in adenoma detection rate (all adenomas/all patients) between the two groups</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient rate difference</measure>
+    <time_frame>during procedure to histological examination result, approximately 2 days</time_frame>
+    <description>Differences in the patient rate with adenomas (adenoma detection rate, i.e. rate of patients with at least one adenoma)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adenoma subgroup differences</measure>
+    <time_frame>histological examination result, approximately 2 days</time_frame>
+    <description>Differences subgroups of adenomas (flat, small, high-grade dysplasia)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>rate of hyperplastic polyp detection in both groups</measure>
+    <time_frame>histological examination result, approximately 2 days</time_frame>
+    <description>Differences in the detection of hyperplastic polyps</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>rate of polyp detection in preventive and diagnostic colonoscopy</measure>
+    <time_frame>during procedure to histological examination result, approximately 2 days</time_frame>
+    <description>Differences in preventive vs. diagnostic colonoscopy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Switching number (BLI, LCI) in both groups</measure>
+    <time_frame>during procedure</time_frame>
+    <description>number of switches to visual support by colour filters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>incidence of reasons for switching to BLI/LCI</measure>
+    <time_frame>during procedure</time_frame>
+    <description>reasons for switching to visual support by colour filters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>quality of polyp detection rate by image evaluation</measure>
+    <time_frame>until 2 months after recruitment stop</time_frame>
+    <description>differential diagnosis of colon polyps in both groups with/without CADEYE)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1572</enrollment>
+  <condition>Screening Colonoscopy</condition>
+  <condition>Colonoscopic Control After Polypectomy</condition>
+  <condition>Suspected Colon Polyps</condition>
+  <arm_group>
+    <arm_group_label>AI colonoscopy</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>colonoscopy with artificial intelligence added</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>conventional colonoscopy</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>conventional colonoscopy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>colonoscopy</intervention_name>
+    <description>addition of polyp detection algorithm by Fujifilm</description>
+    <arm_group_label>AI colonoscopy</arm_group_label>
+    <arm_group_label>conventional colonoscopy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Persons&gt; 35 years of age who are capable of giving informed consent&#xD;
+&#xD;
+          -  Planned diagnostic colonoscopy (clarification of symptoms, polyp follow-up)&#xD;
+&#xD;
+          -  Screening colonoscopy for men &gt;50 or women &gt; 55 years of age&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Colon bleeding&#xD;
+&#xD;
+          -  Colon carcinoma&#xD;
+&#xD;
+          -  Known polyps for removal&#xD;
+&#xD;
+          -  Inflammatory bowel disease&#xD;
+&#xD;
+          -  Colonic stenosis&#xD;
+&#xD;
+          -  Other suspected colon disease for further clarification&#xD;
+&#xD;
+          -  Follow-up care after colon cancer surgery (partial colon resection)&#xD;
+&#xD;
+          -  Anticoagulant drugs that make a biopsy or polypectomy impossible&#xD;
+&#xD;
+          -  Poor general condition (ASA IV)&#xD;
+&#xD;
+          -  Incomplete colonoscopy planned&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>35 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Rösch, Prof. dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Universitätsklinikum Hamburg-Eppendorf</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Thomas Rösch, Prof. Dr.</last_name>
+    <phone>+49 40 7410</phone>
+    <phone_ext>50098</phone_ext>
+    <email>t.roesch@uke.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Guido Schachschal, PD Dr.</last_name>
+    <phone>+49 40 7410</phone>
+    <phone_ext>50814</phone_ext>
+    <email>g.schachschal@uke.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Gastroenterologiepraxis Dr. Moog</name>
+      <address>
+        <city>Kassel</city>
+        <state>Hessen</state>
+        <zip>34127</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Gero Moog, Dr.</last_name>
+      <phone>+49 561 99 85 6780</phone>
+      <email>info@dr-gero-moog.de</email>
+    </contact>
+    <investigator>
+      <last_name>Gero Moog, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Magdeburg</name>
+      <address>
+        <city>Magdeburg</city>
+        <state>Sachsen-Anhalt</state>
+        <zip>39120</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jochen Weigt, Prof. Dr.</last_name>
+      <phone>+49 391 67</phone>
+      <phone_ext>13100</phone_ext>
+      <email>kghi@med.ovgu.de</email>
+    </contact>
+    <investigator>
+      <last_name>Jochen Weigt, Prof. Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Leipzig</name>
+      <address>
+        <city>Leipzig</city>
+        <state>Sachsen</state>
+        <zip>04103</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Albrecht Hoffmeister, Prof. Dr.</last_name>
+      <phone>+49 341 97</phone>
+      <phone_ext>12240</phone_ext>
+      <email>albrecht.hoffmeister@medizin.uni-leipzig.de</email>
+    </contact>
+    <investigator>
+      <last_name>Albrecht Hoffmeister, Prof. Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Gastroenterologie am Bayerischen Platz</name>
+      <address>
+        <city>Berlin</city>
+        <zip>10825</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stefan Schubert, Dr.</last_name>
+      <phone>+49 30 814 59</phone>
+      <phone_ext>190</phone_ext>
+      <email>gastroenterologen@berlin.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Peter Amerding, Dr.</last_name>
+      <phone>+49 30 814 59</phone>
+      <phone_ext>190</phone_ext>
+      <email>gastroenterologen@berlin.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Stefan Schubert, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Peter Amerding, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Thomas Liceni, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Bonn</name>
+      <address>
+        <city>Bonn</city>
+        <zip>53127</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Tobias J Weismüller, PD Dr.</last_name>
+      <phone>+49 228-287</phone>
+      <phone_ext>14338</phone_ext>
+      <email>Tobias.Weismueller@ukbonn.de</email>
+    </contact>
+    <investigator>
+      <last_name>Tobias J Weismüller, PD Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Eppendorf</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thomas Rösch, Prof. Dr</last_name>
+      <phone>+49 40 7410</phone>
+      <phone_ext>50098</phone_ext>
+      <email>t.roesch@uke.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Guido Schachschal, Dr.</last_name>
+      <phone>+49 40 7410</phone>
+      <phone_ext>50814</phone_ext>
+      <email>g.schachschal@uke.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Thomas Rösch, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Guido Schachschal, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Katharina Zimmermann-Fraedrich, Dr.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St. Vinzenz-Hospital / Akademisches Lehrkrankenhaus der Universität zu Köln</name>
+      <address>
+        <city>Köln</city>
+        <zip>50733</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Philipp Zervoulakos, Dr.</last_name>
+      <phone>+49 221 7712</phone>
+      <phone_ext>4660</phone_ext>
+      <email>philipp.zervoulakos@cellitinnen.de</email>
+    </contact>
+    <investigator>
+      <last_name>Philipp Zervoulakos, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Marienhospital Osnabrück</name>
+      <address>
+        <city>Osnabrück</city>
+        <zip>49074</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Oliver Möschler, Dr.</last_name>
+      <phone>+49 541 326</phone>
+      <phone_ext>4100</phone_ext>
+      <email>Oliver.Moeschler@niels-stensen-kliniken.de</email>
+    </contact>
+    <investigator>
+      <last_name>Oliver Möschler, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Asklepios Paulinen Klinik Wiesbaden</name>
+      <address>
+        <city>Wiesbaden</city>
+        <zip>65197</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Andrea May, Prof. Dr.</last_name>
+      <phone>+49 611 847</phone>
+      <phone_ext>2331</phone_ext>
+      <email>an.may@asklepios.com</email>
+    </contact>
+    <investigator>
+      <last_name>Andrea May, Prof. Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Imperiale TF, Glowinski EA, Lin-Cooper C, Larkin GN, Rogge JD, Ransohoff DF. Five-year risk of colorectal neoplasia after negative screening colonoscopy. N Engl J Med. 2008 Sep 18;359(12):1218-24. doi: 10.1056/NEJMoa0803597. Erratum in: N Engl J Med. 2009 Nov 12;361(20):2004.</citation>
+    <PMID>18799558</PMID>
+  </reference>
+  <reference>
+    <citation>Winawer SJ, Zauber AG, Gerdes H, O'Brien MJ, Gottlieb LS, Sternberg SS, Bond JH, Waye JD, Schapiro M, Panish JF, et al. Risk of colorectal cancer in the families of patients with adenomatous polyps. National Polyp Study Workgroup. N Engl J Med. 1996 Jan 11;334(2):82-7.</citation>
+    <PMID>8531963</PMID>
+  </reference>
+  <reference>
+    <citation>European Colorectal Cancer Screening Guidelines Working Group, von Karsa L, Patnick J, Segnan N, Atkin W, Halloran S, Lansdorp-Vogelaar I, Malila N, Minozzi S, Moss S, Quirke P, Steele RJ, Vieth M, Aabakken L, Altenhofen L, Ancelle-Park R, Antoljak N, Anttila A, Armaroli P, Arrossi S, Austoker J, Banzi R, Bellisario C, Blom J, Brenner H, Bretthauer M, Camargo Cancela M, Costamagna G, Cuzick J, Dai M, Daniel J, Dekker E, Delicata N, Ducarroz S, Erfkamp H, Espinàs JA, Faivre J, Faulds Wood L, Flugelman A, Frkovic-Grazio S, Geller B, Giordano L, Grazzini G, Green J, Hamashima C, Herrmann C, Hewitson P, Hoff G, Holten I, Jover R, Kaminski MF, Kuipers EJ, Kurtinaitis J, Lambert R, Launoy G, Lee W, Leicester R, Leja M, Lieberman D, Lignini T, Lucas E, Lynge E, Mádai S, Marinho J, Maučec Zakotnik J, Minoli G, Monk C, Morais A, Muwonge R, Nadel M, Neamtiu L, Peris Tuser M, Pignone M, Pox C, Primic-Zakelj M, Psaila J, Rabeneck L, Ransohoff D, Rasmussen M, Regula J, Ren J, Rennert G, Rey J, Riddell RH, Risio M, Rodrigues V, Saito H, Sauvaget C, Scharpantgen A, Schmiegel W, Senore C, Siddiqi M, Sighoko D, Smith R, Smith S, Suchanek S, Suonio E, Tong W, Törnberg S, Van Cutsem E, Vignatelli L, Villain P, Voti L, Watanabe H, Watson J, Winawer S, Young G, Zaksas V, Zappa M, Valori R. European guidelines for quality assurance in colorectal cancer screening and diagnosis: overview and introduction to the full supplement publication. Endoscopy. 2013;45(1):51-9. doi: 10.1055/s-0032-1325997. Epub 2012 Dec 4.</citation>
+    <PMID>23212726</PMID>
+  </reference>
+  <reference>
+    <citation>Millan MS, Gross P, Manilich E, Church JM. Adenoma detection rate: the real indicator of quality in colonoscopy. Dis Colon Rectum. 2008 Aug;51(8):1217-20. doi: 10.1007/s10350-008-9315-3. Epub 2008 May 24.</citation>
+    <PMID>18500502</PMID>
+  </reference>
+  <reference>
+    <citation>Bretagne JF, Ponchon T. Do we need to embrace adenoma detection rate as the main quality control parameter during colonoscopy? Endoscopy. 2008 Jun;40(6):523-8. doi: 10.1055/s-2007-995786. Epub 2008 May 8.</citation>
+    <PMID>18464196</PMID>
+  </reference>
+  <reference>
+    <citation>Corley DA, Jensen CD, Marks AR, Zhao WK, Lee JK, Doubeni CA, Zauber AG, de Boer J, Fireman BH, Schottinger JE, Quinn VP, Ghai NR, Levin TR, Quesenberry CP. Adenoma detection rate and risk of colorectal cancer and death. N Engl J Med. 2014 Apr 3;370(14):1298-306. doi: 10.1056/NEJMoa1309086.</citation>
+    <PMID>24693890</PMID>
+  </reference>
+  <reference>
+    <citation>Kaminski MF, Regula J, Kraszewska E, Polkowski M, Wojciechowska U, Didkowska J, Zwierko M, Rupinski M, Nowacki MP, Butruk E. Quality indicators for colonoscopy and the risk of interval cancer. N Engl J Med. 2010 May 13;362(19):1795-803. doi: 10.1056/NEJMoa0907667.</citation>
+    <PMID>20463339</PMID>
+  </reference>
+  <reference>
+    <citation>Barclay RL, Vicari JJ, Doughty AS, Johanson JF, Greenlaw RL. Colonoscopic withdrawal times and adenoma detection during screening colonoscopy. N Engl J Med. 2006 Dec 14;355(24):2533-41.</citation>
+    <PMID>17167136</PMID>
+  </reference>
+  <reference>
+    <citation>Adler A, Wegscheider K, Lieberman D, Aminalai A, Aschenbeck J, Drossel R, Mayr M, Mroß M, Scheel M, Schröder A, Gerber K, Stange G, Roll S, Gauger U, Wiedenmann B, Altenhofen L, Rosch T. Factors determining the quality of screening colonoscopy: a prospective study on adenoma detection rates, from 12,134 examinations (Berlin colonoscopy project 3, BECOP-3). Gut. 2013 Feb;62(2):236-41. doi: 10.1136/gutjnl-2011-300167. Epub 2012 Mar 22.</citation>
+    <PMID>22442161</PMID>
+  </reference>
+  <reference>
+    <citation>Adler A, Aminalai A, Aschenbeck J, Drossel R, Mayr M, Scheel M, Schröder A, Yenerim T, Wiedenmann B, Gauger U, Roll S, Rösch T. Latest generation, wide-angle, high-definition colonoscopes increase adenoma detection rate. Clin Gastroenterol Hepatol. 2012 Feb;10(2):155-9. doi: 10.1016/j.cgh.2011.10.026. Epub 2011 Nov 2.</citation>
+    <PMID>22056301</PMID>
+  </reference>
+  <reference>
+    <citation>Adler A, Aschenbeck J, Yenerim T, Mayr M, Aminalai A, Drossel R, Schröder A, Scheel M, Wiedenmann B, Rösch T. Narrow-band versus white-light high definition television endoscopic imaging for screening colonoscopy: a prospective randomized trial. Gastroenterology. 2009 Feb;136(2):410-6.e1; quiz 715. doi: 10.1053/j.gastro.2008.10.022. Epub 2008 Oct 15.</citation>
+    <PMID>19014944</PMID>
+  </reference>
+  <reference>
+    <citation>Adler A, Pohl H, Papanikolaou IS, Abou-Rebyeh H, Schachschal G, Veltzke-Schlieker W, Khalifa AC, Setka E, Koch M, Wiedenmann B, Rösch T. A prospective randomised study on narrow-band imaging versus conventional colonoscopy for adenoma detection: does narrow-band imaging induce a learning effect? Gut. 2008 Jan;57(1):59-64. Epub 2007 Aug 6.</citation>
+    <PMID>17681999</PMID>
+  </reference>
+  <reference>
+    <citation>Adler A, Roll S, Marowski B, Drossel R, Rehs HU, Willich SN, Riese J, Wiedenmann B, Rösch T; Berlin Private-Practice Gastroenterology Working Group. Appropriateness of colonoscopy in the era of colorectal cancer screening: a prospective, multicenter study in a private-practice setting (Berlin Colonoscopy Project 1, BECOP 1). Dis Colon Rectum. 2007 Oct;50(10):1628-38.</citation>
+    <PMID>17694415</PMID>
+  </reference>
+  <reference>
+    <citation>Schachschal G, Mayr M, Treszl A, Balzer K, Wegscheider K, Aschenbeck J, Aminalai A, Drossel R, Schröder A, Scheel M, Bothe CH, Bruhn JP, Burmeister W, Stange G, Bähr C, Kießlich R, Rösch T. Endoscopic versus histological characterisation of polyps during screening colonoscopy. Gut. 2014 Mar;63(3):458-65. doi: 10.1136/gutjnl-2013-304562. Epub 2013 Jun 28.</citation>
+    <PMID>23812324</PMID>
+  </reference>
+  <reference>
+    <citation>Schachschal G, Sehner S, Choschzick M, Aust D, Brandl L, Vieth M, Wegscheider K, Baretton GB, Kirchner T, Sauter G, Rösch T. Impact of reassessment of colonic hyperplastic polyps by expert GI pathologists. Int J Colorectal Dis. 2016 Mar;31(3):675-83. doi: 10.1007/s00384-016-2523-8. Epub 2016 Feb 4.</citation>
+    <PMID>26847619</PMID>
+  </reference>
+  <reference>
+    <citation>Zimmermann-Fraedrich K, Groth S, Sehner S, Schubert S, Aschenbeck J, Mayr M, Aminalai A, Schröder A, Bruhn JP, Bläker M, Rösch T, Schachschal G. Effects of two instrument-generation changes on adenoma detection rate during screening colonoscopy: results from a prospective randomized comparative study. Endoscopy. 2018 Sep;50(9):878-885. doi: 10.1055/a-0607-2636. Epub 2018 Jul 23.</citation>
+    <PMID>30036893</PMID>
+  </reference>
+  <reference>
+    <citation>Rösch T, Altenhofen L, Kretschmann J, Hagen B, Brenner H, Pox C, Schmiegel W, Theilmeier A, Aschenbeck J, Tannapfel A, von Stillfried D, Zimmermann-Fraedrich K, Wegscheider K. Risk of Malignancy in Adenomas Detected During Screening Colonoscopy. Clin Gastroenterol Hepatol. 2018 Nov;16(11):1754-1761. doi: 10.1016/j.cgh.2018.05.043. Epub 2018 Jun 11.</citation>
+    <PMID>29902640</PMID>
+  </reference>
+  <reference>
+    <citation>Pioche M, Denis A, Allescher HD, Andrisani G, Costamagna G, Dekker E, Fockens P, Gerges C, Groth S, Kandler J, Lienhart I, Neuhaus H, Petruzziello L, Schachschal G, Tytgat K, Wallner J, Weingart V, Touzet S, Ponchon T, Rösch T. Impact of 2 generational improvements in colonoscopes on adenoma miss rates: results of a prospective randomized multicenter tandem study. Gastrointest Endosc. 2018 Jul;88(1):107-116. doi: 10.1016/j.gie.2018.01.025. Epub 2018 Feb 4.</citation>
+    <PMID>29410020</PMID>
+  </reference>
+  <reference>
+    <citation>Bronzwaer MES, Dekker E, Weingart V, Groth S, Pioche M, Rivory J, Beyna T, Neuhaus H, Ponchon T, Allescher H, Fockens P, Rösch T. Feasibility, safety, and diagnostic yield of the Extra Wide Angle View (EWAVE) colonoscope for the detection of colorectal lesions. Endoscopy. 2018 Jan;50(1):63-68. doi: 10.1055/s-0043-120666. Epub 2017 Nov 13.</citation>
+    <PMID>29132174</PMID>
+  </reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>December 1, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 18, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2021</study_first_posted>
+  <last_update_submitted>May 18, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universitätsklinikum Hamburg-Eppendorf</investigator_affiliation>
+    <investigator_full_name>Prof. Dr. Thomas Rösch</investigator_full_name>
+    <investigator_title>Director of Department of Interdisciplinary Endoscopy of University Hospital Hamburg Eppendorf</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

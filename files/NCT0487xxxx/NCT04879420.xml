@@ -1,0 +1,293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04879420</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-VERO</org_study_id>
+    <nct_id>NCT04879420</nct_id>
+  </id_info>
+  <brief_title>Replication of the VERO Osteoporosis Trial in Healthcare Claims Data</brief_title>
+  <official_title>Replication of the VERO Osteoporosis Trial in Healthcare Claims Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale&#xD;
+      replication of randomized controlled trials. The investigators' goal is to understand for&#xD;
+      what types of clinical questions real world data analyses can be conducted with confidence&#xD;
+      and how to implement such studies.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE&#xD;
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical&#xD;
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims&#xD;
+      data, the trial listed below/above. Although many features of the trial cannot be directly&#xD;
+      replicated in healthcare claims, key design features, including outcomes, exposures, and&#xD;
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.&#xD;
+      Randomization is also not replicable in healthcare claims data but was proxied through a&#xD;
+      statistical balancing of measured covariates according to standard practice. Investigators&#xD;
+      assume that the RCT provides the reference standard treatment effect estimate and that&#xD;
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims&#xD;
+      data for replication for a range of possible reasons and does not provide information on the&#xD;
+      validity of the original RCT finding.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 29, 2020</start_date>
+  <completion_date type="Anticipated">June 11, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 11, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of new vertebral fractures</measure>
+    <time_frame>Through study completion (earliest of 730 days or censoring)</time_frame>
+    <description>Claims-based definition: Please refer to study protocol in Documents Section for full details</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of non-vertebral fractures</measure>
+    <time_frame>Through study completion (earliest of 730 days or censoring)</time_frame>
+    <description>Claims-based definition: Please refer to study protocol in Documents Section for full details</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">12757</enrollment>
+  <condition>Osteoporosis</condition>
+  <arm_group>
+    <arm_group_label>Teriparatide</arm_group_label>
+    <description>Reference Group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Risedronate</arm_group_label>
+    <description>Exposure Group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Teriparatide</intervention_name>
+    <description>Teriparatide dispensing claim is used as the reference group.</description>
+    <arm_group_label>Teriparatide</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Risedronate</intervention_name>
+    <description>Risedronate dispensing claim is used as the exposure group.</description>
+    <arm_group_label>Risedronate</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new-user, multicenter, propensity score-matched, retrospective&#xD;
+        cohort study design comparing teriparatide and risedronate in post-menopausal women.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Criteria:&#xD;
+&#xD;
+        Please see https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for&#xD;
+        full code and algorithm definitions.&#xD;
+&#xD;
+        Eligible cohort entry dates:&#xD;
+&#xD;
+        Teriparatide indication for treatment of osteoporosis in postmenopausal women was approved&#xD;
+        by FDA on Nov 26, 2002 (the approval of risedronate for the same indication was antecedent&#xD;
+        to 2002). The initial eligible cohort entry date was the first date after Nov 26, 2002&#xD;
+        commonly available in both the databases investigated. The last date eligible as cohort&#xD;
+        entry date was the end of available data for one of the two databases. For the second&#xD;
+        database, we excluded the data cut that overlaps with the COVID-19 pandemic (range April&#xD;
+        1st - Jun 30th, 2020), since we assumed a higher proportion of drug discontinuation during&#xD;
+        that time period. The following eligible cohort entry dates were included:&#xD;
+&#xD;
+          -  For IBM MarketScan: Jan 1, 2004 (start of available data - December 31, 2018 (end of&#xD;
+             available data)&#xD;
+&#xD;
+          -  Optum CDM: Jan 1, 2004 (start of available data) - Mar 31, 2020&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Postmenopausal women &gt;= 45 years of age at the time of entry into the trial, whose&#xD;
+             last menstrual period occurred at least 2 years prior to entry into the trial and are&#xD;
+             sufficiently mobile to complete study visits&#xD;
+&#xD;
+          -  Women &lt; 55 years of age in whom a bilateral oophorectomy cannot clearly be documented&#xD;
+             must have their postmenopausal status confirmed by a serum FSH level &gt; 40 IU/L and&#xD;
+             serum estradiol level &lt; 20 pg/mL or &lt; 73 pmol/L.&#xD;
+&#xD;
+          -  A minimum of 2 moderate (SQ2) or 1 severe (SQ3) vertebral fragility fractures&#xD;
+             [radiographic evidence of at least two moderate (ie, a reduction in vertebral body&#xD;
+             height of 26-40%) or one severe (more than 40% reduction) prevalent vertebral&#xD;
+             fragility fracture]&#xD;
+&#xD;
+          -  AP lumbar spine or total hip or femoral neck BMD ≥ 1.5 SD below the average BMD for&#xD;
+             young healthy, non-Hispanic, Caucasian women (T-score ≤ -1.5 SD)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Increased baseline risk of osteosarcoma. This includes patients with Paget's disease&#xD;
+             of the bone [..]. As elevation of serum alkaline phosphatase activity may indicate the&#xD;
+             presence of Paget's disease, an unexplained elevation of this enzyme activity will&#xD;
+             also be exclusionary [Day 365, Day 0]&#xD;
+&#xD;
+          -  [...] previous primary skeletal malignancy, or skeletal exposure to therapeutic&#xD;
+             irradiation&#xD;
+&#xD;
+          -  History of unresolved skeletal diseases that affect bone metabolism, other than&#xD;
+             osteoporosis, including renal osteodystrophy, osteomalacia, hyperparathyroidism&#xD;
+             (uncorrected), hypoparathyroidism, and intestinal malabsorption [Day 365, Day 0]&#xD;
+&#xD;
+          -  Abnormally elevated values of serum albumin-corrected calcium levels at baseline,&#xD;
+             defined as ≥ 10.6 mg/dL (or ≥ 2.65 mmol/L). In cases with borderline non-eligible&#xD;
+             values (≥ 10.6 and ≤ 10.7 mg/dL), a re-test would be allowed during the screening&#xD;
+             period [Day 30, Day 0]&#xD;
+&#xD;
+          -  Abnormally low values of serum albumin- corrected calcium levels at baseline, defined&#xD;
+             as &lt; 8.0 mg/dL (or &lt; 2.0 mmol/L). In cases with borderline non-eligible values (&gt; 7.8&#xD;
+             to &lt; 8.0 mg/dL), a re-test would be allowed during the screening period to allow&#xD;
+             normalization with vitamin D and calcium supplements before the randomization visit&#xD;
+             [Day 30, Day 0]&#xD;
+&#xD;
+          -  History of malignant neoplasms in the 5 years prior to Visit 2, with the exception of&#xD;
+             superficial basal cell or squamous cell carcinomas of the skin that have been&#xD;
+             definitively treated. Patients with carcinoma in situ of the uterine cervix treated&#xD;
+             definitively more than 1 year prior to entry into the study may be randomized.&#xD;
+             Patients with multiple myeloma or metastases to bone are excluded [Day 1,825, Day 0]&#xD;
+&#xD;
+          -  Active liver disease or clinical jaundice. Significantly impaired hepatic function,&#xD;
+             defined as aspartate aminotransferase (AST) &gt; 75 U/L or alanine aminotransferase (ALT)&#xD;
+             &gt; 75 U/L or gamma-glutamyl transpeptidase (GGT) &gt; 300 U/L [Day 365, Day 0]&#xD;
+&#xD;
+          -  Significantly impaired renal function as defined by a calculated endogenous creatinine&#xD;
+             clearance (ClCr) &lt; 30 mL/min using the following Cockcroft-Gault formula for ClCr&#xD;
+             (Cockcroft and Gold 1976) [Day 365, Day 0]&#xD;
+&#xD;
+          -  History of nephrolithiasis or urolithiasis within 1 year prior to Visit 2. [Day 365,&#xD;
+             Day 0]&#xD;
+&#xD;
+          -  Patients who have been treated with kyphoplasty or vertebroplasty within the last 6&#xD;
+             months before Visit 2. [Day 180, Day 0]&#xD;
+&#xD;
+          -  Patients with history of osteonecrosis of the jaw or who are, according to the&#xD;
+             clinical judgment of the investigator, at high risk to develop osteonecrosis of the&#xD;
+             jaw, including poor oral hygiene, scheduled invasive dental procedures, high doses of&#xD;
+             bisphosphonates and/or chemotherapy to treat malignancy [All Data, Day 0]&#xD;
+&#xD;
+          -  Patients with history of atypical subtrochanteric or diaphyseal femoral fractures,&#xD;
+             according to the diagnostic criteria of the American Society for Bone and Mineral&#xD;
+             Research Task Force (Shane et al. 2010). [All Data, Day 0]&#xD;
+&#xD;
+          -  Active or recent history of significant upper gastrointestinal disorders, such as&#xD;
+             esophageal disorders which delay esophageal transit or emptying (e.g. stricture or&#xD;
+             achalasia). [Day 365, Day 0]&#xD;
+&#xD;
+          -  Poor medical or psychiatric condition for participating in a clinical study, in the&#xD;
+             opinion of the investigator. [Day 0, Day 0]&#xD;
+&#xD;
+          -  History of excessive consumption of alcohol or abuse of drugs in the 1 year prior to&#xD;
+             Visit 2, in the opinion of the investigator. [Day 365, Day 0]&#xD;
+&#xD;
+          -  &quot;Previous treatment with the following bone active drugs is allowed but treatment must&#xD;
+             be discontinued at Visit 1 or at the time indicated below:&#xD;
+&#xD;
+               1. Oral bisphosphonates (including alendronate, risedronate, ibandronate, e&#xD;
+                  tidronate). &quot; [Day 180, Day 1]&#xD;
+&#xD;
+               2. SERMs, calcitonin, estrogen (oral, transdermal, or injectable), progestin,&#xD;
+                  estrogen analog, estrogen agonist, estrogen antagonist or tibolone, androgens,&#xD;
+                  strontium ranelate, or active vitamin D3 analogues [Day 30, Day 1]&#xD;
+&#xD;
+               3. Intravenous zoledronate, if the last dose was administered at least 12 months&#xD;
+                  before Visit 1 [ Day 365, Day 1]&#xD;
+&#xD;
+               4. Intravenous ibandronate or pamidronate, if the last dose was administered at&#xD;
+                  least 3 months before Visit 1 [Day 90, Day 1]&#xD;
+&#xD;
+               5. Subcutaneous denosumab, if the last dose was administered at least 6 months&#xD;
+                  before Visit 1 [Day 180, Day 1]&#xD;
+&#xD;
+               6. Prior treatment with PTH, teriparatide, or other PTH analogs; or prior&#xD;
+                  participation in any other clinical trial studying PTH, teriparatide, or other&#xD;
+                  PTH analogs [Day 730, Day 1]&#xD;
+&#xD;
+          -  Romosozumab Use [Day 180, Day 1]&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Postmenopausal women with osteoporosis</gender_description>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shirley Wang, PhD, ScM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 30, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 10, 2021</study_first_posted>
+  <last_update_submitted>May 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Osteoporosis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Teriparatide</mesh_term>
+    <mesh_term>Risedronic Acid</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 30, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/20/NCT04879420/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

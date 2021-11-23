@@ -1,0 +1,191 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05030805</url>
+  </required_header>
+  <id_info>
+    <org_study_id>8180</org_study_id>
+    <nct_id>NCT05030805</nct_id>
+  </id_info>
+  <brief_title>Transcriptional Map of Ovarian Cancer at the Single Cell Level</brief_title>
+  <acronym>Ova-seq</acronym>
+  <official_title>Transcriptional Map of Ovarian Cancer at the Single Cell Level</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Strasbourg, France</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Strasbourg, France</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In 2020, epithelial ovarian cancer (EOC) accounts for 313,959 new cases and 207,252 deaths&#xD;
+      worldwide. The standardized 5-year net survival of a woman with EOC is 44% for cases&#xD;
+      diagnosed between 2005-2010. This is because 2 out of 3 cancers are found at an advanced&#xD;
+      stage with invasion beyond the ovaries to the entire peritoneum or distant metastasis.&#xD;
+      Treatment of EOC is currently based on platinum-based chemotherapy combined with paclitaxel&#xD;
+      and maximal cytoreduction surgery. Newer combination therapies may be introduced such as&#xD;
+      bevacizumab and oral poly ADP-ribose polymerase (PARP) inhibitors. Despite the combination of&#xD;
+      different therapeutic modes, the 5-year survival has not progressed much since the 1980s. The&#xD;
+      development of new and more effective therapies is essential but requires a better&#xD;
+      understanding of cancer heterogeneity and the identification of new therapeutic targets.&#xD;
+&#xD;
+      Cancer heterogeneity results from genetic and transcriptional variations between tumors but&#xD;
+      also between cells of the same tumor. This heterogeneity has an impact on the development of&#xD;
+      the tumor and its resistance to treatment. One of the methods to study this heterogeneity is&#xD;
+      single cell RNA sequencing (scRNAseq) which allows to analyze individually and simultaneously&#xD;
+      the gene expression (transcriptomics) of thousands of cells. Studies on EOC using this&#xD;
+      technique have already been performed but they were based on small numbers with very&#xD;
+      different tumor types and stages.&#xD;
+&#xD;
+      The objective of this protocol is to characterize by scRNA-seq the architecture and&#xD;
+      microenvironment of primary and secondary tumors of 50 patients with EOC at the single cell&#xD;
+      level and to correlate the data with the clinical characteristics of the patients, especially&#xD;
+      during recurrence and/or chemoresistance, in order to identify the molecular parameters&#xD;
+      allowing tumor cells to acquire survival, invasion, metastasis and chemoresistance capacity&#xD;
+      as well as to carry out the inventory of cell populations within the different sites of EOC.&#xD;
+      We will also analyze the interaction between tumor cells and the microenvironment, by&#xD;
+      studying on the one hand the involvement of immune cells in the antitumor response and on the&#xD;
+      other hand how tumor cells modulate the microenvironment to make it permissive to the&#xD;
+      development of the EOC. We will compare the data obtained for each patient with healthy&#xD;
+      tissue (from the same patient) in order to determine the common and specific tumor molecular&#xD;
+      signatures in EOC, the latter point allowing us to evaluate the intra and inter-patient&#xD;
+      variability. Similarly, the comparison of the transcriptomic profile of the same tumor&#xD;
+      subtype in several patients will allow us to determine if certain transcriptional&#xD;
+      perturbations are ubiquitous. The identification of these common pathways would allow the&#xD;
+      discovery of potential therapeutic targets.&#xD;
+&#xD;
+      Furthermore, the molecular processes leading to chemoresistance are still unknown. We will&#xD;
+      investigate whether known chemoresistance markers are present in tumor cells from primary&#xD;
+      sites and whether their presence correlates with the response to treatment in patients. We&#xD;
+      will also study the molecular mechanisms of resistance to treatment in our patients which&#xD;
+      will ultimately allow the development of new therapies. We will also try to find new&#xD;
+      prognostic markers which is made possible by the clinical follow-up of the patients.&#xD;
+&#xD;
+      The existence of this heterogeneity will be confirmed by complementary genetic analyses of&#xD;
+      the genome and exome (search for mutations, variation in gene copy number or chromosome copy&#xD;
+      number, epigenetic effects) by different molecular biology techniques (qPCR, NGS sequencing)&#xD;
+      and the markers that will be identified can be confirmed by histochemical analysis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      After tumor stage determination by the pathology department the fresh tumor samples will be&#xD;
+      prepared for the single cell preparation.. The samples will be transported in a cold&#xD;
+      transport solution (MACS Storage tissue, Miltenyi). These samples will be used for library&#xD;
+      preparation using the Chromium Controller (10X Genomics) and sequencing using the NextSeq550&#xD;
+      system (Illumina) as well as for HLA-bound neoantigen identification by mass spectrometry.&#xD;
+      After data analysis by bioinformatics, we will study the transcriptome of each identified&#xD;
+      cell population. The identified markers will be confirmed by histochemical and molecular&#xD;
+      biological analysis.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 4, 2021</start_date>
+  <completion_date type="Anticipated">October 11, 2029</completion_date>
+  <primary_completion_date type="Anticipated">October 11, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cellular heterogeneity in ovarian cancer</measure>
+    <time_frame>Within 24 hours of receiving the tissue from the surgery</time_frame>
+    <description>We will study the cellular populations constituting ovarian tumors by comparing the existing cellular heterogeneity between patients (inter-patient) but also within the same patient, between primary and secondary sites on the one hand and within the same tumor tissue on the other hand (intra-patient) as well as the comparison with tissue considered as healthy between patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Neoantigens study</measure>
+    <time_frame>Immediately at the time of the reception of the tissues resulting from the surgery</time_frame>
+    <description>Neoantigens present on the surface of tumor cells will be isolated by immunoprecipitation from cell lysates and their nature will be determined by LC-MS/MS. These proteomic results will be compared to the transcriptomic results by single cell sequencing obtained in the main objective.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Ovarian Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patient with an ovarian cancer&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Women of legal age (≥ 18 years)&#xD;
+&#xD;
+          -  With an ovarian cancer confirmed by anatomopathological analysis&#xD;
+&#xD;
+          -  Operated in the gynecology department of the Strasbourg University Hospital between&#xD;
+             2021 and 2024&#xD;
+&#xD;
+          -  Patients having given their agreement to participate in the present trial and to the&#xD;
+             constitution of the collection of biological samples&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  Chronic inflammatory disease (Lupus, rheumatoid arthritis, chronic inflammatory bowel&#xD;
+             disease, etc.)&#xD;
+&#xD;
+          -  History of immunotherapy treatment (anti PDL1...)&#xD;
+&#xD;
+          -  Previous appendixctomy for another reason&#xD;
+&#xD;
+          -  Impossibility to give the patient informed information (subject in an emergency&#xD;
+             situation, difficulties in understanding, language barrier, altered cognitive&#xD;
+             abilities)&#xD;
+&#xD;
+          -  Patient under legal protection or tutorship or curatorship.&#xD;
+&#xD;
+          -  Pregnant patient, breastfeeding&#xD;
+&#xD;
+          -  Persons deprived of liberty by judicial or administrative decision.&#xD;
+&#xD;
+          -  Persons under forced psychiatric care.&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Cherif Akladios, MD</last_name>
+    <phone>3 88 12 74 55</phone>
+    <phone_ext>+33</phone_ext>
+    <email>Cherif.AKLADIOS@chru-strasbourg.fr</email>
+  </overall_contact>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 1, 2021</study_first_posted>
+  <last_update_submitted>August 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cancer heterogeneity</keyword>
+  <keyword>single cell RNA sequencing</keyword>
+  <keyword>neoantigens</keyword>
+  <keyword>mass spectrometry</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ovarian Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Ovarian Epithelial</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

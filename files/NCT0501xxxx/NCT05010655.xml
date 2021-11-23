@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05010655</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021.6</org_study_id>
+    <nct_id>NCT05010655</nct_id>
+  </id_info>
+  <brief_title>Low Ejection Fraction in Single Lead ECG</brief_title>
+  <official_title>Detection of Reduced Left Ventricular Ejection Fraction and Atrial Arrhythmias With Single Lead ECG Using Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Eko Devices, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Eko Devices, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research is to prospectively test and validate the single-lead Low EF&#xD;
+      algorithm in outpatients in order to test the performance of a single-lead ECG based&#xD;
+      algorithm to identify people with decreased left ventricular EF.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure with reduced left ventricular ejection fraction (EF) is a relatively common&#xD;
+      cardiac pathology with major clinical implications. People with reduced left ventricular EF&#xD;
+      are at increased risk for sudden death, ventricular and atrial arrhythmias, and acute&#xD;
+      hemodynamic decompensation due to heart failure. There are proven medical interventions that&#xD;
+      prevent sudden cardiac death and complications in people with decreased left ventricular EF.&#xD;
+      Unfortunately, some people with decreased left ventricular EF are asymptomatic, or have&#xD;
+      non-specific symptoms like dyspnea, and would not receive those interventions in a timely&#xD;
+      manner. Currently, there are no effective ways to screen for asymptomatic decreased left&#xD;
+      ventricular EF in the population, because detection of low EF requires the use of&#xD;
+      echocardiography. There is a significant need to identify novel technologies that can help to&#xD;
+      detect people with decreased left ventricular EF in a simple, effective, and reliable manner.&#xD;
+&#xD;
+      Eko Devices features a cloud-based platform of point-of-care cardiac screening devices and&#xD;
+      machine learning algorithms that enables more effective detection and management of&#xD;
+      cardiovascular disease. In this study, we will use the Eko DUO device to collect single-lead&#xD;
+      ECG data.&#xD;
+&#xD;
+      The Eko DUO is an FDA-cleared and CE-marked electronic stethoscope that allows audio&#xD;
+      recording of heart sound to produce a phonocardiogram (PCG) as well as recording a&#xD;
+      single-lead electrocardiogram (ECG). The DUO features 60x audio amplification, ambient noise&#xD;
+      reduction, a 4000Hz sample rate, and 4 audio filters. The ECG component is made up of 2&#xD;
+      stainless steel electrodes, 0.01Hz high-pass filter, selectable 50/60Hz mains filter, and a&#xD;
+      500Hz sample rate. The de-identified auscultatory DUO recordings transmit wirelessly via&#xD;
+      Bluetooth to the secure, HIPAA-compliant Eko application on a smartphone or tablet, which&#xD;
+      allows the user to playback heart sound recordings, annotate notes on recorded audio, and&#xD;
+      save recordings. This data is synced in real-time to a secure, HIPAA-compliant, cloud-based&#xD;
+      Amazon Web Services (AWS) database server managed by Eko Devices.&#xD;
+&#xD;
+      It has been previously demonstrated that artificial intelligence processing information from&#xD;
+      a 12-lead ECG can help to identify people with decreased left ventricular EF1. Using paired&#xD;
+      12-lead ECG and echocardiogram data, including the left ventricular ejection fraction, from&#xD;
+      44,959 patients at the Mayo Clinic, a convolutional neural was trained to identify patients&#xD;
+      with low ejection fraction. When tested on an independent set of 52,870 patients, the model&#xD;
+      showed an Area Under the Curve (&quot;AUC&quot;) of 0.93 and an accuracy of 86%. We have also developed&#xD;
+      a single-lead version of the same algorithm, which will be more easily accessible in a&#xD;
+      clinical setting since it can be used with a single-lead ECG device like the Eko DUO device.&#xD;
+      We propose to validate performance of this new model using the current study.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">January 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Single-lead ECG based algorithm development</measure>
+    <time_frame>Within two minutes of device use</time_frame>
+    <description>Evaluate performance of single-lead ECG based algorithm to identify individuals with reduced ejection fraction.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Left Ventricular Dysfunction</condition>
+  <condition>Ventricular Dysfunction</condition>
+  <condition>Heart Diseases</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Use of Eko DUO Electronic Stethoscope</intervention_name>
+    <description>Auscultation of heart sounds using electronic stethoscope</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing a transthoracic echocardiogram will be enrolled. Patients who are over&#xD;
+        the age of 60 or who are at risk for heart failure (hypertension, murmur, etc.) will be&#xD;
+        targeted for enrollment. We will also target patients with a referral diagnosis of dyspnea&#xD;
+        on exertion, orthopnea, lower extremity edema, and possible heart failure.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  English-speaking adults who are 18 years and older&#xD;
+&#xD;
+          -  Able and willing to provide informed consent&#xD;
+&#xD;
+          -  Complete a clinical echocardiogram within 7 days before or after study procedures&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Unwilling or unable to provide informed consent&#xD;
+&#xD;
+          -  Patients who are hospitalized&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Scott Marrus, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Prairie Cardiovascular</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Urvi Tiwari</last_name>
+    <phone>2012109178</phone>
+    <email>urvi.tiwari@ekohealth.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Prairie Cardiovascular Consultants</name>
+      <address>
+        <city>O'Fallon</city>
+        <state>Illinois</state>
+        <zip>62269</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Scott Marrus, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Scott Marrus, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prairie Cardiovascular Consultants</name>
+      <address>
+        <city>Springfield</city>
+        <state>Illinois</state>
+        <zip>62701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Scott Marrus, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Scott Marrus, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 18, 2021</study_first_posted>
+  <last_update_submitted>August 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 18, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>ejection fraction; machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Ventricular Dysfunction</mesh_term>
+    <mesh_term>Ventricular Dysfunction, Left</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

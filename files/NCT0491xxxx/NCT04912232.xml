@@ -1,0 +1,325 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04912232</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY02000762</org_study_id>
+    <nct_id>NCT04912232</nct_id>
+  </id_info>
+  <brief_title>Continued Development of a Multiplex Precision Medicine System for Early Warning of Progression Toward Hemodynamic Deterioration After Trauma</brief_title>
+  <official_title>Continued Development of a Multiplex Precision Medicine System for Early Warning of Progression Toward Hemodynamic Deterioration After Trauma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Norman A. Paradis</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>United States Department of Defense</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Maryland Shock Trauma Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dartmouth College</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Dartmouth-Hitchcock Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is Phase 3 of a three-phase DOD CDMRP funded project for the development of a&#xD;
+      multi-technology poly-anatomic noninvasive system for early detection of occult hemorrhage.&#xD;
+&#xD;
+      Early detection of ongoing hemorrhage (OH) before onset of shock is a universally&#xD;
+      acknowledged great unmet need, and particularly important after trauma. Delays in the&#xD;
+      detection of OH are associated with a &quot;failure to rescue&quot; and a dramatic deterioration in&#xD;
+      prognosis once the onset of clinically frank shock has occurred. An early alert to the&#xD;
+      presence of OH with an acceptable rate of false-positives and false-negatives would save&#xD;
+      countless lives. Additionally, such technology would save significant time, money and effort&#xD;
+      by allowing medical resources to be applied more accurately - the essence of precision&#xD;
+      medicine. An automated system would monitor currently stable patients continuously, leaving&#xD;
+      clinicians free to care for patients in need of attention.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators will enroll 480 trauma patients in a &quot;no significant risk&quot; prospective&#xD;
+      clinical trial to 1) evaluate the performance of a Mark I prototype, 2) validate the&#xD;
+      performance of the Phase II algorithm, and 3) re-train the algorithm to Phase III iteration.&#xD;
+&#xD;
+      This is not a therapeutic study. The main outcome variables are non-invasive measurements&#xD;
+      that will be used for machine learning, not real-time patient management. The data generated&#xD;
+      will be used later for discovery and validation in traditional and innovative machine&#xD;
+      learning.&#xD;
+&#xD;
+      As a minimal risk study, there will be no change from standard of care for patients&#xD;
+      undergoing surgery. The surgical procedures and pharmacotherapies will proceed as per&#xD;
+      standard clinical management.&#xD;
+&#xD;
+      Enrolled patients will undergo standard preoperative, anesthetic, and postoperative&#xD;
+      physiological monitoring that includes:&#xD;
+&#xD;
+      Electrocardiogram: Heart rate and electrical activity of the heart will be recorded via a&#xD;
+      3-lead ECG.&#xD;
+&#xD;
+      Arterial Oxygen Saturation (SpO2): Pulse oximetry will be recorded using a commercially&#xD;
+      available finger pulse oximeter.&#xD;
+&#xD;
+      Finger Photoplethysmography: waveforms will be obtained non-invasively from either the SpO2&#xD;
+      photoplethysmography or alternatively a Flashback Technologies Compensatory Reserve Index&#xD;
+      (CRI™) device.&#xD;
+&#xD;
+      In addition to these standard physiologic measurements, as a part of the research, the&#xD;
+      investigators will also acquire the following non-invasive optical and impedance&#xD;
+      measurements. All of these devices have been previously validated as non-invasive and safe in&#xD;
+      humans. The impedance electrodes and optical emitter/detectors will be incorporated into&#xD;
+      easily applied latex-free based &quot;belts&quot; that will be applied to anatomic locations along the&#xD;
+      thorax, abdomen and thigh. Application of these belts will be as soon as practical after&#xD;
+      patient arrival.&#xD;
+&#xD;
+      The clinicians providing care to the patient will be blind with respect to the measurements&#xD;
+      from these devices.&#xD;
+&#xD;
+      Continuous-wave Near-Infrared Spectroscopy (CW-NIRS) Device, custom built:&#xD;
+&#xD;
+      The device is built on an Ocean Optics FLAME USB Spectrometers, with two OSRAM 4736 NIR LEDs&#xD;
+      in plastic holders meant to be taped or strapped to the patient on the chest/torso and thigh&#xD;
+      locations. An Oceans Optics tungsten-halogen light source is used for an additional probe&#xD;
+      location on the forehead. Probe holders are designed to collect light from surface of skin by&#xD;
+      means of a mirror and collimator. The device will collect data on light attenuation of muscle&#xD;
+      in models of shock/trauma. The light output for all locations is below the ANSI limits for&#xD;
+      maximum permissible skin exposure.&#xD;
+&#xD;
+      SwissTom Electrical Impedance Tomography (EIT) System:&#xD;
+&#xD;
+      Name of device: Pioneer Set (Electrical Impedance Tomography System) Device Manufacturer:&#xD;
+      SwissTom AG (Parent company SenTec AG)&#xD;
+&#xD;
+      This device monitors dynamically changing perfusion physiology. To record multiplexed&#xD;
+      impedance signature a belt of 16-32 electrodes is placed around the thorax above the nipple&#xD;
+      line and thigh and impedances are recorded between multiple sets of electrodes.&#xD;
+&#xD;
+      SwissTom develops a clinical EIT system that is approved for pulmonary imaging. This Pioneer&#xD;
+      system is their research platform that has similar functionality and safety performance to&#xD;
+      their clinical system but provides research teams with access to raw data and additional&#xD;
+      functionality for specifying imaging parameters (e.g. control of frame rates, signal&#xD;
+      frequency acquisition, electrode drive patterns).&#xD;
+&#xD;
+      ScioSpec MultiChannel Electrical Impedance Spectroscopy (EIS) System:&#xD;
+&#xD;
+      Name of device: ISX-Mini (MultiChannel Electrical Impedance Spectroscopy System) Device&#xD;
+      Manufacturer: ScioSpec&#xD;
+&#xD;
+      To record multiplexed impedance signatures- an array of 4 electrodes is placed around the&#xD;
+      cranium and thorax of the patient and impedance spectroscopy signatures are recorded at each&#xD;
+      anatomic location. This device monitors dynamically changing intracranial, intrathoracic and&#xD;
+      intra-abdominal physiology.&#xD;
+&#xD;
+      General Approach to Minimize Risk:&#xD;
+&#xD;
+      This protocol will be minimal risk to patients as there is little risk associated with the&#xD;
+      placement of these devices and they can be removed at any time. They don't interfere with&#xD;
+      standard equipment used in clinical management of trauma patients.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2021</start_date>
+  <completion_date type="Anticipated">September 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Algorithm performance: time of alarm before onset of deterioration</measure>
+    <time_frame>patient data will be collected over 3-6 hours</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Algorithm performance: Sensitivity as measured by for alarm/no alarm outcome</measure>
+    <time_frame>patient data will be collected over 3-6 hours</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Algorithm performance: Specificity as measured by for alarm/no alarm outcome</measure>
+    <time_frame>patient data will be collected over 3-6 hours</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Algorithm performance: Positive predictive value for alarm/no alarm outcome</measure>
+    <time_frame>patient data will be collected over 3-6 hours</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Algorithm performance: Negative predictive value for alarm/no alarm outcome</measure>
+    <time_frame>patient data will be collected over 3-6 hours</time_frame>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">480</enrollment>
+  <condition>Occult Bleeding</condition>
+  <condition>Hemorrhage</condition>
+  <arm_group>
+    <arm_group_label>Trauma Patients</arm_group_label>
+    <description>Patients suffering blunt and/or penetrating trauma but without physiologic criteria suggestive of ongoing hemorrhage:&#xD;
+Awake and alert GCS &gt;14&#xD;
+Admission systolic blood pressure greater than 90 and heart rate less than 120&#xD;
+Without signs of clinically significant ongoing external hemorrhage with no active bleeding documented on radiology/ultrasound and stable vital signs (no signs of hemodynamic deterioration) during initial evaluation (approximately 15 minutes post admission)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Detection of Occult Hemorrhage in Trauma Patients</intervention_name>
+    <description>Non-invasive monitoring of trauma patients</description>
+    <arm_group_label>Trauma Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients suffering blunt and/or penetrating trauma but without physiologic criteria&#xD;
+        suggestive of ongoing hemorrhage&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Awake and alert GCS &gt;14&#xD;
+&#xD;
+          2. Admission systolic blood pressure greater than 90 and heart rate less than 120&#xD;
+&#xD;
+          3. Without signs of clinically significant ongoing external hemorrhage with no active&#xD;
+             bleeding documented on radiology/ultrasound and stable vital signs (no signs of&#xD;
+             hemodynamic deterioration) during initial evaluation (approximately 15 minutes post&#xD;
+             admission)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Altered mental status GCS &lt; 13&#xD;
+&#xD;
+          2. Systolic blood pressure less than 90 or heart rate greater than 120&#xD;
+&#xD;
+          3. Need for ongoing fluid or pressor support (standard local fluid resuscitation only)&#xD;
+&#xD;
+          4. Clinically significant ongoing external hemorrhage&#xD;
+&#xD;
+          5. Respiratory distress with O2 saturation &lt;96%&#xD;
+&#xD;
+          6. Pre-existing systemic illness, likely to alter systemic cardiovascular response to&#xD;
+             hemorrhage (overt clinical heart failure). Including congestive heart failure, and a&#xD;
+             paced cardiac rhythm.&#xD;
+&#xD;
+          7. Pregnant&#xD;
+&#xD;
+          8. Prisoner status&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Senior Director of Research Operations</last_name>
+    <phone>410-328-8713</phone>
+    <email>mscarboro@som.umaryland.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>R Adams Cowley Shock Trauma Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Mark Scarboro</last_name>
+      <phone>410-328-8713</phone>
+      <email>mscarboro@som.umaryland.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Rosemary Kozar, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Shackelford SA, Colton K, Stansbury LG, Galvagno SM Jr, Anazodo AN, DuBose JJ, Hess JR, Mackenzie CF. Early identification of uncontrolled hemorrhage after trauma: current status and future direction. J Trauma Acute Care Surg. 2014 Sep;77(3 Suppl 2):S222-7. doi: 10.1097/TA.0000000000000198. Review.</citation>
+    <PMID>24770559</PMID>
+  </reference>
+  <reference>
+    <citation>Parks JK, Elliott AC, Gentilello LM, Shafi S. Systemic hypotension is a late marker of shock after trauma: a validation study of Advanced Trauma Life Support principles in a large national sample. Am J Surg. 2006 Dec;192(6):727-31.</citation>
+    <PMID>17161083</PMID>
+  </reference>
+  <reference>
+    <citation>Wo CC, Shoemaker WC, Appel PL, Bishop MH, Kram HB, Hardin E. Unreliability of blood pressure and heart rate to evaluate cardiac output in emergency resuscitation and critical illness. Crit Care Med. 1993 Feb;21(2):218-23.</citation>
+    <PMID>8428472</PMID>
+  </reference>
+  <reference>
+    <citation>Convertino VA, Moulton SL, Grudic GZ, Rickards CA, Hinojosa-Laborde C, Gerhardt RT, Blackbourne LH, Ryan KL. Use of advanced machine-learning techniques for noninvasive monitoring of hemorrhage. J Trauma. 2011 Jul;71(1 Suppl):S25-32. doi: 10.1097/TA.0b013e3182211601. Review.</citation>
+    <PMID>21795890</PMID>
+  </reference>
+  <reference>
+    <citation>Convertino VA. Blood pressure measurement for accurate assessment of patient status in emergency medical settings. Aviat Space Environ Med. 2012 Jun;83(6):614-9.</citation>
+    <PMID>22764618</PMID>
+  </reference>
+  <reference>
+    <citation>Kim SH, Lilot M, Sidhu KS, Rinehart J, Yu Z, Canales C, Cannesson M. Accuracy and precision of continuous noninvasive arterial pressure monitoring compared with invasive arterial pressure: a systematic review and meta-analysis. Anesthesiology. 2014 May;120(5):1080-97. doi: 10.1097/ALN.0000000000000226. Review.</citation>
+    <PMID>24637618</PMID>
+  </reference>
+  <reference>
+    <citation>Soller BR, Yang Y, Soyemi OO, Ryan KL, Rickards CA, Walz JM, Heard SO, Convertino VA. Noninvasively determined muscle oxygen saturation is an early indicator of central hypovolemia in humans. J Appl Physiol (1985). 2008 Feb;104(2):475-81. Epub 2007 Nov 15.</citation>
+    <PMID>18006869</PMID>
+  </reference>
+  <reference>
+    <citation>Belle A, Ansari S, Spadafore M, Convertino VA, Ward KR, Derksen H, Najarian K. A Signal Processing Approach for Detection of Hemodynamic Instability before Decompensation. PLoS One. 2016 Feb 12;11(2):e0148544. doi: 10.1371/journal.pone.0148544. eCollection 2016.</citation>
+    <PMID>26871715</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>May 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 3, 2021</study_first_posted>
+  <last_update_submitted>August 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Dartmouth-Hitchcock Medical Center</investigator_affiliation>
+    <investigator_full_name>Norman A. Paradis</investigator_full_name>
+    <investigator_title>Professor of Surgery; Emergency Medicine Physician</investigator_title>
+  </responsible_party>
+  <keyword>Occult Bleeding</keyword>
+  <keyword>Hemorrhage</keyword>
+  <keyword>Hemorrhagic Shock</keyword>
+  <keyword>Trauma Injury</keyword>
+  <keyword>Precision Medicine</keyword>
+  <keyword>Triage</keyword>
+  <keyword>Bioimpedance</keyword>
+  <keyword>Electrical Impedance Tomography</keyword>
+  <keyword>Electrical Impedance Spectroscopy</keyword>
+  <keyword>Near-Infrared Spectroscopy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hemorrhage</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>At this time, there are no plans to share IPD.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

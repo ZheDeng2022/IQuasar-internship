@@ -1,0 +1,380 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04604509</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-0953</org_study_id>
+    <secondary_id>NCI-2020-05745</secondary_id>
+    <secondary_id>2019-0953</secondary_id>
+    <nct_id>NCT04604509</nct_id>
+  </id_info>
+  <brief_title>Nicotine Replacement Therapy, Counseling, Varenicline, and Bupropion for Smoking Cessation, the PISCES I Trial</brief_title>
+  <official_title>PISCES I: Precision Implemented Smoking Cessation Evaluation Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>M.D. Anderson Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>M.D. Anderson Cancer Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This phase IV trial investigates how to personalize treatments (such as medications and/or&#xD;
+      counseling) for quitting smoking based on the unique character traits of participants.&#xD;
+      Nicotine replacement therapy, counseling, and/or drugs such as varenicline and bupropion may&#xD;
+      help participants quit smoking or change smoking behavior. This trial may also help doctors&#xD;
+      individualize smoking cessation treatment for participants who do not quit smoking after the&#xD;
+      first course of treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:&#xD;
+&#xD;
+      I. Production of precise, unbiased estimates of treatment effects for the constituent&#xD;
+      therapies and rescue treatment pathways.&#xD;
+&#xD;
+      II. Development of the predictive algorithm, using the same machine learning techniques&#xD;
+      described in the preliminary data, to estimate the probabilities that an individual with a&#xD;
+      given pattern of baseline covariates will successfully quit smoking at the six and twelve&#xD;
+      week time points.&#xD;
+&#xD;
+      OUTLINE:&#xD;
+&#xD;
+      STAGE I: Participants are randomized to 1 of 2 groups.&#xD;
+&#xD;
+      GROUP I: Participants receive varenicline orally (PO) daily or twice daily (BID) for 6 weeks&#xD;
+      in the absence of unacceptable toxicity. Participants who quit smoking continue treatment for&#xD;
+      6 additional weeks in the absence of unacceptable toxicity. Participants also receive&#xD;
+      behavioral smoking cessation counseling.&#xD;
+&#xD;
+      GROUP II: Participants receive nicotine replacement therapy (NRT) consisting of a patch,&#xD;
+      lozenges, or gum daily for 6 weeks in the absence of unacceptable toxicity. Participants who&#xD;
+      quit smoking continue treatment for 6 additional weeks in the absence of unacceptable&#xD;
+      toxicity. Participants also receive behavioral smoking cessation counseling.&#xD;
+&#xD;
+      STAGE II: After 6 weeks, participants from Stage I who do not quit smoking are randomized to&#xD;
+      1 of 5 groups.&#xD;
+&#xD;
+      GROUP III: Participants continue to receive varenicline as in Group I or NRT as in Group II&#xD;
+      for 6 weeks depending on which group they were assigned to. Participants also receive&#xD;
+      behavioral smoking cessation counseling.&#xD;
+&#xD;
+      GROUP IV: Participants switch to a different therapy and receive varenicline as in Group I or&#xD;
+      NRT as in Group II for 6 weeks depending on which group they were assigned to. Participants&#xD;
+      also receive behavioral smoking cessation counseling.&#xD;
+&#xD;
+      GROUP V: Participants receive a higher dose and continue to receive varenicline as in Group I&#xD;
+      or NRT as in Group II for 6 weeks depending on which group they were assigned to.&#xD;
+      Participants also receive behavioral smoking cessation counseling.&#xD;
+&#xD;
+      GROUP VI: Participants continue to receive varenicline as in Group I or NRT as in Group II&#xD;
+      for 6 weeks depending on which group they were assigned to. Participants also receive&#xD;
+      bupropion hydrochloride (bupropion) PO daily for 6 weeks and behavioral smoking cessation&#xD;
+      counseling.&#xD;
+&#xD;
+      GROUP VII: Participants receive varenicline as in Group I and NRT as in Group II for 6 weeks.&#xD;
+      Participants also receive behavioral smoking cessation counseling.&#xD;
+&#xD;
+      After starting study treatment, patients are followed up at 3 and 6 months.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 4, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>End of treatment seven-day point prevalence</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>Will use Bayesian statistical methods to estimate these effects and their accompanying posterior probabilities.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Expired carbon monoxide value</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>Will use Bayesian statistical methods to estimate these effects and their accompanying posterior probabilities.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Abstinence</measure>
+    <time_frame>At 12 weeks</time_frame>
+    <description>Will evaluate utilizing a logistic regression model.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Days to relapse</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>Will analyze using Cox proportional hazards regression.</description>
+  </secondary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Anticipated">2010</enrollment>
+  <condition>Cigarette Smoking-Related Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>Group I (varenicline, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive varenicline PO daily or BID for 6 weeks in the absence of unacceptable toxicity. Participants who quit smoking continue treatment for 6 additional weeks in the absence of unacceptable toxicity. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group II (NRT, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive NRT consisting of a patch, lozenges, or gum daily for 6 weeks in the absence of unacceptable toxicity. Participants who quit smoking continue treatment for 6 additional weeks in the absence of unacceptable toxicity. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group III (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants continue to receive varenicline as in Group I or NRT as in Group II for 6 additional weeks depending on which group they were assigned to. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group IV (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants switch to a different therapy and receive varenicline as in Group I or NRT as in Group II for 6 weeks depending on which group they were assigned to. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group V (higher dose varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive a higher dose and continue to receive varenicline as in Group I or NRT as in Group II for 6 weeks depending on which group they were assigned to. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants continue to receive varenicline as in Group I or NRT as in Group II for 6 weeks depending on which group they were assigned to. Participants also receive bupropion PO daily for 6 weeks and behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group VII (varenicline and NRT, counseling)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive varenicline as in Group I and NRT as in Group II for 6 weeks. Participants also receive behavioral smoking cessation counseling.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Bupropion Hydrochloride Controlled-release</intervention_name>
+    <description>Given PO</description>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <other_name>Bupropion HCl Controlled-release</other_name>
+    <other_name>Bupropion HCl Extended Release</other_name>
+    <other_name>Bupropion Hydrochloride Extended-Release</other_name>
+    <other_name>Forfivo XL</other_name>
+    <other_name>Wellbutrin SR</other_name>
+    <other_name>Wellbutrin XL</other_name>
+    <other_name>Zyban</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Nicotine Replacement</intervention_name>
+    <description>Given via nicotine patch, lozenges, or gum</description>
+    <arm_group_label>Group II (NRT, counseling)</arm_group_label>
+    <arm_group_label>Group III (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group IV (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group V (higher dose varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <arm_group_label>Group VII (varenicline and NRT, counseling)</arm_group_label>
+    <other_name>Nicotine Replacement Therapy</other_name>
+    <other_name>NRT</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Questionnaire Administration</intervention_name>
+    <description>Ancillary studies</description>
+    <arm_group_label>Group I (varenicline, counseling)</arm_group_label>
+    <arm_group_label>Group II (NRT, counseling)</arm_group_label>
+    <arm_group_label>Group III (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group IV (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group V (higher dose varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <arm_group_label>Group VII (varenicline and NRT, counseling)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Tobacco Cessation Counseling</intervention_name>
+    <description>Receive behavioral smoking cessation counseling</description>
+    <arm_group_label>Group I (varenicline, counseling)</arm_group_label>
+    <arm_group_label>Group II (NRT, counseling)</arm_group_label>
+    <arm_group_label>Group III (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group IV (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group V (higher dose varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <arm_group_label>Group VII (varenicline and NRT, counseling)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Varenicline</intervention_name>
+    <description>Given PO</description>
+    <arm_group_label>Group I (varenicline, counseling)</arm_group_label>
+    <arm_group_label>Group III (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group IV (varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group V (higher dose varenicline or NRT, counseling)</arm_group_label>
+    <arm_group_label>Group VI (varenicline or NRT, bupropion, counseling)</arm_group_label>
+    <arm_group_label>Group VII (varenicline and NRT, counseling)</arm_group_label>
+    <other_name>Champix</other_name>
+    <other_name>Chantix</other_name>
+    <other_name>CP-526555</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Smoking 5 or more cigarettes, little cigars and/or cigarillos per day, on average,&#xD;
+             within the past 30 days preceding the screening visit and expired carbon monoxide (CO)&#xD;
+             &gt;= 5 ppm and/or a urine Nic Check test &gt; 0&#xD;
+&#xD;
+          -  Interested in treatment that might change smoking behavior or help them quit smoking&#xD;
+&#xD;
+          -  Able to follow verbal and written instructions in English and complete all aspects of&#xD;
+             the study&#xD;
+&#xD;
+          -  Provide informed consent and agree to all assessments and study procedures&#xD;
+&#xD;
+          -  Have an address and telephone number where they may be reached&#xD;
+&#xD;
+          -  Subjects must report current stable residence in the state of Texas. Stable residence&#xD;
+             is a domicile in which an individual can operate as if it were his or her own&#xD;
+             homestead and does not include shelters, halfway houses, treatment centers, or group&#xD;
+             homes&#xD;
+&#xD;
+          -  Be the only participant in their household currently receiving treatment on this&#xD;
+             protocol&#xD;
+&#xD;
+          -  Agree to be treated via telehealth (live audio-video conference and phone) and to be&#xD;
+             contacted via text and/or email&#xD;
+&#xD;
+          -  Willing to refrain from the use of other nicotine/tobacco products for the duration of&#xD;
+             the study&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Current enrollment or plans to enroll in another smoking cessation program during the&#xD;
+             study time frame, including plans to use other smoking cessation medications (i.e.,&#xD;
+             over the counter [OTC] or prescription medication for smoking cessation) or smoking&#xD;
+             cessation treatments&#xD;
+&#xD;
+          -  Serious or unstable medical or psychiatric disorder within the past 3 months, as&#xD;
+             determined by the study physician&#xD;
+&#xD;
+          -  Being pregnant, engaging in breast-feeding, or being of childbearing potential and&#xD;
+             engaging in sexual activity that could lead to pregnancy and is not protected by a&#xD;
+             medically acceptable, effective method of birth control while enrolled in the study,&#xD;
+             as determined by self-report. Medically acceptable contraceptives include: (1)&#xD;
+             approved hormonal contraceptives (such as birth control pills, patches, implants or&#xD;
+             injections), (2) barrier methods (such as a condom or diaphragm) used with a&#xD;
+             spermicide, or (3) an intrauterine device (IUD). Contraceptive measures sold for&#xD;
+             emergency use after unprotected sex are not acceptable methods for routine use&#xD;
+&#xD;
+          -  Current use of certain medications:&#xD;
+&#xD;
+               -  Smoking cessation meds (last 7 days; e.g., bupropion, NRT, varenicline). Episodic&#xD;
+                  use of NRT in the last 7 days may be considered if the participant agrees to only&#xD;
+                  use study medication once randomized&#xD;
+&#xD;
+               -  Certain medications may be exclusionary and others are precautionary, to be&#xD;
+                  evaluated on a case-by-case basis by study physician&#xD;
+&#xD;
+               -  Daily use of opioids for 30 days or more on phone screen or at screening is&#xD;
+                  exclusionary, however as needed (PRN) use is allowed (i.e., 3 out of 7 days per&#xD;
+                  week or less or if more frequent use in less than a month's duration)&#xD;
+&#xD;
+          -  History of hypersensitivity or allergic reaction to varenicline, NRT, or any component&#xD;
+             of these formulations as determined by the medical team&#xD;
+&#xD;
+          -  Self-report of a history or current diagnosis of schizophrenia or bipolar disorder&#xD;
+&#xD;
+          -  Current substance use disorder (Drug Abuse Screening Test [DAST] score &gt; 3; Alcohol&#xD;
+             Use Disorders Identification Test [USAUDIT] score &gt; 24)&#xD;
+&#xD;
+          -  Individuals who report depressive symptoms in the moderately severe or severe range on&#xD;
+             the Patient Health Questionnaire - Mood Module (PHQ-9) (scores of 15 or above); or who&#xD;
+             report current suicidal ideation on the PHQ-9&#xD;
+&#xD;
+          -  Individuals who report anxiety symptoms in the severe range on the Generalized Anxiety&#xD;
+             Disorder Scale (GAD-7) (scores of 15 or above); or meet criteria for panic syndrome on&#xD;
+             the PHQ Panic module&#xD;
+&#xD;
+          -  Psychiatric hospitalization within 1 year of screening date&#xD;
+&#xD;
+          -  Any otherwise not specified medical or psychiatric condition, illness, disorder, or&#xD;
+             concomitant medication that could compromise participant safety or treatment, as&#xD;
+             determined by the principal investigator and/or study physician&#xD;
+&#xD;
+          -  Participant considered by the investigator as unsuitable candidate for full&#xD;
+             participation in both the treatment and follow-up phases of the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul Cinciripini</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>M.D. Anderson Cancer Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Paul Cinciripini</last_name>
+    <phone>713-745-3822</phone>
+    <email>pcinciri@mdanderson.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>M D Anderson Cancer Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paul Cinciripini</last_name>
+      <phone>713-745-3822</phone>
+    </contact>
+    <investigator>
+      <last_name>Paul Cinciripini</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.mdanderson.org</url>
+    <description>MD Anderson Cancer Center Website</description>
+  </link>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 27, 2020</study_first_posted>
+  <last_update_submitted>October 27, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 27, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 28, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bupropion</mesh_term>
+    <mesh_term>Nicotine</mesh_term>
+    <mesh_term>Varenicline</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,310 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04691102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Prot. CE/PROG.877</org_study_id>
+    <nct_id>NCT04691102</nct_id>
+  </id_info>
+  <brief_title>Predictive Indices of Independent Activity of Daily-living in Neurorehabilitation</brief_title>
+  <official_title>Dynamic Postural Stability Assessment in Neurorehabilitation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>I.R.C.C.S. Fondazione Santa Lucia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>I.R.C.C.S. Fondazione Santa Lucia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Postural and balance disorders are common in neurological disorders. They are often&#xD;
+      associated with reduced mobility and fear of falling, which strongly limit independent&#xD;
+      activities of daily living (ADL), compromise the quality of life and reduce social&#xD;
+      participation. Here the investigators apply an existing software solution to: 1) obtain&#xD;
+      biomarkers of gait deficits in 5 neurological conditions, 2) develop an automatic procedure&#xD;
+      supporting clinicians in the early identification of patients at high risk of falling as to&#xD;
+      tailor rehabilitation treatment; 3) longitudinally assess these patients to test the efficacy&#xD;
+      of rehabilitation. High-density electroencephalography (EEG), and inertial sensors located at&#xD;
+      lower limbs and at upper body levels will be used to extract the most appropriate indexes&#xD;
+      during motor tasks. The ultimate goal is to develop cost-effective treatment procedures to&#xD;
+      prevent recurrent falls and fall-related injuries and favour the reintegration of the patient&#xD;
+      into everyday activities. The first hypothesis of this study is that clinical professionals&#xD;
+      (e.g., medical doctors and rehabilitative staff) would strongly benefit from the possibility&#xD;
+      to rely on quantitative, reliable and reproducible information about patients motor deficits.&#xD;
+      This piece of information can be nowadays readily available through miniaturized wearable&#xD;
+      technology and its information content can be effectively conveyed thanks to ad hoc software&#xD;
+      solution, like the A.r.i.s.e. software. The second hypothesis of the present study is that&#xD;
+      early identification of patients at high risk of dependence and the subsequent application of&#xD;
+      personalized treatment would allow for cost-effective treatment procedures to favor the&#xD;
+      autonomy into everyday activities. The results of this project could represent a valuable&#xD;
+      support in the clinical reasoning and decision-making process.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2021</start_date>
+  <completion_date type="Anticipated">April 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 30, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Inertial sensors-based assessment</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Set of seven magneto-inertial sensors (Opal, APDM Inc., Portland, Oregon, USA). Gait quality indices related to dynamic stability, symmetry and smoothness will be extracted from the sensors' signals after the execution of a 10-Meter-Walk (10MWT), Figure-of-8-Walk (F8WT), and Fukuda-Stepping test (FST)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Berg Balance Scale (BBS)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The Berg Balance Scale (BBS) is a 14-item objective measure that assess static balance and fall risk. The BBS values ranging from 0 to 56, where 0 means the worse outcome and the 56 the best one.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Dynamic Gait Index (DGI)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The Dynamic Gait Index (DGI) allows to assess the dynamic stability during march. The DGI values ranging from 0 to 24, where 0 means the worse outcome and 24 the best one.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Balance Evaluation System Test (Mini-BESTest)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The Balance Evaluation System Test (Mini-BESTest) allows to assess the dynamic balance. It is a 14-item test scored on 3-level ordinal scale. The Mini-BESTest values ranging from 0 to 28, where 0 means the worse outcome and 28 the best one</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Electroencephalography (EEG)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>A portable and low-weight 128-EEG channels system will be use in order to obtain neural predictors of gain stability during walking in the real-world and to distinguish types of walking. Briefly, source-space EEG signals (based on the individual anatomical image) will be reconstruct to estimate activity (e.g., power spectrum density-PSD) and connectivity (via FC correlation) at rest and during motor tasks</description>
+  </secondary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Stroke</condition>
+  <condition>Brain Injuries</condition>
+  <condition>Mild Cognitive Impairment</condition>
+  <condition>Parkinson Disease</condition>
+  <condition>Multiple Sclerosis</condition>
+  <arm_group>
+    <arm_group_label>Stroke group</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Traumatic Brain Injury group</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Mild Cognitive Impairment group</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parkinson Disease group</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Multiple Sclerosis group</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy subjects groups</arm_group_label>
+    <description>Patients will undergo electroencephalography (EEG), electromyography (EMG), electrocardiogram (EKG) and electrooculography (EOG) during resting state and the execution of motor tasks. During the records, an inertial sensors-based assessment will be performed on all patients. Three different motor tasks will be considered for postural and gait functions, commonly adopted in the clinical practice (i.e., 10-Meter-Walk, Figure-of-8-Walk, and Fukuda-Stepping tests). To assess the motor function of upper limb, three different tasks, representative of the typical ADL movements, will be considered (Reach Out, Reach and Touch, Reach and Grasp). Each task will be repeated 3 times.&#xD;
+The whole assessment procedure will last approximately 40 minutes.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Six different populations will be considered in the present study:&#xD;
+&#xD;
+          1. Stroke population&#xD;
+&#xD;
+          2. Traumatic Brain Injury population&#xD;
+&#xD;
+          3. Mild Cognitive Impairment population&#xD;
+&#xD;
+          4. Parkinson Disease population&#xD;
+&#xD;
+          5. Multiple Sclerosis population&#xD;
+&#xD;
+          6. Healthy subjects population&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria Stroke patients:&#xD;
+&#xD;
+          -  &lt; 6 months from the acute event;&#xD;
+&#xD;
+          -  age range 18-85 years;&#xD;
+&#xD;
+          -  Functional Ambulation Category (FAC) ≥ 3.&#xD;
+&#xD;
+        Exclusion Criteria Stroke patients:&#xD;
+&#xD;
+          -  Cognitive deficits (Mini Mental State Examination (MMSE) &gt; 24);&#xD;
+&#xD;
+          -  Severe unilateral spatial neglect (diagnosed with Letter Cancellation test, the&#xD;
+             Barrage test, the Sentence Reading test and the Wundt-Jastrow Area Illusion Test);&#xD;
+&#xD;
+          -  Severe aphasia (diagnosed with neuropsychological assessment);&#xD;
+&#xD;
+          -  Neurological/orthopedic/cardiac comorbidities (clinically evaluated);&#xD;
+&#xD;
+          -  Alcohol or substance abuse.&#xD;
+&#xD;
+        Inclusion Criteria Traumatic Brain Injury (TBI) patients:&#xD;
+&#xD;
+          -  Glasgow Coma Scale (GCS) ≤ 8;&#xD;
+&#xD;
+          -  Age range 15-65years;&#xD;
+&#xD;
+          -  Level of Cognitive Functioning (LCF): ≥ 7;&#xD;
+&#xD;
+          -  Adequate linguistic abilities; dynamic balance disorders;&#xD;
+&#xD;
+          -  Functional Ambulation Category (FAC)≥ 3; Exclusion Criteria Traumatic Brain Injury&#xD;
+             (TBI) patients&#xD;
+&#xD;
+          -  Glasgow Coma Scale (GCS) &gt; 8;&#xD;
+&#xD;
+          -  Level of Cognitive Functioning (LCF) &lt; 7;&#xD;
+&#xD;
+          -  Severe aphasia (based on neuropsychological assessment);&#xD;
+&#xD;
+          -  Absence of balance disorders;&#xD;
+&#xD;
+          -  Functional Ambulation Category (FAC) &lt; 3&#xD;
+&#xD;
+          -  Alcohol or substance abuse.&#xD;
+&#xD;
+        Inclusion Criteria Mild Cognitive Impairment (MCI) patients:&#xD;
+&#xD;
+          -  Age ≥ 60 Years&#xD;
+&#xD;
+          -  Normal Neurologic Examination&#xD;
+&#xD;
+          -  Cognitive decline reporting by the patient himself or by the caregiver.&#xD;
+&#xD;
+          -  Mini Mental State Examination (MMSE) score range: 23.88 ≤ MMSE ≤ 26 ( or ≤ 28 if the&#xD;
+             patient's schooling is up than 16 years.&#xD;
+&#xD;
+          -  Functional Independence&#xD;
+&#xD;
+          -  Clinical Dementia Rating (CDR) &lt;1.&#xD;
+&#xD;
+        Exclusion Criteria Mild Cognitive Impairment (MCI) patients:&#xD;
+&#xD;
+          -  Presence of overt dementia&#xD;
+&#xD;
+          -  Other clinical and/or neurological condition which could compromise the assessment.&#xD;
+&#xD;
+          -  Alcohol or substance abuse&#xD;
+&#xD;
+        Inclusion Criteria Parkinson Disease patients (PD):&#xD;
+&#xD;
+          -  Absence of dementia (Mini-Mental State Examination score (MMSE)&gt; 25);&#xD;
+&#xD;
+          -  Age range 40-80 years;&#xD;
+&#xD;
+          -  Hoehn &amp; Yahr 2-3;&#xD;
+&#xD;
+          -  Walking autonomy&#xD;
+&#xD;
+        Exclusion Criteria Parkinson Disease patients (PD):&#xD;
+&#xD;
+          -  Dementia (Hoehn &amp; Yahr) &gt; 3;&#xD;
+&#xD;
+          -  Severe cardiological / pulmonary / orthopaedic / metabolic conditions that prevent the&#xD;
+             trial participation;&#xD;
+&#xD;
+        Inclusion Criteria Multiple Sclerosis (MS) patients:&#xD;
+&#xD;
+          -  Age range 30-65 years&#xD;
+&#xD;
+          -  Diagnosis of Multiple Sclerosis (MS) according with revisited McDonalds criteria;&#xD;
+&#xD;
+          -  Expanded Disability Status Scale (EDSS) ranging between 0 and 6;&#xD;
+&#xD;
+          -  Ability to walk independently or with aid for at least 50 meters.&#xD;
+&#xD;
+        Exclusion Criteria Multiple Sclerosis (MS) patients:&#xD;
+&#xD;
+          -  Associated psychiatric and/or neurological disorders (different from the MS);&#xD;
+&#xD;
+          -  Clinical relapse within the three months prior to enrollment;&#xD;
+&#xD;
+          -  Steroid therapy within 30 days before the enrollment;&#xD;
+&#xD;
+          -  Peripheric diseases as visual and/or auditory impairments that could interfere with&#xD;
+             motor and cognitive tasks execution;&#xD;
+&#xD;
+          -  Fracture of lower limb within three months before the enrollment.&#xD;
+&#xD;
+        Inclusion Criteria Healthy subjects:&#xD;
+&#xD;
+          -  Age range 18-80 years&#xD;
+&#xD;
+        Exclusion Criteria Healthy subjects:&#xD;
+&#xD;
+          -  Any neurological/orthopedic/cardiac condition (clinically evaluated)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Santa Lucia Foundation I.R.C.C.S.</name>
+      <address>
+        <city>Roma</city>
+        <state>Rm</state>
+        <zip>00179</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Tramontano</last_name>
+      <phone>0651501420</phone>
+      <email>m.tramontano@hsantalucia.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>October 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 30, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 31, 2020</study_first_posted>
+  <last_update_submitted>August 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>I.R.C.C.S. Fondazione Santa Lucia</investigator_affiliation>
+    <investigator_full_name>Marco Tramontano</investigator_full_name>
+    <investigator_title>Head of Rehabilitation Services</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Multiple Sclerosis</mesh_term>
+    <mesh_term>Brain Injuries</mesh_term>
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,602 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03724097</url>
+  </required_header>
+  <id_info>
+    <org_study_id>OB0052018</org_study_id>
+    <nct_id>NCT03724097</nct_id>
+  </id_info>
+  <brief_title>Identification of Molecular Biomarkers for Cancer Target Therapy Efficacy</brief_title>
+  <official_title>Identification of Molecular Biomarkers for Cancer Target Therapy Efficacy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>OmicsWay Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Oncobox Ltd</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Vitamed LLC</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>N.N. Blokhin National Medical Research Center of Oncology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kaluga Regional Clinical Oncology Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Multidisciplinary medical holding SM-Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Oncological Clinical Dispensary No. 1 of the Moscow City Health Department</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>OmicsWay Corp.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective trial for a computation-based efficacy prediction method for anticancer&#xD;
+      target therapies. The original computational algorithm utilizes individual transcriptome data&#xD;
+      of a cancer sample and assesses changes at the level of gene expression and intracellular&#xD;
+      signaling pathways. By applying the database of known molecular targets of anticancer target&#xD;
+      drugs it allows to rank potential efficacies of target drugs.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Original computational algorithm Oncobox was developed to determine molecular features of&#xD;
+      individual tumors. It represents the solution for a personalized selection of target&#xD;
+      anticancer therapies. The method is based on the analysis of gene expression profile of a&#xD;
+      cancer sample in comparison with the corresponding normal tissue biosamples in order to&#xD;
+      select the most effective molecular targets for their inhibition and, accordingly, to&#xD;
+      identify more effective target drugs for cancer treatment. Histological material obtained&#xD;
+      from cancer patients during surgery or core-needle biopsy as part of standard treatment will&#xD;
+      be used for the analysis. Total RNA extracted from the tumor material will be subjected to&#xD;
+      next-generation sequencing (NGS). By comparing transcriptome profile of the tumor sample with&#xD;
+      the profiles of the corresponding normal tissue samples the rate of molecular pathways&#xD;
+      activation/deactivation will be calculated, as well as the case-to-normal ratios for the&#xD;
+      individual gene products - molecular targets of drugs. Based on these data, each target drug&#xD;
+      will be assigned with a score reflecting its potential efficacy for each individual tumor&#xD;
+      treatment. A drug with the score value above 0.1 will be considered potentially effective, a&#xD;
+      drug with the score value equal to or below 0.1 - as potentially ineffective. Following&#xD;
+      Oncobox test, 130 target anticancer drugs will be rated according to their predicted&#xD;
+      effectiveness (see the list of eligible target drugs below). This information will be fully&#xD;
+      available to a patient and his/her doctor. The doctor will prescribe treatment according to&#xD;
+      his/her consideration, e.g. based on the standards of care and the patient's life&#xD;
+      indications. After the appointment of therapy, the patients will be divided naturally into&#xD;
+      the following three observation groups. The first group will be formed from patients&#xD;
+      receiving target drugs with the score value above 0,1 as monotherapy or in combination. The&#xD;
+      second group - patients receiving only non-target drugs or target drugs with the score value&#xD;
+      equal to or below 0,1 as monotherapy or in combination. Third group will be formed by&#xD;
+      patients receiving palliative care. Within this study, these three groups will be compared by&#xD;
+      response to the therapy according to the results of instrumental studies, by time to&#xD;
+      progression and by time to progression compared to the previous line of therapy (if any).&#xD;
+      Additionally, overall survival will be measured in all three groups.&#xD;
+&#xD;
+      Eligible target drugs:&#xD;
+&#xD;
+        1. Abemaciclib (LY2835219)&#xD;
+&#xD;
+        2. Afatinib&#xD;
+&#xD;
+        3. Aflibercept&#xD;
+&#xD;
+        4. Alectinib&#xD;
+&#xD;
+        5. Alemtuzumab&#xD;
+&#xD;
+        6. Alitretinoin&#xD;
+&#xD;
+        7. Anastrozole&#xD;
+&#xD;
+        8. Apalutamide, ARN-509&#xD;
+&#xD;
+        9. Arsenic trioxide&#xD;
+&#xD;
+       10. Atezolizumab&#xD;
+&#xD;
+       11. Avelumab&#xD;
+&#xD;
+       12. Axitinib&#xD;
+&#xD;
+       13. Belinostat&#xD;
+&#xD;
+       14. Bevacizumab&#xD;
+&#xD;
+       15. Bexarotene&#xD;
+&#xD;
+       16. Bicalutamide&#xD;
+&#xD;
+       17. Binimetinib (MEK162)&#xD;
+&#xD;
+       18. Blinatumomab&#xD;
+&#xD;
+       19. Bortezomib&#xD;
+&#xD;
+       20. Bosutinib&#xD;
+&#xD;
+       21. Brentuximab vedotin&#xD;
+&#xD;
+       22. Brigatinib&#xD;
+&#xD;
+       23. Cabazitaxel&#xD;
+&#xD;
+       24. Cabozantinib&#xD;
+&#xD;
+       25. Carfilzomib&#xD;
+&#xD;
+       26. Ceritinib (Zykadia, LDK378)&#xD;
+&#xD;
+       27. Cetuximab&#xD;
+&#xD;
+       28. Cobimetinib&#xD;
+&#xD;
+       29. Crizotinib&#xD;
+&#xD;
+       30. CYT387 (Momelotinib)&#xD;
+&#xD;
+       31. Dabrafenib&#xD;
+&#xD;
+       32. Daratumumab&#xD;
+&#xD;
+       33. Dasatinib&#xD;
+&#xD;
+       34. Degarelix&#xD;
+&#xD;
+       35. Denileukin diftitox (Ontac)&#xD;
+&#xD;
+       36. Denosumab&#xD;
+&#xD;
+       37. Docetaxel&#xD;
+&#xD;
+       38. Dovitinib&#xD;
+&#xD;
+       39. Durvalumab&#xD;
+&#xD;
+       40. Elotuzumab&#xD;
+&#xD;
+       41. Encorafenib&#xD;
+&#xD;
+       42. Enzalutamide&#xD;
+&#xD;
+       43. Erlotinib&#xD;
+&#xD;
+       44. Estramustine&#xD;
+&#xD;
+       45. Everolimus&#xD;
+&#xD;
+       46. Exemestane&#xD;
+&#xD;
+       47. Flavopiridol (Alvociclib)&#xD;
+&#xD;
+       48. Foretinib&#xD;
+&#xD;
+       49. Fulvestrant&#xD;
+&#xD;
+       50. Ganetespib (STA-9090)&#xD;
+&#xD;
+       51. Gefitinib&#xD;
+&#xD;
+       52. Goserelin&#xD;
+&#xD;
+       53. Homoharringtonine (Omacetaxine mepesuccinate)&#xD;
+&#xD;
+       54. Ibritumomab tiuxetan&#xD;
+&#xD;
+       55. Ibrutinib&#xD;
+&#xD;
+       56. Idelalisib&#xD;
+&#xD;
+       57. Imatinib&#xD;
+&#xD;
+       58. Inotuzumab ozogamicin&#xD;
+&#xD;
+       59. Ipilimumab&#xD;
+&#xD;
+       60. Ixabepilone&#xD;
+&#xD;
+       61. Ixazomib (MLN9708)&#xD;
+&#xD;
+       62. Lapatinib&#xD;
+&#xD;
+       63. Lenalidomide&#xD;
+&#xD;
+       64. Lenvatinib&#xD;
+&#xD;
+       65. Letrozole&#xD;
+&#xD;
+       66. Leuprolide&#xD;
+&#xD;
+       67. Lomustine&#xD;
+&#xD;
+       68. Masitinib&#xD;
+&#xD;
+       69. Medroxyprogesterone acetate (MPA)&#xD;
+&#xD;
+       70. Megestrol&#xD;
+&#xD;
+       71. Methyltestosterone&#xD;
+&#xD;
+       72. Midostaurin&#xD;
+&#xD;
+       73. Mogamulizumab&#xD;
+&#xD;
+       74. Moxetumomab pasudotox&#xD;
+&#xD;
+       75. Necitumumab&#xD;
+&#xD;
+       76. Nilotinib&#xD;
+&#xD;
+       77. Nilutamide&#xD;
+&#xD;
+       78. Nimotuzumab&#xD;
+&#xD;
+       79. Nintedanib (BIBF 1120)&#xD;
+&#xD;
+       80. Niraparib&#xD;
+&#xD;
+       81. Nivolumab (BMS-936558)&#xD;
+&#xD;
+       82. Obinutuzumab&#xD;
+&#xD;
+       83. Ofatumumab&#xD;
+&#xD;
+       84. Olaparib&#xD;
+&#xD;
+       85. Olaratumab&#xD;
+&#xD;
+       86. Osimertinib&#xD;
+&#xD;
+       87. Paclitaxel&#xD;
+&#xD;
+       88. Palbociclib&#xD;
+&#xD;
+       89. Panitumumab&#xD;
+&#xD;
+       90. Panobinostat&#xD;
+&#xD;
+       91. Pazopanib&#xD;
+&#xD;
+       92. Pembrolizumab&#xD;
+&#xD;
+       93. Perifosine&#xD;
+&#xD;
+       94. Pertuzumab&#xD;
+&#xD;
+       95. Pomalidomide&#xD;
+&#xD;
+       96. Ponatinib&#xD;
+&#xD;
+       97. Ramucirumab (Cyramza)&#xD;
+&#xD;
+       98. Regorafenib&#xD;
+&#xD;
+       99. Ribociclib&#xD;
+&#xD;
+      100. Rigosertib&#xD;
+&#xD;
+      101. Rituximab&#xD;
+&#xD;
+      102. Romidepsin&#xD;
+&#xD;
+      103. Rucaparib&#xD;
+&#xD;
+      104. Ruxolitinib&#xD;
+&#xD;
+      105. Selumetinib&#xD;
+&#xD;
+      106. Siltuximab&#xD;
+&#xD;
+      107. Sonidegib (LDE225)&#xD;
+&#xD;
+      108. Sorafenib&#xD;
+&#xD;
+      109. Sunitinib&#xD;
+&#xD;
+      110. Tamoxifen&#xD;
+&#xD;
+      111. Tecemotide (Emepepimut-S, L-BLP25)&#xD;
+&#xD;
+      112. Temozolomide&#xD;
+&#xD;
+      113. Temsirolimus&#xD;
+&#xD;
+      114. Thalidomide&#xD;
+&#xD;
+      115. Tivantinib&#xD;
+&#xD;
+      116. Tivozanib&#xD;
+&#xD;
+      117. Toremifene&#xD;
+&#xD;
+      118. Trametinib (Mekinst)&#xD;
+&#xD;
+      119. Trastuzumab&#xD;
+&#xD;
+      120. Trebananib&#xD;
+&#xD;
+      121. Vandetanib&#xD;
+&#xD;
+      122. Veliparib&#xD;
+&#xD;
+      123. Vemurafenib&#xD;
+&#xD;
+      124. Venetoclax&#xD;
+&#xD;
+      125. Vinblastine&#xD;
+&#xD;
+      126. Vincristine&#xD;
+&#xD;
+      127. Vindesine&#xD;
+&#xD;
+      128. Vinorelbine&#xD;
+&#xD;
+      129. Vismodegib&#xD;
+&#xD;
+      130. Vorinostat&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 17, 2017</start_date>
+  <completion_date type="Anticipated">November 1, 2022</completion_date>
+  <primary_completion_date type="Actual">April 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Tumor response</measure>
+    <time_frame>2 years</time_frame>
+    <description>Tumor response according to the results of instrumental studies</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to progression</measure>
+    <time_frame>2 years</time_frame>
+    <description>Time to progression</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to progression compared to the previous therapy lane</measure>
+    <time_frame>2 years</time_frame>
+    <description>Time to progression compared to the previous therapy lane</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>2 years</time_frame>
+    <description>Overall survival</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Cancer</condition>
+  <arm_group>
+    <arm_group_label>Group 1</arm_group_label>
+    <description>Patients receiving target drugs with the score value above 0,1 as monotherapy or in combination</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2</arm_group_label>
+    <description>Patients receiving only non-target drugs or target drugs with the score value equal to or below 0,1 as monotherapy or in combination</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 3</arm_group_label>
+    <description>Patients receiving palliative care</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>RNA sequencing</intervention_name>
+    <description>Next Generation Sequencing of RNA from tumor samples, rRNA-depleted.</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+    <other_name>RNA-seq</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Transcriptome analysis</intervention_name>
+    <description>Analysis of RNA-seq data using the Oncobox algorithm.</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>target drug with the score above 0,1</intervention_name>
+    <description>target drug with the score above 0,1</description>
+    <arm_group_label>Group 1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>target drug with the score equal or below 0,1</intervention_name>
+    <description>target drug with the score equal or below 0,1</description>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>non-target drug</intervention_name>
+    <description>non-target drug</description>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>palliative care</intervention_name>
+    <description>palliative care</description>
+    <arm_group_label>Group 3</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Formalin-fixed, paraffin-embedded pathological cancer samples obtained during surgery or core&#xD;
+      needle biopsy&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Oncological patients&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults, diagnosed with cancer;&#xD;
+&#xD;
+          -  Age 18 - 80;&#xD;
+&#xD;
+          -  Patients who previously received anticancer treatment within the standard care,&#xD;
+             patients for whom standard therapy was not indicated or patients refused to receive&#xD;
+             standard therapy. Patients could receive an unlimited number of treatment lines before&#xD;
+             this study;&#xD;
+&#xD;
+          -  Available formalin fixed, paraffin-embedded (FFPE) samples of cancer tissue. The&#xD;
+             material should be confirmed by a certified pathologist, the sample taken for the&#xD;
+             analysis should contain at least 70% of tumor cells;&#xD;
+&#xD;
+          -  Anticipated survival of at least 3 months since the patient's inclusion in the current&#xD;
+             investigation;&#xD;
+&#xD;
+          -  Patients who have signed an informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Anticipated survival of less than 3 months since the patient's inclusion in the&#xD;
+             current investigation;&#xD;
+&#xD;
+          -  Lack of tumor biopsy material, inability to obtain a new tumor biopsy.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anton A Buzdin, Ph.D., D.Sc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>OmicsWay Corp.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>OmicsWay Corp.</name>
+      <address>
+        <city>Walnut</city>
+        <state>California</state>
+        <zip>91789</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Kaluga Regional Clinical Oncology Center</name>
+      <address>
+        <city>Kaluga</city>
+        <zip>248007</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Oncological Clinical Dispensary No. 1 of the Moscow City Health Department</name>
+      <address>
+        <city>Moscow</city>
+        <zip>105005</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Multidisciplinary medical holding &quot;SM-Clinic&quot;</name>
+      <address>
+        <city>Moscow</city>
+        <zip>109316</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>N.N. Blokhin National Medical Research Center of Oncology</name>
+      <address>
+        <city>Moscow</city>
+        <zip>115478</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>&quot;Oncobox&quot; Ltd.</name>
+      <address>
+        <city>Moscow</city>
+        <zip>121205</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Vitamed LLC</name>
+      <address>
+        <city>Moscow</city>
+        <zip>121309</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>October 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 30, 2018</study_first_posted>
+  <last_update_submitted>September 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>biomarkers</keyword>
+  <keyword>target therapy</keyword>
+  <keyword>NGS</keyword>
+  <keyword>RNAseq</keyword>
+  <keyword>mRNA</keyword>
+  <keyword>transcriptome analysis</keyword>
+  <keyword>signaling pathway</keyword>
+  <keyword>intracellular molecular pathway</keyword>
+  <keyword>Oncobox</keyword>
+  <keyword>Next generation sequencing</keyword>
+  <keyword>RNA sequencing</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Study Protocol, Statistical Analysis Plan (SAP), NGS data, Clinical Study Report (CSR)</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_time_frame>Beginning 3 months after trial completion, no end date</ipd_time_frame>
+    <ipd_access_criteria>Anyone</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

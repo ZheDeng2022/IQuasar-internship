@@ -1,0 +1,299 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04991987</url>
+  </required_header>
+  <id_info>
+    <org_study_id>6025</org_study_id>
+    <nct_id>NCT04991987</nct_id>
+  </id_info>
+  <brief_title>Multicenter Validation Study of an Artificial Intelligence Tool for Automatic Classification of Chest X-rays</brief_title>
+  <official_title>Multicenter Validation Study of an Artificial Intelligence Tool for Automatic Classification of Chest X-rays</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital Italiano de Buenos Aires</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospital Italiano de Buenos Aires</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A current problem in Radiology Departments is the constant increase in the number of studies&#xD;
+      performed. Currently the largest volume of studies belongs to plain x-rays. This problem is&#xD;
+      intensified by the shortage of specialists with dedication and experience in their&#xD;
+      interpretation. In the field of computer science, an area of study called Artificial&#xD;
+      Intelligence (AI) has emerged, which consists of a computer system that learns to perform&#xD;
+      specific routine tasks, and can complement or imitate human work. Since 2018, Hospital&#xD;
+      Italiano de Buenos Aires has been running the TRx program, which consists of the development&#xD;
+      of an AI-based tool to detect pathological findings in chest x-rays. The intended use of this&#xD;
+      tool is to assist non-imaging physicians in the diagnosis of chest x-rays by automatically&#xD;
+      detecting radiological findings. The present multicenter study seeks to externally validate&#xD;
+      the performance of an AI tool (TRx v1) as a diagnostic assistance tool for chest x-rays.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A current problem in Radiology Departments is the constant increase in the number of studies&#xD;
+      performed. This ever-increasing volume of information implies an increase in the time that&#xD;
+      medical specialists must dedicate to report these studies. The methodology carried out for&#xD;
+      reporting varies according to the imaging modality, which in high complexity centers includes&#xD;
+      radiology, computed tomography, magnetic resonance imaging and ultrasound, among others.&#xD;
+      Currently the largest volume of studies belongs to plain x-rays. At Hospital Italiano de&#xD;
+      Buenos Aires (HIBA) more than 220,000 x-rays were performed during 2019, and within this&#xD;
+      group more than 50% of the practices are chest x-rays, which are performed as a method of&#xD;
+      initial detection of potentially serious pathologies (pulmonary nodule, pneumonia,&#xD;
+      pneumothorax).&#xD;
+&#xD;
+      This imaging modality is not attractive and is not explored by the new generations of imaging&#xD;
+      specialists, who prefer to move towards more modern and complex methods such as computed&#xD;
+      tomography or magnetic resonance imaging. Therefore, the problem of the increasing volume of&#xD;
+      plain x-rays to be analyzed is intensified by the shortage of specialists with dedication and&#xD;
+      experience in their interpretation.&#xD;
+&#xD;
+      In the field of computer science, an area of study called Artificial Intelligence (AI) has&#xD;
+      emerged, which consists of a computer system that learns to perform specific routine tasks,&#xD;
+      and can complement or imitate human work. The developer must tell the AI system what response&#xD;
+      is desired from a given stimulus. An example of this is the spell checker in a word&#xD;
+      processor.&#xD;
+&#xD;
+      The field of AI encompasses a wide variety of sub-fields and specific techniques, such as&#xD;
+      Machine Learning (ML) or Deep Learning (DL). ML encompasses any tool in which computerized&#xD;
+      data is used to fit a model that draws conclusions from this input data. Algorithms are&#xD;
+      trained to learn given tasks based on a set of previously classified information. This also&#xD;
+      includes traditional techniques for creating predictive models or classification models.&#xD;
+      E-mail spam filtering is an example of ML. Neural networks are one of the tools included in&#xD;
+      ML.&#xD;
+&#xD;
+      Finally, DL is a type of ML that began to appear in 2015, which consists of adding layers to&#xD;
+      a traditional neural network and thus creating a nonlinear model with a higher degree of&#xD;
+      complexity since it increases the number of parameters to be adjusted. This network is&#xD;
+      exposed to a training dataset, which consists of already labeled information, and &quot;learns&quot; to&#xD;
+      label new information by mimicking the labeling criteria of the dataset. This learning is&#xD;
+      actually an iterative adjustment of the model parameters, which are iteratively modified&#xD;
+      according to the error between the original labeling and the labeling suggested by the&#xD;
+      network. Once the model is trained, its parameters are fixed and it can be used to infer&#xD;
+      labels of new information whose labeling is unknown. DL methods have been found to perform&#xD;
+      much better in data analysis than traditional methods. DL already has applications in&#xD;
+      everyday life, such as voice assistants in smart phones, or automatic face recognition and&#xD;
+      labeling in social networks.&#xD;
+&#xD;
+      DL applied to image processing is based on a method called convolutional neural networks. Its&#xD;
+      application has been investigated in the field of medical imaging, finding improvements in&#xD;
+      performance, from object detection (anatomical or pathological structures in radiological&#xD;
+      images) to segmentation tasks.&#xD;
+&#xD;
+      Since 2018, Hospital Italiano de Buenos Aires has been running the TRx program, which&#xD;
+      consists of the development of an AI-based tool to detect pathological findings in chest&#xD;
+      x-rays. The project is part of the Artificial Intelligence in Healthcare program of Hospital&#xD;
+      Italiano de Buenos Aires, and is carried out by a multidisciplinary team of professionals,&#xD;
+      including biomedical engineers, data scientists, radiologists, Clinical clinical&#xD;
+      informaticians, methodologists, and software engineers. TRx is a DL model, developed and&#xD;
+      validated at HIBA, which detects four types of radiological findings on chest x-rays:&#xD;
+      pulmonary opacities (nodules, masses, pneumonia, consolidations, ground glass, or&#xD;
+      atelectasis), pneumothorax, pleural effusions, and rib fractures. This detection is performed&#xD;
+      through four independent modules that are integrated into a single system. When processing an&#xD;
+      x-ray, TRx reports different types of results. First, the unified TRx system indicates&#xD;
+      dichotomously whether the image is suspicious for a pathological finding, or if it is&#xD;
+      possibly a normal chest x-ray. Secondly, each of the four modules indicates in particular&#xD;
+      whether a finding of pulmonary opacity, pneumothorax, pleural effusion, or rib fracture was&#xD;
+      detected, respectively. Finally, TRx enables the visualization of a heat map over the image&#xD;
+      indicating in color the region of the thorax where a suspected finding was detected.&#xD;
+&#xD;
+      The intended use of this tool is to assist non-imaging physicians in the diagnosis of chest&#xD;
+      x-rays by automatically detecting radiological findings. TRx version 1.0 (TRx v1) evaluates&#xD;
+      frontal chest x-rays of patients older than 14 years of age for four types of findings:&#xD;
+      pulmonary opacities, pleural effusion, fractures, and pneumothorax. The objective of this&#xD;
+      tool is to enhance the diagnostic performance of non-imaging physicians by providing&#xD;
+      assistance or a &quot;preliminary report&quot;.&#xD;
+&#xD;
+      One fact that is stressed in AI is that models must be replicable; the model must give the&#xD;
+      same or better results if given the same input. Although this seems obvious, it is in&#xD;
+      contrast to humans, who commonly exhibit both inter and intra-observer variability. The&#xD;
+      standard of an AI model should at least match the human performance it will assist.&#xD;
+      Replicability depends on the problem, and the amount of variability depends on the specific&#xD;
+      task at hand.&#xD;
+&#xD;
+      There are authors who report that an AI model may present difficulties in providing accurate&#xD;
+      predictions when applied to new situations or populations (i.e., to which it was not exposed&#xD;
+      during training). Whereas radiologists are able to successfully adapt to differences in&#xD;
+      images (whether due to slice thickness, scanner marking, field strength, gradient intensity&#xD;
+      or contrast time) without affecting their interpretation of the images, AI generally lacks&#xD;
+      that ability. For example, if an AI agent was trained only with images from a 3 Tesla MRI&#xD;
+      scanner, it cannot be guaranteed a priori that it will have the same results on scans&#xD;
+      performed at 1.5 Tesla. One solution is to develop mathematical processes to recognize,&#xD;
+      normalize and transform the data to minimize drift. Another approach to mitigate this&#xD;
+      phenomenon is to perform training and validation with &quot;full&quot; data sets, representing each&#xD;
+      type of image data acquisition and reconstruction.&#xD;
+&#xD;
+      In order to evaluate the diagnostic performance of an AI tool in a comprehensive manner and&#xD;
+      thus ensure its intended use, it is recommended to perform multicenter studies, which allow&#xD;
+      measuring this performance in different patient populations and different image acquisition&#xD;
+      protocols. The present multicenter study seeks to externally validate the performance of an&#xD;
+      AI tool (TRx v.1) as a diagnostic assistance tool for chest x-rays.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">July 1, 2021</start_date>
+  <completion_date type="Anticipated">July 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Concordance between AI tool and reference standard</measure>
+    <time_frame>5 months</time_frame>
+    <description>The concordance between the category assigned by the professionals and that assigned by the algorithm will be analyzed. For this purpose, a diagnostic test will be evaluated for the detection of abnormality (i.e., the test is positive when at least one of the four types of findings is observed). Considering the specialists' diagnosis as a reference standard, the confusion matrix will be constructed and the diagnostic metrics of the AI tool (sensitivity, specificity and predictive values) will be calculated. The 95% confidence intervals will be calculated using exact binomial distribution.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Receiver Operating Characteristic curves</measure>
+    <time_frame>5 months</time_frame>
+    <description>Receiver Operating Characteristic curves will be constructed for the global category of abnormality and for each of the individual radiological findings, calculating in each case the Area Under the Curve (value between 0 and 1). A model whose predictions are 100% incorrect has an area under the curve of 0.0; another whose predictions are 100% correct has an area under the curve of 1.0. The categorization made by the expert radiologists will be taken as the reference standard. It will be evaluated whether there is a significant difference between the area under the curve of the AI tool and the reference value estimated for non-imaging physicians (i.e. emergency room physicians or residents). The De Long test with a significance level of 0.01 will be used.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Qualitative analysis</measure>
+    <time_frame>5 months</time_frame>
+    <description>The images with erroneous diagnoses (false negatives and false positives) and the corresponding heat maps generated by the algorithm will be studied individually.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Inter-observer concordance index</measure>
+    <time_frame>5 months</time_frame>
+    <description>The inter-observer concordance between the participating specialists will be analyzed. In cases where the image in question is categorized differently by each of the observers, they will be asked to review the images together to define a category.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis by institution</measure>
+    <time_frame>5 months</time_frame>
+    <description>The variables of items 1. and 2. will be calculated separately for the images of each participating institution. We will evaluate if there is a significant difference in the different area under the curve values across institutions using the De Long test. A significance level of 0.01 will be used.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">385</enrollment>
+  <condition>Pneumothorax</condition>
+  <condition>Pleural Effusion</condition>
+  <condition>Bone Fracture</condition>
+  <condition>Consolidation</condition>
+  <condition>Opacity</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The unit of study will be the chest X-rays provided by the participating centers,&#xD;
+        maintaining the confidentiality of the patient in question (without any sensitive data such&#xD;
+        as name, surname, ID card number or date of birth). The images will be obtained&#xD;
+        retrospectively from their respective institutional databases.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        X-rays that meet the following requirements will be included:&#xD;
+&#xD;
+          -  Chest X-ray&#xD;
+&#xD;
+          -  Belong to patients over 18 years of age.&#xD;
+&#xD;
+          -  Advocacy and digital acquisition&#xD;
+&#xD;
+          -  Study conducted in the aforementioned institutions and stored in their respective&#xD;
+             Picture Archiving and Communication System&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        X-rays that are excluded:&#xD;
+&#xD;
+          -  Poor technique (low contrast, veiled, off-center)&#xD;
+&#xD;
+          -  Presence of abnormal position of the patient during acquisition.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Sonia E Benitez, MD, MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Italiano de Buenos Aires</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hospital Italiano de Buenos Aires</name>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>1199</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+  </location_countries>
+  <link>
+    <url>http://dx.doi.org/10.1109/cvpr.2016.513</url>
+    <description>Weakly Supervised Learning of Deep Convolutional Neural Networks [Internet]. 2016 Institute of Electrical and Electronics Engineers, Conference on Computer Vision and Pattern Recognition. 2016.</description>
+  </link>
+  <link>
+    <url>http://dx.doi.org/10.1109/tmi.2016.2553401</url>
+    <description>Guest Editorial Deep Learning in Medical Imaging: Overview and Future Promise of an Exciting New Technique [Internet]. Vol. 35, Institute of Electrical and Electronics Engineers, Transactions on Medical Imaging. 2016. p. 1153-9.</description>
+  </link>
+  <link>
+    <url>http://dx.doi.org/10.7551/mitpress/9780262170055.001.0001</url>
+    <description>Dataset shift in machine learning. Neural Information Processing. 2008.</description>
+  </link>
+  <reference>
+    <citation>Kesselman A, Soroosh G, Mollura DJ; RAD-AID Conference Writing Group. 2015 RAD-AID Conference on International Radiology for Developing Countries: The Evolving Global Radiology Landscape. J Am Coll Radiol. 2016 Sep;13(9):1139-1144. doi: 10.1016/j.jacr.2016.03.028. Epub 2016 May 25.</citation>
+    <PMID>27233909</PMID>
+  </reference>
+  <reference>
+    <citation>Chartrand G, Cheng PM, Vorontsov E, Drozdzal M, Turcotte S, Pal CJ, Kadoury S, Tang A. Deep Learning: A Primer for Radiologists. Radiographics. 2017 Nov-Dec;37(7):2113-2131. doi: 10.1148/rg.2017170077. Review.</citation>
+    <PMID>29131760</PMID>
+  </reference>
+  <reference>
+    <citation>Erickson BJ, Korfiatis P, Akkus Z, Kline TL. Machine Learning for Medical Imaging. Radiographics. 2017 Mar-Apr;37(2):505-515. doi: 10.1148/rg.2017160130. Epub 2017 Feb 17. Review.</citation>
+    <PMID>28212054</PMID>
+  </reference>
+  <reference>
+    <citation>Balthazar P, Harri P, Prater A, Safdar NM. Protecting Your Patients' Interests in the Era of Big Data, Artificial Intelligence, and Predictive Analytics. J Am Coll Radiol. 2018 Mar;15(3 Pt B):580-586. doi: 10.1016/j.jacr.2017.11.035. Epub 2018 Feb 6.</citation>
+    <PMID>29402532</PMID>
+  </reference>
+  <reference>
+    <citation>Calvert JS, Price DA, Chettipally UK, Barton CW, Feldman MD, Hoffman JL, Jay M, Das R. A computational approach to early sepsis detection. Comput Biol Med. 2016 Jul 1;74:69-73. doi: 10.1016/j.compbiomed.2016.05.003. Epub 2016 May 12.</citation>
+    <PMID>27208704</PMID>
+  </reference>
+  <reference>
+    <citation>Mosquera C, Diaz FN, Binder F, Rabellino JM, Benitez SE, Beresñak AD, Seehaus A, Ducrey G, Ocantos JA, Luna DR. Chest x-ray automated triage: A semiologic approach designed for clinical implementation, exploiting different types of labels through a combination of four Deep Learning architectures. Comput Methods Programs Biomed. 2021 Jul;206:106130. doi: 10.1016/j.cmpb.2021.106130. Epub 2021 May 2.</citation>
+    <PMID>34023576</PMID>
+  </reference>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 5, 2021</study_first_posted>
+  <last_update_submitted>July 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Radiography</keyword>
+  <keyword>Thorax</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Deep learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pleural Effusion</mesh_term>
+    <mesh_term>Pneumothorax</mesh_term>
+    <mesh_term>Fractures, Bone</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

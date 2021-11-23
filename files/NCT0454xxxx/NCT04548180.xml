@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04548180</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20-0110</org_study_id>
+    <nct_id>NCT04548180</nct_id>
+  </id_info>
+  <brief_title>Genome-Wide Assocation Study in Patients With Brain Injury Associated Fatigue and Altered Cognition (BIAFAC)</brief_title>
+  <official_title>Machine Learning Tools to Identify and Associate Genetic Variants in Patients With Phenotypic Traits of Brain Injury Associated Fatigue and Altered Cognition (BIAFAC)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Texas Medical Branch, Galveston</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The University of Texas Medical Branch, Galveston</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is elucidate genetic susceptibility of patients with traumatic brain&#xD;
+      injury (TBI) and symptoms of Brain Injury Associated Fatigue and Altered Cognition (BIAFAC)&#xD;
+      using genome-wide association study (GWAS).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Annually 1.5 million children and adults experience trauma to the head and brain that results&#xD;
+      in a TBI. Our research suggests that in a subset of patients, TBI induces pituitary&#xD;
+      dysfunction and abnormal growth hormone (GH) secretion. The clinical syndrome associated with&#xD;
+      abnormal GH secretion is characterized by profound fatigue and cognitive dysfunction related&#xD;
+      to executive function, short-term memory, and processing speed index. Fatigue in these&#xD;
+      patients is profound and debilitating leaving them unable to maintain their usual activity&#xD;
+      levels. We have termed this syndrome Brain Injury Associated Fatigue and Altered Cognition&#xD;
+      (BIAFAC).&#xD;
+&#xD;
+      Our recent work has shown that cognitive and physical dysfunction are significantly improved&#xD;
+      with recombinant human growth hormone replacement in patients with BIAFAC. Improvements in&#xD;
+      fatigue often precede (~3 months) improvements in cognition (~4-5 months) following rhGH&#xD;
+      treatment. Although rhGH replacement relieves BIAFAC symptoms, it does not cure the&#xD;
+      underlying cause, as symptoms reoccur with rhGH withdrawal.&#xD;
+&#xD;
+      Although the mechanisms causing BIAFAC have not been determined, our previous research&#xD;
+      demonstrated that a year of GH treatment resulted in symptom relief which was associated with&#xD;
+      changes in brain morphometry and connectivity. These associated brain changes include&#xD;
+      increased frontal cortical thickness and gray matter volume as well as resting state&#xD;
+      connectivity changes in regions associated with somatosensory networks&#xD;
+&#xD;
+      The next step to understanding BIAFAC is to develop a biomarker that identifies individuals&#xD;
+      that are susceptible to developing this syndrome. The University of Michigan maintains a&#xD;
+      searchable DataDirect database of over 4 million individual patient medical records linked&#xD;
+      via the Michigan Genomics Initiative (MGI) to genomic data collected from over 70,000&#xD;
+      patients. By collaborating with the University of Michigan, we have a unique opportunity to&#xD;
+      combine their extensive genomic database with the more than 100 UTMB patients we are&#xD;
+      currently treating for BIAFAC to search for common genetic markers associated with BIAFAC. In&#xD;
+      order to identify patients in the UM genomic database with BIAFAC, we will develop a risk&#xD;
+      stratified machine-learning algorithm based on BIAFAC symptoms. Initial use of the algorithm&#xD;
+      will begin with approximately 9,000 patients in the UM database that have already been&#xD;
+      identified with a diagnosis code of fatigue and malaise. Once these patients are identified,&#xD;
+      a select cohort will be contacted to confirm the accuracy of the algorithm in identifying&#xD;
+      BIAFAC patients. Once we complete the genotyping of UTMB patients with BIAFAC and have&#xD;
+      identified the patients with BIAFAC in the UM genomic database, a genome-wide association&#xD;
+      study (GWAS) will be executed to look for common genetic markers&#xD;
+&#xD;
+      Aims:&#xD;
+&#xD;
+      Specific Aim 1: Identify patients in the UM MGI cohort who show positive traits associated&#xD;
+      with BIAFAC. Patients in the UM Michigan Genomic Initiative (MGI) cohort will be filtered&#xD;
+      through ICD-9, ICD-10, and CPT codes associated with fatigue, malaise, and other related&#xD;
+      diagnoses. Natural language processing (NLP) approaches will be developed to parse clinical&#xD;
+      notes from candidate patients, recognize relevant medical concepts, and combine features to&#xD;
+      identify candidates. These will be evaluated for algorithmic accuracy using manual review.&#xD;
+&#xD;
+      Specific Aim 2: Develop medical concept mapping of EHR systems across UTMB and UM. Semantic&#xD;
+      representations of medical concepts in UTMB and UM will be generated based on co-occurrence&#xD;
+      patterns of these concepts summarized from each site. Statistical methods will be developed&#xD;
+      to generate a mapping of the medical concepts between UTMB and UM and harmonize the data&#xD;
+      across institutions leveraging the trained representations. The learned mapping can&#xD;
+      facilitate the transfer of trained algorithms from one system to another.&#xD;
+&#xD;
+      Specific aim 3: Develop a computable phenotype to identify TBI patients with BIAFAC,&#xD;
+      combining the concept mapping identified in Aim 2 with clinical note-based features&#xD;
+      identified in Aim 1.&#xD;
+&#xD;
+      Specific Aim 4: Conduct genetic analysis of the UTMB cohort. The MGI cohort individuals are&#xD;
+      genotyped on an Infinium Global Screening Array and imputed to contain &gt;10M genetic markers.&#xD;
+      We will use this data to perform a genome-wide association study (GWAS) of the phenotypes&#xD;
+      identified in Aim 3 by testing each variant for association while accounting for confounders&#xD;
+      such as population stratification.&#xD;
+&#xD;
+      Experimental Protocol.&#xD;
+&#xD;
+      The investigators will study subjects (aged 18-70 years) with a history of mild TBI (n=100).&#xD;
+&#xD;
+      All patients presenting with TBI and BIAFAC symptoms will be invited to participate.&#xD;
+&#xD;
+      TBI subjects will have saliva and possibly blood taken for DNA extraction and genotyping,&#xD;
+      which will be used for the GWAS.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">June 21, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Finding of single nucleotide polymorphisms (SNPs) associated with the traumatic brain injury BIAFAC [ Time Frame: Baseline ]</measure>
+    <time_frame>Baseline</time_frame>
+    <description>To identify SNPs related to TBI with BIAFAC using logistic regression after controlling for confounders (GWAS statistical significance threshold, P &lt; 5.00*E-08)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Traumatic Brain Injury</condition>
+  <arm_group>
+    <arm_group_label>TBI BIAFAC</arm_group_label>
+    <description>100 TBI subjects with BIAFAC will be enrolled. No intervention</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Saliva and Blood will have DNA extracted for genotyping&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects with a history of TBI and BIAFAC symptoms.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. History of TBI&#xD;
+&#xD;
+          2. History of BIAFAC symptoms&#xD;
+&#xD;
+          3. Ages 18 to 70 years&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        1. Unable or unwilling to give written consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Randall J Urban, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Texas</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Texas Medical Branch</name>
+      <address>
+        <city>Galveston</city>
+        <state>Texas</state>
+        <zip>77555</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>September 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 14, 2020</study_first_posted>
+  <last_update_submitted>June 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Brain Injuries</mesh_term>
+    <mesh_term>Brain Injuries, Traumatic</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

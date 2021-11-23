@@ -1,0 +1,398 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02330679</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REB 14-0194</org_study_id>
+    <nct_id>NCT02330679</nct_id>
+  </id_info>
+  <brief_title>Prediction of Antidepressant Treatment Response Using Machine Learning Classification Analysis</brief_title>
+  <official_title>Prediction of Individual Treatment Response Based on Brain Changes at the Early Phase of Antidepressant Treatment in Major Depressive Disorder Using Machine Learning Classification Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Calgary</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Alberta</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Calgary</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite significant advances in pharmacological treatment, the global burden of depression is&#xD;
+      increasing worldwide. The major challenge in antidepressant treatment is the clinicians'&#xD;
+      inability to predict the variability in individual response to the treatment. The development&#xD;
+      of biomarkers to predict treatment outcomes would enable clinician to find the right&#xD;
+      medication for a particular patient at the early stage of the treatment and thus could reduce&#xD;
+      prolonged suffering and ineffective protracted treatment. Brain imaging studies that examined&#xD;
+      brain predictors of treatment response based on group comparisons have limited value in&#xD;
+      classifying individuals as responders or non-responders. Machine learning classification&#xD;
+      techniques such as the support vector machine (SVM) method have proven useful in the&#xD;
+      classification of individual brain image observations into distinct groups or classes.&#xD;
+      However, studies that have applied the SVM method to structural and functional magnetic&#xD;
+      resonance scans (fMRI) involved small sample sizes and were confounded by placebo responses.&#xD;
+      Furthermore, a recent meta-analysis of clinical trials and EEG studies have shown that early&#xD;
+      clinical responses and brain changes at the early phase of antidepressant treatment may&#xD;
+      predict later clinical outcomes suggesting that neural markers measured in the early phase of&#xD;
+      antidepressant treatment may improve predictive accuracy. However, there is no fMRI study to&#xD;
+      date that has examined the predictive accuracy of data obtained in early phase of the&#xD;
+      treatment. We have preliminary fMRI data relating to early treatment response that form the&#xD;
+      basis of this proposed study.&#xD;
+&#xD;
+      The main objective of this study is to use machine learning method to examine the predictive&#xD;
+      value (sensitivity, specificity, accuracy) of resting state and emotional task-related fMRI&#xD;
+      data collected at pre-treatment baseline (week 0) and in the early phase of antidepressant&#xD;
+      treatment (week 2) in the classification of remitters (&lt; 10 MADRS scores after 12 weeks of&#xD;
+      treatment) and non-remitters in patients with major depressive disorder (MDD). A secondary&#xD;
+      objective is to determine which data set (week 0 or week 2) gives the best predictive value.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Major depressive disorder (MDD) is a highly prevalent, chronic disabling condition with&#xD;
+      substantial morbidity and mortality. Depression currently is the fourth leading cause of&#xD;
+      global burden of disease (DALYs) and disability worldwide, and is expected to be second by&#xD;
+      20201. Around one in eight people in Canada will develop depression during their lifetime,&#xD;
+      with the total cost to the Canadian economy estimated at $51 billion per year2. The costs of&#xD;
+      treating MDD are high in part due to limitations in effectiveness of antidepressant&#xD;
+      treatment. Approximately 60% of patients fail to remit to the first antidepressant&#xD;
+      prescribed3 and the subsequent selection of antidepressants remains a matter of trial and&#xD;
+      error. Using this trial and error approach, it may take a year or more to find the successful&#xD;
+      treatment for a patient4,5. The protracted ineffective treatment results in prolonged&#xD;
+      suffering, substantial morbidity, loss of productivity and an increased burden on patient's&#xD;
+      family. Brain-based biomarkers could assist in predicting clinical response to treatment&#xD;
+      intervention and in tailoring treatment for individual patients. The results of previous&#xD;
+      neuroimaging studies that examined brain markers of treatment response were derived from&#xD;
+      group averages 6,-9 and have limited predictive value at individual level. Another limitation&#xD;
+      of these studies is that predictors derived from the pretreatment baseline brain scans could&#xD;
+      be influenced by many personal (personality, childhood trauma, genotypes) and clinical&#xD;
+      (course, duration of illness, episodes, symptom clusters, and severity of symptoms and past&#xD;
+      medication exposure) characteristics which may limit the generalizability. On the other hand,&#xD;
+      there is growing evidence that the early clinical response within 2 weeks of antidepressant&#xD;
+      treatment and EEG changes in the first week of treatment can predict later outcomes.&#xD;
+      Furthermore, early treatment changes in brain function may provide crucial information on the&#xD;
+      brain's capacity to change with treatment and on the interactive effects between personal/&#xD;
+      clinical characteristics and pharmacological factors, which may help differential prediction&#xD;
+      of treatment responses to two antidepressants. Hence, examining the predictive value of&#xD;
+      dynamic brain changes during the first two weeks of treatment in individual patients would&#xD;
+      improve statistical reliability and predictive accuracy and minimize the confounding effect&#xD;
+      inherent to pretreatment scans.&#xD;
+&#xD;
+      In this study, we propose to investigate the predictive value of resting state and task&#xD;
+      related fMRI data collected at the pretreatment baseline and 2 weeks after treatment to&#xD;
+      predict remitters and non-remitters to desvenlafaxine antidepressant treatment at week 12&#xD;
+      using machine learning classifier. Desvenlafaxine is a serotonin norepinephrine reuptake&#xD;
+      inhibitor (SNRI) with proven efficacy, and safety and is easy to administer in single daily&#xD;
+      dose. It has limited sedative and cognitive side effects such as drowsiness, lack of&#xD;
+      alertness and poor attention, which may confound early brain changes with treatment. This&#xD;
+      study will provide brain-based predictive biomarkers that can be tested prospectively in&#xD;
+      clinical trials and eventually in clinical practice for accuracy.&#xD;
+&#xD;
+      Machine Learning Classification (Support Vector Machine): The support vector machine (SVM) is&#xD;
+      a computer based analytical technique designed for high dimensional biological data such as&#xD;
+      fMRI data and provides the best classification of individual observations into distinct&#xD;
+      groups 38. Diagnostic classification (depression diagnosis and healthy control) and&#xD;
+      classification of treatment responsiveness (responders and non-responders) have been examined&#xD;
+      in a clinical population with fMRI data using SVM 39-41. This technique consists of two&#xD;
+      phases: training phase and testing phase. During the training phase an SVM is trained to&#xD;
+      develop a decision function or hyperplane that separates the data into two groups according&#xD;
+      to a class label. In the testing phase, this decision function can be used to predict the&#xD;
+      class label of a new subject as being a responder or non-responder. The accuracy of&#xD;
+      prediction by SVM depends on its specificity (identification of true negatives) and&#xD;
+      sensitivity (identification of true positives). In recent years a few neuroimaging studies&#xD;
+      have employed SVM to structural and functional MRI data in order to predict the MDD patients&#xD;
+      who improved with treatment and who did not. Fu et al (2008) showed that applying SVM on&#xD;
+      emotional task-related fMRI data, 62% of patients who achieved remission (sensitivity) and&#xD;
+      75% of patients who did not achieve remission (specificity) following 8 weeks of fluoxetine&#xD;
+      treatment could be predicted. But these results were not statistically significant due to&#xD;
+      small sample sizes (remitters =8, non-remitters=10). Similarly, Costafreda et al (2009)&#xD;
+      applied SVM to pretreatment structural scans and showed prediction with a sensitivity of 88.9&#xD;
+      % and a specificity of 88.9% and accuracy of 88.9% in a small sample comprised of 18 patients&#xD;
+      40. In a recent study involving 61 MDD patients, SVM analysis of pretreatment white matter&#xD;
+      data predicted clinical outcome of refractory and non- refractory depression with an accuracy&#xD;
+      of 65.22%, sensitivity of 56.2% and specificity of 73.91% 41. Although the results of the&#xD;
+      later study were statistically significant, the low sensitivity and accuracy may limit its&#xD;
+      clinical use. Moreover, the structural imaging may not be useful to examine predictive value&#xD;
+      of early treatment changes in the brain function. In summary, there are no studies, to date&#xD;
+      that have applied SVM to functional data generated from a large sample for use in evaluating&#xD;
+      predictive accuracy at the individual level.&#xD;
+&#xD;
+      Main objective : Using machine learning method to examine the predictive value (sensitivity,&#xD;
+      specificity, accuracy) of resting state and emotional task-related fMRI data collected at the&#xD;
+      pretreatment time (week 0) and at the early phase of antidepressant treatment (week 2) in the&#xD;
+      classification of remitters and non-remitters in patients with MDD after 12 weeks of&#xD;
+      treatment. Secondary objective: To compare the predictive value of pretreatment baseline&#xD;
+      brain activity (week 0) with early treatment brain activity (week 2).&#xD;
+&#xD;
+      Primary hypothesis: By employing a machine learning method to pretreatment and 2 week&#xD;
+      post-treatment fMRI data, we hypothesize that it is possible to predict with significant&#xD;
+      accuracy whether an individual patient with MDD could be classified as remitter or&#xD;
+      non-remitter at the end of 12 weeks of antidepressant treatment.&#xD;
+&#xD;
+      Secondary hypothesis (Exploratory): Based on previous EEG studies and our preliminary data of&#xD;
+      standard group comparisons showing early treatment response and associated brain changes, we&#xD;
+      hypothesize that prediction of antidepressant treatment outcome at an individual level, will&#xD;
+      be better using fMRI data obtained early in treatment (2 weeks) as compared with pretreatment&#xD;
+      fMRI data.&#xD;
+&#xD;
+      Rationale: The current study is designed to evaluate the predictive value of early brain&#xD;
+      changes related to antidepressant treatment to classify remitters and non-remitters based on&#xD;
+      their clinical response at 12 weeks of treatment. Traditionally, the neuroimaging studies&#xD;
+      have used group comparisons of pretreatment scans for treatment outcome prediction, which has&#xD;
+      limited clinical value to make predictions at the individual level. Machine learning methods&#xD;
+      can provide prediction at the individual level, which can be prospectively used in clinical&#xD;
+      practice. As the meta-analysis of clinical trials indicate that early clinical response is a&#xD;
+      reliable predictor of later treatment outcome11,12, our study will examine brain scans at&#xD;
+      both pretreatment and early post-treatment (2 weeks) times.&#xD;
+&#xD;
+      Experimental Design and Procedure:&#xD;
+&#xD;
+      The eligible patients with MDD will enter into a single blind placebo treatment for two&#xD;
+      weeks. At the end of two weeks of placebo treatment, participants will be considered as&#xD;
+      placebo responders based on improvement in depression symptoms as measured by the MADRS scale&#xD;
+      ( &gt;50% decrease in MADRS scores from the baseline). The placebo responders will be excluded&#xD;
+      from the study. The end of two weeks of placebo treatment will be considered as week 0 for&#xD;
+      active treatment. The placebo non-responders who remain eligible with a score of 22 or higher&#xD;
+      in MADRS will receive desvenlafaxine 50mg/day for 14 days and the dosage will be increased to&#xD;
+      100 mg /day at day 15 if the patient does not improve by 20% reduction in MADRS scores and&#xD;
+      the dosage determined at day 15 will be maintained until the end of 12 weeks. The first fMRI&#xD;
+      session will be performed at week 0 (pretreatment baseline) and the second session will be&#xD;
+      performed at the end of week 2 (14 th day). The participants will be assessed clinically at&#xD;
+      weeks 1,2,4,6,8,10 and 12 using MADRS, 17-item Hamilton Depression (HAM-D) rating Scale46,&#xD;
+      Hamilton anxiety (HAM-A) rating scale47 and clinical global impression severity of illness&#xD;
+      scale (CGI-S) and clinical global impression-improvement scale (CGI-I) 48. HAM-A (Hamilton&#xD;
+      1959) will be used to rate anxiety symptoms. To evaluate the overall clinical improvement,&#xD;
+      CGI-S and CGI-I will be given. Quality of life measure (Q-LES-Q) 49 will be given at the&#xD;
+      baseline (week 0) and at week 12. Adverse effects will be recorded at each visit. MADRS&#xD;
+      scores at week 12 will be used to determine remitters and non-remitters. Patients who score&#xD;
+      less than 10 in MADRS at week 12 will be considered as remitters 50.&#xD;
+&#xD;
+      fMRI Scanning Methods&#xD;
+&#xD;
+      The first fMRI session will be performed at week 0 (pretreatment baseline) and the second&#xD;
+      session will be performed at the end of week 2. Images will be collected using a Discovery&#xD;
+      MR750 3T MRI system (GE Healthcare, Waukesha, WI, USA) at the Seaman Family MRI Research&#xD;
+      Centre at Foothills Hospital, Calgary. Anatomical images will include a 3D T1-weighted MPRAGE&#xD;
+      image (TR=9.2ms; TE= minimum; flip angle=20; FOV=25.6 cm; voxel size=1mm3. Resting state will&#xD;
+      consist of a 5-min resting-state scan during which the participants will be asked to keep&#xD;
+      their eyes closed and hold still ( TR=2000ms;TE=30ms;flip angle=75 degrees; FOV=24 cm; matrix&#xD;
+      size =64x64, number of slices=36; slice thickness=4mm) Two additional functional MRI scans&#xD;
+      will also be collected while participants perform an emotional stroop task (block design)&#xD;
+      using the same acquisition parameters as described for the fMRI resting scan.&#xD;
+&#xD;
+      Machine learning Analysis&#xD;
+&#xD;
+      We will use support vector machines (SVMs), as these have been successfully applied to&#xD;
+      predicting treatment outcomes in MDD from fMRI data. After preprocessing, SVM as implemented&#xD;
+      in PROBID software package (http://www.brain.map.co.uk/probid.htm) will be used to&#xD;
+      investigate the accuracy of whole brain resting and task-related Blood Oxygen Level Dependent&#xD;
+      (BOLD) data in predicting response to antidepressant treatment. Individual brain scans will&#xD;
+      be treated as points located in a high dimensional space defined by BOLD response values in&#xD;
+      the preprocessed images. During the training phase, a linear decision boundary in this high&#xD;
+      dimensional space will be defined by a &quot;hyperplane&quot; that separates the individual scans&#xD;
+      according to a class label. SVM classifier will be trained by providing examples of the form&#xD;
+      &lt;X,C&gt; where X represents the fMRI data and C represents the class label (C= 1 for remitters,&#xD;
+      and C = -1 for non-remitters). Once the hyperplane is determined from the training data, it&#xD;
+      will be used to predict the class label of a test sample. A linear kernel SVM will be used to&#xD;
+      extract the weight sector as an image (SVM discriminating map). A &quot;leave-one-out&quot; cross&#xD;
+      validation method will be used to validate the classifier. This procedure involves excluding&#xD;
+      a single subject from each group and the classifier will be trained using the remaining&#xD;
+      subjects. The subject pair excluded will be used to test the ability of the classifier to&#xD;
+      distinguish between remitters and non-remitters. The procedure will be repeated for each&#xD;
+      subject pair in the sample in order to assess the overall accuracy of SVM. To establish&#xD;
+      whether the classification accuracy is statistically significant, we will perform permutation&#xD;
+      testing. This will involve repeating the classification procedure 1000 times with a random&#xD;
+      permutation of the training group labels and counting the number of permutations that achieve&#xD;
+      higher sensitivity and specificity than the one observe with the true labels. The p value&#xD;
+      will be calculated by dividing this number by 1000. Bonferroni correction or false discovery&#xD;
+      rate will be used to correct for multiple testing. This SVM analysis and permutation testing&#xD;
+      will be performed on the pretreatment scan and 2-week post-treatment scan separately. The&#xD;
+      task-related data and resting state data will be analyzed separately.&#xD;
+&#xD;
+      Sample size calculation&#xD;
+&#xD;
+      The sample size calculation for a classification study is based on precision we want to&#xD;
+      achieve for sensitivity and specificity. The precision refers to the width of the 95%&#xD;
+      confidence intervals associated with the estimates. To achieve the 95% confidence interval of&#xD;
+      plus and minus of 0.16 for 85 % sensitivity and 85% specificity, we will need a total sample&#xD;
+      of 40 subjects. Having a sample size of 40 should achieve statistically significant&#xD;
+      classification accuracy and clinically meaningful sensitivity and specificity. Accounting a&#xD;
+      placebo response of 30% and drop out of 10%, we need to recruit a total of 61 subjects for&#xD;
+      the sample of 40.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date>December 2014</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">December 2016</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The resting state and emotional task related brain activity pattern at the pretreatment baseline and two weeks post treatment as measured by functional MRI and analyzed by machine learning techniques</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>The predictive value of brain activity pattern at the baseline and two weeks post treatment to classify remitters and non-remitters at 12 weeks of antidepressant treatment using machine learning classifiers</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The clinical response to antidepressant treatment as measured by Montgomery-Asberg Depression Rating (MADRS) scale.</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>MADRS scores at week 12 will be used to determine remitters and non-remitters. Patients who score less than 10 in MADRS at week 12 will be considered as remitters.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">61</enrollment>
+  <condition>Major Depressive Disorder</condition>
+  <arm_group>
+    <arm_group_label>Desvenlafaxine</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>2-week single-blind placebo run-in phase followed by a 12-week open-label trial with desvenlafaxine</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Desvenlafaxine</intervention_name>
+    <description>The intervention will consist of a 2-week single-blind placebo run-in phase followed by a 12-week open-label trial with desvenlafaxine (a SNRI medication)</description>
+    <arm_group_label>Desvenlafaxine</arm_group_label>
+    <other_name>Prestiq</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <arm_group_label>Desvenlafaxine</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Acute episode of major depressive disorder of unipolar subtype and a score of 22 or&#xD;
+             higher in the Montgomery-Asberg Depression Rating (MADRS) scale&#xD;
+&#xD;
+          2. Free of psychotropic medication for a minimum of 4 weeks at recruitment&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Axis I disorders such as bipolar disorder, anxiety disorders, psychosis or history of&#xD;
+             substance abuse within 6 months of study participation&#xD;
+&#xD;
+          2. severe borderline personality disorder&#xD;
+&#xD;
+          3. severe medical and neurological disorders&#xD;
+&#xD;
+          4. severe suicidal patients&#xD;
+&#xD;
+          5. failure to respond to three trials of antidepressant medication&#xD;
+&#xD;
+          6. subjects who arecontraindicated for MRI. Subjects considered unsuitable for MRI&#xD;
+             include those with cardiac pacemakers, neural pacemakers, surgical clips, metal&#xD;
+             implants, cochlear implants, or metal objects or particles in their body. Pregnancy, a&#xD;
+             history of claustrophobia, weight over 250 lb, or uncorrected vision will also be&#xD;
+             causes of exclusion for participation.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rajamannar Ramasubbu, MD, FRCP(C)</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Calgary</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rajamannar Ramasubbu, MD, FRCP(C)</last_name>
+    <phone>403-210-6890</phone>
+    <email>rramasub@ucalgary.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Darren Clark, PhD</last_name>
+    <phone>403-210-6353</phone>
+    <email>dlclark@ucalgary.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Calgary, TRW Building, Foothills Hospital Campus</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <zip>T2N4Z6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rajamannar Ramasubbu, MD, FRCP(C)</last_name>
+      <phone>403-210-6890</phone>
+      <email>rramasub@ucalgary.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Darren Clark, PhD</last_name>
+      <phone>403-210-6353</phone>
+      <email>dlclark@ucalgary.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Rajamannar Ramasubbu, MD, FRCP(C)</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Calgary: Foothills Hospital</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <zip>T2N4Z6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Rajamannar Ramasubbu, MD, FRCP(C)</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>December 2014</verification_date>
+  <study_first_submitted>December 31, 2014</study_first_submitted>
+  <study_first_submitted_qc>January 2, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 5, 2015</study_first_posted>
+  <last_update_submitted>January 2, 2015</last_update_submitted>
+  <last_update_submitted_qc>January 2, 2015</last_update_submitted_qc>
+  <last_update_posted type="Estimate">January 5, 2015</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Calgary</investigator_affiliation>
+    <investigator_full_name>Rajamannar Ramasubbu</investigator_full_name>
+    <investigator_title>Associate Prof</investigator_title>
+  </responsible_party>
+  <keyword>Major Depression, Neuroimaging, Desvenlafaxine, Machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depressive Disorder</mesh_term>
+    <mesh_term>Depression</mesh_term>
+    <mesh_term>Depressive Disorder, Major</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Desvenlafaxine Succinate</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,397 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04496830</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202004205</org_study_id>
+    <nct_id>NCT04496830</nct_id>
+  </id_info>
+  <brief_title>SPINCOMS Biomarker Study</brief_title>
+  <acronym>SPINCOMS</acronym>
+  <official_title>Cerebrospinal Fluid-biomarkers-based Diagnostic and Prognostic Models for Multiple Sclerosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Ottawa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Montana State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To determine if biomarker-based CSF testing is reliably detecting differences between&#xD;
+      patients with Multiple Sclerosis (MS), different MS-subtypes, and other central nervous&#xD;
+      system (CNS) diseases. This study will also look to identify biomarkers that could be used&#xD;
+      for the prediction, at the time of diagnosis, of the future disease clinical course and&#xD;
+      response to therapy. The SOMAscan assay will be used for CSF samples analysis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Using machine learning, the investigators have developed from SOMAScan:&#xD;
+&#xD;
+        1. A molecular diagnostic test that differentiates MS from other inflammatory and&#xD;
+           non-inflammatory central nervous system (CNS) diseases (area under receiver-operator&#xD;
+           characteristic curve-AUROC of 0.98);&#xD;
+&#xD;
+        2. A molecular test that differentiates relapsing-remitting MS from progressive MS variants&#xD;
+           (AUROC of 0.91); and&#xD;
+&#xD;
+        3. A molecular test that predicts future rates of disability progression, concordance&#xD;
+           coefficient of 0.425 (p&lt;0.001).&#xD;
+&#xD;
+      Because these results are derived from a single research center (NIAID/NDS), it is imperative&#xD;
+      to determine their performance in real clinical practice settings as a necessary step for&#xD;
+      their potential regulatory approval.&#xD;
+&#xD;
+      Consequently, this application has 2 specific aims:&#xD;
+&#xD;
+      AIM 1. To independently validate afore-mentioned CSF-biomarker-based tests for their clinical&#xD;
+      value within the multicenter Spinal fluid Consortium for MS (SPINCOMS). In Aim 1, each of the&#xD;
+      3 defined tests will be validated in 100 new SPINCOMS patients. To validate the prognostic&#xD;
+      test, 100 MS patients with CSF collected at least 3 years ago will be evaluated at follow-up&#xD;
+      examination with standardized clinical outcomes. CSF will be analyzed blinded using&#xD;
+      pre-defined statistical models.&#xD;
+&#xD;
+      AIM 2. To explore whether collected CSF-biomarkers point towards pathogenic heterogeneity&#xD;
+      that may predict patient-specific efficacy for different disease-modifying treatments (DMTs)&#xD;
+      or identify pathogenic mechanisms not targeted by current DMTs. In Aim 2, clustering analysis&#xD;
+      will assess pathogenic heterogeneity and explore potential predictors of response to therapy.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 15, 2020</start_date>
+  <completion_date type="Anticipated">July 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>For the MS diagnostic test, the investigators will select 50 patients with definite MS (CIS/RIS excluded) and 50 controls, including 25 non-inflammatory neurological diseases (NIND) that mimic MS (such as patients with vascular-ischemic changes, complex migraines, leukodystrophies, etc.) and 25 other inflammatory neurological diseases (OIND) such as NMO, Susac's syndrome, sarcoidosis, CNS vasculitis.&#xD;
+For validating the RRMS versus progressive MS classifier, the investigators will select CSF from 50 RRMS and 50 progressive MS patients (25 SPMS and 25 PPMS).&#xD;
+Cryopreserved CSF samples from these patients will be analyzed blindly using SOMAscan assay. Probability of MS diagnosis and progressive MS diagnosis will be calculated based on published models. Results will then be unblinded and analyzed for accuracy of diagnostic conclusion.&#xD;
+To evaluate the MS severity score, the investigators will select 50 RRMS and 50 progressive MS (25 PPMS and 25 SPMS).</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Biomarker Predicted Outcomes against NeurEx-based outcomes</measure>
+    <time_frame>3 years</time_frame>
+    <description>CSF-biomarker-predicted outcomes against measured NeurEx-based outcomes, considering a Bonferroni-adjusted significance level 0.05/3 = 0.017 (to adjust for 3 tests).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>MS Severity Model Analyses</measure>
+    <time_frame>3 years</time_frame>
+    <description>As secondary analyses of MS severity model,assessment of correlations between CSF-biomarker-predicted outcomes and more traditional MS outcomes. Specifically, correlate CSF-biomarker-based scores of MS severity and MSSS, ARMSSS and by MS-DSS, calculated from the follow-up visit scores. Based on power calculations, 100 relevant patients/classifier will provide &gt; 90% power to externally validate all 3 Somascan CSF-biomarker-based models.</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Multiple Sclerosis</condition>
+  <arm_group>
+    <arm_group_label>Relapsing Remitting Multiple Sclerosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Blood sample collection&#xD;
+Vital signs, weight, height and BMI.&#xD;
+Complete neurological examination documented in NeurEx (recorded with an iPAD).&#xD;
+Clinical data questionnaire&#xD;
+25FW &amp; non-dominant hand 9HPT (required for calculating CombiWISE &amp; MS-DSS).&#xD;
+Smartphone Apps (include 25FW, SDMT and tests that correlate highly w 9HPT - can be acquired in patient-autonomous manner with minimal assistance).&#xD;
+Optical Coherence Tomography (OCT)&#xD;
+CSF Analysis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Progressive Multiple Sclerosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Blood sample collection&#xD;
+Vital signs, weight, height and BMI.&#xD;
+Complete neurological examination documented in NeurEx (recorded with an iPAD).&#xD;
+Clinical data questionnaire&#xD;
+25FW &amp; non-dominant hand 9HPT (required for calculating CombiWISE &amp; MS-DSS).&#xD;
+Smartphone Apps (include 25FW, SDMT and tests that correlate highly w 9HPT - can be acquired in patient-autonomous manner with minimal assistance).&#xD;
+Optical Coherence Tomography (OCT)&#xD;
+CSF Analysis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Inflammatory Neurological Diseases</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinical data questionnaire&#xD;
+CSF Analysis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Other Non-Inflammatory Neurological Diseases</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinical data questionnaire&#xD;
+CSF Analysis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>SOMAscan</intervention_name>
+    <description>Analysis of previously donated cerebrospinal fluid using a SOMAscan assay</description>
+    <arm_group_label>Non-Inflammatory Neurological Diseases</arm_group_label>
+    <arm_group_label>Other Non-Inflammatory Neurological Diseases</arm_group_label>
+    <arm_group_label>Progressive Multiple Sclerosis</arm_group_label>
+    <arm_group_label>Relapsing Remitting Multiple Sclerosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        MS Patients selection criteria&#xD;
+&#xD;
+          -  Lumbar puncture (LP) in the untreated stage with cryopreserved CSF (serum/blood&#xD;
+             optional) with consent to use it for future research&#xD;
+&#xD;
+          -  ≥ 3 and ≤ 10 years of follow-up from LP&#xD;
+&#xD;
+          -  At time of LP untreated and not treated with steroid or off steroids ≥ one month&#xD;
+&#xD;
+          -  Available/willing to come for in-person follow-up&#xD;
+&#xD;
+          -  Available/willing to sign the NIH 09-I-0032 &quot;Sample processing only&quot; consent form&#xD;
+&#xD;
+          -  Diagnosis of MS based on 2017 McDonald criteria at time of follow-up visit&#xD;
+&#xD;
+        Non-MS Patients selection criteria Required: 25 Non-Inflammatory Neurological Disease&#xD;
+        (NIND), 25 Other Inflammatory Neurological Disease (OIND)&#xD;
+&#xD;
+          -  Lumbar puncture (LP) in the untreated stage with cryopreserved CSF (serum/blood&#xD;
+             optional) with consent to use it for future research&#xD;
+&#xD;
+          -  ≥ 3 and ≤ 10 years of follow-up from LP&#xD;
+&#xD;
+          -  At time of LP untreated and not treated with steroid or off steroids ≥ one month&#xD;
+&#xD;
+          -  Up to date contact information&#xD;
+&#xD;
+          -  Available/willing to sign the NIH 09-I-0032 &quot;Sample processing only&quot; consent form&#xD;
+&#xD;
+          -  Diagnosis:&#xD;
+&#xD;
+        NIND: e.g., ischemic-gliotic changes, CADASIL and other leukodystrophies, migraines,&#xD;
+        ischemic spinal cord lesions etc OIND: e.g. CNS Sjogren's, SLE, vasculitis, CNS infections,&#xD;
+        MOG-associated disorders, NMO spectrum disorders (NMOSD)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Washington University in St Louis</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Laura Piccio, MD, PhD</last_name>
+      <phone>314-747-4591</phone>
+      <email>picciol@neuro.wustl.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Laura Ghezzi, MD</last_name>
+      <phone>314-362-3306</phone>
+      <email>lghezzi@wustl.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Laura Piccio, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Kidd DP. Sarcoidosis of the central nervous system: clinical features, imaging, and CSF results. J Neurol. 2018 Aug;265(8):1906-1915. doi: 10.1007/s00415-018-8928-2. Epub 2018 Jun 19.</citation>
+    <PMID>29922952</PMID>
+  </reference>
+  <reference>
+    <citation>Barbour C, Kosa P, Komori M, Tanigawa M, Masvekar R, Wu T, Johnson K, Douvaras P, Fossati V, Herbst R, Wang Y, Tan K, Greenwood M, Bielekova B. Molecular-based diagnosis of multiple sclerosis and its progressive stage. Ann Neurol. 2017 Nov;82(5):795-812. doi: 10.1002/ana.25083.</citation>
+    <PMID>29059494</PMID>
+  </reference>
+  <reference>
+    <citation>Weideman AM, Tapia-Maltos MA, Johnson K, Greenwood M, Bielekova B. Meta-analysis of the Age-Dependent Efficacy of Multiple Sclerosis Treatments. Front Neurol. 2017 Nov 10;8:577. doi: 10.3389/fneur.2017.00577. eCollection 2017.</citation>
+    <PMID>29176956</PMID>
+  </reference>
+  <reference>
+    <citation>Kosa P, Komori M, Waters R, Wu T, Cortese I, Ohayon J, Fenton K, Cherup J, Gedeon T, Bielekova B. Novel composite MRI scale correlates highly with disability in multiple sclerosis patients. Mult Scler Relat Disord. 2015 Nov;4(6):526-35. doi: 10.1016/j.msard.2015.08.009. Epub 2015 Aug 28.</citation>
+    <PMID>26590659</PMID>
+  </reference>
+  <reference>
+    <citation>Koga S, Aoki N, Uitti RJ, van Gerpen JA, Cheshire WP, Josephs KA, Wszolek ZK, Langston JW, Dickson DW. When DLB, PD, and PSP masquerade as MSA: an autopsy study of 134 patients. Neurology. 2015 Aug 4;85(5):404-12. doi: 10.1212/WNL.0000000000001807. Epub 2015 Jul 2.</citation>
+    <PMID>26138942</PMID>
+  </reference>
+  <reference>
+    <citation>Filippi M, Preziosa P, Meani A, Ciccarelli O, Mesaros S, Rovira A, Frederiksen J, Enzinger C, Barkhof F, Gasperini C, Brownlee W, Drulovic J, Montalban X, Cramer SP, Pichler A, Hagens M, Ruggieri S, Martinelli V, Miszkiel K, Tintorè M, Comi G, Dekker I, Uitdehaag B, Dujmovic-Basuroski I, Rocca MA. Prediction of a multiple sclerosis diagnosis in patients with clinically isolated syndrome using the 2016 MAGNIMS and 2010 McDonald criteria: a retrospective study. Lancet Neurol. 2018 Feb;17(2):133-142. doi: 10.1016/S1474-4422(17)30469-6. Epub 2017 Dec 21.</citation>
+    <PMID>29275979</PMID>
+  </reference>
+  <reference>
+    <citation>Kosa P, Barbour C, Wichman A, Sandford M, Greenwood M, Bielekova B. NeurEx: digitalized neurological examination offers a novel high-resolution disability scale. Ann Clin Transl Neurol. 2018 Sep 24;5(10):1241-1249. doi: 10.1002/acn3.640. eCollection 2018 Oct.</citation>
+    <PMID>30349859</PMID>
+  </reference>
+  <reference>
+    <citation>Weideman AM, Barbour C, Tapia-Maltos MA, Tran T, Jackson K, Kosa P, Komori M, Wichman A, Johnson K, Greenwood M, Bielekova B. New Multiple Sclerosis Disease Severity Scale Predicts Future Accumulation of Disability. Front Neurol. 2017 Nov 10;8:598. doi: 10.3389/fneur.2017.00598. eCollection 2017.</citation>
+    <PMID>29176958</PMID>
+  </reference>
+  <reference>
+    <citation>Hawker K, O'Connor P, Freedman MS, Calabresi PA, Antel J, Simon J, Hauser S, Waubant E, Vollmer T, Panitch H, Zhang J, Chin P, Smith CH; OLYMPUS trial group. Rituximab in patients with primary progressive multiple sclerosis: results of a randomized double-blind placebo-controlled multicenter trial. Ann Neurol. 2009 Oct;66(4):460-71. doi: 10.1002/ana.21867.</citation>
+    <PMID>19847908</PMID>
+  </reference>
+  <reference>
+    <citation>Montalban X, Hauser SL, Kappos L, Arnold DL, Bar-Or A, Comi G, de Seze J, Giovannoni G, Hartung HP, Hemmer B, Lublin F, Rammohan KW, Selmaj K, Traboulsee A, Sauter A, Masterman D, Fontoura P, Belachew S, Garren H, Mairon N, Chin P, Wolinsky JS; ORATORIO Clinical Investigators. Ocrelizumab versus Placebo in Primary Progressive Multiple Sclerosis. N Engl J Med. 2017 Jan 19;376(3):209-220. doi: 10.1056/NEJMoa1606468. Epub 2016 Dec 21.</citation>
+    <PMID>28002688</PMID>
+  </reference>
+  <reference>
+    <citation>Kosa P, Ghazali D, Tanigawa M, Barbour C, Cortese I, Kelley W, Snyder B, Ohayon J, Fenton K, Lehky T, Wu T, Greenwood M, Nair G, Bielekova B. Development of a Sensitive Outcome for Economical Drug Screening for Progressive Multiple Sclerosis Treatment. Front Neurol. 2016 Aug 15;7:131. doi: 10.3389/fneur.2016.00131. eCollection 2016.</citation>
+    <PMID>27574516</PMID>
+  </reference>
+  <reference>
+    <citation>Chen R, Mias GI, Li-Pook-Than J, Jiang L, Lam HY, Chen R, Miriami E, Karczewski KJ, Hariharan M, Dewey FE, Cheng Y, Clark MJ, Im H, Habegger L, Balasubramanian S, O'Huallachain M, Dudley JT, Hillenmeyer S, Haraksingh R, Sharon D, Euskirchen G, Lacroute P, Bettinger K, Boyle AP, Kasowski M, Grubert F, Seki S, Garcia M, Whirl-Carrillo M, Gallardo M, Blasco MA, Greenberg PL, Snyder P, Klein TE, Altman RB, Butte AJ, Ashley EA, Gerstein M, Nadeau KC, Tang H, Snyder M. Personal omics profiling reveals dynamic molecular and medical phenotypes. Cell. 2012 Mar 16;148(6):1293-307. doi: 10.1016/j.cell.2012.02.009.</citation>
+    <PMID>22424236</PMID>
+  </reference>
+  <reference>
+    <citation>Bridel C, Eijlers AJC, van Wieringen WN, Koel-Simmelink M, Leurs CE, Schoonheim MM, Killestein J, Teunissen CE. No Plasmatic Proteomic Signature at Clinical Disease Onset Associated With 11 Year Clinical, Cognitive and MRI Outcomes in Relapsing-Remitting Multiple Sclerosis Patients. Front Mol Neurosci. 2018 Oct 31;11:371. doi: 10.3389/fnmol.2018.00371. eCollection 2018.</citation>
+    <PMID>30429773</PMID>
+  </reference>
+  <reference>
+    <citation>Bergman J, Dring A, Zetterberg H, Blennow K, Norgren N, Gilthorpe J, Bergenheim T, Svenningsson A. Neurofilament light in CSF and serum is a sensitive marker for axonal white matter injury in MS. Neurol Neuroimmunol Neuroinflamm. 2016 Aug 2;3(5):e271. doi: 10.1212/NXI.0000000000000271. eCollection 2016 Oct.</citation>
+    <PMID>27536708</PMID>
+  </reference>
+  <reference>
+    <citation>Kuhle J, Barro C, Disanto G, Mathias A, Soneson C, Bonnier G, Yaldizli Ö, Regeniter A, Derfuss T, Canales M, Schluep M, Du Pasquier R, Krueger G, Granziera C. Serum neurofilament light chain in early relapsing remitting MS is increased and correlates with CSF levels and with MRI measures of disease severity. Mult Scler. 2016 Oct;22(12):1550-1559. Epub 2016 Jan 11.</citation>
+    <PMID>26754800</PMID>
+  </reference>
+  <reference>
+    <citation>Komori M, Blake A, Greenwood M, Lin YC, Kosa P, Ghazali D, Winokur P, Natrajan M, Wuest SC, Romm E, Panackal AA, Williamson PR, Wu T, Bielekova B. Cerebrospinal fluid markers reveal intrathecal inflammation in progressive multiple sclerosis. Ann Neurol. 2015 Jul;78(1):3-20. doi: 10.1002/ana.24408. Epub 2015 Apr 16.</citation>
+    <PMID>25808056</PMID>
+  </reference>
+  <reference>
+    <citation>Komori M, Lin YC, Cortese I, Blake A, Ohayon J, Cherup J, Maric D, Kosa P, Wu T, Bielekova B. Insufficient disease inhibition by intrathecal rituximab in progressive multiple sclerosis. Ann Clin Transl Neurol. 2016 Feb 1;3(3):166-79. doi: 10.1002/acn3.293. eCollection 2016 Mar.</citation>
+    <PMID>27042677</PMID>
+  </reference>
+  <reference>
+    <citation>Komori M, Kosa P, Stein J, Zhao V, Blake A, Cherup J, Sheridan J, Wu T, Bielekova B. Pharmacodynamic effects of daclizumab in the intrathecal compartment. Ann Clin Transl Neurol. 2017 May 29;4(7):478-490. doi: 10.1002/acn3.427. eCollection 2017 Jul.</citation>
+    <PMID>28695148</PMID>
+  </reference>
+  <reference>
+    <citation>Gold L, Walker JJ, Wilcox SK, Williams S. Advances in human proteomics at high scale with the SOMAscan proteomics platform. N Biotechnol. 2012 Jun 15;29(5):543-9. doi: 10.1016/j.nbt.2011.11.016. Epub 2011 Dec 7. Review.</citation>
+    <PMID>22155539</PMID>
+  </reference>
+  <reference>
+    <citation>Masvekar R, Wu T, Kosa P, Barbour C, Fossati V, Bielekova B. Cerebrospinal fluid biomarkers link toxic astrogliosis and microglial activation to multiple sclerosis severity. Mult Scler Relat Disord. 2019 Feb;28:34-43. doi: 10.1016/j.msard.2018.11.032. Epub 2018 Dec 5.</citation>
+    <PMID>30553167</PMID>
+  </reference>
+  <reference>
+    <citation>Kurtzke JF. Rating neurologic impairment in multiple sclerosis: an expanded disability status scale (EDSS). Neurology. 1983 Nov;33(11):1444-52.</citation>
+    <PMID>6685237</PMID>
+  </reference>
+  <reference>
+    <citation>Roxburgh RH, Seaman SR, Masterman T, Hensiek AE, Sawcer SJ, Vukusic S, Achiti I, Confavreux C, Coustans M, le Page E, Edan G, McDonnell GV, Hawkins S, Trojano M, Liguori M, Cocco E, Marrosu MG, Tesser F, Leone MA, Weber A, Zipp F, Miterski B, Epplen JT, Oturai A, Sørensen PS, Celius EG, Lara NT, Montalban X, Villoslada P, Silva AM, Marta M, Leite I, Dubois B, Rubio J, Butzkueven H, Kilpatrick T, Mycko MP, Selmaj KW, Rio ME, Sá M, Salemi G, Savettieri G, Hillert J, Compston DA. Multiple Sclerosis Severity Score: using disability and disease duration to rate disease severity. Neurology. 2005 Apr 12;64(7):1144-51.</citation>
+    <PMID>15824338</PMID>
+  </reference>
+  <reference>
+    <citation>Spitzer C, Bouchain M, Winkler LY, Wingenfeld K, Gold SM, Grabe HJ, Barnow S, Otte C, Heesen C. Childhood trauma in multiple sclerosis: a case-control study. Psychosom Med. 2012 Apr;74(3):312-8. doi: 10.1097/PSY.0b013e31824c2013. Epub 2012 Mar 9.</citation>
+    <PMID>22408134</PMID>
+  </reference>
+  <reference>
+    <citation>gbm: Generalized Boosted Regression Models [computer program]. Version 2.1 2013.</citation>
+  </reference>
+  <reference>
+    <citation>Sipe JC, Knobler RL, Braheny SL, Rice GP, Panitch HS, Oldstone MB. A neurologic rating scale (NRS) for use in multiple sclerosis. Neurology. 1984 Oct;34(10):1368-72.</citation>
+    <PMID>6541311</PMID>
+  </reference>
+  <reference>
+    <citation>Hauser SL, Dawson DM, Lehrich JR, Beal MF, Kevy SV, Propper RD, Mills JA, Weiner HL. Intensive immunosuppression in progressive multiple sclerosis. A randomized, three-arm study of high-dose intravenous cyclophosphamide, plasma exchange, and ACTH. N Engl J Med. 1983 Jan 27;308(4):173-80.</citation>
+    <PMID>6294517</PMID>
+  </reference>
+  <reference>
+    <citation>Schmidt F, Oliveira AL, Araujo A. Development and Validation of a Neurological Disability Scale for Patients with HTLV-1 Associated Myelopathy/Tropical Spastic Paraparesis (HAM/TSP): The IPEC-1 Scale. Neurology 2012;78.</citation>
+  </reference>
+  <reference>
+    <citation>Fischer JS, Rudick RA, Cutter GR, Reingold SC. The Multiple Sclerosis Functional Composite Measure (MSFC): an integrated approach to MS clinical outcome assessment. National MS Society Clinical Outcomes Assessment Task Force. Mult Scler. 1999 Aug;5(4):244-50. Review.</citation>
+    <PMID>10467383</PMID>
+  </reference>
+  <reference>
+    <citation>Sun YV. Multigenic modeling of complex disease by random forests. Adv Genet. 2010;72:73-99. doi: 10.1016/B978-0-12-380862-2.00004-7. Review.</citation>
+    <PMID>21029849</PMID>
+  </reference>
+  <reference>
+    <citation>Sun BB, Maranville JC, Peters JE, Stacey D, Staley JR, Blackshaw J, Burgess S, Jiang T, Paige E, Surendran P, Oliver-Williams C, Kamat MA, Prins BP, Wilcox SK, Zimmerman ES, Chi A, Bansal N, Spain SL, Wood AM, Morrell NW, Bradley JR, Janjic N, Roberts DJ, Ouwehand WH, Todd JA, Soranzo N, Suhre K, Paul DS, Fox CS, Plenge RM, Danesh J, Runz H, Butterworth AS. Genomic atlas of the human plasma proteome. Nature. 2018 Jun;558(7708):73-79. doi: 10.1038/s41586-018-0175-2. Epub 2018 Jun 6.</citation>
+    <PMID>29875488</PMID>
+  </reference>
+  <reference>
+    <citation>Calle ML, Urrea V, Boulesteix AL, Malats N. AUC-RF: a new strategy for genomic profiling with random forest. Hum Hered. 2011;72(2):121-32. doi: 10.1159/000330778. Epub 2011 Oct 11.</citation>
+    <PMID>21996641</PMID>
+  </reference>
+  <reference>
+    <citation>Friedman J.Greedy function approximation: the gradient boosting machine. Annals of Statistics 2001;29:1189-1232.</citation>
+  </reference>
+  <reference>
+    <citation>Sheridan LK, Fitzgerald HE, Adams KM, Nigg JT, Martel MM, Puttler LI, Wong MM, Zucker RA. Normative Symbol Digit Modalities Test performance in a community-based sample. Arch Clin Neuropsychol. 2006 Jan;21(1):23-8. Epub 2005 Aug 31.</citation>
+    <PMID>16139470</PMID>
+  </reference>
+  <reference>
+    <citation>Learmonth YC, Motl RW, Sandroff BM, Pula JH, Cadavid D. Validation of patient determined disease steps (PDDS) scale scores in persons with multiple sclerosis. BMC Neurol. 2013 Apr 25;13:37. doi: 10.1186/1471-2377-13-37.</citation>
+    <PMID>23617555</PMID>
+  </reference>
+  <reference>
+    <citation>Kragt JJ, Thompson AJ, Montalban X, Tintoré M, Río J, Polman CH, Uitdehaag BM. Responsiveness and predictive value of EDSS and MSFC in primary progressive MS. Neurology. 2008 Mar 25;70(13 Pt 2):1084-91. doi: 10.1212/01.wnl.0000288179.86056.e1. Epub 2008 Jan 9.</citation>
+    <PMID>18184917</PMID>
+  </reference>
+  <reference>
+    <citation>Landis SC, Amara SG, Asadullah K, Austin CP, Blumenstein R, Bradley EW, Crystal RG, Darnell RB, Ferrante RJ, Fillit H, Finkelstein R, Fisher M, Gendelman HE, Golub RM, Goudreau JL, Gross RA, Gubitz AK, Hesterlee SE, Howells DW, Huguenard J, Kelner K, Koroshetz W, Krainc D, Lazic SE, Levine MS, Macleod MR, McCall JM, Moxley RT 3rd, Narasimhan K, Noble LJ, Perrin S, Porter JD, Steward O, Unger E, Utz U, Silberberg SD. A call for transparent reporting to optimize the predictive value of preclinical research. Nature. 2012 Oct 11;490(7419):187-91. doi: 10.1038/nature11556.</citation>
+    <PMID>23060188</PMID>
+  </reference>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>July 27, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 30, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 3, 2020</study_first_posted>
+  <last_update_submitted>July 30, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 30, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Sclerosis</mesh_term>
+    <mesh_term>Sclerosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Will be determined based whether or not recruitment numbers will be sufficient to power outcome analyses.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

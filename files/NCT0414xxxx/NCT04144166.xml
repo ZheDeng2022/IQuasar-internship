@@ -1,0 +1,722 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04144166</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CS-011-004</org_study_id>
+    <nct_id>NCT04144166</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Capillary Refill Index</brief_title>
+  <acronym>CRI</acronym>
+  <official_title>Evaluation of Capillary Refill Index</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nihon Kohden</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Nihon Kohden</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Comparison of a peripheral perfusion assessment method using a pulse oximeter to the&#xD;
+      conventional capillary refill time visually assessed by a clinician.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A new technology, capillary refill index (CRI), to assess peripheral perfusion status&#xD;
+      quantitatively using pulse oximeter waveforms is being developed. The conventional capillary&#xD;
+      refill time (CRT) is widely used in clinical settings as a gold standard to assess peripheral&#xD;
+      perfusion.&#xD;
+&#xD;
+      The objective of this study is to evaluate the capability of CRI to predict altered&#xD;
+      peripheral perfusion determined with the conventional CRT test. Predictive capability of CRI&#xD;
+      needs to be assessed to achieve a goal to provide clinicians with an alternative method to&#xD;
+      the conventional CRT.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 29, 2019</start_date>
+  <completion_date type="Actual">December 23, 2019</completion_date>
+  <primary_completion_date type="Actual">December 4, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predictive Capability of the Altered Peripheral Perfusion</measure>
+    <time_frame>&lt; 30 min *right after enrollment</time_frame>
+    <description>The area under the curve (AUC) of the receiver operator characteristic (ROC) curve analysis on CRI values to predict probability of altered peripheral perfusion determined with the CRT test.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of Device CRI to Conventional (Visual) CRT</measure>
+    <time_frame>&lt; 30 min *right after enrollment</time_frame>
+    <description>Spearman's correlation coefficient to assess the correlation between CRI and CRT values.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">60</enrollment>
+  <condition>Perfusion; Complications</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>capillary refill index (CRI)</intervention_name>
+    <description>a waveform analysis method using a pulse oximeter to assess peripheral perfusion</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults in ED or admitted to ICU&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Individuals 18 years of age or older&#xD;
+&#xD;
+          2. Patients who present to the ED or who are admitted to the ICU of North Shore&#xD;
+             University Hospital (NSUH)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Pregnant&#xD;
+&#xD;
+          2. Prisoners&#xD;
+&#xD;
+          3. Finger, hand or forearm anatomical anomaly or disease that may interfere with&#xD;
+             attaching a pulse oximeter sensor&#xD;
+&#xD;
+          4. Patients' deemed clinically unstable by the clinical team&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Timmy Li, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Admin Dir Clinical Research Emergency Medicine, Northwell Health</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>North Shore University Hospital</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>October 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 30, 2019</study_first_posted>
+  <results_first_submitted>November 19, 2020</results_first_submitted>
+  <results_first_submitted_qc>February 1, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">February 2, 2021</results_first_posted>
+  <last_update_submitted>February 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>capillary refill time</keyword>
+  <keyword>peripheral perfusion</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>August 2, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/66/NCT04144166/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 27, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/66/NCT04144166/ICF_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>All Subjects</title>
+          <description>Adult emergency department (ED) patients, both males and females without regards to ethnic and racial backgrounds. CRT and CRI measurements were conducted with following methods for each subject in a relaxed position (seated or lying down) with relaxed hands. The subject's most accessible hand (right or left) was used. Each measurement of visual CRT and device CRI were performed alternately and were repeated three times each for a total of six compressions per subject.&#xD;
+Visual CRT measurement using a stopwatch An investigator (an ED physician) compressed the fingertip of the subject's index or middle finger for five seconds, signaled by &quot;start compression&quot; and &quot;release compression&quot; beep sounds. When the fingertip was released from the compression, the investigator began the visual CRT measurement. The investigator held a stopwatch in the hand that did not perform the compression and used this stopwatch to measure CRT.&#xD;
+CRI measurement by the investigational device The SpO2 sensor probe was applied to either the index or middle fingertip of the same hand of the subject used in the CRT measurement, depending upon which fingertip was compressed in the CRT measurement. The investigator who measured the visual CRT was blinded from the measured value of the CRI measurement.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="60"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="57"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Discharged before study start</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Pregnancy</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Nail polish could not be removed from finger</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Subjects</title>
+          <description>Adult emergency department (ED) patients, both males and females without regards to ethnic and racial backgrounds. CRT and CRI measurements were conducted with following methods for each subject in a relaxed position (seated or lying down) with relaxed hands. The subject's most accessible hand (right or left) was used. Each measurement of visual CRT and device CRI were performed alternately and were repeated three times each for a total of six compressions per subject.&#xD;
+Visual CRT measurement using a stopwatch An investigator (an ED physician) compressed the fingertip of the subject's index or middle finger for five seconds, signaled by &quot;start compression&quot; and &quot;release compression&quot; beep sounds. When the fingertip was released from the compression, the investigator began the visual CRT measurement. The investigator held a stopwatch in the hand that did not perform the compression and used this stopwatch to measure CRT.&#xD;
+CRI measurement by the investigational device The SpO2 sensor probe was applied to either the index or middle fingertip of the same hand of the subject used in the CRT measurement, depending upon which fingertip was compressed in the CRT measurement. The investigator who measured the visual CRT was blinded from the measured value of the CRI measurement.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="57"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="49.0" lower_limit="38.0" upper_limit="66.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="39"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="32"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Other/Multiracial</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>No designation</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Fitzpatrick Skin Tone Scale</title>
+          <description>Fitzpatrick skin tone scale is a numerical classification schema for human skin color. The scales range from 1 - fairest skin to 6 - very dark pigment skin. A visual chart comparison was used for assignment of each subject. Results (see later) only addressed a comparison of subjects in Fitzpatrick 1, 2 or 3 versus subjects in Fitzpatrick 4, 5 of 6.</description>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Fitzpatrick skin tone - 1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fitzpatrick skin tone - 2</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fitzpatrick skin tone - 3</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fitzpatrick skin tone - 4</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fitzpatrick skin tone - 5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Fitzpatrick skin tone - 6</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Predictive Capability of the Altered Peripheral Perfusion</title>
+        <description>The area under the curve (AUC) of the receiver operator characteristic (ROC) curve analysis on CRI values to predict probability of altered peripheral perfusion determined with the CRT test.</description>
+        <time_frame>&lt; 30 min *right after enrollment</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Sensitivity and Specificity to Predict Low Peripheral Perfusion</title>
+            <description>Ability to differentiate altered peripheral perfusion with a CRI cutoff value of 3.37 s for low CRT (&gt; 2 s) and very low CRT (&gt; 3 s)</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Predictive Capability of the Altered Peripheral Perfusion</title>
+          <description>The area under the curve (AUC) of the receiver operator characteristic (ROC) curve analysis on CRI values to predict probability of altered peripheral perfusion determined with the CRT test.</description>
+          <units>probability</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="57"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Optimal CRI (3.37 s) low peripheral perfusion sensitivity</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.89" lower_limit="0.71" upper_limit="0.98"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Optimal CRI (3.37 s) low peripheral perfusion specificity</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.00" lower_limit="0.88" upper_limit="1.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Optimal CRI (3.37 s) very low peripheral perfusion sensitivity</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.94" lower_limit="0.73" upper_limit="1.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Optimal CRI (3.37 s) very low peripheral perfusion specificity</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.82" lower_limit="0.67" upper_limit="0.93"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>AUC low peripheral perfusion (&gt; 2 s)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.986" lower_limit="0.944" upper_limit="0.997"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>AUC very low peripheral perfusion (&gt; 3 s)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.910" lower_limit="0.807" upper_limit="0.960"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Correlation of Device CRI to Conventional (Visual) CRT</title>
+        <description>Spearman's correlation coefficient to assess the correlation between CRI and CRT values.</description>
+        <time_frame>&lt; 30 min *right after enrollment</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Correlation Between CRI and CRT Values</title>
+            <description>Spearman's correlation method to determine relationship between median device CRI and median device CRT measurements.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Correlation of Device CRI to Conventional (Visual) CRT</title>
+          <description>Spearman's correlation coefficient to assess the correlation between CRI and CRT values.</description>
+          <units>Spearman's correlation coefficient</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="57"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.866" lower_limit="0.782" upper_limit="0.919"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Mean value for visual CRT and median value for device CRI were calculated for each participant. 3 values were measured (each) for CRT and CRI. Mean value is equal to SUM(m1,m2,m3)/3.&#xD;
+Median value was then calculated for the set (57) of calculated mean visual CRT and mean device CRI. Median value is equal to the middle value of the series of mean values. All measurements are in units of seconds.</groups_desc>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <other_analysis_desc>See above</other_analysis_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Post-Hoc</type>
+        <title>Independence of Age Impact on CRI Measurement for Low Peripheral Perfusion (CRT &gt; 2 Seconds)</title>
+        <description>Demonstrate that age is not a variant for CRI measurement</description>
+        <time_frame>&lt; 30 min *right after enrollment</time_frame>
+        <population>Patients &lt; 60 years vs. &gt;= 60 years</population>
+        <group_list>
+          <group group_id="O1">
+            <title>All Subject &gt;= 60 Years</title>
+            <description>All subject &gt;= 60 years</description>
+          </group>
+          <group group_id="O2">
+            <title>All Subjects &lt; 60 Years</title>
+            <description>All subjects &lt; 60 years</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Independence of Age Impact on CRI Measurement for Low Peripheral Perfusion (CRT &gt; 2 Seconds)</title>
+          <description>Demonstrate that age is not a variant for CRI measurement</description>
+          <population>Patients &lt; 60 years vs. &gt;= 60 years</population>
+          <units>probabllity</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+                <count group_id="O2" value="34"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.992" lower_limit="0.888" upper_limit="1.000"/>
+                    <measurement group_id="O2" value="0.982" lower_limit="0.901" upper_limit="1.000"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Post-Hoc</type>
+        <title>Independence of Fitzpatrick Skin Tone Score on CRI Measurement for Low Peripheral Perfusion (CRT &gt; 2 Seconds)</title>
+        <description>Demonstrate that skin tone is not a variant for CRI measurement</description>
+        <time_frame>&lt; 30 min *right after enrollment</time_frame>
+        <population>Subjects with Fitzpatrick skin tone score of 1, 2 or 3 vs. scores of 4, 5, or 6</population>
+        <group_list>
+          <group group_id="O1">
+            <title>All Subjects With Fitzpatrick Skin Tone Score of 1, 2 or 3</title>
+            <description>All subjects with FItzpatrick skin tone score of 1, 2 or 3</description>
+          </group>
+          <group group_id="O2">
+            <title>All Subjects With Fitzpatrick Skin Tone Score of 4, 5 or 6</title>
+            <description>All subjects with FItzpatrick skin tone score of 4, 5 or 6</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Independence of Fitzpatrick Skin Tone Score on CRI Measurement for Low Peripheral Perfusion (CRT &gt; 2 Seconds)</title>
+          <description>Demonstrate that skin tone is not a variant for CRI measurement</description>
+          <population>Subjects with Fitzpatrick skin tone score of 1, 2 or 3 vs. scores of 4, 5, or 6</population>
+          <units>probability</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="36"/>
+                <count group_id="O2" value="21"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.994" lower_limit="0.993" upper_limit="1.00"/>
+                    <measurement group_id="O2" value="0.981" lower_limit="0.820" upper_limit="0.998"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>30 min</time_frame>
+      <desc>All adverse events (all cause mortality, serious-adverse, other - not serious) reported to P.I. in written form via data collection form</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>All Subjects</title>
+          <description>Adult emergency department (ED) patients, both males and females without regards to ethnic and racial backgrounds. CRT and CRI measurements were conducted with following methods for each subject in a relaxed position (seated or lying down) with relaxed hands. The subject's most accessible hand (right or left) was used. Each measurement of visual CRT and device CRI were performed alternately and were repeated three times each for a total of six compressions per subject.&#xD;
+Visual CRT measurement using a stopwatch An investigator (an ED physician) compressed the fingertip of the subject's index or middle finger for five seconds, signaled by &quot;start compression&quot; and &quot;release compression&quot; beep sounds. When the fingertip was released from the compression, the investigator began the visual CRT measurement. The investigator held a stopwatch in the hand that did not perform the compression and used this stopwatch to measure CRT.&#xD;
+CRI measurement by the investigational device The SpO2 sensor probe was applied to either the index or middle fingertip of the same hand of the subject used in the CRT measurement, depending upon which fingertip was compressed in the CRT measurement. The investigator who measured the visual CRT was blinded from the measured value of the CRI measurement.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="57"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="57"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="57"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is less than or equal to 60 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Sample size: Number of required sample size was 54. Detail of the sample size calculation is described in the clinical protocol document. Actual results were 57 subjects, so results are statistically valid with respect to sample size.&#xD;
+Participant flow: Subject discovered to be pregnant and removed from study. Since study is non-invasive and minimal risk, subject and fetus were not exposed to any additional risks. Hospital IRB was notified of deviation and did not require other reporting.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Director of Clinical Research for Emergency Medicine</name_or_title>
+      <organization>North Shore University Hospital</organization>
+      <phone>(516) 562-1513</phone>
+      <email>TLi2@northwell.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

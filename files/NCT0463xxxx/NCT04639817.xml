@@ -1,0 +1,195 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04639817</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BD022382</org_study_id>
+    <nct_id>NCT04639817</nct_id>
+  </id_info>
+  <brief_title>Trimethoprim-Sulfamethoxazole vs Levofloxacin as Targeted Therapy for Stenotrophomonas Maltophilia Infections: a Retrospective Cohort Study</brief_title>
+  <official_title>Trimethoprim-Sulfamethoxazole or Levofloxacin? A Retrospective Cohort Study of Targeted Therapy for Stenotrophomonas Maltophilia Blood Stream and Lower Respiratory Tract Infections</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institutes of Health Clinical Center (CC)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Emory University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study seeks to compare mortality outcomes of levofloxacin and&#xD;
+      trimethoprim-sulfamethoxazole treated patients who have Stenotrophomonas maltophilia blood&#xD;
+      stream or lower respiratory tract infections by retrospectively analyzing a&#xD;
+      propensity-matched cohort from a large dataset of electronic health record data.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 14, 2020</start_date>
+  <completion_date type="Actual">April 27, 2021</completion_date>
+  <primary_completion_date type="Actual">January 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death or hospice discharge</measure>
+    <time_frame>In-hospital</time_frame>
+    <description>Patient died or discharged to hospice</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospital length of stay</measure>
+    <time_frame>Single encounter</time_frame>
+    <description>Mean hospital length of stay, where mortality will be censored as longest possible length of stay</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">1621</enrollment>
+  <condition>Stenotrophomonas Infection</condition>
+  <arm_group>
+    <arm_group_label>Levofloxacin targeted therapy</arm_group_label>
+    <description>Patients with Stenotrophomonas maltophilia bacteremia or lower respiratory tract infection who received Levofloxacin from day of culture positivity (day 0) through day +7.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMP/SMX targeted therapy</arm_group_label>
+    <description>Patients with Stenotrophomonas maltophilia bacteremia or lower respiratory tract infection who received TMP/SMX from day of culture positivity (day 0) through day +7.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Levofloxacin</intervention_name>
+    <description>Levofloxacin administration</description>
+    <arm_group_label>Levofloxacin targeted therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>trimethoprim-sulfamethoxazole</intervention_name>
+    <description>Trimethoprim-sulfamethoxazole administration</description>
+    <arm_group_label>TMP/SMX targeted therapy</arm_group_label>
+    <other_name>TMP/SMX</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult inpatients with Stenotrophomonas maltophilia blood stream or lower respiratory tract&#xD;
+        infection&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18 years of age and older&#xD;
+&#xD;
+          -  Stenotrophomonas maltophilia culture positive from blood or the following specified&#xD;
+             respiratory tract sites: sputum, tracheal aspirate, bronchoalveolar lavage and&#xD;
+             protected bronchial brush washings&#xD;
+&#xD;
+          -  Received either levofloxacin or TMP/SMX targeted therapy&#xD;
+&#xD;
+          -  Those patients that received empiric therapy with a consistent medication (for&#xD;
+             example, levofloxacin empirically in the levofloxacin targeted therapy cohort) were&#xD;
+             included&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Received antimicrobial other than TMP/SMX and levofloxacin, with known activity&#xD;
+             against Stenotrophomonas maltophilia (the list of antimicrobials that fit this&#xD;
+             exclusion criteria is: erythromycin, moxifloxacin, ciprofloxacin, minocycline,&#xD;
+             tigecycline, doxycycline, eravacycline, ceftazidime, cefepime,&#xD;
+             ticarcillin-clavulanate, cefiderocol, colistin, and chloramphenicol)&#xD;
+&#xD;
+          -  Received inconsistent empiric therapy (for example, levofloxacin empirically in the&#xD;
+             TMP/SMX targeted therapy cohort) will be excluded from analysis&#xD;
+&#xD;
+          -  Cystic fibrosis code present&#xD;
+&#xD;
+          -  Organism resistant to therapy received&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sameer Kadri, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Institutes of Health (NIH)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Institutes of Health Clinical Center</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>November 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 23, 2020</study_first_posted>
+  <last_update_submitted>April 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>National Institutes of Health Clinical Center (CC)</investigator_affiliation>
+    <investigator_full_name>Sameer Kadri, M.D.</investigator_full_name>
+    <investigator_title>Staff Clinician, Critical Care Medicine Department</investigator_title>
+  </responsible_party>
+  <keyword>Stenotrophomonas maltophilia, Stenotrophomonas, Levofloxacin, TMP/SMX, Trimethoprim-sulfamethoxazole</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Levofloxacin</mesh_term>
+    <mesh_term>Ofloxacin</mesh_term>
+    <mesh_term>Trimethoprim</mesh_term>
+    <mesh_term>Trimethoprim, Sulfamethoxazole Drug Combination</mesh_term>
+    <mesh_term>Sulfamethoxazole</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>N/A, this data is deidentified</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 18, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/17/NCT04639817/SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

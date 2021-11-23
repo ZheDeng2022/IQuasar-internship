@@ -1,0 +1,575 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04732156</url>
+  </required_header>
+  <id_info>
+    <org_study_id>69HCL20_0769</org_study_id>
+    <nct_id>NCT04732156</nct_id>
+  </id_info>
+  <brief_title>Detection of ISUP≥2 Prostate Cancers Using Multiparametric MRI: Prospective Multicenter Comparison of the PI-RADS Score and an Artificial Intelligence System</brief_title>
+  <acronym>CHANGE</acronym>
+  <official_title>Detection of ISUP≥2 Prostate Cancers Using Multiparametric MRI: Prospective Multicenter Comparison of the PI-RADS Score and an Artificial Intelligence System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospices Civils de Lyon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hospices Civils de Lyon</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multiparametric MRI of the prostate is recommended before each prostate biopsy. It identifies&#xD;
+      suspicious areas which will then be the subject of targeted biopsies. However, MRI suffers&#xD;
+      from low specificity and moderate inter-reader reproducibility, including with the use of the&#xD;
+      PI-RADS version 2.1 score.&#xD;
+&#xD;
+      We are developing, within the framework of RHU PERFUSE, a computer-aided diagnosis system&#xD;
+      (CAD) for the detection of ISUP ≥2 cancers. This system has been trained on a database of&#xD;
+      patients who had prostate MRI and prostatectomy at the Hospices Civils de Lyon and performed&#xD;
+      well on a database of patients who had prostate MRI before biopsy at the Hopices civils de&#xD;
+      Lyon.&#xD;
+&#xD;
+      However, one of the weaknesses of artificial intelligence systems is their low robustness&#xD;
+      when tested on MRI images from different manufacturers or institutions.&#xD;
+&#xD;
+      The goal of the CHANGE study is to build a prospective multicenter cohort of patients who&#xD;
+      underwent prostate multiparametric MRI followed by systematic and targeted prostate biopsies.&#xD;
+      The cohort will be used for the final external validation of the CAD developed in PERFUSE.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 14, 2021</start_date>
+  <completion_date type="Anticipated">June 15, 2026</completion_date>
+  <primary_completion_date type="Anticipated">June 15, 2026</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluation of the non-inferiority of the AUC of the final CAD developed in the PERFUSE program for the detection of ISUP ≥2 cancers, as compared to that of the PI-RADSv2.1 score (human reading), at per-patient analysis.</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>AUC of the final CAD and of the PI-RADS version 2.1 score for the detection of ISUP ≥2 cancers on systematic and targeted biopsies performed after MRI, at per-patient analysis. A priori-defined non-inferiority margin: 5 percentage points.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of the specificities of the CAD and of the PI-RADSv2.1 score for the detection of ISUP ≥2 cancers at per-patient, per-lobe and per-lesion analysis.</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>Specificity of the final CAD and of the PI-RADSv2.1 score for the detection of ISUP ≥2 cancers on systematic and targeted biopsies performed after MRI (per-patient, per-lobe and per-lesion analysis).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of the sensitivities of the CAD and of the PI-RADSv2.1 score for the detection of ISUP ≥2 cancers at per-patient, per-lobe and per-lesion analysis .</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>Sensitivity of the final CAD and of the PI-RADSv2.1 score for the detection of ISUP ≥2 cancers on systematic and targeted biopsies performed after MRI (per-patient, per-lobe and per-lesion analysis)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of the AUCs of the final CAD and of the PI-RADSv2.1 score for predicting the diagnosis of ISUP ≥2 cancer within 3 years, at per-patient analysis.</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>AUC of the final CAD and the PI-RADSv2.1 score for predicting the diagnosis of ISUP ≥2 cancer within 3 years of follow-up, at per-patient analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of the sensitivities and specificities of the final CAD and the PI-RADSv2.1 score for predicting the diagnosis of ISUP ≥2 cancer within 3 years, at per-patient analysis.</measure>
+    <time_frame>Through study completion, an average of 5 years</time_frame>
+    <description>Sensitivity and specificity of the final CAD and the PI-RADSv2.1 score for predicting the diagnosis of ISUP ≥2 cancer within 3 years of follow-up, at per-patient analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assessment of the impact of biopsy setting, magnetic field strength, human reader's experience, biopsy guidance technique and prostate volume on the AUC of the CAD and the PI-RADSv2.1 scores for the detection of ISUP cancers ≥2, at per-patient analysis.</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>Analysis of the effect of biopsy setting, magnetic field strength, reader's experience, biopsy guidance technique and prostate volume on the AUC of the final CAD and the PI-RADv2.1, at per-patient analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of the AUC of the PHI index to that of the final CAD and of the PI-RADSv2.1 score for the detection of ISUP ≥2 cancers, at per-patient analysis.</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>AUC of the PHI index for the detection of cancers ISUP ≥2 on systematic and targeted biopsies performed after MRI, at per-patient analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Estimation of the number of biopsies avoided and the number of ISUP cancers ≥2 missed for the following diagnostic strategies:</measure>
+    <time_frame>Through recruitment completion, an average of 2 years</time_frame>
+    <description>Number of biopsies avoided and number of ISUP cancers ≥2 missed according to the strategies described below:&#xD;
+PHI index then, if positive, MRI and biopsies regardless of the MRI result (MRI used only to guide targeted biopsies).&#xD;
+PHI index then, if positive, MRI then, if positive, targeted biopsies.&#xD;
+Biopsy only if MRI positive; no PHI index.&#xD;
+MRI then, if positive, PHI index then, if positive, targeted biopsies.&#xD;
+MRI then, if negative, PHI index; biopsy for patients with a positive MRI or with a negative MRI but a positive PHI index&#xD;
+PHI index and MRI for all patients; biopsy if positive PHI index AND positive MRI.&#xD;
+PHI index and MRI for all patients; biopsy if positive PHI OR positive MRI.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">420</enrollment>
+  <condition>Prostate Cancer</condition>
+  <arm_group>
+    <arm_group_label>Prospective multicenter cohort</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Constitution of a prospective multicenter cohort of 420 patients with suspected prostate cancer that will undergo prostate multiparametric MRI followed by systematic and targeted biopsy.&#xD;
+When available (i.e., at the end of the RHU PERFUSE program, November 2022), the final version of the CAD will be used retrospectively to assess the risk that the prostate/targeted lesions harbor ISUP ≥2 cancer.&#xD;
+In addition, a blood sample will be taken in all patients before the biopsy to assess the performance of the PHI index in predicting the presence of ISUP ≥2 cancer at systematic and targeted biopsy (ancillary study, secondary objective).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Blood sample</intervention_name>
+    <description>Measurement of PHI Index</description>
+    <arm_group_label>Prospective multicenter cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Follow up questionnaire</intervention_name>
+    <description>3 years after inclusion</description>
+    <arm_group_label>Prospective multicenter cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Human reading of prostate MR images (PI-RADSv2.1).</intervention_name>
+    <description>The PI-RADSv2.1 score will be compared to systematic and targeted biopsy findings (primary objective) and 3-year follow-up (secondary objective)</description>
+    <arm_group_label>Prospective multicenter cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Men over 18 years of age&#xD;
+&#xD;
+          -  Patient with clinical suspicion of prostate cancer referred for a multiparametric MRI&#xD;
+             of the prostate before a first series of biopsies or before new biopsies after one or&#xD;
+             more series of negative biopsies&#xD;
+&#xD;
+          -  PSA ≤ 30 ng / ml&#xD;
+&#xD;
+          -  Clinical stage ≤ T2c&#xD;
+&#xD;
+          -  Affiliation or beneficiary of a social security scheme&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Men over 80 years of age&#xD;
+&#xD;
+          -  PSA&gt; 30 ng / ml&#xD;
+&#xD;
+          -  Stage T3 or T4 on digital rectal examination&#xD;
+&#xD;
+          -  Previous prostate biopsy performed within 12 months&#xD;
+&#xD;
+          -  History of prostate cancer diagnosed by biopsy or endourethral resection.&#xD;
+&#xD;
+          -  History of pelvic radiotherapy regardless of the cause.&#xD;
+&#xD;
+          -  History of total or focal treatment for prostate cancer.&#xD;
+&#xD;
+          -  History of hormone therapy&#xD;
+&#xD;
+          -  MRI performed more than 3 months before biopsy&#xD;
+&#xD;
+          -  Prostate MRI performed on a machine other than the center's machines accredited for&#xD;
+             the study.&#xD;
+&#xD;
+          -  Presence of a hip prosthesis&#xD;
+&#xD;
+          -  Contraindication to performing an MRI&#xD;
+&#xD;
+          -  Contraindication to performing prostate biopsy&#xD;
+&#xD;
+          -  Patient subject to a legal protection measure or deprived of liberty&#xD;
+&#xD;
+          -  Subject participating or having participated in interventional medical research with&#xD;
+             an exclusion period still in progress&#xD;
+&#xD;
+          -  Misunderstanding of the French language&#xD;
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Olivier ROUVIERE, Pr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Service d'imagerie, pavillon B Hôpital Edouard Herriot</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Olivier ROUVIERE, Pr</last_name>
+    <phone>4 72 11 61 70</phone>
+    <phone_ext>+33</phone_ext>
+    <email>olivier.rouviere@chu-lyon.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Adeline MANSUY, PhD</last_name>
+    <phone>4 72 11 51 70</phone>
+    <phone_ext>+33</phone_ext>
+    <email>adeline.mansuy@chu-lyon.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of radiology and urology, CHU Pellegrin</name>
+      <address>
+        <city>Bordeaux</city>
+        <zip>33076</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Clément Marcellin, Dr</last_name>
+      <phone>5 56 79 55 99</phone>
+      <phone_ext>+33</phone_ext>
+      <email>clement.marcelin@chu-bordeaux.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Franck Bladou, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of urology and Radiology, CHU Grenoble Alpes</name>
+      <address>
+        <city>Grenoble</city>
+        <zip>38043</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Aurélie Delouche, MD</last_name>
+      <phone>4 76 76 71 99</phone>
+      <phone_ext>+33</phone_ext>
+      <email>adelouche@chu-grenoble.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Gaelle Fiard, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology and urology, CHU de Lille</name>
+      <address>
+        <city>Lille</city>
+        <zip>59037</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Philippe Puech, Pr</last_name>
+      <phone>3 20 44 61 91</phone>
+      <phone_ext>+33</phone_ext>
+      <email>philippe.puech@chru-lille.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Arnauld Villers, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology and urology, Hôpital Edouard Herriot</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69003</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Olivier Rouvière, Pr</last_name>
+      <phone>4 72 11 61 67</phone>
+      <phone_ext>+33</phone_ext>
+      <email>olivier.rouviere@chu-lyon.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Sébastien Crouzet, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology and urology, Hôpital Saint Joseph Saint Luc</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69007</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Favie Bratan, MD</last_name>
+      <phone>4 78 61 88 00</phone>
+      <phone_ext>+33</phone_ext>
+      <email>fbratan@ch-stjoseph-stluc-lyon.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Nicolas Arfi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Radiology and Urology, Hopital Européen Marseille</name>
+      <address>
+        <city>Marseille</city>
+        <zip>13003</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Marc André, MD</last_name>
+    </contact>
+    <investigator>
+      <last_name>Antoine Van Hove, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Radiology and Urology, Institut Paoli-Calmettes Marseille</name>
+      <address>
+        <city>Marseille</city>
+        <zip>13273</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Serge Brunelle, MD</last_name>
+      <phone>4 91 22 34 19</phone>
+      <phone_ext>+33</phone_ext>
+      <email>brunelles@ipc.unicancer.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Jochen Walz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Urology, Clinique Beausoleil Montpellier</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34070</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Bruno Segui, Dr</last_name>
+      <phone>4 67 75 97 35</phone>
+      <phone_ext>+33</phone_ext>
+      <email>bruno.segui@languedoc-mutualite.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of urology and Radiology</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34090</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ingrid Millet, Pr</last_name>
+      <phone>6 78 88 71 74</phone>
+      <phone_ext>+33</phone_ext>
+      <email>i-millet@chu-montpellier.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Rodolphe Thuret, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department Urology, Clinique urologique Nantes Atlantis</name>
+      <address>
+        <city>Nantes</city>
+        <zip>44800</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Eric Potiron, MD</last_name>
+      <phone>2 28 03 04 44</phone>
+      <phone_ext>+33</phone_ext>
+      <email>ep@cliniqueuro.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology and urology, Hôpital la Pitié Salpêtrière</name>
+      <address>
+        <city>Paris</city>
+        <zip>75013</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Raphaele renardpenna, Pr</last_name>
+      <phone>1 42 17 82 15</phone>
+      <phone_ext>+33</phone_ext>
+      <email>raphaele.renardpenna@aphp.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Pierre Mozer, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of radiology, Hôpital Necker</name>
+      <address>
+        <city>Paris</city>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>jean-michel correas, Pr</last_name>
+      <phone>1 44 49 41 40</phone>
+      <phone_ext>+33</phone_ext>
+      <email>jean-michel.correas@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of urology and radiology, CHLS</name>
+      <address>
+        <city>Pierre-Bénite</city>
+        <zip>69310</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paul Moldovan, MD</last_name>
+      <phone>4 72 11 12 31</phone>
+      <phone_ext>+33</phone_ext>
+      <email>paul-cezar.moldovan@chu-lyon.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Alain Ruffion, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Urology, Quint Fonsegrives</name>
+      <address>
+        <city>Quint Fonsegrives</city>
+        <zip>31130</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Guillaume Ploussard, MD/PhD</last_name>
+      <phone>5 32 02 72 02</phone>
+      <phone_ext>+33</phone_ext>
+      <email>gploussard@capio.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of urology, CHU de Saint-Étienne Hôpital Nord</name>
+      <address>
+        <city>Saint-Etienne</city>
+        <zip>42055</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Nicolas Mottet-Auselot, Pr</last_name>
+      <phone>4 77 82 83 31</phone>
+      <phone_ext>+33</phone_ext>
+      <email>nicolas.mottet@chu-st-etienne.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Radiology and Urology, Nouvel Hôpital Civil - CHU de Strasbourg</name>
+      <address>
+        <city>Strasbourg</city>
+        <zip>67000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Catherine Roy, Pr</last_name>
+      <phone>3 69 55 07 31</phone>
+      <phone_ext>+33</phone_ext>
+      <email>catherine.roy@chru-strasbourg.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Thibault Tricard, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Radiology adn Urology, Institut Universitaire du Cancer ,Toulouse</name>
+      <address>
+        <city>Toulouse</city>
+        <zip>231059</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>aziza richard, MD</last_name>
+      <phone>5 31 15 60 60</phone>
+      <phone_ext>+33</phone_ext>
+      <email>aziza.richard@iuct-oncopole.fr</email>
+    </contact>
+    <investigator>
+      <last_name>bernard malavaud, Pr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>January 18, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 1, 2021</study_first_posted>
+  <last_update_submitted>April 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>prostate cancer</keyword>
+  <keyword>MRI</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Computer-aided diagnosis system</keyword>
+  <keyword>Prostate biopsy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>After publication of the results of the trial, the CHANGE cohort will be made partially accessible to other investigators wishing to test a CAD system aimed at detecting/localizing prostate cancer on MR images while respecting patient information. Request for access to pseudonymized data will be reviewed by the Trial Steering Committee that will grant access or not. To gain access, requestors will be required to sign a data access agreement. Of note, investigators will have access only to the MR images and not to the histological findings. After analysis of the CHANGE MR images by their CAD system, the investigator will be requested to send the results to the Hospices Civils de Lyon. The comparison between the CAD findings and the targeted and systematic biopsy findings will be made by the Hospices Civils de Lyon that will then inform the investigator of the CAD diagnostic performance.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

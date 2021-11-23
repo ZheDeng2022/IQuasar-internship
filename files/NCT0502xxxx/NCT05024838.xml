@@ -1,0 +1,176 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05024838</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-01-004CC</org_study_id>
+    <nct_id>NCT05024838</nct_id>
+  </id_info>
+  <brief_title>Prediction of Block Height of Spinal Anesthesia</brief_title>
+  <official_title>Prediction of Block Height of Spinal Anesthesia Via Machine Learning Approach</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Spinal anesthesia is one of the most used techniques for surgery. Anesthesiologists usually&#xD;
+      check the block height (dermatome) of spinal anesthesia before surgery start. More than 20&#xD;
+      factors have been postulated to alter spinal anesthetic block height. We would like to use&#xD;
+      machine learning to comprehensively consider various factors such as physiological parameters&#xD;
+      and different drug characteristics to establish a predictive model to evaluate the sensory&#xD;
+      blockade of spinal anesthesia.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an observational study of the retrospective collection of patient data.&#xD;
+&#xD;
+      The investigators retrospectively collected the electronic medical record of patients&#xD;
+      receiving spinal anesthesia from July 1, 2018, to Dec 31, 2018. Anesthesia-related factors&#xD;
+      such as anesthesiologist's expertise, injection site, patient position, the dosage of local&#xD;
+      anesthetics, needle size, the direction of needle bevel, and basic demographic information of&#xD;
+      the patients were used for data analysis. Patients less than 18 years old were excluded from&#xD;
+      this study. Twenty percent of the dataset was used as a testing dataset, and the remaining&#xD;
+      were used for model training. The investigators will utilize four machine learning algorithms&#xD;
+      as XGBoost (Extreme Gradient Boosting), AdaBoost (Adaptive Boosting), Random Forest (RF), and&#xD;
+      support vector machine (SVM). Model performances were evaluated visually with a confusion&#xD;
+      matrix.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2020</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensory blockade height of spinal anesthesia</measure>
+    <time_frame>From time of starting spinal anesthesia until the time of testing blockage height, assessed up to 10 minutes</time_frame>
+    <description>The record of sensory blockade level was extracted from retrospective electronic medical records as the primary outcome.&#xD;
+The investigators would like to use machine learning methods to consider various factors such as physiological parameters of patients, different drug characteristics, and different anesthesia providers to establish a predictive model to evaluate the sensory blockade of spinal anesthesia.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Anesthesia; Reaction</condition>
+  <arm_group>
+    <arm_group_label>Spinal anesthesia</arm_group_label>
+    <description>The investigators retrospectively collected the electronic medical record of patients receiving spinal anesthesia from July 1, 2018, to Dec 31, 2018. Patients less than 18 years old were excluded from this study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Machine learning methods</intervention_name>
+    <description>This is an observational study of the retrospective collection of patient data. Anesthesia-related factors such as anesthesiologist's expertise, injection site, patient position, the dosage of local anesthetics, needle size, the direction of needle bevel, and basic demographic information of the patients were used for data analysis. Patients less than 18 years old were excluded from this study. Twenty percent of the dataset was used as a testing dataset, and the remaining were used for model training. The investigators will utilize four machine learning algorithms as XGBoost (Extreme Gradient Boosting), AdaBoost (Adaptive Boosting), Random Forest (RF), and support vector machine (SVM). Model performances were evaluated visually with a confusion matrix.</description>
+    <arm_group_label>Spinal anesthesia</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients receiving spinal anesthesia due to the need for surgical intervention with&#xD;
+        available electronic medical records.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients receiving spinal anesthesia from July 1, 2018, to Dec 31, 2018, with&#xD;
+             available electronic medical records.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt;18 years&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hung-Wei Cheng, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Taipei Veteran General Hospital, Taiwan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Hung-Wei Cheng, MD</last_name>
+    <phone>886-2-28757549</phone>
+    <email>hwc1127@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Anesthesiology, Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hung-Wei Cheng, MD</last_name>
+      <phone>+886938593113</phone>
+      <email>hwc1127@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Fanning N, Arzola C, Balki M, Carvalho JC. Lumbar dural sac dimensions determined by ultrasound helps predict sensory block extent during combined spinal-epidural analgesia for labor. Reg Anesth Pain Med. 2012 May-Jun;37(3):283-8. doi: 10.1097/AAP.0b013e31824b30d2.</citation>
+    <PMID>22476235</PMID>
+  </reference>
+  <reference>
+    <citation>Heng Sia AT, Tan KH, Sng BL, Lim Y, Chan ESY, Siddiqui FJ. Hyperbaric versus plain bupivacaine for spinal anesthesia for cesarean delivery. Anesth Analg. 2015 Jan;120(1):132-140. doi: 10.1213/ANE.0000000000000443. Review.</citation>
+    <PMID>25625258</PMID>
+  </reference>
+  <reference>
+    <citation>Greene NM. Distribution of local anesthetic solutions within the subarachnoid space. Anesth Analg. 1985 Jul;64(7):715-30. Review.</citation>
+    <PMID>3893222</PMID>
+  </reference>
+  <reference>
+    <citation>Horstman DJ, Riley ET, Carvalho B. A randomized trial of maximum cephalad sensory blockade with single-shot spinal compared with combined spinal-epidural techniques for cesarean delivery. Anesth Analg. 2009 Jan;108(1):240-5. doi: 10.1213/ane.0b013e31818e0fa6.</citation>
+    <PMID>19095857</PMID>
+  </reference>
+  <reference>
+    <citation>Kozanhan B, Bardak O, Sami Tutar M, Ozler S, Yildiz M, Solak I. The influence of Body Roundness Index on sensorial block level of spinal anaesthesia for elective caesarean section: an observational study. J Obstet Gynaecol. 2020 Aug;40(6):772-778. doi: 10.1080/01443615.2019.1647523. Epub 2019 Aug 30.</citation>
+    <PMID>31469024</PMID>
+  </reference>
+  <reference>
+    <citation>Kuok CH, Huang CH, Tsai PS, Ko YP, Lee WS, Hsu YW, Hung FY. Preoperative measurement of maternal abdominal circumference relates the initial sensory block level of spinal anesthesia for cesarean section: An observational study. Taiwan J Obstet Gynecol. 2016 Dec;55(6):810-814. doi: 10.1016/j.tjog.2015.04.009.</citation>
+    <PMID>28040125</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 27, 2021</study_first_posted>
+  <last_update_submitted>August 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Spinal anesthesia, Machine learning, Sensory blockade</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

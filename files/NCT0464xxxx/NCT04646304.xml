@@ -1,0 +1,260 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04646304</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20200631-01H</org_study_id>
+    <nct_id>NCT04646304</nct_id>
+  </id_info>
+  <brief_title>Motion Capture as a Tool for the Assessment of Laparoscopic Performance</brief_title>
+  <official_title>Motion Capture as a Tool for the Assessment of Laparoscopic Performance</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ottawa Hospital Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Ottawa Hospital Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this study is to 1) identify motion capture variables that can be used to&#xD;
+      differentiate surgical experience level and 2) evaluate if these variables can be used in a&#xD;
+      surgical education setting to improve resident performance.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be a two-phase study that will take 2 years to complete.&#xD;
+&#xD;
+      Phase 1 will recruit staff surgeons, surgical fellows, and residents from the departments of&#xD;
+      Obstetrics and Gynecology, Urology, General Surgery, and Thoracics at The University of&#xD;
+      Ottawa and The Ottawa Hospital to complete a set of FLS tasks. Logistic regressions will be&#xD;
+      used to identify significant factors that differentiate surgical experience level (junior&#xD;
+      residents, senior residents, fellows, and staff). Classification of residents will depend on&#xD;
+      their current cohort in the CDB or traditional time-based system: A target interval will be&#xD;
+      computed for each significant factor based on the staff surgeons' average performance. This&#xD;
+      target interval will be used to assess resident performance in Phase 2.&#xD;
+&#xD;
+      Phase 2 will recruit Transition to Discipline residents from each department to complete 3&#xD;
+      sets of FLS tasks. Participants will be randomized into an &quot;objective feedback&quot; group or a&#xD;
+      &quot;no feedback&quot; group. Participants randomized to the objective feedback group will receive a&#xD;
+      report that compares their performance in Set 1 to that of the staff surgeons' using the&#xD;
+      target interval as a reference. Participants receiving objective feedback will then complete&#xD;
+      Sets 2 and 3 knowing what factors to improve upon. Participants receiving no feedback will&#xD;
+      complete all sets with no intervention. Phase 2 data collection will start once Phase 1 is&#xD;
+      completed.&#xD;
+&#xD;
+      Trajectories of retro-reflective markers will be recorded using a 6-camera motion analysis&#xD;
+      system (40MXF-40 Vicon cameras, Oxford Metrics, Oxford, UK) sampling at 100 Hz with&#xD;
+      supporting Nexus software (v2, Oxford Metrics, Oxford, UK). Retro-reflective markers will be&#xD;
+      placed on various anatomical landmarks on the participant's body based on a cluster marker&#xD;
+      set. Laparoscopic surgical tools (grasper, scissors, or dissector) will have a marker triad&#xD;
+      fixed to the upper shaft while a laparoscopic trainer (FLS Trainer System, Limbs &amp; Things,&#xD;
+      Savannah GA) will have markers placed at its corners. Using Vicon Nexus software, raw marker&#xD;
+      trajectories will be filtered and used to compute local coordinate systems of the upper body,&#xD;
+      joint centers, and subsequent joint angles while filtered marker trajectories on the&#xD;
+      laparoscopic tools will compute the tool tip's motion and orientation relative to the box&#xD;
+      trainer's workspace. Inertial measurement units (IMUs) will also be used to capture motion of&#xD;
+      the upper body and compare to motion capture outcomes (Secondary Objective). Wireless IMUs&#xD;
+      will be placed along the long axis of the forearm, upper arm, upper spine and lower spine.&#xD;
+&#xD;
+      Surface electromyography (EMG) signals of the biceps, triceps, anterior deltoid, upper&#xD;
+      trapezius, wrist extensors and flexors will also be recorded using a wireless EMG system&#xD;
+      (Trigno, Delsys Inc., Natick MA) and recorded using Nexus. Sensors will be placed over the&#xD;
+      muscle bellies following SENIAM guidelines [34] and signals will be sample data 100Hz with a&#xD;
+      20-450Hz bandpass. All experimental EMG signals will be appropriately conditioned and&#xD;
+      normalized to maximum EMG value elicited during maximum voluntary isometric contraction&#xD;
+      (MVIC) exercises. Three repetitions of each MVIC exercise will be performed before the&#xD;
+      experimental task and will include elbow flexion and extension, arm abduction, arm flexion,&#xD;
+      and wrist flexion and extension. A minimum of 30 seconds rest will be given between each&#xD;
+      exercise to mitigate effects of fatigue.&#xD;
+&#xD;
+      Motion and EMG data will be exported to a custom MatLab (2019, Mathworks, Natick, MA)&#xD;
+      application to compute objective measures of laparoscopic performance: instrument tip&#xD;
+      pathlength, average (±1 stdev) excursion velocity, average (±1 stdev) excursion error,&#xD;
+      average (±1 stdev) upper body kinematics (shoulder, elbow, wrist, neck and trunk) in all&#xD;
+      three planes of motion, and integrated EMG.&#xD;
+&#xD;
+      Video of the surgical tasks will be recorded and synced to marker trajectory data using an&#xD;
+      external trigger. Videos will be de-identified, and the last repetition assessed by three&#xD;
+      staff surgeons. First, the raters will categorize each video as Transition to Discipline&#xD;
+      resident, Foundation of Discipline resident, Core Discipline resident, Transition to Practice&#xD;
+      resident, fellow, or staff surgeon based other their general perception of the performer's&#xD;
+      experience level. The raters will then score each video following the FLS scoring system&#xD;
+      (based on timing and penalty scores), and the OSATS evaluation grid.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Phase 1 will recruit 4 groups of participants that vary in surgical experience (junior residents, senior residents, surgical fellows, and staff surgeons). Significant differences in objective measures of surgical performance will be identified. A target interval will be computed for each significant factor based on the staff surgeons' average performance.&#xD;
+Phase 2 will recruit junior residents to complete the same sets of surgical tasks. Half of the participants will receive objective feedback comparing their performance in Set 1 to the staff surgeons' target interval while the other half will receive no feedback. Differences in performance between Sets 1 and 3 will be quantified and compared between groups.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Completion time</measure>
+    <time_frame>1 year</time_frame>
+    <description>Time to complete each task measured in seconds</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Instrument pathlength</measure>
+    <time_frame>1 year</time_frame>
+    <description>Pathlength of surgical instrument tip measured in cm</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Motion smoothness</measure>
+    <time_frame>1 year</time_frame>
+    <description>Motion smoothness of surgical instrument tip measured by the number of changes in acceleration (m/s^2)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Instrument orientation</measure>
+    <time_frame>1 year</time_frame>
+    <description>Orientation of surgical instrument tip measured in the three planes of motion (depth, pitch, roll, yaw), quantified in degrees relative to the surgical trainer box's local coordinate system.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fundamentals of Laparoscopy Skill (FLS) score</measure>
+    <time_frame>1 year</time_frame>
+    <description>- A numbered score is calculated following procedures outlined in the Fundamentals of Laparoscopy Skills (FLS) modules</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Objective Structured Assessment of Technical Skills (OSATS) score</measure>
+    <time_frame>1 year</time_frame>
+    <description>- A numbered score is computed from a global rating system based evaluation grid.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Participant classification</measure>
+    <time_frame>1 year</time_frame>
+    <description>Blinded reviews will classify participants as junior residents, senior residents, fellows/staff based on their perception of participant skill level.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Muscle Electromyography</measure>
+    <time_frame>1 year</time_frame>
+    <description>Muscles: erector spinae, biceps, triceps, anterior deltoid, upper trapezius, wrist extensors, wrist flexors&#xD;
+Amplitude quantified as %maximum measured during maximal effort trials</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Muscle activation symmetry</measure>
+    <time_frame>1 year</time_frame>
+    <description>Muscles: erector spinae, biceps, triceps, anterior deltoid, upper trapezius, wrist extensors, wrist flexors&#xD;
+Symmetry indices will be quantified as non-dominant side/dominant side.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Upper body kinematics</measure>
+    <time_frame>1 year</time_frame>
+    <description>- Body orientation will be measured in degrees for the shoulder, elbow, wrist, neck, trunk</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Healthy</condition>
+  <condition>Adult ALL</condition>
+  <arm_group>
+    <arm_group_label>Objective Feedback (Motion Capture)</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Participants in the objective feedback group will receive a report that compares their performance in Set 1 to that of the staff surgeons' using the target interval as a reference. Participants receiving objective feedback will then complete Sets 2 and 3 knowing what factors to improve upon.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Feedback</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants receiving no feedback will complete all sets with no intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Objective Feedback (Motion Capture)</intervention_name>
+    <description>Participants assigned to the objective feedback group will be given a report after completing Set 1 and Set 2. This report will outline their performance for each significant factor (identified in Phase 1) relative to a target interval, derived from the staff surgeon group average (± one standard deviation). Participants assigned to the objective feedback group will then be able to repeat the tasks knowing which variables to improve.</description>
+    <arm_group_label>Objective Feedback (Motion Capture)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  staff surgeons, surgical fellows and residents&#xD;
+&#xD;
+          -  primary affiliation with the departments of Obstetrics and Gynecology, Urology,&#xD;
+             General Surgery, and Thoracics at the University of Ottawa and The Ottawa Hospital&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  current injury/condition that in the opinion or the participant and/or research team&#xD;
+             will affect performance&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sukhbir Singh</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ottawa Hospital Research Institute</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Singh</last_name>
+    <phone>613-738-8400</phone>
+    <phone_ext>81740</phone_ext>
+    <email>susingh@toh.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Teresa Flaxman</last_name>
+    <email>tflaxman@ohri.ca</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Sánchez A, Rodríguez O, Sánchez R, Benítez G, Pena R, Salamo O, Baez V. Laparoscopic surgery skills evaluation: analysis based on accelerometers. JSLS. 2014 Oct-Dec;18(4). pii: e2014.00234. doi: 10.4293/JSLS.2014.00234.</citation>
+    <PMID>25489218</PMID>
+  </reference>
+  <reference>
+    <citation>Moorthy, Munz, Dosis, Bello, Darzi. Motion analysis in the training and assessment of minimally invasive surgery. Minim Invasive Ther Allied Technol. 2003 Jul;12(3):137-42.</citation>
+    <PMID>16754092</PMID>
+  </reference>
+  <reference>
+    <citation>Farcas MA, Trudeau MO, Nasr A, Gerstle JT, Carrillo B, Azzie G. Analysis of motion in laparoscopy: the deconstruction of an intra-corporeal suturing task. Surg Endosc. 2017 Aug;31(8):3130-3139. doi: 10.1007/s00464-016-5337-4. Epub 2016 Dec 7.</citation>
+    <PMID>27928669</PMID>
+  </reference>
+  <reference>
+    <citation>Gray RJ, Kahol K, Islam G, Smith M, Chapital A, Ferrara J. High-fidelity, low-cost, automated method to assess laparoscopic skills objectively. J Surg Educ. 2012 May-Jun;69(3):335-9. doi: 10.1016/j.jsurg.2011.10.014.</citation>
+    <PMID>22483134</PMID>
+  </reference>
+  <reference>
+    <citation>Ganni S, Botden SMBI, Chmarra M, Li M, Goossens RHM, Jakimowicz JJ. Validation of Motion Tracking Software for Evaluation of Surgical Performance in Laparoscopic Cholecystectomy. J Med Syst. 2020 Jan 24;44(3):56. doi: 10.1007/s10916-020-1525-9.</citation>
+    <PMID>31980955</PMID>
+  </reference>
+  <reference>
+    <citation>Gallagher AG, McClure N, McGuigan J, Ritchie K, Sheehy NP. An ergonomic analysis of the fulcrum effect in the acquisition of endoscopic skills. Endoscopy. 1998 Sep;30(7):617-20.</citation>
+    <PMID>9826140</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>November 3, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 27, 2020</study_first_posted>
+  <last_update_submitted>April 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>surgical trainees</keyword>
+  <keyword>surgical staff</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

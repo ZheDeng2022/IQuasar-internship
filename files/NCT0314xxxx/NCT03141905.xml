@@ -1,0 +1,997 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03141905</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HP-00069775</org_study_id>
+    <nct_id>NCT03141905</nct_id>
+  </id_info>
+  <brief_title>Sick-Day Protocol to Improve Outcomes in Chronic Kidney Disease</brief_title>
+  <official_title>Can a Sick-Day Protocol to Improve Outcomes in Chronic Kidney Disease?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Maryland, Baltimore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Maryland, Baltimore</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The benefits of renin angiotensin system (RAS) blockers and diuretics for blood pressure&#xD;
+      control are well-established in chronic kidney diseases (CKD) patients; however, these agents&#xD;
+      may become hazardous on &quot;sick-days&quot; that lead to volume depletion (dehydration), and increase&#xD;
+      the risk of kidney function loss and acute kidney injury (AKI). It is not known how frequent&#xD;
+      significant sick-days occur in CKD patients, or whether a patient self-managed Sick-Day&#xD;
+      Protocol (SDP) that temporarily holds RAS blocker, diuretics, or other high risk medication&#xD;
+      in an effort to preserve renal function, or prevent AKI. The purpose of the study is to asses&#xD;
+      if a SDP, monitored remotely with a weekly automated phone survey , can improve outcomes in&#xD;
+      CKD (such as slow renal function loss and AKI episodes) and reduce preventable service&#xD;
+      utilization versus usual care.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Hypothesis: implementing a self managed &quot;Sick-Day Protocol&quot; with telephone monitoring via&#xD;
+      interactive voice survey dial-response system (IVSDRS) in CKD patients taking RAS blockers,&#xD;
+      diuretics, metformin, or NSAIDs, will safely slow renal function loss, reduce the incidence&#xD;
+      of acute kidney injury, and prevent urgent health utilization; in comparison to usual care.&#xD;
+&#xD;
+      Study Design: 6-month randomized trial of Sick-Day Protocol vs usual care&#xD;
+&#xD;
+      Randomization: In-block randomization stratified by use (with or without any other qualifying&#xD;
+      medication) vs non-use of RAS blocker (with any other qualifying medication)&#xD;
+&#xD;
+      Intervention: Sick-Day Protocol (instructions for holding and resumption of certain medicines&#xD;
+      in the event of dehydrating illness), IVRSDRS remote monitoring, augmented laboratory&#xD;
+      monitoring, and decision support from the VA Renal Inter-disciplinary Safety clinic (RISC)&#xD;
+&#xD;
+      Study Population: Veterans across the VA Maryland Health Care System (VAMCHS) with a current&#xD;
+      prescription for any type of RAS blocker, Diuretic, Metformin or NSAID.&#xD;
+&#xD;
+      Study Site: Baltimore VA Medical Center (BVAMC), VA Geriatrics Research Education and&#xD;
+      Clinical Center (GRECC).&#xD;
+&#xD;
+      Specific Aims 1: Conduct a pragmatic trial comparing the renal function decline, incidence of&#xD;
+      AKI, and urgent service utilization in eligible CKD patients provided with a self-managed&#xD;
+      Sick-Day Protocol versus comparable patients receiving usual care.Specific Aim 2: Determine&#xD;
+      the incidence of sick-days in the intervention arm using remote IVSDRS monitoring and&#xD;
+      end-of-study survey of all participants. Specific Aim 3: Evaluate intervention arm&#xD;
+      participants' usage of, and adherence to, the Sick-Day Protocol with remote IVSDRS&#xD;
+      monitoring.&#xD;
+&#xD;
+      Study Measurements: laboratory-measured renal function, and patient- reported safety events&#xD;
+      obtained per IVSDRS protocol. Emergency department (ED) visits, hospitalization, renal&#xD;
+      progression, incidence of ESRD, and death will be measured in both groups along with patient&#xD;
+      satisfaction.&#xD;
+&#xD;
+      Primary outcomes: 6-month change in renal function (eGFR), incidence of AKI episodes&#xD;
+      (including ICD-10 code designated, and detectable creatinine-based changes in renal function&#xD;
+      usingRIFLE criteria), preventable/urgent service utilization (to be ascertained using VA EHR&#xD;
+      review)&#xD;
+&#xD;
+      Secondary outcomes: Determination of incidence of sick-day events (IVSDRS reporting, and&#xD;
+      end-of-study self-report).&#xD;
+&#xD;
+      Tertiary:Adherence to self-management Sick-Day Protocol (based on IVSDRS reporting)&#xD;
+&#xD;
+      Analytic plans: Comparison between intervention and usual care participants of 6-month renal&#xD;
+      function change, and frequency of AKI and hospitalization using generalized linear models and&#xD;
+      Poisson regression methods, respectively. Similar regression methods will be used to&#xD;
+      determine the adjusted frequency rate of sick-day incidents and participant response to&#xD;
+      sick-days.&#xD;
+&#xD;
+      Public Health Relevance: Introduction of a self-management Sick-Day Protocol in conjunction&#xD;
+      with coordinated care and IVSDRS surveillance can be an innovative strategy to improve renal&#xD;
+      outcomes and reduce preventable service utilization.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 16, 2017</start_date>
+  <completion_date type="Actual">October 7, 2020</completion_date>
+  <primary_completion_date type="Actual">October 7, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Renal Function From Baseline to Study Completion;</measure>
+    <time_frame>6 months (enrollment to study completion)</time_frame>
+    <description>Laboratory measurement of creatinine at study entry and completion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acute Kidney Injury Incidents</measure>
+    <time_frame>6 months (enrollment to study completion)</time_frame>
+    <description>Participants with abrupt changes in renal function as determined by EHR post-study review of new AKI ICD-10 codes, and for-cause lab ambulatory lab testing using RIFLE criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ER Use and Hospitalization</measure>
+    <time_frame>6 months (enrollment to study completion)</time_frame>
+    <description>Participants with urgent service utilization including emergency department, hospitalization, and urgent care.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Determination of Sick-day Incidents</measure>
+    <time_frame>6 months from enrollment in study</time_frame>
+    <description>Participants reporting sick-days via IVSDRS and end-of study visit survey ascertainment.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Adherence to the Self-management Sick-day Protocol</measure>
+    <time_frame>6 months (enrollment to study completion)</time_frame>
+    <description>Frequency of Sick-Day qualifying illnesses reported. (Note: this outcome is N/A for the usual care group)</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">342</enrollment>
+  <condition>Safety Issues</condition>
+  <condition>Chronic Kidney Diseases</condition>
+  <arm_group>
+    <arm_group_label>Sick-Day Protocol</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVRSDRS weekly remote monitoring</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Standard clinical care</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sick-Day Protocol</intervention_name>
+    <description>Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+    <arm_group_label>Sick-Day Protocol</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Usual Care</intervention_name>
+    <description>Standard clinical care</description>
+    <arm_group_label>Usual Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Veterans with prescription for any type of RAS blocker, diuretic, Metformin or NSAID&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Expected death or dialysis within 6 months&#xD;
+&#xD;
+          -  No home or cellular telephone&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Baltimore VA Medical Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://projectreporter.nih.gov/project_info_description.cfm?aid=9183807&amp;icde=33940674&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=4&amp;csb=default&amp;cs=ASC&amp;pball=</url>
+    <description>Related Info</description>
+  </link>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>May 3, 2017</study_first_submitted>
+  <study_first_submitted_qc>May 3, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 5, 2017</study_first_posted>
+  <results_first_submitted>March 11, 2021</results_first_submitted>
+  <results_first_submitted_qc>April 12, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 14, 2021</results_first_posted>
+  <last_update_submitted>April 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Maryland, Baltimore</investigator_affiliation>
+    <investigator_full_name>Jeffrey Fink</investigator_full_name>
+    <investigator_title>Division Head, General Internal Medicine</investigator_title>
+  </responsible_party>
+  <keyword>patient safety</keyword>
+  <keyword>self-management</keyword>
+  <keyword>remote monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 21, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/05/NCT03141905/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Sick-Day Protocol</title>
+          <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care</title>
+          <description>Usual Care: Standard clinical care</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="176"/>
+                <participants group_id="P2" count="166"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="152"/>
+                <participants group_id="P2" count="147"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="24"/>
+                <participants group_id="P2" count="19"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Death</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="7"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Randomized, but did not receive intervention. Withdrew prior to baseline visit.</title>
+              <participants_list>
+                <participants group_id="P1" count="17"/>
+                <participants group_id="P2" count="10"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Sick-Day Protocol</title>
+          <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care</title>
+          <description>Usual Care: Standard clinical care</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="159"/>
+            <count group_id="B2" value="156"/>
+            <count group_id="B3" value="315"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="159"/>
+                    <count group_id="B2" value="156"/>
+                    <count group_id="B3" value="315"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                    <measurement group_id="B2" value="37"/>
+                    <measurement group_id="B3" value="66"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="130"/>
+                    <measurement group_id="B2" value="119"/>
+                    <measurement group_id="B3" value="249"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="159"/>
+                    <count group_id="B2" value="156"/>
+                    <count group_id="B3" value="315"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="14"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="152"/>
+                    <measurement group_id="B2" value="149"/>
+                    <measurement group_id="B3" value="301"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="159"/>
+                    <count group_id="B2" value="156"/>
+                    <count group_id="B3" value="315"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="158"/>
+                    <measurement group_id="B2" value="155"/>
+                    <measurement group_id="B3" value="313"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="159"/>
+                    <count group_id="B2" value="156"/>
+                    <count group_id="B3" value="315"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="100"/>
+                    <measurement group_id="B2" value="99"/>
+                    <measurement group_id="B3" value="199"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58"/>
+                    <measurement group_id="B2" value="56"/>
+                    <measurement group_id="B3" value="114"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="159"/>
+                    <count group_id="B2" value="156"/>
+                    <count group_id="B3" value="315"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="159"/>
+                    <measurement group_id="B2" value="156"/>
+                    <measurement group_id="B3" value="315"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>eGFR</title>
+          <population>Baseline creatinine/eGFR missing for 4 study participants, 3 in the usual care arm, and 1 in the intervention arm.</population>
+          <units>ml/min/1.73m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="158"/>
+                    <count group_id="B2" value="153"/>
+                    <count group_id="B3" value="311"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="43.110" spread="13.128"/>
+                    <measurement group_id="B2" value="43.783" spread="13.018"/>
+                    <measurement group_id="B3" value="43.441" spread="13.057"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change in Renal Function From Baseline to Study Completion;</title>
+        <description>Laboratory measurement of creatinine at study entry and completion</description>
+        <time_frame>6 months (enrollment to study completion)</time_frame>
+        <population>280 participants with complete laboratory data collection</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Sick-Day Protocol</title>
+            <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>Usual Care: Standard clinical care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in Renal Function From Baseline to Study Completion;</title>
+          <description>Laboratory measurement of creatinine at study entry and completion</description>
+          <population>280 participants with complete laboratory data collection</population>
+          <units>mg/dL</units>
+          <param>Median</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="140"/>
+                <count group_id="O2" value="140"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.01" lower_limit="-0.11" upper_limit="0.22"/>
+                    <measurement group_id="O2" value="0.02" lower_limit="-.010" upper_limit="0.21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Acute Kidney Injury Incidents</title>
+        <description>Participants with abrupt changes in renal function as determined by EHR post-study review of new AKI ICD-10 codes, and for-cause lab ambulatory lab testing using RIFLE criteria</description>
+        <time_frame>6 months (enrollment to study completion)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Sick-Day Protocol</title>
+            <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>Usual Care: Standard clinical care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Acute Kidney Injury Incidents</title>
+          <description>Participants with abrupt changes in renal function as determined by EHR post-study review of new AKI ICD-10 codes, and for-cause lab ambulatory lab testing using RIFLE criteria</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="159"/>
+                <count group_id="O2" value="156"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>AKI ICD-10 code on ED visit or admission</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>50% increase in Creatinine</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>ER Use and Hospitalization</title>
+        <description>Participants with urgent service utilization including emergency department, hospitalization, and urgent care.</description>
+        <time_frame>6 months (enrollment to study completion)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Sick-Day Protocol</title>
+            <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>Usual Care: Standard clinical care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>ER Use and Hospitalization</title>
+          <description>Participants with urgent service utilization including emergency department, hospitalization, and urgent care.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="159"/>
+                <count group_id="O2" value="156"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Hospitalization</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29"/>
+                    <measurement group_id="O2" value="23"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Emergency Room</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="35"/>
+                    <measurement group_id="O2" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Urgent Care</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                    <measurement group_id="O2" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Determination of Sick-day Incidents</title>
+        <description>Participants reporting sick-days via IVSDRS and end-of study visit survey ascertainment.</description>
+        <time_frame>6 months from enrollment in study</time_frame>
+        <population>299 participants who completed all study visits.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Sick-Day Protocol</title>
+            <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>Usual Care: Standard clinical care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Determination of Sick-day Incidents</title>
+          <description>Participants reporting sick-days via IVSDRS and end-of study visit survey ascertainment.</description>
+          <population>299 participants who completed all study visits.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="152"/>
+                <count group_id="O2" value="147"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="29"/>
+                    <measurement group_id="O2" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Adherence to the Self-management Sick-day Protocol</title>
+        <description>Frequency of Sick-Day qualifying illnesses reported. (Note: this outcome is N/A for the usual care group)</description>
+        <time_frame>6 months (enrollment to study completion)</time_frame>
+        <population>Sick-Day Protocol group</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Sick-Day Protocol</title>
+            <description>Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to the Self-management Sick-day Protocol</title>
+          <description>Frequency of Sick-Day qualifying illnesses reported. (Note: this outcome is N/A for the usual care group)</description>
+          <population>Sick-Day Protocol group</population>
+          <units>count of qualifying illnesses</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="159"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Followed Sick-Day Protocol instructions</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Did not stop medicines</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Stopped other medicines in addition to SDP qualifying.</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>6 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Sick-Day Protocol</title>
+          <description>Sick-Day Protocol: Sick-Day Protocol (instructions for holding and resumption of certain medicines in the event of dehydrating illness) and IVSDRS weekly remote monitoring</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care</title>
+          <description>Usual Care: Standard clinical care</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="159"/>
+                <counts group_id="E2" subjects_affected="2" subjects_at_risk="156"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="159"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="7" subjects_at_risk="159"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Blood and lymphatic system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Lab Alert: Hemoglobin ≤ 7.5 g/dL</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="159"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Lab Alert: Potassium ≥ 6.1 mEq/dL</sub_title>
+                <counts group_id="E1" events="3" subjects_affected="3" subjects_at_risk="159"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Endocrine disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Lab Alert: Glucose ≥ 499 mg/dL</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="159"/>
+                <counts group_id="E2" events="2" subjects_affected="2" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Renal and urinary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Initiation of Hemodialysis</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="159"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="156"/>
+              </event>
+              <event>
+                <sub_title>Lab Alert: Chloride ≥ 115 mEq/dL</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="159"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="156"/>
+              </event>
+              <event>
+                <sub_title>Lab Alert: Co2 ≤ 15 mEq/L</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="159"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="156"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Due to the COVID-19 pandemic in-person visits were suspended on 3/12/2020 per institution and IRB mandate. Study lab measurements were delayed for 24 participants and not completed for 8 participants.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Jeffrey C. Fink MD, MS (Principal Investigator)</name_or_title>
+      <organization>University of Maryland, Baltimore</organization>
+      <phone>410-328-4822</phone>
+      <email>jfink@som.umaryland.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,285 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04919577</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PekingUTH M2019173</org_study_id>
+    <nct_id>NCT04919577</nct_id>
+  </id_info>
+  <brief_title>Predictive Factors for Roux Stasis Syndrome</brief_title>
+  <acronym>PFRSS</acronym>
+  <official_title>Predictive Factors for Roux Stasis Syndrome After Distal Gastrectomy With Roux-en-Y Reconstruction in Gastric Cancer Patients: A Retrospective Comparative Cohort</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients who were pathologically diagnosed with gastric cancer and underwent distal&#xD;
+      gastrectomy with R-Y reconstruction between March 2014 and March 2021 were retrospectively&#xD;
+      analyzed. The occurrence of RSS was evaluated and examined for correlations with demographic&#xD;
+      and clinicopathological data. &quot;R&quot; package was used to build a nomogram.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patient Selection Ethical approval for this study was obtained from the medical ethics&#xD;
+      research committee of Peking University Third Hospital (IRB00006761-2019173).&#xD;
+&#xD;
+      Consecutive patients who were pathologically diagnosed with gastric cancer and underwent&#xD;
+      distal gastrectomy with R-Y reconstruction between March 2014 and March 2021 at Peking&#xD;
+      University Third Hospital were retrospectively selected (the detailed screening process was&#xD;
+      shown in Figure 1).&#xD;
+&#xD;
+      The exclusion criteria for this study were: (1) patients with distant metastasis, (2)&#xD;
+      patients with palliative surgery, (3) death occurred within 14 days after operation, (4)&#xD;
+      patients with primary malignant disease in other organs besides stomach.&#xD;
+&#xD;
+      Surgical Procedure RY reconstruction was performed after standard distal gastrectomy and D2&#xD;
+      lymph node dissection. There are several key steps involved in the RY reconstruction process.&#xD;
+      Firstly, the jejunum was dissected at 20.2cm (average value) distal to Treitz's ligament.&#xD;
+      Secondly, a side-to-side antecolic gastrojejunostomy was created using a linear stapler&#xD;
+      between the gastric stump and the distal segment of jejunum. Finally, an end-to-side or&#xD;
+      side-to-side jejunostomy was performed in output limb at about 37.2cm (average value) distal&#xD;
+      to the gastrojejunostomy (Figure 2). A cholecystectomy was performed if the patient had&#xD;
+      gallbladder-related disease.&#xD;
+&#xD;
+      Data collection We divided these patients into two group depending on whether RSS occurred&#xD;
+      and retrospectively analyzed the following items: gender, age, body mass index (BMI),&#xD;
+      smoking, diabetes, high carcinoembryonic antigen (CEA), hypoproteinemia, hyperlipidemia,&#xD;
+      operation approach, operation time, cholecystectomy, length of input and output loops,&#xD;
+      intestinal anastomosis approach, pathological T (pT) stage, lymph node metastasis,&#xD;
+      pathological stage, lymphovascular invasion, nerve invasion and postoperative hospital stay.&#xD;
+      According to the standard classification of BMI in China11, we divided patients into three&#xD;
+      groups, including underweight group (BMI &lt; 18.5 kg/m2), obesity group (BMI ≥ 28.0 kg/m2) and&#xD;
+      normal group (18.5 kg/m2 ≥ BMI &lt; 28.0 kg/m2). The cancer stage was defined according to the&#xD;
+      8th cancer Edition Cancer Staging System presented by American Joint Committee on Cancer.&#xD;
+&#xD;
+      Identification of RSS We defined RSS as (1) the presence of symptoms such as nausea,&#xD;
+      vomiting, or abdominal fullness, (2) refasting after liquid or semi-liquid diets, (3) imaging&#xD;
+      methods (X-ray, CT, upper gastroenterography) confirmed without mechanical obstruction. All&#xD;
+      three conditions must be met at the same time and should occur within 30 days after&#xD;
+      operation.&#xD;
+&#xD;
+      Two gastroenterologists screened each patient one by one according to the RSS definition. The&#xD;
+      third gastroenterologist discussed the inconsistent patients and jointly confirmed whether&#xD;
+      the patient had RSS.&#xD;
+&#xD;
+      Statistical Analysis Statistical analysis was performed using the SPSS Statistics version&#xD;
+      26.0 software program (IBM, USA). Qualitative data were compared using the chi-square test or&#xD;
+      Fisher's exact test. Quantitative data were tested by nonparametric test with Mann-Whitney U&#xD;
+      test. We choose the variables with P &lt; 0.1 in univariate analysis and the variables that may&#xD;
+      be related to RSS clinically to be included in multivariate analysis, using Binary logistic&#xD;
+      regression analysis (Forward Conditional). Box-Tidwell method was used to verify that the&#xD;
+      continuous independent variable and the dependent variable logit transform value to be linear&#xD;
+      relationship (p &gt; 0.05). Linear regression was used to verify that there was no&#xD;
+      multicollinearity between each independent variable (Tolerance &gt; 0.1, VIF &lt; 10). Based on the&#xD;
+      logistic regression results, a nomogram for predicting RSS occurrence after radical&#xD;
+      gastrectomy for distal gastrectomy with RY anastomosis was established, and performance was&#xD;
+      quantified to determine discrimination and calibration. The model was internally validated&#xD;
+      using the 1,000 bootstrapping method to obtain relatively unbiased estimates. Nomogram was&#xD;
+      built using the &quot;rms&quot; package in R version 3.5.2.All tests were bilateral, and P &lt; 0.05 was&#xD;
+      considered statistically significant.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 1, 2014</start_date>
+  <completion_date type="Actual">May 1, 2021</completion_date>
+  <primary_completion_date type="Actual">March 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Roux stasis syndrome</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or No. We defined RSS as (1) the presence of symptoms such as nausea, vomiting, or abdominal fullness, (2) refasting after liquid or semi-liquid diets, (3) imaging methods (X-ray, CT, upper gastroenterography) confirmed without mechanical obstruction. If all three conditions meet at the same time and occur within 30 days after operation, we choose Yes, otherwise, we choose No.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Age</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>unit: years. Checking the admission record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>body mass index (BMI)</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>unit: kg/m^2. Checking the admission record, get the information of weight in kilograms and height in meters, weight/height^2 get the BMI.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>smoking, diabetes</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or No. Checking the admission record for a history of smoking and diabetes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>operation approach</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Open or Laparoscopic. Checking the surgery record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>operation time</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>unit: min. Checking the anesthesia record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>cholecystectomy</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or No. Checking the surgery record to determine if cholecystectomy is complicating.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>high carcinoembryonic antigen (CEA)</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or No. Checking preoperative laboratory values, if CEA &lt; 5.0 ng/ml choose No, if CEA ≥ 5.0 ng/ml, choose Yes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hypoproteinemia</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or No. Checking preoperative laboratory values, if albumin &lt; 30.0 g/l choose Yes, if albumin ≥ 30.0 g/l , choose No.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>length of input and output loops</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>unit: cm. Checking the surgery record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>intestinal anastomosis approach</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>End-to-side or Side-to-side. Checking the surgery record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>pathological T (pT) stage</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>I or II or III. Checking the postoperative pathological report. The cancer stage was defined according to the 8th cancer Edition Cancer Staging System presented by American Joint Committee on Cancer.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>lymph node metastasis, lymphovascular invasion, nerve invasion.</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Yes or NO. Checking the postoperative pathological report.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>postoperative hospital stay</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>unit: days. Checking the surgery and discharge record. The length of postoperative hospital stay is obtained by subtracting the date of discharge from the date of surgery.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Gender</measure>
+    <time_frame>2014.03.01 to 2021.03.01</time_frame>
+    <description>Male or Female. Checking the admission record.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">220</enrollment>
+  <condition>Gastrostomy</condition>
+  <arm_group>
+    <arm_group_label>RSS- Group</arm_group_label>
+    <description>Patients without RSS after distal gastrectomy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>RSS+ Group</arm_group_label>
+    <description>Patients with RSS after distal gastrectomy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>X-ray</intervention_name>
+    <description>We defined RSS as (1) the presence of symptoms such as nausea, vomiting, or abdominal fullness, (2) refasting after liquid or semi-liquid diets, (3) imaging methods (X-ray, CT, upper gastroenterography) confirmed without mechanical obstruction. All three conditions must be met at the same time and should occur within 30 days after operation.</description>
+    <arm_group_label>RSS+ Group</arm_group_label>
+    <arm_group_label>RSS- Group</arm_group_label>
+    <other_name>CT and Upper Gastroenterography</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients who were pathologically diagnosed with gastric cancer and underwent&#xD;
+        distal gastrectomy with R-Y reconstruction between March 2014 and March 2021 at Peking&#xD;
+        University Third Hospital were retrospectively selected&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  pathologically diagnosed with gastric cancer&#xD;
+&#xD;
+          -  underwent distal gastrectomy with R-Y reconstruction&#xD;
+&#xD;
+          -  the date of admission is between March 2014 and March 2021&#xD;
+&#xD;
+          -  the admission place is Peking University Third Hospital.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients with distant metastasis&#xD;
+&#xD;
+          -  patients with palliative surgery&#xD;
+&#xD;
+          -  death occurred within 14 days after operation&#xD;
+&#xD;
+          -  patients with primary malignant disease in other organs besides stomach.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wei Fu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>General Surgery Department, Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Xin Zhou, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>eneral Surgery Department, Peking University Third Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>General Surgery Department, Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100191</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>May 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2021</study_first_posted>
+  <last_update_submitted>June 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University Third Hospital</investigator_affiliation>
+    <investigator_full_name>Wei Fu</investigator_full_name>
+    <investigator_title>Principal</investigator_title>
+  </responsible_party>
+  <keyword>Roux stasis syndrome Gastric cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Blind Loop Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>We may upload our raw data to Mendeley Data after accepted.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

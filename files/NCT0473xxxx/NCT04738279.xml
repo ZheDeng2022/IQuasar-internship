@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04738279</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EH20-288</org_study_id>
+    <nct_id>NCT04738279</nct_id>
+  </id_info>
+  <brief_title>The CASCADE HF Calibration and Testing</brief_title>
+  <official_title>A Pilot Study to Determine the Efficacy of Continuous Ambulatory Wearable Technology and a Cascading Alert System in Reducing 30d Readmission in High Risk Heart Failure Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NorthShore University HealthSystem</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>physIQ, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Carnegie Mellon University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>NorthShore University HealthSystem</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Invasive telemonitoring has shown promising results in reducing readmissions and health&#xD;
+      service utilization, and improving patient outcomes; however, such evidence is lacking for&#xD;
+      non-invasive telemonitoring. Our proposal is to deploy a wearable solution that predicts&#xD;
+      physiological perturbation comparable to invasive devices and to perform continuous remote&#xD;
+      patient monitoring; this will be connected to a structured, cascading, escalation pathway&#xD;
+      involving home health nurses, advanced practitioner providers, specialists, and surgeons, and&#xD;
+      has the potential to transform care management in the post-discharge period, where patients&#xD;
+      are the most vulnerable for readmission.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 14, 2020</start_date>
+  <completion_date type="Anticipated">December 14, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 14, 2022</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Attrition rate</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Drop out from study</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Enrollment rate</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Enrollment rate for entire patient cohort</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adherence rate</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Patient adherence to patch, daily patient reported status updates and other study requirements</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time from discharge to first non-adherence event</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Days from discharge to first non-adherence event, such as non-compliant use of wearable device</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Documented Medication adherence counseling</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Frequency of medication adherence counseling captured in a note within the electronic health record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Documented Dietary counseling</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Frequency of dietary counseling captured in a note within the electronic health record</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Earliness metric</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Number of days between the date of the first MCI alert to date of readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diuretic escalation</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Type and frequency of augmenting diuretic dosage</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>30-day readmission</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>30-day readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average number of events</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Number of readmission within of 30 days</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average time from discharge to readmission</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Average time from discharge to readmission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Communication with care team</measure>
+    <time_frame>30 days from patient discharge date</time_frame>
+    <description>Type and frequency of escalation to the care team including home health nurses, advanced practitioner providers, or cardiologist</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Soft Launch</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The study will conduct a soft launch on the first five HF patients enrolled to finetune process and protocol.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pilot</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>After learning from the soft launch and updating the protocol, the study will continue to enroll 45 HF patients.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Non-Invasive Continuous Remote Patient Monitoring</intervention_name>
+    <description>Continuous remote patient monitoring will consist of continuous collection of physiological data and patient status through a non-invasive wearable solution, connected to a structured cascading escalation management pathway</description>
+    <arm_group_label>Pilot</arm_group_label>
+    <arm_group_label>Soft Launch</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Affective Analysis of Participant Response to Continuous Remote Patient Monitoring</intervention_name>
+    <description>Survey and qualitative interviewing of participants</description>
+    <arm_group_label>Pilot</arm_group_label>
+    <arm_group_label>Soft Launch</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patient is an inpatient at NorthShore University HealthSystem&#xD;
+&#xD;
+          -  Patient is on the heart failure consult list&#xD;
+&#xD;
+          -  Patient has a history of heart failure&#xD;
+&#xD;
+          -  Patient received at least one dose of IV diuretics at index hospitalization&#xD;
+&#xD;
+          -  Patient is discharging with NorthShore Home Health services&#xD;
+&#xD;
+          -  Symptoms corresponding to New York Heart Association function class II-IV&#xD;
+&#xD;
+          -  Patient has heart failure with reduced left ventricular ejection fraction (LVEF)&lt;40%,&#xD;
+             or HF with mid-ranged ejection fraction (LVEF 40-50%), or HF with preserved ejection&#xD;
+             fraction (LVEF≥50%)&#xD;
+&#xD;
+          -  Patient is in the top 50% risk of readmission across NorthShore University&#xD;
+             HealthSystem's CAPE 30-day readmission model&#xD;
+&#xD;
+          -  Patient is at least 18 years of age&#xD;
+&#xD;
+          -  Patient is fluent in English&#xD;
+&#xD;
+          -  Patient agrees to protocol-required procedures&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient has cognitive or physical limitations that, in the opinion of the&#xD;
+             investigator, limit the patient's ability to maintain patch, phone&#xD;
+&#xD;
+          -  Patient has allergy to hydrocolloid adhesives&#xD;
+&#xD;
+          -  Patient has present skin damage preventing them from wearing a study device&#xD;
+&#xD;
+          -  Patient has renal dysfunction requiring dialysis&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nirav S Shah, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>NorthShore University HealthSystem</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Nirav S Shah, MD, MPH</last_name>
+    <phone>8475704208</phone>
+    <email>nshah2@northshore.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>NorthShore University HealthSystem Evanston Hospital</name>
+      <address>
+        <city>Evanston</city>
+        <state>Illinois</state>
+        <zip>60201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nirav S Shah, MD, MPH</last_name>
+      <phone>847-570-4208</phone>
+      <email>nshah2@northshore.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>January 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 4, 2021</study_first_posted>
+  <last_update_submitted>August 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>NorthShore University HealthSystem</investigator_affiliation>
+    <investigator_full_name>Nirav Shah</investigator_full_name>
+    <investigator_title>Medical Director of Quality Innovation and Clinical Practice Analytics, Program Director of Outcomes Research for Quality and Transformation</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

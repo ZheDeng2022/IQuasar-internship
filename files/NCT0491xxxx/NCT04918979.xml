@@ -1,0 +1,161 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04918979</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SNUEMSAVTR</org_study_id>
+    <nct_id>NCT04918979</nct_id>
+  </id_info>
+  <brief_title>Information Extraction and Database Construction for Emergent Patients Based on Voice and Image Recognition Technology</brief_title>
+  <official_title>Triage Information Extraction Technology Development and Database Construction for Emergent Patients Based on Voice and Image Recognition Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Research Foundation of Korea</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Video and audio data of the triage process of emergency department (ED) patients will be&#xD;
+      collected to build a database. Clinical information retrieved from the database with voice&#xD;
+      and image technology will be used to determine the triage level of each patient and will be&#xD;
+      compared with the actual triage level.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Objectives:&#xD;
+&#xD;
+        1. To develop a platform to record video and audio data of the ED triage process.&#xD;
+&#xD;
+        2. To retrieve clinical information using voice and image technology.&#xD;
+&#xD;
+        3. To develop a tool to determine ED triage level using voice and image technology.&#xD;
+&#xD;
+        4. To build a clinical database using video and audio data using voice and image&#xD;
+           technology.&#xD;
+&#xD;
+      Study design: Single center observational study (tertiary hospital emergency department in&#xD;
+      Korea).&#xD;
+&#xD;
+      A platform to record video and audio data of the ED triage process will be developed. The&#xD;
+      camera and microphone will be installed at an optimal location to retrieve video and audio&#xD;
+      data in the ED triage area.&#xD;
+&#xD;
+      Voice and image technology will be used to retrieve clinical information including&#xD;
+      demographic information, chief complaint, type and onset of symptoms, past medical history,&#xD;
+      and physical examination results to build a database. Clinical information including&#xD;
+      examination notes, diagnosis, patient vital signs, test results, and ED results will be&#xD;
+      retrieved from the hospital database.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 12, 2020</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The degree of agreement between emergency department triage level retrieved using voice/image technology and by nurses/physicians.</measure>
+    <time_frame>At the time of study completion (May 2022 anticipated).</time_frame>
+    <description>Korean triage and acuity scale (KTAS) which was developed based on Canadian triage and acuity scale (CTAS) is used in Korea. KTAS is composed of 5 levels: level 1, resuscitation; level 2, emergent; level 3, urgent; level 4, less urgent; level 5, non-urgent. Emergency department triage level will be assessed by using voice/image technology and will be compared with the triage level assessed by nurses/physicians. The triage level will be assessed during emergency department triage.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Emergencies</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults who visit the emergency department without one of the exclusion criteria will be&#xD;
+        enrolled in this study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age 19 years or older&#xD;
+&#xD;
+          -  Visited the emergency department of the study hospital&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients who do not agree to enroll to this study&#xD;
+&#xD;
+          -  Without a family&#xD;
+&#xD;
+          -  Foreign patients&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ki Jeong Hong, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Seoul National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dong Hyun Choi</last_name>
+    <phone>+82-2-2072-4052</phone>
+    <email>donghyun369@snu.ac.kr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Seoul National University Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <zip>03080</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dong Hyun Choi, PhD</last_name>
+      <phone>+82-2-2072-4052</phone>
+      <email>donghyun369@snu.ac.kr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>June 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2021</study_first_posted>
+  <last_update_submitted>June 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Triage</keyword>
+  <keyword>Emergency department</keyword>
+  <keyword>Voice recognition</keyword>
+  <keyword>Image recognition</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

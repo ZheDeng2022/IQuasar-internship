@@ -1,0 +1,777 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01317277</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1R34DA031058-01A1</org_study_id>
+    <nct_id>NCT01317277</nct_id>
+  </id_info>
+  <brief_title>Personalized Text Messages to Improve Antiretroviral Treatment (ART) Adherence in HIV+ Methamphetamine Users</brief_title>
+  <acronym>iTAB</acronym>
+  <official_title>Personalized Text Messages to Improve ART Adherence in HIV+ Methamphetamine Users</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of California, San Diego</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Methamphetamine (METH) is a debilitating and frequently abused substance that is often&#xD;
+      comorbid with HIV infection. HIV+ persons with current METH abuse or dependence (HIV+/METH+)&#xD;
+      have several characteristics, in addition to their substance use, that make them particularly&#xD;
+      susceptible to nonadherence to antiretroviral treatment (ART) including elevated rates of&#xD;
+      neurocognitive impairment, co-occurrence of psychiatric disorders, and unstable living&#xD;
+      situations. The investigators propose an intervention development study designed to address&#xD;
+      these potential mechanisms of nonadherence with the following Specific Aims: 1) To further&#xD;
+      develop and refine a personalized, automated, real-time, mobile phone, text messaging&#xD;
+      intervention (iTAB) designed to improve adherence to ART medications among HIV+/METH+&#xD;
+      persons; 2) To evaluate the acceptability and effectiveness of a brief psychoeducation plus&#xD;
+      text messaging intervention (iTAB) as compared to psychoeducation alone (CTRL) for the&#xD;
+      improvement of objectively measured medication adherence among HIV+/METH+ persons; and 3) To&#xD;
+      examine predictors of within-person trajectories of nonadherence using the longitudinal data&#xD;
+      collected over the study. In order to realize these aims, the investigators will leverage the&#xD;
+      infrastructure of two unique UCSD resources increasing likelihood of study success, impact,&#xD;
+      and innovation: 1) the Translational Methamphetamine AIDS Research Center (TMARC), which is a&#xD;
+      NIDA-funded center that focuses on the combined effects of METH and HIV infection, and 2) the&#xD;
+      California Institute for Telecommunications and Information Technology (Calit2), which&#xD;
+      conducts research on state-of-the-art wireless means of health promotion. Initially, the&#xD;
+      investigators will refine the iTAB intervention to ensure that it is user-centered and&#xD;
+      tailored to the needs of HIV+/METH+ persons via focus groups and rapid prototyping. Once&#xD;
+      refined, the proposed iTAB intervention will use text messages that are automated, scalable,&#xD;
+      personalized, interactive, flexible, and motivating. The investigators will assess the&#xD;
+      acceptability and effectiveness of iTAB in improving objectively measured adherence (i.e.,&#xD;
+      MEMS caps) over a 6-week period via a pilot RCT with 40 HIV+/METH+ assigned to the iTAB&#xD;
+      intervention and 20 HIV+/METH+ assigned to a psychoeducational control. Predictors of&#xD;
+      nonadherence including frequency of METH use, neuropsychological impairment, and mood will be&#xD;
+      examined to determine whether iTAB is better able to compensate for these factors associated&#xD;
+      with nonadherence as compared to CTRL. Further refinement to the iTAB intervention will be&#xD;
+      made in order to pursue a large-scale R01 using our tailored intervention.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2011</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">June 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall MEMS Adherence to Antiretroviral Medication</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Adherence was defined as the percentage of taken doses using Medication Event Monitoring Systems (MEMS); i.e., [(# of bottle openings)/(# of prescribed doses)*100].</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>MEMS Adherence to Antiretroviral Medication Based on Dose Timing</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Adherence using Medication Event Monitoring Systems (MEMS) based on dose timing; i.e., [(# of bottle openings within a +/- 2-hour time window of the intended dosing time)/(# of prescribed doses)*100].</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Text-reported METH Use</measure>
+    <time_frame>Completion of 6-week intervention</time_frame>
+    <description>For each participant, we calculated the responsiveness to texts assessing METH use [i.e., (# of texts responded to)/(# of texts received)], and proportion of days a participants endorsed METH use [i.e., (# of days endorsing METH use)/(# of texts responded to)].</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">75</enrollment>
+  <condition>HIV</condition>
+  <condition>AIDS</condition>
+  <arm_group>
+    <arm_group_label>Personalized Reminder Texting (iTAB) + Psychoeducation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in the individualized Texting for Adherence Building (iTAB) arm will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation (CTRL)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications. They will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>individualized Texting for Adherence Building (iTAB)</intervention_name>
+    <description>Behavioral: Psychoeducation&#xD;
+Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.&#xD;
+Behavioral: individualized Texting for Adherence Building (iTAB)&#xD;
+Intervention is designed to send automated text messages to HIV+ persons who are current methamphetamine (METH+) users. Text messages are personalized, automated, real-time text messages. The iTAB intervention is designed to improve adherence to ART medications among HIV+/METH+ persons above and beyond an active comparator group.</description>
+    <arm_group_label>Personalized Reminder Texting (iTAB) + Psychoeducation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation</intervention_name>
+    <description>Behavioral: Psychoeducation&#xD;
+Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+    <arm_group_label>Psychoeducation (CTRL)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion/exclusion criteria are generally lenient in order to ensure that our sample is as&#xD;
+        representative as possible of the overall HIV+/METH+ population.&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Ability to provide informed consent&#xD;
+&#xD;
+          -  18 years or older at the time of enrollment&#xD;
+&#xD;
+          -  HIV-infected&#xD;
+&#xD;
+          -  DSM-IV diagnosis of methamphetamine abuse or dependence in the past 30 days&#xD;
+&#xD;
+          -  Taking at least one medication to treat HIV illness&#xD;
+&#xD;
+          -  Indication of less than 100% adherence to antiretroviral (ART) medication&#xD;
+&#xD;
+          -  Willingness to use electronic monitoring caps to track ART medication&#xD;
+&#xD;
+          -  Willingness to respond to text messages&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Axis I psychiatric diagnosis of psychotic disorder or mood disorder with psychotic&#xD;
+             features&#xD;
+&#xD;
+          -  Presence of a neurological condition (beyond HIV infection) known to impact cognitive&#xD;
+             functioning (e.g., Huntington's Disease, Stroke)&#xD;
+&#xD;
+          -  Unwillingness or inability to use electronic medication monitoring technology&#xD;
+&#xD;
+          -  Unwillingness or inability to use daily text messaging&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David J Moore, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Diego</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hnrc-Tmarc</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92013</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Moore DJ, Pasipanodya EC, Umlauf A, Rooney AS, Gouaux B, Depp CA, Atkinson JH, Montoya JL. Individualized texting for adherence building (iTAB) for methamphetamine users living with HIV: A pilot randomized clinical trial. Drug Alcohol Depend. 2018 Aug 1;189:154-160. doi: 10.1016/j.drugalcdep.2018.05.013. Epub 2018 Jun 21.</citation>
+    <PMID>29958127</PMID>
+  </results_reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>March 16, 2011</study_first_submitted>
+  <study_first_submitted_qc>March 16, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 17, 2011</study_first_posted>
+  <results_first_submitted>May 6, 2021</results_first_submitted>
+  <results_first_submitted_qc>August 3, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 27, 2021</results_first_posted>
+  <last_update_submitted>August 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Diego</investigator_affiliation>
+    <investigator_full_name>David J. Moore, Ph.D.</investigator_full_name>
+    <investigator_title>Associate Professor of Psychiatry</investigator_title>
+  </responsible_party>
+  <keyword>interventions</keyword>
+  <keyword>technology</keyword>
+  <keyword>drug abuse</keyword>
+  <keyword>methamphetamine</keyword>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>iTAB + Psychoeducation</title>
+          <description>individualized Texting for Adherence Building (iTAB): Participants will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive daily text messages to assess mood and methamphetamine use.&#xD;
+Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.</description>
+        </group>
+        <group group_id="P2">
+          <title>Psychoeducation</title>
+          <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="50"/>
+                <participants group_id="P2" count="25"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="43"/>
+                <participants group_id="P2" count="23"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="7"/>
+                <participants group_id="P2" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost MEMS</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Unable to comply with intervention</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Adverse Event</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>371 participants were assessed for eligibility. Of the 75 participants allocated to study group (50 in iTAB, 25 in active control), 68 participants completed follow-up visits (44 in iTAB, 24 in active control group); 1 participant in each study arm was excluded from analyses due to loss of MEMS. 66 participants were included in analyses (43 in iTAB group, 23 in active control group)</population>
+      <group_list>
+        <group group_id="B1">
+          <title>iTAB + Psychoeducation</title>
+          <description>individualized Texting for Adherence Building (iTAB): Participants will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive daily text messages to assess mood and methamphetamine use.&#xD;
+Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.</description>
+        </group>
+        <group group_id="B2">
+          <title>Psychoeducation</title>
+          <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="50"/>
+            <count group_id="B2" value="25"/>
+            <count group_id="B3" value="75"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <population>371 participants were assessed for eligibility. Of the 75 participants allocated to study group (50 in iTAB, 25 in active control), 68 participants completed follow-up visits (44 in iTAB, 24 in active control group); 1 participant in each study arm was excluded from analyses due to loss of MEMS. 66 participants were included in analyses (43 in iTAB group, 23 in active control group)</population>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45.4" spread="7.7"/>
+                    <measurement group_id="B2" value="46.0" spread="8.9"/>
+                    <measurement group_id="B3" value="45.6" spread="8.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <population>371 participants were assessed for eligibility, of which 50 (iTAB) and 25 (active control) were allocated; 66 participants completed follow-up (42 iTAB, 24 control); 1 participant was excluded from analyses in each group for losing MEMS. 66 participants were included in analyses (43 in iTAB group, 23 in active control group)</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="40"/>
+                    <measurement group_id="B2" value="23"/>
+                    <measurement group_id="B3" value="63"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <population>371 participants were assessed for eligibility. Of the 75 participants allocated to study group (50 in iTAB, 25 in active control), 68 participants completed follow-up visits (44 in iTAB, 24 in active control group); 1 participant in each study arm was excluded from analyses due to loss of MEMS. 66 participants were included in analyses (43 in iTAB group, 23 in active control group)</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Non-Hispanic White</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="23"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Non-Hispanic Black</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Hispanic</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Pacific Islander</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="43"/>
+                    <count group_id="B2" value="23"/>
+                    <count group_id="B3" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="50"/>
+                    <count group_id="B2" value="25"/>
+                    <count group_id="B3" value="75"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="50"/>
+                    <measurement group_id="B2" value="25"/>
+                    <measurement group_id="B3" value="75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Overall MEMS Adherence to Antiretroviral Medication</title>
+        <description>Adherence was defined as the percentage of taken doses using Medication Event Monitoring Systems (MEMS); i.e., [(# of bottle openings)/(# of prescribed doses)*100].</description>
+        <time_frame>6 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>iTAB + Psychoeducation</title>
+            <description>Participants in the individualized Texting for Adherence Building (iTAB) arm will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+individualized Texting for Adherence Building (iTAB): Intervention is designed to send automated text messages to HIV+ persons who are current methamphetamine (METH+) users. Text messages are personalized, automated, real-time text messages. The iTAB intervention is designed to improve adherence to ART medications among HIV+/METH+ persons above and beyond an active comparator group.</description>
+          </group>
+          <group group_id="O2">
+            <title>Psychoeducation</title>
+            <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications. They will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.&#xD;
+Psychoeducation: Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Overall MEMS Adherence to Antiretroviral Medication</title>
+          <description>Adherence was defined as the percentage of taken doses using Medication Event Monitoring Systems (MEMS); i.e., [(# of bottle openings)/(# of prescribed doses)*100].</description>
+          <units>percentage of taken doses</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="43"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="68.0" spread="0.3"/>
+                    <measurement group_id="O2" value="70.4" spread="0.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Randomization strategy for target 75 participants of 2:1 [iTAB(n=50):CTRL(n=25)], resulting in 80% power to detect effect size of .71 for difference of adherence rates between groups (Wilcoxon-Mann-Whitney critical t=1.99, df=69.6). Final # analyzed: iTAB (n=43) &amp; CTRL (n=23).</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.68</p_value>
+            <p_value_desc>In between-group analyses, overall MEMS adherence was defined as % of doses taken.</p_value_desc>
+            <method>Wilcoxon (Mann-Whitney)</method>
+            <method_desc>Non-parametric methods.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>MEMS Adherence to Antiretroviral Medication Based on Dose Timing</title>
+        <description>Adherence using Medication Event Monitoring Systems (MEMS) based on dose timing; i.e., [(# of bottle openings within a +/- 2-hour time window of the intended dosing time)/(# of prescribed doses)*100].</description>
+        <time_frame>6 weeks</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>iTAB + Psychoeducation</title>
+            <description>Participants in the individualized Texting for Adherence Building (iTAB) arm will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+individualized Texting for Adherence Building (iTAB): Intervention is designed to send automated text messages to HIV+ persons who are current methamphetamine (METH+) users. Text messages are personalized, automated, real-time text messages. The iTAB intervention is designed to improve adherence to ART medications among HIV+/METH+ persons above and beyond an active comparator group.</description>
+          </group>
+          <group group_id="O2">
+            <title>Psychoeducation</title>
+            <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications. They will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.&#xD;
+Psychoeducation: Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>MEMS Adherence to Antiretroviral Medication Based on Dose Timing</title>
+          <description>Adherence using Medication Event Monitoring Systems (MEMS) based on dose timing; i.e., [(# of bottle openings within a +/- 2-hour time window of the intended dosing time)/(# of prescribed doses)*100].</description>
+          <units>percentage of taken doses</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="43"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="43.9" spread="32.2"/>
+                    <measurement group_id="O2" value="45.5" spread="30.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Randomization strategy for target 75 participants of 2:1 [iTAB(n=50):CTRL(n=25)], resulting in 80% power to detect effect size of .71 for difference of adherence rates between groups (Wilcoxon-Mann-Whitney critical t=1.99, df=69.6). Final # analyzed: iTAB (n=43) &amp; CTRL (n=23).</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.95</p_value>
+            <p_value_desc>MEMS adherence based on dose timing was examined for between-group differences.</p_value_desc>
+            <method>Wilcoxon (Mann-Whitney)</method>
+            <method_desc>Non-parametric methods</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Text-reported METH Use</title>
+        <description>For each participant, we calculated the responsiveness to texts assessing METH use [i.e., (# of texts responded to)/(# of texts received)], and proportion of days a participants endorsed METH use [i.e., (# of days endorsing METH use)/(# of texts responded to)].</description>
+        <time_frame>Completion of 6-week intervention</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>iTAB + Psychoeducation</title>
+            <description>Participants in the individualized Texting for Adherence Building (iTAB) arm will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+individualized Texting for Adherence Building (iTAB): Intervention is designed to send automated text messages to HIV+ persons who are current methamphetamine (METH+) users. Text messages are personalized, automated, real-time text messages. The iTAB intervention is designed to improve adherence to ART medications among HIV+/METH+ persons above and beyond an active comparator group.</description>
+          </group>
+          <group group_id="O2">
+            <title>Psychoeducation</title>
+            <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications. They will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.&#xD;
+Psychoeducation: Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Text-reported METH Use</title>
+          <description>For each participant, we calculated the responsiveness to texts assessing METH use [i.e., (# of texts responded to)/(# of texts received)], and proportion of days a participants endorsed METH use [i.e., (# of days endorsing METH use)/(# of texts responded to)].</description>
+          <units>METH use days</units>
+          <param>Mean</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="43"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14.4" lower_limit="0" upper_limit="33.6"/>
+                    <measurement group_id="O2" value="22.0" lower_limit="7.3" upper_limit="65.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+            </group_id_list>
+            <groups_desc>Text-reported METH use days</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.05</p_value>
+            <p_value_desc>Z = -1.97</p_value_desc>
+            <method>Wilcoxon (Mann-Whitney)</method>
+            <method_desc>Non-parametric methods; P-Value is calculated.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <group_list>
+        <group group_id="E1">
+          <title>iTAB + Psychoeducation</title>
+          <description>Participants in the individualized Texting for Adherence Building (iTAB) arm will receive daily text messaging reminders for antiretroviral medication adherence. These text messages will be targeted to the specific schedule and needs of the individual. Participants will also receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications.&#xD;
+individualized Texting for Adherence Building (iTAB): Intervention is designed to send automated text messages to HIV+ persons who are current methamphetamine (METH+) users. Text messages are personalized, automated, real-time text messages. The iTAB intervention is designed to improve adherence to ART medications among HIV+/METH+ persons above and beyond an active comparator group.</description>
+        </group>
+        <group group_id="E2">
+          <title>Psychoeducation</title>
+          <description>Participants will receive a one-time psychoeducational intervention reviewing the importance of adherence to anti-HIV medications. They will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.&#xD;
+Psychoeducation: Participants will also receive daily text messages to evaluate mood and methamphetamine use, but these messages will not remind participants about medication adherence.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="50"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="25"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="50"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="25"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0.0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="50"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="25"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Immune system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Other medical complications</sub_title>
+                <description>Participant developed other medical complications not related to study participation</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="50"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="25"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>1) Small sample size; 2) Short time period; 3) MEMS adherence data based on # of cap openings, not directly whether the medication was ingested; 4) No group without psychoeducation component</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Dr. David J Moore, Professor of Psychiatry</name_or_title>
+      <organization>UCSD HIV Neurobehavioral Research Program (HNRP)</organization>
+      <phone>619-543-5093</phone>
+      <email>djmoore@ucsd.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

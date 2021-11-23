@@ -1,0 +1,256 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05024162</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1026856</org_study_id>
+    <nct_id>NCT05024162</nct_id>
+  </id_info>
+  <brief_title>Can MRI of the Prostate Combined With a Radiomics Evaluation Determine the Invasive Capacity of a Tumour</brief_title>
+  <acronym>MRI-PREDICT</acronym>
+  <official_title>Can Magnetic Resonance Imaging of the Prostate Combined With a Radiomics Evaluation Determine the Invasive Capacity of a Tumour (Can MRI-PREDICT)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nova Scotia Health Authority</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Nova Scotia Health Authority</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Prostate cancer is the most common cancer diagnosed in men in Canada. Magnetic resonance&#xD;
+      imaging (MRI) may become a valuable tool to non-invasively identify prostate cancer and&#xD;
+      assess its biological aggressiveness, which in turn will help doctors make better decisions&#xD;
+      about how to treat an individual patient's prostate cancer.&#xD;
+&#xD;
+      Despite the promise of MRI for detecting and characterizing prostate cancer, there are&#xD;
+      several recognized limitations and challenges. These include lack of standardized&#xD;
+      interpretation and reporting of prostate MRI exams.&#xD;
+&#xD;
+      The investigators propose to validate and improve a computer program computerized prediction&#xD;
+      tool that will use information from MR images to inform us how aggressive a prostate cancer&#xD;
+      is. The hypothesis is that this computer-aided approach will increase the reproducibility and&#xD;
+      accuracy of MRI in predicting the tumor biology information about the imaged prostate cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prostate biopsies are the gold standard assessment of how prostate cancer is diagnosed and&#xD;
+      how low risk prostate cancers are surveilled. The investigators have produced a&#xD;
+      machine-learning based algorithm which uses MRI characteristics (radiomic features or&#xD;
+      textures) to predict the results of a prostate biopsy. The field has numerous concerns that&#xD;
+      such radiomic based predictions will not be reproducible, as there as so many subtle changes&#xD;
+      between MRI scans of different patients.&#xD;
+&#xD;
+      The interventions are the use of the MRT and the use of a second MRI of the prostate (MRI-P).&#xD;
+&#xD;
+      Two primary outcomes will be investigated. First, the existing radiomics predictive model,&#xD;
+      labeled as the MRI-P based Radiomics Tool (MRT) will predict the Grade Group (GG) and compare&#xD;
+      it to the gold standard, pathologist's evaluation of the Grade Group (GG). Second, the&#xD;
+      stability of the predicted GG between two shortly spaced MRI-Ps will be compared.&#xD;
+&#xD;
+      Patients with a detectable prostate nodule on MRI-P which localizes to a biopsy confirmed&#xD;
+      prostate cancer will be approached for enrollment. If enrolled, participants will attend for&#xD;
+      a subsequent MRI-P in a brief time frame relative to the acquisition of the first MRI-P.&#xD;
+      Attempts will be made to obtain participants that allow for even distribution among all GGs.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2021</start_date>
+  <completion_date type="Anticipated">September 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>MRT Classification Change</measure>
+    <time_frame>Baseline, 8 weeks</time_frame>
+    <description>Stability of participants' MRT classification (each of the five GG groups) between two shortly spaced MRIs.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>MRT Classification: Baseline</measure>
+    <time_frame>Baseline</time_frame>
+    <description>The accuracy of the GG classification from the MRT. Will be compared to the Gold Standard - prostate biopsy results. The percentage of MRT classifications that show agreement between the two methods (i.e. Gold Standard and MRT) in terms of GG classification will be reported.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>MRT Classification: Week 8</measure>
+    <time_frame>8 weeks</time_frame>
+    <description>The accuracy of the GG classification from the MRT. Will be compared to the Gold Standard - prostate biopsy results. The percentage of MRT classifications that show agreement between the two methods (i.e. Gold Standard and MRT) in terms of GG classification will be reported.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Model optmization with novel radiomic features and clinical covariates</measure>
+    <time_frame>At study completion, 2 years.</time_frame>
+    <description>Gwet's first order agreement coefficient; McNemar's test to test agreement across the two time points, regarding GG classification agreement.&#xD;
+Intra-class correlation coefficient (ICC) will to test the reliability of individual radiomic features at time points 1 and 2. Stability will be defined as an ICC ≥0.85.&#xD;
+Ordinal logistic regression with a cumulative logic link will be used to model GG classification. Clinical covariates, PIRADS scores, and exclusively &quot;reliable&quot; radiomic features will be explored in secondary analyses.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Prostate Cancer</condition>
+  <arm_group>
+    <arm_group_label>Prospective Cohort</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Sixty patients with a new diagnosis of prostate cancer that meet eligibility criteria. The group will have two standard MRI-P's completed. The first MRI-P will be acquired as standard of care and the second will be an additional investigation for the purposes of this study. The efficacy of the MRT will be compared at both time points, evaluating if the MRT demonstrates clinically sufficient stability in its findings (i.e., does the MRT report an accurate and similar result at both time points).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MRT Accuracy</intervention_name>
+    <description>Predicted Grade Group (GG) by the MRI-based Radiomics Tool (MRT) at each Magnetic Resonance Imaging of the Prostate (MRI-P)</description>
+    <arm_group_label>Prospective Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MRT Stability</intervention_name>
+    <description>MRT's predicted GG at second MRI-P.</description>
+    <arm_group_label>Prospective Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        An appropriate diagnostic MRI-P, defined as:&#xD;
+&#xD;
+          -  Being performed on 3T MRI at the Halifax Infirmary Building&#xD;
+&#xD;
+          -  Taken place within 5 weeks of study enrolment&#xD;
+&#xD;
+          -  Having a detectable nodule which anatomically localizes to prostate cancer (PCa)&#xD;
+             identified in diagnostic biopsy specimen&#xD;
+&#xD;
+          -  Acquired T1+contrast, T2, and attenuated diffusion coefficient (ADC) series axial&#xD;
+             images of the prostate&#xD;
+&#xD;
+        An appropriate diagnostic biopsy, defined as:&#xD;
+&#xD;
+          -  Taken place within 2 months of the participant's MRI-P 1&#xD;
+&#xD;
+          -  Taken place within 3 months of participant's study enrolment&#xD;
+&#xD;
+          -  Reports diagnosis of PCa&#xD;
+&#xD;
+          -  Reports a systematic assessment of the biopsy, assessing at least 12 cores&#xD;
+&#xD;
+          -  Reports at least on core involved with PCa and this core must anatomically localise to&#xD;
+             a nodule seen on MRI-P 1&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Past prostatic interventions which would influence the prostate's structure&#xD;
+&#xD;
+          -  Alterations to physiological testosterone levels&#xD;
+&#xD;
+          -  Inability to position one's self in a reproducible fashion for an MRI-P&#xD;
+&#xD;
+          -  Patient factors reported to produce significant artifact on MRI-P 1&#xD;
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dr. Michael Kucharczyk</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Nova Scotia Health Authority</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Beverly A Lieuwen, BSc</last_name>
+    <phone>9024735315</phone>
+    <email>beverly.lieuwen@iwk.nshealth.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Dr. Michael Kucharczyk</last_name>
+    <phone>9024736185</phone>
+  </overall_contact_backup>
+  <reference>
+    <citation>Epstein JI, Egevad L, Amin MB, Delahunt B, Srigley JR, Humphrey PA; Grading Committee. The 2014 International Society of Urological Pathology (ISUP) Consensus Conference on Gleason Grading of Prostatic Carcinoma: Definition of Grading Patterns and Proposal for a New Grading System. Am J Surg Pathol. 2016 Feb;40(2):244-52. doi: 10.1097/PAS.0000000000000530. Review.</citation>
+    <PMID>26492179</PMID>
+  </reference>
+  <reference>
+    <citation>Weinreb JC, Barentsz JO, Choyke PL, Cornud F, Haider MA, Macura KJ, Margolis D, Schnall MD, Shtern F, Tempany CM, Thoeny HC, Verma S. PI-RADS Prostate Imaging - Reporting and Data System: 2015, Version 2. Eur Urol. 2016 Jan;69(1):16-40. doi: 10.1016/j.eururo.2015.08.052. Epub 2015 Oct 1.</citation>
+    <PMID>26427566</PMID>
+  </reference>
+  <reference>
+    <citation>Westphalen AC, McCulloch CE, Anaokar JM, Arora S, Barashi NS, Barentsz JO, Bathala TK, Bittencourt LK, Booker MT, Braxton VG, Carroll PR, Casalino DD, Chang SD, Coakley FV, Dhatt R, Eberhardt SC, Foster BR, Froemming AT, Fütterer JJ, Ganeshan DM, Gertner MR, Mankowski Gettle L, Ghai S, Gupta RT, Hahn ME, Houshyar R, Kim C, Kim CK, Lall C, Margolis DJA, McRae SE, Oto A, Parsons RB, Patel NU, Pinto PA, Polascik TJ, Spilseth B, Starcevich JB, Tammisetti VS, Taneja SS, Turkbey B, Verma S, Ward JF, Warlick CA, Weinberger AR, Yu J, Zagoria RJ, Rosenkrantz AB. Variability of the Positive Predictive Value of PI-RADS for Prostate MRI across 26 Centers: Experience of the Society of Abdominal Radiology Prostate Cancer Disease-focused Panel. Radiology. 2020 Jul;296(1):76-84. doi: 10.1148/radiol.2020190646. Epub 2020 Apr 21.</citation>
+    <PMID>32315265</PMID>
+  </reference>
+  <reference>
+    <citation>Chaddad A, Kucharczyk MJ, Niazi T. Multimodal Radiomic Features for the Predicting Gleason Score of Prostate Cancer. Cancers (Basel). 2018 Jul 28;10(8). pii: E249. doi: 10.3390/cancers10080249.</citation>
+    <PMID>30060575</PMID>
+  </reference>
+  <reference>
+    <citation>T JMC, Arif M, Niessen WJ, Schoots IG, Veenland JF. Automated Classification of Significant Prostate Cancer on MRI: A Systematic Review on the Performance of Machine Learning Applications. Cancers (Basel). 2020 Jun 17;12(6). pii: E1606. doi: 10.3390/cancers12061606.</citation>
+    <PMID>32560558</PMID>
+  </reference>
+  <reference>
+    <citation>Schwier M, van Griethuysen J, Vangel MG, Pieper S, Peled S, Tempany C, Aerts HJWL, Kikinis R, Fennessy FM, Fedorov A. Repeatability of Multiparametric Prostate MRI Radiomics Features. Sci Rep. 2019 Jul 1;9(1):9441. doi: 10.1038/s41598-019-45766-z.</citation>
+    <PMID>31263116</PMID>
+  </reference>
+  <reference>
+    <citation>Lu H, Parra NA, Qi J, Gage K, Li Q, Fan S, Feuerlein S, Pow-Sang J, Gillies R, Choi JW, Balagurunathan Y. Repeatability of Quantitative Imaging Features in Prostate Magnetic Resonance Imaging. Front Oncol. 2020 May 7;10:551. doi: 10.3389/fonc.2020.00551. eCollection 2020.</citation>
+    <PMID>32457827</PMID>
+  </reference>
+  <reference>
+    <citation>Merisaari H, Taimen P, Shiradkar R, Ettala O, Pesola M, Saunavaara J, Boström PJ, Madabhushi A, Aronen HJ, Jambor I. Repeatability of radiomics and machine learning for DWI: Short-term repeatability study of 112 patients with prostate cancer. Magn Reson Med. 2020 Jun;83(6):2293-2309. doi: 10.1002/mrm.28058. Epub 2019 Nov 8.</citation>
+    <PMID>31703155</PMID>
+  </reference>
+  <reference>
+    <citation>Woźnicki P, Westhoff N, Huber T, Riffel P, Froelich MF, Gresser E, von Hardenberg J, Mühlberg A, Michel MS, Schoenberg SO, Nörenberg D. Multiparametric MRI for Prostate Cancer Characterization: Combined Use of Radiomics Model with PI-RADS and Clinical Parameters. Cancers (Basel). 2020 Jul 2;12(7). pii: E1767. doi: 10.3390/cancers12071767.</citation>
+    <PMID>32630787</PMID>
+  </reference>
+  <reference>
+    <citation>Gwet KL. Computing inter-rater reliability and its variance in the presence of high agreement. Br J Math Stat Psychol. 2008 May;61(Pt 1):29-48. doi: 10.1348/000711006X126600.</citation>
+    <PMID>18482474</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 27, 2021</study_first_posted>
+  <last_update_submitted>August 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Nova Scotia Health Authority</investigator_affiliation>
+    <investigator_full_name>Mike Kucharczyk</investigator_full_name>
+    <investigator_title>Radiation Oncologist</investigator_title>
+  </responsible_party>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Non-invasive</keyword>
+  <keyword>Cancer Diagnosis</keyword>
+  <keyword>Staging</keyword>
+  <keyword>Prostate Cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Will be reported at study completion, expected in 2023.</ipd_time_frame>
+    <ipd_access_criteria>The study protocol and SAP will be shared in the publication. Analytic code and images will be shared with collaborating institutions and groups that have agreed to a data sharing agreement with the investigators.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

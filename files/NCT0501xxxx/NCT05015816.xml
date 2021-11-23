@@ -1,0 +1,340 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05015816</url>
+  </required_header>
+  <id_info>
+    <org_study_id>14872</org_study_id>
+    <nct_id>NCT05015816</nct_id>
+  </id_info>
+  <brief_title>MoleGazer Development Feasibility Study</brief_title>
+  <official_title>MoleGazer: A Feasibility Study for Early Detection of Melanoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oxford University Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Southampton</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oxford University Hospitals NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Melanoma (skin cancer) frequently develops from existing moles on the skin. Current practice&#xD;
+      relies on expert dermatologists being able to successfully identify new/changing moles in&#xD;
+      individuals with multiple moles. Total body photography (TBP-high-quality images of the&#xD;
+      entire skin) can track and monitor moles over time to detect melanoma.&#xD;
+&#xD;
+      However, TBP is currently used as a visual guide when diagnosing melanoma, requiring visual&#xD;
+      inspection of each mole sequentially. This process is challenging, time-consuming and&#xD;
+      inefficient. Artificial intelligence (AI) is ideally suited to automate this process.&#xD;
+      Comparing baseline TBP images to newly acquired photographs, AI techniques can be used to&#xD;
+      accurately identify and highlight changing moles, and potentially distinguish harmless moles&#xD;
+      from cancerous changes.&#xD;
+&#xD;
+      Astrophysicists face a similar problem when they map the night sky to detect new events, such&#xD;
+      as exploding stars. Using AI, based on two or more images, astrophysicists detect new events&#xD;
+      and accurately predict how they will appear subsequently. This project, called MoleGazer, is&#xD;
+      a collaboration with astrophysicists aiming to apply AI methods that are currently used for&#xD;
+      astronomical sky surveys, to TBP images. The MoleGazer algorithm, developed at Oxford&#xD;
+      University Hospitals NHS Foundation Trust, will automatically identify the appearance of new&#xD;
+      moles and characterise changes in existing ones, when new TBP images are taken. To optimise&#xD;
+      this MoleGazer algorithm TBP images will be taken at multiple time-points, as there are no&#xD;
+      existing datasets of TBP images that are publicly available. The investigators invite a)&#xD;
+      high-risk patients attending skin cancer screening clinics to attend sequential three-monthly&#xD;
+      TBP imaging and clinical assessment and b) any patient who undergoes TBP as standard care to&#xD;
+      share images so that the investigators can develop the MoleGazer algorithm. The ultimate goal&#xD;
+      is for the MoleGazer algorithm to 'map moles' over a patient's lifetime to detect changes,&#xD;
+      with the eventual aim to detect melanoma as early as possible.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background&#xD;
+&#xD;
+      Melanoma incidence is rapidly increasing with 15,906 new United Kingdom (UK) cases in 2015&#xD;
+      resulting in 2,285 deaths. Diagnosing melanoma early is essential as early stage disease has&#xD;
+      &gt; 95% 5-year relative survival rate compared with 8-25% for advanced melanoma. In the UK,&#xD;
+      skin cancer costs are predicted to exceed £180 million by 2020 and pose significant morbidity&#xD;
+      (and mortality) to individuals affected. Up to 60% of melanoma arise from pre-existing naevi&#xD;
+      (moles). Early melanoma detection relies on individuals recognising changes in naevi and for&#xD;
+      those individuals with multiple naevi expert assessment of these naevi by trained&#xD;
+      dermatologists using diagnostic aids such as dermoscopy (x10 magnification). Furthermore&#xD;
+      there is evidence that sequential surveillance of naevi also increases melanoma detection&#xD;
+      rates.&#xD;
+&#xD;
+      Total body photography (TBP) is a diagnostic aid for monitoring of multiple naevi&#xD;
+&#xD;
+      For patients at high-risk of developing melanoma with multiple naevi (&gt;60), total body&#xD;
+      photography (TBP) (standardised body-part images taken using high-resolution camera), is used&#xD;
+      as an aid to track, compare and monitor naevi over time and has been demonstrated to improve&#xD;
+      melanoma diagnosis. Recommended short-term surveillance monitoring of naevi is 3-months but&#xD;
+      is largely confined to single lesions. In a resource-constrained National Health Service&#xD;
+      (NHS), frequent surveillance for multiple naevi by a dermatologist is impractical and&#xD;
+      inefficient such that early diagnosis of melanoma effectively relies on patient&#xD;
+      self-surveillance. A potential solution is automated analysis of TBP images using artificial&#xD;
+      intelligence (AI) to track and monitor naevi over time.&#xD;
+&#xD;
+      Artificial intelligence applied to TBP could improve efficiency of 'mole-mapping'&#xD;
+&#xD;
+      Previous AI evaluation of skin lesions has demonstrated equivalent accuracy to trained&#xD;
+      dermatologists in skin cancer diagnosis, however this relied on single-lesion analysis at&#xD;
+      static time-points (with biopsy-proven diagnoses). The use of lesions scheduled for excision&#xD;
+      (i.e., high clinical suspicion of melanoma) severely limits clinical applicability and a&#xD;
+      Cochrane review concluded that utility of computer-aided detection for melanoma diagnosis in&#xD;
+      secondary care remains unknown.The more clinically-relevant question is whether automated&#xD;
+      detection of changes in naevi using sequential TBP images, referred to clinically as 'mole&#xD;
+      mapping', can indeed improve early diagnosis of melanoma.&#xD;
+&#xD;
+      To date, TBP systems in the NHS have limited automation, restricted to storing and retrieving&#xD;
+      images. Although one automated total body scanning system exists, and in the future may&#xD;
+      incorporate AI-based diagnosis in addition to current image acquisition and lesion matching&#xD;
+      algorithms, a full clinical validation and any subsequent implementation in the NHS will be&#xD;
+      costly due to the investment required in the scanning system (current cost US $1 million).&#xD;
+      Whether the same or better results can be achieved using more conventional image acquisition&#xD;
+      equipment and sophisticated AI techniques is unknown. The investigators propose a novel&#xD;
+      application of astronomical AI methods for early melanoma detection using standard TBP-based&#xD;
+      surveillance of naevi which is currently employed in the NHS and can be used as an adjunct to&#xD;
+      clinical review of individuals.&#xD;
+&#xD;
+      Application of astronomical AI techniques to TBP monitoring of multiple naevi&#xD;
+&#xD;
+      Transient science in astronomy aims to detect and track evolution of new astronomical sources&#xD;
+      such as exploding stars. Exhibiting both long- and short-term evolution, individual events&#xD;
+      are detected by comparing new images with archival data and classified based on a feature&#xD;
+      set, including transient brightness, colour, proper motion and extent. Cutting-edge&#xD;
+      astronomical surveys monitor the sky every night over multi-year timescales to identify&#xD;
+      subtle changes. AI techniques (such as random forests and recurrent neural networks; RNN)&#xD;
+      which use the full time-series history and contextual information are routinely used to&#xD;
+      identify and classify events probabilistically. With each new observation providing&#xD;
+      additional information, astronomical transient surveys can routinely detect and characterise&#xD;
+      new sources, such that the evolution of new sources can be predicted with 99.5% accuracy&#xD;
+      based on only three time-points.&#xD;
+&#xD;
+      This challenge faced in astronomy is analogous to 'mole mapping' for individuals at high-risk&#xD;
+      of developing melanoma; both naevi and astronomical sources can be characterised as distinct&#xD;
+      sources against a homogeneous background which are tracked across multiple images to detect&#xD;
+      change. The investigators therefore hypothesise that astronomical AI techniques are ideally&#xD;
+      suited to address this clinical problem and are developing the MoleGazer project to test&#xD;
+      this.&#xD;
+&#xD;
+      Rationale&#xD;
+&#xD;
+      To develop the MoleGazer algorithm, the investigators require a baseline dataset to apply&#xD;
+      astronomical AI algorithms to TBP images to detect and track naevi across sequential images.&#xD;
+      There are currently no publicly available databases of TBP images for the investigators to&#xD;
+      test this feasibility and therefore in this study the aim is to collect:&#xD;
+&#xD;
+        1. a time-series cohort of TBP images taken at fixed sequential time-points over 2 years&#xD;
+&#xD;
+        2. a baseline cohort of TBP images with sequential images taken at any time-points By&#xD;
+           collecting TBP images it will allow the investigators to study the sensitivity of naevi&#xD;
+           detection and characterisation on skin tone, lighting levels, image registration and&#xD;
+           background subtraction techniques, enabling the investigators to also automate detection&#xD;
+           of naevi and track their evolution in any sequential image that the study team has. The&#xD;
+           development of this database will allow the investigators to demonstrate feasibility of&#xD;
+           the application of astronomical AI methods to TBP images.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 13, 2021</start_date>
+  <completion_date type="Anticipated">September 12, 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 12, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Functional algorithm to map naevi sequentially</measure>
+    <time_frame>3 years</time_frame>
+    <description>The primary objective of this study is to develop the MoleGazer algorithm</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of TBP images in database</measure>
+    <time_frame>3 years</time_frame>
+    <description>To develop an anonymised database of digital total body photography images</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of high quality images amenable to evaluation</measure>
+    <time_frame>3 years</time_frame>
+    <description>Assess the quality of TBP images</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of participants who complete a dataset of three-monthly imaging (Group A)</measure>
+    <time_frame>2 years</time_frame>
+    <description>Determine feasibility of patients obtaining regular TBP imaging</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of TBP images that can be registered and consistently deformed using existing astronomical software adapted for this purpose</measure>
+    <time_frame>1 year</time_frame>
+    <description>To demonstrate consistently registering all images for use in sequential imaging</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The number of naevi detected by our algorithm from TBP images compared to those determined by an experienced dermatologist</measure>
+    <time_frame>1 year</time_frame>
+    <description>To detect all naevi in each TBP image</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The distribution of naevi detected by our algorithm from TBP images compared to those determined by an experienced dermatologist</measure>
+    <time_frame>1 year</time_frame>
+    <description>To detect distribution of all naevi in each TBP image</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of naevi (as determined by a trained dermatologist) in TBP images discarded when considering an optimal feature set</measure>
+    <time_frame>3 years</time_frame>
+    <description>To determine a feature set that distinguished between naevi and other skin lesions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of sequential TBP images that can be used for naevi detection.</measure>
+    <time_frame>3 years</time_frame>
+    <description>To develop a database structure to track the evolution of each detected naevus</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of naevi that are detected and measured in all sequential TBP images</measure>
+    <time_frame>3 years</time_frame>
+    <description>To study the evolutionary path of naevi in sequential TBP images</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">550</enrollment>
+  <condition>Melanoma (Skin)</condition>
+  <condition>Moles Multiple Benign</condition>
+  <arm_group>
+    <arm_group_label>Group A: Time series</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Individuals at high risk of developing melanoma will be invited to attend for sequential TBP imaging, full body skin examination by a Dermatologist and completion of a case report form (CRF) every three months for two years. At the end of the study participants will also be invited to complete a feasibility questionnaire</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B: Baseline cohort</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>All patients who undergo standard care and are selected for total body photography (TBP) imaging will be invited to consent to this group. Any individuals who have had previous TBP imaging will also be eligible to enter Group B of this study. A baseline CRF will be completed and a participant feasibility questionnaire. There will be no additional images taken for the purposes of the study and no additional clinic visits in relation to this part of the study. However, individuals who consent to Group B will also agree to share any future TBP images taken in the department over the next two years so that any sequential images can also be included in the analysis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Total body photography</intervention_name>
+    <description>3 monthly TBP imaging</description>
+    <arm_group_label>Group A: Time series</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participant is willing and able to give informed consent for participation in the&#xD;
+             study&#xD;
+&#xD;
+          -  Male or Female, aged 18-80 years old&#xD;
+&#xD;
+        In addition for Group A:&#xD;
+&#xD;
+          1. Willing to attend for additional study visits and total body photography imaging&#xD;
+&#xD;
+          2. High-risk melanoma patients including:&#xD;
+&#xD;
+               -  Dysplastic / atypical naevus syndrome (&gt; 60 moles +/- personal history of&#xD;
+                  melanoma)&#xD;
+&#xD;
+               -  Family history of melanoma&#xD;
+&#xD;
+               -  Past history of at least two primary melanoma or melanoma-in situ&#xD;
+&#xD;
+               -  At least 3 first-degree or second-degree relatives with prior melanoma&#xD;
+&#xD;
+               -  CDKN2A or CDK4 germline mutation&#xD;
+&#xD;
+               -  Individuals with multiple naevi (&gt;25) who are immunosuppressed from any cause&#xD;
+                  (e.g. organ transplant recipients, chronic lymphocytic leukaemia, etc.)&#xD;
+&#xD;
+        In addition for Group B:&#xD;
+&#xD;
+        ● Has previously had total body photography imaging OR will have total body photography as&#xD;
+        part of standard care&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        The participant may not enter the study if ANY of the following apply:&#xD;
+&#xD;
+          -  Patient unable to consent&#xD;
+&#xD;
+          -  Patient with active malignancy affecting any organ and receiving any cancer-specific&#xD;
+             treatment&#xD;
+&#xD;
+          -  Poor mobility / unable to hold recommended positions for standard TBP imaging&#xD;
+&#xD;
+          -  Individuals who do not understand English&#xD;
+&#xD;
+        In addition for Group A:&#xD;
+&#xD;
+        ● Unable to attend for three-monthly study visits&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rubeta N Matin, PhD FRCP</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oxford University Hospitals NHS Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rubeta N Matin, PhD FRCP</last_name>
+    <phone>+441865 228264</phone>
+    <email>rubeta.matin@ouh.nhs.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Churchill Hospital</name>
+      <address>
+        <city>Headington</city>
+        <state>Oxford</state>
+        <zip>OX3 7LE</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rubeta N Matin, PhD MRCP</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>December 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 16, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2021</study_first_posted>
+  <last_update_submitted>September 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 23, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oxford University Hospitals NHS Trust</investigator_affiliation>
+    <investigator_full_name>Rubeta Matin</investigator_full_name>
+    <investigator_title>Primary Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

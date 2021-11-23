@@ -1,0 +1,606 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04176406</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00065334_1</org_study_id>
+    <nct_id>NCT04176406</nct_id>
+  </id_info>
+  <brief_title>Using fMRI-guided TMS to Increase Central Executive Function in Older Adults (MCI_Sub)</brief_title>
+  <acronym>MCI_Sub</acronym>
+  <official_title>Using fMRI-guided TMS to Increase Central Executive Function in Older Adults (MCI_Sub)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Duke University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an administrative supplement to an existing project &quot;Using fMRI-guided TMS to&#xD;
+      increase central executive function in older adults: NCT02767323&quot; This award allows extending&#xD;
+      our existing fMRI-TMS paradigm to patients with a prodromal form of Alzheimer's Disease (AD)&#xD;
+      known as amnestic Mild Cognitive Impairment (MCI), and investigate the role of brain health&#xD;
+      factors in mediating the TMS-related memory performance benefits associated with&#xD;
+      communication between a network of frontoparietal brain regions in these populations.&#xD;
+&#xD;
+      The focus on focal neurostimulation at only a single site represents a fundamental gap in the&#xD;
+      approach of memory-based neurostimulation therapies. Neurostimulation affects multiple sites&#xD;
+      within a cortical network, but these global effects have not been used as targets for&#xD;
+      stimulation because of limited knowledge about what influence these localized sites have on&#xD;
+      global changes in brain state. To address this problem, multimodal neuroimaging tools and&#xD;
+      network modeling approaches developed though the parent U01 project will be used, to&#xD;
+      demonstrate how focal neurostimulation improves the efficacy of TMS for enhancing memory&#xD;
+      function. These goals will be addressed in the Administrative Supplement under our two&#xD;
+      specific aims. First, network-guided TMS will be applied to optimize memory success based in&#xD;
+      the frontoparietal network (FPN) in a new group of MCI patients. A new form of TMS targeting&#xD;
+      that involves modeling of the global network to understand how the controllability of a&#xD;
+      stimulation site evokes changes in widespread brain networks will be tested. Second,&#xD;
+      structural and functional factors affecting the efficacy of individualized network-guided TMS&#xD;
+      will be identified to ameliorate deficits in MCI. By creating a multimodal model of neural&#xD;
+      deficits related to MCI, network-guided TMS will be adjusted to demonstrate how the MCI brain&#xD;
+      might compensate for these neural deficits. The parent U01 project has made foundational&#xD;
+      advances towards these goals, as we have demonstrated the ability of to selectively enhance&#xD;
+      and reduce working memory performance in healthy older adults. In the current Administrative&#xD;
+      Supplement this paradigm will be extended to a group of MCI participants in order to test the&#xD;
+      hypothesis that excitatory rTMS to the working memory network can provide positive outcomes&#xD;
+      for patients with pre-clinical AD. The proposed work will provide an important tool for&#xD;
+      studying the stability and controllability of network connectivity of memory states in the&#xD;
+      aging brain, as well as new information on the effectiveness of brain stimulation&#xD;
+      technologies as a therapeutic approach for cognitive decline.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Covid-19, Funding ended&#xD;
+  </why_stopped>
+  <start_date type="Actual">November 25, 2019</start_date>
+  <completion_date type="Actual">February 27, 2020</completion_date>
+  <primary_completion_date type="Actual">February 27, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Accuracy (in Percentage)</measure>
+    <time_frame>Through study completion, an average of one year</time_frame>
+    <description>Accuracy (in percentage) will be assessed to evaluate the acute effect of rTMS.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Reaction Times (ms)</measure>
+    <time_frame>Through study completion an average of one year</time_frame>
+    <description>Reaction times (in ms) will be assessed to evaluate the acute effect of rTMS</description>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Mild Cognitive Impairment</condition>
+  <arm_group>
+    <arm_group_label>rTMS over a node within the fronto-parietal network</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>excitatory 5Hz rTMS will be applied over a node within the fronto-parietal network, defined via network analysis.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham rTMS over a node within the fronto-parietal network</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>electrical sham coil applied over a node within the fronto-parietal network.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>rTMS over the DLPFC</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>excitatory 5Hz rTMS will be applied over the dorso-lateral prefrontal cortex showing the strongest fMRI activation.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham rTMS over the DLPFC</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>electrical sham coil applied over the DLPFC.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>rTMS</intervention_name>
+    <description>excitatory 5Hz rTMS will be used</description>
+    <arm_group_label>rTMS over a node within the fronto-parietal network</arm_group_label>
+    <arm_group_label>rTMS over the DLPFC</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sham rTMS</intervention_name>
+    <description>an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+    <arm_group_label>Sham rTMS over a node within the fronto-parietal network</arm_group_label>
+    <arm_group_label>Sham rTMS over the DLPFC</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  English Speaking&#xD;
+&#xD;
+          -  willing to provide consent&#xD;
+&#xD;
+          -  signed HIPAA authorization&#xD;
+&#xD;
+          -  clinical consensus for MCI; and/or met inclusion criterial on MoCA, ApoE.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  History of any I DSM IV disorder that is unstable or untreated&#xD;
+&#xD;
+          -  current or past history of substance abuse or dependence (excluding nicotine)&#xD;
+&#xD;
+          -  women who are pregnant or breast feeding&#xD;
+&#xD;
+          -  intracranial implants (e.g. aneurysms clips, shunts, stimulators, cochlear implants,&#xD;
+             or electrodes&#xD;
+&#xD;
+          -  increased risk of seizure for any reason, including prior diagnosis of epilepsy,&#xD;
+             seizure disorder, increased intracranial pressure, or history of significant head&#xD;
+             trauma greater than mild concussion (History of significant head trauma, including&#xD;
+             with loss of consciousness for ≥ 30 minutes, alteration of consciousness for up to 24&#xD;
+             hours following the event, or post-traumatic amnesia) in the past 10yrs or head injury&#xD;
+             received after age 65&#xD;
+&#xD;
+          -  Neurological disorder including, but not limited to: space occupying brain lesion; any&#xD;
+             history of seizures, history of cerebrovascular accident; cerebral aneurysm ,&#xD;
+             Dementia, Huntington chorea, multiple sclerosis&#xD;
+&#xD;
+          -  Increased risk of seizure for any reason, including prior diagnosis of increased&#xD;
+             intracranial pressure (such as after large infarctions or trauma), or currently taking&#xD;
+             medication that are on the strong potential hazard list for rTMS.&#xD;
+&#xD;
+          -  Subjects taking medications with an ACB score of 3.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>55 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lawrence G Appelbaum</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>November 20, 2019</study_first_submitted>
+  <study_first_submitted_qc>November 21, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 25, 2019</study_first_posted>
+  <results_first_submitted>December 11, 2020</results_first_submitted>
+  <results_first_submitted_qc>December 11, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">January 11, 2021</results_first_posted>
+  <last_update_submitted>January 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cognitive Dysfunction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 1, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/06/NCT04176406/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>Study was terminated prior to application of rTMS or Sham.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>rTMS Over a Node Within the Fronto-parietal Network</title>
+          <description>excitatory 5Hz rTMS will be applied over a node within the fronto-parietal network, defined via network analysis.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+        </group>
+        <group group_id="P2">
+          <title>Sham rTMS Over a Node Within the Fronto-parietal Network</title>
+          <description>electrical sham coil applied over a node within the fronto-parietal network.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+        </group>
+        <group group_id="P3">
+          <title>rTMS Over the DLPFC</title>
+          <description>excitatory 5Hz rTMS will be applied over the dorso-lateral prefrontal cortex showing the strongest fMRI activation.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+        </group>
+        <group group_id="P4">
+          <title>Sham rTMS Over the DLPFC</title>
+          <description>electrical sham coil applied over the DLPFC.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+                <participants group_id="P4" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>These participants only performed the behavioral task. No TMS was applied.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Enrolled Participants</title>
+          <description>The following numbers represent the baseline characteristics for the participants enrolled in the study, who performed only the behavioral task. None of these participants received rTMS</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="10"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="65.2" spread="6.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Accuracy (in Percentage)</title>
+        <description>Accuracy (in percentage) will be assessed to evaluate the acute effect of rTMS.</description>
+        <time_frame>Through study completion, an average of one year</time_frame>
+        <population>The study had to be interrupted because of Covid-19 situation, while we were still piloting the behavioral task. Therefore no data with rTMS were collected.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Sham rTMS Over the DLPFC</title>
+            <description>electrical sham coil applied over the DLPFC.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Accuracy (in Percentage)</title>
+          <description>Accuracy (in percentage) will be assessed to evaluate the acute effect of rTMS.</description>
+          <population>The study had to be interrupted because of Covid-19 situation, while we were still piloting the behavioral task. Therefore no data with rTMS were collected.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Reaction Times (ms)</title>
+        <description>Reaction times (in ms) will be assessed to evaluate the acute effect of rTMS</description>
+        <time_frame>Through study completion an average of one year</time_frame>
+        <population>The study had be be terminated early due to the Covid-19 situation, while we were still piloting the behavioral task. Therefore no participants received rTMS</population>
+        <group_list>
+          <group group_id="O1">
+            <title>rTMS Over a Node Within the Fronto-parietal Network</title>
+            <description>excitatory 5Hz rTMS will be applied over a node within the fronto-parietal network, defined via network analysis.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+          </group>
+          <group group_id="O2">
+            <title>Sham rTMS Over a Node Within the Fronto-parietal Network</title>
+            <description>electrical sham coil applied over a node within the fronto-parietal network.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+          </group>
+          <group group_id="O3">
+            <title>rTMS Over the DLPFC</title>
+            <description>excitatory 5Hz rTMS will be applied over the dorso-lateral prefrontal cortex showing the strongest fMRI activation.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+          </group>
+          <group group_id="O4">
+            <title>Sham rTMS Over the DLPFC</title>
+            <description>electrical sham coil applied over the DLPFC.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Acute Effect of a rTMS Session on the Performance for a Working Memory Task, as Measured by Reaction Times (ms)</title>
+          <description>Reaction times (in ms) will be assessed to evaluate the acute effect of rTMS</description>
+          <population>The study had be be terminated early due to the Covid-19 situation, while we were still piloting the behavioral task. Therefore no participants received rTMS</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+                <count group_id="O2" value="0"/>
+                <count group_id="O3" value="0"/>
+                <count group_id="O4" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>adverse event data are collected during rTMS and a few minutes after.</time_frame>
+      <desc>rTMS was not applied so no adverse event/ all cause mortality were monitored</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>rTMS Over a Node Within the Fronto-parietal Network</title>
+          <description>excitatory 5Hz rTMS will be applied over a node within the fronto-parietal network, defined via network analysis.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+        </group>
+        <group group_id="E2">
+          <title>Sham rTMS Over a Node Within the Fronto-parietal Network</title>
+          <description>electrical sham coil applied over a node within the fronto-parietal network.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+        </group>
+        <group group_id="E3">
+          <title>rTMS Over the DLPFC</title>
+          <description>excitatory 5Hz rTMS will be applied over the dorso-lateral prefrontal cortex showing the strongest fMRI activation.&#xD;
+rTMS: excitatory 5Hz rTMS will be used</description>
+        </group>
+        <group group_id="E4">
+          <title>Sham rTMS Over the DLPFC</title>
+          <description>electrical sham coil applied over the DLPFC.&#xD;
+Sham rTMS: an electrical sham coil reproducing the same clicking sound and tactile sensation than the active rTMS will be used</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Lawrence G. Appelbaum</name_or_title>
+      <organization>Duke University</organization>
+      <phone>919-613-7664</phone>
+      <email>greg@duke.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

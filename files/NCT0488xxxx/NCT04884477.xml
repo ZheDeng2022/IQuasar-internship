@@ -1,0 +1,241 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04884477</url>
+  </required_header>
+  <id_info>
+    <org_study_id>21-001374</org_study_id>
+    <nct_id>NCT04884477</nct_id>
+  </id_info>
+  <brief_title>COVID-19 Infection in Patients Receiving Anti-CD20 Therapy</brief_title>
+  <official_title>COVID-19 Infection in Patients Receiving Anti-CD20 Therapy: Clinical Course and Convalescent Plasma Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Mayo Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is being conducted to determine if patients with compromised B-cell function due&#xD;
+      to anti-CD20 therapy and newly diagnosed COVID-19 infection benefit from convalescent plasma.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a retrospective cohort study comparing patients, with newly diagnosed COVID-19&#xD;
+      infection, previously treated with anti-CD20 drugs for diseases including vasculitis or&#xD;
+      hematologic malignancy, who are given high titer convalescent plasma with similar patients&#xD;
+      receiving usual care that does not include convalescent plasma.&#xD;
+&#xD;
+      The goals are:&#xD;
+&#xD;
+        1. To describe the natural course of COVID-19 in patients previously treated with anti-CD20&#xD;
+           drugs for diseases such as vasculitis and hematologic malignancies. The investigators'&#xD;
+           hypothesis is that patients who acquire COVID-19 preceded by recent anti-CD20 therapy&#xD;
+           develop a prolonged course of COVID-19 infection which is not improved by remdesivir and&#xD;
+           immunomodulator agents alone.&#xD;
+&#xD;
+        2. To quantify the risk for each outcome among patients with COVID-19 according to the time&#xD;
+           they had received anti-CD20 therapy. The hypothesis is that patients with COVID-19 may&#xD;
+           be less responsive to COVID-19 directed therapy when anti-CD20 was given more recently&#xD;
+           (e.g., less than 6 months) prior to contracting COVID-19.&#xD;
+&#xD;
+        3. To compare the outcome of patients with COVID-19 who have received anti-CD20 drugs and&#xD;
+           are treated or not with high titer convalescent plasma sufficient to reach passive&#xD;
+           seroconversion. The hypothesis is that patients who have received an anti-CD20 drug&#xD;
+           within the previous 6 months of their COVID-19 diagnosis have a reduced chance of&#xD;
+           achieving a full recovery without first reaching passive SARS-CoV2 seroconversion.&#xD;
+&#xD;
+      Data will be extracted from a data registry, built in the electronic health record (EHR)&#xD;
+      environment, automatically logging subjects based on data in the electronic health record and&#xD;
+      extracting relevant data metrics. This is put into a data mart nightly via an extract,&#xD;
+      transform and load process used as part of routine operations and validated as part of&#xD;
+      routine maintenance. Metric definitions in the registry system include validation of data as&#xD;
+      being within defined limits based on the entry of EHR values to prevent outliers inconsistent&#xD;
+      with reasonable data. The registry is built in the medical record system, and is checked for&#xD;
+      consistency as part of the EHR architecture and maintenance. All data is extracted from the&#xD;
+      Epic electronic health record. Diagnoses and procedures are coded using ICD-10-CM and&#xD;
+      SNOMED-CT and laboratory data identified using appropriate LOINC codes. Rules based metrics&#xD;
+      calculate demographic information and risks scores such as the Charlson comorbidity index, as&#xD;
+      indicated in the attached data dictionary.&#xD;
+&#xD;
+      Outcome analyses will be subjected to propensity score (PS) adjustment to account for&#xD;
+      non-random treatment selection. First, the investigators will estimate the PS from a&#xD;
+      multivariable logistic regression in which predictors of receiving CP (within the first 30&#xD;
+      days) are determined as a function of patient baseline characteristics. The propensity model&#xD;
+      will include age, sex, race, APACHE-3 score, and additional baseline covariates chosen a&#xD;
+      priori based on clinical relevance. Finally, comparison of the CP and no CP treatment&#xD;
+      outcomes will be adjusted for baseline differences by including PS (as restricted cubic&#xD;
+      spline in the logit PS to allow for nonlinear effects) in the outcome regression model with&#xD;
+      the CP treatment variable. As an additional PS technique, patients treated without CP will be&#xD;
+      matched to patients who received CP based on disease group (vasculitis or hematologic&#xD;
+      malignancy) and propensity score within a tolerance of 0.2 standard deviations of logit-PS.&#xD;
+      To avoid survival bias, the matching process will consider only the eligible controls who&#xD;
+      were followed as long or longer than the time-to-first transfusion of the CP case.&#xD;
+&#xD;
+      Separate proportional odds logistic regression models will be fitted for the univariate WHO&#xD;
+      ordinal outcome score at 30 days and for multivariate outcome scores at 30, 60 and 90 days&#xD;
+      (as a repeated measures analysis), with the patients' CP status, time, baseline WHO score,&#xD;
+      and PS included as independent variables. ICU-free days, defined as the number of days alive&#xD;
+      and free of ICU between study entry and day 30 or day 90 will be calculated and compared&#xD;
+      between CP and no CP groups using Poisson regression. For this analysis, the investigators&#xD;
+      will initially start all patients at time of positive PCR in the no CP group. When patients&#xD;
+      receive their first transfusion, their non-CP follow-up will be truncated, and their&#xD;
+      follow-up will be restarted at time zero in the CP group. The investigators will use an&#xD;
+      offset in the model to allow for difference in observation days between the two groups.&#xD;
+      Lastly, treatment heterogeneity will be explored for pre-specified baseline characteristics&#xD;
+      (e.g., time since anti-CD20, sex, race) by testing treatment-by-covariate interactions in the&#xD;
+      outcome models. Time since anti-CD20 will be analyzed as a continuous variable using an&#xD;
+      expanded cohort to consider a wider range of times (within 3 years). The investigators will&#xD;
+      also examine the association between time since anti-CD20 use and study outcomes,&#xD;
+      irrespective of plasma treatment. Again, time will be considered on a continuum and modeled&#xD;
+      flexibly using regression splines to allow for nonlinear relationships with the outcome.&#xD;
+&#xD;
+      Sensitivity analyses:&#xD;
+&#xD;
+      Stratification by category of disease (vasculitis vs. hematologic malignancies) and&#xD;
+      stratification by titer of antibodies, seroconversion achieved, time (from initial positive&#xD;
+      PCR) when plasma was given.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Actual">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in WHO Clinical Progression scale</measure>
+    <time_frame>90 days</time_frame>
+    <description>In this observational study examining the use of convalescent plasma (CP) for treatment of CD20-depleted patients with COVID-19, we will describe the clinical course of these patients and conduct a comparative treatment analysis. &quot;Time zero&quot; will be considered the date the patient first tested positive for COVID-19, and the time-dependent nature of CP transfusion will be explicitly used in the analysis. The primary outcome of interest is the WHO ordinal outcome score measured repeatedly over 90-day follow-up. The WHO ordinal scale for Clinical Improvement ranges from 0 uninfected to 8 for Dead. Lower scores are seen with better clinical outcomes.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>90-day mortality</measure>
+    <time_frame>90 days</time_frame>
+    <description>&quot;Time zero&quot; will be considered the date the patient first tested positive for COVID-19, and the time-dependent nature of CP transfusion will be explicitly used in the analysis. The first secondary outcome will be 90-day mortality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU-free days</measure>
+    <time_frame>90 days</time_frame>
+    <description>The number of days the patient spent at home or in the hospital not in the ICU will be counted over the 90 days following the date the patient first tested positive for COVID-19, and following convalescent plasma transfusion</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">342</enrollment>
+  <condition>COVID-19</condition>
+  <condition>Immunosuppressed Host</condition>
+  <condition>Convalescent Plasma</condition>
+  <condition>Anti-CD20 Therapy</condition>
+  <arm_group>
+    <arm_group_label>COVID-19 with previous anti-CD20 therapy and Convalescent plasma</arm_group_label>
+    <description>Patients with COVID-19, treated in the past 3 years with anti-CD20 therapy and who received Convalescent plasma in addition to standard treatment for COVID-19</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>COVID-19 with previous anti-CD20 therapy and no convalescent plasma</arm_group_label>
+    <description>Patients with COVID-19, treated in the past 3 years with anti-CD20 therapy treated with standard COVID-19 treatment and who did not receive Convalescent plasma treatment for COVID-19</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Convalescent Plasma</intervention_name>
+    <description>Convalescent Plasma</description>
+    <arm_group_label>COVID-19 with previous anti-CD20 therapy and Convalescent plasma</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients hospitalized in any hospital of the Mayo Clinic Enterprise and enrolled in the&#xD;
+        Mayo Clinic COVID-19 registry.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosis of COVID-19 infection&#xD;
+&#xD;
+          -  Positive SARS CoV2 PCR&#xD;
+&#xD;
+          -  Enrolled in the Mayo Clinic COVID-19 registry&#xD;
+&#xD;
+          -  History of treatment with anti-CD20 drugs within past 3 years&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients who declined to have their chart reviewed for research purpose.&#xD;
+&#xD;
+          -  Patients who have received convalescent plasma within the previous 3 months of&#xD;
+             COVID-19 diagnosis&#xD;
+&#xD;
+          -  Patients who have received monoclonal antibodies that target SARS-CoV-2 in the past&#xD;
+             three months&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mary Kasten, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://mayo.edu/research/clinical-trials</url>
+    <description>Mayo Clinic Clinical Trials</description>
+  </link>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>May 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 7, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 13, 2021</study_first_posted>
+  <last_update_submitted>July 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Mayo Clinic</investigator_affiliation>
+    <investigator_full_name>Mary J. Kasten</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>COVID-19</keyword>
+  <keyword>anti-CD20 therapy</keyword>
+  <keyword>convalescent plasma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>COVID-19</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There is not a plan to make IPD available.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

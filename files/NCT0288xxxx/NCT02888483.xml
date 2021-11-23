@@ -1,0 +1,244 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02888483</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB201600822 - N</org_study_id>
+    <secondary_id>5R01AG042525-05</secondary_id>
+    <secondary_id>SBIR HHSN261201500014C</secondary_id>
+    <nct_id>NCT02888483</nct_id>
+  </id_info>
+  <brief_title>PEAKS: Validation of Mobile Technologies</brief_title>
+  <acronym>PEAKS</acronym>
+  <official_title>PEAKS: Validation of Mobile Technologies for Clinical Assessment, Monitoring and Intervention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Florida</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>EveryFit, Inc</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Florida</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall objective of this project is to evaluate and validate the accuracy and usability&#xD;
+      of a deployed beta sensor-based system. This is a cross-sectional validation study of 100&#xD;
+      apparently health community dwelling adults aged 60+ years. Participants will perform&#xD;
+      standardized lifestyle, exercise and sedentary type physical activities in a clinic&#xD;
+      laboratory and home setting.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Wearable activity monitors have the potential to continuously and objectively measure&#xD;
+      physical activity. However, existing monitors do not address the unique challenges that face&#xD;
+      older adults, who comprise the largest segment of population who suffer from physical&#xD;
+      disabilities and dexterity issues that can make using such monitors exceedingly difficult. In&#xD;
+      fact, the majority of wearable devices on the market address the needs of three broad&#xD;
+      segments:&#xD;
+&#xD;
+        1. Consumers: these devices are designed and optimized for motivated, healthy younger&#xD;
+           individuals and require pairing with smartphones to transmit data, while restricting or,&#xD;
+           at best, limiting access to raw data and algorithms.&#xD;
+&#xD;
+        2. Researchers: research-focused devices tend to be validated across a wide range of&#xD;
+           studies, but are not optimized for wearability or longitudinal use.&#xD;
+&#xD;
+        3. Developers: Developer-focused devices typically provide high configurability, a high-&#xD;
+           definition screen, and a variety of sensors (e.g. accelerometer, gyroscope, air&#xD;
+           pressure, light, temperature, etc.) that are suited for research and development, but&#xD;
+           are not optimized for power-efficient use.&#xD;
+&#xD;
+      To overcome the barriers that existing monitors impose on measuring free-living physical&#xD;
+      activity data, EveryFit developed in-home activity monitoring technology that addresses the&#xD;
+      specific and unique needs of the older population (incorporated in product called QMedic).&#xD;
+&#xD;
+      The overall objective of this project is to evaluate and validate the accuracy and usability&#xD;
+      of a deployed beta sensor-based system. The technology utilizes novel power-efficient&#xD;
+      engineering to continuously measure physical activity (including intensity, type and&#xD;
+      duration) in both laboratory and free-living settings. To accomplish this objective we will&#xD;
+      enroll 100 adults 60+ years of age who will perform standardized lifestyle, exercise and&#xD;
+      sedentary type physical activity in the laboratory. A subset of participants will also be&#xD;
+      asked to wear the monitor in free-living settings.&#xD;
+&#xD;
+      The proposed work can have far-reaching impact given the growth in the older adult&#xD;
+      population, which suffers disproportionally from chronic disease and functional impairments.&#xD;
+      Validating technology that measures physical activity continuously and accurately at the home&#xD;
+      is a critical step in scaling the system, conducting affordable population- scale studies,&#xD;
+      and maximizing the societal impact of the innovation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 2016</start_date>
+  <completion_date type="Actual">May 11, 2018</completion_date>
+  <primary_completion_date type="Actual">May 11, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Metabolic equivalent (MET) value</measure>
+    <time_frame>within one month</time_frame>
+    <description>MET value of physical activities defined as the oxygen uptake (VO2 = milliliter• min-1•kg-1) during a steady state rate expressed as a function 3.5 milliliter• min-1•kg-1.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Tradeoff Accuracy in metabolic equivalent estimation and power consumption</measure>
+    <time_frame>within one month</time_frame>
+    <description>We will manipulate the state machine that samples data from the device with different duty cycles based on contextual changes as measured by the accelerometer or classified by models that use the accelerometer data to classify behavior or categories of behavior.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">113</enrollment>
+  <condition>Health Services for Persons With Disabilities</condition>
+  <condition>Disability Evaluation</condition>
+  <condition>Exercise</condition>
+  <condition>Fitness Trackers</condition>
+  <condition>Validation Studies</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Community dwelling population&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age 60+ years old&#xD;
+&#xD;
+          -  Community dwelling adults without significant health issues that would impact safety&#xD;
+             of participation&#xD;
+&#xD;
+          -  Willingness to undergo all testing procedures&#xD;
+&#xD;
+          -  Weight stable for at least three months&#xD;
+&#xD;
+          -  Able to understand and speak English&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Failure to provide informed consent&#xD;
+&#xD;
+          -  Use of walker (use of a cane is permitted)&#xD;
+&#xD;
+          -  Lower extremity amputation&#xD;
+&#xD;
+          -  Develops chest pain or severe shortness of breath during physical stress&#xD;
+&#xD;
+          -  Post-stroke syndrome causing ambulatory deficits (other stroke survivors permitted)&#xD;
+&#xD;
+          -  Needs assistance with basic activities of daily living: feeding, dressing, continence,&#xD;
+             bathing, toileting, and transferring from a bed to a chair or from a chair to walking&#xD;
+&#xD;
+          -  Lives in a nursing home; persons living in assisted or independent housing are not&#xD;
+             excluded&#xD;
+&#xD;
+          -  Heavy drinking as drinking 5 or more drinks on the same occasion on each of 5 or more&#xD;
+             days in the past 30 days.&#xD;
+&#xD;
+          -  For women who are child-bearing age (up to 62 years of age): pregnancy or&#xD;
+             breast-feeding&#xD;
+&#xD;
+          -  Participation in a structured weight loss program or fad diet in the last month&#xD;
+&#xD;
+          -  Weight reduction surgery in the past year&#xD;
+&#xD;
+          -  Known neuromuscular disorder that restricts activity (e.g. Rhabdomyolysis, Myasthenia&#xD;
+             Gravis, Ataxia, Apraxia, post-polio syndrome, mitochondrial myopathy, etc.)&#xD;
+&#xD;
+          -  Diagnosed neuropathy that causes pain that restricts activity&#xD;
+&#xD;
+          -  Symptomatic peripheral arterial disease that restricts activity&#xD;
+&#xD;
+          -  Unable to communicate because of severe hearing loss or speech disorder&#xD;
+&#xD;
+          -  Severe visual impairment, which would preclude completion of the assessments&#xD;
+&#xD;
+          -  Progressive, degenerative neurologic disease (e.g., Parkinson's Disease, Multiple&#xD;
+             Sclerosis, ALS)&#xD;
+&#xD;
+          -  Severe rheumatologic or orthopedic diseases that significantly restricts activity&#xD;
+             (e.g., awaiting joint replacement, active inflammatory disease)&#xD;
+&#xD;
+          -  Terminal illness, as determined by a physician&#xD;
+&#xD;
+          -  Severe pulmonary disease, requiring the use of supplemental oxygen or steroid therapy&#xD;
+&#xD;
+          -  Severe cardiac disease, including NYHA Class III or IV congestive heart failure,&#xD;
+             clinically significant aortic stenosis, recent history of cardiac arrest, use of a&#xD;
+             cardiac defibrillator, or uncontrolled angina&#xD;
+&#xD;
+          -  Other significant comorbid disease discovered during medical screening that would&#xD;
+             elicit safety concerns, (e.g. renal failure on hemodialysis, psychiatric disorder,&#xD;
+             chronic fatigue syndrome, etc.)&#xD;
+&#xD;
+          -  Pacemakers and implanted cardiac defibrillators&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Todd M Manini, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Florida</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UF Institute on Aging Clinical and Translational Research Building</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://aging.ufl.edu/</url>
+    <description>University of Florida Institute on Aging</description>
+  </link>
+  <verification_date>May 2019</verification_date>
+  <study_first_submitted>August 30, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 2, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 5, 2016</study_first_posted>
+  <last_update_submitted>May 9, 2019</last_update_submitted>
+  <last_update_submitted_qc>May 9, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 13, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>physical activity</keyword>
+  <keyword>energy expenditure</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

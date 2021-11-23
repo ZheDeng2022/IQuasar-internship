@@ -1,0 +1,303 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04747327</url>
+  </required_header>
+  <id_info>
+    <org_study_id>834772</org_study_id>
+    <nct_id>NCT04747327</nct_id>
+  </id_info>
+  <brief_title>Message Testing Experiments: Psychological Determinants of Behavior Change</brief_title>
+  <official_title>Message Testing Experiments: Psychological Determinants of Behavior Change and Intention</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We are conducting online experiments to systematically manipulate exposure to health-related&#xD;
+      messages in a series of controlled, randomized studies.&#xD;
+&#xD;
+      In one set of experiments, the goal is to test effects of various vaccine policies on&#xD;
+      vaccination decisions and strength of intention. Embedded within the survey experiment, we&#xD;
+      will compare different methods of measuring the outcome. Another experiment is designed to&#xD;
+      compare the effects of financial and social incentives (when deciding to enroll in&#xD;
+      health-related research, such as a RCT to increase exercise).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We are conducting randomized, controlled experiments that are embedded within a survey. The&#xD;
+      studies will enroll national samples recruited through MTurk and/or Prolific platforms.&#xD;
+&#xD;
+      Subjects are randomized to control and experimental conditions for the following experiments:&#xD;
+&#xD;
+      Comparing vaccine incentives, penalties and mandates to each other and a control condition:&#xD;
+      This experiment first tests a relatively large and small financial incentives. We will&#xD;
+      separately test the effects of 10 experimental conditions, with a counter-balanced&#xD;
+      experimental manipulation using an FDA approval message.&#xD;
+&#xD;
+      Testing mandate message effects: This experiment tests the effects of mandatory vaccination&#xD;
+      versus freedom language.&#xD;
+&#xD;
+      Factors influencing the decision to participate in research: In this experiment, the study&#xD;
+      outcome will be interest in RCT enrollment for behavior change. We will test whether those&#xD;
+      who are most motivated to change behavior are also most likely to enroll in a (hypothetical)&#xD;
+      RCT and compare the effects of offering financial versus social incentives for behavior&#xD;
+      change.&#xD;
+&#xD;
+      In our experiments, socio-demographic variables, including age, gender, race, ethnicity,&#xD;
+      political affiliation, education, income, and financial stress will be measured for&#xD;
+      descriptive purposes.&#xD;
+&#xD;
+      Recommended data cleaning procedures: Attention checks can identify those who should be&#xD;
+      excluded from the main analyses. (Regardless of performance on the attention check, all&#xD;
+      participants will be compensated for their time.) It is also recommended that the final&#xD;
+      analyses exclude duplicate IDs, those with a high fraud score, and those who finished the&#xD;
+      fastest (fastest 5%).&#xD;
+&#xD;
+      Replication studies will include the same study design and procedures.&#xD;
+&#xD;
+      Analytic plans for vaccine message experiments (testing financial incentives, penalties, and&#xD;
+      mandates):&#xD;
+&#xD;
+      As noted above, this survey experiment involves randomizing individuals to a control&#xD;
+      condition or one of 10 experimental conditions that expose subjects to messages about&#xD;
+      different COVID-19 vaccine policies. The control group, with no vaccine policy presented will&#xD;
+      be compared to: cash incentives for $1000, $200, or $100; a $1,000 tax credit; lotteries for&#xD;
+      $100,000, $200,000, or $1 million; $1,000 tax on the unvaccinated; and mandates by employers&#xD;
+      or airlines, bars, and restaurants. The main outcome is whether they would want to get&#xD;
+      vaccinated soon given the hypothetical vaccine policy.&#xD;
+&#xD;
+      (Those assigned to the employer mandate condition will be excluded from the final analyses if&#xD;
+      they report being unlikely to have an employer.)&#xD;
+&#xD;
+      OLS specification will be our main result and the other measures are provided as robustness&#xD;
+      checks.&#xD;
+&#xD;
+      The OLS model can exclude all the demographic controls and run the binary dependent variable&#xD;
+      on the treatment variables. (Note that this approach is legitimate because the treatments are&#xD;
+      being randomized across respondents.) The treatments include the financial policies&#xD;
+      (incentives and penalties of different amounts and types) and mandates (of different types)&#xD;
+      being noted in a message.&#xD;
+&#xD;
+      • Type of model: We will perform pairwise t tests of percent of respondents answering &quot;Yes&quot;&#xD;
+      comparing those treated with an incentive to the control group. We will perform these&#xD;
+      pairwise tests on subsets by race, gender, income, education, and other socio-demographics.&#xD;
+&#xD;
+      Additionally, we will conduct these pairwise tests on by type of treatment. Comparing lottery&#xD;
+      to cash incentive, comparing positive incentive vs. penalty, comparing size of incentive, and&#xD;
+      comparing employer mandates against the control.&#xD;
+&#xD;
+      We will also conduct regression analyses on the pooled dataset where the left-hand side&#xD;
+      observations are individual responses where those answering &quot;Yes&quot; will be coded as 1 and&#xD;
+      those answering, &quot;No&quot; or &quot;Unsure&quot; will be coded zero. We will include a set of controls&#xD;
+      (race, gender, income, education, etc) as well as an indicator variable reflecting whether&#xD;
+      the respondent received a treatment. Regression models will include ordinary least squares,&#xD;
+      probit, nearest neighbor matching, and propensity score matching. We will also run these&#xD;
+      regressions where the treatment variable is split up into several indicator variables&#xD;
+      reflecting the type of treatment provided as well as an indicator for FDA approval.&#xD;
+&#xD;
+      We will estimate a model-alternatively using ordinary least squares and logistic&#xD;
+      regression-with a binary-outcome dependent variable (equal to one if the respondent wanted to&#xD;
+      be vaccinated, and otherwise equal to zero). For explanatory variables, we include dummy&#xD;
+      variables for each of the ten treatment arms.&#xD;
+&#xD;
+      • Criteria for statistical significance: We will use .05 as our threshold for statistical&#xD;
+      significance.&#xD;
+&#xD;
+      Embedded within, we will test if methodological differences in the response option for the&#xD;
+      primary outcome effect the percent reporting &quot;yes&quot;. To do this, we will test 2 (Yes and No)&#xD;
+      vs 3 (Yes, No and Unsure) level response options and randomly order both sets.&#xD;
+&#xD;
+      Sample size calculation for the survey experiment comparing 10 different vaccine policies: We&#xD;
+      estimate that if the final sample sizes for each condition include at least 300 subjects, we&#xD;
+      can detect about 5% or larger difference. We plan to double the allocation for the control&#xD;
+      and $1000 conditions to allow for planned comparisons.&#xD;
+&#xD;
+      Methodological experiment: This experiment will examine whether the proportion responding&#xD;
+      &quot;yes&quot; to the same question (about whether they want to vaccinate soon) varies depending on&#xD;
+      the order of response options and whether they include a maybe/unsure option. We will run&#xD;
+      cross tabs and chi-square tests for the 2 vs 3 response levels and the order.&#xD;
+&#xD;
+      The experiments testing the effects of relatively large and small financial incentives on&#xD;
+      vaccination decisions will report point estimates and 95% CIs for the overall sample and&#xD;
+      demographic sub-groups. We will also report summary statistics for all the overall sample and&#xD;
+      sub-populations. We will test whether, compared to a control condition, either of the&#xD;
+      financial incentives increase, decrease, or have no effect on the percentage who want to&#xD;
+      vaccinate. In a fourth study arm, subjects will receive an educational message that will also&#xD;
+      be compared to the control condition.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">February 7, 2021</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>participants are to be randomized to receive a message related to a control condition or experimental stimuli</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>The participant will not know the s/he has been randomized to a particular condition. S/he will not know about the other conditions, or the differences between them.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>measure of decision to vaccinate</measure>
+    <time_frame>through the duration of the experiment: less than 1 day</time_frame>
+    <description>subjects select a response option from a 2 (&quot;yes&quot; or &quot;no&quot;) or 3 (yes, no, unsure) level response set</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>measure of whether they are interested in RCT enrollment</measure>
+    <time_frame>through the duration of the experiment: less than 1 day</time_frame>
+    <description>subjects will select a response option reflecting whether they want RCT info</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>likelihood of behavior</measure>
+    <time_frame>through the duration of the experiment: less than 1 day</time_frame>
+    <description>measures their perceived likelihood of performing the behavior with response options</description>
+  </secondary_outcome>
+  <number_of_arms>6</number_of_arms>
+  <enrollment type="Anticipated">2336</enrollment>
+  <condition>Behavior</condition>
+  <condition>Intention</condition>
+  <arm_group>
+    <arm_group_label>general health topic</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Those in this arm will receive a message about how people have different health preferences.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>specific health incentive information 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Those in this arm will learn about a financial incentive (with a relatively large sum) or a social incentive</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>specific health incentive information 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Those in this arm will learn about a financial incentive (with a relatively small sum) or a social incentive</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>facts only</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Those in this arm will receive a statement about vaccine safety.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>mandatory language</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Those in this arm will receive a statement about how vaccination may be mandatory.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>freedom language</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Those in this arm will receive a statement about how vaccination is currently not required and they have the freedom to choose what they want to do.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>specific health incentive information 1 with facts</intervention_name>
+    <description>a brief message that describes a debate over whether to pay people a large financial incentive to vaccinate</description>
+    <arm_group_label>specific health incentive information 1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>specific health incentive information 2 with facts</intervention_name>
+    <description>a brief message that describes a debate over whether to pay people a smaller financial incentive to vaccinate</description>
+    <arm_group_label>specific health incentive information 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>just facts</intervention_name>
+    <description>a brief message that describes vaccine safety</description>
+    <arm_group_label>facts only</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>requirement to vaccinate message</intervention_name>
+    <description>a brief message that describes vaccination is likely to be required for work, plus safety and efficacy vac info</description>
+    <arm_group_label>mandatory language</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>freedom to decide</intervention_name>
+    <description>a brief message that notes you have the freedom to choose if you want to be vaccinated, and also include safety and efficacy vac info</description>
+    <arm_group_label>freedom language</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults (18 years or older)&#xD;
+&#xD;
+          -  residing in the US&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  children&#xD;
+&#xD;
+          -  those living outside the US&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Fishman, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Center for Mental Health. Perelman School of Medicine</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>February 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 10, 2021</study_first_posted>
+  <last_update_submitted>September 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Pennsylvania</investigator_affiliation>
+    <investigator_full_name>Jessica Fishman, PhD</investigator_full_name>
+    <investigator_title>Senior Research Investigator</investigator_title>
+  </responsible_party>
+  <keyword>decision</keyword>
+  <keyword>vaccine hesitancy</keyword>
+  <keyword>RCT enrollment</keyword>
+  <keyword>incentives</keyword>
+  <keyword>mandates</keyword>
+  <keyword>message effects</keyword>
+  <keyword>intention</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>no plans to share IPD at this time</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

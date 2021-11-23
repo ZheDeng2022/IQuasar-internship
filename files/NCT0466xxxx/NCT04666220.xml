@@ -1,0 +1,516 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04666220</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Predictive VETC</org_study_id>
+    <nct_id>NCT04666220</nct_id>
+  </id_info>
+  <brief_title>VETC, Prognostic and Predictive Value in Renal Cell Carcinoma and Adrenal Carcinoma</brief_title>
+  <official_title>Vessels Encapsulating Tumor Clusters (VETC), Prognostic and Predictive Value in Renal Cell Carcinoma and Adrenal Gland Carcinoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Humanitas Clinical and Research Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Humanitas Clinical and Research Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Metastasis is the main cause of death in cancer patients and often epithelial-to-mesenchymal&#xD;
+      transition (EMT) is advocated as the basic mechanism. Recently Fang and colleagues described&#xD;
+      an EMT-independent process of metastasis in hepatocellular carcinoma (HCC): endothelium&#xD;
+      covers small cluster of tumor cells allowing tumor dissemination. This process of&#xD;
+      angiogenesis, named VETC (vessels that encapsulate tumor clusters) in HCC literature, has&#xD;
+      been described under different names in other cancer types. Furthermore, the investigators&#xD;
+      confirmed the negative impact of VETC on patients' prognosis on a large multicenter cohort of&#xD;
+      HCCs. Moreover, Fang et al demonstrated that patients affected by VETC-positive HCC benefit&#xD;
+      more from sorafenib therapy. Interestingly, this type of angiogenesis was also found in renal&#xD;
+      cell carcinoma, adrenal gland pheochromocytoma, thyroid follicular carcinoma and alveolar&#xD;
+      soft part sarcoma (ASPS) and associated to prognosis. Moreover, the distinction between&#xD;
+      benign and malignant neoplasms of the adrenal gland is a complex matter, being the&#xD;
+      established criteria still lacking a strong reproducibility.&#xD;
+&#xD;
+      Several tyrosine kinase inhibitors are available for different cancer types; among them, HCC,&#xD;
+      RCC, ASPS, and TC may benefit from the so-called antiangiogenic tyrosine kinase inhibitors&#xD;
+      (aTKI) (such as sunitinib, sorafenib, pazopanib). A general (histotype-independent)&#xD;
+      validation of the prognostic role of VETC is missing. Moreover, inhibitors of tyrosine-kinase&#xD;
+      vascular endothelial growth factor receptors (VEGFR-TKI), represent an effective treatment&#xD;
+      for different cancer types, but predictive markers are still needed. In addition, novel&#xD;
+      systemic immunotherapy agents are being approved in many cancer types, as alternative to&#xD;
+      angiogenesis inhibitors. A broader frame including metastatic mechanisms, tumor&#xD;
+      microenvironment (TME, i.e. angiogenesis and immune infiltrate) and treatment response could&#xD;
+      answer to several needs currently unmet. Bayesian networks and causal models can be employed&#xD;
+      to effectively draw conclusions from retrospective data.&#xD;
+&#xD;
+      The aim of the present study is to investigate in patients with RCC and adrenal carcinoma&#xD;
+      (AC) the VETC-expression on tumor tissue, correlating the results with clinical data,&#xD;
+      patients characteristics, and outcome.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background and introduction&#xD;
+&#xD;
+      Metastasis is the main cause of death in cancer patients and often epithelial-to-mesenchymal&#xD;
+      transition (EMT) is advocated as the basic mechanism, although some limitations have been&#xD;
+      identified [1,2] Recently Fang and colleagues described an EMT-independent process of&#xD;
+      metastasis in hepatocellular carcinoma (HCC): endothelium (highlighted by CD34&#xD;
+      immunohistochemistry) covers small cluster of tumor cells allowing tumor dissemination [3].&#xD;
+      This process of angiogenesis, named VETC (vessels that encapsulate tumor clusters) in HCC&#xD;
+      literature, has been described under different names in other cancer types [4]. Furthermore,&#xD;
+      the investigators confirmed the negative impact of VETC on patients' prognosis on a large&#xD;
+      multicenter cohort of HCCs [5]. Moreover, Fang et al demonstrated that patients affected by&#xD;
+      VETC-positive HCC benefit more from sorafenib therapy [6]. Interestingly, this type of&#xD;
+      angiogenesis was also found in renal cell carcinoma, adrenal gland pheochromocytoma, thyroid&#xD;
+      follicular carcinoma and alveolar soft part sarcoma (ASPS) and associated to prognosis [7-10,&#xD;
+      34,35]. Moreover, the distinction between benign and malignant neoplasms of the adrenal gland&#xD;
+      is a complex matter, being the established criteria still lacking a strong reproducibility&#xD;
+      [36].&#xD;
+&#xD;
+      Several tyrosine kinase inhibitors are available for different cancer types; among them, HCC,&#xD;
+      RCC, ASPS, and TC may benefit from the so-called antiangiogenic tyrosine kinase inhibitors&#xD;
+      (aTKI) (such as sunitinib, sorafenib, pazopanib) [11-14].&#xD;
+&#xD;
+      Rationale of the study A general (histotype-independent) validation of the prognostic role of&#xD;
+      VETC is missing. Moreover, inhibitors of tyrosine-kinase vascular endothelial growth factor&#xD;
+      receptors (VEGFR-TKI), represent an effective treatment for different cancer types, but&#xD;
+      predictive markers are still needed. Moreover, novel systemic immunotherapy agents are being&#xD;
+      approved in many cancer types, as alternative to angiogenesis inhibitors. A broader frame&#xD;
+      including metastatic mechanisms, tumor microenvironment (TME, i.e. angiogenesis and immune&#xD;
+      infiltrate) and treatment response could answer to several needs currently unmet. Bayesian&#xD;
+      networks and causal models can be employed to effectively draw conclusions from retrospective&#xD;
+      data.&#xD;
+&#xD;
+      Objectives of the study General objectives&#xD;
+&#xD;
+        1. The systematic investigation of VETC in RCC and AC in order to depict the impact of this&#xD;
+           phenomenon.&#xD;
+&#xD;
+        2. To explore the possible role of TME and in particular of VETC in predicting a more&#xD;
+           beneficial response to VEGFR-TKIs, providing a new tool in guiding the therapeutic&#xD;
+           choice.&#xD;
+&#xD;
+      Study Design The study is monocentric, observational, and it will be performed on clinical&#xD;
+      and histological data collected in the course of study.&#xD;
+&#xD;
+      For all series, clinical and epidemiological features will be recorded, all available&#xD;
+      histological slides will be reviewed and, on the primary tumor slides, histological&#xD;
+      characteristics will be re-assessed.&#xD;
+&#xD;
+      Whenever multiple samples of tumors would be present, those having the tumor-surrounding&#xD;
+      tissue interface will be selected and stained with CD34 antibody.&#xD;
+&#xD;
+      VETC will be evaluated independently by, at least, two pathologists, blinded to clinical&#xD;
+      data. VETC will be recorded as positive or negative, being VETC defined as CD34 unequivocal&#xD;
+      immunoreactivity of a continuous lining of endothelial cells around tumor clusters. VETC will&#xD;
+      be considered alternative to the common capillary pattern, consisting in small circular or&#xD;
+      linear blood vessels.&#xD;
+&#xD;
+      Statistical considerations The project plans to collect data of 100 of patients who underwent&#xD;
+      surgery for RCC at our institution between 2005 and 2007 for the evaluation of VETC impact on&#xD;
+      prognosis, and data of 60 patients who received sunitinib or pazopanib as first-line&#xD;
+      treatment for RCC at our center to explore if patients with VETC vascular phenotype would&#xD;
+      benefit more from the treatment with TKIs. Furthermore, the investigators will collect data&#xD;
+      of 20 patients who underwent surgery for AC at our Institution between 2000 and 2018.&#xD;
+&#xD;
+      Bayesian Analysis Directed acyclic graphs will be constructed with available scientific&#xD;
+      information; adjustment sets and conditional independencies will be calculated [15-17]. Prior&#xD;
+      predictive simulations, when relevant, will be deployed to regularize the prior and reduce&#xD;
+      overfitting. Continuous variables will be standardized to facilitate sampling. Models will be&#xD;
+      fit using Stan (a probabilistic programming language) and R [18,19]. Stan runs a No U-Turn&#xD;
+      sampler, an extension to Hamiltonian Monte Carlo (HMC) sampling, which is itself a form of&#xD;
+      Markov Chain Monte Carlo [20-22]. Four chains for 4000 iterations, or 8000 whenever the bulk&#xD;
+      effective sample size will be low, will be generated. The final 2000 (or 4000) iterations of&#xD;
+      each chain converge as indicated by post-modeling diagnostics such as the number of effective&#xD;
+      Gelman-Rubin R ̂.[23] A satisfactory posterior predictive model performance will be ensured&#xD;
+      before using sample means (for estimates) and sample quantiles (for compatibility intervals&#xD;
+      (CI)) [23,24]. CI will be calculated as 89% of the highest posterior density interval (HDPI)&#xD;
+      [23]. Whenever more clusters of data would be present, the investigators will use varying&#xD;
+      effects multilevel (hierarchical) models [25]. To limit divergent transitions, the&#xD;
+      investigators will reparameterize the models with a non-centered equivalent form [26]&#xD;
+      Predictive accuracy will be measured trough widely applicable information criteria (WAIC)&#xD;
+      [27].&#xD;
+&#xD;
+      Withdrawal of subjects Missing data will be treated modeling the missingness process. [28-29]&#xD;
+&#xD;
+      Forms and procedures for collecting data and data managing To each subject will be assigned a&#xD;
+      sequential identification number. For each subject data will be collected in a case report&#xD;
+      form (CRF). CRF will include SIN, name, sex, date of birth, date of primary surgery, side ,&#xD;
+      size, histotype, relevant grading, necrosis, lymphovascular invasion , R , stage, date of TKI&#xD;
+      therapy, date of disease progression, prognostic scores (IMDC score [30], MSKCC score [31]),&#xD;
+      Karnofsky score [32], first-last line data (type, dates of beginning and end, best response,&#xD;
+      progression date), last follow-up status, last contact, death, VETC. All data will be&#xD;
+      registered in Microsoft Excel spreadsheet format. Data are collected by the data manager and&#xD;
+      database base will be locked with a password. Spaces will be filled with &quot;NA&quot; whenever a&#xD;
+      characteristic was not explored or an item is not applicable to the individual case.&#xD;
+&#xD;
+      For AC, CRF will include SIN, name, sex, date of birth, date of primary surgery, side, size,&#xD;
+      and prognostic criteria for malignancy based on Weiss Classification mod [33].&#xD;
+&#xD;
+      Ethical considerations Patient protection The responsible investigator will ensure that this&#xD;
+      study will be conducted in agreement with either the Declaration of Helsinki (Tokyo, Venice,&#xD;
+      Hong Kong and Somerset West amendments) or the laws and regulations of the country.&#xD;
+&#xD;
+      The protocol has been written, and the study will be conducted according to the institutional&#xD;
+      (ICH) Guideline for Good Clinical Practice The protocol and its annexes were subject to&#xD;
+      review and approval by the competent Independent Ethics Committee(s) (&quot;IEC&quot;).&#xD;
+&#xD;
+      Subject identification - Personal Data protection All records identifying the subject must be&#xD;
+      kept confidential and, to the extent permitted by the applicable laws and/or regulations, not&#xD;
+      be made publicly available. The name of the patient will not be asked for nor recorded at the&#xD;
+      Data Center. A sequential identification number will be automatically attributed to each&#xD;
+      patient registered in the study. This number will identify the patient and must be included&#xD;
+      on all case report forms. In order to avoid identification errors, patient initials and date&#xD;
+      of birth will also be reported on the case report forms.&#xD;
+&#xD;
+      Any and all patient information or documentation pertaining to a clinical trial, to the&#xD;
+      extent permitting, through a &quot;key&quot; kept anywhere, regardless of whether such key is supplied&#xD;
+      along with the information or documentation or not, must be considered as containing&#xD;
+      sensitive personal data of the patient, and is therefore subjected to the provisions of&#xD;
+      applicable data protection (&quot;privacy&quot;) regulations. Breach of such regulations may result in&#xD;
+      administrative or even criminal sanctions.&#xD;
+&#xD;
+      Patient information or documentation may be considered &quot;anonymous&quot;, and as such not subject&#xD;
+      to privacy regulations, only when no key whatsoever, permitting the identification of the&#xD;
+      patient, is any longer available.&#xD;
+&#xD;
+      Informed consent All patients will be informed of the aims of the study. They will be&#xD;
+      informed as to the strict confidentiality of their patient data, but that their medical&#xD;
+      records may be reviewed for study purposes by authorized individuals other than their&#xD;
+      treating physician.It will be emphasized that the participation is voluntary and that the&#xD;
+      patient is allowed to refuse further participation in the protocol whenever he/she wants.&#xD;
+      This will not prejudice the patient's subsequent care. Documented informed consent must be&#xD;
+      obtained for all patients included in the study before they are registered at the Data&#xD;
+      Center. This must be done in accordance with the national and local regulatory requirements.&#xD;
+      For European Union member states, the informed consent procedure must conform to the ICH&#xD;
+      guidelines on Good Clinical Practice. This implies that &quot;the written informed consent form&#xD;
+      should be signed and personally dated by the patient or by the patient's legally acceptable&#xD;
+      representative&quot;.&#xD;
+&#xD;
+      Conflict of Interest Any investigator and/or research staff member who has a conflict of&#xD;
+      interest with this study (such as patent ownership, royalties, or financial gain greater than&#xD;
+      the minimum allowable by their institution) must fully disclose the nature of the conflict of&#xD;
+      interest.&#xD;
+&#xD;
+      Data ownership According to the ICH Guidelines on Good Clinical Practice the sponsor of a&#xD;
+      study (the Institution, should the investigator or study coordinators act as sponsor in the&#xD;
+      performance of her/his institutional duties under the employment or collaboration agreement&#xD;
+      with Humanitas) is the owner of the data resulting therefrom. All centers and investigators&#xD;
+      participating in the study should be made aware of such circumstance and invited not to&#xD;
+      disseminate information or data without the Institution's prior express consent.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 2, 2021</start_date>
+  <completion_date type="Anticipated">May 2021</completion_date>
+  <primary_completion_date type="Anticipated">February 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>VETC in RCC and AC.</measure>
+    <time_frame>2-3 months</time_frame>
+    <description>To identify the expression of VETC in Renal Cell Carcinoma and Adrenal Carcinoma.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Predictive VETC (OS)</measure>
+    <time_frame>2-3 months</time_frame>
+    <description>Treatment specific Overall Survival</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive VETC (PFS)</measure>
+    <time_frame>2-3 months</time_frame>
+    <description>Treatment specific Progression Free Survival</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive VETC (control)</measure>
+    <time_frame>2-3 months</time_frame>
+    <description>Treatment specific Disease Control Rate</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">180</enrollment>
+  <condition>Renal Cell Carcinoma</condition>
+  <condition>Adrenal Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>Renal cell carcinoma (RCC)</arm_group_label>
+    <description>For all series, clinical and epidemiological features will be recorded, all available histological slides will be reviewed and, on the primary tumor slides, histological characteristics will be re-assessed.&#xD;
+Whenever multiple samples of tumors would be present, those having the tumor-surrounding tissue interface will be selected and stained with CD34 antibody.&#xD;
+VETC will be evaluated independently by, at least, two pathologists, blinded to clinical data. VETC will be recorded as positive or negative, being VETC defined as CD34 unequivocal immunoreactivity of a continuous lining of endothelial cells around tumor clusters. VETC will be considered alternative to the common capillary pattern, consisting in small circular or linear blood vessels.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Adrenal carcinoma</arm_group_label>
+    <description>see (RCC)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>VETC evaluation</intervention_name>
+    <description>We will evaluate VETC presence on tissue specimens</description>
+    <arm_group_label>Adrenal carcinoma</arm_group_label>
+    <arm_group_label>Renal cell carcinoma (RCC)</arm_group_label>
+    <other_name>Tumor vasculature evaluation</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Formalin fixed paraffin embedded blocks from biopsies or surgical procedures.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        In order to evaluate VETC effects on prognosis, this study will include series of patients&#xD;
+        who underwent surgery at our institution for RCC (from 2005 to 2007) and for adrenal&#xD;
+        carcinoma (2000-2018). Moreover, to investigate the possible role of TME, in particular of&#xD;
+        VETC, in predicting TKIs benefit, this study will consider series of RCC, selected from a&#xD;
+        prospectively maintained database of patients treated with first line TKIs at our center.&#xD;
+&#xD;
+        Estimated sample size: 160 patients for RCC and 20 patients for AC.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Histological diagnosis of Renal Cell Carcinoma;&#xD;
+&#xD;
+          2. Histological diagnosis of Carcinoma of the adrenal gland;&#xD;
+&#xD;
+          3. Availability of histological material;&#xD;
+&#xD;
+          4. For the evaluation of the prognostic role: no systemic treatment with TKI administered&#xD;
+             before surgery.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Unavailable histological material;&#xD;
+&#xD;
+          2. For RCC: histological diagnosis different from Clear Cell histotype.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Salvatore L Renne, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Humanitas Clinical and Reseach Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Salvatore L Renne, MD</last_name>
+    <phone>+39028224 7743</phone>
+    <email>salvatore.renne@hunimed.eu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Paolo A Zucali, MD</last_name>
+    <phone>+398224 4061</phone>
+    <email>paolo.zucali@hunimed.eu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Humanitas Clinical and Research Hospital</name>
+      <address>
+        <city>Rozzano</city>
+        <state>MI</state>
+        <zip>20089</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Salvatore L Renne, MD</last_name>
+      <phone>+3902 8224 7743</phone>
+      <email>salvatore.renne@hunimed.eu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Paolo A Zucali, MD</last_name>
+      <phone>+3902 8224 4061</phone>
+      <email>paolo.zucali@hunimed.eu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Kalluri R, Weinberg RA. The basics of epithelial-mesenchymal transition. J Clin Invest. 2009 Jun;119(6):1420-8. doi: 10.1172/JCI39104. Review. Erratum in: J Clin Invest. 2010 May 3;120(5):1786.</citation>
+    <PMID>19487818</PMID>
+  </reference>
+  <reference>
+    <citation>Ledford H. Cancer theory faces doubts. Nature. 2011 Apr 21;472(7343):273. doi: 10.1038/472273a.</citation>
+    <PMID>21512545</PMID>
+  </reference>
+  <reference>
+    <citation>Fang JH, Zhou HC, Zhang C, Shang LR, Zhang L, Xu J, Zheng L, Yuan Y, Guo RP, Jia WH, Yun JP, Chen MS, Zhang Y, Zhuang SM. A novel vascular pattern promotes metastasis of hepatocellular carcinoma in an epithelial-mesenchymal transition-independent manner. Hepatology. 2015 Aug;62(2):452-65. doi: 10.1002/hep.27760. Epub 2015 Apr 22.</citation>
+    <PMID>25711742</PMID>
+  </reference>
+  <reference>
+    <citation>Carmeliet P, Jain RK. Molecular mechanisms and clinical applications of angiogenesis. Nature. 2011 May 19;473(7347):298-307. doi: 10.1038/nature10144. Review.</citation>
+    <PMID>21593862</PMID>
+  </reference>
+  <reference>
+    <citation>Renne SL, Woo HY, Allegra S, Rudini N, Yano H, Donadon M, Viganò L, Akiba J, Lee HS, Rhee H, Park YN, Roncalli M, Di Tommaso L. Vessels Encapsulating Tumor Clusters (VETC) Is a Powerful Predictor of Aggressive Hepatocellular Carcinoma. Hepatology. 2020 Jan;71(1):183-195. doi: 10.1002/hep.30814. Epub 2019 Aug 9.</citation>
+    <PMID>31206715</PMID>
+  </reference>
+  <reference>
+    <citation>Fang JH, Xu L, Shang LR, Pan CZ, Ding J, Tang YQ, Liu H, Liu CX, Zheng JL, Zhang YJ, Zhou ZG, Xu J, Zheng L, Chen MS, Zhuang SM. Vessels That Encapsulate Tumor Clusters (VETC) Pattern Is a Predictor of Sorafenib Benefit in Patients with Hepatocellular Carcinoma. Hepatology. 2019 Sep;70(3):824-839. doi: 10.1002/hep.30366. Epub 2019 Mar 15.</citation>
+    <PMID>30506570</PMID>
+  </reference>
+  <reference>
+    <citation>Sugino T, Yamaguchi T, Hoshi N, Kusakabe T, Ogura G, Goodison S, Suzuki T. Sinusoidal tumor angiogenesis is a key component in hepatocellular carcinoma metastasis. Clin Exp Metastasis. 2008;25(7):835-41. doi: 10.1007/s10585-008-9199-6. Epub 2008 Aug 20.</citation>
+    <PMID>18712609</PMID>
+  </reference>
+  <reference>
+    <citation>Edeline J, Mottier S, Vigneau C, Jouan F, Perrin C, Zerrouki S, Fergelot P, Patard JJ, Rioux-Leclercq N. Description of 2 angiogenic phenotypes in clear cell renal cell carcinoma. Hum Pathol. 2012 Nov;43(11):1982-90. doi: 10.1016/j.humpath.2012.01.023. Epub 2012 May 22.</citation>
+    <PMID>22626276</PMID>
+  </reference>
+  <reference>
+    <citation>López JI, Erramuzpe A, Guarch R, Cortés JM, Pulido R, Llarena R, Angulo JC. CD34 immunostaining enhances a distinct pattern of intratumor angiogenesis with prognostic implications in clear cell renal cell carcinoma. APMIS. 2017 Feb;125(2):128-133. doi: 10.1111/apm.12649.</citation>
+    <PMID>28120493</PMID>
+  </reference>
+  <reference>
+    <citation>Setsu N, Yoshida A, Takahashi F, Chuman H, Kushima R. Histological analysis suggests an invasion-independent metastatic mechanism in alveolar soft part sarcoma. Hum Pathol. 2014 Jan;45(1):137-42. doi: 10.1016/j.humpath.2013.07.045.</citation>
+    <PMID>24321522</PMID>
+  </reference>
+  <reference>
+    <citation>Brose MS, Nutting CM, Jarzab B, Elisei R, Siena S, Bastholt L, de la Fouchardiere C, Pacini F, Paschke R, Shong YK, Sherman SI, Smit JW, Chung J, Kappeler C, Peña C, Molnár I, Schlumberger MJ; DECISION investigators. Sorafenib in radioactive iodine-refractory, locally advanced or metastatic differentiated thyroid cancer: a randomised, double-blind, phase 3 trial. Lancet. 2014 Jul 26;384(9940):319-28. doi: 10.1016/S0140-6736(14)60421-9. Epub 2014 Apr 24.</citation>
+    <PMID>24768112</PMID>
+  </reference>
+  <reference>
+    <citation>Motzer RJ, Hutson TE, Tomczak P, Michaelson MD, Bukowski RM, Rixe O, Oudard S, Negrier S, Szczylik C, Kim ST, Chen I, Bycott PW, Baum CM, Figlin RA. Sunitinib versus interferon alfa in metastatic renal-cell carcinoma. N Engl J Med. 2007 Jan 11;356(2):115-24.</citation>
+    <PMID>17215529</PMID>
+  </reference>
+  <reference>
+    <citation>Paoluzzi L, Maki RG. Diagnosis, Prognosis, and Treatment of Alveolar Soft-Part Sarcoma: A Review. JAMA Oncol. 2019 Feb 1;5(2):254-260. doi: 10.1001/jamaoncol.2018.4490. Review.</citation>
+    <PMID>30347044</PMID>
+  </reference>
+  <reference>
+    <citation>Sternberg CN, Davis ID, Mardiak J, Szczylik C, Lee E, Wagstaff J, Barrios CH, Salman P, Gladkov OA, Kavina A, Zarbá JJ, Chen M, McCann L, Pandite L, Roychowdhury DF, Hawkins RE. Pazopanib in locally advanced or metastatic renal cell carcinoma: results of a randomized phase III trial. J Clin Oncol. 2010 Feb 20;28(6):1061-8. doi: 10.1200/JCO.2009.23.9764. Epub 2010 Jan 25.</citation>
+    <PMID>20100962</PMID>
+  </reference>
+  <reference>
+    <citation>Pearl, J. Causality. (Cambridge university press, 2009).</citation>
+  </reference>
+  <reference>
+    <citation>van der Zander, B., Liskiewicz, M. &amp; Textor, J. Constructing Separators and Adjustment Sets in Ancestral Graphs. in Proceedings of UAI 11-24 (2014).</citation>
+  </reference>
+  <reference>
+    <citation>Perković, E., Textor, J., Kalisch, M. &amp; Maathuis, M. H. A complete generalized adjustment criterion. arXiv Prepr. arXiv1507.01524 (2015).</citation>
+  </reference>
+  <reference>
+    <citation>R Core Team. R: A Language and Environment for Statistical Computing. (2019)</citation>
+  </reference>
+  <reference>
+    <citation>Carpenter, B. et al. Stan : A Probabilistic Programming Language. J. Stat. Softw. 76, (2017).</citation>
+  </reference>
+  <reference>
+    <citation>Duane, S., Kennedy, A. D., Pendleton, B. J. &amp; Roweth, D. Hybrid Monte Carlo. Phys. Lett. B 195, 216-222 (1987).</citation>
+  </reference>
+  <reference>
+    <citation>Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H. &amp; Teller, E. Equation of State Calculations by Fast Computing Machines. J. Chem. Phys. 21, 1087-1092 (1953).</citation>
+  </reference>
+  <reference>
+    <citation>Hoffman, M. D. &amp; Gelman, A. The no-U-turn sampler: Adaptively setting path lengths in Hamiltonian Monte Carlo. J. Mach. Learn. Res. 15, 1593-1623 (2014).</citation>
+  </reference>
+  <reference>
+    <citation>Gelman, A. et al. Bayesian data analysis. (CRC press, 2013).</citation>
+  </reference>
+  <reference>
+    <citation>McElreath, R. Statistical rethinking: A Bayesian course with examples in R and Stan. (CRC press, 2020).</citation>
+  </reference>
+  <reference>
+    <citation>Gelman, A. Discussion paper analysis of variance - Why it is more important than ever. Ann. Stat. 33, 1-53 (2005).</citation>
+  </reference>
+  <reference>
+    <citation>Papaspiliopoulos, O., Roberts, G. O. &amp; Sköld, M. A general framework for the parametrization of hierarchical models. Stat. Sci. 22, 59-73 (2007).</citation>
+  </reference>
+  <reference>
+    <citation>Watanabe, S. Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory. J. Mach. Learn. Res. 11, 3571-3594 (2010).</citation>
+  </reference>
+  <reference>
+    <citation>Rubin, D. B. Inference and missing data. Biometrika 63, 581-592 (1976).</citation>
+  </reference>
+  <reference>
+    <citation>Little, R. J. A. &amp; Rubin, D. B. Statistical Analysis with Missing Data. (Wiley, 2019).</citation>
+  </reference>
+  <reference>
+    <citation>Heng DY, Xie W, Regan MM, Warren MA, Golshayan AR, Sahi C, Eigl BJ, Ruether JD, Cheng T, North S, Venner P, Knox JJ, Chi KN, Kollmannsberger C, McDermott DF, Oh WK, Atkins MB, Bukowski RM, Rini BI, Choueiri TK. Prognostic factors for overall survival in patients with metastatic renal cell carcinoma treated with vascular endothelial growth factor-targeted agents: results from a large, multicenter study. J Clin Oncol. 2009 Dec 1;27(34):5794-9. doi: 10.1200/JCO.2008.21.4809. Epub 2009 Oct 13.</citation>
+    <PMID>19826129</PMID>
+  </reference>
+  <reference>
+    <citation>Mekhail TM, Abou-Jawde RM, Boumerhi G, Malhi S, Wood L, Elson P, Bukowski R. Validation and extension of the Memorial Sloan-Kettering prognostic factors model for survival in patients with previously untreated metastatic renal cell carcinoma. J Clin Oncol. 2005 Feb 1;23(4):832-41.</citation>
+    <PMID>15681528</PMID>
+  </reference>
+  <reference>
+    <citation>Karnofsky DA Burchenal JH. (1949). 'The Clinical Evaluation of Chemotherapeutic Agents in Cancer.' In: MacLeod CM (Ed), Evaluation of Chemotherapeutic Agents. Columbia Univ Press. Page 196.</citation>
+  </reference>
+  <reference>
+    <citation>Aubert S, Wacrenier A, Leroy X, Devos P, Carnaille B, Proye C, Wemeau JL, Lecomte-Houcke M, Leteurtre E. Weiss system revisited: a clinicopathologic and immunohistochemical study of 49 adrenocortical tumors. Am J Surg Pathol. 2002 Dec;26(12):1612-9.</citation>
+    <PMID>12459628</PMID>
+  </reference>
+  <reference>
+    <citation>Oudijk L, van Nederveen F, Badoual C, Tissier F, Tischler AS, Smid M, Gaal J, Lepoutre-Lussey C, Gimenez-Roqueplo AP, Dinjens WN, Korpershoek E, de Krijger R, Favier J. Vascular pattern analysis for the prediction of clinical behaviour in pheochromocytomas and paragangliomas. PLoS One. 2015 Mar 20;10(3):e0121361. doi: 10.1371/journal.pone.0121361. eCollection 2015.</citation>
+    <PMID>25794004</PMID>
+  </reference>
+  <reference>
+    <citation>Favier J, Plouin PF, Corvol P, Gasc JM. Angiogenesis and vascular architecture in pheochromocytomas: distinctive traits in malignant tumors. Am J Pathol. 2002 Oct;161(4):1235-46.</citation>
+    <PMID>12368197</PMID>
+  </reference>
+  <reference>
+    <citation>Lau SK, Weiss LM. The Weiss system for evaluating adrenocortical neoplasms: 25 years later. Hum Pathol. 2009 Jun;40(6):757-68. doi: 10.1016/j.humpath.2009.03.010.</citation>
+    <PMID>19442788</PMID>
+  </reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>November 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 7, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 14, 2020</study_first_posted>
+  <last_update_submitted>February 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Humanitas Clinical and Research Center</investigator_affiliation>
+    <investigator_full_name>Salvatore Renne</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Carcinoma, Renal Cell</mesh_term>
+    <mesh_term>Adrenocortical Carcinoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Custom code and data will be uploaded during the study in a github repository</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>as soon as the data are uploaded they will be public indefinitely</ipd_time_frame>
+    <ipd_access_criteria>public</ipd_access_criteria>
+    <ipd_url>https://github.com/slrenne/VETC_Predictive_RCC-AC</ipd_url>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_type>This will be the repository containing Individual Participant Data, Study Protocol, Statistical Analysis Plan, Informed Consent Form, Clinical Study Report, Analytic Code of the VETC predictive Study</doc_type>
+      <doc_url>https://github.com/slrenne/VETC_Predictive_RCC-AC</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,286 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04513457</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Chemotherapy-liver-metastases</org_study_id>
+    <nct_id>NCT04513457</nct_id>
+  </id_info>
+  <brief_title>Chemotherapy for Resectable Colorectal Liver Metastases</brief_title>
+  <official_title>Perioperative Chemotherapy Versus Surgery for Resectable Colorectal Liver Metastases: a Multicenter Propensity Score Matched Analysis on Long-term Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación de Investigación Biomédica - Hospital Universitario de La Princesa</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Marcello Di Martino</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Fundación de Investigación Biomédica - Hospital Universitario de La Princesa</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      There is a degree of uncertainty regarding the role of perioperative chemotherapy (CTx) in&#xD;
+      the treatment of resectable colorectal liver metastases (CRLM). In the clinical practice, the&#xD;
+      combination of surgery and CTx is increasingly accepted as treatment for CRLM, especially in&#xD;
+      the context of patients with synchronous disease or metachronous disease with a high risk of&#xD;
+      recurrence. However, controversy exists whether all patients with resectable CRLM benefit&#xD;
+      from perioperative CTx.&#xD;
+&#xD;
+      There is paucity of good quality studies on this topic. A pooled analysis of two phase III&#xD;
+      randomized clinical trial, closed prematurely because of slow accrual, showed a marginal&#xD;
+      statistical significance in favor of adjuvant CTx. Nevertheless, long term results of the&#xD;
+      EPOC trial founded benefit in disease free survival (DFS) with no difference in overall&#xD;
+      survival (OS) when perioperative CTx with FOLFOX4 was compared with surgery alone for&#xD;
+      resectable CRLM. Furthermore, a retrospective series from Ayez et al showed that patients&#xD;
+      with a high CRS benefit from neo-adjuvant CTx while in patients with a low risk profile did&#xD;
+      not. On the other side, another retrospective series from the MSKCC showed the timing of&#xD;
+      additional CTx for resectable CRLM was not associated with improved outcomes. The ongoing&#xD;
+      CHARISMA trial is currently comparing the outcomes of neo-adjuvant CTx followed by surgery&#xD;
+      versus surgery alone in high-risk patients with resectable CRLM.&#xD;
+&#xD;
+      This uncertainty regarding CRLM management may partly be due to the fact that these studies&#xD;
+      are not well powered to detect minor differences in long term outcomes and they often&#xD;
+      involved a very heterogenous group of patients with both synchronous and metachronous CRLM,&#xD;
+      not stratified by clinical risk score (CRS) as described by Fong et al.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2010</start_date>
+  <completion_date type="Actual">September 30, 2020</completion_date>
+  <primary_completion_date type="Actual">July 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall survival based on perioperative treatment</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Overall survival based on perioperative treatment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cancer survival based on perioperative treatment</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Cancer survival based on perioperative treatment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Disease-free survival based on perioperative treatment</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Disease-free survival based on perioperative treatment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Peri-operative morbidity</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Peri-operative morbidity</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Peri-operative mortality</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Peri-operative mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival, cancer survival and disease-free survival related with biological markers</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Overall survival, cancer survival and disease-free survival related with biological markers</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival, cancer survival and disease-free survival related with hidden no resected liver lesions.</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Overall survival, cancer survival and disease-free survival related with hidden no resected liver lesions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival, cancer survival and disease-free survival based related with simultaneous thermal ablation performed at the same time of the surgical excision.</measure>
+    <time_frame>5 years of follow-up</time_frame>
+    <description>Overall survival, cancer survival and disease-free survival based related with simultaneous thermal ablation performed at the same time of the surgical excision.</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">967</enrollment>
+  <condition>Metastatic Colorectal Cancer</condition>
+  <condition>Metastatic Liver Cancer</condition>
+  <arm_group>
+    <arm_group_label>Liver resection and Neoadjuvant chemotherapy</arm_group_label>
+    <description>Liver resection and Neoadjuvant chemotherapy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Liver resection and Adjuvant chemotherapy</arm_group_label>
+    <description>Liver resection and Adjuvant chemotherapy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Liver resection, Neoadjuvant and Adjuvant chemotherapy</arm_group_label>
+    <description>Liver resection, Neoadjuvant chemotherapy and Adjuvant chemotherapy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Liver resection</arm_group_label>
+    <description>Liver resection</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Liver resection and Neoadjuvant chemotherapy</intervention_name>
+    <arm_group_label>Liver resection and Neoadjuvant chemotherapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Liver resection and Adjuvant chemotherapy</intervention_name>
+    <arm_group_label>Liver resection and Adjuvant chemotherapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Liver resection, Neoadjuvant chemotherapy and Adjuvant chemotherapy</intervention_name>
+    <arm_group_label>Liver resection, Neoadjuvant and Adjuvant chemotherapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Liver resection</intervention_name>
+    <arm_group_label>Liver resection</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients undergoing liver resection for colorectal metastases between January 1, 2010&#xD;
+        and December 31, 2014, inclusive&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients older than 18 years with resectable liver metastases of histologically&#xD;
+             confirmed primary colorectal carcinoma.&#xD;
+&#xD;
+          -  Minimum follow-up of five years.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with extrahepatic disease&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire de Reims</name>
+      <address>
+        <city>Reims</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Marqués de Valdecilla</name>
+      <address>
+        <city>Santander</city>
+        <state>Cantabria</state>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clínico Universitario de Valencia</name>
+      <address>
+        <city>Valencia</city>
+        <state>Comunidad Valenciana</state>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Badajoz</name>
+      <address>
+        <city>Badajoz</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Dr. Josep Trueta</name>
+      <address>
+        <city>Girona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Jaén</name>
+      <address>
+        <city>Jaén</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de La Princesa</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28006</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen de la Victoria</name>
+      <address>
+        <city>Málaga</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Liverpool University Hospitals NHS Foundation Trust</name>
+      <address>
+        <city>Liverpool</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+    <country>Spain</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>August 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 13, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 14, 2020</study_first_posted>
+  <last_update_submitted>March 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Colorectal liver metastases</keyword>
+  <keyword>Liver resection</keyword>
+  <keyword>Hepatectomy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Extracts</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

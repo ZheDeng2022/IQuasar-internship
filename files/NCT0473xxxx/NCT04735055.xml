@@ -1,0 +1,398 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04735055</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MLKkrm986%</org_study_id>
+    <nct_id>NCT04735055</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence Prediction for the Severity of Acute Pancreatitis</brief_title>
+  <official_title>Artificial Intelligence Application in Predicting Disease Severity in Acute Pancreatitis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bezmialem Vakif University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medipol University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Bezmialem Vakif University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The incidence of acute pancreatitis (AP) is increasing nowadays. The diagnosis of AP is&#xD;
+      defined according to Atlanta criteria with the presence of two of the following 3 findings;&#xD;
+      a) characteristic abdominal pain b) amylase and lipase values ≥3 times c) AP diagnosis in&#xD;
+      ultrasonography (USG), magnetic resonance imaging (MRI), or computerized tomography (CT)&#xD;
+      imaging. While 80% of the disease has a mild course, 20% is severe and requires intensive&#xD;
+      care treatment. Mortality varies between 10-25% in severe (severe) AP, while it is 1-3% in&#xD;
+      mild AP.&#xD;
+&#xD;
+      Scoring systems with clinical, laboratory, and radiological findings are used to evaluate the&#xD;
+      severity of the disease. Advanced age (&gt;70yo), obesity (as body mass index (BMI, as kg/m2),&#xD;
+      cigarette and alcohol usage, blood urea nitrogen (BUN) ≥20 mg/dl, increased creatinine, C&#xD;
+      reactive protein level (CRP) &gt;120mg/dl, decreased or increased Hct levels, ≥8 Balthazar score&#xD;
+      on abdominal CT implies serious AP. According to the revised Atlanta criteria, three types of&#xD;
+      severity are present in AP. Mild (no organ failure and no local complications), moderate&#xD;
+      (local complications such as pseudocyst, abscess, necrosis, vascular thrombosis) and/or&#xD;
+      transient systemic complications (less than 48h) and severe (long-lasting systemic&#xD;
+      complications (&gt;48h); organ insufficiencies such as lung, heart, gastrointestinal and renal).&#xD;
+      Although Atlanta scoring is considered very popular today, it still seems to be in need of&#xD;
+      revision due to some deficiencies in the subjects of infected necrosis, non-pancreatic&#xD;
+      infection and non-pancreatic necrosis, and the dynamic nature of organ failure. Even though&#xD;
+      the presence of 30 severity scoring systems (the most accepted one is the APACHE 2 score&#xD;
+      among them), none of them can definitely predict which patient will have very severe disease&#xD;
+      and which patient will have a mild course has not been discovered yet.&#xD;
+&#xD;
+      Today, artificial intelligence (machine learning) applications are used in many subjects in&#xD;
+      medicine (such as diagnosis, surgeries, drug development, personalized treatments, gene&#xD;
+      editing skills). Studies on machine learning in determining the violence in AP have started&#xD;
+      to appear in the literature. The purpose of this study is to investigate whether the&#xD;
+      artificial intelligence (AI) application has a role in determining the disease severity in&#xD;
+      AP.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In a retrospective way, 1550 patients who were followed up at the Gastroenterology Clinic of&#xD;
+      Bezmialem Foundation University between October 2010 and February 2020 period and who were&#xD;
+      diagnosed with AP according to Atlanta criteria were screened. After the removal of 216&#xD;
+      patients with missing data, 1334 patients were included in the study for evaluation.&#xD;
+&#xD;
+        1. Patient demographic information; [age (yo), gender (male/female), cigarette/alcohol&#xD;
+           usage (as yes or no)], clinical information; [height (centimeters), weight (kilograms),&#xD;
+           BMI (as kg/m2), presence of diabetes mellitus and hypertension (yes or no)], etiology of&#xD;
+           AP such as gallstones, alcohol, etc., and laboratory tests those taken within the first&#xD;
+           24 hours of the admission; [CRP level (mg/dl, normally: 0-5), BUN level (mg/dl,&#xD;
+           normally; 9,8 - 20,1), creatinine level (mg/dl, normally; 0,57 - 1,11), number of&#xD;
+           leukocytes (normally 4.5 to 11.0 ×109/L) and hematocrit level (%, normally: 35,5-48%)],&#xD;
+           as well as Balthazar tomographic scoring [0: normal, 1: an increase in pancreatic size,&#xD;
+           2: inflammatory changes in pancreatic tissue and peripancreatic fatty tissue, 3:&#xD;
+           irregularly bordered, single fluid collection, 4: irregularly bordered 2 or more fluid&#xD;
+           collections, 5 to 10 different degrees of necrosis)], will be recorded in the excel&#xD;
+           file.&#xD;
+&#xD;
+        2. Revised Atlanta scoring will also be recorded within a week period of hospital admission&#xD;
+           as mild, moderate, and severe scores. Infected pancreatic necrosis and sepsis that&#xD;
+           developed during the course of acute pancreatitis will be accepted as severe acute&#xD;
+           pancreatitis due to the inadequacy of some issues in Atlanta scoring. The severity of&#xD;
+           the disease will be evaluated according to the Atlanta scores. And the results of the&#xD;
+           artificial intelligence study will be matched according to the results of Atlanta&#xD;
+           scoring.&#xD;
+&#xD;
+        3. Complications are classified as 0; none, 2; local complications: pseudocyst, abscess,&#xD;
+           necrosis, thrombosis, and mesenteric panniculitis, 3; systemic complications: lung,&#xD;
+           kidney, gastrointestinal and cardiovascular complications, 4; mixed serious&#xD;
+           complications/co-morbidity situations, 5: infectious and septic complications.&#xD;
+&#xD;
+        4. Additionally, invasive procedure requirements such as endoscopic ultrasonography (EUS),&#xD;
+           endoscopic retrograde cholangiopancreatography (ERCP) (as yes or no), length of hospital&#xD;
+           stay (less than 10 days or more than 11 days), intensive care unit requirement (present&#xD;
+           or not), number of future AP attacks (in duration after a month of hospital admission,&#xD;
+           as of one attack or more than one attack), and survival (death, alive) will also be&#xD;
+           recorded.&#xD;
+&#xD;
+      Machine Learning Algorithm is used: Gradient Boosted Ensemble Trees Trees. (&quot;Greedy Function&#xD;
+      Approximation: A Gradient Boosting Machine&quot; by Jerome H. Friedman (1999)). The dataset has&#xD;
+      been partitioned with a 90%-10% ratio. 10% is for validation and 90% is for AI machine&#xD;
+      learning. 90% machine learning part has also been divided into two parts as 70% for AI&#xD;
+      Learning and 30% for testing the learning. For this purpose, 5-fold stratified sampling has&#xD;
+      been used&#xD;
+&#xD;
+      Artificial Intelligence Methods of the Study&#xD;
+&#xD;
+      Features Used for AI Machine Learning:&#xD;
+&#xD;
+        1. Gender: M/F&#xD;
+&#xD;
+        2. Age: Continuous Value&#xD;
+&#xD;
+        3. Height (cm): Continuous Value&#xD;
+&#xD;
+        4. Weight (Kg): Continuous Value&#xD;
+&#xD;
+        5. BMI Groups: Group 1: ≤ 25 kg/m2; Group 2; 25-30 kg/m2; Group 3: &gt;30,1 kg/m2&#xD;
+&#xD;
+        6. Cigarette: 0; No, 1; Yes&#xD;
+&#xD;
+        7. Alcohol: 0; No, 1; Yes&#xD;
+&#xD;
+        8. Diabetes mellitus: 0; No, 1; Yes&#xD;
+&#xD;
+        9. Hypertension: 0; No, 1; Yes&#xD;
+&#xD;
+       10. Etiology: 1; biliary, 2; Alcohol, 3; hypertriglyceridemia, 4; hypercalcemia, 5; drug, 6;&#xD;
+           congenital, 7; cryptogenic, 8; endoscopic retrograde cholangiography (ERCP), 9; oddy&#xD;
+           sphincter dysfunction (OSD), 10; malignity, 11; intra papillary mucinous neoplasia&#xD;
+           (IPMN), 12: primary sclerosing cholangiography (PSC) 13: autoimmune, 14: multiple&#xD;
+           etiology&#xD;
+&#xD;
+       11. Leucocyte number (WBC): N; 4,5-11x100&#xD;
+&#xD;
+       12. Hematocrit (Hct): N; %35,5-48&#xD;
+&#xD;
+       13. C reactive protein (CRP): N: 0-5 mg/dl&#xD;
+&#xD;
+       14. Blood urea nitrogen (BUN): N: 9,8-20,1 mg/dl&#xD;
+&#xD;
+       15. Creatinine (KREA): N: 0,57-1,11 mg/dl&#xD;
+&#xD;
+       16. Baltazar Scoring (BLTZR): 0; Normal P, 1; Increase in pancreatic size, 2; Inflammatory&#xD;
+           changes in pancreatic tissue and peripancreatic fatty tissue, 3; Irregularly bordered,&#xD;
+           single fluid collection, 4, Irregularly bordered 2 or more fluid collections, with&#xD;
+           various degrees of necrosis (ranging between 5 and 10)&#xD;
+&#xD;
+      In Artificial Intelligence, Decision Tree Models are widely used for supervised machine&#xD;
+      learning. They may depend on the Gini index, gain ratio/entropy, chi-square, regression, and&#xD;
+      so on. In AI they are preferred because they generate understandable rules for humans unlike&#xD;
+      other machine learning algorithms such as Artificial Neural Networks and Support Vector&#xD;
+      Machines. On the other hand, they are considered to be weak learners. That means they are&#xD;
+      highly affected by noise and outliers existing in the data set. In order to go around this&#xD;
+      handicap, models like Random Forest, Ensemble Trees, Gradient Boosting have been developed.&#xD;
+&#xD;
+      Random forest and Ensemble trees generate rules by applying a certain decision tree algorithm&#xD;
+      to the portions of the data set vertically and horizontally. This technique dramatically&#xD;
+      reduces the error occurring in learning. After learning processes are completed, they combine&#xD;
+      weak decision trees into a strong and bigger decision tree model. Ensemble learning models&#xD;
+      achieve better learning by minimizing the average value of the loss function on the training&#xD;
+      set via a F ̂(x) approximation. The idea is to apply a steepest descent step to the&#xD;
+      minimization problem in a greedy fashion.&#xD;
+&#xD;
+      In this study, the gradient boost tree model which was proposed by Friedman has been used for&#xD;
+      machine learning. This model chooses a separate optimal value for each of the tree's parts&#xD;
+      rather than a single one for the whole tree. This approach can be used to minimize any&#xD;
+      differentiable loss L(y, F) in conjunction with forwarding stage-wise additive modeling. It&#xD;
+      is reported that the gradient boosting tree model outperforms random forest and regular&#xD;
+      ensemble trees in many cases.&#xD;
+&#xD;
+      The goal of the algorithm is to find an approximation F_m (x_i) which minimizes the expected&#xD;
+      L(y,F(x)) loss function.&#xD;
+&#xD;
+      The algorithm may be summarized as follows:&#xD;
+&#xD;
+      Inputs:&#xD;
+&#xD;
+      A training data set: {(x_i,y_i )} i=1 to n with n dimension and a class variable A&#xD;
+      differentiable loss function: L(y,F(x)) The number of iterations: M.&#xD;
+&#xD;
+      Output:&#xD;
+&#xD;
+      F_m (x_i)&#xD;
+&#xD;
+      Algorithm:&#xD;
+&#xD;
+      Initialize the model with a constant value:&#xD;
+&#xD;
+      F_0 (x)=arg min⁡∑_(i=1)^n▒〖L(y_i,γ)〗&#xD;
+&#xD;
+      For m = 1 to M:&#xD;
+&#xD;
+      Compute pseudo-residuals rim r_im=-[(∂L(y_(i,) F(x_i )))/(∂F(x_i))]&#xD;
+&#xD;
+      Train a base learner to pseudo-residuals, using the training set:&#xD;
+&#xD;
+      {(x_i,y_i )} i=1 to n Compute multiplier γ γ=arg min⁡∑_(i=1)^n▒〖L(y_i,F_(m-1) (x_i )+γh_m&#xD;
+      (x_i ))〗&#xD;
+&#xD;
+      Update the model:&#xD;
+&#xD;
+      〖F_m (x_i)=F〗_(m-1) (x_i )+γ_m h_m (x_i ) Output F_m (x_i)&#xD;
+&#xD;
+      In the analysis, Synthetic Minority Oversampling Technique (SMOTE) [5] has been used in order&#xD;
+      to avoid the disadvantage of class variable imbalance. SMOTE is a data augmentation technique&#xD;
+      to increase data. In some cases, the class variable may not have an equal amount of values&#xD;
+      from all cases. For example, there may be much more survived patients than those who lost&#xD;
+      their lives. In this kind of situation, data are augmented. There was an imbalance in the&#xD;
+      class variables in the data set of this study. So, SMOTE has been applied to increase the&#xD;
+      minority classes for training.&#xD;
+&#xD;
+      The dataset has been partitioned with a 90%-10% ratio. 10% is for validation and 90% is for&#xD;
+      AI machine learning. 90% machine learning part has also been divided into two parts as 70%&#xD;
+      for AI Learning and 30% for testing the learning. For this purpose, 5-fold stratified&#xD;
+      sampling has been used. KNIME analytic platform has been used for the AI machine learning.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 3, 2020</start_date>
+  <completion_date type="Actual">September 30, 2020</completion_date>
+  <primary_completion_date type="Actual">September 23, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accurately estimation of the severity of the disease by machine learning method</measure>
+    <time_frame>Within a week.</time_frame>
+    <description>Severity is described as mild, moderate, and severe acute pancreatitis according to the revised Atlanta criteria.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Invasive procedure requirement</measure>
+    <time_frame>Within a week</time_frame>
+    <description>Need for EUS or ERCP during hospital stay for evaluation of the reasons such as distal choledochal obstruction by stone, pseudocyst or necrosis developments (As yes or no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensive care unit requirement</measure>
+    <time_frame>Within a week</time_frame>
+    <description>Transferring the patient to the ICU where life support is needed in order to survive if patients have dyspnea (if respiratory rate is more than 25/minute), hypotension (less than 90/60 mmHg), if patient have gastrointestinal bleeding (more than 2 lt. in a day), if the patient's BUN level is higher than 20 mg's and progressively increases (as yes or no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival status</measure>
+    <time_frame>Within a week</time_frame>
+    <description>Death: if patient is alive (yes) if dies (no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of hospital stay</measure>
+    <time_frame>Within a month</time_frame>
+    <description>Durations lasted in hospital as a day (as less than 10 days or more than 10 days)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of AP attacks</measure>
+    <time_frame>After a month of hospital admission as one attack or more than one attack</time_frame>
+    <description>Admission to the hospital again with the AP attack.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">1334</enrollment>
+  <condition>Acute Pancreatitis</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Outcome, Fatal</condition>
+  <arm_group>
+    <arm_group_label>Artificial intelligence (AI) machine learning group</arm_group_label>
+    <description>90% machine learning part has also been divided into 2 parts as 70% for AI learning and 30% for testing the learning.&#xD;
+70% of the acute pancreatitis patients (approximately 840 pts) will form the model training group of the study. 30% of the acute pancreatitis patients (approximately 360 pts) will form the testing group of the study.&#xD;
+Since cross-validation will also be applied to the model here, the data will also change within itself, and also the distribution will be optimized to increase the predictive power.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Validation group</arm_group_label>
+    <description>10% of the acute pancreatitis patients (approximately 134) will form the validation group of the study.&#xD;
+Since cross-validation will also be applied to the model here, the data will also change within itself, and also the distribution will be optimized to increase the predictive power.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with acute pancreatitis diagnosis according to the Atlanta criteria&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        - Patients with acute pancreatitis diagnosis who admitted to ER within 24 hours after the&#xD;
+        beginning of abdominal pain&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients who sign a treatment rejection form immediately after admission to the&#xD;
+             hospital and leave the hospital&#xD;
+&#xD;
+          -  Patients with uncompleted data&#xD;
+&#xD;
+          -  Psychiatric patients&#xD;
+&#xD;
+          -  Patients with very poor general conditions&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gökhan Silahtaroğlu, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medipol University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Bezmialem Vakif University, Gastroenterology Clinic</name>
+      <address>
+        <city>Istanbul</city>
+        <zip>34093</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Turkey</country>
+  </location_countries>
+  <reference>
+    <citation>Banks PA, Bollen TL, Dervenis C, Gooszen HG, Johnson CD, Sarr MG, Tsiotos GG, Vege SS; Acute Pancreatitis Classification Working Group. Classification of acute pancreatitis--2012: revision of the Atlanta classification and definitions by international consensus. Gut. 2013 Jan;62(1):102-11. doi: 10.1136/gutjnl-2012-302779. Epub 2012 Oct 25.</citation>
+    <PMID>23100216</PMID>
+  </reference>
+  <reference>
+    <citation>Fei Y, Gao K, Li WQ. Artificial neural network algorithm model as powerful tool to predict acute lung injury following to severe acute pancreatitis. Pancreatology. 2018 Dec;18(8):892-899. doi: 10.1016/j.pan.2018.09.007. Epub 2018 Sep 26.</citation>
+    <PMID>30268673</PMID>
+  </reference>
+  <reference>
+    <citation>van den Heever M, Mittal A, Haydock M, Windsor J. The use of intelligent database systems in acute pancreatitis--a systematic review. Pancreatology. 2014 Jan-Feb;14(1):9-16. doi: 10.1016/j.pan.2013.11.010. Epub 2013 Dec 4. Review.</citation>
+    <PMID>24555973</PMID>
+  </reference>
+  <reference>
+    <citation>Yoldaş O, Koç M, Karaköse N, Kiliç M, Tez M. Prediction of clinical outcomes using artificial neural networks for patients with acute biliary pancreatitis. Pancreas. 2008 Jan;36(1):90-2. doi: 10.1097/MPA.0b013e31812e964b.</citation>
+    <PMID>18192888</PMID>
+  </reference>
+  <reference>
+    <citation>Pearce CB, Gunn SR, Ahmed A, Johnson CD. Machine learning can improve prediction of severity in acute pancreatitis using admission values of APACHE II score and C-reactive protein. Pancreatology. 2006;6(1-2):123-31. Epub 2005 Dec 1.</citation>
+    <PMID>16327290</PMID>
+  </reference>
+  <reference>
+    <citation>Andersson B, Andersson R, Ohlsson M, Nilsson J. Prediction of severe acute pancreatitis at admission to hospital using artificial neural networks. Pancreatology. 2011;11(3):328-35. doi: 10.1159/000327903. Epub 2011 Jul 9.</citation>
+    <PMID>21757970</PMID>
+  </reference>
+  <reference>
+    <citation>Qiu Q, Nian YJ, Guo Y, Tang L, Lu N, Wen LZ, Wang B, Chen DF, Liu KJ. Development and validation of three machine-learning models for predicting multiple organ failure in moderately severe and severe acute pancreatitis. BMC Gastroenterol. 2019 Jul 4;19(1):118. doi: 10.1186/s12876-019-1016-y.</citation>
+    <PMID>31272385</PMID>
+  </reference>
+  <reference>
+    <citation>Greedy function approximation: A gradient boostingmachine.</citation>
+  </reference>
+  <reference>
+    <citation>Clustering, A. (2009). Clustering Categorical Data Using Hierarchies. Engineering and Technology, 1(2), 334-339.</citation>
+  </reference>
+  <reference>
+    <citation>Silahtaroğlu, G. (2009). An Attribute-Centre Based Decision Tree Classification Algorithm. Engineering and Technology, 302-306.</citation>
+  </reference>
+  <reference>
+    <citation>Bentéjac, C., Csörgő, A., &amp; Martínez-Muñoz, G. (2021). A comparative analysis of gradient boosting algorithms. Artificial Intelligence Review, 54(3). https://doi.org/10.1007/s10462-020-09896-5.</citation>
+  </reference>
+  <reference>
+    <citation>Bentéjac, C., Csörgő, A., &amp; Martínez-Muñoz, G. (2021). A comparative analysis of gradient boosting algorithms. Artificial Intelligence Review, 54(3). https://doi.org/10.1007/s10462-020-09896-5</citation>
+  </reference>
+  <reference>
+    <citation>Berthold, M. R., Cebron, N., Dill, F., Gabriel, T. R., Kötter, T., Meinl, T., … Wiswedel, B. (2009). KNIME - the Konstanz information miner. ACM SIGKDD Explorations Newsletter. https://doi.org/10.1145/1656274.1656280</citation>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>September 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 30, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 2, 2021</study_first_posted>
+  <last_update_submitted>April 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Bezmialem Vakif University</investigator_affiliation>
+    <investigator_full_name>Ali Tüzün İnce</investigator_full_name>
+    <investigator_title>Principal investigator</investigator_title>
+  </responsible_party>
+  <keyword>Acute pancreatitis, Artificial intelligence,</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancreatitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,306 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04530305</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RECHMPL19_0224-UF7806</org_study_id>
+    <nct_id>NCT04530305</nct_id>
+  </id_info>
+  <brief_title>Microbiota Analysis to Predict Outcomes of Rheumatoid Arthritis Patients Treated With JAK-inhibitor</brief_title>
+  <acronym>MARAJA</acronym>
+  <official_title>Microbiota Analysis to Predict Outcomes of Rheumatoid Arthritis Patients Treated With JAK-inhibitor</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Montpellier</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Montpellier</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Personalized medicine in which each patient would receive the ideal personalized treatment&#xD;
+      and regimen, holds great promise to improve patient's care. However, previous studies failed&#xD;
+      to establish validated predictors of response to disease-modifying anti-rheumatic drugs&#xD;
+      (DMARDs) in patients with rheumatoid arthritis (RA). JAK inhibitors is a new class of DMARDs&#xD;
+      with great efficacy that might be even superior to anti-TNF drugs. As there are chemicals,&#xD;
+      their production cost is much cheaper than biological therapies and they will probably be&#xD;
+      central in patient's care in the coming years. Two are currently available: tofacitinib&#xD;
+      (TOFA) and baricitinib. Our study will focus on TOFA. Clinical outcomes mainly depend on i)&#xD;
+      factors influencing drug metabolism &amp; concentrations and ii) adequacy between drug target and&#xD;
+      the inflammation pathways involved in the patient's disease. Humans carry in their gut&#xD;
+      trillions of germs, which are now known to be key players in health and disease. Those germs&#xD;
+      possess many enzymes and strongly modulate human enzymes expression. Gut-microbiota can,&#xD;
+      indeed, directly metabolize oral drugs and control the expression of the cytochrome P450 3A4&#xD;
+      (CYP3A4), the main enzyme metabolizing TOFA. We showed, in a preliminary mouse experiment,&#xD;
+      that modifying gut-microbiota composition changes TOFA effects on signaling pathways. We thus&#xD;
+      believe that models including gut-microbiota composition together with markers of immune&#xD;
+      activation will predict clinical outcomes in RA patients treated with TOFA.&#xD;
+&#xD;
+      Main and secondary objectives: To build predictive models for clinical outcomes (efficacy and&#xD;
+      safety) of RA patients treated with TOFA based on microbiota analysis and markers f immune&#xD;
+      activation.&#xD;
+&#xD;
+      Methodolgy:&#xD;
+&#xD;
+      This multicentric longitudinal prospective study will include 60 patients with RA and&#xD;
+      inadequate response to methotrexate. The clinical outcomes studied will be EULAR non-response&#xD;
+      at 3 months as defined by the European league against rheumatism EULAR (primary outcome),&#xD;
+      achievement of low-disease activity at 6 months or incident adverse events (secondary&#xD;
+      outcomes). Gut microbiota will be assessed at baseline and M3 from thawed fecal samples. DNA&#xD;
+      will be purified using QIAamp DNA stool mini kit (Qiagen) and qualify using Qubit and&#xD;
+      TapeStation 4200 (Agilent). Library will be prepared by amplification of V1-V2 and V3-V4&#xD;
+      regions from the bacterial 16S rRNA genes and will be qualified by q-PCR and amplicons will&#xD;
+      be sequenced by MiSeq (Illumina). Initial bioinformatic analysis and taxonomies will be&#xD;
+      carried out using the QIIME2 software. Immune activation will be assessed through JAK-STAT&#xD;
+      pathway activation by JAK STAT signaling pathway RT² profiler PCR Array (Qiagen) which&#xD;
+      profiles expression of 84 genes related to Jak and Stat-mediated signaling. TOFA&#xD;
+      concentrations will be assessed by liquid chromatography-tandem mass spectrometry (LC-MS/MS)&#xD;
+      at baseline and 3 months. Statistical classifiers (Neural network algorithm, Linear and&#xD;
+      Quadratic Discriminant Analysis, Support Vector Machine, Random forests, Shrinkage Methods,&#xD;
+      or Nearest Neighbors) incorporating microbiome, JAK STAT signaling pathway gene expression&#xD;
+      and clinical data, will be used to determine profiles associated with TOFA clinical response&#xD;
+      and safety. Patients who will prematurely stop TOFA (before 3 months) for adverse events or&#xD;
+      loss of follow-up will be considered as non-responders.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gut microbiota is becoming an important predictor of response and tolerance with anti-cancer&#xD;
+      drugs. However, its potential of prediction in other fields has poorly been explored.&#xD;
+&#xD;
+      Drug metabolism and concentrations of tofacitinib depend on body mass index, liver function&#xD;
+      and cytochrome P450 activity (especially CYP3A4). Humans carry in their gut trillions of&#xD;
+      germs, which are now known to be key players in health and disease. Those germs can strongly&#xD;
+      impact drug metabolism and concentrations based on 3 mechanisms. First, gut bacteria possess&#xD;
+      a huge pool of enzymes which catalyzes drug metabolism reactions. Second, gut microbiota&#xD;
+      regulates bile acid metabolism which play critical role in drug metabolism. Third, gut&#xD;
+      microbiota modulates the expression of cytochrome P450, especially CYP3A4, the main enzyme&#xD;
+      catabolizing Tofacitinib (TOFA).&#xD;
+&#xD;
+      In addition to drug metabolism, gut microbiota is a key driver of immune activation. Clinical&#xD;
+      response to CTLA-4 or anti-PD-1 strongly depends on gut microbiota in different cancers. The&#xD;
+      experiments performed to decipher the mechanisms involved suggested that microbiota&#xD;
+      composition affects immune responses, which will facilitate or not anti-tumoral efficacy of&#xD;
+      checkpoints inhibitors.&#xD;
+&#xD;
+      RA is a heterogeneous disease with predominant inflammation pathways varying dependent on&#xD;
+      patients. Some RA seem to be more dependent on IL-6 whereas others rely more on TNF-alpha, B&#xD;
+      or T cells. Gut microbiota was shown to affect all those different targets. Assessing&#xD;
+      baseline levels of JAK STAT signaling pathway gene expression will help us to link immune&#xD;
+      activation, gut microbiota and clinical response to TOFA.&#xD;
+&#xD;
+      We hypothesize that gut-microbiota composition impacts TOFA metabolism, immune activation,&#xD;
+      and thus clinical response and has a great potential to predict clinical outcomes in patients&#xD;
+      with RA treated with TOFA.&#xD;
+&#xD;
+      Study objectives :&#xD;
+&#xD;
+        1. Main objective&#xD;
+&#xD;
+           To construct a model based on gut-microbiota composition, immune activation markers&#xD;
+           (JAK-STAT signalling pathway) and clinical data to predict TOFA non-response at 3 months&#xD;
+           in RA patients with inadequate response to methotrexate.&#xD;
+&#xD;
+        2. Secondary objectives&#xD;
+&#xD;
+             -  To construct a model based on gut-microbiota composition, immune activation markers&#xD;
+                (JAK-STAT signalling pathway) and clinical data to predict low-disease activity at&#xD;
+                6 months of TOFA in RA patients with inadequate response to methotrexate.&#xD;
+&#xD;
+             -  To compare responders and non-responders and patients with or without adverse&#xD;
+                effects on TOFA in terms of:&#xD;
+&#xD;
+                  -  baseline gut-microbiota&#xD;
+&#xD;
+                  -  TOFA concentrations at 3 months&#xD;
+&#xD;
+                  -  baseline JAK-STAT signalling pathway gene expression profile&#xD;
+&#xD;
+                  -  baseline clinical data&#xD;
+&#xD;
+             -  To correlate changes in disease activity score based on 28 joint evaluation (DAS28,&#xD;
+                see annex for calculation) between month-3 and baseline with:&#xD;
+&#xD;
+                  -  changes in gut microbiota&#xD;
+&#xD;
+                  -  TOFA concentrations&#xD;
+&#xD;
+                  -  changes in JAK-STAT signaling&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 7, 2021</start_date>
+  <completion_date type="Anticipated">October 2023</completion_date>
+  <primary_completion_date type="Anticipated">April 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>EULAR response</measure>
+    <time_frame>3 months</time_frame>
+    <description>Response will be defined following European league against rheumatism EULAR definition that is a decrease &gt;0.6 points of Disease-Activity-Score 28-joints (DAS28-CRP) and a DAS28-CRP≤5.1 at 3 months . Patients who will prematurely stop TOFA (before 3 months) for adverse events, RA flair or loss of follow-up will be considered as non-responders.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>EULAR good response</measure>
+    <time_frame>3 and 6 months</time_frame>
+    <description>EULAR good-response at 3 and 6 months: DAS28-CRP≤3.2 and deltaDAS28 (M0-M3)&gt;1.2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Achievement of low-disease activity:</measure>
+    <time_frame>6 months</time_frame>
+    <description>DAS28-CRP at 6 months &lt;3.2 and/or DAS28-ESR at 6 months &lt;3.2</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adverse events</measure>
+    <time_frame>during the 6 month follow-up</time_frame>
+    <description>Incidence, relatedness, and severity of treatment-emergent SUSARs, SAEs, ARs and AEs will be evaluated continuously. Patients with adverse events occurring between study visits will be asked to contact the study center for AE reporting.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline gut-microbiota</measure>
+    <time_frame>baseline, 3 and 6 months</time_frame>
+    <description>microbiota will be described in terms of alpha and beta diversity, phylum, genus, OTU.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>TOFA concentrations</measure>
+    <time_frame>0, 3 and 6 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline JAK-STAT signalling pathway gene expression profile</measure>
+    <time_frame>baseline</time_frame>
+    <description>gene expression profile will include the level of expression of 84 genes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Baseline clinical data</measure>
+    <time_frame>baseline</time_frame>
+    <description>DAS28-CRP, body-mass index, age and gender</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Rheumatoid Arthritis</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tofacitinib 5 MG [Xeljanz]</intervention_name>
+    <description>Patients with RA for who the introduction of tofacitinib has been decided will be proposed the study. If they accept, they will be followed for 6 months with 3 visits (baseline, 3 and 6 months) which is the usual standard care. In addition to routine markers, stool and blood will be collected at baseline and 3 months specifically for the study.</description>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      PAXgene tubes for blood RNA analysis stools for feces analysis plasma for tofacitinib&#xD;
+      concentration assessement&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with RA fulfilling American College of Rheumatology (ACR)/ European league against&#xD;
+        rheumatism (EULAR) 2010 criteria with inadequate response to MTX for who a treatment with&#xD;
+        TOFA will be prescribed in standard care to control disease activity&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with RA fulfilling American College of Rheumatology (ACR)/ European league&#xD;
+             against rheumatism (EULAR) 2010 criteria&#xD;
+&#xD;
+          -  Patients with inadequate response to MTX&#xD;
+&#xD;
+          -  Patients receiving MTX as adjuvant therapy or will receive TOFA as monotherapy&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with contraindication to tofacitinib&#xD;
+&#xD;
+          -  Patients previously treated with biological DMARDs or JAK inhibitors&#xD;
+&#xD;
+          -  Patients treated with ≥ 10 mg/day of glucocorticoids&#xD;
+&#xD;
+          -  Use of IV glucocorticoids in the previous month&#xD;
+&#xD;
+          -  Previous use of biological DMARDs (TNF inhibitors, rituximab, abatacept, tocilizumab)&#xD;
+             or JAK inhibitors&#xD;
+&#xD;
+          -  Absence of informed consent&#xD;
+&#xD;
+          -  Pregnancy planned for the duration of the study, Women pregnant or breastfeeding women&#xD;
+&#xD;
+          -  Major protected by law or patient under guardianship&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Claire DAIEN, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Montpellier Hospital and University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Claire I DAIEN, Prof</last_name>
+    <phone>467338710</phone>
+    <phone_ext>+33</phone_ext>
+    <email>c-daien@chu-montpellier.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Audrey Boissin</last_name>
+    <phone>4 67 33 55 71</phone>
+    <phone_ext>+33</phone_ext>
+    <email>a-boissin@chu-montpellier.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>CHU de Montpellier</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34295</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Claire DAIEN</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 28, 2020</study_first_posted>
+  <last_update_submitted>August 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 31, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Arthritis</mesh_term>
+    <mesh_term>Arthritis, Rheumatoid</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tofacitinib</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

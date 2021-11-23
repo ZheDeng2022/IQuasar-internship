@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04702308</url>
+  </required_header>
+  <id_info>
+    <org_study_id>00137874</org_study_id>
+    <nct_id>NCT04702308</nct_id>
+  </id_info>
+  <brief_title>Non-Interruptive Alerts for Improving Use of Clinical Decision Rules</brief_title>
+  <official_title>The Use of Non-Interruptive Alerts for Improving the Use of Clinical Decision Rules in the Emergency Department: A Cluster Randomized Controlled Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Utah</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Utah</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is an extension of a planned quality improvement project that aims to promote&#xD;
+      standard of care by increasing the use of evidence-based clinical decision rules amongst&#xD;
+      emergency medicine providers in the University of Utah Emergency Department. Patient-specific&#xD;
+      information from the EHR will be used to recommend the use of relevant clinical decision&#xD;
+      rules to emergency medicine providers at the point-of-care. These recommendations will be in&#xD;
+      the form of non-interruptive alerts with one-click access to the suggested decision rules&#xD;
+      through the MDCalc Connect EHR add-on application. Specific aims of the study are to&#xD;
+      determine if 1) patient-specific non-interruptive alerts increase the use of clinical&#xD;
+      decision rules amongst emergency medicine providers and 2) an increase in the use of clinical&#xD;
+      decision rules affects provider ordering habits.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">February 18, 2021</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Cluster randomized controlled trial</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Total clinical decision rule usage</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>Composite measure of total number of clinical decision rules used through the MDCalc Connect app.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Individual clinical decision rule usage</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>Number of uses of individual clinical decision rules measured through the MDCalc Connect app.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Computed tomography pulmonary angiography studies</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>The total number of computed tomography pulmonary angiography studies ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Computed tomography head studies</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>The total number of computed tomography head without contrast studies ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Computed tomography c-spine studies</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>The total number of computed tomography c-spine without contrast studies ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Lower extremity ultrasound</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>The total number of lower extremity ultrasound studies ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>d-dimer tests</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>Total number of d-dimer blood tests ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Delta troponin tests</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>Total number of times two or more troponin tests were ordered</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Emergency department bounceback rate.</measure>
+    <time_frame>Up to 30 days after the intervention</time_frame>
+    <description>30-day emergency department return visit (or &quot;bounceback&quot;) rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Admission rate</measure>
+    <time_frame>During the intervention</time_frame>
+    <description>Hospital admission rate</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">240</enrollment>
+  <condition>Pulmonary Embolism</condition>
+  <condition>Deep Vein Thrombosis</condition>
+  <condition>Minor Head Injury</condition>
+  <condition>Chest Pain</condition>
+  <condition>Neck Trauma</condition>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The intervention will contain two components: 1) a non-interruptive best practice advisory (BPA) in the Epic Storyboard and 2) a default suggested calculator tab in the MDCalc Connect app. Six clinical decision rules will be included: Canadian CT Head Rule, Canadian C-spine Rule, HEART Score, PERC Rule, Wells' PE Criteria and Wells' DVT Criteria. Predefined criteria based on chief complaint, patient age and vital signs will be used to determine when a decision rule may be relevant in a patient encounter. When a patient meets all of the predefined criteria, the intervention will be triggered.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The control group will be usual care. Specifically, providers in the control group will not receive the clinical decision rule alert or the default suggested calculator tab in the MDCalc Connect app. The control group providers will have access to the MDCalc Connect app in its standard form and functionality.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical Decision Rule Alerts</intervention_name>
+    <description>The</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Patient Inclusion Criteria:&#xD;
+&#xD;
+          -  16 years of age or older&#xD;
+&#xD;
+          -  Qualifying chief complaint*&#xD;
+&#xD;
+        Patient Exclusion Criteria:&#xD;
+&#xD;
+          -  None&#xD;
+&#xD;
+               -  A full list of the qualifying chief complaints is provided in Appendix A of the&#xD;
+                  full research protocol.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University of Utah</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>January 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 8, 2021</study_first_posted>
+  <last_update_submitted>April 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Utah</investigator_affiliation>
+    <investigator_full_name>Keaton Morgan</investigator_full_name>
+    <investigator_title>Postdoctoral Fellow</investigator_title>
+  </responsible_party>
+  <keyword>clinical decision support</keyword>
+  <keyword>clinical decision rules</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Embolism</mesh_term>
+    <mesh_term>Craniocerebral Trauma</mesh_term>
+    <mesh_term>Thrombosis</mesh_term>
+    <mesh_term>Embolism</mesh_term>
+    <mesh_term>Venous Thrombosis</mesh_term>
+    <mesh_term>Chest Pain</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 17, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/08/NCT04702308/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

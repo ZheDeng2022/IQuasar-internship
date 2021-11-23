@@ -1,0 +1,217 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04574648</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H18-01332_1</org_study_id>
+    <nct_id>NCT04574648</nct_id>
+  </id_info>
+  <brief_title>Evaluating ActionADE on Adverse Drug Event Due to Non-Adherence</brief_title>
+  <official_title>Implementing and Evaluating ActionADE to Transform Medication Safety Among Patients With an Adverse Drug Event Due to Non-Adherence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Health, British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Vancouver Coastal Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of British Columbia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Repeat non-adherence to medications is a common cause of preventable adverse drug events.&#xD;
+      Health information technologies have the potential to improve information continuity.&#xD;
+      However, they rarely interoperate to ensure providers can view non-adherence information&#xD;
+      documented in other systems. The investigators designed ActionADE to enable rapid&#xD;
+      documentation of adverse drug events, including non-adherence, and communicate the&#xD;
+      information across health sectors by integrating ActionADE with legacy systems.&#xD;
+&#xD;
+      The investigators will leverage ActionADE's implementation to conduct a randomized trial on&#xD;
+      patients diagnosed with an adverse events due to non-adherence. This study will take place in&#xD;
+      Vancouver, British Columbia, Canada.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Medication use is rising due to an aging population and expanding treatment indications for&#xD;
+      chronic diseases. Simultaneously, adverse drug events-harmful and unintended events related&#xD;
+      to medication use or misuse-have increased. In Canada, adverse events to outpatient&#xD;
+      medications cause over two million emergency department visits and 700,000 hospital&#xD;
+      admissions, costing over $1 billion in healthcare expenditures annually. Optimizing the&#xD;
+      benefits of medications while limiting their potential for harm is a public health priority&#xD;
+      across patient populations, health settings and medical disciplines.&#xD;
+&#xD;
+      The second most common subset of adverse events to outpatient medications was caused by&#xD;
+      non-adherence. Non-adherence has been associated with increased downstream health services&#xD;
+      utilization and costs of care, likely reflective of worse patient outcomes. It is unknown to&#xD;
+      what extent communication about non-adherence to outpatient medications can assist the care&#xD;
+      team in reinforcing patient adherence.&#xD;
+&#xD;
+      Patients with adverse events due to non-adherence often seek care in hospitals due to the&#xD;
+      unexpected and serious nature of these events. After assessment and treatment, patients are&#xD;
+      discharged back into the care of a community-based provider who often cannot access the&#xD;
+      hospital's medical record, may not receive a legible or detailed discharge summary.&#xD;
+      Therefore, community-based care providers risk managing the patient without knowing about the&#xD;
+      patient's non-adherence, and inappropriately up-titrating medication doses, or simply missing&#xD;
+      an opportunity to emphasize the importance of adherence.&#xD;
+&#xD;
+      The investigators developed ActionADE to address this type of information discontinuity.&#xD;
+      ActionADE was integrated to a province-wide network that links all pharmacies in British&#xD;
+      Columbia to a central data system, allowing users to see their patient's medication&#xD;
+      dispensing history.&#xD;
+&#xD;
+      The investigators will conduct a triple-blind randomized controlled trial to evaluate the&#xD;
+      effectiveness of ActionADE on preventing subsequent non-adherence. The trial will take place&#xD;
+      in two urban tertiary care (Vancouver General and Saint Paul's Hospitals) and one urban&#xD;
+      community hospital (Lions Gate Hospital) within the Greater Vancouver area, in British&#xD;
+      Columbia, Canada. Other hospitals may be added to accelerate recruitment into the trial if&#xD;
+      approved by the British Columbia Ministry of Health.&#xD;
+&#xD;
+      The primary objective of the trial is to evaluate the effect of providing information&#xD;
+      continuity about non-adherence using ActionADE on adherence over 12 months compared to&#xD;
+      standard care. Secondary objectives for both trials are to evaluate the effect on outpatient&#xD;
+      and emergency department visits, admissions, hospital-days and mortality.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">March 1, 2021</start_date>
+  <completion_date type="Anticipated">July 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>We will conduct a triple-blind randomized controlled trials. We will enrol consecutive eligible patients presenting to the emergency department with an adverse event due to non-adherence to prescribed outpatient medication. Randomization is implemented in the ActionADE application. Randomization will be equal (1:1) and stratified by site and age (&lt; 80, ≥ 80). A statistician otherwise uninvolved in the study will generate a list of treatment assignments using permuted blocks of varying sizes for each stratum. ActionADE will store the randomization list for each stratum. Once eligibility has been determined, the application will allocate the patient to the next available assignment within the stratum.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Triple (Participant, Investigator, Outcomes Assessor)</masking>
+    <masking_description>Study participants, outcomes assessors, and study investigators will be blinded to treatment allocation. Community pharmacists cannot be blinded to the intervention, as we are studying the change in pharmacists' dispensing behavior due to the provision of new information. The information will only appear for patients in the experimental arm.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patient adherence to culprit medication</measure>
+    <time_frame>12 months</time_frame>
+    <description>We will define adherence as the dispensation of &gt;80% of prescribed medication doses within 12-months, based on the recorded medication dose and frequency, and the volume and dates of re-dispensations.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospital visits</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of outpatient and emergency visits during the follow-up period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hospital stays</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of hospital-days during hospital admissions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of all cause mortality over the follow-up period.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Adverse Drug Event</condition>
+  <condition>Non-Adherence, Medication</condition>
+  <arm_group>
+    <arm_group_label>ADE information transmitted to PharmaNet</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients in the experimental arm will have standardized information documented in ActionADE transmitted to and stored in PharmaNet, British Columbia's medication dispensing database. The information will become visible to any subsequent healthcare provider who accesses the patient's PharmaNet profile. Community pharmacy software will import the non-adherence information such that community pharmacists can view the information prior to dispensing medications.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard care (ADE information retained locally)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients in the control arm will have their information recorded in ActionADE, and their information will be retained locally, as is the current standard of care. This means that their information will not be visible to other providers via PharmaNet.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ActionADE</intervention_name>
+    <description>ActionADE is a software application that allows healthcare providers to document standardized adverse drug event and non-adherence information in a user-friendly and standardized manner. We integrated ActionADE uni-directionally with PharmaNet, a secure province-wide network that links all pharmacies in British Columbia to a central data system. This allows care providers to pull in demographic information and visualize their patient's medication dispensing history.&#xD;
+In 2020, we enabled bi-directional integration with PharmaNet allowing clinicians to transmit standardized information back to the PharmaNet database. The three dominant community pharmacy systems in the geographic area of the trial will display non-adherence information in their systems.</description>
+    <arm_group_label>ADE information transmitted to PharmaNet</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults 19 years of age or older presenting to the participating emergency departments&#xD;
+             with an adverse event due to non-adherence to a prescribed outpatient medication that&#xD;
+             was reported in ActionADE.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients whose adverse event is categorized as life threatening will be excluded.&#xD;
+&#xD;
+          -  Patients without a Provincial Health Number will be excluded as this will prevent&#xD;
+             linkage with PharmaNet and other administrative data for outcomes ascertainment.&#xD;
+&#xD;
+          -  Patients diagnosed with adverse drug events to culprit medications not on the&#xD;
+             provincial formulary will be excluded as we will not be able to ascertain&#xD;
+             re-dispensations outcomes for these medications using PharmaNet data.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Corinne M Hohl, MD, MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of British Columbia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jeffrey P Hau, MSc</last_name>
+    <phone>6048754111</phone>
+    <phone_ext>62270</phone_ext>
+    <email>jeffrey.hau@ubc.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Corinne M Hohl, MD,MSc</last_name>
+    <phone>6048754111</phone>
+    <phone_ext>63467</phone_ext>
+    <email>corinne.hohl@ubc.ca</email>
+  </overall_contact_backup>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>September 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 5, 2020</study_first_posted>
+  <last_update_submitted>November 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of British Columbia</investigator_affiliation>
+    <investigator_full_name>Corinne Hohl</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Health Information Technology</keyword>
+  <keyword>Patient Safety</keyword>
+  <keyword>Medication Safety</keyword>
+  <keyword>Health System</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Drug-Related Side Effects and Adverse Reactions</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

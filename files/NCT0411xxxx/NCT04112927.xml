@@ -1,0 +1,208 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04112927</url>
+  </required_header>
+  <id_info>
+    <org_study_id>B2018:094</org_study_id>
+    <nct_id>NCT04112927</nct_id>
+  </id_info>
+  <brief_title>Acoustic OSA Prediction During Wakefulness and Monitoring During Sleep</brief_title>
+  <official_title>Acoustic OSA Prediction During Wakefulness and Monitoring During Sleep</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Manitoba</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Manitoba</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to investigate the feasibility of sound analysis for: a) sleep&#xD;
+      apnea detection both during wakefulness and sleep, and b) flow-sound relationship during both&#xD;
+      wakefulness and sleep in patients and control individuals. The ultimate goal of our research&#xD;
+      is to simplify the current assessments for sleep apnea detection so that it is more&#xD;
+      convenient for patients and also much faster than the current techniques.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Sleep apnea, in particular obstructive sleep apnea (OSA), is one of the most common breathing&#xD;
+      disorders and is associated with major comorbidities such as higher risk perioperative&#xD;
+      complications. This is particularly concerning given that about 40-80% of people with&#xD;
+      moderate-severe OSA remain undiagnosed. Due to the resource-intensive assessments required to&#xD;
+      diagnose OSA and the significantly increased risk of car accidents and perioperative&#xD;
+      complications associated with undiagnosed OSA, there is a critical need to develop a more&#xD;
+      effective method to screen for OSA quickly and reliably.&#xD;
+&#xD;
+      The most widely used clinical OSA screening tool is the STOP-Bang questionnaire, which is a&#xD;
+      quick and easy-to-implement inquiry form that has a high sensitivity to detect moderate and&#xD;
+      severe OSA (&gt;93%), but it has a very high rate of false positives (&gt;63%). Thus, a significant&#xD;
+      number of patients without OSA will continue to be referred for PSG, which contributes to a&#xD;
+      strain on the healthcare system. Therefore, a quick and reliable screening tool for OSA and&#xD;
+      its severity during wakefulness is very appealing but challenging, as people with OSA do not&#xD;
+      show any apparent symptoms during wakefulness.&#xD;
+&#xD;
+      We have developed a novel screening algorithm for OSA based on the analysis of tracheal&#xD;
+      breathing sounds recorded from an individual during wakefulness, called AWakeOSA. It can&#xD;
+      predict OSA with a sensitivity (86%) similar to STOP-Bang, but with a much higher specificity&#xD;
+      (84%) for detecting individuals without OSA. The AWakeOSA technology still needs significant&#xD;
+      research and quality improvements to become a reliable home-care device for screening under&#xD;
+      unsupervised conditions, which is the central purpose of this project. In addition, we are&#xD;
+      interested to investigate the breathing sound changes from wakefulness to sleep in both&#xD;
+      groups of healthy and apneic population. For that, we need to record PSG data and breathing&#xD;
+      sounds during sleep in addition to recording breathing sounds during wakefulness.&#xD;
+&#xD;
+      We have also designed a specialized hardware device, called ASAD-3, capable of recording&#xD;
+      breathing sounds with high quality during both wakefulness (short-period recording) and&#xD;
+      during sleep (long hours recording) that uses two small microphones that are placed in&#xD;
+      contact with the skin over the trachea and lung, respectively. The hardware device will be&#xD;
+      utilized to optimize the AWakeOSA algorithm and work towards achieving a reliable home-care&#xD;
+      device for screening under unsupervised conditions.&#xD;
+&#xD;
+      The proposed technology will enable a reliable and quick diagnosis of OSA that can be either&#xD;
+      used in a clinician's office during wakefulness and/or used at home by people to monitor&#xD;
+      their own OSA. The outcomes of this study will benefit the health care system and society&#xD;
+      significantly as it will: 1) reduce the financial burden of OSA on the healthcare system by&#xD;
+      reducing the need for PSG and unnecessary preoperative resources; and 2) provide a quick and&#xD;
+      reliable personal OSA home-care monitoring system for better OSA treatment management.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">October 1, 2021</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>OSA Severity</measure>
+    <time_frame>1 Day</time_frame>
+    <description>Data recorded during wakefulness will be analyzed using our published AWakeOSA algorithm to classify the participants into two groups of those who have AHI below and above 15. We will also run Multivariate statistical analysis to find the main effect of OSA severity (AHI) on the sound features and their interaction with the anthropometric information.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acoustic AHI correlation to PSG</measure>
+    <time_frame>1 Day</time_frame>
+    <description>For the sleep data, we will find the correlation of the AHI values estimated by our acoustic device using our previous algorithm compared to those of the Polysomnogram (PSG).</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Obstructive Sleep Apnea</condition>
+  <arm_group>
+    <arm_group_label>OSA Participants</arm_group_label>
+    <description>Inclusion Criteria: 1) age between 18 to 70 years; 2) suspected of OSA and referred to full PSG study by a doctor.&#xD;
+Exclusion Criteria: 1) being diagnosed with a chronic respiratory disease including pulmonary fibrosis, emphysema, respiratory infectious disease, nocturnal asthma, obstructive pulmonary lung disease, pulmonary hypertension, congestive heart failure, sleep related hypoventilation and neuromuscular disorders; 2) having insomnia or restless leg; 3) drug addiction; and 4) under the current, direct supervision of the PI of this study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Controls</arm_group_label>
+    <description>Inclusion Criteria: 1) age between 18 to 70 years; 2) non-snorer, and being free of any sleep disorders.&#xD;
+Exclusion Criteria: same as the OSA Participants. All participants must not have any cold or any other respiratory illness at the time of recording.&#xD;
+Illiterate participants may still participate in the study; however, there must be a witness who is not involved in the study (i.e. PI, Co-PI, study coordinator, research assistants (RA)/students, etc.) present to witness the consent process between the participant and the individual obtaining consent.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        OSA Participants of this study will be anyone regardless of their sex, gender or ethnic&#xD;
+        background, who are suspected of OSA and meet the inclusion/exclusion criteria. In&#xD;
+        addition, we will record up to 50 healthy controls.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  1) age between 18 to 70 years.&#xD;
+&#xD;
+          -  2) suspected of OSA and referred to full PSG study by a doctor.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  1) being diagnosed with a chronic respiratory disease including pulmonary fibrosis,&#xD;
+             emphysema, respiratory infectious disease, nocturnal asthma, obstructive pulmonary&#xD;
+             lung disease, pulmonary hypertension, congestive heart failure, sleep related&#xD;
+             hypoventilation and neuromuscular disorders.&#xD;
+&#xD;
+          -  2) having insomnia or restless leg.&#xD;
+&#xD;
+          -  3) drug addiction.&#xD;
+&#xD;
+          -  4) under the current, direct supervision of the PI of this study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Zahra Kazem-Moussavi, Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Manitoba</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Abnoor Kaur, M.Sc.</last_name>
+    <phone>2044747023</phone>
+    <email>abnoorkaur9@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Zahra Moussavi, Ph.D.</last_name>
+    <phone>2044747023</phone>
+    <email>zahra.moussavi@umanitoba.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Manitoba</name>
+      <address>
+        <city>Winnipeg</city>
+        <state>Manitoba</state>
+        <zip>R3t5V6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Abnoor Kaur, M.Sc.</last_name>
+      <phone>2044747023</phone>
+      <email>abnoorkaur9@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Zahra Moussavi, Ph.D.</last_name>
+      <email>zahra.moussavi@umanitoba.ca</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>September 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 2, 2019</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Obstructive Sleep Apnea</keyword>
+  <keyword>OSA</keyword>
+  <keyword>Respiratory Sound Analysis</keyword>
+  <keyword>AwakeOSA</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

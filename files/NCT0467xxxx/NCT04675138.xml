@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04675138</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020/00493</org_study_id>
+    <nct_id>NCT04675138</nct_id>
+  </id_info>
+  <brief_title>Development of a Clinical Decision Support System With Artificial Intelligence for Cancer Care</brief_title>
+  <official_title>Development of a Clinical Decision Support System With Artificial Intelligence for Cancer Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National University Hospital, Singapore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National University Hospital, Singapore</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Clinical Decision Support Systems (CDSSs) to augment clinical care and decision making. These&#xD;
+      are platforms which aim to improve healthcare delivery by enhancing medical decisions with&#xD;
+      targeted clinical knowledge, patient information, and other health information.&#xD;
+&#xD;
+      In view of the benefit of developing a CDSS, we sought to develop an alternative CDSS for&#xD;
+      oncologic therapy selection through a partnership with Ping An Technology (Shenzhen, China),&#xD;
+      beginning with gastric and oesophagal cancer. This would be done in a piecemeal fashion, with&#xD;
+      the prototype platform utilizing only international guidelines and high-quality published&#xD;
+      evidence from journals to arrive at case-specific treatment recommendations. This platform&#xD;
+      would then be evaluated by comparing its recommendations with that from the multidisciplinary&#xD;
+      tumour boards of several tertiary care institutions to determine the concordance rate.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Management of cancer is a complex process which involves numerous stakeholders. In view of&#xD;
+      this, institutions worldwide have adopted the use of Multidisciplinary Tumor Boards (MTBs)&#xD;
+      for delivery of cancer care. By tapping on the collective specialized knowledge and&#xD;
+      experience of various specialties, MTBs have been shown in some studies to result in more&#xD;
+      appropriate recommendations and improved patient outcomes. At our institution, cancer cases&#xD;
+      are similarly discussed at regular MTBs which comprises surgeons, oncologists, pathologists&#xD;
+      and radiologists who review and recommend treatments.&#xD;
+&#xD;
+      However, in smaller centres or centres with limited resources and minimal multi-disciplinary&#xD;
+      expertise, delivery of timely and appropriate cancer care could be a challenge. Additionally,&#xD;
+      clinicians, with their busy schedule, may not be able to keep abreast of new developments in&#xD;
+      cancer research. With rapid advances in scientific research, this pool of knowledge is&#xD;
+      expected to continue to burgeon, making keeping up-to-date increasingly onerous.&#xD;
+&#xD;
+      To address this need, clinicians have adopted the use of Clinical Decision Support Systems&#xD;
+      (CDSSs) to augment clinical care and decision-making. These are platforms which aim to&#xD;
+      improve healthcare delivery by enhancing medical decisions with targeted clinical knowledge,&#xD;
+      patient information, and other health information. Various studies have shown CDSSs to be&#xD;
+      beneficial in selected settings such as patient safety and diagnosis [4], and to even&#xD;
+      increase adherence to clinical guidelines. In recent years, advancements in artificial&#xD;
+      intelligence have also seen its use expand to include oncologic therapy selection, with IBM's&#xD;
+      Watson for Oncology (WFO) being the most prominent and only platform in use to-date. In a&#xD;
+      2018 study, WFO's ability to provide treatment advice for breast cancer was compared against&#xD;
+      recommendations from a multidisciplinary board, where it showed a high degree of concordance.&#xD;
+      Since then, several other studies have sought to examine WFO's ability to provide treatment&#xD;
+      recommendations for cancer such as ovarian, gastric, lung, cervical and colorectal cancers,&#xD;
+      with mixed results. In particular, both studies which examined the recommendations for&#xD;
+      gastric cancers showed a much lower concordance rate compared to other cancers.&#xD;
+&#xD;
+      In view of the above, we sought to develop an alternative CDSS for oncologic therapy&#xD;
+      selection through partnership with Ping An Technology (Shenzhen, China), beginning with&#xD;
+      gastric and esophageal cancer. This would be done in a piecemeal fashion, with the prototype&#xD;
+      platform utilizing only international guidelines and high-quality published evidence from&#xD;
+      journals to arrive at case-specific treatment recommendations. This platform would then be&#xD;
+      evaluated retrospectively and prospectively by comparing its recommendations with that from&#xD;
+      the multidisciplinary tumor boards of several tertiary care institutions to determine the&#xD;
+      concordance rate.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 20, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Concordance Rate</measure>
+    <time_frame>1 to 2 years</time_frame>
+    <description>Comparative agreement in recommendations between the two study groups, as measured by concordance rate</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Reason for Discordance</measure>
+    <time_frame>1 to 2 years</time_frame>
+    <description>To identify the reason for the discordance</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Gastric Cancer</condition>
+  <condition>Esophageal Cancer</condition>
+  <condition>Esophagogastric Junction Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention will be provided to the subject</intervention_name>
+    <description>No intervention will be provided to the subject</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population will be selected from hospitals that conduct tumor board for these cancers&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        A. In discovery and internal retrospective validation part:&#xD;
+&#xD;
+          1. Patients with primary gastric adenocarcinoma including preinvasive carcinoma or&#xD;
+&#xD;
+          2. Patients with gastroesophageal junction cancers or&#xD;
+&#xD;
+          3. Patients with oesophageal cancer including adenocarcinoma, squamous cell carcinoma and&#xD;
+             preinvasive carcinoma subtypes.&#xD;
+&#xD;
+        B. In prospective validation part:&#xD;
+&#xD;
+          1. Patients with primary gastric adenocarcinoma including preinvasive carcinoma or&#xD;
+&#xD;
+          2. Patients with esophageal or gastroesophageal junction adenocarcinoma&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        A. In discovery and internal retrospective validation part:&#xD;
+&#xD;
+          1. Patients with other primary cancers involving the stomach or oesophagus&#xD;
+&#xD;
+          2. Patients with other cancer subtypes&#xD;
+&#xD;
+          3. Patients with concomitant cancers of other organs&#xD;
+&#xD;
+        B. In prospective validation part:&#xD;
+&#xD;
+          1. Patients with esophageal squamous cell carcinoma&#xD;
+&#xD;
+          2. Patients who participate in clinical trials where the treatment modality is not&#xD;
+             standard of care&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Bok Yan, Jimmy So</last_name>
+    <phone>+65 6772 5555</phone>
+    <phone_ext>24236</phone_ext>
+    <email>sursbyj@nus.edu.sg</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <zip>119228</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jimmy So, MBChB</last_name>
+      <phone>+65 6772 5555</phone>
+      <phone_ext>24236</phone_ext>
+      <email>sursbyj@nus.edu.sg</email>
+    </contact>
+    <contact_backup>
+      <last_name>Guowei Kim, MBBS</last_name>
+      <phone>+65 6772 5555</phone>
+      <phone_ext>28830</phone_ext>
+      <email>guo_wei_kim@nuhs.edu.sg</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <results_reference>
+    <citation>Somashekhar SP, Sepúlveda MJ, Puglielli S, Norden AD, Shortliffe EH, Rohit Kumar C, Rauthan A, Arun Kumar N, Patil P, Rhee K, Ramya Y. Watson for Oncology and breast cancer treatment recommendations: agreement with an expert multidisciplinary tumor board. Ann Oncol. 2018 Feb 1;29(2):418-423. doi: 10.1093/annonc/mdx781.</citation>
+    <PMID>29324970</PMID>
+  </results_reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>December 15, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 19, 2020</study_first_posted>
+  <last_update_submitted>March 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gastric Cancer</keyword>
+  <keyword>Esophageal Cancer</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Multidisciplinary Tumor Board</keyword>
+  <keyword>Clinical Decision Support System</keyword>
+  <keyword>Concordance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>December 18, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/38/NCT04675138/Prot_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

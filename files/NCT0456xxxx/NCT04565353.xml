@@ -1,0 +1,1556 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04565353</url>
+  </required_header>
+  <id_info>
+    <org_study_id>843523</org_study_id>
+    <nct_id>NCT04565353</nct_id>
+  </id_info>
+  <brief_title>Testing Multiple Behavioral Science Strategies to Increase Flu-Shot Rates</brief_title>
+  <official_title>Testing Multiple Behavioral Science Strategies to Increase Flu-Shot Rates</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This research aims to identify which behavioral science strategies are most effective at&#xD;
+      increasing flu vaccination rates overall and based on patients' individual characteristics.&#xD;
+      Past behavioral science interventions have shown promise in increasing flu vaccinations. For&#xD;
+      example, successful interventions have encouraged people to make concrete plans for when they&#xD;
+      will get a flu vaccination (Milkman et al. 2011), sent automated calls or text messages&#xD;
+      reminding patients to get a flu vaccination (Cutrona et al. 2018; Regan et al. 2017), or&#xD;
+      provided financial incentives for getting vaccinated (Nowalk et al. 2010). Although these&#xD;
+      results are promising, these studies have been conducted in isolation on different&#xD;
+      populations, which makes it difficult to compare their interventions' effectiveness or to&#xD;
+      have enough power to reliably detect differing responses to interventions based on individual&#xD;
+      characteristics.&#xD;
+&#xD;
+      This research will simultaneously test 19 different SMS interventions to increase flu&#xD;
+      vaccinations in a &quot;mega-study&quot; and apply machine learning to identify which interventions&#xD;
+      work best for whom. The interventions are designed by behavioral science experts from the&#xD;
+      Behavior Change for Good Initiative (BCFG), Penn Medicine Nudge Unit (PMNU), and Geisinger&#xD;
+      Behavioral Insights Team (BIT). We expect to include at least 80,000 participants.&#xD;
+&#xD;
+      The specific aims of this research are to identify (1) which behavioral science strategies&#xD;
+      effectively increase flu vaccination rates overall, and (2) which strategies are most&#xD;
+      effective for different subgroups (e.g., based on age, gender, race).&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 20, 2020</start_date>
+  <completion_date type="Actual">March 31, 2021</completion_date>
+  <primary_completion_date type="Actual">March 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Participants will be randomly assigned to the different arms. Randomization will be stratified by age (65+ vs. 18-64), vaccine receipt in 2019-2020 flu season (yes vs. no/unknown), and study site (Penn Medicine vs. Geisinger).</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Double (Care Provider, Outcomes Assessor)</masking>
+    <masking_description>As treated participants will receive text messages, there is no scope for blinding. Care providers will not be made aware of subjects' participation in the study, or assigned treatment arms. The study team will only receive data on subjects' assigned arms at the end of the study.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Participants With Flu Shot Receipt at or Before Appointment</measure>
+    <time_frame>The dependent variable will be assessed during a 4-day period after randomization starting three days prior to the participant's target primary care appointment through the date of the target appointment (including the date of the appointment)</time_frame>
+    <description>Our field experiment will be conducted with Penn Medicine and Geisinger Health patients via SMS messages sent prior to their first primary care appointment during the study period, hereafter referred to as the &quot;target appointment.&quot; The key dependent variable is whether participants receive a flu shot at or before their target appointment (as recorded in their electronic health records).&#xD;
+If participants cancel or do not show up for their target appointment after they have been randomized to a treatment and then schedule a new appointment during the study period, their new primary care appointment becomes the target appointment.&#xD;
+Participants who have been randomized to a treatment will be counted as not having received a flu shot if they cancel or do not show up for their target appointment and do not schedule a new appointment during the study period.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Flu Shot Receipt Before March 31, 2021</measure>
+    <time_frame>Up to 6 months after randomization.</time_frame>
+    <description>The secondary dependent variable is whether participants receive the flu shot at or before their target appointment or at any time after this appointment (by March 31, 2021), as recorded in their electronic health records.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+  </secondary_outcome>
+  <number_of_arms>20</number_of_arms>
+  <enrollment type="Actual">74811</enrollment>
+  <condition>Influenza, Human</condition>
+  <arm_group>
+    <arm_group_label>Holdout control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants will only receive the standard appointment reminders from their providers.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Default Reservations Opt-Out Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Default Reservations Opt-In Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intergroup Competition Treatment Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Intergroup Competition Control Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Flu Shot for You Symbolic Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Flu Shot for You Herd Immunity Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Flu Shot for You Control Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prosocial Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Self-Oriented Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Information Vivid Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Information Basic Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Information Control Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sharing Humor Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Humor Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Habits Easy Health Behavior Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Habits Difficult Health Behavior Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Habits Control Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Just-In-Time Reminders 24-Hour Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Just-In-Time Reminders 15-Minute Condition</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Flu shot text messages</intervention_name>
+    <description>Participants will receive text messages per descriptions listed in the arms.</description>
+    <arm_group_label>Default Reservations Opt-In Condition</arm_group_label>
+    <arm_group_label>Default Reservations Opt-Out Condition</arm_group_label>
+    <arm_group_label>Flu Shot for You Control Condition</arm_group_label>
+    <arm_group_label>Flu Shot for You Herd Immunity Condition</arm_group_label>
+    <arm_group_label>Flu Shot for You Symbolic Condition</arm_group_label>
+    <arm_group_label>Healthy Habits Control Condition</arm_group_label>
+    <arm_group_label>Healthy Habits Difficult Health Behavior Condition</arm_group_label>
+    <arm_group_label>Healthy Habits Easy Health Behavior Condition</arm_group_label>
+    <arm_group_label>Information Basic Condition</arm_group_label>
+    <arm_group_label>Information Control Condition</arm_group_label>
+    <arm_group_label>Information Vivid Condition</arm_group_label>
+    <arm_group_label>Intergroup Competition Control Condition</arm_group_label>
+    <arm_group_label>Intergroup Competition Treatment Condition</arm_group_label>
+    <arm_group_label>Just-In-Time Reminders 15-Minute Condition</arm_group_label>
+    <arm_group_label>Just-In-Time Reminders 24-Hour Condition</arm_group_label>
+    <arm_group_label>No Humor Condition</arm_group_label>
+    <arm_group_label>Prosocial Condition</arm_group_label>
+    <arm_group_label>Self-Oriented Condition</arm_group_label>
+    <arm_group_label>Sharing Humor Condition</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Penn Medicine and Geisinger patients will be included if they:&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Have a cell phone number recorded in a Penn Medicine or Geisinger database&#xD;
+&#xD;
+          -  Have a new or routine primary care appointment during the study recruitment period&#xD;
+             (not a sick visit)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Have documentation of allergy or adverse event to influenza vaccination in medical&#xD;
+             records&#xD;
+&#xD;
+          -  Have documentation of already receiving their 2020 influenza vaccination prior to&#xD;
+             randomization in medical records&#xD;
+&#xD;
+          -  Have opted out of receiving text message appointment reminders&#xD;
+&#xD;
+          -  Have asked not to be contacted for research purposes&#xD;
+&#xD;
+          -  Have an appointment with someone other than their primary care physician&#xD;
+&#xD;
+          -  Have an appointment with someone other than a physician, resident, nurse practitioner,&#xD;
+             or physician assistant&#xD;
+&#xD;
+        We will recruit as many patients as possible starting in September 2020. We will stop&#xD;
+        enrolling participants with appointments scheduled to occur after December 31, 2020 if we&#xD;
+        have reached 4,000 participants per condition. If we do not have 4,000 participants per&#xD;
+        condition by December 31, 2020, we will continue enrolling participants until we have&#xD;
+        reached 4,000 per condition, or until March 31, 2021 (discontinuing enrollment at whichever&#xD;
+        milestone arrives sooner - 4,000 people enrolled or 3/31/21).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Geisinger Health</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pennsylvania Health System</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Cutrona SL, Golden JG, Goff SL, Ogarek J, Barton B, Fisher L, Preusse P, Sundaresan D, Garber L, Mazor KM. Improving Rates of Outpatient Influenza Vaccination Through EHR Portal Messages and Interactive Automated Calls: A Randomized Controlled Trial. J Gen Intern Med. 2018 May;33(5):659-667. doi: 10.1007/s11606-017-4266-9. Epub 2018 Jan 30.</citation>
+    <PMID>29383550</PMID>
+  </reference>
+  <reference>
+    <citation>Milkman KL, Beshears J, Choi JJ, Laibson D, Madrian BC. Using implementation intentions prompts to enhance influenza vaccination rates. Proc Natl Acad Sci U S A. 2011 Jun 28;108(26):10415-20. doi: 10.1073/pnas.1103170108. Epub 2011 Jun 13.</citation>
+    <PMID>21670283</PMID>
+  </reference>
+  <reference>
+    <citation>Regan AK, Bloomfield L, Peters I, Effler PV. Randomized Controlled Trial of Text Message Reminders for Increasing Influenza Vaccination. Ann Fam Med. 2017 Nov;15(6):507-514. doi: 10.1370/afm.2120.</citation>
+    <PMID>29133488</PMID>
+  </reference>
+  <reference>
+    <citation>Nowalk MP, Lin CJ, Toback SL, Rousculp MD, Eby C, Raymund M, Zimmerman RK. Improving influenza vaccination rates in the workplace: a randomized trial. Am J Prev Med. 2010 Mar;38(3):237-46. doi: 10.1016/j.amepre.2009.11.011. Epub 2009 Dec 24.</citation>
+    <PMID>20036102</PMID>
+  </reference>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>September 10, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 25, 2020</study_first_posted>
+  <results_first_submitted>June 14, 2021</results_first_submitted>
+  <results_first_submitted_qc>July 16, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 11, 2021</results_first_posted>
+  <last_update_submitted>July 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Influenza vaccination</keyword>
+  <keyword>behavioral science interventions</keyword>
+  <keyword>vaccination promotion</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Influenza, Human</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 11, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/53/NCT04565353/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>July 15, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/53/NCT04565353/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>A small number of patients in each experimental condition did not receive any intervention messages due to technical malfunctions. These patients are excluded from analyses since they were, for all practical purposes, not a part of of our study</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Holdout Control</title>
+          <description>Participants will only receive the standard appointment reminders from their providers.</description>
+        </group>
+        <group group_id="P2">
+          <title>Default Reservations Opt-Out Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P3">
+          <title>Default Reservations Opt-In Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P4">
+          <title>Intergroup Competition Treatment Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P5">
+          <title>Intergroup Competition Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P6">
+          <title>Flu Shot for You Symbolic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P7">
+          <title>Flu Shot for You Herd Immunity Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P8">
+          <title>Flu Shot for You Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P9">
+          <title>Prosocial Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P10">
+          <title>Self-Oriented Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P11">
+          <title>Information Vivid Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P12">
+          <title>Information Basic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P13">
+          <title>Information Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P14">
+          <title>Sharing Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P15">
+          <title>No Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P16">
+          <title>Healthy Habits Easy Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P17">
+          <title>Healthy Habits Difficult Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P18">
+          <title>Healthy Habits Control Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P19">
+          <title>Just-In-Time Reminders 24-Hour Condition</title>
+          <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="P20">
+          <title>Just-In-Time Reminders 15-Minute Condition</title>
+          <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="3742"/>
+                <participants group_id="P2" count="3737"/>
+                <participants group_id="P3" count="3709"/>
+                <participants group_id="P4" count="3735"/>
+                <participants group_id="P5" count="3758"/>
+                <participants group_id="P6" count="3769"/>
+                <participants group_id="P7" count="3719"/>
+                <participants group_id="P8" count="3732"/>
+                <participants group_id="P9" count="3728"/>
+                <participants group_id="P10" count="3777"/>
+                <participants group_id="P11" count="3672"/>
+                <participants group_id="P12" count="3751"/>
+                <participants group_id="P13" count="3737"/>
+                <participants group_id="P14" count="3714"/>
+                <participants group_id="P15" count="3773"/>
+                <participants group_id="P16" count="3739"/>
+                <participants group_id="P17" count="3776"/>
+                <participants group_id="P18" count="3744"/>
+                <participants group_id="P19" count="3741"/>
+                <participants group_id="P20" count="3758"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="3742"/>
+                <participants group_id="P2" count="3688"/>
+                <participants group_id="P3" count="3670"/>
+                <participants group_id="P4" count="3693"/>
+                <participants group_id="P5" count="3717"/>
+                <participants group_id="P6" count="3716"/>
+                <participants group_id="P7" count="3665"/>
+                <participants group_id="P8" count="3693"/>
+                <participants group_id="P9" count="3662"/>
+                <participants group_id="P10" count="3734"/>
+                <participants group_id="P11" count="3623"/>
+                <participants group_id="P12" count="3710"/>
+                <participants group_id="P13" count="3685"/>
+                <participants group_id="P14" count="3664"/>
+                <participants group_id="P15" count="3736"/>
+                <participants group_id="P16" count="3690"/>
+                <participants group_id="P17" count="3734"/>
+                <participants group_id="P18" count="3696"/>
+                <participants group_id="P19" count="3698"/>
+                <participants group_id="P20" count="3712"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="49"/>
+                <participants group_id="P3" count="39"/>
+                <participants group_id="P4" count="42"/>
+                <participants group_id="P5" count="41"/>
+                <participants group_id="P6" count="53"/>
+                <participants group_id="P7" count="54"/>
+                <participants group_id="P8" count="39"/>
+                <participants group_id="P9" count="66"/>
+                <participants group_id="P10" count="43"/>
+                <participants group_id="P11" count="49"/>
+                <participants group_id="P12" count="41"/>
+                <participants group_id="P13" count="52"/>
+                <participants group_id="P14" count="50"/>
+                <participants group_id="P15" count="37"/>
+                <participants group_id="P16" count="49"/>
+                <participants group_id="P17" count="42"/>
+                <participants group_id="P18" count="48"/>
+                <participants group_id="P19" count="43"/>
+                <participants group_id="P20" count="46"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Holdout Control</title>
+          <description>Participants will only receive the standard appointment reminders from their providers.</description>
+        </group>
+        <group group_id="B2">
+          <title>Default Reservations Opt-Out Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B3">
+          <title>Default Reservations Opt-In Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B4">
+          <title>Intergroup Competition Treatment Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B5">
+          <title>Intergroup Competition Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B6">
+          <title>Flu Shot for You Symbolic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B7">
+          <title>Flu Shot for You Herd Immunity Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B8">
+          <title>Flu Shot for You Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B9">
+          <title>Prosocial Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B10">
+          <title>Self-Oriented Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B11">
+          <title>Information Vivid Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B12">
+          <title>Information Basic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B13">
+          <title>Information Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B14">
+          <title>Sharing Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B15">
+          <title>No Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B16">
+          <title>Healthy Habits Easy Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B17">
+          <title>Healthy Habits Difficult Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B18">
+          <title>Healthy Habits Control Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B19">
+          <title>Just-In-Time Reminders 24-Hour Condition</title>
+          <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B20">
+          <title>Just-In-Time Reminders 15-Minute Condition</title>
+          <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="B21">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="3742"/>
+            <count group_id="B2" value="3737"/>
+            <count group_id="B3" value="3709"/>
+            <count group_id="B4" value="3735"/>
+            <count group_id="B5" value="3758"/>
+            <count group_id="B6" value="3769"/>
+            <count group_id="B7" value="3719"/>
+            <count group_id="B8" value="3732"/>
+            <count group_id="B9" value="3728"/>
+            <count group_id="B10" value="3777"/>
+            <count group_id="B11" value="3672"/>
+            <count group_id="B12" value="3751"/>
+            <count group_id="B13" value="3737"/>
+            <count group_id="B14" value="3714"/>
+            <count group_id="B15" value="3773"/>
+            <count group_id="B16" value="3739"/>
+            <count group_id="B17" value="3776"/>
+            <count group_id="B18" value="3744"/>
+            <count group_id="B19" value="3741"/>
+            <count group_id="B20" value="3758"/>
+            <count group_id="B21" value="74811"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="24"/>
+                    <measurement group_id="B3" value="21"/>
+                    <measurement group_id="B4" value="20"/>
+                    <measurement group_id="B5" value="31"/>
+                    <measurement group_id="B6" value="21"/>
+                    <measurement group_id="B7" value="21"/>
+                    <measurement group_id="B8" value="15"/>
+                    <measurement group_id="B9" value="24"/>
+                    <measurement group_id="B10" value="24"/>
+                    <measurement group_id="B11" value="22"/>
+                    <measurement group_id="B12" value="31"/>
+                    <measurement group_id="B13" value="24"/>
+                    <measurement group_id="B14" value="14"/>
+                    <measurement group_id="B15" value="24"/>
+                    <measurement group_id="B16" value="19"/>
+                    <measurement group_id="B17" value="16"/>
+                    <measurement group_id="B18" value="19"/>
+                    <measurement group_id="B19" value="20"/>
+                    <measurement group_id="B20" value="28"/>
+                    <measurement group_id="B21" value="440"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2950"/>
+                    <measurement group_id="B2" value="2920"/>
+                    <measurement group_id="B3" value="2921"/>
+                    <measurement group_id="B4" value="2940"/>
+                    <measurement group_id="B5" value="2942"/>
+                    <measurement group_id="B6" value="2941"/>
+                    <measurement group_id="B7" value="2916"/>
+                    <measurement group_id="B8" value="2923"/>
+                    <measurement group_id="B9" value="2932"/>
+                    <measurement group_id="B10" value="2955"/>
+                    <measurement group_id="B11" value="2902"/>
+                    <measurement group_id="B12" value="2948"/>
+                    <measurement group_id="B13" value="2961"/>
+                    <measurement group_id="B14" value="2950"/>
+                    <measurement group_id="B15" value="2942"/>
+                    <measurement group_id="B16" value="2927"/>
+                    <measurement group_id="B17" value="2956"/>
+                    <measurement group_id="B18" value="2932"/>
+                    <measurement group_id="B19" value="2947"/>
+                    <measurement group_id="B20" value="2959"/>
+                    <measurement group_id="B21" value="58764"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="770"/>
+                    <measurement group_id="B2" value="793"/>
+                    <measurement group_id="B3" value="767"/>
+                    <measurement group_id="B4" value="775"/>
+                    <measurement group_id="B5" value="785"/>
+                    <measurement group_id="B6" value="807"/>
+                    <measurement group_id="B7" value="782"/>
+                    <measurement group_id="B8" value="794"/>
+                    <measurement group_id="B9" value="772"/>
+                    <measurement group_id="B10" value="798"/>
+                    <measurement group_id="B11" value="748"/>
+                    <measurement group_id="B12" value="772"/>
+                    <measurement group_id="B13" value="752"/>
+                    <measurement group_id="B14" value="750"/>
+                    <measurement group_id="B15" value="807"/>
+                    <measurement group_id="B16" value="793"/>
+                    <measurement group_id="B17" value="804"/>
+                    <measurement group_id="B18" value="793"/>
+                    <measurement group_id="B19" value="774"/>
+                    <measurement group_id="B20" value="771"/>
+                    <measurement group_id="B21" value="15607"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="50.3" spread="16.2"/>
+                    <measurement group_id="B2" value="50.7" spread="16.4"/>
+                    <measurement group_id="B3" value="50.5" spread="16.3"/>
+                    <measurement group_id="B4" value="50.7" spread="16.2"/>
+                    <measurement group_id="B5" value="50.5" spread="16.2"/>
+                    <measurement group_id="B6" value="50.9" spread="16.3"/>
+                    <measurement group_id="B7" value="50.5" spread="16.4"/>
+                    <measurement group_id="B8" value="50.8" spread="16.6"/>
+                    <measurement group_id="B9" value="50.9" spread="16.2"/>
+                    <measurement group_id="B10" value="50.6" spread="16.2"/>
+                    <measurement group_id="B11" value="50.8" spread="16.1"/>
+                    <measurement group_id="B12" value="50.8" spread="16.1"/>
+                    <measurement group_id="B13" value="50.7" spread="16.1"/>
+                    <measurement group_id="B14" value="50.5" spread="16.2"/>
+                    <measurement group_id="B15" value="50.9" spread="16.3"/>
+                    <measurement group_id="B16" value="51.0" spread="16.3"/>
+                    <measurement group_id="B17" value="51.0" spread="16.0"/>
+                    <measurement group_id="B18" value="50.7" spread="16.3"/>
+                    <measurement group_id="B19" value="50.7" spread="16.2"/>
+                    <measurement group_id="B20" value="50.5" spread="16.0"/>
+                    <measurement group_id="B21" value="50.7" spread="16.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2056"/>
+                    <measurement group_id="B2" value="2109"/>
+                    <measurement group_id="B3" value="2079"/>
+                    <measurement group_id="B4" value="2067"/>
+                    <measurement group_id="B5" value="2096"/>
+                    <measurement group_id="B6" value="2097"/>
+                    <measurement group_id="B7" value="2018"/>
+                    <measurement group_id="B8" value="2091"/>
+                    <measurement group_id="B9" value="2083"/>
+                    <measurement group_id="B10" value="2120"/>
+                    <measurement group_id="B11" value="2030"/>
+                    <measurement group_id="B12" value="2107"/>
+                    <measurement group_id="B13" value="2060"/>
+                    <measurement group_id="B14" value="2104"/>
+                    <measurement group_id="B15" value="2098"/>
+                    <measurement group_id="B16" value="2085"/>
+                    <measurement group_id="B17" value="2159"/>
+                    <measurement group_id="B18" value="2120"/>
+                    <measurement group_id="B19" value="2101"/>
+                    <measurement group_id="B20" value="2091"/>
+                    <measurement group_id="B21" value="41771"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1686"/>
+                    <measurement group_id="B2" value="1628"/>
+                    <measurement group_id="B3" value="1630"/>
+                    <measurement group_id="B4" value="1668"/>
+                    <measurement group_id="B5" value="1662"/>
+                    <measurement group_id="B6" value="1672"/>
+                    <measurement group_id="B7" value="1701"/>
+                    <measurement group_id="B8" value="1641"/>
+                    <measurement group_id="B9" value="1645"/>
+                    <measurement group_id="B10" value="1657"/>
+                    <measurement group_id="B11" value="1642"/>
+                    <measurement group_id="B12" value="1644"/>
+                    <measurement group_id="B13" value="1677"/>
+                    <measurement group_id="B14" value="1610"/>
+                    <measurement group_id="B15" value="1675"/>
+                    <measurement group_id="B16" value="1654"/>
+                    <measurement group_id="B17" value="1617"/>
+                    <measurement group_id="B18" value="1624"/>
+                    <measurement group_id="B19" value="1640"/>
+                    <measurement group_id="B20" value="1667"/>
+                    <measurement group_id="B21" value="33040"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Race category</title>
+              <category_list>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="86"/>
+                    <measurement group_id="B2" value="82"/>
+                    <measurement group_id="B3" value="91"/>
+                    <measurement group_id="B4" value="99"/>
+                    <measurement group_id="B5" value="86"/>
+                    <measurement group_id="B6" value="75"/>
+                    <measurement group_id="B7" value="87"/>
+                    <measurement group_id="B8" value="88"/>
+                    <measurement group_id="B9" value="93"/>
+                    <measurement group_id="B10" value="83"/>
+                    <measurement group_id="B11" value="90"/>
+                    <measurement group_id="B12" value="91"/>
+                    <measurement group_id="B13" value="87"/>
+                    <measurement group_id="B14" value="88"/>
+                    <measurement group_id="B15" value="93"/>
+                    <measurement group_id="B16" value="84"/>
+                    <measurement group_id="B17" value="80"/>
+                    <measurement group_id="B18" value="89"/>
+                    <measurement group_id="B19" value="85"/>
+                    <measurement group_id="B20" value="77"/>
+                    <measurement group_id="B21" value="1734"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="751"/>
+                    <measurement group_id="B2" value="729"/>
+                    <measurement group_id="B3" value="736"/>
+                    <measurement group_id="B4" value="688"/>
+                    <measurement group_id="B5" value="730"/>
+                    <measurement group_id="B6" value="717"/>
+                    <measurement group_id="B7" value="711"/>
+                    <measurement group_id="B8" value="705"/>
+                    <measurement group_id="B9" value="719"/>
+                    <measurement group_id="B10" value="755"/>
+                    <measurement group_id="B11" value="676"/>
+                    <measurement group_id="B12" value="667"/>
+                    <measurement group_id="B13" value="713"/>
+                    <measurement group_id="B14" value="673"/>
+                    <measurement group_id="B15" value="741"/>
+                    <measurement group_id="B16" value="676"/>
+                    <measurement group_id="B17" value="722"/>
+                    <measurement group_id="B18" value="714"/>
+                    <measurement group_id="B19" value="698"/>
+                    <measurement group_id="B20" value="701"/>
+                    <measurement group_id="B21" value="14222"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hispanic</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="187"/>
+                    <measurement group_id="B2" value="177"/>
+                    <measurement group_id="B3" value="173"/>
+                    <measurement group_id="B4" value="168"/>
+                    <measurement group_id="B5" value="157"/>
+                    <measurement group_id="B6" value="180"/>
+                    <measurement group_id="B7" value="156"/>
+                    <measurement group_id="B8" value="174"/>
+                    <measurement group_id="B9" value="174"/>
+                    <measurement group_id="B10" value="177"/>
+                    <measurement group_id="B11" value="181"/>
+                    <measurement group_id="B12" value="143"/>
+                    <measurement group_id="B13" value="177"/>
+                    <measurement group_id="B14" value="183"/>
+                    <measurement group_id="B15" value="154"/>
+                    <measurement group_id="B16" value="160"/>
+                    <measurement group_id="B17" value="162"/>
+                    <measurement group_id="B18" value="175"/>
+                    <measurement group_id="B19" value="145"/>
+                    <measurement group_id="B20" value="188"/>
+                    <measurement group_id="B21" value="3391"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Other</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="140"/>
+                    <measurement group_id="B2" value="114"/>
+                    <measurement group_id="B3" value="149"/>
+                    <measurement group_id="B4" value="126"/>
+                    <measurement group_id="B5" value="134"/>
+                    <measurement group_id="B6" value="147"/>
+                    <measurement group_id="B7" value="130"/>
+                    <measurement group_id="B8" value="116"/>
+                    <measurement group_id="B9" value="140"/>
+                    <measurement group_id="B10" value="108"/>
+                    <measurement group_id="B11" value="139"/>
+                    <measurement group_id="B12" value="128"/>
+                    <measurement group_id="B13" value="144"/>
+                    <measurement group_id="B14" value="131"/>
+                    <measurement group_id="B15" value="128"/>
+                    <measurement group_id="B16" value="135"/>
+                    <measurement group_id="B17" value="113"/>
+                    <measurement group_id="B18" value="144"/>
+                    <measurement group_id="B19" value="134"/>
+                    <measurement group_id="B20" value="138"/>
+                    <measurement group_id="B21" value="2638"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2578"/>
+                    <measurement group_id="B2" value="2635"/>
+                    <measurement group_id="B3" value="2560"/>
+                    <measurement group_id="B4" value="2654"/>
+                    <measurement group_id="B5" value="2651"/>
+                    <measurement group_id="B6" value="2650"/>
+                    <measurement group_id="B7" value="2635"/>
+                    <measurement group_id="B8" value="2649"/>
+                    <measurement group_id="B9" value="2602"/>
+                    <measurement group_id="B10" value="2654"/>
+                    <measurement group_id="B11" value="2586"/>
+                    <measurement group_id="B12" value="2722"/>
+                    <measurement group_id="B13" value="2616"/>
+                    <measurement group_id="B14" value="2639"/>
+                    <measurement group_id="B15" value="2657"/>
+                    <measurement group_id="B16" value="2684"/>
+                    <measurement group_id="B17" value="2699"/>
+                    <measurement group_id="B18" value="2622"/>
+                    <measurement group_id="B19" value="2679"/>
+                    <measurement group_id="B20" value="2654"/>
+                    <measurement group_id="B21" value="52826"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants With Flu Shot Receipt at or Before Appointment</title>
+        <description>Our field experiment will be conducted with Penn Medicine and Geisinger Health patients via SMS messages sent prior to their first primary care appointment during the study period, hereafter referred to as the &quot;target appointment.&quot; The key dependent variable is whether participants receive a flu shot at or before their target appointment (as recorded in their electronic health records).&#xD;
+If participants cancel or do not show up for their target appointment after they have been randomized to a treatment and then schedule a new appointment during the study period, their new primary care appointment becomes the target appointment.&#xD;
+Participants who have been randomized to a treatment will be counted as not having received a flu shot if they cancel or do not show up for their target appointment and do not schedule a new appointment during the study period.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+        <time_frame>The dependent variable will be assessed during a 4-day period after randomization starting three days prior to the participant's target primary care appointment through the date of the target appointment (including the date of the appointment)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Holdout Control</title>
+            <description>Participants will only receive the standard appointment reminders from their providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Default Reservations Opt-Out Condition</title>
+            <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O3">
+            <title>Default Reservations Opt-In Condition</title>
+            <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O4">
+            <title>Intergroup Competition Treatment Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O5">
+            <title>Intergroup Competition Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O6">
+            <title>Flu Shot for You Symbolic Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O7">
+            <title>Flu Shot for You Herd Immunity Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O8">
+            <title>Flu Shot for You Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O9">
+            <title>Prosocial Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O10">
+            <title>Self-Oriented Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O11">
+            <title>Information Vivid Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O12">
+            <title>Information Basic Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O13">
+            <title>Information Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O14">
+            <title>Sharing Humor Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O15">
+            <title>No Humor Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O16">
+            <title>Healthy Habits Easy Health Behavior Condition</title>
+            <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O17">
+            <title>Healthy Habits Difficult Health Behavior Condition</title>
+            <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O18">
+            <title>Healthy Habits Control Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O19">
+            <title>Just-In-Time Reminders 24-Hour Condition</title>
+            <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O20">
+            <title>Just-In-Time Reminders 15-Minute Condition</title>
+            <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Flu Shot Receipt at or Before Appointment</title>
+          <description>Our field experiment will be conducted with Penn Medicine and Geisinger Health patients via SMS messages sent prior to their first primary care appointment during the study period, hereafter referred to as the &quot;target appointment.&quot; The key dependent variable is whether participants receive a flu shot at or before their target appointment (as recorded in their electronic health records).&#xD;
+If participants cancel or do not show up for their target appointment after they have been randomized to a treatment and then schedule a new appointment during the study period, their new primary care appointment becomes the target appointment.&#xD;
+Participants who have been randomized to a treatment will be counted as not having received a flu shot if they cancel or do not show up for their target appointment and do not schedule a new appointment during the study period.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="3742"/>
+                <count group_id="O2" value="3688"/>
+                <count group_id="O3" value="3670"/>
+                <count group_id="O4" value="3693"/>
+                <count group_id="O5" value="3717"/>
+                <count group_id="O6" value="3716"/>
+                <count group_id="O7" value="3665"/>
+                <count group_id="O8" value="3693"/>
+                <count group_id="O9" value="3662"/>
+                <count group_id="O10" value="3734"/>
+                <count group_id="O11" value="3623"/>
+                <count group_id="O12" value="3710"/>
+                <count group_id="O13" value="3685"/>
+                <count group_id="O14" value="3664"/>
+                <count group_id="O15" value="3736"/>
+                <count group_id="O16" value="3690"/>
+                <count group_id="O17" value="3734"/>
+                <count group_id="O18" value="3696"/>
+                <count group_id="O19" value="3698"/>
+                <count group_id="O20" value="3712"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1113"/>
+                    <measurement group_id="O2" value="1210"/>
+                    <measurement group_id="O3" value="1150"/>
+                    <measurement group_id="O4" value="1163"/>
+                    <measurement group_id="O5" value="1183"/>
+                    <measurement group_id="O6" value="1200"/>
+                    <measurement group_id="O7" value="1192"/>
+                    <measurement group_id="O8" value="1191"/>
+                    <measurement group_id="O9" value="1157"/>
+                    <measurement group_id="O10" value="1224"/>
+                    <measurement group_id="O11" value="1144"/>
+                    <measurement group_id="O12" value="1231"/>
+                    <measurement group_id="O13" value="1171"/>
+                    <measurement group_id="O14" value="1135"/>
+                    <measurement group_id="O15" value="1199"/>
+                    <measurement group_id="O16" value="1181"/>
+                    <measurement group_id="O17" value="1193"/>
+                    <measurement group_id="O18" value="1130"/>
+                    <measurement group_id="O19" value="1240"/>
+                    <measurement group_id="O20" value="1227"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Flu Shot Receipt Before March 31, 2021</title>
+        <description>The secondary dependent variable is whether participants receive the flu shot at or before their target appointment or at any time after this appointment (by March 31, 2021), as recorded in their electronic health records.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+        <time_frame>Up to 6 months after randomization.</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Holdout Control</title>
+            <description>Participants will only receive the standard appointment reminders from their providers.</description>
+          </group>
+          <group group_id="O2">
+            <title>Default Reservations Opt-Out Condition</title>
+            <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O3">
+            <title>Default Reservations Opt-In Condition</title>
+            <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O4">
+            <title>Intergroup Competition Treatment Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O5">
+            <title>Intergroup Competition Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O6">
+            <title>Flu Shot for You Symbolic Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O7">
+            <title>Flu Shot for You Herd Immunity Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O8">
+            <title>Flu Shot for You Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O9">
+            <title>Prosocial Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O10">
+            <title>Self-Oriented Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O11">
+            <title>Information Vivid Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O12">
+            <title>Information Basic Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O13">
+            <title>Information Control Condition</title>
+            <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O14">
+            <title>Sharing Humor Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O15">
+            <title>No Humor Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O16">
+            <title>Healthy Habits Easy Health Behavior Condition</title>
+            <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O17">
+            <title>Healthy Habits Difficult Health Behavior Condition</title>
+            <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O18">
+            <title>Healthy Habits Control Condition</title>
+            <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O19">
+            <title>Just-In-Time Reminders 24-Hour Condition</title>
+            <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+          <group group_id="O20">
+            <title>Just-In-Time Reminders 15-Minute Condition</title>
+            <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Flu Shot Receipt Before March 31, 2021</title>
+          <description>The secondary dependent variable is whether participants receive the flu shot at or before their target appointment or at any time after this appointment (by March 31, 2021), as recorded in their electronic health records.&#xD;
+Participants who receive a flu shot before they receive the SMS intervention will be excluded from the analyses.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="3742"/>
+                <count group_id="O2" value="3688"/>
+                <count group_id="O3" value="3670"/>
+                <count group_id="O4" value="3693"/>
+                <count group_id="O5" value="3717"/>
+                <count group_id="O6" value="3716"/>
+                <count group_id="O7" value="3665"/>
+                <count group_id="O8" value="3693"/>
+                <count group_id="O9" value="3662"/>
+                <count group_id="O10" value="3734"/>
+                <count group_id="O11" value="3623"/>
+                <count group_id="O12" value="3710"/>
+                <count group_id="O13" value="3685"/>
+                <count group_id="O14" value="3664"/>
+                <count group_id="O15" value="3736"/>
+                <count group_id="O16" value="3690"/>
+                <count group_id="O17" value="3734"/>
+                <count group_id="O18" value="3696"/>
+                <count group_id="O19" value="3698"/>
+                <count group_id="O20" value="3712"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1296"/>
+                    <measurement group_id="O2" value="1391"/>
+                    <measurement group_id="O3" value="1330"/>
+                    <measurement group_id="O4" value="1343"/>
+                    <measurement group_id="O5" value="1338"/>
+                    <measurement group_id="O6" value="1371"/>
+                    <measurement group_id="O7" value="1369"/>
+                    <measurement group_id="O8" value="1370"/>
+                    <measurement group_id="O9" value="1360"/>
+                    <measurement group_id="O10" value="1418"/>
+                    <measurement group_id="O11" value="1316"/>
+                    <measurement group_id="O12" value="1385"/>
+                    <measurement group_id="O13" value="1342"/>
+                    <measurement group_id="O14" value="1310"/>
+                    <measurement group_id="O15" value="1351"/>
+                    <measurement group_id="O16" value="1370"/>
+                    <measurement group_id="O17" value="1360"/>
+                    <measurement group_id="O18" value="1297"/>
+                    <measurement group_id="O19" value="1388"/>
+                    <measurement group_id="O20" value="1388"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>9/20/20 - 3/31/21 -- A period of over six months</time_frame>
+      <desc>This is a minimal risk study, eligible for expedited IRB review in keeping with 45 CFR §46.110. All data is gathered from Electronic Health Records (EHR).&#xD;
+EHR data will report inputs and outcomes; we will therefore be unable to monitor this data for AE/SAEs. Data will be received at the end of the study and may also be received periodically over the course of the study. Even if we receive data periodically, however, we will not be able to monitor it for AE/SAEs</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Holdout Control</title>
+          <description>Participants will only receive the standard appointment reminders from their providers.</description>
+        </group>
+        <group group_id="E2">
+          <title>Default Reservations Opt-Out Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;A flu shot has been reserved for you to receive at your appointment tomorrow. Reply Y if you want this shot held for you, N if you don't.&quot; The text will include a picture of a vial that says &quot;Your Flu Shot&quot; on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E3">
+          <title>Default Reservations Opt-In Condition</title>
+          <description>The day before their scheduled appointment, participants receive a text reading: &quot;Reply Y if you would like to receive a flu shot at your appointment tomorrow, N if not.&quot; The text will include a picture of vial with no text on it.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E4">
+          <title>Intergroup Competition Treatment Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind &quot;another region&quot; in flu shot rate last year (&quot;your region&quot; and &quot;another region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E5">
+          <title>Intergroup Competition Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message with information about how much &quot;your region&quot; lagged behind the target flu shot rate of 70% last year (&quot;your region&quot; will depend on the study site and include realistic flu shot rates based on historical CDC data). Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E6">
+          <title>Flu Shot for You Symbolic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity to dedicate getting the flu shot to someone by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E7">
+          <title>Flu Shot for You Herd Immunity Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also be told that they have the opportunity of getting the flu shot to protect a vulnerable loved one by texting back the initials of an individual. Participants will receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E8">
+          <title>Flu Shot for You Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot. They will also receive a reminder message on the day of the appointment. They will not receive any further information, nor will they be asked to respond with initials of an individual.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E9">
+          <title>Prosocial Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the pro-social benefits of getting a flu shot, and a reminder to ask for their flu shot. The described pro-social benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting loved ones from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting loved ones from serious complications from the flu). Participants will also receive a reminder message on the day of the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E10">
+          <title>Self-Oriented Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a message describing the self-oriented benefits of getting a flu shot, and a reminder to ask for their flu shot. The described self-oriented benefits will vary whether they emphasize the COVID-19 pandemic (e.g., protecting oneself from the risk of hospital-acquired COVID-19 infection) or not (e.g., protecting oneself from serious complications from the flu).&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E11">
+          <title>Information Vivid Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain vivid information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E12">
+          <title>Information Basic Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain basic information about getting the flu. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E13">
+          <title>Information Control Condition</title>
+          <description>Three days before their scheduled appointment, participants will receive a message inviting them to watch a 2-minute wellness video and answer some related questions, as well as encouragement to get the flu shot. In this condition, the video will contain information about exercising. Participants will also receive a reminder message the day before the appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E14">
+          <title>Sharing Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot. The message will include a joke about the flu and will encourage participants to share the joke with nurses, doctors, or pharmacists.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E15">
+          <title>No Humor Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get the flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E16">
+          <title>Healthy Habits Easy Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of easy health behaviors (e.g., whether they walked 500 feet yesterday, at least two serving of fruits and vegetables in the last week, and slept at least 6 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E17">
+          <title>Healthy Habits Difficult Health Behavior Condition</title>
+          <description>The day before their scheduled appointment, participants will be asked if they have completed a series of difficult health behaviors (e.g., whether they walked 3 miles yesterday, ate 4-6 servings of fruits and vegetables yesterday, and slept at least 9 hours the previous night). They will then be encouraged to get a flu shot at their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E18">
+          <title>Healthy Habits Control Condition</title>
+          <description>The day before their scheduled appointment, participants will receive a text message encouraging them to get a flu shot.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E19">
+          <title>Just-In-Time Reminders 24-Hour Condition</title>
+          <description>Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 24 hours before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+        <group group_id="E20">
+          <title>Just-In-Time Reminders 15-Minute Condition</title>
+          <description>Just-In-Time Reminders 15-Minute Condition: Seventy-two hours before their appointment, participants will receive a text message alerting them to the availability of the flu vaccine at their upcoming appointment. Participants will be told they'll receive a reminder, which they can opt-out from receiving. The text message reminder will be sent 15 minutes before their appointment.&#xD;
+Flu shot text messages: Participants will receive text messages per descriptions listed in the arms.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E7" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E8" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E9" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E10" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E11" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E12" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E13" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E14" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E15" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E16" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E17" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E18" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E19" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E20" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E7" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E8" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E9" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E10" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E11" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E12" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E13" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E14" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E15" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E16" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E17" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E18" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E19" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E20" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E4" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E5" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E6" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E7" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E8" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E9" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E10" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E11" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E12" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E13" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E14" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E15" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E16" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E17" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E18" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E19" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E20" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Joseph Kay</name_or_title>
+      <organization>Behavior Change for Good initiative</organization>
+      <phone>2157466609</phone>
+      <email>jskay@wharton.upenn.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

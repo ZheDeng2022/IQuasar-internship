@@ -1,0 +1,273 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03899519</url>
+  </required_header>
+  <id_info>
+    <org_study_id>USM/JEPeM/18010094</org_study_id>
+    <nct_id>NCT03899519</nct_id>
+  </id_info>
+  <brief_title>Airway Ultrasonography Measurements With Cormack Lehane Classification in Patients With OSA</brief_title>
+  <official_title>The Correlations of the Findings Obtained From Airway Ultrasonography With Cormack Lehane Classification in Patients With Obstructive Sleep Apnoea - A Cross Sectional Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universiti Sains Malaysia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Universiti Sains Malaysia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Airway assessment using ultrasonography can provide an additional information in identifying&#xD;
+      difficult intubation in OSA patients. The main purpose of this study is to find the&#xD;
+      correlation of the ultrasound parameters and the Cormack Lehane Score (CL Score) as well as&#xD;
+      to identify the cut-off point of the ultrasound parameters that would differentiate between&#xD;
+      the easy and difficult intubation.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research design&#xD;
+&#xD;
+        1. This is a cross sectional study. Involving face-to-face interview, USG airway assessment&#xD;
+           and Cormack Lehane score assessment. The patient will be identified from locations&#xD;
+           listed below:&#xD;
+&#xD;
+             -  Anaesthesia clinic&#xD;
+&#xD;
+             -  In the ward, during review by anaesthesia team for elective operation in the&#xD;
+                following day&#xD;
+&#xD;
+             -  In the ward, when cases are notified for operations as emergency case&#xD;
+&#xD;
+        2. Once consent obtained from the patient, information regarding surgery and date of&#xD;
+           surgery will be recorded in the patient's data collection sheet. Patient's STOPBANG&#xD;
+           score and AHI score will also be recorded.&#xD;
+&#xD;
+        3. The airway ultrasonography will be performed by the principal investigator using a&#xD;
+           standardized ultrasound machine (NextGen LOGIC e Ultrasound with 12L-RS wide band linear&#xD;
+           array 5-13 MHz frequency probe) under supervision by a radiologist. The procedure will&#xD;
+           be performed at the recovery bay in the operation theatre. The following measurements&#xD;
+           will be done and recorded for future statistical analysis.&#xD;
+&#xD;
+             -  Depth of preepiglottic space (PE)&#xD;
+&#xD;
+             -  Distances between epiglottis and midpoint between 2 vocal cords (E-VC)&#xD;
+&#xD;
+        4. Cormack Lehane score will be obtained during induction of General Anaesthesia and&#xD;
+           Intubation in OT on the specified OT date. Conventional direct laryngoscope will be used&#xD;
+           for CL score determination. Medical Officer of more than 2 years' experiences in&#xD;
+           anaesthesiology will be requested to intubate the patient to minimize bias. CL scores&#xD;
+           are as described below&#xD;
+&#xD;
+      CL 1: Most of glottis Visible CL 2: Half of the glottis seen CL 3: Only epiglottis visible&#xD;
+      CL4: No laryngeal structure visible&#xD;
+&#xD;
+      Study area: Hospital Sultanah Nurzahirah, Kuala Terengganu Study population: Adult patient&#xD;
+      age between 18 to 65, diagnosed or suspected OSA, planned for operation under General&#xD;
+      Anaesthesia&#xD;
+&#xD;
+      Sample size estimation&#xD;
+&#xD;
+        1. st Objective :&#xD;
+&#xD;
+             -  To determine the correlation between airway ultrasonography measurements and CL&#xD;
+                score.&#xD;
+&#xD;
+             -  Using R package pwr&#xD;
+&#xD;
+                  -  For PE&#xD;
+&#xD;
+                       -  r: 0.595 (based on Gupta D, 2012), significant level 0.05, power: 0.8&#xD;
+&#xD;
+                       -  Number of sample: 19&#xD;
+&#xD;
+                  -  For E-VC&#xD;
+&#xD;
+                       -  r: -0.966 (based on Gupta D,2012), significant level 0.05, power: 0.8)&#xD;
+&#xD;
+                       -  Number of sample: 4&#xD;
+&#xD;
+                  -  For ratio PE/E-VC&#xD;
+&#xD;
+                       -  r: 0.495 (based on Gupta D, 2012), significant level 0.05, power: 0.8)&#xD;
+&#xD;
+                       -  Number of sample: 28&#xD;
+&#xD;
+        2. nd and 3rdobjective&#xD;
+&#xD;
+             -  2nd objective: To determine the best cut off point of airway ultrasonography&#xD;
+                measurement in predicting the difficulty in intubation using CL (difficult vs less&#xD;
+                difficult)&#xD;
+&#xD;
+             -  3rd objective: To determine the accuracy of cut-off point in determining difficult&#xD;
+                intubation. (AUC) )&#xD;
+&#xD;
+             -  Receiver Operating characteristics (ROC) curve power calculation using R&#xD;
+&#xD;
+                  -  Significance level: 0.05&#xD;
+&#xD;
+                  -  Power of study: 0.8&#xD;
+&#xD;
+                  -  Kappa: 4&#xD;
+&#xD;
+                  -  AUC: 0.7&#xD;
+&#xD;
+      Based on previous study, the incidence of difficult intubation in OSA patient is 19.3%. Hence&#xD;
+      kappa: 4. Using pROC package in R, based on the above values and data, the investigators need&#xD;
+      at least 24 cases of difficult intubation and 41 cases of non-difficult intubation (to detect&#xD;
+      AUC of 0.7 from 0.5 null hypothesis). So, total patients required is at least 65&#xD;
+&#xD;
+      Sampling method and subject recruitment As mentioned above, this is a cross sectional study.&#xD;
+      Involving face-to-face interview, USG airway assessment and Cormack Lehane score assessment.&#xD;
+      After the samples identified at the specific locations mentioned and they will be approached&#xD;
+      for consent. Once agreed, the patient will be recruited for the study.&#xD;
+&#xD;
+      Data analysis&#xD;
+&#xD;
+      Statistical Analysis Plan For objective 1&#xD;
+&#xD;
+      • Intended statistical analysis: Spearman correlation&#xD;
+&#xD;
+      For objective 2 and 3&#xD;
+&#xD;
+        -  Using ROC curve&#xD;
+&#xD;
+        -  outcome: difficulty status (0 or 1)&#xD;
+&#xD;
+        -  test variable: PE, E-VC and ratio PE/E-VC&#xD;
+&#xD;
+      AUC in the ROC curve will be calculated accordingly based on the study results&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 1, 2017</start_date>
+  <completion_date type="Actual">January 1, 2019</completion_date>
+  <primary_completion_date type="Actual">May 1, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correlation between airway ultrasonography measurements and CL score</measure>
+    <time_frame>may 2017-may 2018</time_frame>
+    <description>ultrasound measurements</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cut off point of airway ultrasonography measurement in predicting the difficulty in intubation using CL</measure>
+    <time_frame>may 2017-may 2018</time_frame>
+    <description>ultrasound measurements</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of each cut off point in objective 2</measure>
+    <time_frame>may 2017-may 2018</time_frame>
+    <description>cut off point to differentiate between easy and difficult intubation</description>
+  </primary_outcome>
+  <enrollment type="Actual">71</enrollment>
+  <condition>Obstructive Sleep Apnea</condition>
+  <condition>Difficult Intubation</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patient age between 18 to 65, diagnosed or suspected OSA, planned for operation under&#xD;
+        General Anaesthesia&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age between 18-65&#xD;
+&#xD;
+          2. Diagnose / screened OSA&#xD;
+&#xD;
+          3. Planned for operation under General Anaesthesia&#xD;
+&#xD;
+          4. American Society Of Anaesthesia (ASA) physical status class I-III&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Unstable haemodynamic status&#xD;
+&#xD;
+          2. Patient refusal to participate&#xD;
+&#xD;
+          3. Altered mental status, cognitive function or mental disorder&#xD;
+&#xD;
+          4. Distorted head and neck anatomy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rhendra Hardy Mohamed Zaini</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Sains Malaysia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Science Malaysia Hospital</name>
+      <address>
+        <city>Kubang Kerian</city>
+        <state>Kelantan</state>
+        <zip>16150</zip>
+        <country>Malaysia</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Malaysia</country>
+  </location_countries>
+  <results_reference>
+    <citation>Gupta D, Srirajakalidindi A, Ittiara B, Apple L, Toshniwal G, Haber H. Ultrasonographic modification of Cormack Lehane classification for pre-anesthetic airway assessment. Middle East J Anaesthesiol. 2012 Oct;21(6):835-42.</citation>
+    <PMID>23634565</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rana S, Verma V, Bhandari S, Sharma S, Koundal V, Chaudhary SK. Point-of-care ultrasound in the airway assessment: A correlation of ultrasonography-guided parameters to the Cormack-Lehane Classification. Saudi J Anaesth. 2018 Apr-Jun;12(2):292-296. doi: 10.4103/sja.SJA_540_17.</citation>
+    <PMID>29628843</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Soltani Mohammadi S, Saliminia A, Nejatifard N, Azma R. Usefulness of Ultrasound View of Larynx in Pre-Anesthetic Airway Assessment: A Comparison With Cormack-Lehane Classification During Direct Laryngoscopy. Anesth Pain Med. 2016 Aug 15;6(6):e39566. doi: 10.5812/aapm.39566. eCollection 2016 Dec.</citation>
+    <PMID>28975073</PMID>
+  </results_reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>March 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>April 1, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 2, 2019</study_first_posted>
+  <last_update_submitted>February 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universiti Sains Malaysia</investigator_affiliation>
+    <investigator_full_name>Rhendra Hardy Mohamad Zaini</investigator_full_name>
+    <investigator_title>Senior Consultant Anaesthetist and Lecturer</investigator_title>
+  </responsible_party>
+  <keyword>OSA</keyword>
+  <keyword>ultrasound</keyword>
+  <keyword>airway</keyword>
+  <keyword>difficult intubation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+    <mesh_term>Sleep Apnea, Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

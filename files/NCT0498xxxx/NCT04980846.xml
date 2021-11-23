@@ -1,0 +1,381 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04980846</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DRIVE</org_study_id>
+    <nct_id>NCT04980846</nct_id>
+  </id_info>
+  <brief_title>Design and Implementation of a Drunk Driving Detection System</brief_title>
+  <acronym>DRIVE</acronym>
+  <official_title>Non-randomised, Controlled, Interventional Single-centre Study for the Design and Evaluation of an In-vehicle Drunk Driving Detection System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Bern</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of St.Gallen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>ETH Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Bern</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To analyse driving behavior of individuals under the influence of alcohol using a validated&#xD;
+      research driving simulator. Based on the driving variables provided by the simulator the&#xD;
+      investigators aim at establishing algorithms capable of discriminating sober and drunk&#xD;
+      driving patterns using machine learning neural networks (deep machine learning classifiers).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Driving under the influence of alcohol (or &quot;drunk driving&quot;) is one of the most significant&#xD;
+      causes of traffic accidents. Alcohol consumption impairs neurocognitive and psychomotor&#xD;
+      function and has been shown to be associated with an increased risk of driving accidents.&#xD;
+      Automotive technology is highly dynamic, and fully autonomous driving might, in the end,&#xD;
+      resolve the issue of alcohol impaired accidents. However, autonomous driving (level 4 or 5)&#xD;
+      is likely to be broadly available only to a substantially later time point than previously&#xD;
+      thought due to increasing concerns of safety associated with this technology. Therefore,&#xD;
+      solutions bridging the upcoming period by more rapidly and directly addressing the problem of&#xD;
+      drunk driving-associated traffic incidents are urgently needed.&#xD;
+&#xD;
+      On the supposition that driving behaviour differs significantly between sober and drunk&#xD;
+      states, the investigators assume that different driving patterns in both states can be used&#xD;
+      to generate drunk driving detection models using machine learning neural networks (deep&#xD;
+      machine learning classifiers).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 15, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 15, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the DRIVE-model: Diagnostic accuracy of the drunk driving warning system (DRIVE) to detect drunk driving (&gt;= 0.25 mg/l breath alcohol concentration (BrAC)) quantified as the area under the receiver operator characteristics curve (AUC ROC).</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Accuracy of the DRIVE-model will be assessed using driving data recorded in sober and drunk driving states and driving data will be analysed using applied machine learning technology for impaired driving detection.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change of velocity</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of velocity between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of steer</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of steer between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of brake</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of brake between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of steer torque</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of steer torque between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of steer speed</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of steer speed between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of time driving over midline</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of time over midline between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of swerving</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of swerving between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of spinning</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of spinning between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of gaze behavior</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of gaze behavior (as gaze velocity, acceleration or direction changes) between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of gaze regions of interest</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of gaze regions of interest (as amount and duration of speedometer or front shield inspections) between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of gaze events</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of gaze events (as amount and duration of fixations or saccades) between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Defining the alcohol concentration when driving performance is decreased</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Breath alcohol concentration (mg/l BrAC) when driving performance begins to be impaired will be assessed based on significantly altered driving parameters for drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), below the legal limit (&lt;0.25 mg/l BAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Driving performance while being sober, above and within the legal limit</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Based on significantly altered driving parameters above the legal limit of drunk driving (&gt;= 0.25 mg/l breath alcohol concentration in Switzerland) driving performance while being sober, above and within the legal limit will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of heart-rate</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of heart-rate between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of heart-rate variability</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of heart-rate variability between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of wrist accelerometer</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of wrist accelerometer recorded by a wearable between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of electrodermal activity (EDA)</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of EDA between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of skin temperature</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Change of skin temperature between drunk driving above the legal limit (&gt;= 0.25 mg/l BrAC), driving within the legal limit (&lt;0.25 mg/l BrAC) and sober driving.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of oral fluid cortisol</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Change of oral fluid cortisol between before the study day, before driving, during driving in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of phosphatidylethanol (PEth) in capillary blood</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Change of phosphatidylethanol in capillary blood between before the study day, before driving, during driving in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of ethylglucuronide (EtG) in capillary blood</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Change of ethylglucuronide in capillary blood between before the study day, before driving, during driving in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of ethylsulfate (EtS) in capillary blood</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Change of ethylsulfate in capillary blood between before the study day, before driving, during driving in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change of cortisol in capillary blood</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Change of cortisol in capillary blood between before the study day, before driving, during driving in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy-comparison of DRIVE-model and DRIVEplus-model</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Diagnostic accuracy of the drunk driving warning system (DRIVING) to detect drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator characteristics curve (AUC ROC) using only driving parameters (DRIVE-model) will be compared to the DRIVE-model with additional integration of physiological parameters (heart-rate, heart-rate variability, electrodermal activity (EDA), skin temperature, accelerometer, facial expression, gaze behavior, and radar) (DRIVEplus-model)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy in detecting drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator characteristics curve using physiological data</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Accuracy of drunk driving detection using physiological data (heart-rate, heart-rate variability, skin temperature, EDA, accelerometer) recorded with wearable devices during the study period will be analysed using applied machine learning technology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy in detecting drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator curve (AUC-ROC) using video data</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Using video data recorded by a camera and a thermal camera accuracy in drunk driving detection will be analysed with applied machine learning technology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy in detecting drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator curve (AUC-ROC) using eye-tracking data</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Using eye-tracking data recorded by a camera and an eye-tracker (to record gaze behaviour) accuracy in drunk driving detection will be analysed with applied machine learning technology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy in detecting drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator curve (AUC-ROC) using audio data</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Using audio data recorded by microphones accuracy in drunk driving detection will be analysed with applied machine learning technology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy in detecting drunk driving (&gt;= 0.25 mg/l BrAC) quantified as the area under the receiver operator curve (AUC-ROC) using radar sensor data</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Using radar sensor data (directed on the body of the driver) accuracy in drunk driving detection will be analysed with applied machine learning technology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of alcohol concentrations</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Correlation between self-estimated alcohol concentrations and measured breath alcohol concentrations will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of driving performance</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Correlation between self-estimated driving performance and measured driving performance based on significantly altered driving parameters in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed. Driving performance will be assessed with two questionnaires. Driving performance will be assessed with on an absolute 5-point scale from 0-5 (a higher value means higher driving performance).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of workload</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Correlation between self-estimated workload and measured driving performance based on significantly altered driving parameters in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed. Workload will be assessed an absolute 20-point scale from 0-20 (a higher value means higher workload).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-estimation of sleepiness levels</measure>
+    <time_frame>480 minutes</time_frame>
+    <description>Correlation between self-estimated sleepiness levels, measured driving performance, and measured breath alcohol concentrations based on significantly altered driving parameters in sober state, above the legal limit (&gt;= 0.25 mg/l BrAC), and under the legal limit (&lt; 0.25 mg/l BrAC) will be assessed. Sleepiness will be assessed on an absolute 7-point scale from 0-6 (a lower value means less sleepiness).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of Adverse Events (AEs)</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>Adverse Events will be recorded at each study visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of Serious Adverse Events (SAEs)</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>Serious Adverse Events will be recorded at each study visit.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Transportation Accidents</condition>
+  <condition>Drunk Driving</condition>
+  <condition>Alcohol Drinking</condition>
+  <condition>Impaired Driving</condition>
+  <arm_group>
+    <arm_group_label>Intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Intervention: Other: Driving under the influence of alcohol with a driving simulator</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Driving under the influence of alcohol with a driving simulator</intervention_name>
+    <description>Participants will drive in three different states (sober, drunk above and below the legal limit) on designated circuits using a driving simulator. After the initial sober driving session, participants are administered pre-mixed alcoholic beverages (e.g., vodka orange). Participants are expected to achieve a target BrAC of 0.35 mg/l (legal limit in Switzerland is 0.25 mg/l BrAC) before the second driving session starts. Finally, the third driving session starts when the participants' BrAC drops to 0.15 mg/l. Heart rate, skin conductance, accelerometer, eye movement, radar, facial expression, and speech will be recorded by a smart-watch, an eye-tracker, microphones and an onboard camera, respectively.&#xD;
+Participants will be blinded to their alcohol levels during the study. They will have to rate their symptoms and their performance via questionnaires before and after each driving session. Further, capillary blood and oral fluid samples will be collected.</description>
+    <arm_group_label>Intervention group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Informed consent as documented by signature.&#xD;
+&#xD;
+          -  In possession of a Swiss or EU driving license for at least two years.&#xD;
+&#xD;
+          -  At least driving 1'000 kilometers per year.&#xD;
+&#xD;
+          -  No special equipment needed when driving.&#xD;
+&#xD;
+          -  Drinks alcohol at least occasionally (moderate/social consumption).&#xD;
+&#xD;
+          -  Fluent in (Swiss) German and no speech impairment.&#xD;
+&#xD;
+          -  Lives in or near Bern.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Health concerns that are incompatible with alcohol consumption.&#xD;
+&#xD;
+          -  Any potential participant currently taking illegal drugs or medications that interact&#xD;
+             with alcohol.&#xD;
+&#xD;
+          -  Women who are pregnant or breast feeding.&#xD;
+&#xD;
+          -  Intention to become pregnant during the course of the study.&#xD;
+&#xD;
+          -  Teetotallers (alcohol abstinent persons).&#xD;
+&#xD;
+          -  Alcohol misuse (excessive alcohol consumption habits/risky drinking behaviour&#xD;
+             (according to WHO definition) and/or PEth in capillary blood &gt; 210 ng/mL at first&#xD;
+             visit.&#xD;
+&#xD;
+          -  Known or suspected non-compliance or drug abuse.&#xD;
+&#xD;
+          -  Inability to follow the procedures of the study, e.g., due to language problems,&#xD;
+             psychological disorders, dementia, etc. of the participant.&#xD;
+&#xD;
+          -  Participation in another study with investigational drug within the 30 days preceding&#xD;
+             and during the present study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>17 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wolfgang Weinmann, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Bern</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kevin Koch, M.Sc.</last_name>
+    <phone>+41 78 343 92 00</phone>
+    <email>kevin.koch@unisg.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Bern</name>
+      <address>
+        <city>Bern</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kevin Koch, M.Sc.</last_name>
+      <phone>+41 78 343 92 00</phone>
+      <email>kevin.koch@unisg.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <link>
+    <url>https://www.iot-lab.ch/news/suche-nach-teilnehmenden-fur-studie-zum-thema-alkohol-am-steuer/</url>
+    <description>Study Website</description>
+  </link>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 28, 2021</study_first_posted>
+  <last_update_submitted>September 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Metabolism</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Automotive Technology</keyword>
+  <keyword>Driving</keyword>
+  <keyword>Driving Simulator</keyword>
+  <keyword>Alcohol biomarker</keyword>
+  <keyword>Cortisol</keyword>
+  <keyword>Phosphatidylethanol</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Alcohol Drinking</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

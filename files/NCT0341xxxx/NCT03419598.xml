@@ -1,0 +1,724 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03419598</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RG433_TVT003</org_study_id>
+    <nct_id>NCT03419598</nct_id>
+  </id_info>
+  <brief_title>Personalised HTO Versus Generic HTO Virtual Clinical Trial</brief_title>
+  <official_title>Personalised Subject Specific HTO Versus Generic HTO Virtual Clinical Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Bath</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Royal Devon and Exeter NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Bath</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      High Tibial Osteotomy (HTO) is an alternative to knee replacement in suitable patients with&#xD;
+      early knee osteoarthritis (OA), it is particularly suited to patients with single compart&#xD;
+      disease who otherwise would be suitable for unicompartmental knee replacement (UKR). OA of&#xD;
+      the knee is very common and increasing driven by the ageing of the population. The current&#xD;
+      limitations of HTO are related to the difficulty of achieving the desired correction due to a&#xD;
+      challenging surgical technique and soft tissue irritation due to the use of generic&#xD;
+      stabilisation plates. This study will examine the safety equivalence of a new patient&#xD;
+      specific HTO process which has patient specific 3D printed plates, i.e. personalised HTO&#xD;
+      plates, with the existing most commonly used HTO procedure using the Tomofix generic HTO&#xD;
+      plate. Importantly this study will be undertaken as a Virtual Trial, existing anonymised 3D&#xD;
+      imaging data will be used to create the virtual patient cohort. This cohort will receive both&#xD;
+      procedures, which for this type of procedure is only possible in a virtual scenario.&#xD;
+&#xD;
+      The main question to be addressed is: &quot;Is the personalised HTO procedure as safe as the most&#xD;
+      commonly used existing generic HTO procedure?&quot;. In this context safety concerns the&#xD;
+      mechanical loads placed upon the tibia and the support plate.&#xD;
+&#xD;
+      The interventions will all be made on computer models, the 3D imaging data will be used to&#xD;
+      create the intact (un-operated) models of the subject tibias. Each model will then be&#xD;
+      virtually operated upon, with both the personalised and generic HTO procedures. The models&#xD;
+      will then be loaded with physiological loads experienced during function and the mechanical&#xD;
+      states compared.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Ethical approval was obtained to use CT scans of 30 patients with moderate to severe knee&#xD;
+      arthritis (REC reference: 17/HRA/0033, Royal Devon &amp; Exeter National Health Service [NHS],&#xD;
+      UK).&#xD;
+&#xD;
+      The CT data will be used to generate the 3D geometry of each patient's proximal tibia. The&#xD;
+      osteotomy correction angle required for each patient such that the altered mechanical axis&#xD;
+      will pass through a point 62.5% of the distance from medial to lateral tibial plateau.&#xD;
+      Virtual HTO surgery will be performed on each patient to alter the mechanical axis of the&#xD;
+      knee by creating an opening wedge osteotomy.&#xD;
+&#xD;
+      After the virtual surgeries are performed, each virtual patient will be duplicated. One copy&#xD;
+      will have the osteotomy stabilised using a Generic plate and the other using a Personalised&#xD;
+      plate, thus forming the two arms of the trial.&#xD;
+&#xD;
+      For each participant in each arm finite element (FE) models will be created, and loads&#xD;
+      applied simulating walking, sit to stand and squatting. Four healings stages will be&#xD;
+      considered, stage 1 being immediately post-operation (this will not be modelled), stage 2&#xD;
+      representing 2 weeks post-operation, stage 3 representing 6 weeks and stage 4 representing 12&#xD;
+      weeks. The mechanical loads in the plates, and around the screw locations in the bone, will&#xD;
+      be established by solving these finite element models.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 3, 2017</start_date>
+  <completion_date type="Actual">June 28, 2019</completion_date>
+  <primary_completion_date type="Actual">June 28, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mechanical Stress in Plate During Gait</measure>
+    <time_frame>6 weeks simulated post-operation</time_frame>
+    <description>Mechanical stress (Von Mises) calculated for functional loading using finite element analysis</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mechanical Strain in Bone Around Screws During Gait</measure>
+    <time_frame>6 weeks simulated post-operation</time_frame>
+    <description>Mechanical strain calculated for functional loading using finite element analysis, note strain is dimensionless and hence has no units</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Osteoarthritis, Knee</condition>
+  <arm_group>
+    <arm_group_label>All study participants</arm_group_label>
+    <description>All virtual participants who received a virtual opening wedge high tibial osteotomy. The baseline information was the individual CT-based geometry of tibia.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Opening wedge high tibial osteotomy</intervention_name>
+    <description>Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia. Since this is a virtual trial, the virtual patients were duplicated and enrolled into both arms</description>
+    <arm_group_label>All study participants</arm_group_label>
+    <other_name>HTO</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Personalised subject specific custom HTO plate</intervention_name>
+    <description>Subject specific custom plate for stabilizing an open wedge HTO</description>
+    <arm_group_label>All study participants</arm_group_label>
+    <other_name>Personalised plate</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Generic HTO plate</intervention_name>
+    <description>Generic plate for stabilizing an open wedge HTO</description>
+    <arm_group_label>All study participants</arm_group_label>
+    <other_name>Generic plate</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Population was recruited from waiting list of patients with knee OA&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Appropriate existing CT data of lower limb.&#xD;
+&#xD;
+          -  Male or Female, aged 18 years or above.&#xD;
+&#xD;
+          -  Diagnosed with moderate to severe OA of the knee.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Abnormal anatomy of tibia or presence of pathology other than OA, e.g. bone tumour.&#xD;
+&#xD;
+          -  Previous knee or osteotomy surgery.&#xD;
+&#xD;
+          -  Presence of metal-work&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Richie Gill, DPhil</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Bath</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Andrew Toms, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Devon &amp; Exeter NHS Trust</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Royal Devon &amp; Exeter NHS Trust</name>
+      <address>
+        <city>Exeter</city>
+        <state>Devon</state>
+        <zip>EX2 5DW</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Bath</name>
+      <address>
+        <city>Bath</city>
+        <zip>BA2 7AY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>January 26, 2018</study_first_submitted>
+  <study_first_submitted_qc>January 26, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 5, 2018</study_first_posted>
+  <results_first_submitted>October 5, 2019</results_first_submitted>
+  <results_first_submitted_qc>November 11, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">December 7, 2020</results_first_posted>
+  <last_update_submitted>November 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Bath</investigator_affiliation>
+    <investigator_full_name>Richie Gill</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>virtual clinical trial</keyword>
+  <keyword>high tibial osteotomy</keyword>
+  <keyword>3D</keyword>
+  <keyword>computer simulation</keyword>
+  <keyword>finite element analysis</keyword>
+  <keyword>medial unicompartmental knee osteoarthritis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Osteoarthritis</mesh_term>
+    <mesh_term>Osteoarthritis, Knee</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Virtual cohort may be re-used for further studies, all virtual patients are anonymized</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 23, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/98/NCT03419598/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>The virtual patients were created based on CT data sets obtained for 30 patients with knee osteoarthritis. The virtual patients were duplicated, and then enrolled into both arms.</recruitment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>All Study Participants</title>
+          <description>Opening wedge high tibial osteotomy (HTO).&#xD;
+Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia.&#xD;
+Since this is a virtual trial, the virtual patients were duplicated and had the osteotomy stabilised by a generic HTO plate in one copy of the cohort and by a personalised HTO plate in the other copy.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="30"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Subject Specific Tibia Models Created and Virtual Osteotomy Performed</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Virtual Cohort Duplicated Into A. Personalised and B. Generic Copies</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Finite Element (FE) Model Created for Cohort Copy Stabilised by Personalised HTO Plate</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>FE Models Created for Cohort Copy Stabilised by Generic HTO Plate</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>FE Models Solved for Personalised HTO Plate Stabilised Cohort Copy</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>FE Models Solved for Generic HTO Plate Stabilised Cohort Copy</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Poor quality CT scans could not be adequately segmented to create virtual patient tibial geometry</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>All Study Participants</title>
+          <description>Opening wedge high tibial osteotomy (HTO): Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia&#xD;
+Cohort duplicated into 2 copies. Copy A. Stabilised by Personalised HTO plate. Copy B. Stabilised by Generic HTO plate.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="28"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="67.7" spread="9.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United Kingdom</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Height (m)</title>
+          <units>metres</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1.686" spread="0.124"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Weight (kg)</title>
+          <units>kg</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="90.1" spread="16.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Kellgren &amp; Lawrence OA Grade</title>
+          <description>Radiographic grading scale for osteoarthritis (OA) of a joint.&#xD;
+Grade 0 (none): definite absence of x-ray changes of osteoarthritis. Grade 1 (doubtful): doubtful joint space narrowing and possible osteophytic lipping.&#xD;
+Grade 2 (minimal): definite osteophytes and possible joint space narrowing. Grade 3 (moderate): moderate multiple osteophytes, definite narrowing of joint space and some sclerosis and possible deformity of bone ends.&#xD;
+Grade 4 (severe): large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of bone ends.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2.6" spread="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Mechanical Stress in Plate During Gait</title>
+        <description>Mechanical stress (Von Mises) calculated for functional loading using finite element analysis</description>
+        <time_frame>6 weeks simulated post-operation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Personalised HTO</title>
+            <description>Opening wedge high tibial osteotomy&#xD;
+Personalised subject specific custom HTO plate&#xD;
+Opening wedge high tibial osteotomy: Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia&#xD;
+Stabilised by personalised HTO plate, contoured to subject's tibial geometry</description>
+          </group>
+          <group group_id="O2">
+            <title>Generic HTO</title>
+            <description>Opening wedge high tibial osteotomy&#xD;
+Generic HTO plate&#xD;
+Opening wedge high tibial osteotomy: Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia&#xD;
+Generic HTO plate: Generic plate for stabilizing an open wedge HTO</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mechanical Stress in Plate During Gait</title>
+          <description>Mechanical stress (Von Mises) calculated for functional loading using finite element analysis</description>
+          <units>MPa</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+                <count group_id="O2" value="28"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="108.3" spread="3.81"/>
+                    <measurement group_id="O2" value="90.6" spread="3.56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Mechanical Strain in Bone Around Screws During Gait</title>
+        <description>Mechanical strain calculated for functional loading using finite element analysis, note strain is dimensionless and hence has no units</description>
+        <time_frame>6 weeks simulated post-operation</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Personalised HTO</title>
+            <description>Opening wedge high tibial osteotomy&#xD;
+Personalised subject specific custom HTO plate&#xD;
+Opening wedge high tibial osteotomy: Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia&#xD;
+Stabilising by personalised HTO contoured to subject's tibial geometry</description>
+          </group>
+          <group group_id="O2">
+            <title>Generic HTO</title>
+            <description>Opening wedge high tibial osteotomy&#xD;
+Generic HTO plate&#xD;
+Opening wedge high tibial osteotomy: Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia&#xD;
+Generic HTO plate: Generic plate for stabilizing an open wedge HTO</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Mechanical Strain in Bone Around Screws During Gait</title>
+          <description>Mechanical strain calculated for functional loading using finite element analysis, note strain is dimensionless and hence has no units</description>
+          <units>unitless</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+                <count group_id="O2" value="28"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.011" spread="0.00056"/>
+                    <measurement group_id="O2" value="0.011" spread="0.00065"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse Events were not monitored/assessed</time_frame>
+      <desc>Adverse Events were not monitored/assessed</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>All Study Participants</title>
+          <description>Opening wedge high tibial osteotomy (HTO): Realignment of knee by creating an opening wedge osteotomy in the upper part of the tibia.&#xD;
+Virtual cohort duplicated into A. stabilised by Personalised HTO plate and B. stabilised by Generic HTO plate.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>The main failure mode of HTO plates is fatigue failure, if the peak stress is below the fatigue limit the risk of fatigue failure is low.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Professor Richie Gill</name_or_title>
+      <organization>University of Bath</organization>
+      <phone>01225 383627</phone>
+      <email>r.gill@bath.ac.uk</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

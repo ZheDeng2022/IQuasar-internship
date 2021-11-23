@@ -1,0 +1,123 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04894201</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202102018RINB</org_study_id>
+    <nct_id>NCT04894201</nct_id>
+  </id_info>
+  <brief_title>Deep Learning to Summarize Findings in Dental Panoramic Radiographs</brief_title>
+  <official_title>Deep Learning to Summarize Findings in Dental Panoramic Radiographs</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this work, the investigators study the application of artificial intelligence systems on&#xD;
+      dental panoramic images for dental findings. An artificial intelligence system will be&#xD;
+      learned on an publicly available panoramic image dataset, and test against the investigators'&#xD;
+      local patient cohort as external test data. The investigators hypothesize the performance&#xD;
+      would be similar, if not identical to on the public data, and that the investigators' AI&#xD;
+      system is generalizable.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">May 7, 2021</start_date>
+  <completion_date type="Anticipated">May 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area Under Curve for Receiver Operating Characteristics of Clinical Findings</measure>
+    <time_frame>1 day</time_frame>
+    <description>The investigators use the AI model to infer whether a clinical finding (out of the six type of findings the investigators are interested in) is present in an imaging study from the test set. The result is compared against expert annotation and evaluated for receiver operating characteristics over the whole set. The area under curve will then be calculated and averaged across six type of findings to represent the overall efficacy of the model on detecting findings from panoramic images. From a scale of zero to one, zero is the worst this metric can be and one is the best.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Radiography</condition>
+  <condition>Digital</condition>
+  <condition>Dental Diseases</condition>
+  <condition>Dentist-Patient Relations</condition>
+  <arm_group>
+    <arm_group_label>All patients with relevant dental findings</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Dental Panoramic Radiographs</intervention_name>
+    <description>Exposure to dental panoramic radiographs</description>
+    <arm_group_label>All patients with relevant dental findings</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        all patients with panoramic image exposure and not with exclusion criteria&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients under 20 or with primary teeth&#xD;
+&#xD;
+          -  patients with non-removable metal accessory above neck, such as tongue ring, nose ring&#xD;
+             etc.&#xD;
+&#xD;
+          -  patients with mandible or maxilla deformation&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 9, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 16, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2021</study_first_posted>
+  <last_update_submitted>May 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomatognathic Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

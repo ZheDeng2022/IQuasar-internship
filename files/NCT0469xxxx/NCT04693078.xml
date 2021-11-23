@@ -1,0 +1,547 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04693078</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0309-19-SZMC</org_study_id>
+    <nct_id>NCT04693078</nct_id>
+  </id_info>
+  <brief_title>Detection of Colonic Polyps Via a Large Scale Artificial Intelligence (AI) System</brief_title>
+  <official_title>Detection of Colonic Polyps Via a Large Scale AI System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shaare Zedek Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Google LLC.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Shaare Zedek Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Colonoscopy is the gold standard for detection and removal of precancerous lesions, and has&#xD;
+      been amply shown to reduce mortality. However, the miss rate for polyps during colonoscopies&#xD;
+      is 22-28%, while 20-24% of the missed lesions are histologically confirmed precancerous&#xD;
+      adenomas. To address this shortcoming, the investigators propose a new polyp detection system&#xD;
+      based on deep learning, which can alert the operator in real-time to the presence and&#xD;
+      location of polyps during a colonoscopy. The investigators dub the system DEEP: (DEEP)&#xD;
+      DEtection of Elusive Polyps. The DEEP system was trained on 3,611 hours of colonoscopy videos&#xD;
+      derived from two sources, and was validated on a set comprising 1,393 hours of video, coming&#xD;
+      from a third, unrelated source. For the validation set, the ground truth labelling was&#xD;
+      provided by offline gastroenterologist annotators, who were able to watch the video in&#xD;
+      slow-motion and pause/rewind as required; two or three specialist annotators examined each&#xD;
+      video.&#xD;
+&#xD;
+      This is a prospective, non-blinded, non-randomized pilot study of patients undergoing&#xD;
+      elective screening and surveillance colonoscopies using DEEP.&#xD;
+&#xD;
+      The aim of the study is to:&#xD;
+&#xD;
+      Assess the:&#xD;
+&#xD;
+        1. Number of additional polyps detected by the DEEP system in real time colonoscopy.&#xD;
+&#xD;
+        2. Safety by prospective assessment of the rate of adverse events during the study period&#xD;
+           attributed or not to the use of the DEEP system.&#xD;
+&#xD;
+        3. Stability of the DEEP system by measuring the rate of false positives (False Alarms) per&#xD;
+           colonoscopies 4 And to examine its feasibility and usefulness of in clinical practice by&#xD;
+           assessing the colonoscopist user experience while using the DEEP system in a 5 point&#xD;
+           scale.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 18, 2020</start_date>
+  <completion_date type="Actual">December 30, 2020</completion_date>
+  <primary_completion_date type="Actual">November 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Additional Polyps Detected by the DEEP System in Real Time Colonoscopy</measure>
+    <time_frame>Through study completion, an average of 12 months</time_frame>
+    <description>During the colonoscopy procedure, in real time when a polyp is found, the colonoscopist will rate the polyp as an elusive polyp detected by the system that might have been missed or a polyp that would have been detected with or without the system.&#xD;
+The outcome measure will be reported as the average of additional polyps detected per colonoscopy by the DEEP system</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Rate of Adverse Events During the Study Attributed or Not to the Use of the DEEP System</measure>
+    <time_frame>Until discharge, assessed up to 7 days</time_frame>
+    <description>Prospective assessment adverse events during the study. The following adverse event will be monitored: Perforation, bleeding, and cardiorespiratory adverse events during the procedure</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rate of False Positives (False Alarms) Per Colonoscopy</measure>
+    <time_frame>Through study completion, an average of 12 months</time_frame>
+    <description>During the colonoscopy procedure, in real time after each polyp found by the DEEP system, the colonoscopist will rate the polyp as either a true polyp or a false positive detection or a &quot;false alarm&quot; this measure will be reported as the average of false positive detection per colonoscopy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Colonoscopist User Experience While Using the DEEP System in a 5 Point Scale</measure>
+    <time_frame>Through study completion, an average of 12 months</time_frame>
+    <description>At the end of the procedures the colonoscopist will be requires to answer the question &quot;from a scale of 1-5 how useful did you find the system in this procedure?&quot;, where higher scores represent more usefulness. This measure will be reported as the average score form all 100 procedures.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Colonic Polyp</condition>
+  <arm_group>
+    <arm_group_label>Intervention Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AI polyp detection system based on deep learning</intervention_name>
+    <description>A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+    <arm_group_label>Intervention Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Healthy subjects undergoing routine screening or surveillance colonoscopy in an&#xD;
+             ambulatory non urgent setting.&#xD;
+&#xD;
+          -  Able to understand the study protocol and sign inform consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Previous surgery involving the colon or rectum&#xD;
+&#xD;
+          -  Known diagnosis of colorectal cancer&#xD;
+&#xD;
+          -  Known history of inflammatory bowel disease&#xD;
+&#xD;
+          -  Known or suspected diagnosis of familial polyposis syndrome&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Digestive Diseases Institute, Shaare Zedek Medical Center</name>
+      <address>
+        <city>Jerusalem</city>
+        <zip>90301</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>July 1, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 31, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 5, 2021</study_first_posted>
+  <results_first_submitted>January 20, 2021</results_first_submitted>
+  <results_first_submitted_qc>February 10, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 3, 2021</results_first_posted>
+  <last_update_submitted>February 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Colonoscopy Performance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+    <mesh_term>Colonic Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data will be shared only on request and after consent form the patient and the institutional ethics committee</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 9, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/78/NCT04693078/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Intervention Arm</title>
+          <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="100"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="100"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Intervention Arm</title>
+          <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="100"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="60.4" spread="10.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="44"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="100"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Israel</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="100"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Additional Polyps Detected by the DEEP System in Real Time Colonoscopy</title>
+        <description>During the colonoscopy procedure, in real time when a polyp is found, the colonoscopist will rate the polyp as an elusive polyp detected by the system that might have been missed or a polyp that would have been detected with or without the system.&#xD;
+The outcome measure will be reported as the average of additional polyps detected per colonoscopy by the DEEP system</description>
+        <time_frame>Through study completion, an average of 12 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Arm</title>
+            <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Additional Polyps Detected by the DEEP System in Real Time Colonoscopy</title>
+          <description>During the colonoscopy procedure, in real time when a polyp is found, the colonoscopist will rate the polyp as an elusive polyp detected by the system that might have been missed or a polyp that would have been detected with or without the system.&#xD;
+The outcome measure will be reported as the average of additional polyps detected per colonoscopy by the DEEP system</description>
+          <units>Added polyps detected per colonoscopy</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.89" lower_limit="0.66" upper_limit="1.12"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>The Rate of Adverse Events During the Study Attributed or Not to the Use of the DEEP System</title>
+        <description>Prospective assessment adverse events during the study. The following adverse event will be monitored: Perforation, bleeding, and cardiorespiratory adverse events during the procedure</description>
+        <time_frame>Until discharge, assessed up to 7 days</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Arm</title>
+            <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>The Rate of Adverse Events During the Study Attributed or Not to the Use of the DEEP System</title>
+          <description>Prospective assessment adverse events during the study. The following adverse event will be monitored: Perforation, bleeding, and cardiorespiratory adverse events during the procedure</description>
+          <units>Participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Rate of False Positives (False Alarms) Per Colonoscopy</title>
+        <description>During the colonoscopy procedure, in real time after each polyp found by the DEEP system, the colonoscopist will rate the polyp as either a true polyp or a false positive detection or a &quot;false alarm&quot; this measure will be reported as the average of false positive detection per colonoscopy</description>
+        <time_frame>Through study completion, an average of 12 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Arm</title>
+            <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Rate of False Positives (False Alarms) Per Colonoscopy</title>
+          <description>During the colonoscopy procedure, in real time after each polyp found by the DEEP system, the colonoscopist will rate the polyp as either a true polyp or a false positive detection or a &quot;false alarm&quot; this measure will be reported as the average of false positive detection per colonoscopy</description>
+          <units>False positive alarms per colonoscopy</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.87" lower_limit="3.34" upper_limit="4.40"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Colonoscopist User Experience While Using the DEEP System in a 5 Point Scale</title>
+        <description>At the end of the procedures the colonoscopist will be requires to answer the question &quot;from a scale of 1-5 how useful did you find the system in this procedure?&quot;, where higher scores represent more usefulness. This measure will be reported as the average score form all 100 procedures.</description>
+        <time_frame>Through study completion, an average of 12 months</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Intervention Arm</title>
+            <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Colonoscopist User Experience While Using the DEEP System in a 5 Point Scale</title>
+          <description>At the end of the procedures the colonoscopist will be requires to answer the question &quot;from a scale of 1-5 how useful did you find the system in this procedure?&quot;, where higher scores represent more usefulness. This measure will be reported as the average score form all 100 procedures.</description>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.9" lower_limit="3.7" upper_limit="4.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>6 months after the end of the study</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Intervention Arm</title>
+          <description>Consecutive patients undergoing screening or surveillance colonoscopy in whom a new polyp detection system based on deep learning will be used during the procedure.&#xD;
+AI polyp detection system based on deep learning: A Polyp detection system based on deep learning and artificial intelligence, which can alert the operator in real-time to the presence and location of polyps during a colonoscopy.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="100"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="100"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>1</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="100"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Dan Meir Livovsky</name_or_title>
+      <organization>Shaare Zedek Medical Center</organization>
+      <phone>+34603833576</phone>
+      <email>danlivo@yahoo.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

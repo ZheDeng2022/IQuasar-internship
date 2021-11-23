@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04873674</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202002086RIND</org_study_id>
+    <nct_id>NCT04873674</nct_id>
+  </id_info>
+  <brief_title>A Deep Learning Algorithm Platform to Predict Autism Diagnosis and Subtypes</brief_title>
+  <official_title>A Deep Learning Algorithm Platform to Predict Autism Diagnosis and Subtypes by Integrating Clinical, Cognitive, Imaging, Gut Microbiome, and Metabolome Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is the first human study on ASD microbiome with robust methodologies: prospective and&#xD;
+      sibling designs, metagenomics profiles, establishing an ASD multi-dimensional databank&#xD;
+      (clinic, behavior, neurocognition, brain imaging, metabolomics, and microbiome) collected&#xD;
+      using the same methodology and genetic biology simultaneously, and developing a deep learning&#xD;
+      platform for ASD diagnosis and prevention. With the accomplishment of this project, we&#xD;
+      anticipate establishing a web application for clinical and academic use. Our findings will&#xD;
+      further advance the knowledge in the pathogenetic mechanisms of ASD to enhance early&#xD;
+      detection, diagnosis, and treatment, subsequently contributing to precision medicine.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Due to the high prevalence (1% in Taiwan), long-lasting impairment, unclear etiologies, and a&#xD;
+      lack of effective detection, prevention, and biological treatment, autism spectrum disorder&#xD;
+      (ASD) has been prioritized for biomarker, mechanism, and treatment research. Recently the&#xD;
+      gut-brain-axis has been proved, mainly with animal models, to be altered in psychiatric&#xD;
+      disorders and notably in ASD. With PI Gau's long-term achievement in ASD multi-dimensional&#xD;
+      research and our preliminary finding of altered gut microbiota in ASD and their unaffected&#xD;
+      siblings, we propose this 4-year prospective large-scale study with sibling design and&#xD;
+      multi-dimensional measures (environmental, clinical, cognitive, imaging, gut microbiome,&#xD;
+      metabolome) to establish a deep learning algorithm platform for predicting ASD and searching&#xD;
+      potential biomarkers and probiotic treatment for ASD.&#xD;
+&#xD;
+      Specific Aims:&#xD;
+&#xD;
+        1. To demonstrate the metagenomics profiles analysis based on the gut microbiome and&#xD;
+           metabolome of ASD patients, unaffected siblings, and typically developing controls&#xD;
+           (TDC).&#xD;
+&#xD;
+        2. To investigate environmental factors such as pregnancy and birth history from the&#xD;
+           mother's medical records and interviews or national health insurance data, for the&#xD;
+           microbiome, metagenomics, and brain anatomy and function.&#xD;
+&#xD;
+        3. To develop a deep learning algorithm platform using the environmental,&#xD;
+           behavioral/clinical phenotypes, neurocognitive/imaging endophenotypes, and metagenomics&#xD;
+           profiles to identify microbiota (metagenomics, too) makers and other predictors for ASD&#xD;
+           diagnosis, subtypes, and level of impairments.&#xD;
+&#xD;
+        4. To establish a web application based on our deep learning algorithm platform for&#xD;
+           clinical use to assist medical doctors in diagnosing ASD.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2020</start_date>
+  <completion_date type="Anticipated">April 2024</completion_date>
+  <primary_completion_date type="Anticipated">April 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Autism diagnostic interview (ADI-R)</measure>
+    <time_frame>4 hours</time_frame>
+    <description>Including reciprocal social interaction, communication, and repetitive behaviors and stereotyped patterns, for children with a mental age from about 18 months into adulthood</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neuropsychological functions: Continuous Performance Test(CPT)</measure>
+    <time_frame>15 minutes</time_frame>
+    <description>The 4 dimensions of CCPT: focused attention, hyperactivity/impulsivity, sustained attention, and vigilance</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neuropsychological functions: Cambridge Neuropsychological Test Automated Batteries(CANTAB)</measure>
+    <time_frame>1.5 hours</time_frame>
+    <description>The 4 main cognitive components of CANTAB: Visual Memory, Attention, Working and Planning Memory (Executive Functions), and Decision Making</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">420</enrollment>
+  <condition>Autism Spectrum Disorder</condition>
+  <arm_group>
+    <arm_group_label>ASD group</arm_group_label>
+    <description>240 ASD patients (aged 4-25 years)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Unaffected siblings of ASD</arm_group_label>
+    <description>60-100 unaffected siblings of ASD probands</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TD group</arm_group_label>
+    <description>120 age-, and sex matched TDC from the same geographic areas of the ASD group via referral by teachers, or advertisement at college or community.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ASD diagnosis</intervention_name>
+    <description>Autism Diagnostic Interview-revised (ADI-R) and Autism Diagnostic Observation Scale (ADOS)</description>
+    <arm_group_label>ASD group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Psychiatric diagnosis</intervention_name>
+    <description>Kiddie Schedule for Affective Disorders &amp; Schizophrenia (K-SADS) for DSM-5</description>
+    <arm_group_label>ASD group</arm_group_label>
+    <arm_group_label>TD group</arm_group_label>
+    <arm_group_label>Unaffected siblings of ASD</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      metabolite (blood) and intestinal microbial (stool)&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The sample includes 240 ASD (aged 4 to 25 years), 60~100 (estimated average 80) unaffected&#xD;
+        siblings (US), and 120 TDC. 240 ASD and 80 US, aged 4-25 will be recruited from the ASD&#xD;
+        follow-up cohort established by PI Gau's NHRI project or the Department of Psychiatry of&#xD;
+        all the branches of NTUH.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  ASD participants are (1) they have a clinical diagnosis of ASD defined by the DSM-5&#xD;
+             criteria,1 made by board-certificated child psychiatrists and confirmed by the&#xD;
+             ADI-R/ADOS; (2) their ages range from 4 to 25; (3) both parents are Han Chinese; (4)&#xD;
+             they and their parents cooperate with all the assessments and stool and blood&#xD;
+             collection.&#xD;
+&#xD;
+        Inclusion Criteria for US and TDC are (1) they do not reach the clinical diagnosis of ASD&#xD;
+        according to DSM-5 diagnostic criteria and the same criteria as described in the (2), (3),&#xD;
+        (4) and of Inclusion Criteria for ASD participants.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  (1) comorbidity with DSM-5 diagnoses of schizophrenia, schizoaffective disorder,&#xD;
+             delusional disorder, other psychotic disorders, organic psychosis, schizotypal&#xD;
+             personality disorder, bipolar disorder, depression, severe anxiety disorders or&#xD;
+             substance use; (2) comorbidity with neurological or systemic disorders; and (3) having&#xD;
+             a first degree relative who may have ASD based on family history method assessment&#xD;
+             (the TDC group).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>4 Years</minimum_age>
+    <maximum_age>25 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>National Taiwan Univeristy Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Susan Shur-Fen Gau, MD, PhD</last_name>
+      <phone>886-2-23123456</phone>
+      <phone_ext>66802</phone_ext>
+      <email>gaushufe@ntu.edu.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 5, 2021</study_first_posted>
+  <last_update_submitted>May 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Autistic Disorder</mesh_term>
+    <mesh_term>Autism Spectrum Disorder</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

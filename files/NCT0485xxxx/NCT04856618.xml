@@ -1,0 +1,207 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04856618</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PREMATRICS</org_study_id>
+    <nct_id>NCT04856618</nct_id>
+  </id_info>
+  <brief_title>Machine Learning-Based Prediction of Major Perioperative Allogeneic Blood Requirements in Cardiac Surgery</brief_title>
+  <acronym>PREMATRICS</acronym>
+  <official_title>Machine Learning-Based Prediction of Major Perioperative Allogeneic Blood Requirements in Cardiac Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kepler University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kepler University Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cardiac surgery is one of the clinical surgical specialties that carries a particularly high&#xD;
+      risk for patients to suffer from severe bleeding perioperatively and consequent anemia, which&#xD;
+      subsequently requires transfusion of allogeneic blood.&#xD;
+&#xD;
+      Although a surprisingly high number of patients in cardiac surgery do not require&#xD;
+      perioperative transfusions, it is primarily those patients who do require transfusion who are&#xD;
+      subsequently at risk for a worse outcome.&#xD;
+&#xD;
+      In recent years many studies have been published discussing measures that can assist&#xD;
+      physicians in avoiding the triad of anemia, bleeding, and transfusion in cardiac surgery.&#xD;
+      Within these publications, the implementation of Patient Blood Management (PBM) is advised.&#xD;
+      PBM is a set of measures aimed at improving patient outcome by reducing perioperative&#xD;
+      bleeding and thus preventing both anemia and bleeding.&#xD;
+&#xD;
+      The three pillars of this bundle are the preoperative preparation of anemic patients with&#xD;
+      iron, erythropoietin, folic acid and vitamin B12, the prevention of intraoperative blood loss&#xD;
+      and the reasonable indication for allogeneic transfusions.&#xD;
+&#xD;
+      Nevertheless, it must be mentioned that the implementation of at least part of these measures&#xD;
+      is laborious, and full implementation of the recommended bundle is therefore rarely achieved.&#xD;
+      As a consequence, the full potential of Patient Blood Management is not always realized.&#xD;
+      Unfortunately this means that transfusion of allogeneic blood cannot be prevented in many&#xD;
+      patients.&#xD;
+&#xD;
+      A small proportion of patients undergoing cardiac surgery requires a very large amount of&#xD;
+      allogeneic blood perioperatively. These patients are typically those with a particularly poor&#xD;
+      outcome. Massive transfusion of allogeneic blood in this situation is an indicator of&#xD;
+      complications and a cause of increased mortality.&#xD;
+&#xD;
+      Although cardiac surgeons and anesthesiologists believe they can assess which patients are at&#xD;
+      high risk for hemorrhage, recent publications indicate that there is an urgent need for&#xD;
+      adequate predictive methods. A variety of studies exist that attempt to predict perioperative&#xD;
+      transfusion requirements, but to date have been plagued by several limitations. Either the&#xD;
+      previous publications do not focus on the prediction of massive transfusion of allogeneic&#xD;
+      blood, i.e. administration of ten or more packed red blood cell units perioperatively, but on&#xD;
+      much lower transfusion volumes, have only low predictive strength to predict massive&#xD;
+      transfusion in daily clinical practice, or are hardly usable for true prediction because they&#xD;
+      use factors (features) that are not strictly present only in the preoperative phase.&#xD;
+&#xD;
+      If an accurate prediction model based on a few features could be created and those patients&#xD;
+      particularly at risk of massive transfusion of allogeneic blood could be identified, it would&#xD;
+      subsequently be possible to develop an adapted clinical pathway that would allow patient care&#xD;
+      to be improved and individualized interventions adapted to the situation to be implemented.&#xD;
+&#xD;
+      In the best case, an adapted care of patients would be possible, which is able to increase&#xD;
+      the acceptance for the use of even complex measures of patient blood management. This is&#xD;
+      especially true for measures such as preoperative preparation with iron and/or&#xD;
+      erythropoietin, the use of a cell saver, and a particularly careful surgical approach.&#xD;
+&#xD;
+      Even if it is difficult to apply all measures of patient blood management in all patients, it&#xD;
+      would be possible with an approach as described to identify those patients who would benefit&#xD;
+      most from individualized approaches.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 16, 2021</start_date>
+  <completion_date type="Anticipated">September 30, 2021</completion_date>
+  <primary_completion_date type="Actual">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>AUROC for Classification of Necessity for Massive Transfusion</measure>
+    <time_frame>2010-01-01 to 2019-12-31</time_frame>
+    <description>AUROC for Classification of Necessity for Massive Transfusion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Confusion Matrix Values</measure>
+    <time_frame>2010-01-01 to 2019-12-31</time_frame>
+    <description>Confusion Matrix Values</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Descriptive Statistics</measure>
+    <time_frame>2010-01-01 to 2019-12-31</time_frame>
+    <description>Descriptive Statistics (age, gender, EuroSCORE II, ASA, NYHA, CCS, main surgical procedure, ventricular ejection fraction, endocarditis present, myocardial infarction present, chronic pulmonary disease, immediacy requirement of procedure (elective, emergency), arteriopathy present, diabetes present, previous cardiac surgery done, critical condition present, aortic surgery, pulmonary hypertension present, renal impairment (none, moderate, severe, dialysis)).</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">4000</enrollment>
+  <condition>Transfusion-dependent Anemia</condition>
+  <arm_group>
+    <arm_group_label>Massive Transfusion Positive</arm_group_label>
+    <description>Massive Transfusion Positive</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Massive Transfusion Negative</arm_group_label>
+    <description>Massive Transfusion Negative</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Massive Transfusion of Allogeneic Blood</intervention_name>
+    <description>Massive Transfusion of Allogeneic Blood, &gt; pRBCs</description>
+    <arm_group_label>Massive Transfusion Positive</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        As described in the inclusion criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All patients that underwent cardiac surgery at the Kepler University Hospital in the&#xD;
+             period between 2010-01-01 and 2019-12-31.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients below 18 years of age.&#xD;
+&#xD;
+          -  Presence of congenital heart disease.&#xD;
+&#xD;
+          -  Revision surgery of the same patient.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jens Meier, MD</last_name>
+    <phone>+435768083</phone>
+    <phone_ext>2158</phone_ext>
+    <email>jens.meier@kepleruniklinikum.at</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Thomas Tschoellitsch, MD</last_name>
+    <phone>+43576083</phone>
+    <phone_ext>78132</phone_ext>
+    <email>thomas.tschoellitsch@kepleruniklinikum.at</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Kepler University Hospital</name>
+      <address>
+        <city>Linz</city>
+        <state>Upper Austria</state>
+        <zip>4021</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jens Meier, MD</last_name>
+      <phone>+435768083</phone>
+      <phone_ext>2158</phone_ext>
+      <email>jens.meier@kepleruniklinikum.at</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>April 16, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 20, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 23, 2021</study_first_posted>
+  <last_update_submitted>September 15, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 15, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 22, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Kepler University Hospital</investigator_affiliation>
+    <investigator_full_name>Thomas Tschoellitsch</investigator_full_name>
+    <investigator_title>Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Transfusion</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

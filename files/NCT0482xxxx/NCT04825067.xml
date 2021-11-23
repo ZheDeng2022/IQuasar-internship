@@ -1,0 +1,233 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04825067</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021P000895</org_study_id>
+    <nct_id>NCT04825067</nct_id>
+  </id_info>
+  <brief_title>Remote Monitoring of High-Risk Patients With Chronic Cardiopulmonary Diseases</brief_title>
+  <official_title>Remote Monitoring of High-Risk Patients With Chronic Cardiopulmonary Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Institute of Bioengineering and Bioimaging (IBB)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Massachusetts General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Institute of Bioengineering and Bioimaging (IBB)</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this project, Singapore Bioimaging Consortium would like to collaborate with Massachusetts&#xD;
+      General Hospital to aggregate patient data and to further develop its software algorithm&#xD;
+      using machine learning and statistical models for predicting exacerbations and deterioration&#xD;
+      on 60 patients with cardiopulmonary diseases.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Exacerbations of chronic cardiopulmonary diseases are a major cause of morbidity and&#xD;
+      mortality worldwide. There are an estimated 23 million patients with heart failure worldwide,&#xD;
+      and the prevalence of heart failure in the United Sates is projected to rise over the next&#xD;
+      four decades with an estimated 772,000 new heart failure cases projected in the year 2040.&#xD;
+      Exacerbations of chronic respiratory disease can accelerate lung function decline and reduce&#xD;
+      survival. They may also lead to significant rise to the cost of healthcare. Chronic&#xD;
+      Obstructive Pulmonary Disease (COPD) exacerbations are an important cause of readmissions&#xD;
+      with a 30-day readmission rate of approximately 20% and subsequent expenditure of US $15&#xD;
+      Billion in annual health care spending. Cystic fibrosis (CF), a genetic disorder that affects&#xD;
+      airways clearance and secretions, has a 30-day readmission rate of approximately 11%.&#xD;
+&#xD;
+      Due to the high cost of hospital stays and emergency department visits, and especially in the&#xD;
+      setting of the COVID-19 pandemic, more cost-effective &quot;out-of-hospital&quot; management models&#xD;
+      have become increasingly appealing. Such models not only provide cost benefits to patients,&#xD;
+      payers, and hospitals, but also increase the ability to provide care to people at home.&#xD;
+&#xD;
+      Respiratory variables have shown to be one of the most sensitive indicators for COPD&#xD;
+      exacerbation, and a significant correlation between respiratory rate and COPD symptoms has&#xD;
+      been observed. When combined with pulse rate and oxygen saturation, these variables provide a&#xD;
+      useful method of identifying exacerbations. Current analytical models are designed to trigger&#xD;
+      alarms, which are generally based on traditional threshold-type driven analytics. Such&#xD;
+      methods are not able to identify and recognize trends due to limited access to advanced&#xD;
+      analytics (e.g., machine learning methods). The device proposed for use in this study will&#xD;
+      measure respiratory rate, Inspiratory: Expiratory (I:E) ratio, respiratory depth, heart rate,&#xD;
+      SpO2, SpO2 variability, patient movement, and the investigators will use machine learning and&#xD;
+      data modeling to analyze their trends over time.&#xD;
+&#xD;
+      The wearable biometric platform (termed 'Respiratory Sensor') developed by Singapore&#xD;
+      Bioimaging Consortium is to be worn on the chest area via a medical grade adhesive patch. The&#xD;
+      Respiratory Sensor includes a non-invasive sensor combining an accelerometer and light-based&#xD;
+      methods to sense chest wall expansion or breathing.&#xD;
+&#xD;
+      The Respiratory Sensor allows the possibility of collecting additional respiratory&#xD;
+      information (respiratory rate, relative tidal depth and duty cycle) as predictors for&#xD;
+      exacerbation of chronic cardiopulmonary diseases and perhaps improving advanced analytical&#xD;
+      models that can provide better sensitivity and specificity compared to traditional models&#xD;
+      (e.g. clinical diaries). Ultimately, this may allow early prediction of outpatient&#xD;
+      exacerbations to allow early intervention and reduced re-admissions (via remote&#xD;
+      interventions).&#xD;
+&#xD;
+      In this project, Singapore Bioimaging Consortium would like to collaborate with Massachusetts&#xD;
+      General Hospital to aggregate patient data and to further develop its software algorithm&#xD;
+      using machine learning (e.g. random forest models and long-short term memory models etc.) and&#xD;
+      statistical models (e.g. regression models and survival analysis with univariate and&#xD;
+      multivariate analysis) based on respiratory features and hemodynamics for predicting&#xD;
+      exacerbations and deterioration on 60 patients with cardiopulmonary diseases. The end-points&#xD;
+      of this collaboration includes the following:&#xD;
+&#xD;
+        1. To validate hypothesis of using respiratory-based biomarkers in models (disease agnostic&#xD;
+           and disease specific) to predict exacerbations - benchmarking to be done versus&#xD;
+           follow-up questionnaires and phone calls&#xD;
+&#xD;
+        2. To validate level of compliance, drop-out rate and if additional measures are required&#xD;
+           to get patients to follow-on&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2021</start_date>
+  <completion_date type="Anticipated">April 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Respiratory rate (no. of breaths per minute)</measure>
+    <time_frame>90 days</time_frame>
+    <description>Respiratory rate will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Depth of breathing</measure>
+    <time_frame>90 days</time_frame>
+    <description>Depth of breathing will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Inhalation/exhalation times</measure>
+    <time_frame>90 days</time_frame>
+    <description>Inhalation/exhalation times will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Heart rate</measure>
+    <time_frame>90 days</time_frame>
+    <description>Heart rate will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Tissue oxygen saturation</measure>
+    <time_frame>90 days</time_frame>
+    <description>Tissue oxygen saturation will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Congestive Heart Failure</condition>
+  <condition>Asthma</condition>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <condition>Cystic Fibrosis</condition>
+  <arm_group>
+    <arm_group_label>Respiratory Sensor measurements</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The participant will receive 2 Respiratory Sensors and 1 gateway with wireless compatibility and a welcome packet with instructions for use, a reminder description of the study purpose and procedures, and research staff contact information. Research staff will contact participants to ensure appropriate setup of the Respiratory Sensor and training on proper use. Research staff will ask the subject to place the Respiratory Sensor on the top left-side of the chest. The Respiratory Sensor continuously collects and monitors respiratory data. The participant will be instructed to change each Respiratory Sensor after 24-48 hours. Subjects will be asked to charge each Respiratory Sensor once it is removed. Subjects will exit the study upon completion of the 90-day follow-up.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Respiratory Sensor measurements</intervention_name>
+    <description>The participant will receive 2 Respiratory Sensors and 1 gateway with wireless compatibility and a welcome packet with instructions for use, a reminder description of the study purpose and procedures, and research staff contact information. Research staff will contact participants to ensure appropriate setup of the Respiratory Sensor and training on proper use. Research staff will ask the subject to place the Respiratory Sensor on the top left-side of the chest. The Respiratory Sensor continuously collects and monitors respiratory data. The participant will be instructed to change each Respiratory Sensor after 24-48 hours. Subjects will be asked to charge each Respiratory Sensor once it is removed. Subjects will exit the study upon completion of the 90-day follow-up.</description>
+    <arm_group_label>Respiratory Sensor measurements</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Subject age 18 or older&#xD;
+&#xD;
+          2. Receives all primary and specialty care within the MassGeneral Brigham system&#xD;
+&#xD;
+          3. A history of one of the following diagnoses:&#xD;
+&#xD;
+               1. Asthma&#xD;
+&#xD;
+               2. Cystic Fibrosis&#xD;
+&#xD;
+               3. Chronic obstructive pulmonary disease&#xD;
+&#xD;
+               4. Congestive heart failure&#xD;
+&#xD;
+          4. At least four documented exacerbations of the above disease in the past 12 months as&#xD;
+             defined by the following corresponding criteria:&#xD;
+&#xD;
+             a. Asthma exacerbation: i. a minimum 3-day course of oral steroids ii. for patients on&#xD;
+             chronic steroids, an increased dose of steroids.&#xD;
+&#xD;
+             b. Cystic fibrosis exacerbation: a minimum 7-day course of systemic antibiotics (not&#xD;
+             including any chronic suppressive antibiotics).&#xD;
+&#xD;
+             c. Chronic obstructive pulmonary disease exacerbation: all three of (1) increase in&#xD;
+             frequency and severity or severity of cough, (2) increase in volume and/or change of&#xD;
+             character of sputum production, and (3) increase in dyspnea, and requiring treatment&#xD;
+             with short-acting bronchodilators, antibiotics, and oral or intravenous&#xD;
+             glucocorticoids.&#xD;
+&#xD;
+             d. Congestive heart failure exacerbation: volume overload (as evidenced by weight gain&#xD;
+             or elevated BNP [&gt;100 pg/mL]/NT-proBNP [&gt;300 pg/mL)) plus dyspnea plus diuretic&#xD;
+             treatment (new or increase from baseline).&#xD;
+&#xD;
+          5. Subject able to provide informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Subjects with a history of adhesive or tape allergy or skin reaction.&#xD;
+&#xD;
+          2. Subjects with pacemaker, Automatic Implantable Cardioverter Defibrillator (AICD) and&#xD;
+             other implantable electronic devices.&#xD;
+&#xD;
+          3. Subjects with neuromuscular disease, seizures and/or Parkinson's disease.&#xD;
+&#xD;
+          4. Subjects with expected out of state travel within a 90-day period or travel to a&#xD;
+             location with no internet access.&#xD;
+&#xD;
+          5. Subjects enrolled in hospice care or life expectancy less than three months.&#xD;
+&#xD;
+          6. Subjects living more than 60 miles away from Massachusetts General Hospital. -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 25, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 1, 2021</study_first_posted>
+  <last_update_submitted>March 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cystic Fibrosis</mesh_term>
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+    <mesh_term>Heart Failure</mesh_term>
+    <mesh_term>Pulmonary Heart Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

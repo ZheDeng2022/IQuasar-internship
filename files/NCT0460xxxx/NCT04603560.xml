@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04603560</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020P002897</org_study_id>
+    <nct_id>NCT04603560</nct_id>
+  </id_info>
+  <brief_title>Personalizing Intervention to Reduce Clinical Inertia in the Treatment of Hypertension</brief_title>
+  <official_title>Personalizing Intervention to Reduce Clinical Inertia in the Treatment of Hypertension</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a three-arm pragmatic randomized controlled trial to test two interventions targeting&#xD;
+      clinical inertia in hypertension compared to control, followed by predictive modeling to&#xD;
+      identify factors that are associated with intervention responsiveness. Study investigators&#xD;
+      will use EHR data to identify providers of patients whose hypertension treatment was not&#xD;
+      intensified. Primary care physicians will then be randomized to one of three arms: pharmacist&#xD;
+      e-detailing, provider dashboards, or no intervention (control). After the intervention, the&#xD;
+      investigators will conduct virtual interviews with select providers from each arm. A&#xD;
+      predictive modeling approach will then be used to identify patient and provider&#xD;
+      characteristics that are associated with inertia and with responsiveness to each&#xD;
+      intervention.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      We propose a pragmatic randomized controlled trial to test two interventions targeting&#xD;
+      clinical inertia in hypertension compared to control, followed by predictive modeling to&#xD;
+      identify factors that are associated with intervention responsiveness.&#xD;
+&#xD;
+      For Aim 1, we will use Electronic Health Record (EHR) data to identify physicians of patients&#xD;
+      whose hypertension treatment was not intensified despite their having persistently elevated&#xD;
+      blood pressure. We will then randomize primary care physicians to on of three arms: academic&#xD;
+      e-detailing, social norming, or no intervention (control).&#xD;
+&#xD;
+      For Aim 2, we will conduct interviews with select physicians from each arm. We will then&#xD;
+      identify patient and physician characteristics that are associated with inertia and with&#xD;
+      responsiveness to each intervention.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">October 26, 2021</start_date>
+  <completion_date type="Anticipated">July 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2022</primary_completion_date>
+  <phase>Phase 1/Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Double (Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Treatment intensification</measure>
+    <time_frame>During the primary care office visit in which the provider-patient dyad received the intervention</time_frame>
+    <description>Intensification of treatment will include an increase in dose of an existing antihypertensive medication, adding an additional medication, or rotation of one medication to another that is stronger or more appropriate for the patient (e.g. changing hydrochlorothiazide to furosemide for a patient with chronic kidney disease). These will be measured using prescribing information from the EHR on the day of the patient's visit.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in systolic blood pressure</measure>
+    <time_frame>Up to 6 months following the intervention date</time_frame>
+    <description>The initial value will be the systolic blood pressure at the time of the visit targeted by the intervention. The follow-up blood pressure will be the last blood pressure available in the EHR within 6 months after the visit targeted by the intervention.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">545</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>Audit and Feedback</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A report of the provider's hypertension control rates compared to benchmark will be displayed using principles of social norming. We will present that provider's hypertension control rates compared to the 90th percentile of their peers.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pharmacist E-Detailing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A pharmacist will review the chart in advance and provide a personalized recommendation for how to intensify the specific patient's antihypertensive regimen based on current guidelines. For example, they might recommend adding an additional medication based on the patient's comorbid conditions and could suggest a starting dose and timeframe for dose escalation.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>No intervention will be provided to physicians in the control arm.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Audit and Feedback</intervention_name>
+    <description>A report of the provider's hypertension control rates compared to benchmark will be displayed using principles of social norming. We will present that provider's hypertension control rates compared to the 90th percentile of their peers.</description>
+    <arm_group_label>Audit and Feedback</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Pharmacist E-Detailing</intervention_name>
+    <description>A pharmacist will review the chart in advance and provide a personalized recommendation for how to intensify the specific patient's antihypertensive regimen based on current guidelines. For example, they might recommend adding an additional medication based on the patient's comorbid conditions and could suggest a starting dose and timeframe for dose escalation.</description>
+    <arm_group_label>Pharmacist E-Detailing</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Provider Inclusion Criteria:&#xD;
+&#xD;
+          -  Primary care physician&#xD;
+&#xD;
+          -  Practicing in primary care at Massachusetts General Hospital&#xD;
+&#xD;
+          -  Caring for at least 10 patients: (1) aged 18-79, (2) for whom the average of their&#xD;
+             most recent 3 blood pressure measurements in the last 18 months is above goal, (3)&#xD;
+             whose most recent BP at an outpatient visit was above goal, and (4) who did not have&#xD;
+             their hypertension treatment regimens intensified (dose increase, new medication, or&#xD;
+             medication exchange) at or since that time. The BP goal will be &lt;140/90 for patients&#xD;
+             aged 18-59 and &lt;150/90 for patients aged 60-79, consistent with MGH population health&#xD;
+             metrics.&#xD;
+&#xD;
+        Provider Exclusion Criteria:&#xD;
+&#xD;
+        -None&#xD;
+&#xD;
+        Patient Inclusion Criteria:&#xD;
+&#xD;
+          -  had a blood pressure greater than 140/900 mmHg at 2+ PCP visits in the past 12 months&#xD;
+&#xD;
+          -  treatment was not intensified at any of these visits&#xD;
+&#xD;
+        Patient Exclusion Criteria:&#xD;
+&#xD;
+        - None&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>79 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 27, 2020</study_first_posted>
+  <last_update_submitted>October 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Nancy Haff, MD, MPH</investigator_full_name>
+    <investigator_title>Associate Epidemiologist, Division of Pharmacoepidemiology</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

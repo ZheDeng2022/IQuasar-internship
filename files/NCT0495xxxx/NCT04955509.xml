@@ -1,0 +1,193 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04955509</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2020400，M2020356</org_study_id>
+    <nct_id>NCT04955509</nct_id>
+  </id_info>
+  <brief_title>A Scar Recognition Software for Chronic Spinal Cord Injury (SCI)</brief_title>
+  <official_title>In Vivo Optimization and Clinical Application of a Scar Recognition Software for Chronic Spinal Cord Injury (SCI)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To construct and validate a software to recognize scar for patients with chronic SCI based on&#xD;
+      multimodal MRI.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Spinal cord injury (SCI) is a kind of serious neurologic damage caused by violence to the&#xD;
+      spinal cord, resulting in various functions of the body below the injury level, including&#xD;
+      motor, sensory, sphincter, and reflex dysfunction in varying degrees, usually resulting in&#xD;
+      permanent and irreversible functional loss or paralysis of patients. The treatment of SCI is&#xD;
+      an essential problem in the world. In the past decades, experimental research on SCI involves&#xD;
+      genes, proteins, cells, and tissues, and has made great progress. However, these studies&#xD;
+      mainly focus on the SCI at the early stage, rather than the later stage. The reason is that&#xD;
+      in the later stage, scar formed by glial cells and fibroblasts in the injured area is a&#xD;
+      physical and chemical barrier, which inhibits the regeneration and myelination of nerve axons&#xD;
+      and results in inhibiting spinal cord repairment. Therefore, before the treatment of chronic&#xD;
+      SCI, the key problem is to distinguish glial scar tissue from normal tissue and eliminate its&#xD;
+      influence.&#xD;
+&#xD;
+      As glial scar inhibits axon regeneration, eliminating glial scar is necessary for the repair&#xD;
+      of the injured spinal cord. In recent years, a large number of experimental studies have been&#xD;
+      carried out to destroy the process of glial scar formation after SCI by enzyme digestion and&#xD;
+      antibody. Though these methods reduced glial scar, residual glial scars were reported in&#xD;
+      animal experiments. Compared to biochemical methods, surgical resection of glial scar tissue&#xD;
+      is a relatively simple and effective method to eliminate glial scars. Due to the limited&#xD;
+      regeneration ability of nerves after SCI, it is important to identify scar tissue accurately&#xD;
+      before operations to avoid surgical injury to normal tissue, which is also the premise of&#xD;
+      further research and clinical application of various interventional treatment methods.&#xD;
+&#xD;
+      Magnetic resonance imaging (MRI) is one of the most commonly used non-invasive imaging&#xD;
+      techniques to evaluate the degree of injury and therapeutic effect of SCI. Nemours MRI&#xD;
+      studies on SCI show the impact of SCI on the central nervous system from the structural and&#xD;
+      functional level and prove the potential application value of MRI in assisting doctors in the&#xD;
+      diagnosis of SCI. A small number of previous studies have used magnetization transfer&#xD;
+      imaging, and diffusion tensor imaging to detect glial scar tissue, showing the potential&#xD;
+      application value of these images in differentiation between glial scar and surrounding&#xD;
+      normal spinal cord. However, because glial cells, which constitute glial scar, are also&#xD;
+      important components of normal spinal cord tissue, previous studies only identified glial&#xD;
+      scar from a single aspect, such as tissue type, macromolecular component, or water molecular&#xD;
+      diffusion strength. Therefore, their specificities were unsatisfactory. Relative methods were&#xD;
+      unable to identify glial scar accurately and finally resulted in difficulty in treatment&#xD;
+      arrangement and evaluation of prognosis, which hinders the development of SCI treatment&#xD;
+      research.&#xD;
+&#xD;
+      Combing multimodal MRI, including conventional MRI and diffusion MRI, with supervised machine&#xD;
+      learning makes accurate glial identification in chronic SCI possible. multimodal MRI can&#xD;
+      depict the differences between scar tissue and non-scar tissue from the aspects of cell&#xD;
+      composition, water molecular dispersion, structural complexity, etc. Comparing to MRI with a&#xD;
+      single model, multimodal MRI provides more specific features. Machine learning, a way to&#xD;
+      construct robust and accurate models, can mine the quantitative relationship between imaging&#xD;
+      features and clinical diagnosis results, reveal MRI feature markers of the glial scar, to&#xD;
+      improve the accuracy of identification. The research work, combined with medicine, imaging,&#xD;
+      and artificial intelligence technology, is expected to solve the problem of accurate and&#xD;
+      non-invasive identification of glial scar in chronic SCI, which has potential application&#xD;
+      value for laboratory research and clinical treatment of chronic SCI.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2021</start_date>
+  <completion_date type="Anticipated">June 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Performance of the fitted model</measure>
+    <time_frame>through study completion, an average of 2 year</time_frame>
+    <description>positive predictive value (PPV)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance of the fitted model</measure>
+    <time_frame>through study completion, an average of 2 year</time_frame>
+    <description>sensitivity (SE)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Performance of the fitted model</measure>
+    <time_frame>through study completion, an average of 2 year</time_frame>
+    <description>Dice coefficient score (DSC)</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Spinal Cord Injury</condition>
+  <arm_group>
+    <arm_group_label>Training</arm_group_label>
+    <description>random splitting based on random sequences generated by engineers to train and optimize a machine learning model</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Testing</arm_group_label>
+    <description>random splitting based on random sequences generated by engineers to evaluate the performance of the model</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>MRI</intervention_name>
+    <description>conventional MRI and diffusion MRI</description>
+    <arm_group_label>Testing</arm_group_label>
+    <arm_group_label>Training</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The patients came from the Peking University Third Hospital.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  (Prospective part) compliance to MRI scan&#xD;
+&#xD;
+          -  (Prospective part) no MRI contraindication&#xD;
+&#xD;
+          -  (Retrospective part) available conventional MRI data&#xD;
+&#xD;
+          -  clinical diagnosis of SCI (the course of disease≥1 year)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  prior head or neck surgery or accompanying diseases with neurologic deficits and/or&#xD;
+             symptoms including multiple sclerosis, motor neuron disease, or spinal cord tumor&#xD;
+&#xD;
+          -  images with motion artifact&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Huishu Yuan</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mengze Zhang</last_name>
+    <phone>18600393607</phone>
+    <email>zmzforever@pku.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ouyang Hanqiang</last_name>
+    <email>ouyanghanqiang@bjmu.edu.cn</email>
+  </overall_contact_backup>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 1, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>July 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

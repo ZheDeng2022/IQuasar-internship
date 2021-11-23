@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04950036</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2020459</org_study_id>
+    <nct_id>NCT04950036</nct_id>
+  </id_info>
+  <brief_title>Research on Acetabular Labrum Injury Based on MR: Multi-angle Deep Learning Model</brief_title>
+  <official_title>Research on Acetabular Labrum Injury Based on MR: Multi-angle Deep Learning Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to study the MRI images of acetabular labrum injury by deep&#xD;
+      learning method, and try to establish a combination model of axial and coronal serial images,&#xD;
+      and compare with the diagnostic accuracy of radiologists, to establish a deep learning method&#xD;
+      for accurate identification and classification of acetabular labrum injury.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Detection of acetabular labrum images based on CNN: axial and coronal T2-fs images were&#xD;
+           used, and all images were corrected and standardized. CNN is applied to recognize and&#xD;
+           learn the images with acetabular labrum to select the images with acetabular labrum&#xD;
+           structure from the complete sequence and delete the images without acetabular labrum&#xD;
+           structure. All the data are divided into a training set (70%, 30% in training set as&#xD;
+           verification set), and the remaining 30% as a test set to evaluate the accuracy of model&#xD;
+           recognition. Enter the obtained results into the next step.&#xD;
+&#xD;
+        2. Recognition and segmentation of acetabular labrum based on Densenet: using Densenet to&#xD;
+           recognize and learn the acetabular labrum from the selected images. LabelImg was used to&#xD;
+           locate the acetabular labrum coordinates manually and then input them into Python for&#xD;
+           recognition learning. All the data were divided into a training set (70%, and then 30%&#xD;
+           in the training set was selected as the verification set), and the remaining 30% was&#xD;
+           used as the test set to evaluate the accuracy of model recognition. After identifying&#xD;
+           the labrum structure, the labrum structure is locally cut and enlarged to remove the&#xD;
+           redundant information. Finally, input the result to the next step.&#xD;
+&#xD;
+        3. Identification and grading of acetabular labrum injury based on 3D-CNN: the input data&#xD;
+           were identified and graded by the 3D-CNN model. 3D-CNN is divided into eight layers:&#xD;
+           input layer, hard wire layer H1, convolution layer C2, downsampling layer S3,&#xD;
+           convolution layer C4, downsampling layer S5, convolution layer C6 and output layer.&#xD;
+           3D-CNN constructs a cube by stacking multiple consecutive frames and then uses a 3D&#xD;
+           convolution kernel in the cube. Through this structure, the feature images in the&#xD;
+           convolution layer will be connected with multiple adjacent frames in the previous layer&#xD;
+           to realize the information acquisition of continuous images. Similarly, the data were&#xD;
+           divided into a training set (70%, and then 30% of the training set was selected as the&#xD;
+           verification set), and the remaining 30% was used as the test set to evaluate the&#xD;
+           classification accuracy to identify the injury of the labrum and classify the cases with&#xD;
+           injury.&#xD;
+&#xD;
+        4. Combination model: according to the above process (1-3), after the models are&#xD;
+           established for the axial and coronal images respectively, according to the output&#xD;
+           characteristics of the CNN classification model, the probabilities of different grades&#xD;
+           are predicted before the output results, and the output results are based on these&#xD;
+           probabilities to select the expression form of the maximum possible probability. Our&#xD;
+           combination model averages the probabilities of these different classifications,&#xD;
+           calculates the final prediction probability, and then obtains the final model. The test&#xD;
+           set of the third step (including the mixed data of axial and coronal images) was used to&#xD;
+           verify the model.&#xD;
+&#xD;
+        5. Comparison of radiologists and deep learning: List the test set cases in the above step&#xD;
+           3 and ask two MSK professional radiologists to classify whether there is damage and the&#xD;
+           degree of damage, and compared with the results with artificial diagnosis (both doctors&#xD;
+           read the images independently and obtained the diagnosis results by simulating the&#xD;
+           normal state of writing the report without any prompt). Finally, the accuracy of&#xD;
+           artificial diagnosis was compared with that of the combination model obtained in the&#xD;
+           fourth step.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 1, 2020</start_date>
+  <completion_date type="Actual">May 30, 2021</completion_date>
+  <primary_completion_date type="Actual">April 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Research on acetabular labrum injury based on MR: multi-angle deep learning model</measure>
+    <time_frame>2020.12.01-2021.05.30</time_frame>
+    <description>The model of deep learning was obtained for diagnosis and grading of labrum injury and compared with the doctors of different stages.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">1261</enrollment>
+  <condition>Labrum Injury of the Hip Joint</condition>
+  <arm_group>
+    <arm_group_label>Normal control group-Grade 0</arm_group_label>
+    <description>Arthroscopic examination of the hip was normal, and the labrum was intact without injury or tear.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ligament injury -Grade 1</arm_group_label>
+    <description>Arthroscopic examination of the hip showed labrum degeneration or injury, but no local or complete tear.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ligament tear-Grade 2</arm_group_label>
+    <description>Arthroscopy of the hip revealed partial or complete loss of labrum.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Diagnostic Test</intervention_name>
+    <description>The results of hip arthroscopy were taken as the gold standard and MRI examination was taken as the research object.</description>
+    <arm_group_label>Ligament injury -Grade 1</arm_group_label>
+    <arm_group_label>Ligament tear-Grade 2</arm_group_label>
+    <arm_group_label>Normal control group-Grade 0</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        From September 2018 to September 2020, MRI was performed in the Department of Radiology,&#xD;
+        the Third Hospital of Peking University.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Without any treatment before imaging examination;&#xD;
+&#xD;
+          2. MR of the hip joint was performed within three months before the operation and the&#xD;
+             image quality was good;&#xD;
+&#xD;
+          3. Arthroscopic operation was performed in our hospital, and the operation records were&#xD;
+             complete.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. History of hip surgery, tumor, or previous fracture;&#xD;
+&#xD;
+          2. Unclear image, serious artifact, or incomplete clinical data.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>huishu Yuan, md</last_name>
+    <role>Study Chair</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>010</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>Labrum injury</keyword>
+  <keyword>dignosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

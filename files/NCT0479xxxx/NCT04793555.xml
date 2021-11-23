@@ -1,0 +1,312 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04793555</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NLoft_H_1</org_study_id>
+    <nct_id>NCT04793555</nct_id>
+  </id_info>
+  <brief_title>Validation of the NeuroTec Loft</brief_title>
+  <official_title>Validation of an Apartment to Monitor Human Behaviour During Day and Night</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Bern</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Hospital Inselspital, Berne</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Bern</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The progression of neurodegenerative disorders and the increasing number of elderly people&#xD;
+      intensifies the need of institutional care, which contrasts with the desire of most elderly&#xD;
+      and patients to live independently at home. The rapid evolution of assistive technology&#xD;
+      offers new possibilities in providing medical professionals preventive services in real-time.&#xD;
+      Therefore, the main focus of this study is on the individual sensors and how they can be&#xD;
+      combined to one unobtrusive system to assess the human behaviour and daily activities during&#xD;
+      day and night in an instrumented apartment in healthy participants.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The higher prevalence of age-associated neurodegenerative disorders (e.g. Parkinson,&#xD;
+      Alzheimer), is in line with a steady increase of the average life expectancy in Switzerland.&#xD;
+      With the progression of neurodegenerative disorders and the increasing number of elderly&#xD;
+      people, the need for institutional care intensifies, which contrasts with the desire of most&#xD;
+      elderly and patients to live independently. The rapid evolution of assistive technology&#xD;
+      offers new possibilities in providing medical professionals preventive services in real-time.&#xD;
+      An extended stay in the hospital could influence independent ageing negatively and thus,&#xD;
+      monitoring has great potential to prevent critical events. In this study, the main focus is&#xD;
+      on the individual sensors and how they can be combined to one unobtrusive system. In&#xD;
+      addition, to get an understanding which parameters of the sensors are important and how the&#xD;
+      data can be extracted and processed (algorithms). Therefore, the aim of this study is to&#xD;
+      validate the accuracy to assess human behaviour and daily activities during day and night by&#xD;
+      unobtrusive sensors in an instrumented apartment in healthy participants.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">February 28, 2024</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single-center prospective non-inferiority study</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Heart rate (Vital parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The heart rate will be continuously measured by pressure sensors, radar sensors, infrared camera, galvanic sensor and polysomnography (gold standard).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Respiration rate (Vital parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The respiration rate will be continuously measured by pressure sensors, radar sensors, infrared camera, galvanic sensor and polysomnography (gold standard).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Oxygen saturation (Vital parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The oxygen saturation will be continuously measured by pressure sensors, radar sensors, infrared camera, galvanic sensor and polysomnography (gold standard).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Systolic / Diastolic blood pressure (Vital parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The blood pressure will be continuously measured by pressure sensors, radar sensors, infrared camera, galvanic sensor and polysomnography (gold standard).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Skin conductance (Vital parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The skin conductance will be continuously measured by pressure sensors, radar sensors, infrared camera, galvanic sensor and polysomnography (gold standard).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>3D Model (Coordinates of the joints over time) of the participant in the apartment (Movement parameters)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>The pose will be assessed continuously by pressure sensors, radar sensors, accelerometer, gyroscope, motion tracking (gold standard), lidar sensors, piir sensors.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Usability</measure>
+    <time_frame>Each day / 7x</time_frame>
+    <description>The usability of the sensor system will be assessed by the System usability scale (SUS). The score range is between 0 and 100, whereas the higher score means higher usability.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Doors open and closed (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: 1 open, 0 closed.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Power used - Power Plugs (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: Watt.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Temperature (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: Degree Celsius.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Relative Humidity (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: Percent - Relative to a maximum humidity given the same temperature.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Brightness (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: Lux.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Accelerometer - Wearable (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: m/s^2.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Electrocardiography (ECG) - Wearable (Activities of daily living)</measure>
+    <time_frame>1 Week / Continuously</time_frame>
+    <description>Unit: Component of the ECG (QRS Complex).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Cognition 1</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Cognition will be assessed by the Montreal Cognitive Assessment (MoCA). Scores of the MoCA range from 0 to 30, with a score of 26 and higher generally considered normal.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Cognition 2</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Cognition will be assessed by the Mini-Mental State Examination (MMSE). Scores of the MMSE range from 0 to 30, with a score of 25 and higher generally considered normal.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Health-related quality of life</measure>
+    <time_frame>Measured on the first and last day / 2x</time_frame>
+    <description>Health-related quality of life will be assessed by the EuroQol (EQ-5D-5L).The EQ-5D-5L comprises five questions on mobility, self-care, pain, usual activities, and psychological status. The questions have five possible answers for each item (no problems - unable to).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Sleep quality</measure>
+    <time_frame>Each day / 7x</time_frame>
+    <description>Sleep quality will be assessed by the SF A/R. The inventory estimates the total sleep duration (calculated from items 'bedtime in the evening' and 'wake-up time in morning'), time awake after sleep onset, and sleep onset latency (5-point Likert scale).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Chronotype</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>The Chronotype will be assessed by the D-MEQ. The D-MEQ scores range between 13 and 86. High sum scores (59-86) are associated to morningness, while lower scores point to eveningness (16-41).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Depression 1</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Depression will be assessed by the Geriatric Depression Scale (GDS). The inventory has 15 questions (yes/no). Scores of 0-4 are considered normal and 12-15 indicate severe depression.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Depression 2</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Depression will be assessed by the Beck Depression Inventory (BDI). The inventory has 21 questions (yes/no). Scores of 1-10 are considered normal and over 40 indicate severe depression.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Physical activity</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Physical activity will be assessed by the International Physical Activity Questionnaire (IPAQ). The IPAQ assesses the time spent on walking, doing moderate-intensity and vigorous-intensity activity within the domains of work, transportation, domestic and gardening (yard) activities, and leisure-related activities.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Grip strength</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Grip strength will be assessed by a dynamometer.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Fall risk</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Fall risk will be assessed by the Time Up and Go Test (TUG).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Gait and balance</measure>
+    <time_frame>Measured on the first day / 1x</time_frame>
+    <description>Gait and balance will be assessed by the Tinetti Balance and Gait Test (POMA).</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">108</enrollment>
+  <condition>Neurodegenerative Diseases</condition>
+  <condition>Activities of Daily Living</condition>
+  <condition>Aging</condition>
+  <arm_group>
+    <arm_group_label>Experimental_Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Assessment of behavior during day and night by unobtrusive sensors</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Monitoring by unobtrusive sensors</intervention_name>
+    <description>During the study the behavior of daily activities will be monitored by unobstructive sensors. Most of the sensors will be mounted on the wall or on furniture with direct sight to the participant and thus will not have any physical contact, except some wearables during the stay in the apartment and at home (e.g. watch, mobile polysomnography).</description>
+    <arm_group_label>Experimental_Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Written informed consent&#xD;
+&#xD;
+          -  Aged ≥18 years&#xD;
+&#xD;
+          -  German speaking&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Infected by multidrug-resistant bacteria according to current medical history&#xD;
+&#xD;
+          -  Incontinence&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stephan M Gerber, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Gerontechnology &amp; Rehabilitation Group, University of Bern, Switzerland</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Stephan M Gerber, PhD</last_name>
+    <phone>+41316640983</phone>
+    <email>stephan.gerber@artorg.unibe.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Tobias Nef, Prof</last_name>
+    <phone>+41316327579</phone>
+    <email>tobias.nef@artorg.unibe.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>ARTORG Center for Biomedical Engineering, Gerontechnology and Rehabilitation</name>
+      <address>
+        <city>Bern</city>
+        <state>Ber</state>
+        <zip>3008</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephan M Gerber, PhD</last_name>
+      <phone>+41316640983</phone>
+      <email>stephan.gerber@artorg.unibe.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <reference>
+    <citation>Andersen CK, Wittrup-Jensen KU, Lolk A, Andersen K, Kragh-Sørensen P. Ability to perform activities of daily living is the main factor affecting quality of life in patients with dementia. Health Qual Life Outcomes. 2004 Sep 21;2:52.</citation>
+    <PMID>15383148</PMID>
+  </reference>
+  <reference>
+    <citation>Saner H, Schütz N, Botros A, Urwyler P, Buluschek P, du Pasquier G, Nef T. Potential of Ambient Sensor Systems for Early Detection of Health Problems in Older Adults. Front Cardiovasc Med. 2020 Jul 15;7:110. doi: 10.3389/fcvm.2020.00110. eCollection 2020.</citation>
+    <PMID>32760739</PMID>
+  </reference>
+  <reference>
+    <citation>Schütz N, Saner H, Rudin B, Botros A, Pais B, Santschi V, Buluschek P, Gatica-Perez D, Urwyler P, Marchal-Crespo L, Müri RM, Nef T. Validity of pervasive computing based continuous physical activity assessment in community-dwelling old and oldest-old. Sci Rep. 2019 Jul 4;9(1):9662. doi: 10.1038/s41598-019-45733-8.</citation>
+    <PMID>31273234</PMID>
+  </reference>
+  <reference>
+    <citation>Urwyler P, Stucki R, Rampa L, Müri R, Mosimann UP, Nef T. Cognitive impairment categorized in community-dwelling older adults with and without dementia using in-home sensors that recognise activities of daily living. Sci Rep. 2017 Feb 8;7:42084. doi: 10.1038/srep42084.</citation>
+    <PMID>28176828</PMID>
+  </reference>
+  <reference>
+    <citation>Wimo A, Jönsson L, Bond J, Prince M, Winblad B; Alzheimer Disease International. The worldwide economic impact of dementia 2010. Alzheimers Dement. 2013 Jan;9(1):1-11.e3. doi: 10.1016/j.jalz.2012.11.006.</citation>
+    <PMID>23305821</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 11, 2021</study_first_posted>
+  <last_update_submitted>September 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neurodegenerative Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data will be available after the publication of the results upon request.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04793061</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FLUIDO-001</org_study_id>
+    <nct_id>NCT04793061</nct_id>
+  </id_info>
+  <brief_title>Circulating Tumor DNA as Marker for Response to Antineoplastic Treatment of Metastatic Cancer (FLUIDO)</brief_title>
+  <acronym>FLUIDO</acronym>
+  <official_title>Circulating Tumor DNA as Marker for Response to Antineoplastic Treatment of Metastatic Cancer (FLUIDO)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Elisabethinen Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medical University Innsbruck</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Elisabethinen Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early monitoring of antineoplastic treatment benefit is a central medical need. Radiologic&#xD;
+      assessment for documentation of response is done after several months of treatment usually.&#xD;
+      This implies that patients not responding are exposed to unnecessary toxicity. According to&#xD;
+      several reports showing the correlation of the amount of circulating tumour DNA with tumour&#xD;
+      burden we aim to investigate its early dynamic change at the beginning and during&#xD;
+      antineoplastic treament until radiologic response assessment. Blood samples necessary for&#xD;
+      that are taken within the scope of clinical routine care. We hypothesize that the changes of&#xD;
+      circulating tumour DNA correlate with the radiological findings.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients Patients with metastatic cancer who are treated with antineoplastic treatment are&#xD;
+      eligible if a molecular marker is either known due to the type of cancer (Case A) or if a&#xD;
+      molecular marker is known due to routine assessment (Case B). An example for &quot;Case A&quot; is&#xD;
+      pancreatic cancer, which is known to harbor KRAS-mutations as part of tumorigenesis in more&#xD;
+      than 90% (8), or multiple cancers harboring methylated WIF(9). A typical example for &quot;Case B&quot;&#xD;
+      is colorectal or gastric cancer. Systemic treatment requires the knowledge of the mutational&#xD;
+      status of RAS, EGFR and BRAF, which is assessed routinely from tumor tissue. If a mutation is&#xD;
+      found the patient qualifies for participation in the project. We finally plan to include at&#xD;
+      least 40 patients with mPDAC, another 40 patients with mCRC and 20 patients with mGC (100&#xD;
+      patients in total at least).&#xD;
+&#xD;
+        -  The inclusion criteria therefore are:&#xD;
+&#xD;
+             -  Metastatic cancer (mPDAC, mGC, mCRC)&#xD;
+&#xD;
+             -  Known mutation of the cancer&#xD;
+&#xD;
+             -  Signed informed consent&#xD;
+&#xD;
+             -  At least 18 years&#xD;
+&#xD;
+             -  Eligible for antineoplastic treatment&#xD;
+&#xD;
+             -  Patient treated at the Ordensklinikum Linz&#xD;
+&#xD;
+        -  Exclusion criteria o Inclusion criteria not met&#xD;
+&#xD;
+      Treatment monitoring Circulating tumor DNA is analysed from peripheral blood. For this&#xD;
+      purpose, 30 ml blood is taken at start and during treatment additionally to the blood volume&#xD;
+      required for analyses in the frame of routine. Therefore, there are no extra blood sampling&#xD;
+      time points additionally to these required for routine care. Due to that, the time points&#xD;
+      depend on the cancer type investigated as treatment schedules are different. However, within&#xD;
+      an entity the time points are homogenous.&#xD;
+&#xD;
+      Analysis of ctDNA The preparation of ctDNA is done in the Laboratory for Molecular Biology&#xD;
+      and Tumor Cytogenetics at the Ordensklinikum Linz (Dr. Gerald Webersinke) and digital droplet&#xD;
+      PCR is performed by the Department of Genetics at the Medical University of Innsbruck (Prof.&#xD;
+      Johannes Zschoke). The analysis is performed in a batch and not in real time. In detail,&#xD;
+      ctDNA detection is based on KRAS-screening in mPDAC or by patient specific ddPCR. The latter&#xD;
+      patient specific ddPCR is based on the mutations found in the tumor by NGS-screening (ARCHER&#xD;
+      or Truesight 170 or whole-genome sequencing if panels are negative) at the Laboratory in&#xD;
+      Linz. This is the case for mGC and mCRC, where multiple mutations are possible (KRAS, NRAS,&#xD;
+      BRAF, TP53). In patients suffering from mCRC, this analysis in performed within routine&#xD;
+      procedures as such mutations are crucial for treatment decisions. In case of mGC mutations&#xD;
+      screening is done within the proposed project.&#xD;
+&#xD;
+      Radiology assessment Assessment of treatment response is performed as part of the routine&#xD;
+      treatment after two to three months of treatment at the department of Radiology of the&#xD;
+      Ordensklinikum Linz.&#xD;
+&#xD;
+      Statistics Data are analyzed in order to detect a dependency between ctDNA dynamics and&#xD;
+      response to treatment. Method for example is chi-square test. Software used is RStudio&#xD;
+      Version 1.2.5019.&#xD;
+&#xD;
+      Descriptive Statistics Mean, standard deviation, minimum and maximum for every concentration&#xD;
+      of ctDNA at each time point.&#xD;
+&#xD;
+      ROC-AUC analysis for every time point&#xD;
+&#xD;
+        -  Dynamics of ctDNA concentration at every time point (metric variable)&#xD;
+&#xD;
+        -  Outcome after 12 weeks as a dichotome variable (responder [SD/PR/CR], non-responder)&#xD;
+&#xD;
+        -  Calculation of AUC with 95% CI (all time points)&#xD;
+&#xD;
+        -  ROC-curve (all time points)&#xD;
+&#xD;
+        -  Calculation of sensitivity and specificity for all time points with 95% CI&#xD;
+&#xD;
+        -  Determination of the optimal threshold-value upon sensitivity and specificity for every&#xD;
+           time point&#xD;
+&#xD;
+        -  Comparison of predictive value of each time point based on sensitivity/specificity, AUC&#xD;
+           by CI-values&#xD;
+&#xD;
+      Power-analysis Based on the current patient recruitment we assume to end up with a final&#xD;
+      number of 100 patients.&#xD;
+&#xD;
+      Assumptions:&#xD;
+&#xD;
+        -  n = 100&#xD;
+&#xD;
+        -  Power 80 %&#xD;
+&#xD;
+        -  Significance-niveau 5 %, Confidence-Intervall (CI) 95 %&#xD;
+&#xD;
+        -  Proportion of responders (estimated prevalence): 0.2, 0.4 and 0.6&#xD;
+&#xD;
+        -  Sensitivity and specificity: 0.6, 0.7 and 0.8&#xD;
+&#xD;
+        -  Dropout-rate: 15 %&#xD;
+&#xD;
+      Plan for analysis We first compare Roc curves at the different timepoints to identify the&#xD;
+      timepoint that as the best tradeoff between performance and gain of time (lack of power to&#xD;
+      provide statistical comparisons). In a second step, we identify the best cut point of ctDNA&#xD;
+      at the chosen timepoint based on youden index for instance and give sensitivity/specitivity&#xD;
+      and also NPV/PPV at this cut-point.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2021</start_date>
+  <completion_date type="Anticipated">November 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>ctDNA dynamics correlate with response to antineoplastic treatment</measure>
+    <time_frame>3 months per patient</time_frame>
+    <description>ctDNA concentration in peripheral blood will drop if patient respond to treatment</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Metastatic Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>blood sample collection</intervention_name>
+    <description>Blood is samples from peripheral vein during routine care</description>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood samples for isolation of cell free DNA for the detection of circulating tumor specific&#xD;
+      DNA&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with metastatic cancer who are treated with antineoplastic treatment are eligible&#xD;
+        if a molecular marker is either known due to the type of cancer (Case A) or if a molecular&#xD;
+        marker is known due to routine assessment (Case B). An example for &quot;Case A&quot; is pancreatic&#xD;
+        cancer, which is known to harbor KRAS-mutations as part of tumorigenesis in more than 90%&#xD;
+        (8), or multiple cancers harboring methylated WIF(9). A typical example for &quot;Case B&quot; is&#xD;
+        colorectal or gastric cancer. Systemic treatment requires the knowledge of the mutational&#xD;
+        status of RAS, EGFR and BRAF, which is assessed routinely from tumor tissue. If a mutation&#xD;
+        is found the patient qualifies for participation in the project. We finally plan to include&#xD;
+        at least 40 patients with mPDAC, another 40 patients with mCRC and 20 patients with mGC&#xD;
+        (100 patients in total at least).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Metastatic cancer (mPDAC, mGC, mCRC)&#xD;
+&#xD;
+          -  Known mutation of the cancer&#xD;
+&#xD;
+          -  Signed informed consent&#xD;
+&#xD;
+          -  At least 18 years&#xD;
+&#xD;
+          -  Eligible for antineoplastic treatment&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        o Inclusion criteria not met&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Ordensklinikum Linz</name>
+      <address>
+        <city>Linz</city>
+        <state>Upper Austria</state>
+        <zip>4020</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Holger Rumpold, MD</last_name>
+      <phone>+437327677</phone>
+      <phone_ext>4230</phone_ext>
+      <email>holger.rumpold@ordensklinikum.at</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 9, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 9, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 11, 2021</study_first_posted>
+  <last_update_submitted>March 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Elisabethinen Hospital</investigator_affiliation>
+    <investigator_full_name>Holger Rumpold</investigator_full_name>
+    <investigator_title>Head GI-Cancer Center</investigator_title>
+  </responsible_party>
+  <keyword>metastatic cancer, circulating tumor DNA, treatment, response prediction</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Neoplasms, Second Primary</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,630 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04533282</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IHD-EPITRAN</org_study_id>
+    <nct_id>NCT04533282</nct_id>
+  </id_info>
+  <brief_title>Epitranscriptomic Blood Biomarkers for Coronary Artery Disease - A Prospective Cohort Study (IHD-EPITRAN)</brief_title>
+  <acronym>IHD-EPITRAN</acronym>
+  <official_title>Epitranscriptomic Biomarkers for Ischemic Heart Disease (IHD-EPITRAN) - A Prospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hospital District of Helsinki and Uusimaa</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Helsinki</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tays Heart Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Middle East Technical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Folkhälsan Researech Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Tartu</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hospital District of Helsinki and Uusimaa</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite advancements in medical care, ischemic heart disease (IHD) remains the leading global&#xD;
+      cause of death. IHD develops through lipid accumulation into the coronary arteries with&#xD;
+      subsequent formation of larger atherogenic plaques. During myocardial infarction (MI), a&#xD;
+      plaque ruptures and subsequent occlusion leads to a death of the heart muscle. The tissue is&#xD;
+      rapidly replaced with a scar, which may later lead to heart failure (HF).&#xD;
+&#xD;
+      Optimally, disease biomarkers are analyzed from blood, provide insight into the disease&#xD;
+      progression and aid the evaluation of therapy efficacy. Unfortunately, no optimal biomarkers&#xD;
+      have been identified for IHD. The vast but uncounted number of patients with undiagnosed IHD,&#xD;
+      benefitting from an early diagnosis, underscore the dire need for an IHD biomarker.&#xD;
+&#xD;
+      Epitranscriptomics, the study of posttranscriptional modifications on RNA, has recently been&#xD;
+      properly re-established. This expanding field is uncovering a new layer of regulation,&#xD;
+      controlling processes ranging from cell division to cell death.&#xD;
+&#xD;
+      Over 170 modiﬁcations have been identiﬁed as posttranscriptional marks in RNA species. These&#xD;
+      modiﬁcations influence RNA metabolism, including export, stability, and translation. One the&#xD;
+      most common and intensively studied RNA modiﬁcation is the N6-methyladenosine (m6A), the&#xD;
+      abundance and effects of which are determined by the interplay between its writers, readers&#xD;
+      and erasers.&#xD;
+&#xD;
+      Recent findings suggest a local dysregulation of the m6A dynamics in the myocardium,&#xD;
+      coalescing in signalling pathway and contractility related RNA transcripts during&#xD;
+      hypertrophy, MI and HF. While these early reports have focused on the myocardium, the role of&#xD;
+      the m6A in the circulation during IHD remains unexplored.&#xD;
+&#xD;
+      We hypothesize the IHD pathophysiology to be reflected in the epitranscriptome of the&#xD;
+      circulating RNA.&#xD;
+&#xD;
+      The objective of the IHD-EPITRAN is to identify new IHD biomarkers via cohort comparison of&#xD;
+      the blood epitranscriptomes from patients with: (1) MI related with coronary angioplasty, (2)&#xD;
+      IHD treated with elective coronary artery bypass grafting, (3) aortic valve stenosis treated&#xD;
+      with valve replacement and (4) IHD-healthy controls verified with computerized tomography&#xD;
+      imaging. The RNA fractionation is followed by the quantitative modifications analysis with&#xD;
+      mass spectrometry. Ultimately, nanopore RNA sequencing with simultaneous m6A identification&#xD;
+      in their native sequences is carried out using recently published artificial&#xD;
+      intelligence-based algorithm.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background - Ischemic Heart Disease&#xD;
+&#xD;
+      With a global prevalence of 126.5 million people and a yearly mortality of 8.9 million,&#xD;
+      ischemic heart disease (IHD) is the leading cause of death (GBD Collaborators 2017). IHD&#xD;
+      develops as a result of an ongoing atherogenesis, a process of lipid buildup into the walls&#xD;
+      of the coronary arteries. Eventually, the accumulation of cholesterol and calcium form&#xD;
+      deposits, i.e. plaques, that narrow down the vessel lumina. At the onset of myocardial&#xD;
+      infarction (MI), such a plaque ruptures, which leads to anoxic death of the myocardium&#xD;
+      relying on the blood supply of the vessel. In the short term, the heart's function is rescued&#xD;
+      by the formation of a stiff scar. Over time, the pumping function typically deteriorates with&#xD;
+      ensuing heart failure (HF).&#xD;
+&#xD;
+      Optimally, disease biomarkers are analyzed from blood and provide both insight into disease&#xD;
+      progression, severity and aid the evaluation of therapy efficacy. Unfortunately, optimal&#xD;
+      biomarkers for IHD have not been identified to date. The vast but uncounted number of those&#xD;
+      living with undiagnosed IHD, benefitting from an early diagnosis, underscore the need for an&#xD;
+      IHD biomarker.&#xD;
+&#xD;
+      Background - Epitranscriptomics&#xD;
+&#xD;
+      Epitranscriptomics, the field of the posttranscriptional modifications of RNA, analogous to&#xD;
+      DNA epigenetics, has recently gained more scientific remark (Saletore 2012). This expanding&#xD;
+      field is uncovering a new layer of biological regulation that controls processes ranging from&#xD;
+      cell proliferation to death.&#xD;
+&#xD;
+      Although more than 170 RNA modifications have been identified in RNA species (Yang 2018),&#xD;
+      adenosine methylation at the nitrogen-6 position (m6A) stands out as one the most common and&#xD;
+      intensively studied (Liu 2020). Following the initial findings of m6A methylated mRNAs in&#xD;
+      1970s (Desrosiers 1974), epitranscriptomics has only reignited during the last decade with&#xD;
+      the development of reliable in vivo methods to assess m6A (Dominissini 2012). These early&#xD;
+      immunoprecipitation-based methodologies (i.e. meRIP-seq) facilitated the discoveries of the&#xD;
+      specific m6A punctuation patterns and the specifically denoted writers (methyltransferases;&#xD;
+      METTL3/14/WTAP1 complex and METTL16), readers (binding proteins; e.g. YTH-protein family),&#xD;
+      and erasers (demethylases; ALKBH5; Zaccara 2019).&#xD;
+&#xD;
+      Multiple readers mediating the m6A effects from the YTH domain family have been identified.&#xD;
+      YTHDF1-3 promote mRNA translation, degradation or both, respectively. YTHDC1-2, eIF2, METTL3&#xD;
+      and ribosomes recognize m6A as well and promote translation and cytoplasmic&#xD;
+      compartmentalization (Zaccara 2019).&#xD;
+&#xD;
+      Changes in m6A levels have been associated with numerous pathologies, including cancers,&#xD;
+      cardiovascular and neurological disorders (Frye 2016). Studies using both knockout and&#xD;
+      overexpression of the m6A writers and erasers have revealed their role in driving immune&#xD;
+      reactivity, cell proliferation, migration and apoptosis (Delaunay 2019).&#xD;
+&#xD;
+      Background - Epitranscriptomics &amp; heart&#xD;
+&#xD;
+      A recently published set of studies suggest a role for both the m6A and A-to-I editing&#xD;
+      (adenosine-to-inosine, another common modification diversifying the transcriptome by altering&#xD;
+      base pairing) during hypertension (Jain 2018), neovascularization (Kwast 2019), myocardial&#xD;
+      hypertrophy (Dorn 2019, Kmietczyk 2019), ischemia (Mathiyalagan 2019) and HF (Berulava 2020).&#xD;
+      While a body of evidence indicate epitranscriptomics as a contributor in cardiac health and&#xD;
+      disease, all of the initial studies have focused on the myocardium.&#xD;
+&#xD;
+      Rationale, objectives and significance&#xD;
+&#xD;
+      We hypothesize that the pathophysiology of IHD is reflected in the epitranscriptome of the&#xD;
+      circulating RNA. For example, ribosomal RNA has a long half-life and its modifications in the&#xD;
+      coronary circulation can respond to the state of the heart.&#xD;
+&#xD;
+      The objectives of the IHD-ERPITRAN project are: (1) to establish screening protocols for&#xD;
+      epitranscriptomic biomarkers, (2) provide epitranscriptomic insight into the IHD&#xD;
+      pathophysiology, (3) identify a set of IHD biomarker candidates and (4) open avenues for&#xD;
+      therapeutic development that were previously disregarded due to lack of research and&#xD;
+      methodological limitations. For example, our research group has reported a discovery of small&#xD;
+      molecule ligands for RNA methyltransferases (Selberg 2019).&#xD;
+&#xD;
+      Since epitranscriptomics has been suggested to play a regulatory role in heart and the&#xD;
+      IHD-EPITRAN is among the first to evaluate epitranscriptomic blood biomarkers in IHD, the&#xD;
+      project holds keys for a scientific breakthrough with expectable global clinical benefits.&#xD;
+&#xD;
+      Methods&#xD;
+&#xD;
+      Study cohorts - 200 patients are recruited into four cohorts, counting 50 patients each.&#xD;
+      First cohort consists of patients presenting to Heart Unit with an acute MI revascularized&#xD;
+      with percutaneous coronary intervention (PCI), a cohort that gives valuable insight to the&#xD;
+      way the acute IHD phenotype is mirrored to the blood epitranscriptomes. Second, the main&#xD;
+      study cohort of the project will be formed from patients with stable IHD phenotype treated&#xD;
+      with coronary artery bypass grafting (CABG) and offers critical information in respect to&#xD;
+      chronic ischemia and coronary atherogenesis, both ongoing processes in the silent, i.e.&#xD;
+      undiagnosed, IHD. Third, patients destined for an aortic valve replacement (AVR) therapy due&#xD;
+      to stenosis with no IHD provide the positive control group with a differing cardiac&#xD;
+      pathology, and, fourth, together with the healthy non-IHD patients verified with the coronary&#xD;
+      computed tomography (CT), form the control cohorts of the project.&#xD;
+&#xD;
+      Study samples - The IHD-EPITRAN uncovers blood cellular and cell-free RNA epitranscriptomes&#xD;
+      from the twice collected TEMPUS(TM) and EDTA blood samples, respectively. In addition, for MI&#xD;
+      and CABG cohorts, the epitranscriptomes from the right atrial appendage tissue samples are&#xD;
+      deciphered for a reference point. Finally, a set of supplementary HF and IHD biomarkers:&#xD;
+      NT-proBNP, hsCRP, sST2 and TMAO (Aimo 2019, Ahmadmehrabi 2017 and Tibaut 2019) are measured.&#xD;
+&#xD;
+      RNA methods - The RNA isolation and fractionation with in-lab-validated methods is followed&#xD;
+      by the quantitative analysis of seven base modifications utilizing an UHPLC-triple quadrupole&#xD;
+      liquid chromatography-tandem mass spectrometry (LC-MS/MS) system (Selberg 2019). Following&#xD;
+      the quantitative analysis, anti-m6A antibody-based RNA pre-selection rich in m6A marks in&#xD;
+      tandem with sequencing, i.e. meRIP-seq, is performed. Ultimately, after the UHPLC-LC-MS/MS&#xD;
+      and meRIP-seq, direct nanopore long-read sequencing enabling identification of the m6A marks&#xD;
+      in their native sequences is carried out using the novel and recently developed algorithm by&#xD;
+      Liu et al. (2019). The algorithm bases on the recognition of the characteristic disruptions&#xD;
+      of electrical current by the m6A flowing through specific protein nanopores.&#xD;
+&#xD;
+      DNA sequencing - In order to identify the A-to-I RNA editing events, a whole genome next&#xD;
+      generation sequencing is performed for all study participants to enable a matched DNA-to-RNA&#xD;
+      base comparison (Park et al., 2012).&#xD;
+&#xD;
+      Bioinformatics - In order to interpret the massive datasets yielded from the sequencing,&#xD;
+      bioinformatics protocols are developed in collaboration with the bioinformatics teams from&#xD;
+      Folkhälsan (Karolinska Institutet, Dr. Shintaro Katayma) and Middle East Technical University&#xD;
+      (professor Nurcan Tuncbag). The sequences are evaluated against known transcript libraries.&#xD;
+&#xD;
+      Clinical methods - The echocardiography gives insight into the functional state of the heart&#xD;
+      and is performed with pre-specified parameters both during the initial hospitalization and 3&#xD;
+      months after either PCI, CABG or AVR. These cardiologists' appointments include the severity&#xD;
+      assessment of angina pectoris and exertional dyspnea with CCS and NYHA gradings,&#xD;
+      respectively. In addition, morbidity self-assessment with the standardized Short Form 36&#xD;
+      Health Survey is included. Moreover, a patient record system search including hospital&#xD;
+      admissions, deaths and medication changes associable to cardiovascular health are collected 6&#xD;
+      months prior and after operation.&#xD;
+&#xD;
+      Power analysis - The cohort sizes were determined with RNAseqPS web tool designed for&#xD;
+      evaluating statistical power for RNAseq experiments (Guo et al., 2014). Parameter values used&#xD;
+      (false discovery rate [FDR] &lt;0.05, total number of genes for testing 20 000, predicted&#xD;
+      prognostic genes 1500, minimum fold change threshold 2 for differential expression and&#xD;
+      average read counts of 10 for prognostic genes) were derived from an applicable report&#xD;
+      concerning epitranscriptomics during HF (Berulava et al., 2020). Prognostic gene dispersion&#xD;
+      value of 0,215 was applied based on the article focusing on the issue by Yoon &amp; Nam 2017,&#xD;
+      which analysed dispersions from ten publicly available RNA-seq datasets, four of which&#xD;
+      reflected unrelated replicates applicable for the IHD-EPITRAN with the dispersions ranging&#xD;
+      between 0.15 and 0.28.&#xD;
+&#xD;
+      Based on the power analysis described above, n=25 per cohort provides sufficient power&#xD;
+      (P≥0,95). To fluently tackle possible preanalytical errors, perform subsequent validation and&#xD;
+      follow-up analyses, the cohorts were doubled.&#xD;
+&#xD;
+      Patient registries&#xD;
+&#xD;
+      Individual participant identification information data collected during the IHD-EPITRAN will&#xD;
+      be mainly stored in electrical form on HUS's and Tays's network hard drives that are&#xD;
+      protected by role-based access rights. Two separate registries are created for the&#xD;
+      IHD-EPITRAN: (1) A Key Registry, which contains all participant identification information&#xD;
+      and links between pseudonymization codes that are used in the (2) Research Registry (fully&#xD;
+      pseudonymized) that contains all other collected study information from the participants.&#xD;
+      Antti Vento, the director of the IHD-EPITRAN, has the accession rights to the Key Registry.&#xD;
+      The registries are stored for 10 years to enable possible later follow-up projects.&#xD;
+&#xD;
+      Processing description documents for both registries, alongside self assessment document for&#xD;
+      the risks of the study, have been created for the IHD-EPITRAN in Finnish. These documents has&#xD;
+      been reviewed and approved by the Ethics Board of the Hospital District of Helsinki and&#xD;
+      Uusimaa (Dnr. HUS/1211/2020).&#xD;
+&#xD;
+      Research group&#xD;
+&#xD;
+      Docent Antti Vento is the director of both the IHD-EPITRAN project and the HUS Heart and Lung&#xD;
+      Center. The interdisciplinary team composed of clinicians, basic researchers and analytical&#xD;
+      experts enables the IHD-EPITRAN to synergistically perform recruitment, sample collection and&#xD;
+      preparation followed by the bioinformatic analyses of the epitranscriptomic landscape of&#xD;
+      circulating RNA in IHD. Docents Mika Laine, Pasi Karjalainen, Helena Rajala and Satu Suihko,&#xD;
+      all cardiologists from HUS heart station, will carry out the CT patients' recruitment,&#xD;
+      imaging analyses, treatment of the MI patients and, thirdly, MI, CABG and AVR patients'&#xD;
+      control appointments. Heart and vascular surgeon Kari Teittinen from the HUS Heart and Lung&#xD;
+      Center, together with the cardiothoracic surgeon Jahangir Khan PhD and professor Jari&#xD;
+      Laurikka, both from Tays Heart Hospital, carry out the recruitment of the CABG and AVR&#xD;
+      patients and their operations. Research nurses Kati Oksaharju and Kati Helleharju, from HUS&#xD;
+      Heart and Lung Center and Tays Heart Hospital, respectively, coordinate patient recruitment&#xD;
+      and, in close collaboration with laborant Lahja Eurajoki, the sample collection, transport&#xD;
+      and prompt storage after freezing. The project will be carried out in the laboratory of&#xD;
+      docent Esko Kankuri and professor Eero Mervaala (University of Helsinki, CardioReg Group,&#xD;
+      Department of Pharmacology). B.M. Vilbert Sikorski and MSc Daria Blokhina, will&#xD;
+      collaboratively perform RNA isolation, fractionation, UHPLC-LC-MS/MS analysis and protocol&#xD;
+      article formulation. Additionally, Sikorski has collaboratively planned study protocol with&#xD;
+      the other IHD-EPITRAN co-authors, applied study permissions and continues to coordinate&#xD;
+      information exchange between collaborators and carries out results article writing with the&#xD;
+      co-authors.&#xD;
+&#xD;
+      Ethics&#xD;
+&#xD;
+      This study will be conducted in compliance with the protocol approved by the HUS Ethics Board&#xD;
+      (Dnr. HUS/1211/2020). Respective regional and national boards will evaluate the protocol&#xD;
+      subsequently for the multicenter sample collection. Care will be taken so that each study&#xD;
+      participant has enough time to familiarize himself/herself with the study protocol.&#xD;
+      Thereafter, an informed consent discussion will be held and written informed consent obtained&#xD;
+      from the participant.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 10, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2023</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>6 Months</target_duration>
+  <primary_outcome>
+    <measure>Blood leukocyte RNA's epitranscriptomic changes specifically attributable for IHD</measure>
+    <time_frame>2020-2023</time_frame>
+    <description>Primary outcome measure for this prospective observational study with multiple cohorts design, representing the diverse clinical continuum of IHD, is to identify blood leukocyte RNA's epitranscriptomic alterations attributable to IHD that are both specific as well as sensitive enough for acting as biomarker candidates for further clinical diagnostic studies.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Blood cell-free RNA's epitranscriptomic alterations specifically attributable for IHD.</measure>
+    <time_frame>2020-2023</time_frame>
+    <description>Secondary outcome for this prospective observational study with multiple cohorts design, representing the diverse clinical continuum of IHD, is to identify epitranscriptomic alterations attributable to IHD from the blood cell-free plasma that are both specific as well as sensitive enough for acting as biomarker candidates for further clinical diagnostic studies.</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Ischemic Heart Disease</condition>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Aortic Valve Stenosis</condition>
+  <condition>Acute Myocardial Infarction</condition>
+  <arm_group>
+    <arm_group_label>Acute IHD with STEMI and PCI</arm_group_label>
+    <description>Acute ischemia in IHD is represented by the recruitment of patients presenting with ST-elevation myocardial infarction (STEMI patients) to the Meilahti Cardiac Care Unit (CCU) and admitted for Percutaneous Coronary Intervention (PCI) revascularization. The informed consent and blood samples from these patients will be collected during the first 72 hours after PCI, during their stay either in CCU or medical ward.&#xD;
+Inclusion of this cohort to the IHD-EPITRAN opens the possibility to identify novel circulative epitranscriptomic biomarkers representing acute ischemic myocardial damage as well as particularly insightful comparison of acute and chronic states of IHD when compared against the second study cohort.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Chronic IHD and elective CABG</arm_group_label>
+    <description>The second study cohort composes of patients with stable IHD phenotype with angina pectoris or exertional dyspnea provoked by either moderate or severe physical exertion, corresponding either NYHA or CCS classes II to IV, respectively, destined to undergo an elective coronary artery bypass grafting (CABG) operation as method for revascularization. The duration of stable symptoms must exceed a month in order to exclude acute events.&#xD;
+The obtained blood samples from this main cohort of the IHD-EPITRAN project provides insightful overview into the circulation-borne RNAs' epitranscriptomic landscape for identification of novel biomarkers for stable IHD. Furthermore, availability of right atrial appendage tissue pieces following CABG surgery from this patient cohort gives invaluable organ-specific information in its own right as well as a crucial reference point, against of which the alterations observed in circulation can be compared.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Elective aortic valve stenosis (AVS) replacement therapy</arm_group_label>
+    <description>The third study cohort consists of patients admitted for surgical (open heart surgery) valve replacement due to aortic valve calcification and critical stenosis with no IHD as a comorbidity. As to elective CABG patients, here patients are also required to be either moderately or severely symptomatic equaling NYHA or CCS II to IV classes, respectively.&#xD;
+This cohort will provide insights into how the pathological pressure overloaded left ventricular remodelling is reflected to the epitranscriptomes of the supposedly relatively spared right atrial appendage tissue and blood RNA. Comparison of this data to the data of the first two IHD study cohorts opens the window to assess the possible differences for these differing pathologies, thus functioning as an &quot;active&quot; control cohort.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>IHD-negative healthy controls verified by coronary CT</arm_group_label>
+    <description>The fourth study cohort shall consist of patients referred to Meilahti Heart Unit's Coronary Artery Computerised Tomography (CT) Angiogram imaging in order to investigate the possibility of atherosclerotic coronary artery disease (i.e. IHD) behind symptoms such as pressing chest pain (i.e. angina pectoris) or abnormal dyspnea provoked by exertion. Based on the results from CT angiogram, only those patients' blood samples are selected for further study that show negative results for IHD (no visualisation of either atherosclerotic strands or plaques in coronary arteries). This patient cohort functions as a critical IHD-healthy control group in the IHD-EPITRAN project (i.e. negative control).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Blood samples.</intervention_name>
+    <description>Peripheral blood samples (TEMPUS(TM) whole blood samples, EDTA plasma and heparin plasma, total volume 40ml) taken during (1) initial hospitalisation and (2) three month follow-up visit after hospital stay (follow-up samples are not taken from coronary CT healthy control patients).</description>
+    <arm_group_label>Acute IHD with STEMI and PCI</arm_group_label>
+    <arm_group_label>Chronic IHD and elective CABG</arm_group_label>
+    <arm_group_label>Elective aortic valve stenosis (AVS) replacement therapy</arm_group_label>
+    <arm_group_label>IHD-negative healthy controls verified by coronary CT</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Collection of right atrial appendage tissue sample.</intervention_name>
+    <description>Collection of the clinically insignificant small piece of heart's right atrial appendage tissue during either standard cannulation of the right atrium for the installation of the heart-lung machine in the beginning of the operation or additionally for routine surgical protocol.</description>
+    <arm_group_label>Chronic IHD and elective CABG</arm_group_label>
+    <arm_group_label>Elective aortic valve stenosis (AVS) replacement therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Health Survey, Clinical symptom scaling</intervention_name>
+    <description>Patients in the study CABG and AVR cohorts are invited to both pre- and postoperative (3-month time-point), and in the case of PCI cohort only to postoperative, appointments led by experienced clinical cardiologists. The appointments will include clinical anamnesis, status and assessment of morbidity level with combined use of Canadian Cardiovascular Society grading of Angina Pectoris (CCS), New York Heart Association Classification for Heart Failure (NYHA) classification systems and Short Form 36 (SF36) Health Survey. The CT imaging control cohort is not invited to these appointments.</description>
+    <arm_group_label>Acute IHD with STEMI and PCI</arm_group_label>
+    <arm_group_label>Chronic IHD and elective CABG</arm_group_label>
+    <arm_group_label>Elective aortic valve stenosis (AVS) replacement therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Transthoracic echocardiography (TTE)</intervention_name>
+    <description>In order to acquire comprehensive insight into the patients' functional heart status, all appointments are supplemented with echocardiographic evaluation for both functional as well as structural parameters. Detailed echocardiographic analysis criteria for the IHD-EPITRAN study are prespecified in the research plan.</description>
+    <arm_group_label>Acute IHD with STEMI and PCI</arm_group_label>
+    <arm_group_label>Chronic IHD and elective CABG</arm_group_label>
+    <arm_group_label>Elective aortic valve stenosis (AVS) replacement therapy</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Based on a priori power analysis, N=25 for each cohort would suffice for achieving&#xD;
+      statistical significance for anticipated epitranscriptomic changes with the parameter values&#xD;
+      specified in study description. N=50/cohort was selected and possible residue blood samples&#xD;
+      and atrial appendage tissue samples (= IHD-EPITRAN's biospecimen samples) will be stored, if&#xD;
+      not needed for the study itself or its validation or follow-up analyses, for later use. The&#xD;
+      usage of the study samples in the other future projects requires new supporting decision from&#xD;
+      the respective ethics board for the new study protocol intending to use the residue study&#xD;
+      samples from the IHD-EPITRAN.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Cohort I; Acute IHD (STEMI+PCI):&#xD;
+&#xD;
+        Patients presenting with ST-elevation myocardial infarction to the CCU and admitted for PCI&#xD;
+        Intervention.&#xD;
+&#xD;
+        Cohort II; Chronic IHD (elective CABG):&#xD;
+&#xD;
+        Stable IHD patients with angina pectoris or dyspnea destined to undergo an elective CABG&#xD;
+        operation based on preceding angiography.&#xD;
+&#xD;
+        Cohort III; Aortic valve stenosis (elective AVR):&#xD;
+&#xD;
+        Stable patients with angina pectoris or dyspnea destined to undergo an elective open&#xD;
+        surgery AVR due to aortic valve calcification and stenosis without recorded comorbid IHD in&#xD;
+        preceding angiography.&#xD;
+&#xD;
+        Cohort IV; IHD-negative controls (coronary CT):&#xD;
+&#xD;
+        Patients referred to Heart Unit's coronary CT angiogram in order to investigate the&#xD;
+        possibility of IHD for symptoms such as pressing chest pain or dyspnea provoked by exertion&#xD;
+        with negative results.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Cohort I, STEMI + PCI:&#xD;
+&#xD;
+               1. Earlier PCIs and silent infarctions eligible.&#xD;
+&#xD;
+               2. ECG confirmed STEMI with Troponin I elevation and pressing chest pain.&#xD;
+&#xD;
+               3. ECG-indicated local damage correlates with recorded dyskinesia in TTE.&#xD;
+&#xD;
+               4. During acute PCI and angiography, only one clear occlusion.&#xD;
+&#xD;
+               5. Successful initial coronary artery reperfusion during PCI.&#xD;
+&#xD;
+          2. Cohort II, Chronic IHD + elective CABG:&#xD;
+&#xD;
+               1. Chronic and either CCS or NYHA II-IV symptoms for at least one month.&#xD;
+&#xD;
+               2. First and elective operation. Only heart operation to be performed.&#xD;
+&#xD;
+               3. In transthoracic echocardiogram (TTE):&#xD;
+&#xD;
+                    -  No indication of cardiomyopathy other than ischemic.&#xD;
+&#xD;
+                    -  No pathological remodelling (valves, ventricles and atrias).&#xD;
+&#xD;
+                    -  No clear indication of significant heart failure (i.e. LVEF &gt; 25%)&#xD;
+&#xD;
+          3. Cohort III, elective aortic replacement therapy (AVR) for stenosis:&#xD;
+&#xD;
+               1. Chronic and either CCS or NYHA II-IV symptoms for at least one month.&#xD;
+&#xD;
+               2. Operated as an open heart surgery (either prosthetic or biovalves)&#xD;
+&#xD;
+               3. No signs of IHD in coronary angiography.&#xD;
+&#xD;
+               4. Both bicuspid and tricuspid valves eligible.&#xD;
+&#xD;
+          4. Cohort IV, IHD-negative healthy controls defined by coronary CT:&#xD;
+&#xD;
+               1. Computerized tomography angiogram results are categorized as negative for&#xD;
+                  coronary artery disease.&#xD;
+&#xD;
+               2. No known heart disease.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Condition that limits life expectancy.&#xD;
+&#xD;
+          -  Combination procedures (i.e. CABG+valve).&#xD;
+&#xD;
+          -  Chronic renal insufficiency (KDIGO scale Pt-GFR &lt; 45/min).&#xD;
+&#xD;
+          -  Active inflammatory/infectious process.&#xD;
+&#xD;
+          -  Known disease affecting either blood or bone marrow.&#xD;
+&#xD;
+          -  Structural or functional congenital heart disease.&#xD;
+&#xD;
+          -  Recorded atrial fibrillation.&#xD;
+&#xD;
+          -  Other comorbidities in poor clinical control (i.e. uncontrolled severe hypertension&#xD;
+             &gt;170-180/100 and for diabetes HbA1c &gt; 60 mmol/l).&#xD;
+&#xD;
+          -  Insulin treated diabetes.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Antti E Vento, Docent</last_name>
+    <role>Study Director</role>
+    <affiliation>Helsinki University Central Hospital, Heart and Lung Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Esko Kankuri, Docent</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Helsinki, Faculty of Medicine, Department of Pharmacology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Antti E Vento, Docent</last_name>
+    <phone>09 471 72200</phone>
+    <phone_ext>+358</phone_ext>
+    <email>antti.vento@hus.fi</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Esko Kankuri, Docent</last_name>
+    <phone>040 7037338</phone>
+    <phone_ext>+358</phone_ext>
+    <email>esko.kankuri@helsinki.fi</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Hospital District of Helsinki and Uusimaa, Helsinki University Hospital, Heart and Lung Center &amp; Cardiac Unit</name>
+      <address>
+        <city>Helsinki</city>
+        <state>Uusimaa</state>
+        <zip>00029</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Antti E Vento, Docent</last_name>
+      <phone>09 471 72200</phone>
+      <phone_ext>+358</phone_ext>
+      <email>antti.vento@hus.fi</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Finland</country>
+  </location_countries>
+  <reference>
+    <citation>Aimo A, Januzzi JL Jr, Bayes-Genis A, Vergaro G, Sciarrone P, Passino C, Emdin M. Clinical and Prognostic Significance of sST2 in Heart Failure: JACC Review Topic of the Week. J Am Coll Cardiol. 2019 Oct 29;74(17):2193-2203. doi: 10.1016/j.jacc.2019.08.1039. Review.</citation>
+    <PMID>31648713</PMID>
+  </reference>
+  <reference>
+    <citation>Ahmadmehrabi S, Tang WHW. Gut microbiome and its role in cardiovascular diseases. Curr Opin Cardiol. 2017 Nov;32(6):761-766. doi: 10.1097/HCO.0000000000000445. Review.</citation>
+    <PMID>29023288</PMID>
+  </reference>
+  <reference>
+    <citation>Berulava T, Buchholz E, Elerdashvili V, Pena T, Islam MR, Lbik D, Mohamed BA, Renner A, von Lewinski D, Sacherer M, Bohnsack KE, Bohnsack MT, Jain G, Capece V, Cleve N, Burkhardt S, Hasenfuss G, Fischer A, Toischer K. Changes in m6A RNA methylation contribute to heart failure progression by modulating translation. Eur J Heart Fail. 2020 Jan;22(1):54-66. doi: 10.1002/ejhf.1672. Epub 2019 Dec 17.</citation>
+    <PMID>31849158</PMID>
+  </reference>
+  <reference>
+    <citation>Delaunay S, Frye M. RNA modifications regulating cell fate in cancer. Nat Cell Biol. 2019 May;21(5):552-559. doi: 10.1038/s41556-019-0319-0. Epub 2019 May 2. Review.</citation>
+    <PMID>31048770</PMID>
+  </reference>
+  <reference>
+    <citation>Desrosiers R, Friderici K, Rottman F. Identification of methylated nucleosides in messenger RNA from Novikoff hepatoma cells. Proc Natl Acad Sci U S A. 1974 Oct;71(10):3971-5.</citation>
+    <PMID>4372599</PMID>
+  </reference>
+  <reference>
+    <citation>Dominissini D, Moshitch-Moshkovitz S, Schwartz S, Salmon-Divon M, Ungar L, Osenberg S, Cesarkas K, Jacob-Hirsch J, Amariglio N, Kupiec M, Sorek R, Rechavi G. Topology of the human and mouse m6A RNA methylomes revealed by m6A-seq. Nature. 2012 Apr 29;485(7397):201-6. doi: 10.1038/nature11112.</citation>
+    <PMID>22575960</PMID>
+  </reference>
+  <reference>
+    <citation>Dorn LE, Lasman L, Chen J, Xu X, Hund TJ, Medvedovic M, Hanna JH, van Berlo JH, Accornero F. The N(6)-Methyladenosine mRNA Methylase METTL3 Controls Cardiac Homeostasis and Hypertrophy. Circulation. 2019 Jan 22;139(4):533-545. doi: 10.1161/CIRCULATIONAHA.118.036146.</citation>
+    <PMID>30586742</PMID>
+  </reference>
+  <reference>
+    <citation>Frye M, Jaffrey SR, Pan T, Rechavi G, Suzuki T. RNA modifications: what have we learned and where are we headed? Nat Rev Genet. 2016 Jun;17(6):365-72. doi: 10.1038/nrg.2016.47. Epub 2016 May 3. Review.</citation>
+    <PMID>27140282</PMID>
+  </reference>
+  <reference>
+    <citation>GBD 2017 Disease and Injury Incidence and Prevalence Collaborators. Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017. Lancet. 2018 Nov 10;392(10159):1789-1858. doi: 10.1016/S0140-6736(18)32279-7. Epub 2018 Nov 8. Erratum in: Lancet. 2019 Jun 22;393(10190):e44.</citation>
+    <PMID>30496104</PMID>
+  </reference>
+  <reference>
+    <citation>Jain M, Mann TD, Stulić M, Rao SP, Kirsch A, Pullirsch D, Strobl X, Rath C, Reissig L, Moreth K, Klein-Rodewald T, Bekeredjian R, Gailus-Durner V, Fuchs H, Hrabě de Angelis M, Pablik E, Cimatti L, Martin D, Zinnanti J, Graier WF, Sibilia M, Frank S, Levanon EY, Jantsch MF. RNA editing of Filamin A pre-mRNA regulates vascular contraction and diastolic blood pressure. EMBO J. 2018 Oct 1;37(19). pii: e94813. doi: 10.15252/embj.201694813. Epub 2018 Aug 7.</citation>
+    <PMID>30087110</PMID>
+  </reference>
+  <reference>
+    <citation>Kmietczyk V, Riechert E, Kalinski L, Boileau E, Malovrh E, Malone B, Gorska A, Hofmann C, Varma E, Jürgensen L, Kamuf-Schenk V, Altmüller J, Tappu R, Busch M, Most P, Katus HA, Dieterich C, Völkers M. m(6)A-mRNA methylation regulates cardiac gene expression and cellular growth. Life Sci Alliance. 2019 Apr 9;2(2). pii: e201800233. doi: 10.26508/lsa.201800233. Print 2019 Apr.</citation>
+    <PMID>30967445</PMID>
+  </reference>
+  <reference>
+    <citation>van der Kwast RVCT, Quax PHA, Nossent AY. An Emerging Role for isomiRs and the microRNA Epitranscriptome in Neovascularization. Cells. 2019 Dec 25;9(1). pii: E61. doi: 10.3390/cells9010061. Review.</citation>
+    <PMID>31881725</PMID>
+  </reference>
+  <reference>
+    <citation>Liu J, Li K, Cai J, Zhang M, Zhang X, Xiong X, Meng H, Xu X, Huang Z, Peng J, Fan J, Yi C. Landscape and Regulation of m(6)A and m(6)Am Methylome across Human and Mouse Tissues. Mol Cell. 2020 Jan 16;77(2):426-440.e6. doi: 10.1016/j.molcel.2019.09.032. Epub 2019 Oct 29.</citation>
+    <PMID>31676230</PMID>
+  </reference>
+  <reference>
+    <citation>Liu H, Begik O, Lucas MC, Ramirez JM, Mason CE, Wiener D, Schwartz S, Mattick JS, Smith MA, Novoa EM. Accurate detection of m(6)A RNA modifications in native RNA sequences. Nat Commun. 2019 Sep 9;10(1):4079. doi: 10.1038/s41467-019-11713-9.</citation>
+    <PMID>31501426</PMID>
+  </reference>
+  <reference>
+    <citation>Mathiyalagan P, Adamiak M, Mayourian J, Sassi Y, Liang Y, Agarwal N, Jha D, Zhang S, Kohlbrenner E, Chepurko E, Chen J, Trivieri MG, Singh R, Bouchareb R, Fish K, Ishikawa K, Lebeche D, Hajjar RJ, Sahoo S. FTO-Dependent N(6)-Methyladenosine Regulates Cardiac Function During Remodeling and Repair. Circulation. 2019 Jan 22;139(4):518-532. doi: 10.1161/CIRCULATIONAHA.118.033794.</citation>
+    <PMID>29997116</PMID>
+  </reference>
+  <reference>
+    <citation>Saletore Y, Meyer K, Korlach J, Vilfan ID, Jaffrey S, Mason CE. The birth of the Epitranscriptome: deciphering the function of RNA modifications. Genome Biol. 2012 Oct 31;13(10):175. doi: 10.1186/gb-2012-13-10-175.</citation>
+    <PMID>23113984</PMID>
+  </reference>
+  <reference>
+    <citation>Selberg S, Blokhina D, Aatonen M, Koivisto P, Siltanen A, Mervaala E, Kankuri E, Karelson M. Discovery of Small Molecules that Activate RNA Methylation through Cooperative Binding to the METTL3-14-WTAP Complex Active Site. Cell Rep. 2019 Mar 26;26(13):3762-3771.e5. doi: 10.1016/j.celrep.2019.02.100.</citation>
+    <PMID>30917327</PMID>
+  </reference>
+  <reference>
+    <citation>Tibaut M, Caprnda M, Kubatka P, Sinkovič A, Valentova V, Filipova S, Gazdikova K, Gaspar L, Mozos I, Egom EE, Rodrigo L, Kruzliak P, Petrovic D. Markers of Atherosclerosis: Part 1 - Serological Markers. Heart Lung Circ. 2019 May;28(5):667-677. doi: 10.1016/j.hlc.2018.06.1057. Epub 2018 Oct 4. Review.</citation>
+    <PMID>30468147</PMID>
+  </reference>
+  <reference>
+    <citation>Zaccara S, Ries RJ, Jaffrey SR. Reading, writing and erasing mRNA methylation. Nat Rev Mol Cell Biol. 2019 Oct;20(10):608-624. doi: 10.1038/s41580-019-0168-5. Epub 2019 Sep 13. Review.</citation>
+    <PMID>31520073</PMID>
+  </reference>
+  <reference>
+    <citation>Park E, Williams B, Wold BJ, Mortazavi A. RNA editing in the human ENCODE RNA-seq data. Genome Res. 2012 Sep;22(9):1626-33. doi: 10.1101/gr.134957.111.</citation>
+    <PMID>22955975</PMID>
+  </reference>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>August 26, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 31, 2020</study_first_posted>
+  <last_update_submitted>November 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 12, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hospital District of Helsinki and Uusimaa</investigator_affiliation>
+    <investigator_full_name>Antti Vento</investigator_full_name>
+    <investigator_title>Docent (adjunct professor) in Cardiac and Thoracic surgery, Director, Physician-in-Chief at the Heart and Lung Center (Helsinki University Central Hospital)</investigator_title>
+  </responsible_party>
+  <keyword>Ischemic heart disease</keyword>
+  <keyword>Coronary artery disease</keyword>
+  <keyword>Epitranscriptomics</keyword>
+  <keyword>Blood Biomarkers</keyword>
+  <keyword>Biomarkers</keyword>
+  <keyword>Direct long-read nanopore sequencing</keyword>
+  <keyword>RNA editing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Aortic Valve Stenosis</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

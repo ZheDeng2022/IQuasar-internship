@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05025540</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-0465</org_study_id>
+    <nct_id>NCT05025540</nct_id>
+  </id_info>
+  <brief_title>Noninvasive Detection of Diabetic Kidney Disease Based on Self-divided Ultrasound Imaging Omics</brief_title>
+  <official_title>Noninvasive Detection of Diabetic Kidney Disease Based on Self-divided Ultrasound Imaging Omics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diabetic kidney disease is a common complication of diabetes and the main cause of end-stage&#xD;
+      renal disease. Clinically, most patients with DKD have albuminuria, but some patients with&#xD;
+      DKD have normal urinary albumin, even until they develop stage 5 diabetic kidney disease. In&#xD;
+      these diabetic patients with normal urinary albumin, relatively intact renal function and no&#xD;
+      significant renal damage (abnormal urine sediment and electrolyte) were observed on&#xD;
+      laboratory tests. Whether imaging can detect kidney injury sensitively is an urgent problem&#xD;
+      in clinical practice.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Ultrasound examination is a convenient, cheap and non-invasive method for kidney examination.&#xD;
+      However, the ability of conventional ultrasound to distinguish diabetic kidney disease from&#xD;
+      normal kidney is limited, and it is difficult to accurately distinguish between diabetic&#xD;
+      kidney disease and normal kidney only with the naked eye. In recent years, computer science&#xD;
+      has developed rapidly and artificial intelligence has been developing continuously. Much&#xD;
+      progress has been made in applying ARTIFICIAL intelligence to data analysis. Machine learning&#xD;
+      is a direction of generalized artificial intelligence, its main characteristic is to make the&#xD;
+      machine autonomous prediction and create algorithm, so as to achieve autonomous learning.&#xD;
+      kidney disease and deep learning are two different approaches in the field of machine&#xD;
+      learning. In this study, image omics and deep learning were used to analyze the images. Image&#xD;
+      omics extracts traditional image features, including shape, gray scale, texture, etc., and&#xD;
+      uses machine learning (pattern recognition) models to classify and predict, such as support&#xD;
+      vector machine, random forest, XGBoost, etc. Deep learning directly uses the convolutional&#xD;
+      network CNN to extract features, and completes classification and prediction in combination&#xD;
+      with the full connection layer, etc.&#xD;
+&#xD;
+      This study aims to explore the detection of diabetic kidney disease and its pathological&#xD;
+      degree based on self-divided ultrasound image omics, maximize the mining of internal&#xD;
+      information of ultrasound images, and form a set of non-invasive monitoring of diabetic&#xD;
+      kidney disease complications development system, especially in primary medical institutions,&#xD;
+      has a broad clinical application prospect.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Miou</measure>
+    <time_frame>6 months</time_frame>
+    <description>The mean intersection over union (Miou) of DL-based auto-segmentation in different medical centers</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>mPA</measure>
+    <time_frame>6 months</time_frame>
+    <description>The mean pixel accuracy (mPA) of DL-based auto-segmentation in different medical centers</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>AUC</measure>
+    <time_frame>6 months</time_frame>
+    <description>The area under curve (AUC) of radiomics model for differentiating DKD and T2DM patients</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Diabetic Kidney Disease</condition>
+  <arm_group>
+    <arm_group_label>Experimental group</arm_group_label>
+    <description>patients with diabetes&#xD;
+patients with diabetic kidney disease</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <description>patients with diabetes&#xD;
+patients without diabetic kidney disease</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>ultrasonic imaging</intervention_name>
+    <description>Two-dimensional ultrasound images of the patient's kidneys were obtained by ultrasound imaging.</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Experimental group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        1. patients with diabetes&#xD;
+&#xD;
+          2. patients with or without DKD&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  patients with clinical diagnosis of T2DM and DKD were enrolled.&#xD;
+&#xD;
+          -  patients with clear B mode ultrasound imaging in both side of kidney (left and right).&#xD;
+&#xD;
+          -  No missing value in the vital clinical data such as eGFR and UACR.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with large kidney space occupying disease such as kidney renal cyst and tumor&#xD;
+             were excluded.&#xD;
+&#xD;
+          -  Ultrasound images with severe shadow or incomplete kidney border were excluded.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pintong Huang</last_name>
+    <role>Study Chair</role>
+    <affiliation>Department of Ultrasound, The Second Affiliated Hospital of Zhejiang University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Pintong Huang</last_name>
+    <phone>+8618857168333</phone>
+    <email>huangpintong@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Peile Jin</last_name>
+    <phone>19883125285</phone>
+    <email>22018527@zju.edu.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The People's Hospital of Yingshang</name>
+      <address>
+        <city>Fuyang</city>
+        <state>Anhui</state>
+        <zip>236200</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jinfeng Yang</last_name>
+      <phone>18010999933</phone>
+      <email>278525988@qq.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Tianjin Third Central Hospital</name>
+      <address>
+        <city>Tianjin</city>
+        <state>Tianjin</state>
+        <zip>300000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiang Jing</last_name>
+      <phone>13920111890</phone>
+      <email>dr.jingxiang@aliyun.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Ultrasound, Second Affiliated Hospital, School of Medicine, Zhejiang University</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pintong Huang</last_name>
+      <phone>+8618857168333</phone>
+      <email>huangpintong@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 24, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 27, 2021</study_first_posted>
+  <last_update_submitted>August 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>diabetic kidney disease</keyword>
+  <keyword>ultrasound</keyword>
+  <keyword>radiomics</keyword>
+  <keyword>deep learning</keyword>
+  <keyword>multi-center</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Diabetic Nephropathies</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

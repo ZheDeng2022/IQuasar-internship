@@ -1,0 +1,218 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04563572</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-01983</org_study_id>
+    <nct_id>NCT04563572</nct_id>
+  </id_info>
+  <brief_title>Determine AF Burden With PPG Trial - Detection and Quantification of Episodes of Atrial Fibrillation</brief_title>
+  <official_title>Determine AF Burden With PPG Trial - Detection and Quantification of Episodes of Atrial Fibrillation Using a Cloud Analytics Service Connected to a Wearable With Photoplethysmographic (PPG) Sensor</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Basel, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Preventicus GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Manufacture Modules Technologies SA</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>GETEMED GmbH</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Eurostars</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Basel, Switzerland</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this prospective single-center trial, a wearable photoplethysmographic (PPG) sensor&#xD;
+      coupled with a cloud analytics service will be used to detect and quantify atrial&#xD;
+      fibrillation (AF) episodes in patients with known paroxysmal AF. Patients will simultaneously&#xD;
+      receive the PPG sensor in form of a smartwatch or bracelet and a Holter ECG for 48 hours.&#xD;
+      Correctly identified AF episodes and AF burden determined by both methods will be compared.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Atrial fibrillation (AF) is the most common cardiac arrhythmia and a major risk factor for&#xD;
+      cerebrovascular insults. Paroxysmal AF is defined as an episode of AF that terminates&#xD;
+      spontaneously or with intervention within 7 days. Patients with AF may present with&#xD;
+      palpitations, shortness of breath or sensation of light-headedness but asymptomatic episodes&#xD;
+      are also possible, especially in paroxysmal AF. The lack of continuous heart rate monitoring&#xD;
+      options makes early diagnosis of paroxysmal AF challenging. In this prospective single-center&#xD;
+      trial, the PPG wearable Corsano CardioWatch 287 sensor will be used to conduct continuous&#xD;
+      heart rate and -rhythm monitoring in patients with known paroxysmal AF. Collected data will&#xD;
+      then be analysed using a Cloud Analytics Service (Preventicus Heartbeats algorithm) and&#xD;
+      compared with data from simultaneously obtained 48-hour Holter ECG. Correctly identified AF&#xD;
+      episodes, their cumulative duration per 48 hours (AF burden) and the number of asymptomatic&#xD;
+      episodes will be assessed. In the primary analyses, the sensitivity of the PPG analysing&#xD;
+      algorithm to detect AF episodes is estimated by performing a logistic regression on detection&#xD;
+      (yes/no) with only an intercept as predictor, which is then translated to a proportion (the&#xD;
+      sensitivity). In the secondary analyses we are comparing the cumulative duration of AF&#xD;
+      episodes over 48 hours (AF burden) obtained with the PPG-sensor and Holter-ECG. In summary,&#xD;
+      the purpose of the study is to evaluate the performance and efficacy of the wearable PPG&#xD;
+      sensor and the cloud analytics service in detecting and quantifying AF episodes in patients&#xD;
+      with known history of paroxysmal AF.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 13, 2020</start_date>
+  <completion_date type="Anticipated">April 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Participants will receive a PPG sensor in form of a smartwatch or a bracelet and will be instructed to wear them continuously for 48 hours. Assigning patients to the smartwatch or the bracelet group will occur in an alternating fashion.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of AF episodes</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Number of detected atrial fibrillation episodes by the PPG sensor and Preventicus Heartbeats algorithm during the 48h trial period compared to the Holter ECG.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>AF Burden</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Cumulative duration of AF episodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Asymptomatic AF episodes</measure>
+    <time_frame>48 hours</time_frame>
+    <description>Number of asymptomatic AF episodes</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Paroxysmal Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>PPG Smartwatch</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Preventicus Heartbeats algorithm ist a certified tool for detection of Atrial Fibrillation. It differentiates accurately between regular rhythm, single premature beats and the absolute arrhythmia concordant with AF. The Preventicus algorithm is device-agnostic, meaning that any wearable device capable of recording PPG-signals can be used for data collection.&#xD;
+CardioWatch 287 is a novel non-invasive monitoring device manufactured by the MMT company. The device monitors heart rhythm, heart rate (HR) and respiratory rate (RR) based on peripheral PPG signal.&#xD;
+In this arm, we will test the quality of the algorithm integrated into the smartwatch.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PPG Bracelet</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Preventicus Heartbeats algorithm ist a certified tool for detection of Atrial Fibrillation. It differentiates accurately between regular rhythm, single premature beats and the absolute arrhythmia concordant with AF. The Preventicus algorithm is device-agnostic, meaning that any wearable device capable of recording PPG-signals can be used for data collection.&#xD;
+A PPG-sensor is also integrated into a bracelet &quot;Basler Band&quot; manufactured by the MMT company, which is a simplified multisensory device.&#xD;
+In this arm, we will test the quality of the algorithm integrated into the bracelet.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>PPG Smartwatch</intervention_name>
+    <description>Participants will then receive a PPG sensor in form of a smartwatch) model and will be instructed to wear them continuously for 48 hours. Simultaneously, a 48-hour Holter ECG will be performed. Start time on the PPG-sensor and the Holter ECG will be matched and continuous heart rhythm and -rate monitoring will be initiated. Patients will wear the devices over a 48-hour period of time.</description>
+    <arm_group_label>PPG Bracelet</arm_group_label>
+    <arm_group_label>PPG Smartwatch</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Known paroxysmal atrial fibrillation&#xD;
+&#xD;
+          -  Patient ≥ 18 years old&#xD;
+&#xD;
+          -  Written informed consent as documented by signature from the patient&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Cardiac implanted electronic device (Pacemaker, ICD)&#xD;
+&#xD;
+          -  Smartwatch/Bracelet and/or ECG device cannot be worn due to comprehensible reasons&#xD;
+             (allergic reactions, wounds, amputations, other)&#xD;
+&#xD;
+          -  Patients unable or not willing to sign informed consent Significant mental or&#xD;
+             cognitive impairment&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jens Eckstein, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Basel, Switzerland</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jens Eckstein, MD, PhD</last_name>
+    <phone>+41613287689</phone>
+    <email>jens.eckstein@usb.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Aura Winterhalder</last_name>
+    <phone>+41613286677</phone>
+    <email>aura.winterhalder@usb.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Universitiy Hospital Basel</name>
+      <address>
+        <city>Basel</city>
+        <state>Basel-Stadt</state>
+        <zip>4031</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Peter Serfözö, MD</last_name>
+      <phone>+41613285488</phone>
+      <email>peterdaniel.serfoezoe@usb.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Bibiana Blümke, MD</last_name>
+      <phone>+41613284336</phone>
+      <email>Bibiana.Bluemke@usb.ch</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>September 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 24, 2020</study_first_posted>
+  <last_update_submitted>November 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 4, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Wearables</keyword>
+  <keyword>AF Burden</keyword>
+  <keyword>Photoplethysmography (PPG)</keyword>
+  <keyword>Atrial Fibrillation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

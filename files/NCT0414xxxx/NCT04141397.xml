@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04141397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>POG Clinical Effectiveness</org_study_id>
+    <nct_id>NCT04141397</nct_id>
+  </id_info>
+  <brief_title>Real-world Clinical Effectiveness of Whole Genome and Transcriptome Analysis to Guide Advanced Cancer Care</brief_title>
+  <official_title>Retrospective Observational Study Determining the Clinical Effectiveness of Whole Genome and Transcriptome Analysis to Guide Advanced Cancer Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>British Columbia Cancer Agency</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>BC Cancer Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Genome British Columbia</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>British Columbia Cancer Agency</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to determine the clinical effectiveness of whole-genome and transcriptome&#xD;
+      analysis (WGTA) to guide advanced cancer care. The study setting is the British Columbia (BC)&#xD;
+      Personalized OncoGenomics (POG) program, a single group research study of WGTA guiding&#xD;
+      treatment planning for patients with advanced, incurable cancers (NCT02155621). To&#xD;
+      characterize clinical effectiveness, the survival impacts of POG's approach compared to usual&#xD;
+      care in matched controls will be estimated.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      WGTA provides an opportunity to improve health outcomes for patients by tailoring treatments&#xD;
+      to each individual's genomic profile. The BC POG Program is a single arm research study&#xD;
+      integrating WGTA information into clinical decision-making for patients with advanced stage,&#xD;
+      incurable cancers.The clinical effectiveness of POG's approach is unknown. This retrospective&#xD;
+      quasi-experimental observational study will estimate the real-world effectiveness of WGTA for&#xD;
+      guiding advanced cancer care. To identify a counterfactual for POG's single-arm approach,&#xD;
+      matching methods combined with administrative healthcare data will be used. The survival&#xD;
+      impacts of POG's approach compared to usual care in matched controls will then be estimated.&#xD;
+&#xD;
+      Specific Aims and Hypotheses&#xD;
+&#xD;
+      This study aims to estimate the overall survival effects of POG's approach versus usual care&#xD;
+      for patients with advanced cancers.&#xD;
+&#xD;
+      Hypothesis (null): there is no difference in survival across POG and usual care patients&#xD;
+&#xD;
+      Hypothesis (alternative): POG patients who initiated WGTA live longer, on average, than usual&#xD;
+      care patients&#xD;
+&#xD;
+      Study Design&#xD;
+&#xD;
+      This study will apply a retrospective cohort design. Cohorts will include patients who&#xD;
+      consented to POG and underwent a biopsy for WGTA between July 2014 and December 2017 and&#xD;
+      matched usual care controls. POG patients who enrolled prior to July 2014 will be excluded&#xD;
+      from our study because during this feasibility period, referring clinicians employed a high&#xD;
+      level of case-by-case recruitment selection. Usual care patients will be matched to POG&#xD;
+      patients using supervised learning techniques. The study period will range from patient's&#xD;
+      time of metastatic cancer diagnosis to December 31 2018.&#xD;
+&#xD;
+      Data Sources&#xD;
+&#xD;
+      De-identified linked population-based administrative datasets will be obtained from BC Cancer&#xD;
+      for all adult patients (&gt;18 years) diagnosed with cancers in BC prior to December 2017. POG&#xD;
+      patients will be identified from the BC Cancer Outcomes and Surveillance Integration System&#xD;
+      (OaSIS) POG Module Database. Eligible control patients will be identified from the BC Cancer&#xD;
+      Registry, a population-based provincial cancer registry. These data will be linked with data&#xD;
+      from the BC Cancer Pharmacy Database, Radiotherapy Database, and Cancer Agency Information&#xD;
+      System (CAIS) using agency-specific identifiers.&#xD;
+&#xD;
+      Statistical Approach&#xD;
+&#xD;
+      The investigators will match POG patients and usual care patients based on their date of&#xD;
+      metastatic disease diagnosis. They will apply 1:1 genetic algorithm-based matching (1:2 in&#xD;
+      sensitivity analysis) and match patients on propensity scores and baseline covariates,&#xD;
+      including patient demographics, clinical characteristics, treatment histories, and healthcare&#xD;
+      utilization prior to metastatic disease diagnosis. When necessary, matching analyses will be&#xD;
+      stratified to account for variation across cancer types.&#xD;
+&#xD;
+      To estimate overall survival in POG patients and matched controls, non-parametric and&#xD;
+      parametric survival analyses will be used. These analyses will be adjusted for censoring. The&#xD;
+      investigators will explore heterogeneity in clinical effectiveness across cancer subtypes&#xD;
+      through subgroup analysis and use scenario analysis to determine the impact of future changes&#xD;
+      in the application of WGTA on clinical effectiveness.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 1, 2014</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Actual">December 31, 2018</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall Survival</measure>
+    <time_frame>From 1 year up to 4.5 years, adjusted for censoring</time_frame>
+    <description>Identified from BC Cancer Registry data</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1200</enrollment>
+  <condition>Metastatic Cancer</condition>
+  <condition>Advanced Cancer</condition>
+  <condition>Cancers That Cannot be Treated With Curative Intent</condition>
+  <arm_group>
+    <arm_group_label>POG patients</arm_group_label>
+    <description>Patients enrolled in POG who initiated WGTA between July 2014 and December 2017</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual care controls</arm_group_label>
+    <description>Matched controls who received usual care and were diagnosed with metastatic cancer prior to December 2017</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Initiation of POG-related WGTA</intervention_name>
+    <description>POG-related WGTA generally involves collecting biopsy samples, applying whole-genome and transcriptome sequencing, and using bioinformatics analysis to interpret sequence data and inform clinical decision-making.</description>
+    <arm_group_label>POG patients</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Usual care</intervention_name>
+    <description>Usual care, not involving the initiation of POG-related WGTA</description>
+    <arm_group_label>Usual care controls</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        BC Cancer administrative data will be used to identify adult patients diagnosed with cancer&#xD;
+        and residing in BC during the study period who either:&#xD;
+&#xD;
+          1. Had advanced, incurable cancer and enrolled in the BC Cancer POG Program&#xD;
+&#xD;
+             OR&#xD;
+&#xD;
+          2. Whose prior staging information, healthcare utilization and/or treatment history&#xD;
+             indicated they had advanced cancers and who were matched on a baseline covariates at&#xD;
+             their date of metastatic disease diagnosis.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria (POG Patients):&#xD;
+&#xD;
+          -  BC residency&#xD;
+&#xD;
+          -  Metastatic disease considered incurable by their treating oncologist&#xD;
+&#xD;
+          -  Life expectancy &gt; 6 months&#xD;
+&#xD;
+          -  Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1&#xD;
+&#xD;
+          -  Consented to POG and undergone initial biopsy between July 2014 and December 2017&#xD;
+&#xD;
+        Inclusion Criteria (Usual Care Patients):&#xD;
+&#xD;
+          -  Diagnosed with cancer prior to December 2017&#xD;
+&#xD;
+          -  BC residents during study period&#xD;
+&#xD;
+          -  Received care at BC Cancer during study period&#xD;
+&#xD;
+          -  Alive July 1st 2014&#xD;
+&#xD;
+        Exclusion Criteria (All Patients):&#xD;
+&#xD;
+          -  BC Medical Services Plan personal health number missing or invalid&#xD;
+&#xD;
+          -  Cancer case diagnosed at death&#xD;
+&#xD;
+          -  Age at diagnosis ≤18&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <link>
+    <url>https://clinicaltrials.gov/ct2/show/NCT02155621</url>
+    <description>Protocol for BC Cancer Personalized OncoGenomics Program</description>
+  </link>
+  <link>
+    <url>https://www.personalizedoncogenomics.org/</url>
+    <description>Website for BC Cancer Personalized OncoGenomics Program</description>
+  </link>
+  <reference>
+    <citation>Laskin J, Jones S, Aparicio S, Chia S, Ch'ng C, Deyell R, Eirew P, Fok A, Gelmon K, Ho C, Huntsman D, Jones M, Kasaian K, Karsan A, Leelakumari S, Li Y, Lim H, Ma Y, Mar C, Martin M, Moore R, Mungall A, Mungall K, Pleasance E, Rassekh SR, Renouf D, Shen Y, Schein J, Schrader K, Sun S, Tinker A, Zhao E, Yip S, Marra MA. Lessons learned from the application of whole-genome analysis to the treatment of patients with advanced cancers. Cold Spring Harb Mol Case Stud. 2015 Oct;1(1):a000570. doi: 10.1101/mcs.a000570.</citation>
+    <PMID>27148575</PMID>
+  </reference>
+  <reference>
+    <citation>Diamond A, Sekhon JS. Genetic matching for estimating causal effects: A general multivariate matching method for achieving balance in observational studies. Review of Economics and Statistics. 95(3):932-945, 2013.</citation>
+  </reference>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>October 23, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 24, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 28, 2019</study_first_posted>
+  <last_update_submitted>January 25, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 25, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>precision medicine</keyword>
+  <keyword>genomic sequencing</keyword>
+  <keyword>administrative data</keyword>
+  <keyword>quasi-experimental methods</keyword>
+  <keyword>matching</keyword>
+  <keyword>clinical effectiveness</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The patient-level administrative data used in this retrospective study are confidential and will not be made available in a public repository, in accordance with institutional policies.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,158 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04834596</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021 OOPS</org_study_id>
+    <nct_id>NCT04834596</nct_id>
+  </id_info>
+  <brief_title>Detection and Automatic Segmentation of Liver Nodules in Patients With Colorectal Adenocarcinoma</brief_title>
+  <acronym>OOPS</acronym>
+  <official_title>Detection and Automatic Segmentation of Liver Nodules in Patients With Colorectal</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Angers</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Angers</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Evaluation of the diagnostic performance of artificial intelligence-based software for the&#xD;
+      detection of liver nodules on scanner in patients at risk of liver metastases of colorectal&#xD;
+      cancer&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of this study is to evaluate the performance of a software for liver nodule detection&#xD;
+      in patients with colorectal cancer compared to the consensus of two radiologists analysis.&#xD;
+&#xD;
+      300 hepatic scanners will be analysed.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2, 2021</start_date>
+  <completion_date type="Anticipated">May 2, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To evaluate the performance of the software for detection of hepatic nodules on CT scan of patients with colorectal cancer compared to a reference constituted by the evaluation established by two radiologists in consensus.</measure>
+    <time_frame>1 month</time_frame>
+    <description>Number of nodules detected by the software compared to the reference method</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Detection of Liver Metastases</condition>
+  <arm_group>
+    <arm_group_label>patients without hepatic metastases</arm_group_label>
+    <description>hepatic scanner of 100 patients with colorectal cancer without hepatic metastases will be analysed</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>patients with synchronous hepatic metastases</arm_group_label>
+    <description>hepatic scanner of 100 patients with colorectal cancer with synchronous hepatic metastases will be analysed</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>patients with metachronous hepatic metastases</arm_group_label>
+    <description>hepatic scanner of 100 patients with colorectal cancer with metachronous hepatic metastases will be analysed</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>retrospectives analysis on hepatic scanner</intervention_name>
+    <description>hepatic scanner will be analysed by two radiologist and by the software</description>
+    <arm_group_label>patients with metachronous hepatic metastases</arm_group_label>
+    <arm_group_label>patients with synchronous hepatic metastases</arm_group_label>
+    <arm_group_label>patients without hepatic metastases</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patients with colorectal cancer&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients consecutively treated for colorectal cancer a&#xD;
+&#xD;
+          -  Availability of imaging by injected abdominal scanner including at least one portal&#xD;
+             phase&#xD;
+&#xD;
+          -  Age over 18&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with treatment of the hepatic nodule by ablation or previous hepatic surgery&#xD;
+&#xD;
+          -  Imaging follow-up &lt;12 months&#xD;
+&#xD;
+          -  Non-interpretable scanner (artefact, injection quality, etc.)&#xD;
+&#xD;
+          -  Patients with more than 10 liver metastases&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Marie Bost</last_name>
+    <email>mabost@chu-angers.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>UHAngers</name>
+      <address>
+        <city>Angers</city>
+        <zip>49933</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>marie bost</last_name>
+      <email>mabost@chu-angers.fr</email>
+    </contact>
+    <investigator>
+      <last_name>Anita Paisant</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 8, 2021</study_first_posted>
+  <last_update_submitted>April 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

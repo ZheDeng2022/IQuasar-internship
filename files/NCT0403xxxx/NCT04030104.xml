@@ -1,0 +1,792 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04030104</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Reader-02 Study</org_study_id>
+    <nct_id>NCT04030104</nct_id>
+  </id_info>
+  <brief_title>Optoacoustic Images Versus Imagio® Ultrasound</brief_title>
+  <acronym>Reader-02</acronym>
+  <official_title>Imagio® Pivotal Multi-Reader, Multi-Case Study of Optoacoustic Images Versus Imagio® Ultrasound to Guide Decision to Biopsy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seno Medical Instruments Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Seno Medical Instruments Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Imagio® Pivotal Study is intended to evaluate if the results observed in the previous&#xD;
+      Feasibility Study can be confirmed for pre-specified effectiveness endpoints. Using&#xD;
+      Intention-to-Diagnose (ITD) masses from the PIONEER Pivotal study, 480 to 840 masses are to&#xD;
+      be used for the Pivotal Study, the remaining masses will be reserved for training the&#xD;
+      SenoGram® model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be a controlled, blinded, multi-reader, multi-case (MRMC) study using a sequential&#xD;
+      design. The study will include 15 readers with an additional 5 as back-up readers depending&#xD;
+      on qualifications and availability. Readers that participated in the Seno PIONEER Study&#xD;
+      (NCT01943916) or the Reader-01 Feasibility Study (NCT03708393) are not eligible to&#xD;
+      participate as readers in this Pivotal Study.&#xD;
+&#xD;
+      Imagio® [Ultrasound (IUS) + Optoacoustic (OA)] (IUS)(IUS+OA) training will be completed prior&#xD;
+      to any reads taking place. Read 1 will be immediately followed by Read 2 within the same read&#xD;
+      session.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 30, 2019</start_date>
+  <completion_date type="Actual">November 3, 2019</completion_date>
+  <primary_completion_date type="Actual">November 3, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>This will be a controlled, blinded, multi-reader, multi-case (MRMC) study using a sequential design. The study will include 15 readers with an additional 5 as back-up readers depending on qualifications and availability. Readers that participated in the Seno PIONEER Study or the Reader-01 Feasibility Study are not eligible to participate as readers in this Pivotal Study.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+    <masking_description>Readers will not be provided with information regarding the initial patient diagnosis</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Gain in Specificity at Fixed 98% Sensitivity (fSp)</measure>
+    <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+    <description>Primary effectiveness endpoint was the difference (gain) in specificity (fSp) at fixed 98% sensitivity for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). fSp derived from empirical receiver operating characteristic (ROC) using endpoint interpolation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Negative Likelihood Ratio (NLR)</measure>
+    <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+    <description>NLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). NLR = [(1-sensitivity) / specificity].</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive Likelihood Ratio (PLR)</measure>
+    <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+    <description>PLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). PLR = [sensitivity / (1-specificity)].</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Partial Area Under the Curve (pAUC)</measure>
+    <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+    <description>pAUC considers only the region of the area under the ROC curve that corresponds to clinically relevant values of sensitivity, defined as 95% to 100%, for Imagio IUS+OA vs. IUS alone, averaged across 15 readers. Both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). A higher pAUC indicates better diagnostic accuracy.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">480</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Imagio IUS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Read 1 (Control): History + Mammogram (if available) + IUS (Imagio Ultrasound) stills and videos provided), IUS Probability of Malignancy (POM) and Breast Imaging Reporting and Data System (BI-RADS) scored and the data form then locked.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Imagio (IUS+OA)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Read 2 (Test): History + Mammogram (if available) + IUS (stills and videos provided), and Imagio (IUS+OA) (stills and videos provided). Imagio (IUS+OA) POM and Breast Imaging Reporting and Data System (BI-RADS) assigned after viewing the SenoGram® output. The dataform is locked.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Reader Study - Imagio Ultrasound</intervention_name>
+    <description>Imagio ultrasound images to be reviewed as part of Reader study</description>
+    <arm_group_label>Imagio IUS</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Reader Study Imagio Ultrasound + Optoacoustic Imaging</intervention_name>
+    <description>Imagio Ultrasound + Optoacoustic images to be reviewed as part of Reader study</description>
+    <arm_group_label>Imagio (IUS+OA)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Mammography</intervention_name>
+    <description>Mammography as available per standard of care</description>
+    <arm_group_label>Imagio (IUS+OA)</arm_group_label>
+    <arm_group_label>Imagio IUS</arm_group_label>
+    <other_name>Mammo</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  One analyzable mass per patient: BI-RADS 3 and 4a, 4b, 4c and 5 masses as declared by&#xD;
+             clinical site investigator via PIONEER study inclusion criteria and categorized as&#xD;
+             BIRADS 3, 4a, 4b 4c and 5 by conventional diagnostic ultrasound (CDU)&#xD;
+&#xD;
+          -  Masses declared to be in the PIONEER Intention to Diagnose (ITD)/analysis population,&#xD;
+             including high risk cases per original PIONEER protocol&#xD;
+&#xD;
+          -  Patient age, indication for study entry and available medical history&#xD;
+&#xD;
+          -  Evaluable mammograms and OA and IUS video loops and stills for each mass&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Critical missing IUS or OA still image and/or video loop views or incorrect IUS or OA&#xD;
+             stills and video loops that would preclude a case from being evaluated by readers&#xD;
+&#xD;
+          -  Reader-02 Proficiency Test and training cases&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Images from female patients</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shaan Schaeffer</last_name>
+    <role>Study Director</role>
+    <affiliation>Seno Medical</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>American College of Radiology Center for Research and Innovation</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>May 22, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 18, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 23, 2019</study_first_posted>
+  <results_first_submitted>February 10, 2021</results_first_submitted>
+  <results_first_submitted_qc>April 9, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 4, 2021</results_first_posted>
+  <disposition_first_submitted>April 2, 2020</disposition_first_submitted>
+  <disposition_first_submitted_qc>April 9, 2021</disposition_first_submitted_qc>
+  <disposition_first_posted type="Actual">May 4, 2021</disposition_first_posted>
+  <last_update_submitted>July 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 4, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/04/NCT04030104/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>New Independent Reader Study (new readers re-reading a sub-set of randomly selected images acquired during PIONEER-01 Study- (NCT01943916)). Reader-02 study execution dates: 30 Jul 2019 to 3 Nov 2019</recruitment_details>
+      <pre_assignment_details>Imagio Ultrasound (IUS) and Imagio optoacoustic/ultrasound (IUS+OA) images of breast masses previously acquired from the PIONEER-01 study (NCT01943916) referenced above were used for this study. Reader-02 was a single-arm sequentially read multi reader/case (MRMC) study comparing IUS vs Imagio (IUS+OA). New readers were recruited-NO new subjects/masses. Results were based on biopsy diagnosis or truth panel decision as ground truth obtained during PIONEER-01.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Overall (Subjects Randomly Selected From PIONEER-01 Study)</title>
+          <description>Each subject had one mass that was read by all readers. Each subject served as her own control, with imaging of each mass by both IUS and IUS+OA modalities. Therefore, baseline data are for overall population only.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="480"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="480"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Intent-to-diagnose (ITD)</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Overall (Subjects Randomly Selected From PIONEER-01 Study)</title>
+          <description>Each subject had one mass that was read by all readers. Each subject served as her own control, with imaging of each mass by both IUS and IUS+OA modalities. Therefore, baseline data derived from PIONEER-01 for sub set of 480 cases read during Reader-02 Study.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="480"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="49.9" spread="14.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="480"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="87"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="387"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="389"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="480"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Mass Diagnosis</title>
+          <description>Mass diagnosis by biopsy result or Truth Panel decision</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Subjects (Benign+TPB+HR)</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="300"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Subjects (Cancer)</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="180"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Gain in Specificity at Fixed 98% Sensitivity (fSp)</title>
+        <description>Primary effectiveness endpoint was the difference (gain) in specificity (fSp) at fixed 98% sensitivity for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). fSp derived from empirical receiver operating characteristic (ROC) using endpoint interpolation.</description>
+        <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+        <population>Intent-to-diagnose (ITD)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>IUS Alone</title>
+            <description>IUS alone imaging</description>
+          </group>
+          <group group_id="O2">
+            <title>Imagio (IUS+OA)</title>
+            <description>IUS+OA imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Gain in Specificity at Fixed 98% Sensitivity (fSp)</title>
+          <description>Primary effectiveness endpoint was the difference (gain) in specificity (fSp) at fixed 98% sensitivity for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). fSp derived from empirical receiver operating characteristic (ROC) using endpoint interpolation.</description>
+          <population>Intent-to-diagnose (ITD)</population>
+          <units>% benign+TPB masses correctly identified</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="480"/>
+                <count group_id="O2" value="480"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="38.22" lower_limit="24.85" upper_limit="51.59"/>
+                    <measurement group_id="O2" value="47.20" lower_limit="35.91" upper_limit="58.49"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.0268</p_value>
+            <p_value_desc>Threshold for statistical significance &lt;0.05</p_value_desc>
+            <method>Random Reader, Random Mass</method>
+            <method_desc>Curve Fitting Method: Empirical</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Negative Likelihood Ratio (NLR)</title>
+        <description>NLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). NLR = [(1-sensitivity) / specificity].</description>
+        <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+        <population>Intent-to-diagnose (ITD)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Imagio Alone</title>
+            <description>IUS alone imaging</description>
+          </group>
+          <group group_id="O2">
+            <title>Imagio (IUS+OA)</title>
+            <description>IUS+OA imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Negative Likelihood Ratio (NLR)</title>
+          <description>NLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). NLR = [(1-sensitivity) / specificity].</description>
+          <population>Intent-to-diagnose (ITD)</population>
+          <units>Ratio</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="480"/>
+                <count group_id="O2" value="480"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.053" lower_limit="0.037" upper_limit="0.070"/>
+                    <measurement group_id="O2" value="0.047" lower_limit="0.032" upper_limit="0.062"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Positive Likelihood Ratio (PLR)</title>
+        <description>PLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). PLR = [sensitivity / (1-specificity)].</description>
+        <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+        <population>Total population of subjects/masses</population>
+        <group_list>
+          <group group_id="O1">
+            <title>IUS Alone</title>
+            <description>IUS alone imaging</description>
+          </group>
+          <group group_id="O2">
+            <title>Imagio (IUS+OA)</title>
+            <description>IUS+OA imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Positive Likelihood Ratio (PLR)</title>
+          <description>PLR for the Imagio IUS+OA relative to IUS alone, across all 15 independent readers; both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). PLR = [sensitivity / (1-specificity)].</description>
+          <population>Total population of subjects/masses</population>
+          <units>Ratio</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="480"/>
+                <count group_id="O2" value="480"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.548" lower_limit="1.498" upper_limit="1.597"/>
+                    <measurement group_id="O2" value="1.959" lower_limit="1.870" upper_limit="2.051"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Partial Area Under the Curve (pAUC)</title>
+        <description>pAUC considers only the region of the area under the ROC curve that corresponds to clinically relevant values of sensitivity, defined as 95% to 100%, for Imagio IUS+OA vs. IUS alone, averaged across 15 readers. Both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). A higher pAUC indicates better diagnostic accuracy.</description>
+        <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+        <population>Intent-to-diagnose (ITD)</population>
+        <group_list>
+          <group group_id="O1">
+            <title>IUS Alone</title>
+            <description>IUS Alone Imaging</description>
+          </group>
+          <group group_id="O2">
+            <title>Imagio (IUS+OA)</title>
+            <description>IUS+OA imaging</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Partial Area Under the Curve (pAUC)</title>
+          <description>pAUC considers only the region of the area under the ROC curve that corresponds to clinically relevant values of sensitivity, defined as 95% to 100%, for Imagio IUS+OA vs. IUS alone, averaged across 15 readers. Both imaging modalities used in each subject (subject as own control); results for each imaging modality compared to biopsy diagnosis or 12-month follow-up ruling of benign as determined by truth panel (ground truth). A higher pAUC indicates better diagnostic accuracy.</description>
+          <population>Intent-to-diagnose (ITD)</population>
+          <units>Percentage of Probability</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="480"/>
+                <count group_id="O2" value="480"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.0205" lower_limit="0.0191" upper_limit="0.0219"/>
+                    <measurement group_id="O2" value="0.0244" lower_limit="0.0230" upper_limit="0.0258"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Baseline to 12 months +/- 30 days follow-up</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Overall (Subjects Randomly Selected From PIONEER-01 Study)</title>
+          <description>Each subject had one mass that was read by all readers. Each subject served as her own control, with imaging of each mass by both IUS and IUS+OA modalities. Therefore, safety data are for overall population only.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_vocab>MedDRA 16.0</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="480"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Device breakage</sub_title>
+                <description>Right saline breast implant rupture</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Neoplasms benign, malignant and unspecified (incl cysts and polyps)</title>
+            <event_list>
+              <event>
+                <sub_title>Lung cancer</sub_title>
+                <description>Non-small cell lung cancer Stage I</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_vocab>MedDRA 16.0</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="14" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Tachycardia</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Hepatobiliary disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Gallbladder disorder</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>Postoperative wound infection</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Contusion</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+              <event>
+                <sub_title>Post-procedural haematoma</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+              <event>
+                <sub_title>Procedural dizziness</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+              <event>
+                <sub_title>Upper limb fracture</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Musculoskeletal and connective tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Muscle spasms</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Nervous system disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Paraesthesia</sub_title>
+                <description>Tingling sensation</description>
+                <counts group_id="E1" events="5" subjects_affected="5" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Skin and subcutaneous tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Dermatitis contact</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+              <event>
+                <sub_title>Skin warm</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hypertension</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="480"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The results of the study are the property of Seno Medical Instruments, Inc. All publications (manuscripts, abstracts or other modes of presentation) must be submitted and reviewed and approved in writing by Seno Medical Instruments, Inc., in advance of submission. The over all study results will first be submitted as a primary paper.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Vice President of Clinical Operations</name_or_title>
+      <organization>Seno Medical Instruments, Inc.</organization>
+      <phone>210-615-6501</phone>
+      <email>sschaeffer@senomedical.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

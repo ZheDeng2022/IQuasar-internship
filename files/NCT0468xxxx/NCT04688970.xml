@@ -1,0 +1,602 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04688970</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BNP-2020-09</org_study_id>
+    <nct_id>NCT04688970</nct_id>
+  </id_info>
+  <brief_title>Personalized Neurorehabilitative Precision Medicine - From Data to Therapies</brief_title>
+  <acronym>MWKNeuroReha</acronym>
+  <official_title>Personalized Neurorehabilitative Precision Medicine - From Data to Therapies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital Tuebingen</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Interfaculty Institute for Biomedical Informatics (IBMI)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Cluster of Excellence - Machine Learning for Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Department for diagnostic and interventional neuroradiology, University hospital of Tuebingen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Deparmet of biomedical magnetic resonance, University hospital of Tuebingen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kliniken Schmieder</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>SRH-Kliniken</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital Tuebingen</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Stroke is the most common neurological disease leaving one third dead and one third with&#xD;
+      permanent impairment despite best medical treatment. The aim of the present study is to&#xD;
+      investigate why patients differ in how they benefit from neurorehabilitation by collecting&#xD;
+      clinical, electrophysiological, imaging and laboratory data in the acute phase of stroke as&#xD;
+      well as later on during rehabilitation and after 90 days. Following a closed-loop approach&#xD;
+      the data is analyzed by a machine learning algorithm to create a personalized&#xD;
+      neurorehabilitation strategy.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinical tests: Each subject will be assessed using the following tests:&#xD;
+&#xD;
+      National Institute of Health Stroke Scale (NIHSS): The NIHSS is part of the usual highly&#xD;
+      standardized stroke workup. It consists of 15 items which can be scored with 0 to 4 points&#xD;
+      maximum. It is used to measure stroke severity as well as impairment and to detect&#xD;
+      improvement or deterioration of the patient. A high score corresponds to a severe stroke.&#xD;
+&#xD;
+      FMA for UE and sensory system: The FMA for the UE and the sensory system describes the&#xD;
+      sensory-motor impairment of the arm after stroke. It consists of 66 items for the motor&#xD;
+      function of the UE and 24 items for the sensory function scored from 0 to 2. A high score&#xD;
+      corresponds to high function. It is not part of the usual stroke workup. The change of the&#xD;
+      FMA for UE after 90 days compared to the first score obtained on the stroke unit during the&#xD;
+      acute phase of the stroke event will serve as the primary endpoint of this study.&#xD;
+&#xD;
+      Shoulder abduction finger extension (SAFE) score: To calculate the SAFE score shoulder&#xD;
+      abduction and finger extension is measured using the classification of the British Medical&#xD;
+      Research Council (MRC). The MRC scale scores muscle strength from 0 (no movement) to 5&#xD;
+      (normal power). The scores are added up producing a value from 0 to 10. A score of 5 or more&#xD;
+      predicts a good or excellent outcome after stroke affecting the UE. It is not part of the&#xD;
+      usual stroke workup.&#xD;
+&#xD;
+      Grip strength: The grip strength can be quantified using a dynamometer. The best out of three&#xD;
+      trials counts. It is not part of the usual stroke workup.&#xD;
+&#xD;
+      Bells test: The Bells test assesses neglect by requesting the subjects to cross all the bells&#xD;
+      (n = 35) which are mixed with distractors. Missing 5 bells counts as evidence for neglect. It&#xD;
+      is not part of the usual stroke workup.&#xD;
+&#xD;
+      Aphasie-Schnelltest (AST): The AST is a short test for patients with acute aphasia scored&#xD;
+      from 0 to 31 and inspecting comprehension, talking, reading, and writing. A low score&#xD;
+      reflects severe aphasia. It is not part of the usual stroke workup.&#xD;
+&#xD;
+      mRS: The mRS is a widely used test to determine impairment and dependency after stroke on a&#xD;
+      scale ranging from 0 (no symptoms) over 1 (symptoms but no disability), 2 (slight&#xD;
+      disability), 3 (requires help, but can walk without assistance), 4 (cannot walk without&#xD;
+      assistance), 5 (bedridden, severe disability, requires constant nursing) to 6 (death). It is&#xD;
+      part of the usual stroke workup.&#xD;
+&#xD;
+      Barthel Index (BI): Like the mRS the BI is part of the usual stroke workup. It measures&#xD;
+      abilities of daily living. The items can be scored from 0 to 15 points maximum, adding up to&#xD;
+      0 to 100 points. A high score reflects high independency.&#xD;
+&#xD;
+      Action Research Arm Test (ARAT): The ARAT assesses the range of activity of the UE after&#xD;
+      stroke. It consists of the subscales grasp, grip, pinch and gross movements which are scored&#xD;
+      from 0 (no movement) over 1 (movement only partially possible), 2 (movement possible but only&#xD;
+      with great difficulty or needing much time) to 3 (normal movement), adding up to 57 points&#xD;
+      maximum. A score with less than 10 points reflects severe impairment. It is not part of the&#xD;
+      usual stroke workup.&#xD;
+&#xD;
+      Stroke Specific Quality Of Life scale (SS-QOL): The SS-QOL measures health related quality of&#xD;
+      life. It consists of 49 items which are scored from 1 to 5, adding up to 29-245 points. A&#xD;
+      high score reflects high quality of life. It is not part of the usual stroke workup.&#xD;
+&#xD;
+      Beck's Depression Inventory (BDI): The BDI is a depression screening tool consisting of 21&#xD;
+      items which are scored from 0 to 3, adding up to 0 to 63 points. A high score reflects high&#xD;
+      possibility of depression, the threshold for a diagnosis of depression is 10. It is not part&#xD;
+      of the usual stroke workup.&#xD;
+&#xD;
+      Apart from the clinical tests described above clinical data (e. g. vital parameters,&#xD;
+      medication etc.) will be collected. In the Universitätsklinikum Tübingen (UKT) this data will&#xD;
+      be retrieved automatically from the clinic system. In the rehabilitation facilities number&#xD;
+      and duration of therapies as well as independent training of the patient will be documented&#xD;
+      and classified according to the type of neurorehabilitative training (e. g., with or without&#xD;
+      equipment). In addition, therapy-influencing co-factors like support by relatives are&#xD;
+      registered using a questionnaire with a scale from 0-3 (never/very poor to daily/very good).&#xD;
+&#xD;
+      Laboratory workup: Routine laboratory workup as part of the usual stroke workup will be&#xD;
+      collected.&#xD;
+&#xD;
+      Imaging: For each subject neuroimaging is acquired. If possible and meaningful, MRI is&#xD;
+      conducted including diffusion weighted imaging (DWI), fluid attenuated inversion recovery&#xD;
+      (FLAIR) and a Magnetic Prepared-Rapid Gradient Echo (MP-Rage) sequence. The first two&#xD;
+      sequences are part of the usual stroke workup, the MP-RAGE sequence is added to obtain a 3D&#xD;
+      anatomical data set for exact assessment of the localization and volume estimation of the&#xD;
+      stroke lesion.&#xD;
+&#xD;
+      The MRI images will be acquired at a 1,5 or 3 Tesla MRI scanner in the neuroradiological&#xD;
+      department of the UKT. The patient is placed in the scanner with earplugs and an emergency&#xD;
+      ball. Visual and verbal contact to the patient is maintained from the control room. Before&#xD;
+      scanning, patients are always evaluated by a medical doctor for MRI contraindications.&#xD;
+&#xD;
+      If an MRI is neither meaningful nor available or there are contraindications, a cranial&#xD;
+      computed tomography (CT) in the neuroradiological department will be performed. CTs are part&#xD;
+      of the usual stroke work-up, there will be no additional scanning apart from what is&#xD;
+      clinically necessary.&#xD;
+&#xD;
+      Functional MRI (fMRI): fMRI measures the blood-oxygenation-level dependent effect e. g.&#xD;
+      corresponding to specific task like moving the hand (task-related fMRI). Resting-state MRI&#xD;
+      determines functional brain networks of synchronized neural activity while the subject is&#xD;
+      resting (i.e. not performing a task). Resting-state fMRI and task-related fMRI will provide&#xD;
+      information about functional and effective connectivity, respectively. fMRI is not part of&#xD;
+      the usual stroke workup and requires additional scanning.&#xD;
+&#xD;
+      The fMRI images will be acquired at a Siemens 3 Tesla MRI scanner in the MRI Research Center&#xD;
+      of Tübingen (Department Biomedizinische Magnetresonanz, Prof. Dr. phil. nat. Dipl.-Phys.&#xD;
+      Klaus Scheffler, Hoppe-Seyler-Str. 3, 72076 Tübingen). The patient is placed in the scanner&#xD;
+      with earplugs and an emergency ball. Visual and verbal contact to the patient is maintained&#xD;
+      from the control room. No drugs or contrast agents are used during fMRI examinations.&#xD;
+&#xD;
+      For the task-related fMRI the patient will be asked to perform stereotypical whole-hand fist&#xD;
+      closings.&#xD;
+&#xD;
+      Patients are evaluated by a medical doctor for MRI contra-indications and need to give&#xD;
+      written informed consent before the scan. The investigators do not consider dental retainer&#xD;
+      wires over four teeth at most a contraindication. However, subjects will be informed&#xD;
+      additionally about current scientific consent and instructed to press the emergency ball in&#xD;
+      the unexpected case of heating of the retainer wire.&#xD;
+&#xD;
+      EEG: Resting-state EEG will be obtained using a 21-channel or 64-channel gel filled sintered&#xD;
+      ring electrode EEG cap (EasyCap, Munich, Germany) using the same optically isolated amplifier&#xD;
+      as described above (MEGA NeurOne Tesla, Kuopio, Finland). EEG will be recorded with eyes&#xD;
+      closed and eyes open for three minutes each in the same session in which the TEP and MEPs&#xD;
+      (described below) are acquired. EEG will always be performed before TMS (needed for TEPs and&#xD;
+      MEPs). If epileptic potentials are detected in EEG indicating an increased risk of seizure in&#xD;
+      the patient, TMS will not be conducted.&#xD;
+&#xD;
+      Electrooculography (EOG): Eye movements will be recorded from additional bipolar channels&#xD;
+      using the same optically isolated amplifier as for electromyography (EMG) and EEG recordings&#xD;
+      (MEGA NeurOne Tesla, see above). The EOG data will be used to aid EEG artefact rejection from&#xD;
+      eye movements and as a behavioral readout in saccade and decision tasks.&#xD;
+&#xD;
+      TMS: TMS is a technique which evokes action potentials in cortex with a spatiotemporal&#xD;
+      precision of millimeters and milliseconds. Conventional TMS stimulators (Mag &amp; More, Munich,&#xD;
+      Germany, Research 100; Magstim 200 als BiStim bzw. 1-4 Quadripulse Option; Magstim Super&#xD;
+      Rapid Plus) and EEG compatible coils will be used. Experiments will be MRI-guided, using a&#xD;
+      TMS navigator system (Localite GmbH) to map the exact individual stimulation sites. Subjects&#xD;
+      will be seated on a comfortable reclining chair with both arms relaxed.&#xD;
+&#xD;
+      EMG/MEP: Surface EMG will be obtained through an optically isolated battery powered biosignal&#xD;
+      amplifier (MEGA NeurOne Tesla, see above) using bipolar electrodes from hand muscles (first&#xD;
+      dorsal interosseous and abductor pollicis brevis extensor capri radialis muscles). MEPs are&#xD;
+      executed with pre-innervation of the target muscle or - if not possible - the contralateral&#xD;
+      side and maximum stimulator output (if required) to determine if the patient is MEP- or MEP+&#xD;
+      (at least 50 μV peak-to-peak amplitude in the target muscle in at least 5 out of 10&#xD;
+      consecutive trials). In case of MEP-, a paired-pulse protocol is conducted, which increases&#xD;
+      the probability to evoke a MEP and consecutively re-classify the subject as MEP+.&#xD;
+&#xD;
+      EEG/TEP: TEPs will be recorded with a TMS-compatible gel filled sintered ring electrode EEG&#xD;
+      cap with at least 64 channels (EasyCap, Munich, Germany) using the same optically isolated&#xD;
+      amplifier as described above (MEGA NeurOne Tesla, see above). During the EEG recordings at&#xD;
+      least 100 trials of single TMS pulses are applied to the motor hotspot of the ipsilesional M1&#xD;
+      with a randomly jittered inter-trial interval of 7-8.0 s with 80% resting motor threshold&#xD;
+      (RMT). RMT is defined as stimulus intensity needed to evoke MEPs of 50 μV peak-to-peak&#xD;
+      amplitude in the target muscle in at least 5 out of 10 consecutive trials and will be&#xD;
+      determined for ipsilesional and contralesional M1. If no MEPs are detectable from the&#xD;
+      ipsilesional M1, the investigators will use the contralesional M1 for determining RMT and&#xD;
+      stimulator output and anatomical landmarks like the hand knob for locating the hotspot. To&#xD;
+      avoid auditory evoked potentials from the clicking noise of the coil patients will wear&#xD;
+      earplugs. Bone conductions is prevented by placing a thin layer of plastic film between the&#xD;
+      TMS coil and the EEG cap.&#xD;
+&#xD;
+      List of measurements which are part of the usual stroke workup:&#xD;
+&#xD;
+        -  Clinical tests: NIHSS, mRS, BI&#xD;
+&#xD;
+        -  Routine laboratory workup&#xD;
+&#xD;
+        -  Imaging: CT or MRI (depending on medical indication)&#xD;
+&#xD;
+      List of measurements which are not part of the usual stroke workup:&#xD;
+&#xD;
+        -  Clinical tests: FMA for UE and the sensory system, SAFE score, grip strength, Bells&#xD;
+           Test, AST, ARAT, SS-QOL scale, BDI&#xD;
+&#xD;
+        -  Imaging: fMRI&#xD;
+&#xD;
+        -  Electrophysiological measurements: EEG, MEPs, TEPs&#xD;
+&#xD;
+      Endpoints&#xD;
+&#xD;
+      Primary endpoint: Change in FMA of UE 3 months after the stroke event compared to FMA of UE&#xD;
+      within the first 25-48 hours after stroke onset.&#xD;
+&#xD;
+      Secondary end points: Secondary endpoints will be quality of life, independency and range of&#xD;
+      activity of the UE measured by SS-QOL, mRS, BI and ARAT respectively 3 months after the&#xD;
+      stroke event compared to the respective values obtained in the acute phase.&#xD;
+&#xD;
+      Subject inclusion and exclusion criteria&#xD;
+&#xD;
+      Inclusion criteria:&#xD;
+&#xD;
+        -  Subject is 18 years or above.&#xD;
+&#xD;
+        -  Subject has an acute stroke affecting one UE (FMA less than 50).&#xD;
+&#xD;
+        -  Subject or caregiver understands the study and its procedures and gives informed&#xD;
+           consent.&#xD;
+&#xD;
+        -  If the subject is not able to give informed consent:&#xD;
+&#xD;
+           o The assumed will of the patient is to be determined by the patient's provision (if&#xD;
+           existing), the health care proxy (if existing) and/or the moral concepts expressed by&#xD;
+           the patient to close relatives.&#xD;
+&#xD;
+        -  o The legal representative gives informed consent because participation is the assumed&#xD;
+           will of the patient as assessed by the aforementioned points.&#xD;
+&#xD;
+      Exclusion criteria:&#xD;
+&#xD;
+        -  Subject is less than 18 years old.&#xD;
+&#xD;
+        -  The subject does not have an acute stroke, or stroke does not affect the UE, or FMA &gt;&#xD;
+           50.&#xD;
+&#xD;
+        -  Subject or caregiver legal representative cannot give informed consent.&#xD;
+&#xD;
+        -  Patient has an intracranial implant (e.g., aneurysm clips, shunts, stimulators, cochlear&#xD;
+           implants, or electrodes) or any other metal object within or near the head (excluding&#xD;
+           the mouth) that cannot be safely removed.&#xD;
+&#xD;
+        -  Subject has a history of any illness that, in the opinion of the study investigator,&#xD;
+           might confound the results of the study or poses an additional risk to the subject by&#xD;
+           their participation in the study.&#xD;
+&#xD;
+        -  There is any concern by the investigator regarding the safe participation of the subject&#xD;
+           in the study, or for any other reason the investigator considers the subject&#xD;
+           inappropriate for participation in the study.&#xD;
+&#xD;
+        -  Subject is pregnant.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 1, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Motor outcome of the upper extremity (UE) after acute stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>Fugl-Meyer Assessment for the upper extremity (FMA-UE) in the acute phase compared to the result after 90 days.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Functional outcome of the UE after acute stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>Action Research Arm Test (ARAT) in the acute phase compared to the result after 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Independency in daily life after acute stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>Modified Ranking Scale (mRS) in the acute phase compared to the result after 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Independency in daily life after acute stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>Barthel Index (BI) in the acute phase compared to the result after 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Qualitiy of life after acute stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>Stroke-Specific Quality Of Life scale (SS-QOL) scale in the acute phase compared to the result after 90 days.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Stroke, Acute</condition>
+  <condition>Outcome, Improvement</condition>
+  <condition>Rehabilitation</condition>
+  <condition>Upper Extremity Paresis</condition>
+  <arm_group>
+    <arm_group_label>Acute stroke with affection of the upper extremity</arm_group_label>
+    <description>Subject is 18 years or above.&#xD;
+Subject has an acute stroke affecting one UE (FMA less than 50).&#xD;
+Subject or caregiver understands the study and its procedures and gives informed consent.&#xD;
+If the subject is not able to give informed consent:&#xD;
+The assumed will of the patient is to be determined by the patient's provision (if existing), the health care proxy (if existing) and/or the moral concepts expressed by the patient to close relatives.&#xD;
+The legal representative gives informed consent because participation is the assumed will of the patient as assessed by the aforementioned points.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>no intervention</intervention_name>
+    <description>no intervention</description>
+    <arm_group_label>Acute stroke with affection of the upper extremity</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We aim to include all patients with acute stroke affecting the UE (FMA less than 50) on our&#xD;
+        SU. Other symptoms like aphasia or neglect are no reason for exclusion since we intend to&#xD;
+        include as many patients as possible to capture the whole spectrum of stroke from mild to&#xD;
+        severe. Especially the last case, the inclusion of severely affected patients, is of utmost&#xD;
+        importance in our view. Due to their grave impairments they have the greatest need for&#xD;
+        neurorehabilitation; at the same time, this group of patients is the most vulnerable&#xD;
+        because of their preexisting comorbidities and conditions coming with immobility e. g.&#xD;
+        pneumonia. A personalized treatment would meet their need for intense rehabilitation while&#xD;
+        providing enough recreation time since unnecessary, ineffective rehabilitation could be&#xD;
+        omitted.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Subject is 18 years or above.&#xD;
+&#xD;
+          -  Subject has an acute stroke affecting one UE (FMA less than 50).&#xD;
+&#xD;
+          -  Subject or understands the study and its procedures and gives informed consent.&#xD;
+&#xD;
+          -  If the subject is not able to give informed consent:&#xD;
+&#xD;
+               -  The assumed will of the patient is to be determined by the patient's provision&#xD;
+                  (if existing), the health care proxy (if existing) and/or the moral concepts&#xD;
+                  expressed by the patient to close relatives.&#xD;
+&#xD;
+               -  The legal representative gives informed consent because participation is the&#xD;
+                  assumed will of the patient as assessed by the aforementioned points.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subject is less than 18 years old.&#xD;
+&#xD;
+          -  The subject does not have an acute stroke, or stroke does not affect the UE, or FMA &gt;&#xD;
+             50.&#xD;
+&#xD;
+          -  Subject or legal representative cannot give informed consent.&#xD;
+&#xD;
+          -  Patient has an intracranial implant (e.g., aneurysm clips, shunts, stimulators,&#xD;
+             cochlear implants, or electrodes) or any other metal object within or near the head&#xD;
+             (excluding the mouth) that cannot be safely removed.&#xD;
+&#xD;
+          -  Subject has a history of any illness that, in the opinion of the study investigator,&#xD;
+             might confound the results of the study or poses an additional risk to the subject by&#xD;
+             their participation in the study.&#xD;
+&#xD;
+          -  There is any concern by the investigator regarding the safe participation of the&#xD;
+             subject in the study, or for any other reason the investigator considers the subject&#xD;
+             inappropriate for participation in the study.&#xD;
+&#xD;
+          -  Subject is pregnant.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ulf Ziemann, PhD, M. d., Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Head of the department of neurology of the university hospital Tuebingen and Hertie-Institut for clinical brain research</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Corinna Blum, PhD, M.d.</last_name>
+    <phone>+4970712961788</phone>
+    <email>neuroreha@med.uni-tuebingen.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Christine Rösinger-Hein, PhD</last_name>
+    <phone>+4970712961788</phone>
+    <email>neuroreha@med.uni-tuebingen.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University hospital of Tuebingen</name>
+      <address>
+        <city>Tuebingen</city>
+        <state>Baden-Württemberg</state>
+        <zip>72076</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Corinna Blum, PhD, m. d.</last_name>
+      <phone>+4970712961788</phone>
+      <email>neuroreha@med.uni-tuebingen.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Christine Rösinger-Hein, PhD</last_name>
+      <phone>+4970712961788</phone>
+      <email>neuroreha@med.uni-tuebingen.de</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <reference>
+    <citation>Brott T, Adams HP Jr, Olinger CP, Marler JR, Barsan WG, Biller J, Spilker J, Holleran R, Eberle R, Hertzberg V, et al. Measurements of acute cerebral infarction: a clinical examination scale. Stroke. 1989 Jul;20(7):864-70.</citation>
+    <PMID>2749846</PMID>
+  </reference>
+  <reference>
+    <citation>Casali AG, Gosseries O, Rosanova M, Boly M, Sarasso S, Casali KR, Casarotto S, Bruno MA, Laureys S, Tononi G, Massimini M. A theoretically based index of consciousness independent of sensory processing and behavior. Sci Transl Med. 2013 Aug 14;5(198):198ra105. doi: 10.1126/scitranslmed.3006294.</citation>
+    <PMID>23946194</PMID>
+  </reference>
+  <reference>
+    <citation>Chen HF, Lin KC, Wu CY, Chen CL. Rasch validation and predictive validity of the action research arm test in patients receiving stroke rehabilitation. Arch Phys Med Rehabil. 2012 Jun;93(6):1039-45. doi: 10.1016/j.apmr.2011.11.033. Epub 2012 Mar 14.</citation>
+    <PMID>22420887</PMID>
+  </reference>
+  <reference>
+    <citation>Compston A. Aids to the investigation of peripheral nerve injuries. Medical Research Council: Nerve Injuries Research Committee. His Majesty's Stationery Office: 1942; pp. 48 (iii) and 74 figures and 7 diagrams; with aids to the examination of the peripheral nervous system. By Michael O'Brien for the Guarantors of Brain. Saunders Elsevier: 2010; pp. [8] 64 and 94 Figures. Brain. 2010 Oct;133(10):2838-44.</citation>
+    <PMID>20928945</PMID>
+  </reference>
+  <reference>
+    <citation>Drozdowska BA, Singh S, Quinn TJ. Thinking About the Future: A Review of Prognostic Scales Used in Acute Stroke. Front Neurol. 2019 Mar 21;10:274. doi: 10.3389/fneur.2019.00274. eCollection 2019. Review.</citation>
+    <PMID>30949127</PMID>
+  </reference>
+  <reference>
+    <citation>Fanciullacci C, Bertolucci F, Lamola G, Panarese A, Artoni F, Micera S, Rossi B, Chisari C. Delta Power Is Higher and More Symmetrical in Ischemic Stroke Patients with Cortical Involvement. Front Hum Neurosci. 2017 Jul 28;11:385. doi: 10.3389/fnhum.2017.00385. eCollection 2017.</citation>
+    <PMID>28804453</PMID>
+  </reference>
+  <reference>
+    <citation>Finnigan S, van Putten MJ. EEG in ischaemic stroke: quantitative EEG can uniquely inform (sub-)acute prognoses and clinical management. Clin Neurophysiol. 2013 Jan;124(1):10-9. doi: 10.1016/j.clinph.2012.07.003. Epub 2012 Aug 2. Review.</citation>
+    <PMID>22858178</PMID>
+  </reference>
+  <reference>
+    <citation>Gladstone DJ, Danells CJ, Black SE. The fugl-meyer assessment of motor recovery after stroke: a critical review of its measurement properties. Neurorehabil Neural Repair. 2002 Sep;16(3):232-40. Review.</citation>
+    <PMID>12234086</PMID>
+  </reference>
+  <reference>
+    <citation>Grefkes C, Nowak DA, Eickhoff SB, Dafotakis M, Küst J, Karbe H, Fink GR. Cortical connectivity after subcortical stroke assessed with functional magnetic resonance imaging. Ann Neurol. 2008 Feb;63(2):236-46.</citation>
+    <PMID>17896791</PMID>
+  </reference>
+  <reference>
+    <citation>Huţanu A, Iancu M, Bălaşa R, Maier S, Dobreanu M. Predicting functional outcome of ischemic stroke patients in Romania based on plasma CRP, sTNFR-1, D-Dimers, NGAL and NSE measured using a biochip array. Acta Pharmacol Sin. 2018 Jul;39(7):1228-1236. doi: 10.1038/aps.2018.26. Epub 2018 Jun 21.</citation>
+    <PMID>29926842</PMID>
+  </reference>
+  <reference>
+    <citation>He L, Wang J, Dong W. The clinical prognostic significance of hs-cTnT elevation in patients with acute ischemic stroke. BMC Neurol. 2018 Aug 20;18(1):118. doi: 10.1186/s12883-018-1121-5.</citation>
+    <PMID>30124165</PMID>
+  </reference>
+  <reference>
+    <citation>Heo J, Yoon JG, Park H, Kim YD, Nam HS, Heo JH. Machine Learning-Based Model for Prediction of Outcomes in Acute Stroke. Stroke. 2019 May;50(5):1263-1265. doi: 10.1161/STROKEAHA.118.024293.</citation>
+    <PMID>30890116</PMID>
+  </reference>
+  <reference>
+    <citation>Kasner SE. Clinical interpretation and use of stroke scales. Lancet Neurol. 2006 Jul;5(7):603-12. Review.</citation>
+    <PMID>16781990</PMID>
+  </reference>
+  <reference>
+    <citation>Kim B, Winstein C. Can Neurological Biomarkers of Brain Impairment Be Used to Predict Poststroke Motor Recovery? A Systematic Review. Neurorehabil Neural Repair. 2017 Jan;31(1):3-24. Epub 2016 Aug 8. Review.</citation>
+    <PMID>27503908</PMID>
+  </reference>
+  <reference>
+    <citation>Leão MT, Naros G, Gharabaghi A. Detecting poststroke cortical motor maps with biphasic single- and monophasic paired-pulse TMS. Brain Stimul. 2020 Jul - Aug;13(4):1102-1104. doi: 10.1016/j.brs.2020.05.005. Epub 2020 May 8.</citation>
+    <PMID>32418913</PMID>
+  </reference>
+  <reference>
+    <citation>Lerner AJ, Wassermann EM, Tamir DI. Seizures from transcranial magnetic stimulation 2012-2016: Results of a survey of active laboratories and clinics. Clin Neurophysiol. 2019 Aug;130(8):1409-1416. doi: 10.1016/j.clinph.2019.03.016. Epub 2019 Apr 6.</citation>
+    <PMID>31104898</PMID>
+  </reference>
+  <reference>
+    <citation>Makris K, Haliassos A, Chondrogianni M, Tsivgoulis G. Blood biomarkers in ischemic stroke: potential role and challenges in clinical practice and research. Crit Rev Clin Lab Sci. 2018 Aug;55(5):294-328. doi: 10.1080/10408363.2018.1461190. Epub 2018 Apr 18. Review.</citation>
+    <PMID>29668333</PMID>
+  </reference>
+  <reference>
+    <citation>Maruyama K, Uchiyama S, Shiga T, Iijima M, Ishizuka K, Hoshino T, Kitagawa K. Brain Natriuretic Peptide Is a Powerful Predictor of Outcome in Stroke Patients with Atrial Fibrillation . Cerebrovasc Dis Extra. 2017;7(1):35-43. doi: 10.1159/000457808. Epub 2017 Mar 2.</citation>
+    <PMID>28253498</PMID>
+  </reference>
+  <reference>
+    <citation>Park CH, Chang WH, Ohn SH, Kim ST, Bang OY, Pascual-Leone A, Kim YH. Longitudinal changes of resting-state functional connectivity during motor recovery after stroke. Stroke. 2011 May;42(5):1357-62. doi: 10.1161/STROKEAHA.110.596155. Epub 2011 Mar 24.</citation>
+    <PMID>21441147</PMID>
+  </reference>
+  <reference>
+    <citation>Puig J, Blasco G, Alberich-Bayarri A, Schlaug G, Deco G, Biarnes C, Navas-Martí M, Rivero M, Gich J, Figueras J, Torres C, Daunis-I-Estadella P, Oramas-Requejo CL, Serena J, Stinear CM, Kuceyeski A, Soriano-Mas C, Thomalla G, Essig M, Figley CR, Menon B, Demchuk A, Nael K, Wintermark M, Liebeskind DS, Pedraza S. Resting-State Functional Connectivity Magnetic Resonance Imaging and Outcome After Acute Stroke. Stroke. 2018 Oct;49(10):2353-2360. doi: 10.1161/STROKEAHA.118.021319.</citation>
+    <PMID>30355087</PMID>
+  </reference>
+  <reference>
+    <citation>Rehme AK, Eickhoff SB, Wang LE, Fink GR, Grefkes C. Dynamic causal modeling of cortical activity from the acute to the chronic stage after stroke. Neuroimage. 2011 Apr 1;55(3):1147-58. doi: 10.1016/j.neuroimage.2011.01.014. Epub 2011 Jan 14.</citation>
+    <PMID>21238594</PMID>
+  </reference>
+  <reference>
+    <citation>Richter P, Werner J, Heerlein A, Kraus A, Sauer H. On the validity of the Beck Depression Inventory. A review. Psychopathology. 1998;31(3):160-8. Review.</citation>
+    <PMID>9636945</PMID>
+  </reference>
+  <reference>
+    <citation>Rosanova M, Fecchio M, Casarotto S, Sarasso S, Casali AG, Pigorini A, Comanducci A, Seregni F, Devalle G, Citerio G, Bodart O, Boly M, Gosseries O, Laureys S, Massimini M. Sleep-like cortical OFF-periods disrupt causality and complexity in the brain of unresponsive wakefulness syndrome patients. Nat Commun. 2018 Oct 24;9(1):4427. doi: 10.1038/s41467-018-06871-1.</citation>
+    <PMID>30356042</PMID>
+  </reference>
+  <reference>
+    <citation>Rossi S, Hallett M, Rossini PM, Pascual-Leone A; Safety of TMS Consensus Group. Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research. Clin Neurophysiol. 2009 Dec;120(12):2008-2039. doi: 10.1016/j.clinph.2009.08.016. Epub 2009 Oct 14. Review.</citation>
+    <PMID>19833552</PMID>
+  </reference>
+  <reference>
+    <citation>Saber H, Somai M, Rajah GB, Scalzo F, Liebeskind DS. Predictive analytics and machine learning in stroke and neurovascular medicine. Neurol Res. 2019 Aug;41(8):681-690. doi: 10.1080/01616412.2019.1609159. Epub 2019 Apr 30. Review.</citation>
+    <PMID>31038007</PMID>
+  </reference>
+  <reference>
+    <citation>Sheorajpanday RV, Nagels G, Weeren AJ, van Putten MJ, De Deyn PP. Quantitative EEG in ischemic stroke: correlation with functional status after 6 months. Clin Neurophysiol. 2011 May;122(5):874-83. doi: 10.1016/j.clinph.2010.07.028. Epub 2010 Oct 18.</citation>
+    <PMID>20961806</PMID>
+  </reference>
+  <reference>
+    <citation>Stinear CM, Byblow WD, Ackerley SJ, Smith MC, Borges VM, Barber PA. PREP2: A biomarker-based algorithm for predicting upper limb function after stroke. Ann Clin Transl Neurol. 2017 Oct 24;4(11):811-820. doi: 10.1002/acn3.488. eCollection 2017 Nov.</citation>
+    <PMID>29159193</PMID>
+  </reference>
+  <reference>
+    <citation>Thiel A, Vahdat S. Structural and resting-state brain connectivity of motor networks after stroke. Stroke. 2015 Jan;46(1):296-301. doi: 10.1161/STROKEAHA.114.006307. Epub 2014 Dec 4. Review.</citation>
+    <PMID>25477218</PMID>
+  </reference>
+  <reference>
+    <citation>Tscherpel C, Dern S, Hensel L, Ziemann U, Fink GR, Grefkes C. Brain responsivity provides an individual readout for motor recovery after stroke. Brain. 2020 Jun 1;143(6):1873-1888. doi: 10.1093/brain/awaa127.</citation>
+    <PMID>32375172</PMID>
+  </reference>
+  <reference>
+    <citation>van Kuijk AA, Pasman JW, Hendricks HT, Zwarts MJ, Geurts AC. Predicting hand motor recovery in severe stroke: the role of motor evoked potentials in relation to early clinical assessment. Neurorehabil Neural Repair. 2009 Jan;23(1):45-51. doi: 10.1177/1545968308317578. Epub 2008 Sep 15.</citation>
+    <PMID>18794218</PMID>
+  </reference>
+  <reference>
+    <citation>VanGilder RL, Davidov DM, Stinehart KR, Huber JD, Turner RC, Wilson KS, Haney E, Davis SM, Chantler PD, Theeke L, Rosen CL, Crocco TJ, Gutmann L, Barr TL. C-reactive protein and long-term ischemic stroke prognosis. J Clin Neurosci. 2014 Apr;21(4):547-53. doi: 10.1016/j.jocn.2013.06.015. Epub 2013 Aug 23. Review.</citation>
+    <PMID>24211144</PMID>
+  </reference>
+  <reference>
+    <citation>Wezel J, Kooij BJ, Webb AG. Assessing the MR compatibility of dental retainer wires at 7 Tesla. Magn Reson Med. 2014 Oct;72(4):1191-8. doi: 10.1002/mrm.25019. Epub 2013 Nov 11.</citation>
+    <PMID>24408149</PMID>
+  </reference>
+  <reference>
+    <citation>Williams LS, Weinberger M, Harris LE, Clark DO, Biller J. Development of a stroke-specific quality of life scale. Stroke. 1999 Jul;30(7):1362-9.</citation>
+    <PMID>10390308</PMID>
+  </reference>
+  <reference>
+    <citation>Zeiler SR. Should We Care About Early Post-Stroke Rehabilitation? Not Yet, but Soon. Curr Neurol Neurosci Rep. 2019 Feb 20;19(3):13. doi: 10.1007/s11910-019-0927-x. Review.</citation>
+    <PMID>30788609</PMID>
+  </reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>December 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 29, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 30, 2020</study_first_posted>
+  <last_update_submitted>December 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Paresis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

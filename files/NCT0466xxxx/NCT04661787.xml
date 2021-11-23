@@ -1,0 +1,237 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04661787</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20200360-01T</org_study_id>
+    <secondary_id>1920-HQ-000104</secondary_id>
+    <secondary_id>PSI Grant Number 19-33</secondary_id>
+    <secondary_id>CRRF 2169</secondary_id>
+    <secondary_id>CTO Project ID 2117</secondary_id>
+    <nct_id>NCT04661787</nct_id>
+  </id_info>
+  <brief_title>Donation Advisor Clinical Decision Support Tool Study</brief_title>
+  <official_title>Implementation of Donation Advisor, a Personalized Clinical Decision Support Tool for Improved Efficiency and Effectiveness of Deceased Organ Donation and Transplantation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ottawa Hospital Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Gift of Life</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Canadian Blood Services</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Health Canada</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Canadian National Transplant Research Program</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Physicians' Services Incorporated Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Ottawa Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Unity Health Toronto</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kingston Health Sciences Centre</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>London Health Sciences Centre</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sunnybrook Health Sciences Centre</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hamilton Health Sciences Corporation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Health Network, Toronto</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ottawa Hospital Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Every year, thousands of Canadians receive life-saving, cost-effective organ transplants,&#xD;
+      while thousands more still wait or die because not enough organs are available. Patients with&#xD;
+      non-recoverable illnesses, who are undergoing withdrawal of life sustaining measures, can&#xD;
+      donate their organs when they die by a process called donation after circulatory determined&#xD;
+      death (DCD). However, over 30% of all DCD attempts are unsuccessful because patients do not&#xD;
+      die within the time frame required for healthy organ retrieval and prolonged exposure to low&#xD;
+      oxygen during the dying process renders organs unsuitable for transplantation. Predicting&#xD;
+      successful DCD is difficult and leads to uncertainty in the clinical community. To address&#xD;
+      this issue, the investigators have developed a clinical decision support tool called Donation&#xD;
+      Advisor (DA) that will assist the healthcare team in identifying successful DCD donors and&#xD;
+      will provide an improved assessment of the health of their organs. The investigators are&#xD;
+      ready to implement DA and evaluate its impact in 7 hospitals in Ontario. The investigators&#xD;
+      believe use of DA will reduce unsuccessful DCD attempts, enhance family experience of&#xD;
+      donation, optimize system costs, and improve transplant outcomes&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 11, 2021</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">November 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Waveform collection from the bedside monitor</measure>
+    <time_frame>From date and time of enrollment until the date and time of declaration of death, assessed up to 6 hours post withdrawal of life sustaining measures</time_frame>
+    <description>Heart rate, systolic, mean and diastolic blood pressure and oxymetry will be downloaded from the bedside monitor. Automated algorithms will assess the quality of the waveform data, and detect the necessary fiducial markers (R peaks, systolic and diastolic peaks, and pulse pressure measurements), and perform cleaning of artifacts, missing data and noise, to form vital signs time series, which will be used to calculate variability metrics for the patient.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Systemic Ischemia</measure>
+    <time_frame>From the date and time of withdrawal of life sustaining measures until the date and time of declaration of death, assessed up to 6 hours</time_frame>
+    <description>Duration of time when the systolic blood pressure and/or oxygen saturation fall below physiologic thresholds indicating organ ischemia</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Efficacy of DCD outcome prediction by the Donation Advisor (DA) Tool</measure>
+    <time_frame>From the date and time of withdrawal of life sustaining measures until the date and time of declaration of death, assessed up to 6 hours</time_frame>
+    <description>The predictive capacity of the models to accurately identify time between withdrawal of Life Sustaining Measures (WLSM) and death will be documented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Donation Advisor (DA) Tool Report</measure>
+    <time_frame>From the date and time the Research Coordinator initiates the report to the date and time the report displays, assessed up to 1 week</time_frame>
+    <description>Time to create the DA Report</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Enduser feedback on the Donation Advisor Tool Usability and Feasibility</measure>
+    <time_frame>Up to 1 week post declaration of death following withdrawal of life sustaining measures</time_frame>
+    <description>Data with be collected using 'Thinking aloud interviews' where Health Care Professional with review DA Reports. Data captured: misunderstandings, pauses, repetitions, and expressions of frustration or confusion. These &quot;usability problems&quot; will become target areas for improvements on subsequent versions of the tool. A series of direct questions will allow the interviewee to report on overall usability (clarity, ease of navigation) and usefulness of the tool. They will be asked about the feasibility and usefulness of using a tool like this in their clinical practice, as well as the amount of time one could reasonably expect a physician to spend with a tool like this in their clinical practice, to inform the final design goals for the tool. Finally, interviewees will be asked to report as many potential barriers to and drivers of use of the tool as they can.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Success of Organ Transplantations</measure>
+    <time_frame>at 28 days from organ transplantation or hospital discharge if sooner than 28 days</time_frame>
+    <description>Including attempted DCD with no organs retrieved, The undergoing of DCD with at least one organ transplanted Number of organs donated per donor Failed organ transplants (i.e. proportion of organs discarded due to excessive warm ischemia time, or that fail after transplant) Proportion of recipients with early transplant graft dysfunction.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Resources and associated costs to further develop and expand implementation of the DA tool</measure>
+    <time_frame>through study completion, an average of 2 years</time_frame>
+    <description>Estimate of required resources and associated costs to further develop and expand implementation of the DA tool - The investigators will assess the economic feasibility of DA tool by calculating the cost of developing and implementing DA tool. A blended micro- and gross- costing approach will be used. The investigators will develop a data collection form to collect resource use for developing, operating, and maintaining the DA tool. Their unit costs will be obtained from program financial records, service level agreements, and the program budget with a close consultation with the project staff</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">70</enrollment>
+  <condition>Organ Donation</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        60-80 organ donation patients 180-240 transplant recipients (anticipated average of 3 per&#xD;
+        donor patient) 30-40 health care professionals to participate in interviews (reviewing the&#xD;
+        Donation Advisor Tool Reports)&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria&#xD;
+&#xD;
+          -  for Organ Donation Patients: All patients eligible for DCD and whose substitute&#xD;
+             decision makers (SDMs) have been approached for consent by a Trillium Organ Tissue&#xD;
+             Donation Coordinator (OTDC).&#xD;
+&#xD;
+          -  for Organ Transplant Recipient Patients - All patients at any of the Transplant&#xD;
+             Centres participating in this study who are transplant recipients of the organs from&#xD;
+             enrolled donor patients.&#xD;
+&#xD;
+          -  for Health Care Professionals for Interviews to provide feedback on the Donation&#xD;
+             Advisor Tool - All physicians (donation and transplantation), bedside nurses and OTDCs&#xD;
+             who either have the potential to be involved in the care of study patients, or who&#xD;
+             been directly involved in the care of the study patients.&#xD;
+&#xD;
+        Exclusion Criteria&#xD;
+&#xD;
+          -  None&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sonny Dhanani, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHEO-RI</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Andrew Seely, MD, PhD</last_name>
+    <phone>613-737-8899</phone>
+    <phone_ext>74052</phone_ext>
+    <email>aseely@ohri.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jill Allan, RN, BN</last_name>
+    <phone>613-612-6117</phone>
+    <email>jallan@ohri.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The Ottawa Hospital</name>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <zip>K1H 8L6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andrew Seely, MD</last_name>
+      <phone>613-737-8899</phone>
+      <phone_ext>74892</phone_ext>
+      <email>aseely@ohri.ca</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>October 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 10, 2020</study_first_posted>
+  <last_update_submitted>June 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Organ Donation after Circulatory Determined Death (DCD)</keyword>
+  <keyword>Clinical Decision Support Tool</keyword>
+  <keyword>Organ Donation</keyword>
+  <keyword>Organ Transplantation</keyword>
+  <keyword>DCD</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

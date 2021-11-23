@@ -1,0 +1,306 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04784637</url>
+  </required_header>
+  <id_info>
+    <org_study_id>200336</org_study_id>
+    <secondary_id>2R01DK085623-10</secondary_id>
+    <nct_id>NCT04784637</nct_id>
+  </id_info>
+  <brief_title>Adaptive Biobehavioral Control (ABC) of Automated Insulin Delivery</brief_title>
+  <official_title>Adaptive Biobehavioral Control (ABC) of Automated Insulin Delivery: A Randomized, Controlled Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this pilot study is to test the safety and feasibility of using two or three&#xD;
+      research modules in conjunction with an automated insulin delivery device (AID).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This concept is implemented in the Adaptive Biobehavioral Control (ABC) system - ABC will use&#xD;
+      human-machine co-adaptation of AID, recognizing both the necessity for the control algorithm&#xD;
+      to adapt to changes in human physiology, and the necessity for the person to adapt to AID&#xD;
+      action. ABC will be implemented on the Web Information Tool (WIT) platform/system and&#xD;
+      includes the following modules to be used alongside the automated insulin delivery device&#xD;
+      facilitating behavioral adaptation:&#xD;
+&#xD;
+        -  Behavioral Adaptation Module (BAM) - a behavioral intervention deployed in a mobile app&#xD;
+           to assist a person's adaptation to automated insulin delivery by information and risk&#xD;
+           assessment primarily regarding glycemic risks, and&#xD;
+&#xD;
+        -  Auto Titration Module (ATM) - a web-based tool with an automated procedure to track risk&#xD;
+           status and changes in the participant's metabolic profile. This module will present&#xD;
+           updated insulin control parameters to the user once a week using a web-based format&#xD;
+           accessible to the participant.&#xD;
+&#xD;
+        -  Web-based Simulation Tool (WST) --a web-based education tool for participants to&#xD;
+           interact with their data to visualize and replay various scenarios to understand the&#xD;
+           impact of insulin parameter changes.&#xD;
+&#xD;
+      Design: Two-week baseline use of personal AID system followed by randomization 1:1 into two&#xD;
+      groups.&#xD;
+&#xD;
+        -  Group 1 will use their personal AID system and add an auto titration module (ATM) and&#xD;
+           web simulation tool (WST) in which insulin parameters may be adjusted on a weekly basis.&#xD;
+&#xD;
+        -  Group 2 will use their personal AID system and add the ATM / WST on a weekly basis as&#xD;
+           well as a behavioral adaptation module (BAM). The BAM will consist of information&#xD;
+           modules in which information only is given to participants (e.g. hypoglycemic risks).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 23, 2021</start_date>
+  <completion_date type="Anticipated">February 28, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of SAE or ADE related to the use of ATM / WST and BAM modules.</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Safety assessment of ATM / WST and BAM modules by assessing serious adverse events or adverse device effects deemed related to the use of ATM/WST and BAM modules specifically.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time in Range</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Percent of CGM readings in the target ranges of 70-180mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in Hypoglycemia</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Percent of CGM readings &lt;70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>INSPIRE Questionnaire</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Questionnaire addressing system/technology use.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">45</enrollment>
+  <condition>Type 1 Diabetes Mellitus</condition>
+  <arm_group>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AID + Auto Titration Module (ATM) and Web Simulation Tool (WST) for 6 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AID + Auto Titration Module (ATM) and Web Simulation Tool (WST) +Behavioral Adaptation Module (BAM) for 6 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Web Simulation Tool (WST)</intervention_name>
+    <description>WST will allow users of the Control-IQ system replay treatment scenarios in computer simulation, thereby allowing user training with carbohydrate and insulin action.</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Behavioral Adaptation Module (BAM)</intervention_name>
+    <description>BAM provides on-demand information to the participant primarily on glycemic risks.</description>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Auto Titration Module (ATM)</intervention_name>
+    <description>ATM provides recommendations to the participant to periodically update insulin parameters.</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Automated Insulin Delivery (AID) System</intervention_name>
+    <description>The t:slim X2 insulin pump with Control-IQ technology, Tandem Diabetes Care will be the AID in this study.</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥18.0 and ≤70 years old at time of consent&#xD;
+&#xD;
+          2. Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least&#xD;
+             one year&#xD;
+&#xD;
+          3. Currently using insulin pump for at least six months&#xD;
+&#xD;
+          4. Currently using insulin for at least six months&#xD;
+&#xD;
+          5. Currently using or anticipated to be using the t:slim X2 insulin pump with Control-IQ&#xD;
+             technology at the start of the run-in phase (Visit 1).&#xD;
+&#xD;
+          6. Using or willing to use insulin parameters such as carbohydrate ratio and correction&#xD;
+             factors consistently on their pump in order to dose insulin for meals or corrections&#xD;
+&#xD;
+          7. Access to internet and willingness to upload data during the study as needed&#xD;
+&#xD;
+          8. Willing to use an app on a smart phone during the study.&#xD;
+&#xD;
+          9. For females, not currently known to be pregnant or breastfeeding&#xD;
+&#xD;
+         10. If female, sexually active, and of childbearing potential, must agree to use a form of&#xD;
+             contraception to prevent pregnancy while a participant in the study. A negative serum&#xD;
+             or urine pregnancy test will be required for all females of childbearing potential.&#xD;
+             Participants who become pregnant will be discontinued from the study. Also,&#xD;
+             participants who during the study develop and express the intention to become pregnant&#xD;
+             within the timespan of the study will be discontinued.&#xD;
+&#xD;
+         11. Willingness to use only insulin analogs approved for use in the t:slim X2 pump such as&#xD;
+             lispro (Humalog) or aspart (Novolog) and not use ultra-rapid acting insulin analogs&#xD;
+             (e.g. FiAsp) during the study&#xD;
+&#xD;
+         12. Total daily insulin dose (TDD) at least 10 units per day&#xD;
+&#xD;
+         13. Willingness not to start any new non-insulin glucose-lowering agent during the course&#xD;
+             of the trial (including metformin, GLP-1 agonists, pramlintide, DPP-4 inhibitors,&#xD;
+             biguanides, and sulfonylureas)&#xD;
+&#xD;
+         14. An understanding and willingness to follow the protocol and signed informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Concurrent use of any non-insulin glucose-lowering agent other than metformin&#xD;
+             (including GLP-1 agonists, pramlintide, DPP-4 inhibitors, SGLT-2 inhibitors,&#xD;
+             sulfonylureas)&#xD;
+&#xD;
+          2. A condition, which in the opinion of the investigator or designee, would put the&#xD;
+             participant at risk or interfere with the completion of the protocol.&#xD;
+&#xD;
+          3. History of diabetic ketoacidosis (DKA) in the 12 months prior to enrollment&#xD;
+&#xD;
+          4. Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months&#xD;
+             prior to enrollment&#xD;
+&#xD;
+          5. Currently being treated for a seizure disorder&#xD;
+&#xD;
+          6. Hemophilia or any other bleeding disorder&#xD;
+&#xD;
+          7. Planned surgery during study duration&#xD;
+&#xD;
+          8. Participation in another pharmaceutical or device trial at the time of enrollment or&#xD;
+             during the study&#xD;
+&#xD;
+          9. Having a direct supervisor at place of employment who is also directly involved in&#xD;
+             conducting the clinical trial (e.g. study investigator, coordinator, etc.); or having&#xD;
+             a first-degree relative who is directly involved in conducting the clinical trial.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sue Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ryan McFadden, MS</last_name>
+    <phone>434-924-7164</phone>
+    <email>rkm2f@virginia.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sue Brown, MD</last_name>
+    <phone>434-982-0602</phone>
+    <email>sab2f@virginia.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Virginia Center for Diabetes Technology</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sue Brown, MD</last_name>
+      <phone>434-982-0602</phone>
+      <email>sab2f@virginia.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Boris P. Kovatchev, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marc B. Breton, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patricio Colmegna, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>December 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2021</study_first_posted>
+  <last_update_submitted>September 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Sue Brown</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Pancreas (AP)</keyword>
+  <keyword>Continuous Glucose Monitor (CGM)</keyword>
+  <keyword>Closed Loop Control (CLC)</keyword>
+  <keyword>Insulin Pump</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Insulin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Will follow the NIH Data Sharing Policy and Implementation Guidance on sharing research resources for research purposes to qualified individuals within the scientific community.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Generally, data will be made available after the primary publications of each study.</ipd_time_frame>
+    <ipd_access_criteria>The Data Sharing Agreements will be formulated by the study team.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

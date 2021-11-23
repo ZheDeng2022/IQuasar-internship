@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04545918</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CC2020-001</org_study_id>
+    <nct_id>NCT04545918</nct_id>
+  </id_info>
+  <brief_title>Convolutional Neural Network in Ovarian Follicle Identification</brief_title>
+  <official_title>Assessing a Mask Region-based Convolutional Neural Network in Follicle Identification and Measurement During Ovarian Stimulation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cycle Clarity</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cycle Clarity</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A prospective cohort trial studying patients with infertility undergoing an ovarian&#xD;
+      stimulation with exogenous gonadotropins. Ovarian monitoring will be performed with a&#xD;
+      combination of transvaginal ultrasound and 2 dimensional human measurements of the follicle&#xD;
+      development on the right and left ovaries along with SonoAVC. Human and SonoAVC measurements&#xD;
+      will then be compared to mask region-based convolutional neural network in follicle&#xD;
+      identification and measurement during during the ovarian stimulation.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective cohort trial in which a total of 80 female subjects with infertility&#xD;
+      between the ages of 21 and 42 years of age undergoing ovarian stimulation will be recruited.&#xD;
+      After giving informed written consent the subject to undergo standard ovarian ultrasound&#xD;
+      monitoring with transvaginal ultrasounds during the ovarian stimulation. Monitoring will be&#xD;
+      performed with two-dimensional measurements of each follicle greater than 10 mm in size by&#xD;
+      the ultrasonographer. SonoAVC will then be applied to both ovaries for automated counting and&#xD;
+      measurement of the follicles within the ovaries. The patient will then undergo two 6-second&#xD;
+      ultrasounds of the right and left ovaries which will then be transmitted in a DICOM format to&#xD;
+      mask regional based recurrent neural network which is been trained and validated for follicle&#xD;
+      detection and quantification using curated transvaginal ultrasound images.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 1, 2021</start_date>
+  <completion_date type="Anticipated">May 20, 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 10, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Median size (mm) of ovarian follicles in CCAI compared to SonoAVC</measure>
+    <time_frame>1 month</time_frame>
+    <description>Comparison of the mean size in mm of Cycle Clarity's Artificial Intelligence software (CCAI) compared with GE SonoAVC</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of ovarian follicles in CCAI compared to Sono</measure>
+    <time_frame>1 month</time_frame>
+    <description>Comparison of the number of ovarian follicles with Cycle Clarity's Artificial Intelligence software (CCAI) compared with GE SonoAVC</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Infertility, Female</condition>
+  <condition>Ovarian Follicular Cyst</condition>
+  <arm_group>
+    <arm_group_label>Infertile Female</arm_group_label>
+    <description>90 female patients with infertility undergoing an ovarian stimulation with use of exogenous gonadotropins.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Follicle Clarity</intervention_name>
+    <description>Mask Region-based Convolutional Neural Network in Ultrasound Follicle Identification</description>
+    <arm_group_label>Infertile Female</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Eighty (80) consecutive female subjects of any race, 21 - 42 years of age meeting the&#xD;
+        inclusion criteria will be enrolled in the study conducted at one of 4 Coastal Fertility&#xD;
+        Specialists fertility clinics located in South Carolina and Georgia, USA.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Infertile women ages 21-42 years old undergoing ovarian hyperstimulation as part of&#xD;
+             the treatment care.&#xD;
+&#xD;
+        Women with at least one ovary visible with transvaginal ultrasound. Women with at least one&#xD;
+        follicle 10 mm or greater in average diameter.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Women less than 21 years of age or greater than 42 years of age. Women without a&#xD;
+             visible ovary by transvaginal ultrasound. Women without a follicle at least 10 mm in&#xD;
+             average diameter&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>42 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>John A. Schnorr, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Cycle Clarity, Founder</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>John A Schnorr, MD</last_name>
+    <phone>843-883-6200</phone>
+    <email>john.schnorr@cycleclarity.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Susan R. Schnorr</last_name>
+    <phone>843-883-6200</phone>
+    <email>susan.schnorr@cycleclarity.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Coastal Fertility Specialists</name>
+      <address>
+        <city>Mount Pleasant</city>
+        <state>South Carolina</state>
+        <zip>29464</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael J Slowey</last_name>
+      <phone>843-883-5800</phone>
+      <email>michael.slowey@coastalfertility.us</email>
+    </contact>
+    <contact_backup>
+      <last_name>Heather Cook, MD</last_name>
+      <phone>8438835800</phone>
+      <email>heather.cook@coastalfertility.us</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Michael J Slowey, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Heather M Cook, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jessica McLaughlin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Al-Inany HG, Youssef MA, Ayeleke RO, Brown J, Lam WS, Broekmans FJ. Gonadotrophin-releasing hormone antagonists for assisted reproductive technology. Cochrane Database Syst Rev. 2016 Apr 29;4:CD001750. doi: 10.1002/14651858.CD001750.pub4. Review.</citation>
+    <PMID>27126581</PMID>
+  </reference>
+  <reference>
+    <citation>Gordon K, Hodgen GD. GnRH analogues in ovarian stimulation. Ann N Y Acad Sci. 1991;626:238-49. Review.</citation>
+    <PMID>2058957</PMID>
+  </reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>September 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 11, 2020</study_first_posted>
+  <last_update_submitted>May 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Infertility</keyword>
+  <keyword>Ovarian Follicle</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Follicular Cyst</mesh_term>
+    <mesh_term>Infertility</mesh_term>
+    <mesh_term>Infertility, Female</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

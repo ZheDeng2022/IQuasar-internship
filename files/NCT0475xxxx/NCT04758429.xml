@@ -1,0 +1,294 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04758429</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PREDIGMA001</org_study_id>
+    <nct_id>NCT04758429</nct_id>
+  </id_info>
+  <brief_title>International Multi-center Study to Validate an Early Warning Algorithm for Worsening Heart Failure</brief_title>
+  <acronym>VESTA</acronym>
+  <official_title>Validating the Ability for Early Recognition of Worsening Heart Failure by a System Technology of Automated Prediction From Multi-sensor Data: A Prospective, Open-label, Single-arm, International, Multi-center Clinical Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chronolife</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chronolife</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is a multi-center, prospective, non-randomized, observational study to collect data&#xD;
+      to develop and validate a machine learning algorithm for early detection of worsening heart&#xD;
+      failure events using multi-parametric sensor data from wearable data capture device The VESTA&#xD;
+      study will enroll up to 552 subjects in up to 25 centers in order to collect data on a total&#xD;
+      of at least 56 worsening heart failure events (independently adjudicated hospitalizations or&#xD;
+      unscheduled intravenous administration of decongestive drugs).The duration of follow-up per&#xD;
+      participant will be between 3-6 months.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study is an international, multicenter, prospective, open-label, non-randomized single&#xD;
+      group study, with no control group.&#xD;
+&#xD;
+      The study has 2 phases: the first phase is to train and develop the automated learning&#xD;
+      algorithm; the second phase is to validate the algorithm.&#xD;
+&#xD;
+      The participants will be assigned into two cohorts:&#xD;
+&#xD;
+        1. Cohort 1 will provide the data to be used for algorithm development and training.&#xD;
+&#xD;
+        2. Cohort 2 will provide data to be used for algorithm validation.&#xD;
+&#xD;
+      It has been estimated that approximately 276 subjects are required for each cohort in order&#xD;
+      to accumulate the minimum number of cases for the study's primary objective. Sequential&#xD;
+      enrolment will be implemented by regional blocks according to an estimation of the regional&#xD;
+      distribution of subjects.The sample size and regional distribution of subjects are estimates&#xD;
+      and the study is endpoint driven to achieve at least 28 WHF events with corresponding&#xD;
+      analyzable device data. Fewer subjects may be enrolled should the required number of events&#xD;
+      be acquired at a faster rate than calculated and the regional proportions of subjects may&#xD;
+      vary according to regional enrollment rates.&#xD;
+&#xD;
+      All participants will undergo the same study procedures, irrespective of their cohort&#xD;
+      assignment. Each subject will receive the study device kit (garment and smart phone with&#xD;
+      charger) at enrollment and will be followed up for up to 6 months, or until at least 28&#xD;
+      worsening heart failure (WHF) events per cohort have been acquired. Even if the required&#xD;
+      number of events have been acquired, all participants will be followed up for a minimum of at&#xD;
+      least 3 months.&#xD;
+&#xD;
+      The study will collect data; however no data collected by the device will be made available&#xD;
+      to clinical care personnel during the study and as such no medical action will be taken based&#xD;
+      on the device. Medical follow-up will be according to standard practice as per each&#xD;
+      investigational site, which will be documented AND there will be no additional medical&#xD;
+      intervention on the study participants. The participants are required to agree to be&#xD;
+      compliant with the use of the device.&#xD;
+&#xD;
+      There is no masking of device allocation or procedures. However, the clinical investigators,&#xD;
+      treating physicians and the independent clinical events adjudication committee (IEAC) members&#xD;
+      will be blinded to all sensor data throughout the study.&#xD;
+&#xD;
+      The investigators developing the algorithm will have no access to the validation cohort&#xD;
+      database before the parameters of the algorithm have been fixed by the training cohort.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 31, 2021</start_date>
+  <completion_date type="Anticipated">May 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Detection of worsening heart failure (WHF) event</measure>
+    <time_frame>6 months</time_frame>
+    <description>Sensitivity and Specificity of detection of WHF event by a machine-learning algorithm system using multi-parametric data captured by non-invasive telemonitoring.&#xD;
+WHF event definition:&#xD;
+Any hospital admission for WHF(e.g. due to new or progressive symptoms/signs of decompensated HF including significant weight gain, worsening dyspnea or fatigue, newly elevated jugular venous pressure, new cardiac S3 gallop rhythm, the development of pulmonary rales, hepatic congestion or lower extremity edema), OR&#xD;
+Any administration of intravenous HF therapy in an unscheduled setting (e.g. clinic/office/emergency department, ED).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hospitalizations for HF that did not meet WHF</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of HF-associated health care utilization events not eligible to be considered as primary events&#xD;
+Number of days hospitalized for HF (total number of days and per hospitalization)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HF-hospitalization in number of days</measure>
+    <time_frame>6 months</time_frame>
+    <description>System Detection of HF-associated health care utilization events not eligible to be considered as primary events&#xD;
+Number of days hospitalized for HF (total number of days and per hospitalization)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Outpatient health encounters leading to changes or adjustments of oral HF medication</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of HF-associated health care utilization events not eligible to be considered as primary events</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Other healthcare encounters do not meet criteria of WHF event, points a, b and c but are deemed related to HF</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of HF-associated health care utilization events not eligible to be considered as primary events</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Adverse and Serious Adverse Events known to be associated with wearable devices with sensors</measure>
+    <time_frame>Occuring during the 6 month follow-up</time_frame>
+    <description>General device safety will be assessed through adverse event monitoring</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Acceptability and usability of study data capture device assessed by Study Ergonomics and Usability Questionnaire</measure>
+    <time_frame>6 months</time_frame>
+    <description>Patient-reported data in Ergonomics and Usability Questionnaire administered at monthly intervals.&#xD;
+A Likert-like scale is used for scoring, with scores of 1-5, with higher scores signifying agreement with the questions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency and duration of study data capture device assessed by Study Frequency and duration of use Questionnaire</measure>
+    <time_frame>6 months</time_frame>
+    <description>Patient-reported data in Frequency and duration of use Questionnaire administered at monthly intervals.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>All-cause hospitalizations</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of hospitalization events not eligible to be considered as heart failure associated events.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Deaths (Heart failure attributed)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of deaths (Heart failure attributed)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Deaths (all-cause)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Algorithm System Detection of deaths (all cause)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Time-to-event (from alert to event)</measure>
+    <time_frame>6 months</time_frame>
+    <description>Time from alert to event will be assessed for the following events to evaluate the ranges of alert to clinical event time windows for WHF events and non-HF hospitalization events</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">552</enrollment>
+  <condition>Chronic Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Development or Training Cohort</arm_group_label>
+    <description>will provide the data to be used for algorithm development and training.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Test or Validation Cohort</arm_group_label>
+    <description>will provide data to be used for algorithm validation.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Machine-learning Algorithm</intervention_name>
+    <description>System technology/Software</description>
+    <arm_group_label>Development or Training Cohort</arm_group_label>
+    <arm_group_label>Test or Validation Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study will be enrolling male and female patients with history of chronic heart failure.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18 years of age and above&#xD;
+&#xD;
+          -  New York Heart Association(NYHA) functional class II-IV&#xD;
+&#xD;
+          -  Reduced ejection fraction (HFrEF) with left ventricular ejection fraction (LVEF) ≤40%&#xD;
+&#xD;
+          -  History of chronic HF as evidenced by&#xD;
+&#xD;
+               -  LVEF ≤40% measured at least 30 days before enrollment&#xD;
+&#xD;
+               -  N-terminal-pro hormone brain-type natriuretic peptide (NT-proBNP) &gt; 500 pg/mL OR&#xD;
+                  brain-type natriuretic peptide (BNP) &gt;150 pg/mL; tested no longer than one month&#xD;
+                  prior to inclusion.&#xD;
+&#xD;
+          -  At increased risk for HF decompensation as defined by&#xD;
+&#xD;
+               -  currently inpatient with hospital admission due to HF decompensation (acute on&#xD;
+                  chronic heart failure), or&#xD;
+&#xD;
+               -  history of hospitalization for HF decompensation in the last 6 months&#xD;
+&#xD;
+          -  Understands the study requirements and the study procedures and provides written&#xD;
+             informed consent before any trial-specific tests or procedures are performed&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Known allergy to any component of the study device (cotton, elastane, polyester)&#xD;
+&#xD;
+          -  Current HF hospitalization due to acute de novo heart failure&#xD;
+&#xD;
+          -  Current HF decompensation due to triggers like surgery or perioperative complications,&#xD;
+             pulmonary embolic episode or acute myocardial infarction&#xD;
+&#xD;
+          -  Severe chronic kidney disease with glomerular filtration rate (GFR) &lt;30 ml/ min/1.73&#xD;
+             m2 and/or renal replacement therapy&#xD;
+&#xD;
+          -  Evidence of hepatic disease as determined by any one of the following: serum&#xD;
+             glutamic-oxaloacetic transaminase (SGOT/AST) or serum glutamic-pyruvic transaminase&#xD;
+             (SGPT/ALT) values exceeding 3x upper limit of normal, bilirubin &gt;1.5 mg/dl&#xD;
+&#xD;
+          -  Body mass index (BMI)&gt;35 kg/m2&#xD;
+&#xD;
+          -  Planned surgery or other procedures within 6 months after the inclusion&#xD;
+&#xD;
+          -  Severe uncorrected valvular heart disease, or hypertrophic obstructive cardiomyopathy,&#xD;
+             active myocarditis, constrictive pericarditis, or clinically significant congenital&#xD;
+             heart disease&#xD;
+&#xD;
+          -  Receiving mechanical circulatory support&#xD;
+&#xD;
+          -  Candidates on heart transplant list&#xD;
+&#xD;
+          -  Factors or conditions, that according to investigator assessment may affect compliance&#xD;
+             with protocol or cause confound data interpretation. Examples may include but are not&#xD;
+             limited to:&#xD;
+&#xD;
+               -  Cardiac conditions or interventions such acute coronary syndrome, major&#xD;
+                  cardiovascular surgery including coronary artery bypass graft (CABG),&#xD;
+                  percutaneous coronary intervention (PCI) or implantation of a cardiac&#xD;
+                  resynchronization therapy (CRT) device within 3 months prior to inclusion, or&#xD;
+                  having certain implanted cardiac devices that affect cardiac condition or&#xD;
+                  circulation,&#xD;
+&#xD;
+               -  Other serious medical illness (e.g., cancer) with estimated life expectancy of&#xD;
+                  less than 12 months.&#xD;
+&#xD;
+               -  Current problems with substance addiction&#xD;
+&#xD;
+          -  Participating in another investigational drug or device clinical trial&#xD;
+&#xD;
+          -  Pregnant or nursing&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Zarifah Reed, MD</last_name>
+    <phone>+33665038601</phone>
+    <email>zreed@chronolife.net</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Dominique Dury</last_name>
+    <email>ddury@chronolife.net</email>
+  </overall_contact_backup>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 17, 2021</study_first_posted>
+  <last_update_submitted>February 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 17, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

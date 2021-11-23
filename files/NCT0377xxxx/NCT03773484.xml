@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03773484</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HS-CG-17-00019</org_study_id>
+    <secondary_id>R21AG057395-01</secondary_id>
+    <nct_id>NCT03773484</nct_id>
+  </id_info>
+  <brief_title>Application of Economics &amp; Social Psychology to Improve Opioid Prescribing Safety (AESOPS): R21 Pilot Phase</brief_title>
+  <acronym>AESOPS</acronym>
+  <official_title>Application of Economics &amp; Social Psychology to Improve Opioid Prescribing Safety (AESOPS): R21 Pilot Phase</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>AltaMed Health Services</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Children's Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      There is a lack of evidence that long-term opioid use offers benefit for noncancer pain and&#xD;
+      an abundance of evidence of harm. The objective of the R21 pilot phase of the Application of&#xD;
+      Economics &amp; Social psychology to improve Opioid Prescribing Safety (AESOPS) is to develop and&#xD;
+      test novel behavioral nudges to encourage adherence to pain and CDC guidelines for opioid&#xD;
+      prescribing for persons with noncancer pain. Interventions will leverage the electronic&#xD;
+      health record (EHR) to discourage unnecessary opioid prescribing through the application of&#xD;
+      &quot;behavioral insights&quot;-empirically-tested social and psychological interventions that affect&#xD;
+      choice.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There is a lack of evidence that long-term opioid use offers benefit for noncancer pain and&#xD;
+      an abundance of evidence of harm. In 2017, the Centers for Disease Control and Prevention&#xD;
+      (CDC) issued the &quot;CDC Guideline for Prescribing Opioids for Chronic Pain&quot; to encourage safe&#xD;
+      and effective alternatives to opioids, discontinuation of opioids when patients do not resume&#xD;
+      normal activities and prudent dosing strategies. However, poor guideline adherence is a&#xD;
+      general concern and may impede uptake. Our prior studies have used insights from behavioral&#xD;
+      economics and social psychology to increase guideline adherence. The objective of the R21&#xD;
+      pilot phase of the Application of Economics &amp; Social psychology to improve Opioid Prescribing&#xD;
+      Safety (AESOPS) is to develop and test novel behavioral nudges to encourage adherence to pain&#xD;
+      and CDC guidelines for opioid prescribing for persons with noncancer pain. At the time of&#xD;
+      opioid prescribing, clinicians will be prompted with an EHR nudge when the prescribing&#xD;
+      history for the patient falls into one of the following three mutually exclusive categories:&#xD;
+      Opioid naïve, At-risk for long term use, or Long-term opioid recipient. The primary outcome&#xD;
+      is average weekly morphine milligram equivalents (MME) prescribed per-clinician.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 25, 2019</start_date>
+  <completion_date type="Actual">November 30, 2019</completion_date>
+  <primary_completion_date type="Actual">November 30, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in weekly milligram morphine equivalent</measure>
+    <time_frame>6 months</time_frame>
+    <description>We will estimate weekly milligram morphine equivalent for each clinician and observe the change each month. This will capture CDC guideline prescribing endpoints.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">41</enrollment>
+  <condition>Opioid Use, Unspecified</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support nudges</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinical decision support nudges within the electronic health record to discourage unnecessary opioid prescribing through the application of &quot;behavioral insights&quot;-empirically-tested social and psychological interventions that affect choice. Participating clinicians will receive any of three nudges when eligibility criteria are met within a patient's chart.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Opioid naive</intervention_name>
+    <description>Visit where the order is for an included opioid and there is no prior opioid prescription with a start date of greater than 1 day and less than 91 days</description>
+    <arm_group_label>Clinical Decision Support nudges</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>At-risk for long term use</intervention_name>
+    <description>Visit where the order is for an included opioid, there is a prior opioid prescription with a start date greater than 1 day and less than 91 days, and there is no prior opioid prescription with a start date greater than 90 days</description>
+    <arm_group_label>Clinical Decision Support nudges</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Long-term opioid recipient</intervention_name>
+    <description>Total opioid doses are at least 50 MME per day, there are two or more prior opioid prescriptions with two different start dates both greater than 1 day and less than 91 days, and there is a prior opioid prescription with a start date greater than 90 days and less than 181 days</description>
+    <arm_group_label>Clinical Decision Support nudges</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  NM clinic that sees patients ≥ 18 years old whose leadership agrees to participate&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  None&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jason N Doctor, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Northwestern University</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>December 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 12, 2018</study_first_posted>
+  <last_update_submitted>June 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Jason Doctor</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Opioids</keyword>
+  <keyword>Behavioral Research</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Analgesics, Opioid</mesh_term>
+  </intervention_browse>
+  <pending_results>
+    <submitted>July 7, 2021</submitted>
+    <returned>July 28, 2021</returned>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

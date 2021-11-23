@@ -1,0 +1,205 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04773041</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A21-037</org_study_id>
+    <nct_id>NCT04773041</nct_id>
+  </id_info>
+  <brief_title>Dementia With Lewy Bodies - Infinitome</brief_title>
+  <official_title>Connectomic Analysis in Dementia With Lewy Bodies: A Potential Diagnostic Imaging Biomarker</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Dementia with Lewy bodies (DLB) is the second most common cause of dementia and is associated&#xD;
+      with parkinsonism, hallucinations, and cognitive fluctuations. Diagnosis is often either&#xD;
+      missed or delayed due to physician lack of familiarity with characteristic features, the&#xD;
+      inability of structural MRI to detect a pathological signature for this condition, and the&#xD;
+      lack of healthcare provider access to &quot;indicative biomarkers&quot; that are either unavailable at&#xD;
+      community clinics or costly due to lack of insurance coverage. The role of resting state&#xD;
+      function MRI (rs-fMRI) as a diagnostic biomarker has been underexplored in this disease. We&#xD;
+      propose using a novel cloud-based automated imaging software processing program that&#xD;
+      identifies abnormal brain networks or connectomes using resting state functional MRI&#xD;
+      (rs-fMRI) and data from the Human Connectome Project (HCP). Furthermore, the imaging protocol&#xD;
+      to capture this data is relatively short (15 minutes) and can be performed at most imaging&#xD;
+      centers, lending potential clinical applicability to this study. We intend to study&#xD;
+      dysfunctional large scale brain networks (LSBNs) in DLB by comparing rs-fMRI imaging data in&#xD;
+      this population with cognitively normal (CN) and mild Alzheimer's disease (AD) subjects from&#xD;
+      the Alzheimer's Disease Neuroimaging Initiative (ADNI)-2/3 database.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Omniscient, a for-profit, Sydney, Australia-based company, created the cloud-based software&#xD;
+      Infinitome, a program that utilizes data from the Human Connectome Project (HCP) together&#xD;
+      with machine learning to analyze diffusion tensor and resting-state fMRI imaging data from&#xD;
+      remote sites. The foundation for this imaging tool is based upon the HCP atlas, which has&#xD;
+      also informed prior publications from our group, including the Connectomic Atlas of the Human&#xD;
+      Cerebrum (Baker, Burks, Briggs, Conner, et al. 2018). The Infinitome program creates a&#xD;
+      subject specific version of the Human Connectome Project Multimodal Parcellation (HCP-MMP1)&#xD;
+      atlas using diffusion tractography. Analytics are performed on both diffusion tensor imaging&#xD;
+      and rs-fMRI. Outlier detection using a tangent space connectivity matrix is performed by&#xD;
+      comparing results with a subset of 300 normal HCP subject fMRI samples to determine the range&#xD;
+      of normal correlations for each regions of interest in a large scale brain network which&#xD;
+      include:&#xD;
+&#xD;
+        1. Locus coeruleus vs. Nucleus basalis of Meynert&#xD;
+&#xD;
+        2. Locus coeruelus vs. Intralaminar nucleus of the thalamus&#xD;
+&#xD;
+        3. Nucleus basalis of Meynert vs. Intralaminar nuclei of the thalamus&#xD;
+&#xD;
+        4. FST in the vs. Area PH in the lateral occipital lobe&#xD;
+&#xD;
+        5. Substantia nigra vs. Caudate nucleus Clinical Measures will be correlated with&#xD;
+           functional connectivity scores to identify relationship between clinical symptoms and&#xD;
+           large scale brain networks in DLB&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">April 27, 2021</start_date>
+  <completion_date type="Anticipated">January 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Functional connectivity scores between pairs of large scale brain networks.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Identify functional connectivity scores between pairs of large scale brain networks as determined by connectomic analysis using rs-fMRI Infinitome software in order to compare functional connectivity scores between groups. Range [-1,1]. Higher score indicates greater connectivity.&#xD;
+Functional connectivity scores between:&#xD;
+Locus coeruleus vs. Nucleus basalis of Meynert&#xD;
+Locus coeruelus vs. Intralaminar nucleus of the thalamus&#xD;
+Nucleus basalis of Meynert vs. Intralaminar nuclei of the thalamus&#xD;
+Area FST vs. Area PH in the anterior inferior lateral occipital lobe&#xD;
+Substantia nigra vs. Caudate nucleus</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of clinical measures and functional connectivity scores</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Clinical Measures will be correlated with functional connectivity scores to identify relationship between clinical symptoms and large scale brain networks in DLB . Range [-1,1]. Higher score indicates greater connectivity.&#xD;
+Correlation of:&#xD;
+Mini Mental State Examination&#xD;
+Wechsler Memory Scale -Revised (WMS-R) Logical Memory A&#xD;
+Alzheimer's Disease Assessment Scale - Cognitive (ADAS-COG) 13&#xD;
+Boston Naming Test&#xD;
+Verbal Fluency&#xD;
+WMS-R Digit Span&#xD;
+American National Reading Test&#xD;
+Rey Auditory Verbal Learning Test&#xD;
+Trail Making Test A/B&#xD;
+Clock Drawing Test&#xD;
+Neuropsychiatric Inventory Questionnaire&#xD;
+Functional Assessment Questionnaire</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">95</enrollment>
+  <condition>Dementia With Lewy Bodies</condition>
+  <arm_group>
+    <arm_group_label>Patients with DLB</arm_group_label>
+    <description>Patients diagnosed with DLB enrolled from the HealthPartners Neuroscience Center.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with Alzheimer's disease (AD)</arm_group_label>
+    <description>Patients diagnosed with AD age and sex-matched, selected from the ADNI database.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with normal cognition (CN)</arm_group_label>
+    <description>Patients diagnosed with normal cognition age and sex-matched, selected from the ADNI database.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Infinitome</intervention_name>
+    <description>All patients will have rs-FMRI images analyzed with the Infinitome cloud-based software processing program.</description>
+    <arm_group_label>Patients with Alzheimer's disease (AD)</arm_group_label>
+    <arm_group_label>Patients with DLB</arm_group_label>
+    <arm_group_label>Patients with normal cognition (CN)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        HealthPartners Neurology Clinic in Saint Paul, MN undergoing care for DLB and subjects&#xD;
+        included in the ADNI database.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age 40-90 years&#xD;
+&#xD;
+          -  Established DLB diagnosis&#xD;
+&#xD;
+          -  Mini mental status exam (MMSE) &gt;15&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Other forms of dementia including, but not limited to Alzheimer's dementia,&#xD;
+             frontotemporal dementia, vascular dementia, normal pressure hydrocephalus (NPH), etc,&#xD;
+&#xD;
+          -  Inability to tolerate brain function magnetic resonance imaging (fMRI)&#xD;
+&#xD;
+          -  Risk of brain fMRI due to implants or metal.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael H Rosenbloom, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>HealthPartners Neurology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>HealthPartners Neuroscience Center</name>
+      <address>
+        <city>Saint Paul</city>
+        <state>Minnesota</state>
+        <zip>55130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>February 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 26, 2021</study_first_posted>
+  <last_update_submitted>May 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dementia</mesh_term>
+    <mesh_term>Lewy Body Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

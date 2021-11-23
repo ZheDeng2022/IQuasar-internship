@@ -1,0 +1,444 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04522284</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020/00334</org_study_id>
+    <nct_id>NCT04522284</nct_id>
+  </id_info>
+  <brief_title>PRECISE CURATE.AI Pilot Clinical Trial</brief_title>
+  <official_title>Personalised, Rational, Efficacy-driven Cancer Drug Dosing Via an Artificial Intelligence SystEm - CURATE.AI (PRECISE CURATE.AI Trial)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National University Hospital, Singapore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National University Hospital, Singapore</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In the current clinical context, drug dosing in oncology is dictated by toxicity. The optimal&#xD;
+      dosages of drugs in combinatory regimens for solid tumours are not clear, and the typical&#xD;
+      physician's decision on dose adjustment is a clinical judgement based on the degree of&#xD;
+      toxicity experienced by the patient. CURATE.AI - a small data, AI-derived technology platform&#xD;
+      - allows personalised guidance of an individual's dose modulations based only on that&#xD;
+      individual's data. Additionally, CURATE.AI is mechanism-independent, and dynamically adapts&#xD;
+      to changes experienced by the subject, providing dynamic dose optimisation throughout the&#xD;
+      duration of the subject's treatment. This study aims to demonstrate the feasibility of&#xD;
+      applying CURATE.AI in standard of care settings for treatment of solid tumours. An additional&#xD;
+      objective is to explore tumour markers in serial measurements at weekly frequency of probing,&#xD;
+      with modulated doses.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cancer patients are given drug combinations that promote cancer cell elimination. The final&#xD;
+      drug concentration in the body must fall within a narrow range that maximises cancer&#xD;
+      elimination while minimizing toxic side effects. The complexity of this task increases&#xD;
+      significantly with the number of drugs given in combination due to increasing parameters and&#xD;
+      stochastic behaviour of a biological system. Currently, the established approach is to select&#xD;
+      maximum tolerated doses (MTD) - the highest drug doses that do not cause unacceptable side&#xD;
+      effects. Treatment efficacy does not guide dose selection. Combined with limited&#xD;
+      personalisation, this dosing strategy often results in suboptimal outcomes of the treatment.&#xD;
+&#xD;
+      CURATE.AI is an AI-derived, mechanism-independent, small data technology platform for&#xD;
+      personalised, dynamic dosing. CURATE.AI uses a quadratic equation to generate individualised&#xD;
+      CURATE.AI profile and dosing recommendation based on only that individual's medical data:&#xD;
+      drug doses and the corresponding response marker (e.g. blood tumour markers). Profile&#xD;
+      recalibration via CURATE.AI facilitates dynamic dosing and personalised care throughout the&#xD;
+      treatment duration, aimed at achieving the highest efficacy within pre-specified safe dose&#xD;
+      ranges.&#xD;
+&#xD;
+      CURATE.AI is an indication-agnostic platform that has already been applied clinically for a&#xD;
+      range of indications including in oncology. CURATE.AI can be applied to indications that&#xD;
+      demonstrate regularly measured dose-dependent relationship between the treatment dose and the&#xD;
+      treatment response (i.e. biomarker level). Currently, the gold standard of monitoring&#xD;
+      treatment response in solid tumour is via radiology (using criteria such as RECIST), which is&#xD;
+      usually done at the end of a few cycles of systemic therapy and therefore not suitable to be&#xD;
+      used as a CURATE.AI input signal for drug dose adjustment between cycles.. Additionally,&#xD;
+      haematological neoplasms often cannot be monitored with imaging. Waldenström&#xD;
+      macroglobulinaemia treatment response is assessed using an adaptation of the response&#xD;
+      criteria from the Eighth International Workshop on Waldenström macroglobulinaemia (IWWM-8)&#xD;
+      that includes blood markers. Blood-based tumour markers, e.g. carcinoembryonic antigen (CEA)&#xD;
+      and carbohydrate antigen 19-9 (CA19-9) and immunoglobulin M (IgM) markers, are more suitable&#xD;
+      to be implemented into CURATE.AI. Apart from these traditional tumour markers, recent&#xD;
+      advances in genomic sequencing have led to the application of plasma circulating tumour DNA&#xD;
+      (ctDNA) level as a novel marker of tumour burden. In addition, the serum free light chain&#xD;
+      (sFLC) has been widely used to assess treatment response for patients with multiple myeloma&#xD;
+      and other plasma cell dyscrasias, and has shown potential as a novel marker for disease&#xD;
+      burden in Waldenström macroglobulinaemia. Therefore, serial ctDNA and sFLC measurements, may&#xD;
+      be an appropriate input for CURATE.AI.&#xD;
+&#xD;
+      This Pilot Clinical Trial aims to set foundation to investigate the applicability and&#xD;
+      feasibility of the CURATE.AI platform within the current clinical setting for guided dosing&#xD;
+      of various systemic therapies commonly used for solid and haematological neoplasms&#xD;
+&#xD;
+      Individualised CURATE.AI profiles will be generated based on each participant's response to a&#xD;
+      set of drug doses. Subsequently, the personalised CURATE.AI profile will be used to recommend&#xD;
+      the efficacy-driven dose. CURATE.AI will operate only within the safety range for each drug&#xD;
+      prespecified for each participant.&#xD;
+&#xD;
+      This Pilot Clinical Trial and feasibility study will inform the investigators on the&#xD;
+      logistical and practical aspects of performing a large-scale randomised study and on the&#xD;
+      suitability of CURATE.AI for guided dosing of a wider range of chemotherapy regimens. An&#xD;
+      additional objective is to explore the utility of CEA, CA19-9, Ig M, ctDNA and sFLC as tumour&#xD;
+      markers in serial measurements at weekly frequency of probing, with modulated doses. ctDNA&#xD;
+      and sFLC will be also explored as an input for CURATE.AI to generate dose recommendations,&#xD;
+      however this analysis will not be used to prospectively guide dosing.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 20, 2020</start_date>
+  <completion_date type="Anticipated">August 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2023</primary_completion_date>
+  <phase>Phase 1/Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is a multi-centre, one-arm, prospective pilot study of participants diagnosed with either solid organ or haematological neoplasm.The participants will be enrolled for the duration of their treatment with the selected regimens, XELOX, XELIRI and single agent capecitabine regimens or single-agent ibrutinib . At 12-month mark, the decision on the patient engagement with the study will be made by the principal investigator in consultation with the study sponsors and treating physician.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of participants in whom we successfully apply CURATE.AI profile.</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>CURATE.AI applicability: Percentage of participants in whom we successfully apply CURATE.AI profile. Based on percentages, outcomes will be classified as Green (&gt;70%) / Yellow (10-70%) / Red (&lt;10%).&#xD;
+A decision on whether we &quot;successfully apply&quot; the CURATE.AI profile requires expert judgement and cannot be made based on a purely numerical process. The expert panel will consider the following factors with careful regard for the individual circumstances of each participant:&#xD;
+Error/variance (biological/analytical) is sufficiently small to allow accurate predictions&#xD;
+Profile can be generated sufficiently early for the participant to potentially benefit;&#xD;
+Dose-dependent relationship is observed;&#xD;
+Profile is actionable (i.e. fulfils the clinical investigator's pre-specified safety requirements);&#xD;
+Systemic changes in the participant which require profile recalibration are rare or readily assimilated into the CURATE.AI algorithm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient adherence</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of participants who always adhered to the prescribed dose whenever they took their medication, as measured by the standardised pharmacovigilance protocol. Based on percentages, outcomes will be classified as Green (&gt;90%) / Yellow (10-90%) / Red (&lt;10%).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timely delivery of CURATE.AI recommendations to the clinician</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of CURATE.AI recommendations provided in time for the next chemotherapy cycle, across all participants and cycles. Based on percentages, outcomes will be classified as Green (100%) / Yellow (10-99%) / Red (&lt;10%).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physician adherence</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of CURATE.AI recommended doses that were used by the clinical investigator. Based on percentages, outcomes will be classified as Green (&gt;70%) / Yellow (10-70%) / Red (&lt;10%).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinically significant dose changes</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of participants in whom the CURATE.AI-guided cumulative dose is substantially (≥10%) different from the projected standard-of-care cumulative dose. Based on percentages, outcomes will be classified as Green (&gt;20%) / Yellow (1-20%) / Red (0%).</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Percentage of trial participants with clinical progressive disease</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>CT scans for radiological assessment will be performed according to standard of care, usually after every 2 to 3 cycles of chemotherapy&#xD;
+Percentage of trial participants with clinical progressive disease(which is defined as the clinical investigator deeming that the patient will not benefit any further from the chemotherapy regimen and considering stopping it) at the time of the first radiological assessment performed as per standard-of-care.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Temporal variation in tumour marker level from baseline to trial conclusion.</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Mandatory blood draws for the measurement of tumour marker(s)as per standard of care.Additional blood draws solely for the purposes of the trial for measurements of tumour markers(s)&#xD;
+Tumour marker measurements at higher frequency will be analysed to inform about temporal dynamics of tumour response to modulated dosing.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maximal reduction in tumour marker level measured as part of baseline investigations</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>For CURATE.AI profile generation, a minimum of 3 dose levels and corresponding tumour marker (CEA/CA19-9/Ig M) readouts are needed for the modulated drug. After obtaining the first tumour marker readout a set of potential doses of capecitabine or Ibrutinib to pick from will be recommended by the CURATE.AI team with calibration-intent, based on the mathematical requirements of the method.&#xD;
+If the modulations do not yield a dose-dependent response (e.g. biomarker readouts were affected by the factors unrelated to capecitabine or Ibrutinib modulation) a new data pair will have to be acquired according to calibration-intent recommendation from the CURATE.AI team.&#xD;
+When dose-dependent response is obtained, the profile will be checked for actionability - an ability to recommend an optimum dose within the pre-specified personal safety range.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Toxicity derived from the use of CURATE.AI</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Percentage of trial participants with clinically relevant toxicities of grades 3-4 based on CTCAE version 4.0.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>ctDNA and/or sFLC analysis</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Data collection and explorative analysis of the ctDNA and/or sFLC as: (1) a tumour marker in serial measurements at given clinical context and after modulated dosing; (2) potential input for CURATE.AI</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Tumour markers analysis</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>Data collection and explorative analysis of CEA , CA19-9 , Ig M and/or other traditional tumour markers in higher frequency serial measurements after modulated dosing in relation to standard frequency readings and other efficacy measures, e.g RECIST criteria or IWWM-8</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Solid Tumor</condition>
+  <arm_group>
+    <arm_group_label>CURATE.AI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>- Cohort 1: Capecitabine in solid tumours. In this cohort, participants will receive the treatment in three-week cycles. Only the dose of capecitabine will be modulated with CURATE.AI, based on measurements of the tumour marker (CEA/CA19-9). CT scans for radiological assessment will be performed according to standard of care, usually after every 2 to 3 cycles of chemotherapy for Cohort 1 only.&#xD;
+Cohort 2: Ibrutinib in Waldenström macroglobulinaemia In this cohort, participants will receive the treatment in four-week cycles. The total cumulative dose of Ibrutinib will be modulated with CURATE.AI, based on measurements of the tumour marker (IgM paraprotein).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CURATE.AI</intervention_name>
+    <description>Efficacy and toxicity measurements at the end of each dosing cycle, together with an information on given drugs and their doses, and other patient data, will be used by CURATE.AI to recommend the dose of capecitabine and Ibrutinib for the next cycle. The clinical investigators will decide whether or not to administer or prescribe the dose recommendation from CURATE.AI.</description>
+    <arm_group_label>CURATE.AI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Capecitabine</intervention_name>
+    <description>Treatment with the selected regimen will take up to a maximum duration of 12 months, in 3-week cycles. CURATE.AI dose recommendations will be generated before each chemotherapy cycle; fixed throughout the cycle; and within 1) the predetermined safety range (50% to 100% of dose used in standard of care treatment) and 2) subject-specific dosing range. Maximum total cumulative dose per cycle of capecitabine in the predetermined safety range is set at 100% of standard starting dose (i.e. , 1250mg/m2 twice daily for single agent capecitabine regimen). Minimum total cumulative dose per cycle of capecitabine in the predetermined safety range is set at 50% of the standard starting dose (i.e. 625mg/m2 twice daily for single agent capecitabine). Subject-specific dosing range may alter those numbers to suit the specific circumstances of the subject, thus giving the subject specific safe dosing range.</description>
+    <arm_group_label>CURATE.AI</arm_group_label>
+    <other_name>XELODA</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>XELOX</intervention_name>
+    <description>Treatment with the selected regimen will take up to a maximum duration of 12 months, in 3-week cycles. CURATE.AI dose recommendations will be generated before each chemotherapy cycle; fixed throughout the cycle; and within 1) the predetermined safety range (50% to 100% of dose used in standard of care treatment) and 2) subject-specific dosing range. Maximum dose of capecitabine in the predetermined safety range is set at 100% of standard starting dose (i.e. 1000 mg/m2 twice daily for XELOX regimen). Minimum dose of capecitabine in the predetermined safety range is set at 50% of the standard starting dose (i.e. 500 mg/m2 twice daily for XELOX regimen). Subject-specific dosing range may alter those numbers to suit the specific circumstances of the subject, thus giving the subject specific safe dosing range. The doses of other drug in the XELOX regimen (oxaliplatin) will be held constant or adjusted at the clinical investigator's discretion, as per standard of care.</description>
+    <arm_group_label>CURATE.AI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>XELIRI</intervention_name>
+    <description>Treatment with the selected regimen will take up to a maximum duration of 12 months, in 3-week cycles. CURATE.AI dose recommendations will be generated before each chemotherapy cycle; fixed throughout the cycle; and within 1) the predetermined safety range (50% to 100% of dose used in standard of care treatment) and 2) subject-specific dosing range. Maximum dose of capecitabine in the predetermined safety range is set at 100% of standard starting dose (i.e. 1000 mg/m2 twice daily for XELIRI regimen). Minimum dose of capecitabine in the predetermined safety range is set at 50% of the standard starting dose (i.e. 500 mg/m2 twice daily for XELIRI regimen). Subject-specific dosing range may alter those numbers to suit the specific circumstances of the subject, thus giving the subject specific safe dosing range.&#xD;
+The doses of other drug in the XELIRI regimen (irinotecan) will be held constant or adjusted at the clinical investigator's discretion, as per standard of care.</description>
+    <arm_group_label>CURATE.AI</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ibrutinib</intervention_name>
+    <description>Treatment with the selected regimen will take up to a maximum duration of 12 months, in 4-week cycles. CURATE.AI dose recommendations will be generated before each chemotherapy cycle; fixed throughout the cycle; and within 1) the predetermined safety range (50% to 100% of dose used in standard of care treatment) and 2) subject-specific dosing range.&#xD;
+Maximum total cumulative dose per cycle of Ibrutinib in the predetermined safety range is set at 100% of standard starting dose (i.e. 420 mg once daily for 4 weeks, which constitutes the total of 11760 mg per cycle). Minimum total cumulative dose per cycle of Ibrutinib in the predetermined safety range is set at 50% of the standard starting dose (i.e. 280 mg once daily on alternative days with 140 mg once daily, which constitutes the total of 5880 mg per cycle). The dosing range may be altered to suit the specific circumstances of the participant, thus giving the participant-specific safe dosing range.</description>
+    <arm_group_label>CURATE.AI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. General Inclusion Criteria&#xD;
+&#xD;
+               1. Males and females ≥ 21 years of age.&#xD;
+&#xD;
+               2. Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to 2.&#xD;
+&#xD;
+               3. Patients must meet the following clinical laboratory criteria within 21 days of&#xD;
+                  starting treatment:&#xD;
+&#xD;
+                    1. Absolute neutrophil count (ANC) ≥ 1,000/mm3 and platelet ≥ 50,000/mm3&#xD;
+&#xD;
+                    2. Total bilirubin ≤ 1.5 x the upper limit of the normal range (ULN). Alanine&#xD;
+                       aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 3 x ULN or ≤ 5&#xD;
+                       ULN if involvement of the liver.&#xD;
+&#xD;
+                    3. Calculated creatinine clearance ≥ 30mL/min or creatinine &lt; 1.5 x ULN&#xD;
+&#xD;
+             Exclusion Criteria:&#xD;
+&#xD;
+          2. General Exclusion Criteria&#xD;
+&#xD;
+               1. Patients who are lactating or pregnant.&#xD;
+&#xD;
+               2. Major surgery within 28 days prior to start of the treatment.&#xD;
+&#xD;
+               3. Active congestive heart failure (New York Heart Association [NYHA] Class III or&#xD;
+                  IV), symptomatic ischaemia, or conduction abnormalities uncontrolled by&#xD;
+                  conventional intervention. Myocardial infarction within 4 months prior to&#xD;
+                  informed consent obtained.&#xD;
+&#xD;
+               4. Patients with clinically significant hypersensitivity to one or more of the&#xD;
+                  selected regimen's constituent drug(s) (e.g. patient's with clinically&#xD;
+                  significant hypersensitivity to oxaliplatin may not be enrolled on the XELOX&#xD;
+                  regimen, but may be allowed on the XELIRI regimen).&#xD;
+&#xD;
+               5. Contraindication to any of the required concomitant drugs or supportive&#xD;
+                  treatments.&#xD;
+&#xD;
+               6. Any clinically significant medical disease or psychiatric condition that, in the&#xD;
+                  investigator's opinion, may interfere with protocol adherence or a subject's&#xD;
+                  ability to give informed consent.&#xD;
+&#xD;
+          3. Specific Recruitment Criteria for Cohort 1: Capecitabine in solid tumours&#xD;
+&#xD;
+        i. Specific Inclusion Criteria&#xD;
+&#xD;
+          1. Metastatic solid tumours not for curative intent therapy;&#xD;
+&#xD;
+          2. Planned for treatment with the following chemotherapy regimens: XELOX, XELIRI or&#xD;
+             single agent capecitabine.&#xD;
+&#xD;
+          3. Patients must have raised tumour marker above upper limit of local laboratory normal&#xD;
+             (e.g. CEA, CA19-9).&#xD;
+&#xD;
+        ii. Specific Exclusion Criteria Nil&#xD;
+&#xD;
+        d. Specific Recruitment Criteria for Cohort 2: Ibrutinib in Waldenström macroglobulinaemia&#xD;
+&#xD;
+        i. Specific Inclusion Criteria&#xD;
+&#xD;
+          1. Waldenström macroglobulinaemia (either newly diagnosed or relapsed) as defined by the&#xD;
+             World Health Organisation 2016 diagnostic criteria.&#xD;
+&#xD;
+          2. Immunofixation confirms immunoglobulin M paraprotein and total IgM &gt; 2 x ULN.&#xD;
+&#xD;
+        ii. Specific Exclusion Criteria&#xD;
+&#xD;
+          1. Systemic anti-lymphoma therapy within 3 weeks of enrolment. Steroids at a dose&#xD;
+             equivalent of prednisolone 30mg per day are allowed provided this is discontinued 72&#xD;
+             hours prior to commencement of drug dosing on trial.&#xD;
+&#xD;
+          2. Need to withhold rituximab in view of the risk of IgM flare (applies to patients&#xD;
+             treated with rituximab-based regimens).&#xD;
+&#xD;
+          3. Platelet transfusion within 7 days of screening.&#xD;
+&#xD;
+          4. Granulocyte colony stimulating factor within 7 days of screening.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raghav Sundar</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National University Hospital, Singapore</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Raghav Sundar</last_name>
+    <phone>+65 6779 5555</phone>
+    <email>raghav_sundar@nuhs.edu.sg</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The N.1 Institute for Health</name>
+      <address>
+        <city>Singapore</city>
+        <zip>117456</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xavier Tadeo</last_name>
+      <phone>+6588662149</phone>
+      <email>biextc@nus.edu.sg</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yoong Hun Ong,</last_name>
+      <phone>+6596680807</phone>
+      <email>yh.ong@nus.edu.sg</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Agata Blasiak, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dean Ho, Prof</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Theodore Kee, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <zip>119074</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Cheng Ean Chee, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wei Peng Yong, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Raghav Sundar, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hon Lyn Tan, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jingshan Ho, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gloria Chan, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joan Choo, Dr</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <results_reference>
+    <citation>Thummel KE, Lin YS. Sources of interindividual variability. Methods Mol Biol. 2014;1113:363-415. doi: 10.1007/978-1-62703-758-7_17. Review.</citation>
+    <PMID>24523121</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Blasiak A, Khong J, Kee T. CURATE.AI: Optimizing Personalized Medicine with Artificial Intelligence. SLAS Technol. 2020 Apr;25(2):95-105. doi: 10.1177/2472630319890316. Epub 2019 Nov 26.</citation>
+    <PMID>31771394</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rashid MBMA, Toh TB, Hooi L, Silva A, Zhang Y, Tan PF, Teh AL, Karnani N, Jha S, Ho CM, Chng WJ, Ho D, Chow EK. Optimizing drug combinations against multiple myeloma using a quadratic phenotypic optimization platform (QPOP). Sci Transl Med. 2018 Aug 8;10(453). pii: eaan0941. doi: 10.1126/scitranslmed.aan0941.</citation>
+    <PMID>30089632</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ho D. Artificial intelligence in cancer therapy. Science. 2020 Feb 28;367(6481):982-983. doi: 10.1126/science.aaz3023.</citation>
+    <PMID>32108102</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zarrinpar A, Lee DK, Silva A, Datta N, Kee T, Eriksen C, Weigle K, Agopian V, Kaldas F, Farmer D, Wang SE, Busuttil R, Ho CM, Ho D. Individualizing liver transplant immunosuppression using a phenotypic personalized medicine platform. Sci Transl Med. 2016 Apr 6;8(333):333ra49. doi: 10.1126/scitranslmed.aac5954.</citation>
+    <PMID>27053773</PMID>
+  </results_reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>August 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 21, 2020</study_first_posted>
+  <last_update_submitted>March 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cancer</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>CURATE.AI</keyword>
+  <keyword>XELOX</keyword>
+  <keyword>Xeliri</keyword>
+  <keyword>Xeloda</keyword>
+  <keyword>Capecitabine</keyword>
+  <keyword>Chemotherapy</keyword>
+  <keyword>Phenotypic Personalized Medicine</keyword>
+  <keyword>Ibrutinib</keyword>
+  <keyword>Waldenström macroglobulinaemia</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Capecitabine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

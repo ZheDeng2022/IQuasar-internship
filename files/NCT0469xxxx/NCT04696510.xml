@@ -1,0 +1,320 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04696510</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IMAGO2020</org_study_id>
+    <nct_id>NCT04696510</nct_id>
+  </id_info>
+  <brief_title>Physiopathology, Diagnosis and Therapy of Primary Cephalalgia and Adaptive Disorders</brief_title>
+  <official_title>Biomarker Identification to Predict the Evolution of Migraine From an Episodic to a Chronic Condition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>IRCCS National Neurological Institute &quot;C. Mondino&quot; Foundation</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>IRCCS National Neurological Institute &quot;C. Mondino&quot; Foundation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main aim of the present pilot study is to prove the possibility to use the Nitroglycerin&#xD;
+      (NTG) model to describe the pathophysiology of headache using task-free advanced Magnetic&#xD;
+      Resonance Imaging (MRI) techniques, in order to depict the static changes of the ictal and&#xD;
+      inter-ictal phase of migraine attacks vs the pain free state in healthy subjects and to&#xD;
+      compare that with the spontaneous headache attack experienced by chronic migraineurs.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Resting state functional magnetic resonance imaging (rs-fMRI) has depicted cyclical&#xD;
+      functional connectivity changes during the ictal and inter-ictal phase of the migraine&#xD;
+      attack. In this pilot study, Functional Connectivity (FC) changes during nitroglycerin (NTG)&#xD;
+      induced migraine attacks were assessed vs the pain-free condition in healthy subjects.&#xD;
+&#xD;
+      To this end, subjects with episodic migraine (EM) without aura were enrolled. NTG-triggered a&#xD;
+      spontaneous-like migraine attack in the subjects. They underwent 4 rs-fMRI scan repetitions&#xD;
+      during different phases of the attack (baseline, prodromal, full blown, recovery phase) with&#xD;
+      a 3 Tesla MR scanner. According to the pain field literature, several regions of interests&#xD;
+      were studied, in particular the thalamic areas and the salience network (SN) were selected as&#xD;
+      primary areas of interest for the analyses. Subjects' rs-fMRI data were first processed with&#xD;
+      a seed-based correlation analysis (SCA) to assess the static changes in FC between the&#xD;
+      thalamus and the rest of the brain during the experiment. The wavelet coherence approach&#xD;
+      (WCA) were also applied to test the changes in time-in-phase coherence between the thalamus&#xD;
+      and the salience network (SN).&#xD;
+&#xD;
+      Healthy subject were administered nitroglycerin as well and scanned at a pain free baseline&#xD;
+      and after 3 hours in order to compare the response.&#xD;
+&#xD;
+      The rebound headache that followed acute drug withdrawal were used as a surrogate paradigm of&#xD;
+      spontaneous attack. Patients with chronic migraine and medication overuse were hospitalized&#xD;
+      for a supervised withdrawal program at the Mondino Foundation; during the program if they&#xD;
+      experienced a rebound headache attack, they were scanned with a rs-fMRI acquisition.&#xD;
+&#xD;
+      The acquired imagines were analyzed with the same procedure regarding the evaluation of&#xD;
+      static and dynamic functional connectivity fluctuation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 31, 2018</start_date>
+  <completion_date type="Actual">December 15, 2020</completion_date>
+  <primary_completion_date type="Actual">March 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Functional Connectivity (FC) changes</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>Functional connectivity pattern of changes profiling the different condition of the migraine experience. To depict the static and dynamics changes of brain activity during a migraine attack; ii) To validate the use of the NTG-induced attacks paradigm as a reliable instrument combined with an fMRI approach to compare the induced vs the spontaneous attack; iii) To describe possible differences in brain activity between attacks in chronic and episodic migraineurs.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Magnetic Resonance Imaging (MRI)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>To acquire sufficient MRI to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms. This can be achieved by combining clinical, psychological, biological, neurophysiological and MRI-derived features into a multimodal multi-parametric approach suitable for patient's classification. The ML and DL approaches could also be adopted to predict chronification, as well as the response to a withdrawal program for medication overuse headache.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Monthly migraine frequency (day/month)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Disease duration (years)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Nausea (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>As a feature of the migraine attack.To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Vomiting (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>As a feature of the migraine attack.To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Photophobia (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>As a feature of the migraine attack.To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Phonophobia (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aggravation by movement (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>As a feature of the migraine attack. To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Throbbing pain (number)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>As a feature of the migraine attack. To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Abortive medication (number of intake/month)</measure>
+    <time_frame>Up to 6 hours</time_frame>
+    <description>To acquire clinical data to identify feature patterns that can profile patient's condition using machine learning (ML) and deep learning (DL) algorithms.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">15</enrollment>
+  <condition>Migraine</condition>
+  <arm_group>
+    <arm_group_label>Chronic migraineurs</arm_group_label>
+    <description>This group includes patients with chronic migraine.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <description>This group includes healthy subjects.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Episodic migraineurs</arm_group_label>
+    <description>This group includes patients with episodic migraine</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects with episodic migraine without aura; patients with chronic migraine and medication&#xD;
+        overuse; healthy subjects&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Episodic migraineurs&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  age between 18-60 years;&#xD;
+&#xD;
+          -  diagnosis of episodic migraine without aura developed before the age of 50;&#xD;
+&#xD;
+          -  no current prophylactic treatment for migraine prevention;&#xD;
+&#xD;
+          -  chronic migraineurs with medication overuse according to the ICHDIII criteria&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  chronic or medication-overuse headache or cluster headache diagnosis;&#xD;
+&#xD;
+          -  any chronic pain condition or disorders other than migraine;&#xD;
+&#xD;
+          -  an alleged diagnosis of major psychiatric disorders such as depression, bipolar&#xD;
+             affective disorder and schizophrenia;&#xD;
+&#xD;
+          -  a diagnosis of tension type headache with a frequency of more than 5 days per month;&#xD;
+&#xD;
+          -  any cardiovascular diseases in which the NTG use could be contraindicated;&#xD;
+&#xD;
+          -  blood pressure hypotension, closed angle glaucoma, anaemia;&#xD;
+&#xD;
+          -  women in child bearing, breast feeding; continuous use of benzodiazepines;&#xD;
+&#xD;
+          -  any neuroradiological pathological findings at a previous MRI scan of the head.&#xD;
+&#xD;
+        Chronic migraineurs&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  age between 18-60 years;&#xD;
+&#xD;
+          -  diagnosis of migraine without aura developed before the age of 50 according to the&#xD;
+             ICHD III criteria;&#xD;
+&#xD;
+          -  currently chronic migraineurs with medication overuse according to The International&#xD;
+             Classification of Headache Disorders 3rd edition (ICHDIII) criteria.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  any chronic pain condition or disorders other than migraine;&#xD;
+&#xD;
+          -  an alleged diagnosis of major psychiatric disorders such as depression, bipolar&#xD;
+             affective disorder and schizophrenia;&#xD;
+&#xD;
+          -  a diagnosis of tension type headache with a frequency of more than 5 days per month;&#xD;
+&#xD;
+          -  any cardiovascular diseases in which the NTG use could be contraindicated;&#xD;
+&#xD;
+          -  blood pressure hypotension, closed angle glaucoma, anaemia; women in child bearing,&#xD;
+             breast feeding;&#xD;
+&#xD;
+          -  continuous use of benzodiazepines;&#xD;
+&#xD;
+          -  any neuroradiological pathological findings at a previous MRI scan of the head.&#xD;
+&#xD;
+        Healthy subjects&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  age between 18-60 years;&#xD;
+&#xD;
+          -  overall good clinical condition, no neurological findings at the physical examination.&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  history of episodic or chronic or medication-overuse headache or cluster headache&#xD;
+             diagnosis according to the International Chronic Headache Disease (ICHD) III criteria;&#xD;
+&#xD;
+          -  any chronic pain condition or disorders other than migraine;&#xD;
+&#xD;
+          -  an alleged diagnosis of major psychiatric disorders such as depression, bipolar&#xD;
+             affective disorder and schizophrenia;&#xD;
+&#xD;
+          -  a diagnosis of tension type headache with a frequency of more than 5 days per month;&#xD;
+&#xD;
+          -  any cardiovascular diseases in which the NTG use could be contraindicated;&#xD;
+&#xD;
+          -  blood pressure hypotension, closed angle glaucoma, anaemia;&#xD;
+&#xD;
+          -  women in child bearing, breast feeding;&#xD;
+&#xD;
+          -  continuous use of benzodiazepines;&#xD;
+&#xD;
+          -  any neuroradiological pathological findings at the baseline MRI scan of the head.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Cristina Tassorelli, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>IRCCS Mondino Foundation, Pavia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Headache Science Center</name>
+      <address>
+        <city>Pavia</city>
+        <zip>27100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Karsan N, Bose PR, O'Daly O, Zelaya FO, Goadsby PJ. Alterations in Functional Connectivity During Different Phases of the Triggered Migraine Attack. Headache. 2020 Jul;60(7):1244-1258. doi: 10.1111/head.13865. Epub 2020 Jun 22.</citation>
+    <PMID>32568433</PMID>
+  </reference>
+  <reference>
+    <citation>Thomsen LL, Kruuse C, Iversen HK, Olesen J. A nitric oxide donor (nitroglycerin) triggers genuine migraine attacks. Eur J Neurol. 1994 Sep;1(1):73-80. doi: 10.1111/j.1468-1331.1994.tb00053.x.</citation>
+    <PMID>24283432</PMID>
+  </reference>
+  <reference>
+    <citation>Schulte LH, May A. Functional Neuroimaging in Migraine: Chances and Challenges. Headache. 2016 Oct;56(9):1474-1481. doi: 10.1111/head.12944. Epub 2016 Sep 22.</citation>
+    <PMID>27654831</PMID>
+  </reference>
+  <reference>
+    <citation>Amin FM, Hougaard A, Magon S, Sprenger T, Wolfram F, Rostrup E, Ashina M. Altered thalamic connectivity during spontaneous attacks of migraine without aura: A resting-state fMRI study. Cephalalgia. 2018 Jun;38(7):1237-1244. doi: 10.1177/0333102417729113. Epub 2017 Aug 30.</citation>
+    <PMID>28853611</PMID>
+  </reference>
+  <reference>
+    <citation>Maniyar FH, Sprenger T, Monteith T, Schankin C, Goadsby PJ. Brain activations in the premonitory phase of nitroglycerin-triggered migraine attacks. Brain. 2014 Jan;137(Pt 1):232-41. doi: 10.1093/brain/awt320. Epub 2013 Nov 25.</citation>
+    <PMID>24277718</PMID>
+  </reference>
+  <results_reference>
+    <citation>Sances G, Tassorelli C, Pucci E, Ghiotto N, Sandrini G, Nappi G. Reliability of the nitroglycerin provocative test in the diagnosis of neurovascular headaches. Cephalalgia. 2004 Feb;24(2):110-9.</citation>
+    <PMID>14728706</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Tassorelli C, Joseph SA, Buzzi MG, Nappi G. The effects on the central nervous system of nitroglycerin--putative mechanisms and mediators. Prog Neurobiol. 1999 Apr;57(6):607-24. Review.</citation>
+    <PMID>10221784</PMID>
+  </results_reference>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>December 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 6, 2021</study_first_posted>
+  <last_update_submitted>January 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 6, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Episodic migraine</keyword>
+  <keyword>Chronic migraine</keyword>
+  <keyword>Medication overuse</keyword>
+  <keyword>Nitroglycerin</keyword>
+  <keyword>fMRI</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Migraine Disorders</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

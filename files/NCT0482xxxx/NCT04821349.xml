@@ -1,0 +1,261 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04821349</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ArtiC STUDY-NP4350 v.05 140920</org_study_id>
+    <nct_id>NCT04821349</nct_id>
+  </id_info>
+  <brief_title>Role of AI in CE for the Identification of SB Lesions in Patients With Small Intestinal Bleeding.</brief_title>
+  <acronym>ArtIC</acronym>
+  <official_title>Role of the Artificial Intelligence in Capsule Endoscopy for the Identification of Small Bowel Lesions in Patients With Small Intestinal Bleeding ArtIC Study: Artificial Intelligence Capsule Endoscopy Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fondazione Poliambulanza Istituto Ospedaliero</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fondazione Poliambulanza Istituto Ospedaliero</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Capsule Endoscopy (CE) is a safe, patient friendly and easy procedure performed for the&#xD;
+      evaluation of gastrointestinal tract unable to be explored via conventional endoscopy. The&#xD;
+      most common indication to perform SBCE is represented by Suspected Small Bowel Bleeding&#xD;
+      (SSBB). According to the widest meta-analysis available in literature, SBCE shows a&#xD;
+      diagnostic yield in SSBB of about 60%, and angiodysplasias are the most relevant findings,&#xD;
+      accounting for 50% of patients undergoing SBCE for SSBB. Accordingly, it represents the first&#xD;
+      line examination in SSBB investigation for determining the source of bleeding, if primary&#xD;
+      endoscopy results negative. Despite its high clinical feasibility, the evaluation of&#xD;
+      CE-video-captures is one of the main drawbacks since it is time consuming and requests the&#xD;
+      reader to concentrate to not miss any lesion. In order to reduce reading time, several&#xD;
+      software have been developed with the aim to cut similar images and select relevant images.&#xD;
+      For example, automated fast reading software have demonstrated to significantly reduce&#xD;
+      reading time without impacting the miss rate in pathological conditions affecting diffusely&#xD;
+      the mucosa (as IBD lesions do). Not the same assumption can be taken for isolated lesions&#xD;
+      since several studies reported an unacceptable miss rate for such a detection modality. New&#xD;
+      advancements such as artificial intelligence made their appearance in recent years. Deep&#xD;
+      convolutional neural networks (CNNs) have demonstrated to recognize specific images among a&#xD;
+      large variety up to exceed human performance in visual tasks. A Deep Learning model has been&#xD;
+      recently validated in the field of Small Bowel CE by Ding et al. According to their data&#xD;
+      collected on 5000 patients, the CNN-based auxiliary model identify abnormalities with 99.88%&#xD;
+      sensitivity in the per patient analysis and 99.90% sensitivity in the per-lesion analysis.&#xD;
+      With this perspective, it is believable that AI applied to SBCE can significantly shorten the&#xD;
+      reading time and support physicians to detect available lesions without losing significant&#xD;
+      lesions, further improving the diagnostic yield of the procedure.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a multicenter, multinational, blinded prospective trial, involving a consecutive&#xD;
+      series of patients recruited by 12 European centers based on the indication of OGIB:&#xD;
+&#xD;
+        -  after negative upper and lower endoscopy&#xD;
+&#xD;
+        -  France: after negative pregnancy test&#xD;
+&#xD;
+        -  Hb cut-off male: &lt;13, female: &lt;12 Capsule endoscopy will be performed in each site&#xD;
+           according to local rules and requirements, and the study protocol will concern only the&#xD;
+           post-procedure analysis on reading modalities for each patient, as specified below.1.&#xD;
+           Regimen of preparation AI depends on the possibility of the software to &quot;see&quot; images. An&#xD;
+           inadequate cleansing level precludes a proper visualization and the impact of&#xD;
+           technology. In order to have homogenous results, a standard regimen of preparation is&#xD;
+           advisable. The regimen includes a split dose of PEG-based solution (PlenVu, Moviprep) as&#xD;
+           recommended by ESGE guideline - technical report. Dose 1 will be administered at 7 pm of&#xD;
+           the day before and dose 2 in the morning of the procedure in order to be completed at&#xD;
+           least 1 hour before capsule ingestion. On the day before patients can have breakfast and&#xD;
+           a light meal. After lunch they should be fasting. Two and 4 hours after capsule&#xD;
+           ingestion patient are allowed to drink clear liquids and a light meal, respectively.&#xD;
+&#xD;
+           2. Standard reading Each center will review the images collected according to the&#xD;
+           &quot;normal reading&quot; as recommended by ESGE guidelines. To compare reading time correctly,&#xD;
+           readers must read the video without including annotation of images. All lesions should&#xD;
+           be considered independently of their relevance. Findings are not marked on every image&#xD;
+           if they appear repeatedly on every consecutive image, but if they appear repeatedly with&#xD;
+           normal images in between. Annotations should be done after the reading, each lesion&#xD;
+           shall be labelled if it belongs to P1/2 category according to the Saurin Classification.&#xD;
+           Definition of P1, P2: red spots on the intestinal mucosa or small or isolated erosions&#xD;
+           or angioectasia, ulcers, tumors or varices or any other bleeding abnormality.&#xD;
+&#xD;
+           3. AI-assisted reading Each center will receive from another center anonymized patient&#xD;
+           videos that have been uploaded on an encrypted USB key. Indeed, expert&#xD;
+           gastroenterologists from each center will proceed with AI-assisted video reading without&#xD;
+           knowing which center the video comes from nor the results of the normal reading. Reading&#xD;
+           conditions are the same as for standard reading.&#xD;
+&#xD;
+           4. Consensus reading Results from both normal and AI-assisted reading will be compared.&#xD;
+           In the case of significant disagreement between the results from conventional capsule&#xD;
+           endoscopy reading and AI-assisted reading (e.g. missed lesions), a consensus review for&#xD;
+           each center will be done. Any lesion shall be considered.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 16, 2021</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>Each center will receive from another center anonymized patient videos that have been uploaded on an encrypted USB key. Indeed, expert gastroenterologists from each center will proceed with AI-assisted video reading without knowing which center the video comes from nor the results of the normal reading. Reading conditions are the same as for standard reading.&#xD;
+Results from both normal and AI-assisted reading will be compared. In the case of significant disagreement between the results from conventional capsule endoscopy reading and AI-assisted reading (e.g. missed lesions), a consensus review for each center will be done. Any lesion shall be considered.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of AI-assisted video reading versus traditional video reading with conventional software.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>sensitivity, specificity, PPV, NPV calculated at per-patient analysis for P1 / P2 lesions, compared with the adjudication committee as gold standard in case of discrepancies.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>evaluation of Reading time of AI-assisted reading compared with conventional reading</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Role of AI-assisted reading in real life from a health economic perspective</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of AI-assisted video reading versus traditional video reading with conventional software.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Sensitivity, specificity, PPV, NPV, calculated at per lesion analysis for P1 / P2 lesions and for any lesion with the adjudication committee as gold standard in case of discrepancies .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of AI-assisted video reading versus traditional video reading with conventional software considering any lesions for a per-patient analysis with the adjudication committee as gold standard in case of discrepancies.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic yield of CE</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number and type of findings / lesion detected</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">126</enrollment>
+  <condition>Iron Deficiency Anemia</condition>
+  <condition>Obscure Gastrointestinal Bleeding</condition>
+  <arm_group>
+    <arm_group_label>Single arm study</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Standard reading Group vs AI-assisted reading Group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Capsule endoscopy</intervention_name>
+    <description>A consecutive series of patients recruited by 12 European centers based on the indication of OGIB will undergo capsule endoscopy examination.&#xD;
+Capsule endoscopy will be performed in each site according to local rules and requirements, and the study protocol will concern only the post-procedure analysis on reading modalities for each patient.</description>
+    <arm_group_label>Single arm study</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        indication of OGIB:1)after negative upper and lower endoscopy; 2)France: after negative&#xD;
+        pregnancy test; 3)Hb cut-off male: &lt;13, female: &lt;12&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt; 18 years old&#xD;
+&#xD;
+          -  Known or suspected intestinal obstruction&#xD;
+&#xD;
+          -  Non-steroidal anti-inflammatory drugs (twice weekly or more) during the 4 weeks&#xD;
+             preceding enrollment&#xD;
+&#xD;
+          -  Patient is expected to undergo MRI examination within 7 days after ingestion of the&#xD;
+             capsule&#xD;
+&#xD;
+          -  Patient with known gastrointestinal motility disorders&#xD;
+&#xD;
+          -  Subjects with known or suspected delayed gastric emptying&#xD;
+&#xD;
+          -  Patient suffers from any condition, such as swallowing problems, which precludes&#xD;
+             compliance with study and/or device instructions&#xD;
+&#xD;
+          -  Patient has any allergy or other known contraindication or intolerance to the&#xD;
+             medications used in the study&#xD;
+&#xD;
+          -  Patient has any condition, which precludes compliance with study and/or device&#xD;
+             instructions&#xD;
+&#xD;
+          -  Patient with any contraindication to take the bowel preparation product&#xD;
+&#xD;
+          -  Women who are either pregnant or nursing at the time of screening, or are of child-&#xD;
+             bearing potential and do not practice medically acceptable methods of contraception&#xD;
+&#xD;
+          -  Concurrent participation in another clinical trial using any investigational drug or&#xD;
+             device&#xD;
+&#xD;
+          -  Patient suffers from a life-threatening condition&#xD;
+&#xD;
+          -  Patients with history or clinical evidence of renal disease and/or previous clinically&#xD;
+             significant laboratory abnormalities of renal function parameters&#xD;
+&#xD;
+          -  Patients with pace-maker or implantable cardioverter&#xD;
+&#xD;
+          -  Patient did not sign informed consent&#xD;
+&#xD;
+          -  Endoscopic placement of the capsule&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Cristiano Spada, Chief</last_name>
+    <phone>00390303515074</phone>
+    <email>cristiano.spada@poliambulanza.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Fondazione Poliambulanza</name>
+      <address>
+        <city>Brescia</city>
+        <zip>25124</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stefania MD Piccirelli</last_name>
+      <phone>0039 3356569755</phone>
+      <email>stefania.piccirelli@poliambulanza.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>March 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 29, 2021</study_first_posted>
+  <last_update_submitted>September 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Hemorrhage</mesh_term>
+    <mesh_term>Anemia, Iron-Deficiency</mesh_term>
+    <mesh_term>Hemorrhage</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

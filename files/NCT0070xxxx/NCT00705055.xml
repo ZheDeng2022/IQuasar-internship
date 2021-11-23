@@ -1,0 +1,282 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00705055</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CMC-07-0018-CTIL</org_study_id>
+    <secondary_id>DW 6/2007</secondary_id>
+    <nct_id>NCT00705055</nct_id>
+  </id_info>
+  <brief_title>Face Anthropometric Pattern Recognition Technology for Computer Aided Diagnosis of Human Genetic Disorders.</brief_title>
+  <acronym>DW-6/2007</acronym>
+  <official_title>Face Anthropometric Pattern Recognition Technology, Based on 3D Reconstruction Technology, for Computer Aided Diagnosis of Human Genetic Disorders. Multicenter Collaborative Study.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Carmel Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Soroka University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Technion, Israel Institute of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Carmel Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The hypothesis to be tested: After the construction of a database of anthropometric&#xD;
+      measurements, the system would extract important features of a given facial surface and be&#xD;
+      able to match it with existing morphometric figures. A given combination of normal and&#xD;
+      abnormal measurements will open a &quot;probable diagnosis&quot; and a list of &quot;differential diagnosis&quot;&#xD;
+      that will be expressed as percent of matching in a descendent order to the examiner.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Summary of Relevant Background Studies: Congenital anomalies play a major role in pediatric&#xD;
+      care. One of the leading causes of infant mortality in developed countries is the sequelae of&#xD;
+      these congenital anomalies. In some cases this exceeds the death rate for prematurity, SIDS,&#xD;
+      and other common causes of infant or neonatal death. The available tools for the assessment&#xD;
+      of a dysmorphic infant or child are based mainly on the experience of the examiner and his&#xD;
+      ability to translate findings and measurements from the physical examination to a qualitative&#xD;
+      and quantitative summary of accepted values plotted for the corresponding age (1,2). Various&#xD;
+      unusual features are expressed in qualitative terms such as short stature, long fingers,&#xD;
+      pear-shaped nose, small ears or other terms, which imply a comparison with other body&#xD;
+      proportions and the subjective impression of the examiner. Following that, an impression of&#xD;
+      the patient as a 'gestalt' is formed in the examiner's mind.&#xD;
+&#xD;
+      The databases and most of the written material are descriptive with scarce graphic and&#xD;
+      photographs, making the comparison of the phenotypic expression of the described subject with&#xD;
+      the one that needs to be diagnosed a difficult one. Even with the extensive existing data on&#xD;
+      objective measurements available to characterize a phenotype, many of the physicians involved&#xD;
+      in the diagnosis of a specific case will base part of their diagnosis on &quot;it looks like&quot; and&#xD;
+      put that impression in the context of other physical and laboratory findings.&#xD;
+&#xD;
+      Many syndromes in human pathology are recognized by their unique and distinctive facial and&#xD;
+      body characteristics. These stereotypic phenotypic characteristics are mostly reproducible&#xD;
+      using anthropometric measurements.&#xD;
+&#xD;
+      Charts are available for nor+mal data values of various morphometric variables (1,2).&#xD;
+      However, some of these figures can be accurately measured only on 3D structures (head, face).&#xD;
+      The following figure demonstrates the measurement of the angle of the palpebral fissure:&#xD;
+&#xD;
+      Fig. 1: An upward obliquity to the palpebral fissures is known as a mongoloid slant while&#xD;
+      downward obliquity is referred to as an antimongoloid slant. In order to obtain such&#xD;
+      measurements within the uterus a 3D configuration and appropriate image analysis is necessary&#xD;
+      (Figure from Ref. 2).&#xD;
+&#xD;
+      Fetal alcohol syndrome (FAS) is an example of a syndrome that underwent characterization by&#xD;
+      graphic data analysis methods (3). The prevalence of fetal alcohol syndrome (FAS) was&#xD;
+      determined in a foster care population and evaluated the performance of the FAS Facial&#xD;
+      Photographic Screening Tool. The authors concluded that the screening tool performed with&#xD;
+      very high accuracy and could be used to track FAS prevalence over time in foster care&#xD;
+      population to accurately assess the effectiveness of primary prevention. An expert can&#xD;
+      recognize facial characteristics and provide accurate analysis. Objective measurements could&#xD;
+      provide less experienced observers with tools that classify anatomical characteristics of&#xD;
+      different diseases and syndromes. Facial phenotypic patterns can be extracted from large&#xD;
+      databases of facial surfaces. These biometric measurements can be used for analysis when&#xD;
+      evaluated with respect to their &quot;normal&quot; values in the general population.&#xD;
+&#xD;
+      3- Methods of Study: Following approval of the Helsinki Committee, the project will be&#xD;
+      performed in several successive steps as follows: A. Newborn scanning: A database of 3D&#xD;
+      pictures (scans) of the face of newborn infants will be created. The scanning will be&#xD;
+      performed initially at the Carmel Medical Center, during their hospital stay. The examinees&#xD;
+      will be scanned one time, in order to build a database based on the data obtained from each&#xD;
+      scanned picture.&#xD;
+&#xD;
+      The facial anthropometric patterns of the obtained 3D pictures will be studied off-line using&#xD;
+      a computerized face pattern recognition system developed and used at the Faculty of Computer&#xD;
+      Sciences at the Technion. The measurements obtained will be compared to geometric&#xD;
+      anthropometric data already in use by medical geneticists and clinicians (1-9).&#xD;
+&#xD;
+      B. Hardware and software description:&#xD;
+&#xD;
+      3D Image Acquisition: Special hardware specially prepared in our department was developed for&#xD;
+      3D image acquisition of newborn (see figure 2).&#xD;
+&#xD;
+      The hardware consists in:a structured light projector (DLP Projector Casio 350j,a digital&#xD;
+      video camera (PTGray Flea CCD Camera (Point Grey Research® Inc.( Black and white (640x480),&#xD;
+      Aluminum projector cage, Special medical stand with wheels,Personal Computer - Pentium 4 -&#xD;
+      XP,Flat screen 17&quot; with stand mount,Firewire cables,I/O cables.&#xD;
+&#xD;
+      Systems used for image acquisition: Currently there are two basic technologies. One is a&#xD;
+      laser scan, where a narrow laser generated light plane scans a face in vertical direction and&#xD;
+      the 3-D structure of the face is recovered based on the form of the light contour at the&#xD;
+      intersection between the light plane and the face surface.&#xD;
+&#xD;
+      The second method is based on the so-called structured light technology (regular light),&#xD;
+      where one or more specially designed light patterns are projected onto a face, and the 3D&#xD;
+      structure is recovered based on the position measurements of known pattern elements&#xD;
+      projections on the face.&#xD;
+&#xD;
+      Next, the range image is converted to a triangulated surface. The mesh can be possibly&#xD;
+      sub-sampled in order to decrease the amount of data. The choice of the number of sub-samples&#xD;
+      is a tradeoff between accuracy and computational complexity. Using this technique image&#xD;
+      acquisition and reconstruction takes about 2-3 seconds.&#xD;
+&#xD;
+      C. Morphometric parameters and their computation: In order to compute common morphometric&#xD;
+      parameters like inner and outer cantal distance, interpupillary distance, etc., there is a&#xD;
+      need to recognize various points of interest in the 3D face. This will be done using various&#xD;
+      pattern recognition algorithms. At the initial stage a manual procedure will be used to mark&#xD;
+      features on the projection of the facial surface.&#xD;
+&#xD;
+      Based on the results of the first phase automatic methods will be developed to detect&#xD;
+      features using statistical and algebraic algorithms. After having the relevant anchor points&#xD;
+      secured, simple 3D geometry will be used to compute common morphometric data. Parameters&#xD;
+      include outer canthal distance, interpupillary distance, palpebral fissure length, palpebral&#xD;
+      fissure angle, nasal-labial (philtrum) length, ear length, ear height, etc. The 3D data&#xD;
+      available can be used to try and search for other parameters that might be considered as&#xD;
+      statistically meaningful indicators.&#xD;
+&#xD;
+      Another avenue of research is to examine the importance of other metrics for distance&#xD;
+      estimation. One option is to check the contribution of geodesic distances as indicators.&#xD;
+      Geodesic distance is a distance map computed on the surface itself (Riemannian metric). A&#xD;
+      minimal geodesic path is the shortest path on the surface connecting two points.&#xD;
+&#xD;
+      An efficient method for computing the minimal geodesic distances on a triangulated domain was&#xD;
+      developed by Kimmel and Sethian (10). As the face is a deformable surface it is important to&#xD;
+      use such a representation for the facial surface that the measurements performed on it would&#xD;
+      be invariant to possible deformations (i.e. various facial expressions). In this case a&#xD;
+      bending invariant surface representation introduced by Elad and Kimmel will be used (11).&#xD;
+&#xD;
+      D. Statistical methods will be used for detecting the best independent significant&#xD;
+      morphometric variables which significantly correlate with the various syndromes:&#xD;
+      Discriminating scores will be constructed using the regression coefficients of the&#xD;
+      multivariate analysis tests and best cutoff points will be found, predicting between&#xD;
+      different genetic anomalies. Testing of the method and of the results will be done using a&#xD;
+      validation group of patients and healthy controls, by independent observers. The syndromatic&#xD;
+      examined newborn infants will be assessed by a geneticist and confirmation of the diagnosis&#xD;
+      will be made by laboratory tests when appropriate.&#xD;
+&#xD;
+      E. Statistical Power and number of patients: Many morphometrical variables will be assessed,&#xD;
+      based on our 3D reconstructing methods. Only after applying the multivariate analysis on the&#xD;
+      results, the relative diagnostic importance of each variable will be revealed. Thus, no&#xD;
+      single variable can be considered at this point, as an absolute discriminator between normal&#xD;
+      and abnormal value. However, if considering for example only one 3D morphometric variable,&#xD;
+      such as the degree of palpebral fissure slanting, in order to discriminate between &quot;Trisomy&#xD;
+      21&quot; and &quot;normal&quot; in the Caucasian population, the following power analysis can be computed:&#xD;
+      The average and SD values of the slanting eye angle in &quot;normal&quot; is: 3.5 (degrees) ± 1.5. In a&#xD;
+      Trisomy 21 patient, there is an upward shift of this value. In order to detect a shift of&#xD;
+      more than 2 SD's (i.e. of more than 3 degree) and supposing that the SD will be larger than 3&#xD;
+      degrees in the pathological population we need a minimal number of 21 patients and controls,&#xD;
+      in order to obtain a statistical power of 90%.&#xD;
+&#xD;
+      Total number of patients: Our purpose is to obtain scans from 800 newborn infants during the&#xD;
+      two year study period.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2007</start_date>
+  <completion_date type="Actual">December 30, 2013</completion_date>
+  <primary_completion_date type="Actual">December 30, 2013</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To create the bases for a &quot;normal patterns&quot; database</measure>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">1000</enrollment>
+  <condition>Genetic Disorders</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <description>Normal Males</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2</arm_group_label>
+    <description>Normal Females</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3</arm_group_label>
+    <description>Abnormal Males</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4</arm_group_label>
+    <description>Abnormal Females</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Newborn infants born at Carmel Medical Center or at Soroka Medical Center&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  all newborn infants born at the Carmel Medical Center following parental consent, and&#xD;
+             at Soroka Medical Center.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  No parental consent; Facial deformation not related to chromosomal or genetic&#xD;
+             anomalies; babies transferred to the neonatal intensive care unit that need&#xD;
+             ventilatory support.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>2 Weeks</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dan Waisman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Neonatology, Carmel Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Neonatology, Soroka University Medical Center</name>
+      <address>
+        <city>Beer Sheva</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Neonatology, Carmel Medical Center</name>
+      <address>
+        <city>Haifa</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>November 2013</verification_date>
+  <study_first_submitted>June 19, 2008</study_first_submitted>
+  <study_first_submitted_qc>June 24, 2008</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 25, 2008</study_first_posted>
+  <last_update_submitted>August 8, 2017</last_update_submitted>
+  <last_update_submitted_qc>August 8, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 9, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Anthropometry</keyword>
+  <keyword>face recognition</keyword>
+  <keyword>genetic disease</keyword>
+  <keyword>newborn infant</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Genetic Diseases, Inborn</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

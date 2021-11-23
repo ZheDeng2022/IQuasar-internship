@@ -1,0 +1,318 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04768036</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20-0752</org_study_id>
+    <nct_id>NCT04768036</nct_id>
+  </id_info>
+  <brief_title>A Universal Electronic Health Record-based IMPROVE VTE Risk Assessment Model for the Prevention of Venous Thromboembolism in Hospitalized Medically Ill Patients</brief_title>
+  <official_title>A Multicenter Clustered Randomized Study of a Universal Electronic Health Record-based IMPROVE VTE Risk Assessment Model Implementation as a Quality Improvement Project for the Prevention of Venous Thromboembolism in Hospitalized Medically Ill Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwell Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Northwell Health</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will be a multicenter clustered randomized trial of patients in hospitals in which&#xD;
+      a universal &quot;SMART on FHIR&quot; platform-based EHR-embedded IMPROVE DD VTE clinical prediction&#xD;
+      rules (CPRs) with electronic order entry has been incorporated into required admission and&#xD;
+      discharge EHR workflow versus hospitals following UMC for VTE risk assessment of medically&#xD;
+      ill patients. The patient population will consist of hospitalized, medically ill&#xD;
+      (non-surgical, non-obstetrical) individuals aged &gt; 60 years.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Investigators, plan to do a study using a pragmatic, randomized design as part of a Quality&#xD;
+      Improvement (QI) project as a substudy within the existing NIH R18 proposal of creating a&#xD;
+      universal &quot;SMART on FHIR&quot; platform of the IMPROVE VTE CPR for key Northwell Health hospitals.&#xD;
+      Investigators, aim is to assess whether an EHR-embedded CPR for VTE prevention - the IMPROVE&#xD;
+      VTE CPR - ultimately tied to electronic order entry will increase the proportion of&#xD;
+      hospitalized medical patients at risk of VTE who receive appropriate thromboprophylaxis, both&#xD;
+      at hospital admission AND at hospital discharge, compared to UMC. Investigators, secondary&#xD;
+      aims are to assess whether key adverse outcomes such as symptomatic VTE and hospital&#xD;
+      readmission for VTE are reduced and whether health -resource utilization metrics are&#xD;
+      improved.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 21, 2020</start_date>
+  <completion_date type="Anticipated">January 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A multicenter clustered randomized study of a universal electronic health record-based IMPROVE VTE risk assessment model implementation as a quality improvement project for the prevention of venous thromboembolism in hospitalized medically ill patients.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To evaluate the impact of implementing a multicenter QI program using a universal for type and duration of thromboprophylactic agent</measure>
+    <time_frame>90 days</time_frame>
+    <description>Specifically, our pilot study will determine if this QI intervention will result in a greater increase in the proportion of at-VTE or high-VTE risk medical patients that are treated with an appropriate thromboprophylactic agent, both during hospitalization and in the post-hospital discharge period using a 5-point score where 0-1 constitutes low VTE risk, 2-3 constitutes moderate VTE risk, and 4 constitutes high VTE risk.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rates of patient VTE as assessed by the diagnostic and imaging codes for VTE</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in patient rates of VTE - lower extremity deep vein thrombosis (DVT) or PE using objective testing at up to 90 days and VTE-related death by autopsy or objective criteria (ICD codes and CPT diagnostic codes as per Appendix 2).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of participants with VTE-related readmissions</measure>
+    <time_frame>90 days</time_frame>
+    <description>The combined total number of VTE-related readmissions of patients at up to 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of participants with all cause readmissions</measure>
+    <time_frame>90 days</time_frame>
+    <description>The combined total of the number of patients with all cause hospital readmissions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in diagnosis-related group</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in diagnosis-related group of patients from baseline up to 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in type of insurance</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in type of insurance for patients from baseline up to 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in drug cost</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in drug cost for patients from baseline up to 90 days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in prescriber patterns of LMWH (low molecular weight heparin)</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in prescriber patterns for patient use of LMWH, enoxaparin, compared to standard of 40mg SQ QD.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in prescriber patterns of UFH (unfractionated heparin)</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in prescriber patterns of patient use of UFH, as compared to standard of 5000U SQ BID or TID.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in prescriber patterns of fondaparinux</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in prescriber patterns of patient use of fondaparinux, as compared to standard of 2.5mg SQ QD.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in prescriber patterns of rivaroxaban</measure>
+    <time_frame>90 days</time_frame>
+    <description>Change in prescriber patterns of patient use of direct oral anticoagulant, rivaroxaban, as compared to a standard of 10mg PO QD.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arterial thromboembolism (ATE)</measure>
+    <time_frame>90 days</time_frame>
+    <description>including stroke, transient ischemic attack (TIA), myocardial infarction (MI)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">11000</enrollment>
+  <condition>Venous Thromboembolism</condition>
+  <condition>Arterial Thromboembolism</condition>
+  <arm_group>
+    <arm_group_label>Usual Medical Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>As per standard of care</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>&quot;SMART on FHIR&quot; application of the IMPROVE DD VTE CPR</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This study will be a multicenter clustered randomized trial of patients in hospitals in which a universal &quot;SMART on FHIR&quot; platform-based EHR-embedded IMPROVE VTE CPR with electronic order entry has been incorporated into required admission and discharge EHR workflow versus hospitals following UMC for VTE risk assessment of medically ill patients.&#xD;
+Health outcomes and health resource utilization will be assessed for the duration of patient hospitalization until 90 days post-discharge by review of health records.&#xD;
+2 hospitals will be randomized to the experimental arm and 2 hospitals will be randomized to the No Intervention arm.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>IMPROVE DD VTE Tool</intervention_name>
+    <description>Universal &quot;SMART on FHIR&quot; platform-based EHR-embedded IMPROVE VTE CPR with electronic order entry incorporated into required admission and discharge EHR workflow.</description>
+    <arm_group_label>&quot;SMART on FHIR&quot; application of the IMPROVE DD VTE CPR</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        • Patients with an acute medical illness and ONE of the following risk factors:&#xD;
+&#xD;
+          -  Age &gt; 60 years&#xD;
+&#xD;
+          -  Presence of known thrombophilia&#xD;
+&#xD;
+          -  Intensive care unit (ICU)/coronary care unit (CCU) stay&#xD;
+&#xD;
+          -  Lower extremity paralysis&#xD;
+&#xD;
+          -  Cancer&#xD;
+&#xD;
+          -  Immobilization&#xD;
+&#xD;
+          -  Previous VTE history&#xD;
+&#xD;
+          -  D-dimer (&gt;2X ULN)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        • Patients with the following factors:&#xD;
+&#xD;
+          -  Therapeutic anticoagulation&#xD;
+&#xD;
+          -  History of recent bleeding.&#xD;
+&#xD;
+          -  Active gastroduodenal ulcer&#xD;
+&#xD;
+          -  Thrombocytopenia (admission platelet count&lt; 75x 109 cells/L )&#xD;
+&#xD;
+          -  Coagulopathy (baseline INR &gt; 1.5)&#xD;
+&#xD;
+          -  Severe renal insufficiency (baseline)CrCl &lt; 30ml/min)&#xD;
+&#xD;
+          -  Dual antiplatelet therapy&#xD;
+&#xD;
+          -  Bronchiectasis/pulmonary cavitation&#xD;
+&#xD;
+          -  Active cancer, and recent major surgery within 30 days of their index hospitalization&#xD;
+             bleeding.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alex Spyropoulos, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwell Health</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alex Spyropoulos, MD</last_name>
+    <phone>212 4346776</phone>
+    <email>aspyropoul@northwell.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mark Goldin, MD</last_name>
+    <phone>718 470 3377</phone>
+    <email>mgoldin@northwell.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>North Shore University Hospital</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>The Institute for Health Innovations and Outcomes Research</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alex C Spyropoulos, MD</last_name>
+      <phone>212-434-6776</phone>
+      <email>aspyropoul@northwell.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Mark Goldin, MD</last_name>
+      <phone>718 4703377</phone>
+      <email>mgoldin@northwell.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Mark Goldin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Long Island Jewish Medical Center</name>
+      <address>
+        <city>New Hyde Park</city>
+        <state>New York</state>
+        <zip>11040</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Lenox Hill Hospital</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10075</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Staten Island University Hospital</name>
+      <address>
+        <city>Staten Island</city>
+        <state>New York</state>
+        <zip>10305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Spyropoulos AC, Anderson FA Jr, FitzGerald G, Decousus H, Pini M, Chong BH, Zotz RB, Bergmann JF, Tapson V, Froehlich JB, Monreal M, Merli GJ, Pavanello R, Turpie AGG, Nakamura M, Piovella F, Kakkar AK, Spencer FA; IMPROVE Investigators. Predictive and associative models to identify hospitalized medical patients at risk for VTE. Chest. 2011 Sep;140(3):706-714. doi: 10.1378/chest.10-1944. Epub 2011 Mar 24.</citation>
+    <PMID>21436241</PMID>
+  </reference>
+  <reference>
+    <citation>Spyropoulos AC, Raskob GE. New paradigms in venous thromboprophylaxis of medically ill patients. Thromb Haemost. 2017 Aug 30;117(9):1662-1670. doi: 10.1160/TH17-03-0168. Epub 2017 Jun 22.</citation>
+    <PMID>28640324</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>February 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 24, 2021</study_first_posted>
+  <last_update_submitted>August 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwell Health</investigator_affiliation>
+    <investigator_full_name>Alex Spyropoulos</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thromboembolism</mesh_term>
+    <mesh_term>Venous Thromboembolism</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

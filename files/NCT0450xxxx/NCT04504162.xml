@@ -1,0 +1,149 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04504162</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HFJiang-005</org_study_id>
+    <nct_id>NCT04504162</nct_id>
+  </id_info>
+  <brief_title>Monitoring and Risk Prediction of Iatrogenic Sedative Hypnotics Addiction in a Shanghai Psychiatric Hospital</brief_title>
+  <official_title>Iatrogenic Addiction to Sedation in Shanghai</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Mental Health Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Mental Health Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will establish a sedative and hypnotics iatrogenic addiction risk monitoring&#xD;
+      network composed of 4 psychiatric hospitals in Shanghai through standardized data&#xD;
+      construction of outpatient prescription data and personnel training. Develop a&#xD;
+      sedative-hypnotic addiction risk prediction tool based on patient prescription data, and use&#xD;
+      independent in-operation outpatient prescription data for verification, and carry out&#xD;
+      clinical application promotion.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is a longitudinal analysis of the outpatient prescription data of psychiatric&#xD;
+      hospitals. It includes two aspects: 1) Develop evaluation methods for the risk of&#xD;
+      sedative-hypnotic addiction in psychiatric hospitals; 2) Construct a predictive model for the&#xD;
+      risk of iatrogenic addiction to sedative-hypnotics.&#xD;
+&#xD;
+      Step 1. Export all sedative hypnotic prescription information from the outpatient medical&#xD;
+      record system of Shanghai Psychiatric Hospital.&#xD;
+&#xD;
+      The data range is from January 1, 2019 to December 31, 2020. The data items that need to be&#xD;
+      exported include: patient identification information, gender, age, diagnosis, prescription&#xD;
+      drug name, drug use method, total dose, time , and the physician number of the prescription.&#xD;
+      Generate a unique patient number based on identification information (such as ID number), and&#xD;
+      merge all prescription information and electronic medical records of the same patient during&#xD;
+      the study period.&#xD;
+&#xD;
+      Step 2. Identify patients at risk of addiction to sedative hypnotics. This study defines the&#xD;
+      risk of addiction to sedatives and hypnotics when the outpatients appear &quot;double off-label&#xD;
+      prescriptions&quot;. The standard of &quot;double off-label prescriptions&quot; is: the highest daily&#xD;
+      average dose of prescriptions obtained by patients&gt;60 mg diazepam equivalent milligrams, and&#xD;
+      the number of consecutive prescription days&gt;120 days. Firstly, mark whether the patient has a&#xD;
+      prescription that exceeds the specification range (over indication, over daily dose range,&#xD;
+      over treatment course) during the study period. Secondly, the analysis data set is further&#xD;
+      converted and labeled, including: all benzodiazepine doses are converted into diazepam&#xD;
+      equivalents according to the &quot;Benzazepine Dose Conversion Table&quot;. Calculate the &quot;average&#xD;
+      daily prescription dose&quot; for each patient: add up the prescriptions of benzodiazepines to get&#xD;
+      the total prescription, and divide by the number of days to get the average daily&#xD;
+      prescription dose. Finally, calculate the monthly or annual cases or proportion of &quot;double&#xD;
+      off-label prescriptions&quot; patients who are at risk of addiction to sedatives and hypnotics.&#xD;
+&#xD;
+      Step 3.Establish a risk prediction model for iatrogenic addiction to sedative and hypnotics&#xD;
+      in psychiatric hospitals.&#xD;
+&#xD;
+      Use correlation analysis or machine learning methods to explore the formation trajectory of&#xD;
+      the &quot;double off-label&quot; pattern of sedative hypnotic prescriptions, and build a predictive&#xD;
+      model that can predict the formation of the &quot;double off-label&quot; pattern. Use a subset of&#xD;
+      prescription data to identify patients with status of &quot;double off-label&quot;, then evaluate and&#xD;
+      review them to confirm the addiction status of sedatives and hypnotics. Use the validation&#xD;
+      subset to verify and improve the addiction risk prediction model based on the training data&#xD;
+      set.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2020</start_date>
+  <completion_date type="Anticipated">July 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Outpatient's prescription</measure>
+    <time_frame>Data from January 1, 2019 to December 31, 2020</time_frame>
+    <description>The research object is the outpatient prescription information of each independent year (2019, 2020) of each hospital (4 hospitals), including: patient identification information, gender, age, diagnosis, prescription drug name, drug use method, total dose, time , And the physician number of the prescription. Generate a unique patient number based on identification information (such as ID number), and merge all prescription information and electronic medical records of the same patient during the study period. And mark whether the patient has a prescription that exceeds the specification range (over indication, over daily dose range, over treatment course) during the study period.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100000</enrollment>
+  <condition>Hypnotics and Sedatives</condition>
+  <condition>Addiction</condition>
+  <arm_group>
+    <arm_group_label>outpatient</arm_group_label>
+    <description>Patients visiting a psychiatric hospital</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Any patient visiting the outpatient clinic of Shanghai mental health center during the&#xD;
+        research period will be included in the analysis.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        This study is a data analysis based on outpatient visit records. The research object is the&#xD;
+        prescription data of outpatient visits during the research period, that is, the&#xD;
+        prescription information of any patient visiting the outpatient clinic during the research&#xD;
+        period will be included in the analysis.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Haifeng Jiang, Dr.</last_name>
+    <phone>(86)-021-64906315</phone>
+    <email>dragonjhf@hotmail.com</email>
+  </overall_contact>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>August 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 5, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 7, 2020</study_first_posted>
+  <last_update_submitted>August 5, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 5, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Behavior, Addictive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Will share results within the scope of Chinese laws and regulations.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

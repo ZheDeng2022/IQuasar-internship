@@ -1,0 +1,322 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03063151</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UH022017</org_study_id>
+    <nct_id>NCT03063151</nct_id>
+  </id_info>
+  <brief_title>Direction Modulation of Muscle Synergies After a Stroke</brief_title>
+  <official_title>Direction Modulation of Muscle Synergies After a Stroke</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Haifa</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Haifa</source>
+  <brief_summary>
+    <textblock>
+      The aim of the study is to investigate the capacity of post-stroke individual (study group)&#xD;
+      to modulate their EMG muscle activation pattern (MAP) compared to healthy individuals&#xD;
+      (control group), and to correlate these capacities with their motor impairments. Twenty&#xD;
+      post-stroke individuals and 12 healthy individuals will participate in this study. each&#xD;
+      participant will carry out hand-reaching movements in multiple directions, monitored by an&#xD;
+      EMG device. The modulation of the EMG signal will be compared between groups in terms of&#xD;
+      EMG-MAP and in terms of muscle-synergies. Additionally the MAPs and synergies of the study&#xD;
+      group will be correlated with their Fugl-Meyer (FM) assessment scores. Analysis of the muscle&#xD;
+      synergies underlying the EMG signal will be carried out by the Non-negative Matrix&#xD;
+      Factorization (NMF) algorithm.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction: Upper extremity function after a stroke is impaired and characterized by&#xD;
+      abnormal, stereotypical and uncoordinated movement pattern. Decreased neural drive in the&#xD;
+      damaged corticospinal system causing a decreased agonists motor units firing, spasticity,&#xD;
+      impaired motor coordination. A more comprehensive understanding of the way our brain controls&#xD;
+      and regulates limb-movements, through the spinal cord, may enhance more advanced&#xD;
+      rehabilitation techniques.&#xD;
+&#xD;
+      Current concept in motor control suggest that the brain-cortex modulates and synchronizes the&#xD;
+      activation of discrete number of functional units within the brainstem and spinal cord. These&#xD;
+      neural functional units i.e. muscle synergies, when linearly combined facilitate the&#xD;
+      production of diverse limb-movements. This control mechanism may in a large extent explain&#xD;
+      the way the CNS reduces the dimensionality of the vast number of degrees of freedom embedded&#xD;
+      in the CNS to a discrete number of muscle synergies. Therefore, execution of a movement may&#xD;
+      only requires to linearly combine these synergies and regulates its intensity of activation&#xD;
+      along the time domain.&#xD;
+&#xD;
+      The existence of such a control mechanism attracted the attention of both clinicians and&#xD;
+      scientists to use its properties to enhance motor recovery after a stroke. Therefore, studies&#xD;
+      emerged to investigate how cortical damage impact the synchronization of synergies, and also&#xD;
+      whether it changes the internal structure of the synergies. Despite numerous studies in this&#xD;
+      domain, there is lack of consensus regarding how stroke impact this control mechanism, and&#xD;
+      extent of correlation between the level of impairment and the synergy structure. The study&#xD;
+      objectives are to compare the synergy structure and the MAP in hand-reaching movements in&#xD;
+      multiple directions between post-stroke individuals and healthy individual, and to correlate&#xD;
+      between these properties and the motor impairments in post-stroke individuals.&#xD;
+&#xD;
+      Methods:&#xD;
+&#xD;
+      Participants: Twelve healthy volunteers (control group) and 20 post-stroke individuals (study&#xD;
+      group) will participate in the study. Inclusion criteria for the study group will be&#xD;
+      individuals, above the age of 20, who sustained unilateral cerebral stroke, with hemiparesis.&#xD;
+      Exclusion criteria for the trial are sensory aphasia, unilateral neglect and presence of&#xD;
+      other neurological disease such as Parkinson's disease or Alzheimer's disease.&#xD;
+&#xD;
+      Equipment: The Hand-reaching Spatial Device (HRSD) is an adjustable, simple tool allowing&#xD;
+      standardization of hand pointing movement for 9 different directions between different&#xD;
+      participants. It is composed of two vertical rods to which are attached three semi-circular&#xD;
+      shelves. Each shelf contains three movable pointing pins that can be adjusted left and&#xD;
+      rightward to accommodate the variable arm length of each participant. The lowest shelf was&#xD;
+      located 10 cm above the table, the middle was located 35 cm above the table and highest 55 cm&#xD;
+      above the table. For each participant the HRSD was located at the maximum hand reach distance&#xD;
+      in front of the tested shoulder. The side pins were located at a 45-degree angle to the&#xD;
+      shoulder joint to both sides. The arrangement of the targets on the HRSD was designed to&#xD;
+      cover the majority of hand-reaching movements.&#xD;
+&#xD;
+      Surface EMGs were recorded (Trigno 8, Delsys, Boston, MA) from 8 muscles of the shoulder&#xD;
+      girdle and arm: trapezius (TRS); deltoid anterior (AD), medial (MD), and posterior fibers&#xD;
+      (PD); and pectoralis major (PECT); infraspinatus (IS); biceps (BI); triceps (TRI). Electrodes&#xD;
+      were placed in accordance with the guidelines of the Surface Electromyography for the&#xD;
+      Non-Invasive Assessment of Muscles-European Community Project (SENIAM) [34]. Maximum&#xD;
+      voluntary contractions (MVCs) were performed prior to data collection to verify correct&#xD;
+      electrode placement and for normalization. One-minute rest periods followed each MVC to limit&#xD;
+      the possibility of fatigue. EMG signals were band-pass filtered (20-450 Hz), and sampled at&#xD;
+      2000 Hz.&#xD;
+&#xD;
+      Protocol: The MVC was measured by standard muscle testing [35]. Then the participant sat in&#xD;
+      front of a table with his forearm resting in a comfortable position. The HRSD was located as&#xD;
+      mentioned above. Participants were requested to point to each target 5 times according to&#xD;
+      voice prompting that was activated by the EMG software every 10 seconds, for 45 pointing&#xD;
+      movements. The order of pointing targets was constant for all the participants.&#xD;
+&#xD;
+      Data analysis EMG preprocessing Data analysis was performed using Matlab (The MathWorks,&#xD;
+      Inc.). EMGs were demeaned, follow by RMS calculation using overlapping window of 50 samples&#xD;
+      (25 millisecond around each timepoint). Mean baseline EMGs for each trial were subtracted&#xD;
+      from the averaged data for the sequence of reaching movements. Hence, the EMG data for each&#xD;
+      trial, a vector whose dimension was 8 (the number of muscles recorded), corresponded to&#xD;
+      active force generation beyond any residual baseline muscle activity. The EMG data was&#xD;
+      normalized in accordance to the Maximal Isometric Contraction (MVC) for each muscle.&#xD;
+&#xD;
+      The NMF algorithm originally used by Lee and Seung (1999 and 2001), was applied to identify&#xD;
+      muscle synergies and their activation weights. An EMG pattern recorded in hand-reaching&#xD;
+      movements was modeled as a linear combination of a set of N muscle synergies, each of which&#xD;
+      specified the relative level of activation across 8 muscles, and activated by a time-varying&#xD;
+      activation coefficient:&#xD;
+&#xD;
+      V^(M×T)≈W^(M×N)∙H^(N×T) (4) Where V is the EMG data set matrix with M as the number of&#xD;
+      muscles (8 muscles), T as the number of time samples, W is the synergy matrix and H is the&#xD;
+      coefficient matrix. W is m×n is a matrix with n synergies, m is the number of muscles, and H&#xD;
+      is the n×t matrix of synergy activation coefficients. Thus, each column of W represents the&#xD;
+      weights of each muscle for a single synergy, and each row of H represents how much the&#xD;
+      corresponding synergy was activated or used to generate force. In this model, it is possible&#xD;
+      for each muscle to belong to more than one synergy and thus the EMG of any single muscle&#xD;
+      might be attributed to simultaneous or sequential activations of several muscle synergies.&#xD;
+&#xD;
+      In order to determine the optimal number of synergies for the whole group, the EMG data of&#xD;
+      all the targets were concatenated for each participant. Then the EMG's of the whole sample&#xD;
+      were concatenated before applying the NMF. The optimal number of synergies (d) was defined as&#xD;
+      the number of synergies that captured the highest of the total variance of the data,&#xD;
+      suggesting that additional synergies only captured small residual amounts of variation&#xD;
+      attributable to noise. This procedure allowed us to estimate the optimal number of synergies&#xD;
+      for the whole sample to execute any reaching movement in space regardless of the direction of&#xD;
+      the movement.&#xD;
+&#xD;
+      The NMF algorithm required the number of synergies extracted to be specified before the&#xD;
+      application of the algorithm. Therefore, for each data set, the VAF was calculated while&#xD;
+      changing the number of synergies from 1 to 7. The VAF was calculated using the equation:&#xD;
+&#xD;
+      VAF(H)=100%×(1-(|(|V-WH|)|_2^2)/(|(|V|)|_2^2 )) (6) Where V is the original matrix, and W and&#xD;
+      H are the derived, factorized matrices.&#xD;
+&#xD;
+      Generalization of movement directions&#xD;
+&#xD;
+      The aim at this stage of analysis was to establish whether a set of discrete number of&#xD;
+      synergies exist that control any reaching movement in space. Therefore, it was investigated&#xD;
+      how movement in certain directions could account for movements in other directions. The EMG&#xD;
+      data for each movement direction was pooled separately across the 8 muscles and concatenated&#xD;
+      it for the whole sample. In that way the derived set of synergies would have to account for&#xD;
+      the variance between different subjects, but would also be specific for that direction alone.&#xD;
+      The NMF was applied separately for each movement direction according to the equation:&#xD;
+&#xD;
+      V_i≈W_i∙H_i (7) where i is the target number, which corresponded to specific movement&#xD;
+      direction in space. In this stage of analysis V_i (the EMG matrix) was given as an input for&#xD;
+      each target, i∈[1,9], and matrices W_i,H_i were updated iteratively. The study procedure&#xD;
+      included reaching for 9 different target directions in space, allowing us to further&#xD;
+      investigate if there was a single set of synergies that could account for movements in other&#xD;
+      directions.&#xD;
+&#xD;
+      This was done by using a cross-validation technique between the V_i matrices and the W_j&#xD;
+      matrices by applying a modified version of the NMF algorithm, followed by corresponding VAF&#xD;
+      calculation changing the number of synergies (d) from only 3 to 5, and not from 1 to 7 based&#xD;
+      on the results of the NMF for all the participants and for all targets, as detailed in the&#xD;
+      results section. In the modified version of the algorithm, both V_i and W_j (the synergies&#xD;
+      matrix) were given as an input. Only the H_(i,j) coefficients matrix of target i, was updated&#xD;
+      and outputted.&#xD;
+&#xD;
+      The cross validation process of the modified NMF was carried out for each combination of a&#xD;
+      data matrix V_i (of target i) and a synergy matrix W_j (of target j), resulting in 9×9&#xD;
+      matrices H_ji. For every i,j∈[1,9], we factorize V_i such that W_j H_ji≈V_i.&#xD;
+&#xD;
+      The reference set of muscle synergies was chosen by calculating the VAF for each of the 9×9&#xD;
+      factorizations:&#xD;
+&#xD;
+      VAF(H_ij )=100%×(1-(|(|V_i-W_j H_ij |)|_2^2)/(|(|V_i |)|_2^2 )) (8) assuming that consistent&#xD;
+      high values of VAF(H_ij) for a specific V_i may indicate that the synergies obtained from&#xD;
+      movements in this direction may accurately explain movement in other directions.&#xD;
+&#xD;
+      Thus, for each predefined number of synergies (d) a 9×9 matrix was received in which each&#xD;
+      cell represented the accountability of a given synergy (row) to a specified direction&#xD;
+      (column). Each row in the resulting matrix represented the overall &quot;performance&quot; of the&#xD;
+      appropriate set of synergies, and so the row with the highest average VAF was chosen for the&#xD;
+      next stage of analysis.&#xD;
+&#xD;
+      Direction modulation of muscle synergies Once the set of synergies (W_j ) was chosen, setting&#xD;
+      the activation coefficients for every target (H_ij,when i∈[9,1]), it was determined which&#xD;
+      synergies are dominant for each of the directions. For each number of synergies, the mean&#xD;
+      activation coefficient of every synergy for every direction was calculated. Setting the&#xD;
+      number of synergies to 4, for example, resulted in 9 vectors (one for each movement&#xD;
+      direction) of 4 values, representing the 4 synergies. Then, the average amplitude of each of&#xD;
+      the synergies across the direction of movement, and between movements in different directions&#xD;
+      across synergies, were measured.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Recruiting</last_known_status>
+  <start_date type="Actual">February 14, 2016</start_date>
+  <completion_date type="Anticipated">February 2018</completion_date>
+  <primary_completion_date type="Anticipated">February 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Two groups of participants: Study and control. Each participant will carry out a single one-hour session of EMG test.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Optimal number of synergies</measure>
+    <time_frame>Between one week to one month after a stroke (study group).</time_frame>
+    <description>The NMF will be applied, changing the number of synergies from 2-7. The highest VAF value for each participant will define the number of synergies for this participant.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Muscle Activation Pattern (MAP)</measure>
+    <time_frame>Between one week to one month after a stroke (study group).</time_frame>
+    <description>The EMG amplitude, during reaching movement, was normalized according to the 80% MVC of the same muscle. Therefore the MAP corresponded to the relative exertion that was applied during the execution of hand-reaching compared to the MVC of the same muscle. The MVC was measured by standard manual muscle testing, and monitored by the EMG device. The MAP represents an averaged-time value of EMG normalized amplitude during the execution of five reaching movements.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Similarity Index- Individual (SI-I)</measure>
+    <time_frame>Between one week to one month after a stroke (study group).</time_frame>
+    <description>The extent of similarity between the average MAP of non-stroke individuals and each of the participants from both groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Similarity Index- Direction (SI-D)</measure>
+    <time_frame>Between one week to one month after a stroke (study group).</time_frame>
+    <description>The extent of similarity between the average MAP of non-stroke individuals to the center of the reaching space and the MAP of all other movement-directions of each of the participants from both groups. The SI-D indicates the capacity to modulate the MAP for different movement-directions compared to representative hand-reaching movements that were carried out to the center of the reaching space.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">32</enrollment>
+  <condition>Stroke</condition>
+  <condition>Motor Disorders</condition>
+  <arm_group>
+    <arm_group_label>Study Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Maximum isometric Voluntary Contraction (MVC) was measured by standard muscle testing. Then the subject sat in front of a table with his forearm resting in a comfortable position. The Hand Reaching Spatial Device (HRSD) was located at the maximal hand-reaching range of motion. Participants were requested to point on each target 5 times according to voice prompting that was activated by the EMG software every 10 seconds, for 45 pointing movements. The order of pointing targets was constant for all the participants.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Maximum isometric Voluntary Contraction (MVC) was measured by standard muscle testing. Then the subject sat in front of a table with his forearm resting in a comfortable position. The Hand Reaching Spatial Device (HRSD) was located at the maximal hand-reaching range of motion. Participants were requested to point on each target 5 times according to voice prompting that was activated by the EMG software every 10 seconds, for 45 pointing movements. The order of pointing targets was constant for all the participants.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Surface Electromyography (EMG)</intervention_name>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_label>Study Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Cortical stroke (study group)&#xD;
+&#xD;
+          -  hemiparesis&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  sensory aphasia&#xD;
+&#xD;
+          -  complete arm paralysis&#xD;
+&#xD;
+          -  unilateral neglect&#xD;
+&#xD;
+          -  other neurological disease (PD, Alzheimer)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Sharon Israely, M.Sc.</last_name>
+    <phone>972-523-755091</phone>
+    <email>sharonis@mh.org.il</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eli Carmeli, Ph.D.</last_name>
+    <phone>972-507-393454</phone>
+    <email>ecarmeli@univ.haifa.ac.il</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Bait Balev Medical Center</name>
+      <address>
+        <city>Nesher</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Haim Barel, MD</last_name>
+      <phone>972-508-801203</phone>
+      <email>haim_b@bbalev.co.il</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>February 2017</verification_date>
+  <study_first_submitted>February 21, 2017</study_first_submitted>
+  <study_first_submitted_qc>February 21, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 24, 2017</study_first_posted>
+  <last_update_submitted>October 25, 2017</last_update_submitted>
+  <last_update_submitted_qc>October 25, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 27, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Motor Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <pending_results>
+    <submitted>May 2, 2018</submitted>
+    <returned>October 18, 2018</returned>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

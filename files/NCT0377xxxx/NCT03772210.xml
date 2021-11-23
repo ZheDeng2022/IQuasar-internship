@@ -1,0 +1,378 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03772210</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY00006012</org_study_id>
+    <secondary_id>RF1MH114290</secondary_id>
+    <nct_id>NCT03772210</nct_id>
+  </id_info>
+  <brief_title>Mechanism and Dosimetry Exploration in TES Magnetic Resonance Current Mapping Methods</brief_title>
+  <acronym>TES</acronym>
+  <official_title>Mechanism and Dosimetry Exploration in Transcranial Electrical Stimulation Using Magnetic Resonance Current Mapping Methods</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Arizona State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Arizona State University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study the investigators will explore dosimetry in transcranial electrical stimulation&#xD;
+      using a novel magnetic resonance imaging technique that can determine how electrical&#xD;
+      stimulation distributes within the brain. The investigators will then combine this imaging&#xD;
+      technique with functional MR imaging to attempt mechanistic associations. If successful, the&#xD;
+      study outcomes will be an improved understanding of the interactions between electric current&#xD;
+      distributions and structures presumed to be targeted by stimulation.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Transcranial electrical stimulation (tES) techniques such as transcranial DC stimulation&#xD;
+      (tDCS) and transcranial AC stimulation (tACS) have been indicated for conditions as diverse&#xD;
+      as stroke rehabilitation, epilepsy and for improvements in memory tasks. Thousands of tES&#xD;
+      studies have been published since 20001. In typical tDCS procedures a pair of large&#xD;
+      electrodes (e.g., 25cm2) is attached to the scalp and a constant current of 1-2 mA passed&#xD;
+      between them for periods of 10-30 min. In tACS, the constant current intensity is similar,&#xD;
+      but an alternating sinusoidal waveform is usually employed. Variations on these techniques&#xD;
+      exist. For example, in oscillatory tDCS, a temporally oscillating current is combined with a&#xD;
+      DC offset current. In transcranial random noise stimulation (tRNS) temporally random currents&#xD;
+      with a fixed maximum intensity are applied. These transcranial electrical neuromodulation&#xD;
+      strategies have been indicated for a wide range of conditions, including stroke&#xD;
+      rehabilitation, treatment of epilepsy and for improving cognitive, motor and language and&#xD;
+      memory performance in healthy subjects. Details of the underlying mechanisms of both tDCS and&#xD;
+      tACS remain unclear. It has been assumed that the effects of tDCS are greatest in brain&#xD;
+      structures nearest to stimulating electrodes and that these structures experience the largest&#xD;
+      electric fields or current flow. In tDCS applied at 1 mA current intensities, it has been&#xD;
+      found that excitatory effects broadly correlate with placement of more positive electrodes&#xD;
+      over a targeted structure, and inhibitory effects are observed in structures under cathodes.&#xD;
+      It has been hypothesized that this is because externally applied field either depolarizes or&#xD;
+      hyperpolarizes resting membrane voltages in targeted tissue, leading to increased&#xD;
+      excitability or inhibition respectively. This suggests that increased excitability or&#xD;
+      inhibition would result when current intensity is increased. However, there is also evidence&#xD;
+      that at 2 mA intensity increased excitability is observed, regardless of polarity. The&#xD;
+      effects observed may also depend on the total stimulation time.&#xD;
+&#xD;
+      In tACS, it has been found that at low frequencies (up to 80 Hz) tACS excitation frequencies&#xD;
+      may entrain neural networks with excitatory or inhibitory effects that depend on the&#xD;
+      frequency chosen, the current intensity and the phase of current application relative to&#xD;
+      underlying EEG rhythms.&#xD;
+&#xD;
+      Intersubject variability has been reported in both tDCS and tACS, and study reproducibility&#xD;
+      has been problematic. Apart from factors relating to the subject initial state, individual&#xD;
+      neuroanatomy and differences in cerebrospinal fluid volume, it has also been suggested that&#xD;
+      major contributions to variability between individual sessions of a study or may be&#xD;
+      inconsistencies in electrode application protocol. In particular, overuse of saline contact&#xD;
+      medium can result in the effective electrode area increasing beyond the electrode face, and&#xD;
+      if fastening straps are thinner than electrodes, contact area may be reduced. Electrodes may&#xD;
+      also move during sessions, or be placed inconsistently on different subjects. Between sites,&#xD;
+      reproducibility may be degraded because electrode shapes, types and placements are not&#xD;
+      consistent.&#xD;
+&#xD;
+      Knowledge of the exact distribution formed within the brain by the externally applied&#xD;
+      currents would clarify many study outcomes and most importantly allow more precise&#xD;
+      explorations of mechanism. Further, the effects of different current application protocols,&#xD;
+      electrode designs and study procedures could easily be resolved. Thus, a method for measuring&#xD;
+      current distributions formed by tDCS or tACS would answer many questions in this active&#xD;
+      field.&#xD;
+&#xD;
+      In the absence of methods for easily measuring or imaging current flow distributions,&#xD;
+      computational models have been used extensively to predict flow patterns. A large literature&#xD;
+      exists using computational models to explore effects of different montages, electrode areas&#xD;
+      and geometries on voltage distributions, electric fields or current flow. Increasingly&#xD;
+      sophisticated approaches have been devised to model the head subject to tDCS stimulation. As&#xD;
+      the field has grown, head model complexity has increased from spherical uniform, spherical&#xD;
+      four-compartment, realistic geometry, to high-resolution anisotropic models of the human head&#xD;
+      subject to electrical stimulation. This last category has involved merging source images&#xD;
+      based on MR images with diffusion-weighted images of the subject to predict white matter&#xD;
+      conductivity tensors. One approach to this uses water translational diffusion tensor&#xD;
+      eigenvectors to determine the direction of the conductivity tensor (assuming they are&#xD;
+      co-aligned) in combination with literature values of white matter conductivities. Another&#xD;
+      approach involves direct scaling of the white matter diffusion tensor to conductivity values.&#xD;
+      Most other model tissue conductivities are chosen from values measured on bulk tissues in the&#xD;
+      literature. However, to date no validation of these models has been possible in human&#xD;
+      subjects.&#xD;
+&#xD;
+      Some efforts have been made to measure current distributions resulting from tDCS. In a recent&#xD;
+      paper, Opitz et al. measured electric field distributions caused by transcranial stimulation&#xD;
+      via electrodes placed in a bilateral montage (left and right temples) using electrode arrays&#xD;
+      placed near the cortical surface of patients being monitored to identify epilepsy seizure&#xD;
+      foci. tACS was applied at 1-15 Hz with an intensity of 1 mA, and maximum electrical field&#xD;
+      strengths of 0.36 and 0.16 mV/mm were identified. A slight frequency dependent increase in&#xD;
+      conductivity (ca. 10%) was observed, and little capacitive effect. Again, these field&#xD;
+      strengths would not normally be sufficient to cause direct tissue stimulation, and support&#xD;
+      theories that slight depolarizations may be responsible for tDCS effects.&#xD;
+&#xD;
+      Researchers seeking to understand tES mechanisms have initiated fMRI studies to investigate&#xD;
+      the correlation of therapeutic current administration and brain activity as evidenced by&#xD;
+      changes in the BOLD contrast18-20. In the course of this research it has been noted that&#xD;
+      current administration creates artifacts on MR images. In another paper, fMRI analysis&#xD;
+      methods were used to find voxel clusters correlating with current flow features22. However,&#xD;
+      to date, there have been no attempts to non-invasively image tDCS or tACS current density&#xD;
+      distributions in humans directly.&#xD;
+&#xD;
+      The technique of Current Density Imaging (CDI) as suggested by Scott et al. (1991) is a&#xD;
+      method for translating the phase part of magnetic resonance images into individual magnetic&#xD;
+      flux density vector components caused by an externally applied current flow. These&#xD;
+      measurements can then be used to compute current density distributions using Ampere's law.&#xD;
+      The basic CDI technique requires the external current to be injected into subjects in concert&#xD;
+      with a sequence of RF pulses and gradient fields used to create MR images. The technique was&#xD;
+      demonstrated in phantoms and used to image current flow in a rabbit brain. Unfortunately, it&#xD;
+      is infeasible in humans because of the need to rotate the subject twice inside the scanner&#xD;
+      bore in order to obtain all three components of the magnetic flux density.&#xD;
+&#xD;
+      MR Electrical Impedance Tomography (MREIT) has been developed over the last decade as a&#xD;
+      method for imaging current density and conductivity distributions in the human body. As in&#xD;
+      CDI, MREIT requires current to be applied to a subject in conjunction with a particular MR&#xD;
+      sequence. However, MREIT methods make it possible to reconstruct conductivity, electric field&#xD;
+      and current density distributions in subjects by using only one component (Bz) of magnetic&#xD;
+      flux density vectors. A recently developed MREIT method, DT-MREIT, can be used to reconstruct&#xD;
+      full anisotropic conductivities and current density distributions using MREIT and DTI data&#xD;
+      gathered from the same subject, and has recently been demonstrated in canines.&#xD;
+&#xD;
+      In this work, the investigators will use MREIT methods to produce:&#xD;
+&#xD;
+      A. Quantitative physical measures demonstrating tES reproducibility, exploring effects of&#xD;
+      current intensity, sex and neuroanatomic differences on measured current distributions.&#xD;
+&#xD;
+      B. Comparisons of actual current density distributions developed in a target structure&#xD;
+      (DLPFC) with fMRI measures of activity.&#xD;
+&#xD;
+      These studies will provide the first tests of the assumptions that&#xD;
+&#xD;
+        -  effects of tDCS stimulation are largest in the targeted region&#xD;
+&#xD;
+        -  that the largest field and current flow is found in the targeted region These studies&#xD;
+           therefore have the potential to revolutionize understanding of tES mechanisms and&#xD;
+           practice.&#xD;
+&#xD;
+      This work has three aims, one focused on technical improvements in our present MREIT&#xD;
+      acquisition procedures, another targeted at quantifying replicability, measuring current flow&#xD;
+      distributions at different current intensities, and finally, in assessing correlations of&#xD;
+      electric field and current density distributions with brain activity measures using fMRI.&#xD;
+&#xD;
+      Specific Aim 1 (SA1) MREIT Pulse Sequence Acceleration and Improvements.&#xD;
+&#xD;
+      Specific Aim 2 (SA2) Replicability and Consistency in tDCS/tACS Protocols Current density&#xD;
+      distributions will be imaged in normal volunteers using an F3-F4 montage with three different&#xD;
+      current intensities, and repeat the measure at intervals of at least one week. Each time, the&#xD;
+      montage will be reapplied and subjects re-imaged. Both intra- and inter-subject variations in&#xD;
+      measured current and electric field distributions will be determined.&#xD;
+&#xD;
+      Specific Aim 3 (SA3) Correlation of functional measures with measured electrical distribution&#xD;
+      measures Participants' performance on a 2-back/0-back memory task will be compared in both&#xD;
+      Sham and Active subjects, using either 1, 1.5 or 2 mA intensity stimulation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 3, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Structural (T1-weighted) and high angular resolution diffusion images of participant heads will be obtained. Current density distributions in normal participants will be imaged using an F3-F4 montage at three different current intensities. Measures will be repeated at intervals of at least one week. Each time, the montage will be reapplied and subjects re-imaged. Because the imaging method is quantitative, these measures will be used to provide an indication of baseline replicability. Both intra- and inter-subject variations in measured current and electric field distributions will be determined.&#xD;
+Participant performance on a 3-back/0-back memory task will be compared in both Sham and Active subjects, using either 1, 1.5 or 2 mA intensity stimulation.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Device used to apply stimulation can be operated in SHAM mode, where subject experiences sensation of the tDCS stimulation starting, but the device is turned off shortly after SHAM mode initiates.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Replicability</measure>
+    <time_frame>3 weeks</time_frame>
+    <description>MREIT data will be obtained multiple times for each subject</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Comparison of measured current distribution with fMRI result</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Measured current distributions will be correlated with fMRI results and task accuracies</description>
+  </primary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Transcranial Direct Current Stimulation</condition>
+  <arm_group>
+    <arm_group_label>Current Intensity 1 mA</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>tDCS will be administered at an intensity of 1 mA to locations F3-F4, and fMRI response during performance of a 3-back/0-back memory task will be assessed.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham 1 mA</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Determine fMRI response during performance of a 3-back/0-back memory task with sham 1 mA tDCS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Current Intensity 1.5 mA</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>tDCS will be administered at an intensity of 1.5 mA to locations F3-F4, and fMRI response during performance of a 3-back/0-back memory task will be assessed.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham 1.5 mA</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Determine fMRI response during performance of a 3-back/0-back memory task with sham 1.5 mA tDCS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Current Intensity 2 mA</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>tDCS will be administered at an intensity of 2 mA to locations F3-F4, and fMRI response during performance of a 3-back/0-back memory task will be assessed.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sham 2 mA</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Determine fMRI response during performance of a 3-back/0-back memory task with sham 2 mA tDCS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Structural, Diffusion and MREIT Imaging</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Structural and High angular resolution diffusion weighted imaging will be performed.&#xD;
+Magnetic Resonance Electrical Impedance Tomography imaging will be performed using electrode locations F3-F4.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>tDCS</intervention_name>
+    <description>Current will be administered to subject groups as specified in arm descriptions.</description>
+    <arm_group_label>Current Intensity 1 mA</arm_group_label>
+    <arm_group_label>Current Intensity 1.5 mA</arm_group_label>
+    <arm_group_label>Current Intensity 2 mA</arm_group_label>
+    <arm_group_label>Structural, Diffusion and MREIT Imaging</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sham</intervention_name>
+    <description>Apparent Stimulation administered</description>
+    <arm_group_label>Sham 1 mA</arm_group_label>
+    <arm_group_label>Sham 1.5 mA</arm_group_label>
+    <arm_group_label>Sham 2 mA</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  We will include neurologically normal volunteer subjects between 18-30 years of age in&#xD;
+             the study, minors will not be targeted.&#xD;
+&#xD;
+          -  English as Native Language&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Adults who are unable to consent will not be included in the study.&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+&#xD;
+          -  Subjects will not have any implanted or attached metallic devices.&#xD;
+&#xD;
+          -  Appreciable deficits in hearing&#xD;
+&#xD;
+          -  Appreciable problems with articulation&#xD;
+&#xD;
+          -  Neuroanatomic abnormality&#xD;
+&#xD;
+          -  Any neurological disorder associated with cognitive impairment.&#xD;
+&#xD;
+          -  Any implanted cardiac pacemaker&#xD;
+&#xD;
+          -  Dementia or Mini-Mental State Exam &lt;24&#xD;
+&#xD;
+          -  Low estimated verbal intelligence per WTAR&#xD;
+&#xD;
+          -  Active or Prior history of Seizure Disorder&#xD;
+&#xD;
+          -  Family History of Seizure disorder&#xD;
+&#xD;
+          -  Prescribed Seizure inducing medication&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>30 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rosalind J Sadleir, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Arizona State University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rosalind J Sadleir, PhD</last_name>
+    <phone>3528710036</phone>
+    <email>rjsadleir@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Arizona State University</name>
+      <address>
+        <city>Tempe</city>
+        <state>Arizona</state>
+        <zip>85287-9709</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rosalind Sadleir, PhD</last_name>
+      <phone>352-871-0036</phone>
+      <email>rjsadleir@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Florida</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Thomas H Mareci, DPhil</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>December 10, 2018</study_first_submitted>
+  <study_first_submitted_qc>December 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 11, 2018</study_first_posted>
+  <last_update_submitted>September 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>fMRI</keyword>
+  <keyword>mechanism</keyword>
+  <keyword>tDCS</keyword>
+  <keyword>neuromodulation</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data will be shared via the NIMH Data Archive (NDAR)</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>After analysis and deidentification, data will be uploaded to NDAR</ipd_time_frame>
+    <ipd_access_criteria>Available to qualified researchers.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

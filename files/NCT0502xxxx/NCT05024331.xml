@@ -1,0 +1,154 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05024331</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-02-059</org_study_id>
+    <nct_id>NCT05024331</nct_id>
+  </id_info>
+  <brief_title>A Prediction Model of Hematological Recovery After High-dose Chemotherapy in Pediatric Solid Tumor</brief_title>
+  <official_title>A Prediction Model of Hematological Recovery After High-dose Chemotherapy in Pediatric Solid Tumor : Data Collection and Model Validation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Samsung Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Samsung Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to compare and evaluate the predicted values of the participants, and the&#xD;
+      algorithm predicted values of ANC level reduction periods after high-capacity chemotherapy in&#xD;
+      pediatric solid tumor patients. The participants are pediatricians who voluntarily&#xD;
+      participate in this study and consent to this study.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      n pediatric patients with solid tumors, chemotherapy for radical treatment is generally based&#xD;
+      on monitoring white blood cells, red blood cells, and platelets with repeated blood tests&#xD;
+      during treatment due to bone marrow depression.&#xD;
+&#xD;
+      Early blood culture and experiential intravenous antibiotics are required to prevent&#xD;
+      progression to sepsis if fever or other infection signs are accompanied by a decrease in&#xD;
+      absolute neutrophil count (ANC) below 500/mm3. In addition, repeated blood transfusions are&#xD;
+      needed to keep the appropriate levels constant depending on clinical symptoms in platelet&#xD;
+      reduction or anemia.&#xD;
+&#xD;
+      In particular, in the case of high-dose chemotherapy conducted on high-risk tumors,&#xD;
+      anticancer drugs are given over the dose expected to recover natural bone marrow function to&#xD;
+      improve the treatment performance of tumors responding to chemotherapy. Moreover, it is&#xD;
+      challenging to recover naturally after high-dose chemotherapy so that the collected in&#xD;
+      advanced hematopoietic stem cells are implanted into the patient to support ANC level&#xD;
+      recovery.&#xD;
+&#xD;
+      However, despite the transplantation of these self-hematopoietic stem cells, some patients&#xD;
+      need long-term continuous blood transfusions due to delayed hematological recovery and may&#xD;
+      need long-term hospitalization to treat accompanying infections and complications.&#xD;
+&#xD;
+      The researcher developed a model that can predict the suppression and hematological recovery&#xD;
+      of bone marrow after high-capacity anticancer drugs by analyzing blood tests and blood&#xD;
+      transfusions repeatedly from the diagnosis of pediatric solid tumors after high-capacity&#xD;
+      chemotherapy collected from 2000-2018.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 30, 2021</start_date>
+  <completion_date type="Actual">August 12, 2021</completion_date>
+  <primary_completion_date type="Actual">July 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>accuracy of algorithm</measure>
+    <time_frame>This clinical trial is conducted in one day, and the Survey is conducted after completing the test using data from 99 pediatric patients.</time_frame>
+    <description>primary outcome is the difference between result of algorithm and prediction values of doctors.&#xD;
+total number of pediatric patients who performed chemotherapy and high-capacity chemotherapy at Samsung Medical Center in 2019-2020 - (Exclusion such as insufficient data or death) +10 reliability check questions expected to be approximately 100 questions The test based on data consisting of blood test results from approximately 100 patients, is recorded in anticipation of the first date (recovery date) of a day when ANC levels over 500 last more than 3 days.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>A quantitative study on usability</measure>
+    <time_frame>This clinical trial is conducted in one day, and the Survey is conducted after completing the test using data from 99 pediatric patients.</time_frame>
+    <description>We would like to ask 17 questions to identify the user's thoughts on AI and how they affect change of opinion. The following are examples are as follows:&#xD;
+Do you think you can easily adapt to new technologies or programs? Do you value subjective thoughts and experiences over other people's opinions in your work? Do you tend to browse information online when making decisions during work? Apart from this study, are you positive about the use of predictive models in clinical trials? Do you think the items and information in the given data are sufficient to predict the values you want to predict?</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Pediatric Solid Tumor</condition>
+  <arm_group>
+    <arm_group_label>Pediatric physicians</arm_group_label>
+    <description>Assigned Interventions&#xD;
+Prediction of the first date of recovery period with given data about chemotherapy of pediatric patients who diagnosed solid tumor at Samsung medical center during 2010-2018&#xD;
+Sees the result of the prediction algorithm.&#xD;
+Change or maintain their prediction values.&#xD;
+Participate in the usability questionnaires.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        a physician who is working at Samsung Medical Center as a pediatric doctor&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  physician who is working at Samsung Medical Center as a pediatric doctor&#xD;
+&#xD;
+          -  A person who voluntarily agrees to participate in the study&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Those who disagree with the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>19 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Samsung Medical Centre</name>
+      <address>
+        <city>Seoul</city>
+        <zip>06351</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>August 10, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 27, 2021</study_first_posted>
+  <last_update_submitted>September 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>oncology</keyword>
+  <keyword>prediction model</keyword>
+  <keyword>hematological recovery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04531995</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CAN-20-01</org_study_id>
+    <nct_id>NCT04531995</nct_id>
+  </id_info>
+  <brief_title>One Million Cancer Treatment Months</brief_title>
+  <acronym>OMCAT</acronym>
+  <official_title>Development of an Artificial Intelligence-based Incident Prediction Algorithm to Improve Cancer Patient Care and Patient Safety</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cankado Service GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Cankado Service GmbH</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The OMCAT Register aims to provide learning databases in cancer comprising both PRO data&#xD;
+      using PRO-React and &quot;ground truth&quot; (outcome data verified by the physician during patient&#xD;
+      examinations). Intelligent learning and knowledge engineering procedures will utilize this&#xD;
+      PRO data to provide high-quality event prediction algorithms. The ground-truth data enables&#xD;
+      so-called &quot;supervised learning&quot; techniques of artificial intelligence, because predicted&#xD;
+      events can be verified with a high level of certainty from ground-truth data.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The next generation of PRO-React by CANKADO is designed to predict impending incident threats&#xD;
+      at an earlier stage than previously feasible and -- by more timely intervention -- help&#xD;
+      physicians to eliminate or mitigate the severity of an unfavourable event, reduce the&#xD;
+      required intensity of countermeasures, or otherwise reduce patient risks.&#xD;
+&#xD;
+      A highly reliable identification of situations classified as &quot;low-risk&quot; by CANKADO could also&#xD;
+      enable a more focused utilization of resources as well as enhanced patient comfort and&#xD;
+      decreased stress, e.g., due to less frequent monitoring visits or reduced need for invasive&#xD;
+      diagnostics.&#xD;
+&#xD;
+      The OMCAT Register aims to provide learning databases in cancer comprising both PRO data&#xD;
+      using PRO-React and &quot;ground truth&quot; (outcome data verified by the physician during patient&#xD;
+      examinations). Intelligent learning and knowledge engineering procedures will utilize this&#xD;
+      PRO data to provide high-quality event prediction algorithms. The ground-truth data enables&#xD;
+      so-called &quot;supervised learning&quot; techniques of artificial intelligence, because predicted&#xD;
+      events can be verified with a high level of certainty from ground-truth data.&#xD;
+&#xD;
+      The PRO data of a patient provide what is known in engineering, physics, and statistics as&#xD;
+      &quot;time series&quot; of observations. The unique feature of PRO time series for applications in&#xD;
+      cancer is the very high &quot;sampling frequency&quot; (e.g., daily or better) compared to&#xD;
+      examinations, which generally occur at fixed, and much less frequent intervals. Prediction&#xD;
+      algorithms based on PRO data would thus be ideally suited to reduce the delay in detecting&#xD;
+      events, for example, by triggering physician appointments or indicating the need for more&#xD;
+      intensive medical diagnostics.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2021</start_date>
+  <completion_date type="Anticipated">November 2024</completion_date>
+  <primary_completion_date type="Anticipated">November 2024</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>6 Months</target_duration>
+  <primary_outcome>
+    <measure>Health Status</measure>
+    <time_frame>6 months</time_frame>
+    <description>Using the EuroQol-visual analogue scale, abbreviated as EQ-VAS Scale, containing values between 100 (best imaginable health) and 0 (worst imaginable health), (answered by patients)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Complaints/Symptoms</measure>
+    <time_frame>6 months</time_frame>
+    <description>Assessed using a question set aligned with the PRO-CTCAE and CTCAE (answered by patients)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of SAEs</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of dosis reductions</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of treatment interruptions</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of disease progression</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of disease regression</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence or Absence of death</measure>
+    <time_frame>6 months</time_frame>
+    <description>yes/no (answered by physician)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cancer type</measure>
+    <time_frame>6 months</time_frame>
+    <description>according to ICD classification</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Typology</measure>
+    <time_frame>6 months</time_frame>
+    <description>According to Bloem et al (PMID: 32771005)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Timepoints of patient documentation</measure>
+    <time_frame>6 months</time_frame>
+    <description>The timepoints at which a patient uses the CANKADO System to document patient-reported outcomes are retrieved from the system including date and time</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of patient documentation</measure>
+    <time_frame>6 months</time_frame>
+    <description>The frequency at which a patient uses the CANKADO System to document patient-reported outcomes are calculated using the timepoints of patient documentation</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">166000</enrollment>
+  <condition>Cancer</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>CANKADO PRO-React Onco</intervention_name>
+    <description>CANKADO PRO-React Onco is approved as class I medical device within the European Union (registration number DE /CA59 /371/2020-R/Hd) and is compliant with the FDA classification for Mobile Medical Devices (2015) Appendix B. The purpose of CANKADO PRO-React Onco is to be an automated digital support for patients to help them decide how urgent it is to contact the attending physician based on the symptoms they independently record in the system. It supports patients with cancer under systemic, anti-tumor or anti-hormonal therapy in adjuvant, neoadjuvant, post-neoadjuvant or palliative situations. It is unsuitable for patients undergoing radiotherapy, cell and gene therapy, surgical procedures or alternative healing methods.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Cancer Patients under systemic, anti-tumor or anti-hormonal therapy in adjuvant,&#xD;
+        neoadjuvant, post-neoadjuvant or palliative situations with prescribed CANKADO PRO-React&#xD;
+        Onco will be enrolled.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Signed informed consent&#xD;
+&#xD;
+          -  Age ≥ 18 years&#xD;
+&#xD;
+          -  Diagnosed with cancer&#xD;
+&#xD;
+          -  Freshly started or planned medical systemic treatment&#xD;
+&#xD;
+          -  Prescribed CANKADO PRO-React Onco&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Lack of consent to study participation or lack of patient's ability to consent&#xD;
+&#xD;
+          -  Treatment start more than 5 days ago&#xD;
+&#xD;
+          -  Enrolled in this trial within a further treatment&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Timo Schinköthe, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Cankado Service GmbH</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lena-Sophie Fink</last_name>
+    <phone>+4922142915300</phone>
+    <email>l.fink@cankado.com</email>
+  </overall_contact>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 31, 2020</study_first_posted>
+  <last_update_submitted>August 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

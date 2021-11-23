@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04574882</url>
+  </required_header>
+  <id_info>
+    <org_study_id>833699</org_study_id>
+    <nct_id>NCT04574882</nct_id>
+  </id_info>
+  <brief_title>Using Digital Data to Predict CHD</brief_title>
+  <official_title>Using Digital Data to Predict Cardiovascular Health and Health Care Utilization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project seeks to identify and characterize features derived from digital data (e.g.&#xD;
+      social media, online search, mobile media) which are associated with coronary heart disease&#xD;
+      (CHD) and related risk factors, and develop models that use digital data and conventional&#xD;
+      predictive models to predict CHD risk and health care utilization.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cardiovascular disease is the leading cause of death in the US. While secondary prevention&#xD;
+      approaches have improved longevity of patients, risk factors and adverse health behaviors&#xD;
+      (e.g., physical inactivity, smoking) are highly prevalent, and in most contemporary series,&#xD;
+      less than 1% of adults meet all factors of ideal CV health. The logistics and practicalities&#xD;
+      of meeting the goal of ideal CV health have not been clearly elucidated. Practice guidelines&#xD;
+      recommend using the Framingham risk score (FRS) or other risk prediction tools to classify&#xD;
+      patients' risk of CV disease. These models however are imprecise and there is increasing&#xD;
+      focus on identifying markers that provide better measures of risk. As digital platforms are&#xD;
+      increasingly used to document lifestyle and health behaviors, data from digital sources may&#xD;
+      provide a window into manifestations of novel risk factors and potentially a better&#xD;
+      characterization of existing risk factors. While it seems like a cliche to mention the&#xD;
+      profound impact of digital data on everyday lives, there is indeed great substance in the&#xD;
+      opportunities these new media provide for understanding behavioral, social, and environmental&#xD;
+      determinants of health. This project seeks to identify and characterize features derived from&#xD;
+      digital data (e.g. social media, online search, mobile media) which are associated with&#xD;
+      coronary heart disease (CHD) and related risk factors, and develop models that use digital&#xD;
+      data and conventional predictive models to predict CHD risk and health care utilization.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 25, 2020</start_date>
+  <completion_date type="Anticipated">December 14, 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Latent Dirichlet Allocation Topics - topics / themes discussed between patients with and without heart disease</measure>
+    <time_frame>Through study completion, an average of 3 years</time_frame>
+    <description>The primary outcome is topics and features (derived using the Latent Dirichlet Allocation [LDA] method for clustering language data).</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>CHD event</measure>
+    <time_frame>Through study completion, an average of 3 years</time_frame>
+    <description>Reliability in predicting CHD related event in patient as measured by Framingham Risk Score.&#xD;
+The Framingham Risk Score (FRS) is a validated means of predicting cardiovascular disease (CVD) risk. Input variables include age, cigarette smoking, total cholesterol, HDL cholesterol, systolic blood pressure measurement and treatment for hypertension. Point values are calculated based on each of these risks. A 10-year risk score can be derived as a percentage. Risk scores range from 0-20%.&#xD;
+Low Risk: Less than 10% risk that you will develop a heart attack or die from coronary disease in the next 10 years.&#xD;
+Intermediate risk: A 10 to 20% risk that you will develop a heart attack or die from coronary disease in the next 10 years.&#xD;
+High Risk: A greater than 20% risk that you will develop a heart attack or die from coronary disease in the next 10 years.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Health care utilization</measure>
+    <time_frame>Through study completion, an average of 3 years</time_frame>
+    <description>Prediction of cost for health care utilization between heart disease and non- heart disease subjects measured by insurance claims data</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Cardiovascular Diseases</condition>
+  <arm_group>
+    <arm_group_label>Case</arm_group_label>
+    <description>Patients ages 40-74 with and without CHD (IICD 10: I63, I20-I25 ) within the last 6 months who receive care in the University of Pennsylvania Health System (UPHS).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Patients aged 40-74 who have non-cardiovascular-related chief compliant.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Survey</intervention_name>
+    <description>Interested participants may complete the informed consent online. After informed consent, the participant will be asked to share the digital data types that they use (Facebook, Instagram, Twitter, Google search, step data) and then participants will complete a cross-sectional survey.</description>
+    <arm_group_label>Case</arm_group_label>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will identify patients ages 40-74 with and without CHD (ICD 9:414.0, ICD 10: I63,&#xD;
+        I20-I25) who receive care in the University of Pennsylvania Health System.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  40 - 74 years of age&#xD;
+&#xD;
+          -  Willing to sign informed consent&#xD;
+&#xD;
+          -  Primarily English speaking (for language analysis)&#xD;
+&#xD;
+          -  Has Social Media account, at least one of the following sources: Facebook, Twitter,&#xD;
+             Reddit, Instagram)&#xD;
+&#xD;
+          -  Posts on social media accounts at least 10 times in the past year&#xD;
+&#xD;
+          -  Willing to share historical and prospective data (60 days)&#xD;
+&#xD;
+          -  Has a gmail account&#xD;
+&#xD;
+          -  Willing to download and share google takeout zip file&#xD;
+&#xD;
+          -  Has a smartphone or wearable device such as FitBit, Garmin watch.&#xD;
+&#xD;
+          -  Willing to share step data&#xD;
+&#xD;
+          -  Willing to share access to medical health records&#xD;
+&#xD;
+          -  Admitted in-patient to UPHS or has an outpatient visit at UPHS&#xD;
+&#xD;
+          -  Willing to share healthcare insurance information&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient does not meet age inclusion criteria above&#xD;
+&#xD;
+          -  Does not use and post on digital data sources we are studying or unwilling to donate&#xD;
+             data&#xD;
+&#xD;
+          -  Patient is in severe distress, e.g. respiratory, physical, or emotional distress&#xD;
+&#xD;
+          -  Patient is intoxicated, unconscious, or unable to appropriately respond to questions&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>74 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University of Pennsylvania Health System</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rachelle Schneider</last_name>
+      <phone>484-723-3171</phone>
+      <email>Rachelle.Schneider@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>September 28, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 28, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 5, 2020</study_first_posted>
+  <last_update_submitted>July 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>digital data</keyword>
+  <keyword>digital health</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

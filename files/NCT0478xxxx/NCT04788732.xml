@@ -1,0 +1,356 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04788732</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CAAE: 33066620.1.0000.5440</org_study_id>
+    <nct_id>NCT04788732</nct_id>
+  </id_info>
+  <brief_title>Heart Rate Variability to Quantify General Anesthesia Depth</brief_title>
+  <official_title>Heart Rate Variability as Tool for Quantification of General Anesthesia Depth in Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Sao Paulo</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Sao Paulo</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The shortage of anesthetic agents can lead to intraoperative awareness while overdosing can&#xD;
+      trigger severe intra and postoperative problems. Therefore, monitoring anesthesia's depth&#xD;
+      (DoA: Depth of Anesthesia) is a crucial but still challenging task. Although some commercial&#xD;
+      monitors are based on electroencephalogram (EEG), designed to quantify DoA, their use in&#xD;
+      clinical practice has limitations. On the other hand, heart rate variability (HRV) has&#xD;
+      valuable information about physiological states, both from the heart and the organism.&#xD;
+      Classical indices derived from HRV have been shown to be able to differentiate the different&#xD;
+      stages of anesthesia. In this study, it is proposed to create a model to monitor DoA&#xD;
+      combining several HRV indices. Patients will be divided into three groups, according to the&#xD;
+      type of anesthesia to which they will be submitted (inhalation, total or balanced&#xD;
+      intravenous) and will have the electrocardiogram recorded during the entire surgical&#xD;
+      procedure. Various HRV indices will be calculated, and machine learning techniques will be&#xD;
+      used to combine and identify the most relevant index to compose a score that reliably&#xD;
+      represents DoA. Several commercial devices have been developed to monitor the level of&#xD;
+      consciousness during anesthesia. Among the most popular tools are included: Narcotrend TM&#xD;
+      (MonitorTechnik, Bad Bramstedt, Germany); the M-Entropy TM (GE Healthcare, Helsinki,&#xD;
+      Finland); Nindex SA (Controls, Montevideo, Uruguay) and the Bi-Spectral Index (BIS, TM&#xD;
+      Medtronic-Covidien, Dublin, Ireland). In this study, BIS or Nindex will also be monitored&#xD;
+      during the entire period that the patients remain anesthetized and will later be used to&#xD;
+      compose the DoA score based on HRV. As a result, a computer program will be created to&#xD;
+      monitor DoA in real-time.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Anesthesia is a state of reversible unconsciousness induced by one or more pharmacological&#xD;
+      agents. The three main anesthesia components are analgesia (pain relief), amnesia (memory&#xD;
+      loss), and immobilization, including autonomic reflexes' inhibition for harmful stimuli.1&#xD;
+      Drugs used to induce anesthesia, in general, have different effects on each of these three&#xD;
+      components mentioned above.&#xD;
+&#xD;
+      Anesthesia depth assessment ( DoA: from English, Depth of Anesthesia ) is essential for&#xD;
+      anesthetic practice. The DoA depends on two opposing factors: the amount of anesthetic agent&#xD;
+      administered to the patient and the stimuli produced during surgery, increasing the level of&#xD;
+      awareness, and the patient's nociception. The ideal level d the DoA involves the guaranteed&#xD;
+      unconsciousness and anti-nociception adequate during surgery without compromise the functions&#xD;
+      of vital organs. In other words, one of the main challenges for anesthetists is to identify&#xD;
+      the appropriate amount of anesthetic to be administered to avoid the unwanted effects of&#xD;
+      anesthetic shortages (leading, for example, to intraoperative awareness) or anesthetic&#xD;
+      overdose, which can cause severe problems during intra and postoperative periods. 2 Before&#xD;
+      using muscle relaxants, the appropriate level of DoA could be monitored by the absence of&#xD;
+      movements to painful stimuli; once, the surgical incision's lack of movements was a sure sign&#xD;
+      that the patient was not superficially anesthetized. However, with the muscle relaxants'&#xD;
+      adoption in the anesthetics protocols, other measures to ensure that anesthetic agents'&#xD;
+      concentrations were administered properly were necessary.&#xD;
+&#xD;
+      Becoming conscious during surgery is a major concern for patients and anesthesiologists. It&#xD;
+      is estimated that the incidence of consciousness during general anesthesia is low, around&#xD;
+      0.04% to 0.3%. However, considering the high number of surgical interventions, accidental&#xD;
+      awareness during surgery represents thousands of cases worldwide. Therefore, despite being an&#xD;
+      old problem, awareness during anesthesia is still a very relevant issue in public health.&#xD;
+&#xD;
+      DoA inefficient may also lead to an imbalance nociception x anti-nociception&#xD;
+      intraoperatively, even without patient conscious pain. Nociceptive stimuli can substantially&#xD;
+      affect the physiological state, inducing, for example, tachycardia, hypertension, nausea,&#xD;
+      fainting, and, therefore, negatively influencing patients' postoperative period 1 Thus,&#xD;
+      careful and efficient monitoring of DoA is the key to minimizing both the possibility of&#xD;
+      accidental awareness in surgeries and the overdose of anesthetic agents. 3 However, despite&#xD;
+      the importance of monitoring d the DoA, it is not easy to quantify this parameter during&#xD;
+      general anesthesia, and several approaches have been proposed to accomplish this task.&#xD;
+&#xD;
+      Quantification of DoA:&#xD;
+&#xD;
+      The anesthetic depth could be identified by monitoring the sympathetic activity of the&#xD;
+      patient. However, many anesthetics substantially alter autonomic activity, both sympathetic&#xD;
+      and parasympathetic. The observation of autonomic responses such as sweating, tear formation,&#xD;
+      hypertension, tachycardia, and pupil dilation are also important indicators of adequate&#xD;
+      unconsciousness levels. However, these signals cannot guide the anesthetist, considering that&#xD;
+      the patient cannot react due to neuromuscular blockade. 3 On the other hand, some authors&#xD;
+      suggest monitoring the concentration of inspired and expired anesthetic gases as markers of&#xD;
+      DoA.4 However, to date, there is no standardized and universally accepted method for&#xD;
+      quantifying DoA, and the anesthesiologist's experience is still the most important and&#xD;
+      effective factor in determining DoA.&#xD;
+&#xD;
+      DoA's monitoring techniques have advanced considerably in recent years. The nature of changes&#xD;
+      in electroencephalographic patterns during the stages of anesthesia was studied in detail,&#xD;
+      opening up possibilities for monitoring DoA by identifying electroencephalogram (EEG)&#xD;
+      patterns with crucial clinical significance for anesthesia.5 The use of EEG devices made&#xD;
+      monitoring of DoA potentially easier and was recommended by NIH - Care Excellence.&#xD;
+&#xD;
+      Although the progress brought by EEG-based monitors to anesthetic practice is indisputable,&#xD;
+      they still have significant limitations: 1) the algorithms created to derive a single DoA&#xD;
+      index from the EEG are exclusive (owned by their creators) for each device; 2) The EEG&#xD;
+      obtained in these devices is limited, exclusively, to the activity of the frontal lobe,&#xD;
+      lacking the representation of deeper subcortical structures ; 3) EEG is recognized for being&#xD;
+      highly sensitive to a variety of sources of interference during monitoring; 4) it is high&#xD;
+      cost restricts the availability of such equipment. Several monitors have prices ranging from&#xD;
+      £ 4,687 to £ 10,285 for the initial purchase, followed by the acquisition of single-use&#xD;
+      sensors ranging from £ 0.56 to £ 14.08. (3) Also, recent studies have pointed to substantial&#xD;
+      divergences between the most common commercial displays at DoA, making the application of&#xD;
+      these electronic devices still controversial and not universally recommended. 4 Specific&#xD;
+      limitations to the use of BIS, such as the inconsistency of this index in some situations,&#xD;
+      have also been reported. 6 BIS's particular challenge involves the administration of&#xD;
+      ketamine, nitric oxide, and xenon, which do not produce the typical EEG patterns observed&#xD;
+      during general anesthesia with other anesthetic agents. Besides, as the BIS was created based&#xD;
+      on a database of volunteers under specific conditions, it must be revalidated whenever used&#xD;
+      with a new drug or even a unique patient population, whose characteristics differ from the&#xD;
+      original population database data.7&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 4, 2021</start_date>
+  <completion_date type="Anticipated">August 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 30, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>To create a new Depth of Anesthesia (DoA) Score based on Heart Rate Variability indices</measure>
+    <time_frame>12 months</time_frame>
+    <description>Define a score capable of reflecting DoA, combining different indices derived from ECG, such as HRV.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Impact of the differnet anesthetic drugs on the HRV indices (derived from ECG)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the concentration and final consumption of anesthetic drugs throughout the anesthetic-surgical procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of the anesthesia adjuvant drugs on the HRV indices (derived from ECG)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the concentration and final consumption of adjuvant drugs (for example: lidocaine, dexmedetomedine, magnesium sulfate) throughout the anesthetic-surgical procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to wake up</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the time to wake up</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time spent in PACU</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the time spent in PACU</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Aldrete score</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the Aldrete score</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of nausea and vomiting</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the incidence of postoperative nausea and vomiting, .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of delirium</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the incidence of postoperative delirium</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of intraoperative memory.</measure>
+    <time_frame>12 months</time_frame>
+    <description>Correlate HRV indices (derived from ECG) with the incidence of intraoperative memory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of frailty on the HRV indexes (derived from ECG)</measure>
+    <time_frame>12 months</time_frame>
+    <description>The impact of pre-anesthetic frailty (evaluated by the Clinical Frailty Scale) on ECG and EEG variables in the intraoperative period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of the basal cognitive status on the HRV indexes (derived from ECG)</measure>
+    <time_frame>12 months</time_frame>
+    <description>The impact of the basal cognitive status on ECG and EEG variables in the intraoperative period.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Anesthesia Awareness</condition>
+  <arm_group>
+    <arm_group_label>1-Inhalation Anesthesia</arm_group_label>
+    <description>patients in this group will be anesthetized only with an inhaled anesthetic ( Sevoflurane ).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2-Total Intravenous Anesthesia</arm_group_label>
+    <description>the patients in this group will be anesthetized with only intravenous drugs such as benzodiazepícos (midazolam), opioids (alfentanil, fentanyl, sufentanil, remifentanil), hypnotics ( propofol and etomidate ), associated or not to relaxing neuromuscular (nondepolarizing/depolarizing), and adjuvant drugs such as dextrocetamina, dexmedetomidine, lidocaine, and magnesium sulfate.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3-Balanced anesthesia</arm_group_label>
+    <description>the patients in this group will be anesthetized with blends of anesthetic inhaled (Sevoflurane) and intravenous drugs such as benzodiazepine (midazolam), opioids (alfentanil, fentanyl, sufentanil, remifentanil), hypnotics ( propofol and etomidate ), associated or not with neuromuscular relaxants (nonpolarizing/depolarizing) and adjuvant drugs such as dextrocetamine, dexmedetomidine, lidocaine, and magnesium sulfate.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ECG and EEG monitoring</intervention_name>
+    <description>the ECG and EEG will also be monitored during the entire period that the patients remain anesthetized with various anesthetics drugs and will later be used to compose the DoA score based on HRV.</description>
+    <arm_group_label>1-Inhalation Anesthesia</arm_group_label>
+    <arm_group_label>2-Total Intravenous Anesthesia</arm_group_label>
+    <arm_group_label>3-Balanced anesthesia</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      whole blood and plasma sample&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients ASA (classification by the American Society of Anesthesiology) 1-3, of all ages,&#xD;
+        undergoing general anesthesia will be considered and divided into three groups, according&#xD;
+        to the type of anesthesia used: inhaled, total intravenous, or balanced.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  ASA patients (classification by the American Society of Anesthesiology) 1-3, of all&#xD;
+             ages, scheduled to undergo procedures under general anesthesia.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with craniofacial deformities in which it is not possible to place the EEG&#xD;
+             sensors.&#xD;
+&#xD;
+          -  Patients with severe eczema, allergy, or skin atopy.&#xD;
+&#xD;
+          -  Patients with a history of severe autonomic dysfunction.&#xD;
+&#xD;
+          -  Need of autonomic cardiac blockers during the intraoperative period.&#xD;
+&#xD;
+          -  Absence of Consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Waynice N Paula-Garcia</last_name>
+    <phone>+5516981154121</phone>
+    <email>wgarcia@fmrp.usp.br</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Waynice N. Paula-Garcia</name>
+      <address>
+        <city>Ribeirão Preto</city>
+        <state>Sao Paulo</state>
+        <zip>14.048-900</zip>
+        <country>Brazil</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Waynice N Paula-Garcia</last_name>
+      <phone>+5516981154121</phone>
+      <email>waynicegarcia@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <phone>+551636021000</phone>
+      <phone_ext>2211</phone_ext>
+      <email>wgarcia@fmrp.usp.br</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Waynice N Paula-garcia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rubens Fazan Junior</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Luis Vicente Garcia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Brazil</country>
+  </location_countries>
+  <reference>
+    <citation>Guignard B. Monitoring analgesia. Best Pract Res Clin Anaesthesiol. 2006 Mar;20(1):161-80. Review.</citation>
+    <PMID>16634423</PMID>
+  </reference>
+  <reference>
+    <citation>Fahy BG, Chau DF. The Technology of Processed Electroencephalogram Monitoring Devices for Assessment of Depth of Anesthesia. Anesth Analg. 2018 Jan;126(1):111-117. doi: 10.1213/ANE.0000000000002331. Review.</citation>
+    <PMID>28786839</PMID>
+  </reference>
+  <reference>
+    <citation>Smith A. Literature review: Awareness of anaesthesia. J Perioper Pract. 2017 Sep;27(9):191-195. Review.</citation>
+    <PMID>29328752</PMID>
+  </reference>
+  <reference>
+    <citation>Merry AF, Cooper JB, Soyannwo O, Wilson IH, Eichhorn JH. International Standards for a Safe Practice of Anesthesia 2010. Can J Anaesth. 2010 Nov;57(11):1027-34. doi: 10.1007/s12630-010-9381-6. Epub 2010 Sep 21.</citation>
+    <PMID>20857254</PMID>
+  </reference>
+  <reference>
+    <citation>Shander A, Lobel GP, Mathews DM. Brain Monitoring and the Depth of Anesthesia: Another Goldilocks Dilemma. Anesth Analg. 2018 Feb;126(2):705-709. doi: 10.1213/ANE.0000000000002383. Review.</citation>
+    <PMID>28787338</PMID>
+  </reference>
+  <reference>
+    <citation>Hajat Z, Ahmad N, Andrzejowski J. The role and limitations of EEG-based depth of anaesthesia monitoring in theatres and intensive care. Anaesthesia. 2017 Jan;72 Suppl 1:38-47. doi: 10.1111/anae.13739. Review.</citation>
+    <PMID>28044337</PMID>
+  </reference>
+  <reference>
+    <citation>Kissin I. Depth of anesthesia and bispectral index monitoring. Anesth Analg. 2000 May;90(5):1114-7.</citation>
+    <PMID>10781463</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 9, 2021</study_first_posted>
+  <last_update_submitted>March 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Sao Paulo</investigator_affiliation>
+    <investigator_full_name>Waynice N.P. Garcia</investigator_full_name>
+    <investigator_title>Assistant Professor, M.D, Ph.D</investigator_title>
+  </responsible_party>
+  <keyword>general anesthesia</keyword>
+  <keyword>consciousness</keyword>
+  <keyword>heart rate variability</keyword>
+  <keyword>general anaesthesia monitors</keyword>
+  <keyword>computational analysis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Intraoperative Awareness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

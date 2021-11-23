@@ -1,0 +1,223 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04607720</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-CH-EUS-AI</org_study_id>
+    <nct_id>NCT04607720</nct_id>
+  </id_info>
+  <brief_title>Clinical Research on a Novel Deep-learning Based System in Pancreatic Mass Diagnosis</brief_title>
+  <official_title>Clinical Research on a Noval Deep-learning Based System in Benign and Malignant Pancreatic Masses Diagnosing Under Harmonic Contrast-enhanced Endoscopic Ultrasound</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The Third Xiangya Hospital of Central South University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The Third Xiangya Hospital of Central South University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, a single-center, prospective, self-control, and blind design was adopted.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      It is planned to enroll 100 patients with solid pancreatic masses who are to be diagnosed&#xD;
+      with contrast-enhanced harmonic endoscopy ultrasonography (CH-EUS) follow by EUS-guided&#xD;
+      fine-needle aspiration (EUS-FNA). First, all patients will be diagnosed both by the&#xD;
+      AI-assisted diagnosis system and the endoscopists under CH-EUS; Second, to compare the&#xD;
+      EUS-FNA under the guidance of the AI-assisted ultrasound diagnosis system and the EUS-FNA&#xD;
+      under manual identification, patients were randomly assigned to undergo EUS-FNA with or&#xD;
+      without the guidance of AI-assisted diagnosis system for the first two passes.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>accuracy</measure>
+    <time_frame>1 year</time_frame>
+    <description>compare the diagnostic rates of AI-CH-EUS and artificial-CH-EUS for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>sensitivity</measure>
+    <time_frame>1 year</time_frame>
+    <description>compare the diagnostic rates of AI-CH-EUS and artificial-CH-EUS for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>specificity</measure>
+    <time_frame>1 year</time_frame>
+    <description>compare the diagnostic rates of AI-CH-EUS and artificial-CH-EUS for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>positive predictive value</measure>
+    <time_frame>1 year</time_frame>
+    <description>compare the diagnostic rates of AI-CH-EUS and artificial-CH-EUS for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>negative predictive value</measure>
+    <time_frame>1 year</time_frame>
+    <description>compare the diagnostic rates of AI-CH-EUS and artificial-CH-EUS for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>the diagnosis rate of first needle aspiration</measure>
+    <time_frame>1 year</time_frame>
+    <description>compared the diagnosis rate of AI-EUS-FNA and artificial-EUS-FNA first needle aspiration for benign and malignant pancreatic masses</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>core tissue length</measure>
+    <time_frame>1 year</time_frame>
+    <description>To evaluate the specimen quality through core tissue length of AI-EUS-FNA and artificial-EUS-FNA</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Solid Pancreatic Masses</condition>
+  <arm_group>
+    <arm_group_label>the artificial-EUS-FNA group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>the first two passes were made without the AI-assisted diagnosis system guidance during EUS-FNA, and then two passes were made under guidance from the AI-assisted diagnosis system</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>the AI-EUS-FNA group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>the first two passes were made with the AI-assisted diagnosis system guidance and then another two manual passes without the AI-assisted diagnosis system guidance.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>artificial-EUS-FNA</intervention_name>
+    <description>The ultrasound endoscopists manually determined the region of interest (ROI) according to CH-EUS, and punctured 2 needles in the tumor area with a 22G needle, and each needle moved 15-20 times back and forth in the lesion. After puncture, insert the needle core, rinse the needle with 0.1ml sterile saline, and further apply air flushing to ensure that each tissue is sent to the slide.</description>
+    <arm_group_label>the AI-EUS-FNA group</arm_group_label>
+    <arm_group_label>the artificial-EUS-FNA group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>AI-EUS-FNA</intervention_name>
+    <description>In the AI-assisted diagnosis system, the assisted targeting EUS-FNA unit is applied, and the ultrasound endoscopist selects the region of interest (ROI) according to the thermogram to perform targeted EUS-FNA puncture(2 needles in the same way).</description>
+    <arm_group_label>the AI-EUS-FNA group</arm_group_label>
+    <arm_group_label>the artificial-EUS-FNA group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  1. Age ≥18 years old, &lt;90 years old 2.The patient is confirmed to be a solid&#xD;
+             pancreatic mass in imaging examinations (MRI, CT or ultrasound), and CH-EUS is&#xD;
+             required for auxiliary diagnosis 3. Agree to participate in this study and sign the&#xD;
+             CH-EUS informed consent form&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subjects who meet any of the following criteria cannot be selected for this trial:&#xD;
+&#xD;
+        First. The patient's physical condition does not meet the requirements of conventional&#xD;
+        ultrasound endoscopic puncture:&#xD;
+&#xD;
+          1. Poor physical condition, including hemoglobin ≤8.0g/dl, severe cardiopulmonary&#xD;
+             insufficiency, etc.&#xD;
+&#xD;
+          2. Blood coagulation dysfunction (platelet count &lt;50×1012, international standardized&#xD;
+             ratio&gt; 1.5) or taking oral anticoagulants such as aspirin or warfarin within a week&#xD;
+&#xD;
+          3. Anesthesia assessment failed&#xD;
+&#xD;
+          4. Had acute pancreatitis within 2 weeks&#xD;
+&#xD;
+          5. Pregnancy or breastfeeding&#xD;
+&#xD;
+          6. Known history of allergy to sulfur hexafluoride or other components&#xD;
+&#xD;
+          7. Recent acute coronary syndrome or clinically unstable ischemic heart attack&#xD;
+&#xD;
+          8. Heart disease patients with right-to-left shunt, patients with severe pulmonary&#xD;
+             hypertension (pulmonary artery pressure&gt; 90mmHg), patients with uncontrolled systemic&#xD;
+             hypertension and patients with adult respiratory distress syndrome.&#xD;
+&#xD;
+        Second. Disagree to participate in this study&#xD;
+&#xD;
+        Third. There are other problems that do not meet the requirements of this research or that&#xD;
+        affect the results of the research:&#xD;
+&#xD;
+          1. Pancreatic disease has undergone surgery or chemotherapy beforehand&#xD;
+&#xD;
+          2. The patient was diagnosed with pancreatic cystic disease or duodenal stenosis&#xD;
+&#xD;
+          3. Mental illness, drug addiction, inability to express themselves or other diseases that&#xD;
+             may affect follow-up&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Li Tian, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Third Xiangya Hospital of Central South University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anliu Tang, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Third Xiangya Hospital of Central South University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Wang Xiao, MD</last_name>
+    <phone>+8613974889301</phone>
+    <email>wxy20011@163.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Third Xiangya Hospital of Central South University</name>
+      <address>
+        <city>Changsha</city>
+        <state>Hunan</state>
+        <zip>410013</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Wang Xiaoyan, MD</last_name>
+      <phone>+8613974889301</phone>
+      <email>wxy20011@163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 29, 2020</study_first_posted>
+  <last_update_submitted>October 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

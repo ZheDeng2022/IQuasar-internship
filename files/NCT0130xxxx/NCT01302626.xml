@@ -1,0 +1,355 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01302626</url>
+  </required_header>
+  <id_info>
+    <org_study_id>10-4-120</org_study_id>
+    <nct_id>NCT01302626</nct_id>
+  </id_info>
+  <brief_title>Radiomics: a Study of Outcome in Lung Cancer</brief_title>
+  <acronym>Radiomics</acronym>
+  <official_title>Radiomics: a Prospective Study of Outcome in Lung Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht Radiation Oncology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>H. Lee Moffitt Cancer Center and Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fondazione Policlinico Universitario Agostino Gemelli IRCCS</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht Radiation Oncology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Aim of the study: The main aim is to collect data of patients with lung cancer, and to&#xD;
+      perform different analyses on this data. The data contains information on patient and tumor&#xD;
+      characteristics, imaging, and treatment characteristics. With this data it is possible to&#xD;
+      improve and validate the predictive model for survival and long term toxicity in lung cancer&#xD;
+      by multicentric prospective data collection. The long term aim, beyond this specific study,&#xD;
+      is to build a Decision Support System based on the predictive models validated in this study.&#xD;
+&#xD;
+      Hypothesis: The general hypothesis is that we get a better prediction in terms of AUC (area&#xD;
+      under the curve) of survival and long term toxicity when we combine multifactorial variables.&#xD;
+      These variables consist of information from clinical data, imaging data, data related to&#xD;
+      treatment type and treatment quality.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Treatment of lung cancer&#xD;
+&#xD;
+           Lung cancer is the most common cause of cancer death in The Netherlands, with an annual&#xD;
+           incidence exceeding 8,000. Two main variants of lung cancer can be identified: small&#xD;
+           cell and non-small cell lung cancer (SCLC and NSCLC respectively), the latter comprising&#xD;
+           approximately 80% of the lung cancer cases. Despite treatment improvement, the prognosis&#xD;
+           of NSCLC remains poor, with a median survival of 8 months after diagnosis, and a 5 year&#xD;
+           survival of less than 13%.&#xD;
+&#xD;
+           Radiotherapy plays a key role in the treatment of NSCLC. Over the years,&#xD;
+           radiotherapeutical treatment options have increased tremendously. These include dose&#xD;
+           escalation, more intensive schedules and concurrent chemo-radiotherapy. These schedules&#xD;
+           have improved both local control and survival in patients. However, they also induce&#xD;
+           more toxicity, and the radiation oncologist faces the challenging task of choosing the&#xD;
+           optimal therapy for each patient: taking into account tumor characteristics as well as&#xD;
+           the patient's condition. In other words: the physician must estimate the expected&#xD;
+           therapeutic ratio often on a background of insufficient outcomes information.&#xD;
+&#xD;
+           The same problem arises in other therapies for lung cancer, chemotherapy and surgery. In&#xD;
+           early disease, surgery is the mainstay of the treatment of lung cancer patients. This&#xD;
+           can be combined with neoadjuvant or adjuvant chemotherapy and/or radiotherapy.&#xD;
+&#xD;
+        2. Prediction of response&#xD;
+&#xD;
+           A major problem in lung cancer management is the lack of data dealing with predictive&#xD;
+           factors for prognosis and treatment outcome. The currently used staging system (TNM)&#xD;
+           does not accurately predict outcome within homogeneous treatment groups. As a result, an&#xD;
+           individualized therapeutic ratio cannot be calculated, leading to either over- or&#xD;
+           under-treatment of many patients and hampering further optimization of any therapy.&#xD;
+&#xD;
+           Attempts were undertaken to refine and improve the risk stratification, leading to the&#xD;
+           development of several prediction models. The performance of the models is usually&#xD;
+           expressed as the Area Under the Curve (AUC) of the Receiver Operating Characteristic&#xD;
+           (ROC). The maximum value of the AUC is 1.0; indicating a perfect prediction model. A&#xD;
+           value of 0.5 indicates that patients are correctly classified in 50% of the cases, e.g.&#xD;
+           as good as chance.&#xD;
+&#xD;
+           While high prediction accuracy (AUC=0.85) has been achieved for a population of NSCLC&#xD;
+           patients of all stages, treated with different modalities, it is a more challenging task&#xD;
+           to predict survival accurately when focusing on a subgroup. A pretreatment prediction&#xD;
+           model for patients treated with surgery yielded an AUC of 0.61 while a pretreatment&#xD;
+           model for patients treated with radiotherapy resulted in an AUC of 0.75. Further&#xD;
+           improvement of the radiotherapy model was obtained by adding information about blood&#xD;
+           biomarkers and this extended model yielded an AUC of 0.83. Investigating other blood&#xD;
+           biomarkers or possible combinations of biomarkers is a challenge and our results&#xD;
+           underline the importance of using these data in addition to clinical and imaging&#xD;
+           parameters.&#xD;
+&#xD;
+           Survival remains certainly an outcome of major importance, but the last decades other&#xD;
+           treatment-related outcome measures, such as radiation induced lung injury or esophageal&#xD;
+           damage, became more important for the evaluation of treatment results.&#xD;
+&#xD;
+           Pneumonitis or radiation induced lung injury has been subject of many studies. However,&#xD;
+           results are quite difficult to interpret, because many different variables, dosimetric&#xD;
+           parameters as well as other treatment or patient related characteristics, have been&#xD;
+           identified, studies showed inconsistent or even conflicting results, and sample sizes&#xD;
+           were often very limited.&#xD;
+&#xD;
+           Recently, Chen et al. published a neural network model for prediction of grade 2 or&#xD;
+           higher pneumonitis, which yielded an AUC of 0.74 in the test dataset31. Compared to&#xD;
+           other models, these results are promising, although external validation of the model is&#xD;
+           warranted before it can be used in clinical practice. Our group developed a model&#xD;
+           predicting dyspnea ≥ grade 2 according to CTCv3.0. Patient as well as dosimetric&#xD;
+           parameters were incorporated in the model, which resulted in a cross-validated AUC of&#xD;
+           0.62.&#xD;
+&#xD;
+           In summary, existing models perform rather well, but there is a lot of room for&#xD;
+           improvement by adding new factors as well as applying advanced model building&#xD;
+           techniques. Prediction models still have to be developed for a number of clinically&#xD;
+           relevant outcomes. Finally, incorporating confidence intervals in the prediction as well&#xD;
+           as quantifying the gain in prediction precision if a certain diagnostic/ prognostic test&#xD;
+           is performed, would certainly be of great value for clinical use of the models&#xD;
+           (http://www.predictcancer.org/).&#xD;
+&#xD;
+        3. Strategies to improve prediction models for lung cancer&#xD;
+&#xD;
+      In order to improve the prediction models for survival as well as toxicity outcome one can&#xD;
+      include many variables as possible predictors including imaging, genomics and proteomics&#xD;
+      information.&#xD;
+&#xD;
+      3.1 Imaging&#xD;
+&#xD;
+      An important feature for prognosis on the FDG-PET-scan is the maximal Standardized Uptake&#xD;
+      Value (SUVmax). There is a statistically significant difference in 2-year survival between&#xD;
+      patients with a high pretreatment SUV and a low pretreatment SUV. Patients with a low SUVmax&#xD;
+      had a 2-year survival of 90.6%, while patients with a high SUVmax had a 2-year survival of&#xD;
+      only 58.6%. There is a significant correlation between high SUVmax and a high HIF1α staining&#xD;
+      in the biopsies, which is a marker for hypoxia. Non significant relations were shown for CA&#xD;
+      IX, Ki67 and Glut-1 and SUVmax.&#xD;
+&#xD;
+      Besides FDG, new PET-tracers are being developed. One of the new tracers is HX4, which is a&#xD;
+      hypoxia tracer. Regulation of tissue oxygen homeostasis is critical for cell function,&#xD;
+      proliferation and survival. Evidence for this continues to accumulate along with our&#xD;
+      understanding of the complex oxygen-sensing pathways present within cells. The&#xD;
+      microenvironment of tumors in particular is very oxygen heterogeneous, with hypoxic areas,&#xD;
+      which may explain much of our difficulty in treating cancer effectively. This is true when&#xD;
+      comparing levels of hypoxia among different patient tumors, but also within individual&#xD;
+      tumors. Accumulating evidence implicates the biological responses to hypoxia and the&#xD;
+      alterations in these pathways in cancer as important contributors to overall malignancy and&#xD;
+      treatment efficacy. This has recently prompted several investigations into the possibility of&#xD;
+      imaging and targeting treatment at the biological responses to hypoxia.&#xD;
+&#xD;
+      3.2 Gene signatures&#xD;
+&#xD;
+      Analysis of gene signatures can help to improve the predictive value of the model. An example&#xD;
+      of this, is the proliferation signature investigated by Starmans et al. Two different&#xD;
+      signatures of 110 genes were compared in prognostic value. Both showed a very good prognostic&#xD;
+      value on breast cancer data sets. The AUC (area under the curve) improved when the&#xD;
+      proliferation signature were added to the models of clinical factors. Another gene profile&#xD;
+      was tested on early stage NSCLC. This profile consists of 72 genes and is validated on stage&#xD;
+      I and II NSCLC patients of five centers. It was possible to identify early-stage NSCLC&#xD;
+      patients with high and low risk for disease recurrence and death within 3 years after primary&#xD;
+      surgical treatment.&#xD;
+&#xD;
+      3.3 Tumor biopsies&#xD;
+&#xD;
+      Hypoxia is (besides in serum) also measurable in the tissue itself. Several markers of&#xD;
+      hypoxia are predictive for survival. An example is HIF1α, which is upregulated is case of&#xD;
+      hypoxia. A higher staining of HIF1α is correlated with a worse prognosis in NSCLC. CA IX&#xD;
+      correlated with severe and chronic hypoxia, and has a strong association with a poor outcome&#xD;
+      in NSCLC.&#xD;
+&#xD;
+      Another marker is Ki67, which is expressed in proliferating cells. A higher Ki67 indicates&#xD;
+      more proliferation, and in a systemic review of Martin et. al. a worse prognosis was shown&#xD;
+      when Ki67 expression is increased.&#xD;
+&#xD;
+      3.4 Application of machine learning techniques&#xD;
+&#xD;
+      The availability of genomic data, together with improved imaging modalities, leads to&#xD;
+      unprecedented amounts of biological and medical data, which can only be dealt with using&#xD;
+      computational methods, not only for storing the data, but also for integrating, analyzing,&#xD;
+      displaying and eventually understanding it.&#xD;
+&#xD;
+      Machine learning offers a number of techniques for these purposes. These techniques can&#xD;
+      overcome problems encountered with conventional statistical methods especially if data is&#xD;
+      highly correlated, many variables are available but a limited number of patients&#xD;
+      (high-dimensional data), or many different models have to be tested for their predictive&#xD;
+      value. In the field of radiotherapy and especially for the prediction of treatment responses,&#xD;
+      machine learning is an upcoming modality. Successes over traditional statistics have already&#xD;
+      been published 43and first promising results for building predictive models concerning&#xD;
+      survival of non-small-cell lung-cancer are already found in the literature.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2010</start_date>
+  <completion_date type="Actual">March 2014</completion_date>
+  <primary_completion_date type="Actual">January 2014</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Actual">216</enrollment>
+  <condition>Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>1: Surgery alone or combined with (chemo)radiotherapy</arm_group_label>
+    <description>Fresh frozen tumor tissue and normal tissue;&#xD;
+Recording of clinical characteristics, imaging, surgery features.&#xD;
+After treatment: FU at 2-3 weeks post surgery, 3,6,12,24 and 36 months post-surgery</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2: Radiotherapy alone</arm_group_label>
+    <description>(including stereotactic radiotherapy)&#xD;
+Before start RT (during staging):Optional: Biopsies, frozen or RNA later, of tumor and/or lymph nodes;&#xD;
+Day 0 (before start RT): Recording of clinical characteristics, imaging, and radiotherapy features;&#xD;
+Day 8-12 (during RT): Scoring of toxicity.&#xD;
+After treatment: FU at 2-3 weeks post RT, 3,6,12,24 and 36 months post-RT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3: Sequential chemotherapy and radiotherapy</arm_group_label>
+    <description>Day -30 (before start CT):&#xD;
+Optional: Biopsies, frozen or RNA later, of tumor and/or lymph nodes;&#xD;
+Recording of clinical characteristics, imaging, and chemotherapy features.&#xD;
+Day 0 (before start RT):&#xD;
+Recording of clinical characteristics, imaging, and radiotherapy features.&#xD;
+Scoring of toxicity.&#xD;
+Day 8-12 (during RT):&#xD;
+Scoring of toxicity.&#xD;
+After treatment: FU at 2-3 weeks post RT, 3,6,12,24 and 36 months post-RT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4: Concurrent chemoradiotherapy with induction chemotherapy</arm_group_label>
+    <description>Day -30 until-18 (before start CT):&#xD;
+Optional: Biopsies, frozen or RNA later, of tumor and/or lymph nodes;&#xD;
+Recording of clinical characteristics, imaging, and chemotherapy features.&#xD;
+Day 0 (before start RT):&#xD;
+Recording of clinical characteristics, imaging, and radiotherapy features.&#xD;
+Scoring of toxicity.&#xD;
+Day 8-12 (during RT):&#xD;
+Scoring of toxicity.&#xD;
+After treatment: FU at 2-3 weeks post RT, 3,6,12,24 and 36 months post-RT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>5: Concurrent chemoradiotherapy without induction chemotherapy</arm_group_label>
+    <description>Day 0 (before start CRT):&#xD;
+Optional: Biopsies, frozen or RNA later, of tumor and/or lymph nodes;&#xD;
+Recording of clinical characteristics, imaging, chemotherapy features, and radiotherapy features.&#xD;
+Day 8-12 (during CRT):&#xD;
+Scoring of toxicity.&#xD;
+After treatment: FU at 2-3 weeks post RT, 3,6,12,24 and 36 months post-RT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>6: Stage IV lungcancer, any systemic therapy &amp; supportive care</arm_group_label>
+    <description>Day 0:&#xD;
+Optional: Biopsies, frozen or RNA later, of tumor and/or lymph nodes;&#xD;
+Recording of clinical characteristics, imaging, surgery or any systemic (MoAb) features.&#xD;
+After treatment: FU at 2-3 weeks post treatment, 3,6,12,24 and 36 months post-treatment</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      -  Lung tumor tissue&#xD;
+&#xD;
+        -  Lung normal tissue&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with lung cancer&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histological or cytological proven lung cancer (small cell or non-small cell);&#xD;
+&#xD;
+          -  18 years or older;&#xD;
+&#xD;
+          -  Informed consent according to national rules (US: written informed consent, NL: no&#xD;
+             objection rule)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>H. Lee Moffitt Cancer Center and Research Institute</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Gemelli Hospital Roma / Universita Cattolica del Sacre Cuore Rome</name>
+      <address>
+        <city>Rome</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Maastro clinic, University Hospital of Maastricht</name>
+      <address>
+        <city>Maastricht</city>
+        <state>Limburg</state>
+        <zip>6229 ET</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+    <country>Netherlands</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2017</verification_date>
+  <study_first_submitted>February 22, 2011</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2011</study_first_submitted_qc>
+  <study_first_posted type="Estimate">February 24, 2011</study_first_posted>
+  <last_update_submitted>March 21, 2017</last_update_submitted>
+  <last_update_submitted_qc>March 21, 2017</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 22, 2017</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>NSCLC</keyword>
+  <keyword>SCLC</keyword>
+  <keyword>lung cancer</keyword>
+  <keyword>RNA</keyword>
+  <keyword>DNA</keyword>
+  <keyword>imaging</keyword>
+  <keyword>genomics</keyword>
+  <keyword>proteomics</keyword>
+  <keyword>predictive model</keyword>
+  <keyword>prospective study</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

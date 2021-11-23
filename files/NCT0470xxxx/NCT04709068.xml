@@ -1,0 +1,517 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04709068</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00047371</org_study_id>
+    <nct_id>NCT04709068</nct_id>
+  </id_info>
+  <brief_title>Risk Stratification and Early Alerting Regarding COVID-19 Hospitalization</brief_title>
+  <acronym>RiskSEARCH</acronym>
+  <official_title>Risk Stratification and Early Alerting Regarding COVID-19 Hospitalization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Current Health</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Biomedical Advanced Research and Development Authority</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Current Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this research is to remotely monitor individuals who have tested positive for&#xD;
+      COVID-19 to learn more about progression and recovery from the disease. Individuals who test&#xD;
+      positive for COVID-19 will wear the Current Health wearable device continuously and answer a&#xD;
+      brief series of questions on Current Health tablet daily for up to 30 days. The health data&#xD;
+      will be used to develop predictive models of hospitalization risk.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    recruitment and enrollment challenges due to fast-changing landscape of pandemic&#xD;
+  </why_stopped>
+  <start_date type="Actual">February 8, 2021</start_date>
+  <completion_date type="Actual">June 1, 2021</completion_date>
+  <primary_completion_date type="Actual">May 3, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Participant Compliance</measure>
+    <time_frame>up to 30 days</time_frame>
+    <description>a percentage of the number of 15 minute windows with vital sign data compared to the number of 15 minute windows with the potential to have vital sign data. The 15 minute windows with the potential to have vital sign data was calculated based on the number of days the participant was enrolled in the study. There were multiple study endpoints; the number of days varied between 14-30 days.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Death</measure>
+    <time_frame>up to 30 days</time_frame>
+    <description>Digital biomarker-based algorithm that predicts likelihood of death.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>ICU Admission</measure>
+    <time_frame>up to 30 days</time_frame>
+    <description>Digital biomarker-based algorithm that predicts likelihood of being admitted to the ICU for either non-invasive, invasive ventilation or vasopressor support.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Recovery</measure>
+    <time_frame>up to 30 days</time_frame>
+    <description>Digital biomarker-based algorithm that predicts likelihood of recovery from COVID-19.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Hospitalization</measure>
+    <time_frame>up to 30 days</time_frame>
+    <description>Digital biomarker-based algorithm that predicts likelihood of requiring hospitalization of at least 24 hours.</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">8</enrollment>
+  <condition>Covid19</condition>
+  <arm_group>
+    <arm_group_label>COVID19+</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Current Health</intervention_name>
+    <description>wearable device and tablet used to collect health measures at home</description>
+    <arm_group_label>COVID19+</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        community sample&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Living in the United States (contiguous states)&#xD;
+&#xD;
+          -  Aged 21 years or older&#xD;
+&#xD;
+          -  Able to provide documentation of +PCR or +antigen test for COVID-19 within the past 48&#xD;
+             hours&#xD;
+&#xD;
+          -  Self-reports that comfortable and willing to wear the wearable device and interact&#xD;
+             with a tablet-based interface daily&#xD;
+&#xD;
+          -  Able to provide a next of kin/designated person who can be contacted in the event of&#xD;
+             hospitalization for follow up.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Under the age of 21&#xD;
+&#xD;
+          -  Received a positive test result more than 48 hours prior to contacting study staff or&#xD;
+             has a pending test for COVID-19&#xD;
+&#xD;
+          -  Cannot confirm a PCR or antigen positive test for COVID-19&#xD;
+&#xD;
+          -  Is unable to read English&#xD;
+&#xD;
+          -  Is unwilling to wear the device 24 hours/day except for showering/bathing or interact&#xD;
+             with a tablet-based interface for daily questionnaire&#xD;
+&#xD;
+          -  Is unwilling or unable to provide baseline data required for entry into the study&#xD;
+&#xD;
+          -  Is unable to provide a next of kin/designated person who can be contacted in the event&#xD;
+             of hospitalization for follow-up&#xD;
+&#xD;
+          -  Heavy tattooing on both upper arms&#xD;
+&#xD;
+          -  Known atrial fibrillation (permanent or paroxysmal)&#xD;
+&#xD;
+          -  Has taken/is taking part in a COVID-19 vaccine or treatment trial&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Adam Wolfberg, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Current Health</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Current Health</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10017</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>January 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 14, 2021</study_first_posted>
+  <results_first_submitted>August 9, 2021</results_first_submitted>
+  <results_first_submitted_qc>August 12, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 19, 2021</results_first_posted>
+  <last_update_submitted>August 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>wearable</keyword>
+  <keyword>at-home</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>COVID-19</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol, Statistical Analysis Plan, and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 11, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/68/NCT04709068/Prot_SAP_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>COVID19+</title>
+          <description>Current Health: wearable device and tablet used to collect health measures at home</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>COVID19+</title>
+          <description>Current Health: wearable device and tablet used to collect health measures at home</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="8"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35.6" spread="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Participant Compliance</title>
+        <description>a percentage of the number of 15 minute windows with vital sign data compared to the number of 15 minute windows with the potential to have vital sign data. The 15 minute windows with the potential to have vital sign data was calculated based on the number of days the participant was enrolled in the study. There were multiple study endpoints; the number of days varied between 14-30 days.</description>
+        <time_frame>up to 30 days</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>COVID19+</title>
+            <description>Current Health: wearable device and tablet used to collect health measures at home</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Participant Compliance</title>
+          <description>a percentage of the number of 15 minute windows with vital sign data compared to the number of 15 minute windows with the potential to have vital sign data. The 15 minute windows with the potential to have vital sign data was calculated based on the number of days the participant was enrolled in the study. There were multiple study endpoints; the number of days varied between 14-30 days.</description>
+          <units>percentage of time</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="8"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="74" lower_limit="60" upper_limit="83"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Death</title>
+        <description>Digital biomarker-based algorithm that predicts likelihood of death.</description>
+        <time_frame>up to 30 days</time_frame>
+        <posting_date>12/2023</posting_date>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>ICU Admission</title>
+        <description>Digital biomarker-based algorithm that predicts likelihood of being admitted to the ICU for either non-invasive, invasive ventilation or vasopressor support.</description>
+        <time_frame>up to 30 days</time_frame>
+        <posting_date>12/2023</posting_date>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Recovery</title>
+        <description>Digital biomarker-based algorithm that predicts likelihood of recovery from COVID-19.</description>
+        <time_frame>up to 30 days</time_frame>
+        <posting_date>12/2023</posting_date>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Hospitalization</title>
+        <description>Digital biomarker-based algorithm that predicts likelihood of requiring hospitalization of at least 24 hours.</description>
+        <time_frame>up to 30 days</time_frame>
+        <posting_date>12/2023</posting_date>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>30 days</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>COVID19+</title>
+          <description>Current Health: wearable device and tablet used to collect health measures at home</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="8"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Clinical Research Lead</name_or_title>
+      <organization>Current Health</organization>
+      <phone>617-208-4239</phone>
+      <email>study.team@currenthealth.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

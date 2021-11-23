@@ -1,0 +1,353 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04281784</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY00007031-A</org_study_id>
+    <secondary_id>1R01AG006244</secondary_id>
+    <nct_id>NCT04281784</nct_id>
+  </id_info>
+  <brief_title>Project to Improve Communication About Serious Illness--Hospital Study: Pragmatic Trial (Trial 1)</brief_title>
+  <acronym>PICSI-H</acronym>
+  <official_title>Using the Electronic Health Record to Identify and Promote Goals-of-Care Communication for Older Patients With Serious Illness</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Washington</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Washington</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this protocol is to test the effectiveness of a Jumpstart intervention on&#xD;
+      patient-centered outcomes for patients with chronic illness by ensuring that they receive&#xD;
+      care that is concordant with their goals over time, and across settings and providers. This&#xD;
+      study will examine the effect of the EHR-based intervention to improve quality of palliative&#xD;
+      care for patients 55 years or older with chronic, life-limiting illness with a particular&#xD;
+      emphasis on Alzheimer's disease and related dementias (ADRD). The specific aims are:&#xD;
+&#xD;
+        1. To evaluate the effectiveness of a novel EHR-based (electronic health record) clinician&#xD;
+           Jumpstart guide, compared with usual care, for improving the quality of care; the&#xD;
+           primary outcome is documentation of a goals-of-care discussion in the period between&#xD;
+           randomization and 30 days following randomization. Secondary outcomes focus on intensity&#xD;
+           of care: ICU use, ICU and hospital length of stay, costs of care during the&#xD;
+           hospitalization, and 7 and 30-day hospital readmissions.&#xD;
+&#xD;
+        2. To conduct a mixed-methods evaluation of the implementation of the intervention, guided&#xD;
+           by the RE-AIM framework for implementation science, incorporating quantitative&#xD;
+           evaluation of the intervention's reach and adoption, as well as qualitative analyses of&#xD;
+           interviews with participants, to explore barriers and facilitators to future&#xD;
+           implementation and dissemination.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OVERVIEW: This is a large pragmatic trial of the Jumpstart intervention designed to promote&#xD;
+      goals-of-care discussions for older, seriously ill, hospitalized patients. The trial recruits&#xD;
+      consecutively eligible patients from three UW Medicine hospitals. The Jumpstart Guide is a&#xD;
+      communication-priming intervention that addresses hospitalized patients' goals of care. It&#xD;
+      includes information, drawn from the electronic health record (EHR), identifying the dates&#xD;
+      and locations of prior advance care planning documents (e.g. living wills, healthcare&#xD;
+      directives, durable power of attorney for healthcare, and Physician Orders for Life&#xD;
+      Sustaining Treatments (POLST)) and patients' code status. This information is provided by&#xD;
+      email to patients' clinicians. The Jumpstart Guide includes tips to improve this&#xD;
+      communication. The trial will assess the effectiveness of the EHR-based clinician Jumpstart&#xD;
+      as compared with usual care.&#xD;
+&#xD;
+      This current study is &quot;Trial 1&quot; of the R01 Award funding this trial. Trial 2 was initiated&#xD;
+      following the completion of recruitment for Trial 1.&#xD;
+&#xD;
+      SPECIFIC AIM 1 (for Trial 1): Evaluate the efficacy of the EHR-based clinician Jumpstart&#xD;
+      compared to usual care for improving quality of care.&#xD;
+&#xD;
+      TRIAL 1 has three components.&#xD;
+&#xD;
+      Component 1- Subject Identification/Recruitment/Randomization: The investigators will use&#xD;
+      automated methods with EHR data, including natural language processing/machine learning&#xD;
+      (NLP/ML) approaches, to identify hospitalized patients with serious illness during the first&#xD;
+      2-3 days of this specific admission. Screening reports will be produced daily and include all&#xD;
+      likely eligible patients. Study staff will use these daily screening reports to review&#xD;
+      individual records of eligible patients for inclusion and exclusion criteria (i.e. verify&#xD;
+      eligibility). Patients will not be approached for consent. Eligible patients will be assigned&#xD;
+      to intervention or comparator in a 1:1 ratio. Patients are randomized using variable size&#xD;
+      blocks and stratified for hospital and ADRD vs. no ADRD.&#xD;
+&#xD;
+      Component 2- EHR-based Clinician Jumpstart Guide: The Jumpstart guide is developed by&#xD;
+      applying NLP/ML algorithms to both inpatient and outpatient EHR notes (e.g., progress notes,&#xD;
+      specialty consult notes, alerts and care plans) preceding the current hospitalization. It&#xD;
+      summarizes the presence/absence of POLST, advance directives and DPOA (durable power of&#xD;
+      attorney) documentation and the patients' code status. It also provides general&#xD;
+      recommendations to initiating goals of care discussions. Jumpstart guides are prepared for&#xD;
+      the intervention group only.&#xD;
+&#xD;
+      Component 3- Delivery of the intervention: For the intervention group, the investigators&#xD;
+      deliver the Jumpstart guide to the primary hospital team (attending and resident physicians&#xD;
+      and advanced practice providers) via secure email. The Jumpstart guides are delivered within&#xD;
+      1 business day of patient randomization. Study staff monitor the care team of the patient,&#xD;
+      and if there are any changes, ensure that any new providers receive the Jumpstart guide as&#xD;
+      well.&#xD;
+&#xD;
+      Comparator: The hospital teams for patients in the control group do not receive Jumpstart&#xD;
+      guides.&#xD;
+&#xD;
+      Outcome Assessment. Outcomes are obtained from the EHR and use, in part, NLP/ML methods. The&#xD;
+      primary outcome is EHR documentation of goals-of-care discussions in the 30 days following&#xD;
+      randomization. Secondary outcomes are measures of intensity of care, including utilization&#xD;
+      metrics (i.e., ICU admissions, ICU and hospital lengths of stay, 30-day hospital&#xD;
+      readmissions), costs of care during hospital admission, and estimated costs of implementing&#xD;
+      the intervention.&#xD;
+&#xD;
+      SPECIFIC AIM 2 (Trial 1): Evaluate implementation of the Jumpstart Guide and identify&#xD;
+      barriers and facilitators to future implementation.&#xD;
+&#xD;
+      Qualitative evaluation:&#xD;
+&#xD;
+      Clinician recruitment: Study staff will recruit clinicians who were involved with the study&#xD;
+      to participate in a short interview after the clinician's study involvement with the enrolled&#xD;
+      patient has ended. Clinician participants will be selected using purposive sampling to ensure&#xD;
+      a diverse group (e.g., age, race/ethnicity, gender, specialty, year of training).&#xD;
+&#xD;
+      Interview: Using an interview guide developed specifically for this project, interviewers&#xD;
+      will assess respondents' experience with the intervention and gather suggestions for ways to&#xD;
+      improve the intervention's content, delivery and implementation, including implementation&#xD;
+      outcomes (e.g., acceptability, fidelity, penetration, maintenance) that will guide future&#xD;
+      dissemination of the intervention.&#xD;
+&#xD;
+      Assessment: Interviews are audio recorded, transcribed, and analyzed using thematic analytic&#xD;
+      methods.&#xD;
+&#xD;
+      Quantitative evaluation:&#xD;
+&#xD;
+      Quantitative evaluation for Specific Aim 2 will be guided by the RE-AIM framework. We will&#xD;
+      evaluate the intervention's: 1) Reach (% of all identified eligible clinicians, patients and&#xD;
+      families that participated in the study); 2) Adoption (% of eligible services that&#xD;
+      participated); and 3) Implementation (the proportion of HTML Jumpstart Guides that were&#xD;
+      opened by a clinician, proportion of patients for whom an HTML JS guide was sent and for whom&#xD;
+      a JS was opened by a clinician).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 23, 2020</start_date>
+  <completion_date type="Anticipated">January 12, 2023</completion_date>
+  <primary_completion_date type="Actual">February 12, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>EHR documentation of Goals of Care discussions</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>The primary outcome is the proportion of patients who have a goals-of-care (GOC) discussion that has been documented in the EHR in the period between randomization and 30 days following randomization The proportion is the number of patients with GOC documentation over the number of patients in each study arm. Documentation of goals-of-care discussions will be evaluated using our NLP/ML methods.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care/ICU use: ICU admissions</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care/ICU use: ICU length of stay</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Secondary outcomes include measures of intensity of care, including utilization metrics: Number of days alive and out of the ICU within 30 days from randomization will be collected from the EHR. Number of ICU days from randomization to hospital discharge or death will also be collected from the EHR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care/Hospital use: Hospital length of stay</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Secondary outcomes include measures of intensity of care, including utilization metrics: Number of days alive and out of the hospital within 30 days from randomization will be collected from the EHR. Number of hospital days from randomization to hospital discharge or death will also be collected from the EHR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care: Hospital Readmissions 30 days</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Secondary outcomes include measures of intensity of care, including utilization metrics: Number of hospital readmissions between randomization and 30 days following randomization will be collected from the EHR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care: ICU Readmissions 30 days</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU readmissions between randomization and 30 days following randomization will be collected from the EHR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intensity of care: Healthcare costs</measure>
+    <time_frame>Assessed for the period between randomization and 30 days following randomization</time_frame>
+    <description>Costs for intervention vs. control will be reported in US dollars and identified from UW Medicine administrative financial databases. Costs will be reported for total hospital costs and disaggregated costs (direct-variable, direct fixed, indirect costs). Direct-variable costs will include supply and drug costs. Direct-fixed costs will include labor, clinical department administration, and overhead fees. Indirect costs represent services provided by cost centers not directly linked to patient care such as information technology and environmental services. Costs for ED (emergency department) days and ICU days will be similarly assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality at 1 year (safety outcome)</measure>
+    <time_frame>1 year after randomization</time_frame>
+    <description>From Washington State death certificates.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Key Implementation Factors (Qualitative)</measure>
+    <time_frame>3 months after randomization</time_frame>
+    <description>Qualitative interviews after individual participation has concluded. Interviews will be guided by the RE-AIM and Consolidated Framework for Implementation Research (CFIR) to explore the factors associated with implementation (e.g., reach, maintenance, feasibility, inner and outer settings, individuals, and processes of care.) Individual constructs within these domains were chosen to fit this specific intervention and context.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Key Implementation Factors (Quantitative)</measure>
+    <time_frame>3 months after completion of Trial</time_frame>
+    <description>Quantitative evaluation is guided by the RE-AIM framework. We will evaluate the following components of RE-AIM:&#xD;
+Reach: assessed as the proportion of eligible participants (clinicians, patients, families) included in study activities/total number identified, eligible participants.&#xD;
+Adoption: assessed as the proportion of eligible services who participated/ total number of eligible services&#xD;
+Implementation: assessed as the proportion of HTML Jumpstarts that were opened / the total number of HTML Jumpstarts delivered, as well as the proportion of patients for whom an HTML JS guide was sent and for whom a JS was opened by a clinician.</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">2514</enrollment>
+  <condition>Dementia</condition>
+  <condition>Chronic Disease</condition>
+  <condition>Neoplasm Metastasis</condition>
+  <condition>Lung Neoplasm</condition>
+  <condition>Pulmonary Disease, Chronic Obstructive</condition>
+  <condition>Heart Failure，Congestive</condition>
+  <condition>Liver Cirrhosis</condition>
+  <condition>Kidney Failure, Chronic</condition>
+  <condition>Lung Diseases, Interstitial</condition>
+  <condition>Peripheral Vascular Disease</condition>
+  <condition>Diabetes With End Organ Injury</condition>
+  <condition>Palliative Care, Patient Care</condition>
+  <condition>Health Care Quality, Access, and Evaluation</condition>
+  <condition>Patient Care</condition>
+  <condition>Inpatients</condition>
+  <condition>Health Communication</condition>
+  <condition>Patient Care Planning</condition>
+  <arm_group>
+    <arm_group_label>EHR-based Clinician Jumpstart</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The EHR-based Jumpstart Guide will be developed by extracting data from the EHR using automated methods with both inpatient and outpatient notes (e.g., progress notes, specialty consult notes, alerts and care plans) preceding the current hospitalization. It will summarize the presence/absence of POLST, advance directives and DPOA documentation and patients' code status.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The clinicians (hospital teams) for patients in the control group will not receive Jumpstart guides. These subjects will receive usual care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>EHR-based Clinician Jumpstart</intervention_name>
+    <description>The Jumpstart Guide is a communication-priming intervention for clinicians that addresses hospitalized patients' goals of care. The intervention's goal is to prompt clinicians to provide standard of care which includes a discussion with patients or their legal surrogate decision-maker about their goals of care. The one-page Jumpstart Guide provides information to the clinician about prior advance care planning documentation and code status derived from the EHR. The Jumpstart Guides includes tips to improve goals-of-care communication.</description>
+    <arm_group_label>EHR-based Clinician Jumpstart</arm_group_label>
+    <other_name>Jumpstart Guide Intervention</other_name>
+    <other_name>Clinician-facing Jumpstart</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Eligibility criteria apply to two subject groups: 1) seriously ill adult patients; 2)&#xD;
+        hospital clinicians.&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  PATIENTS. Eligible patients will be those who are: 1) older than 80 years of age; or&#xD;
+             2) 55 years of age or older who meet criteria for serious illness. Serious illness&#xD;
+             encompasses acute illness (e.g. COVID-19) and chronic illnesses (e.g. those included&#xD;
+             in the Dartmouth Atlas to study end-of-life care: malignant cancer/leukemia, chronic&#xD;
+             pulmonary disease, coronary artery disease, heart failure, chronic liver disease,&#xD;
+             chronic renal disease, dementia, diabetes with end-organ damage, and peripheral&#xD;
+             vascular disease).&#xD;
+&#xD;
+          -  CLINICIANS (Interview). Eligible clinicians will be those who are 18 years of age or&#xD;
+             older, English-speaking, employed at a participating hospital, and have been the&#xD;
+             clinician of record for an enrolled patient in the trial.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Reasons for exclusion for any patient include: restricted status (prisoners or victims&#xD;
+             of violence); legal or risk management concerns (as determined by the attending&#xD;
+             physician or via hospital record designation).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>J. Randall Curtis, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Washington</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Harborview Medical Center</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UW Medical Center - Northwest</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98133</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UW Medical Center - Montlake (UWMC)</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>February 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 24, 2020</study_first_posted>
+  <last_update_submitted>October 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Washington</investigator_affiliation>
+    <investigator_full_name>J. Randall Curtis</investigator_full_name>
+    <investigator_title>Professor, Department of Medicine, SOM: Department of Medicine: Pulmonary, Critical Care and Sleep Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Neoplasm Metastasis</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Liver Cirrhosis</mesh_term>
+    <mesh_term>Lung Diseases</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+    <mesh_term>Lung Diseases, Interstitial</mesh_term>
+    <mesh_term>Renal Insufficiency</mesh_term>
+    <mesh_term>Kidney Failure, Chronic</mesh_term>
+    <mesh_term>Heart Failure</mesh_term>
+    <mesh_term>Vascular Diseases</mesh_term>
+    <mesh_term>Peripheral Vascular Diseases</mesh_term>
+    <mesh_term>Peripheral Arterial Disease</mesh_term>
+    <mesh_term>Chronic Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

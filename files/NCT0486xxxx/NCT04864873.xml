@@ -1,0 +1,404 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04864873</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MNGS001</org_study_id>
+    <nct_id>NCT04864873</nct_id>
+  </id_info>
+  <brief_title>Evaluation of a mNGS Workflow for Infection Diagnosis Using Oxford Nanopore Sequencing.</brief_title>
+  <official_title>An External Evaluation of a Metagenomic Next Generation Sequencing Workflow for Infection Diagnosis Using Oxford Nanopore Sequencing.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Capital and Coast District Health board</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Wellington Southern Community Laboratories</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institute of Environmental Science and Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Capital and Coast District Health board</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a laboratory evaluation of a new testing methodology for microbiological diagnosis,&#xD;
+      whereby participant samples received as part of routine care will be divided between the&#xD;
+      standard diagnostic pathway and this new pathway: metagenomic next generation sequencing&#xD;
+      (mNGS). Results obtained from the mNGS pathway will be compared against the standard&#xD;
+      diagnostic pathway in terms of sensitivity, specificity, accuracy and clinical impact. The&#xD;
+      samples will be identified at Wellington Southern Community Laboratories (WSCL), which&#xD;
+      provides laboratory services for Capital and Coast District Health Board, and forwarded to&#xD;
+      the Institute of Environmental Science and Research (ESR) to undergo mNGS testing.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diagnostic microbiology has traditionally involved culture of organisms to diagnose&#xD;
+      infection, which is time consuming, insensitive for organisms that are difficult to grow, and&#xD;
+      compromised by prior antimicrobial therapy. Molecular diagnostics, predominantly in the form&#xD;
+      of nucleic acid amplification tests (NAAT), e.g. PCR, overcome some of these limitations and&#xD;
+      are now in widespread and increasing use. NAAT-based tests are however limited by only being&#xD;
+      able to detect a small number of pre-specified organisms and can offer limited to no&#xD;
+      antimicrobial susceptibility information.&#xD;
+&#xD;
+      Metagenomic next generation sequencing (mNGS) works by directly sequencing all of the nucleic&#xD;
+      acid in a microbiological sample, thus allowing identification of all microorganisms that are&#xD;
+      present in sufficient quantity, along with the potential to infer antimicrobial&#xD;
+      susceptibility patterns based on the presence or absence of relevant genes. Unlike NAAT, no&#xD;
+      pre-specification of target pathogen(s) is required, so mNGS has the potential to identify&#xD;
+      important pathogens that may have not been tested for otherwise. Host (human) sequences will&#xD;
+      also be present in the sample, so are removed from the analysis either by preventing them&#xD;
+      from being sequenced, or deleting them during the initial analysis steps.&#xD;
+&#xD;
+      mNGS therefore has the ability to overcome the limitations of both culture-based and&#xD;
+      NAAT-based infection diagnosis, with the potential to offer rapid diagnostics with greater&#xD;
+      levels of antimicrobial susceptibility detail, which is less affected by whether the organism&#xD;
+      is viable/culturable. Rapid infection diagnostics has the ability to significantly improve&#xD;
+      patient care, whereby appropriately targeted antimicrobial therapy can be instituted promptly&#xD;
+      (or ceased if e.g. a viral pathogen is identified). This is of particular importance given&#xD;
+      ongoing global increases in antimicrobial resistance. Rapid diagnostics with mNGS may also&#xD;
+      reduce the need for multiple other lines of investigation. There are likely to be certain&#xD;
+      groups of patients where this technology can be particularly targeted for maximal benefit&#xD;
+      either due to the rapidity of the results or the ability to diagnose infections that may not&#xD;
+      have been clinically suspected or detected with standard processes. In the investigators'&#xD;
+      department, several cases have been seen recently where patients have had very poor outcomes&#xD;
+      due to delays in diagnosis, where mNGS would have had the potential to markedly improve their&#xD;
+      outcomes. There are also potential benefits on a population level, such as reducing exposure&#xD;
+      of the population to overly broad-spectrum antibiotics, rapid identification and surveillance&#xD;
+      of communicable diseases that may require a public health response, and expediting&#xD;
+      appropriate management and flow of patients through an already congested hospital system.&#xD;
+      mNGS also has the ability to detect novel pathogens. As an example, the rapid identification&#xD;
+      and dissemination of information relating to SARS-CoV-2 was due to the availability of rapid&#xD;
+      'agnostic' sequencing technologies.&#xD;
+&#xD;
+      Next generation sequencing has typically been too expensive to be used as a front-line&#xD;
+      diagnostic test, with its use confined to larger research-affiliated institutions. However,&#xD;
+      nanopore sequencing (Oxford Nanopore Technologies [ONT]), now offers a relatively inexpensive&#xD;
+      option, with a small physical footprint and an ability to generate a large amount of sequence&#xD;
+      data rapidly, making it a potentially viable option for front-line diagnostic microbiology&#xD;
+      laboratories. As such, there is considerable interest in the use of nanopore sequencing for&#xD;
+      mNGS. A number of publications have reported on its use in clinical diagnostics, and it is&#xD;
+      already in use in a number of healthcare settings overseas&#xD;
+&#xD;
+      . Continuous Quality Improvement (QI) via the evaluation of new diagnostic assays is a&#xD;
+      critically important component of clinical laboratory medicine. In line with this, the&#xD;
+      investigators are interested in evaluating the use of mNGS in their laboratory as a QI&#xD;
+      initiative to enhance the diagnostic service, increase the sensitivity of infection&#xD;
+      diagnostic testing, and compare existing standard diagnostic procedures against mNGS. The&#xD;
+      investigators plan to undertake this in the form of an external evaluation, whereby samples&#xD;
+      from Wellington Southern Community Laboratories (WSCL) would be forwarded to the Institute of&#xD;
+      Environmental Sciences and Research (ESR) for mNGS testing. ESR has existing expertise in&#xD;
+      sequencing and bioinformatics and have already developed mNGS capability, however have not&#xD;
+      comprehensively evaluated it on real patient samples. The initial evaluation would occur at&#xD;
+      ESR, with the aim of producing a workflow that could be usable at WSCL.&#xD;
+&#xD;
+      Sample selection and referral from WSCL to ESR&#xD;
+&#xD;
+        1. Residual samples that have been collected as part of routine patient care and sent to&#xD;
+           WSCL microbiology laboratory for the purposes of diagnosing infection will be used. It&#xD;
+           is standard accepted practise in the laboratory for the microbiologist to arrange&#xD;
+           additional (unrequested) testing on certain clinical samples to optimise the diagnostic&#xD;
+           process, including referral of samples to an external laboratory such as ESR. This&#xD;
+           evaluation would follow a similar procedure.&#xD;
+&#xD;
+        2. Samples will be identified at WSCL by the clinical microbiologist(s) involved in the&#xD;
+           project. A variety of sample types will be evaluated. The specific sample types that&#xD;
+           will be assessed in the evaluation will vary during the course of the evaluation, based&#xD;
+           on how well the mNGS workflow functions on different sample types. Initially samples&#xD;
+           from normally sterile sites and those with potentially the greatest positive impact on&#xD;
+           patient care will be chosen (e.g. cerebrospinal fluid, joint fluid, pleural fluid,&#xD;
+           blood) followed by samples from non-sterile sites (e.g. sputum, urine, wound fluids) if&#xD;
+           the initial results are encouraging.&#xD;
+&#xD;
+        3. WSCL processes microbiology samples for the entire Capital &amp; Coast and Hutt Valley DHB&#xD;
+           regions, so samples would be sourced from patients in these regions. The majority of&#xD;
+           samples will be from hospitalised patients, rather than community-based. Samples from a&#xD;
+           variety of different clinical specialties will be evaluated, including augmented care&#xD;
+           units e.g. both adult and neonatal intensive care units, and general ward patients.&#xD;
+&#xD;
+      Sample size 1. A specific sample size has not been calculated for this evaluation, as the&#xD;
+      total number of samples tested will be contingent upon how much refinement of the mNGS&#xD;
+      testing process is required, and the evaluation is likely to need to be an ongoing process.&#xD;
+      The investigators have set a maximum sample size at 400.&#xD;
+&#xD;
+      mNGS methodology&#xD;
+&#xD;
+        1. Clinical samples will be processed to enrich for bacterial cells using solid phase&#xD;
+           reversible immobilisation (SPRI) magnetic beads functionalised with poly-lysine. Host&#xD;
+           (human) DNA will be depleted using differential lysis and nuclease treatment.&#xD;
+&#xD;
+        2. Total nucleic acid will be extracted from the processed samples using commercially&#xD;
+           available DNA extraction kits.&#xD;
+&#xD;
+        3. ONT rapid sequencing kit will be used to sequence the resulting DNA.&#xD;
+&#xD;
+        4. To identify potential pathogen species in the sample, all non-human sequences generated&#xD;
+           will be will taxonomically classified to the species level using a fast minimiser-based&#xD;
+           approximate mapping algorithm against customised pathogen databases.&#xD;
+&#xD;
+      Avoidance of host (human) genome sequencing Robust processes involving several different&#xD;
+      published strategies will be put in place to avoid the possibility of inadvertent human&#xD;
+      genome sequencing.&#xD;
+&#xD;
+        1. Reducing host DNA in the sample:&#xD;
+&#xD;
+           a. Bacterial cell enrichment and chemical depletion of host DNA during the initial&#xD;
+           sample processing stage of the protocol will be the first line in avoiding sequencing&#xD;
+           human DNA by reducing the amount of host DNA in the sample.&#xD;
+&#xD;
+        2. Ejecting host DNA from the sequencer:&#xD;
+&#xD;
+           a. The second filter to reduce host sequencing will the use of the ONT 'Read Until' API.&#xD;
+           This process automatically prevents prespecified DNA sequences from entering the&#xD;
+           detector by reversing the molecule's direction of travel through the detector within&#xD;
+           less than one second, preventing any full-length host molecules from being sequenced.&#xD;
+           Given the raw error rate of the sequence data, any short host reads that pass this&#xD;
+           filter carry insufficient information to be analysed.&#xD;
+&#xD;
+        3. Deleting host sequences:&#xD;
+&#xD;
+           a. The final step to avoid exposing host sequence to analysis is automatically and&#xD;
+           permanently deleting any residual human sequence data as it is produced, prior to the&#xD;
+           data stream entering the analysis step.&#xD;
+&#xD;
+        4. Mapping sequences only against microbial databases:&#xD;
+&#xD;
+             1. In the very unlikely event that host sequence passes the above steps, a further&#xD;
+                safety step is that any sequences will only be mapped against microbial databases.&#xD;
+                This means that any human sequences would not create a match, so would not form&#xD;
+                part of the analysis.&#xD;
+&#xD;
+      Reporting of results&#xD;
+&#xD;
+        1. Results will be reported by ESR directly to WSCL via the same secure pathways used for&#xD;
+           other reference testing that ESR performs for WSCL.&#xD;
+&#xD;
+        2. Results will be reviewed by the clinical microbiologist(s) involved in the project so&#xD;
+           that an assessment of their clinical relevance can be made prior to results being made&#xD;
+           available to clinical teams.&#xD;
+&#xD;
+        3. Results will be entered onto the WSCL laboratory information system so that they can be&#xD;
+           reported to the clinical team. A comment will be attached to the text report explaining&#xD;
+           that the results have been generated using mNGS, which is still being evaluated, and the&#xD;
+           microbiologist will discuss directly with the clinical team regarding the results if&#xD;
+           there is any potential for uncertainty surrounding the result.&#xD;
+&#xD;
+      Evaluation of results&#xD;
+&#xD;
+        1. The results of the parallel mNGS testing will be compared over time to the results&#xD;
+           produced by routine laboratory testing on the same sample, to assess the sensitivity,&#xD;
+           specificity, and level of agreement between methods. Given that mNGS is potentially more&#xD;
+           sensitive than routine methods, mNGS results will also be assessed by the clinical&#xD;
+           microbiologist(s) involved in the project against other routine diagnostic (orthogonal)&#xD;
+           testing, which could include other laboratory tests, radiology, and the overall clinical&#xD;
+           assessment of the patient.&#xD;
+&#xD;
+        2. The clinical impact of the mNGS testing will also be assessed and recorded: for each&#xD;
+           mNGS result the clinical microbiologist(s) will make an assessment as to the clinical&#xD;
+           impact the mNGS result had on the overall assessment and management of the patient.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2021</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Each patient sample will be divided between standard diagnostic pathways and the mNGS pathway, so each patient will have testing provided by both techniques for direct comparison.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of mNGS compared to standard pathway</measure>
+    <time_frame>Within 1 week of sampling.</time_frame>
+    <description>Proportion of samples where mNGS detects a pathogenic micro-organism that has been identified by the standard diagnostic pathway.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of mNGS compared to standard pathway</measure>
+    <time_frame>Within 1 week of sampling.</time_frame>
+    <description>Proportion of samples where mNGS does not detect a micro-organism where the standard diagnostic pathway has also not detected a micro-organism.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Level of agreement between mNGS and standard pathway</measure>
+    <time_frame>Within 1 week of sampling.</time_frame>
+    <description>Proportion of samples where the two methods produce the same result.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Changes to patient management in response to mNGS result</measure>
+    <time_frame>Within 1 month of sampling.</time_frame>
+    <description>The microbiologists involved in the project will assess whether there was a change in treatment or other clinical management in response to the mNGS result. This would include binary outcomes such as a change in antibiotic treatment or whether further investigations (e.g. laboratory or diagnostic radiology) were undertaken.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Bacterial Infections</condition>
+  <arm_group>
+    <arm_group_label>Standard diagnostic pathway</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Part of each patient sample will be tested using current standard microbiological techniques.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>mNGS pathway</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Part of each sample will be testing using mNGS methodology, which will be compared to the standard diagnostic pathway.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Metagenomic next generation sequencing using Oxford Nanopore</intervention_name>
+    <description>See previous.</description>
+    <arm_group_label>mNGS pathway</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Standard microbiological diagnostic pathway</intervention_name>
+    <description>See previous.</description>
+    <arm_group_label>Standard diagnostic pathway</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All samples received by the WSCL microbiology laboratory for testing for the purposes&#xD;
+             of diagnosing infection will be eligible.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Use of residual sample for mNGS testing may leave too little remaining sample and&#xD;
+             compromise standard diagnostic testing.&#xD;
+&#xD;
+          -  Patients who have requested that their residual samples be returned to them.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Maxim G Bloomfield, MBChB</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Wellington Southern Community Laboratories, Capital and Coast District Health Board</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Maxim G Bloomfield, MBChB</last_name>
+    <phone>+64272089584</phone>
+    <email>maxim.bloomfield@ccdhb.org.nz</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Matt Storey</last_name>
+    <phone>+64210500116</phone>
+    <email>matt.storey@esr.cri.nz</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Wellington Southern Community Laboratories</name>
+      <address>
+        <city>Wellington</city>
+        <zip>6021</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Max Bloomfield</last_name>
+      <phone>0220625074</phone>
+      <email>maxim.bloomfield@ccdhb.org.nz</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>New Zealand</country>
+  </location_countries>
+  <reference>
+    <citation>Ivy MI, Thoendel MJ, Jeraldo PR, Greenwood-Quaintance KE, Hanssen AD, Abdel MP, Chia N, Yao JZ, Tande AJ, Mandrekar JN, Patel R. Direct Detection and Identification of Prosthetic Joint Infection Pathogens in Synovial Fluid by Metagenomic Shotgun Sequencing. J Clin Microbiol. 2018 Aug 27;56(9). pii: e00402-18. doi: 10.1128/JCM.00402-18. Print 2018 Sep.</citation>
+    <PMID>29848568</PMID>
+  </reference>
+  <reference>
+    <citation>Sanderson ND, Street TL, Foster D, Swann J, Atkins BL, Brent AJ, McNally MA, Oakley S, Taylor A, Peto TEA, Crook DW, Eyre DW. Real-time analysis of nanopore-based metagenomic sequencing from infected orthopaedic devices. BMC Genomics. 2018 Sep 27;19(1):714. doi: 10.1186/s12864-018-5094-y.</citation>
+    <PMID>30261842</PMID>
+  </reference>
+  <reference>
+    <citation>Gu W, Deng X, Lee M, Sucu YD, Arevalo S, Stryke D, Federman S, Gopez A, Reyes K, Zorn K, Sample H, Yu G, Ishpuniani G, Briggs B, Chow ED, Berger A, Wilson MR, Wang C, Hsu E, Miller S, DeRisi JL, Chiu CY. Rapid pathogen detection by metagenomic next-generation sequencing of infected body fluids. Nat Med. 2021 Jan;27(1):115-124. doi: 10.1038/s41591-020-1105-z. Epub 2020 Nov 9.</citation>
+    <PMID>33169017</PMID>
+  </reference>
+  <reference>
+    <citation>Street TL, Sanderson ND, Atkins BL, Brent AJ, Cole K, Foster D, McNally MA, Oakley S, Peto L, Taylor A, Peto TEA, Crook DW, Eyre DW. Molecular Diagnosis of Orthopedic-Device-Related Infection Directly from Sonication Fluid by Metagenomic Sequencing. J Clin Microbiol. 2017 Aug;55(8):2334-2347. doi: 10.1128/JCM.00462-17. Epub 2017 May 10.</citation>
+    <PMID>28490492</PMID>
+  </reference>
+  <reference>
+    <citation>Thoendel MJ, Jeraldo PR, Greenwood-Quaintance KE, Yao JZ, Chia N, Hanssen AD, Abdel MP, Patel R. Identification of Prosthetic Joint Infection Pathogens Using a Shotgun Metagenomics Approach. Clin Infect Dis. 2018 Oct 15;67(9):1333-1338. doi: 10.1093/cid/ciy303.</citation>
+    <PMID>29648630</PMID>
+  </reference>
+  <reference>
+    <citation>Langelier C, Kalantar KL, Moazed F, Wilson MR, Crawford ED, Deiss T, Belzer A, Bolourchi S, Caldera S, Fung M, Jauregui A, Malcolm K, Lyden A, Khan L, Vessel K, Quan J, Zinter M, Chiu CY, Chow ED, Wilson J, Miller S, Matthay MA, Pollard KS, Christenson S, Calfee CS, DeRisi JL. Integrating host response and unbiased microbe detection for lower respiratory tract infection diagnosis in critically ill adults. Proc Natl Acad Sci U S A. 2018 Dec 26;115(52):E12353-E12362. doi: 10.1073/pnas.1809700115. Epub 2018 Nov 27.</citation>
+    <PMID>30482864</PMID>
+  </reference>
+  <reference>
+    <citation>Sanderson ND, Swann J, Barker L, Kavanagh J, Hoosdally S, Crook D; GonFast Investigators Group, Street TL, Eyre DW. High precision Neisseria gonorrhoeae variant and antimicrobial resistance calling from metagenomic Nanopore sequencing. Genome Res. 2020 Sep;30(9):1354-1363. doi: 10.1101/gr.262865.120. Epub 2020 Sep 1.</citation>
+    <PMID>32873606</PMID>
+  </reference>
+  <reference>
+    <citation>Rodino KG, Toledano M, Norgan AP, Pritt BS, Binnicker MJ, Yao JD, Aksamit AJ, Patel R. Retrospective Review of Clinical Utility of Shotgun Metagenomic Sequencing Testing of Cerebrospinal Fluid from a U.S. Tertiary Care Medical Center. J Clin Microbiol. 2020 Nov 18;58(12). pii: e01729-20. doi: 10.1128/JCM.01729-20. Print 2020 Nov 18.</citation>
+    <PMID>32938739</PMID>
+  </reference>
+  <reference>
+    <citation>Wu X, Lai T, Jiang J, Ma Y, Tao G, Liu F, Li N. An on-site bacterial detection strategy based on broad-spectrum antibacterial ε-polylysine functionalized magnetic nanoparticles combined with a portable fluorometer. Mikrochim Acta. 2019 Jul 10;186(8):526. doi: 10.1007/s00604-019-3632-1.</citation>
+    <PMID>31292779</PMID>
+  </reference>
+  <reference>
+    <citation>Hasan MR, Rawat A, Tang P, Jithesh PV, Thomas E, Tan R, Tilley P. Depletion of Human DNA in Spiked Clinical Specimens for Improvement of Sensitivity of Pathogen Detection by Next-Generation Sequencing. J Clin Microbiol. 2016 Apr;54(4):919-27. doi: 10.1128/JCM.03050-15. Epub 2016 Jan 13.</citation>
+    <PMID>26763966</PMID>
+  </reference>
+  <reference>
+    <citation>Charalampous T, Kay GL, Richardson H, Aydin A, Baldan R, Jeanes C, Rae D, Grundy S, Turner DJ, Wain J, Leggett RM, Livermore DM, O'Grady J. Nanopore metagenomics enables rapid clinical diagnosis of bacterial lower respiratory infection. Nat Biotechnol. 2019 Jul;37(7):783-792. doi: 10.1038/s41587-019-0156-5. Epub 2019 Jun 24.</citation>
+    <PMID>31235920</PMID>
+  </reference>
+  <reference>
+    <citation>Ji XC, Zhou LF, Li CY, Shi YJ, Wu ML, Zhang Y, Fei XF, Zhao G. Reduction of Human DNA Contamination in Clinical Cerebrospinal Fluid Specimens Improves the Sensitivity of Metagenomic Next-Generation Sequencing. J Mol Neurosci. 2020 May;70(5):659-666. doi: 10.1007/s12031-019-01472-z. Epub 2020 Jan 31.</citation>
+    <PMID>32002752</PMID>
+  </reference>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>April 21, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 29, 2021</study_first_posted>
+  <last_update_submitted>July 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Capital and Coast District Health board</investigator_affiliation>
+    <investigator_full_name>Maxim Bloomfield</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Microbiology</keyword>
+  <keyword>Diagnostics</keyword>
+  <keyword>Metagenomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Bacterial Infections</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No plans at this stage.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

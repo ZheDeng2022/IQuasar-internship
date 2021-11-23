@@ -1,0 +1,252 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04720625</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H00018991</org_study_id>
+    <secondary_id>1R01CA240551-01A1</secondary_id>
+    <nct_id>NCT04720625</nct_id>
+  </id_info>
+  <brief_title>Adapt2Quit - An Adaptive Motivational System for Socio-Economically Disadvantaged Smokers</brief_title>
+  <acronym>A2Q</acronym>
+  <official_title>Adapt2Quit - A Machine-Learning, Adaptive Motivational System: RCT for Socio-Economically Disadvantaged Smokers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Massachusetts, Worcester</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institutes of Health (NIH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Johns Hopkins University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Baystate Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Massachusetts, Worcester</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this research is to test the Adapt2Quit computer program that uses participant&#xD;
+      input (message rating on how much the text motivational message might influence one to quit&#xD;
+      smoking) to select and text motivational messages that are more likely to help a user stop&#xD;
+      smoking. This Adapt2Quit system will be compared with a quitline facilitation-only control&#xD;
+      (text messages will be sent to facilitate quitline use). The primary research hypothesis is&#xD;
+      that the Adapt2Quit recommender-selected messages will be more effective than a texting&#xD;
+      quitline facilitation-only control for smoking cessation among socioeconomically&#xD;
+      disadvantaged (SED) smokers.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 28, 2021</start_date>
+  <completion_date type="Anticipated">March 2025</completion_date>
+  <primary_completion_date type="Anticipated">October 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Triple (Participant, Investigator, Outcomes Assessor)</masking>
+    <masking_description>After completing the screening, informed consent, and baseline data collection, study staff will enter the participant identification number and participant mobile phone number from the survey into an online system, and the system will assign allocation based on the randomization table. Using this technique, both smokers and the staff will be blinded to allocation during the initial session. Then, the research staff will be un-blinded to provide personalized training for intervention and control (note that staff who complete follow-up will be different and blinded to group assignment).</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Self-Reported Participant Tobacco Cessation Rate (quit rate)</measure>
+    <time_frame>6-months post-randomization</time_frame>
+    <description>Self-reported 6-month point prevalence cessation (yes/no) will be assessed at 6-month follow-up.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Biochemical Carbon Monoxide (CO) Verification of Tobacco Cessation</measure>
+    <time_frame>6-months post-randomization</time_frame>
+    <description>Biochemical carbon monoxide (CO) verification testing will also be done for a small subset of participants, where 0-6 parts per million (PPM) measures a non-smoker and 7+ PPM indicates a current smoker.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to First Quit Attempt</measure>
+    <time_frame>From randomization to 6-months post-randomization</time_frame>
+    <description>Self-reported date of first quit attempt since starting the study will be assessed through text message response from participant during the 6-month intervention period.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">750</enrollment>
+  <condition>Tobacco Smoking</condition>
+  <arm_group>
+    <arm_group_label>Adapt2Quit</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>These participants will receive Adapt2Quit motivational messaging and quitline facilitation messaging for 6 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>These participants will receive quitline facilitation-only messaging for 6 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Adapt2Quit</intervention_name>
+    <description>Motivational text messages and quitline facilitation text messages will be sent to participants; these participants will receive Adapt2Quit (experimental) messages as well as quitline facilitation messages.</description>
+    <arm_group_label>Adapt2Quit</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Control</intervention_name>
+    <description>Quitline facilitation text messages will be sent to participants; these participants will receive quitline facilitation-only messages.</description>
+    <arm_group_label>Control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Current smoker&#xD;
+&#xD;
+          -  Socioeconomically disadvantaged (SED) (using the following criteria: unemployed or&#xD;
+             underemployed, low income as defined by the federal poverty level guidelines,&#xD;
+             uninsured or underinsured, and/or have less than a high school education)&#xD;
+&#xD;
+          -  English-speaking&#xD;
+&#xD;
+          -  Active in care (at least two clinical visits in the last year)&#xD;
+&#xD;
+          -  Have a texting-enabled cell phone&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Not a current smoker&#xD;
+&#xD;
+          -  Adults unable to consent&#xD;
+&#xD;
+          -  Individuals who are not yet adults (infants, children, teenagers)&#xD;
+&#xD;
+          -  Prisoners&#xD;
+&#xD;
+          -  Pregnant women&#xD;
+&#xD;
+          -  Pilot study participants&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rajani Sadasivam, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associate Professor</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lisa M Lombardini, MS, RD, LDN</last_name>
+    <phone>774-275-0890</phone>
+    <email>lisa.lombardini@umassmed.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ariana Kamberi, MBA</last_name>
+    <phone>508-856-8945</phone>
+    <email>Ariana.Kamberi@umassmed.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Johns Hopkins University</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21287</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>GK Gauvey-Kern, MS</last_name>
+      <phone>774-275-0890</phone>
+      <email>mgauvey1@jhmi.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Daniel E Ford, MD, MPH</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Health</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01199</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Julianna Eve, MS</last_name>
+      <phone>413-794-6610</phone>
+      <email>Julianna.Eve@baystatehealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Peter Lindenauer, MD, MSc</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Massachusetts Medical School</name>
+      <address>
+        <city>Worcester</city>
+        <state>Massachusetts</state>
+        <zip>01655</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa M Lombardini, MS, RD, LDN</last_name>
+      <phone>774-275-0890</phone>
+      <email>lisa.lombardini@Umassmed.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Ariana Kamberi</last_name>
+      <phone>508-856-8945</phone>
+      <email>ariana.kamberi@umassmed.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Rajani Sadasivam, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>January 19, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 22, 2021</study_first_posted>
+  <last_update_submitted>June 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Massachusetts, Worcester</investigator_affiliation>
+    <investigator_full_name>Rajani Sadasivam</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

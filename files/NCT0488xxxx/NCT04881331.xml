@@ -1,0 +1,149 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04881331</url>
+  </required_header>
+  <id_info>
+    <org_study_id>R17096</org_study_id>
+    <nct_id>NCT04881331</nct_id>
+  </id_info>
+  <brief_title>Intraoperative Tissue Identification by Analyzing Surgical Smoke</brief_title>
+  <acronym>SurgiNose</acronym>
+  <official_title>Intraoperative Tissue Identification by Analyzing Surgical Smoke</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tampere University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tampere University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      SurgiNose is a single-center, non-randomized feasibility study aiming to evaluate the&#xD;
+      feasibility of intraoperative tissue analysis using differential mobility of surgical smoke&#xD;
+      generated with electrocautery.&#xD;
+&#xD;
+      Patients receive standard-of-care breast conserving surgery.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The increasing number of breast cancer survivors and their longevity has emphasized the&#xD;
+      importance of aesthetic and functional outcomes of cancer surgery and increased pressure for&#xD;
+      the surgical treatment to achieve negative margins with minimal removal of healthy tissue.&#xD;
+&#xD;
+      Surgical smoke has been successfully utilized in tissue identification in laboratory&#xD;
+      conditions by using a system based on differential mobility spectrometry (DMS) that could&#xD;
+      provide a seamless margin assessment method.&#xD;
+&#xD;
+      In this study, a DMS-based tissue smoke analysis system will be used intraoperatively in 20&#xD;
+      breast cancer surgeries to assess its feasibility in tissue identification. The effect of the&#xD;
+      system on complications and duration of surgeries is also studied. The surgeries are recorded&#xD;
+      with a head-worn camera system for visual annotation of the operated tissue types to enable&#xD;
+      classification of the measurement files by supervised learning.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 9, 2019</start_date>
+  <completion_date type="Actual">December 26, 2019</completion_date>
+  <primary_completion_date type="Actual">December 26, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Discrimination rate of healthy tissue types encountered during surgery</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>The device records a molecular spectrum of the surgical smoke every time the device is activated. The tissues are annotated using head-mounted camera that records video footage from the viewpoint of the surgeon.&#xD;
+The primary outcome of the the study is the ability of the device to correctly classify healthy tissues that are encountered during breast surgery including fat tissue, glandular tissue, connective tissue, muscle tissue, dermis. The accuracy is cross-validated using leave-one-out cross-validation and is reported as correct classification rate (CCR) %.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Surgical time</measure>
+    <time_frame>During the procedure</time_frame>
+    <description>The duration of surgical procedures when the device is used. Institutional average procedure duration is used for comparison.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Complications</measure>
+    <time_frame>30 days after surgery.</time_frame>
+    <description>Complications of surgery in the follow-up period of 30 days.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Analysis of electrosurgical smoke.</intervention_name>
+    <description>Patients undergo standard of care surgical removal of the malignant breast tumor. Electrosurgical knife is used to cut tissues according to standard practice. Fraction of the surgical smoke is captured for analysis and video record of the point of view of the surgeon is captured with a head-mounted camera.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing breast conserving surgery for histologically confirmed malignancy of&#xD;
+        the breast. There is no upper limit for participation.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histologically confirmed primary malignancy of the breast&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        -&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Biological female</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>TAYS Hatanpää</name>
+      <address>
+        <city>Tampere</city>
+        <state>Pirkanmaa</state>
+        <zip>33900</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Finland</country>
+  </location_countries>
+  <reference>
+    <citation>Sutinen M, Kontunen A, Karjalainen M, Kiiski J, Hannus J, Tolonen T, Roine A, Oksala N. Identification of breast tumors from diathermy smoke by differential ion mobility spectrometry. Eur J Surg Oncol. 2019 Feb;45(2):141-146. doi: 10.1016/j.ejso.2018.09.005. Epub 2018 Oct 15.</citation>
+    <PMID>30366874</PMID>
+  </reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 7, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 10, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 11, 2021</study_first_posted>
+  <last_update_submitted>May 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Tampere University Hospital</investigator_affiliation>
+    <investigator_full_name>Niku Oksala</investigator_full_name>
+    <investigator_title>Professor of Surgery, Chief physician</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

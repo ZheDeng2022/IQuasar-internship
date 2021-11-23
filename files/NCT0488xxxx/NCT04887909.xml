@@ -1,0 +1,139 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04887909</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-0496</org_study_id>
+    <nct_id>NCT04887909</nct_id>
+  </id_info>
+  <brief_title>Prediction of Postoperative Visual Acuity in Cataract Patients Using a Macular Optical Coherence Tomography-based Deep Learning Method</brief_title>
+  <official_title>Prediction of Postoperative Visual Acuity in Cataract Patients Using a Macular Optical Coherence Tomography-based Deep Learning Method</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to collect the macular OCT images and preoperative and&#xD;
+      postoperative visual acuity of cataract patients who had been operated in the eye center of&#xD;
+      the Second Affiliated Hospital of Zhejiang University Medical College, and to train a model&#xD;
+      that can relatively accurately predict the postoperative visual acuity of patients by deep&#xD;
+      learing.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 20, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2026</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2026</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Uncorrected distance visual acuity</measure>
+    <time_frame>1 month postoperatively</time_frame>
+    <description>The UCVA was measured by the same optometrist at each visit</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Best Corrected Visual Acuity</measure>
+    <time_frame>1 month postoperatively</time_frame>
+    <description>The BCVA was measured by the same optometrist at each visit</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Macular optical coherence tomography</measure>
+    <time_frame>1 month postoperatively</time_frame>
+    <description>Macular oct was measured by the same doctor at each visit</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1100</enrollment>
+  <condition>Data Collecting</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Cataract surgery was performed in ophthalmic hospital affiliated to Medical College of&#xD;
+        Zhejiang University&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Senile cataract patients, with or without macular disease, the impact of cataract on&#xD;
+             vision has affected the daily life of patients.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Glasses can obviously improve eyesight&#xD;
+&#xD;
+          -  In addition to macular disease, combined with other eye diseases that seriously affect&#xD;
+             vision, resulting in no significant improvement in postoperative vision&#xD;
+&#xD;
+          -  Complicated cataract surgery due to trauma and other reasons&#xD;
+&#xD;
+          -  Combined with other eye diseases not suitable for intraocular lens implantation&#xD;
+&#xD;
+          -  Patients with systemic diseases who cannot tolerate surgery&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Wen Xu</last_name>
+    <phone>+86-13858185223</phone>
+    <email>xuwen2003@zju.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Second Affiliated Hospital, Zhejiang University School of Medicine</name>
+      <address>
+        <city>Hangzhou</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Wen Xu</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 13, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 14, 2021</study_first_posted>
+  <last_update_submitted>May 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>deep learning</keyword>
+  <keyword>cataract surgery</keyword>
+  <keyword>acuity vision</keyword>
+  <keyword>macular</keyword>
+  <keyword>optical coherence tomography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cataract</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

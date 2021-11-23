@@ -1,0 +1,456 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04764435</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HS-18-00530-1</org_study_id>
+    <secondary_id>K08DK118213</secondary_id>
+    <nct_id>NCT04764435</nct_id>
+  </id_info>
+  <brief_title>The Effect of Physician Ownership on Dialysis Outcomes</brief_title>
+  <official_title>The Effect of Physician Ownership on Dialysis Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Many dialysis facilities have financial relationships with nephrologists, including joint&#xD;
+      venture agreements, where the nephrologist owns a minority share of the dialysis facility.&#xD;
+      Such agreements could present a conflict of interest with respect to patient care. This study&#xD;
+      will investigate whether these joint venture agreements are associated with differences in&#xD;
+      the quality of care provided by dialysis facilities.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators will use the United States Renal Data System (USRDS), a registry of all&#xD;
+      patients on dialysis in the US irrespective of payer. The dataset includes patient&#xD;
+      characteristics (biologic and sociodemographic) within 45 days of initiating dialysis for all&#xD;
+      patients with ESKD irrespective of insurance coverage, death data for all patients with ESKD&#xD;
+      irrespective of insurance, dialysis facility characteristics, which are updated annually,&#xD;
+      longitudinal treatment data submitted by the end-stage renal disease (ESRD) networks for all&#xD;
+      patients irrespective of insurance, and CROWNWeb clinical data: monthly treatment data (e.g.,&#xD;
+      Kt/V, treatment time, serum hemoglobin, vascular access) submitted by dialysis facilities for&#xD;
+      all patients irrespective of insurance. The registry is linked to Fee-for-service Medicare&#xD;
+      claims for all patients with this payer. All data have already been collected (i.e., this is&#xD;
+      a retrospective study) and deidentified by a data distributor.&#xD;
+&#xD;
+      The investigators have also obtained a cross-sectional dataset of dialysis facilities and&#xD;
+      physician owners in 2017 from the Centers for Medicare &amp; Medicaid Services (CMS) through a&#xD;
+      Freedom of Information Act request.&#xD;
+&#xD;
+      In this study, the investigators will link the USRDS to this cross-sectional dataset. The&#xD;
+      investigators will also link the data to publicly available data from Dialysis Facility&#xD;
+      Compare (which contains quality performance of each dialysis facility, published by the&#xD;
+      government on a quarterly basis) and Census data (which contains geographic sociodemographic&#xD;
+      characteristics).&#xD;
+&#xD;
+      From this data linkage, the investigators will study differences between facilities that are&#xD;
+      physician owned and those that are not physician owned. The investigators will study outcomes&#xD;
+      both at the facility level and the patient level.&#xD;
+&#xD;
+      All models will have an alpha of 5% and will have 2-sided statistical tests.&#xD;
+&#xD;
+      For facility level outcomes:&#xD;
+&#xD;
+      The investigators will construct a facility level dataset and compare physician-owned&#xD;
+      facilities to non-physician owned facilities adjusting for facility characteristics and&#xD;
+      regional (zipcode level) sociodemographic characteristics. The investigators will also test&#xD;
+      the effect of incorporating patient characteristics into the model. For patient&#xD;
+      characteristics, the investigators will take the average for each facility's population&#xD;
+      (e.g., average age, % of patients male, etc.). The investigators will use ordinary least&#xD;
+      squares for continuous outcomes and logistic regression for binary outcomes. The&#xD;
+      investigators will use robust standard errors.&#xD;
+&#xD;
+      For patient level outcomes:&#xD;
+&#xD;
+      The investigators will construct a patient-month panel dataset and compare patients dialyzing&#xD;
+      at physician-owned facilities to those dialyzing at non-physician owned facilities. The&#xD;
+      investigators will adjust for patient, facility, and zipcode level sociodemographic&#xD;
+      characteristics. Since all outcomes are binary, the investigators will use logistic&#xD;
+      regression for all models. The investigators' primary analysis will be logistic regression,&#xD;
+      adjusting for patient, facility, zipcode characteristics, with patient-level fixed effects&#xD;
+      and non-parametric bootstrap standard errors. In order, The investigators will explore the&#xD;
+      sensitivity of results to the following:&#xD;
+&#xD;
+        -  logistic regression with all adjusters, patient-level fixed effects, and robust standard&#xD;
+           errors&#xD;
+&#xD;
+        -  ordinary least squares with all adjusters, patient-level fixed effects, cluster-robust&#xD;
+           standard errors at the facility level&#xD;
+&#xD;
+        -  ordinary least squares with all adjusters, patient-level fixed effects, robust standard&#xD;
+           errors&#xD;
+&#xD;
+      The investigators also pre-specify the adjusters below:&#xD;
+&#xD;
+      Patient characteristics (comorbidities will be obtained using the Chronic Conditions&#xD;
+      Warehouse software on a 12 month lookback of Medicare fee-for-service claims)&#xD;
+&#xD;
+        -  Age&#xD;
+&#xD;
+        -  Sex&#xD;
+&#xD;
+        -  Race&#xD;
+&#xD;
+        -  Ethnicity&#xD;
+&#xD;
+        -  Prior transplant&#xD;
+&#xD;
+        -  Incident patient (first 120 days of dialysis)&#xD;
+&#xD;
+        -  Years with ESRD&#xD;
+&#xD;
+        -  Dual Eligibility&#xD;
+&#xD;
+        -  Hypertension&#xD;
+&#xD;
+        -  Alzheimers&#xD;
+&#xD;
+        -  Atrial fibrilation&#xD;
+&#xD;
+        -  Prior myocardial infarction&#xD;
+&#xD;
+        -  Asthma&#xD;
+&#xD;
+        -  Breast Cancer&#xD;
+&#xD;
+        -  Cataract&#xD;
+&#xD;
+        -  Chronic obstructive pulmonary disease&#xD;
+&#xD;
+        -  Colorectal Cancer&#xD;
+&#xD;
+        -  Depression&#xD;
+&#xD;
+        -  Diabetes&#xD;
+&#xD;
+        -  Endometrial Cancer&#xD;
+&#xD;
+        -  Glaucoma&#xD;
+&#xD;
+        -  Congestive Heart Failure&#xD;
+&#xD;
+        -  Hip Fracture&#xD;
+&#xD;
+        -  Hyperlipidemia&#xD;
+&#xD;
+        -  Hypertension&#xD;
+&#xD;
+        -  Ischemic heart disease&#xD;
+&#xD;
+        -  Lung cancer&#xD;
+&#xD;
+        -  Osteoporosis&#xD;
+&#xD;
+        -  Prostate Cancer&#xD;
+&#xD;
+        -  Rheumatoid Arthritis / Osteoarthritis&#xD;
+&#xD;
+        -  Prior stroke / transient ischemic attack&#xD;
+&#xD;
+        -  Benign prostatic hyperplasia&#xD;
+&#xD;
+      Facility characteristics&#xD;
+&#xD;
+        -  For-profit status&#xD;
+&#xD;
+        -  Chain owned&#xD;
+&#xD;
+        -  Number of patients at facility&#xD;
+&#xD;
+        -  Patient:staff ratio&#xD;
+&#xD;
+        -  ESRD Network&#xD;
+&#xD;
+      Regional (zipcode level) sociodemographic characteristics&#xD;
+&#xD;
+        -  Median Income&#xD;
+&#xD;
+        -  % of zipcode with high school degree&#xD;
+&#xD;
+        -  % of zipcode below poverty line&#xD;
+&#xD;
+      We pre-specify a subgroup analysis by whether the dialysis facility is owned by a large&#xD;
+      dialysis organization (i.e., Davita, Fresenius).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2017</start_date>
+  <completion_date type="Actual">December 31, 2017</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Facility level outcome: Facility 5-star rating</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Whether a facility was a &quot;high-quality&quot; facility using the Dialysis Facility Compare aggregate score in 2017. The variable will be dichotomized into:&#xD;
+High-quality: 4-5 stars&#xD;
+Low-quality: 1-3 stars</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with long-term catheter</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient used a catheter for 3 months or longer in 2017</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with hemoglobin &lt; 10 g/dL</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a hemoglobin &lt; 10</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with hemoglobin &gt; 12 g/dL</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a hemoglobin &gt; 12</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with serum calcium &gt; 10.2 mg/dL</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a serum calcium &gt; 10.2</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with serum phosphate &gt; 7 mg/dL</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a serum phosphate &gt; 7</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with Kt/V &gt;= 1.2 (for hemodialysis)</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a Kt/V &gt;= 1.2 (hemodialysis only)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient-months with Kt/V &gt;= 1.7 (for peritoneal dialysis)</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient had a Kt/V &gt;= 1.7 (peritoneal dialysis only)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: standardized mortality rate</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Facility's standardized mortality rate according to Dialysis Facility Compare</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: standardized hospitalization rate</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Facility's standardized hospitalization rate according to Dialysis Facility Compare</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: standardized 30-day readmission rate</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Facility's standardized 30-day readmission rate according to Dialysis Facility Compare</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: standardized infection ratio</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Facility's standardized infection ratio according to Dialysis Facility Compare</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: standardized transfusion rate</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>Facility's standardized transfusion rate according to Dialysis Facility Compare</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facility level outcome: % of patient months where fistula is being used (hemodialysis)</measure>
+    <time_frame>Cross-sectional from October 2017 dataset (aggregates quality performance from the calendar year 2016)</time_frame>
+    <description>The fraction of patient-months of a dialysis facility where the patient was using a fistula (hemodialysis only)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: mortality</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient was alive or dead (administrative data indicate the exact date of death)</time_frame>
+    <description>Assess the exact date of death (reported in the administrative dataset)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: home dialysis (peritoneal dialysis or home hemodialysis)</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient used home dialysis for the plurality of that month (claims indicate type of dialysis for each calendar day of the month)</time_frame>
+    <description>Using claims data (granular at a daily level), determine the dialysis modality used for the plurality of that month</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: serum hemoglobin &lt; 10 g/dL</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient's serum hemoglobin was &lt; 10 at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether the patient's serum hemoglobin &lt; 10 at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: serum hemoglobin &gt; 12 g/dL</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient's serum hemoglobin was &gt; 12 at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether the patient's serum hemoglobin was &gt; 12 at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: serum calcium &gt; 10.2 mg/dL</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient's serum calcium &gt; 10.2 at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)h and year</time_frame>
+    <description>Whether the patient's serum calcium was &gt; 10.2 at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: serum phosphate &gt; 7 mg/dL</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient's serum phosphate was &gt; 7 at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether the patient's serum phopshate was &gt; 7 at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: hospitalization in that month</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient experienced a hospitalization (claims data provide a daily assessment of whether patient was hospitalized)</time_frame>
+    <description>Whether the patient had a hospitalization in a given month, using claims data (claims are granular at a daily level)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: 30-day readmission following a discharge in that month</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient experienced a hospitalization that was later followed by a 30-day readmission (claims data provide a daily assessment of whether patient was hospitalized)</time_frame>
+    <description>Whether the patient had a discharge in a given month that was followed by a 30-day readmission, using claims data (claims are granular at a daily level)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: unplanned 30-day readmission following a discharge in that month</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient experienced a hospitalization that was later followed by an unplanned 30-day readmission (claims data provide a daily assessment of whether patient was hospitalized)</time_frame>
+    <description>Whether the patient had a discharge in a given month that was followed by an unplanned 30-day readmission, using claims data (claims are granular at a daily level)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: using a fistula in that month (hemodialysis)</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient was using a fistula at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether a fistula was used at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: using a catheter in that month (hemodialysis)</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient was using a dialysis catheter at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether a dialysis catheter was used at the end of a given month, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: using a catheter for 3 or more months</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient was using a fistula at the end of the calendar month, and at the end of the previous two months (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>Whether a dialysis catheter was used at the end of a given month and at the end of the previous 2 calendar months, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: using an erythropoietin stimulating agent</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient was using an erythropoietin stimulating agent at the end of the calendar month (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>The type of erythropoietin stimulating agent in a given month and the total dose administered, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: receipt of a blood transfusion</measure>
+    <time_frame>For each calendar month in 2017, determine whether the patient received a blood transfusion in the calendar month (claims data report on a daily basis when a patient received a blood transfusion)</time_frame>
+    <description>Whether the patient received a blood transfusion in a given month, using claims data (granular at a daily level)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient level outcome: dose of erythropoietin stimulating agent</measure>
+    <time_frame>For each calendar month in 2017, determine the type of erythropoietin stimulating agent used for that month and the total dose (dialysis facilities report to CROWNWeb at the end of each month)</time_frame>
+    <description>The type of erythropoietin stimulating agent in a given month and the total dose administered, using CROWNWeb data (reported at the end of each calendar month)</description>
+  </primary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Actual">208213</enrollment>
+  <condition>Renal Dialysis</condition>
+  <condition>Financial Disclosure</condition>
+  <arm_group>
+    <arm_group_label>Patients receiving dialysis at a physician-owned dialysis facility</arm_group_label>
+    <description>All adults with Medicare fee-for-service in 2017 who received dialysis at a physician-owned dialysis facility. If a patient received dialysis at more than one facility in 2017, patients will be assigned to the facility that provided the plurality of dialysis in 2017.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients receiving dialysis at a dialysis facility not owned by a physician</arm_group_label>
+    <description>All adults with Medicare fee-for-service in 2017 who received dialysis at a dialysis facility not owned by a physician. If a patient received dialysis at more than one facility in 2017, patients will be assigned to the facility that provided the plurality of dialysis in 2017.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients receiving dialysis at a facility owned by a large dialysis organization</arm_group_label>
+    <description>All adults with Medicare fee-for-service in 2017 who received dialysis at a dialysis facility owned by a large dialysis organization (Davita or Fresenius). If a patient received dialysis at more than one facility in 2017, patients will be assigned to the facility that provided the plurality of dialysis in 2017.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients receiving dialysis at a facility NOT owned by a large dialysis organization</arm_group_label>
+    <description>All adults with Medicare fee-for-service in 2017 who received dialysis at a dialysis facility NOT owned by a large dialysis organization (Davita or Fresenius). If a patient received dialysis at more than one facility in 2017, patients will be assigned to the facility that provided the plurality of dialysis in 2017.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Physician ownership</intervention_name>
+    <description>The &quot;intervention&quot; or exposure is whether the dialysis facility was owned by a physician in 2017</description>
+    <arm_group_label>Patients receiving dialysis at a physician-owned dialysis facility</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Large dialysis organization ownership</intervention_name>
+    <description>The &quot;intervention&quot; or exposure is whether the dialysis facility was owned by a large dialysis organization in 2017</description>
+    <arm_group_label>Patients receiving dialysis at a facility owned by a large dialysis organization</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study will include all patient-months between 1/1/2017-12/31/2017 of 100% of patients&#xD;
+        receiving dialysis for ESRD in free-standing, non-pediatric dialysis facilities in the US.&#xD;
+        Patients must have at least 12 months of Medicare fee-for-service as the primary payer.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adult&#xD;
+&#xD;
+          -  Receiving dialysis for ESRD in the US&#xD;
+&#xD;
+          -  Medicare fee for service as primary payer (and had Medicare FFS for at least 12 months&#xD;
+             prior to the month&#xD;
+&#xD;
+          -  Received dialysis between 1/1/2017-12/31/2017&#xD;
+&#xD;
+          -  Receiving dialysis in a free-standing facility&#xD;
+&#xD;
+          -  No missing data&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pediatric (&lt; 18 years)&#xD;
+&#xD;
+          -  Receiving dialysis in hospital-based facility&#xD;
+&#xD;
+          -  Receiving dialysis in a facility that had &gt;= 15% pediatric patient months&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>February 9, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 17, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 21, 2021</study_first_posted>
+  <last_update_submitted>March 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Eugene Lin</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Individual participant data can be obtained from the USRDS. Data cannot be shared per the data use agreement (DUA).</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 11, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/35/NCT04764435/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

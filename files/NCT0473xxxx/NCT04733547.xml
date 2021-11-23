@@ -1,0 +1,441 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04733547</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR-21-007</org_study_id>
+    <nct_id>NCT04733547</nct_id>
+  </id_info>
+  <brief_title>Spectral Analysis of Central Venous Pressure Waveform</brief_title>
+  <official_title>Spectral Analysis of Central Venous Pressure Waveform in Patients Undergoing Donor Hepatectomy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>JongHae Kim</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Daegu Catholic University Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The use of central venous pressure has been abandoned for the assessment of intravascular&#xD;
+      volume status. The dynamic fluctuation of central venous pressure according to heart rate is&#xD;
+      quantitatively measured by spectral analysis of the central venous pressure waveform. Its&#xD;
+      clinical utility in the assessment of intravascular volume status is investigated.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The use of central venous pressure, which is one of the static preload indices, has been&#xD;
+      abandoned for the assessment of intravascular volume status because of its unreliability. The&#xD;
+      static preload indices have been replaced with dynamic preload indices, such as stroke volume&#xD;
+      variation or pulse pressure variation because the dynamic preload indices reliably predict&#xD;
+      fluid responsiveness and perform better than the static preload indices. However, the&#xD;
+      periodic component of central venous pressure, which goes with cardiac cycles, has not been&#xD;
+      investigated. The power corresponding to heart rate from spectral analysis of central venous&#xD;
+      pressure waveform represents the extent of the dynamic fluctuation of central venous pressure&#xD;
+      and is assumed to reflect intravascular volume status. It is hypothesized that the spectral&#xD;
+      power of central venous pressure corresponding to heart rate represents intravascular volume&#xD;
+      status.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 22, 2021</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Spectral power of central venous pressure corresponding to heart rate during 5 minutes before graft procurement</measure>
+    <time_frame>During 5 minutes before graft procurement</time_frame>
+    <description>A band-pass filter (0.15-3 Hz) is applied to the 5 minute-long segment. The 5 minute-long segments are divided into 100 second-long segments overlapping 50% with each adjacent segment. Each segment is submitted to fast Fourier transformation. The spectral powers obtained from the periodograms of each segment are averaged. The integrated area corresponding to heart rate is the spectral power corresponding to heart rate.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Spectral powers of central venous pressure corresponding to respiratory rate and heart rate during 5 minutes before the first dose of furosemide</measure>
+    <time_frame>During 5 minutes before the first dose of furosemide</time_frame>
+    <description>A band-pass filter (0.15-3 Hz) is applied to the 5 minute-long segment. The 5 minute-long segments are divided into 100 second-long segments overlapping 50% with each adjacent segment. Each segment is submitted to fast Fourier transformation. The spectral powers obtained from the periodograms of each segment are averaged. The integrated areas corresponding to respiratory rate and heart rate are the spectral powers corresponding to respiratory rate and heart rate.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Spectral powers of central venous pressure corresponding to respiratory rate and heart rate between 30 and 35 minutes after surgical incision</measure>
+    <time_frame>Between 30 and 35 minutes after surgical incision</time_frame>
+    <description>A band-pass filter (0.15-3 Hz) is applied to the 5 minute-long segment. The 5 minute-long segments are divided into 100 second-long segments overlapping 50% with each adjacent segment. Each segment is submitted to fast Fourier transformation. The spectral powers obtained from the periodograms of each segment are averaged. The integrated areas corresponding to respiratory rate and heart rate are the spectral powers corresponding to respiratory rate and heart rate.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Spectral power of central venous pressure corresponding to respiratory rate during 5 minutes before graft procurement</measure>
+    <time_frame>During 5 minutes before graft procurement</time_frame>
+    <description>A band-pass filter (0.15-3 Hz) is applied to the 5 minute-long segment. The 5 minute-long segments are divided into 100 second-long segments overlapping 50% with each adjacent segment. Each segment is submitted to fast Fourier transformation. The spectral powers obtained from the periodograms of each segment are averaged. The integrated area corresponding to respiratory rate is the spectral power corresponding to respiratory rate.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Spectral powers of central venous pressure corresponding to respiratory rate and heart rate during 5 minutes after administration of 6% hydroxyethyl starch</measure>
+    <time_frame>During 5 minutes after administration of 6% hydroxyethyl starch</time_frame>
+    <description>A band-pass filter (0.15-3 Hz) is applied to the 5 minute-long segment. The 5 minute-long segments are divided into 100 second-long segments overlapping 50% with each adjacent segment. Each segment is submitted to fast Fourier transformation. The spectral powers obtained from the periodograms of each segment are averaged. The integrated areas corresponding to respiratory rate and heart rate are the spectral powers corresponding to respiratory rate and heart rate.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume variation during 5 minutes before the first dose of furosemide</measure>
+    <time_frame>During 5 minutes before the first dose of furosemide</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume index during 5 minutes before the first dose of furosemide</measure>
+    <time_frame>During 5 minutes before the first dose of furosemide</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac index during 5 minutes before the first dose of furosemide</measure>
+    <time_frame>During 5 minutes before the first dose of furosemide</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume variation between 30 and 35 minutes after surgical incision</measure>
+    <time_frame>Between 30 and 35 minutes after surgical incision</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume index between 30 and 35 minutes after surgical incision</measure>
+    <time_frame>Between 30 and 35 minutes after surgical incision</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac index between 30 and 35 minutes after surgical incision</measure>
+    <time_frame>Between 30 and 35 minutes after surgical incision</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume variation during 5 minutes before graft procurement</measure>
+    <time_frame>During 5 minutes before graft procurement</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume index during 5 minutes before graft procurement</measure>
+    <time_frame>During 5 minutes before graft procurement</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac index during 5 minutes before graft procurement</measure>
+    <time_frame>During 5 minutes before graft procurement</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume variation during 5 minutes after administration of 6% hydroxyethyl starch</measure>
+    <time_frame>During 5 minutes after administration of 6% hydroxyethyl starch</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke volume index during 5 minutes after administration of 6% hydroxyethyl starch</measure>
+    <time_frame>During 5 minutes after administration of 6% hydroxyethyl starch</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac index during 5 minutes after administration of 6% hydroxyethyl starch</measure>
+    <time_frame>During 5 minutes after administration of 6% hydroxyethyl starch</time_frame>
+    <description>The median of the values calculated at a 20-second interval</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total dose of furosemide</measure>
+    <time_frame>At graft procurement</time_frame>
+    <description>The total dose of furosemide used for the promotion of diuresis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Urine output at graft procurement</measure>
+    <time_frame>At graft procurement</time_frame>
+    <description>The total amount of urine output between the placement of urinary catheter and graft procurement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total urine output at the end of surgery</measure>
+    <time_frame>At the end of surgery</time_frame>
+    <description>The total amount of urine output at the end of surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intraoperative blood loss</measure>
+    <time_frame>1 day after surgery</time_frame>
+    <description>Calculated as blood loss (ml) = [estimated blood volume*(preoperative hematocrit-postoperative hematocrit)]/mean between the 2 hematocrit values, where estimated blood volume (ml) = weight(kg)^0.425*height(cm)^0.725*0.007184*2217+age(years)*1.06 for female and weight(kg)^0.425*height(cm)^0.725*0.007184*3064-825 for male</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Age</measure>
+    <time_frame>On arrival at the operating room</time_frame>
+    <description>Age at the time of surgery</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Sex</measure>
+    <time_frame>On arrival at the operating room</time_frame>
+    <description>Biological sex</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Height</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in cm</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Weight</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in kg</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Aspartate transaminase</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in U/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Alanine transaminase</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in U/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Blood urea nitrogen</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in mg/dl</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Creatinine</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in mg/dl</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum sodium level</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum potassium level</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum chloride level</measure>
+    <time_frame>The day before surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Graft weight</measure>
+    <time_frame>At graft procurement</time_frame>
+    <description>Measured in gram</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total amount of fluids</measure>
+    <time_frame>At the end of surgery</time_frame>
+    <description>The total volume of colloids and crystalloids administered throughout the entire surgery</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Aspartate transaminase</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in U/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Alanine transaminase</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in U/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Blood urea nitrogen</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in mg/dl</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Creatinine</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in mg/dl</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum sodium level</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum potassium level</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Serum chloride</measure>
+    <time_frame>1 hour after surgery</time_frame>
+    <description>Measured in mmol/L</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Donor Hepatectomy</condition>
+  <condition>Central Venous Catheter</condition>
+  <condition>Hypovolemia</condition>
+  <arm_group>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+    <description>Live donors undergoing hepatectomy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Placement of a central venous catheter</intervention_name>
+    <description>The right internal jugular vein is located at the first rib level under ultrasound-guidance. Using an out-of-plane technique, a needle is introduced into the lumen of the vessel. The aspiration of blood into the syringe connected to the hub of the needle confirms the placement of the needle tip in the lumen. After the syringe is detached from the needle, a guidewire is advanced into the vessel lumen through the needle. A dilator is introduced over the guidewire and subsequently is removed. Then, a central venous catheter is introduced over the guidewire into the vessel lumen through the pathway expanded by the dilator. The catheter tip is placed in the superior vena cava by inserting the catheter as far as the distance between the edge of the right transverse process of the first thoracic vertebra and the carina, which is preoperatively measured on a posteroanterior chest radiograph.</description>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Monitoring of central venous pressure</intervention_name>
+    <description>Following the placement of a central venous catheter, a fluid-filled system for monitoring central venous pressure is connected to the proximal lumen of the catheter. The reference transducer is placed at the level of 4/5 of the anteroposterior diameter of the thorax.</description>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Furosemide-induced hypovolemia before graft procurement</intervention_name>
+    <description>Patients fast from 10 pm the day before surgery. On the arrival at the operating room, an intravenous catheter for Plasmalyte infusion is placed into the right cephalic or basilic vein. The distal lumen of the central venous catheter is used for the infusion of 6% hydroxyethyl starch. Fluid requirements due to anesthesia, surgery, and no per os intake are not replaced by minimizing the administration of the fluids. Five minutes after the collection of the baseline data, 20 mg of furosemide is administered to promote diuresis for facilitating the venous outflow of the liver. An additional dose of furosemide 20 mg is given if the urine output is &lt;1 ml/kg within 30 minutes after the first dose. Unless the second dose of furosemide produces &gt;1 ml/kg of urine within 30 minutes, 40 mg of furosemide is administered. In the absence of effective diuresis (1 ml/kg within 30 minutes after each dose), the use of furosemide is abandoned and the patients are excluded from the study.</description>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Replacement of fluid loss after graft procurement</intervention_name>
+    <description>Immediately after the graft procurement, 500 ml of 6% hydroxyethyl starch are infused over 25 minutes. Afterward, Plasmalyte is infused at a rate of 10 ml/min until the end of surgery.</description>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Monitoring of stroke volume variation</intervention_name>
+    <description>Following anesthesia induction, the right radial artery is catheterized. The catheter is connected to the EV1000 monitor (Edwards Lifesciences, Irvine, CA) through the FloTrac transducer (Edwards Lifesciences). The transducer is level with the one for central venous pressure monitoring. Using pulse contour analysis without external calibration, the stroke volume for each heartbeat is measured. At a 20-second interval, stroke volume variation is calculated as (maximum stroke volume - minimum stroke volume)/mean stroke volume.</description>
+    <arm_group_label>Donor hepatectomy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients are recruited from a tertiary university hospital&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  American Society of Anesthesiologists physical status 1&#xD;
+&#xD;
+          -  Scheduled for donor hepatectomy under general anesthesia&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Arrhythmia&#xD;
+&#xD;
+          -  Valvular heart disease&#xD;
+&#xD;
+          -  Coronary artery disease&#xD;
+&#xD;
+          -  Cerebrovascular disease&#xD;
+&#xD;
+          -  Hypertension&#xD;
+&#xD;
+          -  Diabetes mellitus&#xD;
+&#xD;
+          -  Renal insufficiency&#xD;
+&#xD;
+          -  Pulmonary problems&#xD;
+&#xD;
+          -  Any type of liver disease&#xD;
+&#xD;
+          -  Body mass index greater than 35 kg/m2&#xD;
+&#xD;
+          -  Human immunodeficiency virus infection&#xD;
+&#xD;
+          -  Psychosocial problems&#xD;
+&#xD;
+          -  Electrolyte imbalance&#xD;
+&#xD;
+          -  Reoperation&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jonghae Kim, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Daegu Catholic University Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jonghae Kim, M.D.</last_name>
+    <phone>+82-53-650-4979</phone>
+    <email>usmed12@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jung A Lim, M.D.</last_name>
+    <phone>+82-53-650-3265</phone>
+    <email>definitebud@naver.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Daegu Catholic University Medical Center</name>
+      <address>
+        <city>Daegu</city>
+        <zip>42472</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jonghae Kim, M.D.</last_name>
+      <phone>+82-53-650-4979</phone>
+      <email>usmed12@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jung A Lim, M.D.</last_name>
+      <phone>+82-53-650-3265</phone>
+      <email>definitebud@naver.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Jonghae Kim, M.D.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jung A Lim, M.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Alian AA, Galante NJ, Stachenfeld NS, Silverman DG, Shelley KH. Impact of lower body negative pressure induced hypovolemia on peripheral venous pressure waveform parameters in healthy volunteers. Physiol Meas. 2014 Jul;35(7):1509-20. doi: 10.1088/0967-3334/35/7/1509. Epub 2014 Jun 5.</citation>
+    <PMID>24901895</PMID>
+  </reference>
+  <reference>
+    <citation>Hocking KM, Sileshi B, Baudenbacher FJ, Boyer RB, Kohorst KL, Brophy CM, Eagle SS. Peripheral Venous Waveform Analysis for Detecting Hemorrhage and Iatrogenic Volume Overload in a Porcine Model. Shock. 2016 Oct;46(4):447-52. doi: 10.1097/SHK.0000000000000615.</citation>
+    <PMID>27070329</PMID>
+  </reference>
+  <reference>
+    <citation>Hocking KM, Alvis BD, Baudenbacher F, Boyer R, Brophy CM, Beer I, Eagle S. Peripheral i.v. analysis (PIVA) of venous waveforms for volume assessment in patients undergoing haemodialysis. Br J Anaesth. 2017 Dec 1;119(6):1135-1140. doi: 10.1093/bja/aex271.</citation>
+    <PMID>29028929</PMID>
+  </reference>
+  <reference>
+    <citation>Sileshi B, Hocking KM, Boyer RB, Baudenbacher FJ, Kohurst KL, Brophy CM, Eagle S. Peripheral venous waveform analysis for detecting early hemorrhage: a pilot study. Intensive Care Med. 2015 Jun;41(6):1147-8. doi: 10.1007/s00134-015-3787-0. Epub 2015 Apr 11.</citation>
+    <PMID>25862041</PMID>
+  </reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>January 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 2, 2021</study_first_posted>
+  <last_update_submitted>February 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 23, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Daegu Catholic University Medical Center</investigator_affiliation>
+    <investigator_full_name>JongHae Kim</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypovolemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Furosemide</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

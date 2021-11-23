@@ -1,0 +1,335 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04726228</url>
+  </required_header>
+  <id_info>
+    <org_study_id>41/20 oss</org_study_id>
+    <nct_id>NCT04726228</nct_id>
+  </id_info>
+  <brief_title>Pain ASsessment in CAncer Patients by Machine LEarning (PASCALE)</brief_title>
+  <acronym>PASCALE</acronym>
+  <official_title>Home-Based Telemedicine for Automatic Pain Assessment in Cancer Patients: Dataset Creation and Development of Machine Learning Algorithms</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Cancer Institute, Naples</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Federico II University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Cancer Institute, Naples</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In cancer patients, the integration between anticancer therapies and palliative care is of&#xD;
+      fundamental importance. In this context, telemedicine can improve the quality of life (QoL)&#xD;
+      of chronic patients through self-management and remote monitoring solutions. This approach&#xD;
+      can favor the effectiveness of the treatment and therapeutic adherence. Of note, telemedicine&#xD;
+      can also be applied to the management of cancer pain. In the advanced stages of cancer&#xD;
+      disease, pain is one of the most obvious and most disabling symptoms. Consequently, proper&#xD;
+      pain management has a significant impact on the QoL, the ability to withstand treatment, and&#xD;
+      the recovery of patients. On the other hand, given the complexity of cancer pain, the main&#xD;
+      obstacle to its proper management is the lack of adequate measurement methods. Although in&#xD;
+      recent years a great deal of effort has been made in the direction of automatic pain&#xD;
+      assessment, both concerning the creation of datasets and the development of classification&#xD;
+      algorithms, the literature is lacking regarding the automatic measurement of pain in the&#xD;
+      setting of cancer patients. Observation by experienced clinical staff and self-assessment by&#xD;
+      patients could be useful for obtaining the ground truth and, in turn, for training automatic&#xD;
+      pain recognition systems.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      For the entire duration of the study, patients will remain under the care of the Early&#xD;
+      Palliative Care and Simultaneous Care Outpatient team of the Istituto Nazionale Tumori,&#xD;
+      Fondazione Pascale, at home. Pain and other symptoms will be managed according to the good&#xD;
+      clinical practice and patients will receive assistance in agreement to the routine medical&#xD;
+      care.&#xD;
+&#xD;
+      The following devices will be used:&#xD;
+&#xD;
+        1. Software&#xD;
+&#xD;
+        2. Instrumentation&#xD;
+&#xD;
+        3. Clinical Assessment Tools: European Organisation for Research and Treatment of Cancer&#xD;
+           Quality-of-life Questionnaire Core 30 (EORTC QLQ-C30), Daily Pain Diary, 0-10 numeric&#xD;
+           rating scale (NRS).&#xD;
+&#xD;
+      The project will be divided into three main Work Packages (WPs), dedicated respectively to&#xD;
+      the creation of the IT infrastructure to support acquisitions (WP1), the patient data&#xD;
+      collection campaign (WP2), and the development of machine learning algorithms for automatic&#xD;
+      pain recognition (WP3). The application of the devices and verification of correct&#xD;
+      functioning will be carried out at the patient's home by the IT staff involved in the study.&#xD;
+&#xD;
+      WP1 - The system consists of three main components: the server, with the attached database,&#xD;
+      the application for mobile devices, also responsible for managing data acquisition from&#xD;
+      physiological signal acquisition devices, and the desktop application, used by the clinical&#xD;
+      staff to monitor the progress of data collection.&#xD;
+&#xD;
+      The mobile application will have the role of interfacing directly with the patient and&#xD;
+      acquiring biometric data from wearable devices. Specifically, the following signals will be&#xD;
+      acquired: heart rate, body temperature, non-invasive blood pressure, and galvanic skin&#xD;
+      response (GSR). The heart rate will be obtained through a wearable device (Garmin Vivosmart&#xD;
+      4) while the body temperature, the non-invasive blood pressure, and the GSR will be acquired&#xD;
+      by an external device (a BITalino platform).To further validate the accuracy of the algorithm&#xD;
+      that will deal with pain detection, patients will also be given a QoL questionnaire (EORTC&#xD;
+      QLQ-C30).&#xD;
+&#xD;
+      In order to acquire the ground truth of the data, the patient will be asked to provide&#xD;
+      feedback on the level of pain, both at certain intervals of time during the day, and in case&#xD;
+      of acute pain episodes. This feedback can be based on NRS and multimedia strategies (e.g.,&#xD;
+      videos). Patients will fill out a daily pain diary.&#xD;
+&#xD;
+      WP2 - The campaign will include a preliminary acquisition phase aimed at testing the IT&#xD;
+      infrastructure. For obtaining an adequate inter-subject and intra-subject variability, it&#xD;
+      will be necessary to enroll at least 40 patients, acquiring data for 10-14 days. Thus, the&#xD;
+      data collection campaign will be conducted for about 6 months. Each subject will use the&#xD;
+      mobile application and sensors for 2 weeks. Data will be acquired using simultaneously data&#xD;
+      collection bundles (application, sensors, and any mobile device). Upon enrolment and at the&#xD;
+      end, EORTC QLQ-C30 will be administered.&#xD;
+&#xD;
+      WP3 - The objective is the development of algorithms able to predict the level of pain&#xD;
+      perceived by the patient. Having a considerable amount of labelled data available, the system&#xD;
+      will learn from the examples.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 21, 2021</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Up to 2 weeks</time_frame>
+    <description>Clinical data: Heart rate (beats per minute, bpm)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Clinical data: Body temperature (Celsius, °C) The patient will use the device provided (BITalino).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Clinical data: Non-invasive Blood Pressure (mmHg). The patient will use the device provided (BITalino).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Clinical data: The Galvanic Skin Response (GSR) refers to changes in sweat gland activity that are reflective of the intensity of the emotional state.&#xD;
+The patient will use the device provided (BITalino).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Pain features:&#xD;
+A daily Pain Diary will be used. Type: how pain is felt (e.g., sharp, ache, shooting, tingling).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Pain features:&#xD;
+A daily Pain Diary will be used. Degree: 0-10 numeric rating scale (NRS) where 0 is no pain and 10 is the worst pain imaginable.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Pain features:&#xD;
+A daily Pain Diary will be used. Duration (minutes, hours, days).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Pain features:&#xD;
+A daily Pain Diary will be used. Precipitating factors.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To develop a machine learning algorithm useful for predicting the level of pain in cancer patients. A database containing clinical data and pain features will be obtained.</measure>
+    <time_frame>Whenever the patient has a worsening of his/her pain, up to 2 weeks</time_frame>
+    <description>Pain features:&#xD;
+A daily Pain Diary will be used. Name and amount of drug used and time it was taken.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patients' quality of life assessed by the EORTC QLQ-C30 questionnaire.</measure>
+    <time_frame>At the beginning and at the end of the observation, up to 2 weeks</time_frame>
+    <description>Quality of life (QoL) of patients according to European Organization for Research and Treatment of Cancer (EORTC) QLQ-C30 questionnaire. It is scored on a metric from 0 to 100. Higher scores mean better outcome.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Oncology</condition>
+  <condition>Cancer Pain</condition>
+  <condition>Quality of Life</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Home care patients aged &gt; 18 years, diagnosed with advanced oncological disease (life&#xD;
+        expectancy ≤ 1 year), suffering from cancer pain.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients aged &gt; 18 years&#xD;
+&#xD;
+          -  Home care patients diagnosed with advanced cancer disease and life expectancy ≤ 1 year&#xD;
+&#xD;
+          -  Patients receiving treatment for cancer pain&#xD;
+&#xD;
+          -  Patients who have given their consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients aged &lt; 18 years&#xD;
+&#xD;
+          -  Willingness to sign the informed consent form (unable to read or write)&#xD;
+&#xD;
+          -  Cognitive deficit (e.g. Alzheimer disease or senile dementia)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marco Cascella, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Anesthesia and Pain Medicine. Istituto Nazionale Tumori - IRCCS Fondazione Pascale - Napoli, Italy</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Arturo Cuomo, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Anesthesia and Pain Medicine. Istituto Nazionale Tumori - IRCCS Fondazione Pascale - Napoli, Italy</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Marco Cascella, MD</last_name>
+    <phone>+39 0815903508</phone>
+    <email>m.cascella@istitutotumori.na.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Arturo Cuomo, MD</last_name>
+    <phone>+39 0815903508</phone>
+    <email>a.cuomo@istitutotumori.na.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>National Cancer Institute of Naples</name>
+      <address>
+        <city>Naples</city>
+        <state>Campania</state>
+        <zip>80131</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marco Cascella, MD</last_name>
+      <phone>+39 0815903508</phone>
+      <email>m.cascella@istitutotumori.na.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Arturo Cuomo, MD</last_name>
+      <phone>+39 0815903508</phone>
+      <email>a.cuomo@istitutotumori.na.it</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>A.O.U. Federico II</name>
+      <address>
+        <city>Napoli</city>
+        <state>Campania</state>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Francesco Cutugno, PhD</last_name>
+      <phone>+39 081679191</phone>
+      <email>francesco.cutugno@unina.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Reis-Pina P, Lawlor PG, Barbosa A. Adequacy of cancer-related pain management and predictors of undertreatment at referral to a pain clinic. J Pain Res. 2017 Aug 31;10:2097-2107. doi: 10.2147/JPR.S139715. eCollection 2017.</citation>
+    <PMID>28919809</PMID>
+  </reference>
+  <reference>
+    <citation>Adamse C, Dekker-Van Weering MG, van Etten-Jamaludin FS, Stuiver MM. The effectiveness of exercise-based telemedicine on pain, physical activity and quality of life in the treatment of chronic pain: A systematic review. J Telemed Telecare. 2018 Sep;24(8):511-526. doi: 10.1177/1357633X17716576. Epub 2017 Jul 11. Review.</citation>
+    <PMID>28696152</PMID>
+  </reference>
+  <reference>
+    <citation>Sirintrapun SJ, Lopez AM. Telemedicine in Cancer Care. Am Soc Clin Oncol Educ Book. 2018 May 23;38:540-545. doi: 10.1200/EDBK_200141. Review.</citation>
+    <PMID>30231354</PMID>
+  </reference>
+  <reference>
+    <citation>Aung MSH, Kaltwang S, Romera-Paredes B, Martinez B, Singh A, Cella M, Valstar M, Meng H, Kemp A, Shafizadeh M, Elkins AC, Kanakam N, de Rothschild A, Tyler N, Watson PJ, de C Williams AC, Pantic M, Bianchi-Berthouze N. The Automatic Detection of Chronic Pain-Related Expression: Requirements, Challenges and the Multimodal EmoPain Dataset. IEEE Trans Affect Comput. 2016 Oct-Dec;7(4):435-451. doi: 10.1109/TAFFC.2015.2462830. Epub 2015 Jul 30.</citation>
+    <PMID>30906508</PMID>
+  </reference>
+  <reference>
+    <citation>Gruss S, Geiger M, Werner P, Wilhelm O, Traue HC, Al-Hamadi A, Walter S. Multi-Modal Signals for Analyzing Pain Responses to Thermal and Electrical Stimuli. J Vis Exp. 2019 Apr 5;(146). doi: 10.3791/59057.</citation>
+    <PMID>31009005</PMID>
+  </reference>
+  <reference>
+    <citation>Pfeifer AC, Uddin R, Schröder-Pfeifer P, Holl F, Swoboda W, Schiltenwolf M. Mobile Application-Based Interventions for Chronic Pain Patients: A Systematic Review and Meta-Analysis of Effectiveness. J Clin Med. 2020 Nov 5;9(11). pii: E3557. doi: 10.3390/jcm9113557. Review.</citation>
+    <PMID>33167300</PMID>
+  </reference>
+  <reference>
+    <citation>Cuomo A, Bimonte S, Forte CA, Botti G, Cascella M. Multimodal approaches and tailored therapies for pain management: the trolley analgesic model. J Pain Res. 2019 Feb 19;12:711-714. doi: 10.2147/JPR.S178910. eCollection 2019.</citation>
+    <PMID>30863143</PMID>
+  </reference>
+  <reference>
+    <citation>Rashidi P, Edwards DA, Tighe PJ. Primer on machine learning: utilization of large data set analyses to individualize pain management. Curr Opin Anaesthesiol. 2019 Oct;32(5):653-660. doi: 10.1097/ACO.0000000000000779. Review.</citation>
+    <PMID>31408024</PMID>
+  </reference>
+  <reference>
+    <citation>Dawes TR, Eden-Green B, Rosten C, Giles J, Governo R, Marcelline F, Nduka C. Objectively measuring pain using facial expression: is the technology finally ready? Pain Manag. 2018 Mar;8(2):105-113. doi: 10.2217/pmt-2017-0049. Epub 2018 Feb 22. Review.</citation>
+    <PMID>29468939</PMID>
+  </reference>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>December 29, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 21, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2021</study_first_posted>
+  <last_update_submitted>October 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Pain assessment</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Automatic Pain Assessment</keyword>
+  <keyword>Palliative Care</keyword>
+  <keyword>Telemedicine</keyword>
+  <keyword>Cancer pain</keyword>
+  <keyword>Quality of Life</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cancer Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Study Protocol will be shared after its publication in a peer reviewed journal.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

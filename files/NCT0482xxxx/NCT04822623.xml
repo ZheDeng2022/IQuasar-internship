@@ -1,0 +1,173 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04822623</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020SDUCRCC019</org_study_id>
+    <nct_id>NCT04822623</nct_id>
+  </id_info>
+  <brief_title>Imaging Evaluation of Central Nervous Autoimmune Diseases</brief_title>
+  <official_title>Computer Aided Imaging Evaluation of Central Nervous System Autoimmune Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Qilu Hospital of Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Qilu Hospital of Shandong University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multiple sclerosis (MS) is the most common demyelinating disease of the central nervous&#xD;
+      system and the most common cause of non traumatic disability in young and middle-aged people.&#xD;
+      Neuromyelitis optica spectrum disease (nmosd) is an independent disease different from Ms.&#xD;
+      the pathogenesis and the mode of brain and spinal cord injury are different from MS, and the&#xD;
+      prognosis and optimal treatment are different. It is difficult to distinguish the two&#xD;
+      diseases in the early stage. Early diagnosis and treatment of the two diseases can greatly&#xD;
+      improve the quality of life of patients. Therefore, it is an urgent problem to clarify the&#xD;
+      difference between MS and nmosd injury patterns and to find sensitive imaging markers for&#xD;
+      early clinical intervention. With the continuous progress of computer aided diagnosis (CAD),&#xD;
+      it is more and more widely used in medicine, which is expected to help solve the above&#xD;
+      problems.&#xD;
+&#xD;
+      The purpose of this study is to create a neuroimmune disease evaluation database based on&#xD;
+      image data. By combining brain and spinal cord imaging, and based on Zhang quantum space&#xD;
+      learning computer-aided technology, we can achieve accurate segmentation of MS and nmosd&#xD;
+      brain and spinal cord lesions, analyze the evolution characteristics of the disease at&#xD;
+      different time points, and screen the imaging indexes related to clinical scores combined&#xD;
+      with clinical and laboratory indexes Objective: to determine the different prognosis and its&#xD;
+      influencing factors at the clinical, imaging and molecular levels, and establish the model&#xD;
+      for predicting disease progression and prognosis, so as to provide the basis for early&#xD;
+      identification and assistance in guiding treatment and judging prognosis.&#xD;
+&#xD;
+      Clinical information was collected: age, gender, course of disease, MMSE, EDSS disability&#xD;
+      score, nine hole test, 25 foot walking test. Assess the patient's information processing&#xD;
+      ability. Blood samples were collected. Imaging examination was performed. The patients were&#xD;
+      followed up regularly.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 1, 2021</start_date>
+  <completion_date type="Anticipated">July 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Results of MRI data analysis</measure>
+    <time_frame>2021-03-01-2022-06-30</time_frame>
+    <description>The baseline data of MS, nmosd and normal group were complete, and the number of cases completed follow-up according to the requirements reached the expected requirements (100 cases each), and met the statistical standards.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>MS (Multiple Sclerosis)</condition>
+  <condition>NMO Spectrum Disorder</condition>
+  <arm_group>
+    <arm_group_label>MS</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>NMOSD</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>MRI</intervention_name>
+    <description>MRI examination</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>MS</arm_group_label>
+    <arm_group_label>NMOSD</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The patients in MS group and nmosd group were recruited from the Department of Neurology&#xD;
+        (outpatient and inpatient); the volunteers in control group were recruited through subject&#xD;
+        recruitment advertisement.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. 18-65 years old;&#xD;
+&#xD;
+          2. Nmosd was diagnosed according to wingerchuk standard revised in 2015, MS was diagnosed&#xD;
+             according to McDonald standard revised in 2017, and 100 normal people were diagnosed;&#xD;
+&#xD;
+          3. In the acute stage, within 1 month of the onset or stable stage, there was no GD&#xD;
+             enhanced lesion on MRI, and EDSS score had no significant change within 6 months,&#xD;
+             which was more than 1 month from the last attack;&#xD;
+&#xD;
+          4. MRI examination was complete: baseline, 6 months, 1 year, 2 years;&#xD;
+&#xD;
+          5. Sign informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. The course of disease was more than 30 years;&#xD;
+&#xD;
+          2. History of brain injury or spinal cord injury;&#xD;
+&#xD;
+          3. History of central nervous system infection or immunodeficiency syndrome;&#xD;
+&#xD;
+          4. HBV, HCV patients, syphilis, HIV-1, HIV-2 patients;&#xD;
+&#xD;
+          5. Suffering from mental illness;&#xD;
+&#xD;
+          6. Pregnant and lactating women or patients planning to conceive within one year;&#xD;
+&#xD;
+          7. Unable to cooperate to complete the follow-up due to geographical or other reasons;&#xD;
+&#xD;
+          8. Patients also participated in other randomized controlled trials.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Xaoyu Han</last_name>
+    <phone>18560081083</phone>
+    <email>710804284@qq.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Anning Li</last_name>
+    <phone>18560080268</phone>
+    <email>anningli00@163.com</email>
+  </overall_contact_backup>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>March 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 30, 2021</study_first_posted>
+  <last_update_submitted>March 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Sclerosis</mesh_term>
+    <mesh_term>Neuromyelitis Optica</mesh_term>
+    <mesh_term>Autoimmune Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

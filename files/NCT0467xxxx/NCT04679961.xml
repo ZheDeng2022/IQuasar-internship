@@ -1,0 +1,369 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04679961</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20STW2-01</org_study_id>
+    <secondary_id>MOST 108-2634-F-002-014 -</secondary_id>
+    <nct_id>NCT04679961</nct_id>
+  </id_info>
+  <brief_title>Deep Learning on 3D Cellular-resolution Tomogram</brief_title>
+  <official_title>Deep Learning on 3D Cellular-resolution Tomogram</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mackay Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Taiwan University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Mackay Memorial Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Skin biopsy is the main method to diagnose skin tumors, skin inflammation, and pigmented&#xD;
+      diseases. However, biopsy is an invasive method that can cause wounds and scars. Optical&#xD;
+      coherent tomography (OCT) technology is a fast, non-invasive, non-radioactive, and label-free&#xD;
+      imaging method. This technology generates real-time images of living tissue by detecting the&#xD;
+      variations in the refractive indexes of various components in soft tissues. Recently, there&#xD;
+      is a breakthrough progress that the newly designed ultrahigh resolution OCT can provide in&#xD;
+      vivo cellular resolution similar to histopathological sections in the high magnification. In&#xD;
+      our previous clinical trial &quot;Early feasibility study: application of OCT imaging in&#xD;
+      dermatology&quot; (approved by IRB of MacKay Memorial Hospital, no. 17CT062Be), it showed&#xD;
+      characteristic features of different skin inflammatory diseases and tumors can be&#xD;
+      distinguished successfully in tomograms. There were no adverse event or serious adverse event&#xD;
+      in this trial. Artificial intelligence technologies have been used widely in the image&#xD;
+      analysis in recent years. Hence, we aim to collect OCT tomograms of common skin inflammatory&#xD;
+      diseases, skin tumors, and pigmented diseases, and compare with normal skin for machine&#xD;
+      learning. We expect the integration of tomograms with deep learning artificial intelligence&#xD;
+      may assist identifying histological features in these images and provide new alternative way&#xD;
+      for non-invasive diagnosis in dermatology.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction Optical coherent tomography (OCT) technology has been widely used in medical&#xD;
+      practice, such as ophthalmology. The application in dermatology is slowly progressed until&#xD;
+      the marked improvement of resolution recently. One of the newly designed OCT devices using in&#xD;
+      this study is based on the research and development of Professor Sheng-Lung Huang of National&#xD;
+      Taiwan University. The light source was made with original glass-covered crystalline fiber&#xD;
+      which has successfully provided sub-micron resolution on the skin, which is better than the&#xD;
+      traditional 5-10 micron resolution of high-definition OCT. This new OCT system (ApolloVue™&#xD;
+      S100 image system, Viper1-S003, Apollo Medical Optics) has been used in this previous&#xD;
+      clinical trial &quot;in vivo OCT images of different skin diseases&quot; without adverse events. OCT&#xD;
+      images of different skin diseases collected in that trial were compared with HE-stained&#xD;
+      pathological sections. They provided useful information to physicians. The risk-benefit&#xD;
+      assessment of this clinical trial is the same as expected. The risk is low in clinical use,&#xD;
+      and both for the operators and the subjects. In recent years, the application of artificial&#xD;
+      intelligence technology in the analysis of tissue classification of medical images is rapidly&#xD;
+      developing. Therefore, we are going to use deep learning technology to improve the&#xD;
+      interpretation of OCT images to help the subsequent diagnosis of skin diseases.&#xD;
+&#xD;
+      Inclusion criteria&#xD;
+&#xD;
+      Experimental group:&#xD;
+&#xD;
+        1. Adults aged 20 years or older&#xD;
+&#xD;
+        2. Non-treat lesion of epidermal inflammatory disease: dermatitis and psoriasis: 300&#xD;
+           participants.&#xD;
+&#xD;
+        3. Benign tumors: seborrheic keratosis and nevus: 300 participants&#xD;
+&#xD;
+        4. Malignant tumors: actinic keratosis (AK), melanoma, basal cell carcinoma (BCC), Bowen's&#xD;
+           disease, squamous cell carcinoma (SCC), and extramammary Paget's disease (EMPD): 100&#xD;
+           participants&#xD;
+&#xD;
+        5. Pigmented diseases: solar lentigo, melasma, and vitiligo: 300 participants&#xD;
+&#xD;
+      Control group:&#xD;
+&#xD;
+      The healthy face (exposed site) and inner forearm (unexposed site) skin of epidermal tumors&#xD;
+      and pigmented diseases of the above experimental group were used as a control group,&#xD;
+      excluding epidermal inflammatory diseases, 700 participants in the control group were&#xD;
+      expected.&#xD;
+&#xD;
+      Exclusion criteria&#xD;
+&#xD;
+      Experimental group:&#xD;
+&#xD;
+        1. Minors aged under 20 years&#xD;
+&#xD;
+        2. Suspected a transcutaneous infectious disease, including infections such as bacteria,&#xD;
+           fungi, viruses, and parasites.&#xD;
+&#xD;
+        3. All skin tumors that are in the subcutaneous tissue&#xD;
+&#xD;
+        4. All skin lesions are open wounds&#xD;
+&#xD;
+        5. All skin lesions are in a location that is difficult to scan&#xD;
+&#xD;
+        6. Not willing to cooperate with methods and related procedures of this study&#xD;
+&#xD;
+        7. Vulnerable populations, including prisoners, pregnant women, handicapped, mentally&#xD;
+           disabled, known AIDS patients, and homelessness&#xD;
+&#xD;
+      Control group:&#xD;
+&#xD;
+        1. Minors under 20 years of age.&#xD;
+&#xD;
+        2. Epidermal inflammatory disease&#xD;
+&#xD;
+        3. Suspected a transcutaneous infectious disease, including infections such as bacteria,&#xD;
+           fungi, viruses, and parasites.&#xD;
+&#xD;
+        4. Individuals who have a systemic skin disorder.&#xD;
+&#xD;
+        5. Individuals who have a history of severe skin condition&#xD;
+&#xD;
+        6. Individuals with surgeries/cosmetic surgeries/micro cosmetic surgery (eg. cosmetic&#xD;
+           injections and/or laser etc.) on healthy skin at face and inner forearm in last 3 months&#xD;
+           and a physician determine the surgery will affect outcome of the OCT images.&#xD;
+&#xD;
+        7. Not willing to cooperate with methods and related procedures of this study&#xD;
+&#xD;
+        8. Vulnerable populations, including prisoners, pregnant women, handicapped, mentally&#xD;
+           disabled, known AIDS patients, and homelessness&#xD;
+&#xD;
+      Deep convolutional neural network (DCNN) was used to mark tissue and lesions in OCT images.&#xD;
+      When training DCNN models, transfer learning strategies will be used to fine-tune the&#xD;
+      parameters from pre-trained models that contain a lot of image knowledge, such as GoogLeNet,&#xD;
+      rather than training the models from scratch. This method retains the low-level image&#xD;
+      knowledge common to natural and medical images, and significantly reduces the time to train&#xD;
+      the model. During the training process, the parameters of the first few layers that store the&#xD;
+      low-order image knowledge in the model are fixed, and the parameters of the subsequent layers&#xD;
+      of the model are changed by the back-propagation algorithm. Finally, a layer of linear&#xD;
+      classifier is added to the end of the DCNN to determine the type / size of the symptoms in&#xD;
+      the input image.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 21, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of subjects of tomograms that can be analyzed by artificial intelligence techniques</measure>
+    <time_frame>2.5 years</time_frame>
+    <description>Number of subjects of tomograms that can be analyzed by artificial intelligence techniques (including machine learning and deep learning) will be compared to that cannot be analyzed to identify the feasibility of using artificial intelligence techniques to analyze tomograms at study completion.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of subjects with the similarity results of interpreting tomograms between artificial intelligence and experts</measure>
+    <time_frame>2.5 years</time_frame>
+    <description>Number of subjects with the similarity results of interpreting tomograms between artificial intelligence and experts will be compared to that with no similarity to verify whether artificial intelligence interpretation are comparable with gold standard methods expert interpretation at study completion.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of subjects with the correlation between tomograms and gold standard methods, eg. existing clinical images or pathological images.</measure>
+    <time_frame>2.5 years</time_frame>
+    <description>Number of subjects with the correlation between tomograms and gold standard methods, eg. existing clinical images (including photographs, dermoscopic images, etc.) or pathological images (including H&amp;E stain, etc.) will be compared to that with no correlation to verify whether the tomograms are comparable with above gold standard methods at study completion.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Skin Diseases</condition>
+  <arm_group>
+    <arm_group_label>Experimental</arm_group_label>
+    <description>Epidermal inflammations, including eczematous diseases and psoriasis&#xD;
+Epidermal tumors, including benign tumors and malignant tumors&#xD;
+Pigmented diseases, including hypopigmentation and hyperpigmentation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <description>Healthy skin</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ApolloVue® S100 Image System (Apollo Medical Optics)</intervention_name>
+    <description>The device is an in vivo non-invasive optical coherence tomography and will be used to obtain at least 6 medical images of normal and lesional skin, respectively, for both experimental group and control group.</description>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_label>Experimental</arm_group_label>
+    <other_name>510(K) Number: K201552 (class II)</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population from both experimental group and control group will be selected.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria&#xD;
+&#xD;
+        Experimental group:&#xD;
+&#xD;
+          1. Adults aged 20 years or older&#xD;
+&#xD;
+          2. Non-treat lesion of epidermal inflammatory disease: dermatitis and psoriasis&#xD;
+&#xD;
+          3. Benign tumors: seborrheic keratosis and nevus&#xD;
+&#xD;
+          4. Malignant tumors: actinic keratosis (AK), melanoma, basal cell carcinoma (BCC),&#xD;
+             Bowen's disease, squamous cell carcinoma (SCC), and extramammary Paget's disease&#xD;
+             (EMPD)&#xD;
+&#xD;
+          5. Pigmented diseases: solar lentigo, melasma, and vitiligo&#xD;
+&#xD;
+        Control group:&#xD;
+&#xD;
+        The healthy face (exposed site) and inner forearm (unexposed site) skin of epidermal tumors&#xD;
+        and pigmented diseases of the above experimental group were used as a control group,&#xD;
+        excluding epidermal inflammatory diseases.&#xD;
+&#xD;
+        Exclusion criteria&#xD;
+&#xD;
+        Experimental group:&#xD;
+&#xD;
+          1. Minors aged under 20 years&#xD;
+&#xD;
+          2. Suspected a transcutaneous infectious disease, including infections such as bacteria,&#xD;
+             fungi, viruses, and parasites.&#xD;
+&#xD;
+          3. All skin tumors that are in the subcutaneous tissue&#xD;
+&#xD;
+          4. All skin lesions are open wounds&#xD;
+&#xD;
+          5. All skin lesions are in a location that is difficult to scan&#xD;
+&#xD;
+          6. Not willing to cooperate with methods and related procedures of this study&#xD;
+&#xD;
+          7. Vulnerable populations, including prisoners, pregnant women, handicapped, mentally&#xD;
+             disabled, known AIDS patients, and homelessness&#xD;
+&#xD;
+        Control group:&#xD;
+&#xD;
+          1. Minors under 20 years of age.&#xD;
+&#xD;
+          2. Epidermal inflammatory disease&#xD;
+&#xD;
+          3. Suspected a transcutaneous infectious disease, including infections such as bacteria,&#xD;
+             fungi, viruses, and parasites.&#xD;
+&#xD;
+          4. Individuals who have a systemic skin disorder.&#xD;
+&#xD;
+          5. Individuals who have a history of severe skin condition&#xD;
+&#xD;
+          6. Individuals with surgeries/cosmetic surgeries/micro cosmetic surgery (eg. cosmetic&#xD;
+             injections and/or laser etc.) on healthy skin at face and inner forearm in last 3&#xD;
+             months and a physician determine the surgery will affect outcome of the OCT images.&#xD;
+&#xD;
+          7. Not willing to cooperate with methods and related procedures of this study&#xD;
+&#xD;
+          8. Vulnerable populations, including prisoners, pregnant women, handicapped, mentally&#xD;
+             disabled, known AIDS patients, and homelessness&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mackay Memorial Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yu-Hung Chen, PI</last_name>
+    <phone>+886-2543-3535</phone>
+    <phone_ext>2556</phone_ext>
+    <email>dr.yhwu@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Mackay Memorial Hospital</name>
+      <address>
+        <city>New Taipei City</city>
+        <state>Tamsui District</state>
+        <zip>25160</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yu-Hung Wu, MD</last_name>
+      <phone>+886-2543-3535</phone>
+      <phone_ext>2556</phone_ext>
+      <email>dr.yhwu@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Jen-Yu Wang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yen-Jen Wang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sheng-Lung Huang, Ph.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Schneider SL, Kohli I, Hamzavi IH, Council ML, Rossi AM, Ozog DM. Emerging imaging technologies in dermatology: Part I: Basic principles. J Am Acad Dermatol. 2019 Apr;80(4):1114-1120. doi: 10.1016/j.jaad.2018.11.042. Epub 2018 Dec 4. Review.</citation>
+    <PMID>30528311</PMID>
+  </reference>
+  <reference>
+    <citation>Schneider SL, Kohli I, Hamzavi IH, Council ML, Rossi AM, Ozog DM. Emerging imaging technologies in dermatology: Part II: Applications and limitations. J Am Acad Dermatol. 2019 Apr;80(4):1121-1131. doi: 10.1016/j.jaad.2018.11.043. Epub 2018 Dec 4. Review.</citation>
+    <PMID>30528310</PMID>
+  </reference>
+  <reference>
+    <citation>Dubois A, Levecq O, Azimani H, Siret D, Barut A, Suppa M, Del Marmol V, Malvehy J, Cinotti E, Rubegni P, Perrot JL. Line-field confocal optical coherence tomography for high-resolution noninvasive imaging of skin tumors. J Biomed Opt. 2018 Oct;23(10):1-9. doi: 10.1117/1.JBO.23.10.106007.</citation>
+    <PMID>30353716</PMID>
+  </reference>
+  <reference>
+    <citation>Wang YJ, Huang YK, Wang JY, Wu YH. In vivo characterization of large cell acanthoma by cellular resolution optical coherent tomography. Photodiagnosis Photodyn Ther. 2019 Jun;26:199-202. doi: 10.1016/j.pdpdt.2019.03.020. Epub 2019 Mar 30.</citation>
+    <PMID>30940575</PMID>
+  </reference>
+  <reference>
+    <citation>Tsai CC, Chang CK, Hsu KY, Ho TS, Lin MY, Tjiu JW, Huang SL. Full-depth epidermis tomography using a Mirau-based full-field optical coherence tomography. Biomed Opt Express. 2014 Aug 8;5(9):3001-10. doi: 10.1364/BOE.5.003001. eCollection 2014 Sep 1.</citation>
+    <PMID>25401013</PMID>
+  </reference>
+  <reference>
+    <citation>Chang CK, Tsai CC, Hsu WY, Chen JS, Liao YH, Sheen YS, Hong JB, Lin MY, Tjiu JW, Huang SL. Errata: Segmentation of nucleus and cytoplasm of a single cell in three-dimensional tomogram using optical coherence tomography. J Biomed Opt. 2017 Mar 1;22(3):39801. doi: 10.1117/1.JBO.22.3.039801.</citation>
+    <PMID>28300273</PMID>
+  </reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>December 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 22, 2020</study_first_posted>
+  <last_update_submitted>May 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Mackay Memorial Hospital</investigator_affiliation>
+    <investigator_full_name>Yu-Hung Wu</investigator_full_name>
+    <investigator_title>MD</investigator_title>
+  </responsible_party>
+  <keyword>Optical coherence tomography (OCT)</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>deep learning</keyword>
+  <keyword>skin diseases</keyword>
+  <keyword>dermatology</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Skin Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

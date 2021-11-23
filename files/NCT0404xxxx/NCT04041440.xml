@@ -1,0 +1,707 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04041440</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201602007</org_study_id>
+    <nct_id>NCT04041440</nct_id>
+  </id_info>
+  <brief_title>Speech Recognition Training in Children With Hearing Loss</brief_title>
+  <acronym>ChAT</acronym>
+  <official_title>Customized Auditory Brain Training for Children With Hearing Loss</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      clEAR's auditory brain training has been shown to be effective in improving childrens'&#xD;
+      abilities to recognize the speech of generic talkers in a laboratory setting. In the proposed&#xD;
+      research, the researchers will build upon these results and assess the extent to which&#xD;
+      auditory brain training delivered via the web enhances children's abilities to recognize the&#xD;
+      speech of a potential classroom teacher and diminishes their communication challenges that&#xD;
+      are associated with significant hearing loss. First, investigators will conduct focus groups&#xD;
+      with children who have undergone training with the research version of clEAR's pediatric&#xD;
+      games, then they will recode the games from LabView to Java Script, making changes in the&#xD;
+      games in response to the focus group comments, and finally, they will collect data from 20&#xD;
+      children to assess whether web-based auditory brain training improves their abilities to&#xD;
+      recognize the speech of their (hypothetical) upcoming school year's classroom teacher.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Imagine that someday, children with hearing loss can prepare for an upcoming school year by&#xD;
+      playing computer games with their new teacher's voice throughout the summer. Then, on the&#xD;
+      first day of class, children would have that &quot;Oprah Winfrey effect&quot;, the sense that they know&#xD;
+      the teacher. Children would be able to recognize their teacher's voice much better than they&#xD;
+      would have otherwise, and importantly, they would experience less anxiety because of the&#xD;
+      talker familiarity effect. clEAR is making that &quot;someday&quot; a reality today. clEAR has created&#xD;
+      a new web-based clinical tool for audiologists and teachers to provide customized auditory&#xD;
+      brain training to their patients (www.clearforears.com). Auditory brain training includes&#xD;
+      traditional analytic and synthetic training as well as training to develop those auditory&#xD;
+      cognitive skills that are necessary to decode spoken language regardless of the content&#xD;
+      (i.e., auditory working memory, auditory attention, and auditory processing speed). The&#xD;
+      centerpiece of the clEAR website is a set of auditory brain training games that patients&#xD;
+      play, with oversight and coaching from their hearing healthcare provider or from one of&#xD;
+      clEAR's inhouse audiologists. Currently, clEAR caters to adult patients, and the games&#xD;
+      require some reading ability and a vocabulary that includes the most common words of the&#xD;
+      English language (N=800 words). clEAR has been enrolling paying adult subscribers since May&#xD;
+      of 2017. In the laboratory, a research version of pediatric games is being tested. The&#xD;
+      pediatric games are &quot;childfriendly&quot; and require only a limited vocabulary and no reading&#xD;
+      skills. In this Phase 1, the investigators will first conduct focus groups with 10 children&#xD;
+      who have undergone training with the research version of clEAR's pediatric games, then they&#xD;
+      will recode the games from LabView to Java Script, making changes in the games in response to&#xD;
+      the focus group comments, and finally, they will collect data from 20 children to assess&#xD;
+      whether web-based auditory brain training improves their abilities to recognize the speech of&#xD;
+      their (hypothetical) upcoming school year's classroom teacher. The experimental design will&#xD;
+      be a within-subjects A1-A2-B1-B2 design, where children will serve as their own controls.&#xD;
+      Participants will be tested two times before training with a one-week interval separating the&#xD;
+      test sessions (A1 and A2), to establish a baseline performance, and then immediately after&#xD;
+      training (B1) to establish immediate gains and three weeks later to assess whether gains&#xD;
+      begin to decline following training (B2). All testing and training will occur during the&#xD;
+      summer so the experimental results will not be confounded by benefits possibly accrued&#xD;
+      through school-related activities. Children will complete a total of 16 hours of training and&#xD;
+      will follow the same schedule (i.e., play the games in a prescribed order and for a set&#xD;
+      amount of time each). Outcome measures will come from a comprehensive speech perception test&#xD;
+      battery, questionnaires, and from data collected during training and stored on the children's&#xD;
+      training tablets. In Phase II, the pediatric games will be transferred to the clEAR website&#xD;
+      and develop their commercial potential.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 1, 2019</start_date>
+  <completion_date type="Actual">September 16, 2020</completion_date>
+  <primary_completion_date type="Actual">September 16, 2020</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Within subjects A1 - A2 - B1 - B2 design</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of Words Identified Before and After Training</measure>
+    <time_frame>Before and after the four week training period</time_frame>
+    <description>The measure is percent of 50 common words correctly identified. Words were presented through the application and responses were recorded and scored by the audiologist administering the test.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Processing Speed</measure>
+    <time_frame>over course of 4 weeks</time_frame>
+    <description>How quickly, in milliseconds, a word can be discriminated from a competitor</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Working Memory</measure>
+    <time_frame>over course of 4 weeks</time_frame>
+    <description>Number of words remembered from a list of words presented sequentially</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Subjective Assessment of clEAR Games on a 7-Point Scale</measure>
+    <time_frame>Measured once, after the four week training period</time_frame>
+    <description>clEAR Questionnaire is given to provide researchers feedback and suggestions about the clEAR games from the child's perspective. The questionnaire used 7-point Likert scales, yes-no questions, open ended questions. Average scores across all of the Likert scale questions are reported here because they are quantifiable. Here are the questions analyzed.&#xD;
+How much did you like the home training program?&#xD;
+Do you think playing the games improved your speech discrimination abilities? (how well you understand speech)&#xD;
+Do you think playing the games improved your confidence in conversation?&#xD;
+Did you enjoy playing the games in your home?&#xD;
+How likely would you be to tell your friends who have hearing loss about this program?&#xD;
+Participants were asked to respond to each item using this scale:&#xD;
+(very little) 1 2 3 4 5 6 7 (very much)</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">34</enrollment>
+  <condition>Hearing Loss</condition>
+  <arm_group>
+    <arm_group_label>Auditory Training</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Pre- and post assessments of auditory training intervention</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>clEAR auditory training</intervention_name>
+    <description>Children play auditory brain training computer games</description>
+    <arm_group_label>Auditory Training</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Children with moderate to severe hearing loss.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Must be native English speakers&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>8 Years</minimum_age>
+    <maximum_age>12 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chris A Cardinal, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>clEAR: Customized Hearing</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Washington University School of Medicine</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>62220</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>July 26, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 1, 2019</study_first_posted>
+  <results_first_submitted>April 12, 2021</results_first_submitted>
+  <results_first_submitted_qc>October 12, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">November 10, 2021</results_first_posted>
+  <last_update_submitted>October 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Auditory training</keyword>
+  <keyword>Children with hearing loss</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hearing Loss</mesh_term>
+    <mesh_term>Deafness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Only descriptive data will be shared with other researchers</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 30, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/40/NCT04041440/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Consent Information Sheet for Participation in AT</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>May 13, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/40/NCT04041440/ICF_001.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Informed Consent for Focus group</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>December 3, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/40/NCT04041440/ICF_002.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Focus Groups</title>
+          <description>Two groups of children participated in focus groups (N=7 and N=5). Results of subjective questions and focused conversations from the focus groups were used to update and modify the clEAR games to make them more fun and engaging.</description>
+        </group>
+        <group group_id="P2">
+          <title>Auditory Training Group</title>
+          <description>One group of children participated in auditory training (N=20 completed the protocol, 22 were consented). Results of objective pre- and post-training assessments from the training group were compared to evaluate the effectiveness of the games.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="22"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="12"/>
+                <participants group_id="P2" count="20"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Auditory Training</title>
+          <description>Pre- and post assessments of auditory training intervention&#xD;
+clEAR auditory training: Children play auditory brain training computer gamesFocus</description>
+        </group>
+        <group group_id="B2">
+          <title>Focus Group</title>
+          <description>Two focus groups&#xD;
+Focus groups to collect feedback on current version of games</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="22"/>
+            <count group_id="B2" value="12"/>
+            <count group_id="B3" value="34"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10.6" spread="1.3"/>
+                    <measurement group_id="B2" value="7.28" spread="1.37"/>
+                    <measurement group_id="B3" value="9.45" spread="2.04"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="24"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="27"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="7"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="34"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Words Identified Before and After Training</title>
+        <description>The measure is percent of 50 common words correctly identified. Words were presented through the application and responses were recorded and scored by the audiologist administering the test.</description>
+        <time_frame>Before and after the four week training period</time_frame>
+        <population>Data are for children with hearing loss who participated in the auditory training part of the study. One participant in the auditory training group was unable to complete the assessments before and after the training because their speech perception ability was below the level of the assessment material. They were allowed to continue the training part of the study to see if they could still be helped by the training. Outcome measures were not collected from the Focus group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Auditory Training Group</title>
+            <description>Children playing auditory brain training computer games</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Words Identified Before and After Training</title>
+          <description>The measure is percent of 50 common words correctly identified. Words were presented through the application and responses were recorded and scored by the audiologist administering the test.</description>
+          <population>Data are for children with hearing loss who participated in the auditory training part of the study. One participant in the auditory training group was unable to complete the assessments before and after the training because their speech perception ability was below the level of the assessment material. They were allowed to continue the training part of the study to see if they could still be helped by the training. Outcome measures were not collected from the Focus group.</population>
+          <units>percentage of words presented</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="19"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Pre-Training Scores</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="49.7" spread="13.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Post-Training Scores</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55.7" spread="17.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Processing Speed</title>
+        <description>How quickly, in milliseconds, a word can be discriminated from a competitor</description>
+        <time_frame>over course of 4 weeks</time_frame>
+        <population>Data were not collected as the protocol was revised to include only testing that could be conducted remotely. This type of cognitive task requires monitored testing procedures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Auditory Training Group</title>
+            <description>Children with hearing impairment playing auditory brain training computer games</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Processing Speed</title>
+          <description>How quickly, in milliseconds, a word can be discriminated from a competitor</description>
+          <population>Data were not collected as the protocol was revised to include only testing that could be conducted remotely. This type of cognitive task requires monitored testing procedures.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Working Memory</title>
+        <description>Number of words remembered from a list of words presented sequentially</description>
+        <time_frame>over course of 4 weeks</time_frame>
+        <population>Data were not collected as the protocol was revised to include only testing that could be conducted remotely. This type of cognitive task requires monitored testing procedures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Auditory Training Group</title>
+            <description>Children with hearing impairment playing auditory brain training computer games</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Working Memory</title>
+          <description>Number of words remembered from a list of words presented sequentially</description>
+          <population>Data were not collected as the protocol was revised to include only testing that could be conducted remotely. This type of cognitive task requires monitored testing procedures.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Subjective Assessment of clEAR Games on a 7-Point Scale</title>
+        <description>clEAR Questionnaire is given to provide researchers feedback and suggestions about the clEAR games from the child's perspective. The questionnaire used 7-point Likert scales, yes-no questions, open ended questions. Average scores across all of the Likert scale questions are reported here because they are quantifiable. Here are the questions analyzed.&#xD;
+How much did you like the home training program?&#xD;
+Do you think playing the games improved your speech discrimination abilities? (how well you understand speech)&#xD;
+Do you think playing the games improved your confidence in conversation?&#xD;
+Did you enjoy playing the games in your home?&#xD;
+How likely would you be to tell your friends who have hearing loss about this program?&#xD;
+Participants were asked to respond to each item using this scale:&#xD;
+(very little) 1 2 3 4 5 6 7 (very much)</description>
+        <time_frame>Measured once, after the four week training period</time_frame>
+        <population>Data are for children with hearing loss who participated in the auditory training part of the study. Outcome measures were not collected from the Focus Group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Auditory Training Group</title>
+            <description>Children that played the auditory brain training computer games</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Subjective Assessment of clEAR Games on a 7-Point Scale</title>
+          <description>clEAR Questionnaire is given to provide researchers feedback and suggestions about the clEAR games from the child's perspective. The questionnaire used 7-point Likert scales, yes-no questions, open ended questions. Average scores across all of the Likert scale questions are reported here because they are quantifiable. Here are the questions analyzed.&#xD;
+How much did you like the home training program?&#xD;
+Do you think playing the games improved your speech discrimination abilities? (how well you understand speech)&#xD;
+Do you think playing the games improved your confidence in conversation?&#xD;
+Did you enjoy playing the games in your home?&#xD;
+How likely would you be to tell your friends who have hearing loss about this program?&#xD;
+Participants were asked to respond to each item using this scale:&#xD;
+(very little) 1 2 3 4 5 6 7 (very much)</description>
+          <population>Data are for children with hearing loss who participated in the auditory training part of the study. Outcome measures were not collected from the Focus Group.</population>
+          <units>Units on a 7-point scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.25" spread="1.41"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Three Months</time_frame>
+      <desc>No adverse events were anticipated.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Focus Groups</title>
+          <description>Two groups of children participated in focus groups (N=7 and N=5). Results of subjective questions and focused conversations from the focus groups were used to update and modify the clEAR games to make them more fun and engaging.</description>
+        </group>
+        <group group_id="E2">
+          <title>Auditory Training Group</title>
+          <description>One group of children participated in auditory training (N=20 completed the protocol, 22 were consented). Results of objective pre- and post-training assessments from the training group were compared to evaluate the effectiveness of the games.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="12"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="22"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Chief Operating Officer</name_or_title>
+      <organization>Customized Learning Exercises for Aural Rehabilitation</organization>
+      <phone>314 399-9943</phone>
+      <email>chris@amptify.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

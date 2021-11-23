@@ -1,0 +1,238 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04792437</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KY2021-059</org_study_id>
+    <nct_id>NCT04792437</nct_id>
+  </id_info>
+  <brief_title>Research on Precise Immune Prevention and Treatment of Glioma Based on Multi-omics Sequencing Data</brief_title>
+  <official_title>Research on Precise Immune Prevention and Treatment of Glioma Based on Multi-omics Sequencing Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yu Yao, MD</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Huashan Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project intends to use multiple types of biological samples from glioma patients and&#xD;
+      mouse intracranial tumor models as research objects, and comprehensively apply a series of&#xD;
+      omics sequencing technologies and molecular biology technologies to jointly define the&#xD;
+      following research objectives :&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Through high-throughput sequencing technologies such as， genome sequencing,&#xD;
+           transcriptome sequencing and single-cell sequencing, Proteomics，Metabonomics and&#xD;
+           Metagenomics， the similarities and differences of the glioma immune microenvironment&#xD;
+           within and between individuals were revealed from the multi-dimensional and big data&#xD;
+           level, and the immune molecular typing of glioma was established.&#xD;
+&#xD;
+        2. Establish and verify that the neoantigen polypeptides predicted by AI algorithm after&#xD;
+           analyzing multi-omics data (genome, transcriptome, etc.) have good killing effect on&#xD;
+           individual tumor cells.&#xD;
+&#xD;
+        3. To establish an intelligent evaluation model of glioma immunotyping by integrating&#xD;
+           imaging, pathology, high-throughput sequencing data and other omics information, and to&#xD;
+           provide a visual tool for monitoring changes in the intratumoral microenvironment of&#xD;
+           glioma patients, with the expectation of helping timely intervention of immunotherapy in&#xD;
+           patients with recurrence.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 10, 2021</start_date>
+  <completion_date type="Anticipated">September 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall Survival（OS），month</measure>
+    <time_frame>24 month</time_frame>
+    <description>Survival time from surgery to death in 120 patients with glioma.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Progress Free Survival （PFS），month</measure>
+    <time_frame>24 month</time_frame>
+    <description>Survival time from surgery to first progression or death from any cause in patients with glioma.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Tumor Mutation Burden（TMB），mutations/mb, drived from Genomic sequencing</measure>
+    <time_frame>24 month</time_frame>
+    <description>the level of gene mutation，including TERT、GMEM、IDH.etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Reads Per Kilobase Million（RPKM），KB^(-1), drived from Transcriptome sequencing</measure>
+    <time_frame>24 month</time_frame>
+    <description>the expression level of RNA,including mRNA、 miRNA、circRNA.etc</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>expression level of protein , drived from Protein sequencing</measure>
+    <time_frame>24 month</time_frame>
+    <description>the expression level of protein, post-translational modification and protein-protein interaction，including PD1、PDL1、CD4、CD8.etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>expression level of low molecular weight protein，drived from Metabonomics</measure>
+    <time_frame>24 month</time_frame>
+    <description>the expression level and interaction of different Metabolites，including D-2-Hydroxyglutarate. etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>expression level of DNA，drived from Metagenomics</measure>
+    <time_frame>24 month</time_frame>
+    <description>Differences about DNA expression of all microorganisms in the environment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>frequency of TCR/BCR clone，drived from Immunomics</measure>
+    <time_frame>24month</time_frame>
+    <description>different expression level and interaction of Immune molecules，including TCR、BCR、antibody.etc.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>expression level of protein，drived from paraffin-embedded specimens， retrospectively collected.</measure>
+    <time_frame>24month</time_frame>
+    <description>different expression level of proteins in Gliomas with different grades and molecular subgroups (1000 cases)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Transcriptomics</condition>
+  <condition>Radiomics</condition>
+  <condition>Glioma</condition>
+  <arm_group>
+    <arm_group_label>glioma patients</arm_group_label>
+    <description>glioma patients with routine surgery</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>surgery</intervention_name>
+    <description>surgery</description>
+    <arm_group_label>glioma patients</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Peripheral blood、urine、feces、Glioma tissue、brain tissue、meninges、Cerebrospinal fluid&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients undergoing glioma surgery at Huashan Hospital&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  The patients with glioma in the Department of Neurosurgery of Huashan Hospital&#xD;
+             Affiliated to Fudan University who meet the following three conditions can be enrolled&#xD;
+&#xD;
+               1. They were 18-80 years old, male and female;&#xD;
+&#xD;
+               2. The pathological diagnosis was glioma;&#xD;
+&#xD;
+               3. On the basis of not affecting the clinical routine diagnosis, tissue (6 mm * 6&#xD;
+                  mm) or paraffin section (5 pieces) can be used for research;&#xD;
+&#xD;
+               4. Sign informed consent or ethics committee approval&#xD;
+&#xD;
+                  Exclusion Criteria:&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Huashan hospital， Fudan University</name>
+      <address>
+        <city>Shanghai</city>
+        <zip>200040</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yu Yao</last_name>
+      <phone>86-021-5288-9999</phone>
+      <email>yu_yao03@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Ostrom QT, Gittleman H, Truitt G, Boscia A, Kruchko C, Barnholtz-Sloan JS. CBTRUS Statistical Report: Primary Brain and Other Central Nervous System Tumors Diagnosed in the United States in 2011-2015. Neuro Oncol. 2018 Oct 1;20(suppl_4):iv1-iv86. doi: 10.1093/neuonc/noy131. Review. Erratum in: Neuro Oncol. 2018 Nov 17;:null.</citation>
+    <PMID>30445539</PMID>
+  </reference>
+  <reference>
+    <citation>Stupp R, Hegi ME, Mason WP, van den Bent MJ, Taphoorn MJ, Janzer RC, Ludwin SK, Allgeier A, Fisher B, Belanger K, Hau P, Brandes AA, Gijtenbeek J, Marosi C, Vecht CJ, Mokhtari K, Wesseling P, Villa S, Eisenhauer E, Gorlia T, Weller M, Lacombe D, Cairncross JG, Mirimanoff RO; European Organisation for Research and Treatment of Cancer Brain Tumour and Radiation Oncology Groups; National Cancer Institute of Canada Clinical Trials Group. Effects of radiotherapy with concomitant and adjuvant temozolomide versus radiotherapy alone on survival in glioblastoma in a randomised phase III study: 5-year analysis of the EORTC-NCIC trial. Lancet Oncol. 2009 May;10(5):459-66. doi: 10.1016/S1470-2045(09)70025-7. Epub 2009 Mar 9.</citation>
+    <PMID>19269895</PMID>
+  </reference>
+  <reference>
+    <citation>Tan AC, Ashley DM, López GY, Malinzak M, Friedman HS, Khasraw M. Management of glioblastoma: State of the art and future directions. CA Cancer J Clin. 2020 Jul;70(4):299-312. doi: 10.3322/caac.21613. Epub 2020 Jun 1. Review.</citation>
+    <PMID>32478924</PMID>
+  </reference>
+  <reference>
+    <citation>Chheda ZS, Kohanbash G, Okada K, Jahan N, Sidney J, Pecoraro M, Yang X, Carrera DA, Downey KM, Shrivastav S, Liu S, Lin Y, Lagisetti C, Chuntova P, Watchmaker PB, Mueller S, Pollack IF, Rajalingam R, Carcaboso AM, Mann M, Sette A, Garcia KC, Hou Y, Okada H. Novel and shared neoantigen derived from histone 3 variant H3.3K27M mutation for glioma T cell therapy. J Exp Med. 2018 Jan 2;215(1):141-157. doi: 10.1084/jem.20171046. Epub 2017 Dec 4.</citation>
+    <PMID>29203539</PMID>
+  </reference>
+  <reference>
+    <citation>Nejo T, Matsushita H, Karasaki T, Nomura M, Saito K, Tanaka S, Takayanagi S, Hana T, Takahashi S, Kitagawa Y, Koike T, Kobayashi Y, Nagae G, Yamamoto S, Ueda H, Tatsuno K, Narita Y, Nagane M, Ueki K, Nishikawa R, Aburatani H, Mukasa A, Saito N, Kakimi K. Reduced Neoantigen Expression Revealed by Longitudinal Multiomics as a Possible Immune Evasion Mechanism in Glioma. Cancer Immunol Res. 2019 Jul;7(7):1148-1161. doi: 10.1158/2326-6066.CIR-18-0599. Epub 2019 May 14.</citation>
+    <PMID>31088845</PMID>
+  </reference>
+  <reference>
+    <citation>Keskin DB, Anandappa AJ, Sun J, Tirosh I, Mathewson ND, Li S, Oliveira G, Giobbie-Hurder A, Felt K, Gjini E, Shukla SA, Hu Z, Li L, Le PM, Allesøe RL, Richman AR, Kowalczyk MS, Abdelrahman S, Geduldig JE, Charbonneau S, Pelton K, Iorgulescu JB, Elagina L, Zhang W, Olive O, McCluskey C, Olsen LR, Stevens J, Lane WJ, Salazar AM, Daley H, Wen PY, Chiocca EA, Harden M, Lennon NJ, Gabriel S, Getz G, Lander ES, Regev A, Ritz J, Neuberg D, Rodig SJ, Ligon KL, Suvà ML, Wucherpfennig KW, Hacohen N, Fritsch EF, Livak KJ, Ott PA, Wu CJ, Reardon DA. Neoantigen vaccine generates intratumoral T cell responses in phase Ib glioblastoma trial. Nature. 2019 Jan;565(7738):234-239. doi: 10.1038/s41586-018-0792-9. Epub 2018 Dec 19.</citation>
+    <PMID>30568305</PMID>
+  </reference>
+  <reference>
+    <citation>Hilf N, Kuttruff-Coqui S, Frenzel K, Bukur V, Stevanović S, Gouttefangeas C, Platten M, Tabatabai G, Dutoit V, van der Burg SH, Thor Straten P, Martínez-Ricarte F, Ponsati B, Okada H, Lassen U, Admon A, Ottensmeier CH, Ulges A, Kreiter S, von Deimling A, Skardelly M, Migliorini D, Kroep JR, Idorn M, Rodon J, Piró J, Poulsen HS, Shraibman B, McCann K, Mendrzyk R, Löwer M, Stieglbauer M, Britten CM, Capper D, Welters MJP, Sahuquillo J, Kiesel K, Derhovanessian E, Rusch E, Bunse L, Song C, Heesch S, Wagner C, Kemmer-Brück A, Ludwig J, Castle JC, Schoor O, Tadmor AD, Green E, Fritsche J, Meyer M, Pawlowski N, Dorner S, Hoffgaard F, Rössler B, Maurer D, Weinschenk T, Reinhardt C, Huber C, Rammensee HG, Singh-Jasuja H, Sahin U, Dietrich PY, Wick W. Actively personalized vaccination trial for newly diagnosed glioblastoma. Nature. 2019 Jan;565(7738):240-245. doi: 10.1038/s41586-018-0810-y. Epub 2018 Dec 19. Erratum in: Nature. 2019 Feb;566(7745):E13.</citation>
+    <PMID>30568303</PMID>
+  </reference>
+  <reference>
+    <citation>Li Y, Liu X, Xu K, Qian Z, Wang K, Fan X, Li S, Wang Y, Jiang T. MRI features can predict EGFR expression in lower grade gliomas: A voxel-based radiomic analysis. Eur Radiol. 2018 Jan;28(1):356-362. doi: 10.1007/s00330-017-4964-z. Epub 2017 Jul 28.</citation>
+    <PMID>28755054</PMID>
+  </reference>
+  <reference>
+    <citation>Grossmann P, Gutman DA, Dunn WD Jr, Holder CA, Aerts HJ. Imaging-genomics reveals driving pathways of MRI derived volumetric tumor phenotype features in Glioblastoma. BMC Cancer. 2016 Aug 8;16:611. doi: 10.1186/s12885-016-2659-5.</citation>
+    <PMID>27502180</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 7, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 11, 2021</study_first_posted>
+  <last_update_submitted>March 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Huashan Hospital</investigator_affiliation>
+    <investigator_full_name>Yu Yao, MD</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,220 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04918992</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MRI-RP</org_study_id>
+    <nct_id>NCT04918992</nct_id>
+  </id_info>
+  <brief_title>Post Radiotherapy MRI Based AI System to Predict Radiation Proctitis for Pelvic Cancers</brief_title>
+  <acronym>MRI-RP-2021</acronym>
+  <official_title>Post-radiotherapy MRI Based AI System to Predict Radiation Proctitis for Pelvic Cancers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sixth Affiliated Hospital, Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sixth Affiliated Hospital, Sun Yat-sen University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, investigators utilize a Artificial Intelligence (AI) supportive system to&#xD;
+      predict radiation proctitis for patients with pelvic cancers underwent radiotherapy. By the&#xD;
+      system, whether the participants achieve the radiation proctitis will be identified based on&#xD;
+      the radiomics features extracted from the post radiotherapy Magnetic Resonance Imaging (MRI)&#xD;
+      . The predictive power to discriminate the radiation proctitis individuals from non-radiation&#xD;
+      proctitis patients, will be validated in this multicenter, prospective clinical study.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a multicenter, prospective, observational clinical study for seeking out a better way&#xD;
+      to predict the radiation proctitis in patients with pelvic cancers based on the&#xD;
+      post-radiotherapy Magnetic Resonance Imaging (MRI) data. Patients who have been&#xD;
+      pathologically diagnosed as pelvic cancers will be enrolled from the Sixth Affiliated&#xD;
+      Hospital of Sun Yat-sen University, Sir Run Run Shaw Hospital and the Third Affiliated&#xD;
+      Hospital of Kunming Medical College. Patients with pelvic cancers who received radiotherapy&#xD;
+      will be enrolled and their post-radiotherapy MRI images will be used to predict their&#xD;
+      radiation proctitis or not. The clinical symptoms, endoscopic findings, imaging and&#xD;
+      histopathology as a standard. The predictive efficacy will be tested in this multicenter,&#xD;
+      prospective clinical study.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 22, 2021</start_date>
+  <completion_date type="Anticipated">August 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The area under curve (AUC) of Receiver Operating Characteristic (ROC) curves of AI prediction system in prediction radiation proctitis</measure>
+    <time_frame>baseline</time_frame>
+    <description>The area under curve (AUC) of Receiver Operating Characteristic (ROC) curves of AI prediction system in identifying the radiation proctitis candidates from non-radiation proctitis individuals among pelvic cancers underwent radiotherapy</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The specificity of AI prediction system in prediction radiation proctitis</measure>
+    <time_frame>baseline</time_frame>
+    <description>The specificity of AI prediction system in identifying the radiation proctitis candidates from non-radiation proctitis individuals among pelvic cancers underwent radiotherapy</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>The sensitivity of AI prediction system in prediction the radiation proctitis candidates</measure>
+    <time_frame>baseline</time_frame>
+    <description>The sensitivity of AI prediction system in identifying the radiation proctitis candidates from non-radiation proctitis individuals among pelvic cancers underwent radiotherapy</description>
+  </other_outcome>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Pelvic Cancer</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Artificial Intelligence</intervention_name>
+    <description>investigators utilize a Artificial Intelligence (AI) supportive system to predict radiation proctitis for patients with pelvic cancers underwent radiotherapy</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        pelvic cancers who underwent radiotherapy will be enrolled in our study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  pathologically diagnosed as pelvic tumours&#xD;
+&#xD;
+          -  intending to receive or undergoing radiotherapy&#xD;
+&#xD;
+          -  MRI (high-solution T2-weighted imaging, contrast-enhanced T1-weighted imaging, and&#xD;
+             diffusion-weighted imaging are required) examination is completed after radiotherapy&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  insufficient imaging quality of MRI (e.g., lack of sequence, motion artifacts)&#xD;
+&#xD;
+          -  incomplete radiotherapy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Xinjuan Fan, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Sixth Affiliated Hospital, Sun Yat-sen University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Weidong Han, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sir Run Run Shaw Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Zhenhui Li, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Third Affiliated Hospital of Kunming Medical College.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xinjuan Fan, MD</last_name>
+    <phone>+86 13602442569</phone>
+    <email>fanxjuan@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>the Sixth Affiliated Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Xinjuan Fan, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>the Sixth Affiliated Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>GuangZhou</city>
+        <state>Guangdong</state>
+        <zip>510655</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Xinjuan Fan, MD</last_name>
+      <phone>+86 13602442569</phone>
+      <email>fanxjuan@mail.sysu.edu.cn</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>The Third Affiliated Hospital of Kunming Medical College</name>
+      <address>
+        <city>Kunming</city>
+        <state>Yunnan</state>
+        <zip>650000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Zhenhui Li, MD</last_name>
+      <phone>+86 13698736132</phone>
+      <email>lizhenhui621@163.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Sir Run Run Shaw Hospital</name>
+      <address>
+        <city>HangZhou</city>
+        <state>Zhejiang</state>
+        <zip>310000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Weidong Han, MD</last_name>
+      <phone>+86 13819124503</phone>
+      <email>hanwd@zju.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2021</study_first_posted>
+  <last_update_submitted>June 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>radiation proctitis</keyword>
+  <keyword>pelvic cancers</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pelvic Neoplasms</mesh_term>
+    <mesh_term>Proctitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

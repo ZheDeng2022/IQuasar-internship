@@ -1,0 +1,201 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04991779</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHFudanU_NNICU16</org_study_id>
+    <nct_id>NCT04991779</nct_id>
+  </id_info>
+  <brief_title>AI-assisted cEEG Diagnosis of Neonatal Seizures in Neonatal Intensive Care Unit</brief_title>
+  <official_title>A Multicenter Diagnostic Study on the Utility of AI-assisted Continue EEG Diagnosis of Neonatal Seizures</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Children's Hospital of Fudan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Chengdu Women's and Children's Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Xiamen Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kunming Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Children's Hospital of Fudan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A diagnostic accuracy study on Artificial intelligence assisted continue EEG diagnostic tool&#xD;
+      is to carried out comparing with manually EEG interpretation as the golden standard for&#xD;
+      neonatal seizure.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The occurrence of neonatal seizures may be the first, and perhaps the only, clinical sign of&#xD;
+      a central nervous system disorder in the newborn infant. The incidence of neonatal seizures&#xD;
+      is variable based on gestational age. The etiology of seizures may indicate the presence of a&#xD;
+      potentially treatable etiology and should prompt an immediate evaluation to determine the&#xD;
+      cause and to initiate etiology-specific therapy. Importantly, the earlier treatment of&#xD;
+      seizures positively affects the infant's long-term neurological development. However, even&#xD;
+      when continue electroencephalogram (cEEG) monitoring is available, the availability of&#xD;
+      on-site expertise to interpret cEEG signals is limited and in practice, the diagnosis is&#xD;
+      still based only on clinical signs. The previous study indicated that the reliable seizure&#xD;
+      detection was as little as 10% of seizure events. Therefore, an early automated seizure&#xD;
+      detection tool has been developed based on machine learning. The lack of an automated seizure&#xD;
+      detection tool has been validated in the external neonatal seizures cohort. The evidence on&#xD;
+      the utility of the automated seizure detection tool remains uncertain. This is a prospective,&#xD;
+      continuous double-blind designed diagnostic accuracy study. The study aims to validate the&#xD;
+      accuracy of the artificial intelligence (AI)-assisted cEEG diagnostic tool comparing the&#xD;
+      manually cEEG interpretation as the golden standard of neonatal seizure in neonatal intensive&#xD;
+      care units. Analysis of sensitivity and specificity is to evaluate the accuracy of&#xD;
+      AI-assisted cEEG diagnostic tool.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 20, 2021</start_date>
+  <completion_date type="Anticipated">November 20, 2023</completion_date>
+  <primary_completion_date type="Anticipated">November 20, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The accuracy of AI-assisted cEEG diagnostic tool in evaluating the neonatal seizure</measure>
+    <time_frame>within 7 days since the end of cEEG monitoring during hospitalization</time_frame>
+    <description>The accuracy of includes sensitivity and specificity. The reference standard is the electrographic seizures interpreted by 3 clinicians who had attended the uniformly training program and were certified by the Chinese Anti-Epilepsy Association.&#xD;
+Sensitivity is defined as: The proportion of neonates with seizures is successfully screened out by AI-assisted cEEG diagnostic tool.&#xD;
+Specificity is defined as: The proportion of neonates without seizures who are not recognized as seizures by AI-assisted cEEG diagnostic tool.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Neonatal Seizure</condition>
+  <arm_group>
+    <arm_group_label>The neonates with suspected seizures or high risk of seizures</arm_group_label>
+    <description>The neonates with suspected seizures or high risk of seizures are monitored by continuous electroencephalogram (cEEG) at least 12 hours since admission. The cEEG will be interpreted by AI-assisted cEEG diagnostic tool at the end of cEEG monitoring. At the same time, the same cEEG will be manually reported according the reference standard.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>AI-assisted cEEG detection tool</intervention_name>
+    <description>This study is an observational study to evaluate the accuracy of AI-assisted cEEG diagnostic tool with routine care. All patients from the cohort accept cEEG monitoring and AI-assisted cEEG detection tool.&#xD;
+The tool included a quantitive EEG neural signal processing pipeline to extract features from the original signal datasets, machine learning models based on gradient boosted model for prediction.&#xD;
+The reference standard is the electrographic seizures interpreted by 3 clinicians who had attended the uniformly training program and were certified by the Chinese Anti-Epilepsy Association.</description>
+    <arm_group_label>The neonates with suspected seizures or high risk of seizures</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Neonates with suspected seizures and high risk of seizures&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Postnatal age &lt; or = 28 days;&#xD;
+&#xD;
+          -  cEEG monitoring at least 12hours monitoring;&#xD;
+&#xD;
+          -  Suspected seizures;&#xD;
+&#xD;
+          -  Risk of Intracranial hemorrhage;&#xD;
+&#xD;
+          -  Abnormality of MRI or ultrasound before cEEG;&#xD;
+&#xD;
+          -  Neonates diagnosed with encephalopathy or suspected of encephalopathy;&#xD;
+&#xD;
+          -  Hypoxic-ischemic encephalopathy or suspected hypoxic-ischemic encephalopathy;&#xD;
+&#xD;
+          -  Metabolic disturbances (Hypoglycemia, Hypocalcemia, Hypomagnesemia, Inborn errors of&#xD;
+             metabolism);&#xD;
+&#xD;
+          -  Central nervous system (CNS) or systemic infections;&#xD;
+&#xD;
+          -  Postsurgical neonatal within 3 days;&#xD;
+&#xD;
+          -  Suspected genetic disease or Positive genetic diagnoses;&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  The neonates with head scalp defect, scalp hematoma, edema and other contraindications&#xD;
+             which are not suitable for cEEG monitoring during hospitalization.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>28 Days</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Wenhao Zhou, Ph.D</last_name>
+    <role>Study Chair</role>
+    <affiliation>Children's Hospital of Fudan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Wenhao Zhou, Ph.D</last_name>
+    <phone>+86-21-64931913</phone>
+    <email>zhouwenhao@fudan.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Tiantian Xiao, M.D</last_name>
+    <email>xiao13671814745@163.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Children Hospital of Fudan University</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>201102</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <results_reference>
+    <citation>Rennie JM, de Vries LS, Blennow M, Foran A, Shah DK, Livingstone V, van Huffelen AC, Mathieson SR, Pavlidis E, Weeke LC, Toet MC, Finder M, Pinnamaneni RM, Murray DM, Ryan AC, Marnane WP, Boylan GB. Characterisation of neonatal seizures and their treatment using continuous EEG monitoring: a multicentre experience. Arch Dis Child Fetal Neonatal Ed. 2019 Sep;104(5):F493-F501. doi: 10.1136/archdischild-2018-315624. Epub 2018 Nov 24.</citation>
+    <PMID>30472660</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Shellhaas RA, Chang T, Tsuchida T, Scher MS, Riviello JJ, Abend NS, Nguyen S, Wusthoff CJ, Clancy RR. The American Clinical Neurophysiology Society's Guideline on Continuous Electroencephalography Monitoring in Neonates. J Clin Neurophysiol. 2011 Dec;28(6):611-7. doi: 10.1097/WNP.0b013e31823e96d7.</citation>
+    <PMID>22146359</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hoodbhoy Z, Masroor Jeelani S, Aziz A, Habib MI, Iqbal B, Akmal W, Siddiqui K, Hasan B, Leeflang M, Das JK. Machine Learning for Child and Adolescent Health: A Systematic Review. Pediatrics. 2021 Jan;147(1). pii: e2020011833. doi: 10.1542/peds.2020-011833. Epub 2020 Dec 15.</citation>
+    <PMID>33323492</PMID>
+  </results_reference>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>July 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 5, 2021</study_first_posted>
+  <last_update_submitted>October 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Seizures</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

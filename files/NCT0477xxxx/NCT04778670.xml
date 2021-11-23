@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04778670</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STGKS001</org_study_id>
+    <secondary_id>EPM 2020-00487</secondary_id>
+    <secondary_id>K 2020-0807</secondary_id>
+    <nct_id>NCT04778670</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence in Large-scale Breast Cancer Screening</brief_title>
+  <acronym>ScreenTrustCAD</acronym>
+  <official_title>Artificial Intelligence in a Population-based Breast Cancer Screening - the Prospective Clinical Trial ScreenTrust CAD</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Capio Sankt Görans Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Lunit Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Karolinska Institutet</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Karolinska University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective clinical trial following a paired screen-positive design, with the aims&#xD;
+      to assess the performance of an artificial intelligence (AI) computer-aided detection (CAD)&#xD;
+      algorithm as an independent reader, in addition to two radiologists, of screening mammograms&#xD;
+      in a true screening population. Since all decisions by individual readers will be recorded,&#xD;
+      it is possible to determine what the outcome would have been had one or two of the readers&#xD;
+      not been allowed to assess images, and to determine what the outcome would have been had the&#xD;
+      recall decision been performed by consensus decision (actual) compared to single reader&#xD;
+      arbitration of discordant cases.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">December 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is a prospective clinical trial following a paired screen-positive design (Pepe, Alonzo; 2001), with the aims to assess the performance of an AI algorithm combined with radiologists(s) compared to standard-of-care being two radiologists assessing screening mammograms in a true screening population. Since all decisions by individual readers will be recorded, it is possible to determine what the outcome would have been had one or two of the readers not been allowed to assess images, and to determine what the outcome would have been had the recall decision been performed by consensus decision (actual) compared to single reader arbitration of discordant cases.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Triple (Participant, Care Provider, Investigator)</masking>
+    <masking_description>Positive disease status is ascertained by pathology-verified breast cancer. Disease status is not known to any of the actors (except for the outcomes assessor by necessity). AI decision is not known by the care provider radiologists until they have made their decisions. In the subsequent consensus discussion where a decision is made to recall or not to recall a woman, the AI decision is known. After AI decision has been recorded and outcomes have been assessed, the investigators will have full information on outcomes and AI decisions.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incident breast cancer</measure>
+    <time_frame>At Screening</time_frame>
+    <description>Breast cancer diagnosis by pathologist</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incident breast cancer</measure>
+    <time_frame>Within 12 months after screening</time_frame>
+    <description>Breast cancer diagnosis by pathologist</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incident breast cancer</measure>
+    <time_frame>Within 23 months after screening</time_frame>
+    <description>Breast cancer diagnosis by pathologist</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Reader flagging</measure>
+    <time_frame>At screening</time_frame>
+    <description>Radiologist or AICAD assessing the mammograms as suspicious or not suspicious for malignancy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Consensus recall</measure>
+    <time_frame>At screening</time_frame>
+    <description>A decision by the consensus discussion to recall the woman for further work-up</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tissue sampling</measure>
+    <time_frame>At screening</time_frame>
+    <description>Biopsy or fine needle aspiration performed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Process failure</measure>
+    <time_frame>At screening</time_frame>
+    <description>Failure of the AI CAD software to generate AI scores</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">55000</enrollment>
+  <condition>Breast Neoplasm Female</condition>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Standard of Care means all examinations will receive a flagging decision by: first reader and second reader radiologist as usual. However, in this paired design all participants will belong to both arms.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AI CAD combination</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AI CAD combination in the primary end-point means the combination of the flagging decision of the first reader and AI CAD; in the secondary end-points it means any combination of AI alone, or AI in combination with first, second and both readers.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>AI CAD</intervention_name>
+    <description>The Lunit INSIGHT MMG will be used as the AI CAD in our study. Initially, version 1.6.1.1 will be installed. The software version will be continuously updated with subsequent software releases, after confirming in a historic calibration dataset that the performance is improved. The operating point will be set based on a historic calibration dataset to attain a joint sensitivity of breast cancer detection of AI and first reader which is 2% higher than for first and second reader.</description>
+    <arm_group_label>AI CAD combination</arm_group_label>
+    <other_name>Lunit INSIGHT MMG</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Radiologist reading</intervention_name>
+    <description>Standard of care, each radiologist will assess the mammography examination, making a binary flagging decision (flag the examination to continue to consensus discussion, or not)</description>
+    <arm_group_label>AI CAD combination</arm_group_label>
+    <arm_group_label>Standard of Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participants in regular population-based breast cancer screening at Capio St Göran&#xD;
+             Hospital&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Incomplete exam (complete exam: mediolateral oblique and craniocaudal images of Left&#xD;
+             and Right breast)&#xD;
+&#xD;
+          -  Breast implant&#xD;
+&#xD;
+          -  Complete mastectomy (excluded from screening positive group)&#xD;
+&#xD;
+          -  Participant in surveillance program for prior breast cancer&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>74 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Fredrik Strand, MD PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karolinska University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Fredrik Strand, MD PhD</last_name>
+    <phone>+46 8 51770000</phone>
+    <email>fredrik.strand@ki.se</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Capio St Göran Hospital</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>11219</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anders Byström, MD</last_name>
+      <phone>+46 858701000</phone>
+      <email>anders.bystrom@capiostgoran.se</email>
+    </contact>
+    <investigator>
+      <last_name>Fredrik Strand, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Karin Dembrower, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>February 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 3, 2021</study_first_posted>
+  <last_update_submitted>May 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska University Hospital</investigator_affiliation>
+    <investigator_full_name>Fredrik Strand</investigator_full_name>
+    <investigator_title>Registrar (biträdande överläkare)</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Breast Cancer</keyword>
+  <keyword>Mammography</keyword>
+  <keyword>Screening</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>To the extent allowed by source institution, legal agreements, and applicable laws and regulations</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>At study start</ipd_time_frame>
+    <ipd_access_criteria>Anyone can access study protocol and SAP.</ipd_access_criteria>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 22, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/70/NCT04778670/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

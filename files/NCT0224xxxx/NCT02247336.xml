@@ -1,0 +1,713 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02247336</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IIR 12-378</org_study_id>
+    <nct_id>NCT02247336</nct_id>
+  </id_info>
+  <brief_title>Impact of Family History and Decision Support on High-risk Cancer Screening</brief_title>
+  <official_title>Impact of Family History and Decision Support on High-risk Cancer Screening</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Family health history can help identify patients at higher than average risk for disease.&#xD;
+      There is no standardized system for collecting and updating family health history, using this&#xD;
+      information to determine a patient's disease risk level, and providing screening&#xD;
+      recommendations to patients and providers. Patients will enter their family health history&#xD;
+      into MeTree, a family history software program. The program will produce screening&#xD;
+      recommendations tailored to the patient's family health history. The investigators will&#xD;
+      examine whether this process increases physician referrals for, and patient uptake of,&#xD;
+      guideline-recommended screening for colorectal cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Eligible patients are aged 40-65 years, enrolled in primary care, do not have a personal&#xD;
+      history of colorectal cancer, and have some knowledge of family health history. In Aim 1, a&#xD;
+      retrospective chart review will be conducted to determine the baseline rate of documenting&#xD;
+      family health history of colorectal cancer in the medical record for patients enrolled in the&#xD;
+      Aim 2 randomized trial. In Aim 2, consented patients will be randomized to provide&#xD;
+      patient-entered family health history and receive patient and provider decision support at&#xD;
+      enrollment or 12 months later (wait-list control). The primary outcome is risk-appropriate&#xD;
+      CRC screening/surveillance referral for patients 12 months post-enrollment. Secondary&#xD;
+      outcomes include patient uptake of recommendations and referral for genetic consultation 12&#xD;
+      months post-enrollment. In Aim 3, qualitative interviews will be conducted with physicians&#xD;
+      and clinic leaders; data will be analyzed using conventional content analysis. In Aim 4, data&#xD;
+      will be obtained from the administrative databases and patient medical records to conduct a&#xD;
+      budget impact analysis.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 1, 2017</start_date>
+  <completion_date type="Actual">July 13, 2020</completion_date>
+  <primary_completion_date type="Actual">July 13, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Patients With Provider Referral for Risk-appropriate Colorectal Cancer Screening</measure>
+    <time_frame>12 months</time_frame>
+    <description>Patients who receive guideline-recommended referral consistent with the risk stratum determined by the family health history platform.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Received Recommended Colorectal Cancer Screening</measure>
+    <time_frame>12 months</time_frame>
+    <description>Among patients who received a referral, the percentage who received recommended colorectal cancer screening.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients Who Received Referral for Genetic Consultation</measure>
+    <time_frame>12 months</time_frame>
+    <description>Of patients who received a recommendation for genetic consultation based on the family history platform, the percentage who received a referral for genetic consultation.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">505</enrollment>
+  <condition>Colorectal Cancer</condition>
+  <arm_group>
+    <arm_group_label>Immediate</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients will complete a family health history platform at enrollment</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Delayed</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Patients will complete a family health history platform 12 months following enrollment</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Family health history platform (MeTree)</intervention_name>
+    <description>Participants will enter their family health history information into a family health history platform, patients and providers will receive a decision support document and pedigree</description>
+    <arm_group_label>Delayed</arm_group_label>
+    <arm_group_label>Immediate</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Primary care provider inclusion criteria:&#xD;
+&#xD;
+          -  primary care physician,&#xD;
+&#xD;
+          -  physician assistant, or nurse practitioner;&#xD;
+&#xD;
+          -  at least one half-day of primary care clinic per week.&#xD;
+&#xD;
+        Patient inclusion criteria:&#xD;
+&#xD;
+          -  assigned to an enrolled PCP;&#xD;
+&#xD;
+          -  English as preferred language;&#xD;
+&#xD;
+          -  no plans to relocate or leave the VA system in the next 12 months;&#xD;
+&#xD;
+          -  at least one primary care appointment in the 18 months prior to enrollment;&#xD;
+&#xD;
+          -  upcoming PCP appointment with assigned PCP;&#xD;
+&#xD;
+          -  aged 40-64 years; no previous history of colorectal cancer or adenomatous polyps or&#xD;
+             inflammatory bowel disease;&#xD;
+&#xD;
+          -  no endoscopy within previous 3 years; some knowledge of family health history&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        n/a (contained within inclusion criteria)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Corrine I. Voils, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>William S. Middleton Memorial Veterans Hospital, Madison, WI</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Durham VA Medical Center, Durham, NC</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>William S. Middleton Memorial Veterans Hospital, Madison, WI</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Goldstein KM, Fisher DA, Wu RR, Orlando LA, Coffman CJ, Grubber JM, Rakhra-Burris T, Wang V, Scheuner MT, Sperber N, Datta SK, Nelson RE, Strawbridge E, Provenzale D, Hauser ER, Voils CI. An electronic family health history tool to identify and manage patients at increased risk for colorectal cancer: protocol for a randomized controlled trial. Trials. 2019 Oct 7;20(1):576. doi: 10.1186/s13063-019-3659-y.</citation>
+    <PMID>31590688</PMID>
+  </results_reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>September 18, 2014</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2014</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 25, 2014</study_first_posted>
+  <results_first_submitted>June 29, 2021</results_first_submitted>
+  <results_first_submitted_qc>July 26, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 19, 2021</results_first_posted>
+  <last_update_submitted>August 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>colorectal cancer</keyword>
+  <keyword>early detection of cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Colorectal Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 11, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/36/NCT02247336/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 4, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/36/NCT02247336/ICF_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Immediate</title>
+          <description>Patients will complete MeTree at enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+        </group>
+        <group group_id="P2">
+          <title>Delayed</title>
+          <description>Patients will complete MeTree 12 months following enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="252"/>
+                <participants group_id="P2" count="253"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="252"/>
+                <participants group_id="P2" count="253"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Immediate</title>
+          <description>Patients will complete MeTree at enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+        </group>
+        <group group_id="B2">
+          <title>Delayed</title>
+          <description>Patients will complete MeTree 12 months following enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="252"/>
+            <count group_id="B2" value="253"/>
+            <count group_id="B3" value="505"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="51.6" spread="7.1"/>
+                    <measurement group_id="B2" value="51.3" spread="7.7"/>
+                    <measurement group_id="B3" value="51.4" spread="7.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="56"/>
+                    <measurement group_id="B2" value="28"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="196"/>
+                    <measurement group_id="B2" value="225"/>
+                    <measurement group_id="B3" value="421"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="242"/>
+                    <measurement group_id="B2" value="240"/>
+                    <measurement group_id="B3" value="482"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="77"/>
+                    <measurement group_id="B2" value="87"/>
+                    <measurement group_id="B3" value="164"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="156"/>
+                    <measurement group_id="B2" value="139"/>
+                    <measurement group_id="B3" value="295"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="9"/>
+                    <measurement group_id="B3" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ever had a colonoscopy or sigmoidoscopy</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="101"/>
+                    <measurement group_id="B2" value="97"/>
+                    <measurement group_id="B3" value="198"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Patients With Provider Referral for Risk-appropriate Colorectal Cancer Screening</title>
+        <description>Patients who receive guideline-recommended referral consistent with the risk stratum determined by the family health history platform.</description>
+        <time_frame>12 months</time_frame>
+        <population>The analysis sample is the number of patients who completed the family health history assessment, as risk level was necessary to determine risk-appropriate referrals.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Immediate</title>
+            <description>Patients will complete MeTree at enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+          <group group_id="O2">
+            <title>Delayed</title>
+            <description>Patients will complete MeTree 12 months following enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients With Provider Referral for Risk-appropriate Colorectal Cancer Screening</title>
+          <description>Patients who receive guideline-recommended referral consistent with the risk stratum determined by the family health history platform.</description>
+          <population>The analysis sample is the number of patients who completed the family health history assessment, as risk level was necessary to determine risk-appropriate referrals.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="252"/>
+                <count group_id="O2" value="253"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="219"/>
+                    <measurement group_id="O2" value="232"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <groups_desc>Using alpha=0.05, 80% power, and a risk-appropriate screening referral rate for the delayed arm ranging from 60% to 70%, n = 250 participants with a completed a family health history assessment per arm with 40 providers was needed to detect differences between arms in appropriate referral ranging from 12% to 13.2%. Sample size calculations accounted for provider clustering using an intra-class correlation coefficient of 0.02 to adjust variance for a Z-test of the difference of two proportions.</groups_desc>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.16</p_value>
+            <p_value_desc>A priori threshold was 0.05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <method_desc>generalized estimating equation</method_desc>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.7</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.4</ci_lower_limit>
+            <ci_upper_limit>1.2</ci_upper_limit>
+            <estimate_desc>Generalized estimating equation models were used with a logit link function and an exchangeable correlation structure to account for clustering of participants within provider. Fay and Graubard small sample bias correction was applied.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants Who Received Recommended Colorectal Cancer Screening</title>
+        <description>Among patients who received a referral, the percentage who received recommended colorectal cancer screening.</description>
+        <time_frame>12 months</time_frame>
+        <population>Analytic sample is participants who had a referral for colorectal cancer screening</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Immediate</title>
+            <description>Patients will complete MeTree at enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+          <group group_id="O2">
+            <title>Delayed</title>
+            <description>Patients will complete MeTree 12 months following enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Who Received Recommended Colorectal Cancer Screening</title>
+          <description>Among patients who received a referral, the percentage who received recommended colorectal cancer screening.</description>
+          <population>Analytic sample is participants who had a referral for colorectal cancer screening</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="103"/>
+                <count group_id="O2" value="109"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="55"/>
+                    <measurement group_id="O2" value="68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.23</p_value>
+            <p_value_desc>The a priori threshold was 0.05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <method_desc>generalized estimating equation</method_desc>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.7</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>.04</ci_lower_limit>
+            <ci_upper_limit>1.2</ci_upper_limit>
+            <estimate_desc>Generalized estimating equation models were used with a logit link function and an exchangeable correlation structure to account for clustering of participants within provider. Fay and Graubard small sample bias correction was applied.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Patients Who Received Referral for Genetic Consultation</title>
+        <description>Of patients who received a recommendation for genetic consultation based on the family history platform, the percentage who received a referral for genetic consultation.</description>
+        <time_frame>12 months</time_frame>
+        <population>Subgroup of veterans who received a recommendation for genetic counseling from the family health history platform</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Immediate</title>
+            <description>Patients will complete MeTree at enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+          <group group_id="O2">
+            <title>Delayed</title>
+            <description>Patients will complete MeTree 12 months following enrollment&#xD;
+MeTree: Participants will enter their family health history information into MeTree, patients and providers will receive a decision support document and pedigree</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Patients Who Received Referral for Genetic Consultation</title>
+          <description>Of patients who received a recommendation for genetic consultation based on the family history platform, the percentage who received a referral for genetic consultation.</description>
+          <population>Subgroup of veterans who received a recommendation for genetic counseling from the family health history platform</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="22"/>
+                <count group_id="O2" value="15"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>12 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Immediate</title>
+          <description>Patients completed the family history platform at enrollment&#xD;
+Participants entered their family health history information into the family history platform, and patients and providers received a decision support document and pedigree</description>
+        </group>
+        <group group_id="E2">
+          <title>Delayed</title>
+          <description>Patients completed the family history platform 12 months following enrollment&#xD;
+Participants entered their family health history information into the family history platform, and patients and providers received a decision support document and pedigree</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="252"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="253"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="252"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="253"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="252"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="253"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Corrine Voils, PhD</name_or_title>
+      <organization>William S Middleton Memorial Veterans Hospital</organization>
+      <phone>608-256-1901 ext 12208</phone>
+      <email>corrine.voils@va.gov</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

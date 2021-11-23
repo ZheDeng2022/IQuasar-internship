@@ -1,0 +1,225 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04755959</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0361-20-TLV</org_study_id>
+    <nct_id>NCT04755959</nct_id>
+  </id_info>
+  <brief_title>Stroke Prediction Through Internet Search Queries</brief_title>
+  <official_title>Stroke Prediction Study Using a Model Based on Internet Search Queries</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tel-Aviv Sourasky Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Tel Aviv University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Tel-Aviv Sourasky Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cerebrovascular disease (stroke) is a leading cause of mortality and disability. Common risk&#xD;
+      assessment tools for stroke are based on the Framingham equation, which relies on traditional&#xD;
+      cardiovascular risk factors (e.g., hypertension, dyslipidemia, diabetes, smoking, atrial&#xD;
+      fibrillation). These risk assessment tools calculate the likelihood for a general vascular&#xD;
+      &quot;event&quot; such as stroke and myocardial infarction in the near decade, but do not assess the&#xD;
+      risk for an impending event although that would enable taking immediate preventive action&#xD;
+      (e.g. anticoagulants for atrial fibrillation; control of hypertension). Covert&#xD;
+      cerebrovascular disease is linked to subtle cognitive and motor deficits and increased risk&#xD;
+      for stroke. We hypothesize that it is possible to identify subjects with impending stroke&#xD;
+      based on their internet communication features 0-12 months prior to the actual occurrence of&#xD;
+      acute clinical stroke. Based on this we have previously developed an internet-based algorithm&#xD;
+      that accurately identifies people at risk of stroke through cognitive changes manifested in&#xD;
+      their search queries. The purpose of this study is to validate the model and train a new&#xD;
+      model by analyzing Google queries of patients hospitalized in the Tel-Aviv Sourasky Medical&#xD;
+      Center with stroke. Acute myocardial infarction and unaffected spouses will serve as&#xD;
+      controls.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this study we will analyze Google queries of patients hospitalized in the Tel-Aviv&#xD;
+      Sourasky Medical Center with stroke, between the years 2016-2020. following the formal&#xD;
+      completion of the signed informed consent form, consenting subjects will personally request&#xD;
+      their search data from Google Takeout service from up to 2 years before to one year after the&#xD;
+      stroke and provide access to the researchers by creating a one-time file of these data and&#xD;
+      sharing them with the researchers. Following an informed consent data of Google queries will&#xD;
+      extracted by the participants using google &quot;Take Out&quot; service, from up to 2 years before to&#xD;
+      one year after the stroke. The control groups will consist of patients diagnosed with acute&#xD;
+      myocardial infarction (MI) and MI/stroke -free patients' spouses. Recruitment will be&#xD;
+      primarily from two institutionally approved data bases of stroke and acute MI. A total of 450&#xD;
+      participants will be recruited, 150 in each group, based on prior experience for the&#xD;
+      minimally-sized dataset of query logs needed to construct a model and test its performance.&#xD;
+&#xD;
+      Anonymity will be guaranteed through several modalities; access to the Google Takeout data&#xD;
+      will be limited to the minimal amount required to perform the research and will be given only&#xD;
+      to members of the data analysis team in the Tel-Aviv University, while access to the medical&#xD;
+      data will be provided only to researchers from the Tel-Aviv Sourasky Medical Center.&#xD;
+      Additionally, members of the Tel-Aviv University Partner Team will be obligated to refrain&#xD;
+      from any positive attempts to identify subjects participating in the trial. All data shared&#xD;
+      with Tel-Aviv University will be stored on a local, encrypted, hard disk. The data will be&#xD;
+      deleted from Tel-Aviv University's computers at the end of the project.&#xD;
+&#xD;
+      Our previously developed Machine Learning model, which was able to predict stroke in subjects&#xD;
+      as compared to age matched controls with an area under curve (AUC) of 0.972 which translates&#xD;
+      to a positive predictive value of 52.7% at a false-positive rate of 1%, will be used to&#xD;
+      predict, for each day, the likelihood that a person will undergo a stroke event on that day.&#xD;
+      This will be compared to the known date of stroke or MI. The measure of performance will be&#xD;
+      the Receiver Operating Curve (ROC) of the detection and the corresponding Area Under Curve&#xD;
+      (AUC). Additionally, a new model will be trained using the collected data and tested&#xD;
+      similarly, albeit using 10-fold cross-validation. Stroke detection sensitivity and&#xD;
+      specificity will be derived.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 2021</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of stroke detecion</measure>
+    <time_frame>Three years</time_frame>
+    <description>The sensitivity of the algorithm to detect subjects who developed stroke, based on an internet query of their communications 0-12 months prior to the date of the stroke.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of stroke detection</measure>
+    <time_frame>Three years</time_frame>
+    <description>The specificity of the detection rate, based on comparisons with the query profile in a concurrent cohort with acute myocardial infarction within the same time frame as well as with the stroke patients' stroke-free spouses.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">450</enrollment>
+  <condition>Stroke</condition>
+  <condition>Acute Myocardial Infarction</condition>
+  <arm_group>
+    <arm_group_label>Stroke</arm_group_label>
+    <description>Individuals hospitalized in the Tel-Aviv Sourasky Medical Center with a diagnosis of Ischemic Stroke, between the years 2016-2020 as documented in an institutionally approved data base of stroke, who will consent to provide access to their data from Google Take Out service.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Acute myocardial infarction</arm_group_label>
+    <description>Individuals hospitalized in the Tel-Aviv Sourasky Medical Center with a diagnosis of acute myocardial infarction as documented in an institutionally approved data base of myocardial infarction, who will consent to provide access to their data from Google Take Out service.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy controls</arm_group_label>
+    <description>Unaffected spouses or volunteers who will consent to provide access to their data from Google Take Out service.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All individuals 65 years old or older at diagnosis, that were discharged from the Tel-Aviv&#xD;
+        Sourasky Medical Center with a diagnosis of stroke supported by imaging or a diagnosis of&#xD;
+        acute myocardial infraction, or unaffected spouses or volunteers complying to age criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. One of the following clauses a, b or c:&#xD;
+&#xD;
+               1. Discharge from the Tel Aviv-Sourasky Med Center with an imaging study- supported&#xD;
+                  diagnosis of stroke at any date starting 6/2016 to 03/2020.&#xD;
+&#xD;
+               2. Discharge from the Tel Aviv-Sourasky Med Center with a clinical diagnosis of&#xD;
+                  acute myocardial infarction supported by biochemical, electrocardiographic and/or&#xD;
+                  imaging study, at any date starting 6/2016 to 03/2020.&#xD;
+&#xD;
+               3. Spouse of patient in clause &quot;a&quot; or &quot;b&quot;, provided that the spouse did not undergo&#xD;
+                  a clinical stroke within the same timeframe or earlier.&#xD;
+&#xD;
+          2. The use of internet on a regular basis prior to the event due to which the subject has&#xD;
+             been included in this study.&#xD;
+&#xD;
+          3. Consent to allow the Tel-Aviv University Partner Team (Prof. Ran Gilad-Bachrach and&#xD;
+             authorized lab members) access to their Google queries from 2 years before to one year&#xD;
+             after the stroke event.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. A diagnosis of TIA or stroke not supported by imaging studies&#xD;
+&#xD;
+          2. Diagnosed prior cognitive impairment&#xD;
+&#xD;
+          3. Diagnosed co-existing neurodegenerative diseases&#xD;
+&#xD;
+          4. Diagnosed and not fully treated hormonal or nutritional deficiency, with the exception&#xD;
+             of post-menopausal state or male hypogonadism.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Naftali Stern, Professor</last_name>
+    <role>Study Director</role>
+    <affiliation>Tel-Aviv Sourasky Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sigal Shaklai, Doctor</last_name>
+    <phone>+97236973732</phone>
+    <email>sigalsh@tlvmc.gov.il</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Naftali Stern, Professor</last_name>
+    <email>nafstern66@gmail.com</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Anderson KM, Odell PM, Wilson PW, Kannel WB. Cardiovascular disease risk profiles. Am Heart J. 1991 Jan;121(1 Pt 2):293-8.</citation>
+    <PMID>1985385</PMID>
+  </reference>
+  <reference>
+    <citation>Stroke Prevention in Atrial Fibrillation Study Group Investigators. Preliminary report of the Stroke Prevention in Atrial Fibrillation Study. N Engl J Med. 1990 Mar 22;322(12):863-8.</citation>
+    <PMID>2407959</PMID>
+  </reference>
+  <reference>
+    <citation>Staessen JA, Thijisq L, Fagard R, Celis H, Birkenhäger WH, Bulpitt CJ, de Leeuw PW, Fletcher AE, Forette F, Leonetti G, McCormack P, Nachev C, O'Brien E, Rodicio JL, Rosenfeld J, Sarti C, Tuomilehto J, Webster J, Yodfat Y, Zanchetti A; Systolic Hypertension in Europe (Syst-Eur) Trial Investigators. Effects of immediate versus delayed antihypertensive therapy on outcome in the Systolic Hypertension in Europe Trial. J Hypertens. 2004 Apr;22(4):847-57.</citation>
+    <PMID>15126928</PMID>
+  </reference>
+  <reference>
+    <citation>Schueller SM, Steakley-Freeman DM, Mohr DC, Yom-Tov E. Understanding perceived barriers to treatment from web browsing behavior. J Affect Disord. 2020 Apr 15;267:63-66. doi: 10.1016/j.jad.2020.01.131. Epub 2020 Jan 23.</citation>
+    <PMID>32063574</PMID>
+  </reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 13, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 16, 2021</study_first_posted>
+  <last_update_submitted>February 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Stroke</keyword>
+  <keyword>Cerebrovascular event</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>As this is not an interventional study, but rather retrospective, data sharing is not obligatory. Further, the study involves review and analysis of personal internet communications and participants are assured that this type of data remains entirely blinded to the investigators and a computer based strategy to that aim has been set. Nevertheless, specific requests fo data sharing may be directed to the authors after the completion of the study with the understanding that any such request, will be subject not only to the investigators' discretion but to specific approval by the Tel Aviv-Sourasky Medical Center's IRB (Helsinki Committee). Requests can be made after the completion of the trial and the publication of its outcome by the investigators in the form of a published article/s or reports.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

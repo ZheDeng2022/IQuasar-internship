@@ -1,0 +1,162 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04913181</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SHZJU-ICU2020-202</org_study_id>
+    <nct_id>NCT04913181</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence for Sepsis Prediction in ICU</brief_title>
+  <acronym>AICUSepsis</acronym>
+  <official_title>Application of Artificial Intelligence Sepsis Prediction Model to Assist ICU Clinical Decision</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The development of sepsis prediction model in line with Chinese population, and extended to&#xD;
+      clinical, assist clinicians for early identification, early intervention, has a good&#xD;
+      application prospect. This study is a prospective observational study, mainly to evaluate the&#xD;
+      accuracy of the previously established sepsis prediction model. The occurrence of sepsis was&#xD;
+      determined by doctors' daily clinical judgment, and the results of the sepsis prediction&#xD;
+      model were matched and corrected to improve the clinical accuracy and applicability of the&#xD;
+      sepsis prediction model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The sepsis prediction model adopted in this study has been completed in the preliminary&#xD;
+      preparation, which was constructed on 7,000 patients since the establishment of comprehensive&#xD;
+      ICU, and the sepsis 3.0 diagnostic standard was adopted.The sepsis prediction model was built&#xD;
+      using Python platform and XGBoost algorithm, which was used to predict the incidence of&#xD;
+      sepsis in ICU patients within 24 hours. The overall accuracy was 82%, and the area under the&#xD;
+      Auroc curve was 0.854.&#xD;
+&#xD;
+      Patients who met the inclusion and exclusion criteria were given a daily prediction of sepsis&#xD;
+      model, and a quantitative checklist was formed based on the test results.There are two kinds&#xD;
+      of forecast outcomes: low risk and high risk.Quantitative checklists are available to&#xD;
+      attending physicians to improve diagnostic efficiency.The results were kept confidential to&#xD;
+      the clinician.&#xD;
+&#xD;
+      All patients were diagnosed with sepsis by two senior attending physicians at a fixed time.&#xD;
+      The diagnosis consisted of two types: yes and no.If two attending physicians have different&#xD;
+      opinions, the third attending physician will be included for correction diagnosis, and the&#xD;
+      presence of sepsis will be determined in a 2:1 manner.The attending physicians are&#xD;
+      independent of each other.&#xD;
+&#xD;
+      When the diagnosis results of the attending physician are input into the system, the&#xD;
+      prediction results of yesterday's sepsis prediction model are compared and calculated to&#xD;
+      determine the accuracy of the prediction model&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2021</start_date>
+  <completion_date type="Anticipated">June 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of model diagnosis</measure>
+    <time_frame>2 years</time_frame>
+    <description>Evaluation of the accuracy of prediction model in clinical application</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Artificial Intelligence</condition>
+  <condition>Septic Shock</condition>
+  <condition>Intensive Care Unit Psychosis</condition>
+  <arm_group>
+    <arm_group_label>Sepsis prediction model</arm_group_label>
+    <description>This group of people was used for the clinician's decision, and the sepsis prediction model was used simultaneously for the prediction, but the model was not involved in the decision, and was only used for verification</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Daily clinical judgment of doctors</arm_group_label>
+    <description>This group of people was used for the clinician's decision without sepsis prediction model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Artificial intelligence sepsis prediction model</intervention_name>
+    <description>The main purpose of this paper is to evaluate the accuracy of the sepsis prediction model established in the early stage. The occurrence of sepsis is determined by the daily clinical judgment of doctors, and the results of sepsis prediction model are matched and corrected.</description>
+    <arm_group_label>Daily clinical judgment of doctors</arm_group_label>
+    <arm_group_label>Sepsis prediction model</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who met the inclusion and exclusion criteria were predicted daily by sepsis model,&#xD;
+        and a quantitative list was formed according to the test results. There are two kinds of&#xD;
+        prediction results: low risk and high risk. The quantitative list is open to attending&#xD;
+        physicians to improve the efficiency of diagnosis. The predicted results are kept secret&#xD;
+        from clinicians.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        All patients with acute critical illness who are eligible for admission to ICU during the&#xD;
+        study period&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients under the age of 16;&#xD;
+&#xD;
+          2. Pregnant and parturient women;&#xD;
+&#xD;
+          3. Patients who planned to be admitted to the department for surgery and transferred the&#xD;
+             next day after evaluation;&#xD;
+&#xD;
+          4. Patients admitted to the department and diagnosed with sepsis;&#xD;
+&#xD;
+          5. Patients with ICU stay less than 24 hours;&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>琦强 梁</last_name>
+    <phone>13685753994</phone>
+    <email>deter_leung@sina.com</email>
+  </overall_contact>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 31, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 4, 2021</study_first_posted>
+  <last_update_submitted>June 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Shock, Septic</mesh_term>
+    <mesh_term>Psychotic Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

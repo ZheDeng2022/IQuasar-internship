@@ -1,0 +1,335 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04745793</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20-007</org_study_id>
+    <nct_id>NCT04745793</nct_id>
+  </id_info>
+  <brief_title>Precise Recognition With Enhanced Vision of Endocrine Neck Targets</brief_title>
+  <acronym>PREVENT</acronym>
+  <official_title>Precise Recognition With Enhanced Vision of Endocrine Neck Targets</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>IHU Strasbourg</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>IHU Strasbourg</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Iatrogenic injuries to the parathyroid glands during thyroid surgery or to the recurrent&#xD;
+      laryngeal nerve (RLN) do still occur, requiring often specialized management.&#xD;
+&#xD;
+      Recently, it has been demonstrated that the parathyroid gland shows a significant&#xD;
+      autofluorescence. Using a commercially available Near-InfraRed (NIR) camera (Fluobeam®,&#xD;
+      Fluoptics©, France), the parathyroid glands can be clearly visualized by contrast-free&#xD;
+      fluorescence imaging. However it lacks real-time quantification of the fluorescence&#xD;
+      intensity.&#xD;
+&#xD;
+      The hyperspectral imaging (HSI), which is a technology that combines a spectrometer to a&#xD;
+      camera system, examines the optical properties of a large area in a wavelength range from NIR&#xD;
+      to visual light (VIS). It provides spatial information real time, in a contact-free,&#xD;
+      non-ionizing manner. The HSI technology would add the spatial information, thus enormously&#xD;
+      enhancing the intraoperative performance.&#xD;
+&#xD;
+      The aim of the proposed study is to identify the spectral features of the important neck&#xD;
+      target structures, in particular the parathyroid glands, using an appropriate deep learning&#xD;
+      algorithm, to perform an automated parathyroid recognition. Additionally, this study proposes&#xD;
+      to compare the detection rate of the hyperspectral based parathyroid recognition with the&#xD;
+      already existing NIR autofluorescence based recognition.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The major challenge in thyroid and parathyroid procedures, is the safe identification of the&#xD;
+      recurrent laryngeal nerve (RLN) and the localization of the parathyroid glands (to be&#xD;
+      preserved or to be selectively removed). Iatrogenic injuries to the parathyroid glands during&#xD;
+      thyroid surgery (resulting in transient or permanent hypocalcemia) or to the RLN (resulting&#xD;
+      in hoarseness, dysphonia, dyspnea) do still occur, requiring often specialized management.&#xD;
+&#xD;
+      The percentage of incidental parathyroidectomies, in specialized endocrine centers, is around&#xD;
+      16%. In these cases, it is more likely to observe clinical relevant hypocalcemia than after&#xD;
+      planned parathyroidectomy for hyperparathyroidism. Therefore, there is a critical need for an&#xD;
+      intra-operative method enabling a precise, real-time parathyroid identification.&#xD;
+&#xD;
+      Recently, it has been demonstrated that the parathyroid gland shows a significant&#xD;
+      autofluorescence, which is caused by the optical properties of a still unknown intrinsic&#xD;
+      fluorophore. When the gland is excited by a light source with a wavelength ranging from&#xD;
+      750-785 nm, it emits a fluorescence peak around 820 nm. Taking advantage of this property,&#xD;
+      Falco et al., using a commercially available NIR camera (Fluobeam®, Fluoptics©, France),&#xD;
+      could clearly visualize the parathyroid glands by contrast-free fluorescence imaging and&#xD;
+      could easily discriminate them from the thyroid and the surrounding tissue. The drawback with&#xD;
+      this autofluorescence-based imaging is that it lacks real-time quantification of the&#xD;
+      fluorescence intensity.&#xD;
+&#xD;
+      The hyperspectral imaging (HSI), which is a technology that combines a spectrometer to a&#xD;
+      camera system, examines the optical properties of a large area in a wavelength range from&#xD;
+      near infrared (NIR) to visual light (VIS). It provides diagnostic information about the&#xD;
+      tissue physiology, composition and perfusion. The fact that the HSI produces pictures, thus&#xD;
+      providing spatial information real time, in a contact-free, non-ionizing manner, makes it&#xD;
+      potentially a very valuable tool for the intraoperative use.&#xD;
+&#xD;
+      HSI has exhibited its great potential in the medical field especially in the diagnosis of&#xD;
+      various neoplasia (e.g. of the cervix, breast, colon, brain), in the detection of perfusion&#xD;
+      pattern in patients with peripheral arterial disease and in the area of wound diagnostic.&#xD;
+&#xD;
+      As previously shown, it is possible to discriminate the thyroid from the parathyroid glands&#xD;
+      according to the spectral characteristics, but the HSI technology would add the spatial&#xD;
+      information, thus enormously enhancing the intraoperative performance.&#xD;
+&#xD;
+      In collaboration with the University of Leipzig, Germany, the investigators performed a&#xD;
+      clinical pilot trial on 8 patients, which showed promising results. Hyperspectral images&#xD;
+      during benign endocrine surgery procedures were able to demonstrate that thyroid and&#xD;
+      parathyroid have specific hyperspectral signatures. Furthermore, the parathyroid glands&#xD;
+      showed usually less oxygenated than the thyroid. A discrimination of the parathyroid glands&#xD;
+      based on these characteristics is proven to be possible.&#xD;
+&#xD;
+      The aim of the proposed study is to identify the spectral features of the important neck&#xD;
+      target structures, in particular the parathyroid glands, using an appropriate deep learning&#xD;
+      algorithm, to perform an automated parathyroid recognition. Additionally, this study proposes&#xD;
+      to compare the detection rate of the hyperspectral based parathyroid recognition with the&#xD;
+      already existing NIR autofluorescence based recognition.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">February 4, 2021</start_date>
+  <completion_date type="Anticipated">March 4, 2024</completion_date>
+  <primary_completion_date type="Anticipated">February 4, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Comparison of the intraoperative detection rate between the automated HSI-based parathyroid recognition against the surgeon's clinical appreciation.</measure>
+    <time_frame>1 day</time_frame>
+    <description>Detection rate of the parathyroids by the automated HSI-based parathyroid recognition against the visual identification by the operating surgeon (clinical ground truth) and, if required by the surgeon, against the histopathological examination (extemporaneous anatomopathology = histological ground truth). Also, final pathology will be used as ground truth.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Comparison of the intraoperative detection rate between the Fluobeam®, against the surgeon's clinical appreciation.</measure>
+    <time_frame>1 day</time_frame>
+    <description>Detection rate of the parathyroids by the Fluobeam® against the visual identification by the operating surgeon (clinical ground truth) and, if required by the surgeon, against the histopathological examination (extemporaneous anatomopathology = histological ground truth). Also, final pathology will be used as ground truth.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>in vivo collection of HSI spectral features of the parathyroid and thyroid glands to successively enable automated recognition.</measure>
+    <time_frame>1 day</time_frame>
+    <description>Collection of clean and consistent datasets of the parathyroid and thyroid glands</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>in vivo collection of HSI spectral signatures of other tissues routinely exposed during neck surgery, such as thyroid, fat, muscle, cartilage and nerves will be collected.</measure>
+    <time_frame>1 day</time_frame>
+    <description>Collection of clean and consistent datasets of other tissues exposed during neck surgery. The information will be implemented in the machine learning algorithm in order to allow in the future an automated recognition of the different target structures during neck surgery.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Recognition of possible pathology specific HSI spectral features of pathological parathyroid or thyroid glands.</measure>
+    <time_frame>1 month</time_frame>
+    <description>The ability to predict pathological parathyroid or thyroid glands from the spectral tissue information, based on the final histopathological reports.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in time to recognition between human eye, Fluobeam® and HSI</measure>
+    <time_frame>1 day</time_frame>
+    <description>Comparison between the time of recognition using the HSI algorithm and the Fluobeam®</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Detection rate of the recurrent laryngeal nerve against the clinical impression and the intraoperative neuromonitoring.</measure>
+    <time_frame>1 day</time_frame>
+    <description>Number of times the recurrent laryngeal nerve is detected by the automated identification against the number of time it is visually identified by the operating surgeon and confirmed with the Intraoperative neuromonitoring (IONM).</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Thyroid Diseases</condition>
+  <condition>Parathyroid Diseases</condition>
+  <arm_group>
+    <arm_group_label>Thyroids</arm_group_label>
+    <description>The aim is to identify and preserve the parathyroid glands during the total or partial removal of the thyroid. Repeating of the procedure for each lobe</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Parathyroids</arm_group_label>
+    <description>The aim is to selectively remove the pathological parathyroid gland(s). Repeating of the procedure for each removed gland</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Hyperspectral and Fluobeam acquisition</intervention_name>
+    <description>Once enough exposure of the operative site is achieved, an RGB (Red Green Blue) picture will be taken and the surgeon will depict the parathyroid glands on it, this picture will act as &quot;ground truth&quot;. At this point, without changing the surgical exposure, a second surgeon involved in the study will attempt once to detect the parathyroid glands intraoperatively using the HSI system and the Fluobeam® alternatively. The number and the position of the parathyroid glands visualized with each tool will be compared to the number and position of the glands previously visualized by the operating surgeon. The procedure will be repeated every time the surgeon attempts to visualize the parathyroid glands. The order of the detection tools randomized for each case will be preserved in case of repeated visualizations.</description>
+    <arm_group_label>Parathyroids</arm_group_label>
+    <arm_group_label>Thyroids</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients of both sexes for whom a total or partial thyroid or parathyroid resection&#xD;
+        for a benign or malignant pathology is programmed&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Man or woman over 18 years old.&#xD;
+&#xD;
+          -  Patient with benign or malignant pathology of the thyroid or parathyroid gland&#xD;
+&#xD;
+          -  Patient with no contraindication to anesthesia and surgery&#xD;
+&#xD;
+          -  Patient able to receive and understand information related to the study&#xD;
+&#xD;
+          -  Patient affiliated to the French social security system.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient who needs an emergency surgery&#xD;
+&#xD;
+          -  Pregnant or lactating patient.&#xD;
+&#xD;
+          -  Patient under guardianship or trusteeship.&#xD;
+&#xD;
+          -  Patient under the protection of justice.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michele DIANA, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Service de Chirurgie Digestive et Endocrinienne, NHC, Strasbourg</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Armelle TAKEDA, PhD</last_name>
+    <phone>+33 390413608</phone>
+    <email>armelle.takeda@ihu-strasbourg.eu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Service de Chirurgie Digestive et Endocrinienne, NHC</name>
+      <address>
+        <city>Strasbourg</city>
+        <zip>67000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michele DIANA, MD, PhD</last_name>
+      <email>michele.diana@ihu-strasbourg.eu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <link>
+    <url>https://www.degruyter.com/document/doi/10.1515/cdbme-2018-0095/html</url>
+    <description>Barberio et al. Hyperspectral based discrimination of thyroid and parathyroid during surgery. Current Directions in Biomedical Engineering (2018)4:399-402</description>
+  </link>
+  <reference>
+    <citation>Mohebati A, Shaha AR. Anatomy of thyroid and parathyroid glands and neurovascular relations. Clin Anat. 2012 Jan;25(1):19-31. doi: 10.1002/ca.21220. Epub 2011 Jul 28. Review.</citation>
+    <PMID>21800365</PMID>
+  </reference>
+  <reference>
+    <citation>Christou N, Mathonnet M. Complications after total thyroidectomy. J Visc Surg. 2013 Sep;150(4):249-56. doi: 10.1016/j.jviscsurg.2013.04.003. Epub 2013 Jun 6. Review.</citation>
+    <PMID>23746996</PMID>
+  </reference>
+  <reference>
+    <citation>Nair CG, Babu MJ, Menon R, Jacob P. Hypocalcaemia following total thyroidectomy: An analysis of 806 patients. Indian J Endocrinol Metab. 2013 Mar;17(2):298-303. doi: 10.4103/2230-8210.109718.</citation>
+    <PMID>23776907</PMID>
+  </reference>
+  <reference>
+    <citation>Yazici P, Bozkurt E, Citgez B, Kaya C, Mihmanli M, Uludag M. Incidental parathyroidectomy as a cause of postoperative hypocalcemia after thyroid surgery: reality or illusion? Minerva Chir. 2014 Dec;69(6):315-320. Epub 2014 Sep 22.</citation>
+    <PMID>25242004</PMID>
+  </reference>
+  <reference>
+    <citation>Berber E, Parikh RT, Ballem N, Garner CN, Milas M, Siperstein AE. Factors contributing to negative parathyroid localization: an analysis of 1000 patients. Surgery. 2008 Jul;144(1):74-9. doi: 10.1016/j.surg.2008.03.019. Epub 2008 May 21.</citation>
+    <PMID>18571587</PMID>
+  </reference>
+  <reference>
+    <citation>Falco J, Dip F, Quadri P, de la Fuente M, Prunello M, Rosenthal RJ. Increased identification of parathyroid glands using near infrared light during thyroid and parathyroid surgery. Surg Endosc. 2017 Sep;31(9):3737-3742. doi: 10.1007/s00464-017-5424-1. Epub 2017 Mar 31.</citation>
+    <PMID>28364157</PMID>
+  </reference>
+  <reference>
+    <citation>Falco J, Dip F, Quadri P, de la Fuente M, Rosenthal R. Cutting Edge in Thyroid Surgery: Autofluorescence of Parathyroid Glands. J Am Coll Surg. 2016 Aug;223(2):374-80. doi: 10.1016/j.jamcollsurg.2016.04.049. Epub 2016 May 20.</citation>
+    <PMID>27212004</PMID>
+  </reference>
+  <reference>
+    <citation>Li Q, He X, Wang Y, Liu H, Xu D, Guo F. Review of spectral imaging technology in biomedical engineering: achievements and challenges. J Biomed Opt. 2013 Oct;18(10):100901. doi: 10.1117/1.JBO.18.10.100901. Review.</citation>
+    <PMID>24114019</PMID>
+  </reference>
+  <reference>
+    <citation>Lu G, Fei B. Medical hyperspectral imaging: a review. J Biomed Opt. 2014 Jan;19(1):10901. doi: 10.1117/1.JBO.19.1.010901. Review.</citation>
+    <PMID>24441941</PMID>
+  </reference>
+  <reference>
+    <citation>Siddiqi AM, Li H, Faruque F, Williams W, Lai K, Hughson M, Bigler S, Beach J, Johnson W. Use of hyperspectral imaging to distinguish normal, precancerous, and cancerous cells. Cancer. 2008 Feb 25;114(1):13-21. doi: 10.1002/cncr.23286.</citation>
+    <PMID>18213691</PMID>
+  </reference>
+  <reference>
+    <citation>Panasyuk SV, Yang S, Faller DV, Ngo D, Lew RA, Freeman JE, Rogers AE. Medical hyperspectral imaging to facilitate residual tumor identification during surgery. Cancer Biol Ther. 2007 Mar;6(3):439-46. Epub 2007 Mar 16.</citation>
+    <PMID>17374984</PMID>
+  </reference>
+  <reference>
+    <citation>Kumashiro R, Konishi K, Chiba T, Akahoshi T, Nakamura S, Murata M, Tomikawa M, Matsumoto T, Maehara Y, Hashizume M. Integrated Endoscopic System Based on Optical Imaging and Hyperspectral Data Analysis for Colorectal Cancer Detection. Anticancer Res. 2016 Aug;36(8):3925-32.</citation>
+    <PMID>27466495</PMID>
+  </reference>
+  <reference>
+    <citation>Fabelo H, Ortega S, Ravi D, Kiran BR, Sosa C, Bulters D, Callicó GM, Bulstrode H, Szolna A, Piñeiro JF, Kabwama S, Madroñal D, Lazcano R, J-O'Shanahan A, Bisshopp S, Hernández M, Báez A, Yang GZ, Stanciulescu B, Salvador R, Juárez E, Sarmiento R. Spatio-spectral classification of hyperspectral images for brain cancer detection during surgical operations. PLoS One. 2018 Mar 19;13(3):e0193721. doi: 10.1371/journal.pone.0193721. eCollection 2018.</citation>
+    <PMID>29554126</PMID>
+  </reference>
+  <reference>
+    <citation>Sumpio BJ, Citoni G, Chin JA, Sumpio BE. Use of hyperspectral imaging to assess endothelial dysfunction in peripheral arterial disease. J Vasc Surg. 2016 Oct;64(4):1066-73. doi: 10.1016/j.jvs.2016.03.463. Epub 2016 Jun 4.</citation>
+    <PMID>27266597</PMID>
+  </reference>
+  <reference>
+    <citation>Khaodhiar L, Dinh T, Schomacker KT, Panasyuk SV, Freeman JE, Lew R, Vo T, Panasyuk AA, Lima C, Giurini JM, Lyons TE, Veves A. The use of medical hyperspectral technology to evaluate microcirculatory changes in diabetic foot ulcers and to predict clinical outcomes. Diabetes Care. 2007 Apr;30(4):903-10. Epub 2007 Feb 15.</citation>
+    <PMID>17303790</PMID>
+  </reference>
+  <reference>
+    <citation>Yudovsky D, Nouvong A, Pilon L. Hyperspectral imaging in diabetic foot wound care. J Diabetes Sci Technol. 2010 Sep 1;4(5):1099-113. Review.</citation>
+    <PMID>20920429</PMID>
+  </reference>
+  <reference>
+    <citation>Yudovsky D, Nouvong A, Schomacker K, Pilon L. Monitoring temporal development and healing of diabetic foot ulceration using hyperspectral imaging. J Biophotonics. 2011 Aug;4(7-8):565-76. doi: 10.1002/jbio.201000117. Epub 2011 Apr 1.</citation>
+    <PMID>21462349</PMID>
+  </reference>
+  <reference>
+    <citation>Schols RM, Alic L, Wieringa FP, Bouvy ND, Stassen LP. Towards automated spectroscopic tissue classification in thyroid and parathyroid surgery. Int J Med Robot. 2017 Mar;13(1). doi: 10.1002/rcs.1748. Epub 2016 May 19.</citation>
+    <PMID>27198506</PMID>
+  </reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 9, 2021</study_first_posted>
+  <last_update_submitted>February 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hyperspectral Imaging</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Autonomous tissue recognition</keyword>
+  <keyword>Tissue spectral signature</keyword>
+  <keyword>Autofluorescence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thyroid Diseases</mesh_term>
+    <mesh_term>Parathyroid Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

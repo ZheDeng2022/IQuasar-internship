@@ -1,0 +1,210 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04976205</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2928</org_study_id>
+    <nct_id>NCT04976205</nct_id>
+  </id_info>
+  <brief_title>AI Algorithms to Automate the TMI by VMAT Optimization Using WB-CT/MRI and Synthetic WB-CT - The AuToMI Project</brief_title>
+  <acronym>AuToMI</acronym>
+  <official_title>Artificial Intelligence Algorithms to Automate the Total Marrow (Lymph-node) Irradiation by VMAT Optimization Using WB-CT/MRI and Synthetic WB-CT - The AuToMI Project</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Clinico Humanitas</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Istituto Clinico Humanitas</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Total Body Irradiation (TBI) was shown to help in providing immunosuppression that&#xD;
+      facilitates the donor transplant acceptance. Randomized trials demonstrated that conditioning&#xD;
+      regimens to bone marrow transplantation (BMT) including TBI have produced better survival&#xD;
+      rates than chemo-only regimens. The TBI target is represented by the whole BM, and eventually&#xD;
+      the whole lymphatic system, liver, spleen. The increased life expectancy revealed the&#xD;
+      occurrence of important toxicities because of full doses received by organs at risk (OARs)&#xD;
+      and this limited the use of TBI. Many groups have explored the possibility of sophisticated&#xD;
+      techniques for reducing the dose to healthy tissues while increasing the dose to the BM.&#xD;
+      These newer approaches aim to generate total marrow (lymph-node) irradiation (TMI/TMLI),&#xD;
+      sparing as much as possible non-skeletal and non-lymphoid structures.&#xD;
+&#xD;
+      Actually, the time required to optimize a TMI/TMLI plan is 10 days. Therefore, the simulation&#xD;
+      Computed Tomography (CT) is performed many days before the BMT. Furthermore, the lymph-nodes&#xD;
+      are defined only on CT images.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Total Body Irradiation (TBI) was shown to help in providing immunosuppression that&#xD;
+      facilitates the donor transplant acceptance. Moreover, TBI plays a role in the annihilation&#xD;
+      of malignant cells, and may also deplete normal hematopoietic stem cells, thus helping the&#xD;
+      donor marrow cells to repopulate the bone marrow (BM). Randomized trials demonstrated that&#xD;
+      conditioning regimens to BMT including TBI have produced better survival rates than&#xD;
+      chemo-only regimens.&#xD;
+&#xD;
+      The TBI target is represented by the whole BM, and eventually the whole lymphatic system,&#xD;
+      liver, spleen. Usually, a very simple geometry is adopted, with patient positioned on a&#xD;
+      dedicated couch at 3-4 meters away from the linear accelerator to fully cover the target with&#xD;
+      a single beam, avoiding field junctions.&#xD;
+&#xD;
+      The increased life expectancy revealed the occurrence of important toxicities because of full&#xD;
+      doses received by organs at risk (OARs) and this limited the use of TBI as stated by the 2018&#xD;
+      ILGROG guidelines. Many groups have, therefore, explored the possibility of sophisticated&#xD;
+      techniques for reducing the dose to healthy tissues while increasing the dose to the BM.&#xD;
+      These newer approaches aim to generate total marrow (lymph-node) irradiation (TMI/TMLI),&#xD;
+      sparing as much as possible non-skeletal and non-lymphoid structures.&#xD;
+&#xD;
+      Preliminary clinical data on phase I/II trials support the use of TMI/TMLI as part of&#xD;
+      conditioning for BMT for relapsed-refractory acute leukemia patients and multiple myeloma.&#xD;
+      However, TMI/TMLI adoption is still very limited to few skilled hospitals due to the extreme&#xD;
+      difficulty in the planning that needs many days.&#xD;
+&#xD;
+      The evaluation of TMI/TMLI with Volumetric Modulated Arc Therapy (VMAT) was started in our&#xD;
+      institute in 2009 and we treated around 90 patients in 10 years.&#xD;
+&#xD;
+      VMAT-TMI/TMLI requires multiple arcs from isocenters with different positions to fully&#xD;
+      include the patient length. Therefore, many field junctions between arcs with different&#xD;
+      isocenters should be managed. Furthermore, the CT length does not allow to acquire the&#xD;
+      patient in a single CT scan. Two CT series must be acquired and co-registered.&#xD;
+&#xD;
+      Actually, the time required to optimize a TMI/TMLI plan is 10 days. Therefore, the simulation&#xD;
+      Computed Tomography (CT) is performed many days before the BMT. Furthermore, the lymph-nodes&#xD;
+      are defined only on CT images.&#xD;
+&#xD;
+      Deep learning (DL) artificial intelligence (AI) algorithms in medical imaging and RT are&#xD;
+      rapidly expanding. DL focused on lesion detection and classification by features extraction.&#xD;
+      Image segmentations using fully convolutional network (FCN), holistically nested network&#xD;
+      (HNN) or other customized network architectures were implemented in many regions.&#xD;
+&#xD;
+      Over the past decades, the use of magnetic resonance imaging (MRI) to support RT has&#xD;
+      increased. MRI provides excellent soft-tissue imaging that could improve the target&#xD;
+      definition. The lymph-nodes contouring, based on MRI, will result in smaller target, enabling&#xD;
+      a better sparing of healthy tissues. Moreover, MRI significantly reduces inter/intra-observer&#xD;
+      contouring variability. At this aim, new generation MRI consoles with larger bore size, flat&#xD;
+      tabletops and dedicated imaging protocols with reduced image distortion to &lt;1 mm were&#xD;
+      developed. Moreover, newly developed gradient-echo 3D sequences, and dedicated coils, can be&#xD;
+      used for producing a whole body WB-MRI acquisition in a few minutes. Furthermore, synthetic&#xD;
+      CT from MRI was proposed and implemented in some regions (i.e. brain and prostate) to&#xD;
+      substitute the CT for providing electron density information for dose planning calculation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 15, 2021</start_date>
+  <completion_date type="Anticipated">September 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reduction of Lymph nodes target volume thanks to WB-MRI</measure>
+    <time_frame>3 years</time_frame>
+    <description>The PTV_LN volumes generated on the Simulation WB-MRI and on the Simulation WB-CT will be compared.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Doses calcuated on CT performed at day -3 (4) to the BMT</measure>
+    <time_frame>3 years</time_frame>
+    <description>To evaluate the dosimetric changes that occurs in the days between the simulation and the delivery.&#xD;
+The RT plan is defined on a simulation CT perfomed at -15 days. A second CT is performed at day -3 (4) to the BMT. The RT plan is recalculated on the second CT. The PTV volume receiving 95% of doses will be recorded.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Hematological Disease</condition>
+  <arm_group>
+    <arm_group_label>TMI/TMLI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The standard planning optimization for TMI/TMLI preview a two-free-breathing-CT scan without contrast will be performed for simulation at day -15(-10) to the BMT. The same day a WB-MRI will be acquired for lymph-nodes delineation. WB-MRI scans will be performed using a 1.5T MR scanner. The two CT will be co-registered to the WB-MRI.&#xD;
+CTV will be manually defined as the bones excluding mandible and hands (CTVBones), the spleen (CTVSpleen), and lymph nodes (CTVLN) using both MRI and CT images. The day -3 (4) to the BMT, further two-CT series will be acquired and co-registered to the first CTs for dose verification. Pre-treatment quality assurance (QA) will be performed the day before the treatment using the standard internal procedure.&#xD;
+The treatment will be performed the day before the BMT.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Total Marrow (Lymph-node) Irradiation</intervention_name>
+    <description>To the standard procedure for TMI/TMLI target definition, based on simulation WB-CT acquired 10/15 days before BMT, we acquire: WB- magnetic resonance imaging (MRI) the same day of the simulation WB-CT. A verification WB-CT will be performed 3/4 days before the delivery. Plans will be optimized with Volumetric Modulated Arc Therapy (VMAT) technique.</description>
+    <arm_group_label>TMI/TMLI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Written, signed informed consent&#xD;
+&#xD;
+          -  Adult patients aged ≥18 years&#xD;
+&#xD;
+          -  Diagnosis of Hematological disease&#xD;
+&#xD;
+          -  Eligibility for allogeneic stem cell transplantation as center guidelines&#xD;
+&#xD;
+          -  TMI/TLI as part of the conditioning regimen&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        - Conditioning regimen including only chemotherapeutic agents&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Pietro Mancosu, PhD</last_name>
+    <phone>+390282248529</phone>
+    <email>pietro.mancosu@humanitas.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>IRCCS Humanitas Research Center</name>
+      <address>
+        <city>Rozzano</city>
+        <state>Milano</state>
+        <zip>20089</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pietro Mancosu, PhD</last_name>
+      <phone>+390282248529</phone>
+      <email>pietro.mancosu@humanitas.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>June 30, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 26, 2021</study_first_posted>
+  <last_update_submitted>July 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hematologic Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

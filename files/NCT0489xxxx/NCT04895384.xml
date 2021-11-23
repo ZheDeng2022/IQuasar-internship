@@ -1,0 +1,297 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04895384</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019/00022</org_study_id>
+    <nct_id>NCT04895384</nct_id>
+  </id_info>
+  <brief_title>El DORADO STUDY (Evaluation of Delivery of Oxygen on Renal, Arrhythmia and Delirium Outcomes Study)</brief_title>
+  <official_title>El DORADO STUDY (Evaluation of Delivery of Oxygen on Renal, Arrhythmia and Delirium Outcomes Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National University Hospital, Singapore</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National University Hospital, Singapore</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims to develop a novel perioperative noninvasive delivery of oxygen (DO2) and&#xD;
+      hemodynamic index in the prediction of postoperative outcomes including post-operative acute&#xD;
+      kidney injury (POAKI), perioperative neurological cognitive disorders (PONCD) and&#xD;
+      post-operative atrial fibrillation (POAF).&#xD;
+&#xD;
+      Our study also aims to study the effect of DO2 and hemodynamic parameters (measured&#xD;
+      noninvasively) on the development of PONCD, POAF and POAKI in cardiac surgical patients. We&#xD;
+      aim to develop a novel DO2 index and hemodynamic index predictive of PONCD, POAF and POAKI.&#xD;
+&#xD;
+      The secondary aim would be to develop real-time machine learning aided algorithms in the&#xD;
+      analysis of noninvasive continuous hemodynamic and DO2 data, to predict and guide&#xD;
+      perioperative treatment of POCND, POAF and POAKI in the perioperative setting.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Postoperative acute kidney injury, AF and neurocognitive disorders (POAKI, POAF and PONCD)&#xD;
+      are common complications post cardiac surgery. Postoperative neurocognitive disorders occur&#xD;
+      in up to 73% of cardiac surgical patients, while our previous studies have demonstrated the&#xD;
+      incidence of POAF and POAKI to be 14.7% and 29.9% respectively. These perioperative&#xD;
+      complications have been shown to be associated with adverse short and long term outcomes.&#xD;
+      Apart from increased hospital length of stay and mortality, their adverse effects also extend&#xD;
+      far beyond the acute perioperative period of insult. Postoperative AKI has been shown to be&#xD;
+      associated with progression to long term renal dysfunction. Postoperative atrial fibrillation&#xD;
+      was initially thought to be a benign phenomenon, however, it has been shown to be associated&#xD;
+      with increased risk of long term stroke and mortality (Hazards Ratio 1.26 and 1.2&#xD;
+      respectively). Postoperative delirium has is also associated with accelerated cognitive&#xD;
+      decline in Alzheimer's patients, long term cognitive decline, dementia and functional decline&#xD;
+      after discharge to the community. These phenomena remain ever pertinent in the setting of&#xD;
+      high risk and aging surgical patients, and thus need to be addressed.&#xD;
+&#xD;
+      The need for hemodynamic optimisation and goal directed therapy remains central to current&#xD;
+      care standards in anesthesia. This highlights the need for the quantification and improvement&#xD;
+      of cardiac output and more recently, the emerging focus on perioperative oxygen delivery&#xD;
+      (DO2) in improving clinical outcomes. Oxygen delivery can be calculated based on the oxygen&#xD;
+      flux equation: DO2 = CO x (Hb x SaO2 x 1.36); this concept of optimizing systemic oxygen&#xD;
+      delivery rather than hemodynamic parameters alone has been increasingly studied in recent&#xD;
+      times. Emerging studies involving patients undergoing cardiopulmonary bypass (CPB) have&#xD;
+      demonstrated the optimization of DO2, nadir DO2 and duration below optimum DO2 to be the most&#xD;
+      specific factors of postoperative AKI . The importance of optimizing DO2 in improving&#xD;
+      clinical outcomes is also evidenced in the critical care period, where Raimundo et al&#xD;
+      recently demonstrated that patents with a mean DO2 Index of 325ml/min/m2 were at significant&#xD;
+      risk of developing AKI which progressed to chronic renal failure, as opposed to patients who&#xD;
+      maintained a mean DO2 Index of &gt;405ml/min/m2 . The utility of optimizing DO2 in the avoidance&#xD;
+      of postoperative delirium and atrial fibrillation however remain unknown, with previous&#xD;
+      studies being retrospective, small in sample size with conflicting results.&#xD;
+&#xD;
+      The use of invasive hemodynamic monitoring has been used extensively in the development of&#xD;
+      perioperative goal directed therapy protocols and hemodynamic optimization. Parameters such&#xD;
+      as MAP, CI and SVV are commonplace in the operative and ICU settings, and are used to titrate&#xD;
+      fluid, vasopressor and inotrope use. However, a delicate balance between pressure (CI, MAP)&#xD;
+      and flow (SVRI) exists in systemic organ perfusion, which may be translated into clinical&#xD;
+      outcomes such as POAF, POAKI and PONCD. Separate studies have demonstrated variations in&#xD;
+      vascular resistance to be associated with increased risk of postoperative delirium and AKI,&#xD;
+      despite the maintenance of high MAP levels. These studies indicate the possible inadequacy of&#xD;
+      MAP as the sole marker of systemic organ perfusion, and the need for further hemodynamic&#xD;
+      parameters to be studied. Our study would be the first to investigate the interplay between&#xD;
+      these SVV, SVRI, CI and MAP using non-invasive hemodynamic monitoring techniques.&#xD;
+&#xD;
+      In the past, this monitoring of continuous hemodynamics required invasive lines, while the&#xD;
+      continuous monitoring of DO2 was previously impossible. The use of invasive lines has been&#xD;
+      associated with multiple complications including infection, thrombosis and vascular&#xD;
+      aneurysms, while continuous DO2 monitoring would involve continuous point of care testing of&#xD;
+      hemoglobin which is impractical. Therefore, the risk benefit ratio of placing invasive lines&#xD;
+      remains controversial particularly in the routine well patient who however remains at risk of&#xD;
+      perioperative complications.&#xD;
+&#xD;
+      The advent of new technology has allowed for the real-time noninvasive continuous individual&#xD;
+      measurement of hemodynamics and oxygen delivery. We propose the integration of 2 new devices&#xD;
+      so as to provide the continuous noninvasive monitoring of hemodynamic data and real-time&#xD;
+      noninvasive hemoglobin and oxygen saturation - the combination of which would enable us to&#xD;
+      calculate real time systemic oxygen delivery. Continuous noninvasive hemodynamic data (the&#xD;
+      Edwards Clearsight) is based on oscillonometry and the Penaz technique which has been&#xD;
+      historically established and used in clinical practice. Continuous noninvasive hemoglobin and&#xD;
+      oxygen saturation monitoring (the Masimo SET) has been validated, and is based on established&#xD;
+      principles of spectrophotometry, oximetry and the beer lambert's law . With technological&#xD;
+      improvements over the years, these noninvasive devices have been individually evaluated&#xD;
+      against clinical gold standards in multiple studies and found to be clinically applicable in&#xD;
+      predicting perioperative hemoglobin and hemodynamic trends . Therefore, we propose the novel&#xD;
+      integrated use of these two devices in deriving a real-time noninvasive DO2 and hemodynamic&#xD;
+      index predictive of postoperative atrial fibrillation, AKI and cognitive dysfunction in&#xD;
+      cardiac surgical patients.&#xD;
+&#xD;
+      The integrated use of a noninvasive DO2 and hemodynamic index has yet to be studied in the&#xD;
+      context of POAF, POAKI and PONCD. Data obtained through our study may facilitate the&#xD;
+      development of new integrative technology, paving the way for the development of single index&#xD;
+      which can predict organ specific perfusion. This rich source of continuous noninvasive data&#xD;
+      will be used in the development of algorithms and mathematical models in machine learning.&#xD;
+      This would allow for the provision of precise goal directed therapy to moderate or high-risk&#xD;
+      surgical patients, especially beneficial to the geriatric setting. The potential reductions&#xD;
+      in POAF, PONCD and POAKI achieved through the clinical application of our study findings&#xD;
+      confer significant perioperative benefits which extend into the community health setting due&#xD;
+      to the long-term sequelae of these diseases.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 27, 2021</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluation of the incidence of primary outcomes of AKI, POAF and PONCD</measure>
+    <time_frame>Preoperative through to 90 days postoperatively</time_frame>
+    <description>Collection of patient's demographics, medical records, surgical records and noninvasive hemodynamic data</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>AKI</condition>
+  <condition>Neurocognitive Disorders</condition>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Surgical Cohort</arm_group_label>
+    <description>Placement of Edwards ClearSight and Masimo SET on patient intraoperatively.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Edwards ClearSight and Masimo SET</intervention_name>
+    <description>Placement of Edwards ClearSight and Masimo SET on the patient intraoperatively.</description>
+    <arm_group_label>Surgical Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients scheduled for elective cardiac surgery and age above 21 years old.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Undergoing elective cardiac surgery such as valve replacements or CABG&#xD;
+&#xD;
+          -  Age above 21 years old&#xD;
+&#xD;
+          -  Ability to provide informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Emergency cardiac cases&#xD;
+&#xD;
+          -  Patients on IABP postoperatively&#xD;
+&#xD;
+          -  Patients who decline to participate in this study&#xD;
+&#xD;
+          -  Pregnant women&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ming Ann Sim</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National University Health System</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ming Ann Sim</last_name>
+    <phone>6772 4200</phone>
+    <email>ming_ann_sim@nuhs.edu.sg</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lian Kah Ti</last_name>
+    <phone>6772 4200</phone>
+    <email>anatilk@nus.edu.sg</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>National University Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ming Ann Sim</last_name>
+      <phone>6772 4200</phone>
+      <email>ming_ann_sim@nuhs.edu.sg</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lian Kah Ti</last_name>
+      <phone>6772 4200</phone>
+      <email>anatilk@nus.edu.sg</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Ming Ann Sim</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lian Kah Ti</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Singapore General Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Suneel Desai</last_name>
+      <email>suneel.ramesh.desai@singhealth.com.sg</email>
+    </contact>
+    <investigator>
+      <last_name>Suneel Desai</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sophia Tsong Huey Chew</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <reference>
+    <citation>Ranucci M, Johnson I, Willcox T, Baker RA, Boer C, Baumann A, Justison GA, de Somer F, Exton P, Agarwal S, Parke R, Newland RF, Haumann RG, Buchwald D, Weitzel N, Venkateswaran R, Ambrogi F, Pistuddi V. Goal-directed perfusion to reduce acute kidney injury: A randomized trial. J Thorac Cardiovasc Surg. 2018 Nov;156(5):1918-1927.e2. doi: 10.1016/j.jtcvs.2018.04.045. Epub 2018 Apr 18.</citation>
+    <PMID>29778331</PMID>
+  </reference>
+  <reference>
+    <citation>Groom RC. Is it Time for Goal-Directed Therapy in Perfusion. J Extra Corpor Technol. 2017 Jun;49(2):P8-P12.</citation>
+    <PMID>28638164</PMID>
+  </reference>
+  <reference>
+    <citation>Raimundo M, Crichton S, Syed Y, Martin JR, Beale R, Treacher D, Ostermann M. Low Systemic Oxygen Delivery and BP and Risk of Progression of Early AKI. Clin J Am Soc Nephrol. 2015 Aug 7;10(8):1340-9. doi: 10.2215/CJN.02780314. Epub 2015 Jul 24.</citation>
+    <PMID>26209157</PMID>
+  </reference>
+  <reference>
+    <citation>Smulter N, Lingehall HC, Gustafson Y, Olofsson B, Engström KG, Appelblad M, Svenmarker S. Disturbances in Oxygen Balance During Cardiopulmonary Bypass: A Risk Factor for Postoperative Delirium. J Cardiothorac Vasc Anesth. 2018 Apr;32(2):684-690. doi: 10.1053/j.jvca.2017.08.035. Epub 2017 Aug 25.</citation>
+    <PMID>29153931</PMID>
+  </reference>
+  <reference>
+    <citation>Leenders J, Overdevest E, van Straten B, Golab H. The influence of oxygen delivery during cardiopulmonary bypass on the incidence of delirium in CABG patients; a retrospective study. Perfusion. 2018 Nov;33(8):656-662. doi: 10.1177/0267659118783104. Epub 2018 Jun 29.</citation>
+    <PMID>29956559</PMID>
+  </reference>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>May 17, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2021</study_first_posted>
+  <last_update_submitted>October 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Postoperative</keyword>
+  <keyword>Perioperative</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Neurocognitive Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,232 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04882813</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-DAPA-CKD</org_study_id>
+    <nct_id>NCT04882813</nct_id>
+  </id_info>
+  <brief_title>Replication of the DAPA-CKD (Chronic Kidney Disease) Trial in Healthcare Claims Data</brief_title>
+  <official_title>Replication of the DAPA-CKD (Chronic Kidney Disease) Trial in Healthcare Claims Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale&#xD;
+      replication of randomized controlled trials. The investigators' goal is to understand for&#xD;
+      what types of clinical questions real world data analyses can be conducted with confidence&#xD;
+      and how to implement such studies.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE&#xD;
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical&#xD;
+      School. It is intended to replicate, as closely as possible in healthcare insurance claims&#xD;
+      data, the trial listed below/above. Although many features of the trial cannot be directly&#xD;
+      replicated in healthcare claims, key design features, including outcomes, exposures, and&#xD;
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.&#xD;
+      Randomization is also not replicable in healthcare claims data but was proxied through a&#xD;
+      statistical balancing of measured covariates through standard practice. Investigators assume&#xD;
+      that the RCT provides the reference standard treatment effect estimate and that failure to&#xD;
+      replicate RCT findings is indicative of the inadequacy of the healthcare claims data for&#xD;
+      replication for a range of possible reasons and does not provide information on the validity&#xD;
+      of the original RCT finding.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">December 13, 2020</start_date>
+  <completion_date type="Anticipated">June 11, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 11, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of the composite of end-stage renal disease or all-cause mortality</measure>
+    <time_frame>To study completion or censoring, up to 32 months</time_frame>
+    <description>Claims-based algorithm: see attached protocol for full definition</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of end-stage renal disease</measure>
+    <time_frame>To study completion or censoring event, up to 32 months</time_frame>
+    <description>Claims-based algorithm: see attached protocol for full definition</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relative hazard of all-cause mortality</measure>
+    <time_frame>To study completion or censoring event, up to 32 months</time_frame>
+    <description>Claims-based algorithm: see attached protocol for full definition</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">87727</enrollment>
+  <condition>Chronic Kidney Disease</condition>
+  <arm_group>
+    <arm_group_label>Dapagliflozin</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sitagliptin</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dapagliflozin</intervention_name>
+    <description>Dapagliflozin dispensing claim is used as the exposure group.</description>
+    <arm_group_label>Dapagliflozin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sitagliptin</intervention_name>
+    <description>Sitagliptin dispensing claim is used as the reference group.</description>
+    <arm_group_label>Sitagliptin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, retrospective cohort study design&#xD;
+        comparing dapagliflozin to sitagliptin. Although the trial compared dapagliflozin to&#xD;
+        placebo, for the current emulation we used an active comparator, sitagliptin, which is a&#xD;
+        dipeptidyl peptidase - (DPP-4) inhibitor. This is because both dapagliflozin and&#xD;
+        sitagliptin are guideline recommended as second to third line therapies used for the&#xD;
+        treatment of type 2 diabetes at the same stage of the disease and sitagliptin is not&#xD;
+        expected to have an effect on the primary outcome.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for&#xD;
+        full code and algorithm definitions.&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18 years of age [Day 0, Day 0]&#xD;
+&#xD;
+          -  eGFR ≥25 and ≤75 mL/min/1.73 m2 (CKD-EPI formula) at visit 1 (- All Time, Day 0]&#xD;
+&#xD;
+          -  Evidence of increased albuminuria for 3 months or more before visit 1 and UACR ≥200&#xD;
+             and ≤5000 mg/g at visit 1(- All Time, Day 0]&#xD;
+&#xD;
+          -  Stable, and for the patient maximum tolerated labelled daily dose, treatment with ACEi&#xD;
+             or ARB for at least 4 weeks before visit 1, if not medically contraindicated (-All&#xD;
+             Time, Day -45]&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Type I diabetes mellitus (-All Time, Day 0]&#xD;
+&#xD;
+          -  Autosomal dominant or autosomal recessive polycystic kidney disease, lupus nephritis&#xD;
+             or Antineutrophil cytoplasmic antibody (ANCA) - associated vasculitis (-All Time, Day&#xD;
+             0]&#xD;
+&#xD;
+          -  Receiving cytotoxic therapy, immunosuppressive therapy or other immunotherapy for&#xD;
+             primary or secondary renal disease within 6 months prior to enrollment [Day -180, Day&#xD;
+             0]&#xD;
+&#xD;
+          -  NYHA class IV congestive heart failure at the time of enrollment [Day -180, Day 0]&#xD;
+&#xD;
+          -  MI, unstable angina, stroke, transient ischemic attack within 8 weeks prior to&#xD;
+             enrollment [ Day -56, Day 0]&#xD;
+&#xD;
+          -  Coronary revascularization (percutaneous coronary intervention or coronary artery&#xD;
+             bypass grafting) or valvular repair/replacement within 8 weeks prior to enrollment&#xD;
+             [Day -56, Day 0]&#xD;
+&#xD;
+          -  Any condition outside the renal and cardiovascular study area with a life expectancy&#xD;
+             of &lt;2 years based on investigator's clinical judgement [Day 0, Day 0]&#xD;
+&#xD;
+          -  Hepatic impairment [aspartate transaminase or alanine transaminase &gt;3 times the upper&#xD;
+             limit of normal (ULN) or total bilirubin &gt;2 times the ULN at the time of enrollment]&#xD;
+             (- All Time, Day 0]&#xD;
+&#xD;
+          -  History of organ transplantation (- All Time, Day 0]&#xD;
+&#xD;
+          -  Receiving therapy with SGLT2 inhibitor within 8 weeks prior to enrollment or previous&#xD;
+             intolerance of an SGLT2 inhibitor [Day -56, Day -1]&#xD;
+&#xD;
+          -  Exclude patients that have AKI, CKD V, ESRD and are on HD/PD during the baseline&#xD;
+             period [Day -14, Day 0] for AKI and [Day -180, Day 0] for CKD, ESRD, or&#xD;
+             Hemodialysis/Peritoneal Dialysis&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shirley Wang, PhD, ScM</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jessica Franklin</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 12, 2021</study_first_posted>
+  <last_update_submitted>May 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Associate Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sitagliptin Phosphate</mesh_term>
+    <mesh_term>Dapagliflozin</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 3, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT04882813/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

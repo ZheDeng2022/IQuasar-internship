@@ -1,0 +1,310 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04647643</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20203069FH</org_study_id>
+    <secondary_id>6292-2020-2AS-1001-Phase1</secondary_id>
+    <nct_id>NCT04647643</nct_id>
+  </id_info>
+  <brief_title>Real-World Safety Analysis of Paclitaxel Devices Used for the Treatment of Peripheral Arterial Disease</brief_title>
+  <official_title>Real-World Safety Analysis of Paclitaxel Devices Used for the Treatment of Peripheral Arterial Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Lahey Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Evaluation System for health Technology Coordinating Center (NESTcc)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Society for Vascular Surgery Patient Safety Organization</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Lahey Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Treatment with paclitaxel-based endovascular devices (PED) has become a common treatment&#xD;
+      option for patients with peripheral artery disease (PAD) involving the femoral-popliteal&#xD;
+      artery. However, an aggregate level meta-analysis identified an association between the use&#xD;
+      of PED and increased all-cause mortality at both two and five-year follow-up intervals,&#xD;
+      though there are significant limitations of these analyses. Exploration of real-world data&#xD;
+      has been suggested as a means to further investigate the safety of PED. The current study&#xD;
+      explores the association of PED and mortality in real-world data using U.S. commercial claims&#xD;
+      from the FAIR Health data warehouse.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Treatment with paclitaxel-based endovascular devices (PED) has become a common treatment&#xD;
+      option for patients with peripheral artery disease (PAD) involving the femoral-popliteal&#xD;
+      artery. However, an aggregate level meta-analysis identified an association between the use&#xD;
+      of PED and increased all-cause mortality at both two and five-year follow-up intervals,&#xD;
+      though there are significant limitations of these analyses. Exploration of real-world data&#xD;
+      has been suggested as a means to further investigate the safety of PED. The current study&#xD;
+      explores the association of PED and mortality in real-world data using U.S. commercial claims&#xD;
+      from the FAIR Health data warehouse.&#xD;
+&#xD;
+      This study aims to evaluate the relative safety of paclitaxel used as an antiproliferative&#xD;
+      agent in the treatment of symptomatic PAD in a real-world scenario. We will analyze&#xD;
+      Paclitaxel Drug-Coated Balloons (DCB) and Paclitaxel Drug-Eluting Stents (DES), in aggregate&#xD;
+      and as unique exposures using propensity score-matched survival analysis. (Inverse&#xD;
+      probability of Treatment Weighting).&#xD;
+&#xD;
+      Commercial claims of patients who underwent endovascular interventional treatment of the&#xD;
+      femoral or popliteal arteries for symptomatic PAD between 1/1/15 and 12/31/2019 will form the&#xD;
+      study population. Three separate safety analyses will be performed. 1. Paclitaxel Drug coated&#xD;
+      balloons (DCB) as compared with propensity-matched patients treated with plain transluminal&#xD;
+      balloon angioplasty (PTA). 2. Paclitaxel delivering Drug-Eluting Stents (DES) as compared&#xD;
+      with propensity-matched cases using bare-metal stents (BMS). 3. Patients treated with either&#xD;
+      paclitaxel DCB or paclitaxel DES (any PTX) compared with propensity-matched controls&#xD;
+      (non-PTX,with DCB patients, matched to patients treated with PTA, and DES patients matched to&#xD;
+      patients treated with BMS).&#xD;
+&#xD;
+      All proposed analyses will be performed using R 4.01 implemented within the DELTA analytic&#xD;
+      engine. DELTA is an active surveillance safety system that can monitor clinical data&#xD;
+      repositories for safety signals and has been validated to support risk-adjusted prospective&#xD;
+      safety surveillance analyses of complex clinical datasets.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">November 20, 2020</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Survival</measure>
+    <time_frame>4 years post intervention</time_frame>
+    <description>Freedom from death of any cause</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Survival</measure>
+    <time_frame>2 years post intervention</time_frame>
+    <description>Freedom from death of any cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Retreatment</measure>
+    <time_frame>2 years post intervention</time_frame>
+    <description>Retreatment with repeat revascularization (open or endovascular)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Amputation</measure>
+    <time_frame>2 years post intervention</time_frame>
+    <description>Freedom from amputation</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Survival for age groups</measure>
+    <time_frame>4 years and 2 years post intervention</time_frame>
+    <description>Freedom from death in the age groups 18-34, 35-44, 45-54, 55-64, 65-74, 75 and above</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Survival for demographics and special baseline variables</measure>
+    <time_frame>4 years and 2 years post intervention</time_frame>
+    <description>Freedom from death in females, patients with claudication, CKD and dialysis, history of CAD, history of cancer</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Survival for special treatment category</measure>
+    <time_frame>4 years and 2 years post intervention</time_frame>
+    <description>Freedom from death in patients with patients receiving paclitaxel-coated device as a second procedure</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">20000</enrollment>
+  <condition>Peripheral Arterial Disease</condition>
+  <arm_group>
+    <arm_group_label>Paclitaxel Drug Coated Balloon</arm_group_label>
+    <description>Patients treated with paclitaxel drug-coated balloon</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Paclitaxel Drug Coated Stent</arm_group_label>
+    <description>Patients treated with paclitaxel drug-coated stent</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Paclitaxel</intervention_name>
+    <description>Paclitaxel to treat peripheral arterial disease</description>
+    <arm_group_label>Paclitaxel Drug Coated Balloon</arm_group_label>
+    <arm_group_label>Paclitaxel Drug Coated Stent</arm_group_label>
+    <other_name>Taxol</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Commercial claims of patients who underwent endovascular interventional treatment of the&#xD;
+        femoral or popliteal arteries for symptomatic PAD between 1/1/15 and 12/31/2019 will form&#xD;
+        the study population. Three separate safety analyses will be performed. 1. Paclitaxel Drug&#xD;
+        coated balloons (DCB) as compared with propensity-matched patients treated with plain&#xD;
+        transluminal balloon angioplasty (PTA). 2. Paclitaxel delivering Drug-Eluting Stents (DES)&#xD;
+        as compared with propensity-matched cases using bare-metal stents (BMS). 3. Patients&#xD;
+        treated with either paclitaxel DCB or paclitaxel DES (any PTX) compared with&#xD;
+        propensity-matched controls (non-PTX,with DCB patients, matched to patients treated with&#xD;
+        PTA, and DES patients matched to patients treated with BMS).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All patients, age 18 or older, who had a health insurance claim for outpatient&#xD;
+             endovascular treatment of the femoral or popliteal arteries for symptomatic PAD will&#xD;
+             be included. The diagnosis and treatment of PAD in the femoral and popliteal arteries&#xD;
+             will be identified by CPT/HCPCS and ICD-9 and ICD-10 PCS codes.&#xD;
+&#xD;
+          -  Presence of at least one additional outpatient or inpatient claims, at least 12 months&#xD;
+             following the index procedure, in order to demonstrate continued enrollment in health&#xD;
+             insurance coverage.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt;18 years&#xD;
+&#xD;
+          -  No qualifying peripheral arterial endovascular procedure&#xD;
+&#xD;
+          -  Inpatient procedure&#xD;
+&#xD;
+          -  Patients without any linked claim record more than 12 months after the index&#xD;
+             procedure, not known to have died or entered hospice care within the first 12 months&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sourbha S Dani, MD, MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Lahey Hospital &amp; Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Frederic S Resnic, MD, MSc</last_name>
+    <role>Study Director</role>
+    <affiliation>Lahey Hospital &amp; Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Robbert Zusterzeel, MD, MPH, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>NESTcc</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Lahey Clinic, Inc</name>
+      <address>
+        <city>Burlington</city>
+        <state>Massachusetts</state>
+        <zip>01805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.fda.gov/media/127698/download</url>
+    <description>U.S. Food and Drug Administration (FDA). FDA Executive Summary: Circulatory System Devices Panel Meeting</description>
+  </link>
+  <link>
+    <url>https://www.tctmd.com/news/two-trials-halted-wake-study-linking-paclitaxel-coated-devices-deaths-pad</url>
+    <description>McKeown L. Two trials halted in wake of study linking paclitaxel-coated devices to deaths in PAD</description>
+  </link>
+  <link>
+    <url>https://www.vqi.org/svs-pso-surveillance-of-paclitaxel-mortality/</url>
+    <description>Society of Vascular Surgery Vascular Quality Initiative.</description>
+  </link>
+  <results_reference>
+    <citation>Dake MD, Ansel GM, Jaff MR, Ohki T, Saxon RR, Smouse HB, Zeller T, Roubin GS, Burket MW, Khatib Y, Snyder SA, Ragheb AO, White JK, Machan LS; Zilver PTX Investigators. Paclitaxel-eluting stents show superiority to balloon angioplasty and bare metal stents in femoropopliteal disease: twelve-month Zilver PTX randomized study results. Circ Cardiovasc Interv. 2011 Oct 1;4(5):495-504. doi: 10.1161/CIRCINTERVENTIONS.111.962324. Epub 2011 Sep 27.</citation>
+    <PMID>21953370</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dake MD, Ansel GM, Jaff MR, Ohki T, Saxon RR, Smouse HB, Snyder SA, O'Leary EE, Tepe G, Scheinert D, Zeller T; Zilver PTX Investigators. Sustained safety and effectiveness of paclitaxel-eluting stents for femoropopliteal lesions: 2-year follow-up from the Zilver PTX randomized and single-arm clinical studies. J Am Coll Cardiol. 2013 Jun 18;61(24):2417-2427. doi: 10.1016/j.jacc.2013.03.034. Epub 2013 Apr 10. Erratum in: J Am Coll Cardiol. 2013 Aug 13;62(7):666.</citation>
+    <PMID>23583245</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Katsanos K, Spiliopoulos S, Kitrou P, Krokidis M, Karnabatidis D. Risk of Death Following Application of Paclitaxel-Coated Balloons and Stents in the Femoropopliteal Artery of the Leg: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Am Heart Assoc. 2018 Dec 18;7(24):e011245. doi: 10.1161/JAHA.118.011245.</citation>
+    <PMID>30561254</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rocha-Singh KJ, Duval S, Jaff MR, Schneider PA, Ansel GM, Lyden SP, Mullin CM, Ioannidis JPA, Misra S, Tzafriri AR, Edelman ER, Granada JF, White CJ, Beckman JA; VIVA Physicians, Inc. Mortality and Paclitaxel-Coated Devices: An Individual Patient Data Meta-Analysis. Circulation. 2020 Jun 9;141(23):1859-1869. doi: 10.1161/CIRCULATIONAHA.119.044697. Epub 2020 May 6.</citation>
+    <PMID>32370548</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Secemsky EA, Kundi H, Weinberg I, Jaff MR, Krawisz A, Parikh SA, Beckman JA, Mustapha J, Rosenfield K, Yeh RW. Association of Survival With Femoropopliteal Artery Revascularization With Drug-Coated Devices. JAMA Cardiol. 2019 Apr 1;4(4):332-340. doi: 10.1001/jamacardio.2019.0325.</citation>
+    <PMID>30747949</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Secemsky EA, Kundi H, Weinberg I, Schermerhorn M, Beckman JA, Parikh SA, Jaff MR, Mustapha J, Rosenfield K, Yeh RW. Drug-Eluting Stent Implantation and Long-Term Survival Following Peripheral Artery Revascularization. J Am Coll Cardiol. 2019 May 28;73(20):2636-2638. doi: 10.1016/j.jacc.2019.02.020. Epub 2019 Mar 1.</citation>
+    <PMID>30831175</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Behrendt CA, Sedrakyan A, Peters F, Kreutzburg T, Schermerhorn M, Bertges DJ, Larena-Avellaneda A, L'Hoest H, Kölbel T, Debus ES. Editor's Choice - Long Term Survival after Femoropopliteal Artery Revascularisation with Paclitaxel Coated Devices: A Propensity Score Matched Cohort Analysis. Eur J Vasc Endovasc Surg. 2020 Apr;59(4):587-596. doi: 10.1016/j.ejvs.2019.12.034. Epub 2020 Jan 8.</citation>
+    <PMID>31926836</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Resnic FS, Gross TP, Marinac-Dabic D, Loyo-Berrios N, Donnelly S, Normand SL, Matheny ME. Automated surveillance to detect postprocedure safety signals of approved cardiovascular devices. JAMA. 2010 Nov 10;304(18):2019-27. doi: 10.1001/jama.2010.1633.</citation>
+    <PMID>21063011</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Kumar A, Matheny ME, Ho KK, Yeh RW, Piemonte TC, Waldman H, Shah PB, Cope R, Normand SL, Donnelly S, Robbins S, Resnic FS. The data extraction and longitudinal trend analysis network study of distributed automated postmarket cardiovascular device safety surveillance. Circ Cardiovasc Qual Outcomes. 2015 Jan;8(1):38-46. doi: 10.1161/CIRCOUTCOMES.114.001123. Epub 2014 Dec 9.</citation>
+    <PMID>25491915</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Resnic FS, Majithia A. Registry-Based Surveillance of Medical-Device Safety. N Engl J Med. 2017 May 18;376(20):1995. doi: 10.1056/NEJMc1704006.</citation>
+    <PMID>28514621</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hsieh FY, Lavori PW, Cohen HJ, Feussner JR. An overview of variance inflation factors for sample-size calculation. Eval Health Prof. 2003 Sep;26(3):239-57. Review.</citation>
+    <PMID>12971199</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Vidi VD, Matheny ME, Resnic FS. Post-marketing device safety surveillance. Contemp Clin Trials. 2011 May;32(3):307-8. doi: 10.1016/j.cct.2011.02.002. Epub 2011 Feb 28.</citation>
+    <PMID>21371573</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Austin PC. Optimal caliper widths for propensity-score matching when estimating differences in means and differences in proportions in observational studies. Pharm Stat. 2011 Mar-Apr;10(2):150-61. doi: 10.1002/pst.433.</citation>
+    <PMID>20925139</PMID>
+  </results_reference>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>November 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 1, 2020</study_first_posted>
+  <last_update_submitted>September 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Lahey Clinic</investigator_affiliation>
+    <investigator_full_name>Sourbha Dani</investigator_full_name>
+    <investigator_title>Staff Cardiologist</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Peripheral Arterial Disease</mesh_term>
+    <mesh_term>Peripheral Vascular Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Paclitaxel</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

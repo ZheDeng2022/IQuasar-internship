@@ -1,0 +1,183 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03968094</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MOD00005932</org_study_id>
+    <nct_id>NCT03968094</nct_id>
+  </id_info>
+  <brief_title>Early Detection of Respiratory Compromise to Prevent Harm of the Hospitalized Opioid Treated Patient</brief_title>
+  <official_title>Early Detection of Respiratory Compromise to Prevent Harm of the Hospitalized Opioid Treated Patient</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>State University of New York at Buffalo</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>State University of New York at Buffalo</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Imagine a hospital or ambulatory surgical work environment where clinicians could look at an&#xD;
+      electronic respiratory monitoring device and observe the patient's data over time, and be&#xD;
+      cued by the monitor before the patient exhibits dangerous opioid induced respiratory&#xD;
+      depression/respiratory compromise. Currently, clinicians use electronic monitoring data for&#xD;
+      real-time assessment of respiratory status. Alarms set at thresholds alert a clinician when&#xD;
+      the patient is currently experiencing respiratory compromise. Adverse events secondary to&#xD;
+      opioid induced respiratory compromise (OIRC) continue to occur in 0.5-4.2% of hospitalized&#xD;
+      patients receiving opioids for acute pain. Opioids continue to be a staple for acute pain&#xD;
+      management. In this environment of litigation around adequate pain management and the use of&#xD;
+      opioids, clinicians need a more sensitive and specific way to determine which patients are at&#xD;
+      risk of severe respiratory depression when using opioids for acute pain management in the&#xD;
+      hospital setting.&#xD;
+&#xD;
+      This study proposes to evaluate algorithms preliminarily developed in the computer&#xD;
+      laboratory. This translational research will compare and test replication of our algorithms&#xD;
+      in a new sample of patients. Patients' electronic monitor data will be used to further&#xD;
+      develop our algorithms for identifying patients who exhibit OIRC and predicting OIRC events.&#xD;
+      Explicitly, we will monitor post-operative patients using pulse oximetry, capnography, minute&#xD;
+      ventilation, and transcutaneous PCO2 during recovery from anesthesia (in PACU), and on the&#xD;
+      general care floor for up to 72 hours. This data, along with covariates collected from the&#xD;
+      electronic medical record and environment will be used in machine learning models to develop&#xD;
+      our algorithms in an iterative process. Future studies will involve instituting these&#xD;
+      algorithms into a monitoring interface and testing in simulation and in real-time on&#xD;
+      patients. Please see AHRQ summary sheets from a submission that occurred earlier this year.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Setting: This research project will be performed at an inner-city hospital in Western New&#xD;
+      York, Buffalo General Medical Center (BGMC) is typical of an under-resourced facility&#xD;
+      providing care to a substantial proportion of the indigent, minority, immigrant and medically&#xD;
+      underserved population of a region. In 2017, 36% of BGMC patients identified themselves as&#xD;
+      Black or African American. Typical patients face economic, cultural or linguistic barriers to&#xD;
+      healthcare. By focusing on OIRC at BGMC, this study will help in informing how health&#xD;
+      disparities may impact the incidence of OIRC. At BGMC in 2017, 11,744 surgical procedures&#xD;
+      were performed and 2% of general surgical cases experienced an adverse event (code blue).&#xD;
+      Information on adverse events related to OIRC is not available.&#xD;
+&#xD;
+      Aim 1. After recruiting and performing informed consent pre-operatively, we will monitor&#xD;
+      post-operative patients using pulse oximetry, capnography, TCpCO2, and minute ventilation&#xD;
+      during recovery from anesthesia (in PACU), and on the general care floor for up to 72 hours.&#xD;
+      An observational study of 50 surgical patients will be performed to record electronic&#xD;
+      respiratory monitoring data as well as patient characteristics. This information will be used&#xD;
+      for validation and iterative development of prediction models using machine learning&#xD;
+      techniques. In our preliminary work, we used data that was collected by the research&#xD;
+      assistants reading the data off the device display. During the proposal proposed study, we&#xD;
+      will record the data from each electronic device directly on USB memory sticks attached to&#xD;
+      the device. In our preliminary work, we had data from the PACU stay only. During this study,&#xD;
+      we will collect data prospectively throughout the hospital stay to further inform changes in&#xD;
+      respiratory compromise as the patient transitions away from the anesthetic and paralytic&#xD;
+      agents . On the machine learning side, we will explore long-short term memory networks&#xD;
+      (LSTM), which have become the state of art machine learning models to deal with sequence and&#xD;
+      time series data (24), including applications in the healthcare domain (25), including recent&#xD;
+      work by Co-I Chandola. The justification behind using these models over the support vector&#xD;
+      machine model used in our preliminary study is that they are able to explicitly model the&#xD;
+      temporal dependencies in the data, which is expected to provide significant improvements in&#xD;
+      the predictive performance of the model (26).&#xD;
+&#xD;
+      Aim 2. To further understand factors related to OIRC and to assist in responding to the AHRQ&#xD;
+      reviewers' comments, we will perform a root cause analysis of all adverse events found in the&#xD;
+      patients we recruited for Aim 1, as well as all rapid response calls, naloxone deliveries,&#xD;
+      and code blue calls for 2018 at Buffalo General Medical Center (BGMC ). We will examine each&#xD;
+      case specifically for nursing assessment and monitoring procedures as well as all patient and&#xD;
+      environmental factors that may have contributed to the adverse event. The patient safety&#xD;
+      physician and quality assurance nurses from BGMC will be interviewed to perform root cause&#xD;
+      analysis of all opioid-related adverse events that have occurred over the past year at the&#xD;
+      facility. Each event will be broken down by who was involved, what they were doing, what&#xD;
+      technologies were used, where did the event take place, and what outside factors may have&#xD;
+      contributed to the event. This information will be used to group the potential causes and the&#xD;
+      progression toward the adverse event, which will allow for identification of the roles of&#xD;
+      staff workload and patient monitoring on OIRC occurrence. We have received a letter of&#xD;
+      support from the medical director of patient safety at BGMC and Kaleida Health chief nursing&#xD;
+      office for our intended projects.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 1, 2019</start_date>
+  <completion_date type="Actual">September 1, 2020</completion_date>
+  <primary_completion_date type="Actual">March 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Opioid Induced Respiratory Depression</measure>
+    <time_frame>48 hours post-operative</time_frame>
+    <description>Electronic Respiratory Data</description>
+  </primary_outcome>
+  <enrollment type="Actual">47</enrollment>
+  <condition>Pain</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults undergoing elective surgery of the abdomen, limbs, back.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria: Undergoing Surgical Procedure and will receive Opioid medications as&#xD;
+        part of usual care.&#xD;
+&#xD;
+        -&#xD;
+&#xD;
+        Exclusion Criteria: No admission to general care floor&#xD;
+&#xD;
+          -  Oxygen Dependent (wears supplemental oxygen at home)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Carla Jungquist, PhD, ANP</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University at Buffalo</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Buffalo General Medical Center</name>
+      <address>
+        <city>Buffalo</city>
+        <state>New York</state>
+        <zip>14203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>May 28, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 30, 2019</study_first_posted>
+  <last_update_submitted>November 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 30, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>State University of New York at Buffalo</investigator_affiliation>
+    <investigator_full_name>Carla Jungquist</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Respiratory Compromise</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,434 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04142229</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-006965</org_study_id>
+    <nct_id>NCT04142229</nct_id>
+  </id_info>
+  <brief_title>Artificial Pancreas With Different Stress Assessments in the Outpatient Setting</brief_title>
+  <official_title>A Randomized Crossover Comparison of Artificial Pancreas vs. Sensor Augmented Pump/Predictive Low Glucose Suspend With Different Stress Assessments in the Outpatient Setting for Patients With Type 1 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This feasibility study is a randomized crossover trial that will compare the efficacy and&#xD;
+      safety of an automated insulin delivery (AID) system in patients with type 1 diabetes using a&#xD;
+      Model Predictive Control (MPC) algorithm versus sensor augmented pump therapy&#xD;
+      (SAP)/Predictive Low Glucose Suspend (PLGS), and will include different stress induction and&#xD;
+      assessments over a 4 week period.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Eligible participants will be randomly assigned to one of two treatment arms: 1) AID for two&#xD;
+      weeks and SAP/PLGS for two weeks , or 2) SAP/PLGS for two weeks and AID for two weeks. During&#xD;
+      the 4-week trial, subjects will wear the Empatica E4 wristband every day to record&#xD;
+      electrodermal activity, accelerometer and heartrate data. Subjects will also complete&#xD;
+      logbooks to record activity and stress. During each two-week period, subjects will come to&#xD;
+      the clinical center twice for stress induction tests in a medically supervised setting.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 25, 2019</start_date>
+  <completion_date type="Actual">November 6, 2020</completion_date>
+  <primary_completion_date type="Actual">November 6, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Crossover Assignment</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time in target glucose range</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Time in target glucose range 70-180 mg/dL measured by CGM to determine safety and efficacy of the integrated system</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in glucose levels with stress induction</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Change in glucose levels with stress induction sessions (mg/dL)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in insulin requirements with stress induction</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Change in insulin requirements with stress induction sessions (units of insulin)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EDA stress detection</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Analysis of EDA to verify stress detection and correlation to glucose changes, both during the stress sessions and in the outpatient setting</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postprandial Time in Target Range</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Percent time within the target range of 70-180 mg/dl postprandial within 5 hours following meals</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &lt; 70 mg/dL</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Percent time GGM glucose &lt; 70 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &lt; 54 mg/dL</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Percent time GGM glucose &lt; 54 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &gt; 180 mg/dL</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Percent time GGM glucose &gt; 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &gt; 250 mg/dL</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Percent time GGM glucose &gt; 250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Serious adverse events (SAE)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>The total number of serious adverse events during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Serious adverse device events (SADE)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>The total number of serious adverse events related to the study device use during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adverse device effects (ADE)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>The total number of adverse device effects (ADE) during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Unanticipated adverse device effects (UADE)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>The total number of unanticipated adverse device effects (UADE) during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Salivary cortisol assessment</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Salivary cortisol assessment (nmol/l) during psychologic and physiologic stress induction</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Empatica device-based assessment of psychologic and physiologic stress</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>EDA Measurement of psychologic and physiologic stress from the Empatica E4 Watch</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trier Social Stress Test (TSST)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Trier Social Stress Test (TSST) score at end of each test induction</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Socially evaluated cold-pressor test (SECPT)</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Socially evaluated cold-pressor test (SECPT) score at end of each test induction</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Closed-Loop Active Time</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Percent time (hours/day) of closed-loop use during the two weeks of iAPS use</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Sensor Use Time</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Total hours of CGM sensor use time during both use of SAP/PLGS and when using the iAPS</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Device Issues</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Total number of devices issues during the clinical trial</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total daily insulin use</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Total daily insulin use (units/day) during both use of SAP/PLGS and when using the iAPS</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total basal insulin use</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Total daily basal insulin use (units/day) during both use of SAP/PLGS and when using the iAPS</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total bolus insulin use</measure>
+    <time_frame>4 weeks</time_frame>
+    <description>Total daily bolus insulin use (units/day) during both use of SAP/PLGS and when using the iAPS</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Questionnaire Score</measure>
+    <time_frame>2 weeks</time_frame>
+    <description>Questionnaire before and after AID use to assess technology acceptance, fear of hypoglycemia, diabetes associated distress (Likert Scale)</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">14</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Automated Insulin Delivery</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will use the Automated Insulin Delivery (AID) iAPS system for 2 weeks in the outpatient setting, and come to the clinical center twice for supervised stress assessments.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SAP/PLGS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants will use their home pump with a CGM sensor (sensor augmented pump) or in Predictive Low Glucose Suspend (PLGS) mode if their home pump supports this mode, for 2 weeks in the outpatient setting, and come to the clinical center twice for supervised stress assessments.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>iAPS</intervention_name>
+    <description>The AID system (iAPS) is comprised of an insulin pump, a Dexcom G6 continuous glucose monitoring sensor, and a smart phone that contains the algorithm and communicates with the other devices.</description>
+    <arm_group_label>Automated Insulin Delivery</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Sensor-Augmented Pump</intervention_name>
+    <description>Subjects will use their home insulin pump and a Dexcom G6 continuous glucose monitoring sensor.</description>
+    <arm_group_label>SAP/PLGS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least&#xD;
+             one year and using insulin for at least 1 year&#xD;
+&#xD;
+          -  Using an insulin pump for at least 3 months at the time of screening. Insulin pump use&#xD;
+             includes use of automated features, to include predictive or threshold low-glucose&#xD;
+             suspend or hybrid closed-loop with or without a Dexcom sensor.&#xD;
+&#xD;
+          -  Familiarity and use of a carbohydrate ratio for meal boluses.&#xD;
+&#xD;
+          -  Age ≥18.0 years old&#xD;
+&#xD;
+          -  HbA1c &lt; 10.5%, as performed by point of care or central laboratory testing. HbA1c will&#xD;
+             be assessed at the screening visit, or if already completed within 2 weeks of the&#xD;
+             screening visit, the prior lab value may be used in lieu of repeating this assessment.&#xD;
+&#xD;
+          -  For females, not currently known to be pregnant. If female and sexually active, must&#xD;
+             agree to use a form of contraception to prevent pregnancy while a participant in the&#xD;
+             study and up to one month afterwards. A negative serum or urine pregnancy test will be&#xD;
+             required for all females of child-bearing potential. Participants who become pregnant&#xD;
+             will be discontinued from the study. Also, participants who during the study develop&#xD;
+             and express the intention to become pregnant within the timespan of the study will be&#xD;
+             discontinued.&#xD;
+&#xD;
+          -  Willingness to switch home pump to PLGS or full manual mode if using hybrid -&#xD;
+             Investigator has confidence that the participant can successfully operate all study&#xD;
+             devices and is capable of adhering to the protocol.&#xD;
+&#xD;
+          -  Willingness to switch to lispro (Humalog) or aspart (Novolog) if not using already,&#xD;
+             and to use no other insulin besides lispro (Humalog) or aspart (Novolog) during the&#xD;
+             study.&#xD;
+&#xD;
+          -  Willingness not to start any new non-insulin glucose-lowering agent during the course&#xD;
+             of the trial.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Use of an unapproved closed-loop insulin delivery system within 2 weeks before&#xD;
+             screening or during the study is not allowed.&#xD;
+&#xD;
+          -  Have a blood pressure at screening outside the range of 160 mmHg systolic blood&#xD;
+             pressure and/or greater than 100 mmHg for diastolic blood pressure (if repeated&#xD;
+             measurements are within this range, the patient may be included in the study)&#xD;
+&#xD;
+          -  Have coronary artery disease that is not stable with medical management, including&#xD;
+             unstable angina, angina that prevents moderate exercise despite medical management, or&#xD;
+             within the last 12 months before screening a history of myocardial infarction,&#xD;
+             percutaneous coronary intervention, enzymatic lysis of a presumed coronary occlusion,&#xD;
+             or coronary artery bypass grafting&#xD;
+&#xD;
+          -  Concurrent use of Afrezza or any non-insulin glucose-lowering agent other than&#xD;
+             metformin (including GLP-1 agonists, Symlin, DPP-4 inhibitors, SGLT-2 inhibitors,&#xD;
+             sulfonylureas).&#xD;
+&#xD;
+          -  Hemophilia or any other bleeding disorder&#xD;
+&#xD;
+          -  A condition, which in the opinion of the investigator or designee, would put the&#xD;
+             participant or study at risk, to include:&#xD;
+&#xD;
+               -  Pregnancy, or planning pregnancy within 1 month of completing the clinical trial.&#xD;
+&#xD;
+               -  Allergy or hypersensitivity to hydrocortisone, or any component of the&#xD;
+                  formulation&#xD;
+&#xD;
+               -  Presence of a known adrenal disorder&#xD;
+&#xD;
+               -  Systemic fungal infections&#xD;
+&#xD;
+               -  Active infection of any kind, or at risk of infection (susceptibility to&#xD;
+                  infection) from known immunosuppression or underlying immunosuppressed condition&#xD;
+&#xD;
+               -  Idiopathic thrombocytopenia purpura (ITP)&#xD;
+&#xD;
+               -  Varicella&#xD;
+&#xD;
+               -  Glaucoma or other chronic ocular condition that could be adversely affected by&#xD;
+                  steroids (e.g., cataracts, increased ocular pressure from other causes,&#xD;
+                  exophthalmos)&#xD;
+&#xD;
+               -  Hypertension requiring treatment with one or more antihypertensive medications&#xD;
+&#xD;
+               -  Congestive heart failure&#xD;
+&#xD;
+               -  Current treatment for a seizure disorder&#xD;
+&#xD;
+               -  Mental incapacity, unwillingness or language barriers precluding adequate&#xD;
+                  understanding or co-operation, including subjects not able to read or write&#xD;
+&#xD;
+               -  Known coronary artery disease&#xD;
+&#xD;
+               -  Active gastroparesis&#xD;
+&#xD;
+               -  Cystic fibrosis&#xD;
+&#xD;
+               -  Uncontrolled thyroid disease (TSH undetectable or &gt; 10 mIU/L)&#xD;
+&#xD;
+               -  Known abuse of alcohol&#xD;
+&#xD;
+               -  A recent injury to body or limb, muscular disorder, use of any medication, any&#xD;
+                  carcinogenic disease, or other significant medical disorder if that injury,&#xD;
+                  medication or disease in the judgment of the investigator will affect the&#xD;
+                  completion of the protocol&#xD;
+&#xD;
+               -  Current use of a beta blocker medication&#xD;
+&#xD;
+               -  Laboratory results:&#xD;
+&#xD;
+                    -  HbA1c &gt; 10.5%&#xD;
+&#xD;
+                    -  Abnormal liver or renal function (Transaminase &gt;2 times the upper limit of&#xD;
+                       normal, creatinine&gt; 1.5 mg/dL)&#xD;
+&#xD;
+                    -  Labs drawn at screening visit or within three months prior to screening (for&#xD;
+                       other purposes) will suffice for enrollment purposes&#xD;
+&#xD;
+               -  Subject has skin conditions that, in the determination of the investigator, would&#xD;
+                  preclude wearing the study devices (infusion set and sensor), in the abdomen.&#xD;
+                  Examples include but are not limited to: psoriasis, burns, scaring, eczema,&#xD;
+                  tattoos, and significant hypertrophy at sites of device wear; any known allergy&#xD;
+                  to medical adhesives.&#xD;
+&#xD;
+               -  Currently on long-term treatment using prednisone or other steroid&#xD;
+&#xD;
+               -  If subject had been on short term treatment of prednisone, defer enrollment until&#xD;
+                  underlying condition and prednisone treatment have resolved.&#xD;
+&#xD;
+               -  Allergy to study drug, food or other study material.&#xD;
+&#xD;
+               -  Clinically significant physical examination, laboratory test, or vital sign&#xD;
+                  abnormality.&#xD;
+&#xD;
+               -  Exposure to any investigational drug within 30 days.&#xD;
+&#xD;
+               -  History of malignancy within the 5 years before screening (other than basal cell&#xD;
+                  carcinoma).&#xD;
+&#xD;
+          -  Participation in another pharmaceutical or device trial at the time of enrollment or&#xD;
+             during the study&#xD;
+&#xD;
+          -  Having a direct supervisor at place of employment who is also directly involved in&#xD;
+             conducting the clinical trial (as a study investigator, coordinator, etc.); or having&#xD;
+             a first-degree relative who is directly involved in conducting the clinical trial&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yogish Kudva, MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jordan Pinsker, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Pinsker JE, Deshpande S, McCrady-Spitzer S, Church MM, Kaur RJ, Perez J, Desjardins D, Piper M, Reid C, Doyle FJ 3rd, Kudva YC, Dassau E. Use of the Interoperable Artificial Pancreas System for Type 1 Diabetes Management During Psychological Stress. J Diabetes Sci Technol. 2021 Jan;15(1):184-185. doi: 10.1177/1932296820948566. Epub 2020 Aug 12.</citation>
+    <PMID>32783473</PMID>
+  </results_reference>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>October 25, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 25, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 29, 2019</study_first_posted>
+  <last_update_submitted>November 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 1, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>automated insulin delivery</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>stress</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

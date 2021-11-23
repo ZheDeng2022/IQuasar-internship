@@ -1,0 +1,253 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04850963</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AVCtDCS</org_study_id>
+    <nct_id>NCT04850963</nct_id>
+  </id_info>
+  <brief_title>The Effects of Optimization od tDCS Dosage on the Motor Function of Lower-limb in Patients After Stroke</brief_title>
+  <official_title>The Effects of Optimization od tDCS Dosage on the Motor Function of Lower-limb in Patients After Stroke</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Federal University of Paraíba</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Federal University of Paraíba</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Currently, it is known that transcranial direct current stimulation (tDCS) can modulate&#xD;
+      cortical activity, being considered an important resource in the treatment of sequelae&#xD;
+      resulting from stroke. However, evidence of the effects of tDCS in the acute post-stroke&#xD;
+      period on lower limb motor recovery still remains scarce and inconclusive. Currently, a great&#xD;
+      variability of results has been perceived, in this sense there is a need for studies that&#xD;
+      perform dosage optimization, based on individual characteristics. Therefore, the present&#xD;
+      study seeks to evaluate the therapeutic effects of the optimization of the measurement of&#xD;
+      tDCS on the motor function of lower limbs in patients after ischemic stroke in a late&#xD;
+      subacute stage (3 to 6 months after the injury), compared to individuals undergoing sham&#xD;
+      tDCS. The study is a randomized, double-blind, sham-controlled clinical trial, with&#xD;
+      individuals after a stroke, recruited at a referral hospital in the metropolitan region of&#xD;
+      João Pessoa. After recruitment and initial screening, participants will be randomized into&#xD;
+      two groups: Group 1 - active stimulation and group - 2 sham stimulation. Participants will&#xD;
+      receive 10 sessions of tDCS, for 20 minutes, on alternate days (3 times a week), where the&#xD;
+      electrodes will be positioned over the primary motor cortex. 3 minutes of EEG at rest will be&#xD;
+      taken from each participant, and they will be instructed not to be actively involved in any&#xD;
+      cognitive or mental activity. In the first and last meeting, the evaluations will be carried&#xD;
+      out, the evaluated outcomes will be: motor function (Fugl-Meyer scale), functional&#xD;
+      connectivity (EEG), quality of life (SF-36) and level of functional disability (Rankin scale)&#xD;
+      . Statistical analyzes will be performed using the SPSS software (Version 20.0) and MATLAB&#xD;
+      9.2.0 with a significance level of p &lt;0.05.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Participants will be divided into 02 groups: G1: Experimental - participants who will receive&#xD;
+      real current; G2: Sham - participants who will receive simulated stimulation. Participants&#xD;
+      will be included in the study using the eligibility criteria and will be randomly allocated,&#xD;
+      with exchange in blocks at the rate of 1: 1. Participants will receive 10 tDCS sessions, for&#xD;
+      20 minutes, on days alternate (3 times a week). The neurostimulator TCT-Research will be used&#xD;
+      for stimulation. The electrodes will be positioned according to the international&#xD;
+      classification system of the electroencephalogram 10/20, in which the anode will be applied&#xD;
+      in the primary motor area (C3 / C4) ipsilateral to the lesion and the cathode in the&#xD;
+      contralateral supra-orbital region. The current intensity will be defined based on&#xD;
+      computational modeling, using the patient's magnetic resonance as a basis, in order to&#xD;
+      estimate and individualize the dosage to be administered.&#xD;
+&#xD;
+      The SimNIBS software will be used for computational modeling, it is a free and open source&#xD;
+      package for the simulation of the electric field induced individually by tDCS in the brain.&#xD;
+      The modeling will be performed from T1-weighted magnetic resonance images in order to build a&#xD;
+      high resolution head model for each individual. These images are segmented into the main&#xD;
+      tissues of the head (white and gray substance, cerebrospinal fluid, skull and scalp). From&#xD;
+      the segmentations, a volume conductor model is created and used to perform the electric field&#xD;
+      simulations. The estimated distribution of the cerebral electric field is obtained by placing&#xD;
+      simulated electrodes on the head model and defining the intensity of the electric current&#xD;
+      according to the stimulation protocol.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 7, 2021</start_date>
+  <completion_date type="Anticipated">December 24, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 24, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Triple (Participant, Care Provider, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Fugl-Meyer assessment (FMA) pre-intervention (T0)</measure>
+    <time_frame>The evaluations will be carried out in pre-intervention (T0)</time_frame>
+    <description>Fugl-Meyer assessment (FMA) for lower limbs pre-intervention (T0)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fugl-Meyer assessment (FMA) after the stimulation protocol (T1)</measure>
+    <time_frame>The T1 assessment will be performed up to one week after the stimulation protocol is completed.</time_frame>
+    <description>Fugl-Meyer assessment (FMA) for lower limbs after the stimulation protocol (T1)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Functional connectivity (EEG) pre-intervention (T0)</measure>
+    <time_frame>The evaluations will be carried out in pre-intervention (T0)</time_frame>
+    <description>The functional connectivity of the target network will be assessed, through the acquisition of the EEG</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Functional connectivity (EEG) after the stimulation protocol (T1)</measure>
+    <time_frame>The T1 assessment will be performed up to one week after the stimulation protocol is completed.</time_frame>
+    <description>The functional connectivity of the target network will be assessed, through the acquisition of the EEG</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The 36-item Short Form (SF-36) pre-intervention (T0)</measure>
+    <time_frame>The evaluations will be carried out in pre-intervention (T0).</time_frame>
+    <description>Quality of life. The SF-36 is a multidimensional questionnaire consisting of 36 items. Presenting a final score from 0 to 100, where 0 corresponds to the worst general state of health and 100 the best state of health.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The 36-item Short Form (SF-36) after the stimulation protocol (T1)</measure>
+    <time_frame>The T1 assessment will be performed up to one week after the stimulation protocol is completed.</time_frame>
+    <description>Quality of life. The SF-36 is a multidimensional questionnaire consisting of 36 items. Presenting a final score from 0 to 100, where 0 corresponds to the worst general state of health and 100 the best state of health.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Modified Rankin Scale pre-intervention (T0)</measure>
+    <time_frame>The evaluations will be carried out in pre-intervention (T0).</time_frame>
+    <description>Functional disability. The score on the Rankin scale ranges from 0 to 6, in order to assess the patient's neurological condition, in which the higher the value, the worse the condition.&#xD;
+0 - No symptoms&#xD;
+- No significant disabilities&#xD;
+- Mild disability&#xD;
+- Moderate disability&#xD;
+- Moderate-severe disability&#xD;
+- Severe disability&#xD;
+- Death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Modified Rankin Scale after the stimulation protocol (T1)</measure>
+    <time_frame>The T1 assessment will be performed up to one week after the stimulation protocol is completed.</time_frame>
+    <description>Functional disability. The score on the Rankin scale ranges from 0 to 6, in order to assess the patient's neurological condition, in which the higher the value, the worse the condition.&#xD;
+0 - No symptoms&#xD;
+- No significant disabilities&#xD;
+- Mild disability&#xD;
+- Moderate disability&#xD;
+- Moderate-severe disability&#xD;
+- Severe disability&#xD;
+- Death</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Stroke, Acute</condition>
+  <arm_group>
+    <arm_group_label>Group 1 - tDCS active</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive 10 tDCS sessions, for 20 minutes, on days alternate (3 times a week).&#xD;
+The neurostimulator TCT-Research will be used for stimulation. The electrodes will be positioned according to the international classification system of the electroencephalogram 10/20, in which the anode will be applied in the primary motor area (C3 / C4) ipsilateral to the lesion and the cathode in the contralateral supra-orbital region. The current intensity will be defined based on computational modeling, using the patient's magnetic resonance as a basis, in order to estimate and individualize the dosage to be administered.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2 - tDCS sham</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Participants will receive 10 tDCS sessions, for 20 minutes, on days alternate (3 times a week).&#xD;
+The neurostimulator TCT-Research will be used for stimulation. The electrodes will be positioned according to the international classification system of the electroencephalogram 10/20, in which the anode will be applied in the primary motor area (C3 / C4) ipsilateral to the lesion and the cathode in the contralateral supra-orbital region.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transcranial direct current stimulation active</intervention_name>
+    <description>Transcranial direct current stimulation active</description>
+    <arm_group_label>Group 1 - tDCS active</arm_group_label>
+    <other_name>tDCS active</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Transcranial direct current stimulation sham</intervention_name>
+    <description>Transcranial direct current stimulation sham</description>
+    <arm_group_label>Group 2 - tDCS sham</arm_group_label>
+    <other_name>tDCS sham</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Single episode of unilateral, ischemic stroke in middle cerebral artery proven by&#xD;
+             means of magnetic resonance imaging or computed tomography.&#xD;
+&#xD;
+          -  Classification of brain injury based on the criteria: Oxfordshire Community Stroke&#xD;
+             Project (OCSP) or Trial of Org 10172 in Acute Stroke Treatment (TOAST);&#xD;
+&#xD;
+          -  Patients in late subacute stage (three to six months after the event);&#xD;
+&#xD;
+          -  Young adult individuals, aged between 18 and 60 years;&#xD;
+&#xD;
+          -  Both sexes;&#xD;
+&#xD;
+          -  Absence of mental disorders, assessed using the Self Reporting Questionnaire (SRQ-20),&#xD;
+             with a cut-off point of 7/8 points.&#xD;
+&#xD;
+          -  Absence of cognitive deficits, assessed using the Mini Mental State Examination (MMSE&gt;&#xD;
+             24).&#xD;
+&#xD;
+          -  Patients with mild to moderate degree of injury severity (NIHHS &lt;17 points).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with other associated pathologies that can influence motor activity (example:&#xD;
+             traumatic brain injury, brain tumor);&#xD;
+&#xD;
+             •- Participants unable to complete the initial assessment due to severe aphasia (Token&#xD;
+             Test &lt;17);&#xD;
+&#xD;
+          -  habitual use of drugs or alcohol;&#xD;
+&#xD;
+          -  Use of drugs that modulate the activity of the Central Nervous System;&#xD;
+&#xD;
+          -  Gestation;&#xD;
+&#xD;
+          -  Use of metallic / electronic implants and / or cardiac pacemakers;&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Suellen Andrade</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Federal University of Paraíba</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Suellen Andrade</last_name>
+    <phone>+5583999805189</phone>
+    <email>suellenandrade@gmail.com</email>
+  </overall_contact>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 24, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 20, 2021</study_first_posted>
+  <last_update_submitted>April 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Federal University of Paraíba</investigator_affiliation>
+    <investigator_full_name>Suellen Marinho Andrade</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Stroke</keyword>
+  <keyword>Transcranial direct current stimulation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

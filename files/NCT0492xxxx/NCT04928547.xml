@@ -1,0 +1,222 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04928547</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-460-1</org_study_id>
+    <nct_id>NCT04928547</nct_id>
+  </id_info>
+  <brief_title>An Integrated System for the Assessment of Carotid Plaque Stability Based on the Artificial Intelligence</brief_title>
+  <official_title>An Integrated System for the Assessment of Carotid Plaque Stability Based on the Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The project will be properly embedded in the clinical practice landscape to both provide a&#xD;
+      real-world context for research requirements gathering and research result assessment, and a&#xD;
+      practical application context from the industrial perspective. The landing is planned for&#xD;
+      cardiology solutions as carotid plaque assessment that can be value-adding features to tackle&#xD;
+      the current challenges of stroke prediction. The development of stroke prediction model could&#xD;
+      accelerate the R&amp;D process and land to key market ultrasound prototypes/products in an agile&#xD;
+      way. Collaboration and alignment with key market business and R&amp;D (China Digital Innovation&#xD;
+      CDI) through workshops and hackathons will be a unique feature of this agile project.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Stroke is a global disease with high mortality and disability. Evaluation of the stability of&#xD;
+      carotid plaque has important clinical significance for stroke prevention.&#xD;
+&#xD;
+      As a practical, fast, non-invasive, non-radiative inspection technique, ultrasound is widely&#xD;
+      used in the evaluation of carotid plaque stability. There are many methods for evaluating the&#xD;
+      stability of carotid plaque by ultrasound. The texture features extracted from&#xD;
+      two-dimensional ultrasound images can be used to quantify subtle differences in follow up&#xD;
+      scanning. The elastography of the plaques can be used to quantify changes in the elastic&#xD;
+      properties of reactive plaques. Contrast enhanced ultrasound (CEUS) can be used to quantify&#xD;
+      the density of microvessels. However, the results obtained by these different methods are&#xD;
+      biased and show poor agreement. We lack a unified, systematic evaluation system and objective&#xD;
+      guideline for plaque stability assessment. In this context, the topic of plaque stability&#xD;
+      assessment has been intensively explored by researchers from all over the world. Based on&#xD;
+      state-of-the-art assessment, we found that some plaques that were judged stable on ultrasound&#xD;
+      did eventually rupture. On the contrary, some unstable plaques on ultrasound did not cause&#xD;
+      stroke. This confusion indicates that plaque rupture is not only related to its intrinsic&#xD;
+      characteristics, such as size, shape, composition etc., but also to external factors such as&#xD;
+      biomechanics, strain, flow field, etc.. In order to achieve a better understanding of the&#xD;
+      pathological plaque behaviour, it is necessary to study the hemodynamic problems in the&#xD;
+      arteries, such as wall shear stress, flow separation, and secondary flow. The recent rapid&#xD;
+      developments in artificial-intelligence techniques have been widely used in medical imaging&#xD;
+      and image analysis. These techniques allow supervised learning taking full advantage of the&#xD;
+      available big data. Therefore, the main purpose of this study is to use artificial&#xD;
+      intelligence technique to i) evaluate a number of indicators including plaque histology,&#xD;
+      hemodynamics, etc., ii) establish a uniform and quantitative criteria for judging the&#xD;
+      stability of carotid plaque.&#xD;
+&#xD;
+      The key scientific problem to be solved in this project is to establish an objective model&#xD;
+      for predicting the risk of carotid plaque rupture for clinical decisionmaking.&#xD;
+&#xD;
+      It can be mainly divided into three main modules: database establishment, model training and&#xD;
+      clinical validation.&#xD;
+&#xD;
+      1. Database establishment&#xD;
+&#xD;
+        1. Obtaining clinical information of the patients from the electronic medical record&#xD;
+           system.&#xD;
+&#xD;
+        2. Use of image analysis techniques in ultrasound images to study the relationship between&#xD;
+           different image texture parameters and plaque histological composition. A method for&#xD;
+           evaluating the stability of carotid plaque based on texture parameters will be&#xD;
+           established.&#xD;
+&#xD;
+        3. Use of ultrasound (shear-wave) elastography to establish a method for assessing the&#xD;
+           carotid-plaque vulnerability based on the assessment of tissue elasticity.&#xD;
+&#xD;
+        4. Combining carotid velocity vector imaging with the blood-flow vortex manipulation&#xD;
+           technique to achieve an accurate measurement of the central position of the vulnerable&#xD;
+           plaque blood flow vortex and the orbital angular momentum, providing a new technique for&#xD;
+           vulnerable plaque detection based on vortex vector blood flow. Block detection new&#xD;
+           technology. The biomechanical characteristics of arterial plaques will be evaluated by&#xD;
+           detecting the synchrony and coordination of the arterial wall. The relationship between&#xD;
+           the biomechanical characteristics and stability of different types of plaques in the&#xD;
+           cardiac cycle will also be investigated.&#xD;
+&#xD;
+        5. Use of quantitative CEUS analysis and localization microscopy to study the relationship&#xD;
+           between CEUS and neovascularization in carotid plaques, focusing on the influence of&#xD;
+           microvessel density, architecture, and other quantitative features extracted from CEUS.&#xD;
+           Based on these features, a prediction model for plaque rupture will be designed and&#xD;
+           evaluated.&#xD;
+&#xD;
+        6. Use of computational fluid dynamics modeling to study the effects of geometrical changes&#xD;
+           on local hemodynamics and blood component concentration distribution during plaque&#xD;
+           growth. Further analysis of the growth mechanism of plaque and its effect on&#xD;
+           hemodynamics will be made.&#xD;
+&#xD;
+      2. Deep-learning model After obtaining all the parameters mentioned above, the correlation&#xD;
+      between these parameters and carotid plaque stability will be studied through machine&#xD;
+      learning.&#xD;
+&#xD;
+      A machine-learning classifier will be designed that takes the extracted features as input.&#xD;
+      Feature selection will be implemented through k-fold cross-validation to identify the set of&#xD;
+      complementary features that most contribute to assess plaque stability and predict plaque&#xD;
+      rupture. In particular, we aim at predicting whether a stroke will occur within 1 year. When&#xD;
+      sufficient data is available, a deep convolutional neural network will also be designed and&#xD;
+      trained to learn the prediction model. In this process, the risk of overfitting will be&#xD;
+      carefully considered by evaluating the classification performance over training, test, and&#xD;
+      validation sets.&#xD;
+&#xD;
+      As a result, the model complexity will be adjusted to the available training sets.&#xD;
+&#xD;
+      3. clinical evaluation The validation of the developed stroke prediction model from rupture&#xD;
+      of carotid plaques will be extended to a number of hospitals. The model reliability and&#xD;
+      usability will be tested. Model update and improvement is envisaged in a cyclic fashion,&#xD;
+      profiting from clinical results and feedback. The accuracy rate auxiliary decision support is&#xD;
+      expected to levels that are not lower than 90%.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 15, 2021</start_date>
+  <completion_date type="Anticipated">July 15, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 15, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Stroke</measure>
+    <time_frame>3 years</time_frame>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Carotid Plaque Stability</condition>
+  <arm_group>
+    <arm_group_label>U.S.</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MRI</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Test</intervention_name>
+    <description>Different test</description>
+    <arm_group_label>MRI</arm_group_label>
+    <arm_group_label>U.S.</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        According to previous research and experience, the percentage of neovascularization grade&#xD;
+        II and above accounted for about 79% of all plaques in the enrolled patients,&#xD;
+        neovascularization grade I accounted for 21%, neovascularization grade II predicted the&#xD;
+        recurrence of stroke in the same basin 10%, neovascularization I The recurrence rate of&#xD;
+        stroke in the same watershed below grade is 6%, and the sample size is calculated to be&#xD;
+        about 100 cases. Gray-scale ultrasound shows the presence or absence of hypoechoic and&#xD;
+        iso-echoic, calcified nodules and other characteristics. The loss to follow-up rate is&#xD;
+        calculated as 10-15%. This study intends to include 2000 patients with acute anterior&#xD;
+        circulation ischemic stroke. A total of 100 patients were enrolled in this research center.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age is greater than or equal to 18 years old and less than or equal to 80 years old;&#xD;
+&#xD;
+          2. At least one imaging examination suggests the presence of carotid artery plaque;&#xD;
+&#xD;
+          3. No allergy and other contraindications to ultrasound contrast;&#xD;
+&#xD;
+          4. Contrast-enhanced ultrasound examination of carotid artery plaque is required;&#xD;
+&#xD;
+          5. Volunteer to join this research project and sign informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients who are unable to coordinate their body position or hold their breath during&#xD;
+             the ultrasound examination;&#xD;
+&#xD;
+          2. Patients with severe lack of clinical data;&#xD;
+&#xD;
+          3. During the follow-up, use drugs for the treatment of carotid plaque except&#xD;
+             lipid-lowering drugs, antiplatelet drugs, antioxidants, and calcium channel blockers;&#xD;
+&#xD;
+          4. Follow up those who have lost contact;&#xD;
+&#xD;
+          5. Ischemic stroke caused by non-carotid artery plaque shedding;&#xD;
+&#xD;
+          6. Patients with atrial fibrillation and other serious heart diseases;&#xD;
+&#xD;
+          7. A history of allergy to ultrasound contrast agents.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+  </eligibility>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 16, 2021</study_first_posted>
+  <last_update_submitted>June 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

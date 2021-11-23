@@ -1,0 +1,292 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04610177</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EA-20-003</org_study_id>
+    <nct_id>NCT04610177</nct_id>
+  </id_info>
+  <brief_title>Prospective Multicenter Study of Artificial Intelligence-assisted Quality Evaluation System for Colonoscopy</brief_title>
+  <official_title>Prospective Multicenter Study of Artificial Intelligence-assisted Quality Evaluation System for Colonoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The quality control index based on artificial intelligence is put forward to monitor the&#xD;
+      quality of enteroscopy. And we will verify the correlation between the detection rate of&#xD;
+      adenomas and the percentage of endoscopic overspeed mirrors, the number of times of&#xD;
+      no-return/successful return, the real-time Bowel preparation provided by EndoAngel. What's&#xD;
+      more, it is expected that the standard range of quality control index for standard operation&#xD;
+      of colonoscopy can be proposed according to the detection rate of adenomas.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colonoscopy is a key technique for detection and diagnosis of Lower Gastrointestinal&#xD;
+      Diseases. High-quality endoscopy leads to better outcomes, However, the skill level of&#xD;
+      different endoscopists is quite different. The rate of missed diagnosis of colorectal&#xD;
+      ADENOMAS was 22%, the rate of missed diagnosis ranged from 7.4% to 52.5% . A series of&#xD;
+      studies showed that 12.1% of patients did not have cancer during colonoscopy but were&#xD;
+      diagnosed with colorectal cancer (post-colonoscopy Colorectal Cancer, PCCRC) within 5 years,&#xD;
+      of which 71%-86% could be attributed to the negligence of the endoscopist 6, seven.&#xD;
+      Therefore, it is very important to improve the quality of routine endoscopic examination&#xD;
+      while expanding the endoscopic technique.&#xD;
+&#xD;
+      The quality control index of colonoscope can reflect the operation level of endoscopy&#xD;
+      doctors, and it is a very important tool to ensure the quality of colonoscope. The&#xD;
+      examination and feedback of the quality control data of the endoscopist can effectively&#xD;
+      improve the detection rate of lesions and guarantee the high level of endoscopic quality. It&#xD;
+      is the key to guarantee the quality of enteroscopy to put forward the quality control index&#xD;
+      which can reflect the quality of endoscopist operation. Barclay proposed in 2006 that there&#xD;
+      was a significant correlation between colonoscopy withdrawal time and the rate of Adenomas in&#xD;
+      patients, and their findings were published in the The New England Journal of Medicine, with&#xD;
+      an impact factor of 70.67. Then, there were 367 papers on the study of the speed of&#xD;
+      enteroscopy withdrawal. Aslinia made a retrospective analysis of the correlation between the&#xD;
+      incidence of blindness reached by enteroscopy and the prognosis of patients, and proposed the&#xD;
+      incidence of blindness reached as a quality control index for enteroscopy. Other quality&#xD;
+      control indicators, such as bowel cleanliness and polyp detection rate, have been published&#xD;
+      in international well-known journals and included in the guidelines to regulate the quality&#xD;
+      of daily work of endoscopic physicians, which has great clinical significance.&#xD;
+&#xD;
+      However, despite the above-mentioned quality control indicators, the existing endoscopic&#xD;
+      quality control indicators are seriously inadequate. According to a multicenter clinical&#xD;
+      study, current quality control indicators only reflect about 40% of the difference in lesion&#xD;
+      detection levels between endoscopic physicians. The existence of this phenomenon indicated&#xD;
+      that more quality control indexes are needed to fully reflect the quality of endoscopic&#xD;
+      procedures. As a quality control index reflecting intestinal preparation, intestinal&#xD;
+      cleanliness is a fatal defect with strong subjectivity and poor consistency among observers,&#xD;
+      therefore, the existing colonoscopy need more comprehensive, objective quality control&#xD;
+      indicators to reflect the level of endoscopic doctors, so as to ensure the quality of&#xD;
+      colonoscopy.&#xD;
+&#xD;
+      In the past decade, artificial intelligence (AI) has made remarkable progress in the medical&#xD;
+      field. Andre Esteva used a deep neural network (DNN) to classify skin cancer with&#xD;
+      expert-level accuracy. In the field of digestive endoscopy, the project team in the early is&#xD;
+      made a huge breakthrough. In 2018, the artificial intelligence gastroscopy blind spot&#xD;
+      monitoring model developed by the project team significantly reduced the endoscopy blind spot&#xD;
+      in randomized controlled clinical trials, the findings were published in the journal Gut with&#xD;
+      an impact factor of 17.94. In 2019, the team's artificial intelligence model for evaluating&#xD;
+      gut cleanliness, published in the journal gastrogastrotestinal endoscopy with an impact&#xD;
+      factor of 7.23, showed better picture accuracy than that of the endoscopist in the human&#xD;
+      computer competition. In the same year, the project developed a model for colonoscopy speed&#xD;
+      monitoring based on Hasche perception algorithm and a model for colonoscopy slide mirror&#xD;
+      monitoring based on image classification, and conducted randomized controlled clinical&#xD;
+      trials, the model significantly improved The ability of colonoscopists to detect lesions, The&#xD;
+      study was published in The Lancet Gastroenterology 18 with an impact factor of 12.87.&#xD;
+&#xD;
+      Based on the above-mentioned rich foundation of early work, as well as the current great&#xD;
+      demand in the field of quality control of enteroscopy, we intend to validate the artificial&#xD;
+      intelligence-based enteroscopy exit velocity, bowel cleanliness, and enteroscopy slide model&#xD;
+      developed by the project team through a multi-center clinical study, to evaluate the&#xD;
+      feasibility and accuracy of doctor's operation quality as a quality control index.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 2, 2020</start_date>
+  <completion_date type="Anticipated">December 16, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of enteroscopy exit velocity overdrive</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>Percentage of enteroscopy exit velocity overdrive</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The adenoma detection rate(ADR)</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>ADR was calcilated by dividing the tatal number of patients being detected adenomas by the number of colinoscopies.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The advanced adenoma detection rate</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>The advanced adenoma detection rate was calcilated by dividing the tatal number of patients being detected advanced adenomas by the number of colinoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The polyp detection rate(PDR)</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>PDR was calcilated by dividing the tatal number of patients being detected polyps by the number of colinoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The mean number of adenomas per patient(MAP)</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>MAP was calculated by dividing the total number of adenomas by the number of colonoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PDR of different size</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of patients with polyps that large (≥10mm), small(6-9 mm) and diminutive(≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MNP of different size</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of polyps that large (≥10mm), small(6-9 mm) and diminutive(≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ADR of different size</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of patients with adenomas that large (≥10mm), small(6-9 mm) and diminutive(≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MAP of different size</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of adenomas that large (≥10mm), small(6-9 mm) and diminutive(≤5 mm) by the number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ADR of different location</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of patients with adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region ect. by the total number patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MAP of different location</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region ect. by the total number patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cecal intubation rate</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>It was calculated by dividing the number of colonoscopies that get to the ileocecal region by the total number of colonoscopies.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cleanliness assessment of different intestinal segment in the artificial intelligence system</measure>
+    <time_frame>2020.12.2</time_frame>
+    <description>The artificial intelligence evaluates the Boston Bowel Preparation score of the ascending colon, transverse colon,and descending colon in real-time, and calculates the proportion of 1Score.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">5813</enrollment>
+  <condition>Quality Evaluation System for Colonoscopy</condition>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Male and female subjects aged 50-80 years who were required to undergo colonoscopies,&#xD;
+      voluntarily provide endoscopic imaging and sign an informed consent form.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A total of 5813 patients were enrolled in this study. It included male and female subjects&#xD;
+        aged 50-80 years who were required to undergo colonoscopies, voluntarily provide endoscopic&#xD;
+        imaging and sign an informed consent form.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Male or female aged 50-80(inclusive) ;&#xD;
+&#xD;
+          2. Ability to read, understand and sign an informed consent form;&#xD;
+&#xD;
+          3. The researchers believed that the subjects were able to understand the flow of the&#xD;
+             clinical study and were willing and able to complete all the procedures and follow-up&#xD;
+             interviews to accompany the study.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Participants who meet any of the following criteria will be excluded from the study&#xD;
+&#xD;
+          1. Drug or alcohol abuse or psychological disorders in the last 5 years;&#xD;
+&#xD;
+          2. Pregnant or lactating women;&#xD;
+&#xD;
+          3. Patients with known Polyp Syndrome;&#xD;
+&#xD;
+          4. Patients with known Inflammatory Bowel Disease;&#xD;
+&#xD;
+          5. Patients with known Intestinal stricture or mass tumor;&#xD;
+&#xD;
+          6. Patients with known colonic obstruction or perforation;&#xD;
+&#xD;
+          7. Patients with a previous history of colorectal surgery;&#xD;
+&#xD;
+          8. Patients with a previous history of Anaphylaxis to antispasmodic agents;&#xD;
+&#xD;
+          9. Blood coagulation disorders or oral anticoagulants and other reasons can not be biopsy&#xD;
+             and polypectomy;&#xD;
+&#xD;
+         10. High-risk diseases or other special conditions considered unsuitable for participants&#xD;
+             in clinical trials.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Honggang Yu, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Renmin Hospital of Wuhan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Honggang Yu, Doctoc</last_name>
+    <phone>13871281899</phone>
+    <email>yuhonggang@whu.edu.cn</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Liwen Yao, Doctor</last_name>
+    <phone>15827416837</phone>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Renmin Hospital of Wuhan University</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <zip>430000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Honggang Yu, Doctor</last_name>
+      <phone>13871281899</phone>
+      <email>yuhonggang@whu.edu.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Liwen Yao, Doctor</last_name>
+      <phone>15827416837</phone>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>October 26, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 30, 2020</study_first_posted>
+  <last_update_submitted>January 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual de-identified participant data that underlie the results reported in this article and study protocol will be shared for investigators whose proposed use of the data has been approved by an independent review committee. Data can only be used to achieve aims in the approved proposal. Data disclosure begins 9 months and ends 36 months after article publication. To gain access, data requesters will need to sign a data access agreement. Proposals should be directed to the corresponding author.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>Data disclosure begins 9 months and ends 36 months after article publication.</ipd_time_frame>
+    <ipd_access_criteria>To gain access, data requesters will need to sign a data access agreement. Proposals should be directed to the corresponding author.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

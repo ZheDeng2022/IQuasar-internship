@@ -1,0 +1,595 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03570801</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017-047</org_study_id>
+    <nct_id>NCT03570801</nct_id>
+  </id_info>
+  <brief_title>SLIP II Registry: Spinal Laminectomy Versus Instrumented Pedicle Screw Fusion</brief_title>
+  <acronym>SLIP II</acronym>
+  <official_title>SLIP II Registry: Spinal Laminectomy to Laminectomy With Instrumented Pedicle Screw Fusion for Lumbar Stenosis With Grade I Spondylolisthesis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Lahey Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Lahey Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this registry is two fold. First, to determine the comparative effectiveness&#xD;
+      of decompression alone versus decompression with fusion for patients with degenerative grade&#xD;
+      I spondylolisthesis and symptomatic lumbar spinal stenosis. Primary analysis will focus on&#xD;
+      the patients' improvement from baseline patient-reported outcome questionnaires. The registry&#xD;
+      will also determine if an expert panel review of individual patient cases (degenerative grade&#xD;
+      I spondylolisthesis/stenosis) is associated with improved outcome and patient satisfaction.&#xD;
+&#xD;
+      In addition, the SLIP II registry aims to (i) develop an algorithm which could identify cases&#xD;
+      in which surgical experts are likely to recommend one treatment (i.e. &gt;80% of experts&#xD;
+      recommend one form of treatment) and (ii) develop a radiology-based machine learning&#xD;
+      algorithm that would prospectively classify patients as either 'stable' or 'unstable.'&#xD;
+&#xD;
+      This study aims to prospectively collect comparative data for these patients treated with&#xD;
+      either decompression alone or decompression with fusion.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim: To conduct a randomized control trial comparing patient outcomes and satisfaction with&#xD;
+      or without expert panel review before making a final decision about surgery for grade I&#xD;
+      degenerative lumbar spondylolisthesis. A prospective, multi-center registry aimed at&#xD;
+      addressing important issues pertaining to outcomes from treatment for degenerative&#xD;
+      spondylolisthesis and spinal stenosis will be generated.&#xD;
+&#xD;
+      Background: Surgery may be offered to patients with symptomatic lumbar stenosis with&#xD;
+      degenerative lumbar spondylolisthesis who fail nonoperative treatment measures including&#xD;
+      physical therapy and epidural steroid injections. For patients with lumbar stenosis without&#xD;
+      spondylolisthesis, a decompression alone is typical, while those patients who do have&#xD;
+      degenerative spondylolisthesis and who also have significant mechanical back pain may be&#xD;
+      offered lumbar decompression with or without fusion. These guidelines were written based upon&#xD;
+      the SPORT study, which provided the highest quality of evidence available at the time.&#xD;
+      Additional studies have show that costly interventions such as lumbar fusion may ultimately&#xD;
+      be cost-effective if they provide durable clinical benefit. Two recent publications in The&#xD;
+      New England Journal of Medicine present new evidence with conflicting results on superficial&#xD;
+      review. The Spinal Laminectomy versus Instrumented Pedicle Screw (SLIP) trial provides level&#xD;
+      I evidence for the efficacy of fusion to improve clinical outcomes and lower reoperation&#xD;
+      rates compared to a standard laminectomy and medial facetectomy over a four year time frame&#xD;
+      in patients with neurogenic claudication associated with stable single level&#xD;
+      spondylolisthesis. Conversely, the Swedish study provides level II evidence that the addition&#xD;
+      of a variety of fusion techniques does not have significant benefit in the first two years&#xD;
+      following operation compared to a variety of decompression techniques in a heterogeneous&#xD;
+      population of patients with stenosis associated with spondylolisthesis. The patient&#xD;
+      populations treated, surgical techniques used, and outcome measures assessed differed between&#xD;
+      the two studies and when taken together, underline the need to new comparative effectiveness&#xD;
+      data for patients with this problem.&#xD;
+&#xD;
+      Additionally, one key challenge surgeons face is whether or not to recommend a spinal fusion.&#xD;
+      Spinal fusion is expensive, assoicated with greater costs and complications, but it appears&#xD;
+      to be necessary in at least 30% of patients.3 Preliminary data suggests that when when&#xD;
+      greater than 80% of an expert panel votes for one treatment opition, either a fusion or&#xD;
+      decompression alone, and when a patient's actual treatment aligns with the expert panel&#xD;
+      recommention, the patient-reported outcomes are greater than when the surgical approach is&#xD;
+      not aligned with the expert panel.10 This data highlights an interest in developing&#xD;
+      articifical intelligence (AI) that may be able to aid in both identification and predictive&#xD;
+      tasks. Any progress in this realm would be enormously powerful from a clinical standpoint and&#xD;
+      would likely result in more efficient use of surgical appraoches and in turn, healthcare&#xD;
+      spending.&#xD;
+&#xD;
+      All images that are captured in the registry will be used to train convolutional neural&#xD;
+      networks (CNN). These are mathematical operations which extract patterns from image data and&#xD;
+      generalize it across many images fed into the dataset. They primarily use calculations to&#xD;
+      extract patterns which are stored as a model which will be a collection of numbers. The&#xD;
+      images stored in this registry will be used to develop algorithms to assess cases in which an&#xD;
+      expert panel is more likely to suggest one treatment over the other as well as develop an&#xD;
+      algorithm that would prospectively classify patients as either 'stable' or 'unstable.'&#xD;
+&#xD;
+      Plan: Before making a decision regarding which specific operation should be performed in each&#xD;
+      case, each patient will be randomized to receive an expert panel review or to not receive an&#xD;
+      expert panel review. For patients who receive an expert panel review, the patients'&#xD;
+      de-identified lumbar MRI (sagittal and key axial images), 36-inch standing plain radiographs&#xD;
+      (if available), and flexion and extension radiographs will be uploaded into a web-based&#xD;
+      platform and reviewed with plans to share the reviews with patients and their treating&#xD;
+      physicians in real time. For patients who are randomized to no expert panel review, they will&#xD;
+      discuss with their surgeon the best surgical option for them and proceed as they would in&#xD;
+      standard of care. Patients with symptomatic lumbar spinal stenosis and single level&#xD;
+      degenerative grade I spondylolisthesis will be treated either with decompression or&#xD;
+      decompression with fusion. Symptomatic spinal stenosis will be defined as radicular and/or&#xD;
+      back pain either induced by or aggravated by activity and relieved by rest in a patient with&#xD;
+      either moderately severe or severe lumbar spinal stenosis. Patient-reported outcomes will be&#xD;
+      captured at baseline, at 3 and 6 months, and annually out to five years.&#xD;
+&#xD;
+      The imaging data will be used to create artificial intelligence (AI) algorithms that will&#xD;
+      help assess when an expert panel is more likely to suggest one treatment over the other as&#xD;
+      well as develop an algorithm that would prospectively classify patients as either 'stable' or&#xD;
+      'unstable.' Ultimately long term follow-up will help confirm whether a case was correctly&#xD;
+      assessed as stable or unstable. A patient would be confirmed as unstable, if they underwent&#xD;
+      decompression alone and then required a re-operation to stabilize the spine at the level of&#xD;
+      spondylolisthesis within 5 years of the initial operation. In a similar way, a patient would&#xD;
+      be confirmed as stable, if no re-operation were necessary over the 5-year study follow-up&#xD;
+      period.&#xD;
+&#xD;
+      Interim Analysis: An interim analysis is planned when 150 patients have reached eligibility&#xD;
+      at 6 month follow-up. Patients' change from baseline patient-reported outcome questionnaires&#xD;
+      will be assessed.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 17, 2017</start_date>
+  <completion_date type="Anticipated">November 30, 2026</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Randomized Control Trial with randomization ratio 1:1</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Oswestry Disability Index (ODI)</measure>
+    <time_frame>Baseline, 3 months, 6 months, 1 year, 2 years, 3 years, 4 years, 5 years</time_frame>
+    <description>The percentage of patients who change more than 10 ODI points.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient Satisfaction</measure>
+    <time_frame>1 year, 2 years, 3 years, 4 years, 5 years</time_frame>
+    <description>To determine if an expert panel review of individual patient cases is associated with improved patient satisfaction after surgery, patient satisfaction will be assessed by the Satisfaction Scale adapted from the North American Spine Society. The percentage of patients who report that (1) the treatment met expectations or (2) did not improve as much as hoped, but would undergo the same treatment for the same outcome will be compared to the patients who state that (3) did not improve as much as hoped, and would not undergo the same treatment for the same outcome or (4) am the same or worse than before treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EuroQol-5 Dimensions (EQ-5D)</measure>
+    <time_frame>Baseline, 3 months, 6 months, 1 year, 2 years, 3 years, 4 years, 5 years</time_frame>
+    <description>Quality of life will be assessed through EuroQol 5 Dimensions (EQ-5D) at all time points. The three-level scale denotes no problems, some problems, or extreme problems, across the five domains of mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. A visual analog scale is also used to evaluate overall health state.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cost Data -- Hospital Claims &amp; Health Resource Utilization</measure>
+    <time_frame>3 months, 6 months, 1 year, 2 years, 3 years, 4 years, 5 years</time_frame>
+    <description>Costs will also be compared between groups during the duration of the study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Complications</measure>
+    <time_frame>1 month</time_frame>
+    <description>Complications at time of surgery to 30 days post-operative will be collected.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Return to Work</measure>
+    <time_frame>Baseline, 3 months, 6 months, 1 year, 2 years, 3 years, 4 years, 5 years</time_frame>
+    <description>Working status will be asked at all time points to capture productivity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Flexion-Extension Radiographs</measure>
+    <time_frame>Baseline, 1 year, 2 years</time_frame>
+    <description>To determine stability after surgery as well as fusion.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>36-inch Standing Plain Radiographs</measure>
+    <time_frame>Baseline, 1 year</time_frame>
+    <description>To assess spine alignment.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Lumbar Spondylolisthesis</condition>
+  <condition>Grade 1 Spondylolisthesis</condition>
+  <condition>Lumbar Spinal Stenosis</condition>
+  <condition>Degenerative Spondylolisthesis</condition>
+  <arm_group>
+    <arm_group_label>Expert Panel Review</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>For patients who are randomized to receive an expert panel review, de-identified lumbar MRI (sagittal and key axial images), 36-inch standing plain radiographs (if available), and flexion and extension radiographs will be uploaded into a web-based platform and reviewed. These will be submitted for an Expert Panel Review.&#xD;
+Images will be reviewed through a Spine Expert's Network, consisting of physicians involved in this study who will each offer their opinion as to which of two surgical treatment groups (decompression alone or decompression with fusion) they would choose for the patient. The results of this review will be discussed between the patient and the patient's physician. Together, they will determine the best surgical approach.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Expert Panel Review</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>For patients not receiving the expert panel review, they will discuss with their surgeon the best surgical option and proceed as they would in standard of care.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Expert Panel Review</intervention_name>
+    <description>There is some preliminary evidence suggesting that having a group of spinal experts review x-rays prior to treatment might provide useful information to the patient and the patients' treating physician when trying to make a decision about what type of surgery to perform.</description>
+    <arm_group_label>Expert Panel Review</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Symptomatic lumbar spinal stenosis: defined as radicular and/or back pain either&#xD;
+             induced or aggravated by activity and relieved by rest.&#xD;
+&#xD;
+          -  Single-level grade I degenerative spondylolisthesis (3-14mm)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Serious medical illness (ASA Class IV or higher)&#xD;
+&#xD;
+          -  Spondylolysis&#xD;
+&#xD;
+          -  Multilevel spondylolisthesis or high grade spondylolisthesis (grade II or greater than&#xD;
+             14mm)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Zoher Ghogawala, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Lahey Hospital &amp; Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Melissa Dunbar, MPH</last_name>
+    <phone>781-744-8774</phone>
+    <email>melissa.r.dunbar@lahey.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Susan Christopher, RN</last_name>
+    <phone>781-744-7904</phone>
+    <email>susan.r.christopher@lahey.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Barrow Brain and Spine</name>
+      <address>
+        <city>Scottsdale</city>
+        <state>Arizona</state>
+        <zip>85251</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luis Tumialán, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Marlinda Dygert</last_name>
+      <email>mgurule@honorhealth.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of California, San Fransisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Praveen V Mummaneni, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Vivian Le</last_name>
+      <email>Vivian.Le2@ucsf.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of Miami</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33125</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Wang, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Anabela Cieslicki</last_name>
+      <email>axc1623@med.miami.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Carle Neurosciences Institute</name>
+      <address>
+        <city>Urbana</city>
+        <state>Illinois</state>
+        <zip>61801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paul Arnold, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Courtney Weiss, BSP, ST/MA</last_name>
+      <email>Courtney.Weiss@carle.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Norton Leatherman Spine Center</name>
+      <address>
+        <city>Louisville</city>
+        <state>Kentucky</state>
+        <zip>40202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Steven D Glassman, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Morgan Brown, MS</last_name>
+      <email>Morgan.brown2@nortonhealthcare.org</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jean V. Coumans, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Akeive Burrows</last_name>
+      <email>AJBURROWS@mgh.harvard.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Lahey Hospital &amp; Medical Center</name>
+      <address>
+        <city>Burlington</city>
+        <state>Massachusetts</state>
+        <zip>01803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Zoher Ghogawala, MD</last_name>
+      <phone>781-744-3180</phone>
+      <email>zoher.ghogawala@lahey.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Melissa Dunbar, MPH</last_name>
+      <phone>781-744-8774</phone>
+      <email>melissa.r.dunbar@lahey.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Subu N Magge, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Robert G Whitmore, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Minnesota</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55455</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David Polly, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Tonya Nelson</last_name>
+      <email>nel02095@umn.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55902</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mohamad Bydon, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Bradon Trammell</last_name>
+      <email>Trammell.Brandon@mayo.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital for Special Surgery</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Todd J Albert, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Tianna Bennet</last_name>
+      <email>bennettt@hss.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Columbia University</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10027</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ronald C Lehman, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Eric Leung</last_name>
+      <email>el2933@cumc.columbia.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Peter D Angevine, MD, MPH</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Paul McCormick, MD, MPH</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cleveland Clinic Foundation</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Edward Benzel, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Emily Fisher</last_name>
+      <email>FISHERE3@ccf.org</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pittsburgh</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Adam S Kanter, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Jan Alicandro</last_name>
+      <email>alicandroja@upmc.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of Utah Hospital</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84132</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Erica F Bisson, MD, MPH</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Andrea Strauss</last_name>
+      <email>Andrea.Strauss@hsc.utah.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of Wisconsin</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53792</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniel K Resnick, MD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Stephanie Wilbrand, PhD</last_name>
+      <email>wilbrand@neurosurgery.wisc.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University Health Network - Toronto Western Hospital</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5T 2S8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael G Fehlings, MD, PhD</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Yuriy Petrenko</last_name>
+      <email>Yuriy.Petrenko@uhn.ca</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>June 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 25, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 27, 2018</study_first_posted>
+  <last_update_submitted>July 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Lumbar Spondylolisthesis</keyword>
+  <keyword>Grade 1 Spondylolisthesis</keyword>
+  <keyword>Lumbar Spinal Stenosis</keyword>
+  <keyword>Degenerative Spondylolisthesis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Stenosis</mesh_term>
+    <mesh_term>Spondylolisthesis</mesh_term>
+    <mesh_term>Constriction, Pathologic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

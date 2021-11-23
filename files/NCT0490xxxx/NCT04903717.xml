@@ -1,0 +1,492 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04903717</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2000030513</org_study_id>
+    <nct_id>NCT04903717</nct_id>
+  </id_info>
+  <brief_title>Pragmatic Trial Of Alerts for Use of Mineralocorticoid Receptor Antagonists</brief_title>
+  <acronym>PROMPT-MRA</acronym>
+  <official_title>Pragmatic Trial Of Messaging to Providers About Treatment With Mineralocorticoid Receptor Antagonists</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Vifor Pharma</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Yale University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this study is to determine if a best practice alert (BPA) system&#xD;
+      that prompts providers to consider the addition of a mineralocorticoid receptor antagonist&#xD;
+      (MRA) in eligible patients with heart failure with reduced ejection fraction (HFrEF) will&#xD;
+      result in increased prescription of this guideline-recommended therapy. The system will also&#xD;
+      inform providers about FDA-approved potassium binders for the treatment of hyperkalemia if&#xD;
+      elevated potassium is a barrier for MRA use and will provide educational information on the&#xD;
+      evidence for MRA therapy in these patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Despite the robust literature demonstrating improved outcomes with the use of&#xD;
+      mineralocorticoid antagonists (MRAs) in patients with heart failure with reduced ejection&#xD;
+      fraction (HFrEF), MRAs continue to be underused in clinical practice. This underuse often&#xD;
+      stems from the perceived risks of hyperkalemia, including a prior history of hyperkalemia and&#xD;
+      acute or chronic kidney disease, as well as the cautioned use for those with potassium&#xD;
+      greater than 5.0 mEq/L, as recommended in national societal guidelines. New potassium binders&#xD;
+      have recently been approved by the United States Food and Drug Administration (FDA) to treat&#xD;
+      hyperkalemia. It remains unknown if a best practice alert built into the clinical electronic&#xD;
+      health record can facilitate MRA prescription in eligible patients by providing&#xD;
+      guideline-based information about MRA recommendations and evidence, as well as informing&#xD;
+      practitioners about available treatments for hyperkalemia.&#xD;
+&#xD;
+      This is a pragmatic, cluster-randomized, open-label interventional trial to test the&#xD;
+      comparative effectiveness of an EHR BPA system that informs practitioners about MRAs for&#xD;
+      HFrEF and, if necessary, potassium-binders that are FDA-approved for hyperkalemia, versus&#xD;
+      usual care (no alert, current standard of care). Fifty outpatient Cardiology and Internal&#xD;
+      Medicine providers practicing at affiliated locations will be enrolled and undergo&#xD;
+      randomization to either the intervention (alert) group or a control (usual care) group. Those&#xD;
+      in the intervention group will receive an informational alert for their eligible adult&#xD;
+      outpatients (those with HFrEF not currently prescribed an MRA). Those in the control group&#xD;
+      will not receive any alerts and will continue to care for patients as usual. The primary&#xD;
+      outcome will be the proportion of patients with HFrEF who have an active prescription for an&#xD;
+      MRA at 6 months following randomization.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Triple (Participant, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proportion of patients with an active prescription for an MRA</measure>
+    <time_frame>Measured at 6 months post-randomization</time_frame>
+    <description>Proportion of patients with an active prescription for an MRA, defined as a prescription present in the electronic health record for any drug in the MRA class that is active (not expired) and has remaining doses left at 6 months after the date of randomization.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of MRA prescriptions</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Number of any MRA prescription during study period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of MRA prescriptions filled</measure>
+    <time_frame>Within 30 days of written prescription</time_frame>
+    <description>Percentage of prescriptions filled of initial MRA prescriptions written during the study period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to first MRA prescription</measure>
+    <time_frame>From enrollment to time of MRA prescription</time_frame>
+    <description>Time (in days) to first MRA prescription</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with Hyperkalemia (K&gt;5.0)</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Percentage of patients experiencing hyperkalemia (K greater than or equal to 5.0 mEq/L)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with Hyperkalemia (K&gt;5.5)</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Percentage of patients experiencing hyperkalemia (K greater than or equal to 5.5 mEq/L)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with Hyperkalemia (K&gt;5.0) with MRA</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Percentage of patients experiencing hyperkalemia (K greater than or equal to 5.0 mEq/L) with an active MRA prescription</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with Hyperkalemia (K&gt;5.5) with MRA</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Percentage of patients experiencing hyperkalemia (K greater than or equal to 5.5 mEq/L) with an active MRA prescription</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 2 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 4 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 5 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder prescription</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 2 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 4 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 5 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with potassium binder + MRA prescription</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Percentage of participants with active prescription for potassium binders and MRA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Type of potassium binder prescribed</measure>
+    <time_frame>First potassium binder prescribed at any point between enrollment and study completion</time_frame>
+    <description>Type of first potassium binder prescribed</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rationale for provider not prescribing an MRA if indicated (intervention group only)</measure>
+    <time_frame>Any rationale provided within one year post randomization</time_frame>
+    <description>Provider-documented (via the best practice alert) rationale for not prescribing indicated MRA (intervention group only)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rationale for provider not prescribing a potassium binder if indicated (intervention group only)</measure>
+    <time_frame>Any rationale provided within one year post randomization</time_frame>
+    <description>Provider-documented (via the best practice alert) rationale for not prescribing indicated potassium binder (intervention group only)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with ED visits</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Percentage of patients with any ED visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with ED visits</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Percentage of patients with any ED visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with ED visits</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Percentage of patients with any ED visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with ED visits</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Percentage of patients with any ED visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ED visit count</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Count of ED visits per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ED visit count</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Count of ED visits per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ED visit count</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Count of ED visits per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ED visit count</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Count of ED visits per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of Heart failure-related hospital admissions</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Rates of HF-related hospital admissions (uses computations phenotype)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of Heart failure-related hospital admissions</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Rates of HF-related hospital admissions (uses computations phenotype)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of Heart failure-related hospital admissions</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Rates of HF-related hospital admissions (uses computations phenotype)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of Heart failure-related hospital admissions</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Rates of HF-related hospital admissions (uses computations phenotype)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates Outpatient visits</measure>
+    <time_frame>Measured at 1 monnh post randomization</time_frame>
+    <description>Rates of outpatient visits</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of Outpatient visits</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Rates of outpatient visits</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of Outpatient visits</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Rates of outpatient visits</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of Outpatient visits</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Rates of outpatient visits</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of ED visit + IV diuretics</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Rates of total ED visits in which a dose of IV diuretics was given</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of ED visit + IV diuretics</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Rates of total ED visits in which a dose of IV diuretics was given</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of ED visit + IV diuretics</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Rates of total ED visits in which a dose of IV diuretics was given</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of ED visit + IV diuretics</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Rates of total ED visits in which a dose of IV diuretics was given</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Rates of all-cause mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Rates of all-cause mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Rates of all-cause mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Rates of all-cause mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total healthcare associated costs</measure>
+    <time_frame>Measured at 1 month post randomization</time_frame>
+    <description>Total healthcare-associated cost per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total healthcare associated costs</measure>
+    <time_frame>Measured at 3 months post randomization</time_frame>
+    <description>Total healthcare-associated cost per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total healthcare associated costs</measure>
+    <time_frame>Measured at 6 months post randomization</time_frame>
+    <description>Total healthcare-associated cost per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total healthcare associated costs</measure>
+    <time_frame>Measured at 12 months post randomization</time_frame>
+    <description>Total healthcare-associated cost per patient</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of documented hyperkalemia at an ED visit</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Documented hyperkalemia (K ≥ 5.5 mEq/L) at an ED visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of documented hyperkalemia at an outpatient visit</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Documented hyperkalemia (K ≥ 5.5 mEq/L) at an outpatient visit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of documented hyperkalemia during a hospital HF admission</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Documented hyperkalemia (K ≥ 5.5 mEq/L) at an HF-related hospital admission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of outpatient potassium monitoring</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Frequency of outpatient potassium monitoring</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of outpatient potassium monitoring +/- MRA</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Frequency of outpatient potassium monitoring for those with an active prescription of MRA vs. not</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of outpatient potassium monitoring +/- potassium binder</measure>
+    <time_frame>Within one year post randomization</time_frame>
+    <description>Frequency of outpatient potassium monitoring for those with an active prescription of potassium binder vs. not</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Hyperkalemia at randomization</measure>
+    <time_frame>At randomization</time_frame>
+    <description>Hyperkalemia at randomization at both thresholds of ≥ 5.0 mEq/L and K ≥ 5.5 mEq/L</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Prior hyperkalemia (IDC-10 Code)</measure>
+    <time_frame>From one year prior to randomization up to randomization</time_frame>
+    <description>Prior documentation of hyperkalemia by ICD-10 Code during the past 1 year</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Prior hyperkalemia (K history)</measure>
+    <time_frame>From one year prior to randomization up to randomization</time_frame>
+    <description>Prior documentation of hyperkalemia by history of K 5.0 mEq/L during the past 1 year</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Patient demographics</measure>
+    <time_frame>At randomization</time_frame>
+    <description>The following demographics subgroups will be captured: Age &lt;65 years of age, sex, race</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Chronic Kidney Disease</measure>
+    <time_frame>At randomization</time_frame>
+    <description>Chronic kidney disease (CKD) stage ≥ stage III, glomerular filtration rate (GFR) &lt;60</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Insurance status</measure>
+    <time_frame>At randomization</time_frame>
+    <description>Insurance status (commercial, public (Medicare, Medicaid), other, none)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: GDMT medications</measure>
+    <time_frame>At randomization</time_frame>
+    <description>Number of concomitant active prescriptions for GDMT medications (beta blocker, ACEi/ARB/ARNI, SGLT2-inhibitor)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Subgroup Analysis: Provider type</measure>
+    <time_frame>At randomization</time_frame>
+    <description>The following provider characteristics will be captured: title (advanced practitioner, resident physician, fellow physician, attending physician), history of or current Cardiology fellowship training, years of training post-graduate medical school</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1362</enrollment>
+  <condition>Heart Failure With Reduced Ejection Fraction</condition>
+  <arm_group>
+    <arm_group_label>Intervention - Best Practice Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Providers randomized to the intervention arm will have a best practice alert appear for each of their eligible patients upon opening of the order entry screen in the patient's medical record which alerts to the presence of HFrEF and the fact that the patient is not currently prescribed an MRA. A link to an order set for MRAs (or to potassium binders should a patient be hyperkalemic) will provided, along with a link to current best practices surrounding the use of MRAs.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Providers will not receive a best practice alert for eligible patients and will continue to care for patients as usual.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Best Practice Alert</intervention_name>
+    <description>Providers randomized to the intervention arm will have a best practice alert appear for each of their eligible patients upon opening of the order entry screen in the patient's medical record. This alert informs the provider to the presence of HFrEF and absence of MRA prescription, notes the patient's current LVEF, and notes the most recent labs, including NT-ProBNP, potassium, and creatinine. Providers will also have access to a link to best available guideline recommended information regarding use of MRAs and a link to both an order set for prescribing an MRA and an alternate order set with option for potassium monitoring should hyperkalemia be a concern. If a patient is hyperkalemic (i.e. K ≥ 5 mEq/L), a link to an order set for prescribing a potassium binder will be provided instead. If a provider feels that the recommended therapy is not indicated for a particular patient, he/she can select an available reason from the list provided within the alert.</description>
+    <arm_group_label>Intervention - Best Practice Alert</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults equal to or greater than 18 years of age&#xD;
+&#xD;
+          -  Outpatients of providers randomized into the study within Internal Medicine and&#xD;
+             Cardiology outpatient clinics&#xD;
+&#xD;
+          -  Diagnosis of heart failure with reduced ejection fraction (LVEF less than or equal to&#xD;
+             40% on the most recent TTE)&#xD;
+&#xD;
+          -  Registration in the Yale Heart Failure Registry (NCT04237701)&#xD;
+&#xD;
+          -  Not currently prescribed an MRA&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Absolute contraindication to MRAs&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Francis P Wilson, MD MSCE</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Yale University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Francis P Wilson, MD MSCE</last_name>
+    <phone>203-737-1704</phone>
+    <email>francis.p.wilson@yale.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Katherine Clark, MD</last_name>
+    <email>katherine.clark@yale.edu</email>
+  </overall_contact_backup>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 21, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 21, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 26, 2021</study_first_posted>
+  <last_update_submitted>May 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Deidentified data underlying results for publication will be shared upon publication.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Upon publication; indefinitely.</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

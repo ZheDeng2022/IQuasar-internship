@@ -1,0 +1,233 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04597593</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C02-002 BD001</org_study_id>
+    <nct_id>NCT04597593</nct_id>
+  </id_info>
+  <brief_title>Association Between Genetic Variant Scores and DOACs (DARES2)</brief_title>
+  <official_title>Correlation Between Bleeding Complication and Treatment Failure of DOAC and Its Predictions Based on Cipherome's Pharmacogenomic Technology</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cipherome, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Seoul National University Bundang Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cipherome, Inc.</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study's objective is to evaluate the predictive accuracy of Cipherome's algorithm in&#xD;
+      predicting and preventing serious adverse drug reactions (ADRs) experienced by patients while&#xD;
+      on direct oral anti-coagulants (DOACs).&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 7, 2020</start_date>
+  <completion_date type="Anticipated">October 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To determine the predictive accuracy of Cipherome's Drug Safety Score (DSS) in correlating with serious Adverse Drug Reactions associated with Direct Oral Anti-coagulants (DOACs) (rivaroxaban, apixaban, dabigatran, and edoxaban).</measure>
+    <time_frame>Within 1 year of DOAC therapy initiation</time_frame>
+    <description>The primary endpoint is to determine the accuracy of the DSS in predicting clinical outcomes of major bleeding per International Society of Thrombosis and Haemostatis (ISTH) criteria in subjects on Direct Oral Anti-coagulants (DOACs). The DSS is calculated on a scale of 0 to 1, with scores below 0.3 correlated with a higher risk of ADRs and scores above 0.7 correlated with a lower risk of ADRs. We will determine the DSS of all subjects who experienced major bleeding and compare it to the DSS of control subjects who did not experience bleeding.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To evaluate the predictive accuracy of the DSS in correlating with serious ADRs compared to clinical tools (e.g., HAS BLED criteria).</measure>
+    <time_frame>Within 1 year of DOAC therapy initiation</time_frame>
+    <description>The secondary endpoint is to determine the accuracy of the DSS predicting clinical outcomes compared to clinical tools such as the HAS-BLED scoring system. A subject with a HAS-BLED score of &gt; 4 points will be considered moderate-high risk of bleeding and a HAS-BLED score of 4 or less will be considered low risk. A DSS is calculated on a scale of 0 to 1, with scores below 0.3 correlated with a higher risk of ADRs and scores above 0.7 correlated with a lower risk of ADRs. Both DSS (low and high risk subjects) and HAS-BLED scores (low and high risk subjects) will be compared to actual clinical outcomes to assess the predictive accuracy of each scoring system.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To evaluate the predictive accuracy of the DSS in correlating with treatment failures while on Direct Oral Anti-coagulants (DOACs)</measure>
+    <time_frame>Within 1 year of DOAC therapy initiation</time_frame>
+    <description>The secondary endpoint is to determine the accuracy of the DSS in predicting treatment failures (e.g., recurrent MI, systemic embolism, or ischemic stroke) as compared to clinical outcomes while on DOACs. The DSS is calculated on a scale of 0 to 1, with preliminary studies demonstrating that scores below 0.3 correlated with a higher risk of ADRs and scores above 0.7 correlated with a lower risk of ADRs.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>To discover novel pharmacogenetic variants associated with Direct Oral Anti-coagulants (DOACs)</measure>
+    <time_frame>Within 1 year of DOAC therapy initiation</time_frame>
+    <description>Novel variants will be assessed using whole genome sequencing to evaluate the genetic pathways in individuals with serious ADRs and treatment failures. Through our analyses we intend to identify novel genetic variants in subjects with serious ADRs or treatment failure while on P2Y12 inhibitors.</description>
+  </other_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Drug-Related Side Effects and Adverse Reactions</condition>
+  <condition>Iatrogenic Disorder</condition>
+  <arm_group>
+    <arm_group_label>ADR Group</arm_group_label>
+    <description>ISTH bleeding scale Major Bleeding</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <description>No ADR, No Treatment Failure</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment Failure Group</arm_group_label>
+    <description>Recurrent MI, Ischemic stroke, Other thromboembolic disorders</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Study participants have a laboratory blood sample.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients on rivaroxaban, apixaban, dabigatran, and edoxaban who experienced a serious&#xD;
+        adverse drug reaction and/or treatment failure and case-matched controls.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Any adult patient 18 years and older, who experienced a serious adverse drug reaction&#xD;
+             while taking a DOAC and is able to provide informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Failure to provide informed consent&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ilyoung Oh, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>SNUBH</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Amy Kim, MD</last_name>
+    <phone>4082431460</phone>
+    <email>amy.kim@cipherome.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jane Chiang, MD</last_name>
+    <phone>4082431460</phone>
+    <phone_ext>1007</phone_ext>
+    <email>jane.chiang@cipherome.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>SNUBH</name>
+      <address>
+        <city>Seongnam-si</city>
+        <state>Gyonggi-do</state>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ilyoung Oh, MD</last_name>
+      <email>spy510@snu.ac.kr</email>
+    </contact>
+    <investigator>
+      <last_name>Ilyoung Oh, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Zareh M, Davis A, Henderson S. Reversal of warfarin-induced hemorrhage in the emergency department. West J Emerg Med. 2011 Nov;12(4):386-92. doi: 10.5811/westjem.2011.3.2051.</citation>
+    <PMID>22224125</PMID>
+  </reference>
+  <reference>
+    <citation>Kirley K, Qato DM, Kornfield R, Stafford RS, Alexander GC. National trends in oral anticoagulant use in the United States, 2007 to 2011. Circ Cardiovasc Qual Outcomes. 2012 Sep 1;5(5):615-21. Epub 2012 Sep 4.</citation>
+    <PMID>22949490</PMID>
+  </reference>
+  <reference>
+    <citation>January CT, Wann LS, Calkins H, Chen LY, Cigarroa JE, Cleveland JC Jr, Ellinor PT, Ezekowitz MD, Field ME, Furie KL, Heidenreich PA, Murray KT, Shea JB, Tracy CM, Yancy CW. 2019 AHA/ACC/HRS Focused Update of the 2014 AHA/ACC/HRS Guideline for the Management of Patients With Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019 Jul 9;74(1):104-132. doi: 10.1016/j.jacc.2019.01.011. Epub 2019 Jan 28. Erratum in: J Am Coll Cardiol. 2019 Jul 30;74(4):599.</citation>
+    <PMID>30703431</PMID>
+  </reference>
+  <reference>
+    <citation>Bauer KA. Pros and cons of new oral anticoagulants. Hematology Am Soc Hematol Educ Program. 2013;2013:464-70. doi: 10.1182/asheducation-2013.1.464. Review.</citation>
+    <PMID>24319220</PMID>
+  </reference>
+  <reference>
+    <citation>Xian Y, Xu H, O'Brien EC, Shah S, Thomas L, Pencina MJ, Fonarow GC, Olson DM, Schwamm LH, Bhatt DL, Smith EE, Hannah D, Maisch L, Lytle BL, Peterson ED, Hernandez AF. Clinical Effectiveness of Direct Oral Anticoagulants vs Warfarin in Older Patients With Atrial Fibrillation and Ischemic Stroke: Findings From the Patient-Centered Research Into Outcomes Stroke Patients Prefer and Effectiveness Research (PROSPER) Study. JAMA Neurol. 2019 Oct 1;76(10):1192-1202. doi: 10.1001/jamaneurol.2019.2099.</citation>
+    <PMID>31329212</PMID>
+  </reference>
+  <reference>
+    <citation>Kanuri SH, Kreutz RP. Pharmacogenomics of Novel Direct Oral Anticoagulants: Newly Identified Genes and Genetic Variants. J Pers Med. 2019 Jan 17;9(1). pii: E7. doi: 10.3390/jpm9010007. Review.</citation>
+    <PMID>30658513</PMID>
+  </reference>
+  <reference>
+    <citation>Sennesael AL, Larock AS, Douxfils J, Elens L, Stillemans G, Wiesen M, Taubert M, Dogné JM, Spinewine A, Mullier F. Rivaroxaban plasma levels in patients admitted for bleeding events: insights from a prospective study. Thromb J. 2018 Nov 12;16:28. doi: 10.1186/s12959-018-0183-3. eCollection 2018.</citation>
+    <PMID>30455596</PMID>
+  </reference>
+  <reference>
+    <citation>Ing Lorenzini K, Daali Y, Fontana P, Desmeules J, Samer C. Rivaroxaban-Induced Hemorrhage Associated with ABCB1 Genetic Defect. Front Pharmacol. 2016 Dec 19;7:494. doi: 10.3389/fphar.2016.00494. eCollection 2016.</citation>
+    <PMID>28066243</PMID>
+  </reference>
+  <reference>
+    <citation>Ueshima S, Hira D, Kimura Y, Fujii R, Tomitsuka C, Yamane T, Tabuchi Y, Ozawa T, Itoh H, Ohno S, Horie M, Terada T, Katsura T. Population pharmacokinetics and pharmacogenomics of apixaban in Japanese adult patients with atrial fibrillation. Br J Clin Pharmacol. 2018 Jun;84(6):1301-1312. doi: 10.1111/bcp.13561. Epub 2018 Apr 16.</citation>
+    <PMID>29457840</PMID>
+  </reference>
+  <reference>
+    <citation>Shi J, Wang X, Nguyen JH, Bleske BE, Liang Y, Liu L, Zhu HJ. Dabigatran etexilate activation is affected by the CES1 genetic polymorphism G143E (rs71647871) and gender. Biochem Pharmacol. 2016 Nov 1;119:76-84. doi: 10.1016/j.bcp.2016.09.003. Epub 2016 Sep 8.</citation>
+    <PMID>27614009</PMID>
+  </reference>
+  <reference>
+    <citation>Dimatteo C, D'Andrea G, Vecchione G, Paoletti O, Cappucci F, Tiscia GL, Buono M, Grandone E, Testa S, Margaglione M. Pharmacogenetics of dabigatran etexilate interindividual variability. Thromb Res. 2016 Aug;144:1-5. doi: 10.1016/j.thromres.2016.05.025. Epub 2016 May 26.</citation>
+    <PMID>27261537</PMID>
+  </reference>
+  <reference>
+    <citation>Sychev DA, Levanov AN, Shelekhova TV, Bochkov PO, Denisenko NP, Ryzhikova KA, Mirzaev KB, Grishina EA, Gavrilov MA, Ramenskaya GV, Kozlov AV, Bogoslovsky T. The impact of ABCB1 (rs1045642 and rs4148738) and CES1 (rs2244613) gene polymorphisms on dabigatran equilibrium peak concentration in patients after total knee arthroplasty. Pharmgenomics Pers Med. 2018 Jul 25;11:127-137. doi: 10.2147/PGPM.S169277. eCollection 2018. Erratum in: Pharmgenomics Pers Med. 2018 Sep 26;11:167.</citation>
+    <PMID>30100750</PMID>
+  </reference>
+  <reference>
+    <citation>Pisters R, Lane DA, Nieuwlaat R, de Vos CB, Crijns HJ, Lip GY. A novel user-friendly score (HAS-BLED) to assess 1-year risk of major bleeding in patients with atrial fibrillation: the Euro Heart Survey. Chest. 2010 Nov;138(5):1093-100. doi: 10.1378/chest.10-0134. Epub 2010 Mar 18.</citation>
+    <PMID>20299623</PMID>
+  </reference>
+  <reference>
+    <citation>Schulman S, Kearon C; Subcommittee on Control of Anticoagulation of the Scientific and Standardization Committee of the International Society on Thrombosis and Haemostasis. Definition of major bleeding in clinical investigations of antihemostatic medicinal products in non-surgical patients. J Thromb Haemost. 2005 Apr;3(4):692-4.</citation>
+    <PMID>15842354</PMID>
+  </reference>
+  <reference>
+    <citation>Selak V, Kerr A, Poppe K, Wu B, Harwood M, Grey C, Jackson R, Wells S. Annual Risk of Major Bleeding Among Persons Without Cardiovascular Disease Not Receiving Antiplatelet Therapy. JAMA. 2018 Jun 26;319(24):2507-2520. doi: 10.1001/jama.2018.8194.</citation>
+    <PMID>29946729</PMID>
+  </reference>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 22, 2020</study_first_posted>
+  <last_update_submitted>October 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Iatrogenic Disease</mesh_term>
+    <mesh_term>Drug-Related Side Effects and Adverse Reactions</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

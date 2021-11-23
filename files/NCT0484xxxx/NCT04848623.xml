@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04848623</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CoLive Voice</org_study_id>
+    <nct_id>NCT04848623</nct_id>
+  </id_info>
+  <brief_title>Identification of Vocal Biomarkers to Monitor the Health of People With a Chronic Disease</brief_title>
+  <acronym>CoLive Voice</acronym>
+  <official_title>Identification of Vocal Biomarkers to Monitor the Health of People With a Chronic Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Luxembourg Institute of Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Luxembourg Institute of Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The CoLive Voice research project aims to identify vocal biomarkers of severe conditions and&#xD;
+      frequent health symptoms. The project is based on digital technologies and statistical&#xD;
+      algorithms. This is an international anonymous survey where vocal recordings are collected&#xD;
+      simultaneously with large validated clinical and epidemiological data, in the context of&#xD;
+      various chronic diseases or frequent health symptoms in the general population.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      With the objective of using vocal biomarkers for diagnosis, risk prediction/stratification&#xD;
+      and remote monitoring of various clinical outcomes and symptoms, there is a major need to&#xD;
+      develop surveys where audio data and clinical, epidemiological and patient-reported outcomes&#xD;
+      data are collected simultaneously.&#xD;
+&#xD;
+      The objectives of CoLive Voice are:&#xD;
+&#xD;
+        -  To launch an international anonymized survey where vocal recordings are associated with&#xD;
+           large validated clinical and epidemiological data, in the context of various chronic&#xD;
+           diseases or frequent health symptoms in the general population&#xD;
+&#xD;
+        -  To extract audio features and train supervised machine learning models to identify key&#xD;
+           candidate vocal biomarkers of the aforementioned chronic conditions or related symptoms.&#xD;
+&#xD;
+      Participants will be recruited online and will complete the survey using a web application.&#xD;
+&#xD;
+      They will first answer a detailed questionnaire on their health status and then do 5&#xD;
+      different voice records:&#xD;
+&#xD;
+        1. read a 30 sec prespecified text (from the Human Rights Declaration),&#xD;
+&#xD;
+        2. sustain voicing the vowel /aaaaaa/ as long and as steady as they can at a comfortable&#xD;
+           loudness&#xD;
+&#xD;
+        3. cough 3 times&#xD;
+&#xD;
+        4. breath in and out deeply 3 times&#xD;
+&#xD;
+        5. Count from 1 to 20 at a normal speed&#xD;
+&#xD;
+      Vocal records will be pre-processed and converted into features, meaning the most dominating&#xD;
+      and discriminating characteristics of a vocal signal. Following the selection of features,&#xD;
+      machine or deep learning algorithms will be trained to automatically predict or classify the&#xD;
+      clinical, medical or epidemiological outcomes of interest, from vocal features alone or in&#xD;
+      combination with other health-related data.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 26, 2021</start_date>
+  <completion_date type="Anticipated">May 1, 2031</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Stress</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Fatigue</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome using the fatigue severity scale (FSS). Minimum value =1, max value = 7 ; 7 is the highest level of fatigue</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypertension</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diabetes</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Migraine</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covid-19</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall pain</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Respiratory problems</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Level of quality of life</measure>
+    <time_frame>At baseline</time_frame>
+    <description>Patient reported outcome</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Chronic Disease</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult and adolescent above 15 years, regardless of their health status and their residence&#xD;
+        country.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adolescents and adults &gt; 15 years&#xD;
+&#xD;
+          -  With or without health conditions&#xD;
+&#xD;
+          -  From all countries&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Children &lt; 15 years&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Guy Fagherazzi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>LIH</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Aurelie Fischer, MSc</last_name>
+    <phone>00352621328591</phone>
+    <email>aurelie.fischer@lih.lu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Luxembourg Institute of Health</name>
+      <address>
+        <city>Luxembourg</city>
+        <country>Luxembourg</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Aurelie Fischer, MS</last_name>
+      <phone>00352 621328591</phone>
+      <email>colivevoice@lih.lu</email>
+    </contact>
+    <investigator>
+      <last_name>Guy Fagherazzi, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Luxembourg</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>April 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 15, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 19, 2021</study_first_posted>
+  <last_update_submitted>July 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>vocal biomarker</keyword>
+  <keyword>digital biomarker</keyword>
+  <keyword>digital health</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>telemonitoring</keyword>
+  <keyword>medical devices</keyword>
+  <keyword>precision health digital biomarker</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Chronic Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

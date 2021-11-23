@@ -1,0 +1,221 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04288804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NIA0117210</org_study_id>
+    <nct_id>NCT04288804</nct_id>
+  </id_info>
+  <brief_title>A Study to Analyze Symptoms Prevalent in Early PD (Dysphonia, Tremor)</brief_title>
+  <official_title>A Study to Analyze Features of Dysphonia and Tremor in PD Patients to Aid in the Development of an Accurate Diagnostic Tool for Early-Detection of PD</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Goalspal LLC</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Goalspal LLC</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a web-based study that involves monitoring hallmark symptoms of Parkinson's Disease&#xD;
+      (PD), specifically dysphonia and tremor, using smartphone sensor data. The entire length of&#xD;
+      the study will only take 5 minutes, so volunteers will not have to repeatedly contribute&#xD;
+      data. The study is made up of 5 short, 10-second long activities, which include sustaining&#xD;
+      the short a vowel sound to monitor changes in vocal fundamental frequency and holding a&#xD;
+      smartphone in different positions on either side of the body to measure changes in amplitude.&#xD;
+      To be a part of this study, volunteers must have an iPhone that is running on the software&#xD;
+      iOS 13 or higher, because they will be asked to download a smartphone application from an&#xD;
+      online App Store.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Participants will be asked to complete a series of activities, as outlined below.&#xD;
+&#xD;
+        1. They will be asked to turn on &quot;Do Not Disturb&quot; and set their smartphone's volume to the&#xD;
+           maximum. This is to ensure that they can hear narrated instructions guiding them through&#xD;
+           the activities to come, and that data collection is uninterrupted.&#xD;
+&#xD;
+        2. Volunteers will sustain the short a vowel sound for 10 seconds. This is to analyze&#xD;
+           PD-related dysphonia.&#xD;
+&#xD;
+        3. Volunteers will place their smartphone in their left hand and rest it in their lap for&#xD;
+           10 seconds. This is to analyze PD-related rest tremor on the left side of the body.&#xD;
+           (Duration: 10 seconds)&#xD;
+&#xD;
+        4. Volunteers will place their smartphone in their right hand and rest it in their lap for&#xD;
+           10 seconds. This is to analyze PD-related rest tremor on the right side of the body.&#xD;
+           (Duration: 10 seconds)&#xD;
+&#xD;
+        5. Volunteers will hold their smartphone face-down at shoulder-level, in their left hand.&#xD;
+           This is to analyze PD-related postural tremor on the left side of the body. (Duration:&#xD;
+           10 seconds)&#xD;
+&#xD;
+        6. Volunteers will hold their smartphone face-down at shoulder-level, in their right hand.&#xD;
+           This is to analyze PD-related postural tremor on the right side of the body. (Duration:&#xD;
+           10 seconds)&#xD;
+&#xD;
+      Finally, participants will be asked to indicate their gender, age group, and status (whether&#xD;
+      or not they have PD), for data-labeling purposes. Please note that all data is collected&#xD;
+      anonymously and thus cannot be tracked down to a specific participant. Nevertheless, it will&#xD;
+      be encrypted and stored in a secure database, with each participant corresponding to a GUID&#xD;
+      (Global Unique Identifier), although participants will not be asked for their name. As this&#xD;
+      is not a medical study, there are no expected medical side effects, however, certain&#xD;
+      activities and questions may seem frustrating and boring.&#xD;
+&#xD;
+      Participants will mainly benefit from the study indirectly, as it will increase understanding&#xD;
+      of symptoms prevalent in early PD, and may contribute to the development of diagnostic tools.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 26, 2020</start_date>
+  <completion_date type="Anticipated">December 26, 2020</completion_date>
+  <primary_completion_date type="Anticipated">December 26, 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>PD-related Tremor</measure>
+    <time_frame>40 seconds</time_frame>
+    <description>24 features, composed of mean absolute deviation and mean standard deviation for each axis (x, y, z), for 4 likely occurrences of tremor, will be observed by looking at the accelerometer data file of each participant.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>PD-related Dysphonia</measure>
+    <time_frame>10 seconds</time_frame>
+    <description>Features, composed of vocal fundamental frequency, and similar measures to jitter and shimmer, will be observed by looking at the mel spectrogram for the audio file of each participant.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Parkinson Disease</condition>
+  <arm_group>
+    <arm_group_label>Control (healthy, non-PD participants)</arm_group_label>
+    <description>An audio file made up of a voice recording of the sustained short a vowel sound, along with accelerometer data while maintaining various positions, will be collected.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PD</arm_group_label>
+    <description>An audio file made up of a voice recording of the sustained short a vowel sound, along with accelerometer data while maintaining various positions, will be collected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Smartphone microphone sensor</intervention_name>
+    <description>The volunteer will record themselves sustaining the short a vowel sound for 10 seconds.</description>
+    <arm_group_label>Control (healthy, non-PD participants)</arm_group_label>
+    <arm_group_label>PD</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Smartphone accelerometer sensor</intervention_name>
+    <description>The volunteer's smartphone's accelerometer will record accelerometer data (positions on the x, y, and z axes) while the volunteer maintains 4 positions, each for 10 seconds.</description>
+    <arm_group_label>Control (healthy, non-PD participants)</arm_group_label>
+    <arm_group_label>PD</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Accelerometer data, voice recording, question responses (age-group, gender, PD/non-PD)&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects must be healthy controls, or clinically diagnosed with PD in order to participate.&#xD;
+        They also may not have another illness that causes tremor and/or dysphonia - subjects who&#xD;
+        have PD must also have PD-related dysphonia and PD-related tremor.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis of Parkinson's Disease (PD)&#xD;
+&#xD;
+          -  Healthy&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subject does not have clinical diagnosis of PD, however, has another neurological&#xD;
+             disorder/disease that manifests with symptoms of tremor or dysphonia&#xD;
+&#xD;
+          -  Subject diagnosed with PD does not have dysphonia and tremor&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Nitya Ayyagari</last_name>
+    <phone>(925) 699-0817</phone>
+    <phone_ext>+1</phone_ext>
+    <email>admin@goalspal.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Goalspal LLC</name>
+      <address>
+        <city>Pleasanton</city>
+        <state>California</state>
+        <zip>94566</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nitya Ayyagari</last_name>
+      <phone>925-699-0817</phone>
+      <phone_ext>+1</phone_ext>
+      <email>admin@goalspal.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://cepha.ai</url>
+    <description>A visual protocol of what the study entails, complete with pictures of each screen wherein a volunteer must complete a certain activity, and how to download the mobile study.</description>
+  </link>
+  <verification_date>July 2020</verification_date>
+  <study_first_submitted>February 26, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2020</study_first_posted>
+  <last_update_submitted>July 20, 2020</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 21, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Parkinson's Disease</keyword>
+  <keyword>Dysphonia</keyword>
+  <keyword>Tremor</keyword>
+  <keyword>Neurological Disorder</keyword>
+  <keyword>Web-based</keyword>
+  <keyword>Neurological Disease</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dysphonia</mesh_term>
+    <mesh_term>Hoarseness</mesh_term>
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Tremor</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>De-identified participant data may be made available to other researchers in a compiled dataset. 24 accelerometer features from each participant will be included in their entry, tagged by a GUID. Along with this, an audio file of them sustaining the short a vowel sound for 10 seconds will be a part of their entry. Finally, their status (control/PD), gender, and age-group will be included, so that statistical analyses can be made.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

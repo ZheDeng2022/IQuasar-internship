@@ -1,0 +1,201 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04600245</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TASMC-05- EC- 0457-20-TLV</org_study_id>
+    <nct_id>NCT04600245</nct_id>
+  </id_info>
+  <brief_title>Evaluation of CARTOSOUND FAM Software for Accurate Reconstruction of the Left Atrium</brief_title>
+  <official_title>Evaluation of CARTOSOUND FAM Software for Accurate Three Dimensional Reconstruction of the Left Atrium in Patients Referred for Atrial Fibrillation Ablation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tel-Aviv Sourasky Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tel-Aviv Sourasky Medical Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the present study is to compare the LA reconstruction obtained with CartoSound-FAM&#xD;
+      software and The M-FAM software to the Carto Merge 3D reconstruction and FAM in consecutive&#xD;
+      patients referred for AF ablation.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A precise reconstruction of the left atrium (LA), the pulmonary veins (PV) and the left&#xD;
+      atrial appendage (LAA) is of critical importance in order to achieve efficient and safe&#xD;
+      results in atrial fibrillation ablation. Currently the LA reconstruction methods are mainly&#xD;
+      based on techniques as Fast Anatomical Mapping (FAM) and cardiac CT merging. FAM mapping&#xD;
+      requires catheter manipulation by a skilled operator and it is time consuming. The raw&#xD;
+      anatomy obtained with FAM requires also a post imaging refinement of the LA surfaces by&#xD;
+      shaving of the image with sculpting tools before the initiation of the ablation and&#xD;
+      throughout the procedure. A drawback of this approach is represented by the frequent lack of&#xD;
+      accuracy in the definition of critical areas of the LA during the ablation as PV antrum, left&#xD;
+      PVs-LAA appendage ridge, PV carinas. An alternative approach is based on the merging of the&#xD;
+      FAM reconstruction to a CT scan of the left atrium acquired before the procedure (Carto&#xD;
+      Merge). The advantage of this technique is a far better definition of the LA anatomy&#xD;
+      including PV antrum, PV sizing, angle of insertion on the LA of the PV and the recognition of&#xD;
+      PV anomalies (PV common os, separated branches, additional PVs). The drawbacks of these&#xD;
+      approaches are mainly related to the exposure of the patients to contrast media during the&#xD;
+      cardiac CTA and the additional costs of the CT scan to the entire budget of the procedure.&#xD;
+&#xD;
+      The CARTOSOUND® FAM algorithm is a model-based algorithm, developed using the Machine&#xD;
+      Learning methodology, which reconstructs a 3D volume of the Left Atrium (LA) anatomies (LA&#xD;
+      Body, Left Atrial Appendage - LAA, Left Inferior Pulmonary Vein - LIPV, Left Superior&#xD;
+      Pulmonary Vein - LSPV, Right Superior Pulmonary Vein - RSPV, and Right Inferior Pulmonary&#xD;
+      Vein - RIPV) based on a series of 2D ultrasound frames acquired from the Right Atrium - RA&#xD;
+      (Fossa Ovalis) and the RVOT. In addition to the 3D volume reconstructed, the CARTOSOUND® FAM&#xD;
+      algorithm generates 2D automatic contours that are overlaid on the corresponding 2D&#xD;
+      ultrasound frames and provides auto segmentation of the Left Atrium (LA) anatomies. The&#xD;
+      advantages of the CARTOSOUND FAM are related to the shortening of mapping required to achieve&#xD;
+      an entire LA reconstruction and better resolution of the LA anatomy compared to FAM.&#xD;
+&#xD;
+      The aim of the present study is to compare the LA reconstruction obtained with CartoSound-FAM&#xD;
+      software and The M-FAM software to the Carto Merge 3D reconstruction and FAM in consecutive&#xD;
+      patients referred for AF ablation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2020</start_date>
+  <completion_date type="Anticipated">October 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Prospective, single-center, non-randomized, open label, two arm study. After informed consent, 60 consecutive subjects who are scheduled to undergo AF ablation will be enrolled in the study in two equally sized groups of 30 subjects each. One group will undergo the procedure with assistance from the CartoSound-FAM system and the other with the M-FAM system. Data will be collected from all subjects during the ablation procedure and post procedure for a period of 12 months. Either CartoSound-FAM or M-FAM software systems alongside Carto Merge 3D reconstruction will be used during the treatment for atrial fibrillation. Data will be anonymized by removing patient protected health information, only initials will be used</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Procedure time</measure>
+    <time_frame>1 day</time_frame>
+    <description>The time required to map the LA in order to obtain a CartoSound-FAM and the M-FAM reconstructions (in minutes).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Anatomy accuracy - LAA size</measure>
+    <time_frame>1 week</time_frame>
+    <description>The LAA size and position will be compared for between CT and CartoSound-FAM (diameter in centimeters)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Anatomy accuracy - LA size</measure>
+    <time_frame>1 week</time_frame>
+    <description>The LA will be compared for between CT and CartoSound-FAM</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Anatomy accuracy - PV position</measure>
+    <time_frame>1 week</time_frame>
+    <description>The PV position will be compared for between CT and CartoSound-FAM</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Anatomy accuracy - LAA position</measure>
+    <time_frame>1 week</time_frame>
+    <description>The LAA position will be compared for between CT and CartoSound-FAM</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>M-FAM</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Will undergo the procedure with assistance from the M-FAM syetem Data will be collected from all subjects during the ablation procedure and post procedure for a period of 12 months</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>CARTOSOUND-FAM</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Will undergo the procedure with assistance from the CARTOSOUND-FAM syetem Data will be collected from all subjects during the ablation procedure and post procedure for a period of 12 months</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Evaluation of CARTOSOUND-FAM software for accurate three-dimensional reconstruction of the left atrium in patients referred for atrial fibrillation ablation.</intervention_name>
+    <description>One group will undergo the procedure with assistance from the CartoSound-FAM system and the other with the M-FAM system. Data will be collected from all subjects during the ablation procedure and post procedure for a period of 12 months. Either CartoSound-FAM or M-FAM software systems alongside Carto Merge 3D reconstruction will be used during the treatment for atrial fibrillation. Data will be anonymized by removing patient protected health information, only initials will be used</description>
+    <arm_group_label>CARTOSOUND-FAM</arm_group_label>
+    <arm_group_label>M-FAM</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Male and female &gt;18 years old.&#xD;
+&#xD;
+          -  Subjects must provide written informed consent to participate in the study.&#xD;
+&#xD;
+          -  Subject is willing to comply with the protocol requirements and return to the&#xD;
+             treatment center for all required clinical evaluations.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant women.&#xD;
+&#xD;
+          -  Patients with iodine contrast media allergy&#xD;
+&#xD;
+          -  Patients with renal failure (GFR &lt;60ml/min)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ehud Chorin, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Tel Aviv Medical Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ehud Chorin, MD, PhD</last_name>
+    <phone>972527360498</phone>
+    <email>udichorin5@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Tel Aviv Medical Center</name>
+      <address>
+        <city>Tel Aviv</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ehud Chorin, MD, PhD</last_name>
+      <phone>972527360498</phone>
+      <email>udichorin5@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 23, 2020</study_first_posted>
+  <last_update_submitted>October 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 23, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The results of the study will be submitted to a peer-reviewed journal in the field of cardiac arrhythmia.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

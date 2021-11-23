@@ -1,0 +1,164 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04951973</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DEWS_2021</org_study_id>
+    <nct_id>NCT04951973</nct_id>
+  </id_info>
+  <brief_title>Deep Learning Based Early Warning Score in Rapid Response Team Activation</brief_title>
+  <official_title>Comparison of Deep Learning Based Early Warning Score and Conventional Screening System in Rapid Response Team Activation in General Ward Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Korea Health Industry Development Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>VUNO</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Inha University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mediplex Sejong Hospital, Incheon</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sejong Hospital, Bucheon</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dong-A University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to evaluate the safety and clinical usefulness of the Deep&#xD;
+      learning based Early Warning Score (DEWS).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      SPTTS is the representative trigger tracking system. In addition to the conventional SPTTS,&#xD;
+      DEWS will be calculated at each time point by the previously developed algorithm. SPTTS and&#xD;
+      DEWS will be shown simulataneously on the screening board. The rapid response team performs&#xD;
+      the rescue activity as before, using both SPTTS and DEWS simultaneously.&#xD;
+&#xD;
+      The alarm threshold setting of DEWS will be changed to 70 points, 75 points, and 80 points&#xD;
+      every month.&#xD;
+&#xD;
+      The primary and secondary outcomes will be evaluated to compare SPTTS and DEWS (based on each&#xD;
+      threshold).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2021</start_date>
+  <completion_date type="Anticipated">April 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Months</target_duration>
+  <primary_outcome>
+    <measure>In-hospital cardiac arrest</measure>
+    <time_frame>3 month</time_frame>
+    <description>Compare the predictability of in-hospital cardiac arrest between DEWS and SPTTS.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Alarm coincidence</measure>
+    <time_frame>3 month</time_frame>
+    <description>Evaluate the alarm coincidence between DEWS and SPTTS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total alarm count.</measure>
+    <time_frame>3 month</time_frame>
+    <description>Compare the total alarm count between DEWS and SPTTS.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Hospital Rapid Response Team</condition>
+  <condition>Hospital Medical Emergency Team</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Deep Learning Based Early Warning Score (DEWS)</intervention_name>
+    <description>DEWS use 4 vital signs (systolic blood pressure, HR, respiratory rate, and body temperature) to predict in-hospital cardiac arrest. Deep-learning approach facilitates learning the relationship between the vital signs and cardiac arrest to achieve the high sensitivity and low false-alarm rate of the track-and-trigger system (TTS).</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted to general ward&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients admitted to general ward and monitored by in-hospital rapid response system&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients admitted to pediatric ward&#xD;
+&#xD;
+          -  patients in emergency room, intensive care unit, and operating room&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yeon Joo Lee, MD</last_name>
+    <phone>82-31-787-7082</phone>
+    <email>yjlee1117@snubh.org</email>
+  </overall_contact>
+  <reference>
+    <citation>Kwon JM, Lee Y, Lee Y, Lee S, Park J. An Algorithm Based on Deep Learning for Predicting In-Hospital Cardiac Arrest. J Am Heart Assoc. 2018 Jun 26;7(13). pii: e008678. doi: 10.1161/JAHA.118.008678.</citation>
+    <PMID>29945914</PMID>
+  </reference>
+  <reference>
+    <citation>Cho KJ, Kwon O, Kwon JM, Lee Y, Park H, Jeon KH, Kim KH, Park J, Oh BH. Detecting Patient Deterioration Using Artificial Intelligence in a Rapid Response System. Crit Care Med. 2020 Apr;48(4):e285-e289. doi: 10.1097/CCM.0000000000004236.</citation>
+    <PMID>32205618</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 30, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>June 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>deep learning based early warning score</keyword>
+  <keyword>rapid response team</keyword>
+  <keyword>in-hospital cardiac arrest</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

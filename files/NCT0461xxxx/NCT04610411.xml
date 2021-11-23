@@ -1,0 +1,233 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04610411</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HoloNavigation</org_study_id>
+    <nct_id>NCT04610411</nct_id>
+  </id_info>
+  <brief_title>Evaluation of the Accuracy of Surgical Navigation in Spine Instrumentation Using Augmented Reality</brief_title>
+  <acronym>HoloNavi</acronym>
+  <official_title>Evaluation of the Accuracy of Surgical Navigation in Spine Instrumentation Using Augmented Reality</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Balgrist University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Balgrist University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will investigate the accuracy of implant navigation for spinal instrumentation.&#xD;
+      The tested technique is based on commercially available AR-glasses and a specially developed&#xD;
+      software component&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The experimental intervention consists of using the AR-glasses and a specially developed&#xD;
+      software as a navigation aid in surgery. The surgical technique for the intervention group&#xD;
+      corresponds to the established standard method. It is identical to the control intervention&#xD;
+      except for the step where pedicle screws or rod implants are instrumented.&#xD;
+&#xD;
+      The surgeon wears the hardware component during the entire surgery. He proceeds&#xD;
+      conventionally up to the point where navigation of pedicle screws and rod implants with is&#xD;
+      required.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy</measure>
+    <time_frame>within 7 days of surgery</time_frame>
+    <description>3-dimensional deviation (3D angle) of preoperative planning in postoperative imaging</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy</measure>
+    <time_frame>within 7 days of surgery</time_frame>
+    <description>3-dimensional deviation (3D translation vector) of preoperative planning in postoperative imaging</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of rod bending attempts</measure>
+    <time_frame>during surgery</time_frame>
+    <description>bending attempts are counted during surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of length corrections of rod implant</measure>
+    <time_frame>during surgery</time_frame>
+    <description>required length corrections are counted during surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>time needed for pedicle screw implantation</measure>
+    <time_frame>during surgery</time_frame>
+    <description>time is measured during surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>surgery duration</measure>
+    <time_frame>during surgery</time_frame>
+    <description>total Duration of surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Radiation dose during surgery</measure>
+    <time_frame>during surgery</time_frame>
+    <description>total radiation dose applied during surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Usability</measure>
+    <time_frame>within 7 days of surgery</time_frame>
+    <description>measuring of surgeon satisfaction using visual analogue scale from a minimum of 0 to a maximum of 10</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcome Pain</measure>
+    <time_frame>up to 1 year of surgery</time_frame>
+    <description>Standardized clinical pain score (visual analogue scale for pain with 0=no pain and 10=unbearable pain) is routinely evaluated before surgery and in the follow up</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcome Disability</measure>
+    <time_frame>up to 1 year of surgery</time_frame>
+    <description>Standardized clinical disability score (Oswestry Low Back Pain Questionnaire with 0%=minimal disability and 100%=maximal disability ) is routinely evaluated before surgery and in the follow up</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Surgery</condition>
+  <arm_group>
+    <arm_group_label>surgical navigation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>standard surgical method except for navigated instrumentation of pedicle screws and rod implants</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>standard surgical method</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>standard surgical method established at the institution</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>surgical navigation</intervention_name>
+    <description>surgical navigation for pedicle screw placement and rod beinding using AR-glasses and a specially developed software</description>
+    <arm_group_label>surgical navigation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>standard surgical method</intervention_name>
+    <description>standard surgical method established at the institution</description>
+    <arm_group_label>standard surgical method</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Indication for surgical instrumentation of the spine (Os Sacrum, L1-L5, Th1-Th12)&#xD;
+             without or with correction of a malposition.&#xD;
+&#xD;
+          -  Anatomical adaptation of the rod implant necessary.&#xD;
+&#xD;
+          -  The trial participant is able to give his/her consent.&#xD;
+&#xD;
+          -  Signed written declaration of consent after oral and written explanation.&#xD;
+&#xD;
+          -  Male and female patients aged 18 years and older.&#xD;
+&#xD;
+          -  Indication for a preoperative CT scan of the lumbar spine&#xD;
+&#xD;
+          -  Existence of a preoperative planning, which was created on the basis of 3D CT imaging&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breastfeeding women&#xD;
+&#xD;
+          -  Emergency situations&#xD;
+&#xD;
+          -  Other known clinically significant concomitant diseases (e.g. infections, tumors,&#xD;
+             co-existing arthrosis).&#xD;
+&#xD;
+          -  Known or suspected incompliance with the protocol, such as drug or alcohol abuse.&#xD;
+&#xD;
+          -  Inability of the patient to follow the study procedures, e.g., due to language&#xD;
+             problems, mental illness, dementia, etc.&#xD;
+&#xD;
+          -  There is no conventional surgical treatment that can be used if the MP cannot be used&#xD;
+             intraoperatively.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mazda Farshad, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Balgrist University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mazda Farshad, Prof.</last_name>
+    <phone>+41 44 386 1111</phone>
+    <email>mazda.farshad@balgrist.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Philipp Fuernstahl, Prof.</last_name>
+    <phone>+41 44 510 7366</phone>
+    <email>philipp.fuernstahl@balgrist.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Balgrist University Hospital</name>
+      <address>
+        <city>Zürich</city>
+        <state>Zurich</state>
+        <zip>8008</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mazda Farshad, PD Dr.med.</last_name>
+      <phone>+41 44 386 1270</phone>
+      <email>mazda.farshad@balgrist.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>José Spirig, Dr.med.</last_name>
+      <phone>+41 44 386 5761</phone>
+      <email>jose.spirig@balgrist.ch</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 30, 2020</study_first_posted>
+  <last_update_submitted>May 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

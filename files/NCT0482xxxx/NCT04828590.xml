@@ -1,0 +1,344 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04828590</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DVFFR ADAPT Study</org_study_id>
+    <nct_id>NCT04828590</nct_id>
+  </id_info>
+  <brief_title>The ADAPT Study: Assessment of the DiAgnostic Performance of DeepVessel FFR in SuspecTed Coronary Artery Disease</brief_title>
+  <acronym>ADAPT</acronym>
+  <official_title>Assessment of the DiAgnostic Performance of DeepVessel FFR in SuspecTed Coronary Artery Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Keya Medical</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medical University of South Carolina</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Keya Medical</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      DEEPVESSEL FFR is a medical device that is designed to extract three- dimensional coronary&#xD;
+      tree structures and generate computed tomography-derived fraction flow reserve (FFR) values&#xD;
+      from coronary CT angiogram images. The primary objective of this multi-center clinical&#xD;
+      validation study is to validate the clinical performance of DEEPVESSEL FFR in identifying&#xD;
+      patients with myocardial ischemia due to significant obstructive coronary artery diseases.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Coronary artery disease (CAD) is the most common type of heart disease, and it is the leading&#xD;
+      cause of death worldwide in both men and women. CAD happens when the coronary arteries become&#xD;
+      hardened and narrowed, which is due to the buildup of cholesterol-containing deposits-plaque&#xD;
+      on the inner vessel wall. As the plaque grows, less blood can flow through the arteries due&#xD;
+      to the vessel narrowing. Decreased blood flow can then lead to chest pain (angina), shortness&#xD;
+      of breath, or even a heart attack.&#xD;
+&#xD;
+      Fractional flow reserve (FFR), a measure of blood flow reduction caused by vessel narrowing,&#xD;
+      is accepted as gold standard for assessing the functional significance of stenotic lesions.&#xD;
+      Multiple randomized trials have demonstrated that FFR has excellent diagnostic value in&#xD;
+      identifying functionally significant lesions and guiding coronary revascularization&#xD;
+      procedures. However, FFR is measured invasively through a pressure wire-based cardiac&#xD;
+      catheter procedure in the catheterization lab. Current guidelines recommend assessing&#xD;
+      myocardial ischemia of stable patients with CAD through non-invasive functional testing&#xD;
+      before considering invasive coronary angiography (ICA) or conducting myocardial&#xD;
+      revascularization.&#xD;
+&#xD;
+      DEEPVESSEL FFR (DVFFR) is a software medical device that is designed to extract three-&#xD;
+      dimensional coronary tree structures and generate computed tomography -derived FFR values&#xD;
+      from coronary CT angiogram (CTA) images. It uses deep learning neural networks that encode&#xD;
+      imaging, structural, and functional characteristics of coronary arteries and learn complex&#xD;
+      mapping between FFR values and the encoded information. The quantitative FFR analysis based&#xD;
+      on the coronary CTA images can help clinicians assess the physiological function in patients&#xD;
+      with CAD non-invasively.&#xD;
+&#xD;
+      The primary objective of this study is to evaluate the diagnostic performance of DVFFR&#xD;
+      software in identifying patients with significant obstructive CAD causing myocardial&#xD;
+      ischemia, using invasively measured ICA FFR as the reference standard.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 10, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of DVFFR at the vessel level in identifying ischemic lesions, i.e. DVFFR value≤0.80, from coronary CTA images, using ICA-FFR measurement as a reference standard.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>On the vessel level, if a vessel with at least one stenosis lesion with a FFR measurement less or equal to 0.80, this vessel is considered to be ischemic. A true positive on the vessel level is defined as a vessel containing at least one stenosis with DVFFR value ≤0.80 and its corresponding reference ICA-FFR value is also ≤0.80.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of DVFFR at the vessel level in identifying ischemic lesions, i.e. DVFFR value≤0.80, from coronary CTA images, using ICA-FFR measurement as a reference standard.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>On the vessel level, if a vessel with at least one stenosis lesion with a FFR measurement less or equal to 0.80, this vessel is considered to be ischemic. A true positive on the vessel level is defined as a vessel containing at least one stenosis with DVFFR value ≤0.80 and its corresponding reference ICA-FFR value is also ≤0.80.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy, positive predictive value (PPV) and negative predictive value (NPV) of DVFFR at the vessel level</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>On the vessel lever, if a vessel with at least one stenosis lesion with a FFR measurement less or equal to 0.80, this vessel is considered to be ischemic. A true positive on the vessel level is defined as a vessel containing at least one stenosis with DVFFR value ≤0.80 and its corresponding reference ICA-FFR value is also ≤0.80.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic performance including sensitivity, specificity, accuracy, PPV and NPV of DVFFR at the patient level</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>At the patient level, if a patient has at least one vessel that has been identified as causing ischemia, this patient is considered a patient positive for ischemia. A true positive on the patient level is defined as when a patient has at least one lesion with a DVFFR value ≤0.80 and its corresponding reference ICA-FFR is also ≤0.80.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Per-vessel Pearson correlation coefficient between DVFFR and ICA-FFR values</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Correlation between CT-derived DVFFR values and wire-measured ICA-FFR values will be evaluated at the vessel level.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic performance (including sensitivity, specificity, accuracy, PPV and NPV) in detecting hemodynamically significant coronary obstruction using DVFFR and coronary CTA alone, on both vessel level and patient level.</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>For coronary CTA, hemodynamically significant obstruction of a coronary artery is defined as a stenosis ≥50%. The per-patient stenosis degree will be specified as the most severe stenosis among the major epicardial artery vessels presented in coronary CTA.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stratified analyses on different subgroups of subjects' data</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Stratified analyses on different subgroups of subjects' data, ranging from patient demographics and disease conditions.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Myocardial Ischemia</condition>
+  <arm_group>
+    <arm_group_label>Patients with suspected CAD containing at least one 30%-90% coronary CTA stenosis</arm_group_label>
+    <description>Patients' datasets with suspected CAD containing at least one 30%-90% coronary CTA stenosis; and ICA-FFR was measured on vessels with diameters greater than 2 mm will be analyzed. Diagnostic performance based on CT-derived FFR using DVFFR software will be compared with the diagnostic performance from ICA-FFR measurements.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <description>Due to observational study</description>
+    <arm_group_label>Patients with suspected CAD containing at least one 30%-90% coronary CTA stenosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with suspected CAD containing at least one 30%-90% coronary CTA stenosis.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients' age ≥18 years;&#xD;
+&#xD;
+          2. Has coronary CTA images acquired by ≥64 multidetector row CT scanner, no earlier than&#xD;
+             2016 and within 60 days of the ICA-FFR procedure;&#xD;
+&#xD;
+          3. Coronary CTA image shows at least one vessel segment (≥2mm diameter) with a diameter&#xD;
+             stenosis of 30%-90%;&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Patients with any of the following conditions at the time of CTA imaging:&#xD;
+&#xD;
+          1. Acute myocardial infarction;&#xD;
+&#xD;
+          2. Unstable angina;&#xD;
+&#xD;
+          3. Pulmonary edema;&#xD;
+&#xD;
+          4. Heart function classification level III and IV (NYHA heart function classification);&#xD;
+&#xD;
+          5. Implantable cardioverter defibrillator (ICD);&#xD;
+&#xD;
+          6. Prior percutaneous coronary intervention (PCI) or pacemaker surgery;&#xD;
+&#xD;
+          7. Prior coronary artery bypass grafting (CABG) surgery;&#xD;
+&#xD;
+          8. Prior heart valve replacement;&#xD;
+&#xD;
+          9. Prior history of complex congenital heart disease;&#xD;
+&#xD;
+         10. Prior history of cardiomyopathy;&#xD;
+&#xD;
+         11. BMI &gt;35;&#xD;
+&#xD;
+         12. Coronary total occlusion.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joseph Schoepf, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Medical University of South Carolina</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yi Wang, PhD</last_name>
+    <phone>206-508-1036</phone>
+    <email>yi@keyamedical.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Holy Cross Health</name>
+      <address>
+        <city>Fort Lauderdale</city>
+        <state>Florida</state>
+        <zip>33308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Kansas Medical Center</name>
+      <address>
+        <city>Kansas City</city>
+        <state>Kansas</state>
+        <zip>66160</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Oregon Health &amp; Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Medical University of South Carolina</name>
+      <address>
+        <city>Charleston</city>
+        <state>South Carolina</state>
+        <zip>29407</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Vanderbilt University Medical Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37232</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Colin Barker</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Medical University Innsbruck</name>
+      <address>
+        <city>Innsbruck</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Institute of Arnualt Tzanck</name>
+      <address>
+        <city>Nice</city>
+        <state>Saint-Laurent-du-Var</state>
+        <zip>06700</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Ferrara</name>
+      <address>
+        <city>Ferrara</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alberto Cossu</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Milan</name>
+      <address>
+        <city>Milan</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>National Institute of Cardiology</name>
+      <address>
+        <city>Warsaw</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>France</country>
+    <country>Italy</country>
+    <country>Poland</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>March 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 31, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 2, 2021</study_first_posted>
+  <last_update_submitted>September 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

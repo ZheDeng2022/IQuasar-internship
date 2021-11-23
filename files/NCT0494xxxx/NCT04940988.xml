@@ -1,0 +1,147 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04940988</url>
+  </required_header>
+  <id_info>
+    <org_study_id>QI-RTPB</org_study_id>
+    <nct_id>NCT04940988</nct_id>
+  </id_info>
+  <brief_title>Impacts of a Physician-targeted Price Transparency Tool on Medication Out-of-pocket Costs</brief_title>
+  <official_title>Impacts of a Physician-targeted Price Transparency Real Time Prescription Benefits Tool on Medication Out-of-pocket Costs</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>NYU Langone Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>NYU Langone Health</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this study is to evaluate whether presenting patient out-of-pocket cost&#xD;
+      information to the provider at the time of prescribing leads to orders for medications with&#xD;
+      lower out-of-pocket costs. The Real-Time Prescription Benefits (RTPB) tool has been&#xD;
+      implemented to randomly selected providers across NYU Langone Health's outpatient physician&#xD;
+      practices. The RTPB tool provides physicians with information about patient out-of-pocket&#xD;
+      (OOP) cost for medications at the point of outpatient prescribing. OOP is inclusive of any&#xD;
+      copay, coinsurance, and deductible that the patient owes given their prescription drug&#xD;
+      benefit plan. If the physician is submitting a prescription order and a&#xD;
+      clinically-appropriate alternative with a lower OOP cost is available, an alert with OOP cost&#xD;
+      information for the drug being initially ordered as well as up to three lower-cost&#xD;
+      alternatives will be displayed. Implementation of this tool will be analyzed to see if it&#xD;
+      will lead to reduced out-of-pocket costs on ordered medications when alternatives were&#xD;
+      available. Because effects could vary along many dimensions (e.g., specialty, drug class,&#xD;
+      insurance type), secondary analyses will be conducted and stratified along such dimensions.&#xD;
+      Analyses will be conducted at the prescription order level.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 18, 2020</start_date>
+  <completion_date type="Actual">July 30, 2021</completion_date>
+  <primary_completion_date type="Actual">July 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Medication out of pocket cost per day</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>The primary outcome, which will be measured at the medication-order level is out-of-pocket cost per day for a drug ordered. It will be computed by dividing the out-of-pocket cost of a drug by the days supply. Data will be collected through the electronic health record.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Whether an order was placed for a mail-order pharmacy</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>A secondary outcome, also specified at the order level, is whether a drug prescription was ordered from a mail-order pharmacy, since switching to a mail-order pharmacy often presents an opportunity for savings. Data will be collected through the electronic health record.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Days supply</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>A secondary outcome, also specified at the order level, is the days supply. Data will be collected through the electronic health record.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">21401</enrollment>
+  <condition>Prescriptions</condition>
+  <condition>Costs and Cost Analysis</condition>
+  <arm_group>
+    <arm_group_label>See alert</arm_group_label>
+    <description>The intervention group refers to medication orders placed by prescribers when practicing in an outpatient department randomly assigned to receive the intervention, which is implementation of the RTPB tool.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Do not see alert</arm_group_label>
+    <description>The non intervention group refers to medication orders placed by prescribers when practicing in an outpatient department randomly selected to not receive the intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Real-time benefits check</intervention_name>
+    <description>Prescribers practicing in outpatient departments assigned to the intervention arm will be shown popup alerts with their patient's insurance benefit design-specific out-of-pocket cost for the drug being ordered as well as out-of-pocket costs for up to 3 lower-cost alternatives if available. Alternatives will only be shown when available and when the patient and his or her benefit design information can be matched by the electronic health record system to accurately query out-of-pocket cost information.</description>
+    <arm_group_label>See alert</arm_group_label>
+    <other_name>Physician-focused medication price transparency</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The intervention group refers to medication orders placed by prescribers when practicing in&#xD;
+        an outpatient department randomly assigned to receive the intervention, which is&#xD;
+        implementation of the RTPB tool. The control group refers to medication orders placed by&#xD;
+        prescribers when practicing in an outpatient department randomly selected to not receive&#xD;
+        the intervention.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Medication orders for which this match and query was successful and outcomes data was&#xD;
+             available.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  No patient-level exclusion criteria will be imposed&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>NYU Langone Health</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>March 18, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 18, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 28, 2021</study_first_posted>
+  <last_update_submitted>September 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

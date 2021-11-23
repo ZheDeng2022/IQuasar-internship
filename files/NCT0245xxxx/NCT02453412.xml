@@ -1,0 +1,340 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02453412</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NT12.01</org_study_id>
+    <secondary_id>NL51610.068.14</secondary_id>
+    <nct_id>NCT02453412</nct_id>
+  </id_info>
+  <brief_title>Preoperative Arteriovenous Fistula Simulation Study (ShuntSimulationStudy)</brief_title>
+  <acronym>3S</acronym>
+  <official_title>Randomized-controlled Clinical Trial for the Evaluation of the Efficacy of Computational Simulation for the Planning of Vascular Access Surgery in Hemodialysis Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Maastricht University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Maastricht University Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients suffering from end-stage renal disease (ESRD) are dependent on renal replacement&#xD;
+      therapy (dialysis). The majority of dialysis is facilitated by hemodialysis. For hemodialysis&#xD;
+      a vascular access is necessary, preferable an arteriovenous fistula (AVF) in which a vein is&#xD;
+      directly anastomosed to an artery. In order to use the AVF for hemodialysis three criteria&#xD;
+      have to be met; the minimal flow over the AVF is 600 mL/min, the diameter is at least 6 mm,&#xD;
+      and the AVF is located less than 6 mm under the skin. Unfortunately, approximately half of&#xD;
+      the patients (50%) are confronted with an AVF that does not meet these criteria; the so&#xD;
+      called non-maturation or primary failure. In case of non-maturation the AVF is not only&#xD;
+      unusable for dialysis, but also requires reinterventions on short- and long-term. Firstly to&#xD;
+      mature the AVF, and secondly, when the AVF is matured, to keep the vascular access. Using a&#xD;
+      computational simulation postoperative flow can be predicted. Based on patient-specific&#xD;
+      duplex measurements, the model can calculate the flow that can be expected following vascular&#xD;
+      access surgery for all AVF configurations; fore- or upper arm. These calculations lead to an&#xD;
+      advice which configuration is indicated; a flow that exceeds 600 mL/min, leading to&#xD;
+      maturation. Potentially the aforementioned 50% of non-maturation can be reduced. The patient&#xD;
+      then has an adequate vascular access and reinterventions are adverted, resulting in a&#xD;
+      decrease of costs, hospital demand, and an increase of the patients' quality of life. When&#xD;
+      the expected reduction of non-maturation is confirmed, the computational tool can be offered&#xD;
+      to other hospitals.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      End-stage renal disease (ESRD) is a major and growing healthcare problem associated with&#xD;
+      substantial costs. By the end of 2010 the global patient population requiring chronic renal&#xD;
+      replacement therapy (RRT) exceeds 2 million, of which approximately 90% relies on&#xD;
+      hemodialysis (HD). The number of patients dependent on RRT are expected to annually increase&#xD;
+      with 8%. Based on this figure, it is expected that in 2030, 7.3 million ESRD patients need HD&#xD;
+      treatment. To facilitate adequate HD therapy a reliable vascular access (VA) is mandatory and&#xD;
+      can be provided by either creation of an autologous arteriovenous fistula (AVF), a prosthetic&#xD;
+      arteriovenous graft (AVG) or a central venous catheter (CVC). Guidelines by the National&#xD;
+      Kidney Foundation (NKF K/DOQI Guidelines), the Vascular Access Society (Good Nephrological&#xD;
+      Practice Guidelines) and the European Dialysis and Transplant Association (European Best&#xD;
+      Practice Guidelines on vascular access) advocate the implementation of an all-autologous&#xD;
+      fistula policy to maximize the use of AVF over AVG and CVC because AVF have the best&#xD;
+      long-term patency, fewer complications and require less interventions once fully maturated.&#xD;
+      Although the implementation of preoperative ultrasonography examination for vessel assessment&#xD;
+      has reduced the number of early AVF failure by improving the selection of the most suitable&#xD;
+      vessels and site for AVF creation, short- and long-term AVF dysfunction remains the major&#xD;
+      cause of morbidity and hospitalisation in HD patients, and is therefore the major limitation&#xD;
+      for HD treatment. This dysfunction is usually associated with non-maturation of the newly&#xD;
+      created AVF or the formation of neo-intimal hyperplasia (NIH) which potentially results in&#xD;
+      decreased access flow and eventual fistula thrombosis in up to 50% of AVFs. On the other&#xD;
+      hand, the low resistance vascular traject via the AVF may lead to impeded perfusion of the&#xD;
+      extremity distally of the AV anastomosis resulting in hand ischemia (HAIDI = Hemodialysis&#xD;
+      Access Induced Distal Ischemia), while an abundant AVF flow may lead to the development of&#xD;
+      left ventricular hypertrophy, both with potentially severe consequences. These high-flow&#xD;
+      complications occur in approximately 20% of fistulae. Numerous studies have investigated&#xD;
+      alternative preoperative mapping tools and criteria for reduction of AVF related&#xD;
+      complications. However, current clinical use of these individual tools and parameters does&#xD;
+      not take into account their potential interplay at a systemic level. Therefore one might&#xD;
+      consider that multiple prognostic parameters within a single patient are likely more valuable&#xD;
+      to improve outcome and therefore it is obvious to tailor the type of AVF to the individual&#xD;
+      patient. A possible solution to deal with multiple independent prognostic factors is&#xD;
+      implementation of a predictive patient-specific computational tool that relates geometrical,&#xD;
+      mechanical and hemodynamical parameters by means of physical laws. As a result, the&#xD;
+      computational tool takes the complex interplay between different prognostic parameters into&#xD;
+      consideration and accounts for individual differences in anatomy, physiology, demography and&#xD;
+      hemodynamics. Such an innovative computational tool opens new opportunities. By predicting&#xD;
+      postoperative flow abovementioned deleterious events can possibly be prevented. High-flow&#xD;
+      (&gt;1500ml/min) and low-flow (&lt;600ml/min) vascular access can then be predicted and&#xD;
+      consequently be rejected and a more suitable AVF-configuration chosen.&#xD;
+&#xD;
+      Consequently, simulation of outcome after AVF creation is at hand. Recently, the feasibility&#xD;
+      of VA computational simulation has been investigated and proven in the ARCH FP7 ICT-224390&#xD;
+      project (ARCH; patient-specific image-based computational modeling for improvement of short-&#xD;
+      and long- term outcome of vascular access in patients on hemodialysis therapy). Within this&#xD;
+      technological and clinical study, longitudinal collection of cardiovascular data was&#xD;
+      performed with the intention to develop, calibrate and validate patient-specific modelling&#xD;
+      tools for surgical planning and assistance in the management of complications arising from&#xD;
+      AVF creation. Given the difficult and heterogeneous patient population, the study protocol&#xD;
+      was designed in such way that pre- and postoperative imaging could be performed strictly,&#xD;
+      aiming at complete datasets of structural, functional and demographical data. Although the&#xD;
+      computational simulation model has been validated in a small patient group, larger randomized&#xD;
+      observational patient studies, aiming at evaluating the potential beneficial effect of the&#xD;
+      use of computational tools in reducing AVF-related clinical problems, are needed.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 2015</start_date>
+  <completion_date type="Actual">June 2019</completion_date>
+  <primary_completion_date type="Actual">July 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Occurence of non-maturation</measure>
+    <time_frame>6 weeks postoperatively</time_frame>
+    <description>Yes/No&#xD;
+A matured AVF has minimal flow of 500 mL/min and a minimal diameter of 4 mm by six weeks after AVF creation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Occurence of high-flow complications</measure>
+    <time_frame>6 weeks postoperatively</time_frame>
+    <description>Yes/No&#xD;
+High flow complications considered are hemodialysis access induced distal ischemia (HAIDI) and heart failure. To classify for a high-flow complication, an AVF requires a flow reduction intervention within twelve weeks following creation. For this objective HAIDI and heart failure are not considered separately.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Primary patency rates</measure>
+    <time_frame>6 and 12 months</time_frame>
+    <description>Intervention free period from AVF construction until an intervention is used to maintain or regain a patent vascular access.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement between predicted and measured flow (mL/min)</measure>
+    <time_frame>up to 6 weeks</time_frame>
+    <description>Correlation and/or Bland-Altman plot</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Usability of the computational tool</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Qualitative assessment of the perceived benefit by surgeons in surgery planning via interviews. The interview will focus on terms of user-friendliness, reporting speed, reliability of predictions, etc.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Functional AVF</measure>
+    <time_frame>&gt;6 weeks (when AVF is matured)</time_frame>
+    <description>AVF allows for cannulation with two needles and effective dialysis, with either dialysis blood flow &gt;300mL/min without recirculation, or a measured kt/V ≥1.4 at the end of one of these sessions.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">236</enrollment>
+  <condition>Kidney Failure, Chronic</condition>
+  <condition>Arteriovenous Fistulae</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Standard care in operative planning in AVF creation, that is physical examination and extensive duplex examination of the arm vasculature carried out by an experience vascular technician.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Simulation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Standard care with the intervention of advisement of the preferred AVF-configuration, based on computational model simulation for predicting postoperative flow (AVF-simulation).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>AVF-simulation</intervention_name>
+    <description>A mathematical computational tool, which is developed to calculate estimates for postoperative AVF hemodynamical changes in the upper extremity. The model is based on physical laws and calculations are carried out on patient-specific duplex measurements.</description>
+    <arm_group_label>Simulation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Incident patients that enter the pre-dialysis program because of end-stage renal&#xD;
+             failure and need for vascular access.&#xD;
+&#xD;
+          -  Permanent dialysis patients in need of a new VA in the contralateral arm because of a&#xD;
+             previous failed access.&#xD;
+&#xD;
+          -  Patients in which treatment of first choice is the creation of an autologous AVF.&#xD;
+&#xD;
+          -  Patients with adequate arteries and veins (duplex) for creation of RC-, BC- or BBAVF.&#xD;
+&#xD;
+          -  Patients that signed the written informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with contraindications for creation of an autologous AVF (skin infection,&#xD;
+             ischemia, heart failure)&#xD;
+&#xD;
+          -  Patients with a previous vascular access in the ipsilateral arm.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Niek Zonnebeld, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht University Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jan Tordoir, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht University Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Wouter Huberts, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht University Medical Center</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Tammo Delhaas, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Maastricht University Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Flevoziekenhuis</name>
+      <address>
+        <city>Almere</city>
+        <state>Flevoland</state>
+        <zip>1315RA</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Maasstad Ziekenhuis</name>
+      <address>
+        <city>Rotterdam</city>
+        <state>Zuid-Holland</state>
+        <zip>3079DZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Slingeland ziekenhuis</name>
+      <address>
+        <city>Doetinchem</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Catharina ziekenhuis</name>
+      <address>
+        <city>Eindhoven</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Zuyderland</name>
+      <address>
+        <city>Heerlen</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Maastricht University Medical Center</name>
+      <address>
+        <city>Maastricht</city>
+        <zip>6229HX</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Antonius ziekenhuis</name>
+      <address>
+        <city>Nieuwegein</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Laurentius ziekenhuis</name>
+      <address>
+        <city>Roermond</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UMC Utrecht</name>
+      <address>
+        <city>Utrecht</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>May 12, 2015</study_first_submitted>
+  <study_first_submitted_qc>May 20, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 25, 2015</study_first_posted>
+  <last_update_submitted>August 20, 2019</last_update_submitted>
+  <last_update_submitted_qc>August 20, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 22, 2019</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Arteriovenous fistulae (AVFs)</keyword>
+  <keyword>Non-maturation</keyword>
+  <keyword>Computational simulation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Renal Insufficiency</mesh_term>
+    <mesh_term>Kidney Failure, Chronic</mesh_term>
+    <mesh_term>Arteriovenous Fistula</mesh_term>
+    <mesh_term>Fistula</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

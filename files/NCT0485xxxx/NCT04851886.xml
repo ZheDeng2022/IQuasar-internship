@@ -1,0 +1,213 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04851886</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021P000197</org_study_id>
+    <nct_id>NCT04851886</nct_id>
+  </id_info>
+  <brief_title>PostureCheck: A Vision-based Compensatory-posture-detection Tool for Robot-assisted Upper-limb Therapy</brief_title>
+  <official_title>PostureCheck: A Vision-based Compensatory-posture-detection Tool to Enhance Performance of the BURT Upper-extremity Stroke-therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Spaulding Rehabilitation Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Barrett Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Spaulding Rehabilitation Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The overall objective of this study is to assess whether robot-assisted upper-limb group&#xD;
+      rehabilitation can be effectively delivered by using a camera-based system equipped with&#xD;
+      machine learning algorithms to track the quality of the exercise performance and provide&#xD;
+      feedback accordingly. To address this question, we plan to carry out a randomized clinical&#xD;
+      trial to compare outcomes in subjects receiving robot-assisted upper-limb rehabilitation&#xD;
+      during individual (i.e., one-on-one) sessions and in subjects receiving robot-assisted&#xD;
+      upper-limb rehabilitation during group (i.e., up to three subjects) sessions.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The proposed study is a single-blinded randomized clinical trial to evaluate the effect of&#xD;
+      using the PostureCheck (a camera-based system equipped with machine learning algorithms to&#xD;
+      track the quality of the exercise performance) on motor gains in group and individual&#xD;
+      robot-assisted upper-limb. Study participants (stroke survivors) will be recruited at the&#xD;
+      Spaulding Rehabilitation Hospital - Boston. Subjects will be randomly assigned to one of the&#xD;
+      two different groups: individual- or group-therapy using a covariate-adaptive allocation&#xD;
+      procedure to ensure important covariates, such as baseline Fugl-Meyer Assessment of the Upper&#xD;
+      Extremity (FMA-UE) scores and proprioceptive deficits, are balanced between groups.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2022</start_date>
+  <completion_date type="Anticipated">April 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Study participants will be randomized to either 1) one-on-one robot-assisted upper-limb rehabilitation, and 2) group (up to three subjects per session) robot-assisted upper-limb rehabilitation</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change from baseline Fugl-Meyer Assessment - Upper Extremity (FMA-UE) at 7-8 weeks</measure>
+    <time_frame>Data will be collected at baseline and at 7-8 weeks</time_frame>
+    <description>Standard assessment of the severity of upper-limb motor impairments</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline Wolf Motor Function Test (WMFT) at 7-8 weeks</measure>
+    <time_frame>Data will be collected at baseline and at 7-8 weeks</time_frame>
+    <description>Standard assessment of functional limitations</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline Motor Activity Log (MAL) at 7-8 weeks</measure>
+    <time_frame>Data will be collected at baseline and at 7-8 weeks</time_frame>
+    <description>Self-report of amount and quality of use of the stroke-affected upper limb</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">42</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Individual robot-assisted upper-limb rehabilitation</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants randomized to this arm of the study will undergo 18 sessions of robot-assisted upper-limb rehabilitation. During the sessions, a therapist will administer one-on-one therapy (i.e. each study volunteer will work with a single therapist).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group robot-assisted upper-limb rehabilitation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants randomized to this arm of the study will also undergo 18 sessions of robot-assisted upper-limb rehabilitation. However, a therapist will administer the intervention as group therapy with up to three subjects participating in the session at the same time. To facilitate the deliver of the therapeutic intervention, the robot will be equipped with a camera system (called PostureCheck) designed to track the quality of the exercises.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BURT</intervention_name>
+    <description>Robot-assisted upper-limb individual (i.e. one-on-one) rehabilitation will be delivered using the BURT system by Barrett Technology</description>
+    <arm_group_label>Individual robot-assisted upper-limb rehabilitation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BURT + PostureCheck</intervention_name>
+    <description>Robot-assisted upper-limb group (i.e. up to three subjects) rehabilitation will be delivered using the BURT system by Barrett Technology + PostureChek (a camera-based system to track the quality of the exercises)</description>
+    <arm_group_label>Group robot-assisted upper-limb rehabilitation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Have had a history of ischemic cerebrovascular accident (CVA) within middle cerebral&#xD;
+             artery (MCA) or anterior cerebral artery (ACA) territory&#xD;
+&#xD;
+          -  CVA occurred between six months and six years ago&#xD;
+&#xD;
+          -  Moderate to severe UE impairment, FMA-UE score between 15 and 45&#xD;
+&#xD;
+          -  Mini-Mental State Examination (MMSE) score &gt;23 and being able to safely follow&#xD;
+             three-step commands&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Advanced musculoskeletal pathology or recent fractures in the impaired UE&#xD;
+&#xD;
+          -  Previous diagnosis of neurological diseases other than stroke&#xD;
+&#xD;
+          -  Severe limitation of passive range of motion or spasticity (Modified Ashworth Scale&#xD;
+             for spasticity at &lt;3 for UE muscles)&#xD;
+&#xD;
+          -  Hemorrhagic CVA or involvement of the posterior cerebral artery&#xD;
+&#xD;
+          -  Aphasia sufficient to limit ability to express needs or discomfort verbally or&#xD;
+             non-verbally&#xD;
+&#xD;
+          -  Impaired visual acuity (Severe visual impairments as assessed by the NIH Stroke Scale&#xD;
+             Visual Field subscale. (score &gt;0))&#xD;
+&#xD;
+          -  Severe hemispatial neglect as assessed by the Line Bisection Test (score &gt;2)&#xD;
+&#xD;
+          -  Severely impaired trunk control (&lt;4)&#xD;
+&#xD;
+          -  Individuals who present with the following on the intended limb:&#xD;
+&#xD;
+          -  Open wounds&#xD;
+&#xD;
+          -  Fragile skin&#xD;
+&#xD;
+          -  Under contact precautions due to an active infection&#xD;
+&#xD;
+          -  Participation in another therapy focused on recovery of the impaired arm&#xD;
+&#xD;
+          -  Subjects with cardiac pacemakers, electronic pumps or any other implanted medical&#xD;
+             devices, that are not US-certified&#xD;
+&#xD;
+          -  Any Condition that would prevent safe use of the Burt system; such as proprioceptive&#xD;
+             deficits that impair the ability to process haptic or visual feedback, or unstable&#xD;
+             shoulder joint as assessed by physical examination&#xD;
+&#xD;
+          -  Current pregnancy (self-report)&#xD;
+&#xD;
+          -  The concern is strictly towards women who are in the 2nd or 3rd trimester and the&#xD;
+             eventuality of the arm of the BURT accidentally impacting the woman's belly. The&#xD;
+             system does have safety features (including a virtual safety wall, to keep the device&#xD;
+             away from the patient's body) but we are taking this as an extra precaution against&#xD;
+             any potential harm&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paolo Bonato, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard Medical School (HMS and HSDM)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Catherine Adans-Dester, PhD</last_name>
+    <phone>6179526321</phone>
+    <email>cadans-dester@partners.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Gregory Schiurring, BS</last_name>
+    <phone>6179526331</phone>
+    <email>gschiurring@partners.org</email>
+  </overall_contact_backup>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 21, 2021</study_first_posted>
+  <last_update_submitted>April 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Spaulding Rehabilitation Hospital</investigator_affiliation>
+    <investigator_full_name>Paolo Bonato</investigator_full_name>
+    <investigator_title>Director, Motion Analysis Laboratory</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

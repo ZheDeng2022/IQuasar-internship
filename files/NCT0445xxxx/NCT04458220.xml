@@ -1,0 +1,180 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04458220</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SH9H-2020-T233-1</org_study_id>
+    <nct_id>NCT04458220</nct_id>
+  </id_info>
+  <brief_title>Research on Early Warning and Solution System of Difficult Airway in Perioperative Period Based on Artificial Intelligence</brief_title>
+  <official_title>Research on Early Warning and Solution System of Difficult Airway in Perioperative Period Based on Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is performed in Shanghai Ninth People's Hospital Affiliated with Shanghai Jiao Tong&#xD;
+      University School of Medicine . According to inclusion and exclusion criteria ,the&#xD;
+      investigators are expected to enroll 4000 participants who performed endotracheal intubation&#xD;
+      under general anesthesia. All enrolled participants must sign a written informed consent.In&#xD;
+      the preset studio,The 3D face scanner and camera is used to obtain 3D or 2-dimensional&#xD;
+      portrait images of patients in different positions and from different angles.The Hi-Fi&#xD;
+      Recorder is used to obtain sound samples of patients in different word.Then,Statistical&#xD;
+      experts use quantitative software to quantify the data.The investigators will put all the&#xD;
+      data and images into a confidential database in order to build a large database of difficult&#xD;
+      airways.&#xD;
+&#xD;
+      Anesthesiologist will give every patient an endotracheal intubation as planned. After that&#xD;
+      the anesthesiologist will be asked to fill out the questionnaire immediately.This&#xD;
+      questionnaire allows obtaining a ground truth for the intubation difficulty.All data will be&#xD;
+      used for AI deep learning and intelligent analysis,Several of the most relevant landmarks&#xD;
+      will be selected to build an early warning model.The overall study did not involve any&#xD;
+      intervention in the process of anaesthesia and operation of the patients, only the&#xD;
+      three-dimensional facial images of the patients were obtained, without any trauma or injury.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 30, 2020</start_date>
+  <completion_date type="Anticipated">May 30, 2025</completion_date>
+  <primary_completion_date type="Anticipated">May 30, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnosed as a difficult airway</measure>
+    <time_frame>Just after intubation</time_frame>
+    <description>C-L≥Ⅲ grade</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">4730</enrollment>
+  <condition>Difficult Airway</condition>
+  <arm_group>
+    <arm_group_label>difficult airway</arm_group_label>
+    <description>C-L≥Ⅲ grade</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>none difficult airway</arm_group_label>
+    <description>C-L&lt;Ⅲgrade</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>photo and voice obtained</intervention_name>
+    <description>The 3D face scanner and camera is used to obtain 3D or 2-dimensional portrait images of patients in different positions and from different angles.The Hi-Fi Recorder is used to obtain sound samples of patients in different word.</description>
+    <arm_group_label>difficult airway</arm_group_label>
+    <arm_group_label>none difficult airway</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study is performed in Shanghai Ninth People's Hospital Affiliated with Shanghai Jiao&#xD;
+        Tong University School of Medicine . According to inclusion and exclusion criteria ,We are&#xD;
+        expected to enroll 4000 participants who performed endotracheal intubation under general&#xD;
+        anesthesia.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients to be intubated under general anesthesia.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with deaf-mutism or communication disorders.&#xD;
+&#xD;
+          -  Patients with language deficiency or non-native language.&#xD;
+&#xD;
+          -  Patients with mental or central nervous system disease.&#xD;
+&#xD;
+          -  Patients with stupefaction or disturbance of consciousness.&#xD;
+&#xD;
+          -  Patients with terrible injury.&#xD;
+&#xD;
+          -  Patients cannot follow instructions to perform standard actions.&#xD;
+&#xD;
+          -  Patients participated in other relevant clinical investigation in the past 3 months.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hong Jiang, Dr</last_name>
+    <role>Study Chair</role>
+    <affiliation>The Ninth People's Hospital of Shanghai Jiaotong University School of Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ren Zhou, Dr</last_name>
+    <phone>86-15121007303</phone>
+    <email>zhouren77@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ming Xia, Dr</last_name>
+    <phone>86-15021306970</phone>
+    <email>jianghongjiuyuan@163.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The Ninth People's Hospital of Shanghai Jiaotong University School of Medicine</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>ming xia, Dr</last_name>
+      <phone>86-15021306970</phone>
+      <email>jianghongjiuyuan@163.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2020</study_first_posted>
+  <last_update_submitted>October 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 12, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/20/NCT04458220/ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

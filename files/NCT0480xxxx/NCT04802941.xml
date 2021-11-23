@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04802941</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20210312/2</org_study_id>
+    <nct_id>NCT04802941</nct_id>
+  </id_info>
+  <brief_title>Neoadjuvant Chemotherapy in Breast Cancer</brief_title>
+  <official_title>Optimizing Neoadjuvant Systemic Treatment for Breast Cancer by Clinical Decision Support System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Center of Personalized Medicine, Pirogova</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Center for New Medical Technologies, Novosibirsk, Russia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>I.M. Sechenov First Moscow State Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Novosibirsk Oncology Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Center of Personalized Medicine, Pirogova</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study compares two approaches of upfront chemotherapy in breast cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A Decision Support System (DSS) is an information system that supports business, medical,&#xD;
+      educational or organisational decision-making activities. DSSs fuse human knowledge and&#xD;
+      technology to support and improve decision-making.&#xD;
+&#xD;
+      The area of precision oncology that supports the treatment of breast cancer has not only seen&#xD;
+      an increase in the availability of different treatment choices but also genomic tools to&#xD;
+      support the decision-making process. CDSSs have been available for use in clinical oncology&#xD;
+      practice for over a decade. However, there has been some criticism around the utility of CDSS&#xD;
+      in personalised medicine decision-making of breast cancer, with these systems often viewed as&#xD;
+      aids better suited to support the 'average' patient's requirements rather than personalised&#xD;
+      treatment for the individual patient.&#xD;
+&#xD;
+      The purpose of the current study is to evaluate an innovative CDSS (MedicBK) platform based&#xD;
+      on the comparison of multiple treatments simultaneously in making care decisions taking into&#xD;
+      account the individual characteristics of patients, i.e., based on personalized&#xD;
+      evidence-based medicine.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 12, 2021</start_date>
+  <completion_date type="Anticipated">March 30, 2024</completion_date>
+  <primary_completion_date type="Anticipated">March 30, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of patients with pathological complete response</measure>
+    <time_frame>at week 30</time_frame>
+    <description>To compare the efficacy of Neoadjuvant Chemotherapy in general practice and by CDSS</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with grade &gt;2 adverse events as a measure of safety and tolerability</measure>
+    <time_frame>up to week 35</time_frame>
+    <description>to describe the safety of the various regimens toxicity is compared between the two arms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>identify prognostic and predictive for pathological complete response</measure>
+    <time_frame>within one year after end of treatment</time_frame>
+    <description>To identify prognostic and predictive for pathological complete response after neoadjuvant treatment</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1200</enrollment>
+  <condition>Decision Support Systems, Clinical</condition>
+  <arm_group>
+    <arm_group_label>Neoadjuvant Chemotherapy by CDSS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Neoadjuvant Chemotherapy in General practice</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Neoadjuvant Chemotherapy by CDSS (MedicBK)</intervention_name>
+    <description>CDSS (MedicBK) captures the patient-specific data required to determine appropriate care decisions from the EMR and then presents relevant data alongside treatment suggestions to clinicians. MedicBK uses algorithms for presenting treatment suggestions framed by guideline-based therapy and personalized personalized evidence-based therapy. MedicBK consists of three main blocks: database, network meta-analysis, and heterogeneity of treatment effects assessment.</description>
+    <arm_group_label>Neoadjuvant Chemotherapy by CDSS</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>General practice</intervention_name>
+    <description>General practice</description>
+    <arm_group_label>Neoadjuvant Chemotherapy in General practice</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histologically confirmed infiltrating breast cancer&#xD;
+&#xD;
+          -  Stage II or stage III disease. Nodal status must be examined by ultrasound, fine&#xD;
+             needle aspiration, sentinel node biopsy, or FDG-PET scan.&#xD;
+&#xD;
+          -  Age ≥18&#xD;
+&#xD;
+          -  Eastern Cooperative Oncology Group performance status ≤1&#xD;
+&#xD;
+          -  Adequate bone marrow function (ANC &gt;1.5 x 109/l, platelets &gt;100 x 109/l)&#xD;
+&#xD;
+          -  Adequate hepatic function (ALAT, ASAT and bilirubin &lt;2.5 times upper limit of normal)&#xD;
+&#xD;
+          -  Adequate renal function (creatinine clearance &gt;50 ml/min)&#xD;
+&#xD;
+          -  LVEF ≥50% measured by echocardiography or MUGA&#xD;
+&#xD;
+          -  Absence of any psychological, familial, sociological, or geographical condition&#xD;
+             potentially hampering compliance with the study protocol and follow-up schedule&#xD;
+&#xD;
+          -  Absence of any medical condition that would place the patient at unusual risk.&#xD;
+&#xD;
+          -  Signed written informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  previous radiation therapy or chemotherapy&#xD;
+&#xD;
+          -  other malignancy except carcinoma in situ, unless the other malignancy was treated ≥5&#xD;
+             years ago with curative intent without the use of chemotherapy or radiation therapy.&#xD;
+&#xD;
+          -  current pregnancy or breastfeeding. Women of childbearing potential must use adequate&#xD;
+             contraceptive protection&#xD;
+&#xD;
+          -  evidence of distant metastases. Evaluation of the presence of distant metastases may&#xD;
+             include chest X-ray, liver ultrasound, isotope bone-scan, CT-scan of chest and abdomen&#xD;
+             and/or FDG-PET scan, according to local procedures.&#xD;
+&#xD;
+          -  evidence of bilateral infiltrating breast cancer. Evaluation of the presence of&#xD;
+             bilateral infiltrating breast cancer may include mammography, breast ultrasound and/or&#xD;
+             MRI breast.&#xD;
+&#xD;
+          -  concurrent anti-cancer treatment or another investigational drug.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Evgeny Pokushalov, Prof. MD PhD</last_name>
+    <phone>89139254858</phone>
+    <email>e.pokushalov@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Irina Ostanina, MD</last_name>
+    <phone>+79039031563</phone>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Evgeny Pokushalov</name>
+      <address>
+        <city>Novosibirsk</city>
+        <zip>630090</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Evgeny Pokushalov, Prof. MD PhD</last_name>
+      <phone>89139254858</phone>
+      <email>e.pokushalov@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 15, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 17, 2021</study_first_posted>
+  <last_update_submitted>March 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 18, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Center of Personalized Medicine, Pirogova</investigator_affiliation>
+    <investigator_full_name>Evgeny Pokushalov</investigator_full_name>
+    <investigator_title>Director for research and development</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

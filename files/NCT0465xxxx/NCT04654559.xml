@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04654559</url>
+  </required_header>
+  <id_info>
+    <org_study_id>6058_Baby_study_1</org_study_id>
+    <nct_id>NCT04654559</nct_id>
+  </id_info>
+  <brief_title>Development of a Fever Detection Algorithm Based on Non-invasive Skin-based Sensor Values in Infants up to 18 Months of Age</brief_title>
+  <official_title>Development of a Fever Detection Algorithm Based on Non-invasive Skin-based Sensor Values in Infants up to 18 Months of Age</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>greenTEG AG</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Children's Hospital, Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Children's Hospital of Eastern Switzerland, St. Gallen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>greenTEG AG</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Fever of infants up to 18 months of age will be monitored in the hospital using the standard&#xD;
+      clinical methods and wearable research prototypes. These research prototypes will be&#xD;
+      measuring continuously and non-invasively skin based parameters, with which the feasibility&#xD;
+      of developing a fever detection algorithm will be investigated.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background and Rationale:&#xD;
+&#xD;
+      In daily clinical practice, core body temperature (CBT) of infants with fever symptoms is&#xD;
+      monitored using sporadic rectal measurements. Because these sporadic invasive measurements&#xD;
+      are time consuming for the medical staff and displeasing for patients, an alternative method&#xD;
+      to assess CBT/fever is needed. The company greenTEG is developing a CBT algorithm which&#xD;
+      calculates CBT continuously form skin temperature (ST), corresponding heat flux (HF) and&#xD;
+      other skin-based parameters. The algorithm development will be achieved by collecting&#xD;
+      skin-based parameters and reference CBT values from infants having fever in a clinical&#xD;
+      setting.&#xD;
+&#xD;
+      Objective(s):&#xD;
+&#xD;
+      Develop and validate an algorithm that allows the detection of fever in infants through a&#xD;
+      non-invasive sensor system, which calculates CBT from ST, HF and other skin-based data&#xD;
+      streams, allowing a more effective patient management.&#xD;
+&#xD;
+      Statistical Considerations:&#xD;
+&#xD;
+      The measures of quality will be: 1) The mean absolute difference (MAD) between the CBT&#xD;
+      prediction and the reference signal where the mean is taken over the whole measurement of a&#xD;
+      single patient. An aggregate performance measure over a group of patients is defined by&#xD;
+      averaging the MAD values of each patient in the group. 2) the 2σ (standard deviation) range&#xD;
+      of the Bland-Altmann-Plot between the CBT prediction and the reference signal. This is&#xD;
+      calculated either for individual patient data or for the combined data of all patients&#xD;
+      together. As we have defined a group of patients for algorithm validation, the total&#xD;
+      improvement will be defined by comparing the above aggregate performance measures of old and&#xD;
+      new algorithm for the validation group. We expect the factors age, sex to influence the&#xD;
+      algorithmic prediction. Balancing the probability of occurrence of the factors in the&#xD;
+      population and the overall size of the study, a final size of 50 patients is reasonable.&#xD;
+&#xD;
+      Study procedures:&#xD;
+&#xD;
+      Infants will be recruited and screened 1 days before the measurements starts. Two research&#xD;
+      prototypes will be applied to the patient on the left side of the body (lateral ribcage and&#xD;
+      foot), after being admitted to the hospital and parents having signed the informed consent.&#xD;
+      For all infants rectal measurement will be asses every 8 hours, as reference temperature. For&#xD;
+      infants older than 6 months, in addition to rectal temperature, ear temperature will be&#xD;
+      assessed every 4 hours with an infrared ear thermometer. The whole measurement procedure will&#xD;
+      last 18-72 hours, depending on the stationary stay of the individual patient.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 7, 2020</start_date>
+  <completion_date type="Anticipated">May 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Continuous and non-invasive skin temperature at the lateral rib cage position</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Skin temperature data collected continuously and non-invasively using a research prototype at the lateral ribcage. The skin temperature is measured directly underneath the research prototype on the surface of the skin in degree Celsius.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Continuous and non-invasive heat flux at the lateral rib cage position</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Heat flux data collected continuously and non-invasively using a research prototype at the lateral ribcage. Most of this heat flux will be the thermal energy transmitted from the participants body and is measured in watts per square meters.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Continuous and non-invasive skin temperature at the foot position</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Skin temperature data collected continuously and non-invasively using a research prototype at the foot. The skin temperature is measured directly underneath the research prototype on the surface of the skin in degree Celsius.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Continuous and non-invasive heat flux at the lateral foot position</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Heat flux data collected continuously and non-invasively using a research prototype at the foot. Most of this heat flux will be the thermal energy transmitted from the participants body and is measured in watts per square meters.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sporadic rectal temperature measurement</measure>
+    <time_frame>Every 8 hours over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Rectal temperature will be measured every 8 hours by medical staff using the clinically established method of the hospital. This is a standard clinical routine and the precise timing of this measurement is determined by the medical staff according to their daily work routine.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sporadic ear temperature measurements</measure>
+    <time_frame>Every 4 hours over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>For infants older than 6 months of age only: Ear temperature will be measured every 4 hours using an infrared ear thermometer. The every second ear temperature measurement will coincide with the rectal temperature measurement.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart rate</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Heart rate [beats per minute] will be collected using the research prototype on the foot</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>SpO2</measure>
+    <time_frame>Participants will be monitored continuously and unobtrusively with the research prototypes over a 1-3 day time period, depending on the stationary stay in the hospital</time_frame>
+    <description>Oxygen saturation (SpO2) will be collected using the research prototype on the foot</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Fever</condition>
+  <arm_group>
+    <arm_group_label>Unobtrusive data collection</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Unobtrusive data collection using wearable non-invasive sensors</intervention_name>
+    <description>Two wearable non-invasive sensors will be mounted to the patients skin (lateral rib cage and foot). These wearable non-invasive sensors are measuring unobtrusively skin based parameters (no diagnosis will be made), which will be used for fever detection algorithm development..</description>
+    <arm_group_label>Unobtrusive data collection</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Infants from two weeks after birth and due date up to 18 months of age&#xD;
+&#xD;
+          -  Infants which are staying at the Nursery and the University Children's Hospital Zurich&#xD;
+             or Children's Hospital of Eastern Switzerland, St. Gallen for more than 1 day&#xD;
+&#xD;
+          -  Informed consent signed by parents or by legal representatives&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Acute medical contradiction against medical plaster and adhesives (e.g. skin diseases&#xD;
+             or allergies).&#xD;
+&#xD;
+          -  Irritated or damaged skin (e.g. burn, rush, eczema)&#xD;
+&#xD;
+          -  Infant with congenital anomalies (e.g. malformations of the anus)&#xD;
+&#xD;
+          -  Disease or brain injury which cause a disturbance of the thermoregulation&#xD;
+&#xD;
+          -  Comatose infant's&#xD;
+&#xD;
+          -  Infants with implants (e.g. pacemaker, cochlear implants)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>18 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christoph Berger, Prof. Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Children's Hospital, Zurich</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ruben Oliveras</last_name>
+    <phone>+41 44 515 09 28</phone>
+    <email>ruben.oliveras@greenteg.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lukas Durrer, Dr.</last_name>
+    <phone>+41 44 515 09 18</phone>
+    <email>lukas.durrer@greenteg.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Children's Hospital of Eastern Switzerland, St. Gallen</name>
+      <address>
+        <city>Saint Gallen</city>
+        <zip>9000</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christian R. Kahlert, Dr.</last_name>
+      <phone>+41 71 494 19 71</phone>
+      <email>christian.kahlert@kssg.ch</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University Children's Hospital Zurich</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8000</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christoph Berger, Prof. Dr.</last_name>
+      <phone>044 266 78 40</phone>
+      <email>Christoph.Berger@kispi.uzh.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>November 26, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 4, 2020</study_first_posted>
+  <last_update_submitted>August 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>core body temperature</keyword>
+  <keyword>fever</keyword>
+  <keyword>wearable</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fever</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The results of this study will be published in a suited journal. Publication strategy is still in discussion.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

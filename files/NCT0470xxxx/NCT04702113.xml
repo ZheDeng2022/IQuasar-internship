@@ -1,0 +1,329 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04702113</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C03-002 DHR001</org_study_id>
+    <nct_id>NCT04702113</nct_id>
+  </id_info>
+  <brief_title>Evaluating Pharmacogenomic Variants for Cardiology Therapeutics</brief_title>
+  <acronym>CARES2</acronym>
+  <official_title>Evaluating Pharmacogenomic Variants for Cardiology Therapeutics: the Lighthouse Pilot (Association Between Genetic Variant Scores and P2Y12 Inhibitor Effects)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cipherome, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>DHR Health Institute for Research and Development</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cipherome, Inc.</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cipherome's Lighthouse is a clinical decision support tool that incorporates a patient's&#xD;
+      pharmacogenetic information to determine therapeutic strategy, including determining&#xD;
+      appropriate dosage or assessing the likelihood of toxicity of a therapeutic regimen.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Lighthouse tool incorporates pharmacogenetic (PGx) variants from well-established,&#xD;
+      evidence-based guidelines to provide personalized drug response profile(s) to guide treatment&#xD;
+      decisions.&#xD;
+&#xD;
+      The patient specimen is genotyped using a proprietary, carefully curated pharmacogenetic&#xD;
+      variant panel to determine the individual's phenotype. The Lighthouse report (PGx findings)&#xD;
+      are provided to the clinician, and a notification is generated when the patient has a&#xD;
+      genotype with a deleterious drug-metabolizing phenotype.&#xD;
+&#xD;
+      Evaluating the South Texas community for the pilot project will enhance the understanding of&#xD;
+      the impact of genetic variants on individuals of Hispanic/Latino ancestry, especially as the&#xD;
+      variants pertain to the efficacy and safety of medications.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 3, 2020</start_date>
+  <completion_date type="Anticipated">February 28, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>There will be two study arms:&#xD;
+Conventional therapy (controls)-treatment with clopidogrel and no pre-emptive genotyping&#xD;
+Genotype-guided therapy (experimental)</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>This is an open label study.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluation of aggregate costs</measure>
+    <time_frame>Study pilot duration is 365 days (1 year)</time_frame>
+    <description>The cumulative direct medical cost (admissions, procedures, clinical visits, blood transfusions, drugs) of percutaneous insertion of stents (PCIs) and associated major adverse cardiovascular and cerebrovascular events (MACCE) including non-fatal myocardial infarction, non-fatal stroke, cardiovascular mortality, severe recurrent ischemia and stent thrombosis, and the costs of P2Y12 inhibitors and pharmacogenomic test costs.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Reduction of treatment failures</measure>
+    <time_frame>Study pilot duration is 365 days (1 year)</time_frame>
+    <description>Reduced treatment failures within 30, 60, 90 days, and 12 months of receiving clopidogrel in participants with reduced function alleles (CYP2C19 *2 or *3)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reduction of major or minor bleeding events</measure>
+    <time_frame>Study pilot duration is 365 days (1 year)</time_frame>
+    <description>Reduced major or minor bleeding events within 30, 60, 90 days, and 12 months of receiving clopidogrel in participants with increased function alleles (CYP2C19 *17)</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Assessment of the correlation of clinical factors (age, labs, medications) on predicting and preventing adverse drug reactions</measure>
+    <time_frame>Study pilot duration is 365 days (1 year)</time_frame>
+    <description>Assess the correlation of clinical factors (age, liver function tests, concomitant medications, etc.) on predicting and preventing adverse drug reactions (ADRs).</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Thrombosis</condition>
+  <condition>Stent Thrombosis</condition>
+  <condition>Bleeding</condition>
+  <condition>Myocardial Infarction</condition>
+  <condition>Ischemic Stroke</condition>
+  <arm_group>
+    <arm_group_label>Conventional Therapy (Controls)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Treatment with clopidogrel and no pre-emptive genotyping</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Genotype-guided therapy (experimental)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment with clopidogrel 75 mg daily for non-carriers&#xD;
+Treatment with ticagrelor 90 mg twice daily for carriers</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Cipherome Lighthouse Pilot</intervention_name>
+    <description>Preemptive pharmacogenomic testing</description>
+    <arm_group_label>Genotype-guided therapy (experimental)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Subjects over 18 years of age, who are:&#xD;
+&#xD;
+          -  On clopidogrel, prasugrel or ticagrelor after percutaneous stent&#xD;
+&#xD;
+          -  Completed informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        • Failure to provide informed consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Herschl Silberman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>DHR Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Humberto Mochizu Kitamayo, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>DHR Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yetunde O Kare Opaneye, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>DHR Health</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jane Chiang, MD</last_name>
+    <phone>4082431460</phone>
+    <email>Jane.chiang@cipherome.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jose Estabil, ScM</last_name>
+    <phone>4082431460</phone>
+    <email>Jose.estabil@cipherome.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Doctors Hospital at Renaissance</name>
+      <address>
+        <city>Edinburg</city>
+        <state>Texas</state>
+        <zip>78539</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yetunde O Kare Opaneye, MD</last_name>
+      <phone>956-362-8046</phone>
+      <email>y.kareopaneye@dhr-rgv.com</email>
+    </contact>
+    <investigator>
+      <last_name>Herschl Silberman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Humberto Mochizuki Tamayo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Doctors Hospital at Renaissance</name>
+      <address>
+        <city>Edinburg</city>
+        <state>Texas</state>
+        <zip>78539</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yetunde O Kare Opaneye, MD</last_name>
+      <phone>956-362-8046</phone>
+      <email>y.kareopaneye@dhr-rgv.com</email>
+    </contact>
+    <investigator>
+      <last_name>Herschl Silberman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Humberto Mochizu Kitamayo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations</url>
+    <description>Clinical Pharmacogenetics Implementation Consortium (CPIC) 2020</description>
+  </link>
+  <link>
+    <url>https://fis.fda.gov/sense/app/d10be6bb-494e-4cd2-82e4-0135608ddc13/sheet/7a47a261-d58b-4203-a8aa-6d3021737452/state/analysis</url>
+    <description>FDA ADR 2020</description>
+  </link>
+  <link>
+    <url>https://data.worldbank.org/indicator/SP.POP.TOTL?locations=US</url>
+    <description>FDA ADR 2020</description>
+  </link>
+  <link>
+    <url>https://citoday.com/articles/2017-sept-oct/pci-within-the-context-of-the-episode-payment-model</url>
+    <description>Sauer 2017. PCI Within the Context of the Episode Payment Model</description>
+  </link>
+  <link>
+    <url>https://aspe.hhs.gov/system/files/pdf/255906/ProposalClearwater.pdf</url>
+    <description>Simmons 2018. Clearwater Corporation, &quot;Letter to HHS Physician Focused Payment Model Technical Advisory Committee&quot;</description>
+  </link>
+  <link>
+    <url>https://citoday.com/articles/2017-sept-oct/pci-within-the-context-of-the-episode-payment-model</url>
+    <description>Truesdale 2017. Truesdale K., Corazon, Inc. &quot;Change is coming in 2018-be prepared!</description>
+  </link>
+  <link>
+    <url>https://citoday.com/articles/2017-sept-oct/pci-within-the-context-of-the-episode-payment-model</url>
+    <description>Change is coming in 2018-be prepared!</description>
+  </link>
+  <link>
+    <url>https://clinicaltrials.gov/ct2/show/NCT01742117?term=TAILOR+PCI&amp;rank=1</url>
+    <description>TAILOR PCI</description>
+  </link>
+  <link>
+    <url>https://www.acc.org/latest-in-cardiology/articles/2020/03/24/16/41/sat-9am-tailor-pci-clinical-implementation-clopidogrel-pharmacogenetics-acc-2020</url>
+    <description>TAILOR PCI</description>
+  </link>
+  <reference>
+    <citation>Claudio-Campos K, Duconge J, Cadilla CL, Ruaño G. Pharmacogenetics of drug-metabolizing enzymes in US Hispanics. Drug Metab Pers Ther. 2015 Jun;30(2):87-105. doi: 10.1515/dmdi-2014-0023. Review.</citation>
+    <PMID>25431893</PMID>
+  </reference>
+  <reference>
+    <citation>Dean 2012. Dean L, Prasugrel Therapy and CYP Genotype. Medical Genetics Summaries, Pratt VM, McLeod HL, Rubinstein WS, et al., editors, Bethesda (MD): National Center for Biotechnology Information (US); 2012-. https://www.ncbi.nlm.nih.gov/books/NBK425796</citation>
+  </reference>
+  <reference>
+    <citation>Lee CR, Sriramoju VB, Cervantes A, Howell LA, Varunok N, Madan S, Hamrick K, Polasek MJ, Lee JA, Clarke M, Cicci JD, Weck KE, Stouffer GA. Clinical Outcomes and Sustainability of Using CYP2C19 Genotype-Guided Antiplatelet Therapy After Percutaneous Coronary Intervention. Circ Genom Precis Med. 2018 Apr;11(4):e002069. doi: 10.1161/CIRCGEN.117.002069.</citation>
+    <PMID>29615454</PMID>
+  </reference>
+  <reference>
+    <citation>Levine GN, Bates ER, Bittl JA, Brindis RG, Fihn SD, Fleisher LA, Granger CB, Lange RA, Mack MJ, Mauri L, Mehran R, Mukherjee D, Newby LK, O'Gara PT, Sabatine MS, Smith PK, Smith SC Jr, Halperin JL, Levine GN, Al-Khatib SM, Birtcher KK, Bozkurt B, Brindis RG, Cigarroa JE, Curtis LH, Fleisher LA, Gentile F, Gidding S, Hlatky MA, Ikonomidis JS, Joglar JA, Pressler SJ, Wijeysundera DN. 2016 ACC/AHA guideline focused update on duration of dual antiplatelet therapy in patients with coronary artery disease: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Thorac Cardiovasc Surg. 2016 Nov;152(5):1243-1275. doi: 10.1016/j.jtcvs.2016.07.044.</citation>
+    <PMID>27751237</PMID>
+  </reference>
+  <reference>
+    <citation>Limdi NA, Cavallari LH, Lee CR, Hillegass WB, Holmes AM, Skaar TC, Pisu M, Dillon C, Beitelshees AL, Empey PE, Duarte JD, Diaby V, Gong Y, Johnson JA, Graves J, Garbett S, Zhou Z, Peterson JF; Implementing GeNomics In pracTicE (IGNITE) Network Pharmacogenetic Working Group (IGNITE-PGx). Cost-effectiveness of CYP2C19-guided antiplatelet therapy in patients with acute coronary syndrome and percutaneous coronary intervention informed by real-world data. Pharmacogenomics J. 2020 Oct;20(5):724-735. doi: 10.1038/s41397-020-0162-5. Epub 2020 Feb 11.</citation>
+    <PMID>32042096</PMID>
+  </reference>
+  <reference>
+    <citation>Mega JL, Simon T, Collet JP, Anderson JL, Antman EM, Bliden K, Cannon CP, Danchin N, Giusti B, Gurbel P, Horne BD, Hulot JS, Kastrati A, Montalescot G, Neumann FJ, Shen L, Sibbing D, Steg PG, Trenk D, Wiviott SD, Sabatine MS. Reduced-function CYP2C19 genotype and risk of adverse clinical outcomes among patients treated with clopidogrel predominantly for PCI: a meta-analysis. JAMA. 2010 Oct 27;304(16):1821-30. doi: 10.1001/jama.2010.1543.</citation>
+    <PMID>20978260</PMID>
+  </reference>
+  <reference>
+    <citation>Mehran R, Rao SV, Bhatt DL, Gibson CM, Caixeta A, Eikelboom J, Kaul S, Wiviott SD, Menon V, Nikolsky E, Serebruany V, Valgimigli M, Vranckx P, Taggart D, Sabik JF, Cutlip DE, Krucoff MW, Ohman EM, Steg PG, White H. Standardized bleeding definitions for cardiovascular clinical trials: a consensus report from the Bleeding Academic Research Consortium. Circulation. 2011 Jun 14;123(23):2736-47. doi: 10.1161/CIRCULATIONAHA.110.009449.</citation>
+    <PMID>21670242</PMID>
+  </reference>
+  <reference>
+    <citation>Parks AL, Fang MC. Scoring Systems for Estimating the Risk of Anticoagulant-Associated Bleeding. Semin Thromb Hemost. 2017 Jul;43(5):514-524. doi: 10.1055/s-0037-1598061. Epub 2017 Mar 30. Review.</citation>
+    <PMID>28359135</PMID>
+  </reference>
+  <reference>
+    <citation>Pereira NL, Farkouh ME, So D, Lennon R, Geller N, Mathew V, Bell M, Bae JH, Jeong MH, Chavez I, Gordon P, Abbott JD, Cagin C, Baudhuin L, Fu YP, Goodman SG, Hasan A, Iturriaga E, Lerman A, Sidhu M, Tanguay JF, Wang L, Weinshilboum R, Welsh R, Rosenberg Y, Bailey K, Rihal C. Effect of Genotype-Guided Oral P2Y12 Inhibitor Selection vs Conventional Clopidogrel Therapy on Ischemic Outcomes After Percutaneous Coronary Intervention: The TAILOR-PCI Randomized Clinical Trial. JAMA. 2020 Aug 25;324(8):761-771. doi: 10.1001/jama.2020.12443.</citation>
+    <PMID>32840598</PMID>
+  </reference>
+  <reference>
+    <citation>Wasfy JH, Strom JB, Waldo SW, O'Brien C, Wimmer NJ, Zai AH, Luttrell J, Spertus JA, Kennedy KF, Normand SL, Mauri L, Yeh RW. Clinical preventability of 30-day readmission after percutaneous coronary intervention. J Am Heart Assoc. 2014 Sep 26;3(5):e001290. doi: 10.1161/JAHA.114.001290.</citation>
+    <PMID>25261531</PMID>
+  </reference>
+  <reference>
+    <citation>MEPS 2019. Agency for Healthcare Research and Quality. Medical Expenditure Panel Survey. MEPS HC-197A: 2017. Prescribed Medicines File. July 2019.</citation>
+  </reference>
+  <reference>
+    <citation>Pereira 2019. Pereira NL, Charanjit S, Rihal MD et al. Clopidogrel Pharmacogenetics. State-of-the-Art Review and the TAILOR-PCI Study. Circ Cardiovasc Interv. 2019:1-11.</citation>
+  </reference>
+  <reference>
+    <citation>Pereira INTV 2020. CC News Story, TAILOR-PCI: Genotype-guided Antiplatelet Therapy Post PCI Misses Mark. American Academy of Cardiology. Pulled 18 September 2020. https://www.acc.org/latest-in-cardiology/articles/2020/03/24/16/41/sat-9am-tailor-pci-clinical-implementation-clopidogrel-pharmacogenetics-acc-2020.</citation>
+  </reference>
+  <reference>
+    <citation>Python 2020. Python code Mersenne Twister core generator with a period of (219937 -1). The Python Standard Library / Numeric and Mathematical Modules / random - Generate pseudo-random numbers. https://docs.python.org/3/library/random.html</citation>
+  </reference>
+  <reference>
+    <citation>Yost 2013. (Geisinger Health System) Yost D.W. et. al. &quot;Readmission in the 30 Days After Percutaneous Coronary Intervention&quot;. JACC: Cardiovascular Interventions, Volume 6, Issue 3, March 2013, Pages 237-244. http://dx.doi.org/10.1016/j.jcin.2012.10.015</citation>
+  </reference>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>December 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 7, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 8, 2021</study_first_posted>
+  <last_update_submitted>February 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Stent Thrombosis</keyword>
+  <keyword>Major Adverse Cardiovascular and Cerebrovascular Events (MACCE)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ischemic Stroke</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Thrombosis</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

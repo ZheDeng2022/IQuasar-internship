@@ -1,0 +1,131 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04954378</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2021060</org_study_id>
+    <nct_id>NCT04954378</nct_id>
+  </id_info>
+  <brief_title>Radiomics Based on Multimodal Imaging in Predicting Staging and Prognosis of Pancreatic Cancer</brief_title>
+  <official_title>Radiomics Based on Multimodal Imaging in Predicting Staging and Prognosis of Pancreatic Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Retrospectively analyzed radiomics features of pancreatic ductal adenocarcinoma to predict&#xD;
+      staging and prognosis&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Pancreatic cancer is the most malignant tumor of the digestive system and the seventh leading&#xD;
+      cause of cancer-related death worldwide.The rate of lymph node metastasis in pancreatic&#xD;
+      cancer is as high as 59%.Lymph node metastasis is an important prognostic factor, which is&#xD;
+      closely associated with poor prognosis of pancreatic cancer patients.Preoperative accurate&#xD;
+      prediction of lymph node status has important clinical value.At present, the preoperative LN&#xD;
+      status of pancreatic cancer patients is mainly evaluated by conventional imaging methods such&#xD;
+      as CT and MRI.The accuracy of evaluating LN state only from the perspective of morphology is&#xD;
+      poor.Ductal adenocarcinoma of the pancreas is highly malignant, has a median disease-free&#xD;
+      survival of only about 1 year, and most pancreatic cancer patients eventually relapse.At&#xD;
+      present, TNM staging system is mainly used for prognosis evaluation.However, even among&#xD;
+      patients with the same TNM stage, the prognosis is still significantly different, which&#xD;
+      reflects the lack of prognostic information provided by the TNM stage.Imaging omics extracts&#xD;
+      a large number of quantitative features from medical images in a high-throughput manner to&#xD;
+      enable non-invasive analysis of intra-tumor heterogeneity.In this study, we planned to&#xD;
+      construct a prediction study of preoperative lymph node metastasis and prognosis of&#xD;
+      pancreatic cancer based on multimodal imaging, so as to provide a basis for clinical&#xD;
+      treatment decision and prognosis.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2010</start_date>
+  <completion_date type="Actual">December 30, 2020</completion_date>
+  <primary_completion_date type="Actual">December 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>radiomics features</measure>
+    <time_frame>After sketching the ROI</time_frame>
+    <description>1409 radiomics features can be extracted from the images.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">300</enrollment>
+  <condition>Pancreatic Ductal Adenocarcinoma</condition>
+  <arm_group>
+    <arm_group_label>Positive lymph node metastasis</arm_group_label>
+    <description>pathological diagnosis :Positive lymph node metastasis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative lymph node metastasis</arm_group_label>
+    <description>pathological diagnosis :Negative lymph node metastasis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>radiomics</intervention_name>
+    <arm_group_label>Positive lymph node metastasis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Pancreatic tumor patients&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  radical resection was performed, and histopathologically confirmed pancreatic ductal&#xD;
+             adenocarcinoma and lymph node status;2) CT and/or MRI enhancement examinations were&#xD;
+             performed 2 weeks before surgery;3) Patients with complete clinical data&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  (1)Patients who received radiotherapy or chemotherapy before preoperative imaging&#xD;
+             examination;2) Poor image quality.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Huishu Yuan</last_name>
+    <role>Study Chair</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

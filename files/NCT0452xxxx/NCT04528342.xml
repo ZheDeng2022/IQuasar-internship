@@ -1,0 +1,331 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04528342</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-01238</org_study_id>
+    <nct_id>NCT04528342</nct_id>
+  </id_info>
+  <brief_title>Personalized Digital Health and Artificial Intelligence in Childhood Asthma</brief_title>
+  <acronym>Asthmoscope</acronym>
+  <official_title>Personalized Digital Health and Artificial Intelligence in Childhood Asthma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Isabelle Ruchonnet-Métrailler</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Geneva</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Asthma is a chronic inflammatory disease of the airways that causes recurrent episodes of&#xD;
+      wheezing, breathing difficulties and coughing. The prevalence of asthma is 8% in school-aged&#xD;
+      children and 30% in preschoolers, making asthma the first chronic disease in children.&#xD;
+      Symptoms are due to diffuse but variable airway obstruction, reversible spontaneously or&#xD;
+      after inhalation of beta2 agonists (β-2a) such as salbutamol. Exacerbations of asthma are&#xD;
+      frequent and difficult to assess by parents and the patient himself. It is estimated that&#xD;
+      approximately 2.5% of children with asthma are hospitalized annually. The global burden&#xD;
+      caused by asthma can thus be reduced by improving early detection of bronchial obstruction,&#xD;
+      prescribing immediate treatment with the appropriate background therapy, and reliably and&#xD;
+      objectively assess response to treatment.&#xD;
+&#xD;
+      The natural history of asthma symptoms in children shows a great intra and inter-individual&#xD;
+      variability. The difficulty of assessing the severity of an attack by the parents or the&#xD;
+      child himself, when he is old enough to control his chronic disease, is a key element in the&#xD;
+      management of asthma and allows the treatment to be adapted quickly, sometimes avoiding&#xD;
+      hospitalization. Healthcare professionals can assess the severity of the episode using the&#xD;
+      Pediatric Respiratory Assesment Measure (PRAM) score, which has the advantage of being&#xD;
+      adaptable at any age. The Global Alliance against Chronic Respiratory Diseases (GARD)&#xD;
+      integrates in its diagnostic strategy for chronic respiratory diseases, the lung function&#xD;
+      test, which allows the quantification of respiratory function in the context of diagnosis and&#xD;
+      long-term follow-up. Although spirometry are non-invasive tests, they still require a high&#xD;
+      level of patient cooperation, which remains problematic before the age of 7 years.&#xD;
+&#xD;
+      The digital stethsocope integrates a capacity for recording auscultations and data&#xD;
+      transmission to high-performance software. This has made it possible to extend auscultation&#xD;
+      beyond what was audible to the human ear alone (over 20-20,000 Hertz).Auscultatory sounds&#xD;
+      analysis, particularly those most often associated with obstructive syndrome could be simple,&#xD;
+      reproducible and a reliable method of assessing the severity and response to treatment in&#xD;
+      children's asthma. Major advances in signal processing and unsupervised learning in&#xD;
+      artificial intelligence research provide the potential for high-performance analysis of&#xD;
+      physiological measures.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim:&#xD;
+&#xD;
+      Develop an artificial intelligence based algorithm for unsupervised diagnostic and&#xD;
+      classification of childhood asthma exacerbation.&#xD;
+&#xD;
+      Methodology: A Longitudinal prospective monocentric observational study will be performed in&#xD;
+      the Pediatric Emergency Division (PED) and the Pediatric Respiratory Unit (PRU) of the Geneva&#xD;
+      University Hospitals (HUG) during 24 months. This clinical study will include patients aged&#xD;
+      from 2 to16 years with acute asthma exacerbations. The intervention consists in recording&#xD;
+      auscultation of asthmatic patients at rest, during acute exacerbation and after treatment by&#xD;
+      bronchodilatators (β-2 agonists) inhalation in the PED, with a Digital Stethoscope (DS).&#xD;
+      Auscultation will be recorded during hospitalization every day, at home 7 days after the&#xD;
+      acute episode, combining intdoor and outdoor measures, and evaluating the exposome. A last&#xD;
+      record will be done at 6 to 8 weeks after the acute episode, with a lung function test if the&#xD;
+      patient is up to 7 years. A validation and training audio database will be constituted for&#xD;
+      the development of Artificial Intelligence (AI) algorithms, allowing analysis of respiratory&#xD;
+      rate, inspiratory/expiratory time ratio, PRAM score, wheezing variation of intensity and&#xD;
+      unsupervised diagnosis.&#xD;
+&#xD;
+      Expected results:&#xD;
+&#xD;
+      Creation of a performant AI algorithm for unsupervised acute asthma exacerbation diagnosis,&#xD;
+      with &gt; 70 % of Sensitivity and &gt; 70% of Specificity compared to the expert. Response to&#xD;
+      treatment will improve patient empowerment and personalized medicine in childhood asthma&#xD;
+      management.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2020</start_date>
+  <completion_date type="Anticipated">April 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic performance of an algorithm compared to the physician in asthma attack</measure>
+    <time_frame>Assessment before inhalation of bronchodilators</time_frame>
+    <description>To evaluate the diagnostic performance of an algorithm in the asthma crisis in children aged between 2 and 16 years old, presenting to the Reception Service, and to Pediatric Emergencies compared to the physician.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnostic performance of an algorithm compared to the physician in asthma attack</measure>
+    <time_frame>Assessment 20 minutes after inhalation of bronchodilators</time_frame>
+    <description>To evaluate the diagnostic performance of an algorithm in the asthma crisis in children aged between 2 and 16 years old, presenting to the Reception Service, and to Pediatric Emergencies compared to the physician.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Artificial intelligence algorithm evaluation in treatment response</measure>
+    <time_frame>Assessment before inhalation of bronchodilators</time_frame>
+    <description>To evaluate the diagnostic performance of an artificial intelligence algorithm in response to treatment as compared to the physician.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Artificial intelligence algorithm evaluation in treatment response</measure>
+    <time_frame>Assessment 20 minutes after inhalation of bronchodilators</time_frame>
+    <description>To evaluate the diagnostic performance of an artificial intelligence algorithm in response to treatment as compared to the physician.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Asthma attack severity</measure>
+    <time_frame>Assessment before inhalation of bronchodilators</time_frame>
+    <description>Automated assessment of asthma attack severity comparing PRAM score and auscultation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Asthma attack severity</measure>
+    <time_frame>Assessment 20 minutes after inhalation of bronchodilators</time_frame>
+    <description>Automated assessment of asthma attack severity comparing PRAM score and auscultation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of different parameters in asthma attack</measure>
+    <time_frame>Assessment before inhalation of bronchodilators</time_frame>
+    <description>Automated assessment of respiratory rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of different parameters in asthma attack</measure>
+    <time_frame>Assessment 20 minutes after inhalation of bronchodilators</time_frame>
+    <description>Automated assessment of respiratory rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of breathing times during auscultation</measure>
+    <time_frame>Assessment before inhalation of bronchodilators</time_frame>
+    <description>Automated Inspiratory Time (TI) measurement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of breathing times during auscultation</measure>
+    <time_frame>Assessment 20 minutes after inhalation of bronchodilators</time_frame>
+    <description>Automated Inspiratory Time (TI) measurement</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of breathing times during auscultation</measure>
+    <time_frame>Before inhalation of bronchodilators</time_frame>
+    <description>Automated expiratory Time (TE) measurement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analysis of breathing times during auscultation</measure>
+    <time_frame>20 minutes after inhalation of bronchodilators</time_frame>
+    <description>Automated expiratory Time (TE) measurement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Auscultatory wheezing evaluation</measure>
+    <time_frame>Before inhalation of bronchodilators</time_frame>
+    <description>Automated wheezing auscultation analysis before β-2agonist.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Auscultatory wheezing evaluation</measure>
+    <time_frame>20 minutes after inhalation of bronchodilators</time_frame>
+    <description>Automated wheezing auscultation analysis after β-2agonist.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">290</enrollment>
+  <condition>Asthma in Children</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        290 patients presenting with an acute asthma exacerbation within 70 severe asthma (clinical&#xD;
+        PRAM score &gt; 7) within the PED. For the hospitalized patients, we estimate 70 patients&#xD;
+        needed during two years.&#xD;
+&#xD;
+        At least 150 patients up to 7 years of age, within DS measurements and spirometer measures&#xD;
+        evaluation 6 to 8 weeks after acute episode by the pulmonlogist.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with clinical diagnosis of acute asthma exacerbations&#xD;
+&#xD;
+          -  age &gt; 2 years and &lt; 16 years&#xD;
+&#xD;
+          -  information and written consent of a legal representative&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Chronic lung diseases other than asthma (cystic fibrosis, bronchopulmonary Dysplasia),&#xD;
+&#xD;
+          -  Congenital heart disease&#xD;
+&#xD;
+          -  Refusal of consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>2 Years</minimum_age>
+    <maximum_age>16 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alain Gervaix, M.D</last_name>
+    <role>Study Director</role>
+    <affiliation>University of Geneva</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Constance Barazzone Argiroffo, M.D</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Geneva</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Isabelle Ruchonnet-Metrailler, M.D., PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Geneva</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Isabelle Ruchonnet-Metrailler, M.D., PhD</last_name>
+    <phone>+41.79.553.41.69</phone>
+    <email>Isabelle.Ruchonnet-Metrailler@hcuge.ch</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Geneva University Hospital</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Isabelle Ruchonnet-Métrailler, MD PhD</last_name>
+      <phone>+41 79 553 41 69</phone>
+      <email>Isabelle.ruchonnet-metrailler@hcuge.ch</email>
+    </contact>
+    <investigator>
+      <last_name>Isabelle Ruchonnet-Métrailler, M.D PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Constance Barazzone Argiroffo, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mohamed-Rida Benissa, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alain Gervaix, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Laurence Lacroix, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Johan Siebert, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Geneva University Hospital</name>
+      <address>
+        <city>Geneva</city>
+        <zip>1205</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mohamed-Rida Benissa, M.D., M.Sc., M.P.H.</last_name>
+      <phone>+33.62.866.40.47</phone>
+      <email>mrbenissa@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Isabelle Ruchonnet-Métrailler, MD PhD</last_name>
+      <email>Isabelle.ruchonnet-metrailler@hcuge.ch</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Alain Gervaix, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Constance Barazzone Argiroffo, M.D</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <link>
+    <url>https://recherche-pediatrique.hug-ge.ch/asthmoscope-sante-digitale-personnalisee-et-intelligence-artificielle-dans-l-asthme-de-l-enfant</url>
+    <description>Related Info</description>
+  </link>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>May 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 27, 2020</study_first_posted>
+  <last_update_submitted>February 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University Hospital, Geneva</investigator_affiliation>
+    <investigator_full_name>Isabelle Ruchonnet-Métrailler</investigator_full_name>
+    <investigator_title>Hôpitaux Universitaires de Genève</investigator_title>
+  </responsible_party>
+  <keyword>Digital stethoscope;</keyword>
+  <keyword>digital health</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>Asthma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Asthma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

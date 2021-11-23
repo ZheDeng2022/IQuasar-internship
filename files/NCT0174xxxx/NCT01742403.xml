@@ -1,0 +1,285 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01742403</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12-NSCCRO-P001</org_study_id>
+    <nct_id>NCT01742403</nct_id>
+  </id_info>
+  <brief_title>Continuous Monitoring of Prostate Position During Radiotherapy</brief_title>
+  <acronym>KIM Gating</acronym>
+  <official_title>Phase I Feasibility Study of Prostate Cancer Radiotherapy Gating Using kV Intrafraction Monitoring (KIM)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal North Shore Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Royal North Shore Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is investigating measurement of prostate motion during radiotherapy using the&#xD;
+      implanted gold markers. If motion is greater than 3mm then the beam will be stopped and&#xD;
+      position corrected (gating).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prostate cancer now accounts for one third of all new cancer diagnoses in men and&#xD;
+      approximately 30% of men will have external beam radiotherapy as their primary local therapy.&#xD;
+      Prostate motion during radiotherapy can be divided into interfraction and intrafraction&#xD;
+      motion. Interfraction motion has been well established and has been largely overcome by daily&#xD;
+      online image verification with either ultrasound, online CT or implanted fiducial markers,&#xD;
+      however motion during the radiation beam on time (intrafraction motion) is not corrected and&#xD;
+      can be the cause of significant errors in radiation dose delivery.&#xD;
+&#xD;
+      Intrafraction motion: Movement of the prostate after initial treatment setup has been termed&#xD;
+      intrafraction motion. Estimates of the magnitude and frequency of this motion were initially&#xD;
+      made using continuous Magnetic Resonance (MR) imaging. Padhani et al reported 16% of patients&#xD;
+      had &gt; 5mm anterior:posterior motion when imaged for 7 minutes with similar results reported&#xD;
+      in subsequent MR cine studies, Intrafraction motion can be secondary to organ motion such as&#xD;
+      bladder filling, respiration or moving rectal gas, or can be due to physical patient motion.&#xD;
+      With the availability of real-time prostate tracking, clinical data is available to quantify&#xD;
+      the magnitude and frequency of motion. An early report from Kupelian et al using continuous&#xD;
+      radiotransponder positioning7 described 41% of fractions with &gt;3mm of motion and 15% &gt; 5mm of&#xD;
+      motion for &gt; 30 seconds. The risk of motion was noted to increase with longer treatment time.&#xD;
+&#xD;
+      Our own data using offline autosegmentation of the fiducial marker position of 10 patients&#xD;
+      showed 38% of fractions &gt;1mm, 4.7% of fractions &gt;3mm and 1.7% of fractions &gt;5mm&#xD;
+      instantaneously during treatment delivery of approximately 2.5 min 8.&#xD;
+&#xD;
+      Significance of correcting for motion:&#xD;
+&#xD;
+      If radiation dose is recalculated for each individual fraction and adjusted for intrafraction&#xD;
+      motion it is possible to estimate the real dose delivered to the target and compare this to&#xD;
+      the desired dose. This comparison gives a robust model of the potential benefit for real-&#xD;
+      time tracking and adjustment for the motion. Overview of kilovoltage intrafraction monitoring&#xD;
+      (KIM): Kilovoltage intrafraction monitoring is a novel real-time tumour localisation&#xD;
+      modality. It involves a single gantry- mounted kV x-ray imager (which is widely available on&#xD;
+      most linacs) acquiring 2D projections of implanted fiducial markers. As the treatment gantry&#xD;
+      rotates around the patient during treatment , the kV imager acquires 2D projections of the&#xD;
+      prostate . The fiducial markers are segmented using an in-house developed software package.&#xD;
+      3D positions are determined via maximum likelihood estimation (MLE) of a 3D probability&#xD;
+      density.&#xD;
+&#xD;
+      In previous work (Ng et al, 2012) we have applied the KIM method with offline segmentation to&#xD;
+      calculate the 3D prostate trajectory after treatment. In the present study we are utilising&#xD;
+      online marker segmentation to enable live trajectory creation during treatment delivery with&#xD;
+      a processing time less than 1 second. With the circa real-time trajectories we are able to&#xD;
+      gate the delivery so to maximise dose to the tumour, or track with Multi-Leaf Collimators&#xD;
+      (MLC) to follow the prostate motion. The latter involves complex interaction with the beam&#xD;
+      delivery system and is not part of this study. The treatment can be gated based on a pre-set&#xD;
+      tolerance. Using our earlier data we modelled several gating criteria 3mm/5s, 3mm/10s and&#xD;
+      3mm/15s based on excursions along individual axes and also the radial excursion. Across the&#xD;
+      10 patients, a tolerance of 3mm/5s was shown to be efficient, introducing only 24 gating&#xD;
+      events (from 268 treatments) and safe, with the smallest time for excursion (5s).&#xD;
+&#xD;
+      The KIM method does introduce extra radiation dose to the patient of approximately 65mSv per&#xD;
+      treatment localised to the prostate 8. Standard treatment doses for prostate radiotherapy are&#xD;
+      80 Gy. The amount of imaging dose will be dependent on the imaging field size, frame rate of&#xD;
+      acquired images, treatment field size, kV energy used and method of treatment delivery&#xD;
+      (Volumetric Modulated Arc Therapy [VMAT], Intensity Modulated Radiotherapy [IMRT],&#xD;
+      Stereotactic Boost Radiotherapy [SBRT]).9 We will minimise the imaging dose from our previous&#xD;
+      study 8 by:&#xD;
+&#xD;
+        -  reducing the field size to encompass only the fiducials and a small margin per patient&#xD;
+           so that the imaging dose is delivered inside the treatment volume (expect 20-40% dose&#xD;
+           saving);&#xD;
+&#xD;
+        -  the beam quality is maximised to 125 kV;&#xD;
+&#xD;
+        -  patient dimensions are limited as the larger patients create more scatter radiation&#xD;
+           (that decreases image quality) and absorb more radiation. This, combined with treatment&#xD;
+           field size as below, may allow us to use a lower frame rate for image acquisition, down&#xD;
+           from 10 fps to 5 fps, which will have a proportional effect on dose;&#xD;
+&#xD;
+        -  patients with nodal areas for treatment are excluded as the treatment fields are larger&#xD;
+           and this reduces image quality. By excluding these larger patients we may be able to use&#xD;
+           5fps rather than 10 fps imaging combined with the patient dimension as above;&#xD;
+&#xD;
+        -  VMAT is shown to require less treatment time than IMRT delivery, and SBRT is shown to&#xD;
+           require less total time than conventional fractionation (where total treatment time is&#xD;
+           proportional to imaging dose). We expect to see a dose reduction with the VMAT-SBRT&#xD;
+           protocol compared to VMAT of 20-40%.&#xD;
+&#xD;
+      Together with the imaging dose, we need to consider and weight the gains from intrafraction&#xD;
+      monitoring and gated treatment. These gains include improving the accuracy of delivered dose,&#xD;
+      so that the planned treatment dose is delivered efficiently to the tumour, and the geometric&#xD;
+      accuracy that would allow reduction in the safety margin introduced to compensate for&#xD;
+      treatment. We have demonstrated significant improvements in tumour dose from 60% to 95% of&#xD;
+      the intended dose distribution by gating with 3mm/5s tolerance as shown in Figure 1.&#xD;
+&#xD;
+      Verification of KIM clinical dynamic localization accuracy using kV/MV triangulation:&#xD;
+&#xD;
+      In order to evaluate the dynamic localisation accuracy of the KIM method, 3D positions&#xD;
+      determined by KIM can be compared to kV/MV triangulation. kV/MV triangulation. Triangulation&#xD;
+      provides an independent measure of the prostate location.&#xD;
+&#xD;
+      Failure Mode and Effects Analysis (FMEA) and Quality Assurance (QA) protocol An FMEA has been&#xD;
+      performed identifying potential failure modes within the additional KIM workflow. The&#xD;
+      standard workflow has established quality assurance measures in place. All KIM failure modes&#xD;
+      have been mitigated in numerous layers by quality assurance measures, clear design of user&#xD;
+      interface, clear designation of staff roles, staff education, and exclusion criteria for&#xD;
+      patient selection.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 2013</start_date>
+  <completion_date type="Anticipated">July 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Feasibility of KIM techique</measure>
+    <time_frame>10 years</time_frame>
+    <description>Technique will be determined as feasible if 90% of treatment fractions are successfully segmented in real time.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time for procedure</measure>
+    <time_frame>10 years</time_frame>
+    <description>Measurement of time taken to perform KIM gating to guide future department resource questions.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Prostate Cancer</condition>
+  <arm_group>
+    <arm_group_label>R/T gating kV intrafraction monitoring</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Intervention: Recruitment will be performed in 2 phases:&#xD;
+Phase I will include the first 10 patients. All patients will be treated on a standard fractionation protocol with 40 fractions. This will allow 400 potential fractions to be auto-segmented in real time. Once Phase I is successfully completed we will aim to continue recruitment of a further 20 patients as Phase II. For this phase we will open recruitment to patients with lymph node positivity, hypofractionation (as per Department protocols) and intermittent imaging (imaging less frequently than every fraction).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>R/T gating kV intrafraction monitoring</intervention_name>
+    <description>This is a Phase I Pilot study to assess the feasibility of implementing prostate radiotherapy gating using kV intrafraction monitoring.</description>
+    <arm_group_label>R/T gating kV intrafraction monitoring</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients undergoing definitive external beam radiotherapy;&#xD;
+&#xD;
+          -  Histological proven prostate adenocarcinoma&#xD;
+&#xD;
+          -  Prostate Specific Antigen (PSA),within 3 months prior to enrolment&#xD;
+&#xD;
+          -  Patient must be able to have gold fiducial markers placed in the prostate (if on&#xD;
+             anticoagulants, must be approved for procedure by Cardiologist)&#xD;
+&#xD;
+          -  Artificial hips&#xD;
+&#xD;
+          -  Lymph Node irradiation&#xD;
+&#xD;
+          -  Patient Dimensions &gt;40cms&#xD;
+&#xD;
+          -  ECOG 0-2&#xD;
+&#xD;
+          -  Ability to understand and willingness to sign informed consent form.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Altered fractionation&#xD;
+&#xD;
+          -  Fiducials must be no less than 1cm apart&#xD;
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Eade, MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal North Shore Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Thomas N Eade, MBBS</last_name>
+    <phone>+61294631319</phone>
+    <email>TEade@nsccahs.health.nsw.gov.au</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jeremy Booth, PhD</last_name>
+    <phone>+61294631320</phone>
+    <email>JBooth@nsccahs.health.nsw.gov.au</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Radiation Oncology, Northern Sydney Cancer Centre</name>
+      <address>
+        <city>St. Leonards</city>
+        <state>New South Wales</state>
+        <zip>2065</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thomas N Eade, MBBS</last_name>
+      <phone>+61294631315</phone>
+      <email>Thomas.Eade@health.nsw.gov.au</email>
+    </contact>
+    <contact_backup>
+      <last_name>Carol Kwong, RN</last_name>
+      <phone>+61 2 9463 1339</phone>
+      <email>Carolyn.Kwong@health.nsw.gov.au</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Thomas N Eade, RANZCR I &amp; II</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <results_reference>
+    <citation>Keall PJ, Aun Ng J, O'Brien R, Colvill E, Huang CY, Rugaard Poulsen P, Fledelius W, Juneja P, Simpson E, Bell L, Alfieri F, Eade T, Kneebone A, Booth JT. The first clinical treatment with kilovoltage intrafraction monitoring (KIM): a real-time image guidance method. Med Phys. 2015 Jan;42(1):354-8. doi: 10.1118/1.4904023.</citation>
+    <PMID>25563275</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ng JA, Booth JT, O'Brien RT, Colvill E, Huang CY, Poulsen PR, Keall PJ. Quality assurance for the clinical implementation of kilovoltage intrafraction monitoring for prostate cancer VMAT. Med Phys. 2014 Nov;41(11):111712. doi: 10.1118/1.4898119.</citation>
+    <PMID>25370626</PMID>
+  </results_reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>December 2, 2012</study_first_submitted>
+  <study_first_submitted_qc>December 2, 2012</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 5, 2012</study_first_posted>
+  <last_update_submitted>June 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Royal North Shore Hospital</investigator_affiliation>
+    <investigator_full_name>Professor Thomas Eade</investigator_full_name>
+    <investigator_title>Radiation Oncologist</investigator_title>
+  </responsible_party>
+  <keyword>Prostate</keyword>
+  <keyword>IGRT</keyword>
+  <keyword>VMAT</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>With other ethics approved centres using annonymised data.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

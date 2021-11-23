@@ -1,0 +1,283 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04589169</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C&amp;W19/064</org_study_id>
+    <secondary_id>IRAS number 264759</secondary_id>
+    <nct_id>NCT04589169</nct_id>
+  </id_info>
+  <brief_title>Non-Invasive Eye Tracking for the Diagnosis of Delirium on ICU</brief_title>
+  <acronym>CONfuSED</acronym>
+  <official_title>Continuous Non-Invasive Eye Tracking for the Early Detection of Delirium on the Intensive Care Unit</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chelsea and Westminster NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Westminster Medical School Research Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>BMA Foundation for Medical Research</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chelsea and Westminster NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this trial, the investigators seek to demonstrate the feasibility of a system in&#xD;
+      continuously detecting 'inattention' as a subset of CAM-ICU in a small representative sample&#xD;
+      of patients in the Intensive Care Unit (ICU) at Chelsea &amp; Westminster NHS Foundation Trust.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Delirium is an acute confusional state that affects many patients admitted to the hospital,&#xD;
+      especially intensive care. The current diagnosis of delirium is through the use of the&#xD;
+      Confusional Assessment Method in Intensive Care Unit (CAM-ICU) task based questionnaire. The&#xD;
+      core prinicipal to CAM-ICU is inattention; this is tested through asking the patient to&#xD;
+      remember a task and execute it on demand, e.g. squeezing the operator's hand everytime the&#xD;
+      letter A is said and then spelling CASABLANCA.&#xD;
+&#xD;
+      The aim of this study is to find correlates to inattention. Eye-gaze data is ideally suited&#xD;
+      for this task as eyes move to pay attention to the environment.&#xD;
+&#xD;
+      A video camera based eye-tracker has been developed that sits at the end of the bed&#xD;
+      (head-camera) and another behind the patient (scene-camera). The head-camera uses machine&#xD;
+      learning to measure the gaze of the patient's eyes while the scene-camera finds what the&#xD;
+      patient is looking at. Simulations are then run from the scene camera and the patient's gaze&#xD;
+      is then compared to find whether the patient is paying attention to what is simulated.&#xD;
+&#xD;
+      Once per day, a member of the local research team will fill in a non-validated questionnaire&#xD;
+      based on work by MacMurchy et al.&#xD;
+&#xD;
+      M. MacMurchy, S. Stemler, M. Zander, C. P. Bonafide, Acceptability, Feasibility, and Cost of&#xD;
+      Using Video to Evaluate Alarm Fatigue, Biomedical Instrumentation &amp; Technology 51 (2017)&#xD;
+      25-33.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 7, 2020</start_date>
+  <completion_date type="Anticipated">October 12, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 12, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Demonstrate eye gaze correlates with CAM-ICU</measure>
+    <time_frame>8-12 months</time_frame>
+    <description>Patient's usual clinical care will not be affected by the assessments performed by this study. In our institution, CAM-ICU is performed at least twice daily and more so if there are changes to mental status. The system will be switched on 5 minutes prior to performing CAM-ICU and will record for a duration of 10 minutes following which, the system will be turned off and the cameras covered. This procedure will occur every time CAM-ICU is performed.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acceptance of the use of cameras and artificial intelligence on ICU</measure>
+    <time_frame>8-12 months</time_frame>
+    <description>Once per day, the research staff will complete an acceptability questionnaire designed to ascertain the acceptability of the use of cameras within this study on day to day activities in ICU.This questionnaire is based on work by MacMurchy et al.&#xD;
+Minimum value is 0, maximum value is 4.&#xD;
+Higher scores indicate that the system affected the nurse's ability to communicate with patients, nurses and doctors and that it affected the nurse's ability to care for them.&#xD;
+A yes answer = 1 point, a No answer = 0 points. Marking will be done per question to gain insights into how the system affected the nurses.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Delirium</condition>
+  <arm_group>
+    <arm_group_label>Positive cohort</arm_group_label>
+    <description>Patients who develop delirium</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Experimental control group</arm_group_label>
+    <description>Patients who do not develop delirium</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult inpatients in ICU&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Aged &gt;18&#xD;
+&#xD;
+          2. Predicted Delirium as defined by the Early PREdiction of DELIRium in ICU patients&#xD;
+             (E-PREDELIRIC) score ≥ 20%&#xD;
+&#xD;
+          3. Expected length of stay ≥ 2 days&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Non-concordant eyes&#xD;
+&#xD;
+          2. Visual Impairment&#xD;
+&#xD;
+          3. Dementia&#xD;
+&#xD;
+          4. Inability for facial recognition and eye tracking to be performed reliably&#xD;
+&#xD;
+          5. Lack of signed consent form / nominated consultee form&#xD;
+&#xD;
+          6. In-ability to perform CAM-ICU reliably&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ahmed Al-Hindawi, BMBS, MRCA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chelsea and Westminster Hospital NHS Foundation Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Research Delivery Operations Manager</last_name>
+    <phone>020 3315 6825</phone>
+    <email>research.development@chelwest.nhs.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marcela Vizcaychipi, MD, PhD</last_name>
+    <phone>02033158024</phone>
+    <email>Marcela.Vizcaychipi@chelwest.nhs.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Chelsea and Westminster Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>SW10 9NH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Research Delivery Operations Manager</last_name>
+      <phone>020 3315 6825</phone>
+      <email>research.development@chelwest.nhs.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Marcela Vizcaychipi, MD, PhD</last_name>
+      <phone>02033158024</phone>
+      <email>Marcela.Vizcaychipi@chelwest.nhs.uk</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Ahmed Al-Hindawi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <reference>
+    <citation>McCusker J, Cole M, Abrahamowicz M, Primeau F, Belzile E. Delirium predicts 12-month mortality. Arch Intern Med. 2002 Feb 25;162(4):457-63.</citation>
+    <PMID>11863480</PMID>
+  </reference>
+  <reference>
+    <citation>Miotto R, Li L, Kidd BA, Dudley JT. Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records. Sci Rep. 2016 May 17;6:26094. doi: 10.1038/srep26094.</citation>
+    <PMID>27185194</PMID>
+  </reference>
+  <reference>
+    <citation>M. Sarabia, Y. Demiris, A Humanoid Robot Companion for Wheelchair Users, Social Robotics 8239 (2013) 432-441.</citation>
+  </reference>
+  <reference>
+    <citation>A. P. A. A. P. Association, et al., DSM-IV-TR: Diagnostic and Statistical Manual of Mental Disorders, Wash ington, DC: American psychiatric association (1994) 143-147.</citation>
+  </reference>
+  <reference>
+    <citation>Holt-Lunstad J, Smith TB, Layton JB. Social relationships and mortality risk: a meta-analytic review. PLoS Med. 2010 Jul 27;7(7):e1000316. doi: 10.1371/journal.pmed.1000316. Review.</citation>
+    <PMID>20668659</PMID>
+  </reference>
+  <reference>
+    <citation>Palmu R, Suominen K, Vuola J, Isometsä E. Mental disorders among acute burn patients. Burns. 2010 Nov;36(7):1072-9. doi: 10.1016/j.burns.2010.04.004. Epub 2010 May 18.</citation>
+    <PMID>20483541</PMID>
+  </reference>
+  <reference>
+    <citation>Lundström M, Olofsson B, Stenvall M, Karlsson S, Nyberg L, Englund U, Borssén B, Svensson O, Gustafson Y. Postoperative delirium in old patients with femoral neck fracture: a randomized intervention study. Aging Clin Exp Res. 2007 Jun;19(3):178-86.</citation>
+    <PMID>17607084</PMID>
+  </reference>
+  <reference>
+    <citation>Meier-Ruge W, Hunziker O, Iwangoff P. Senile dementia: a threshold phenomenon of normal aging? A contribution to the functional reserve hypothesis of the brain. Ann N Y Acad Sci. 1991;621:104-18.</citation>
+    <PMID>1907117</PMID>
+  </reference>
+  <reference>
+    <citation>Meagher DJ. Delirium: optimising management. BMJ. 2001 Jan 20;322(7279):144-9. Review.</citation>
+    <PMID>11159573</PMID>
+  </reference>
+  <reference>
+    <citation>Lin SM, Liu CY, Wang CH, Lin HC, Huang CD, Huang PY, Fang YF, Shieh MH, Kuo HP. The impact of delirium on the survival of mechanically ventilated patients. Crit Care Med. 2004 Nov;32(11):2254-9.</citation>
+    <PMID>15640638</PMID>
+  </reference>
+  <reference>
+    <citation>Ouimet S, Kavanagh BP, Gottfried SB, Skrobik Y. Incidence, risk factors and consequences of ICU delirium. Intensive Care Med. 2007 Jan;33(1):66-73. Epub 2006 Nov 11.</citation>
+    <PMID>17102966</PMID>
+  </reference>
+  <reference>
+    <citation>Pisani MA, Araujo KL, Van Ness PH, Zhang Y, Ely EW, Inouye SK. A research algorithm to improve detection of delirium in the intensive care unit. Crit Care. 2006;10(4):R121.</citation>
+    <PMID>16919169</PMID>
+  </reference>
+  <reference>
+    <citation>Beedie SA, Benson PJ, St Clair DM. Atypical scanpaths in schizophrenia: evidence of a trait- or state-dependent phenomenon? J Psychiatry Neurosci. 2011 May;36(3):150-64. doi: 10.1503/jpn.090169. Review.</citation>
+    <PMID>21223647</PMID>
+  </reference>
+  <reference>
+    <citation>Loughland CM, Williams LM, Gordon E. Schizophrenia and affective disorder show different visual scanning behavior for faces: a trait versus state-based distinction? Biol Psychiatry. 2002 Aug 15;52(4):338-48.</citation>
+    <PMID>12208641</PMID>
+  </reference>
+  <reference>
+    <citation>Trillenberg P, Lencer R, Heide W. Eye movements and psychiatric disease. Curr Opin Neurol. 2004 Feb;17(1):43-7. Review.</citation>
+    <PMID>15090876</PMID>
+  </reference>
+  <reference>
+    <citation>Y. Zhang, T. Wilcockson, K. I. Kim, T. Crawford, H. Gellersen, P. Sawyer, Monitoring Dementia with Automatic Eye Movements Analysis, in: I. Czarnowski, A. M. Caballero, R. J. Howlett, L. C. Jain (Eds.), Intelligent Decision Technologies 2016, volume 57, Springer International Publishing, Cham, 2016, pp. 299-309.</citation>
+  </reference>
+  <reference>
+    <citation>C. Exton, M. Leonard, Eye tracking technology: A fresh approach in delirium assessment?, International Review of Psychiatry 21 (2009) 8-14. [18] T. Fischer, H. Jin Chang, Y. Demiris, RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments, in: Proceedings of the European Conference on Computer Vision (ECCV), pp. 334-352.</citation>
+  </reference>
+  <reference>
+    <citation>Lancaster GA, Dodd S, Williamson PR. Design and analysis of pilot studies: recommendations for good practice. J Eval Clin Pract. 2004 May;10(2):307-12.</citation>
+    <PMID>15189396</PMID>
+  </reference>
+  <reference>
+    <citation>Wassenaar A, van den Boogaard M, van Achterberg T, Slooter AJ, Kuiper MA, Hoogendoorn ME, Simons KS, Maseda E, Pinto N, Jones C, Luetz A, Schandl A, Verbrugghe W, Aitken LM, van Haren FM, Donders AR, Schoonhoven L, Pickkers P. Multinational development and validation of an early prediction model for delirium in ICU patients. Intensive Care Med. 2015 Jun;41(6):1048-56. doi: 10.1007/s00134-015-3777-2. Epub 2015 Apr 18.</citation>
+    <PMID>25894620</PMID>
+  </reference>
+  <reference>
+    <citation>MacMurchy M, Stemler S, Zander M, Bonafide CP. Research: Acceptability, Feasibility, and Cost of Using Video to Evaluate Alarm Fatigue. Biomed Instrum Technol. 2017 Jan-Feb;51(1):25-33. doi: 10.2345/0899-8205-51.1.25.</citation>
+    <PMID>28103098</PMID>
+  </reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>October 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 9, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 19, 2020</study_first_posted>
+  <last_update_submitted>December 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 8, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Delirium</keyword>
+  <keyword>Inattention</keyword>
+  <keyword>Eye-gaze</keyword>
+  <keyword>ICU</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

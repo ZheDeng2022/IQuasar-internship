@@ -1,0 +1,363 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03029884</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16-18617</org_study_id>
+    <secondary_id>UH3NS109556</secondary_id>
+    <nct_id>NCT03029884</nct_id>
+  </id_info>
+  <brief_title>Closed-loop Deep Brain Stimulation to Treat Refractory Neuropathic Pain</brief_title>
+  <official_title>Technology Development for Closed-loop Deep Brain Stimulation to Treat Refractory Neuropathic Pain</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>United States Department of Defense</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Neurological Disorders and Stroke (NINDS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Deep brain stimulation (DBS) holds promise as a new option for patients suffering from&#xD;
+      treatment-resistant chronic pain, but current technology is unable to reliably achieve&#xD;
+      long-term pain symptom relief. A &quot;one-size-fits-all&quot; approach of continuous, 24/7 brain&#xD;
+      stimulation has helped patients with some movement disorders, but the key to reducing pain&#xD;
+      may be the activation of stimulation only when needed, as this may help keep the brain from&#xD;
+      adapting to stimulation effects. By expanding the technological capabilities of an&#xD;
+      investigative brain stimulation device, the investigators will enable the delivery of&#xD;
+      stimulation only when pain signals in the brain are high, and then test whether this more&#xD;
+      personalized stimulation leads to reliable symptom relief for chronic pain patients over&#xD;
+      extended periods of time.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Many pain syndromes are notoriously refractory to almost all treatment and pose significant&#xD;
+      costs to patients and society. Deep brain stimulation (DBS) for refractory pain disorders&#xD;
+      showed early promise but demonstration of long-term efficacy is lacking. Current DBS devices&#xD;
+      provide &quot;open-loop&quot; continuous stimulation and thus are prone to loss of effect owing to&#xD;
+      nervous system adaptation and a failure to accommodate natural fluctuations in chronic pain&#xD;
+      states. DBS could be significantly improved if neural biomarkers for relevant disease states&#xD;
+      could be used as feedback signals in &quot;closed-loop&quot; DBS algorithms that would selectively&#xD;
+      provide stimulation when it is needed. This approach may help avert the development of&#xD;
+      tolerance over time and enable the dynamic features of chronic pain to be targeted in a&#xD;
+      personalized fashion.&#xD;
+&#xD;
+      Optimizing the brain targets for both biomarker detection and stimulation delivery may also&#xD;
+      markedly impact efficacy. Recent imaging studies in humans point to the key role of frontal&#xD;
+      cortical regions in supporting the affective and cognitive dimensions of pain, which may be&#xD;
+      more effective DBS targets than previous targets involved in basic somatosensory processing.&#xD;
+      Pathological activity in the anterior cingulate (ACC) and orbitofrontal cortex (OFC) is&#xD;
+      correlated with the higher-order processing of pain, and recent clinical trials have&#xD;
+      identified ACC as a promising stimulation target for the neuromodulation of pain. In this&#xD;
+      study, the investigators will target ACC and OFC for biomarker discovery and closed-loop&#xD;
+      stimulation. The investigators will develop data-driven stimulation control algorithms to&#xD;
+      treat chronic pain using a novel neural interface device (Medtronic Activa PC+S) that allows&#xD;
+      longitudinal intracranial signal recording in an ambulatory setting. By building and&#xD;
+      validating this technological capacity in an implanted device, the investigators will empower&#xD;
+      DBS for chronic pain indications and advance personalized, precision methods for DBS more&#xD;
+      generally.&#xD;
+&#xD;
+      This study will enroll ten patients with post-stroke pain, phantom limb syndrome and spinal&#xD;
+      cord injury pain in our three-phase clinical trial. The investigators will first identify&#xD;
+      biomarkers of low and high pain states to define optimal neural signals for pain prediction&#xD;
+      in individuals (Aim 1). These pain biomarkers will then be used to develop closed-loop&#xD;
+      algorithms for DBS and test the feasibility and efficacy of performing closed-loop DBS for&#xD;
+      chronic pain in a single-blinded, sham controlled clinical trial (Aim 2). Our main outcome&#xD;
+      measures will be a combination of pain, mood and functional scores together with quantitative&#xD;
+      sensory testing. In the last phase, the investigators will assess the efficacy of closed-loop&#xD;
+      DBS algorithms against traditional open-loop DBS (Aim 3) and assess mechanisms of DBS&#xD;
+      tolerance in response to chronic stimulation. Successful completion of this study would&#xD;
+      result in the first algorithms to predict real-time fluctuations in chronic pain states for&#xD;
+      the delivery of analgesic stimulation and would prove the feasibility of closed-loop DBS for&#xD;
+      pain-relief by advancing implantable device technology.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">October 28, 2017</start_date>
+  <completion_date type="Anticipated">June 2026</completion_date>
+  <primary_completion_date type="Anticipated">June 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>All participants (phantom limb and thalamic pain) will participate in the same three phase study.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>There will be assigned active intervention and non-active intervention periods for each patient throughout phase 2 and 3 of the study. The participant will not know if he/she is in the active or non-active period of the phase.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Visual Analog Score</measure>
+    <time_frame>2 years</time_frame>
+    <description>Visual Analog Score is indicated by the patient by marking a 10 cm line as they rate their pain intensity from 0 to 100 in mm.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Short Form 36 Health Survey</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Short Form 36 Health Survey is a measure of health and functional status, and consists of a 36 question survey with eight scaled scores commonly used in Pain research. Each scaled score is scaled from 0-100 with 0 being the lowest/worst outcome and 100 being the highest/best outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantitative Sensory Testing Pain Threshold</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Quantative Sensory Testing machine is described in the research protocol, and uses thermal stimuli to measure pain sensitivity and thresholds which may change with time or therapy. Thermal stimuli down to 0 degrees F. and up to 55 degrees F are given and patients are asked to report their pain either qualitatively or quantitatively using numerical rating scale from 0 to 10, with 0 being the lowest/no pain, and 10 being the worst.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neuropathic Pain Questionnaire</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Neuropathic pain Questionnaire (NPQ) is an assessment instrument for neuropathic pain intensity and quality. It contains 12 items: 10 related to sensations or sensory responses and two related to affect. The items are totaled and rated out of 12, with 12 being in the most neuropathic pain.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Becks Depression Inventory</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Becks Depression Inventory is commonly used assessment tools to quantify and track depression mood state over time. Its a single value outcome measurement ranging from 0 to 63, with 63 being the most depressed.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Becks Anxiety Inventory</measure>
+    <time_frame>2 years</time_frame>
+    <description>The Becks Anxiety Inventory is commonly used assessment tools to quantify and track anxious mood state over time.Its a single value outcome measurement ranging from 0 to 63, with 63 the most anxious.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>NIH PROMIS toolbox (Patient Impression)</measure>
+    <time_frame>2 years</time_frame>
+    <description>The NIH PROMIS toolbox contains a host of survey questions tailored to measurement of specific disease states such as pain, global health and function.&#xD;
+The patient impression evaluates patient self-evaluation and physician evaluation of the patient's general health ranging form 0 to 7 with 7 being the worst general health.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Pain medication usage</measure>
+    <time_frame>2 years</time_frame>
+    <description>We will calculate total number of of breakthrough pain medication pills (eg. opioids, NSAIDs and neuropathic pain medication) used each month, to evaluate if analgesia from DBS reduces average usage.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Activity Tracker (Fitbit) - Heartrate</measure>
+    <time_frame>2 years</time_frame>
+    <description>Each patient will be given a fitbit activity monitor which can record steps taken, flights of stairs climbed, heart rate and sleep quality. These measures will be used to infer functional improvement over time. Heartrate will be tracked as beats per minute (bpm) and the association of bpm with changes in NRS pain will be used to correlate changes in heartrate with pain levels.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Activity Tracker (Fitbit) - Activity (Steps)</measure>
+    <time_frame>2 years</time_frame>
+    <description>Each patient will be given a fitbit activity monitor which can record steps taken, flights of stairs climbed, heart rate and sleep quality. These measures will be used to infer functional improvement over time. Steps will be recorded as steps per hour or day and evaluated against changes in pain level reported in the VAS or NRS.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Activity Tracker (Fitbit) - Activity (Sleep)</measure>
+    <time_frame>2 years</time_frame>
+    <description>Each patient will be given a fitbit activity monitor which can record steps taken, flights of stairs climbed, heart rate and sleep quality. These measures will be used to infer functional improvement over time. Sleep quality will be evaluated using the parameters (time in bed, time asleep, time in REM sleep, time in non-REM sleep, time awake).</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Chronic Pain</condition>
+  <condition>Post Stroke Pain</condition>
+  <condition>Phantom Limb Pain</condition>
+  <condition>Spinal Cord Injuries</condition>
+  <arm_group>
+    <arm_group_label>Active DBS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Chronic brain recording and stimulation with unilateral or bilateral implantation in pain-related brain regions. Both thalamic pain syndrome and phantom pain participants will participate in active DBS, blinded to the participant.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Inactive DBS</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Non-active chronic brain stimulation in pain-related brain regions. Brain recordings will remain active during this period. Both thalamic pain syndrome and phantom pain participants will participate in inactive DBS, blinded to the participant.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Medtronic Activa PC+S</intervention_name>
+    <description>In Aim 2 we will perform closed loop DBS versus sham (randomized) to evaluate efficacy of stimulation for analgesia. In Aim 3, closed-loop DBS will be compared to open-loop DBS in a patient blinded, randomized fashion.</description>
+    <arm_group_label>Active DBS</arm_group_label>
+    <arm_group_label>Inactive DBS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age ≥ 21 years&#xD;
+&#xD;
+          -  Clinical diagnosis of post-stroke pain (thalamic pain), spinal cord injury or phantom&#xD;
+             limb pain with allodynia or dysesthesia with pinprick anesthesia or hypoesthesia on&#xD;
+             the affected hemibody or limb (anesthesia dolorosa).&#xD;
+&#xD;
+          -  For Post-Stroke Pain: Stroke of ischemic etiology only. MRI done within one year of&#xD;
+             the first visit showing a lesion that involves the contralateral brainstem, thalamus&#xD;
+             or cortex. The lesion will involve cortical-subcortical areas in topography consistent&#xD;
+             with sensory thalamocortical connections. This will include patients with infarcts in&#xD;
+             the territory of the middle cerebral artery or those with cavernous malformations. A&#xD;
+             more recent MRI may be required if the patient's condition changed within the previous&#xD;
+             year.&#xD;
+&#xD;
+          -  For Phantom limb pain: MRI done within one year not showing any contraindication to&#xD;
+             surgery such as mass, lesion, hemorrhage or other abnormality near target&#xD;
+&#xD;
+          -  For Spinal Cord Injury pain: MRI done within one year not showing contraindication to&#xD;
+             surgery such as mass, lesion, hemorrhage or other abnormality near target&#xD;
+&#xD;
+          -  One year or more of medically refractory severe pain (see below)&#xD;
+&#xD;
+          -  Average daily pain for the past 30 days reported as &gt;5 on a 0-10 numeric rating scale&#xD;
+             (NRS)&#xD;
+&#xD;
+          -  Failure to respond adequately to at least one antidepressant, one anti-seizure&#xD;
+             medication and one oral narcotic with current stable doses of medications.&#xD;
+&#xD;
+          -  Ability to speak / read English&#xD;
+&#xD;
+          -  Capable of understanding and providing informed consent&#xD;
+&#xD;
+          -  Stable doses of pain medications (e.g. anticonvulsant drug, anti-depressants, and&#xD;
+             opioids etc.)&#xD;
+&#xD;
+          -  Women of childbearing age must be on regular use of an accepted contraceptive&#xD;
+             method(s).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Study subjects will be adults with refractory chronic neuropathic pain.&#xD;
+&#xD;
+          -  Pregnancy or breast feeding&#xD;
+&#xD;
+          -  Inability to speak and / or read English&#xD;
+&#xD;
+          -  Inability to give informed consent&#xD;
+&#xD;
+          -  Significant cognitive impairment or Dementia (MoCA &lt; 25)&#xD;
+&#xD;
+          -  Aphasia severe enough to limit the consent process or communication between the&#xD;
+             investigators and the patient. Patients with mild or recovering aphasia may be&#xD;
+             considered candidates at the discretion of the PI.&#xD;
+&#xD;
+          -  Active depression (BDI &gt; 20) or other untreated or uncontrolled psychiatric illness&#xD;
+             (active general anxiety disorder, schizophrenia, bipolar disorder,&#xD;
+             obsessive-compulsive disorder (OCD), or personality disorders (e.g. multiple&#xD;
+             personality disorder, borderline personality disorder, etc.) or other neuropsychiatric&#xD;
+             conditions that evaluating psychiatrist would recommend exclusion of patient after&#xD;
+             neuropsychiatric evaluation.&#xD;
+&#xD;
+          -  Suicide attempt &lt;/= 12 months or imminent suicide risk&#xD;
+&#xD;
+          -  History of substance abuse in past 3 years.&#xD;
+&#xD;
+          -  Major medical co-morbidities increasing the risk of surgery including uncontrolled&#xD;
+             hypertension, severe diabetes, major organ system failure, history of hemorrhagic&#xD;
+             stroke, need for chronic anticoagulation other than aspirin, active infection,&#xD;
+             immunocompromised state or malignancy with &lt; 5 years life expectancy&#xD;
+&#xD;
+          -  Inability to stop Coumadin or platelet anti-aggregation therapy for surgery and after&#xD;
+             surgery. Patients taking these medications will need to discuss the need/risk of&#xD;
+             continuing these medications with their physicians and the PI or study personnel may&#xD;
+             contact the treating physician(s) as well to discuss the risks of anticoagulation /&#xD;
+             antiaggregation therapy discontinuation.&#xD;
+&#xD;
+          -  Coagulopathy. Patients will be excluded unless assessed and cleared by hematology.&#xD;
+&#xD;
+          -  MRI (done within one year of the first visit) with significant abnormalities other&#xD;
+             than those associated with the neurological disorder causing chronic pain.&#xD;
+&#xD;
+          -  Implantable hardware not compatible with MRI or with the study.&#xD;
+&#xD;
+          -  Inability to comply with study follow-up visits&#xD;
+&#xD;
+          -  Previous ablative intracranial surgery for the management of the thalamic pain&#xD;
+             syndrome.&#xD;
+&#xD;
+          -  Previously implanted with deep brain stimulation system or any previously implanted&#xD;
+             device treatment involving brain stimulation&#xD;
+&#xD;
+          -  Major neurological disorder other than the one that led to the chronic pain including&#xD;
+             epilepsy, neurodegenerative condition or any history of seizure&#xD;
+&#xD;
+          -  Requires diathermy, electroconvulsive therapy (ECT) or transcranial magnetic&#xD;
+             stimulation (TMS) to treat a chronic condition&#xD;
+&#xD;
+          -  Has an implanted electronic device such as a neurostimulator, cardiac pacemaker or&#xD;
+             medication pump&#xD;
+&#xD;
+          -  Allergies or known hypersensitivity to materials in the Activa PC+S system (i.e.&#xD;
+             titanium, polyurethane, silicone, polyetherimide, stainless steel).&#xD;
+&#xD;
+          -  Pregnancy or lack of regular use of contraceptives. Patients who become pregnant after&#xD;
+             enrollment may be excluded from the study. Patients who become pregnant prior to the&#xD;
+             surgical implantation of the DBS systems will be excluded from the study.&#xD;
+&#xD;
+          -  Patients may be excluded from enrollment due to a condition that, in the judgment of&#xD;
+             the PI, significantly increases risk or reduces significantly the likelihood of&#xD;
+             benefit from DBS.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Edward Chang, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Prasad Shirvalkar, M.D., Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>January 6, 2017</study_first_submitted>
+  <study_first_submitted_qc>January 20, 2017</study_first_submitted_qc>
+  <study_first_posted type="Estimate">January 24, 2017</study_first_posted>
+  <last_update_submitted>December 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Francisco</investigator_affiliation>
+    <investigator_full_name>Edward Chang</investigator_full_name>
+    <investigator_title>Associate Professor of Neurological Surgery</investigator_title>
+  </responsible_party>
+  <keyword>thalamic pain</keyword>
+  <keyword>chronic pain</keyword>
+  <keyword>spinal cord injury</keyword>
+  <keyword>phantom limb</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+    <mesh_term>Neuralgia</mesh_term>
+    <mesh_term>Phantom Limb</mesh_term>
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There is currently no plan to share IPD.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

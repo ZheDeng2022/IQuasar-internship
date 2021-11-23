@@ -1,0 +1,173 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04894955</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PROTOCOL-M7-037</org_study_id>
+    <nct_id>NCT04894955</nct_id>
+  </id_info>
+  <brief_title>Micrima MARIA Data Collection for Machine Learning Study</brief_title>
+  <official_title>Micrima MARIA Data Collection for Machine Learning Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Micrima, Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Micrima, Ltd.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The MARIA® breast imaging system is a CE-marked radiofrequency (RF) medical imaging device.&#xD;
+      The system employs an electromagnetic imaging technique that exploits the dielectric contrast&#xD;
+      between normal and cancerous tissues. The use of artificial intelligence will provide&#xD;
+      additional, novel functionality to the MARIA® system but requires participant data in order&#xD;
+      to develop and validate the machine learning algorithms that aim to increase the accuracy and&#xD;
+      overall clinical utility of the device. This study aims to collect data from sites for this&#xD;
+      purpose.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Previous and existing trials have been focused on and designed to assess sensitivity of&#xD;
+      different versions of MARIA® when used on symptomatic subjects. This study will consider&#xD;
+      those measures, but the primary endpoint will be the collection of the data required for&#xD;
+      developing and validating machine learning-based enhancements of the MARIA® system. Data that&#xD;
+      are diverse in terms of subject characteristics, including disease state, presentation of&#xD;
+      disease, and variation of normal anatomy are requisite for the creation of accurate and&#xD;
+      well-characterized machine intelligence. As such, the recruitment criteria is broad in order&#xD;
+      to encompass all kinds of subjects that are representative as possible of the general&#xD;
+      population.&#xD;
+&#xD;
+      At the current stage in development of the MARIA® system a need has been identified to&#xD;
+      acquire additional data for validation of a lesion classification algorithm specific to women&#xD;
+      with larger breasts. This need has guided the study size calculation; however, additional&#xD;
+      data from all shell sizes continues to be important for further lesion classifier development&#xD;
+      and the development of additional functionality, including automated breast density&#xD;
+      assessment. Therefore, as part of this study subjects across the entire intended use&#xD;
+      population will be recruited.&#xD;
+&#xD;
+      The data points that are collected via this study have been selected as those that are&#xD;
+      required for the purposes of machine learning first and foremost, with any secondary&#xD;
+      endpoints utilising only existing available information. In addition to this data, a&#xD;
+      questionnaire will be provided to each participant to obtain valuable feedback on the scan&#xD;
+      experience.&#xD;
+&#xD;
+      All subjects will undertake the same scan procedure, requiring them to have both breasts&#xD;
+      scanned using the MARIA® system. The MARIA® scan will be in addition to any standard&#xD;
+      diagnostic procedures, including imaging, that comprise the standard of care and will have no&#xD;
+      effect on the participant's diagnosis or treatment. While there is no direct benefit nor&#xD;
+      detrimental effect from this study to the participants, the study has potentially significant&#xD;
+      implications for future learning and for the breast imaging landscape.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2021</start_date>
+  <completion_date type="Anticipated">May 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Validation of MARIA breast classifier for malignant/benign tissue using clinical information</measure>
+    <time_frame>12 months</time_frame>
+    <description>The ground truth diagnosis for each participant will be obtained from clinical diagnosis information pertaining to histology and imaging. This will ultimately lead to a binary classification for that patient of either a benign or malignant diagnosis. This will then be compared to the classification that the AI has determined for that area of the breast volume.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>- Proportion of participants with invasive breast cancer in whom breast cancer is correctly identified by MARIA®</measure>
+    <time_frame>12 months</time_frame>
+    <description>This will compare the number of participants that have been formally diagnosed, via biopsy, with breast cancer to those identified with breast cancer by MARIA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>- Proportion of participants in whom breast cancer is correctly detected using MARIA® compared with mammography, in the overall participants, and stratified by mammographic breast density (BIRADS A-D) and by histological tumour type (DCIS, IDC, ILC)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Further analysis on participants identified with breast cancer, but comparing directly to mammography, and stratifying with breast density and histology.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>- Participant tolerance using data obtained via a questionnaire</measure>
+    <time_frame>12 months</time_frame>
+    <description>Participants asked for their opinion on the MARIA scan experience, likes and dislikes, and also comparison to other modalities.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Breast Cancer</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MARIA</intervention_name>
+    <description>After consent has been given, the participant's breast will be fitted by the operator using a clear plastic cup to ascertain their corresponding MARIA® cup insert size. Once this has been determined, participants will be required to lie prone with their breast pendent through an aperture in the MARIA® participant bed. The cup insert will contain a layer of coupling fluid. The hemispherical cup inserts and array are brought into contact with the breast. A scan sequence comprising of two complete scan rotations will then be performed, which takes around 5 minutes. The participant will then be assisted to adjust their positioning, and the scan sequence performed on the other breast.</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria&#xD;
+&#xD;
+        To be eligible to participate in this study, a subject must meet all the following&#xD;
+        criteria:&#xD;
+&#xD;
+          -  Attending a symptomatic clinic or other appointment at a participating site&#xD;
+&#xD;
+          -  Female sex&#xD;
+&#xD;
+          -  18 years or older&#xD;
+&#xD;
+          -  Able to provide informed consent&#xD;
+&#xD;
+          -  Not in any identified, vulnerable group&#xD;
+&#xD;
+        Exclusion Criteria&#xD;
+&#xD;
+        A potential subject who meets any of the following criteria will be excluded from&#xD;
+        participation in this study:&#xD;
+&#xD;
+          -  Unable to mount MARIA® participant bed&#xD;
+&#xD;
+          -  Unable to lie in the prone position for a period of up to 5 minutes&#xD;
+&#xD;
+          -  Participants who have undergone biopsy less than 5 days before the MARIA® scan&#xD;
+&#xD;
+          -  Participants with implanted electronics&#xD;
+&#xD;
+          -  Participants with breast implants&#xD;
+&#xD;
+          -  Participants with nipple piercings (unless they are removed prior to the MARIA® scan)&#xD;
+&#xD;
+          -  Breast sizes too small or too large to be suitable&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>We are currently contraindicated against being able to scan male breasts.</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 21, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 20, 2021</study_first_posted>
+  <last_update_submitted>May 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>breast imaging</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

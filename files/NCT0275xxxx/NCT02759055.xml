@@ -1,0 +1,689 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02759055</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HL128614-01</org_study_id>
+    <nct_id>NCT02759055</nct_id>
+  </id_info>
+  <brief_title>Pre-Diabetes Cardiovascular (CV) Care (Pre-Diabetes Wizard)</brief_title>
+  <official_title>Improving Prediabetes Cardiovascular Care With EHR-Based Decision Support</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HealthPartners Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Essentia Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HealthPartners Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Nearly one in three adults has prediabetes, a condition that substantially increases the risk&#xD;
+      of heart attacks and stroke. The increased cardiovascular risk associated with prediabetes&#xD;
+      can be effectively managed by lifestyle changes or medication therapy, but recent data shows&#xD;
+      few prediabetes patients are treated effectively. In this project, we will adapt, implement,&#xD;
+      and evaluate a proven electronic health record-linked, web-based clinical decision support&#xD;
+      system to identify patients with prediabetes and provide prioritized treatment&#xD;
+      recommendations to patients and providers in a rural health system. The results of the&#xD;
+      project will provide a template for implementation of more efficient and effective rural&#xD;
+      healthcare and have the potential to substantially and improve cardiovascular quality of care&#xD;
+      and clinical outcomes of millions of rural Americans with prediabetes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Nearly one in three adults in rural communities has prediabetes, a condition that increases&#xD;
+      the risk of heart attacks and stroke but can be managed by use of metformin, lifestyle&#xD;
+      interventions, and control of major cardiovascular (CV) risk factors. However, current&#xD;
+      prediabetes care is characterized by: (a) delayed recognition of prediabetes; (b) patient&#xD;
+      unawareness of effective treatment options for prediabetes; (c) poor control of concomitant&#xD;
+      major CV risk factors; (d) very low rates of metformin initiation; and (e) low rates of&#xD;
+      follow up to assess ongoing effectiveness of prediabetes management.1-3 Increased use of&#xD;
+      electronic health records (EHR) in rural communities now provides a new opportunity to&#xD;
+      improve awareness and management of prediabetes and to reduce these patients' significant CV&#xD;
+      risk burden. In this project, we implement and evaluate an EHR-linked, Web-based clinical&#xD;
+      decision support (CDS) system that identifies patients with prediabetes and provides patients&#xD;
+      and their primary care providers personalized, evidence-based CDS and follow up to reduce&#xD;
+      risk of heart attacks or stroke. To accomplish this objective, we randomly allocate 30&#xD;
+      primary care clinics with their 450 primary care providers and estimated 17,000 prediabetes&#xD;
+      patients to one of two intervention arms: Usual Care; or else the prediabetes CDS to optimize&#xD;
+      management and follow up of prediabetes patients with uncontrolled CV risk factors.&#xD;
+      Random-effects models assess intervention impact on: (a) American College of&#xD;
+      Cardiology/American Heart Association (ACC/AHA) pooled CV risk; (b) major CV risk factors&#xD;
+      (blood pressure, lipids, HbA1c, smoking, and BMI); (c) use of evidence-based drugs, including&#xD;
+      metformin, and lifestyle interventions to manage prediabetes; and (d) patient and provider&#xD;
+      satisfaction with the intervention strategy. We also conduct a state-of-the-art cost and a&#xD;
+      cost-effectiveness analysis of the interventions relative to usual care. The Reach,&#xD;
+      Effectiveness, Adoption, Implementation, and Maintenance (RE-AIM) framework, supplemented by&#xD;
+      the Consolidated Framework for Implementation Research (CFIR), is used to assess&#xD;
+      implementation processes and outcomes in a rural/urban health system.&#xD;
+&#xD;
+      The results of the project will provide a template for implementation of personalized CDS&#xD;
+      tools in rural and urban health settings, resulting in more efficient and effective rural&#xD;
+      healthcare that can be broadly applied across many clinical domains, incorporates patient&#xD;
+      treatment preferences, and has the potential to substantially improve the quality of CV care&#xD;
+      and clinical outcomes of millions of Americans with prediabetes residing in medically&#xD;
+      underserved areas.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2016</start_date>
+  <completion_date type="Actual">December 31, 2019</completion_date>
+  <primary_completion_date type="Actual">December 31, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predicted Annual Rate of Change in 10 Year Risk of Fatal or Nonfatal Heart Attack or Stroke</measure>
+    <time_frame>Index visit to 12 months post index visit</time_frame>
+    <description>10-year cardiovascular risk was calculated at the index and all post-index patient encounters. A comparison of the difference in model-estimated annual rate of change in cardiovascular risk in Clinical Decision Support versus Usual Care clinics tested the primary efficacy hypothesis. The American College of Cardiology/American Heart Association (ACC/AHA) pooled CV risk calculator provides sex- and race-specific 10-year risk estimates for the first ASCVD event for black &amp; white men &amp; women aged 40-79 years. Variables included in risk assessment equations: age, total cholesterol, high-density lipoprotein cholesterol (HDL-C), systolic blood pressure (SBP) diabetes mellitus (diabetes), and current smoking status. 10-year risk for ASCVD categorized as: Low (&lt;5%), Borderline (5% to 7.4%), Intermediate (7.5% to 19.9%), High (≥20%). Numerator: Rate of change in Clinical Decision Support. Denominator: Rate of change in Usual Care. Relative Risk &lt; 1 supports primary hypothesis.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">21664</enrollment>
+  <condition>Pre-diabetes</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support (CV Wizard)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In the Intervention arm, primary care providers will be provided with an EHR-linked, Web-based clinical decision support system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke, optimizing management and follow up of pre-diabetes patients with uncontrolled CV risk factors.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>In the No Intervention arm, patients receive usual care from their primary care clinic and care providers.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Clinical Decision Support</intervention_name>
+    <description>an EHR-linked, Web-based clinical decision support (CDS) system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke</description>
+    <arm_group_label>Clinical Decision Support (CV Wizard)</arm_group_label>
+    <other_name>CV Wizard</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Pre-Diabetes Diagnosis or Clinical Lab Values and&#xD;
+&#xD;
+          -  One or more of the following CV risk factors: Current smoking, Hypertension, elevated&#xD;
+             LDL, or BMI not within normal range, AND&#xD;
+&#xD;
+          -  at least one subsequent primary care visit to a randomized clinic 12 to 24 months&#xD;
+             after the index visit.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Evidence of Diabetes in the previous 12 months&#xD;
+&#xD;
+          -  Pregnant&#xD;
+&#xD;
+          -  Hospice care or Chemotherapy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Daniel Saman, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Essentia Institute of Rural Health</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Essentia Health</name>
+      <address>
+        <city>Duluth</city>
+        <state>Minnesota</state>
+        <zip>55805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Karve A, Hayward RA. Prevalence, diagnosis, and treatment of impaired fasting glucose and impaired glucose tolerance in nondiabetic U.S. adults. Diabetes Care. 2010 Nov;33(11):2355-9. doi: 10.2337/dc09-1957. Epub 2010 Aug 19.</citation>
+    <PMID>20724649</PMID>
+  </reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>April 27, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 28, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 3, 2016</study_first_posted>
+  <results_first_submitted>December 29, 2020</results_first_submitted>
+  <results_first_submitted_qc>March 15, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">March 16, 2021</results_first_posted>
+  <last_update_submitted>March 15, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 15, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prediabetic State</mesh_term>
+    <mesh_term>Glucose Intolerance</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 5, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/55/NCT02759055/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Clinical Decision Support (CV Wizard)</title>
+          <description>In the Intervention arm, primary care providers will be provided with an Electronic Health Record-linked, Web-based clinical decision support system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke, optimizing management and follow up of pre-diabetes patients with uncontrolled cardiovascular risk factors.&#xD;
+Clinical Decision Support: an Electronic Health Record(EHR)-linked, Web-based clinical decision support(CDS) system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke</description>
+        </group>
+        <group group_id="P2">
+          <title>Usual Care</title>
+          <description>In the No Intervention arm, patients receive usual care from their primary care clinic and care providers.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="12702"/>
+                <participants group_id="P2" count="8962"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10775"/>
+                <participants group_id="P2" count="7454"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1927"/>
+                <participants group_id="P2" count="1508"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Patients with no follow-up visit and/or age 18-39 were not included in analyses.</title>
+              <participants_list>
+                <participants group_id="P1" count="1927"/>
+                <participants group_id="P2" count="1508"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>The population included in the analyses are those who had at least one follow-up visit and are age 40-75 at the time of the index visit.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Clinical Decision Support (Cardiovascular Wizard)</title>
+          <description>In the Intervention arm, primary care providers will be provided with an Electronic Health Record-linked, Web-based clinical decision support system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based Clinical Decision Support and follow up to reduce risk of heart attacks or stroke, optimizing management and follow up of pre-diabetes patients with uncontrolled cardiovascular risk factors.&#xD;
+Clinical Decision Support: an Electronic Health Record-linked, Web-based clinical decision support (CDS) system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke</description>
+        </group>
+        <group group_id="B2">
+          <title>Usual Care</title>
+          <description>In the No Intervention arm, patients receive usual care from their primary care clinic and care providers.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="10775"/>
+            <count group_id="B2" value="7454"/>
+            <count group_id="B3" value="18229"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6331"/>
+                    <measurement group_id="B2" value="4713"/>
+                    <measurement group_id="B3" value="11044"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4444"/>
+                    <measurement group_id="B2" value="2741"/>
+                    <measurement group_id="B3" value="7185"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="61.2" spread="8.8"/>
+                    <measurement group_id="B2" value="60.5" spread="8.8"/>
+                    <measurement group_id="B3" value="60.9" spread="8.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5428"/>
+                    <measurement group_id="B2" value="3808"/>
+                    <measurement group_id="B3" value="9236"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5347"/>
+                    <measurement group_id="B2" value="3646"/>
+                    <measurement group_id="B3" value="8993"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="49"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="79"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10726"/>
+                    <measurement group_id="B2" value="7424"/>
+                    <measurement group_id="B3" value="18150"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="172"/>
+                    <measurement group_id="B2" value="52"/>
+                    <measurement group_id="B3" value="224"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="40"/>
+                    <measurement group_id="B2" value="36"/>
+                    <measurement group_id="B3" value="76"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="77"/>
+                    <measurement group_id="B2" value="38"/>
+                    <measurement group_id="B3" value="115"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10399"/>
+                    <measurement group_id="B2" value="7299"/>
+                    <measurement group_id="B3" value="17698"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="78"/>
+                    <measurement group_id="B2" value="24"/>
+                    <measurement group_id="B3" value="102"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10775"/>
+                    <measurement group_id="B2" value="7454"/>
+                    <measurement group_id="B3" value="18229"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Cardiovascular Risk</title>
+          <description>The American College of Cardiology/American Heart Association 10-year pooled atherosclerotic cardiovascular disease risk engine was used for 40-75 years olds, using the index visit values of systolic Blood Pressure, High Density Lipoproteins, total cholesterol, Body Mass Index, and smoking status. A lower result is better. Results range from Low-risk (&lt;5%), Borderline risk (5% to 7.4%), Intermediate risk (7.5% to 19.9%), and High risk (≥20%). Statistical modeling to create the risk assessment tool was developed using a variety of participants from several large, diverse NHLBI-sponsored studies</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11.2" spread="8.3"/>
+                    <measurement group_id="B2" value="11.1" spread="8.4"/>
+                    <measurement group_id="B3" value="11.2" spread="8.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Predicted Annual Rate of Change in 10 Year Risk of Fatal or Nonfatal Heart Attack or Stroke</title>
+        <description>10-year cardiovascular risk was calculated at the index and all post-index patient encounters. A comparison of the difference in model-estimated annual rate of change in cardiovascular risk in Clinical Decision Support versus Usual Care clinics tested the primary efficacy hypothesis. The American College of Cardiology/American Heart Association (ACC/AHA) pooled CV risk calculator provides sex- and race-specific 10-year risk estimates for the first ASCVD event for black &amp; white men &amp; women aged 40-79 years. Variables included in risk assessment equations: age, total cholesterol, high-density lipoprotein cholesterol (HDL-C), systolic blood pressure (SBP) diabetes mellitus (diabetes), and current smoking status. 10-year risk for ASCVD categorized as: Low (&lt;5%), Borderline (5% to 7.4%), Intermediate (7.5% to 19.9%), High (≥20%). Numerator: Rate of change in Clinical Decision Support. Denominator: Rate of change in Usual Care. Relative Risk &lt; 1 supports primary hypothesis.</description>
+        <time_frame>Index visit to 12 months post index visit</time_frame>
+        <population>The patients whose data were included in the primary outcome analysis were those who met eligibility criteria in the eligibility table.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Clinical Decision Support (CV Wizard)</title>
+            <description>In the Intervention arm, primary care providers will be provided with an Electronic Health Record-linked, Web-based clinical decision support system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based Clinical Decision Support and follow up to reduce risk of heart attacks or stroke, optimizing management and follow up of pre-diabetes patients with uncontrolled cardiovascular risk factors.&#xD;
+Clinical Decision Support: an EHR-linked, Web-based clinical decision support (CDS) system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke</description>
+          </group>
+          <group group_id="O2">
+            <title>Usual Care</title>
+            <description>In the No Intervention arm, patients receive usual care from their primary care clinic and care providers.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Predicted Annual Rate of Change in 10 Year Risk of Fatal or Nonfatal Heart Attack or Stroke</title>
+          <description>10-year cardiovascular risk was calculated at the index and all post-index patient encounters. A comparison of the difference in model-estimated annual rate of change in cardiovascular risk in Clinical Decision Support versus Usual Care clinics tested the primary efficacy hypothesis. The American College of Cardiology/American Heart Association (ACC/AHA) pooled CV risk calculator provides sex- and race-specific 10-year risk estimates for the first ASCVD event for black &amp; white men &amp; women aged 40-79 years. Variables included in risk assessment equations: age, total cholesterol, high-density lipoprotein cholesterol (HDL-C), systolic blood pressure (SBP) diabetes mellitus (diabetes), and current smoking status. 10-year risk for ASCVD categorized as: Low (&lt;5%), Borderline (5% to 7.4%), Intermediate (7.5% to 19.9%), High (≥20%). Numerator: Rate of change in Clinical Decision Support. Denominator: Rate of change in Usual Care. Relative Risk &lt; 1 supports primary hypothesis.</description>
+          <population>The patients whose data were included in the primary outcome analysis were those who met eligibility criteria in the eligibility table.</population>
+          <units>units on a scale</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10775"/>
+                <count group_id="O2" value="7454"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.100" lower_limit="1.097" upper_limit="1.103"/>
+                    <measurement group_id="O2" value="1.096" lower_limit="1.029" upper_limit="1.101"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.05</p_value>
+            <method>Mixed Models Analysis</method>
+            <param_type>Risk Ratio (RR)</param_type>
+            <param_value>1.003</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.998</ci_lower_limit>
+            <ci_upper_limit>1.008</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Up to 30 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Clinical Decision Support (Cardiovascular Wizard)</title>
+          <description>In the Intervention arm, primary care providers will be provided with an EHR-linked, Web-based clinical decision support system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke, optimizing management and follow up of pre-diabetes patients with uncontrolled cardiovascular risk factors.&#xD;
+Clinical Decision Support: an EHR-linked, Web-based clinical decision support (CDS) system that identifies patients with prediabetes and provides patients and their primary care providers personalized, evidence-based CDS and follow up to reduce risk of heart attacks or stroke</description>
+        </group>
+        <group group_id="E2">
+          <title>Usual Care</title>
+          <description>In the No Intervention arm, patients receive usual care from their primary care clinic and care providers.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="207" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="159" subjects_at_risk="7454"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1836" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="1360" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Hospitalizations</sub_title>
+                <description>It was pre-specified to monitor only hospitalizations and the laboratory values listed below for Serious and Other Adverse Events.</description>
+                <counts group_id="E1" subjects_affected="1836" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="1360" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="339" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="255" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Metabolism and nutrition disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Serum Potassium &lt;= 3.0 mg/dl</sub_title>
+                <counts group_id="E1" subjects_affected="138" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="97" subjects_at_risk="7454"/>
+              </event>
+              <event>
+                <sub_title>Serum Potassium &gt;= 6.5 mg/dl †</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Musculoskeletal and connective tissue disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Serum Total CK &gt;= 1200 mg/dl †</sub_title>
+                <counts group_id="E1" subjects_affected="17" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="8" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>SBP &lt; 90 mm Hg †</sub_title>
+                <counts group_id="E1" subjects_affected="154" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="121" subjects_at_risk="7454"/>
+              </event>
+              <event>
+                <sub_title>SBP &gt;= 200 mm Hg †</sub_title>
+                <counts group_id="E1" subjects_affected="40" subjects_at_risk="10775"/>
+                <counts group_id="E2" subjects_affected="36" subjects_at_risk="7454"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>CDS use was lower than the 80% target rate. Many patients had limited geographic or financial access to diabetes prevention programs. Due to differences in risk equations for patients age 40-75 (American College Cardiology/American Heart Association 10-year) and age 18-40 (Framingham 30 year), and missing lipid data in younger adults, the main analysis focused on age 40-75 years. Many with prediabetes had only modest potential for cardiovascular risk reductions clinicians may not prioritize.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Patrick J O'Connor</name_or_title>
+      <organization>HealthPartners Institute</organization>
+      <phone>952-967-5034</phone>
+      <email>Patrick.J.OConnor@HealthPartners.Com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

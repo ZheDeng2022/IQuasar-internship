@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04878497</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019P000110-NOAC</org_study_id>
+    <nct_id>NCT04878497</nct_id>
+  </id_info>
+  <brief_title>Prospective Monitoring of Non-Vitamin K Oral Anticoagulants in Older Adults With Atrial Fibrillation and Frailty</brief_title>
+  <official_title>Prospective Monitoring of Non-Vitamin K Oral Anticoagulants in Older Adults With Atrial Fibrillation and Frailty</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to establish a near-real-time prospective monitoring program&#xD;
+      in Medicare, Optum and MarketScan Research data to evaluate the benefit of new cardiovascular&#xD;
+      disease (CVD) drugs for older adults with frailty. Prospective monitoring program seeks to&#xD;
+      find early effectiveness and safety signals of new drugs by updating the analysis at regular&#xD;
+      intervals as new Medicare data become available. This study specifically aims to emulate a&#xD;
+      prospective surveillance of the effectiveness and safety of non-vitamin K oral anticoagulants&#xD;
+      (NOAC) vs. a comparator, warfarin, in older adults with atrial fibrillation and different&#xD;
+      frailty status. This program will be enhanced by incorporating a novel claims-based frailty&#xD;
+      index, which has been shown useful in assessing how the benefits and harms of drug therapy&#xD;
+      vary by frailty.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Data sources of use for this study are: Medicare Database, Optum Database, and MarketScan&#xD;
+      Research Database. All data from years 2013-2020 (available data may vary depending on the&#xD;
+      database) will be analyzed in the study.&#xD;
+&#xD;
+      This study follows a sequential cohort monitoring design. The monitoring analysis will&#xD;
+      include 1) retrospective analysis of available data (2013-2018) at the time of first analysis&#xD;
+      (April 2021) and 2) prospective analysis of new data (2019-2020) as they become available to&#xD;
+      the researchers. Within each database and by frailty status (frail vs non-frail), the&#xD;
+      investigators will emulate annual updating of data by creating a propensity score&#xD;
+      (PS)-matched cohort of new users every 1-year interval. Each sequential cohort will be&#xD;
+      followed for development of the outcomes of interest. At the end of each interval,&#xD;
+      time-to-event data from all sequential cohorts will be pooled for outcome analysis. The&#xD;
+      surveillance will be performed by frailty status (frail vs non-frail) at the time of drug&#xD;
+      initiation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 30, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of patients with composite events of stroke or systemic embolism</measure>
+    <time_frame>January 2013 - December 2020 (after drug initiation)</time_frame>
+    <description>Stroke OR systemic embolism, identified by relevant diagnoses in the claims data</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of patients with major bleeding</measure>
+    <time_frame>January 2013 - December 2020 (after drug initiation)</time_frame>
+    <description>Major bleeding, identified by relevant diagnoses in the claims data</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with all-cause mortality</measure>
+    <time_frame>January 2013 - December 2020 (after drug initiation)</time_frame>
+    <description>All-cause mortality is defined by the National Death Index file or vital status information in the claims data.</description>
+  </secondary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">1000000</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Frailty</condition>
+  <condition>Anticoagulant-induced Bleeding</condition>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Warfarin</arm_group_label>
+    <description>New users of warfarin</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dabigatran</arm_group_label>
+    <description>New users of dabigatran</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Rivaroxaban</arm_group_label>
+    <description>New users of rivaroxaban</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Apixaban</arm_group_label>
+    <description>New users of apixaban</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Edoxaban</arm_group_label>
+    <description>New users of edoxaban</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Warfarin</intervention_name>
+    <description>Initiation of warfarin, identified using prescription fill in pharmacy claims</description>
+    <arm_group_label>Warfarin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dabigatran</intervention_name>
+    <description>Initiation of dabigatran, identified using prescription fill in pharmacy claims</description>
+    <arm_group_label>Dabigatran</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Rivaroxaban</intervention_name>
+    <description>Initiation of rivaroxaban, identified using prescription fill in pharmacy claims</description>
+    <arm_group_label>Rivaroxaban</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Apixaban</intervention_name>
+    <description>Initiation of apixaban, identified using prescription fill in pharmacy claims</description>
+    <arm_group_label>Apixaban</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Edoxaban</intervention_name>
+    <description>Initiation of edoxaban, identified using prescription fill in pharmacy claims</description>
+    <arm_group_label>Edoxaban</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Study population includes older patients with non-valvular AF who initiates warfarin or a&#xD;
+        NOAC.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Initiation of a NOAC or warfarin (day 0 is the initiation day)&#xD;
+&#xD;
+          -  Continuous enrollment in medical and drug insurance in [-183, 0] days&#xD;
+&#xD;
+          -  Diagnosis of AF in [-183, 0] days&#xD;
+&#xD;
+          -  CHA2DS2-VASc score ≥2 (moderate or high risk for stroke)&#xD;
+&#xD;
+          -  No prior use of NOAC or warfarin in [-183, -1] days&#xD;
+&#xD;
+          -  No recent hospitalization for stroke or major bleeding in [-60, 0] days&#xD;
+&#xD;
+          -  No recent nursing facility stay in [-60, 0] days&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Contraindication to either drug in [-183, 0] days&#xD;
+&#xD;
+          -  Valvular heart disease or mechanical heart valve in [-183, 0] days&#xD;
+&#xD;
+          -  Intracranial or retroperitoneal hemorrhage in [-183, 0] days&#xD;
+&#xD;
+          -  Chronic kidney disease stage V, end-stage renal disease, or dialysis in [-183, 0] days&#xD;
+&#xD;
+          -  Other indications for anticoagulation therapy in [-183, 0] days&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Dae Hyun Kim, MD, MPH, ScD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 7, 2021</study_first_posted>
+  <last_update_submitted>May 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Dae Hyun Kim, MD, MPH, ScD</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Frailty</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Warfarin</mesh_term>
+    <mesh_term>Rivaroxaban</mesh_term>
+    <mesh_term>Dabigatran</mesh_term>
+    <mesh_term>Apixaban</mesh_term>
+    <mesh_term>Edoxaban</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 5, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/97/NCT04878497/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

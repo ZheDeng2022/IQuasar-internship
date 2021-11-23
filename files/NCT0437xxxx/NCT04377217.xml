@@ -1,0 +1,168 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04377217</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18-AOI-03</org_study_id>
+    <nct_id>NCT04377217</nct_id>
+  </id_info>
+  <brief_title>Computerized Facial Recognition for Automated Diagnosis of the Facio-Scapulo-Humeral Muscular Dystrophy (FSMHD)</brief_title>
+  <acronym>CV4DIAGNOSIS</acronym>
+  <official_title>Computerized Facial Recognition for Automated Diagnosis of the Facio-Scapulo-Humeral Muscular Dystrophy (FSMHD): Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire de Nice</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire de Nice</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The clinical diagnosis of Facio-Scapulo-Humeral Muscular Dystrophy (FSHMD) requires the&#xD;
+      movement of patients to a medical centre and a lengthy examination involving medical&#xD;
+      personnel, and may be underestimated in the most moderate cases. Thus, it requires costly and&#xD;
+      burdensome logistics both for patients living in remote areas and having to undertake long&#xD;
+      and expensive travel, and for clinical staff. This is an obstacle to large-scale diagnosis.&#xD;
+      The investigators plan to alleviate these limitations through the use of digital facial&#xD;
+      analysis technology that would enable large-scale diagnosis of patients through telemedicine.&#xD;
+&#xD;
+      Motivated by the reasons described above and by preliminary results, the goal of this project&#xD;
+      is to develop methods to automatically detect and monitor the progression of this disease&#xD;
+      using computer vision algorithms. In order to do this, the investigators will first build up&#xD;
+      a bank of images and videos of patients with moderate to severe FSHMD, patients with other&#xD;
+      muscular dystrophies causing facial muscle asymmetry, as well as control subjects without&#xD;
+      facial involvement. Each of these subjects will be characterized clinically and genetically.&#xD;
+&#xD;
+      The investigators will then develop computer tools using video and audio sensors capable of&#xD;
+      detecting facial muscle damage in patients with FSHMD and differentiating them from control&#xD;
+      subjects on the one hand and patients with other muscular dystrophies on the other hand. The&#xD;
+      investigators wish to use the most recent advances in terms of &quot;deep-learning&quot; and improve&#xD;
+      their architecture in order to achieve our objectives.&#xD;
+&#xD;
+      In addition to this holistic approach, the investigators will study facial recognition&#xD;
+      approaches capable of accurately identifying different facial areas on images, as well as the&#xD;
+      relevance of different statistical properties of facial dynamics (duration and intensity).&#xD;
+      These algorithms will also be useful for monitoring the evolution of facial damage in order&#xD;
+      to develop a specific measurement tool that could be used in patient follow-up and in&#xD;
+      clinical trials on early stages of the disease.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">September 2020</start_date>
+  <completion_date type="Anticipated">March 2021</completion_date>
+  <primary_completion_date type="Anticipated">March 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Video recording</measure>
+    <time_frame>fisrt day</time_frame>
+    <description>Sensitivity and specificity of the algorithm to differentiate FSMHD patients with moderate and severe facial impairment from control subjects</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Facio-Scapulo-Humeral Dystrophy</condition>
+  <arm_group>
+    <arm_group_label>Video recording</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The experimenter will make a standardized video of the patient during the inclusion process, and a second one after 18 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Video recording</intervention_name>
+    <description>The experimenter will make a standardized video of the patient during the inclusion process, and a second one after 18 months, in order to evaluate the evolution of facial damage. Then algorithms will be developped to be able of differentiating FSHMD patients with facial damage from control subjects using video and audio recordings.</description>
+    <arm_group_label>Video recording</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        - Patient belonging to one of these four groups:&#xD;
+&#xD;
+          -  Group 1 FSMHD confirmed or to be confirmed with moderate facial involvement&#xD;
+&#xD;
+          -  Group 2 FSMHD confirmed or to be confirmed with severe facial involvement.&#xD;
+&#xD;
+          -  Group 3 Other disease NM confirmed or to be confirmed.&#xD;
+&#xD;
+          -  Group 4 control subjects.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient presenting all pathologies judged by the investigator to interfere with the&#xD;
+             smooth running of the study (facial trauma, ...).&#xD;
+&#xD;
+          -  Pregnant or breastfeeding women of childbearing age.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Luisa VILLA, Dr</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centre Hospitalier Universitaire de Nice</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Luisa VILLA, Dr</last_name>
+    <phone>492038729</phone>
+    <phone_ext>+33</phone_ext>
+    <email>villa.l@chu-nice.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hopital Pasteur 2</name>
+      <address>
+        <city>Nice</city>
+        <zip>06001</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luisa VILLA, Dr</last_name>
+      <phone>492038729</phone>
+      <phone_ext>+33</phone_ext>
+      <email>villa.l@chu-nice.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>May 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>May 2, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 6, 2020</study_first_posted>
+  <last_update_submitted>August 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Muscular Dystrophies</mesh_term>
+    <mesh_term>Muscular Dystrophy, Facioscapulohumeral</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

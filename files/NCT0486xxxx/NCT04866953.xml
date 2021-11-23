@@ -1,0 +1,377 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04866953</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APP-21-02050</org_study_id>
+    <nct_id>NCT04866953</nct_id>
+  </id_info>
+  <brief_title>UltraMTP in Adult Trauma Patients Undergoing Surgery Within 24 Hours: Effects on Mortality and Clinical Outcomes</brief_title>
+  <official_title>At What Point is Blood Transfusion Futile in Trauma?: A Retrospective Study of Ultra Massive Transfusion Protocol in Adult Trauma Patients Undergoing Surgery Within 24 Hours and Effects on Mortality and Clinical Outcomes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern California</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, Irvine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Davis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Texas</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Miami</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Chicago</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Medical College of Wisconsin</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tulane University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Arkansas</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern California</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the effects of ultraMTP (&gt;/=30 units pRBC within 24&#xD;
+      hours) in trauma patients on mortality and secondary outcomes. The aim is to determine if&#xD;
+      there is a set number of pRBC units transfused in adult trauma patients undergoing surgery&#xD;
+      within 24 hours, after which mortality is inevitable and further transfusions are futile.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Rationale: To determine if there is a set number of pRBC units transfused in adult trauma&#xD;
+      patients undergoing surgery within 24 hours, after which mortality is inevitable and further&#xD;
+      transfusions are futile.&#xD;
+&#xD;
+      Intervention: Blood transfusions administered to adult trauma patients undergoing surgery&#xD;
+      within 24 hours of admission.&#xD;
+&#xD;
+      Objectives/Purpose: The main objective of this study is to examine the outcomes associated&#xD;
+      with large volume transfusions at U.S. level I trauma centers in adult trauma patients&#xD;
+      undergoing surgery within 24 hours of admission. The investigators aim to determine the&#xD;
+      mortality rate associated with ultraMTP (defined as &gt;/= 30 units pRBC within 24 hours), and&#xD;
+      the effects of ultraMTP on secondary outcomes. The investigators would also like to compare&#xD;
+      outcomes among patients who receive various amounts of pRBC units within 24 hours. The&#xD;
+      information learned through this study will aid in determining whether there is a threshold&#xD;
+      transfusion amount, after which outcomes significantly worsen, and resuscitation efforts are&#xD;
+      futile and should cease, in order to save hospital resources, time, and costs.&#xD;
+&#xD;
+      Study Population/Sample Characteristics: Adult trauma patients requiring surgery within 24&#xD;
+      hours of admission who receive blood products.&#xD;
+&#xD;
+      Study Methodology: This is a multicenter, retrospective observational study.&#xD;
+&#xD;
+      Study Endpoints/Outcomes:&#xD;
+&#xD;
+        -  Primary outcome: 24-hour mortality (from the time of admission until 24 hours)&#xD;
+&#xD;
+        -  Secondary outcomes: 1. ICU length of stay (LOS); 2. hospital LOS; 3. MV days; 4.&#xD;
+           Complications; 5. Multiple organ system failure; 6. in hospital mortality; 7. 30-day&#xD;
+           mortality; 8. discharge disposition.&#xD;
+&#xD;
+      Statistics/Analysis Plans:&#xD;
+&#xD;
+      The investigators will construct a logistic regression prediction model to 1) find the cut&#xD;
+      point classifications for pRBC units that optimize model prediction and 2) find additional&#xD;
+      variables that improve the predictive ability of our model. Previous studies on pRBC units&#xD;
+      and mortality have used different category cut points for pRBC units. The investigators will&#xD;
+      examine the functional form of pRBC units in its relationship with mortality to determine if&#xD;
+      there is a &quot;plateau&quot; effect of increasing pRBC units on mortality. The investigators will use&#xD;
+      this information to guide the classification of pRBC unit categories, comparing AIC values&#xD;
+      from several models with differing pRBC category classification cut off points to determine&#xD;
+      which of these are most highly associated with mortality. Using these categories, the&#xD;
+      investigators will then construct the prediction model, using the variables defined in&#xD;
+      Section 12. Interactions between these candidate predictors variables and pRBC units will&#xD;
+      additionally be considered. Model validation will be performed using k-folds&#xD;
+      cross-validation. Model performance will be evaluated by examining discriminative ability&#xD;
+      (area under ROC curve), calibration metrics, and optimism.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 15, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>24-hour mortality</measure>
+    <time_frame>24 hours</time_frame>
+    <description>24-hour mortality (yes/no)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>ICU length of stay</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>ICU length of stay (days)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hospital length of stay</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>hospital length of stay (days)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>mechanical ventilator days</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>mechanical ventilator days</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>complications</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>complications (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Multiple organ system failure</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Multiple organ system failure (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital mortality</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>In-hospital mortality (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>30-day mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>30-day mortality (yes/no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>discharge disposition</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>discharge disposition</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Trauma</condition>
+  <condition>Blood Transfusion Complication</condition>
+  <condition>Death</condition>
+  <arm_group>
+    <arm_group_label>&lt;30 units PRBC</arm_group_label>
+    <description>Patients who underwent surgery within 24 hours of admission and received less than 30 units of pRBC within 24 hours.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>&gt;/=30 units PRBC</arm_group_label>
+    <description>Patients who underwent surgery within 24 hours of admission and received &gt;/=30 units of pRBC within 24 hours.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Blood transfusion</intervention_name>
+    <description>Number of units of blood received within 24 hours of admission</description>
+    <arm_group_label>&lt;30 units PRBC</arm_group_label>
+    <arm_group_label>&gt;/=30 units PRBC</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult trauma patients who underwent surgery within the first 24 hours of admission, who&#xD;
+        received blood products in the first 24 hours.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  &gt;/= 18 years old&#xD;
+&#xD;
+          -  trauma patient&#xD;
+&#xD;
+          -  undergoing surgery within first 24 hours of admission&#xD;
+&#xD;
+          -  received blood products within 24 hours of admission&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  &lt;18-years-old&#xD;
+&#xD;
+          -  no surgery within the first 24 hours&#xD;
+&#xD;
+          -  did not receive blood products within the first 24 hours&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Catherine M Kuza, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern California</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Catherine M Kuza, MD</last_name>
+    <phone>9089176330</phone>
+    <email>catherine.kuza@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jeffry T Nahmias, MD</last_name>
+    <phone>9493073035</phone>
+    <email>jnahmias1@yahoo.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Keck School of Medicine of the University of Southern California</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catherine M Kuza, MD</last_name>
+      <phone>323-442-7400</phone>
+      <email>catherine.kuza@med.usc.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Yu AJ, Inaba K, Biswas S, de Leon LA, Wong M, Benjamin E, Lam L, Demetriades D. Supermassive Transfusion: A 15-Year Single Center Experience and Outcomes. Am Surg. 2018 Oct 1;84(10):1617-1621.</citation>
+    <PMID>30747681</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Consunji R, Elseed A, El-Menyar A, Sathian B, Rizoli S, Al-Thani H, Peralta R. The effect of massive transfusion protocol implementation on the survival of trauma patients: a systematic review and meta-analysis. Blood Transfus. 2020 Nov;18(6):434-445. doi: 10.2450/2020.0065-20. Epub 2020 Sep 18.</citation>
+    <PMID>32955420</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Holcomb JB, Tilley BC, Baraniuk S, Fox EE, Wade CE, Podbielski JM, del Junco DJ, Brasel KJ, Bulger EM, Callcut RA, Cohen MJ, Cotton BA, Fabian TC, Inaba K, Kerby JD, Muskat P, O'Keeffe T, Rizoli S, Robinson BR, Scalea TM, Schreiber MA, Stein DM, Weinberg JA, Callum JL, Hess JR, Matijevic N, Miller CN, Pittet JF, Hoyt DB, Pearson GD, Leroux B, van Belle G; PROPPR Study Group. Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma: the PROPPR randomized clinical trial. JAMA. 2015 Feb 3;313(5):471-82. doi: 10.1001/jama.2015.12.</citation>
+    <PMID>25647203</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Cinat ME, Wallace WC, Nastanski F, West J, Sloan S, Ocariz J, Wilson SE. Improved survival following massive transfusion in patients who have undergone trauma. Arch Surg. 1999 Sep;134(9):964-8; discussion 968-70.</citation>
+    <PMID>10487591</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>McDaniel LM, Etchill EW, Raval JS, Neal MD. State of the art: massive transfusion. Transfus Med. 2014 Jun;24(3):138-44. doi: 10.1111/tme.12125. Review.</citation>
+    <PMID>24889805</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hakala P, Hiippala S, Syrjälä M, Randell T. Massive blood transfusion exceeding 50 units of plasma poor red cells or whole blood: the survival rate and the occurrence of leukopenia and acidosis. Injury. 1999 Nov;30(9):619-22.</citation>
+    <PMID>10707230</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Giancarelli A, Birrer KL, Alban RF, Hobbs BP, Liu-DeRyke X. Hypocalcemia in trauma patients receiving massive transfusion. J Surg Res. 2016 May 1;202(1):182-7. doi: 10.1016/j.jss.2015.12.036. Epub 2015 Dec 30.</citation>
+    <PMID>27083965</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Moore FA, Moore EE, Sauaia A. Blood transfusion. An independent risk factor for postinjury multiple organ failure. Arch Surg. 1997 Jun;132(6):620-4; discussion 624-5.</citation>
+    <PMID>9197854</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Johnson JL, Moore EE, Kashuk JL, Banerjee A, Cothren CC, Biffl WL, Sauaia A. Effect of blood products transfusion on the development of postinjury multiple organ failure. Arch Surg. 2010 Oct;145(10):973-7. doi: 10.1001/archsurg.2010.216.</citation>
+    <PMID>20956766</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Malone DL, Dunne J, Tracy JK, Putnam AT, Scalea TM, Napolitano LM. Blood transfusion, independent of shock severity, is associated with worse outcome in trauma. J Trauma. 2003 May;54(5):898-905; discussion 905-7.</citation>
+    <PMID>12777902</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Charles A, Shaikh AA, Walters M, Huehl S, Pomerantz R. Blood transfusion is an independent predictor of mortality after blunt trauma. Am Surg. 2007 Jan;73(1):1-5.</citation>
+    <PMID>17249446</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Mitra B, O'Reilly G, Cameron PA, Zatta A, Gruen RL. Effectiveness of massive transfusion protocols on mortality in trauma: a systematic review and meta-analysis. ANZ J Surg. 2013 Dec;83(12):918-23. doi: 10.1111/ans.12417. Epub 2013 Oct 21.</citation>
+    <PMID>24147731</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ellingson KD, Sapiano MRP, Haass KA, Savinkina AA, Baker ML, Chung KW, Henry RA, Berger JJ, Kuehnert MJ, Basavaraju SV. Continued decline in blood collection and transfusion in the United States-2015. Transfusion. 2017 Jun;57 Suppl 2:1588-1598. doi: 10.1111/trf.14165.</citation>
+    <PMID>28591469</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Vaslef SN, Knudsen NW, Neligan PJ, Sebastian MW. Massive transfusion exceeding 50 units of blood products in trauma patients. J Trauma. 2002 Aug;53(2):291-5; discussion 295-6.</citation>
+    <PMID>12169936</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Toner RW, Pizzi L, Leas B, Ballas SK, Quigley A, Goldfarb NI. Costs to hospitals of acquiring and processing blood in the US: a survey of hospital-based blood banks and transfusion services. Appl Health Econ Health Policy. 2011;9(1):29-37. doi: 10.2165/11530740-000000000-00000.</citation>
+    <PMID>21174480</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Como JJ, Dutton RP, Scalea TM, Edelman BB, Hess JR. Blood transfusion rates in the care of acute trauma. Transfusion. 2004 Jun;44(6):809-13.</citation>
+    <PMID>15157244</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Criddle LM, Eldredge DH, Walker J. Variables predicting trauma patient survival following massive transfusion. J Emerg Nurs. 2005 Jun;31(3):236-42; quiz 320.</citation>
+    <PMID>15983575</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dzik WS, Ziman A, Cohn C, Pai M, Lozano M, Kaufman RM, Delaney M, Selleng K, Murphy MF, Hervig T, Yazer M; Biomedical Excellence for Safer Transfusion Collaborative. Survival after ultramassive transfusion: a review of 1360 cases. Transfusion. 2016 Mar;56(3):558-63. doi: 10.1111/trf.13370. Epub 2015 Oct 9. Review. Erratum in: Transfusion. 2016 May;56(5):1249.</citation>
+    <PMID>26450364</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Robinson WP 3rd, Ahn J, Stiffler A, Rutherford EJ, Hurd H, Zarzaur BL, Baker CC, Meyer AA, Rich PB. Blood transfusion is an independent predictor of increased mortality in nonoperatively managed blunt hepatic and splenic injuries. J Trauma. 2005 Mar;58(3):437-44; discussion 444-5.</citation>
+    <PMID>15761334</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Stanworth SJ, Morris TP, Gaarder C, Goslings JC, Maegele M, Cohen MJ, König TC, Davenport RA, Pittet JF, Johansson PI, Allard S, Johnson T, Brohi K. Reappraising the concept of massive transfusion in trauma. Crit Care. 2010;14(6):R239. doi: 10.1186/cc9394. Epub 2010 Dec 30.</citation>
+    <PMID>21192812</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Huber-Wagner S, Qvick M, Mussack T, Euler E, Kay MV, Mutschler W, Kanz KG; Working Group on Polytrauma of German Trauma Society (DGU). Massive blood transfusion and outcome in 1062 polytrauma patients: a prospective study based on the Trauma Registry of the German Trauma Society. Vox Sang. 2007 Jan;92(1):69-78.</citation>
+    <PMID>17181593</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Kivioja A, Myllynen P, Rokkanen P. Survival after massive transfusions exceeding four blood volumes in patients with blunt injuries. Am Surg. 1991 Jun;57(6):398-401.</citation>
+    <PMID>2048855</PMID>
+  </results_reference>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>April 19, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 30, 2021</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Southern California</investigator_affiliation>
+    <investigator_full_name>Catherine Kuza, MD</investigator_full_name>
+    <investigator_title>Assistant Professor of Anesthesiology</investigator_title>
+  </responsible_party>
+  <keyword>trauma</keyword>
+  <keyword>massive transfusion protocol</keyword>
+  <keyword>ultra massive transfusion protocol</keyword>
+  <keyword>mortality</keyword>
+  <keyword>outcomes</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Transfusion Reaction</mesh_term>
+    <mesh_term>Wounds and Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

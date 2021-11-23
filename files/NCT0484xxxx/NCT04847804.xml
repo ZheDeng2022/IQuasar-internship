@@ -1,0 +1,406 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04847804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CRE2021.188</org_study_id>
+    <nct_id>NCT04847804</nct_id>
+  </id_info>
+  <brief_title>Large-scale COVID-19 Population Screening</brief_title>
+  <official_title>Large-scale Population Screening of Pooled Viral Nucleic Acid Samples Using Concurrent Isothermal Amplification and Electrochemical Detection for Novel Infectious Diseases on a Disposable Chip</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hong Kong University of Science and Technology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Chinese University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Prince of Wales Hospital, Shatin, Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Hong Kong University of Science and Technology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Infectious diseases pose a threat to the life of individuals worldwide. The pandemic has&#xD;
+      highlighted the need to develop an innovative and cost- effective large population-based&#xD;
+      screening methodology. The investigators propose a two-fold improvement barcode-labeled&#xD;
+      testing strategy specifically for pooled samples. This platform combines isothermal&#xD;
+      amplification and real-time electrochemical detection; electroactive modified loop probes&#xD;
+      will be used in the amplification step for barcode readout. This method enables four samples&#xD;
+      pooled detection at the same time. This platform will be integrated into a disposable&#xD;
+      microfluidic chip that allows minimal human intervention during the process to realize a&#xD;
+      massively parallel screening platform for infectious disease pathogens.&#xD;
+&#xD;
+      Objectives&#xD;
+&#xD;
+        1. To develop a sensing method for concurrent electrochemical-tag coded isothermal&#xD;
+           amplification and real-time electrochemical detection;&#xD;
+&#xD;
+        2. To design a molecular strategy to barcode four individual samples so that they can be&#xD;
+           pooled together and to simultaneously amplify and identify a positive individual, if&#xD;
+           any, from the pooled sample.&#xD;
+&#xD;
+        3. To fabricate a microfluidic device integrating the sample processor and barcoding module&#xD;
+           with the nucleic acid amplification and detection step for large-scale population&#xD;
+           screening of up to 100 individuals.&#xD;
+&#xD;
+        4. To validate the performance of the prototype using clinical specimens and benchmark it&#xD;
+           against the detection data from commercially available testing equipment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Rapid host-to-host transmissions coupled with the ease of international travel has led to&#xD;
+      epidemics such as H5N1, H5N5, SARS, and, most recently, the COVID-19 pandemic. Traditional&#xD;
+      epidemic control measures, such as contact tracing and physical isolation, are paramount to&#xD;
+      mitigate the extent of disease spread at the early stage of the pandemic and these strategies&#xD;
+      depend on the accuracy and speed of diagnosing suspected patients.&#xD;
+&#xD;
+      Now the gold standard for pathogen detection is nucleic acid detection via polymerase chain&#xD;
+      reaction (PCR). However, this strategy is limited by the turnaround time, expensive PCR&#xD;
+      machine, and potential number of infections. Thus, other isothermal amplification methods are&#xD;
+      often used to circumvent the need for extra instrumentation and speed up the whole detection&#xD;
+      procedure.&#xD;
+&#xD;
+      One approach to improve infectious disease screening efficiency is the popular Dorfman&#xD;
+      testing, where samples are pooled together and tested at the same time to reduce the total&#xD;
+      number of tests performed. However, the Dorfman testing is limited to low prevalence&#xD;
+      population and has reduced sensitivity; Barcoding strategy has also been introduced to solve&#xD;
+      pooling sample test. In 2020, Schmid-Burk and his colleagues combined LAMP and barcoding&#xD;
+      which successfully developed COVID-19 from 100,000 pooled samples. However, the need of a&#xD;
+      expensive next-generation sequencer limits its widespread use.&#xD;
+&#xD;
+      Methods&#xD;
+&#xD;
+      The proposed platform aims at development of a multistep process in one device, and the&#xD;
+      capability of identifying the source of positive signals from pooled samples. The proposed&#xD;
+      design will take advantage of a barcoding strategy to tag multiple sources of analytes prior&#xD;
+      to pooling, a combination of isothermal amplification and sequence-specific electrochemical&#xD;
+      detection, and the integration of several steps in one simple device. The research project&#xD;
+      methodology will be divided into three parts.&#xD;
+&#xD;
+      (i) To develop an isothermal amplification method and real-time detection using&#xD;
+      electroactive-labelled loop oligonucleotide probes&#xD;
+&#xD;
+      The investigators have recently conceptualized a method, for which the investigators have&#xD;
+      filed a US provisional patent protection. This new technique performs the isothermal&#xD;
+      amplification and electrochemical detection of amplicons simultaneously based on&#xD;
+      Loop-mediated isothermal amplification (LAMP). The proposed scheme involves a one-pot&#xD;
+      amplification and detection system in which an electrochemical reporter is attached to one of&#xD;
+      the primers and a nicking enzyme is added to cleave the reporter only when amplification&#xD;
+      occurs. In one reaction, a template DNA is designed to have two pairs of primer binding&#xD;
+      sites: an outer pair of forward and backward primers (FP and BP) and an inner pair of&#xD;
+      primers, namely, an electrochemically labeled loop probe (LP) and an assistant probe (AP).&#xD;
+      The FP and LP bind to the same strand of the double-stranded DNA (dsDNA) template while the&#xD;
+      BP and AP bind to the opposite strand. The LP contains an electroactive label at the 5' end&#xD;
+      and a 3' overhanging segment complementary to the target DNA sequence. The stem region&#xD;
+      contains the recognition sequence of a nicking enzyme, but a mismatch is introduced to the&#xD;
+      last nucleotide so that it will not be cleaved without the presence of the target DNA. The&#xD;
+      start of the reaction is similar to ordinary LAMP, a double-loop amplicon can be produced,&#xD;
+      and the reaction can come into the double loop amplification stage. Each of the double-loop&#xD;
+      amplicons can be regarded as a signal amplification unit. Once the labeled LP is combined&#xD;
+      with the amplicon and form a cleavage site that can be recognized by the nick enzyme, an&#xD;
+      electroactive label can be released, and an electrochemical signal will be generated. The&#xD;
+      preliminary results indicate that the strategy is able to detect up to 0.1 fg/μL,&#xD;
+      corresponding to around 10 copies/μL of the input DNA, by using a methylene blue&#xD;
+      electroactive reporter on four-array screen-printed carbon electrodes (SPCEs) within 30 min.&#xD;
+      The succeeding steps include incorporating a reverse transcription step for the detection of&#xD;
+      RNA samples and testing the system in complex matrices to mimic actual biological fluids.&#xD;
+&#xD;
+      (ii) To design a molecular strategy to barcode four individual samples so that they can be&#xD;
+      pooled together and to simultaneously amplify and identify the positive individual, if any,&#xD;
+      from the pooled sample.&#xD;
+&#xD;
+      By designing four barcode sequences, the investigators are able to construct tagged cDNA&#xD;
+      products through reverse transcription by BST enzyme. Thermolabile exonuclease I is added to&#xD;
+      digest unreacted single strand barcode primers. In addition, the cDNA-RNA duplex product is&#xD;
+      digested by RNase H to yield a single-stranded cDNA (ID-template).The pooled mixture of&#xD;
+      ID-templates is amplified through the same process described in the previous section. Only&#xD;
+      those samples with the RNA virus will generate positive electrochemical signals.&#xD;
+&#xD;
+      In this part, the investigators will use synthesis virus RNA or commercial extracted virus&#xD;
+      total RNA as a detection template. The spiked samples can be mocked by mixing with human deep&#xD;
+      throat saliva or nasopharyngeal swabs from healthy volunteers.&#xD;
+&#xD;
+      (iii) To fabricate a microfluidic device to integrate the sample processor and barcoding&#xD;
+      module with the nucleic acid amplification and detection step for large-scale population&#xD;
+      screening&#xD;
+&#xD;
+      In this project, the investigators design a simple and easy-to-use microfluidic pen-like&#xD;
+      device that integrates the steps of sample preparation, barcoding, and amplification and&#xD;
+      detection. It uses piston propulsion to provide power to push the sample into different&#xD;
+      chambers. First, the mock samples are added into a sample loading chamber where the lysis&#xD;
+      buffer is stored. A mixture of surfactin, SDS, and ethanol allows the rapid extraction of&#xD;
+      viral nucleic acid, which is then injected down to the identification chamber containing the&#xD;
+      freeze-dried BST polymerase and ID-tag primer mixture. The temperature will remain at 37&#xD;
+      °C-50°C for reverse transcription. Then, the sample is injected to the chamber containing&#xD;
+      thermolabile exonuclease I. The heating block is then set to 65 °C for 5 min to deactivate&#xD;
+      the enzyme. Thereafter, the four samples are pooled together and injected into an&#xD;
+      electrochemical detection chip below the microfluidic pen. Each chip contains four sets of&#xD;
+      primers and LPs with different electroactive reporters with non-overlapping redox potentials&#xD;
+      to trigger the amplification reaction in the presence of respective participant's ID&#xD;
+      sequences.&#xD;
+&#xD;
+      The detection chamber sits atop a multichannel electrochemical workstation, which consists of&#xD;
+      a connection port between the electrochemical sensor and detector, a circuit board, and a&#xD;
+      power line for external display. The circuit board is mainly composed of a microcontroller&#xD;
+      unit, a digital-to-analog converter, and a potentiostat module to allow for differential&#xD;
+      pulse voltammetry analysis and simultaneously obtain the signals from an array of electrodes&#xD;
+      and thereby detect a total of 100 samples.&#xD;
+&#xD;
+      (iv) To validate the performance of the prototype using a clinical specimen and benchmark it&#xD;
+      against the detection data from commercially available testing equipment.&#xD;
+&#xD;
+      The proposed method of pooled sample testing will be compared with the gold standard RT-PCR&#xD;
+      test in terms of sensitivity, specificity, positive predictive value, negative predictive&#xD;
+      value, and accuracy. After demonstrating the validity of the results obtained from the&#xD;
+      proposed pooling strategy, the investigators will then explore the possibility of using&#xD;
+      saliva and mouth gargle samples in lieu of the nasopharyngeal swabs. Patients will be&#xD;
+      recruited from the Prince of Wales Hospital for collection of respiratory samples to&#xD;
+      determine the accuracy of this device.&#xD;
+&#xD;
+      A. Study procedures&#xD;
+&#xD;
+        1. Participants' medical records to collect clinical data, including age, sex, number of&#xD;
+           days after the onset of symptoms, epidemiological exposure to people with confirmed&#xD;
+           COVID-19 disease, severity (mild, moderate, severe, or critical), and the presence of&#xD;
+           comorbidities will be reviewed.&#xD;
+&#xD;
+        2. SARS-CoV-2 PCR results of the participants from hospital electronic record will be&#xD;
+           retrieved.&#xD;
+&#xD;
+        3. Nasopharyngeal swab, deep throat saliva, and/or mouth gargle sample from each recruited&#xD;
+           patient will be collected.&#xD;
+&#xD;
+      B. Laboratory procedures and data analyses&#xD;
+&#xD;
+        1. Sample preparation The samples collected from the 200 patients will firstly be divided&#xD;
+           for two sets with similar prevalence, and each sample size is 100. The first set 100&#xD;
+           samples will be extracted by using commercial viral RNA extraction kits provided by&#xD;
+           HKUST, and then be stored for further RT-qPCR analysis and the LAMP-based method&#xD;
+           verification.&#xD;
+&#xD;
+        2. RT-qPCR assay To prepare RT-qPCR result as the reference, the extracted samples from&#xD;
+           mentioned above will be analyzed using RT-qPCR for the qualitative and quantitative&#xD;
+           detection of nucleic acid from the SARS-CoV-2, and a negative, a positive and a blank&#xD;
+           control experiment should be included. The cycle thresholds (Ct) values, qualitative and&#xD;
+           quantitative results of each sample will be recorded. The RT-qPCR procedures will be&#xD;
+           followed by existing CDC-recommended guidelines. The qPCR primer and Taqman probe sets,&#xD;
+           and SARS-CoV-2 RNA standard reference will be provided by HKUST.&#xD;
+&#xD;
+        3. Pooled sample experiments The second set 100 inactivated samples will be divided into 25&#xD;
+           groups randomly (each for 4 samples), and the investigators will perform SARS-CoV-2&#xD;
+           group testing for the 25 pools using the microfluidic device developed above with HKUST&#xD;
+           researchers. Based on the RT-qPCR results, the sensitivity, specificity, and positive&#xD;
+           and negative predictive values will be calculated for further data analysis by HKUST.&#xD;
+&#xD;
+      Study conduct&#xD;
+&#xD;
+      This study will be conducted in accordance with the Declaration of Helsinki.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2021</start_date>
+  <completion_date type="Anticipated">May 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic test</measure>
+    <time_frame>through study completion, an average of 3 years</time_frame>
+    <description>The sensitivity, specificity, and positive and negative predictive values will be calculated for futher data analysis</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Covid19</condition>
+  <arm_group>
+    <arm_group_label>Positive case</arm_group_label>
+    <description>The sample will be tested by microfluidic device and shows positive</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative control</arm_group_label>
+    <description>The sample will be tested by microfluidic device and shows negative</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      nasopharyngeal swab, deep throat saliva, and/or mouth gargle sample&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients hospitalized at the Prince of Wales Hospital who have received testing for&#xD;
+        SARS-CoV-2 PCR&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients hospitalized at the Prince of Wales Hospital who have received testing for&#xD;
+             SARS-CoV-2 PCR&#xD;
+&#xD;
+          -  Age 18 years or above&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Mentally incompetent to provide informed consent&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>I-Ming HSING</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hong Kong University of Sciences and Technology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Catherine Cheung</last_name>
+    <phone>852-22528842</phone>
+    <email>catherinecheung@cuhk.edu.hk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Hong Kong University of Sciences and Technology</name>
+      <address>
+        <city>Sai Kung</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catherine Cheung, Mphil</last_name>
+      <phone>852-22528842</phone>
+      <email>catherinecheung@cuhk.edu.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Shuhuai YAO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Chinese University of Hong Kong</name>
+      <address>
+        <city>Shatin</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catherine Cheung</last_name>
+      <phone>852-22528842</phone>
+      <email>catherinecheung@cuhk.edu.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Grace CY LUI</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Shui-Shain LEE</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Denise CHAN</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prince of Wales Hospital</name>
+      <address>
+        <city>Shatin</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catherine Cheung</last_name>
+      <phone>852-22528842</phone>
+      <email>catherinecheung@cuhk.edu.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Timothy LI</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <reference>
+    <citation>Hollingsworth TD, Ferguson NM, Anderson RM. Frequent travelers and rate of spread of epidemics. Emerg Infect Dis. 2007 Sep;13(9):1288-94. doi: 10.3201/eid1309.070081.</citation>
+    <PMID>18252097</PMID>
+  </reference>
+  <reference>
+    <citation>Hufnagel L, Brockmann D, Geisel T. Forecast and control of epidemics in a globalized world. Proc Natl Acad Sci U S A. 2004 Oct 19;101(42):15124-9. Epub 2004 Oct 11.</citation>
+    <PMID>15477600</PMID>
+  </reference>
+  <reference>
+    <citation>Ferretti L, Wymant C, Kendall M, Zhao L, Nurtay A, Abeler-Dörner L, Parker M, Bonsall D, Fraser C. Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science. 2020 May 8;368(6491). pii: eabb6936. doi: 10.1126/science.abb6936. Epub 2020 Mar 31.</citation>
+    <PMID>32234805</PMID>
+  </reference>
+  <reference>
+    <citation>Shears P. Emerging and reemerging infections in africa: the need for improved laboratory services and disease surveillance. Microbes Infect. 2000 Apr;2(5):489-95. Review.</citation>
+    <PMID>10865194</PMID>
+  </reference>
+  <reference>
+    <citation>Lazcka O, Del Campo FJ, Muñoz FX. Pathogen detection: a perspective of traditional methods and biosensors. Biosens Bioelectron. 2007 Feb 15;22(7):1205-17. Epub 2006 Aug 28. Review.</citation>
+    <PMID>16934970</PMID>
+  </reference>
+  <reference>
+    <citation>Jani IV, Janossy G, Brown DW, Mandy F. Multiplexed immunoassays by flow cytometry for diagnosis and surveillance of infectious diseases in resource-poor settings. Lancet Infect Dis. 2002 Apr;2(4):243-50. Review.</citation>
+    <PMID>11937424</PMID>
+  </reference>
+  <reference>
+    <citation>R. Dorfman, The Detection of Defective Members of Large Populations, Ann. Math. Stat. 14 (1943) 436-440.</citation>
+  </reference>
+  <reference>
+    <citation>J.L. Schmid-burgk, D. Li, D. Feldman, J. Strecker, B. Cleary, A. Regev, LAMP-Seq : Population-Scale COVID-19 Diagnostics Using a Compressed Barcode Space, BioRxiv. (2020).</citation>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>April 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 19, 2021</study_first_posted>
+  <last_update_submitted>August 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hong Kong University of Science and Technology</investigator_affiliation>
+    <investigator_full_name>I-Ming Hsing</investigator_full_name>
+    <investigator_title>Professor, Department of Chemical and Biological Engineering</investigator_title>
+  </responsible_party>
+  <keyword>COVID-19</keyword>
+  <keyword>Population screening</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>COVID-19</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

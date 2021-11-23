@@ -1,0 +1,2573 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03760796</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00099938</org_study_id>
+    <nct_id>NCT03760796</nct_id>
+  </id_info>
+  <brief_title>Myocardial Infarction, COmbined-device, Recovery Enhancement Study</brief_title>
+  <acronym>MiCORE</acronym>
+  <official_title>The Johns Hopkins Myocardial Infarction, COmbined-device, Recovery Enhancement (MiCORE) Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Johns Hopkins University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Apple Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>iHealth</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Johns Hopkins University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Unplanned readmissions after hospitalization for acute myocardial infarction (AMI) are among&#xD;
+      the leading causes of preventable morbidity, mortality, and healthcare costs. Digital health&#xD;
+      interventions (DHI) could be an effective tool in promoting self-management, adherence to&#xD;
+      guideline directed therapy, and cardiovascular risk reduction.&#xD;
+&#xD;
+      A DHI developed at Johns Hopkins-the Corrie Health Digital Platform-includes the first&#xD;
+      cardiology Apple CareKit smartphone application, paired with an Apple Watch and iHealth&#xD;
+      Bluetooth-enabled blood pressure monitor. Corrie targets: (1) self-management of cardiac&#xD;
+      medications, (2) self-tracking of vital signs, (3) education about cardiovascular disease&#xD;
+      through articles and animated videos, and (4) care coordination that includes cardiac&#xD;
+      rehabilitation and outpatient follow-up appointments.&#xD;
+&#xD;
+      In this prospective study, STEMI or type 1 NSTEMI patients are being enrolled to use the&#xD;
+      Corrie Health Digital Platform beginning early during participants' hospital stay. Enrollment&#xD;
+      sites include Johns Hopkins Hospital, Johns Hopkins Bayview Medical Center, Massachusetts&#xD;
+      General Hospital, and Reading Hospital. The primary objective is to compare time to first&#xD;
+      readmission within 30 days post-discharge among patients with the Corrie Health Digital&#xD;
+      Platform to patients in the historical standard of care comparison group.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 1, 2016</start_date>
+  <completion_date type="Actual">December 17, 2019</completion_date>
+  <primary_completion_date type="Actual">December 17, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single group assignment to the Corrie Health Digital Platform prospective intervention group (n=200), as compared with a historical standard of care comparison group (n=864)</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Participants Readmitted Within 30-days Post Hospital Discharge</measure>
+    <time_frame>30-days post hospital discharge</time_frame>
+    <description>Number of participants readmitted within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cost-effectiveness as Assessed by a Markov Model of Cost-effectiveness</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>We estimated typical costs associated with readmissions or death of acute myocardial infarction (AMI) patients discharged with standard practices using 2014 US hospital costs from the Agency for Healthcare Research and Quality (AHRQ). The hospital cost (in US dollars) for unplanned 30-day readmission is presented for the Corrie Digital Health Platform Group and the Historical Comparison Group. The reported number is the estimated cost per readmission per participant since the exact cost of the readmission for each patient who was readmitted within 30-days wasn't available. No measure of central tendency is available.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (9 Items)</measure>
+    <time_frame>3 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (Summary Score)</measure>
+    <time_frame>3 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Dichotomous Item)</measure>
+    <time_frame>3 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked if they received information in writing about what symptoms or health problems to look out for after leaving the hospital (Yes/No).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Continuous Item)</measure>
+    <time_frame>3 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked them to provide an overall hospital rating on a 1-10 sliding scale with a higher score indicating a higher overall hospital rating.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived Usability of Corrie as Assessed by the Systems Usability Scale</measure>
+    <time_frame>3 and 30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, a 10-item five-point Likert scale for assessing systems usability of Corrie both 3 and 30 days post-discharge is used with scoring from 0 to 4 and higher scores meaning patients perceive the system as having global usability. The total score reference range is from 0 to 100, where lower scores indicate lower perceived application usability.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Perceived Corrie App Satisfaction as Assessed by a Study Team Developed Scale</measure>
+    <time_frame>3 and 30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, a five-item five-point Likert scale for assessing participant satisfaction with Corrie as a tool to improve acute myocardial infarction recovery 3 and 30 days post-discharge is used with scoring from 1 to 5 and higher scores meaning more satisfaction with Corrie. Total possible scores ranging from 5 to 25, where higher scores indicate greater Corrie app satisfaction.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User Engagement With Corrie App as Assessed by the User Engagement Scale</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, a 29-item five-point Likert scale for assessing the subjective experience of user engagement with Corrie 30 days post discharge is used with scoring ranging from 1 to 5 and higher scores reflecting higher perceived user engagement. The total subjective user engagement score was calculated by diving the sum of all items by 29, resulting in a range of potential total scores from 1 to 5.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User Engagement With Corrie Health App as Assessed by the Total Number of Interactions Per Participant in the Smartphone App, Collected Via Corrie Health Platform User Analytics</measure>
+    <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+    <description>The total number of app interactions is a behavioral manifestation of user engagement and is monitored through app usage data. The total number of app interactions consisted of: number of BP, heart rate,weight, mood, and step count recordings; number of medications tracked; and number of educational articles and videos viewed over the study period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User Engagement With Corrie Health App as Assessed by the Overall Amount of Time Spent Using the App, Collected Via Corrie Health Platform App User Analytics</measure>
+    <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+    <description>The overall amount of time (days) spent using the app is a behavioral manifestation of user engagement and is monitored through app usage data and collected via Corrie Health Platform app user analytics.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Activation as Assessed by the Patient Activation Measure</measure>
+    <time_frame>3 and 30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, the 10-item five-point Likert scale for assessing patient activation 3 and 30 days post-discharge is used with scoring ranging from 1 to 5 and higher scores indicating the patient possesses the necessary knowledge, skills, and confidence needed for self-care. The total score reference range is from 0 to 100, where lower scores indicate lower patient activation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac Medication Adherence as Assessed by the Adherence to Refills and Medications Scale Subscale</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, the eight-item four-point Likert scale for assessing cardiac medication adherence 30 days post-discharge is used with scoring ranging from 1 to 4 and lower scores indicating better adherence. Total possible scores could range from 8 to 32 with lower scores indicating better adherence. The total cardiac medication adherence score was dichotomized into completely cardiac medication adherent and near completely cardiac medication adherent, based on the median score.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac Medication Adherence as Assessed by Smartphone App Usage Data</measure>
+    <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+    <description>Cardiac medication adherence (beta-blockers, anti-platelets, statins) is measured from the smartphone app usage data as the percentage of cardiac medications marked as &quot;taken&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Medication Adherence as Assessed by Smartwatch App Usage Data</measure>
+    <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+    <description>Medication adherence is measured from the smartwatch app usage data as percent of pills marked as taken.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Had Emergency Department Visits Within 30-days Post Hospital Discharge</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Number of participants who had Emergency department visits (at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center) within 30-days post hospital discharge, that did not result in readmission, in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Hospital Observations</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Number of hospital observations within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Attendance of Follow-up Appointments as Assessed by Post-discharge Survey Developed by Study Team</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Among participants in the Corrie Digital Health group, the investigators are querying participants in the surveys sent out 30 days post-discharge as to whether participants attended an appointment with a primary care provider, cardiologist, and/or cardiac rehab. A point is given to each appointment attended with scores raging from 0 to 3.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Readmitted Participants Who Had Recurrent Myocardial Infarctions</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Number of readmitted participants who had Recurrent myocardial infarctions in the Corrie Digital Health Group. Participants who had an all-cause 30-day readmission in the Corrie group, as identified by hospital administrative datasets, underwent further chart review to determine if the cause of readmission was a recurrent myocardial infarction.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Deaths Within 30 Days Post Hospital Discharge</measure>
+    <time_frame>30 days post hospital discharge</time_frame>
+    <description>Death within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">200</enrollment>
+  <condition>Acute Myocardial Infarction</condition>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Acute Coronary Syndrome</condition>
+  <condition>Myocardial Infarction</condition>
+  <arm_group>
+    <arm_group_label>Corrie Health Digital Platform group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Receives the Corrie Health intervention plus the standard of care</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Corrie Health Digital Platform</intervention_name>
+    <description>The Corrie Health Digital Platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure monitor.</description>
+    <arm_group_label>Corrie Health Digital Platform group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Corrie Health Digital Platform group&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Admitted for acute myocardial infarction (STEMI or Type 1 NSTEMI)&#xD;
+&#xD;
+          -  18 years or older&#xD;
+&#xD;
+          -  English-speaking&#xD;
+&#xD;
+          -  Own any type of smartphone&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Visual, hearing, or motor impairment which precludes the use of the intervention&#xD;
+&#xD;
+          -  Inability to participate due to severity of illness (e.g., intubated and on sedation&#xD;
+             in the setting of cardiogenic shock). If patients are deemed clinically unstable and&#xD;
+             unable to participate at the time of initial screening, the research team member&#xD;
+             returns at a later date to determine whether this status has changed.&#xD;
+&#xD;
+        Historical Standard of Care Comparison group&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Admitted for acute myocardial infarction (STEMI or NSTEMI)&#xD;
+&#xD;
+          -  18 years or older&#xD;
+&#xD;
+          -  English-speaking&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  None&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Seth S Martin, MD, MHS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Johns Hopkins University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Johns Hopkins Bayview Medical Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21224</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Johns Hopkins Hospital</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21287</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Reading Hospital-Tower Health</name>
+      <address>
+        <city>Reading</city>
+        <state>Pennsylvania</state>
+        <zip>19611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.ahajournals.org/doi/full/10.1161/CIRCOUTCOMES.119.005509</url>
+    <description>Corrie Health Digital Platform for Self-Management in Secondary Prevention After Acute Myocardial Infarction</description>
+  </link>
+  <link>
+    <url>http://mhealth.jmir.org/2019/5/e14124/</url>
+    <description>Technical Guidance for Clinicians Interested in Partnering With Engineers in Mobile Health Development and Evaluation</description>
+  </link>
+  <link>
+    <url>http://cardio.jmir.org/2018/1/e2</url>
+    <description>Digital Health Innovation: A Toolkit to Navigate From Concept to Clinical Testing</description>
+  </link>
+  <link>
+    <url>http://link.springer.com/article/10.1007/s12265-021-10098-9</url>
+    <description>Sociodemographic Characteristics Predicting Digital Health Intervention Use After Acute Myocardial Infarction</description>
+  </link>
+  <link>
+    <url>http://www.sciencedirect.com/science/article/pii/S2666667720300891</url>
+    <description>Early blood pressure assessment after acute myocardial infarction: Insights using digital health technology</description>
+  </link>
+  <link>
+    <url>http://mhealth.jmir.org/2019/12/e16391</url>
+    <description>Strategies for the Successful Implementation of a Novel iPhone Loaner System (iShare) in mHealth Interventions: Prospective Study</description>
+  </link>
+  <link>
+    <url>http://casereports.bmj.com/content/bmjcr/13/2/e231801.full.pdf</url>
+    <description>Mobile health application platform 'Corrie' personalises and empowers the heart attack recovery patient experience in the hospital and at home for an underserved heart attack survivor</description>
+  </link>
+  <reference>
+    <citation>Spaulding EM, Marvel FA, Lee MA, Yang WE, Demo R, Wang J, Xun H, Shah L, Weng D, Fashanu OE, Carter J, Sheidy J, McLin R, Flowers J, Majmudar M, Elgin E, Vilarino V, Lumelsky D, Bhardwaj V, Padula W, Allen JK, Martin SS. Corrie Health Digital Platform for Self-Management in Secondary Prevention After Acute Myocardial Infarction. Circ Cardiovasc Qual Outcomes. 2019 May;12(5):e005509. doi: 10.1161/CIRCOUTCOMES.119.005509.</citation>
+    <PMID>31043065</PMID>
+  </reference>
+  <reference>
+    <citation>Shah LM, Yang WE, Demo RC, Lee MA, Weng D, Shan R, Wongvibulsin S, Spaulding EM, Marvel FA, Martin SS. Technical Guidance for Clinicians Interested in Partnering With Engineers in Mobile Health Development and Evaluation. JMIR Mhealth Uhealth. 2019 May 15;7(5):e14124. doi: 10.2196/14124.</citation>
+    <PMID>31094337</PMID>
+  </reference>
+  <reference>
+    <citation>Marvel FA, Wang J, Martin SS. Digital Health Innovation: A Toolkit to Navigate From Concept to Clinical Testing. JMIR Cardio. 2018 Jan 18;2(1):e2. doi: 10.2196/cardio.7586.</citation>
+    <PMID>31758761</PMID>
+  </reference>
+  <results_reference>
+    <citation>Shah LM, Ding J, Spaulding EM, Yang WE, Lee MA, Demo R, Marvel FA, Martin SS. Sociodemographic Characteristics Predicting Digital Health Intervention Use After Acute Myocardial Infarction. J Cardiovasc Transl Res. 2021 May 17. doi: 10.1007/s12265-021-10098-9. [Epub ahead of print]</citation>
+    <PMID>33999374</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Shan R, Ding J, Weng D, Spaulding EM, Wongvibulsin S, Lee MA, Demo R, Marvel FA, Martin SS. Early blood pressure assessment after acute myocardial infarction: Insights using digital health technology. Am J Prev Cardiol. 2020 Sep;3:100089. doi: 10.1016/j.ajpc.2020.100089. Epub 2020 Sep 17.</citation>
+    <PMID>32964212</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yang WE, Spaulding EM, Lumelsky D, Hung G, Huynh PP, Knowles K, Marvel FA, Vilarino V, Wang J, Shah LM, Xun H, Shan R, Wongvibulsin S, Martin SS. Strategies for the Successful Implementation of a Novel iPhone Loaner System (iShare) in mHealth Interventions: Prospective Study. JMIR Mhealth Uhealth. 2019 Dec 16;7(12):e16391. doi: 10.2196/16391. Erratum in: JMIR Mhealth Uhealth. 2021 Sep 20;9(9):e31472.</citation>
+    <PMID>31841115</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hung G, Yang WE, Marvel FA, Martin SS. Mobile health application platform 'Corrie' personalises and empowers the heart attack recovery patient experience in the hospital and at home for an underserved heart attack survivor. BMJ Case Rep. 2020 Feb 17;13(2). pii: e231801. doi: 10.1136/bcr-2019-231801.</citation>
+    <PMID>32071124</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Marvel FA, Spaulding EM, Lee MA, Yang WE, Demo R, Ding J, Wang J, Xun H, Shah LM, Weng D, Carter J, Majmudar M, Elgin E, Sheidy J, McLin R, Flowers J, Vilarino V, Lumelsky DN, Bhardwaj V, Padula WV, Shan R, Huynh PP, Wongvibulsin S, Leung C, Allen JK, Martin SS. Digital Health Intervention in Acute Myocardial Infarction. Circ Cardiovasc Qual Outcomes. 2021 Jul;14(7):e007741. doi: 10.1161/CIRCOUTCOMES.121.007741. Epub 2021 Jul 15.</citation>
+    <PMID>34261332</PMID>
+  </results_reference>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>November 21, 2018</study_first_submitted>
+  <study_first_submitted_qc>November 29, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 30, 2018</study_first_posted>
+  <results_first_submitted>December 15, 2020</results_first_submitted>
+  <results_first_submitted_qc>January 15, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">February 4, 2021</results_first_posted>
+  <last_update_submitted>July 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>readmission</keyword>
+  <keyword>cardiovascular disease prevention</keyword>
+  <keyword>cardiovascular disease risk factors</keyword>
+  <keyword>cost-effectiveness</keyword>
+  <keyword>heart attack</keyword>
+  <keyword>acute myocardial infarction</keyword>
+  <keyword>secondary prevention</keyword>
+  <keyword>digital health</keyword>
+  <keyword>smartphone app</keyword>
+  <keyword>self-management</keyword>
+  <keyword>guideline adherence</keyword>
+  <keyword>behavior modification</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Acute Coronary Syndrome</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 22, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/96/NCT03760796/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>July 24, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/96/NCT03760796/ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>200 participants were enrolled in 4 hospitals to receive study intervention. 864 patients' data were pulled from hospital administrative data sets to be the historical comparison group.</recruitment_details>
+      <pre_assignment_details>Patients in the historical comparison group were not considered enrolled in this study.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Corrie Digital Health Platform Group</title>
+          <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+        </group>
+        <group group_id="P2">
+          <title>Historical Comparison Group</title>
+          <description>Receives the standard of care</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="200"/>
+                <participants group_id="P2" count="864"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="200"/>
+                <participants group_id="P2" count="864"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Corrie Digital Health Platform Group</title>
+          <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+        </group>
+        <group group_id="B2">
+          <title>Historical Comparison Group</title>
+          <description>Receives the standard of care</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="200"/>
+            <count group_id="B2" value="864"/>
+            <count group_id="B3" value="1064"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="59.2" spread="11.5"/>
+                    <measurement group_id="B2" value="65.4" spread="14.1"/>
+                    <measurement group_id="B3" value="64.3" spread="13.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58"/>
+                    <measurement group_id="B2" value="336"/>
+                    <measurement group_id="B3" value="394"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="142"/>
+                    <measurement group_id="B2" value="528"/>
+                    <measurement group_id="B3" value="670"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Race</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="137"/>
+                    <measurement group_id="B2" value="561"/>
+                    <measurement group_id="B3" value="698"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Non-White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57"/>
+                    <measurement group_id="B2" value="285"/>
+                    <measurement group_id="B3" value="342"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="18"/>
+                    <measurement group_id="B3" value="24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Insurance status</title>
+          <population>In historical comparison group a primary payer for insurance of &quot;Workers compensation/unknown&quot; considered as &quot;unknown&quot;.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Private insurance/PPO/HMO</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="110"/>
+                    <measurement group_id="B2" value="348"/>
+                    <measurement group_id="B3" value="458"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Medicare</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62"/>
+                    <measurement group_id="B2" value="428"/>
+                    <measurement group_id="B3" value="490"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Medicaid</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="22"/>
+                    <measurement group_id="B2" value="45"/>
+                    <measurement group_id="B3" value="67"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Self-pay</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="11"/>
+                    <measurement group_id="B3" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="32"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Marital status</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Married</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="117"/>
+                    <measurement group_id="B2" value="359"/>
+                    <measurement group_id="B3" value="476"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not married</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="77"/>
+                    <measurement group_id="B2" value="465"/>
+                    <measurement group_id="B3" value="542"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="40"/>
+                    <measurement group_id="B3" value="46"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Body mass index</title>
+          <population>26.6% missing body mass index data for historical control group</population>
+          <units>kg/m^2</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="634"/>
+                    <count group_id="B3" value="834"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30.6" spread="5.9"/>
+                    <measurement group_id="B2" value="29.5" spread="8.2"/>
+                    <measurement group_id="B3" value="29.7" spread="7.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Smoking status</title>
+          <population>13.2% (114/864) of the participants in the historical comparison group had missing data for smoking status.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="750"/>
+                    <count group_id="B3" value="950"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Current smoker</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57"/>
+                    <measurement group_id="B2" value="193"/>
+                    <measurement group_id="B3" value="250"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Former smoker</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="53"/>
+                    <measurement group_id="B2" value="284"/>
+                    <measurement group_id="B3" value="337"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Never smoker</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="90"/>
+                    <measurement group_id="B2" value="273"/>
+                    <measurement group_id="B3" value="363"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Total Elixhauser comorbidity count</title>
+          <population>Unweighted, Agency for Healthcare Research and Quality Elixhauser comorbidity count includes 29 comorbidities with no imputation for missing values. 2.5% missing data for the Corrie intervention group and 1.9% missing data for the historical comparison group.</population>
+          <units>Number of comorbidities per patient</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="195"/>
+                    <count group_id="B2" value="848"/>
+                    <count group_id="B3" value="1043"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3" lower_limit="2" upper_limit="5"/>
+                    <measurement group_id="B2" value="4" lower_limit="2" upper_limit="6"/>
+                    <measurement group_id="B3" value="4" lower_limit="2" upper_limit="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Hospital of Admission</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Johns Hopkins Hospital</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="104"/>
+                    <measurement group_id="B2" value="437"/>
+                    <measurement group_id="B3" value="541"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Johns Hopkins Bayview Medical Center</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="70"/>
+                    <measurement group_id="B2" value="297"/>
+                    <measurement group_id="B3" value="367"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Massachusetts General Hospital</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="70"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Reading Hospital</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="60"/>
+                    <measurement group_id="B3" value="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Type of Acute Myocardial Infarction</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>NSTEMI</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="121"/>
+                    <measurement group_id="B2" value="676"/>
+                    <measurement group_id="B3" value="797"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>STEMI</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="79"/>
+                    <measurement group_id="B2" value="188"/>
+                    <measurement group_id="B3" value="267"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Intervention (during index admission)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Percutaneous coronary intervention alone</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="131"/>
+                    <measurement group_id="B2" value="320"/>
+                    <measurement group_id="B3" value="451"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Coronary artery bypass grafting surgery alone</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="44"/>
+                    <measurement group_id="B2" value="134"/>
+                    <measurement group_id="B3" value="178"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Both</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="12"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                    <measurement group_id="B2" value="406"/>
+                    <measurement group_id="B3" value="423"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Length of stay</title>
+          <units>days</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5" lower_limit="3" upper_limit="10"/>
+                    <measurement group_id="B2" value="4" lower_limit="2" upper_limit="9"/>
+                    <measurement group_id="B3" value="4" lower_limit="3" upper_limit="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Discharge disposition</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="200"/>
+                    <count group_id="B2" value="864"/>
+                    <count group_id="B3" value="1064"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Home</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="167"/>
+                    <measurement group_id="B2" value="555"/>
+                    <measurement group_id="B3" value="722"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Home care</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                    <measurement group_id="B2" value="182"/>
+                    <measurement group_id="B3" value="200"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Skilled nursing facility</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="44"/>
+                    <measurement group_id="B3" value="45"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Rehabilitation</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="22"/>
+                    <measurement group_id="B3" value="34"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hospice/other hospital</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="46"/>
+                    <measurement group_id="B3" value="48"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>AMA/shelters/police custody/unknown</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="15"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Duration of education</title>
+          <population>31% missing data for formal education in the Corrie group. This data is not available in the electronic medical record so it could not be obtained for the historical comparison group.</population>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="138"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="138"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14.6" spread="3.6"/>
+                    <measurement group_id="B3" value="14.6" spread="3.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Household income per year</title>
+          <population>54.5% missing data on household income for the Corrie intervention group. This data is not available in the electronic medical record so it could not be obtained for the historical comparison group.</population>
+          <units>US dollars</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="91"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="91"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="70,000" lower_limit="40,000" upper_limit="113,000"/>
+                    <measurement group_id="B3" value="70,000" lower_limit="40,000" upper_limit="113,000"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants Readmitted Within 30-days Post Hospital Discharge</title>
+        <description>Number of participants readmitted within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+        <time_frame>30-days post hospital discharge</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+          <group group_id="O2">
+            <title>Historical Comparison Group</title>
+            <description>Receives the standard of care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Readmitted Within 30-days Post Hospital Discharge</title>
+          <description>Number of participants readmitted within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="200"/>
+                <count group_id="O2" value="864"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13"/>
+                    <measurement group_id="O2" value="145"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>0.018</p_value>
+            <p_value_desc>The a priori threshold for statistical significance was &lt;0.05.</p_value_desc>
+            <method>Regression, Cox</method>
+            <method_desc>Adjusting for hospital site and a propensity score inclusive of individual level baseline characteristics.</method_desc>
+            <param_type>Hazard Ratio (HR)</param_type>
+            <param_value>0.48</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.26</ci_lower_limit>
+            <ci_upper_limit>0.88</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Cost-effectiveness as Assessed by a Markov Model of Cost-effectiveness</title>
+        <description>We estimated typical costs associated with readmissions or death of acute myocardial infarction (AMI) patients discharged with standard practices using 2014 US hospital costs from the Agency for Healthcare Research and Quality (AHRQ). The hospital cost (in US dollars) for unplanned 30-day readmission is presented for the Corrie Digital Health Platform Group and the Historical Comparison Group. The reported number is the estimated cost per readmission per participant since the exact cost of the readmission for each patient who was readmitted within 30-days wasn't available. No measure of central tendency is available.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>200 patients enrolled in the Corrie group as compared to data from the historical comparison group as well as model estimates obtained from the literature for the standard of care comparison. Model estimates from the literature were used to supplement information when data was not available from the historical comparison group. The addition of the model estimates from the literature ensured the testing of representative, real-world values.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff. obtained from the literature.</description>
+          </group>
+          <group group_id="O2">
+            <title>Historical Comparison Group</title>
+            <description>Receives the standard of care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cost-effectiveness as Assessed by a Markov Model of Cost-effectiveness</title>
+          <description>We estimated typical costs associated with readmissions or death of acute myocardial infarction (AMI) patients discharged with standard practices using 2014 US hospital costs from the Agency for Healthcare Research and Quality (AHRQ). The hospital cost (in US dollars) for unplanned 30-day readmission is presented for the Corrie Digital Health Platform Group and the Historical Comparison Group. The reported number is the estimated cost per readmission per participant since the exact cost of the readmission for each patient who was readmitted within 30-days wasn't available. No measure of central tendency is available.</description>
+          <population>200 patients enrolled in the Corrie group as compared to data from the historical comparison group as well as model estimates obtained from the literature for the standard of care comparison. Model estimates from the literature were used to supplement information when data was not available from the historical comparison group. The addition of the model estimates from the literature ensured the testing of representative, real-world values.</population>
+          <units>US dollars</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="200"/>
+                <count group_id="O2" value="864"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17,195"/>
+                    <measurement group_id="O2" value="27,940"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <non_inferiority_desc>A Markov Model of cost-effectiveness, based on 30-day readmission rates, was built to assess the Incremental Cost-Effectiveness Ratio (ICER) of adopting the Corrie Platform compared to standard of care for post AMI patients; taking into account the estimated cost of Corrie ($2,750 per patient for a 1-year use term). The reported value is a ratio of the relative cost of intervention compared to the standard of care divided by the change in the outcome, quality-adjusted life years (QALYs).</non_inferiority_desc>
+            <param_type>Incremental Cost-Effectiveness Ratio</param_type>
+            <param_value>-7,319</param_value>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <estimate_desc>A negative ICER means the intervention cost is lower than the cost of standard of care, while the denominator was positive. A positive ICER means the intervention cost is greater than the cost of standard of care, while the denominator was positive.</estimate_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (9 Items)</title>
+        <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+        <time_frame>3 days post hospital discharge</time_frame>
+        <population>89 participants completed all the items on the survey, except for one where one person did not fill out the item/question, resulting in 88 being analyzed for that item.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (9 Items)</title>
+          <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+          <population>89 participants completed all the items on the survey, except for one where one person did not fill out the item/question, resulting in 88 being analyzed for that item.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="89"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>I would recommend this hospital to my friends and family.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="65"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the nurses treated me with courtesy and respect.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="88"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the nurses listened carefully to me.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the nurses explained things in a way I could understand.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="19"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the doctors treated me with courtesy and respect.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the doctors listened carefully to me.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="20"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>During this hospital stay, the doctors explained things in a way I could understand.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="65"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>The hospital staff talked with me about whether I would have the help I needed after leaving.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="52"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Before giving any new medications, hospital staff described clearly potential side effects.</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="89"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Strongly Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Disagree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Neither Disagree nor Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="14"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="28"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Strongly Agree</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="38"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (Summary Score)</title>
+        <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+        <time_frame>3 days post hospital discharge</time_frame>
+        <population>89 participants completed the items on the survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (Summary Score)</title>
+          <description>Among participants in the Corrie Digital Health group, a nine-item five-point Likert scale for assessing in-hospital care satisfaction 3 days post-discharge is used with scoring from 1 &quot;strongly disagree&quot; to 5 &quot;strongly agree&quot;, with higher scores meaning participants were more satisfied with the care received. A total score of these nine items is calculated with possible total scores ranging from 9 to 45.</description>
+          <population>89 participants completed the items on the survey.</population>
+          <units>score on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="89"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="43" lower_limit="40" upper_limit="45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Dichotomous Item)</title>
+        <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked if they received information in writing about what symptoms or health problems to look out for after leaving the hospital (Yes/No).</description>
+        <time_frame>3 days post hospital discharge</time_frame>
+        <population>88 participants completed this item on the survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Dichotomous Item)</title>
+          <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked if they received information in writing about what symptoms or health problems to look out for after leaving the hospital (Yes/No).</description>
+          <population>88 participants completed this item on the survey.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="88"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Yes</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="79"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>No</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Continuous Item)</title>
+        <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked them to provide an overall hospital rating on a 1-10 sliding scale with a higher score indicating a higher overall hospital rating.</description>
+        <time_frame>3 days post hospital discharge</time_frame>
+        <population>68 participants completed this item on the survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>In-hospital Care Satisfaction as Assessed by a Subset of the Hospital Consumer Assessment of Healthcare Providers and Systems Survey (1 Continuous Item)</title>
+          <description>Among participants in the Corrie Digital Health group, one additional item, not on the five-point Likert scale, for assessing in-hospital care satisfaction 3 days post-discharge asked them to provide an overall hospital rating on a 1-10 sliding scale with a higher score indicating a higher overall hospital rating.</description>
+          <population>68 participants completed this item on the survey.</population>
+          <units>score on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10" lower_limit="9" upper_limit="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Perceived Usability of Corrie as Assessed by the Systems Usability Scale</title>
+        <description>Among participants in the Corrie Digital Health group, a 10-item five-point Likert scale for assessing systems usability of Corrie both 3 and 30 days post-discharge is used with scoring from 0 to 4 and higher scores meaning patients perceive the system as having global usability. The total score reference range is from 0 to 100, where lower scores indicate lower perceived application usability.</description>
+        <time_frame>3 and 30 days post hospital discharge</time_frame>
+        <population>At 3 days post discharge, 87 participants completed the survey, while at 30 days post-discharge 104 participants completed the survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Perceived Usability of Corrie as Assessed by the Systems Usability Scale</title>
+          <description>Among participants in the Corrie Digital Health group, a 10-item five-point Likert scale for assessing systems usability of Corrie both 3 and 30 days post-discharge is used with scoring from 0 to 4 and higher scores meaning patients perceive the system as having global usability. The total score reference range is from 0 to 100, where lower scores indicate lower perceived application usability.</description>
+          <population>At 3 days post discharge, 87 participants completed the survey, while at 30 days post-discharge 104 participants completed the survey.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="104"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="87"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="58.6" spread="11.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="104"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="57.6" spread="11.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Perceived Corrie App Satisfaction as Assessed by a Study Team Developed Scale</title>
+        <description>Among participants in the Corrie Digital Health group, a five-item five-point Likert scale for assessing participant satisfaction with Corrie as a tool to improve acute myocardial infarction recovery 3 and 30 days post-discharge is used with scoring from 1 to 5 and higher scores meaning more satisfaction with Corrie. Total possible scores ranging from 5 to 25, where higher scores indicate greater Corrie app satisfaction.</description>
+        <time_frame>3 and 30 days post hospital discharge</time_frame>
+        <population>80 participants completed the survey at 3 days post-discharge and 99 completed the survey at 30 days post-discharge.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Perceived Corrie App Satisfaction as Assessed by a Study Team Developed Scale</title>
+          <description>Among participants in the Corrie Digital Health group, a five-item five-point Likert scale for assessing participant satisfaction with Corrie as a tool to improve acute myocardial infarction recovery 3 and 30 days post-discharge is used with scoring from 1 to 5 and higher scores meaning more satisfaction with Corrie. Total possible scores ranging from 5 to 25, where higher scores indicate greater Corrie app satisfaction.</description>
+          <population>80 participants completed the survey at 3 days post-discharge and 99 completed the survey at 30 days post-discharge.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="99"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="80"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="18.29" spread="3.75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="99"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17.65" spread="3.68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>User Engagement With Corrie App as Assessed by the User Engagement Scale</title>
+        <description>Among participants in the Corrie Digital Health group, a 29-item five-point Likert scale for assessing the subjective experience of user engagement with Corrie 30 days post discharge is used with scoring ranging from 1 to 5 and higher scores reflecting higher perceived user engagement. The total subjective user engagement score was calculated by diving the sum of all items by 29, resulting in a range of potential total scores from 1 to 5.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>102 participants completed the survey at 30 days post-discharge</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>User Engagement With Corrie App as Assessed by the User Engagement Scale</title>
+          <description>Among participants in the Corrie Digital Health group, a 29-item five-point Likert scale for assessing the subjective experience of user engagement with Corrie 30 days post discharge is used with scoring ranging from 1 to 5 and higher scores reflecting higher perceived user engagement. The total subjective user engagement score was calculated by diving the sum of all items by 29, resulting in a range of potential total scores from 1 to 5.</description>
+          <population>102 participants completed the survey at 30 days post-discharge</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="102"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.36" spread="0.57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>User Engagement With Corrie Health App as Assessed by the Total Number of Interactions Per Participant in the Smartphone App, Collected Via Corrie Health Platform User Analytics</title>
+        <description>The total number of app interactions is a behavioral manifestation of user engagement and is monitored through app usage data. The total number of app interactions consisted of: number of BP, heart rate,weight, mood, and step count recordings; number of medications tracked; and number of educational articles and videos viewed over the study period.</description>
+        <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+        <population>Following deployment of Corrie backend capabilities (the Corrie backend was not set up to capture application interactions for the first 34 participants enrolled), 83% (138/166) of Corrie users had captured application interactions (i.e. used the Corrie platform at least once over the 30-day study and subsequently connected to WiFi or cellular data to connect with the backend).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>User Engagement With Corrie Health App as Assessed by the Total Number of Interactions Per Participant in the Smartphone App, Collected Via Corrie Health Platform User Analytics</title>
+          <description>The total number of app interactions is a behavioral manifestation of user engagement and is monitored through app usage data. The total number of app interactions consisted of: number of BP, heart rate,weight, mood, and step count recordings; number of medications tracked; and number of educational articles and videos viewed over the study period.</description>
+          <population>Following deployment of Corrie backend capabilities (the Corrie backend was not set up to capture application interactions for the first 34 participants enrolled), 83% (138/166) of Corrie users had captured application interactions (i.e. used the Corrie platform at least once over the 30-day study and subsequently connected to WiFi or cellular data to connect with the backend).</population>
+          <units>Number of app interactions/participant</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="138"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="213" lower_limit="35" upper_limit="428"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>User Engagement With Corrie Health App as Assessed by the Overall Amount of Time Spent Using the App, Collected Via Corrie Health Platform App User Analytics</title>
+        <description>The overall amount of time (days) spent using the app is a behavioral manifestation of user engagement and is monitored through app usage data and collected via Corrie Health Platform app user analytics.</description>
+        <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+        <population>Following deployment of Corrie backend capabilities (the Corrie backend was not set up to capture application interactions for the first 34 participants enrolled), 83% (138/166) of Corrie users had captured application interactions (i.e. used the Corrie platform at least once over the 30-day study and subsequently connected to WiFi or cellular data to connect with the backend).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>User Engagement With Corrie Health App as Assessed by the Overall Amount of Time Spent Using the App, Collected Via Corrie Health Platform App User Analytics</title>
+          <description>The overall amount of time (days) spent using the app is a behavioral manifestation of user engagement and is monitored through app usage data and collected via Corrie Health Platform app user analytics.</description>
+          <population>Following deployment of Corrie backend capabilities (the Corrie backend was not set up to capture application interactions for the first 34 participants enrolled), 83% (138/166) of Corrie users had captured application interactions (i.e. used the Corrie platform at least once over the 30-day study and subsequently connected to WiFi or cellular data to connect with the backend).</population>
+          <units>days</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="138"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12" lower_limit="2" upper_limit="29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Patient Activation as Assessed by the Patient Activation Measure</title>
+        <description>Among participants in the Corrie Digital Health group, the 10-item five-point Likert scale for assessing patient activation 3 and 30 days post-discharge is used with scoring ranging from 1 to 5 and higher scores indicating the patient possesses the necessary knowledge, skills, and confidence needed for self-care. The total score reference range is from 0 to 100, where lower scores indicate lower patient activation.</description>
+        <time_frame>3 and 30 days post hospital discharge</time_frame>
+        <population>At 3-days post discharge only 94 participants completed the survey while at 30 days post-discharge 103 participants completed the survey.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Patient Activation as Assessed by the Patient Activation Measure</title>
+          <description>Among participants in the Corrie Digital Health group, the 10-item five-point Likert scale for assessing patient activation 3 and 30 days post-discharge is used with scoring ranging from 1 to 5 and higher scores indicating the patient possesses the necessary knowledge, skills, and confidence needed for self-care. The total score reference range is from 0 to 100, where lower scores indicate lower patient activation.</description>
+          <population>At 3-days post discharge only 94 participants completed the survey while at 30 days post-discharge 103 participants completed the survey.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="103"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="94"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71.9" spread="15.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>30 days post-discharge</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="103"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71.7" spread="16.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Cardiac Medication Adherence as Assessed by the Adherence to Refills and Medications Scale Subscale</title>
+        <description>Among participants in the Corrie Digital Health group, the eight-item four-point Likert scale for assessing cardiac medication adherence 30 days post-discharge is used with scoring ranging from 1 to 4 and lower scores indicating better adherence. Total possible scores could range from 8 to 32 with lower scores indicating better adherence. The total cardiac medication adherence score was dichotomized into completely cardiac medication adherent and near completely cardiac medication adherent, based on the median score.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>102 participants completed the survey at 30 days post-discharge.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cardiac Medication Adherence as Assessed by the Adherence to Refills and Medications Scale Subscale</title>
+          <description>Among participants in the Corrie Digital Health group, the eight-item four-point Likert scale for assessing cardiac medication adherence 30 days post-discharge is used with scoring ranging from 1 to 4 and lower scores indicating better adherence. Total possible scores could range from 8 to 32 with lower scores indicating better adherence. The total cardiac medication adherence score was dichotomized into completely cardiac medication adherent and near completely cardiac medication adherent, based on the median score.</description>
+          <population>102 participants completed the survey at 30 days post-discharge.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="102"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Complete Adherence</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="81"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Near Complete Adherence</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Cardiac Medication Adherence as Assessed by Smartphone App Usage Data</title>
+        <description>Cardiac medication adherence (beta-blockers, anti-platelets, statins) is measured from the smartphone app usage data as the percentage of cardiac medications marked as &quot;taken&quot;.</description>
+        <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+        <population>135 patients who had app interaction data specific to cardiovascular disease (CVD) medications (beta-blocker, anti-platelet, statin) from admission through 30 days post-discharge.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cardiac Medication Adherence as Assessed by Smartphone App Usage Data</title>
+          <description>Cardiac medication adherence (beta-blockers, anti-platelets, statins) is measured from the smartphone app usage data as the percentage of cardiac medications marked as &quot;taken&quot;.</description>
+          <population>135 patients who had app interaction data specific to cardiovascular disease (CVD) medications (beta-blocker, anti-platelet, statin) from admission through 30 days post-discharge.</population>
+          <units>percentage of any CVD meds marked taken</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="135"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87" lower_limit="82" upper_limit="92"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Medication Adherence as Assessed by Smartwatch App Usage Data</title>
+        <description>Medication adherence is measured from the smartwatch app usage data as percent of pills marked as taken.</description>
+        <time_frame>Throughout the study period for app usage up to 30 days post-discharge from the hospital</time_frame>
+        <population>Unable to differentiate smartwatch app usage data from smartphone app usage data. Thus, results assessing medication adherence by smartwatch app is provided under as &quot;assessed by smartphone app usage data&quot; (Outcome 13).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Adherence as Assessed by Smartwatch App Usage Data</title>
+          <description>Medication adherence is measured from the smartwatch app usage data as percent of pills marked as taken.</description>
+          <population>Unable to differentiate smartwatch app usage data from smartphone app usage data. Thus, results assessing medication adherence by smartwatch app is provided under as &quot;assessed by smartphone app usage data&quot; (Outcome 13).</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants Who Had Emergency Department Visits Within 30-days Post Hospital Discharge</title>
+        <description>Number of participants who had Emergency department visits (at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center) within 30-days post hospital discharge, that did not result in readmission, in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>908 patients were enrolled at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center across both the Corrie intervention group (n=174) and historical comparison group (n=734). 80 of the patients had an emergency department visit within 30-days of discharge that resulted in a readmission and were excluded from this analysis. Hence, a total of 828 participants were included in the analysis across the Corrie intervention group (n=164) and the historical comparison group (n=664).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+          <group group_id="O2">
+            <title>Historical Comparison Group</title>
+            <description>Receives the standard of care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Who Had Emergency Department Visits Within 30-days Post Hospital Discharge</title>
+          <description>Number of participants who had Emergency department visits (at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center) within 30-days post hospital discharge, that did not result in readmission, in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+          <population>908 patients were enrolled at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center across both the Corrie intervention group (n=174) and historical comparison group (n=734). 80 of the patients had an emergency department visit within 30-days of discharge that resulted in a readmission and were excluded from this analysis. Hence, a total of 828 participants were included in the analysis across the Corrie intervention group (n=164) and the historical comparison group (n=664).</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="164"/>
+                <count group_id="O2" value="664"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13"/>
+                    <measurement group_id="O2" value="39"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>0.33</p_value>
+            <p_value_desc>The a priori threshold for statistical significance was &lt;0.05.</p_value_desc>
+            <method>Regression, Cox</method>
+            <method_desc>Adjusting for hospital site and a propensity score inclusive of individual level baseline characteristics.</method_desc>
+            <param_type>Hazard Ratio (HR)</param_type>
+            <param_value>1.45</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.69</ci_lower_limit>
+            <ci_upper_limit>2.98</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Hospital Observations</title>
+        <description>Number of hospital observations within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>Unable to obtain this data from hospital administrative data sets. Data was not collected.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+          <group group_id="O2">
+            <title>Historical Comparison Group</title>
+            <description>Receives the standard of care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Hospital Observations</title>
+          <description>Number of hospital observations within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+          <population>Unable to obtain this data from hospital administrative data sets. Data was not collected.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+                <count group_id="O2" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Attendance of Follow-up Appointments as Assessed by Post-discharge Survey Developed by Study Team</title>
+        <description>Among participants in the Corrie Digital Health group, the investigators are querying participants in the surveys sent out 30 days post-discharge as to whether participants attended an appointment with a primary care provider, cardiologist, and/or cardiac rehab. A point is given to each appointment attended with scores raging from 0 to 3.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>104 participants completed this survey question at 30 days post-discharge.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Attendance of Follow-up Appointments as Assessed by Post-discharge Survey Developed by Study Team</title>
+          <description>Among participants in the Corrie Digital Health group, the investigators are querying participants in the surveys sent out 30 days post-discharge as to whether participants attended an appointment with a primary care provider, cardiologist, and/or cardiac rehab. A point is given to each appointment attended with scores raging from 0 to 3.</description>
+          <population>104 participants completed this survey question at 30 days post-discharge.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="104"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>3 appointments attended</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>2 appointments attended</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="48"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>1 appointment attended</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="19"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>0 appointments attended</title>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Readmitted Participants Who Had Recurrent Myocardial Infarctions</title>
+        <description>Number of readmitted participants who had Recurrent myocardial infarctions in the Corrie Digital Health Group. Participants who had an all-cause 30-day readmission in the Corrie group, as identified by hospital administrative datasets, underwent further chart review to determine if the cause of readmission was a recurrent myocardial infarction.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>Total of 13 participants in the Corrie group who were readmitted within 30 days of discharge. Unable to obtain reason for readmission from the hospital administrative data sets. Thus, data on whether 30-day readmissions were due to recurrent myocardial infarction were not available for the historical comparison group. Chart review, to obtain this reason for readmission as done with the Corrie group, was not possible for the historical comparison group.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Readmitted Participants Who Had Recurrent Myocardial Infarctions</title>
+          <description>Number of readmitted participants who had Recurrent myocardial infarctions in the Corrie Digital Health Group. Participants who had an all-cause 30-day readmission in the Corrie group, as identified by hospital administrative datasets, underwent further chart review to determine if the cause of readmission was a recurrent myocardial infarction.</description>
+          <population>Total of 13 participants in the Corrie group who were readmitted within 30 days of discharge. Unable to obtain reason for readmission from the hospital administrative data sets. Thus, data on whether 30-day readmissions were due to recurrent myocardial infarction were not available for the historical comparison group. Chart review, to obtain this reason for readmission as done with the Corrie group, was not possible for the historical comparison group.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Deaths Within 30 Days Post Hospital Discharge</title>
+        <description>Death within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+        <time_frame>30 days post hospital discharge</time_frame>
+        <population>Unable to obtain data from hospital administrative data sets. Data was not collected.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Corrie Digital Health Platform Group</title>
+            <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.</description>
+          </group>
+          <group group_id="O2">
+            <title>Historical Comparison Group</title>
+            <description>Receives the standard of care</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Deaths Within 30 Days Post Hospital Discharge</title>
+          <description>Death within 30-days post hospital discharge in the Corrie Digital Health Group as compared to the Historical Standard of Care Comparison group, collected from hospital administrative databases.</description>
+          <population>Unable to obtain data from hospital administrative data sets. Data was not collected.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+                <count group_id="O2" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse event data were collected from the time of enrollment in the hospital to 30 days post-discharge, for the Corrie Digital Health Platform group.</time_frame>
+      <desc>While 30-day hospital readmission data was collected for both the Corrie Digital Health Platform and Historical Comparison groups this data is not listed here for the Historical Comparison group because they were not enrolled participants. All-cause mortality data could not be obtained from hospital administrative databases. It was reported to the study team by the participant's family member. This explains why outcome measure 20 has no data but 1 mortality reported here.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Corrie Digital Health Platform Group</title>
+          <description>Receives the Corrie Digital Health intervention plus the standard of care&#xD;
+Corrie Digital Health platform: The Corrie Digital Health platform consists of the Corrie smartphone app for heart attack recovery which is paired with an Apple Watch and Bluetooth-enabled, iHealth blood pressure cuff.&#xD;
+The sample size for reporting of adverse events is 216. 200 Corrie patients that finished the study plus 16 who were consented but later withdrew or were withdrawn from the study.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="200"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="13" subjects_at_risk="200"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Inpatient hospital readmission within 30 days post-discharge</sub_title>
+                <description>Number of participants that were readmitted within 30 days post-discharge among the 200 Corrie participants that completed the study.</description>
+                <counts group_id="E1" subjects_affected="13" subjects_at_risk="200"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="200"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Bruising</sub_title>
+                <description>Report of bruising on participant forearm, where the Apple Watch was located. Bruising was reported in other locations. The participant was on blood thinners, with a history of bruising. It is uncertain if the Apple Watch contributed to bruising.</description>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="200"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Seth Martin</name_or_title>
+      <organization>Johns Hopkins University School of Medicine</organization>
+      <phone>(610) 331 - 3842</phone>
+      <email>smart100@jhmi.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

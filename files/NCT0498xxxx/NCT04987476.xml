@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04987476</url>
+  </required_header>
+  <id_info>
+    <org_study_id>APHP200122</org_study_id>
+    <secondary_id>2021-A00795-36</secondary_id>
+    <nct_id>NCT04987476</nct_id>
+  </id_info>
+  <brief_title>Rhabdoid Tumors Cellular Architecture by Single-cell Analyses (InnovRT-2)</brief_title>
+  <acronym>InnovRT-2</acronym>
+  <official_title>Hétérogénéité Des Tumeurs Rhabdoides : Approches en &quot; Cellules Uniques &quot; Pour Identifier Des Cibles thérapeutiques</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institut Curie</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim is to describe at the cellular level the heterogeneity of rhabdoid tumors, and&#xD;
+      identify how this diversity influences resistance to treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Rhabdoid tumors are aggressive cancers of infancy. Although frequently chemosensitive at the&#xD;
+      very beginning, they very often show resistance, suggesting some intra-tumor diversity or&#xD;
+      plasticity. Moreover, morphological analysis of rhadoid tumors often reveal some variety in&#xD;
+      tumor cell shapes and immunohistochemical profiling. Altogether, this suggests some&#xD;
+      intra-tumor heterogeneity, that has been scarcely studied so far.&#xD;
+&#xD;
+      This project aims to describe the intra-tumor heterogeneity by single-cell sequencing&#xD;
+      approaches.&#xD;
+&#xD;
+      After surgical resection, fresh tumor samples will be dissected and analysed using the 10X&#xD;
+      Chromium technology. Briefly, cells will be grouped in clusters according to their gene&#xD;
+      expression signalling, and each cluster will be defined in comparison with all other ones.&#xD;
+      Differential analyses will allow identifying the main characteristic of each cell&#xD;
+      sub-population. Potential filiations between clusters will be analysed using classical&#xD;
+      algorithms. The study will be performed on 10 to 15 tumor samples.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2021</start_date>
+  <completion_date type="Anticipated">October 2024</completion_date>
+  <primary_completion_date type="Anticipated">October 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intra-tumor heterogeneity</measure>
+    <time_frame>Inclusion</time_frame>
+    <description>Identification of cell clusters - mean expression (RPKM unit) of gene set signtaures in each bioinformatically defined cluster</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cell clusters recurrent from one sample to the other</measure>
+    <time_frame>Inclusion</time_frame>
+    <description>Fraction/percentage of cell clusters defined by primary outcome that are specific to each tumor and those that are shared by several or all samples</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Naming of potential targetable gene</measure>
+    <time_frame>Inclusion</time_frame>
+    <description>Mean expression (RPKM unit) of targetable genes (defined by the existence of adequate pharmacological inhibitor) in each tumor sample and clusters</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">15</enrollment>
+  <condition>ATRT</condition>
+  <arm_group>
+    <arm_group_label>ATRT</arm_group_label>
+    <description>Children affected by an ATRT at time of surgical resection</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>analyzes in singles cells</intervention_name>
+    <description>genome expression analyzes in single cells</description>
+    <arm_group_label>ATRT</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Tumor samples&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Children having or likely having a rhabdoid tumor according to clinical and radiological&#xD;
+        features&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Aged 0-17 years old&#xD;
+&#xD;
+          -  having a rhabdoid tumor according to clinical and radiological features Or likely&#xD;
+             having a rhabdoid tumor according to clinical and radiological features&#xD;
+&#xD;
+          -  surgical resection in standard care&#xD;
+&#xD;
+          -  sufficient material for both diagnosis and experimental procedures&#xD;
+&#xD;
+          -  parents' agreement&#xD;
+&#xD;
+          -  health insurance&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>17 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kevin Beccaria, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>APHP Assistance Publique des Hôpitaux de Paris</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Franck BOURDEAUT, MD</last_name>
+    <phone>01 44 32 44 71</phone>
+    <email>franck.bourdeaut@curie.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Nelly BRIAND, PhD</last_name>
+    <phone>01 44 38 18 62</phone>
+    <email>nelly.briand@aphp.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Institut Curie</name>
+      <address>
+        <city>Paris</city>
+        <zip>75005</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Franck BOURDEAUT, MD</last_name>
+      <phone>01 44 32 44 71</phone>
+      <email>franck.bourdeaut@curie.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>July 31, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 31, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 3, 2021</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>ATRT</keyword>
+  <keyword>SMARCB1</keyword>
+  <keyword>single-cell RNAseq</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

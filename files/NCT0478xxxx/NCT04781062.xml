@@ -1,0 +1,305 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04781062</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4452</org_study_id>
+    <nct_id>NCT04781062</nct_id>
+  </id_info>
+  <brief_title>Development of a Horizontal Data Integration Classifier for Noninvasive Early Diagnosis of Breast Cancer</brief_title>
+  <acronym>RENOVATE</acronym>
+  <official_title>Development of a Horizontal Data Integration Classifier for Noninvasive Early Diagnosis of Breast Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ospedale Policlinico San Martino</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Associazione Italiana per la Ricerca sul Cancro</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universita degli Studi di Genova</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sidra Medical and Research Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dana-Farber Cancer Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ospedale Policlinico San Martino</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a translational no-profit study. Our proposal aims at creating a noninvasive&#xD;
+      Horizontal Data Integration (HDI) classifier for early diagnosis of breast cancer, with the&#xD;
+      final goal of avoiding in most cases useless biopsies of suspect cases encountered during&#xD;
+      radiological screening.&#xD;
+&#xD;
+      Women with radiologically identified lesions, BIRADS-3/4/5, smaller than 2 cm by radiological&#xD;
+      assessment (i.e., radiological T1), will be enrolled and invited to donate peripheral blood&#xD;
+      samples (35 ml) and urine samples (50 ml). Radiological images as well as demographic and&#xD;
+      anatomopathological data will be collected.&#xD;
+&#xD;
+      Objective of this project is to develop a HDI classifier enabling early noninvasive diagnosis&#xD;
+      of breast cancer with similar accuracy compared to breast biopsies. Such classifier will be&#xD;
+      developed based on the correlation between the molecular profile of peripheral blood (ctDNA,&#xD;
+      proteins, exosomes) and urine (ctDNA) collected at T0 (baseline, before diagnostic biopsy)&#xD;
+      and bioptic diagnosis. The assessment of the profile of peripheral blood (ctDNA, proteins,&#xD;
+      exosomes) and urine (ctDNA) at two time points for diagnosed pT1 breast cancers (T0:&#xD;
+      baseline, before biopsy; T1: after diagnosis of pT1 breast cancer) will allow us to&#xD;
+      distinguish between tumor- and host-specific molecular alterations in connection with the&#xD;
+      presence/absence of breast cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background: Currently, early diagnosis of invasive breast cancer relies on the combined use&#xD;
+      of mammogram and ultrasound. These approaches are still suboptimal in terms of accuracy, and&#xD;
+      confirmation biopsy or recall tests are needed in case of radiological suspect. Recently, the&#xD;
+      study of noninvasive biomarkers in cancer has received enormous interest, fostered by the&#xD;
+      advancement of technologies and the potential for early detection of malignancies. However,&#xD;
+      no study has so far tried to apply the simultaneous assessment of biologically different&#xD;
+      analytes and data-characterization algorithms (radiomics approaches) to increase the accuracy&#xD;
+      of early breast cancer diagnosis.&#xD;
+&#xD;
+      Hypothesis: Multiple biological analytes must be combined with the refinement of radiomics&#xD;
+      algorithms to overcome the current limitations of early breast cancer diagnosis. The overall&#xD;
+      goal of the project is to develop a horizontal data integration (HDI) classifier enabling&#xD;
+      early noninvasive diagnosis of invasive breast cancer with high accuracy.&#xD;
+&#xD;
+      Objectives: Aim 1: To test the performance for the diagnosis of small invasive breast cancers&#xD;
+      of a) ultrasensitive next-generation sequencing on circulating tumor DNA (ctDNA); b)&#xD;
+      aptamer-base proteomics arrays on plasmatic proteins; c) radiomics machine-learning&#xD;
+      algorithms. Aim 2: To develop an HDI classifier based on the aforementioned methods with the&#xD;
+      aim of reducing the needs for invasive procedures in early breast cancer diagnosis. Aim 3: To&#xD;
+      improve the performance of the HDI classifier by integrating other potentially transformative&#xD;
+      methods of noninvasive diagnosis.&#xD;
+&#xD;
+      Experimental Design: Peripheral blood samples and urine samples will be collected from a&#xD;
+      prospective cohort of 750 patients with radiologically suspect small breast lesions&#xD;
+      undergoing diagnostic biopsy at the Diagnostics Senology Unit of San Martino Hospital.&#xD;
+      Ultrasensitive Next Generation Sequencing (NGS) on plasma ctDNA will be performed using a&#xD;
+      custom tagged-amplicon panel designed by us on a cohort of 3,269 sequenced breast cancer&#xD;
+      cases from the GENIE initiative. We also will be applied a new protocol termed cell-free&#xD;
+      methylated DNA immunoprecipitation and high-throughput sequencing (cfMeDIP-seq) in&#xD;
+      collaboration with Dana Farber Cancer Institute, Boston for methylome analysis of small&#xD;
+      quantities of ctDNA from plasma and urine. Potential cancer-related plasma proteins will be&#xD;
+      analyzed using SomaScan aptamer-base protein arrays in collaboration with the Sidra Medical&#xD;
+      Center, Doha, Qatar. A radiomics classifier developed by the Senology team on an exploratory&#xD;
+      subgroup of the ASTOUND trial, sponsored by the University of Genoa, will be trained and&#xD;
+      tested on the same cohort. Other noninvasive diagnostics methods will be assessed as well. An&#xD;
+      HDI classifier will be generated on ctDNA, proteomics, and radiomics results, using advanced&#xD;
+      machine learning methods. Our HDI classifier will finally be integrated as needed with other&#xD;
+      predictors and validated on our cohort.&#xD;
+&#xD;
+      Expected Results: 1. Assessment of the performance of cutting-edge noninvasive methodologies&#xD;
+      in the context of early breast cancer diagnosis. 2. Development of a noninvasive HDI&#xD;
+      classifier for early breast cancer. 3. Novel biological insights on small breast cancers.&#xD;
+&#xD;
+      Impact On Cancer: 1. Increase in early breast diagnosis accuracy over current methods. 2.&#xD;
+      Reduction in the need for recall and invasive tests in breast cancer diagnosis. 3. Long-term&#xD;
+      impact on breast cancer mortality.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 19, 2021</start_date>
+  <completion_date type="Anticipated">December 2024</completion_date>
+  <primary_completion_date type="Anticipated">January 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Based on the results of breast lesion biopsy, patients are assigned to two different groups:&#xD;
+Breast Cancer Stage T1 Group&#xD;
+Benign Breast Lesion Group</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Development of a HDI classifier enabling early noninvasive diagnosis of breast cancer with similar accuracy compared to breast biopsies</measure>
+    <time_frame>5 years</time_frame>
+    <description>Accuracy of a horizontal data integration (HDI) classifier in correctly classifying pT1 breast cancers from benign lesions (i.e., non-invasive breast adenocarcinoma) presenting with similar radiological features (i.e., maximum lesion diameter smaller or equal to 2 cm). The HDI classifier is defined as a variable mixture of features from different radiomics analyses on baseline mammograms and molecular analyses on peripheral blood (ctDNA methylation by cfMeDIPSeq, proteins using the SomaScan® Somalogic platform, miRNA sequencing from exosomes) and urine (ctDNA methylation by cfMeDIPSeq) collected at T0 (baseline, before diagnostic biopsy). This outcome will be compared with the accuracy of diagnostic biopsy on the same patients' cohort.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of the HDI classifier</measure>
+    <time_frame>5 years</time_frame>
+    <description>Accuracy of the HDI classifier when taking into account and after removing host-specific variables by assessing the same variables after surgery.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Analytical and clinical validity of the HDI classifier</measure>
+    <time_frame>5 years</time_frame>
+    <description>Analytical and clinical validity of surrogate, less expensive methods to measure the same variables included in the HDI classifier (e.g., methylation-specific PCR assays, ELISA essays for selected proteins, quantitative real-time PCR for miRNAs).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">750</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Breast Cancer Stage T1 Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Women with radiologically identified lesions, BIRADS-3/4/5, smaller than 2 cm by radiological assessment (i.e., radiological T1), will be enrolled and invited to donate peripheral blood samples and urine samples at baseline. Radiological images as well as demographic and anatomopathological data will be collected.&#xD;
+If bioptically confirmed T1 breast cancer, patients will undergo a second peripheral blood and urine collection after primary breast cancer surgery.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Benign Breast Lesion Group</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Women with radiologically identified lesions, BIRADS-3/4/5, smaller than 2 cm by radiological assessment (i.e., radiological T1), will be enrolled and invited to donate peripheral blood samples and urine samples at baseline. Radiological images as well as demographic and anatomopathological data will be collected.&#xD;
+If bioptically confirmed benign lesion, no other samples will be collected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Blood and urine molecular analysis (Timing 0)</intervention_name>
+    <description>peripheral blood and urine sample collection</description>
+    <arm_group_label>Benign Breast Lesion Group</arm_group_label>
+    <arm_group_label>Breast Cancer Stage T1 Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Blood and urine molecular analysis (Timing 1)</intervention_name>
+    <description>peripheral blood and urine sample collection</description>
+    <arm_group_label>Breast Cancer Stage T1 Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Written informed consent&#xD;
+&#xD;
+          -  Breast lesions detected by digital bilateral mammography&#xD;
+&#xD;
+          -  Eligible for diagnostic biopsy (tru-cut or VABB) as per normal clinical practice&#xD;
+&#xD;
+          -  Ability and willfulness to comply with the protocol requirements&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Previous history of cancer, any type&#xD;
+&#xD;
+          -  Clinical or radiological suspicion of advanced or metastatic cancer at the time of&#xD;
+             screening&#xD;
+&#xD;
+          -  Known history of active or treated autoimmune or manifest chronic or seasonal and&#xD;
+             active allergic disorders&#xD;
+&#xD;
+          -  History of major trauma or surgery during the 24 weeks before screening&#xD;
+&#xD;
+          -  History of active infectious disease, either chronic or acute but occurring during the&#xD;
+             8 weeks before screening&#xD;
+&#xD;
+          -  History of known acute or chronic cardiac, kidney, or liver disease disorders or acute&#xD;
+             cardiac events&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gabriele Zoppoli, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Ospedale Policlinico San Martino</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gabriele Zoppoli, MD, PhD</last_name>
+    <phone>00390103538667</phone>
+    <email>gabriele.zoppoli@unige.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Maurizio Gallo, BSc</last_name>
+    <phone>00390103538940</phone>
+    <email>maurizio.gallo@unige.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Ospedale Policlinico San Martino</name>
+      <address>
+        <city>Genova</city>
+        <zip>16132</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gabriele Zoppoli, MD, PhD</last_name>
+      <phone>00390103538667</phone>
+      <email>gabriele.zoppoli@unige.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Francesco Ravera, MD</last_name>
+      <phone>00390103538667</phone>
+      <email>francescoravera.rave@gmail.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Gabriele Zoppoli, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alberto Ballestrero, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Massimo Calabrese, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alberto Tagliafico, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Valerio Gaetano Vellone, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Francesco Ravera, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Martina Dameri, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gabriella Cirmena, MSc, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 23, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 4, 2021</study_first_posted>
+  <last_update_submitted>March 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Translational Study</keyword>
+  <keyword>Horizontal Data Integration Classifier</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

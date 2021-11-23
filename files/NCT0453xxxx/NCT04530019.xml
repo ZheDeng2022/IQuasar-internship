@@ -1,0 +1,174 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04530019</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00244401</org_study_id>
+    <nct_id>NCT04530019</nct_id>
+  </id_info>
+  <brief_title>Brachytherapy Innovations in Gynecologic Cancer</brief_title>
+  <official_title>Magnetic Resonance-Guided Brachytherapy Innovations in Gynecologic Cancer-Methods to Identify Remnant Tumor Versus Scar Tissue in Relation to Radiation Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this pilot study, the investigators will test tools designed to more precisely identify,&#xD;
+      define and create a radiation treatment plan to tumor remnants as separate from fibrotic or&#xD;
+      normal tissue in a Magnetic Resonance (MR) simulator in the department of radiation oncology.&#xD;
+      The investigators will examine if this beneficial for tumor versus normal tissue delineation,&#xD;
+      will result in more precise tumor targeting with radiation in an efficient manner and whether&#xD;
+      there would be fewer toxicities.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is a clinical research study following patients for toxicity after brachytherapy,&#xD;
+      and the investigators will be using the D2cc as a surrogate biomarker for determining risk&#xD;
+      for toxicity in addition to utilizing toxicity measured from physician-queries using the&#xD;
+      Common Toxicity Criteria for Adverse Events (CTCAE v. 4.0). Patients will have images&#xD;
+      analyzed for quantification of residual tumor versus fibrosis. The investigators will utilize&#xD;
+      Magnetic Resonance (MR) tracking, and pilot test: an endovaginal coil, a deflectable Magnetic&#xD;
+      Resonance stylet, real-time planning software, and auto-segmentation of normal tissues and&#xD;
+      tumor.&#xD;
+&#xD;
+      Standard T2-weighted MR images are generally recommended given the soft-tissue visualization&#xD;
+      without the need for contrast media injection. At the time of brachytherapy, acquisition of&#xD;
+      para-axial, para-sagittal and para-coronal images should be performed with the orientations&#xD;
+      being orthogonal (para-axial) and parallel (para-sagittal/para-coronal) to the intrauterine&#xD;
+      tandem. Slice thickness has a direct impact on applicator reconstruction accuracy, and a&#xD;
+      slice thickness of ≤3mm is required on the NRG Oncology study (NRG-GY006).&#xD;
+&#xD;
+      More advanced multi-parametric magnetic resonance imaging (mmpMRI) series show significant&#xD;
+      promise. A Dynamic Contrast Enhanced (DCE) study identified one voxel cluster consisting of&#xD;
+      low-enhancing voxels based on the relative signal increase (RSI) time series that was related&#xD;
+      to locoregional control (adjusted p-value 0.048). Diffusion-weighted (DW)-MRI is used to&#xD;
+      identify areas of dense residual tumor.31 In one analysis, the mean apparent diffusion&#xD;
+      coefficient (ADC) value of the primary tumor on pretreatment MRI was an independent predictor&#xD;
+      of disease-free survival in cervical cancer patients treated with chemoradiation. However,&#xD;
+      artifacts result in inconsistent contouring at the time of brachytherapy. 3D Slicer is a free&#xD;
+      open source software application for medical image computing, and will be utilized for some&#xD;
+      aspects of research in MR Simulator Suite.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 2022</start_date>
+  <completion_date type="Anticipated">December 2028</completion_date>
+  <primary_completion_date type="Anticipated">June 2027</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Toxicity rates calculated for patients enrolled on this study</measure>
+    <time_frame>Up to 24 months post treatment</time_frame>
+    <description>Toxicity rates will be calculated using the Common Terminology Criteria for Adverse Events (CTCAE v. 4.0)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in tumor as assessed by MRI</measure>
+    <time_frame>Prior to treatment/at diagnosis and post-brachytherapy treatment up to 14 days</time_frame>
+    <description>Compare changes in tumor based on MRI.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Gynecologic Cancer</condition>
+  <arm_group>
+    <arm_group_label>MR Group</arm_group_label>
+    <description>Following standard MRI-guided Brachytherapy, patients will have images analyzed for quantification of residual tumor versus fibrosis. We will pilot-test an endovaginal coil, a deflectable MR stylet, real-time planning software, and auto-segmentation of normal and tumor tissue.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Women with gynecological cancer, ages 18 and older.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Participants must meet the following criteria on screening examination to be eligible to&#xD;
+        participate in the study:&#xD;
+&#xD;
+          -  Participants must have histologically or cytologically confirmed carcinoma. Central&#xD;
+             pathology review is not required; however, pathology will be reviewed at the Sidney&#xD;
+             Kimmel Comprehensive Cancer Center (SKCCC) at Johns Hopkins.&#xD;
+&#xD;
+          -  Any patient eligible for internal implantation without MR guidance will be considered&#xD;
+             eligible for this protocol. Standard criteria for internal implantation include:&#xD;
+&#xD;
+        Carcinoma of the cervix: Stage I-IVA or vaginal recurrence Carcinoma of the uterus: Stage&#xD;
+        IIIB (vaginal involvement), inoperable, or vaginal recurrence Carcinoma of the vagina:&#xD;
+        Stage I-IVA or vaginal recurrence Carcinoma of the vulva: Stage I-IVA or recurrence&#xD;
+        Carcinoma of the urethra based on treating physician's discretion&#xD;
+&#xD;
+          -  Patients who have received prior radiation or chemotherapy may be enrolled on this&#xD;
+             study.&#xD;
+&#xD;
+          -  Age &gt; 18 years. Children do not develop these malignancies and therefore are not&#xD;
+             considered candidates for this trial.&#xD;
+&#xD;
+          -  Life expectancy of greater than 6 months.&#xD;
+&#xD;
+          -  Eastern Cooperative Oncology Group (ECOG) performance scale. ECOG status of &lt;2, based&#xD;
+             on treating physician's discretion&#xD;
+&#xD;
+          -  Ability to understand and the willingness to sign a written informed consent document.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Uncontrolled intercurrent illness including, but not limited to ongoing or active&#xD;
+             infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac&#xD;
+             arrhythmia, or psychiatric illness/social situations that would limit compliance with&#xD;
+             study requirements.&#xD;
+&#xD;
+          -  Absolute neutrophil count &lt; 500 at the time of brachytherapy&#xD;
+&#xD;
+          -  A history of metal in the head or eyes&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <gender_description>Women with gynecological cancer.</gender_description>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Akila Viswanathan, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Johns Hopkins, School of Medicine, Radiation Oncology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dana Kaplin, MPH</last_name>
+    <phone>443-690-7007</phone>
+    <email>dkaplin1@jhmi.edu</email>
+  </overall_contact>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>August 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 28, 2020</study_first_posted>
+  <last_update_submitted>September 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

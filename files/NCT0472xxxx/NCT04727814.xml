@@ -1,0 +1,244 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04727814</url>
+  </required_header>
+  <id_info>
+    <org_study_id>B10903009</org_study_id>
+    <nct_id>NCT04727814</nct_id>
+  </id_info>
+  <brief_title>Comparison of Polyp Detection and False Alarm Rates in Water Exchange and Air Insufflation Colonoscopy</brief_title>
+  <official_title>Polyp Detection and False Alarm Rates by Computer-Aided Analysis of Videos of Withdrawal Phase of Colonoscopy in a Randomized Controlled Trial of Water Exchange Versus Air Insufflation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dalin Tzu Chi General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Chiayi University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Dalin Tzu Chi General Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Water exchange (WE) improves adenoma detection rate (ADR) but missed polyps occur due to&#xD;
+      human limitations. Computer-aided detection (CADe) improves polyp detection and can overcome&#xD;
+      human omissions, but a limiting factor is feces and air bubbles related false alarms (FA). WE&#xD;
+      provides salvage cleansing and can potentially reduce FA. The investigators compared the&#xD;
+      additional polyp detection rate (APDR) and false alarm rate (FAR) by CADe between WE and air&#xD;
+      insufflation.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Worldwide colorectal cancer (CRC) is the second most common cancer in women and the third in&#xD;
+      men. Early detection and removal of the colon polyps (cancer precursors) reduce the incidence&#xD;
+      of CRC. However, interval colon cancers still occur within 3-5 years after colonoscopy among&#xD;
+      patients of colonoscopists with low adenoma detection rate (ADR), defined as the proportion&#xD;
+      of patients with at least one adenoma. ADR was widely variable, suggesting that some adenomas&#xD;
+      were missed. Twenty six percent of adenomas were missed during tandem examination reported in&#xD;
+      a recent meta-analysis. Missed adenomas accounted for about 58% of interval cancers. Adenomas&#xD;
+      are more likely to be missed in the right colon than in other segments because of their flat&#xD;
+      morphology and hiding behind the accentuated folds and curvatures. Innovations in colonoscopy&#xD;
+      to increase ADR and decrease adenoma miss rate (AMR) hold the potential to reduce interval&#xD;
+      cancers.&#xD;
+&#xD;
+      The consensus statements in a recent modified Delphi review confirmed water exchange (WE) as&#xD;
+      a standardized insertion method produced less insertion pain, better bowel cleanliness and&#xD;
+      higher ADR than gas insufflation. It is characterized by infusing water to guide insertion in&#xD;
+      an airless lumen and almost simultaneous suctioning of the infused water during insertion,&#xD;
+      aiming at near-complete removal of the infused water and debris upon cecal intubation.&#xD;
+      Although an RCT with tandem examination showed WE significantly decreased right colon adenoma&#xD;
+      miss rate (rAMR) compared with CO2 insufflation (18.0% [33/183] vs. 34.6% [62/179], P =&#xD;
+      0.0025), a considerable percentage of polyps in the right colon were still overlooked.&#xD;
+&#xD;
+      In recent years, the field of machine learning and artificial intelligence has made&#xD;
+      remarkable progress, and an increasing number of publications showed improved polyp detection&#xD;
+      rate (PDR) and ADR using computer-aided detection (CADe). CADe can detect polyps overlooked&#xD;
+      by the colonoscopist due to human limitations of inattention or inexperience. However, one&#xD;
+      major drawback of current CADe systems is false alarms (FAs), or false positives (FPs).&#xD;
+      Usually triggered by bubbles and fecal debris, FAs might distract the endoscopists with&#xD;
+      potential unfavorable effect on ADR. One study reported a FP rate of up to 60%.&#xD;
+&#xD;
+      In an overview on applying deep learning algorithms and WE in colonoscopy to improve adenoma&#xD;
+      detection, the authors noted that WE could enhance the performance of artificial intelligence&#xD;
+      (CADe) by improving bowel cleanliness and thus the exposure of polyps. In a follow-up review,&#xD;
+      the authors reported that artificial intelligence might mitigate operator-dependent factors&#xD;
+      that limited the potential of WE, while WE might provide the platform to optimize the&#xD;
+      performance of artificial intelligence by increasing bowel cleanliness and improving&#xD;
+      visualization, Therefore, the strengths of WE and artificial intelligence may complement the&#xD;
+      weaknesses of each other to maximize adenoma detection.&#xD;
+&#xD;
+      One of our recently completed studies compared right colon ADR evaluated by a blinded&#xD;
+      endoscopist using either air insufflation or WE for insertion, with all the colonoscopies&#xD;
+      video recorded (NCT02737514). We developed and applied a CADe system to detect the polyps in&#xD;
+      the videos. The current report is a proof of principle study to test the hypothesis that WE&#xD;
+      could yield a significantly higher additional PDR (APDR) and reduce false alarms rate (FAR)&#xD;
+      as compared to air insufflation in the right colon.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">August 1, 2020</start_date>
+  <completion_date type="Anticipated">April 10, 2021</completion_date>
+  <primary_completion_date type="Actual">September 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Polyp detection rate</measure>
+    <time_frame>One month</time_frame>
+    <description>To find out and compare the polyp detection rate on water exchange and air insufflation group</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>False positive rate of computer-aided detection system</measure>
+    <time_frame>One month</time_frame>
+    <description>To find out and compare the false positive rates on water exchange and air insufflation group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>False alarm rate of computer-aided detection system</measure>
+    <time_frame>One month</time_frame>
+    <description>To find out and compare the false alarm rates on water exchange and air</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">250</enrollment>
+  <condition>Colon Polyp</condition>
+  <arm_group>
+    <arm_group_label>Water exchange with computer-aided detection system</arm_group_label>
+    <description>Computer-aided detection system overlaid videos with water exchange colonoscopy method</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Air insufflation with computer-aided detection system</arm_group_label>
+    <description>Computer-aided detection system overlaid videos with air insufflation colonoscopy method</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Computer-aided detection system overlaid colonoscopy videos analysis</intervention_name>
+    <description>Analysis of computer-aided detection system overlaid videos from colonoscopies performed with water exchange or air insufflation method.</description>
+    <arm_group_label>Air insufflation with computer-aided detection system</arm_group_label>
+    <arm_group_label>Water exchange with computer-aided detection system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients were undergoing screen, diagnostic or surveillance colonoscopy were enrolled.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients aged 40 to 80 years old, undergoing screen, diagnostic or surveillance&#xD;
+             colonoscopy were enrolled.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients were excluded in case of having colonoscopy in the past 3 years, renal&#xD;
+             failure, previous colonic resection, scheduled for polypectomy, partial intake of&#xD;
+             bowel preparation, American Society of Anesthesiology (ASA) Risk Class 3 or higher,&#xD;
+             and lack of written informed consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Chia Pei Tang</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dalin Tzu Chi General Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Chia Pei Tang</name>
+      <address>
+        <city>Chiayi City</city>
+        <state>Chiayi</state>
+        <zip>62247</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <reference>
+    <citation>Cheng CL, Kuo YL, Hsieh YH, Tang JH, Leung FW. Comparison of Right Colon Adenoma Miss Rates Between Water Exchange and Carbon Dioxide Insufflation: A Prospective Randomized Controlled Trial. J Clin Gastroenterol. 2021 Nov-Dec 01;55(10):869-875. doi: 10.1097/MCG.0000000000001454.</citation>
+    <PMID>33074950</PMID>
+  </reference>
+  <reference>
+    <citation>Hsieh YH, Tseng CW, Hu CT, Koo M, Leung FW. Prospective multicenter randomized controlled trial comparing adenoma detection rate in colonoscopy using water exchange, water immersion, and air insufflation. Gastrointest Endosc. 2017 Jul;86(1):192-201. doi: 10.1016/j.gie.2016.12.005. Epub 2016 Dec 15.</citation>
+    <PMID>27988288</PMID>
+  </reference>
+  <reference>
+    <citation>Leung FW, Hsieh YH. Artificial intelligence (computer-assisted detection) is the most recent novel approach to increase adenoma detection. Gastrointest Endosc. 2021 Jan;93(1):86-88. doi: 10.1016/j.gie.2020.07.059.</citation>
+    <PMID>33353642</PMID>
+  </reference>
+  <reference>
+    <citation>Wang P, Liu X, Berzin TM, Glissen Brown JR, Liu P, Zhou C, Lei L, Li L, Guo Z, Lei S, Xiong F, Wang H, Song Y, Pan Y, Zhou G. Effect of a deep-learning computer-aided detection system on adenoma detection during colonoscopy (CADe-DB trial): a double-blind randomised study. Lancet Gastroenterol Hepatol. 2020 Apr;5(4):343-351. doi: 10.1016/S2468-1253(19)30411-X. Epub 2020 Jan 22. Erratum in: Lancet Gastroenterol Hepatol. 2020 Apr;5(4):e3.</citation>
+    <PMID>31981517</PMID>
+  </reference>
+  <reference>
+    <citation>Repici A, Badalamenti M, Maselli R, Correale L, Radaelli F, Rondonotti E, Ferrara E, Spadaccini M, Alkandari A, Fugazza A, Anderloni A, Galtieri PA, Pellegatta G, Carrara S, Di Leo M, Craviotto V, Lamonaca L, Lorenzetti R, Andrealli A, Antonelli G, Wallace M, Sharma P, Rosch T, Hassan C. Efficacy of Real-Time Computer-Aided Detection of Colorectal Neoplasia in a Randomized Trial. Gastroenterology. 2020 Aug;159(2):512-520.e7. doi: 10.1053/j.gastro.2020.04.062. Epub 2020 May 1.</citation>
+    <PMID>32371116</PMID>
+  </reference>
+  <reference>
+    <citation>Barua I, Vinsard DG, Jodal HC, Løberg M, Kalager M, Holme Ø, Misawa M, Bretthauer M, Mori Y. Artificial intelligence for polyp detection during colonoscopy: a systematic review and meta-analysis. Endoscopy. 2021 Mar;53(3):277-284. doi: 10.1055/a-1201-7165. Epub 2020 Jun 17.</citation>
+    <PMID>32557490</PMID>
+  </reference>
+  <reference>
+    <citation>Hassan C, Spadaccini M, Iannone A, Maselli R, Jovani M, Chandrasekar VT, Antonelli G, Yu H, Areia M, Dinis-Ribeiro M, Bhandari P, Sharma P, Rex DK, Rösch T, Wallace M, Repici A. Performance of artificial intelligence in colonoscopy for adenoma and polyp detection: a systematic review and meta-analysis. Gastrointest Endosc. 2021 Jan;93(1):77-85.e6. doi: 10.1016/j.gie.2020.06.059. Epub 2020 Jun 26. Review.</citation>
+    <PMID>32598963</PMID>
+  </reference>
+  <reference>
+    <citation>Wang P, Berzin TM, Glissen Brown JR, Bharadwaj S, Becq A, Xiao X, Liu P, Li L, Song Y, Zhang D, Li Y, Xu G, Tu M, Liu X. Real-time automatic detection system increases colonoscopic polyp and adenoma detection rates: a prospective randomised controlled study. Gut. 2019 Oct;68(10):1813-1819. doi: 10.1136/gutjnl-2018-317500. Epub 2019 Feb 27.</citation>
+    <PMID>30814121</PMID>
+  </reference>
+  <reference>
+    <citation>Hsieh YH, Leung FW. An overview of deep learning algorithms and water exchange in colonoscopy in improving adenoma detection. Expert Rev Gastroenterol Hepatol. 2019 Dec;13(12):1153-1160. doi: 10.1080/17474124.2019.1694903. Epub 2019 Nov 30. Review.</citation>
+    <PMID>31755802</PMID>
+  </reference>
+  <results_reference>
+    <citation>Cadoni S, Ishaq S, Hassan C, Falt P, Fuccio L, Siau K, Leung JW, Anderson J, Binmoeller KF, Radaelli F, Rutter MD, Sugimoto S, Muhammad H, Bhandari P, Draganov PV, de Groen P, Wang AY, Yen AW, Hamerski C, Thorlacius H, Neumann H, Ramirez F, Mulder CJJ, Albéniz E, Amato A, Arai M, Bak A, Barret M, Bayupurnama P, Cheung R, Ching HL, Cohen H, Dolwani S, Friedland S, Harada H, Hsieh YH, Hayee B, Kuwai T, Lorenzo-Zúñiga V, Liggi M, Mizukami T, Mura D, Nylander D, Olafsson S, Paggi S, Pan Y, Parra-Blanco A, Ransford R, Rodriguez-Sanchez J, Senturk H, Suzuki N, Tseng CW, Uchima H, Uedo N, Leung FW. Water-assisted colonoscopy: an international modified Delphi review on definitions and practice recommendations. Gastrointest Endosc. 2021 Jun;93(6):1411-1420.e18. doi: 10.1016/j.gie.2020.10.011. Epub 2020 Oct 16. Review.</citation>
+    <PMID>33069706</PMID>
+  </results_reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>January 18, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2021</study_first_posted>
+  <last_update_submitted>April 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Dalin Tzu Chi General Hospital</investigator_affiliation>
+    <investigator_full_name>Chia Pei Tang</investigator_full_name>
+    <investigator_title>Gastroeneterologist</investigator_title>
+  </responsible_party>
+  <keyword>water exchange, polyp detection rate</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,243 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02396472</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CarnegieMU</org_study_id>
+    <nct_id>NCT02396472</nct_id>
+  </id_info>
+  <brief_title>Mental Health Pathways in Internet Support Groups</brief_title>
+  <official_title>Internet Support Groups: Identifying and Improving Pathways for Mental Health</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Carnegie Mellon University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>American Cancer Society, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Carnegie Mellon University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People facing serious health threats increasingly use Internet health support communities to&#xD;
+      obtain informational support, emotional support and other resources. This study introduces&#xD;
+      software algorithms similar to those used by social media sites to put people in touch with&#xD;
+      helpful information and social interactions. Participants from the American Cancer Society's&#xD;
+      Cancer Support Network will have access to this online support group using the default&#xD;
+      interface that orders content by broad content category and date or with a new interface that&#xD;
+      highlights communication content and people that match users' interests and needs.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Internet support groups (ISGs) are online communities where people come together to exchange&#xD;
+      information, emotional support and other resources. They are an important resource for&#xD;
+      patients grappling with serious medical conditions. Although participation in health-related&#xD;
+      ISGs has been associated with significant reductions in participant-reported depression,&#xD;
+      anxiety and other indicators of psychological distress, many ISG members leave too soon to&#xD;
+      benefit. In a parallel study, we are using state-of-the art machine learning and automated&#xD;
+      language analysis techniques to assess the types of interactions that keep people&#xD;
+      participating in these groups and that lead to improved psychosocial well-being and health&#xD;
+      quality of life and how these interactions develop. The clinical trial described here uses&#xD;
+      these technologies and insights from our empirical research to build, deploy, and evaluate&#xD;
+      interventions that improve the interactions in Internet health support groups.&#xD;
+&#xD;
+      We will develop and pilot-test interventions to encourage effective communication processes&#xD;
+      identified in our empirical research. Participants from the American Cancer Society's Cancer&#xD;
+      Support Network will access this support group using either the default interface that orders&#xD;
+      content by disease diagnosis and date or with a new interface that sometimes highlights&#xD;
+      communication content and people who match their interests and needs. We will test whether&#xD;
+      mood, satisfaction with interactions and engagement in the group increase following&#xD;
+      interventions that (a) increase participants' receipt of individualized support from others;&#xD;
+      (b) provide participants with opportunities to offer support to others; (c) facilitate&#xD;
+      participants' expression of emotions; and (d) help participants form relationships with&#xD;
+      compatible peers. In a series of small, randomized experiments, we will examine how these&#xD;
+      interventions affect participants' communication behaviors as well as short-term engagement&#xD;
+      and satisfaction with their online interactions.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 2016</start_date>
+  <completion_date type="Actual">August 16, 2019</completion_date>
+  <primary_completion_date type="Actual">August 16, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Read message (Does the user read the message they were exposed to?)</measure>
+    <time_frame>1 day</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Interaction satisfaction (Self-report measure of satisfaction 3-item survey)</measure>
+    <time_frame>1 day</time_frame>
+    <description>Self-report measure of satisfaction with a random sample of messages. This is a 3-item survey that will be delivered as a pop-up questionnaire following a random sample of the messages users were exposed to.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reply to message (How long does it take the users to reply to a message they were exposed to, if they reply at all.)</measure>
+    <time_frame>2 days</time_frame>
+    <description>How long does it take the users to reply to a message they were exposed to, if they reply at all.</description>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Actual">6500</enrollment>
+  <condition>Depression</condition>
+  <condition>Stress</condition>
+  <condition>Anxiety</condition>
+  <arm_group>
+    <arm_group_label>Order by time and topic</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Volunteers from the American Cancer Society's Cancer Survivors' Network (CSN) will see some of their messages delivered using CSN's default ordering, which shows messages within a conversational thread ordered by time stamp. Conversational threads are nested within a broad topic-based forum, like breast cancer or colorectal cancer survivors.&#xD;
+Note that this is a within-participant trial, so that all participants participate in all arms of the trial. Messages, not people, are randomly assigned to condition.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by information relevance</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted if they match the type of content the user has previously shown interest in, by previously contributing or reading semantically similar material.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by social relationship</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because they come from people the user has previously shown interest in, by previously reading their posts or communicating with them.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by help giving</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because they seek help and therefore provide an opportunity for participants to provide social support to others.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Order by self-disclosure</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In this condition some messages will be highlighted because in them the writer is self-disclosing, and they provide provide an opportunity for participants to self-disclose in return.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by time and topic</intervention_name>
+    <arm_group_label>Order by time and topic</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by information relevance</intervention_name>
+    <arm_group_label>Order by information relevance</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by social relationship</intervention_name>
+    <arm_group_label>Order by social relationship</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by help giving</intervention_name>
+    <arm_group_label>Order by help giving</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Order by self-disclosure</intervention_name>
+    <arm_group_label>Order by self-disclosure</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Is an existing or new registrant to the American Cancer Society's Cancer Support&#xD;
+             Network.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Robert E Kraut, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Carnegie Mellon University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Carnegie Mellon University</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://kraut.hciresearch.info/articles/</url>
+    <description>Robert Kraut's recent articles and book chapters</description>
+  </link>
+  <reference>
+    <citation>Wang YC, Kraut RE, Levine JM. Eliciting and receiving online support: using computer-aided content analysis to examine the dynamics of online social support. J Med Internet Res. 2015 Apr 20;17(4):e99. doi: 10.2196/jmir.3558.</citation>
+    <PMID>25896033</PMID>
+  </reference>
+  <reference>
+    <citation>Vlahovic, T., Wang, Y.-C., Kraut, R. E., &amp; Levine, J. M. (2014). Support matching and satisfaction in an online breast cancer support community. CHI'14: Proceedings of the ACM Conference on Human Factors in Computing Systems (pp. 1625-1634 ). NY: ACM.</citation>
+  </reference>
+  <reference>
+    <citation>Wang, Y., Kraut, R., &amp; Levine, J. (2012). To stay or leave? the relationship of emotional and informational support to commitment in online health support groups CSCW '12 Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work (pp. 833-842). NY: ACM.</citation>
+  </reference>
+  <reference>
+    <citation>Yang D, Kraut R, Smith T, Mayfield E, Jurafsky D. Seekers, Providers, Welcomers, and Storytellers: Modeling Social Roles in Online Health Communities. Proc SIGCHI Conf Hum Factor Comput Syst. 2019 May;2019. pii: 344. doi: 10.1145/3290605.3300574.</citation>
+    <PMID>31423493</PMID>
+  </reference>
+  <reference>
+    <citation>Yang D, Yao Z, Seering J, Kraut R. The Channel Matters: Self-disclosure, Reciprocity and Social Support in Online Cancer Support Groups. Proc SIGCHI Conf Hum Factor Comput Syst. 2019 May;2019. pii: 31. doi: 10.1145/3290605.3300261.</citation>
+    <PMID>31448374</PMID>
+  </reference>
+  <reference>
+    <citation>Yang D, Yao Z, Kraut R. Self-disclosure and Channel Difference in Online Health Support Groups. Proc Int AAAI Conf Weblogs Soc Media. 2017 May;2017:704-707.</citation>
+    <PMID>31423352</PMID>
+  </reference>
+  <reference>
+    <citation>Yang D, Kraut R, Levine JM. Commitment of Newcomers and Old-timers to Online Health Support Communities. Proc SIGCHI Conf Hum Factor Comput Syst. 2017 May;2017:6363-6375. doi: 10.1145/3025453.3026008.</citation>
+    <PMID>31423492</PMID>
+  </reference>
+  <verification_date>August 2019</verification_date>
+  <study_first_submitted>January 15, 2015</study_first_submitted>
+  <study_first_submitted_qc>March 23, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">March 24, 2015</study_first_posted>
+  <last_update_submitted>February 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>social support</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Depression</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

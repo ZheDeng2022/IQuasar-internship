@@ -1,0 +1,153 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04242108</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018KYPJ074</org_study_id>
+    <nct_id>NCT04242108</nct_id>
+  </id_info>
+  <brief_title>Diagnostic Performance of Deep Learning for Angle Closure</brief_title>
+  <official_title>Diagnostic Performance of Deep Convolutional Neural Networks for Angle Closure Glaucoma: an International Multicenter Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Primary angle closure diseases (PACD) are commonly seen in Asia. In clinical practice,&#xD;
+      gonioscopy is the gold standard for angle width classification in PACD patietns. However,&#xD;
+      gonioscopy is a contact examination and needs a long learning curve. Anterior segment optical&#xD;
+      coherence tomography (AS-OCT) is a non-contact test which can obtain three dimensional images&#xD;
+      of the anterior segment within seconds. Therefore, the investigators designed the study to&#xD;
+      verify if AS-OCT based deep learning algorithm is able to detect the PACD subjects diagnosed&#xD;
+      by gonioscopy.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 15, 2019</start_date>
+  <completion_date type="Anticipated">March 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under receiver operating curve (AUC)</measure>
+    <time_frame>Immediately after obtaining the AS-OCT images</time_frame>
+    <description>AUC value of the deep learning algorithm in angle width classfication and synechia detection</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity</measure>
+    <time_frame>Immediately after obtaining the AS-OCT images</time_frame>
+    <description>Sensitivity and specificity of the automated algorithm in angle width classfication and synechia detection</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Angle Closure Glaucoma</condition>
+  <arm_group>
+    <arm_group_label>Angle closure group</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Open angle group</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Peripheral synechia (PAS) group</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-peripheral synechia (PAS) group</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Deep learning algorithm based on AS-OCT scans</intervention_name>
+    <description>The OCT scans of study subjects would be imported into the algorithm. Automated classfication of angle width and detection of synechia would be performed by the algorithm. The diagnostic performance of the algorithm would be compared with gonioscopy records.</description>
+    <arm_group_label>Angle closure group</arm_group_label>
+    <arm_group_label>Non-peripheral synechia (PAS) group</arm_group_label>
+    <arm_group_label>Open angle group</arm_group_label>
+    <arm_group_label>Peripheral synechia (PAS) group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The training and primary validation datasets were collected from the databases of&#xD;
+        electronic medical and research records at Zhongshan Ophthalmic Center from September 1,&#xD;
+        2016, to September 1, 2019. The external test dataset was obtained from the Singapore Eye&#xD;
+        Research Institute (SERI), Singapore during June 2008 to November 2019, and the&#xD;
+        Chulalongkorn University and King Chulalongkorn Memorial Hospital (KCMH, Bangkok, Thailand)&#xD;
+        from October, 2019 to April, 2020.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        The inclusion criteria in the study were as follows: (1) All participants must be ≥ 18&#xD;
+        years old; (2) Study subjects had a previous diagnosis of the ACA status (narrow or open,&#xD;
+        PAS or non-PAS) based on gonioscopy, SS-OCT scans and medical history records. Exclusion&#xD;
+        criteria of the data include: (1) poor compliance in receiving gonioscopy examination; (2)&#xD;
+        unclear AS-OCT scans due to blinking or out of focus; (3) recent use of miotics within a&#xD;
+        month; 4) secondary angle closure sue to subluxation or dislocation, uveitis, neovascular&#xD;
+        glaucoma, et al.; 5) history of ocular surgery or laser iridotomy; 6) patients who&#xD;
+        previously had an episode of primary angle closure (which was obtained on history by asking&#xD;
+        the patients).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Zhongshan Ophthalmic Center</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>51000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>January 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 27, 2020</study_first_posted>
+  <last_update_submitted>April 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Zhongshan Ophthalmic Center, Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>Xiulan Zhang</investigator_full_name>
+    <investigator_title>Director of Clinical Research Center</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glaucoma</mesh_term>
+    <mesh_term>Glaucoma, Angle-Closure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The imaging data of study subjects would be available to other researchers upon reasonable request. Part of the data would be open as public datasets after the related article is published.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Part of the data would be open as public datasets after the related article is published.</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

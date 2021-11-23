@@ -1,0 +1,216 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05018104</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H20-01349</org_study_id>
+    <nct_id>NCT05018104</nct_id>
+  </id_info>
+  <brief_title>Risk Model for Severe Rebound Pain After Lower Limb Orthopedic Surgery Involving Single-Shot Sciatic Nerve Blocks</brief_title>
+  <official_title>Development and Internal Validation of a Multivariable Risk Prediction Model for Severe Rebound Pain After Lower Limb Orthopedic Surgery Involving Single-Shot Popliteal Sciatic Nerve Blocks: A Single Centre Retrospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of British Columbia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of British Columbia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Rebound pain is a well-recognized phenomenon after the effects of a nerve block wear off.&#xD;
+      Severe rebound pain can happen after outpatient surgery, with patients often needing to come&#xD;
+      back to the hospital or use other health care resources.&#xD;
+&#xD;
+      People who are younger, female or have more pain before surgery are at higher risk of having&#xD;
+      rebound pain. Bone surgeries and upper limb surgeries also increase the chances of having&#xD;
+      rebound pain after surgery. Patients who have a tourniquet used during leg surgery often have&#xD;
+      worse pain after surgery compared to patients who get surgery without the use of a&#xD;
+      tourniquet.&#xD;
+&#xD;
+      Things that may reduce the chances of getting rebound pain are the use of nerve block&#xD;
+      catheters, certain additives in nerve blocks and using multiple types of pain killers before&#xD;
+      the block wears off. Using nerve block catheters can be expensive, so a targeted approach of&#xD;
+      giving these catheters to patients who have the highest chances of getting rebound pain may&#xD;
+      be the best way to allocate resources and help patients.&#xD;
+&#xD;
+      The aim of this study is to create and test a risk model for severe rebound pain after lower&#xD;
+      limb surgery where patients are getting a sciatic nerve block.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Rebound pain is a well-recognized phenomenon after the resolution of peripheral nerve blocks.&#xD;
+      Severe rebound pain is prevalent after ambulatory surgery, with potential resultant increased&#xD;
+      health-care utilization and cost. Risk factors for severe rebound pain may include younger&#xD;
+      age, female sex, high preoperative pain score, bone surgeries, and upper limb surgeries. Use&#xD;
+      of tourniquet for lower limb procedures is also associated with worse postoperative pain&#xD;
+      compared to without. Protective factors may include continuous perineural catheter, regional&#xD;
+      anesthesia adjuncts, and multimodal oral pain management prior to resolution of peripheral&#xD;
+      nerve blockade. However, placement of continuous peripheral nerve block catheters utilizes&#xD;
+      additional health care resources; hence, a targeted approach where continuous perineural&#xD;
+      catheters are offered to patients at the highest risk of severe rebound pain could&#xD;
+      potentially offer the biggest benefit.&#xD;
+&#xD;
+      The aim of the study is to derive and validate a multivariable prediction model for severe&#xD;
+      rebound pain after lower limb surgery involving popliteal blockade, to assist with risk&#xD;
+      stratification and shared decision making.&#xD;
+&#xD;
+      The primary model endpoint is severe rebound pain, defined by transition from well-controlled&#xD;
+      pain (numerical rating scale [NRS] 3 or less or patient report of satisfactory pain control)&#xD;
+      in the post anesthetic care unit (PACU) while the block is working to severe pain (NRS pain&#xD;
+      score 7 or greater) within 48 h of block performance. This definition is modified from that&#xD;
+      of Barry et al., 2020 as clinically, the investigators have noted some patients having&#xD;
+      sensory blocks lasting more than 24 hours with the use of adjuncts.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 4, 2016</start_date>
+  <completion_date type="Anticipated">July 26, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area Under the Receiver Operating Characteristic (ROC) Curve</measure>
+    <time_frame>Not a time dependent outcome (retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>The Area under the ROC Curve provides a graphical display of sensitivity and specificity and is used to evaluate the discriminative ability of the risk prediction model.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Calibration Slope</measure>
+    <time_frame>Not a time dependent outcome (model validation test based on retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>To evaluate the the degree to which numerical predictions are too high or too low compared to outcomes.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Scaled Brier Score</measure>
+    <time_frame>Not a time dependent outcome (model evaluation/validation test based on retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>A proper score function that measures the accuracy of probabilistic predictions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Nagelkerke R2</measure>
+    <time_frame>Not a time dependent outcome (model evaluation/validation test based on retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>An adjusted version of the Cox &amp; Snell R-square that adjusts the scale of the statistic to cover the full range from 0 to 1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Decile Calibration Plots</measure>
+    <time_frame>Not a time dependent outcome (model evaluation/validation test based on retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>Decile Calibration Plots will be generated for the final prediction models to further assess calibration, with Loess-smoothed calibration curves created for each imputed dataset.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Decision Curve Analysis</measure>
+    <time_frame>Not a time dependent outcome (model evaluation/validation test based on retrospective participant pain data up to 48 hours after a nerve block was administered)</time_frame>
+    <description>The Decision Curve Analysis is a method to evaluate prediction models and diagnostic tests. It will be performed on the final prediction models.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">1270</enrollment>
+  <condition>Orthopedic Procedures</condition>
+  <condition>Pain, Postoperative</condition>
+  <condition>Surgery</condition>
+  <condition>Nerve Block</condition>
+  <condition>Ambulatory Surgical Procedures</condition>
+  <condition>Pain</condition>
+  <arm_group>
+    <arm_group_label>Lower Limb Orthopedic Surgery Patients who Received Popliteal Sciatic Nerve Blocks</arm_group_label>
+    <description>All patients undergoing lower limb surgery who received popliteal sciatic nerve blocks (with or without other peripheral nerve blocks) at St. Paul's Hospital from January 4, 2016 to November 1, 2019</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>This is not an interventional study</intervention_name>
+    <description>This study utilizes data from the St. Paul's Hospital Peripheral Nerve Block Database.</description>
+    <arm_group_label>Lower Limb Orthopedic Surgery Patients who Received Popliteal Sciatic Nerve Blocks</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients who received a single-shot popliteal sciatic nerve block at St. Paul's&#xD;
+        Hospital in the study period.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients who underwent lower limb surgery and received a single-shot popliteal sciatic&#xD;
+             nerve block pre-operatively at St. Paul's Hospital from January 4, 2016 to November 1,&#xD;
+             2019&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients who had uncontrolled pain (defined as NRS greater than 3 and/or nursing note&#xD;
+             documentation of uncontrolled or severe pain and/or undocumented pain status) in the&#xD;
+             post anesthesia care unit (post-operatively)&#xD;
+&#xD;
+          -  Patients who received a popliteal sciatic nerve catheter&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Cynthia Yarnold, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of British Columbia</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>St. Paul's Hospital</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V6Z 1Y6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 10, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 24, 2021</study_first_posted>
+  <last_update_submitted>August 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of British Columbia</investigator_affiliation>
+    <investigator_full_name>Cynthia Yarnold</investigator_full_name>
+    <investigator_title>Clinical Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Rebound Pain</keyword>
+  <keyword>Continous Popliteal Sciatic Nerve Block Catheter</keyword>
+  <keyword>Orthopedic Surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pain, Postoperative</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>July 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/04/NCT05018104/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

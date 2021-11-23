@@ -1,0 +1,199 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04732208</url>
+  </required_header>
+  <id_info>
+    <org_study_id>tgh001</org_study_id>
+    <nct_id>NCT04732208</nct_id>
+  </id_info>
+  <brief_title>Automated Screening of Diabetic Retinopathy Using a Smartphone-based Camera</brief_title>
+  <official_title>Validation of an Artificial Intelligence Model for Diabetic Retinopathy Screening Using a Smartphone-based Fundus Camera in the UK Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tameside General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tameside General Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The prevalence of diabetic retinopathy (DR) in the UK is on the rise. Within 20 years of&#xD;
+      diabetes diagnosis, nearly all people with type 1 and almost two thirds of people with type 2&#xD;
+      diabetes (60%) have some degree of DR. NHS guidelines mandate annual DR screening in all&#xD;
+      patients aged 12 and above to prevent complications of DR. Screening for DR in England&#xD;
+      involves labour-intensive manual grading of retinal images through the teleophthalmology&#xD;
+      platform. Automated retinal image analysis systems with the use of artificial intelligence&#xD;
+      (AI) may offer an alternative to manual grading.&#xD;
+&#xD;
+      The purpose of this study is to evaluate the performance of a portable, hand-held fundus&#xD;
+      camera with integrated artificial intelligence for diabetic retinopathy screening by&#xD;
+      comparing it against the current standard i.e diagnosis provided by trained human graders&#xD;
+      evaluating the standard photographs/ophthalmologists.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study will enroll diabetic patients (new and established) meeting the inclusion criteria and&#xD;
+      who would provide an informed consent to participate in the study. This would include&#xD;
+      subjects who visit the endocrinology clinic and had either their retina evaluated by a&#xD;
+      teleophthalmology consult or visited the ophthalmology clinic for an indirect ophthalmoscopic&#xD;
+      fundus evaluation in the past 3 months. Subjects whose fundus has been recently evaluated in&#xD;
+      the past 3 months will also be re-called to the endocrinology clinic to get a fundus image&#xD;
+      captured on the Remidio NM FOP-10 device. Images will be captured by an operator who will be&#xD;
+      provided training in using the device prior to the study.&#xD;
+&#xD;
+      Non-mydriatic fundus images are captured using a pre-defined imaging protocol. One disc&#xD;
+      centered and one macula centred 45 deg image is taken for each eye. The images are then&#xD;
+      submitted to an AI system for analysis that runs locally on the Remidio FOP. An initial image&#xD;
+      quality assessment is performed by the AI. If the image is of sufficient quality then the AI&#xD;
+      will give an output of either 'signs of DR detected' (that would include moderate NPDR,&#xD;
+      severe NPDR, PDR and/or DME present) or no signs of diabetic retinopathy detected (that would&#xD;
+      include no DR, mild DR, absence of DME). If the image is of insufficient quality, then the&#xD;
+      operator makes 2 more attempts using the same imaging protocol. The images that are output as&#xD;
+      insufficient quality will be noted. All subjects who have provided consent for dilation are&#xD;
+      then instilled with a single drop of 1% tropicamide solution. After 20 mins, mydriatic 2&#xD;
+      field (one disc centered and one macula centered) fundus images are captured and submitted to&#xD;
+      the AI for analysis along the same lines of non-mydriatic imaging. If the image is of&#xD;
+      insufficient quality then the operator makes 2 more attempts using the same imaging protocol.&#xD;
+      The images that are output as insufficient quality will be noted.&#xD;
+&#xD;
+      De-identified patient data including age, gender, ethnicity and lens status (Cataract grade,&#xD;
+      pseudophakia, aphakia) along with the final diagnosis made by a certified&#xD;
+      grader/ophthalmologist during clinical examination/teleophthalmology are retrieved from the&#xD;
+      NHS database. This DR diagnosis will act as a reference standard against which the AI output&#xD;
+      will be compared.&#xD;
+&#xD;
+      Data entry of subjects will be performed by approved trained Site Personnel. The&#xD;
+      de-identified data is stored onto an electronic data capture system (EDC). Approved Site&#xD;
+      Personnel will have a user specific log-in name and password to access the electronic data&#xD;
+      capture (EDC) system in order to enter study data. The principal investigator will ensure&#xD;
+      that all aspects of the study are complied with. The study will be conducted in accordance&#xD;
+      with applicable regulatory requirements and established rules for Good Clinical Practice&#xD;
+      (GCP).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 2021</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and Specificity of the AI in detecting any grade of diabetic retinopathy in those with established diabetes mellitus (DM)</measure>
+    <time_frame>4 months</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To assess the positive predictive value, negative predictive value of AI in detecting any grade of DR</measure>
+    <time_frame>4 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To assess the sensitivity to identify sight-threatening diabetic retinopathy (STDR defined as severe NPDR or more severe disease and/or the presence of DME ie grades U, M1, R2 or R3)</measure>
+    <time_frame>4 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To compare the diagnostic ability of the AI in mydriatic and non-mydriatic eyes</measure>
+    <time_frame>4 months</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">410</enrollment>
+  <condition>Diabetic Retinopathy</condition>
+  <arm_group>
+    <arm_group_label>Diabetic patients</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Colour fundus photography</intervention_name>
+    <description>Fundus images will be captured before and after administration of mydriatic agent</description>
+    <arm_group_label>Diabetic patients</arm_group_label>
+    <other_name>Instillation of mydriatic eye drops</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals with established diabetes mellitus presenting to GPs clinic for routine&#xD;
+        clinical care&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age above 18 years who can provide an informed consent&#xD;
+&#xD;
+          -  Established cases of diabetes mellitus (DM) with or without established diabetic&#xD;
+             retinopathy&#xD;
+&#xD;
+          -  Subjects who have been dilated for an ophthalmic evaluation previously&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with acute vision loss&#xD;
+&#xD;
+          -  Participants contraindicated for fundus imaging if hypersensitive to light or&#xD;
+             underwent recent photodynamic therapy or is photosensitive&#xD;
+&#xD;
+          -  Participants who have been treated for diabetic retinopathy (laser or intra-vitreal&#xD;
+             injections) in the past 3 months&#xD;
+&#xD;
+          -  Participants known to have other known retinal pathologies&#xD;
+&#xD;
+          -  Participants identified to be at risk of acute angle closure glaucoma from previous&#xD;
+             ophthalmic evaluation (anterior chamber depth, gonioscopy to look at angles and IOP)&#xD;
+&#xD;
+          -  Participants with known allergy to 1% tropicamide solution&#xD;
+&#xD;
+          -  Currently participating in another investigational eye study and/or actively receiving&#xD;
+             investigational product for DR or diabetic macula edema.&#xD;
+&#xD;
+          -  Participant has a condition that, in the opinion of the investigator, would preclude&#xD;
+             participation in the study (e.g., unstable medical status- glycemic control, blood&#xD;
+             pressure etc)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>January 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 1, 2021</study_first_posted>
+  <last_update_submitted>March 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>artificial intelligence</keyword>
+  <keyword>screening</keyword>
+  <keyword>fundus camera</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinal Diseases</mesh_term>
+    <mesh_term>Diabetic Retinopathy</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Mydriatics</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

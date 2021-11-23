@@ -1,0 +1,224 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04419207</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019PHB095-01</org_study_id>
+    <nct_id>NCT04419207</nct_id>
+  </id_info>
+  <brief_title>Detecting Lung Cancer Based on Exhaled Breath</brief_title>
+  <official_title>Detecting Lung Cancer by Volatile Organic Compounds in Exhaled Breath: a Study of Lung Cancer Diagnostic Biomarker</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Beijing Haidian Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Aerospace 731 Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Beijing Breatha Biological Technology Co., Ltd, Beijing</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The First Affiliated Hospital of Zhengzhou University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Jiangsu Cancer Institute &amp; Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Peking University People's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early detection is critical to improve the overall survival of lung cancer. Endogenous&#xD;
+      volatile organic compounds (VOCs) can be derived from many different metabolic pathways. On&#xD;
+      the other hand, cancer cells have different metabolism patterns compared with normal cells.&#xD;
+      Thus, detecting VOCs in exhaled breath using highly sensitive mass spectrometry would be a&#xD;
+      promising approach for lung cancer detection.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Endogenous volatile organic compounds (VOCs) can be derived from many different metabolic&#xD;
+      pathways. VOCs can be transported to the alveoli through the blood circulation and expelled&#xD;
+      by exhalation. Changes in VOCs production, clearance, and alterations in lung air-blood&#xD;
+      exchange functions can lead to aberrant VOCs profiles in the exhaled breath. Testing exhaled&#xD;
+      breath has the advantages of being completely non-invasive and easy to collect, and has been&#xD;
+      considered as a perfect approach for disease diagnoses and therapeutic monitoring. Many&#xD;
+      clinical studies have found that VOCs in exhaled breath are closely related to disease&#xD;
+      status. Specific VOCs alterations have been identified in many tumors, especially lung&#xD;
+      cancer.&#xD;
+&#xD;
+      In this study, we use a highly sensitive mass spectrometry to detect exhaled VOCs of lung&#xD;
+      cancer patients and healthy people. A lung cancer diagnosis model based on mass spectrometry&#xD;
+      data and support vector machine will be initially established and validated.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 1, 2019</start_date>
+  <completion_date type="Anticipated">March 31, 2021</completion_date>
+  <primary_completion_date type="Actual">December 31, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic sensitivity of exhaled breath</measure>
+    <time_frame>2 year</time_frame>
+    <description>Using pathologic diagnosis of lung cancer as gold standard, diagnostic sensitivity of exhaled breath will be calculated</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnostic specificity of exhaled breath</measure>
+    <time_frame>2 year</time_frame>
+    <description>Using pathologic diagnosis of lung cancer as gold standard, diagnostic specificity of exhaled breath will be calculated</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Positive predictive value of exhaled breath</measure>
+    <time_frame>2 year</time_frame>
+    <description>Using pathologic diagnosis of lung cancer as gold standard, positive predictive value of exhaled breath will be calculated</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Negative predictive value of exhaled breath</measure>
+    <time_frame>2 year</time_frame>
+    <description>Using pathologic diagnosis of lung cancer as gold standard, negative predictive value of exhaled breath will be calculated</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of exhaled breath</measure>
+    <time_frame>2 year</time_frame>
+    <description>Using pathologic diagnosis of lung cancer as gold standard, diagnostic accuracy of exhaled breath will be calculated</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">2236</enrollment>
+  <condition>Carcinoma</condition>
+  <condition>Lung Cancer</condition>
+  <condition>NSCLC</condition>
+  <condition>Lung Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>Patients with Surbery</arm_group_label>
+    <description>Patients who with pulmonary nodules in computed tomography and planned to receive thoracic surgery will be included. And those who have other types of cancer, received anti-tumor treatment before surgery, liver disease, or infections will be excluded.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Controls</arm_group_label>
+    <description>Adult participants (&gt;18 yr) who plan to receive annual physical examination and low-dose computed tomography will be included. And those who have history cancers, received anti-tumor treatment before surgery, liver disease, or infections will be excluded.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Breath test</intervention_name>
+    <description>Exhaled breath of each participant will be collected with air bags and directly detected by a high-resolution high-pressure photon ionization time-of-ﬂight mass spectrometry (HPPI-TOFMS).</description>
+    <arm_group_label>Healthy Controls</arm_group_label>
+    <arm_group_label>Patients with Surbery</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Exhaled breath samples will be collected with air bags.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Eligible inpatients will be recruited from Department of Thoracic Surgery, Peking&#xD;
+        University People's Hospital and Beijing Haidian Hospital.&#xD;
+&#xD;
+        For healthy controls, eligible participants will be recruited from those who receive&#xD;
+        planned annual physical examination at Aerospace 731 Hospital.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria for inpatient :&#xD;
+&#xD;
+          -  pulmonary nodules in competed tomography images&#xD;
+&#xD;
+          -  plan to receive thoracic surgery&#xD;
+&#xD;
+        Inclusion Criteria for controls :&#xD;
+&#xD;
+          -  have planned physical examination every year&#xD;
+&#xD;
+          -  plan to receive low-dose computed tomography&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  history of malignant tumors.&#xD;
+&#xD;
+          -  receive anti-tumor treatment such as radiotherapy, chemotherapy, targeted therapy&#xD;
+             before surgery&#xD;
+&#xD;
+          -  with infections or liver disease&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mantang Qiu, M.D</last_name>
+    <role>Study Chair</role>
+    <affiliation>Peking University People's Hospital Thoracic Surgery Department</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Zuli Zhou, M.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Peking University People's Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Peking University People's Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100044</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>June 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 5, 2020</study_first_posted>
+  <last_update_submitted>January 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 25, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University People's Hospital</investigator_affiliation>
+    <investigator_full_name>zhouzuli</investigator_full_name>
+    <investigator_title>M.D.，Department of Thoracic Surgery</investigator_title>
+  </responsible_party>
+  <keyword>volatile organic compounds</keyword>
+  <keyword>exhaled breath</keyword>
+  <keyword>biomarker</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

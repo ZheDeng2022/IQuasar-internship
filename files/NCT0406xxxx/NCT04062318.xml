@@ -1,0 +1,284 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04062318</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1902002327</org_study_id>
+    <secondary_id>P20GM103645</secondary_id>
+    <nct_id>NCT04062318</nct_id>
+  </id_info>
+  <brief_title>Beta Events and Sensory Perception</brief_title>
+  <official_title>The Causal Role of Neocortical Beta Events in Human Sensory Perception</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brown University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of General Medical Sciences (NIGMS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brown University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Low-frequency brain rhythms in the alpha (8-14Hz) and beta (15-29Hz) bands are strong&#xD;
+      predictors of perception and functional performance in a range of tasks, and are disrupted in&#xD;
+      several disease states. The purpose of this study is to investigate a direct causal&#xD;
+      relationship between low-frequency brain rhythms and sensory perception, and to optimize&#xD;
+      commonly used TMS paradigms to impact sensory processing and perception in a similar manner&#xD;
+      as endogenous rhythms. To do so, this study combines human magnetic resonance imaging (MRI),&#xD;
+      electroencephalography (EEG), non-invasive brain stimulation (transcranial magnetic&#xD;
+      stimulation; TMS), and biophysically principled computational neural modeling.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prior studies have shown that high power low-frequency brain rhythms in the alpha (8-14) and&#xD;
+      beta (15-29 Hz) bands in primary somatosensory cortex (SI) are associated with a decreased&#xD;
+      probability of perceiving tactile stimuli at perceptual threshold, and can be modulated with&#xD;
+      attention. Furthermore, high power beta activity in SI emerges as brief &quot;events&quot; (&lt;150ms) in&#xD;
+      un-averaged data, the rate and timing of which underlie the attentional and perceptual&#xD;
+      effects associated with high beta power.&#xD;
+&#xD;
+      In this study, human electroencephalography (EEG) and a non-painful tactile detection task&#xD;
+      are used to assess if and how the rate and timing of ongoing rhythmic events in the&#xD;
+      alpha/beta bands prior to a tactile stimulus causally impact touch perception, and how this&#xD;
+      relates to attention. A custom TMS protocol that is hypothesized to mimic endogenous&#xD;
+      beta-frequency event patterns is used to test whether TMS can impact perception in a similar&#xD;
+      manner. Finally, computational neural modeling designed to simulate macro-scale EEG signals&#xD;
+      is used to aid in the interpretation of potential neural circuit mechanisms underlying&#xD;
+      features of acquired EEG data.&#xD;
+&#xD;
+      The TMS-EEG components of this study will use a within-subjects crossover design. In initial&#xD;
+      study sessions, participants will have an MRI. In subsequent study sessions, participants&#xD;
+      will complete a tactile detection task while EEG data is recorded concurrent with online&#xD;
+      active or sham TMS. Analyses will focus on comparing detection probabilities of tactile&#xD;
+      stimuli presented at perceptual threshold and tactile evoked response potential waveforms&#xD;
+      between trials in which TMS pulses or endogenous beta events occur with similar timing and&#xD;
+      intensity.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 25, 2019</start_date>
+  <completion_date type="Anticipated">January 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>All participants will complete an initial MRI. MRIs are subsequently used for TMS neuronavigation (region of interest targeting). There is no intervention applied during the MRI session.&#xD;
+In two subsequent concurrent TMS-EEG sessions, all participants will receive active TMS while carrying out a tactile detection task. During one of the two TMS-EEG sessions, TMS will be applied over primary somatosensory cortex. During the other TMS-EEG session, TMS will be applied over a control brain region.&#xD;
+The order of somatosensory vs. non-somatosensory TMS targeting will be counterbalanced across participants.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Participants will be unaware of the order in which they receive TMS interventions.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Threshold-level tactile detection</measure>
+    <time_frame>Measures of tactile detection are collected during the tactile detection task, which is assessed on each study visit (with the exception of an MRI-only visit) throughout the course of study completion, an average of 6-12 months.</time_frame>
+    <description>Participants receive one tactile stimulus per trial and report detection or non-detection using a button press. Stimuli are delivered at one of three intensities: perceptual threshold-level (70% of trials), suprathreshold-level (always perceived, 10% of trials) or null stimuli (no stimulus, 20% of trials).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>EEG tactile evoked response potential (ERP)</measure>
+    <time_frame>EEG measures are collected during the tactile detection task, which is assessed on each study visit (with the exception of an MRI-only visit) throughout the course of study completion, an average of 6-12 months.</time_frame>
+    <description>Participants receive one tactile stimulus per trial concurrent with EEG recording. The EEG-measured ERP immediately following each tactile stimulus is assessed and compared across conditions.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Beta Rhythm</condition>
+  <condition>Tactile Perception</condition>
+  <arm_group>
+    <arm_group_label>Tactile detection task with online TMS-EEG</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive perceptual threshold-level tactile stimuli to the third digit of the right hand and report detection or non-detection. EEG is recorded and TMS is applied over somatosensory cortex during the tactile detection task.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Tactile detection task with online control TMS-EEG</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants receive perceptual threshold-level tactile stimuli to the third digit of the right hand and report detection or non-detection. EEG is recorded and TMS is applied over a control brain region during the tactile detection task. This control condition is intended to mimic the peripheral (e.g. cranial/facial muscle and/or nerve activation, auditory evoked response), but not biological effects of TMS specifically related to somatosensory perception.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Online active TMS</intervention_name>
+    <description>One single pulse or triple pulse train (3 pulses, 20ms inter-pulse interval) of TMS will be delivered per trial (at least 5 seconds apart) &quot;online&quot;, or during the tactile detection task, at less than or equal to 80% active motor threshold.</description>
+    <arm_group_label>Tactile detection task with online TMS-EEG</arm_group_label>
+    <arm_group_label>Tactile detection task with online control TMS-EEG</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Ability to provide informed consent/assent&#xD;
+&#xD;
+          -  Age: 18-65 years&#xD;
+&#xD;
+          -  English fluency: participants must be able to understand screening questionnaires and&#xD;
+             task instructions spoken/written in English.&#xD;
+&#xD;
+          -  Right handed: to reduce heterogeneity related to hand dominance, since our task&#xD;
+             involves touch perception on the hand, and examination of neural correlates in&#xD;
+             lateralized brain regions.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  History of fainting spells of unknown or undetermined etiology that might constitute&#xD;
+             seizures&#xD;
+&#xD;
+          -  History of seizures, diagnosis of epilepsy, or immediate (1st degree relative) family&#xD;
+             history epilepsy&#xD;
+&#xD;
+          -  Any progressive (e.g., neurodegenerative) neurological disorder&#xD;
+&#xD;
+          -  Chronic medical conditions that may cause a medical emergency in case of a provoked&#xD;
+             seizure (cardiac malformation, cardiac dysrhythmia, asthma, etc.)&#xD;
+&#xD;
+          -  Metal implants (excluding dental fillings)&#xD;
+&#xD;
+          -  Pacemaker&#xD;
+&#xD;
+          -  Implanted medication pump or cochlear implant&#xD;
+&#xD;
+          -  Vagal nerve stimulator&#xD;
+&#xD;
+          -  Deep brain stimulator&#xD;
+&#xD;
+          -  TENS unit (unless removed completely for the study)&#xD;
+&#xD;
+          -  Ventriculo-peritoneal shunt&#xD;
+&#xD;
+          -  Signs of increased intracranial pressure&#xD;
+&#xD;
+          -  Intracranial lesion&#xD;
+&#xD;
+          -  History of head injury resulting in prolonged loss of consciousness&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+&#xD;
+          -  Participants who have received prior TMS for medical treatment purposes.&#xD;
+&#xD;
+          -  Intellectual Disability or autism spectrum disorder (ASD)&#xD;
+&#xD;
+          -  Active psychosis, diagnosis of unipolar depression or bipolar disorder, active severe&#xD;
+             substance use disorders (within the last month), or active suicidal intent or&#xD;
+             ideations.&#xD;
+&#xD;
+          -  Conditions that may result in the inability to effectively carry out the tactile&#xD;
+             detection task, including loss of feeling, neuropathy or nerve damage in the hands or&#xD;
+             feet, chronic pain or fibromyalgia, and pain due to cancer, infection or arthritis.&#xD;
+&#xD;
+          -  If the participant is actively taking any of the medications that increase risk from&#xD;
+             TMS as indicated below, of if they have ingested any alcohol or any other drugs of&#xD;
+             abuse (see https://www.drugabuse.gov/drugs-abuse) on the day of the study session&#xD;
+             (prior to the session).&#xD;
+&#xD;
+        Contraindicated medications:&#xD;
+&#xD;
+        alcohol Amitriptyline Amphetamines ampicillin Anticholinergics Antihistamines aripiprazole&#xD;
+        BCNU **bupropion** cephalosporins chlorambucil chloroquine Chlorpromazine citalopram&#xD;
+        Clozapine Cocaine cyclosporine cytosine arabinoside Doxepine duloxetine fluoxetine&#xD;
+        fluphenazine fluvoxamine Foscarnet gamma-hydroxybutyrate (GHB) Ganciclovir haloperidol&#xD;
+        imipenem Imipramine isoniazid ketamine levofloxacin Lithium Maprotiline MDMA (ecstasy)&#xD;
+        mefloquine methotrexate metronidazole mianserin mirtazapine Nortriptyline olanzapine&#xD;
+        paroxetine penicillin phencyclidine (PCP, angel's dust) pimozide quetiapine reboxetine&#xD;
+        risperidone Ritonavir **Sertraline** Sympathomimetic theophylline venlafaxine vincristine&#xD;
+        ziprasidone&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Stephanie R Jones, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brown University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Danielle D Sliva, MA</last_name>
+    <phone>401-863-5351</phone>
+    <email>danielle_sliva@brown.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Simona Temereanca Ibanescu, PhD</last_name>
+    <email>simona_temereanca_ibanescu@brown.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Brown University, Carney Institute for Brain Science Human Testing Space (HuTS)</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02906</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Danielle D Sliva, MA</last_name>
+      <phone>401-863-5351</phone>
+      <email>danielle_sliva@brown.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Simona Temereanca Ibanescu, PhD</last_name>
+      <email>simona_temereanca_ibanescu@brown.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Jones SR, Kerr CE, Wan Q, Pritchett DL, Hämäläinen M, Moore CI. Cued spatial attention drives functionally relevant modulation of the mu rhythm in primary somatosensory cortex. J Neurosci. 2010 Oct 13;30(41):13760-5. doi: 10.1523/JNEUROSCI.2969-10.2010.</citation>
+    <PMID>20943916</PMID>
+  </reference>
+  <reference>
+    <citation>Sherman MA, Lee S, Law R, Haegens S, Thorn CA, Hämäläinen MS, Moore CI, Jones SR. Neural mechanisms of transient neocortical beta rhythms: Converging evidence from humans, computational modeling, monkeys, and mice. Proc Natl Acad Sci U S A. 2016 Aug 16;113(33):E4885-94. doi: 10.1073/pnas.1604135113. Epub 2016 Jul 28.</citation>
+    <PMID>27469163</PMID>
+  </reference>
+  <reference>
+    <citation>Shin H, Law R, Tsutsui S, Moore CI, Jones SR. The rate of transient beta frequency events predicts behavior across tasks and species. Elife. 2017 Nov 6;6. pii: e29086. doi: 10.7554/eLife.29086.</citation>
+    <PMID>29106374</PMID>
+  </reference>
+  <reference>
+    <citation>Jones SR, Pritchett DL, Stufflebeam SM, Hämäläinen M, Moore CI. Neural correlates of tactile detection: a combined magnetoencephalography and biophysically based computational modeling study. J Neurosci. 2007 Oct 3;27(40):10751-64.</citation>
+    <PMID>17913909</PMID>
+  </reference>
+  <reference>
+    <citation>Jones SR, Pritchett DL, Sikora MA, Stufflebeam SM, Hämäläinen M, Moore CI. Quantitative analysis and biophysically realistic neural modeling of the MEG mu rhythm: rhythmogenesis and modulation of sensory-evoked responses. J Neurophysiol. 2009 Dec;102(6):3554-72. doi: 10.1152/jn.00535.2009. Epub 2009 Oct 7. Erratum in: J Neurophysiol. 2014 Dec 15;112(12):3251.</citation>
+    <PMID>19812290</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 16, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 16, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2019</study_first_posted>
+  <last_update_submitted>August 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>somatosensory</keyword>
+  <keyword>tactile</keyword>
+  <keyword>perception</keyword>
+  <keyword>electroencephalography</keyword>
+  <keyword>transcranial magnetic stimulation</keyword>
+  <keyword>beta rhythm</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

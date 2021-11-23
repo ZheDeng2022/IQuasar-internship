@@ -1,0 +1,268 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04791826</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU-2020-1300</org_study_id>
+    <nct_id>NCT04791826</nct_id>
+  </id_info>
+  <brief_title>Electronic Alerts for Heart Failure Prevention in Diabetes</brief_title>
+  <official_title>Evaluation of an EMR-Based Clinical Decision Support Tool for the Implementation of Guideline-Directed Therapies for Prevention of Heart Failure Among High-Risk Patients With Type 2 Diabetes</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Texas Southwestern Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Texas Southwestern Medical Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Type 2 diabetes mellitus (T2DM) is an independent risk factor for heart failure (HF) and is&#xD;
+      associated with significant morbidity and mortality. Recent therapeutic advances in&#xD;
+      pharmacotherapies, such as sodium-glucose cotransporter-2 inhibitors (SGLT2i), have shown to&#xD;
+      be beneficial in preventing HF among patients with T2DM. However, despite widely available&#xD;
+      risk prediction and stratification tools and evidence-based practice guidelines, SGLT-2i&#xD;
+      medications are under-prescribed in the United States. The proposed study is a pragmatic,&#xD;
+      single-center, randomized trial to test the feasibility and effectiveness of a clinical&#xD;
+      decision support (CDS) tool to alert providers and improve HF risk stratification in patients&#xD;
+      with T2DM.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Type 2 diabetes mellitus (T2DM) is an independent risk factor for heart failure (HF) and is&#xD;
+      associated with significant morbidity and mortality. Even despite adequate glycemic control,&#xD;
+      individuals with T2DM face considerable risk of HF even in individuals without other&#xD;
+      significant risk factors. Moreover, individuals with both atherosclerotic cardiovascular&#xD;
+      disease and T2DM face up to a five-fold increased risk of HF and experience higher rates of&#xD;
+      mortality compared to age-matched controls. Thankfully, recent therapeutic advances in&#xD;
+      pharmacotherapies, such as sodium-glucose cotransporter-2 inhibitors (SGLT2i), have shown to&#xD;
+      be beneficial in preventing HF among patients with T2DM. Current guidelines by the American&#xD;
+      Diabetes Association and the joint American College of Cardiology/American Heart Association&#xD;
+      (ACC/AHA) both provide class I/A recommendations in initiating SGLT2i medication in&#xD;
+      individuals with T2DM and cardiovascular comorbidities for prevention of HF. Similarly, the&#xD;
+      Food and Drug Administration now indicates SGLT2i as a method to reduce the risk of HF&#xD;
+      hospitalization in adults with T2DM and established CV risk factors.&#xD;
+&#xD;
+      Unfortunately, SGLT2i are underused in patients with T2DM at risk for HF with ~5% of eligible&#xD;
+      patients treated with the medication. Risk-based approaches to identify patients who are at&#xD;
+      increased risk of developing adverse events is key to improve the use of evidence-based&#xD;
+      therapies and for efficient and cost-effective allocation of preventive strategies. Previous&#xD;
+      methods, such as the Pooled Cohort Equation, have been effective in guiding prescription of&#xD;
+      statin medications to at-risk patients. Similarly, alert-based clinical decision support&#xD;
+      tools have been used to help guide anticoagulation strategies in patients with atrial&#xD;
+      fibrillation. However, no such risk-based approach exists for implementation of goal-directed&#xD;
+      medical therapy for HF prevention in patients with T2DM.&#xD;
+&#xD;
+      The WATCH-DM risk score (Weight [body mass index], Age, hyperTension, Creatinine, HDL-C,&#xD;
+      Diabetes control [fasting plasma glucose] and QRS Duration, MI and CABG) is one such machine&#xD;
+      learning-based tool that was developed among participants of the Action to Control&#xD;
+      Cardiovascular Risk in Diabetes (ACCORD) trial.&#xD;
+&#xD;
+      The investigators used machine-learning methods and readily available clinical&#xD;
+      characteristics to derive the risk prediction model and has had excellent discrimination and&#xD;
+      calibration for estimating HF risk. For each risk factor level, patients are given a specific&#xD;
+      number of points. The sum of the points accounting for all risk factors included in the model&#xD;
+      is associated with 5-year risk of HF. There is a graded, dose-response relationship between&#xD;
+      the WATCH-DM risk score and risk of HF. For example, patients who had a WATCH-DM risk score&#xD;
+      of at least 11 had a 5-year risk of incident HF ≥9.2%.&#xD;
+&#xD;
+      This proposed trial will test the efficacy of a computer-based electronic alert (clinical&#xD;
+      decision support) notifying the provider that the patient is at an increased risk of&#xD;
+      developing heart failure. There currently are no developed or implemented alert systems&#xD;
+      notifying the provider that the patient is at an increased risk of heart failure. Similarly,&#xD;
+      there is no risk-based approach to implementation evidence-based T2DM therapies in patients&#xD;
+      at risk for HF. Currently, SGLT2i use is underutilized with ~5% of eligible patients current&#xD;
+      prescribed the medication. Clinical decision support tools may inform providers about a&#xD;
+      patient's risk of HF and may be useful to improve the use of SGLT2i therapies. Previous&#xD;
+      implementation strategies have been useful to guide statin medications in patients at risk&#xD;
+      for atherosclerotic cardiovascular events and anticoagulation strategies in patients with&#xD;
+      atrial fibrillation.&#xD;
+&#xD;
+      The current study will determine the impact of electronic alert-based CDS on prescription of&#xD;
+      SGLT2i medications in high-risk HF patients in the outpatient setting who are not being&#xD;
+      prescribed SGLT2i therapies. Investigators will not mandate a specific SGLT2i agent or&#xD;
+      regimen. Study investigators will provide options for SGLT2i medications to prevent HF and&#xD;
+      allow the provider to make the best choice based on their clinical judgement. If there is a&#xD;
+      contraindication to SGLT2i therapy, the provider can elect to omit the suggested therapy and&#xD;
+      provide an explanation for doing so. Data acquired throughout the study duration will also&#xD;
+      determine the impact of electronic alert-based CDS on the frequency of SGLT2i prescription&#xD;
+      patterns and incident HF events.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 25, 2021</start_date>
+  <completion_date type="Anticipated">March 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The intervention in an EMR-based clinical decision support tool that informs providers of the HF risk among patients with type 2 DM that are being seen by the provider in an outpatient setting. Based on the 5-year HF risk as estimated by the WATCH-DM score or existing biomarker levels, the providers will be provided guidance regarding the use of SGLT-2i to modify the HF risk.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Care Provider)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Frequency of prescription of SGLT-2i medication at outpatient clinic visits</measure>
+    <time_frame>30 days</time_frame>
+    <description>Prescription rate of SGLT-2i medication (no. of patients prescribed SGLT2 / no. of eligible patients)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Adherence of prescription of SGLT-2i medication at outpatient clinic visit</measure>
+    <time_frame>6 months</time_frame>
+    <description>Defined as continued prescription and adherence to a SGLT-2i medication at 6 months after initial prescription.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adherence of prescription of SGLT-2i medication at outpatient clinic visit</measure>
+    <time_frame>12 months</time_frame>
+    <description>Defined as continued prescription and adherence to a SGLT-2i medication at 12 months after initial prescription.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Frequency of incident HF</measure>
+    <time_frame>12 months</time_frame>
+    <description>Frequency of incident HF</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1500</enrollment>
+  <condition>Heart Failure</condition>
+  <condition>Diabetes Mellitus, Type 2</condition>
+  <arm_group>
+    <arm_group_label>Electronic Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each provider in the alert group will receive an on-screen notification regarding the patient's increased risk of HF in diabetes and the lack of an active order for SGLT2i therapy.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No Alert</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The CDS will not issue an on-screen alert.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>On-screen electronic alert</intervention_name>
+    <description>On-screen computer-based alert notifying the provider that the patient is at an increased risk of developing HF based on the WATCH-DM risk score and associated guideline recommendation for preventive management of these patients.</description>
+    <arm_group_label>Electronic Alert</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Providers in a General Internal Medicine outpatient clinic encounter&#xD;
+&#xD;
+          -  Providers in a subspecialty Internal Medicine outpatient clinic encounter&#xD;
+&#xD;
+          -  Providers in family medicine outpatient clinic encounter&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Providers in an inpatient hospital encounter&#xD;
+&#xD;
+          -  Patients with HF or on SGLT-2 i&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ambarish Pandey, MD, MSCS</last_name>
+    <phone>214-645-2101</phone>
+    <email>Ambarish.Pandey@UTSouthwestern.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Texas Southwestern Medical Center</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75390</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ambarish Pandey, MD, MSCS</last_name>
+      <email>Ambarish.Pandey@UTSouthwestern.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Ambarish Pandey, MD, MSCS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Matthew W Segar, MD, MS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.cvriskscores.com</url>
+    <description>CV Risk Scores</description>
+  </link>
+  <reference>
+    <citation>Cavender MA, Steg PG, Smith SC Jr, Eagle K, Ohman EM, Goto S, Kuder J, Im K, Wilson PW, Bhatt DL; REACH Registry Investigators. Impact of Diabetes Mellitus on Hospitalization for Heart Failure, Cardiovascular Events, and Death: Outcomes at 4 Years From the Reduction of Atherothrombosis for Continued Health (REACH) Registry. Circulation. 2015 Sep 8;132(10):923-31. doi: 10.1161/CIRCULATIONAHA.114.014796. Epub 2015 Jul 7.</citation>
+    <PMID>26152709</PMID>
+  </reference>
+  <reference>
+    <citation>Benjamin EJ, Virani SS, Callaway CW, Chamberlain AM, Chang AR, Cheng S, Chiuve SE, Cushman M, Delling FN, Deo R, de Ferranti SD, Ferguson JF, Fornage M, Gillespie C, Isasi CR, Jiménez MC, Jordan LC, Judd SE, Lackland D, Lichtman JH, Lisabeth L, Liu S, Longenecker CT, Lutsey PL, Mackey JS, Matchar DB, Matsushita K, Mussolino ME, Nasir K, O'Flaherty M, Palaniappan LP, Pandey A, Pandey DK, Reeves MJ, Ritchey MD, Rodriguez CJ, Roth GA, Rosamond WD, Sampson UKA, Satou GM, Shah SH, Spartano NL, Tirschwell DL, Tsao CW, Voeks JH, Willey JZ, Wilkins JT, Wu JH, Alger HM, Wong SS, Muntner P; American Heart Association Council on Epidemiology and Prevention Statistics Committee and Stroke Statistics Subcommittee. Heart Disease and Stroke Statistics-2018 Update: A Report From the American Heart Association. Circulation. 2018 Mar 20;137(12):e67-e492. doi: 10.1161/CIR.0000000000000558. Epub 2018 Jan 31. Review. Erratum in: Circulation. 2018 Mar 20;137(12 ):e493.</citation>
+    <PMID>29386200</PMID>
+  </reference>
+  <reference>
+    <citation>McAllister DA, Read SH, Kerssens J, Livingstone S, McGurnaghan S, Jhund P, Petrie J, Sattar N, Fischbacher C, Kristensen SL, McMurray J, Colhoun HM, Wild SH. Incidence of Hospitalization for Heart Failure and Case-Fatality Among 3.25 Million People With and Without Diabetes Mellitus. Circulation. 2018 Dec 11;138(24):2774-2786. doi: 10.1161/CIRCULATIONAHA.118.034986.</citation>
+    <PMID>29950404</PMID>
+  </reference>
+  <reference>
+    <citation>Standl E, Schnell O, McGuire DK. Heart Failure Considerations of Antihyperglycemic Medications for Type 2 Diabetes. Circ Res. 2016 May 27;118(11):1830-43. doi: 10.1161/CIRCRESAHA.116.306924. Review.</citation>
+    <PMID>27230644</PMID>
+  </reference>
+  <reference>
+    <citation>Kannel WB, Hjortland M, Castelli WP. Role of diabetes in congestive heart failure: the Framingham study. Am J Cardiol. 1974 Jul;34(1):29-34.</citation>
+    <PMID>4835750</PMID>
+  </reference>
+  <reference>
+    <citation>Zelniker TA, Wiviott SD, Raz I, Im K, Goodrich EL, Bonaca MP, Mosenzon O, Kato ET, Cahn A, Furtado RHM, Bhatt DL, Leiter LA, McGuire DK, Wilding JPH, Sabatine MS. SGLT2 inhibitors for primary and secondary prevention of cardiovascular and renal outcomes in type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials. Lancet. 2019 Jan 5;393(10166):31-39. doi: 10.1016/S0140-6736(18)32590-X. Epub 2018 Nov 10. Erratum in: Lancet. 2019 Jan 5;393(10166):30.</citation>
+    <PMID>30424892</PMID>
+  </reference>
+  <reference>
+    <citation>Segar MW, Vaduganathan M, Patel KV, McGuire DK, Butler J, Fonarow GC, Basit M, Kannan V, Grodin JL, Everett B, Willett D, Berry J, Pandey A. Machine Learning to Predict the Risk of Incident Heart Failure Hospitalization Among Patients With Diabetes: The WATCH-DM Risk Score. Diabetes Care. 2019 Dec;42(12):2298-2306. doi: 10.2337/dc19-0587. Epub 2019 Sep 13.</citation>
+    <PMID>31519694</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 10, 2021</study_first_posted>
+  <last_update_submitted>April 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Texas Southwestern Medical Center</investigator_affiliation>
+    <investigator_full_name>Ambarish Pandey</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine</investigator_title>
+  </responsible_party>
+  <keyword>Clinical Decision Support</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,332 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04641793</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU00210086</org_study_id>
+    <nct_id>NCT04641793</nct_id>
+  </id_info>
+  <brief_title>BoMI for Muscle Control</brief_title>
+  <official_title>Body-Machine Interface for Recovering Muscle Control</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shirley Ryan AbilityLab</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Disability, Independent Living, and Rehabilitation Research</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Shirley Ryan AbilityLab</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People with spinal cord injury (SCI), stroke and other neurodegenerative disorders can follow&#xD;
+      two pathways for regaining independence and quality of life. One is through clinical&#xD;
+      interventions, including therapeutic exercises. The other is provided by assistive&#xD;
+      technologies, such as wheelchairs or robotic systems. In this study, we combine these two&#xD;
+      paths within a single framework by developing a new generation of body-machine interfaces&#xD;
+      (BoMI) supporting both assistive and rehabilitative goals. In particular, we focus on the&#xD;
+      recovery of muscle control by including a combination of motion and muscle activity signals&#xD;
+      in the operation of the BoMI.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      When suffering from conditions affecting the central nervous system, such as spinal cord&#xD;
+      injury (SCI), stroke or neurodegenerative disorders, two pathways are available for regaining&#xD;
+      independence and quality of life. One way is through clinical interventions, including&#xD;
+      therapeutic exercises, often in combination with pharmacological agents. The other is&#xD;
+      provided by assistive technologies, such as wheelchairs or robotic systems. These two&#xD;
+      approaches have conflicting characteristics. While rehabilitation exercises challenge&#xD;
+      patients to use the most affected parts of their musculoskeletal apparatus, assistive&#xD;
+      technologies are typically designed to bypass the disability. This has led to divergent&#xD;
+      research domains. In both fields there are three major gaps that we plan to address in the&#xD;
+      investigator's research:&#xD;
+&#xD;
+        1. High cost of technology and the limited amount of available hospital-based&#xD;
+           rehabilitation;&#xD;
+&#xD;
+        2. Lack of adaptability of currently available assistive technologies, such as head&#xD;
+           switches and sip-and puff devices, that require users to overcome a hard learning&#xD;
+           barrier;&#xD;
+&#xD;
+        3. Inadequate criteria for assessment of effectiveness of therapy, with common techniques&#xD;
+           still relying on subjective approaches that are inadequate considering the current state&#xD;
+           of biomedical science and technology.&#xD;
+&#xD;
+      We will address all of these issues by developing a new generation of body-machine interfaces&#xD;
+      (BoMI) supporting both assistive and rehabilitative goals. BMIs will translate movement&#xD;
+      signals and muscle activities of the user into control signals for assistive devices and&#xD;
+      computer systems. State-of-the-art systems for surface electromyography (EMG) and movement&#xD;
+      recording (IMU) will be integrated through machine learning techniques to facilitate&#xD;
+      sensorimotor learning while providing the means to promote or reduce the use of targeted&#xD;
+      muscles. New comprehensive assessment techniques will be developed by integrating standard&#xD;
+      measure of function - as the manual muscle test - with EMG analysis and non-invasive magnetic&#xD;
+      brain stimulation (TMS) (Magstim 200 Bistim, Whitland, UK). The development will be organized&#xD;
+      in three specific aims.&#xD;
+&#xD;
+      AIM 1: To develop a BMI integrating muscle activities and motion signals for operating&#xD;
+      external devices and performing rehabilitation exercises. EMG signals derived from multiple&#xD;
+      muscles in the upper body (e.g. deltoid, pectoralis, trapezius, triceps, etc.) will be&#xD;
+      integrated with motion signals to generate control signals for external devices (e.g. the&#xD;
+      coordinates of a cursor on a computer monitor or the speed and direction commands to a&#xD;
+      powered wheelchair). Both linear (PCA) and nonlinear maps (auto encoder networks) will be&#xD;
+      explored, although current preliminary evidence suggests that non-linear auto encoders (AE)&#xD;
+      are likely to better facilitate user learning1.&#xD;
+&#xD;
+      AIM 2: To enable targeting and modulating recruitment of specific muscles and muscle&#xD;
+      synergies during the practice of games and functional tasks. To enhance or reduce the role of&#xD;
+      a muscle or synergy, the output of the BoMI will be modulated in proportion to the deviation&#xD;
+      of the measured muscle activity from the desired level. The effectiveness of the approach&#xD;
+      will be tested at different times following training, both by tracking of motions and EMG&#xD;
+      activities during the performance of selected activities of daily living (ADL) and trough the&#xD;
+      assessment of muscle responses evoked by non-invasive brain stimulation.&#xD;
+&#xD;
+      AIM 3: To promote the adoption of the BoMI by facilitating access to its functions by&#xD;
+      patients and therapists and by performing an observational study on uptake in the DayRehabTM&#xD;
+      environment. The Shirley Ryan Ability Lab has established a unique environment in which&#xD;
+      spinal cord injured and stroke outpatients engage in daily rehabilitation exercises in close&#xD;
+      physical proximity with researchers. We will seize this opportunity to introduce the BoMI in&#xD;
+      the context of clinical therapy thus allowing a direct assessment of acceptance by therapists&#xD;
+      and clients.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 20, 2020</start_date>
+  <completion_date type="Anticipated">August 2024</completion_date>
+  <primary_completion_date type="Anticipated">August 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time</measure>
+    <time_frame>during the intervention</time_frame>
+    <description>Changing time to task completion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Muscle activity</measure>
+    <time_frame>baseline, during the procedure, at 1 week follow-up</time_frame>
+    <description>EMG activity in targeted muscles</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cortico spinal connectivity</measure>
+    <time_frame>baseline, immediately after the intervention, at 1 week follow-up</time_frame>
+    <description>Motor evoked potentials in selected muscles following TMS stimulation of M1</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Spinal Cord Injury Cervical</condition>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>SCI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>STROKE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>UNIMPAIRED</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Motion and Emg Control</intervention_name>
+    <description>We will consider two methods for integrating motions and EMG signals:&#xD;
+Direct methods. Signals extracted from the latent EMG space will directly contribute to the control of the external device. We will integrate EMG and IMU in two ways. In a first scenario, EMG and IMU will be given variable weight in the control. In a second scenario (perturbative method) the distance of ongoing muscle patterns from a desired set of strategies will modulate the mapping from body to cursor motions in the form of assistive (i.e. the cursor moves faster towards the target) or resistive (i.e. the cursor slows down) influences on cursor movement.&#xD;
+Indirect Methods. Signals extracted by EMG will modulate the feedback offered to the learner to penalize deviations from desired muscle patterns. When multiple ways to perform a movement are offered by redundancy, (i.e., by the multiplicity of muscles compared to task demands), the brain chooses solutions that minimize noise and uncertainty.</description>
+    <arm_group_label>SCI</arm_group_label>
+    <arm_group_label>STROKE</arm_group_label>
+    <arm_group_label>UNIMPAIRED</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        1. Uninjured individuals&#xD;
+&#xD;
+             Inclusion criteria:&#xD;
+&#xD;
+               -  Ages 18 and up.&#xD;
+&#xD;
+               -  Ability to follow simple commands, and to respond to questions.&#xD;
+&#xD;
+             Exclusion criteria for SCI participants:&#xD;
+&#xD;
+             • Does not meet the inclusion criteria.&#xD;
+&#xD;
+          2. Individuals with SCI&#xD;
+&#xD;
+             Inclusion criteria:&#xD;
+&#xD;
+               -  Age 16-65&#xD;
+&#xD;
+               -  Injuries at the C3-6 level, complete (ASIA A), or incomplete (ASIA B and C).&#xD;
+&#xD;
+               -  Able to follow simple commands&#xD;
+&#xD;
+               -  Able to speak or respond to questions&#xD;
+&#xD;
+             Exclusion criteria:&#xD;
+&#xD;
+               -  Presence of tremors, spasm and other significant involuntary movements&#xD;
+&#xD;
+               -  Cognitive impairment&#xD;
+&#xD;
+               -  Deficit of visuo-spatial orientation&#xD;
+&#xD;
+               -  Concurrent pressure sores or urinary tract infection&#xD;
+&#xD;
+               -  Other uncontrolled infection, concurrent cardiovascular disease&#xD;
+&#xD;
+               -  Sitting tolerance less than one hour&#xD;
+&#xD;
+               -  Severe hearing or visual deficiency&#xD;
+&#xD;
+               -  Miss more than six appointments without notification&#xD;
+&#xD;
+               -  Unable to comply with any of the procedures in the protocol&#xD;
+&#xD;
+               -  Unable to provide informed consent&#xD;
+&#xD;
+          3. Stroke survivors:&#xD;
+&#xD;
+        Inclusion criteria:&#xD;
+&#xD;
+          -  Recent stroke (Sub acute to early chronic, between 3 and 12 months from CVA)&#xD;
+&#xD;
+          -  Age less than 75 (To avoid age-related confounds)&#xD;
+&#xD;
+          -  Inability to operate a manual wheelchair&#xD;
+&#xD;
+          -  Available medical records and radiographic information about lesion locations&#xD;
+&#xD;
+          -  Significant level of hemiparesis (UE Fugl Meyer score between 10 and 30)&#xD;
+&#xD;
+          -  Presence of pathological muscle synergies in the UE (flexor and/or extensor synergy)&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  Aphasia, apraxia, cognitive impairment or affective dysfunction that would influence&#xD;
+             the ability to perform the experiment&#xD;
+&#xD;
+          -  Inability to provide informed consent&#xD;
+&#xD;
+          -  Severe spasticity, contracture, shoulder subluxation, or UE pain&#xD;
+&#xD;
+          -  Severe current medical problems, including rheumatoid arthritis or other orthopaedic&#xD;
+             impairments restricting finger or wrist movement&#xD;
+&#xD;
+        Additional exclusion criteria for participants enrolled in TMS procedures&#xD;
+&#xD;
+          -  Any metal in head with the exception of dental work or any ferromagnetic metal&#xD;
+             elsewhere in the body. This applies to all metallic hardware such as cochlear&#xD;
+             implants, or an Internal Pulse Generator or medication pumps, implanted brain&#xD;
+             electrodes, and peacemaker.&#xD;
+&#xD;
+          -  Personal history of epilepsy (untreated with one or a few past episodes), or treated&#xD;
+             patients&#xD;
+&#xD;
+          -  Vascular, traumatic, tumoral, infectious, or metabolic lesion of the brain, even&#xD;
+             without history of seizure, and without anticonvulsant medication&#xD;
+&#xD;
+          -  Administration of drugs that potentially lower seizure threshold [REF], without&#xD;
+             concomitant administration of anticonvulsant drugs which potentially protect against&#xD;
+             seizures occurrence&#xD;
+&#xD;
+          -  Change in dosage for neuro-active medications (Baclophen, Lyrica, Celebrex, Cymbalta,&#xD;
+             Gabapentin, Naprosyn, Diclofenac, Diazepam, Tramadol, etc) within 2 weeks of any study&#xD;
+             visit.&#xD;
+&#xD;
+          -  Skull fractures, skull deficits or concussion within the last 6 months&#xD;
+&#xD;
+          -  unexplained recurring headaches&#xD;
+&#xD;
+          -  Sleep deprivation, alcoholism&#xD;
+&#xD;
+          -  Claustrophobia precluding MRI&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ferdinando Mussa-Ivaldi, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ferdinando Mussa-Ivaldi, PhD</last_name>
+    <phone>312 238 1230</phone>
+    <email>sandro@northwestern.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Dalia De Santis, PhD</last_name>
+    <phone>312 238 1650</phone>
+    <email>ddesantis@sralab.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Shirley Ryan Ability Lab</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ferdinando Mussa-Ivaldi, PhD</last_name>
+      <phone>312-238-1230</phone>
+      <email>sandro@northwestern.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>August 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 17, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 24, 2020</study_first_posted>
+  <last_update_submitted>November 17, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 17, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shirley Ryan AbilityLab</investigator_affiliation>
+    <investigator_full_name>Ferdinando Mussa-Ivaldi</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Motor Learning</keyword>
+  <keyword>Human Machine Interface</keyword>
+  <keyword>Neurorehabilitation</keyword>
+  <keyword>TMS</keyword>
+  <keyword>Cortico-spinal</keyword>
+  <keyword>Upper-body movements</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

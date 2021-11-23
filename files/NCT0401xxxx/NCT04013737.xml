@@ -1,0 +1,538 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04013737</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16HH3526</org_study_id>
+    <nct_id>NCT04013737</nct_id>
+  </id_info>
+  <brief_title>Enhanced, Personalized and Integrated Care for Infection Management at the Point-Of-Care</brief_title>
+  <acronym>EPICIMPOC</acronym>
+  <official_title>Enhanced, Personalized and Integrated Care for Infection Management at the Point-Of-Care</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Imperial College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Imperial College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Antimicrobials (drugs that kill or stop the growth of microorganisms including bacteria,&#xD;
+      thereby treating infections) commonly used to treat patients with infections are becoming&#xD;
+      less effective over time as bacteria develop resistance to them. Antimicrobial usage itself&#xD;
+      can lead to development and spread of antimicrobial resistance. Antimicrobial resistance is&#xD;
+      now a major threat to patient safety. To conserve the effectiveness of antimicrobials the&#xD;
+      investigator need to develop ways to use them more sensibly healthcare professionals who&#xD;
+      diagnose and treat infections must be able to access antimicrobial guidelines and test&#xD;
+      results at the patient bedside. This needs to be provided rapidly and with support to make&#xD;
+      sure that the decisions on prescribing antimicrobials are the best that can be made.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prototype software to achieve this has been developed through collaboration between&#xD;
+      healthcare professionals and biomedical engineers. This prototype software (run on a mobile&#xD;
+      device) retrieves patient results from various laboratory and clinical databases (securely&#xD;
+      within the Trust firewall) and displays this to the clinician making the prescribing&#xD;
+      decision. Furthermore a machine learning algorithm is applied to the data, and similar&#xD;
+      anonymised historical cases (and the antimicrobials prescribed and the clinical outcomes) are&#xD;
+      also displayed to the clinician to further inform their decision making. The prototype has&#xD;
+      been designed for use in intensive care, where the risk of infection is high, but through the&#xD;
+      research project detailed here, the software will be developed and validated across other&#xD;
+      areas of hospital patient care. Furthermore there is a key need to engage patients with how&#xD;
+      decisions are made around antimicrobial prescribing. The investigator propose to adapt the&#xD;
+      prototype to meet these needs. This system should improve patient safety and help preserve&#xD;
+      the effectiveness of existing antimicrobials&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 28, 2017</start_date>
+  <completion_date type="Actual">August 8, 2019</completion_date>
+  <primary_completion_date type="Actual">August 8, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage of Appropriate Antimicrobial Prescriptions Recommended</measure>
+    <time_frame>Single prescription at the time of antimicrobial prescribing assessment (e.g. at the time antibiotics were prescribed)</time_frame>
+    <description>This will be measured by assessing the appropriateness of prescriptions recommended by the system compared to current clinical practice. Appropriateness is determined by evaluating prescribing against current clinical guidelines or infection expert opinion on best practice and is expressed as a proportion of the total number of antibiotic prescriptions made. Each individual patient has a single antibiotic prescription evaluated.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Evaluation of Effectiveness Assessed by User Acceptance of the Device</measure>
+    <time_frame>Single time point before and after use of the device in the study</time_frame>
+    <description>This was assessment was a single time point at baseline (Pre-intervention) and single time point after use of the device in the study.&#xD;
+Scores were pre-determined based on anticipated answers provided by participants pre- and post- intervention using a bespoke mark scheme (https://aricjournal.biomedcentral.com/articles/10.1186/s13756-018-0333-1).&#xD;
+Participants could score between 0 (lowest) and 13 (highest) marks based on their responses to questions assessing knowledge and understanding.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">33</enrollment>
+  <condition>Antibiotic Resistant Infection</condition>
+  <condition>Infection</condition>
+  <arm_group>
+    <arm_group_label>Patients and Public</arm_group_label>
+    <description>Exploration of patient and public engagement with antibiotic decision making in secondary care. Prospective evaluation of a co-designed intervention to support enhanced knowledge and understanding of infections and their management.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prescribers</arm_group_label>
+    <description>Quantitative evaluation of the impact of using a clinical decision support system to support antibiotic decision making.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>EPIC IMPOC</intervention_name>
+    <description>Clinical Decision Support System for antibiotic prescribing.</description>
+    <arm_group_label>Patients and Public</arm_group_label>
+    <arm_group_label>Prescribers</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients may be asked to participate in the evaluation of the the patient module.&#xD;
+&#xD;
+        For prescriber recruitment to use the application the following methods of identifying&#xD;
+        participants will be undertaken:&#xD;
+&#xD;
+        Phase 1: Participants will be identified based on their roles within the infectious disease&#xD;
+        team (level and areas of the hospital covered) and will be directly approached by the study&#xD;
+        PI / clinical infection lead to request their support with this phase of the project.&#xD;
+&#xD;
+        Phase 2: Participants (physicians) will be identified based on the wards that they work in.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        (i) healthcare professionals for evaluation phases: Have read the PIL and consent to&#xD;
+        participate in the study&#xD;
+&#xD;
+        (ii) patients for whom the clinician chooses to use the POC DSS as a resource when&#xD;
+        prescribing antimicrobials: Adult patients &gt; 18 years old Being managed for infection&#xD;
+        outside of the critical care setting in Imperial College Healthcare NHS Trust Deemed&#xD;
+        appropriate for management with POC DSS by attending physician Prescribed antimicrobial&#xD;
+        agents outside of the critical care setting in last 5 days&#xD;
+&#xD;
+        (iii) Prescriber / healthcare professional for using POC DSS: Trained Healthcare&#xD;
+        Professional Working within wards under assessment Deemed suitable for recruitment by&#xD;
+        senior member of their team&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        (i) healthcare professionals: Do not wish to participate in the study Working across wards&#xD;
+        which is acting as a control ward Deemed no suitable for recruitment by a senior member of&#xD;
+        their team Non-permanent member of the Trust Information governance training not up-to-date&#xD;
+&#xD;
+        (ii) patients recruits Critical care patients Paediatric patients &lt; 18 years old Deemed not&#xD;
+        suitable for management using POC DSS by attending physician On palliative care, end of&#xD;
+        life pathway Prisoners / young offenders in custody of HM Prison Service Involved in&#xD;
+        current research or have recently been involved in any research prior to recruitment (last&#xD;
+        3 months)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alison Holmes</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Professor</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Imperial College London</name>
+      <address>
+        <city>London</city>
+        <zip>W12 0NN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>January 31, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 10, 2019</study_first_posted>
+  <results_first_submitted>July 24, 2020</results_first_submitted>
+  <results_first_submitted_qc>August 4, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 31, 2021</results_first_posted>
+  <last_update_submitted>August 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 31, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Antimicrobial Resistance</keyword>
+  <keyword>Antibiotic prescribing</keyword>
+  <keyword>Clinical Decision Support Systems</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Data sharing will be considered on individual request in accordance with local information governance and research ethics approvals.</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 25, 2016</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/37/NCT04013737/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Professionals recruited = 15 Patients recruited for prospective study of engagement tool = 18</recruitment_details>
+      <pre_assignment_details>15 healthcare professionals were recruited who would be using the tool to make antibiotic prescribing decisions.&#xD;
+18 patients were enrolled in the pre- post- assessment of the impact of a patient-communication tool within the system on knowledge and understanding of their infection and its management.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Patients and Public</title>
+          <description>Prospective evaluation of knowledge and understanding of infections pre- and post- a patient communication intervention.</description>
+        </group>
+        <group group_id="P2">
+          <title>Prescribers</title>
+          <description>Quantitative evaluation of the impact of using a clinical decision support system to support antibiotic decision making.&#xD;
+EPIC IMPOC: Clinical Decision Support System for antibiotic prescribing.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="18"/>
+                <participants group_id="P2" count="15"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="18">12 participants declined to participate in the study</participants>
+                <participants group_id="P2" count="15"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Number of participants that consented to participate</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Patients and Public</title>
+          <description>Exploration of patient and public engagement with antibiotic decision making in secondary care. Qualitative evaluation and co-design of interventions. Prospective evaluation of intervention.&#xD;
+EPIC IMPOC: Clinical Decision Support System for antibiotic prescribing.</description>
+        </group>
+        <group group_id="B2">
+          <title>Prescribers</title>
+          <description>Quantitative and qualitative evaluation of the impact of using a clinical decision support system to support antibiotic decision making.&#xD;
+EPIC IMPOC: Clinical Decision Support System for antibiotic prescribing.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="18"/>
+            <count group_id="B2" value="15"/>
+            <count group_id="B3" value="33"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <population>Age not collect</population>
+          <units>Years</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="18"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="18"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="66" lower_limit="22" upper_limit="85"/>
+                    <measurement group_id="B3" value="66" lower_limit="22" upper_limit="85"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="18"/>
+                    <count group_id="B2" value="15"/>
+                    <count group_id="B3" value="33"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="18"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Appropriate Antimicrobial Prescriptions Recommended</title>
+        <description>This will be measured by assessing the appropriateness of prescriptions recommended by the system compared to current clinical practice. Appropriateness is determined by evaluating prescribing against current clinical guidelines or infection expert opinion on best practice and is expressed as a proportion of the total number of antibiotic prescriptions made. Each individual patient has a single antibiotic prescription evaluated.</description>
+        <time_frame>Single prescription at the time of antimicrobial prescribing assessment (e.g. at the time antibiotics were prescribed)</time_frame>
+        <population>15 prescribers made 224 antimicrobial prescriptions during the study period which were analysed for the outcome measure.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Appropriateness of Antibiotic Prescribing</title>
+            <description>Proportion of appropriate recommendations made using the case-based-reasoning algorithm out of 224 prescriptions input into the system by participants.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Appropriate Antimicrobial Prescriptions Recommended</title>
+          <description>This will be measured by assessing the appropriateness of prescriptions recommended by the system compared to current clinical practice. Appropriateness is determined by evaluating prescribing against current clinical guidelines or infection expert opinion on best practice and is expressed as a proportion of the total number of antibiotic prescriptions made. Each individual patient has a single antibiotic prescription evaluated.</description>
+          <population>15 prescribers made 224 antimicrobial prescriptions during the study period which were analysed for the outcome measure.</population>
+          <units>percentage of prescriptions appropriate</units>
+          <param>Number</param>
+          <units_analyzed>Prescriptions made by participants</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="15"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>Prescriptions made by participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="224"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="90"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Evaluation of Effectiveness Assessed by User Acceptance of the Device</title>
+        <description>This was assessment was a single time point at baseline (Pre-intervention) and single time point after use of the device in the study.&#xD;
+Scores were pre-determined based on anticipated answers provided by participants pre- and post- intervention using a bespoke mark scheme (https://aricjournal.biomedcentral.com/articles/10.1186/s13756-018-0333-1).&#xD;
+Participants could score between 0 (lowest) and 13 (highest) marks based on their responses to questions assessing knowledge and understanding.</description>
+        <time_frame>Single time point before and after use of the device in the study</time_frame>
+        <population>Patients in hospital.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Improvement in Short Term Knowledge/Understanding</title>
+            <description>Compared using pre- and post- intervention questionnaire</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Evaluation of Effectiveness Assessed by User Acceptance of the Device</title>
+          <description>This was assessment was a single time point at baseline (Pre-intervention) and single time point after use of the device in the study.&#xD;
+Scores were pre-determined based on anticipated answers provided by participants pre- and post- intervention using a bespoke mark scheme (https://aricjournal.biomedcentral.com/articles/10.1186/s13756-018-0333-1).&#xD;
+Participants could score between 0 (lowest) and 13 (highest) marks based on their responses to questions assessing knowledge and understanding.</description>
+          <population>Patients in hospital.</population>
+          <units>score on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="18"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Pre-intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3" lower_limit="2" upper_limit="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Post-intervention</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10" lower_limit="6" upper_limit="11"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Not assessed</time_frame>
+      <desc>Adverse events were not assessed as this was not an observational study.</desc>
+      <group_list>
+        <group group_id="E1"/>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Head of Operations</name_or_title>
+      <organization>Health Protection Research Unit in HCAI and AMR, Imperial College London</organization>
+      <phone>020 3313 2732</phone>
+      <email>head.ops@imperial.ac.uk</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

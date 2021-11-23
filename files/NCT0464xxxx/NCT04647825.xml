@@ -1,0 +1,340 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04647825</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BIOING_02</org_study_id>
+    <nct_id>NCT04647825</nct_id>
+  </id_info>
+  <brief_title>NEED: Neuromed Epilepsy EEG Database. A Large EEG Database of Epilepsy Patients for Research Community.</brief_title>
+  <acronym>NEED</acronym>
+  <official_title>NEED: Neuromed Epilepsy EEG Database. A Large Database of Electroencephalographic (EEG) Signals of Epilepsy Patients for Research Community.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Neuromed IRCCS</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Neuromed IRCCS</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      For one-third of patients with drug-resistant epilepsy alternative approaches must be&#xD;
+      investigated in order to improve the quality of their life. A possible approach is to find&#xD;
+      automatic methods to detect/predict seizures, in order to adopt interventional actions to&#xD;
+      stop or abort the seizure or to limit its side effect. The main problem in this case is to&#xD;
+      evaluate the reproducibility of such methods and to standardize them, because there is a lack&#xD;
+      of availability of long-term electroencephalography (EEG) data. In this study we want to&#xD;
+      create a large long-term EEG database, called NEED (Neuromed Epilepsy EEG Database), whos aim&#xD;
+      is to give researchers a way to test their method in a large collection of data. The database&#xD;
+      will contain long-term EEG recordings of 200 patients as well as extensive metadata and&#xD;
+      standardized annotation of the data sets and will be made freely available for the download&#xD;
+      to the research community.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      About 50 million people worldwide are affected by epilepsy, which is one of the most frequent&#xD;
+      neurological diseases. It is characterized by unpredictable and sudden seizures which could&#xD;
+      led to loss of consciousness and uncontrolled motor reactions, severely impacting the quality&#xD;
+      of life of epilepsy patients. Only two-thirds of epilepsy patients can control seizures with&#xD;
+      anti-epileptic drugs or through epilepsy surgery. For the remaining patients, other&#xD;
+      therapeutics approaches should be considered. These approaches include the development of&#xD;
+      interventional closed-loop device, able to detect seizures and trigger an interventional&#xD;
+      operation, such as administer anti-epileptic drugs or electrically stimulate the&#xD;
+      epileptogenic focus to abort the seizure. In order to provide efficient therapeutic&#xD;
+      approaches to these patients, in the last decades many efforts have been made to develop&#xD;
+      automatic methods to find reliable markers in electroencephalographic (EEG) signal, which is&#xD;
+      the gold standard for epilepsy diagnosis, able to predict or early detect seizures in EEG.&#xD;
+      Such methods are based on mathematical or computational approaches for EEG signal analysis,&#xD;
+      whose aim is to extract complex measures (the so-called &quot;features&quot;) from EEG signal, which&#xD;
+      are not recognizable with classical visual inspection of EEG signals made by epileptologists&#xD;
+      during the diagnosis of epilepsy, in order to use such features as precursors of incoming&#xD;
+      seizures (seizure prediction) or as indicators of an ongoing seizure (seizure detection).&#xD;
+      Many methods have been proposed in the last years, using linear or non-linear, to extract&#xD;
+      features from EEG signal. Recently, some studies used also electrocardiographic signal (ECG),&#xD;
+      which is normally recorded together with EEG in epilepsy monitoring, in order to extract&#xD;
+      promising features from it. Although these studies showed promising results, nevertheless&#xD;
+      they suffer of many limitations. Among them, the use of a limited number of patients and&#xD;
+      seizures and the use of only recordings belonging to the phase preceding the seizures (the so&#xD;
+      - called pre-ictal period). Such limitations do not allow to determine, for example, the&#xD;
+      specificity of such algorithms, because they don't consider also recordings acquired in time&#xD;
+      intervals far from the seizures (inter-ictal data) and could led to a overfitting of the&#xD;
+      seizure prediction/detection model. The only thing on which all the researchers on epilepsy&#xD;
+      agree is the existence of a pre-ictal phase, which is the phase preceding the seizure, the&#xD;
+      ictal phase, where the seizure is &quot;active&quot; and inter-ictal phase, which is a period&#xD;
+      temporarily far from the seizure. Normally, automatic methods for seizure&#xD;
+      prediction/detection consist of three different phases: the pre-processing (artifact removal,&#xD;
+      band-pass filtering, data segmentation, …) of EEG signals, feature extraction and feature&#xD;
+      selection and classification. This last step usually consists in the use of machine-learning&#xD;
+      and statistical methods in order to make decision about the prediction/detection. Basically,&#xD;
+      these models should be able to classify each EEG instance in two classes, &quot;seizure&quot; or &quot;no&#xD;
+      seizure&quot;, using the features extracted from EEG signal. The efficacy of these models highly&#xD;
+      depends on how efficiently they are trained and normally the more are the data used to&#xD;
+      trained them, the more they are able to take the right decision. Therefore, the availability&#xD;
+      of large database of data could allow to develop efficient models for epilepsy&#xD;
+      detection/prediction. The possibility for researchers to have access to large database of&#xD;
+      continuous and long-term EEG data of epilepsy patients could be a big opportunity to develop&#xD;
+      efficient and reliable automatic seizure prediction/detection methods. For these reasons, in&#xD;
+      the last years some research groups have proposed and shared public EEG database with&#xD;
+      researchers who wants to test their automated seizure detection/prediction models. In&#xD;
+      particular, such database have been proposed by Epilepsy Center of University of Bonn and&#xD;
+      Freiburg and also by Children's Hospital of Boston and have been made available for free&#xD;
+      downloading to researchers. These databases contain long-term EEG recordings acquired during&#xD;
+      pre-surgical monitor of epilepsy patients. The number of patients included in these databases&#xD;
+      is quite low (from a minimum of 5 to a maximum of 23 patients) and also the number of&#xD;
+      seizures is limited (from a minimum of 59 to a maximum of 189). Furthermore, the duration of&#xD;
+      the recordings ranges from 40 minutes to 142 hours and the number of metadata (other&#xD;
+      information about patients and seizures) is very low. The last database has been proposed in&#xD;
+      2008 in the framework of a EU-founded project (EPILEPSIAE), in which 6 different partners&#xD;
+      (hospitals, universities, companies) of 4 different countries (Germany, Italy, France,&#xD;
+      Portugal) have been involved. This database is not free but is made available for the&#xD;
+      download upon payment in 2012. Nowadays, it is the largest epilepsy EEG database available&#xD;
+      worldwide (http://epilepsy-database.eu/). It contains data from 275 patients, including EEG&#xD;
+      and ECG recordings, metadata, clinical and technical annotations on the data and clinical&#xD;
+      information about the patients. Actually, only 60 out of 275 datasets are available for the&#xD;
+      download. The aim of this study is to create a long-term EEG database acquired on epilepsy&#xD;
+      patients during the non-invasive presurgical monitor at Epilepsy Surgery Unit at IRCCS&#xD;
+      Neuromed. The database will include, besides EEG and ECG recordings, clinical and technical&#xD;
+      annotations on the data made by expert epileptologists and also clinical information about&#xD;
+      the patient, including neuropsychological evaluations. All the data will be first anonymized,&#xD;
+      crypted and then made available for the free download. The database will include data from&#xD;
+      200 epilepsy patients underwent non-invasive presurgical epilepsy monitoring at Epilepsy&#xD;
+      Surgery Unit at IRCCS Neuromed. At the end of non-invasive EEG monitoring, two expert&#xD;
+      epileptologists will inspect EEG/ECG data in order to identify the seizures, in particular&#xD;
+      the channels where the seizure starts and the time, and everything could be of interest for&#xD;
+      the project. All the recordings will be exported in ASCII (American Standard Code for&#xD;
+      Information Interchange) format using the DMS Data Management System (Nihon Kohden Europe&#xD;
+      Gmbh) software, version 2.9.8 and stored locally. At the same time, clinical and demographic&#xD;
+      (only gender and age) data will be acquired for each patient. In particular, for each patient&#xD;
+      the following data will be available:&#xD;
+&#xD;
+        -  Demographic data (gender and age);&#xD;
+&#xD;
+        -  Clinical information (epilepsy type, seizure frequency,…);&#xD;
+&#xD;
+        -  Neuropsychological data;&#xD;
+&#xD;
+        -  EEG data acquired according to international 10-20 system;&#xD;
+&#xD;
+        -  ECG data;&#xD;
+&#xD;
+        -  Information about the recordings and the seizures (start and end time, start and end&#xD;
+           time of each seizure, …)&#xD;
+&#xD;
+      All data from all the patients will be included in a single database, and each patient will&#xD;
+      be stored in a single compressed archive. The database will be made available after the&#xD;
+      completation of a request which can be forwarded by each researcher using a dedicated URL, in&#xD;
+      which the researcher will fill in a form when it will be asked to provide the following data:&#xD;
+&#xD;
+        -  Information about the applicant (name, address, affiliation, …)&#xD;
+&#xD;
+        -  GDPR consent Once the request will be received, the compressed archive containing the&#xD;
+           whole database will be protected with an ad-hoc alphanumeric password. Such password&#xD;
+           will consist of two parts: the first part will be sent by email to the applicant, the&#xD;
+           second part will be sent using the regular mail service (two-way authentication).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of collected patients</measure>
+    <time_frame>December 2020 - December 2021</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Automatic Seizure Detection</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Collection of data from non-invasive epilepsy monitoring</intervention_name>
+    <description>Creation of a large long-term EEG database for seizure detection/prediction</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Drug-resistant epilepsy patients underwent presurgical monitoring at Epilepsy Surgery Unit&#xD;
+        at IRCCS Neuromed&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with drug-resistant epilepsy candidate to the surgery underwent to&#xD;
+             non-invasive EEG monitoring&#xD;
+&#xD;
+          -  Patients with at least one recorded seizure during the EEG monitoring&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with drug-resistant epilepsy candidate to the surgery underwent to&#xD;
+             non-invasive EEG monitoring&#xD;
+&#xD;
+          -  Patients with no recorded seizure during the EEG monitoring&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Irccs Neuromed</name>
+      <address>
+        <city>Pozzilli</city>
+        <state>IS</state>
+        <zip>86077</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>LUIGI PAVONE</last_name>
+      <phone>+39 0865929645</phone>
+      <email>bioingegneria@neuromed.it</email>
+    </contact>
+    <investigator>
+      <last_name>Luigi Pavone</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <link>
+    <url>https://www.who.int/news-room/fact-sheets/detail/epilepsy</url>
+    <description>World Health Organization - Epilepsy</description>
+  </link>
+  <link>
+    <url>http://epileptologie-bonn.de/cms/front_content.php?idcat=193&amp;lang=3&amp;changelang=3</url>
+    <description>Bonn EEG Database</description>
+  </link>
+  <link>
+    <url>http://epilepsy.uni-freiburg.de/freiburg-seizure-prediction-project/eeg-database</url>
+    <description>Freiburg database</description>
+  </link>
+  <link>
+    <url>https://physionet.org/content/chbmit/1.0.0/</url>
+    <description>Boston database</description>
+  </link>
+  <link>
+    <url>http://epilepsy-database.eu/</url>
+    <description>EPILEPSIAE database</description>
+  </link>
+  <results_reference>
+    <citation>Stacey WC, Litt B. Technology insight: neuroengineering and epilepsy-designing devices for seizure control. Nat Clin Pract Neurol. 2008 Apr;4(4):190-201. doi: 10.1038/ncpneuro0750. Epub 2008 Feb 26. Review.</citation>
+    <PMID>18301414</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Stein AG, Eder HG, Blum DE, Drachev A, Fisher RS. An automated drug delivery system for focal epilepsy. Epilepsy Res. 2000 Apr;39(2):103-14.</citation>
+    <PMID>10759298</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Theodore WH, Fisher R. Brain stimulation for epilepsy. Acta Neurochir Suppl. 2007;97(Pt 2):261-72. Review.</citation>
+    <PMID>17691312</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Osorio I, Frei MG, Sunderam S, Giftakis J, Bhavaraju NC, Schaffner SF, Wilkinson SB. Automated seizure abatement in humans using electrical stimulation. Ann Neurol. 2005 Feb;57(2):258-68.</citation>
+    <PMID>15668970</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Morrell M. Brain stimulation for epilepsy: can scheduled or responsive neurostimulation stop seizures? Curr Opin Neurol. 2006 Apr;19(2):164-8. Review.</citation>
+    <PMID>16538091</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Sunderam S, Gluckman B, Reato D, Bikson M. Toward rational design of electrical stimulation strategies for epilepsy control. Epilepsy Behav. 2010 Jan;17(1):6-22. doi: 10.1016/j.yebeh.2009.10.017. Epub 2009 Nov 17. Review.</citation>
+    <PMID>19926525</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Mormann F, Andrzejak RG, Elger CE, Lehnertz K. Seizure prediction: the long and winding road. Brain. 2007 Feb;130(Pt 2):314-33. Epub 2006 Sep 28. Review.</citation>
+    <PMID>17008335</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Rogowski Z, Gath I, Bental E. On the prediction of epileptic seizures. Biol Cybern. 1981;42(1):9-15.</citation>
+    <PMID>6799009</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Salant Y, Gath I, Henriksen O. Prediction of epileptic seizures from two-channel EEG. Med Biol Eng Comput. 1998 Sep;36(5):549-56.</citation>
+    <PMID>10367436</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Iasemidis LD, Sackellares JC, Zaveri HP, Williams WJ. Phase space topography and the Lyapunov exponent of electrocorticograms in partial seizures. Brain Topogr. 1990 Spring;2(3):187-201.</citation>
+    <PMID>2116818</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Lehnertz K, Elger CE. Spatio-temporal dynamics of the primary epileptogenic area in temporal lobe epilepsy characterized by neuronal complexity loss. Electroencephalogr Clin Neurophysiol. 1995 Aug;95(2):108-17.</citation>
+    <PMID>7649002</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Martinerie J, Adam C, Le Van Quyen M, Baulac M, Clemenceau S, Renault B, Varela FJ. Epileptic seizures can be anticipated by non-linear analysis. Nat Med. 1998 Oct;4(10):1173-6.</citation>
+    <PMID>9771751</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Le Van Quyen M, Soss J, Navarro V, Robertson R, Chavez M, Baulac M, Martinerie J. Preictal state identification by synchronization changes in long-term intracranial EEG recordings. Clin Neurophysiol. 2005 Mar;116(3):559-68. Epub 2004 Dec 25.</citation>
+    <PMID>15721070</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Le Van Quyen M, Martinerie J, Baulac M, Varela F. Anticipating epileptic seizures in real time by a non-linear analysis of similarity between EEG recordings. Neuroreport. 1999 Jul 13;10(10):2149-55.</citation>
+    <PMID>10424690</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Stacey W, Le Van Quyen M, Mormann F, Schulze-Bonhage A. What is the present-day EEG evidence for a preictal state? Epilepsy Res. 2011 Dec;97(3):243-51. doi: 10.1016/j.eplepsyres.2011.07.012. Epub 2011 Aug 31. Review.</citation>
+    <PMID>21885253</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Teixeira CA, Direito B, Feldwisch-Drentrup H, Valderrama M, Costa RP, Alvarado-Rojas C, Nikolopoulos S, Le Van Quyen M, Timmer J, Schelter B, Dourado A. EPILAB: a software package for studies on the prediction of epileptic seizures. J Neurosci Methods. 2011 Sep 15;200(2):257-71. doi: 10.1016/j.jneumeth.2011.07.002. Epub 2011 Jul 7.</citation>
+    <PMID>21763347</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Delamont RS, Julu PO, Jamal GA. Changes in a measure of cardiac vagal activity before and after epileptic seizures. Epilepsy Res. 1999 Jun;35(2):87-94.</citation>
+    <PMID>10372561</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Kerem DH, Geva AB. Forecasting epilepsy from the heart rate signal. Med Biol Eng Comput. 2005 Mar;43(2):230-9.</citation>
+    <PMID>15865133</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>D'Alessandro M, Vachtsevanos G, Esteller R, Echauz J, Cranstoun S, Worrell G, Parish L, Litt B. A multi-feature and multi-channel univariate selection process for seizure prediction. Clin Neurophysiol. 2005 Mar;116(3):506-16. Epub 2005 Jan 24.</citation>
+    <PMID>15721064</PMID>
+  </results_reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>November 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 1, 2020</study_first_posted>
+  <last_update_submitted>August 31, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 31, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Neuromed IRCCS</investigator_affiliation>
+    <investigator_full_name>Luigi Pavone</investigator_full_name>
+    <investigator_title>PhD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Seizures</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

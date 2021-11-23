@@ -1,0 +1,444 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04802954</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20-008</org_study_id>
+    <nct_id>NCT04802954</nct_id>
+  </id_info>
+  <brief_title>Risk Stratification of Hepatocarcinogenesis Using a Deep Learning Based Clinical, Biological and Ultrasound Model in High-risk Patients</brief_title>
+  <acronym>STARHE</acronym>
+  <official_title>Risk Stratification of Hepatocarcinogenesis Using a Deep Learning Based Clinical, Biological and Ultrasound Model in High-risk Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>IHU Strasbourg</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>IHU Strasbourg</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      By 2030, hepatocellular carcinoma (HCC) will become the second leading cause of&#xD;
+      cancer-related death, accounting for more than one million deaths per year according to the&#xD;
+      World Health Organization.&#xD;
+&#xD;
+      To this date, screening for hepatocellular carcinoma in France remains uniform for all&#xD;
+      patients, based solely on a liver ultrasound every 6 months. This strategy has three main&#xD;
+      limitations: lack of personalisation, low compliance, relatively poor performance of the&#xD;
+      ultrasound.&#xD;
+&#xD;
+      Risk stratification models have been developed for chronic hepatitis C, alcoholic cirrhosis&#xD;
+      and non-alcoholic steatohepatitis (NASH) including clinical and biological parameters but no&#xD;
+      analysis of the liver parenchyma which is the physiopathological substrate of&#xD;
+      hepatocarcinogenesis.&#xD;
+&#xD;
+      The advent of new artificial intelligence techniques could revolutionize the approach and&#xD;
+      lead to a personalised radiological screening strategy.&#xD;
+&#xD;
+      Deep learning, a subclass of machine learning, is a popular area of research that can help&#xD;
+      humans performing certain tasks by automatically identifying new image features not defined&#xD;
+      by humans.&#xD;
+&#xD;
+      The hypothesis of this study is that the non-tumor cirrhotic liver parenchyma is rich in&#xD;
+      structural information reflecting the severity of the hepatopathy, its carcinological risk&#xD;
+      and the process of hepatocarcinogenesis. Its analysis combined with clinical and biological&#xD;
+      data, which have already been studied to stratify the risk of hepatocarcinogenesis, will&#xD;
+      allow to define a very high-risk population, particularly in the context of Hepatitis C Virus&#xD;
+      (HCV) eradication and Hepatitis B Virus (HBV) control.&#xD;
+&#xD;
+      Consequently, this study proposes to design prospectively a deep learning model for&#xD;
+      stratification of the risk of hepatocarcinogenesis by including clinical, biological and&#xD;
+      radiological ultrasound parameters.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      By 2030, hepatocellular carcinoma (HCC) will become the second leading cause of&#xD;
+      cancer-related death, accounting for more than one million deaths per year according to the&#xD;
+      World Health Organization.&#xD;
+&#xD;
+      To this date, screening for hepatocellular carcinoma in France remains uniform for all&#xD;
+      patients, based solely on a liver ultrasound every 6 months. This scheme has the advantage of&#xD;
+      associating an acceptable cost-effectiveness ratio and, above all, of obtaining an increased&#xD;
+      overall survival. However, this strategy has three main limitations: lack of personalisation,&#xD;
+      low compliance, relatively poor performance of the ultrasound.&#xD;
+&#xD;
+      Risk stratification models have been developed for chronic hepatitis C, alcoholic cirrhosis&#xD;
+      and non-alcoholic steatohepatitis (NASH) including clinical (age, sex, body mass index and&#xD;
+      diabetes) and biological (ASAT/ALAT, platelets, albumin) parameters. However, they didn't&#xD;
+      include analysis of the liver parenchyma which is the physiopathological substrate of&#xD;
+      hepatocarcinogenesis. In the 1990s, several authors studied the incidence of hepatocellular&#xD;
+      carcinoma according to the liver echostructure. They agreed on the over-risk represented by a&#xD;
+      nodular heterogeneous echostructure with an estimated rate ratio of up to 20.&#xD;
+&#xD;
+      However, all these results have not yet led to a personalised radiological screening&#xD;
+      strategy. The advent of new artificial intelligence techniques could revolutionize the&#xD;
+      approach.&#xD;
+&#xD;
+      Deep learning, a subclass of machine learning, is a popular area of research that can help&#xD;
+      humans performing certain tasks. Unlike radiomics, deep learning can automatically identify&#xD;
+      new image features not defined by humans.&#xD;
+&#xD;
+      The hypothesis of this study is that the non-tumor cirrhotic liver parenchyma is rich in&#xD;
+      structural information reflecting the severity of the hepatopathy, its carcinological risk&#xD;
+      and the process of hepatocarcinogenesis. Its analysis combined with clinical and biological&#xD;
+      data, which have already been studied to stratify the risk of hepatocarcinogenesis, will&#xD;
+      allow to define a very high-risk population, particularly in the context of Hepatitis C Virus&#xD;
+      (HCV) eradication and Hepatitis B Virus (HBV) control.&#xD;
+&#xD;
+      Consequently, this study proposes to design prospectively a deep learning model for&#xD;
+      stratification of the risk of hepatocarcinogenesis by including clinical, biological and&#xD;
+      radiological ultrasound parameters. The primary objective of the study is to identify a&#xD;
+      population at very high risk of developing hepatocarcinoma in order to propose different&#xD;
+      screening modalities to the patients most at risk.&#xD;
+&#xD;
+      This clinical study will include patients aged over 18 years referred by their hepatologist&#xD;
+      in the framework of ultrasound screening according to the European Association for the Study&#xD;
+      of the Liver (EASL) recommendations for hepatocellular carcinoma screening, except for&#xD;
+      non-cirrhotic HBV liver disease: non-cirrhotic F3-stage liver disease from any cause based on&#xD;
+      individual risk assessment for hepatocarcinoma; cirrhosis from any cause, non-viral or&#xD;
+      virologically cured (HCV) or controlled (HBV). Patients with a history of treated&#xD;
+      hepatocellular carcinoma will be excluded.&#xD;
+&#xD;
+      Two groups of patients will be constituted prospectively: group 1 will include patients with&#xD;
+      a diagnosis of hepatocellular carcinoma greater than 1 cm (reference diagnostic standards:&#xD;
+      radiological or histological). These patients will therefore correspond to a very high-risk;&#xD;
+      Group 2 will include patients without hepatocellular carcinoma, thus corresponding to a lower&#xD;
+      risk. A 1 year-interval ultrasound will be performed in patients of group 2 to confirm the&#xD;
+      absence of new nodule in the year following inclusion. The proportion of new hepatocellular&#xD;
+      carcinoma should not exceed 3%.&#xD;
+&#xD;
+      The data collected will be clinical, biological, elastographic and ultrasonic parameters.&#xD;
+&#xD;
+      A Deep Learning model using a deep convolutional neural network architecture will be&#xD;
+      developed on Python using these data.&#xD;
+&#xD;
+      On a total of 7 investigation sites, 300 patients (equitably distributed between the two&#xD;
+      groups) will be included in the training/validation cohort and 100 patients (equitably&#xD;
+      distributed between the two groups) in the test cohort. These numbers are calculated from&#xD;
+      ultrasound studies reporting a rate ratio of HCC risk of up to 20 in case of macronodular&#xD;
+      ultrasound pattern and Deep Learning requirements (large numbers needed).&#xD;
+&#xD;
+      The training/validation and test cohorts will be from external and independent centres.&#xD;
+&#xD;
+      The diagnostic performance of the model will be estimated by Area Under the Curve (AUC),&#xD;
+      sensitivity, specificity and F1-score (95% confidence intervals) on the test cohort.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2021</start_date>
+  <completion_date type="Anticipated">May 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Stratification of the risk of hepatocarcinogenesis in high-risk patients by a deep learning-based cross-analysis.</measure>
+    <time_frame>12 months</time_frame>
+    <description>Deep Learning-based cross-analysis of clinical, biological, elastographic and ultrasonic (non-tumor liver parenchyma) parameters</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Development of a new screening strategy by a deep learning-based cross-analysis</measure>
+    <time_frame>12 months</time_frame>
+    <description>Deep Learning-based cross-analysis of clinical, biological, elastographic and ultrasonic (non-tumor liver parenchyma) parameters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Development of an algorithm to identify patients at risk of multifocal and diffuse forms by a deep learning-based cross-analysis</measure>
+    <time_frame>12 months</time_frame>
+    <description>Deep Learning-based cross-analysis of clinical, biological, elastographic and ultrasonic (non-tumor liver parenchyma) parameters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of the nodules detected on ultrasound by a deep learning-based cross-analysis</measure>
+    <time_frame>12 months</time_frame>
+    <description>Deep Learning-based cross-analysis of clinical, biological, elastographic and ultrasonic (non-tumor liver parenchyma) parameters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Characterization of the interface of the nodules with the adjacent hepatic parenchyma by a deep learning-based cross-analysis</measure>
+    <time_frame>12 months</time_frame>
+    <description>Deep Learning-based cross-analysis of clinical, biological, elastographic and ultrasonic (non-tumor liver parenchyma) parameters</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Hepatocellular Carcinoma</condition>
+  <condition>Chronic Liver Disease</condition>
+  <arm_group>
+    <arm_group_label>High risk group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients with hepatocellular carcinoma greater than 1 cm in size. All patients from an ultrasound screening programme who have been diagnosed with a nodule larger than 1 cm and referred to our centres will be included in this group. They will then be excluded of this group if the diagnosis of hepatocellular carcinoma is not retained according to the radiological or histological reference diagnostic standards (gold standard).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Low risk group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients without hepatocellular carcinoma. A 1-year interval ultrasound will be performed to confirm the absence of new nodule in the year following inclusion.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Video acquisition</intervention_name>
+    <description>One to three video acquisitions of 10 seconds will be carried out via the intercostal route. Data acquisition will be standardized according to a mandatory protocol and previously recorded in each ultrasound machine (cross shots, harmonic, filter, depth, focal length, mechanical index, etc.).</description>
+    <arm_group_label>High risk group</arm_group_label>
+    <arm_group_label>Low risk group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Men or women over 18 years of age.&#xD;
+&#xD;
+          -  Patients referred by their hepatologist within the framework of ultrasound screening&#xD;
+             according to the EASL hepato-cellular carcinoma screening recommendations.&#xD;
+&#xD;
+          -  Non-cirrhotic F3 hepatopathy of any cause according to an individual assessment of the&#xD;
+             risk of hepatocarcinoma.&#xD;
+&#xD;
+          -  Cirrhosis from any cause, non viral or virologically cured (HCV) or controlled (HBV).&#xD;
+&#xD;
+          -  Patient with hepatopathy proven by histological evidence or confirmed by an expert&#xD;
+             committee based on clinical, biological, ultrasound (hepato-cellular insufficiency,&#xD;
+             portal hypertension) and elastographic criteria.&#xD;
+&#xD;
+          -  Patient able to receive and understand the information relating to the study and to&#xD;
+             give his/her written informed consent.&#xD;
+&#xD;
+          -  Patient affiliated to the French social security system.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  History of hepatocarcinoma&#xD;
+&#xD;
+          -  Patient with non-cirrhotic viral B hepatopathy or uncontrolled (HBV) or uncured (HCV)&#xD;
+             viral cirrhosis.&#xD;
+&#xD;
+          -  Patient under protection of justice, guardianship or trusteeship.&#xD;
+&#xD;
+          -  Patient in a situation of social fragility.&#xD;
+&#xD;
+          -  Patient subject to legal protection or unable to express consent&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Benoit GALLIX, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>IHU Strasbourg</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Armelle TAKEDA, PhD</last_name>
+    <phone>+33 390413608</phone>
+    <email>armelle.takeda@ihu-strasbourg.eu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>CHU Angers</name>
+      <address>
+        <city>Angers</city>
+        <zip>49100</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Anita PAISANT</last_name>
+    </contact>
+    <investigator>
+      <last_name>Clémence CANIVET</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital Avicenne</name>
+      <address>
+        <city>Bobigny</city>
+        <zip>93000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Olivier SEROR</last_name>
+    </contact>
+    <investigator>
+      <last_name>Pierre NAHON</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital Beaujon</name>
+      <address>
+        <city>Clichy</city>
+        <zip>92110</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Riccardo SARTORIS</last_name>
+    </contact>
+    <investigator>
+      <last_name>Pierre-Emmanuel RAUTOU</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospices Civils de Lyon, Hôpital Edouard Herriot</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69003</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Laurent MILOT</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Groupement Hospitalier Nord, Hôpital de la Croix-Rousse</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69317</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Agnès RODE</last_name>
+    </contact>
+    <investigator>
+      <last_name>Philippe MERLE</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU Montpellier</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34090</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Christophe CASSINOTTO</last_name>
+    </contact>
+    <investigator>
+      <last_name>José URSIC-BEDOYA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>IHU Strasbourg</name>
+      <address>
+        <city>Strasbourg</city>
+        <zip>67000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Benoit GALLIX</last_name>
+    </contact>
+    <investigator>
+      <last_name>Thomas BAUMERT</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Cadier B, Bulsei J, Nahon P, Seror O, Laurent A, Rosa I, Layese R, Costentin C, Cagnot C, Durand-Zaleski I, Chevreul K; ANRS CO12 CirVir and CHANGH groups. Early detection and curative treatment of hepatocellular carcinoma: A cost-effectiveness analysis in France and in the United States. Hepatology. 2017 Apr;65(4):1237-1248. doi: 10.1002/hep.28961. Epub 2017 Feb 8.</citation>
+    <PMID>28176349</PMID>
+  </reference>
+  <reference>
+    <citation>Costentin CE, Layese R, Bourcier V, Cagnot C, Marcellin P, Guyader D, Pol S, Larrey D, De Lédinghen V, Ouzan D, Zoulim F, Roulot D, Tran A, Bronowicki JP, Zarski JP, Riachi G, Calès P, Péron JM, Alric L, Bourlière M, Mathurin P, Blanc JF, Abergel A, Serfaty L, Mallat A, Grangé JD, Attali P, Bacq Y, Wartelle C, Dao T, Thabut D, Pilette C, Silvain C, Christidis C, Nguyen-Khac E, Bernard-Chabert B, Zucman D, Di Martino V, Sutton A, Letouzé E, Imbeaud S, Zucman-Rossi J, Audureau E, Roudot-Thoraval F, Nahon P; ANRS CO12 CirVir Group. Compliance With Hepatocellular Carcinoma Surveillance Guidelines Associated With Increased Lead-Time Adjusted Survival of Patients With Compensated Viral Cirrhosis: A Multi-Center Cohort Study. Gastroenterology. 2018 Aug;155(2):431-442.e10. doi: 10.1053/j.gastro.2018.04.027. Epub 2018 May 3.</citation>
+    <PMID>29729258</PMID>
+  </reference>
+  <reference>
+    <citation>Ioannou GN, Green P, Kerr KF, Berry K. Models estimating risk of hepatocellular carcinoma in patients with alcohol or NAFLD-related cirrhosis for risk stratification. J Hepatol. 2019 Sep;71(3):523-533. doi: 10.1016/j.jhep.2019.05.008. Epub 2019 May 28.</citation>
+    <PMID>31145929</PMID>
+  </reference>
+  <reference>
+    <citation>Audureau E, Carrat F, Layese R, Cagnot C, Asselah T, Guyader D, Larrey D, De Lédinghen V, Ouzan D, Zoulim F, Roulot D, Tran A, Bronowicki JP, Zarski JP, Riachi G, Calès P, Péron JM, Alric L, Bourlière M, Mathurin P, Blanc JF, Abergel A, Chazouillères O, Mallat A, Grangé JD, Attali P, d'Alteroche L, Wartelle C, Dao T, Thabut D, Pilette C, Silvain C, Christidis C, Nguyen-Khac E, Bernard-Chabert B, Zucman D, Di Martino V, Sutton A, Pol S, Nahon P; ANRS CO12 CirVir group. Personalized surveillance for hepatocellular carcinoma in cirrhosis - using machine learning adapted to HCV status. J Hepatol. 2020 Dec;73(6):1434-1445. doi: 10.1016/j.jhep.2020.05.052. Epub 2020 Jun 29.</citation>
+    <PMID>32615276</PMID>
+  </reference>
+  <reference>
+    <citation>Kitamura S, Iishi H, Tatsuta M, Ishikawa H, Hiyama T, Tsukuma H, Kasugai H, Tanaka S, Kitamura T, Ishiguro S. Liver with hypoechoic nodular pattern as a risk factor for hepatocellular carcinoma. Gastroenterology. 1995 Jun;108(6):1778-84.</citation>
+    <PMID>7768383</PMID>
+  </reference>
+  <reference>
+    <citation>Tarao K, Hoshino H, Shimizu A, Ohkawa S, Harada M, Nakamura Y, Ito Y, Tamai S, Okamoto N. Patients with ultrasonic coarse-nodular cirrhosis who are anti-hepatitis C virus-positive are at high risk for hepatocellular carcinoma. Cancer. 1995 Mar 15;75(6):1255-62.</citation>
+    <PMID>7533653</PMID>
+  </reference>
+  <reference>
+    <citation>Caturelli E, Castellano L, Fusilli S, Palmentieri B, Niro GA, del Vecchio-Blanco C, Andriulli A, de Sio I. Coarse nodular US pattern in hepatic cirrhosis: risk for hepatocellular carcinoma. Radiology. 2003 Mar;226(3):691-7. Epub 2003 Jan 24.</citation>
+    <PMID>12601208</PMID>
+  </reference>
+  <reference>
+    <citation>Dana J, Agnus V, Ouhmich F, Gallix B. Multimodality Imaging and Artificial Intelligence for Tumor Characterization: Current Status and Future Perspective. Semin Nucl Med. 2020 Nov;50(6):541-548. doi: 10.1053/j.semnuclmed.2020.07.003. Epub 2020 Aug 2. Review.</citation>
+    <PMID>33059823</PMID>
+  </reference>
+  <reference>
+    <citation>Yala A, Schuster T, Miles R, Barzilay R, Lehman C. A Deep Learning Model to Triage Screening Mammograms: A Simulation Study. Radiology. 2019 Oct;293(1):38-46. doi: 10.1148/radiol.2019182908. Epub 2019 Aug 6.</citation>
+    <PMID>31385754</PMID>
+  </reference>
+  <reference>
+    <citation>Dohan A, Gallix B, Guiu B, Le Malicot K, Reinhold C, Soyer P, Bennouna J, Ghiringhelli F, Barbier E, Boige V, Taieb J, Bouché O, François E, Phelip JM, Borel C, Faroux R, Seitz JF, Jacquot S, Ben Abdelghani M, Khemissa-Akouz F, Genet D, Jouve JL, Rinaldi Y, Desseigne F, Texereau P, Suc E, Lepage C, Aparicio T, Hoeffel C; PRODIGE 9 Investigators and PRODIGE 20 Investigators. Early evaluation using a radiomic signature of unresectable hepatic metastases to predict outcome in patients with colorectal cancer treated with FOLFIRI and bevacizumab. Gut. 2020 Mar;69(3):531-539. doi: 10.1136/gutjnl-2018-316407. Epub 2019 May 17.</citation>
+    <PMID>31101691</PMID>
+  </reference>
+  <reference>
+    <citation>Savadjiev P, Chong J, Dohan A, Agnus V, Forghani R, Reinhold C, Gallix B. Image-based biomarkers for solid tumor quantification. Eur Radiol. 2019 Oct;29(10):5431-5440. doi: 10.1007/s00330-019-06169-w. Epub 2019 Apr 8. Review.</citation>
+    <PMID>30963275</PMID>
+  </reference>
+  <reference>
+    <citation>LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015 May 28;521(7553):436-44. doi: 10.1038/nature14539. Review.</citation>
+    <PMID>26017442</PMID>
+  </reference>
+  <reference>
+    <citation>European Association for the Study of the Liver. Electronic address: easloffice@easloffice.eu. Corrigendum to &quot;EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma&quot; [J Hepatol 69 (2018) 182-236]. J Hepatol. 2019 Apr;70(4):817. doi: 10.1016/j.jhep.2019.01.020. Epub 2019 Feb 7.</citation>
+    <PMID>30739718</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 10, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 16, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 17, 2021</study_first_posted>
+  <last_update_submitted>March 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 17, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatocellular Carcinoma</keyword>
+  <keyword>Cirrhosis</keyword>
+  <keyword>Deep Learning</keyword>
+  <keyword>Convolutional Neural Network</keyword>
+  <keyword>Ultrasound</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Hepatocellular</mesh_term>
+    <mesh_term>Liver Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

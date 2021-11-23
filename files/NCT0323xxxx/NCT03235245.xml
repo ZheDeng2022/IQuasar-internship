@@ -1,0 +1,933 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03235245</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EORTC-1612-MG</org_study_id>
+    <secondary_id>2017-002887-42</secondary_id>
+    <nct_id>NCT03235245</nct_id>
+  </id_info>
+  <brief_title>Immunotherapy With Ipilimumab and Nivolumab Preceded or Not by a Targeted Therapy With Encorafenib and Binimetinib</brief_title>
+  <acronym>EBIN</acronym>
+  <official_title>Combination of Targeted Therapy (Encorafenib and Binimetinib) Followed by Combination of Immunotherapy (Ipilimumab and Nivolumab) vs Immediate Combination of Immunotherapy in Patients With Unresectable or Metastatic Melanoma With BRAF V600 Mutation : an EORTC Randomized Phase II Study (EBIN)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>European Organisation for Research and Treatment of Cancer - EORTC</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>European Organisation for Research and Treatment of Cancer - EORTC</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a multicenter, 2-arm open-label, randomized comparative phase II study. The objective&#xD;
+      of this trial is to prospectively evaluate whether a sequential approach with an induction&#xD;
+      period of 12 weeks with encorafenib + binimetinib followed by combination immunotherapy with&#xD;
+      nivolumab + ipilimumab improves progression free survival compared to combination&#xD;
+      immunotherapy nivolumab + ipilimumab alone in patients with BRAF V600 mutation-positive&#xD;
+      unresectable or metastatic melanoma.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 30, 2018</start_date>
+  <completion_date type="Anticipated">February 2024</completion_date>
+  <primary_completion_date type="Anticipated">April 2022</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Progression Free Survival (PFS)</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>PRS is defined as the time from the date of randomization until the first date of progression, or until date of death (whatever the cause), whichever occurs first. Progression will be assessed according to the RECIST criteria (version 1.1)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival (OS)</measure>
+    <time_frame>6 years from first patient in</time_frame>
+    <description>OS is defined as the time from the date of randomization to the date of death, whatever the cause.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Complete Response (CR) rate</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>CR will be assessed according to the RECIST criteria (version 1.1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Complete Response (CR)</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>Time to CR is defined as the time from the date of randomization until the occurrence of first CR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of Complete Response (CR)</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>Duration of CR will be measured from the time measurement criteria for CR are first met until the first date that recurrence is objectively documented.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Best overall response rate</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>Best overall response will be assessed according to the RECIST criteria (version 1.1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to best response</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>Time to best response is defined as the time from the date of randomization until the occurrence of the best response (CR or PR, whichever comes first). CR and PR will be assessed according to the RECIST criteria (version 1.1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of best response</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>Best response duration will be measured from the time measurement criteria for CR/PR (whichever is first recorded) are first met until the first date that recurrent or progressive disease is objectively documented. CR and PR will be assessed according to the RECIST criteria (version 1.1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Occurrence of adverse events</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>This study will use the International Common Terminology Criteria for Adverse Events (CTCAE), version 4.0, for adverse event reporting.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Progression-free survival 2 (PFS2)</measure>
+    <time_frame>4.1 years from first patient in</time_frame>
+    <description>PFS2 is defined as the time from randomization to second objective disease progression, or death from any cause, whichever first. The second objective disease progression will be assessed according to the RECIST criteria (version 1.1)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">270</enrollment>
+  <condition>Unresectable Stage III Melanoma</condition>
+  <condition>Stage IV Melanoma</condition>
+  <arm_group>
+    <arm_group_label>ARM A: Nivolumab + Ipilimumab</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>nivolumab 3 mg/kg q3w + ipilimumab 1 mg/kg q3w for 4 injections followed by nivolumab 480 mg IV q4w until completion of 2 years total treatment or progression. Then treatment will be left at the investigator choice and continued until the 2nd progression.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ARM B: Encorafenib + Binimetinib + Nivolumab + Ipilimumab</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>encorafenib 450 mg QD + binimetinib 45 mg BID orally for 12 weeks followed, after a week of pause, by nivolumab 3 mg/kg q3w + ipilimumab 1 mg/kg q3w for 4 injections, followed by nivolumab 480 mg IV q4w until completion of 2 years total treatment or progression. Then patients will be rechallenged with encorafenib 450 mg QD + binimetinib 45 mg BID orally continuously until the 2nd progression.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Nivolumab + Ipilimumab</intervention_name>
+    <description>nivolumab 3 mg/kg q3w + ipilimumab 1 mg/kg q3w for 4 injections followed by nivolumab 480 mg IV q4w until completion of 2 years total treatment or progression.</description>
+    <arm_group_label>ARM A: Nivolumab + Ipilimumab</arm_group_label>
+    <arm_group_label>ARM B: Encorafenib + Binimetinib + Nivolumab + Ipilimumab</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Encorafenib + Binimetinib</intervention_name>
+    <description>encorafenib 450 mg QD + binimetinib 45 mg BID orally for 12 weeks</description>
+    <arm_group_label>ARM B: Encorafenib + Binimetinib + Nivolumab + Ipilimumab</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histologically or cytologically confirmed unresectable stage III or IV cutaneous or&#xD;
+             mucosal melanoma&#xD;
+&#xD;
+          -  Presence of BRAF V600E or V600K mutation in tumor tissue prior to enrolment as per&#xD;
+             local assessment&#xD;
+&#xD;
+          -  Tumor tissue from an unresectable or metastatic site of disease must be provided for&#xD;
+             biomarker analyses. This can be an archived sample if obtained at maximum 3 months&#xD;
+             prior to randomization and if the patient did not receive treatment since then.&#xD;
+&#xD;
+          -  Measurable disease per RECIST 1.1 criteria by computed tomography (CT) or Magnetic&#xD;
+             Resonance Imaging (MRI) of Chest/Abdomen/Pelvis CT and brain CT/MRI performed within&#xD;
+             28 days prior to randomization&#xD;
+&#xD;
+          -  Patients ≥ 18 years of age&#xD;
+&#xD;
+          -  Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0 or 1&#xD;
+&#xD;
+          -  Patients must be able to swallow and retain oral tablets&#xD;
+&#xD;
+          -  Adequate organ function within 14 days prior to randomization&#xD;
+&#xD;
+          -  Patients with hyperthyroidism or hypothyroidism but that are stable on hormone&#xD;
+             replacement can be included.&#xD;
+&#xD;
+          -  Adequate cardiac function&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Uveal melanoma&#xD;
+&#xD;
+          -  Any symptomatic brain or leptomeningeal disease. Subjects with brain metastases are&#xD;
+             eligible if these have been locally treated and there is no magnetic resonance imaging&#xD;
+             (MRI) evidence of progression for at least 4 weeks after treatment and treatment is&#xD;
+             completed within 28 days prior to first dose of study drug administration. There must&#xD;
+             also be no requirement for immunosuppressive doses of systemic corticosteroids (&gt; 10&#xD;
+             mg/day prednisone equivalents) for at least 2 weeks prior to study drug&#xD;
+             administration.&#xD;
+&#xD;
+          -  Any prior treatment for advanced disease including treatment with an anti-Programmed&#xD;
+             Death receptor-1 (PD-1), anti-Programmed Death-1 ligand-1 (PD-L1), anti-PD-L2,&#xD;
+             anti-cytotoxic T lymphocyte associated antigen-4 (anti-CTLA-4) antibody, anti-LAG-3,&#xD;
+             anti-TIM-3, anti-IDO, etc or BRAF or MEK inhibitors.&#xD;
+&#xD;
+          -  History of hypersensitivity to study drugs or any excipient (refer to Investigator's&#xD;
+             brochures for binimetinib and encorafenib and SmPCs for ipilimumab and nivolumab).&#xD;
+&#xD;
+          -  Prior adjuvant melanoma therapy with IFN, anti-PD1, anti-PDL1 or anti-CTLA-4 or any&#xD;
+             other systemic treatment is permitted if completed at least 1 year prior to&#xD;
+             randomization and all related adverse events have either returned to ≤ 1.&#xD;
+&#xD;
+          -  Concomitant administration of strong inducers and inhibitors of P-gp, glucuronidation,&#xD;
+             CYP3A4 (e.g. rifampicin, rifabutin, carbamazepine, phenytoin or St John's Wort&#xD;
+             [hypericin])&#xD;
+&#xD;
+          -  Concomitant anticoagulation at therapeutic doses with oral anticoagulants (eg,&#xD;
+             warfarin)&#xD;
+&#xD;
+          -  Live vaccines within 30 days prior to the first dose of study therapy. Examples of&#xD;
+             live vaccines include, but are not limited to, the following: measles, mumps, rubella,&#xD;
+             chicken pox, yellow fever, H1N1 flu, rabies, BCG, and typhoid vaccine.&#xD;
+&#xD;
+          -  Current participation or treatment with other investigational agent or use of an&#xD;
+             investigational device within 4 weeks of the first dose of study treatment&#xD;
+&#xD;
+          -  Child-Pugh B/C and patients with history of acute or chronic pancreatitis&#xD;
+&#xD;
+          -  Known history or current evidence of active Hepatitis B (e.g., HBsAg reactive) or C&#xD;
+             (e.g., HCV RNA [qualitative] is detected) or Human Immunodeficiency Virus (HIV)&#xD;
+             (HIV-1/2 antibodies)&#xD;
+&#xD;
+          -  Chronic use of immunosuppressive agents and/or systemic corticosteroids or any use in&#xD;
+             the last 15 days prior to the first dose of study treatment&#xD;
+&#xD;
+          -  Active autoimmune disease that has required systemic treatment in past 2 years (i.e.&#xD;
+             with use of disease modifying agents, corticosteroids or immunosuppressive drugs).&#xD;
+             Replacement therapy (i.e., thyroxine, insulin, or physiologic corticosteroid&#xD;
+             replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a&#xD;
+             form of systemic treatment and is allowed&#xD;
+&#xD;
+          -  Autoimmune paraneoplastic syndrome requiring immunosuppressive or dedicated treatment.&#xD;
+             A specific attention should be given in order to detect any minor myasthenia signs at&#xD;
+             enrolment; acetylcholine receptor antibodies will be systematically tested when&#xD;
+             symptoms are suggestive of a myasthenia&#xD;
+&#xD;
+          -  History of any other hematologic or primary solid tumor malignancy, unless in&#xD;
+             remission for at least 5 years. A patient with a history of completely resected&#xD;
+             non-melanoma skin cancer or successfully treated in situ carcinoma are eligible, for&#xD;
+             example cervical cancer in situ or pT1a incidental prostate cancer is eligible&#xD;
+&#xD;
+          -  Previous allogeneic tissue/solid organ transplant&#xD;
+&#xD;
+          -  Active infection requiring therapy&#xD;
+&#xD;
+          -  Major surgery or trauma within 12 weeks prior to first dose of treatment or presence&#xD;
+             of any non-healing wound. Complete wound healing from major surgery must have occurred&#xD;
+             one month before the first dose of study treatment.&#xD;
+&#xD;
+        Minor surgery (including uncomplicated tooth extractions) within 28 days before&#xD;
+        randomization with complete wound healing at least 10 days before randomization is&#xD;
+        permitted.&#xD;
+&#xD;
+          -  Any anticancer treatment within 4 weeks before randomization e.g. radiation, surgery,&#xD;
+             systemic therapy.&#xD;
+&#xD;
+          -  Patients with clinically relevant ongoing complications from prior anticancer&#xD;
+             therapies.&#xD;
+&#xD;
+          -  Severe or uncontrolled systemic disease or any concurrent condition which in the&#xD;
+             investigator's opinion makes it undesirable for the patient to participate in the&#xD;
+             study, or which would jeopardize compliance with the protocol&#xD;
+&#xD;
+          -  History or current evidence of retinal vein occlusion (RVO) or current risk factors to&#xD;
+             RVO (e.g. uncontrolled glaucoma or ocular hypertension, history of hyperviscosity or&#xD;
+             hypercoagulability syndromes); an ophthalmological assessment is mandatory within 28&#xD;
+             days from the first dose of study treatment.&#xD;
+&#xD;
+          -  History of retinal degenerative disease&#xD;
+&#xD;
+          -  Impaired gastrointestinal function or disease that may significantly alter the&#xD;
+             absorption of encorafenib or binimetinib (e.g., ulcerative diseases, uncontrolled&#xD;
+             vomiting, malabsorption syndrome, small bowel resection with decreased intestinal&#xD;
+             absorption)&#xD;
+&#xD;
+          -  Patients with neuromuscular disorders that are associated with CK &gt; ULN (e.g.,&#xD;
+             inflammatory myopathies, muscular dystrophy, amyotrophic lateral sclerosis, spinal&#xD;
+             muscular atrophy)&#xD;
+&#xD;
+          -  Patients who are planning on embarking on a new strenuous exercise regimen after first&#xD;
+             dose of study treatment. Note: Muscular activities, such as strenuous exercise, that&#xD;
+             can result in significant increases in plasma CK levels should be avoided while on&#xD;
+             binimetinib treatment&#xD;
+&#xD;
+          -  Impaired cardiovascular function or clinically significant cardiovascular diseases&#xD;
+&#xD;
+          -  Uncontrolled hypertension defined as persistent elevation of systolic blood pressure ≥&#xD;
+             150 mmHg or diastolic blood pressure ≥ 100mmHg, despite current therapy&#xD;
+&#xD;
+          -  History of chronic inflammatory bowel disease or Crohn's disease requiring medical&#xD;
+             intervention (immunomodulatory or immunosuppressive medications or surgery) ≤ 12&#xD;
+             months prior to starting study treatment&#xD;
+&#xD;
+          -  History of thromboembolic or cerebrovascular events ≤ 6 months prior to starting study&#xD;
+             treatment, including stroke, transient ischemic attacks, cerebrovascular accidents,&#xD;
+             deep vein thrombosis, pulmonary emboli, aortic aneurysm requiring surgical repair or&#xD;
+             recent peripheral arterial thrombosis&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Caroline Robert</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Cancer Institute Gustave Roussy</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>EORTC HQ</last_name>
+    <phone>+32 2 774 1611</phone>
+    <email>EORTC@eortc.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Universitair Ziekenhuis Antwerpen</name>
+      <address>
+        <city>Antwerpen</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Pol Specenier</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>AZ Maria Middelares</name>
+      <address>
+        <city>Gent</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Withdrawn</status>
+  </location>
+  <location>
+    <facility>
+      <name>CHU Amiens - Hopital Sud</name>
+      <address>
+        <city>Amiens</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jean-Philippe Arnault, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHRU de Besançon - Hopital Jean Minjoz</name>
+      <address>
+        <city>Besançon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>François Aubin, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Bordeaux - Groupe Hospitalier Saint-André - Hopital Saint-Andre</name>
+      <address>
+        <city>Bordeaux</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Caroline Dutriaux, Pr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Jean Perrin</name>
+      <address>
+        <city>Clermont-Ferrand</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Xavier Durando, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Dijon - Centre Georges-François-Leclerc</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Alice Hervieu, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Grenoble - La Tronche - Hôpital A. Michallon</name>
+      <address>
+        <city>Grenoble</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Marie-Therese Leccia, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHRU de Lille</name>
+      <address>
+        <city>Lille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Laurent Mortier, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Limoges - Hopital Dupuytren</name>
+      <address>
+        <city>Limoges</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Christophe Bedane, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Lyon Sud</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Stephane Dalle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Leon Berard</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Eve-Marie Neidhardt, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Assistance Publique - Hopitaux de Marseille - Hôpital de La Timone (APHM)</name>
+      <address>
+        <city>Marseille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jean-Jacques Grob, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital St. Eloi</name>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Bernard Guillot, Pr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital St. Eloi</name>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Olivier Dereure, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Nice - Hopital De L'Archet</name>
+      <address>
+        <city>Nice</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Henri Montaudie, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Assitance Publique - Hopitaux de Paris - Hopital Saint-Louis</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Celeste Lebbe, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU Ambroise Pare</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Philippe Saiag</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital Cochin</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Nora Kramkimel</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Hospitalier De Pau</name>
+      <address>
+        <city>Pau</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Jouary</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Reims - Hôpital Robert Debré</name>
+      <address>
+        <city>Reims</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Florent Grange, Pr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Saint-Etienne - Hopital Nord</name>
+      <address>
+        <city>Saint Priest en Jarez</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jean-Luc Perrot</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Tours - Hopital Trousseau</name>
+      <address>
+        <city>Tours</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Laurent Machet, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Gustave Roussy</name>
+      <address>
+        <city>Villejuif</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Caroline Robert</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Krankenhaus Buxtehude</name>
+      <address>
+        <city>Buxtehude</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Peter Mohr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitaetsklinikum Heidelberg</name>
+      <address>
+        <city>Heidelberg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jessica Hassel</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Univ. Mainz - Universitaetsmedizin der Johannes Gutenberg Universitaet Mainz-University Medical Center</name>
+      <address>
+        <city>Mainz</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Carmen Loquai</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UniversitaetsMedizin Mannheim</name>
+      <address>
+        <city>Mannheim</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jochen Utikal</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Technische Universitaet Muenchen</name>
+      <address>
+        <city>Muenchen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Christian Posch</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Universitaetsklinikum Wuerzburg</name>
+      <address>
+        <city>Wuerzburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Bastian Schilling</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliera Papa Giovanni XXIII</name>
+      <address>
+        <city>Bergamo</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Mario Mandala</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Istituto Nazionale Tumori IRCCS &quot;Fondazione G. Pascale&quot;</name>
+      <address>
+        <city>Napoli</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Paolo Ascierto</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Regina Elena National Cancer Center</name>
+      <address>
+        <city>Roma</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Virginia Ferraresi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliera Citta della Salute e della Scienza di Torino</name>
+      <address>
+        <city>Turin</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Pietro Quaglino</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Netherlands Cancer Institute-Antoni Van Leeuwenhoekziekenhuis</name>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>John B.A.G Haanen, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Maria Sklodowska-Curie Memorial Cancer Centre</name>
+      <address>
+        <city>Warsaw</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Piotr Rutkowski, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Catala d'Oncologia - ICO Badalona - Hospital Germans Trias i Pujol (Institut Catala D'Oncologia)</name>
+      <address>
+        <city>Badalona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Jose Luis Manzano Mozo, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clinic Universitari de Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Ana Maria Arance, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Catala d'Oncologia - ICO L'Hospitalet - Hospital Duran i Reynals (Institut Catala D'Oncologia)</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Juan Martin-Liberal, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Vall d'Hebron Institut d'Oncologia</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Eva Munoz Couselo, Dr</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario La Paz</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Enrique Espinosa, Dr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>East &amp; North Hertfordshire NHS Trust - East and North Hertfordshire NHS Trust - Mount Vernon Hospital</name>
+      <address>
+        <city>Middlesex</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Heather Shaw, Pr.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>East &amp; North Hertfordshire NHS Trust - East and North Hertfordshire NHS Trust - Mount Vernon Hospital</name>
+      <address>
+        <city>Middlesex</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Heather Shaw</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Netherlands</country>
+    <country>Poland</country>
+    <country>Spain</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>July 27, 2017</study_first_submitted>
+  <study_first_submitted_qc>July 27, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 1, 2017</study_first_posted>
+  <last_update_submitted>April 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cutaneous melanoma</keyword>
+  <keyword>mucosal melanoma</keyword>
+  <keyword>BRAF mutation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nivolumab</mesh_term>
+    <mesh_term>Ipilimumab</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All publications must comply with the terms specified in the EORTC Policy 009 &quot;Release of Results and Publication Policy&quot;.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

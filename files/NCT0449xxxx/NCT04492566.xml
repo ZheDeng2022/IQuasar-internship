@@ -1,0 +1,482 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04492566</url>
+  </required_header>
+  <id_info>
+    <org_study_id>G200099/S001</org_study_id>
+    <nct_id>NCT04492566</nct_id>
+  </id_info>
+  <brief_title>Automated Insulin Delivery in Pregnant Patients With Type 1 Diabetes With Extension Into Outpatient at Home</brief_title>
+  <official_title>Supervised Safety and Feasibility Evaluation of the Zone-MPC Control Algorithm Integrated Into the iAPS in Pregnant Patients With Type 1 Diabetes With Extension Into Outpatient at Home</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sansum Diabetes Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Harvard University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Sansum Diabetes Research Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This clinical trial is a safety and feasibility study to assess the performance of an&#xD;
+      artificial pancreas (AP) system using the Zone Model Predictive control (Zone-MPC) and Health&#xD;
+      Monitoring System (HMS) algorithms embedded into the iAPS platform for pregnant patients with&#xD;
+      type 1 diabetes (T1D).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The system will be evaluated on up to 21 pregnant adult subjects with type 1 diabetes age&#xD;
+      18-45 years old at three clinical sites (Sansum Diabetes Research Institute, Mayo Clinic&#xD;
+      Rochester MN and Mt Sinai Hospital, New York City). Subjects will complete a 48-60 hour&#xD;
+      closed-loop (CL) session in a supervised outpatient environment with medical staff present.&#xD;
+      During the session, subjects will bolus for all meals and snacks, and will perform their&#xD;
+      usual daily activities while being accompanied by study medical staff.&#xD;
+&#xD;
+      For subjects who wish to continue use of the system, they will be offered the option of&#xD;
+      continuing use of the system at home in an extension phase, for the rest of their pregnancy.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 27, 2020</start_date>
+  <completion_date type="Anticipated">May 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 15, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time in target glucose range</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Time in target glucose range 63-140 mg/dL measured by CGM to determine safety and efficacy of the integrated system</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overnight time in target glucose range</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Sensor glucose time within the target range of 63-140 mg/dl overnight</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Postprandial time in target glucose range</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Sensor glucose time within the target range of 63-140 mg/dl postprandially within 2 hours following mealsand 2 hours following meals</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &lt; 63 mg/dL</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time GGM glucose &lt; 63 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &lt; 54 mg/dL</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time GGM glucose &lt; 54 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &gt; 140 mg/dL</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time GGM glucose &gt; 140 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &gt; 180 mg/dL</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time GGM glucose &gt; 180 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hypoglycemic Events</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of hypoglycemic events, defined as time &lt;54 mg/dL for 15 consecutive minutes followed by time &gt;70 mg/dL for 15 consecutive minutes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Severe Hypoglycemic Events</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of hypoglycemic events that events that require active assistance of another individual</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hyperglycemic Events</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of episodes with ketones &gt;1 mmol/L</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Glucose &gt; 250 mg/dL</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time GGM glucose &gt; 250 mg/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Serious adverse events (SAE)</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>The total number of serious adverse events during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Serious adverse device events (SADE)</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>The total number of serious adverse events related to the study device use during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adverse device effects (ADE)</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>The total number of adverse device effects (ADE) during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Unanticipated adverse device effects (UADE)</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>The total number of unanticipated adverse device effects (UADE) during the clinical trial</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean CGM glucose level</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Mean CGM glucose level during AID use</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycemia treatments</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of hypoglycemia treatments given during AID use</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Closed-Loop Active Time</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Percent time (hours/day) of closed-loop use during the clinical trial</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Sensor Use Time</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Total hours of CGM sensor use time during the clinical trial</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Device Issues</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Total number of devices issues during the clinical trial</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total daily insulin use</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Total daily insulin use (units/day), compared week to week</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total basal insulin use</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Total daily basal insulin use (units/day) , compared week to week</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total bolus insulin use</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Total daily bolus insulin use (units/day), compared week to week</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: gestational hypertension</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who develop gestational hypertension during pregnancy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: pre-eclampsia</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who develop pre-eclampsia during pregnancy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: eclampsia</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who develop eclampsia during pregnancy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: oligo/polyhydramnios</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who develop oligo/polyhydramnios during pregnancy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: pre term labor</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who develop pre term labor during pregnancy</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Maternal outcomes: caesarian section</measure>
+    <time_frame>Duration of iAPS Use During Pregnancy up to 40 weeks of Use</time_frame>
+    <description>Number of subjects who undergo caesarian section</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Fetal Outcomes: Large for gestational age</measure>
+    <time_frame>At Delivery</time_frame>
+    <description>Number of infants born large for gestational age</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Fetal Outcomes: Neonatal hypoglycemia</measure>
+    <time_frame>At delivery and up to 48 hours afterwards</time_frame>
+    <description>Number of infants who develop neonatal hypoglycemia</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Fetal Outcomes: Neonatal intensive care unit admission</measure>
+    <time_frame>At delivery and up to 7 days afterwards</time_frame>
+    <description>Number of infants who are admitted to the neonatal intensive care unit</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">21</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <condition>Pregnancy</condition>
+  <arm_group>
+    <arm_group_label>AID Evaluation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>After completing a 1-2 week CGM run-in period, subjects will complete a 48-60 hour closed-loop (CL) session in a supervised outpatient environment with medical staff present.&#xD;
+For subjects who wish to continue use of the system, they will be offered the option of continuing use of the system at home in an extension phase, for the rest of their pregnancy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Automated Insulin Delivery</intervention_name>
+    <description>Participants will use the Automated Insulin Delivery (AID) iAPS system for 48-60 hours in a medically supervised session.&#xD;
+For subjects who wish to continue use of the system, they will be offered the option of continuing use of the system at home in an extension phase, for the rest of their pregnancy.</description>
+    <arm_group_label>AID Evaluation</arm_group_label>
+    <other_name>Interoperable Artificial Pancreas System (iAPS)</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age ≥ 18 and ≤ 45 years at the time of screening.&#xD;
+&#xD;
+          -  Clinical diagnosis of type 1 diabetes&#xD;
+&#xD;
+          -  Currently using an insulin pump at the time of screening.&#xD;
+&#xD;
+          -  HbA1c ≤ 9%, as performed by point of care or central laboratory testing.&#xD;
+&#xD;
+          -  Pregnant 14+0/7 to 32+6/7 weeks gestation.&#xD;
+&#xD;
+          -  Singleton pregnancy without any other significant known complications, such as&#xD;
+             preeclampsia, premature rupture of membranes, 2nd/3rd trimester bleeding, fetal growth&#xD;
+             or fluid abnormalities.&#xD;
+&#xD;
+          -  No proven or suspected fetal malformations diagnosed in the current pregnancy.&#xD;
+&#xD;
+          -  Bolus for all meals and snacks that contain ≥ 5 grams of carbohydrate.&#xD;
+&#xD;
+          -  Willing to switch to, or continue Novolog or Humalog for the closed-loop session.&#xD;
+&#xD;
+          -  Willingness not to start any new non-insulin glucose-lowering agent during the course&#xD;
+             of the trial.&#xD;
+&#xD;
+          -  Willing to abide by the study protocol and use study-provided devices.&#xD;
+&#xD;
+          -  Have a care partner with the following responsibilities: knowing subject whereabouts&#xD;
+             and being promptly available for contact by study staff during the day and night,&#xD;
+             residing in the same dwelling as subject during the night, being agreeable to all&#xD;
+             device training during the supervised HCL session and additional training on hyper-&#xD;
+             and hypoglycemia treatment, and assisting with emergency care if needed, such as&#xD;
+             transportation to the hospital or emergency department.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Known unstable cardiac disease or untreated cardiac disease, as revealed by history or&#xD;
+             physical examination.&#xD;
+&#xD;
+          -  Concurrent use of Afrezza or any non-insulin glucose-lowering agent other than&#xD;
+             metformin (including GLP-1 agonists, Pramlintide, DPP-4 inhibitors, SGLT-2 inhibitors,&#xD;
+             sulfonylureas).&#xD;
+&#xD;
+          -  Hemophilia or any other bleeding disorder&#xD;
+&#xD;
+          -  Prior history of Preterm Premature Rupture of Membranes (PPROM)&#xD;
+&#xD;
+          -  Significant hyperemesis interfering with carbohydrate intake&#xD;
+&#xD;
+          -  Laboratory results:&#xD;
+&#xD;
+               1. A1C &gt; 9%&#xD;
+&#xD;
+               2. Abnormal liver or renal function (Transaminase &gt;2 times the upper limit of&#xD;
+                  normal, creatinine &gt; 1.5 mg/dL)&#xD;
+&#xD;
+               3. Liver and renal function testing drawn at screening visit or within three months&#xD;
+                  prior to screening (for other purposes) will suffice for enrollment purposes&#xD;
+&#xD;
+          -  Dermatological conditions that would preclude wearing a CGM sensor or infusion site.&#xD;
+&#xD;
+          -  Any condition that could interfere with participating in the trial, based on&#xD;
+             investigator judgment.&#xD;
+&#xD;
+          -  Participation in another pharmaceutical or device trial at the time of enrollment or&#xD;
+             during the study.&#xD;
+&#xD;
+          -  Having a direct supervisor at place of employment who is also directly involved in&#xD;
+             conducting the clinical trial (as a study investigator, coordinator, etc.); or having&#xD;
+             a first-degree relative who is directly involved in conducting the clinical trial&#xD;
+&#xD;
+          -  History of severe hypoglycemia in the past 6 months&#xD;
+&#xD;
+          -  History of DKA requiring hospitalization in the past 6 months&#xD;
+&#xD;
+          -  Significant chronic kidney disease (eGFR &lt; 60) or hemodialysis&#xD;
+&#xD;
+          -  Significant liver disease&#xD;
+&#xD;
+          -  History of adrenal insufficiency&#xD;
+&#xD;
+          -  History of abnormal TSH consistent with hypothyroidism or hyperthyroidism that is not&#xD;
+             appropriately treated&#xD;
+&#xD;
+          -  History of high dose steroid use in the past 8 weeks&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Eyal Dassau, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Harvard University John A Paulson School of Engineering and Applied Sciences</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yogish Kudva, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Carol Levy, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Barak Rosenn, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Grenye O'Malley, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kristin Castorino, DO</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jordan Pinsker, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Sansum Diabetes Research Institute</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shelly McCrady-Spitzer</last_name>
+    <phone>507-255-0316</phone>
+    <email>McCradySpitzer.Shelly@mayo.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Sansum Diabetes Research Institute</name>
+      <address>
+        <city>Santa Barbara</city>
+        <state>California</state>
+        <zip>93105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kristin Castorino, N</last_name>
+      <phone>805-682-7640</phone>
+      <phone_ext>256</phone_ext>
+      <email>kcastorino@sansum.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kristin Castorino, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shelly McCrady-Spitzer</last_name>
+      <phone>507-255-0316</phone>
+      <email>McCradySpitzer.Shelly@mayo.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Yogish Kudva, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Camilla M Levister</last_name>
+      <phone>212-241-5177</phone>
+      <email>camilla.levister@mssm.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Carol Levy, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>July 27, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 30, 2020</study_first_posted>
+  <last_update_submitted>June 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 22, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>type 1 diabetes</keyword>
+  <keyword>pregnancy</keyword>
+  <keyword>artificial pancreas</keyword>
+  <keyword>automated insulin delivery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pancrelipase</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

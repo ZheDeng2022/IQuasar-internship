@@ -1,0 +1,972 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02785458</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU00201638</org_study_id>
+    <secondary_id>1R01DK103684</secondary_id>
+    <nct_id>NCT02785458</nct_id>
+  </id_info>
+  <brief_title>Testing a Medication Risk Communication and Surveillance Strategy: The EMC2 Trial</brief_title>
+  <official_title>Testing a Medication Risk Communication and Surveillance Strategy: The EMC2 Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwestern University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Boston Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of North Carolina, Chapel Hill</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Illinois at Chicago</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Northwestern University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluates the effectiveness of an electronic health record based educational&#xD;
+      intervention (the EMC2 strategy) to improve patient understanding and use of higher-risk&#xD;
+      medications. Half of the participants will receive the intervention, while the other half&#xD;
+      will receive the usual amount of information (usual care).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Research has repeatedly demonstrated that individuals lack essential information on how to&#xD;
+      safely take prescribed (Rx) medications. A risk communication and surveillance strategy is&#xD;
+      needed in primary care to ensure that patients are adequately informed about medication risks&#xD;
+      and are taking prescribed regimens safely.&#xD;
+&#xD;
+      The investigators devised an Electronic health record-based Medication Complete Communication&#xD;
+      (EMC2) Strategy that leverages electronic health record (EHR) and interactive voice response&#xD;
+      (IVR) technologies to:&#xD;
+&#xD;
+        1. prompt and guide provider counseling,&#xD;
+&#xD;
+        2. automate the delivery of Medication Guides at prescribing,&#xD;
+&#xD;
+        3. follow patients post-visit to confirm prescription understanding and use, and&#xD;
+&#xD;
+        4. deliver a care alert back to providers to inform them of any potential harms.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 8, 2017</start_date>
+  <completion_date type="Actual">September 20, 2019</completion_date>
+  <primary_completion_date type="Actual">September 20, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Medication Knowledge (0-100)</measure>
+    <time_frame>Baseline to 3 Months post baseline</time_frame>
+    <description>Adjusted Least-square means of Medication Knowledge are calculated based on patient's ability to identify each medication's purpose and side effects, risks, warnings and benefits using general linear mixed models, specifying the identity link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding variables, such as age, preferred language, race, education, health status, number of chronic diseases, drug class, and health literacy (Newest Vital Sign) are included as fixed effects in the model. Patients are asked 10 questions (a scale developed by our team), and each questions is scored as correct/incorrect, and percentage of correctly answered questions is calculated (0-100 with 100 as best). Results are presented as adjusted least square means with 95% Confidence Intervals</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Probability of Prescription Medication Proper Use</measure>
+    <time_frame>1 Month post baseline to 3 Months post baseline</time_frame>
+    <description>Subjects will be asked to demonstrate proper use of the medication by indicating the correct dose (amount of medication taken each time), frequency (times per day), and total pills/units per day. For non-PRN medications, all must be answered correctly to be considered proper use (yes/no) , whereas for PRN medications, proper use is determined if the patient indicated the correct dose or less, the correct frequency or less, and the correct total pills/units or less. Proper use is modelled as a binary outcome, and General linear mixed models are used, specifying the logit link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding factors, such as drug class and health literacy (Newest Vital Sign) are also included in the model as fixed effects. Results are presented as adjusted least square means with 95% CI</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1005</enrollment>
+  <condition>High-risk Medications</condition>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Subjects will receive the current standard of care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>EMC2 Strategy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will receive the EMC2 Strategy. See description of strategy below.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>EMC2 Strategy</intervention_name>
+    <description>The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+    <arm_group_label>EMC2 Strategy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  21 and older&#xD;
+&#xD;
+          -  English or spanish speaking&#xD;
+&#xD;
+          -  Primarily responsible for administering own medications&#xD;
+&#xD;
+          -  New prescription of one of 66 study medications on day of recruitment&#xD;
+&#xD;
+          -  Has a personal mobile or land line phone&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Severe, uncorrectable vision&#xD;
+&#xD;
+          -  Hearing or cognitive impairments&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael S Wolf, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stacy C Bailey, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Northwestern University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Michael K Paasche-Orlow, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Boston Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Near North Health Services Corporation</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>April 12, 2016</study_first_submitted>
+  <study_first_submitted_qc>May 26, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">May 27, 2016</study_first_posted>
+  <results_first_submitted>September 30, 2020</results_first_submitted>
+  <results_first_submitted_qc>September 30, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 23, 2020</results_first_posted>
+  <last_update_submitted>January 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Northwestern University</investigator_affiliation>
+    <investigator_full_name>Michael S. Wolf</investigator_full_name>
+    <investigator_title>Associate Division Chief - Research Division of General Internal Medicine</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>August 14, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/58/NCT02785458/ICF_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>October 3, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/58/NCT02785458/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Usual Care</title>
+          <description>Subjects will receive the current standard of care.</description>
+        </group>
+        <group group_id="P2">
+          <title>EMC2 Strategy</title>
+          <description>Subjects will receive the EMC2 Strategy. See description of strategy below.&#xD;
+EMC2 Strategy: The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Baseline</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="526"/>
+                <participants group_id="P2" count="479"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="526"/>
+                <participants group_id="P2" count="479"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+        <period>
+          <title>1 Month</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="526"/>
+                <participants group_id="P2" count="479"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="443"/>
+                <participants group_id="P2" count="404"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="83"/>
+                <participants group_id="P2" count="75"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="2"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="38"/>
+                <participants group_id="P2" count="31"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Deemed Ineligible</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Completed Evaluation by Baseline</title>
+              <participants_list>
+                <participants group_id="P1" count="42"/>
+                <participants group_id="P2" count="39"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Partial Interview</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="4"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+        <period>
+          <title>3 Months</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="443"/>
+                <participants group_id="P2" count="404"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="315"/>
+                <participants group_id="P2" count="293"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="128"/>
+                <participants group_id="P2" count="111"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="25"/>
+                <participants group_id="P2" count="21"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Completed Evaluation at 1 Month</title>
+              <participants_list>
+                <participants group_id="P1" count="100"/>
+                <participants group_id="P2" count="89"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Usual Care</title>
+          <description>Subjects will receive the current standard of care.</description>
+        </group>
+        <group group_id="B2">
+          <title>EMC2 Strategy</title>
+          <description>Subjects will receive the EMC2 Strategy. See description of strategy below.&#xD;
+EMC2 Strategy: The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="526"/>
+            <count group_id="B2" value="479"/>
+            <count group_id="B3" value="1005"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="526"/>
+                    <count group_id="B2" value="479"/>
+                    <count group_id="B3" value="1005"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="50.34" spread="12.2"/>
+                    <measurement group_id="B2" value="49.5" spread="12.6"/>
+                    <measurement group_id="B3" value="50.0" spread="12.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="526"/>
+                    <count group_id="B2" value="479"/>
+                    <count group_id="B3" value="1005"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="319"/>
+                    <measurement group_id="B2" value="299"/>
+                    <measurement group_id="B3" value="618"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="207"/>
+                    <measurement group_id="B2" value="180"/>
+                    <measurement group_id="B3" value="387"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <population>23 Individuals refused to identify their race, 4 individuals did not know how to identify their race</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Race</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="515"/>
+                    <count group_id="B2" value="463"/>
+                    <count group_id="B3" value="978"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="304"/>
+                    <measurement group_id="B2" value="372"/>
+                    <measurement group_id="B3" value="676"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="78"/>
+                    <measurement group_id="B2" value="35"/>
+                    <measurement group_id="B3" value="113"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="96"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="128"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Others</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37"/>
+                    <measurement group_id="B2" value="24"/>
+                    <measurement group_id="B3" value="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Education</title>
+          <population>5 participants refused to answer the question, 1 did not know their highest education level</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="523"/>
+                    <count group_id="B2" value="476"/>
+                    <count group_id="B3" value="999"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Less than High School</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="116"/>
+                    <measurement group_id="B2" value="75"/>
+                    <measurement group_id="B3" value="191"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>High School Graduate</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="292"/>
+                    <measurement group_id="B2" value="318"/>
+                    <measurement group_id="B3" value="610"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>College Graduate</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="115"/>
+                    <measurement group_id="B2" value="83"/>
+                    <measurement group_id="B3" value="198"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Self-reported Health Status</title>
+          <population>4 individuals refused to answer the question</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="524"/>
+                    <count group_id="B2" value="477"/>
+                    <count group_id="B3" value="1001"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Excellent/Very Good</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="128"/>
+                    <measurement group_id="B2" value="113"/>
+                    <measurement group_id="B3" value="241"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Good</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="179"/>
+                    <measurement group_id="B2" value="177"/>
+                    <measurement group_id="B3" value="356"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Fair/Poor</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="217"/>
+                    <measurement group_id="B2" value="187"/>
+                    <measurement group_id="B3" value="404"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Drug Class</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="526"/>
+                    <count group_id="B2" value="479"/>
+                    <count group_id="B3" value="1005"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Anticonvulsants</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="123"/>
+                    <measurement group_id="B2" value="95"/>
+                    <measurement group_id="B3" value="218"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Antidepressants</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="145"/>
+                    <measurement group_id="B2" value="116"/>
+                    <measurement group_id="B3" value="261"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Diabetes</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="24"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="56"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>LABA</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38"/>
+                    <measurement group_id="B2" value="44"/>
+                    <measurement group_id="B3" value="82"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>NSAID</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="59"/>
+                    <measurement group_id="B2" value="61"/>
+                    <measurement group_id="B3" value="120"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>PPI</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="25"/>
+                    <measurement group_id="B2" value="27"/>
+                    <measurement group_id="B3" value="52"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Others</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="112"/>
+                    <measurement group_id="B2" value="104"/>
+                    <measurement group_id="B3" value="216"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Preferred Language</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="526"/>
+                    <count group_id="B2" value="479"/>
+                    <count group_id="B3" value="1005"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>English</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="479"/>
+                    <measurement group_id="B2" value="457"/>
+                    <measurement group_id="B3" value="936"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Spanish</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="47"/>
+                    <measurement group_id="B2" value="22"/>
+                    <measurement group_id="B3" value="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Health Literacy (NVS)</title>
+          <description>Health Literacy (NVS):Newest Vital Sign</description>
+          <population>174 individuals did not complete the health literacy assessment</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="418"/>
+                    <count group_id="B2" value="388"/>
+                    <count group_id="B3" value="806"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Low</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="172"/>
+                    <measurement group_id="B2" value="177"/>
+                    <measurement group_id="B3" value="349"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Marginal</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="108"/>
+                    <measurement group_id="B2" value="111"/>
+                    <measurement group_id="B3" value="219"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Adequate</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="138"/>
+                    <measurement group_id="B2" value="100"/>
+                    <measurement group_id="B3" value="238"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Medication Knowledge (0-100)</title>
+        <description>Adjusted Least-square means of Medication Knowledge are calculated based on patient's ability to identify each medication's purpose and side effects, risks, warnings and benefits using general linear mixed models, specifying the identity link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding variables, such as age, preferred language, race, education, health status, number of chronic diseases, drug class, and health literacy (Newest Vital Sign) are included as fixed effects in the model. Patients are asked 10 questions (a scale developed by our team), and each questions is scored as correct/incorrect, and percentage of correctly answered questions is calculated (0-100 with 100 as best). Results are presented as adjusted least square means with 95% Confidence Intervals</description>
+        <time_frame>Baseline to 3 Months post baseline</time_frame>
+        <population>127 individuals were excluded from analysis, because their study med was either a short term medication or an antibiotics</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Usual Care</title>
+            <description>Subjects will receive the current standard of care.</description>
+          </group>
+          <group group_id="O2">
+            <title>EMC2 Strategy</title>
+            <description>Subjects will receive the EMC2 Strategy. See description of strategy below.&#xD;
+EMC2 Strategy: The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Medication Knowledge (0-100)</title>
+          <description>Adjusted Least-square means of Medication Knowledge are calculated based on patient's ability to identify each medication's purpose and side effects, risks, warnings and benefits using general linear mixed models, specifying the identity link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding variables, such as age, preferred language, race, education, health status, number of chronic diseases, drug class, and health literacy (Newest Vital Sign) are included as fixed effects in the model. Patients are asked 10 questions (a scale developed by our team), and each questions is scored as correct/incorrect, and percentage of correctly answered questions is calculated (0-100 with 100 as best). Results are presented as adjusted least square means with 95% Confidence Intervals</description>
+          <population>127 individuals were excluded from analysis, because their study med was either a short term medication or an antibiotics</population>
+          <units>score on a scale</units>
+          <param>Least Squares Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="459"/>
+                <count group_id="O2" value="419"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="71.2" lower_limit="68.5" upper_limit="73.9"/>
+                    <measurement group_id="O2" value="71.9" lower_limit="68.9" upper_limit="74.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>1 Month</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="73.2" lower_limit="70.5" upper_limit="75.9"/>
+                    <measurement group_id="O2" value="74.9" lower_limit="72.0" upper_limit="77.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 Months</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="73.2" lower_limit="70.4" upper_limit="75.9"/>
+                    <measurement group_id="O2" value="75.0" lower_limit="72.0" upper_limit="78.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Probability of Prescription Medication Proper Use</title>
+        <description>Subjects will be asked to demonstrate proper use of the medication by indicating the correct dose (amount of medication taken each time), frequency (times per day), and total pills/units per day. For non-PRN medications, all must be answered correctly to be considered proper use (yes/no) , whereas for PRN medications, proper use is determined if the patient indicated the correct dose or less, the correct frequency or less, and the correct total pills/units or less. Proper use is modelled as a binary outcome, and General linear mixed models are used, specifying the logit link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding factors, such as drug class and health literacy (Newest Vital Sign) are also included in the model as fixed effects. Results are presented as adjusted least square means with 95% CI</description>
+        <time_frame>1 Month post baseline to 3 Months post baseline</time_frame>
+        <population>248 participants were excluded, due to either completing their evaluation early, or not filling their medication</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Usual Care</title>
+            <description>Subjects will receive the current standard of care.</description>
+          </group>
+          <group group_id="O2">
+            <title>EMC2 Strategy</title>
+            <description>Subjects will receive the EMC2 Strategy. See description of strategy below.&#xD;
+EMC2 Strategy: The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Probability of Prescription Medication Proper Use</title>
+          <description>Subjects will be asked to demonstrate proper use of the medication by indicating the correct dose (amount of medication taken each time), frequency (times per day), and total pills/units per day. For non-PRN medications, all must be answered correctly to be considered proper use (yes/no) , whereas for PRN medications, proper use is determined if the patient indicated the correct dose or less, the correct frequency or less, and the correct total pills/units or less. Proper use is modelled as a binary outcome, and General linear mixed models are used, specifying the logit link (PROC GLIMMIX). Treatment assignment by time is the independent variable of interest and modeled as a fixed effect, and clinic as a random effect, with additional subject statement to model correlations with patient. Confounding factors, such as drug class and health literacy (Newest Vital Sign) are also included in the model as fixed effects. Results are presented as adjusted least square means with 95% CI</description>
+          <population>248 participants were excluded, due to either completing their evaluation early, or not filling their medication</population>
+          <units>Probability</units>
+          <param>Least Squares Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="391"/>
+                <count group_id="O2" value="366"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>1 Month</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.84" lower_limit="0.75" upper_limit="0.90"/>
+                    <measurement group_id="O2" value="0.81" lower_limit="0.71" upper_limit="0.88"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>3 Month</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.83" lower_limit="0.73" upper_limit="0.90"/>
+                    <measurement group_id="O2" value="0.80" lower_limit="0.68" upper_limit="0.88"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>3 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Usual Care</title>
+          <description>Subjects will receive the current standard of care.</description>
+        </group>
+        <group group_id="E2">
+          <title>EMC2 Strategy</title>
+          <description>Subjects will receive the EMC2 Strategy. See description of strategy below.&#xD;
+EMC2 Strategy: The intervention includes 1) distribution of simplified one-page medication guide summaries, 2) an automated follow-up call to assess medication safety and problematic side effects and 3) summary reports of call to providers with any concerns flagged for clinic follow-up.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="526"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="479"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="526"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="479"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="526"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="479"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Michael S. Wolf, PhD MPH</name_or_title>
+      <organization>Northwestern University</organization>
+      <phone>312-503-5592</phone>
+      <email>mswolf@northwestern.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

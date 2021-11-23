@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03374371</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NI17029J</org_study_id>
+    <secondary_id>2017-A02742-51</secondary_id>
+    <nct_id>NCT03374371</nct_id>
+  </id_info>
+  <brief_title>Invasive Markers of Staphylococcus Epidermidis</brief_title>
+  <acronym>SepiNGS</acronym>
+  <official_title>Identification of Genomic Markers Associated With the Invasiveness of Staphylococcus Epidermidis Strains Responsible for Infections</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Assistance Publique - Hôpitaux de Paris</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Assistance Publique - Hôpitaux de Paris</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to identify biomarkers allowing the distinction between invasive&#xD;
+      and non-invasive strains of Staphylococcus epidermidis. This distinction is important to&#xD;
+      determine if the patient is infected and, as a consequence, if an antibiotic treatment is&#xD;
+      required.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In the hospital, a large proportion of bacteraemia and implantable medical device infections&#xD;
+      are caused by Staphylococcus epidermidis. This microorganism is the most abundant on human&#xD;
+      skin and all patients are carriers. Its remarkable ability to form biofilms on most materials&#xD;
+      explains that catheter-related infections are by far the most common.&#xD;
+&#xD;
+      S. epidermidis infections are difficult to treat because most strains are multi-resistant and&#xD;
+      antibiotics are less effective in the presence of biofilms.&#xD;
+&#xD;
+      In addition, S. epidermidis poses a major diagnostic problem because it is also the first&#xD;
+      source of contamination of blood culture sample and intraoperative samples (in case of&#xD;
+      suspected infection of orthopedic material in particular). Thus, when a sample is positive&#xD;
+      for S. epidermidis, there is less than a 25% chance that it reflects true bacteremia in the&#xD;
+      patient and 30% of patients would inappropriately receive vancomycin following contaminated&#xD;
+      blood cultures. Differentiating a contamination of a blood or intraoperative sample from true&#xD;
+      S. epidermidis infection is therefore crucial for patient management because unnecessary&#xD;
+      antibiotic therapy is potentially responsible for the emergence of resistant strains,&#xD;
+      toxicity and additional costs.&#xD;
+&#xD;
+      The objective of this study is to identify the genetic markers that make it possible to&#xD;
+      differentiate the strains causing infections from the strains causing contamination by&#xD;
+      comparing their genomes using high throughput sequencing.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 1, 2018</start_date>
+  <completion_date type="Anticipated">September 2021</completion_date>
+  <primary_completion_date type="Actual">December 18, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>genetic markers of S. epidermidis</measure>
+    <time_frame>at the time of the positive sampling of S. epidermidis</time_frame>
+    <description>to identify genetic markers associated with a significant risk of invasive S. epidermidis infections</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of the genotype with the characteristics of the infections</measure>
+    <time_frame>at the time of the positive sampling of S. epidermidis</time_frame>
+    <description>identification of genetic markers specifically associated with a type of infection (catheter-related bacteremia in newborns, catheter-related bacteremia in patients 28 days or older, infections of orthopedic equipment or infections of cardiac equipment)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intra-hospital cross-transmission detection</measure>
+    <time_frame>at the time of the positive sampling of S. Epidermidis</time_frame>
+    <description>The comparison of the strains will be based on the study of the variations in the part of the genome that is common to all the strains to detect possible transfers between patients</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">320</enrollment>
+  <condition>Staphylococcus Epidermidis Positive Blood Culture</condition>
+  <arm_group>
+    <arm_group_label>S. epidermidis Infection (CASE)</arm_group_label>
+    <description>Patients with confirmed infection at S. epidermidis</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>S. epidermidis Contamination (CONTROL)</arm_group_label>
+    <description>Patients with confirmed contamination at S. epidermidis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>high-throughput sequencing</intervention_name>
+    <description>technique of high-throughput sequencing of the markers present in the genome of the S. epidermidis strains responsible for infection in order to help to discriminate the true infections of the contaminations</description>
+    <arm_group_label>S. epidermidis Contamination (CONTROL)</arm_group_label>
+    <arm_group_label>S. epidermidis Infection (CASE)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Population 1 (bacteraemia related to intravascular devices) : patients hospitalized for at&#xD;
+        least 48 hours including new-borns&#xD;
+&#xD;
+        Population 2 (infections of materials) : patients carrying medical devices implanted&#xD;
+        following an act of surgery (orthopedic, cardiac or neurosurgery)&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        CASE Inclusion Criteria:&#xD;
+&#xD;
+        Population 1: nosocomial bacteraemia associated with intravascular devices&#xD;
+&#xD;
+          1. Hospitalized patient with intravascular device (peripheral or central, venous or&#xD;
+             arterial, short or long duration) for at least 48 hours before the development of&#xD;
+             bacteraemia&#xD;
+&#xD;
+          2. Presenting a definite infection with S. epidermidis according to the categorization&#xD;
+             criteria,&#xD;
+&#xD;
+        Sub-Population 1A:&#xD;
+&#xD;
+        3a) Aged less than 28 days (New-born)&#xD;
+&#xD;
+        Sub-population 1B:&#xD;
+&#xD;
+        3b) Aged 28 days or more&#xD;
+&#xD;
+        Population 2: nosocomial infections of implanted material&#xD;
+&#xD;
+          1. An operated patient carrying implanted equipment following orthopaedic surgery,&#xD;
+             following cardiac surgery or following neurosurgery,&#xD;
+&#xD;
+          2. Presenting a definite infection with S. epidermidis according to the categorization&#xD;
+             criteria occurring in the year following surgery&#xD;
+&#xD;
+        CONTROL Inclusion Criteria:&#xD;
+&#xD;
+        Population 1: carrier of intravascular devices&#xD;
+&#xD;
+          1. Hospitalized patient with intravascular device (peripheral or central, venous or&#xD;
+             arterial, short or long duration) for at least 48 hours before positive blood culture&#xD;
+             with S. epidermidis&#xD;
+&#xD;
+          2. Certain contamination with S. epidermidis according to the categorization criteria,&#xD;
+&#xD;
+        Sub-Population 1A:&#xD;
+&#xD;
+        3a) Aged less than 28 days (Newborn)&#xD;
+&#xD;
+        Sub-population 1B:&#xD;
+&#xD;
+        3b) Aged 28 days or more&#xD;
+&#xD;
+        Population 2: carrier of implanted material&#xD;
+&#xD;
+          1. An operated patient carrying implanted equipment following orthopedic surgery,&#xD;
+             following cardiac surgery or following neurosurgery,&#xD;
+&#xD;
+          2. Presenting a certain contamination to S. epidermidis according to the categorization&#xD;
+             criteria occurring in the year following surgery&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        CASE Exclusion Criteria Population 1: nosocomial bacteremia associated with intravascular&#xD;
+        devices&#xD;
+&#xD;
+          1. Opposition of the patient or the holders of parental authority (minor patients)&#xD;
+&#xD;
+          2. Patient with polymicrobial infection&#xD;
+&#xD;
+          3. Patient with a colonized catheter (positive catheter end culture &lt;103UFC / mL) with no&#xD;
+             clinical signs of local or general infection and with sterile peripheral blood&#xD;
+             cultures&#xD;
+&#xD;
+          4. Patient with local catheter infection (positive catheter end culture&gt; 103UFC / mL)&#xD;
+             with local inflammatory signs only and with sterile peripheral blood cultures&#xD;
+&#xD;
+        Population 2: nosocomial infections of implanted material&#xD;
+&#xD;
+          1. Opposition of the patient or the holders of parental authority (minor patients)&#xD;
+&#xD;
+          2. Patient with an infection of material concomitant with a catheter-related infection&#xD;
+&#xD;
+        CONTROL Exclusion Criteria&#xD;
+&#xD;
+        Populations 1 and 2:&#xD;
+&#xD;
+        Opposition of the patient or the holders of parental authority (minor patients)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anne JAMET, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Assistance Public Hôpitaux de Paris (APHP)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Hôpital Necker Enfants Malades</name>
+      <address>
+        <city>Paris</city>
+        <state>Ile De France</state>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>December 11, 2017</study_first_submitted>
+  <study_first_submitted_qc>December 11, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 15, 2017</study_first_posted>
+  <last_update_submitted>June 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 18, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Staphylococcus epidermidis Infection</keyword>
+  <keyword>Staphylococcus epidermidis Contamination</keyword>
+  <keyword>intravascular device</keyword>
+  <keyword>implanted material</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

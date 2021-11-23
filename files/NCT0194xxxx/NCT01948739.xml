@@ -1,0 +1,1564 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01948739</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HSC-MS-13-0054</org_study_id>
+    <secondary_id>1R01NS081854</secondary_id>
+    <nct_id>NCT01948739</nct_id>
+  </id_info>
+  <brief_title>Brain Machine Interface Control of an Robotic Exoskeleton in Training Upper Extremity Functions in Stroke</brief_title>
+  <official_title>NRI:BMI Control of a Therapeutic Exoskeleton</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Texas Health Science Center, Houston</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Houston</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Methodist Hospital Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Neurological Disorders and Stroke (NINDS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>TIRR Memorial Hermann</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The University of Texas Health Science Center, Houston</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is:&#xD;
+&#xD;
+        1. To augment the MAHI Exo-II, a physical human exoskeleton, with a non-invasive brain&#xD;
+           machine interface (BMI) to actively include patient in the control loop and thereby&#xD;
+           making the therapy 'active'.&#xD;
+&#xD;
+        2. To determine appropriate robotic (kinematic data acquired through sensors on robotic&#xD;
+           device ) and electrophysiological ( electroencephalography- EEG based) measures of arm&#xD;
+           motor impairment and recovery after stroke.&#xD;
+&#xD;
+        3. To demonstrate that the BMI controlled MAHI Exo-II robotic arm training is feasible and&#xD;
+           effective in improving arm motor functions in sub-acute and chronic stroke population.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study aims to provide an adjunct to accelerate neurorehabilitation for stroke patients.&#xD;
+      The MAHI EXO-II, a physical human-robot interface, will be combined with a non-invasive&#xD;
+      brain-machine interface (BMI) to actively include the patient in the training of upper&#xD;
+      extremity motor functions.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 24, 2013</start_date>
+  <completion_date type="Actual">April 28, 2018</completion_date>
+  <primary_completion_date type="Actual">April 28, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change From Baseline in Fugl-Meyer Arm (FMA) Motor Score</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+    <description>FMA is a stroke-specific, performance based impairment index. It quantitatively measures impairment based on Twitchell and Brunnstrom's concept of sequential stages of motor return in hemiplegic stroke patients. It uses an ordinal scale for scoring of 33 items for the upper limb component of the F-M scale (0:can not perform; 1:can perform partially; 2:can perform fully). Total range is 0-66, 0 being poor and 66 normal.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neural Activity (Cortical Dynamics) Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Amplitude</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. Increased MRCP amplitude indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cortical Dynamics Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Latency</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. MRCP latency is the duration of MRCP prior to movement onset, and is defined as time difference starting from 50% of peak amplitude until the time of movement onset. Increased MRCP latency indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Movement Quality as Assessed by Exoskeleton Kinematics - Average Speed</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>A higher value indicates better movement quality.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Movement Quality as Assessed by Exoskeleton Kinematics - Spectral Arc Length</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>Spectral Arc Length is a frequency-domain measure that increases in value as movements become less jerky. A higher value indicates better movement quality (that is, movements are less jerky).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Movement Quality as Assessed by Exoskeleton Kinematics - Number of Peaks</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>Number of peaks is a metric related to the shape of the velocity profile. A higher number of peaks implies jerkier movement. A lower number of peaks indicates better movement quality (that is, movements are less jerky).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Movement Quality as Assessed by Exoskeleton Kinematics - Time to First Peak</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+    <description>Time to 1st Peak is a metric related to the shape of the velocity profile, and is reported as [(time to first peak) divided by (total movement duration)]. This value is usually less than the ideal value of 0.5, or 50%, of the total movement duration when a movement has more than one peak. The closer the value is to the ideal value of 0.5, the more well-balanced are the movements.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Score on Action Research Arm Test (ARAT)</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+    <description>The ARAT is used to assess subject's ability to manipulate-lift-release objects horizontally and vertically, which differs in size, weight and shape. The test consists of 19 items divided into 4 sub-tests (grasp, grip, pinch, gross arm movement) and each item is rated on a 4-point scale. The possible total score ranges between 0-57. Higher scores indicate better performance.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Score on Jebsen-Taylor Hand Function Test (JTHFT)</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+    <description>The JTHFT is a motor performance test and assesses the time needed to perform 7 everyday activities (for example, flipping cards and feeding). Score is reported as items completed per second.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Grip Strength</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+    <description>A grip dynamometer will be used to measure maximum gross grasp force.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pinch Strength</measure>
+    <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+    <description>A pinch gauge will be used to measure maximum pinch force.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">18</enrollment>
+  <condition>Stroke</condition>
+  <condition>Hemiparesis</condition>
+  <arm_group>
+    <arm_group_label>BMI control of MAHI Exo-II</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MAHI EXO-II exoskeleton augmented with BMI system</intervention_name>
+    <description>In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+    <arm_group_label>BMI control of MAHI Exo-II</arm_group_label>
+    <other_name>Brain Machine Interface System</other_name>
+    <other_name>Rehabilitation robotics</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Diagnosis of unilateral cortical and subcortical stroke confirmed by brain CT or MRI&#xD;
+             scan;&#xD;
+&#xD;
+          2. Subacute or chronic stroke; interval of at least 3month and interval of at least 6&#xD;
+             months from stroke to time of enrollment, respectively;&#xD;
+&#xD;
+          3. No previous clinically defined stroke;&#xD;
+&#xD;
+          4. Age between 18-75 years;&#xD;
+&#xD;
+          5. Upper-extremity hemiparesis associated with stroke (manual muscle testing score of at&#xD;
+             least 2, but no more than 4/5 in the elbow and wrist flexors);&#xD;
+&#xD;
+          6. No joint contracture or severe spasticity in the affected upper extremity: i.e.,&#xD;
+             significant increase in muscle tone against passive ROM is no more than ½ of full&#xD;
+             range for given joint e.g., elbow, wrist and forearm movements.&#xD;
+&#xD;
+          7. Sitting balance sufficient to participate with robotic activities;&#xD;
+&#xD;
+          8. No neglect that would preclude participation in the therapy protocol;&#xD;
+&#xD;
+          9. Upper limb proprioception present ( as tested by joint position sense of wrist);&#xD;
+&#xD;
+         10. No history of neurolytic procedure to the affected limb in the past four months and no&#xD;
+             planned alteration in upper-extremity therapy or medication for muscle tone during the&#xD;
+             course of the study;&#xD;
+&#xD;
+         11. No medical or surgical condition that will preclude participation in an occupational&#xD;
+             therapy program, that includes among others, strengthening, motor control and&#xD;
+             functional re-training of the upper limbs;&#xD;
+&#xD;
+         12. No contraindication to MRI;&#xD;
+&#xD;
+         13. No condition (e.g., severe arthritis, central pain) that would interfere with valid&#xD;
+             administration of the motor function tests;&#xD;
+&#xD;
+         14. English-language comprehension and cognitive ability sufficient to give informed&#xD;
+             consent and to cooperate with the intervention.-&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Orthopedic limitations of either upper extremity that would affect performance on the&#xD;
+             study;&#xD;
+&#xD;
+          2. Untreated depression that may affect motivation to participate in the study;&#xD;
+&#xD;
+          3. Subjects who cannot provide self-transportation to the study location.&#xD;
+&#xD;
+        Inclusion and Exclusion Criteria for Health Subjects:&#xD;
+&#xD;
+        Inclusion criteria:&#xD;
+&#xD;
+          -  able to understand and sign the consent form&#xD;
+&#xD;
+          -  age 18-65&#xD;
+&#xD;
+        Exclusion criteria: - Previous history of or MRI findings consistent with brain tumors,&#xD;
+        strokes, trauma or arterial venous malformations - Contraindication to MRI - Pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marcia K. O'Malley, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>William Marsh Rice University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jose L. Contreras-Vidal, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Houston</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Gerard Francisco, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The University of Texas Health Science Center, Houston</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Robert G. Grossman, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The Methodist Hospital Research Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The Institute for Rehabilitation and Research (TIRR) at Memorial Hermann</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://mahilab.rice.edu/</url>
+    <description>Mechatronics and Haptic Interfaces (MAHI) Lab (Dr.O'Malley, Rice Uni)</description>
+  </link>
+  <link>
+    <url>http://www.facebook.com/UHBMIST</url>
+    <description>University of Houston Brain-Machine Interface System Team (Dr.Contreras-Vidal, UH)</description>
+  </link>
+  <link>
+    <url>https://med.uth.edu/pmr/research/neuromodulation-and-neural-interfaces-research/</url>
+    <description>The UTHealth Motor Recovery Lab at TIRR Memorial Hermann Hospital (Dr.Francisco, UTHealth)</description>
+  </link>
+  <reference>
+    <citation>A. Gupta, V. Patolgu, M.K. O'Malley, and C.M. Burgar (2008). Design, Control and Performance of RiceWrist: A Force Feedback Wrist Exoskeleton for Rehabilitation and Training, International Journal of Robotics Research (IJRR) 27(2): 233-51.</citation>
+  </reference>
+  <reference>
+    <citation>Bradberry TJ, Gentili RJ, Contreras-Vidal JL. Fast attainment of computer cursor control with noninvasively acquired brain signals. J Neural Eng. 2011 Jun;8(3):036010. doi: 10.1088/1741-2560/8/3/036010. Epub 2011 Apr 15.</citation>
+    <PMID>21493978</PMID>
+  </reference>
+  <reference>
+    <citation>Yozbatiran N, Berliner J, O'Malley MK, Pehlivan AU, Kadivar Z, Boake C, Francisco GE. Robotic training and clinical assessment of upper extremity movements after spinal cord injury: a single case report. J Rehabil Med. 2012 Feb;44(2):186-8. doi: 10.2340/16501977-0924.</citation>
+    <PMID>22334347</PMID>
+  </reference>
+  <reference>
+    <citation>Bhagat NA, French J, Venkatakrishnan A, Yozbatiran N, Francisco GE, O'Malley MK, Contreras-Vidal JL. Detecting movement intent from scalp EEG in a novel upper limb robotic rehabilitation system for stroke. Annu Int Conf IEEE Eng Med Biol Soc. 2014;2014:4127-4130. doi: 10.1109/EMBC.2014.6944532.</citation>
+    <PMID>25570900</PMID>
+  </reference>
+  <reference>
+    <citation>Bhagat NA, Venkatakrishnan A, Abibullaev B, Artz EJ, Yozbatiran N, Blank AA, French J, Karmonik C, Grossman RG, O'Malley MK, Francisco GE, Contreras-Vidal JL. Design and Optimization of an EEG-Based Brain Machine Interface (BMI) to an Upper-Limb Exoskeleton for Stroke Survivors. Front Neurosci. 2016 Mar 31;10:122. doi: 10.3389/fnins.2016.00122. eCollection 2016.</citation>
+    <PMID>27065787</PMID>
+  </reference>
+  <results_reference>
+    <citation>Bhagat NA, Yozbatiran N, Sullivan JL, Paranjape R, Losey C, Hernandez Z, Keser Z, Grossman R, Francisco GE, O'Malley MK, Contreras-Vidal JL. Neural activity modulations and motor recovery following brain-exoskeleton interface mediated stroke rehabilitation. Neuroimage Clin. 2020;28:102502. doi: 10.1016/j.nicl.2020.102502. Epub 2020 Nov 19.</citation>
+    <PMID>33395991</PMID>
+  </results_reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 21, 2013</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2013</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 24, 2013</study_first_posted>
+  <results_first_submitted>May 27, 2021</results_first_submitted>
+  <results_first_submitted_qc>June 25, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 29, 2021</results_first_posted>
+  <disposition_first_submitted>November 6, 2019</disposition_first_submitted>
+  <disposition_first_submitted_qc>November 6, 2019</disposition_first_submitted_qc>
+  <disposition_first_posted type="Actual">November 8, 2019</disposition_first_posted>
+  <last_update_submitted>June 25, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 25, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>William Marsh Rice University</investigator_affiliation>
+    <investigator_full_name>Marcia k. O'Malley</investigator_full_name>
+    <investigator_title>Associate Professor of Mechanical Engineering</investigator_title>
+  </responsible_party>
+  <keyword>Brain machine interface</keyword>
+  <keyword>Rehabilitation robotics</keyword>
+  <keyword>Stroke</keyword>
+  <keyword>Hemiparesis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Paresis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_type>Study Protocol</doc_type>
+      <doc_url>https://www.ncbi.nlm.nih.gov/pubmed/25570900</doc_url>
+    </study_doc>
+  </study_docs>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>November 11, 2016</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/39/NCT01948739/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>18 were enrolled and allocated to the intervention, but only 10 received the intervention.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>BMI Control of MAHI Exo-II</title>
+          <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="18"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Received Intervention</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="8"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Baseline characteristics are reported for those who received the intervention.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>BMI Control of MAHI Exo-II</title>
+          <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="10"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54.9" spread="9.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Black or African American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Hispanic</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>White</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Stroke Type</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Hemorrhagic stroke</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Ischemic stroke</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Stroke Location</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Cortical lesion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Subcortical lesion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Cortical and subcortical lesion</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Months Since Stroke</title>
+          <units>months</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37.4" spread="34.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Paretic Arm</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Right</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Left</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Fugl-Meyer Assessment-Upper Extremity (FMA-UE)</title>
+          <description>FMA is a stroke-specific, performance based impairment index. It quantitatively measures impairment based on Twitchell and Brunnstrom's concept of sequential stages of motor return in hemiplegic stroke patients. It uses an ordinal scale for scoring of 33 items for the upper limb component of the F-M scale (0:can not perform; 1:can perform partially; 2:can perform fully). Total range is 0-66, 0 being poor and 66 normal.</description>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37.8" spread="11.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Action Research Arm Test (ARAT)</title>
+          <description>The ARAT is used to assess subject's ability to manipulate-lift-release objects horizontally and vertically, which differs in size, weight and shape. The test consists of 19 items divided into 4 sub-tests (grasp, grip, pinch, gross arm movement) and each item is rated on a 4-point scale. The possible total score ranges between 0-57. Higher scores indicate better performance.</description>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="25.3" spread="16.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Jebsen-Taylor Hand Function Test (JTHFT)</title>
+          <description>The JTHFT is a motor performance test and assesses the time needed to perform 7 everyday activities (for example, flipping cards and feeding). Score is reported as completed items per second.</description>
+          <units>items completed per second</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1.046" spread="0.930"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>NIH Stroke Scale (NIHSS)</title>
+          <description>The levels of stroke severity as measured by the NIHSS scoring system are: 0 = no stroke. 1-4 = minor stroke. 5-15 = moderate stroke. 15-20 = moderate/severe stroke.</description>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3.4" spread="1.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Grip Strength</title>
+          <description>A grip dynamometer will be used to measure maximum gross grasp force.</description>
+          <units>kilograms of force</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11.13" spread="8.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Pinch Strength</title>
+          <description>A pinch gauge will be used to measure maximum pinch force.</description>
+          <units>kilograms of force</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4.48" spread="2.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change From Baseline in Fugl-Meyer Arm (FMA) Motor Score</title>
+        <description>FMA is a stroke-specific, performance based impairment index. It quantitatively measures impairment based on Twitchell and Brunnstrom's concept of sequential stages of motor return in hemiplegic stroke patients. It uses an ordinal scale for scoring of 33 items for the upper limb component of the F-M scale (0:can not perform; 1:can perform partially; 2:can perform fully). Total range is 0-66, 0 being poor and 66 normal.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+        <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change From Baseline in Fugl-Meyer Arm (FMA) Motor Score</title>
+          <description>FMA is a stroke-specific, performance based impairment index. It quantitatively measures impairment based on Twitchell and Brunnstrom's concept of sequential stages of motor return in hemiplegic stroke patients. It uses an ordinal scale for scoring of 33 items for the upper limb component of the F-M scale (0:can not perform; 1:can perform partially; 2:can perform fully). Total range is 0-66, 0 being poor and 66 normal.</description>
+          <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="37.8" spread="11.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="41.3" spread="11.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="7"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="47" spread="10.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>12 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="9"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="41.3" spread="12.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Neural Activity (Cortical Dynamics) Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Amplitude</title>
+        <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. Increased MRCP amplitude indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Neural Activity (Cortical Dynamics) Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Amplitude</title>
+          <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. Increased MRCP amplitude indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+          <units>microvolts</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-1.49" spread="1.61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-1.66" spread="1.53"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Cortical Dynamics Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Latency</title>
+        <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. MRCP latency is the duration of MRCP prior to movement onset, and is defined as time difference starting from 50% of peak amplitude until the time of movement onset. Increased MRCP latency indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Cortical Dynamics Measured by Electroencephalography (EEG) Movement-related Cortical Potential (MRCP) Latency</title>
+          <description>EEG activity in the low-frequency delta band will be assessed. Scalp EEG electrodes will be located over the motor cortex, specifically, central (Cz, C1- C4), fronto- central (FCz, FC1 - FC4) and centro-parietal electrodes (CPz, CP1 - CP4). Further, to account for left hand vs. right hand impairment, the electrode locations will be flipped for individuals with right hand impairment. MRCP latency is the duration of MRCP prior to movement onset, and is defined as time difference starting from 50% of peak amplitude until the time of movement onset. Increased MRCP latency indicates increased activation of the ipsi-lesional hemisphere or inhibition of competing contra-lesional hemisphere, following motor relearning.</description>
+          <units>milliseconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="486.10" spread="92.56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="459.90" spread="109.60"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Movement Quality as Assessed by Exoskeleton Kinematics - Average Speed</title>
+        <description>A higher value indicates better movement quality.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Movement Quality as Assessed by Exoskeleton Kinematics - Average Speed</title>
+          <description>A higher value indicates better movement quality.</description>
+          <units>degrees per second</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15.80" spread="8.28"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="20.08" spread="7.29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Movement Quality as Assessed by Exoskeleton Kinematics - Spectral Arc Length</title>
+        <description>Spectral Arc Length is a frequency-domain measure that increases in value as movements become less jerky. A higher value indicates better movement quality (that is, movements are less jerky).</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Movement Quality as Assessed by Exoskeleton Kinematics - Spectral Arc Length</title>
+          <description>Spectral Arc Length is a frequency-domain measure that increases in value as movements become less jerky. A higher value indicates better movement quality (that is, movements are less jerky).</description>
+          <units>unitless</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-2.64" spread="0.95"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-2.29" spread="0.47"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Movement Quality as Assessed by Exoskeleton Kinematics - Number of Peaks</title>
+        <description>Number of peaks is a metric related to the shape of the velocity profile. A higher number of peaks implies jerkier movement. A lower number of peaks indicates better movement quality (that is, movements are less jerky).</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Movement Quality as Assessed by Exoskeleton Kinematics - Number of Peaks</title>
+          <description>Number of peaks is a metric related to the shape of the velocity profile. A higher number of peaks implies jerkier movement. A lower number of peaks indicates better movement quality (that is, movements are less jerky).</description>
+          <units>number of peaks</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.13" spread="0.76"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.78" spread="0.81"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Movement Quality as Assessed by Exoskeleton Kinematics - Time to First Peak</title>
+        <description>Time to 1st Peak is a metric related to the shape of the velocity profile, and is reported as [(time to first peak) divided by (total movement duration)]. This value is usually less than the ideal value of 0.5, or 50%, of the total movement duration when a movement has more than one peak. The closer the value is to the ideal value of 0.5, the more well-balanced are the movements.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Movement Quality as Assessed by Exoskeleton Kinematics - Time to First Peak</title>
+          <description>Time to 1st Peak is a metric related to the shape of the velocity profile, and is reported as [(time to first peak) divided by (total movement duration)]. This value is usually less than the ideal value of 0.5, or 50%, of the total movement duration when a movement has more than one peak. The closer the value is to the ideal value of 0.5, the more well-balanced are the movements.</description>
+          <units>seconds</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.35" spread="0.14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.43" spread="0.16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Score on Action Research Arm Test (ARAT)</title>
+        <description>The ARAT is used to assess subject's ability to manipulate-lift-release objects horizontally and vertically, which differs in size, weight and shape. The test consists of 19 items divided into 4 sub-tests (grasp, grip, pinch, gross arm movement) and each item is rated on a 4-point scale. The possible total score ranges between 0-57. Higher scores indicate better performance.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+        <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Score on Action Research Arm Test (ARAT)</title>
+          <description>The ARAT is used to assess subject's ability to manipulate-lift-release objects horizontally and vertically, which differs in size, weight and shape. The test consists of 19 items divided into 4 sub-tests (grasp, grip, pinch, gross arm movement) and each item is rated on a 4-point scale. The possible total score ranges between 0-57. Higher scores indicate better performance.</description>
+          <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="25.30" spread="16.80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30.50" spread="20.89"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 weeks after end of treatmen</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="34.71" spread="17.16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>12 weeks after end of treatment</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30.33" spread="21.49"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Score on Jebsen-Taylor Hand Function Test (JTHFT)</title>
+        <description>The JTHFT is a motor performance test and assesses the time needed to perform 7 everyday activities (for example, flipping cards and feeding). Score is reported as items completed per second.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+        <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Score on Jebsen-Taylor Hand Function Test (JTHFT)</title>
+          <description>The JTHFT is a motor performance test and assesses the time needed to perform 7 everyday activities (for example, flipping cards and feeding). Score is reported as items completed per second.</description>
+          <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+          <units>activities completed per second</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.05" spread="0.93"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.00" spread="0.88"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 weeks after end of treatment</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.32" spread="0.86"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>12 weeks after end of treatment</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.11" spread="0.88"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Grip Strength</title>
+        <description>A grip dynamometer will be used to measure maximum gross grasp force.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+        <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Grip Strength</title>
+          <description>A grip dynamometer will be used to measure maximum gross grasp force.</description>
+          <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+          <units>kg of force</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.13" spread="8.70"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12.64" spread="9.91"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="7"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.33" spread="9.19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>12 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="9"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12.26" spread="9.42"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Pinch Strength</title>
+        <description>A pinch gauge will be used to measure maximum pinch force.</description>
+        <time_frame>Baseline, immediately after end of treatment (within a week), 2 weeks after end of treatment, 12 weeks after end of treatment</time_frame>
+        <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>BMI Control of MAHI Exo-II</title>
+            <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Pinch Strength</title>
+          <description>A pinch gauge will be used to measure maximum pinch force.</description>
+          <population>2 weeks after end of treatment, data for this outcome measure were not collected for 3 participants. 12 weeks after end of treatment, data for this outcome measure was not collected for 1 participant.</population>
+          <units>kg of force</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="10"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Baseline</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.48" spread="2.29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Immediately after end of treatment (within a week)</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="10"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.01" spread="2.53"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>2 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="7"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.47" spread="1.30"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>12 weeks after end of treatment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="9"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4.55" spread="1.45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>2 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>BMI Control of MAHI Exo-II</title>
+          <description>MAHI EXO-II exoskeleton augmented with BMI system will be used to actively include the patient in the control loop, thereby making the therapy 'active' and engaging patients with various impairment severity in rehabilitation tasks. Patients will receive longitudinal training with the BMI-robotic interface for 3-4 sessions per week, over a period of 3 months.&#xD;
+MAHI EXO-II exoskeleton augmented with BMI system: In this longitudinal study, adult subjects with hemiparesis due to acute or chronic stroke will receive robotic-assisted training through an EEG-based BMI control of robotic exoskeleton to study the changes in upper extremity motor function, cortical plasticity (using the EEG and fMRI). The training will be provided 3x/week for 12 sessions over one-month period.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="10"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="10"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="10"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Absence of control group, low sample size</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Marcia K. O'Malley, PhD</name_or_title>
+      <organization>Rice University</organization>
+      <phone>(713) 348-3545</phone>
+      <email>omalley@rice.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

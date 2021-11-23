@@ -1,0 +1,277 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04848090</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STUDY19050319</org_study_id>
+    <nct_id>NCT04848090</nct_id>
+  </id_info>
+  <brief_title>Genome Sequencing in the Intensive Care Unit Population</brief_title>
+  <acronym>PISCES</acronym>
+  <official_title>Genome Sequencing in the Intensive Care Unit Population</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jerry Vockley, MD, PhD</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to understand how the use of whole genome sequencing (WGS) may&#xD;
+      be able to increase the speed with which a diagnosis is made for patients in an intensive&#xD;
+      care unit population. This is not an assessment of a new device, test, or technology. This&#xD;
+      project is an investigation of the utility of this technology in clinical care when compared&#xD;
+      to standard of care testing. The study will look at the ability to more quickly diagnose a&#xD;
+      patient (time to diagnosis and efficacy of testing) as compared to standard of care testing.&#xD;
+      The study will also look at the impact of WGS on patient outcomes and cost of clinical care.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an observational study to understand if the use of whole genome sequencing (WGS)&#xD;
+      increases the speed to diagnosis and how clinical management is changed in an intensive care&#xD;
+      population of neonates. This project utilizes approved genome sequencing methods at&#xD;
+      CLIA-certified facilities.&#xD;
+&#xD;
+        1. Neonate subjects who are eligible and whose parents consent to the study will undergo&#xD;
+           blood sample which will be sent for WGS and bioinformatics analysis, filtering first&#xD;
+           with a targeted panel of 1722 genes most likely to cause genetic disorders in the first&#xD;
+           year of life, and then with a whole exome filter if no obvious diagnosis is determined&#xD;
+           using the 1722 gene panel filter. Testing is completed in a CLIA-certified laboratory.&#xD;
+           Pathogenic, likely-pathogenic, and variants of uncertain significance in genes related&#xD;
+           the child's clinical features will be returned to the care team and to the parents in&#xD;
+           the setting of genetic counseling for use in clinical decision making about management.&#xD;
+           A report is added to the neonates EMR. Consent will include permission to access&#xD;
+           financial records of the hospitalization, to compare costs and length-of-stay to matched&#xD;
+           controls.&#xD;
+&#xD;
+        2. Parents of identified neonates who consent to the study for the for the purpose of trio&#xD;
+           analysis will have samples collected which will undergo concurrent analysis with the&#xD;
+           child to assist in determining the pathogenicity of variants in genomic sequencing.&#xD;
+           Pathogenic and likely-pathogenic secondary findings in the ACMG 59 later-onset medically&#xD;
+           actionable genes will be reported to the parents in the setting of genetic counseling&#xD;
+           ONLY if the parents opt in to learn these results AND they are identified in the child.&#xD;
+&#xD;
+        3. Siblings of participating neonates, if needed for interpretation of the neonate's&#xD;
+           genetic studies, will have samples collected for use in the genetic analysis. Pathogenic&#xD;
+           and likely-pathogenic results in childhood-onset disorders will be reported to the&#xD;
+           parents in the setting of genetic counseling.&#xD;
+&#xD;
+        4. Historical controls will be identified and matched to study participants. Historical&#xD;
+           controls will include infants in the ICU having a genetics consult ordered during their&#xD;
+           initial admission over the prior 24 months. Matching between study participants and&#xD;
+           matched controls will be performed using Propensity Scores. We will fit a logistical&#xD;
+           regression model to the combined treatment and control groups, and will then use the&#xD;
+           nearest neighbor matching to create matched pairs. The matching will help reduce bias&#xD;
+           and increase power to detect true effects. These controls will only be used for the&#xD;
+           fiscal and length of stay analyses; no genetic testing will be done on this cohort.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">July 13, 2020</start_date>
+  <completion_date type="Anticipated">November 2024</completion_date>
+  <primary_completion_date type="Anticipated">July 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>This is an observational study to understand if the use of whole genome sequencing (WGS) increases the speed to diagnosis and how clinical management is changed in an intensive care population of neonates.&#xD;
+Participants will include 100 neonates and their parents for trio analysis, for up to 300 individuals for whom consent is obtained testing will be completed. Participants will also include 100 matched historical controls.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Confirmed Diagnosis</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Categorical Y/N confirmed diagnosis in the neonate participant detected with WGS, compared to results from standard of care (SOC) or as seen in the historical control (HC)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnostic Rate</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Diagnostic rate with analysis via WGS, the 1722 neonatal specific gene filter, vs whole exome filter</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time to Diagnosis</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Time to diagnosis in days with WGS as compared to SOC testing or HC</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical Utility of WGS</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Clinical utility of WGS (e.g. changes in care management) compared to SOC or HC. Clinical utility is rated by a physician involved with case following the return of results using a Likert scale (1 - Not Useful at all, 2 - Not Very Useful, 3 - Neutral, 4 - Useful, 5 - Very Useful)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Care Cost Evaluation</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Total care cost in dollars in those receiving WGS as compared to HC</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Length of Stay</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Total length of hospital stay in days in those receiving WGS as compared to HC</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Need for Medical Utilization</measure>
+    <time_frame>Up to 4 years</time_frame>
+    <description>Number of major medical procedures, imaging studies, or consulting services encounters in subjects receiving WGS compared to those in HC</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Infant, Newborn, Disease</condition>
+  <condition>Genetic Disease</condition>
+  <arm_group>
+    <arm_group_label>Neonate WGS Testing</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Neonate subjects who are eligible and whose parents consent to study will undergo blood sampling which will be sent for whole genome sequencing and bioinformatics analysis, filtering first a targeted panel of 1722 genes most likely to cause genetic disorders in the first year of life, and then with a whole exome filter if no obvious diagnosis is determined using the 1722 gene panel filter.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Neonate WGS Testing</intervention_name>
+    <description>Neonates will undergo whole genome sequencing, and analysis with a targeted panel of genes likely to cause genetic disorders in the first year of life. If no diagnosis is identified, sequenced data will be analyzed using a whole exome filter. Performed in a CLIA-certified lab. Pathogenic, likely pathogenic, and VUS in genes related to the phenotype will be returned to the care team and family.&#xD;
+Parents will be enrolled for the purpose of trio analysis with the child to assist in determining the pathogenicity of variants in genomic sequencing. Pathogenic and likely-pathogenic findings will be reported to the parents in the setting of genetic counseling.&#xD;
+Sibling will be enrolled and have samples collected for use in the genetic analysis only if deemed essential. Results will be reported to the parents in the setting of genetic counseling.</description>
+    <arm_group_label>Neonate WGS Testing</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Neonates: In order to be approached to participate, a neonate must meet all of the&#xD;
+             following criteria:&#xD;
+&#xD;
+               1. Greater than 24 weeks gestational age&#xD;
+&#xD;
+               2. Birth weight greater than 600 grams&#xD;
+&#xD;
+               3. Admitted to the intensive care unit at UPMC Children's Hospital (CHP) and/or&#xD;
+                  Magee Women's Hospital&#xD;
+&#xD;
+               4. Possibility of a genetic disorder based on signs, symptoms, and laboratory values&#xD;
+                  triggering a formal clinical medical genetics consult by the clinical care team.&#xD;
+&#xD;
+               5. Triaged by PI or attending co-investigators and prioritized to introduction of&#xD;
+                  this research study based on patient-specific clinical concerns&#xD;
+&#xD;
+               6. Documented informed consent from parent/guardian&#xD;
+&#xD;
+          -  Parents: Parent of a neonate who meets the above inclusion criteria and who has been&#xD;
+             consented to participate in the study.&#xD;
+&#xD;
+          -  Siblings: Siblings of a neonate who meets the above inclusion criteria and who has&#xD;
+             been consented to participate in the study. Siblings will only be recruited if their&#xD;
+             participation has been determined to be essential to the accurate interpretation of&#xD;
+             the neonate's genetic studies.&#xD;
+&#xD;
+          -  Historical Controls: Individuals who have been evaluated by Medical Genetics within&#xD;
+             the last 24 months and who meet the criteria for matched controls as defined by&#xD;
+             propensity score matching.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Neonates: An individual who meets any of the following criteria will be excluded from&#xD;
+             participating in this study:&#xD;
+&#xD;
+               1. Has a known etiologic diagnosis (e.g. prenatal testing)&#xD;
+&#xD;
+               2. Has a major congenital anomaly (renal, cardiac, hepatic, neurological, or&#xD;
+                  pulmonary malformations) associated with a chromosomal anomaly detected on&#xD;
+                  prenatal testing (e.g. ultrasound, genetic testing)&#xD;
+&#xD;
+               3. Sequencing sent after birth for any other reason than the genetics consult that&#xD;
+                  triggers the study&#xD;
+&#xD;
+               4. Presence of documented significant congenital infection (e.g. congenital&#xD;
+                  cytomegalovirus)&#xD;
+&#xD;
+          -  Parents:&#xD;
+&#xD;
+               1. Is not the biological parent of the identified neonate&#xD;
+&#xD;
+               2. There is no exclusion for parent participation. If the parent is less than 18&#xD;
+                  years of age, however, these individuals will be asked to assent to the study and&#xD;
+                  their parent(s) will be asked to provide permission/consent for the minor&#xD;
+                  parent's participation&#xD;
+&#xD;
+               3. Having had previous genetic testing does not exclude the parent from&#xD;
+                  participating in this study.&#xD;
+&#xD;
+          -  Siblings:&#xD;
+&#xD;
+               1. Is not a biological sibling of a neonate who meets the inclusion criteria&#xD;
+&#xD;
+               2. Is not require for accurate interpretation of neonate results&#xD;
+&#xD;
+               3. Having had previous genetic testing does not exclude the sibling from&#xD;
+                  participating in this study.&#xD;
+&#xD;
+          -  Historical Control: Has not been seen within the past 24 months and/or does not meet&#xD;
+             the criteria for matched control as defined by propensity score matching. Part of this&#xD;
+             matching requires that the historical control be matched to a study participant based&#xD;
+             on age, thus they will be selected based on all matching criteria and will be excluded&#xD;
+             if they do not meet the criteria, including age.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>1 Year</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gerard Vockley, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pittsburgh</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UPMC Children's Hospital of Pittsburgh</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15224</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 13, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 19, 2021</study_first_posted>
+  <last_update_submitted>April 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Pittsburgh</investigator_affiliation>
+    <investigator_full_name>Jerry Vockley, MD, PhD</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Whole Genome Sequencing</keyword>
+  <keyword>Whole Exome Analysis</keyword>
+  <keyword>Rapid Genetic Sequencing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Genetic Diseases, Inborn</mesh_term>
+    <mesh_term>Infant, Newborn, Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

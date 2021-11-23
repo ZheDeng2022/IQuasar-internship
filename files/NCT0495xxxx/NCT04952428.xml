@@ -1,0 +1,572 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04952428</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PER-ECL-2020-07</org_study_id>
+    <nct_id>NCT04952428</nct_id>
+  </id_info>
+  <brief_title>Association Between Smoking Habit and Peri-implant Diseases: a Case Control Study</brief_title>
+  <official_title>Association Between Smoking Habit and Peri-implant Diseases: a Case Control Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitat Internacional de Catalunya</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Universitat Internacional de Catalunya</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Although smoking has been proposed as well, as a risk factor/indicator for peri-implantitis,&#xD;
+      there is currently no conclusive evidence. The current literature confronts the inconclusive&#xD;
+      evidence of tobacco for a risk factor. Therefore, the aim of the present investigation is to&#xD;
+      determine the association between tobacco and peri-implantitis in sample of patients who had&#xD;
+      received therapy implant-supported restorative therapy in a university setting.&#xD;
+&#xD;
+      The present study was designed as a retrospective case control study in a sample of patients&#xD;
+      with implant-supported restorative therapy 7-19 years after restorative phase. The study was&#xD;
+      conducted at the Clinica Universitaria d'Odontologia (CUO) in the Universitat Internacional&#xD;
+      de Catalunya (UIC) for 1 month and was performed following the principles outlined in the&#xD;
+      Declaration of Helsinki (revised, amended, and clarified in 2013. Prior to enrol the study a&#xD;
+      written informed consent was signed. Patients provided with implant-supported restorative&#xD;
+      therapy between 2001-2013 was selected from the UIC database. The sample was divided in three&#xD;
+      groups: healthy patients, patients with mucositis and patients with peri-implantitis. During&#xD;
+      the examination, the clinician reviewed with the patient the Information and Medication&#xD;
+      History Forms and record the anthropometric, socio-demographic and clinical information. An&#xD;
+      initial questionnaire was conducted to obtain information regarding age, gender, medical&#xD;
+      history, medication, and health behaviour. Candidates underwent an oral pathology examination&#xD;
+      and a full-mouth probing using a standardize pressure (20N) probe SONDA PA_ON (Orange&#xD;
+      Dental®, Aspachstr, Biberach, Germany) to determine their periodontal and peri-implant&#xD;
+      status. All statistical analyses were performed with the package RStudio (V2.5). Descriptive&#xD;
+      characteristics regarding all the covariates were summarized. Periimplant bone loss (95%&#xD;
+      Confidence Interval - 95% CI) were calculated both at implant- and at patient-level. A&#xD;
+      multilevel regression model will be applied to evaluate the influence of some risk/protective&#xD;
+      indicators on the risk for peri-implant bone loss. Risk/protective indicators for&#xD;
+      periimplantitis will be studied using multilevel (mixed-effects) multivariate regression&#xD;
+      analyses (patient- and implant-level). Each potential indicator was tested individually by&#xD;
+      adding it to an empty model having as dependent variable the peri-implant status and testing&#xD;
+      the significance.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. Introduction Nowadays, dental implants are a good restorative option for those patients&#xD;
+           who have lost one or more teeth in order to re-establish function and aesthetics.&#xD;
+           Nevertheless, dental implants are not free of suffering complications and disease.&#xD;
+           Peri-implant diseases are inflammatory conditions affecting the tissues surrounding the&#xD;
+           bone anchored implants, triggered by the presence of peri-implant biofilms in&#xD;
+           susceptible individuals (Rinke et al., 2011; Roos-Jansåker, Lindahl, et al., 2006;&#xD;
+           Roos-Jansåker, Renvert, et al., 2006; Schwarz et al., 2017)(Roos-Jansåker, Lindahl, et&#xD;
+           al., 2006; Roos-Jansåker, Renvert, et al., 2006; Schwarz et al., 2017)(Merli et al.,&#xD;
+           2014). At the New World Workshop in Periodontology (2017) these terms were revised and&#xD;
+           it was concluded that peri-implant mucositis is the presence of reversible inflammatory&#xD;
+           changes in the mucosa around an implant with no signs of loss of supporting bone, while&#xD;
+           peri-implantitis is the condition of inflammation of the peri-implant tissues involving&#xD;
+           loss of supporting bone (Renvert et al., 2018).&#xD;
+&#xD;
+           Peri-implant diseases are prevalent, and its presence has increased over time. As it is&#xD;
+           reported in the Swedish population, peri-implant mucositis appears in 32% of the&#xD;
+           patients, whereas peri-implantitis was observed in 45% of the patients (Derks et al.,&#xD;
+           2016). In addition, a cross-sectional study Spain revealed the presence of peri-implant&#xD;
+           mucositis in the 24% of patients, while peri-implantitis was found in the 18% (Rodrigo&#xD;
+           et al., 2018). For that high percentage of peri-implantitis, it seems reasonable to do a&#xD;
+           patient-specific risk assessment for implant therapy, and there is a clear need to&#xD;
+           identify an effective method to prevent peri-implant infections. According to the New&#xD;
+           World Workshop on Periodontology there is strong evidence that history of periodontitis,&#xD;
+           poor plaque control and lack of regular maintenance is a risk factor for&#xD;
+           peri-implantitis (Renvert et al., 2018).&#xD;
+&#xD;
+           Regarding tobacco, there is scientific evidence that affirms it is a risk factor for the&#xD;
+           periodontal disease progression and its effect on biofilm (Winkelhoff et al., 2001),&#xD;
+           host response (Palmer et al., 2005), wound healing and periodontal treatment success&#xD;
+           (Bunæs et al., 2015; Fisher et al., 2008; Kotsakis et al., 2015). It has been reported&#xD;
+           more presence of some periodontopathogens in smokers in comparison to non-smokers such&#xD;
+           as B forsythia, P micros, F nucleatum and C rectus; an effect on neutrophil's function,&#xD;
+           lymphocytes and on the vasculature of the periodontal tissues (Palmer et al., 2005)&#xD;
+           being more predisposed to periodontal breakdown and recurrence (Bunæs et al., 2015;&#xD;
+           Fisher et al., 2008; Kotsakis et al., 2015).&#xD;
+&#xD;
+           Although smoking has been proposed as well, as a risk factor/indicator for&#xD;
+           peri-implantitis, there is currently no conclusive evidence. The current literature&#xD;
+           confronts the inconclusive evidence of tobacco for a risk factor. Studies by Schwarz,&#xD;
+           Roos-Jansaker or Rinke concluded that smoking habit has 2.7 to 31 times more probability&#xD;
+           to cause peri-implantitis with Odds Ratio (OR) ranging from 2.7 to 31.6 respectively&#xD;
+           (Rinke et al., 2011; Roos-Jansåker, Lindahl, et al., 2006; Roos-Jansåker, Renvert, et&#xD;
+           al., 2006; Schwarz et al., 2017)Furthermore, it has been reported by Karoussis and&#xD;
+           coworkers an incidence of peri-implant diseases of 6% in non-smokers vs 17,9% in&#xD;
+           smokers. The biologic processes involved in osseointegration and maintenance of&#xD;
+           peri-implant bone levels could be likely affected by tobacco smoking(Karoussis et al.,&#xD;
+           2003). However, most of the literature shows (Aguirre-Zorzano et al., 2015; ALHarthi et&#xD;
+           al., 2018; Canullo et al., 2016; Casado et al., 2013; Dalago et al., 2017; Daubert et&#xD;
+           al., 2015; de Araújo Nobre et al., 2015; Dvorak et al., 2011; Koldsland et al., 2010,&#xD;
+           2011; Marrone et al., 2013; Máximo et al., 2008; Rokn et al., 2017) that there is no&#xD;
+           association between tobacco smoking and peri-implant diseases . Stacchi and coworkers&#xD;
+           concluded that there were no sufficient data to assess the role of smoking as a risk&#xD;
+           factor for implant loss and peri-implantitis. Both implant and patient-based&#xD;
+           meta-analyses revealed a significantly higher risk of developing peri-implantitis in&#xD;
+           patients with a history of periodontitis compared with periodontally healthy subjects,&#xD;
+           but not a statistically significant increased risk for implant loss (Stacchi et al.,&#xD;
+           2016).&#xD;
+&#xD;
+           Tobacco contains thousands of different substances and most of them represent harmful&#xD;
+           effects resulted from the systemic exposure following lung absorption. It also has&#xD;
+           effects on the oral microbiota, the gingival tissues, the inflammatory and immune&#xD;
+           response, and the healing capacity of the periodontium (Palmer et al., 2005).&#xD;
+&#xD;
+           Tobacco smoking enhances peri-implant soft tissue inflammation and crestal bone loss&#xD;
+           around immediate loading and delayed implants (Al Amri et al., 2017). ALHarthi et al,&#xD;
+           studied the peri-implant plaque index, bleeding on probing and probing depth as a&#xD;
+           peri-implant soft tissue parameter and the crestal bone loss in cigarettes smokers (CS),&#xD;
+           waterpipe smokers (WS) and non-smokers (NS). Peri-implant soft tissue inflammatory&#xD;
+           parameters and crestal bone loss are worse in CS and WS compared with NS. There was no&#xD;
+           difference in these parameters among the different way of smoking (ALHarthi et al.,&#xD;
+           2018).&#xD;
+&#xD;
+           It has also been demonstrated that tobacco smoke inhibits the proliferation and/or&#xD;
+           function of B and T cells. Macrophages play important roles in the both cell-mediated&#xD;
+           and humoral immunity as antigens cells. It has been shown that alveolar macrophages from&#xD;
+           smokers exhibit reduced expression of Major Histocompatibility Complex (MHC). This may&#xD;
+           eventually lead to a reduction in the humoral immune response to invading organisms&#xD;
+           (Palmer et al., 2005).&#xD;
+&#xD;
+        2. Background and current status of the topic Recent studies demonstrated that smoking&#xD;
+           contributes to the formation of dysbiotic biofilm. Smokers presented deeper probing&#xD;
+           depths and bleeding on probing, and peri-implant microbiota was composed of a greater&#xD;
+           number of periodontal pathogens than in non-smoking patients (Ata-Ali et al., 2016).&#xD;
+           Tsigarida and coworkers studied the influence of smoking on the peri-implant microbiome&#xD;
+           concluding microbial signatures of health in smokers exhibited lower density compared to&#xD;
+           non-smokers, with significant enrichment for disease associated species (Tsigarida et&#xD;
+           al., 2015). Furthermore, it was suggested by Duan and colleagues that tobacco smoking&#xD;
+           has a role in creating an at-risk-for-harm microbiome, and further may interfere in bone&#xD;
+           healing around the implant (Duan et al., 2017).&#xD;
+&#xD;
+           The insertion of dental implants in smokers affects the implant failure rates (6.35% in&#xD;
+           smokers and 3.18% in non-smokers), the incidence of postoperative infections, as well&#xD;
+           as, the marginal bone loss (Chrcanovic et al., 2015). As it can be observed in the&#xD;
+           metanalysis of Moraschini and coworkers, there is statistically significant difference&#xD;
+           in marginal bone loss between smokers and non-smokers, favouring the non-smoking&#xD;
+           patients standardized mean difference (SMD) 0.49. Moreover, there is a statistically&#xD;
+           significant difference in implant failure in favour of non-smoking group with OR 1.96&#xD;
+           (Moraschini &amp; Barboza, 2016).&#xD;
+&#xD;
+           Future studies are required to assess the effect of dose and duration of cigarette&#xD;
+           smoking on implant outcomes. Therefore, the aim of the present investigation is to&#xD;
+           determine the association between tobacco and peri-implantitis in sample of patients who&#xD;
+           had received therapy implant-supported restorative therapy in a university setting.&#xD;
+&#xD;
+        3. Objectives Primary objective To determine the predictive value of tobacco and&#xD;
+           periimplantitis in a group of patients treated with implant therapy from 2001 to 2013 in&#xD;
+           Clinica Universitària d'Odotntologia de la Universitat Internacional de Catalunya.&#xD;
+&#xD;
+           Secondary objective&#xD;
+&#xD;
+           - To determine the association between tobacco and peri-implant diseases in patients&#xD;
+           with implant therapy (2001-2013)&#xD;
+&#xD;
+        4. Hypothesis&#xD;
+&#xD;
+           There is association between tobacco and periimplant diseases in patients with implant&#xD;
+           therapy (2001-2013)&#xD;
+&#xD;
+        5. Material and methods&#xD;
+&#xD;
+           Study design The present study was designed as a retrospective case control study in a&#xD;
+           sample of patients with implant-supported restorative therapy 7-19 years after&#xD;
+           restorative phase.&#xD;
+&#xD;
+           The study was conducted at the Clinica Universitaria d'Odontologia (CUO) in the&#xD;
+           Universitat Internacional de Catalunya (UIC) for 1 month and was performed following the&#xD;
+           principles outlined in the Declaration of Helsinki (revised, amended, and clarified in&#xD;
+           2013. Prior to enrol the study a written informed consent was signed.&#xD;
+&#xD;
+           Patients that received an implant in the University setting was randomly recruited&#xD;
+           consecutively from data base of the Department of Periodontology and Oral Surgery. After&#xD;
+           a randomized selection was performed, subjects were contacted by telephone and asked to&#xD;
+           participate in the study by one examiner (J. M-A)&#xD;
+&#xD;
+           Study population Patients provided with implant-supported restorative therapy between&#xD;
+           2001-2013 was selected from the UIC database. The following inclusion criteria were&#xD;
+           considered: (1) men and women over 18 years old, (2) partially or totally edentulous&#xD;
+           patients with at least one implant placed at the university and loaded 7-19 years&#xD;
+           before, (3) cemented, screwed or mechanically retained prosthesis, (4) single, partial&#xD;
+           prostheses, and complete (fixed and removable), (5) patients diagnose of peri-implant&#xD;
+           health and peri-implantitis and (6) ability to understand study procedures.&#xD;
+&#xD;
+           The sample was divided in three groups: healthy patients, patients with mucositis and&#xD;
+           patients with peri-implantitis.&#xD;
+&#xD;
+           Sample size calculation Accepting an alpha risk of 0.05 and a beta risk of 0.2 in a&#xD;
+           bilateral contrast, 40 cases and 40 controls are required to detect a minimum odds ratio&#xD;
+           of 4.6 of having periimplant diseases (Roos-Jansåker, Renvert, et al., 2006). In&#xD;
+           addition to these 80 patients between cases and controls, 40 patients with mucositis&#xD;
+           were added.&#xD;
+&#xD;
+           Data collection During the examination, the clinician reviewed with the patient the&#xD;
+           Information and Medication History Forms and record the anthropometric,&#xD;
+           socio-demographic and clinical information. An initial questionnaire was conducted to&#xD;
+           obtain information regarding age, gender, medical history, medication, and health&#xD;
+           behaviour. Candidates underwent an oral pathology examination and a full-mouth probing&#xD;
+           using a standardize pressure (20N) probe SONDA PA_ON (Orange Dental®, Aspachstr,&#xD;
+           Biberach, Germany) to determine their periodontal and peri-implant status.&#xD;
+&#xD;
+           The study variables were recorded in a case report form (CRF) specially designed for the&#xD;
+           study. Each study patient was assigned a 3-digit patient code (assigned correlatively as&#xD;
+           they are included in the study). The parameters regarding implant design and therapy,&#xD;
+           restorative treatment and medication were revisited in the medical history and were&#xD;
+           recorded by the examiner.&#xD;
+&#xD;
+           Periodontal disease Each patient was evaluated of periodontal status recording history&#xD;
+           of periodontitis, health, active or stable periodontal status, plaque control and&#xD;
+           frequency of supportive periodontal care (Papapanou et al., 2018)&#xD;
+&#xD;
+           Implant characteristics Implants were categorized regarding the brand, the length and&#xD;
+           diameter, the implant surface or topography, connection, the installation protocols and&#xD;
+           their position in the arch. Bone augmentation procedures and the use of antibiotics&#xD;
+           during the therapy were also considered. Moreover, it was recorded the presence of&#xD;
+           absence, the date and the cause of implant loss. In terms of restoration, it was&#xD;
+           evaluated the type of prosthesis, loading, retention and as well as their cleansable.&#xD;
+&#xD;
+           Periodontal and radiographic parameters The clinical parameters were recorded by one&#xD;
+           examiner (J. M-A) using a periodontal probe SONDA PA_ON (Orange Dental®, Aspachstr,&#xD;
+           Biberach, Germany) with a standardized pressure (20N). Probing pocket depths (PDD),&#xD;
+           recession (R), modified bleeding on probing (MBP) and modified plaque index (MPI)&#xD;
+           (Mombelli et al., 1987) and suppuration.&#xD;
+&#xD;
+           Periapical radiographs were taken to detect any loss of supporting bone using a&#xD;
+           paralleling cone technique and a film-holder (7mA- 60kV/20ms) at re-examination visit.&#xD;
+&#xD;
+           Probing depth&#xD;
+&#xD;
+           - In mm from the implant shoulder till the apical point of the periodontal pocket&#xD;
+&#xD;
+           Bleeding on probing:&#xD;
+&#xD;
+           - Presence or absence of bleeding after 30 seconds of probing&#xD;
+&#xD;
+           Modified bleeding on probing&#xD;
+&#xD;
+             -  Score 0 - no bleeding.&#xD;
+&#xD;
+             -  Score 1 - isolated bleeding spots visible.&#xD;
+&#xD;
+             -  Score 2 - blood forms a confluent red line on margin.&#xD;
+&#xD;
+             -  Score 3 - heavy or profuse bleeding.&#xD;
+&#xD;
+           Suppuration on probing&#xD;
+&#xD;
+           - It evaluated after assessing dichotomously the presence of suppuration within 30&#xD;
+           seconds after gentle probing&#xD;
+&#xD;
+           Modified plaque index&#xD;
+&#xD;
+             -  Score 0 - no detection of plaque.&#xD;
+&#xD;
+             -  Score 1 - plaque only recognized by running a probe across the smooth marginal&#xD;
+                surface of the implant.&#xD;
+&#xD;
+             -  Score 2 - plaque can be seen by the naked eye.&#xD;
+&#xD;
+             -  Score 3 - abundance of soft matter.&#xD;
+&#xD;
+           Recession of the mucosal margin&#xD;
+&#xD;
+           - Relative to the restoration margin (MR) at the implant will be recorded at six aspects&#xD;
+           per implant: mb, b, db, ml, l and dl with a resin splint&#xD;
+&#xD;
+           Definition of peri-implant health The case definition of peri-implant health was based&#xD;
+           on absence of clinical inflammation, lack of bleeding on probing and absence of bone&#xD;
+           loss following initial healing (&lt; 2mm) (2).&#xD;
+&#xD;
+           Definition of peri-implantitis It is based on clinical and radiographic bone loss.&#xD;
+           Implants should have clinical inflammation in combination with bleeding on probing&#xD;
+           and/or suppuration, also progressive bone loss when compared with baseline radiograph&#xD;
+           shall be demonstrable, as well as an increase in probing pocket depth (PPD) from the&#xD;
+           baseline examination (Baseline record are referred to those obtained after definitive&#xD;
+           prosthesis delivery). In those cases where no baseline records were available, marginal&#xD;
+           bone loss &gt; 3mm and probing &gt; 6mm were stated as requirements (2).&#xD;
+&#xD;
+           Definition of peri-implant mucositis The case definition of peri-implant mucositis it is&#xD;
+           based on clinical inflammation in combination with profuse bleeding on probing and/or&#xD;
+           suppuration with increasing of probing pocket depths and absence of bone loss beyond&#xD;
+           crestal bone level (initial remodelling) (2).&#xD;
+&#xD;
+           Smoking habit Smoking behavior was specified as 3 categories: never smoker, former&#xD;
+           smoker, or current smoker. At the same time, current smokers were divided in light (&lt;10&#xD;
+           c/d), moderate (11-19 c/d) and heavy (&gt;20 c/d). Patients were asked about their tobacco&#xD;
+           smoke exposure in terms of consumption (i.e. the number of cigarettes consumed per day);&#xD;
+           duration (i.e. the number of years of smoking); and lifetime exposure (i.e. the&#xD;
+           accumulated exposure as formed by the product of consumption and duration:&#xD;
+           cigarette/years). In case of former smokers, patients were asked about the smoke free&#xD;
+           time following cessation.&#xD;
+&#xD;
+           Moreover, patients were asked about tobacco type, inhalations and nicotine, as well as&#xD;
+           some questions about dependence and motivation (modifications of Fagestrom and Richmond&#xD;
+           test) such as: (1) How soon after waking do you smoke your first cigarette?, (2) Do you&#xD;
+           find it difficult to refrain from smoking in places where it is forbidden? (3) Which&#xD;
+           cigarette would you hate to give up? The first in the morning or any other? (4) Do you&#xD;
+           smoke more frequently in the morning? (5) Do you smoke even if you are sick in bed most&#xD;
+           of the day? (6) Did you try to quit smoking? And how many times? (7) For you, how is it&#xD;
+           difficult to quit smoking?&#xD;
+&#xD;
+           Calibration The examiner was calibrated in clinical and radiographic parameters. Five&#xD;
+           patients apart from the study, with at least one loaded implant were examined in two&#xD;
+           separate occasions, 1 week apart. Pocket probing depth and bone level were evaluated,&#xD;
+           and Intra-class correlation coefficient and the kappa index were calculated.&#xD;
+&#xD;
+           Study visits&#xD;
+&#xD;
+             1. Screening files All patient files of those who received implant therapy between&#xD;
+                2001 and 2007 will be collected from the internal database of the university and&#xD;
+                subsequently, will be returned. The patients will be randomly selected using a&#xD;
+                computer program of randomization and recruited by phone call until reaching 264&#xD;
+                patients.&#xD;
+&#xD;
+             2. Baseline The baseline is settled on the day of the prosthesis delivery. A&#xD;
+                periapical radiograph is collected. It was recorded the technique the operators did&#xD;
+                and the final radiograoph of the implant pacement, as well as the type of the&#xD;
+                implant.&#xD;
+&#xD;
+             3. Re-examination visit (&quot;today visit) A guidebook will be prepared to standardize&#xD;
+                procedures throughout the protocol, step by step, for all questionnaires and&#xD;
+                evidence collection. The data will be transferred to a computerized database.&#xD;
+&#xD;
+           The clinician will review with the patient the Information and Medication History Forms&#xD;
+           and record the anthropometric, socio-demographic and clinical information. Candidates&#xD;
+           will undergo an oral pathology examination and a full-mouth manual probing using a&#xD;
+           periodontal probe SONDA PA_ON (Orange Dental®, Aspachstr, Biberach, Germany) to&#xD;
+           determine their periodontal and peri-implant status. Clinical and radiographic&#xD;
+           examination will be performed. Moreover, signs as presence of suppuration, bleeding,&#xD;
+           redness, probing depth must be recorded at 6 sites per implant applying. As well, a&#xD;
+           specific survey about tobacco habits including modification of Fagestrom &amp; Richmond test&#xD;
+           will be conducted.&#xD;
+&#xD;
+        6. Analysis results All statistical analyses were performed with the package RStudio&#xD;
+           (V2.5). Descriptive characteristics regarding all the covariates were summarized.&#xD;
+           Periimplant bone loss (95% Confidence Interval - 95% CI) were calculated both at&#xD;
+           implant- and at patient-level. A multilevel regression model will be applied to evaluate&#xD;
+           the influence of some risk/protective indicators on the risk for peri-implant bone loss.&#xD;
+           Risk/protective indicators for periimplantitis will be studied using multilevel&#xD;
+           (mixed-effects) multivariate regression analyses (patient- and implant-level). Each&#xD;
+           potential indicator was tested individually by adding it to an empty model having as&#xD;
+           dependent variable the peri-implant status and testing the significance.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 15, 2019</start_date>
+  <completion_date type="Actual">February 28, 2021</completion_date>
+  <primary_completion_date type="Actual">January 15, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predictive value of smoking habit on peri-implant diseases</measure>
+    <time_frame>1 day</time_frame>
+    <description>To determine the predictive value of tobacco and periimplantitis in a group of patients treated with implant therapy from 2001 to 2013 in Clinica Universitària d'Odotntologia de la Universitat Internacional de Catalunya.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Association between tobacco and peri-implant disease</measure>
+    <time_frame>1 day</time_frame>
+    <description>To determine the association between tobacco and peri-implant diseases in patients with implant therapy (2001-2013)</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">117</enrollment>
+  <condition>Peri-Implantitis</condition>
+  <condition>Peri-implant Mucositis</condition>
+  <condition>Bone Loss, Alveolar</condition>
+  <arm_group>
+    <arm_group_label>Peri-implant group</arm_group_label>
+    <description>It is based on clinical and radiographic bone loss. Implants should have clinical inflammation in combination with bleeding on probing and/or suppuration, also progressive bone loss when compared with baseline radiograph shall be demonstrable, as well as an increase in probing pocket depth (PPD) from the baseline examination (Baseline record are referred to those obtained after definitive prosthesis delivery). In those cases where no baseline records were available, marginal bone loss &gt; 3mm and probing &gt; 6mm were stated as requirements (2).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Peri-implant mucositis group</arm_group_label>
+    <description>The case definition of peri-implant mucositis it is based on clinical inflammation in combination with profuse bleeding on probing and/or suppuration with increasing of probing pocket depths and absence of bone loss beyond crestal bone level (initial remodelling) (2).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy patients group</arm_group_label>
+    <description>The case definition of peri-implant health was based on absence of clinical inflammation, lack of bleeding on probing and absence of bone loss following initial healing (&lt; 2mm) (2).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Re-examination visit (&quot;today visit&quot;)</intervention_name>
+    <description>Re-examination visit (&quot;today visit&quot;) A guidebook will be prepared to standardize procedures throughout the protocol, step by step, for all questionnaires and evidence collection. The data will be transferred to a computerized database.&#xD;
+The clinician will review with the patient the Information and Medication History Forms and record the anthropometric, socio-demographic and clinical information. Candidates will undergo an oral pathology examination and a full-mouth manual probing using a periodontal probe SONDA PA_ON (Orange Dental®, Aspachstr, Biberach, Germany) to determine their periodontal and peri-implant status. Clinical and radiographic examination will be performed. Moreover, signs as presence of suppuration, bleeding, redness, probing depth must be recorded at 6 sites per implant applying. As well, a specific survey about tobacco habits including modification of Fagestrom &amp; Richmond test will be conducted.</description>
+    <arm_group_label>Healthy patients group</arm_group_label>
+    <arm_group_label>Peri-implant group</arm_group_label>
+    <arm_group_label>Peri-implant mucositis group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients provided with implant-supported restorative therapy between 2001-2013 was selected&#xD;
+        from the UIC database.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. men and women over 18 years old,&#xD;
+&#xD;
+          2. partially or totally edentulous patients with at least one implant placed at the&#xD;
+             university and loaded 7-19 years before,&#xD;
+&#xD;
+          3. cemented, screwed or mechanically retained prosthesis,&#xD;
+&#xD;
+          4. single, partial prostheses, and complete (fixed and removable),&#xD;
+&#xD;
+          5. patients diagnose of peri-implant health and peri-implantitis and&#xD;
+&#xD;
+          6. ability to understand study procedures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Some patient that does not follow the inclusion criteria&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Josep Martínez</name>
+      <address>
+        <city>Sant Cugat Del Vallès</city>
+        <state>Barcelona</state>
+        <zip>08195</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <reference>
+    <citation>Aguirre-Zorzano LA, Estefanía-Fresco R, Telletxea O, Bravo M. Prevalence of peri-implant inflammatory disease in patients with a history of periodontal disease who receive supportive periodontal therapy. Clin Oral Implants Res. 2015 Nov;26(11):1338-44. doi: 10.1111/clr.12462. Epub 2014 Aug 12.</citation>
+    <PMID>25132406</PMID>
+  </reference>
+  <reference>
+    <citation>Al Amri MD, Kellesarian SV, Abduljabbar TS, Al Rifaiy MQ, Al Baker AM, Al-Kheraif AA. Comparison of Peri-Implant Soft Tissue Parameters and Crestal Bone Loss Around Immediately Loaded and Delayed Loaded Implants in Smokers and Non-Smokers: 5-Year Follow-Up Results. J Periodontol. 2017 Jan;88(1):3-9. Epub 2016 Sep 2.</citation>
+    <PMID>27587369</PMID>
+  </reference>
+  <reference>
+    <citation>ALHarthi SS, BinShabaib MS, Ahmed HB, Mehmood A, Khan J, Javed F. Comparison of peri-implant clinical and radiographic inflammatory parameters among cigarette and waterpipe (narghile) smokers and never-smokers. J Periodontol. 2018 Feb;89(2):213-218. doi: 10.1902/jop.2017.170358.</citation>
+    <PMID>28777038</PMID>
+  </reference>
+  <reference>
+    <citation>Ata-Ali J, Flichy-Fernández AJ, Alegre-Domingo T, Ata-Ali F, Peñarrocha-Diago M. Impact of heavy smoking on the clinical, microbiological and immunological parameters of patients with dental implants: a prospective cross-sectional study. J Investig Clin Dent. 2016 Nov;7(4):401-409. doi: 10.1111/jicd.12176. Epub 2015 Jul 14.</citation>
+    <PMID>26171870</PMID>
+  </reference>
+  <reference>
+    <citation>Bunaes DF, Lie SA, Enersen M, Aastrøm AN, Mustafa K, Leknes KN. Site-specific treatment outcome in smokers following non-surgical and surgical periodontal therapy. J Clin Periodontol. 2015 Oct;42(10):933-42. doi: 10.1111/jcpe.12462. Epub 2015 Oct 28.</citation>
+    <PMID>26407817</PMID>
+  </reference>
+  <reference>
+    <citation>Canullo L, Peñarrocha-Oltra D, Covani U, Botticelli D, Serino G, Penarrocha M. Clinical and microbiological findings in patients with peri-implantitis: a cross-sectional study. Clin Oral Implants Res. 2016 Mar;27(3):376-82. doi: 10.1111/clr.12557. Epub 2015 Jan 26.</citation>
+    <PMID>25622536</PMID>
+  </reference>
+  <reference>
+    <citation>Casado PL, Pereira MC, Duarte ME, Granjeiro JM. History of chronic periodontitis is a high risk indicator for peri-implant disease. Braz Dent J. 2013;24(2):136-41. doi: 10.1590/0103-6440201302006.</citation>
+    <PMID>23780361</PMID>
+  </reference>
+  <reference>
+    <citation>Chrcanovic BR, Albrektsson T, Wennerberg A. Smoking and dental implants: A systematic review and meta-analysis. J Dent. 2015 May;43(5):487-98. doi: 10.1016/j.jdent.2015.03.003. Epub 2015 Mar 14. Review.</citation>
+    <PMID>25778741</PMID>
+  </reference>
+  <reference>
+    <citation>Dalago HR, Schuldt Filho G, Rodrigues MA, Renvert S, Bianchini MA. Risk indicators for Peri-implantitis. A cross-sectional study with 916 implants. Clin Oral Implants Res. 2017 Feb;28(2):144-150. doi: 10.1111/clr.12772. Epub 2016 Jan 11.</citation>
+    <PMID>26754342</PMID>
+  </reference>
+  <reference>
+    <citation>Daubert DM, Weinstein BF, Bordin S, Leroux BG, Flemming TF. Prevalence and predictive factors for peri-implant disease and implant failure: a cross-sectional analysis. J Periodontol. 2015 Mar;86(3):337-47. doi: 10.1902/jop.2014.140438. Epub 2014 Nov 21.</citation>
+    <PMID>25415249</PMID>
+  </reference>
+  <reference>
+    <citation>de Araújo Nobre M, Mano Azul A, Rocha E, Maló P. Risk factors of peri-implant pathology. Eur J Oral Sci. 2015 Jun;123(3):131-9. doi: 10.1111/eos.12185. Epub 2015 Apr 20.</citation>
+    <PMID>25894059</PMID>
+  </reference>
+  <reference>
+    <citation>Derks J, Schaller D, Håkansson J, Wennström JL, Tomasi C, Berglundh T. Effectiveness of Implant Therapy Analyzed in a Swedish Population: Prevalence of Peri-implantitis. J Dent Res. 2016 Jan;95(1):43-9. doi: 10.1177/0022034515608832.</citation>
+    <PMID>26701919</PMID>
+  </reference>
+  <reference>
+    <citation>Duan X, Wu T, Xu X, Chen D, Mo A, Lei Y, Cheng L, Man Y, Zhou X, Wang Y, Yuan Q. Smoking May Lead to Marginal Bone Loss Around Non-Submerged Implants During Bone Healing by Altering Salivary Microbiome: A Prospective Study. J Periodontol. 2017 Dec;88(12):1297-1308. doi: 10.1902/jop.2017.160808. Epub 2017 Aug 28.</citation>
+    <PMID>28844190</PMID>
+  </reference>
+  <reference>
+    <citation>Dvorak G, Arnhart C, Heuberer S, Huber CD, Watzek G, Gruber R. Peri-implantitis and late implant failures in postmenopausal women: a cross-sectional study. J Clin Periodontol. 2011 Oct;38(10):950-5. doi: 10.1111/j.1600-051X.2011.01772.x. Epub 2011 Jul 21.</citation>
+    <PMID>21777269</PMID>
+  </reference>
+  <reference>
+    <citation>Fisher S, Kells L, Picard JP, Gelskey SC, Singer DL, Lix L, Scott DA. Progression of periodontal disease in a maintenance population of smokers and non-smokers: a 3-year longitudinal study. J Periodontol. 2008 Mar;79(3):461-8. doi: 10.1902/jop.2008.070296 .</citation>
+    <PMID>18315428</PMID>
+  </reference>
+  <reference>
+    <citation>Karoussis IK, Salvi GE, Heitz-Mayfield LJ, Brägger U, Hämmerle CH, Lang NP. Long-term implant prognosis in patients with and without a history of chronic periodontitis: a 10-year prospective cohort study of the ITI Dental Implant System. Clin Oral Implants Res. 2003 Jun;14(3):329-39.</citation>
+    <PMID>12755783</PMID>
+  </reference>
+  <reference>
+    <citation>Koldsland OC, Scheie AA, Aass AM. Prevalence of peri-implantitis related to severity of the disease with different degrees of bone loss. J Periodontol. 2010 Feb;81(2):231-8. doi: 10.1902/jop.2009.090269.</citation>
+    <PMID>20151801</PMID>
+  </reference>
+  <reference>
+    <citation>Koldsland OC, Scheie AA, Aass AM. The association between selected risk indicators and severity of peri-implantitis using mixed model analyses. J Clin Periodontol. 2011 Mar;38(3):285-92. doi: 10.1111/j.1600-051X.2010.01659.x. Epub 2010 Dec 15.</citation>
+    <PMID>21158898</PMID>
+  </reference>
+  <reference>
+    <citation>Kotsakis GA, Javed F, Hinrichs JE, Karoussis IK, Romanos GE. Impact of cigarette smoking on clinical outcomes of periodontal flap surgical procedures: a systematic review and meta-analysis. J Periodontol. 2015 Feb;86(2):254-63. doi: 10.1902/jop.2014.140452. Epub 2014 Oct 9. Review.</citation>
+    <PMID>25299388</PMID>
+  </reference>
+  <reference>
+    <citation>Marrone A, Lasserre J, Bercy P, Brecx MC. Prevalence and risk factors for peri-implant disease in Belgian adults. Clin Oral Implants Res. 2013 Aug;24(8):934-40. doi: 10.1111/j.1600-0501.2012.02476.x. Epub 2012 May 3.</citation>
+    <PMID>22551347</PMID>
+  </reference>
+  <reference>
+    <citation>Máximo MB, de Mendonça AC, Alves JF, Cortelli SC, Peruzzo DC, Duarte PM. Peri-implant diseases may be associated with increased time loading and generalized periodontal bone loss: preliminary results. J Oral Implantol. 2008;34(5):268-73. doi: 10.1563/1548-1336(2008)34[269:PDMBAW]2.0.CO;2.</citation>
+    <PMID>19170293</PMID>
+  </reference>
+  <reference>
+    <citation>Merli M, Bernardelli F, Giulianelli E, Toselli I, Moscatelli M, Pagliaro U, Nieri M. Inter-rater agreement in the diagnosis of mucositis and peri-implantitis. J Clin Periodontol. 2014 Sep;41(9):927-33. doi: 10.1111/jcpe.12291. Epub 2014 Aug 6.</citation>
+    <PMID>25041651</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 27, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>June 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universitat Internacional de Catalunya</investigator_affiliation>
+    <investigator_full_name>Josep Martínez</investigator_full_name>
+    <investigator_title>JMartinez</investigator_title>
+  </responsible_party>
+  <keyword>Peri-implantitis, peri-implant mucositis, radiographic bone loss, smoking habit</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Alveolar Bone Loss</mesh_term>
+    <mesh_term>Mucositis</mesh_term>
+    <mesh_term>Peri-Implantitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

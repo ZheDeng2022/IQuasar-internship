@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04883879</url>
+  </required_header>
+  <id_info>
+    <org_study_id>N201910041</org_study_id>
+    <nct_id>NCT04883879</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence-based Mortality Prediction Among Cancer Patients in the Hospice Ward</brief_title>
+  <official_title>Artificial Intelligence-based Activity Recognition and Mortality Prediction Using Circadian Rhythm, Among Cancer Patients in the Hospice Ward</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Science and Technology, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Taipei Medical University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Yang Ming University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Taipei Medical University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop a novel deep-learning-based survival prediction model&#xD;
+      employing patient activity data recorded by a wearable device.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study aims to develop a deep-learning-based survival prediction model that utilizes&#xD;
+      patient movement data upon admission to predict their clinical outcomes: either death or&#xD;
+      discharge with stable condition. Objective data of the patients are recorded by a wearable&#xD;
+      device and documented as parameters of physical activity, angle, and spin. In addition to&#xD;
+      objective data, the investigators also document patients' Karnofsky Performance Status&#xD;
+      assessed subjectively by clinical doctors. Finally, the investigators aim to explore and&#xD;
+      describe the applicability, potential, and limitations of the survival prediction model based&#xD;
+      on patient movement data as a simple prognostic parameter in clinical settings.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 11, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Specificity and Sensitivity of using Artificial Intelligence based models for prediction of Clinical Outcomes of End-stage Cancer Patients using actigraphy data</measure>
+    <time_frame>From date of admission to hospice ward until the date of first documented discharge from hospital or date of death from any cause, whichever came first, assessed up to 1 month</time_frame>
+    <description>The primary outcome of the study will be to evaluate whether the analysis of the movement data captured using actigraphy device can help to predict clinical outcomes either deceased or discharged alive from hospital, with a high specificity and sensitivity, using Artificial Intelligence based prediction modelling.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>End Stage Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients aged 20 years or older who were admitted to the hospice care unit at Taipei&#xD;
+        Medical University Hospital with at least one diagnosis of end-stage solid tumor diseases.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participants aged 20 years or older admitted to the hospice care unit at Taipei&#xD;
+             Medical University Hospital&#xD;
+&#xD;
+          -  Participants diagnosed with at least one end-stage solid tumor diseases&#xD;
+&#xD;
+          -  Participants consented to receive hospice care&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Participants aged below 20 years of age&#xD;
+&#xD;
+          -  Participants diagnosed with leukemia or carcinoma of unknown primary&#xD;
+&#xD;
+          -  Participants with evident signs of approaching death upon admission&#xD;
+&#xD;
+          -  Participants with no vital signs upon admission&#xD;
+&#xD;
+          -  Participants who continued to receive aggressive treatment despite admission to the&#xD;
+             hospice care unit&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shabbir Syed-Abdul, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Taipei Medical University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shabbir Syed-Abdul, PhD</last_name>
+    <phone>886 2-6638-2736</phone>
+    <phone_ext>1514</phone_ext>
+    <email>drshabbir@tmu.edu.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Taipei Medical University</name>
+      <address>
+        <city>Taipei City</city>
+        <state>TW - Taiwan</state>
+        <zip>110</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shabbir Syed Abdul</last_name>
+      <phone>+886-2-66382736</phone>
+      <phone_ext>1501</phone_ext>
+      <email>drshabbir@tmu.edu.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 12, 2021</study_first_posted>
+  <last_update_submitted>May 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Taipei Medical University</investigator_affiliation>
+    <investigator_full_name>Shabbir Syed Abdul</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Wearable Device</keyword>
+  <keyword>Actigraphy Device</keyword>
+  <keyword>Survival Prediction</keyword>
+  <keyword>Deep Learning</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Hospice Care</keyword>
+  <keyword>Palliative Care</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

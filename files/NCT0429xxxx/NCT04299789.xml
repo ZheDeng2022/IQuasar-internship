@@ -1,0 +1,266 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04299789</url>
+  </required_header>
+  <id_info>
+    <org_study_id>278987</org_study_id>
+    <nct_id>NCT04299789</nct_id>
+  </id_info>
+  <brief_title>Military Service Identification Tool</brief_title>
+  <acronym>MSIT</acronym>
+  <official_title>Validating the Military Service Identification Tool in Its Ability to Correctly Identify Civilians and Those Who Have Served in the Military</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Forces in Mind Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Combat Stress</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>King's College London</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Estimates of the UK's military veteran population, defined by the British Government as those&#xD;
+      who have served in the military for at least one day, is approximately 2.5 million,&#xD;
+      equivalent to around 5% of household residents aged 16 years or over in the UK. UK military&#xD;
+      veterans receive healthcare provision from the National Health Service (NHS), with care&#xD;
+      recorded in local, regional and national EHRs. EHRs - structured and unstructured (i.e. free&#xD;
+      text) - can be used to evaluate disease prevalence, surveillance, to perform epidemiological&#xD;
+      analyses and investigate quality of care and to improve clinical decision-making.&#xD;
+&#xD;
+      There is no national marker in UK EHRs to identify veterans, nor is there a requirement for&#xD;
+      healthcare professionals to record it, making it difficult to evaluate the unique healthcare&#xD;
+      needs of those who have served in the UK Armed Forces. This study, funded by Forces in Mind&#xD;
+      Trust, seeks to validate the Military Service Identification Tool, an open-source computer&#xD;
+      program that searches through free-text clinical notes to make a prediction on a person's&#xD;
+      military status. It is in the public interest to know the health of our Armed Forces. The&#xD;
+      Tool has been validated using manually annotated datasets, but we now need to valid an&#xD;
+      individual's military status by contacting them via post or telephone and asking, &quot;Have you&#xD;
+      ever served in the Armed Forces&quot;. The research team will work closely with the CRIS Patient&#xD;
+      Advisory Group and local healthcare professionals.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Currently, there is no military service marker in electronic healthcare records to identify&#xD;
+      who is a veteran in England and Wales [3]. This makes it difficult to evaluate the unique&#xD;
+      healthcare needs of those who have served in the UK military. In a previous study, the&#xD;
+      investigators set out to investigate whether it was feasible to identify veterans who&#xD;
+      accessed secondary mental healthcare services via their anonymized electronic healthcare&#xD;
+      records using a manual, text search based, method. To do this, the investigators used the&#xD;
+      South London and Maudsley (SLaM) Biomedical Research Centre Case Register. This is a novel&#xD;
+      data resource, derived directly from the routine electronic healthcare records of the SLaM&#xD;
+      NHS Foundation Trust. SLaM is one of Europe's largest mental health providers, serving over&#xD;
+      1.2 million residents in four South London boroughs. This Case Register holds patient's&#xD;
+      electronic healthcare records for all secondary mental healthcare provisions within SLaM. All&#xD;
+      these electronic healthcare records have been anonymized and a system has been developed to&#xD;
+      enable researchers to access and search through these records called the clinical record&#xD;
+      interactive system (CRIS).&#xD;
+&#xD;
+      As part of the first study the investigators developed a manual, text search based, method&#xD;
+      using commonly used terms and phrases found in the free text clinical notes to identify&#xD;
+      veterans. Running this manual method resulted in the identification of n = 6,039 potential&#xD;
+      veteran records, of which n = 1,600 were selected to scrutinize in more detail, whilst&#xD;
+      considering time and manpower restrictions. This resulted in n = 693 veteran records,&#xD;
+      suggesting an identification rate of 43% when using the manual method. Therefore, it was&#xD;
+      concluded that it was feasible to identify veterans in electronic healthcare records, but&#xD;
+      time consuming. Each potential veteran record was manually verified by the research team by&#xD;
+      reading through each patient's notes. This took on average 11 minutes per record.&#xD;
+&#xD;
+      To address the time it took to identify veterans and improve sensitivity and reach, he&#xD;
+      investigators developed the Military Service Identification Tool (MSIT), and it proved to be&#xD;
+      quicker, more accurate and cheaper than the manual method. The Tool was designed to detect&#xD;
+      military service, not just veteran status. 1the investigators took a systematic approach to&#xD;
+      developing and testing the MSIT. Then a different subsets of all the electronic healthcare&#xD;
+      records available to us, to ensure the MSIT was developed and trained on a different set of&#xD;
+      electronic healthcare records (named the training dataset). Subsequently the MSIT was&#xD;
+      verified on another subset of the data (named the gold standard dataset) to ensure it would&#xD;
+      still be able to identify veterans if a different set of electronic healthcare records would&#xD;
+      be used.&#xD;
+&#xD;
+      The investigators managed to identify 2,922 veterans in the electronic healthcare records&#xD;
+      when applying MSIT to inspect 150,000 individual records. The MSIT took only 20 minutes to go&#xD;
+      through all these records and had an identification rate of 88% when compared to the manual&#xD;
+      approach. The investigators also matched these veterans to 2,922 non-veterans based on age&#xD;
+      and gender to compare their mental health treatment pathways.&#xD;
+&#xD;
+      Despite the success of our initial developments, the investigators have faced a significant&#xD;
+      barrier that may prevent the widespread, dissemination, roll-out and implementation of the&#xD;
+      MSIT. Various academics and stakeholders (e.g. NHS England, Cobseo) are interested in the&#xD;
+      MSIT. However, it has been highlighted an important limitation, namely it is still unclear&#xD;
+      whether the veterans identified by the MSIT are 'actual' veterans. MSIT identifies veterans&#xD;
+      based on the notes provided by the clinician in the electronic healthcare record. It is also&#xD;
+      important to understand if higher rates of physical and mental health are represented in a&#xD;
+      veteran population compared to civilians. By including both samples - civilian and veteran -&#xD;
+      this ensures that fair comparisons are able to be made. This There is currently no&#xD;
+      opportunity to verify their veteran status. For example, no service number is provided in&#xD;
+      their medical records.&#xD;
+&#xD;
+      Therefore, to overcome these limitations and to demonstrate that the MSIT is correctly&#xD;
+      identifying military service (serving personnel, veterans or civilian) it is important to&#xD;
+      reach out to those who have been identified to ask about their previous Service.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 1, 2020</start_date>
+  <completion_date type="Anticipated">September 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the tool</measure>
+    <time_frame>Analysis will be conducted within 6 months after data collection.</time_frame>
+    <description>The primary outcome of this study is to provide descriptive statistics on the accuracy of the Military Service Identification Tool in correctly identifying those who have served in the Armed Forces.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">5844</enrollment>
+  <condition>Mental Health Disorder</condition>
+  <arm_group>
+    <arm_group_label>Probable Civilian</arm_group_label>
+    <description>This cohort represents those in which the Military Service Identification Tool has determined are a civilian and have not served in the Armed Forces.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Probable Veteran</arm_group_label>
+    <description>This cohort represents those in which the Military Service Identification Tool has determined are a military veteran and have served in the Armed Forces.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Validating the Military Service Identification Tool</intervention_name>
+    <description>This study seeks to validate the Military Service Identification Tool in its ability to accurately determine military service status.</description>
+    <arm_group_label>Probable Civilian</arm_group_label>
+    <arm_group_label>Probable Veteran</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants have already been identified using the Military Service Identification Tool.&#xD;
+        In a previous research project, the Tool was run on the records of 150,000 patients&#xD;
+        extracted from the Clinical Record Interactive Search, which is managed by NIHR Maudsley&#xD;
+        Biomedical Research Centre (BRC). A copy of the article describing the methodology has&#xD;
+        recently been accepted for publication in JMIR Medical Informatics (DOI: 10.2196/15852). In&#xD;
+        total 2,922 probable veterans were identified and matched to 2,922 civilians on age and&#xD;
+        gender. The dataset has a total sample size of 5,844 individuals. Once approvals are in&#xD;
+        place, we will identify those who have given consent to be contacted and meet our&#xD;
+        eligibility criteria (described in other parts of our application).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Only those participants who formed part of our original study will be screened for&#xD;
+        eligibility. This corresponds to 2,922 probable veterans and 2,922 civilians. The following&#xD;
+        inclusion criteria will apply:&#xD;
+&#xD;
+          1. Participants are listed as 'Alive' in the SLaM BRC Clinical Record Interactive Search&#xD;
+             database;&#xD;
+&#xD;
+          2. Participants will be aged 18 years and old;&#xD;
+&#xD;
+          3. Participant has given Consent for Contact;&#xD;
+&#xD;
+          4. Participant has a valid postal or email address or telephone number;&#xD;
+&#xD;
+          5. Participants have capacity to consent and deemed fit to participate in research by a&#xD;
+             clinician.&#xD;
+&#xD;
+          6. Participants will be able to speak English.&#xD;
+&#xD;
+        Participants will be excluded if a clinician is required to be notified of the research&#xD;
+        prior to contact, as this may indicate at risk participants. Further participants who are&#xD;
+        not fluent in spoken English will be unable to take part in the study due to inability to&#xD;
+        understand the participant information and consent form. Therefore, non-English speaking&#xD;
+        participants will not be included in this study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>South London and Maudsley NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <state>Greater Londn</state>
+        <zip>SE58AZ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dr Carol Cooley</last_name>
+      <phone>020 7848 0339</phone>
+      <email>slam-ioppn.research@kcl.ac.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Dr Sharon AM Stevelink, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Prof Nicola T. Fear, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <link>
+    <url>http://preprints.jmir.org/preprint/15852/accepted</url>
+    <description>Pre-print of the Military Service Identification Tool.</description>
+  </link>
+  <reference>
+    <citation>Mark KM, Leightley D, Pernet D, Murphy D, Stevelink SAM, Fear NT. Identifying Veterans Using Electronic Health Records in the United Kingdom: A Feasibility Study. Healthcare (Basel). 2019 Dec 19;8(1). pii: E1. doi: 10.3390/healthcare8010001.</citation>
+    <PMID>31861575</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>March 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 6, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 9, 2020</study_first_posted>
+  <last_update_submitted>September 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>mental health</keyword>
+  <keyword>natural language processing</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Mental Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>We will not be sharing any data collected with other researchers as data will be deleted within 6 months of the study finishing.</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>March 2, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/89/NCT04299789/Prot_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

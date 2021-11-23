@@ -1,0 +1,699 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03642626</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017LS118</org_study_id>
+    <secondary_id>MT2017-45</secondary_id>
+    <nct_id>NCT03642626</nct_id>
+  </id_info>
+  <brief_title>MT2017-45: CAR-T Cell Therapy for Heme Malignancies</brief_title>
+  <official_title>Chimeric Antigen Receptor (CAR)-T Cell Therapy for Patients With Hematologic Malignancies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Masonic Cancer Center, University of Minnesota</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Masonic Cancer Center, University of Minnesota</source>
+  <oversight_info>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a phase II study of FDA-approved CAR-T products for patients with hematologic&#xD;
+      malignancies. Patients will be assigned to Arm A and B based on age and diagnosis. Overall&#xD;
+      remission rate, safety events and other endpoints will be calculated for Arm A and B&#xD;
+      separately.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 18, 2018</start_date>
+  <completion_date type="Anticipated">July 2028</completion_date>
+  <primary_completion_date type="Anticipated">July 2028</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Arm A: Complete Remission (CR)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Incidence of CR</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Arm A: CRi (complete remission without count recovery)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Incidence of CRi</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Arms B &amp; C&amp;D: Overall Response Rate (ORR)</measure>
+    <time_frame>Week 8</time_frame>
+    <description>ORR defined by complete response + partial response by Lugano</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: MRD-negative CR (or CRi)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Proportion of patients with MRD-negative CR (or CRi)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Proportion of patients who are alive but not in remission</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Proportion of patients who are alive but not in remission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Treatment Related Mortality (TRM)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Incidence of treatment related mortality (in absence of disease relapse/progression)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Treatment Related Mortality (TRM)</measure>
+    <time_frame>Day 100</time_frame>
+    <description>Incidence of treatment related mortality (in absence of disease relapse/progression)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Treatment Related Mortality (TRM)</measure>
+    <time_frame>1 Year</time_frame>
+    <description>Incidence of treatment related mortality (in absence of disease relapse/progression)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Relapse-free Survival (RFS)</measure>
+    <time_frame>At complete remission, relapse, death</time_frame>
+    <description>Incidence of Relapse-free Survival (RFS)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Event-Free Survival (EFS)</measure>
+    <time_frame>1 Year post treatment</time_frame>
+    <description>Incidence of event-free survival (EFS) from the date of the CAR-T infusion through 1 year post treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Overall Survival (OS)</measure>
+    <time_frame>Date of Death</time_frame>
+    <description>Incidence of Overall Survival (OS) from the date of the CAR-T infusion through the date of patient death for any reason.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arm A: Toxicity</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Proportion of patients with grade 3 or 4 targeted toxicity of CRS and/or neurotoxicity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Complete Remission (CR)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Proportion of patients with Complete Remission by Lugano criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Treatment Related Mortality (TRM)</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Incidence of treatment related mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Treatment Related Mortality (TRM)</measure>
+    <time_frame>Day 100</time_frame>
+    <description>Incidence of treatment related mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Treatment Related Mortality (TRM)</measure>
+    <time_frame>1 Year</time_frame>
+    <description>Incidence of treatment related mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Relapse-free Survival (RFS)</measure>
+    <time_frame>At complete remission, relapse, or death</time_frame>
+    <description>Incidence of Relapse-free Survival (RFS)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C: Event-free Survival (EFS)</measure>
+    <time_frame>1 Year post treatment</time_frame>
+    <description>Event-free survival (EFS) from the date of the CAR-T infusion through 1 year post treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Overall Survival (OS)</measure>
+    <time_frame>Date of Death</time_frame>
+    <description>Incidence of Overall Survival (OS) from the date of the CAR-T infusion through the date of patient death for any reason</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Arms B/C/D: Toxicity</measure>
+    <time_frame>Day 28</time_frame>
+    <description>Proportion of patients developing grade 3, 4 targeted toxicity of CRS and/or neurotoxicity</description>
+  </secondary_outcome>
+  <number_of_groups>4</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Acute Lymphoblastic Leukemia</condition>
+  <condition>Large B-cell Lymphoma</condition>
+  <arm_group>
+    <arm_group_label>ARM A: Refractory/relapsed B-cell acute lymphoblastic leukemia (ALL)</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ARM B: Yescarta for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ARM C: Kymriah for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm D: Tecartus CAR-T product for Mantle Cell Leukemia (MCL)</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>KYMRIAH</intervention_name>
+    <description>FDA approved CD19-directed genetically modified autologous T cell immunotherapy comprised of autologous T cells</description>
+    <arm_group_label>ARM A: Refractory/relapsed B-cell acute lymphoblastic leukemia (ALL)</arm_group_label>
+    <arm_group_label>ARM C: Kymriah for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+    <other_name>tisagenlecleucel</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>YESCARTA</intervention_name>
+    <description>CD19-directed genetically modified autologous T cell immunotherapy</description>
+    <arm_group_label>ARM B: Yescarta for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fludarabine 30mg/m2 4 doses</intervention_name>
+    <description>30 mg/m2 IV daily for 4 doses</description>
+    <arm_group_label>ARM A: Refractory/relapsed B-cell acute lymphoblastic leukemia (ALL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Cyclophosphamide 500 mg/m2; 2 doses</intervention_name>
+    <description>500 mg/m2 IV daily for 2 doses starting with the first dose of fludarabine</description>
+    <arm_group_label>ARM A: Refractory/relapsed B-cell acute lymphoblastic leukemia (ALL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fludarabine 30mg/m2 3 doses</intervention_name>
+    <description>30 mg/m2 IV daily for 3 doses</description>
+    <arm_group_label>ARM B: Yescarta for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+    <arm_group_label>Arm D: Tecartus CAR-T product for Mantle Cell Leukemia (MCL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Cyclophosphamide 500 mg/m2; 3 doses</intervention_name>
+    <description>500 mg/m2 IV daily for 3 doses starting with the first dose of fludarabine</description>
+    <arm_group_label>ARM B: Yescarta for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+    <arm_group_label>Arm D: Tecartus CAR-T product for Mantle Cell Leukemia (MCL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Fludarabine 25mg/m2 3 days</intervention_name>
+    <description>25 mg/m2 i.v. daily for 3 days</description>
+    <arm_group_label>ARM C: Kymriah for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Cyclophosphamide 250 mg/m2; 3 days</intervention_name>
+    <description>250 mg/m2 IV daily for 3 days starting with the first dose of fludarabine</description>
+    <arm_group_label>ARM C: Kymriah for Refractory diffuse large B cell lymphoma (DLBCL)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tecartus</intervention_name>
+    <description>TECARTUS is a CD19-directed genetically modified autologous T cell immunotherapy, binds to CD19-expressing cancer cells and normal B cells</description>
+    <arm_group_label>Arm D: Tecartus CAR-T product for Mantle Cell Leukemia (MCL)</arm_group_label>
+    <other_name>Brexucabtagene Autoleucel</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Study entry is open to patients 0 through 75 years of age with hematologic malignancies.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        ARM A: Kymriah for Refractory/relapsed B-cell acute lymphoblastic leukemia expressing CD19&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age and Disease Status&#xD;
+&#xD;
+               -  Must be age 0-25 years&#xD;
+&#xD;
+               -  Disease status: Relapsed and refractory pediatric B-cell ALL defined by one of&#xD;
+                  these:&#xD;
+&#xD;
+                    -  Primary induction failure with no complete remission after ≥2 cycles of&#xD;
+                       induction chemotherapy, or&#xD;
+&#xD;
+                    -  Patients with persistent minimal residual disease (MRD &gt;0.01% by flow&#xD;
+                       cytometry or persistent by cytogenetic or molecular assays) after ≥2 cycles&#xD;
+                       of consolidation chemotherapy, or&#xD;
+&#xD;
+                    -  Patients in 2nd or greater relapse of B-ALL or&#xD;
+&#xD;
+                    -  Patients with persistent CNS leukemia, or&#xD;
+&#xD;
+                    -  Down Syndrome or other congenital diseases assuming that they fit the&#xD;
+                       criteria for second or greater relapse or refractory leukemia, or&#xD;
+&#xD;
+                    -  Patients with Ph+ ALL are eligible if theywho have failed or are intolerant&#xD;
+                       to two lines of TKI assuming they fit the criteria for second or greater&#xD;
+                       relapse or are considered refractory.&#xD;
+&#xD;
+          -  Performance Status&#xD;
+&#xD;
+               -  Karnofsky (age ≥16 years) or Lansky (age &lt; 16 years) performance status ≥ 50% at&#xD;
+                  screening&#xD;
+&#xD;
+               -  ALC &gt;500/uL at screening (prior to apheresis) and absolute lymphocyte count &gt;/=&#xD;
+                  150/uL&#xD;
+&#xD;
+          -  Organ Function&#xD;
+&#xD;
+               -  Renal function defined as:&#xD;
+&#xD;
+                    -  A serum creatinine of ≤1.5 x ULN OR&#xD;
+&#xD;
+                    -  eGFR ≥ 50 mL/min/1.73 m2&#xD;
+&#xD;
+               -  Liver function defined as:&#xD;
+&#xD;
+                  ** ALT ≤ 5 times the ULN for age (unless due to disease)&#xD;
+&#xD;
+                  ** Bilirubin ≤ 2.0 mg/dl with the exception of patients with Gilbert syndrome;&#xD;
+                  may be included if their total bilirubin is ≤ 3.0 x ULN and direct bilirubin ≤&#xD;
+                  1.5 x ULN&#xD;
+&#xD;
+               -  Must have a minimum level of pulmonary reserve defined as ≤ Grade 1 dyspnea and&#xD;
+                  pulse oxygenation SpO2 &gt; 91% on room air&#xD;
+&#xD;
+               -  Hemodynamically stable and LVEF ≥ 45% confirmed by echocardiogram or MUGA&#xD;
+&#xD;
+          -  Other Inclusion Criteria&#xD;
+&#xD;
+               -  Life expectancy ≥12 weeks&#xD;
+&#xD;
+               -  Women of child bearing potential and sexually active males with partners of child&#xD;
+                  bearing potential must agree to use adequate birth control for the duration of&#xD;
+                  treatment.&#xD;
+&#xD;
+               -  Written voluntary consent (adults) or parental/guardian consent (minors or adults&#xD;
+                  with diminished capacity) prior to the performance of any research related tests&#xD;
+                  or procedures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breastfeeding - Females of childbearing potential must have a blood test&#xD;
+             or urine study within 14 days prior to registration to rule out pregnancy.&#xD;
+&#xD;
+          -  Patients with Burkitt's lymphoma/leukemia (i.e. patients with mature B-cell ALL,&#xD;
+             leukemia with B-cell [sIg positive and kappa or lambda restricted positivity] ALL,&#xD;
+             with FAB L3 morphology and /or a MYC translocation)&#xD;
+&#xD;
+          -  CNS 2A&#xD;
+&#xD;
+          -  CAR-T is not indicated for the treatment of patients with primary central nervous&#xD;
+             system lymphoma.&#xD;
+&#xD;
+          -  Presence of Grade 2 to 4 acute or extensive chronic graft-versus-host disease (GVHD).&#xD;
+             All GVHD medication must be stopped 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Uncontrolled active hepatitis B or hepatitis C&#xD;
+&#xD;
+          -  Active HIV infection&#xD;
+&#xD;
+          -  Uncontrolled acute life threatening bacterial, viral or fungal infection (e.g. blood&#xD;
+             culture positive ≤ 72 hours prior to infusion)&#xD;
+&#xD;
+          -  Unstable angina and/or myocardial infarction within 1 month prior to CAR-T infusion&#xD;
+&#xD;
+          -  Investigational medicinal product within the last 7 days prior to apheresis or CAR-T&#xD;
+             infusion&#xD;
+&#xD;
+          -  Intolerance to the excipients of the CAR-T cell product&#xD;
+&#xD;
+          -  Any immunosuppressive medication must be stopped ≥ 2 weeks prior to enrollment.&#xD;
+&#xD;
+          -  Patient has taken one of the prohibited concomitant medications within the timeframe&#xD;
+             outlined in section 6.1&#xD;
+&#xD;
+        ARM B: Yescarta for Relapsed or Refractory diffuse large B cell lymphoma&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age and Disease Status&#xD;
+&#xD;
+               -  Adult patients (age ≥ 18 years)Patients must be ≥18 years of age&#xD;
+&#xD;
+               -  One of the following histologies and expression of CD19 by tumor cells:&#xD;
+&#xD;
+                  ** diffuse large B-cell lymphoma (DLBCL) not otherwise specified, or&#xD;
+&#xD;
+                  ** primary mediastinal large B-cell lymphoma, or&#xD;
+&#xD;
+                  ** high grade B-cell lymphoma, or&#xD;
+&#xD;
+                  ** DLBCL arising from follicular lymphoma&#xD;
+&#xD;
+               -  Disease status:&#xD;
+&#xD;
+                  ** Chemotherapy refractory disease after ≥2 lines of chemotherapy, or&#xD;
+&#xD;
+                  ** Relapsed with no remission after ≥1 lines of salvage chemotherapy, or&#xD;
+&#xD;
+                  ** Relapsed following autologous HCT (and failed at least 2 prior lines of&#xD;
+                  therapy including high dose chemotherapy). If salvage therapy is given post&#xD;
+                  autoHCT, the subject must have no response or relapse after the last line of&#xD;
+                  therapy&#xD;
+&#xD;
+               -  Measurable disease at time of apheresis: Nodal lesions or extranodal lesion&#xD;
+&#xD;
+               -  ECOG performance status 0-2&#xD;
+&#xD;
+               -  ALC &gt;/=100/uL at screening (prior to apheresis)&#xD;
+&#xD;
+               -  Renal function defined as:&#xD;
+&#xD;
+                  ** A serum creatinine of ≤1.5 x ULN OR&#xD;
+&#xD;
+                  ** eGFR ≥ 50 mL/min/1.73 m2&#xD;
+&#xD;
+               -  Liver function defined as:&#xD;
+&#xD;
+                    -  ALT ≤ 5 times the ULN for age (unless due to disease)&#xD;
+&#xD;
+                    -  Bilirubin ≤ 2.0 mg/dl with the exception of patients with Gilbert syndrome;&#xD;
+                       may be included if their total bilirubin is ≤ 3.0 x ULN and direct bilirubin&#xD;
+                       ≤ 1.5 x ULN&#xD;
+&#xD;
+               -  Must have a minimum level of pulmonary reserve defined as ≤ Grade 1 dyspnea and&#xD;
+                  pulse oxygenation SpO2 &gt; 91% on room air&#xD;
+&#xD;
+               -  Hemodynamically stable and LVEF ≥ 45% confirmed by echocardiogram or MUGA&#xD;
+&#xD;
+               -  Adequate bone marrow reserve (unless marrow infiltrated by disease) defined as :&#xD;
+&#xD;
+                    -  Absolute neutrophil count (ANC) &gt; 1.000/mm3 (only for NHL)&#xD;
+&#xD;
+                    -  Platelets ≥ 50.000/mm3 (transfusion support can be provided)&#xD;
+&#xD;
+                    -  Hemoglobin &gt;8.0 mg/dl (transfusion support can be provided)&#xD;
+&#xD;
+               -  Life expectancy ≥12 weeks&#xD;
+&#xD;
+               -  Women of child bearing potential and sexually active males with partners of child&#xD;
+                  bearing potential must agree to use adequate birth control for the duration of&#xD;
+                  treatment.&#xD;
+&#xD;
+               -  Written voluntary consent (adults) or parental/guardian consent (minors or adults&#xD;
+                  with diminished capacity) prior to the performance of any research related tests&#xD;
+                  or procedures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breastfeeding - Females of childbearing potential must have a blood test&#xD;
+             or urine study within 14 days prior to registration to rule out pregnancy.&#xD;
+&#xD;
+          -  Active CNS involvement by malignancy (no evidence of disease in CSF by flow cytometry)&#xD;
+             CAR-T is not indicated for the treatment of patients with primary central nervous&#xD;
+             system lymphoma.&#xD;
+&#xD;
+          -  Presence of Grade 2 to 4 acute or extensive chronic graft-versus-host disease (GVHD).&#xD;
+             All GVHD medication must be stopped 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Uncontrolled active hepatitis B or hepatitis C&#xD;
+&#xD;
+          -  Active HIV infection (controlled HIV is permissible)&#xD;
+&#xD;
+          -  Uncontrolled acute life threatening bacterial, viral or fungal infection (e.g. blood&#xD;
+             culture positive ≤ 72 hours prior to infusion)&#xD;
+&#xD;
+          -  Unstable angina and/or myocardial infarction within 1 month prior to CAR-T infusion&#xD;
+&#xD;
+          -  Investigational medicinal product within the last 7 days prior to apheresis or CAR-T&#xD;
+             infusion&#xD;
+&#xD;
+          -  Intolerance to the excipients of the CAR-T cell product&#xD;
+&#xD;
+          -  Any immunosuppressive medication must be stopped ≥ 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Patient has taken one of the prohibited concomitant medications within the timeframe.&#xD;
+&#xD;
+        ARM C: Kymriah for rRelapsed or rRefractory diffuse large B cell lymphoma&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age and Disease Status&#xD;
+&#xD;
+               -  Adult patients (age ≥ 18 years)&#xD;
+&#xD;
+               -  with relapsed or refractory (r/r) large B-cell lymphoma, including&#xD;
+&#xD;
+                    -  diffuse large B-cell lymphoma (DLBCL) not otherwise specified,&#xD;
+&#xD;
+                    -  high grade B-cell lymphoma&#xD;
+&#xD;
+                    -  and DLBCL arising from follicular lymphoma.&#xD;
+&#xD;
+               -  Disease status:&#xD;
+&#xD;
+                    -  after two or more lines of systemic therapy or&#xD;
+&#xD;
+                    -  relapse after autologous HCT&#xD;
+&#xD;
+          -  Performance Status&#xD;
+&#xD;
+               -  ECOG performance status 0-2&#xD;
+&#xD;
+               -  ALC &gt;/=100/uL at screening (prior to apheresis)&#xD;
+&#xD;
+          -  Organ Function&#xD;
+&#xD;
+               -  Renal function defined as:&#xD;
+&#xD;
+                    -  A serum creatinine of ≤1.5 x ULN OR&#xD;
+&#xD;
+                    -  eGFR ≥ 50 mL/min/1.73 m^2&#xD;
+&#xD;
+               -  Liver function defined as:&#xD;
+&#xD;
+                    -  ALT ≤ 5 times the ULN for age (unless due to disease)&#xD;
+&#xD;
+                    -  Bilirubin ≤ 2.0 mg/dl with the exception of patients with Gilbert syndrome;&#xD;
+                       may be included if their total bilirubin is ≤ 3.0 x ULN and direct bilirubin&#xD;
+                       ≤ 1.5 x ULN&#xD;
+&#xD;
+               -  Must have a minimum level of pulmonary reserve defined as ≤ Grade 1 dyspnea and&#xD;
+                  pulse oxygenation SpO2 &gt; 91% on room air&#xD;
+&#xD;
+               -  Hemodynamically stable and LVEF ≥ 45% confirmed by echocardiogram or MUGA&#xD;
+&#xD;
+               -  Adequate bone marrow reserve (unless marrow infiltrated by disease) defined as :&#xD;
+&#xD;
+                    -  Absolute neutrophil count (ANC) &gt; 1.000/mm3 (only for NHL)&#xD;
+&#xD;
+                    -  Platelets ≥ 50.000/mm3 (transfusion support can be provided)&#xD;
+&#xD;
+                    -  Hemoglobin &gt;8.0 mg/dl (transfusion support can be provided)&#xD;
+&#xD;
+          -  Other Inclusion Criteria&#xD;
+&#xD;
+               -  Life expectancy ≥12 weeks&#xD;
+&#xD;
+               -  Women of child bearing potential and sexually active males with partners of child&#xD;
+                  bearing potential must agree to use adequate birth control for the duration of&#xD;
+                  treatment.&#xD;
+&#xD;
+               -  Written voluntary consent (adults) or parental/guardian consent (minors or adults&#xD;
+                  with diminished capacity) prior to the performance of any research related tests&#xD;
+                  or procedures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breastfeeding - Females of childbearing potential must have a blood test&#xD;
+             or urine study within 14 days prior to registration to rule out pregnancy.&#xD;
+&#xD;
+          -  Active CNS involvement by malignancy (no evidence of disease in CSF by flow cytometry)&#xD;
+             CAR-T is not indicated for the treatment of patients with primary central nervous&#xD;
+             system lymphoma.&#xD;
+&#xD;
+          -  Presence of Grade 2 to 4 acute or extensive chronic graft-versus-host disease (GVHD).&#xD;
+             All GVHD medication must be stopped 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Uncontrolled active hepatitis B or hepatitis C&#xD;
+&#xD;
+          -  Active or inactive HIV infection&#xD;
+&#xD;
+          -  Uncontrolled acute life threatening bacterial, viral or fungal infection (e.g. blood&#xD;
+             culture positive ≤ 72 hours prior to infusion)&#xD;
+&#xD;
+          -  Unstable angina and/or myocardial infarction within 1 month prior to CAR-T infusion&#xD;
+&#xD;
+          -  Investigational medicinal product within the last 7 days prior to apheresis or CAR-T&#xD;
+             infusion&#xD;
+&#xD;
+          -  Intolerance to the excipients of the CAR-T cell product&#xD;
+&#xD;
+          -  Any immunosuppressive medication must be stopped ≥ 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Patient has taken one of the prohibited concomitant medications within the timeframe&#xD;
+&#xD;
+        ARM D: Tecartus (Brexucabtagene Autoleucel) for relapsed or refractory mantle cell lymphoma&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age and Disease Status&#xD;
+&#xD;
+             * with relapsed or refractory (r/r) mantle cell lymphoma, including&#xD;
+&#xD;
+               -  prior anthracycline or Bendamustine containing therapy&#xD;
+&#xD;
+               -  prior Rituximab or other CD20 directed antibody (or inability to treat with CD20&#xD;
+                  MoAb)&#xD;
+&#xD;
+               -  not a candidate or relapse after autologous HCT&#xD;
+&#xD;
+               -  active disease at enrollment&#xD;
+&#xD;
+          -  Performance Status&#xD;
+&#xD;
+             *ECOG performance status 0-1&#xD;
+&#xD;
+          -  Organ Function&#xD;
+&#xD;
+               -  Renal function defined as:&#xD;
+&#xD;
+                    -  A serum creatinine of ≤1.5 x ULN OR&#xD;
+&#xD;
+                    -  eGFR ≥ 50 mL/min/1.73 m2&#xD;
+&#xD;
+               -  Liver function defined as:&#xD;
+&#xD;
+                    -  ALT ≤ 5 times the ULN for age (unless due to disease)&#xD;
+&#xD;
+                    -  Bilirubin ≤ 2.0 mg/dl with the exception of patients with Gilbert syndrome;&#xD;
+                       may be included if their total bilirubin is ≤ 3.0 x ULN and direct bilirubin&#xD;
+                       ≤ 1.5 x ULN&#xD;
+&#xD;
+          -  Must have a minimum level of pulmonary reserve defined as ≤ Grade 1 dyspnea and pulse&#xD;
+             oxygenation SpO2 &gt; 91% on room air&#xD;
+&#xD;
+          -  Hemodynamically stable and LVEF ≥ 45% confirmed by echocardiogram or MUGA&#xD;
+&#xD;
+          -  Adequate bone marrow reserve (unless marrow infiltrated by disease) defined as:&#xD;
+&#xD;
+          -  Absolute neutrophil count (ANC) &gt; 1,000/mm^3 (only for NHL)&#xD;
+&#xD;
+          -  Platelets ≥ 50,000/mm^3 (transfusion support can be provided)&#xD;
+&#xD;
+          -  Hemoglobin &gt;8.0 mg/dl (transfusion support can be provided)&#xD;
+&#xD;
+        Other Inclusion Criteria:&#xD;
+&#xD;
+          -  Life expectancy ≥12 weeks&#xD;
+&#xD;
+          -  Women of child bearing potential and sexually active males with partners of child&#xD;
+             bearing potential must agree to use adequate birth control for the duration of&#xD;
+             treatment. See section 4.5 for definitions of child bearing potential and section 4.6&#xD;
+             for definitions of adequate birth control.&#xD;
+&#xD;
+          -  Written voluntary consent (adults) or parental/guardian consent (minors or adults with&#xD;
+             diminished capacity) prior to the performance of any research related tests or&#xD;
+             procedures.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breastfeeding - Females of childbearing potential must have a blood test&#xD;
+             or urine study within 14 days prior to registration to rule out pregnancy.&#xD;
+&#xD;
+          -  Active CNS involvement by malignancy (no evidence of disease in CSF by flow cytometry)&#xD;
+             CAR-T is not indicated for the treatment of patients with primary central nervous&#xD;
+             system lymphoma.&#xD;
+&#xD;
+          -  Presence of Grade 2 to 4 acute or extensive chronic graft-versus-host disease (GVHD).&#xD;
+             All GVHD medication must be stopped 2 weeks prior to apheresis.&#xD;
+&#xD;
+          -  Uncontrolled active hepatitis B or hepatitis C&#xD;
+&#xD;
+          -  Active HIV infection&#xD;
+&#xD;
+          -  Uncontrolled acute life threatening bacterial, viral or fungal infection (e.g. blood&#xD;
+             culture positive ≤ 72 hours prior to infusion)&#xD;
+&#xD;
+          -  Unstable angina and/or myocardial infarction within 1 month prior to CAR-T infusion&#xD;
+&#xD;
+          -  Investigational medicinal product within the last 7 days prior to apheresis or CAR-T&#xD;
+             infusion&#xD;
+&#xD;
+          -  Intolerance to the excipients of the CAR-T cell product&#xD;
+&#xD;
+          -  Any immunosuppressive medication must be stopped ≥ 2 weeks prior to apheresis&#xD;
+             (steroids must be stopped &gt;72 hours prior to apheresis).&#xD;
+&#xD;
+          -  Patient has taken one of the prohibited concomitant medications within the timeframe&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Veronika Bachanova, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Masonic Cancer Center, University of Minnesota</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Tamy Grainger, RN</last_name>
+    <phone>612-273-2800</phone>
+    <email>tgraing1@fairview.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Carol Rose</last_name>
+    <phone>612-273-2800</phone>
+    <email>crose1@faireview.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Masonic Cancer Center at University of Minnesota</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55455</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tamy Grainger, RN</last_name>
+      <phone>612-273-2800</phone>
+      <email>tgraing1@fairview.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>August 21, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 21, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 22, 2018</study_first_posted>
+  <last_update_submitted>May 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 25, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>ALL</keyword>
+  <keyword>CAR-T</keyword>
+  <keyword>CAR19-T</keyword>
+  <keyword>chimeric antigen receptor T cells</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Precursor Cell Lymphoblastic Leukemia-Lymphoma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Vidarabine</mesh_term>
+    <mesh_term>Cyclophosphamide</mesh_term>
+    <mesh_term>Fludarabine</mesh_term>
+    <mesh_term>Fludarabine phosphate</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

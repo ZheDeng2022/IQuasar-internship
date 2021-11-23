@@ -1,0 +1,263 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04985981</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PANIC</org_study_id>
+    <nct_id>NCT04985981</nct_id>
+  </id_info>
+  <brief_title>Development and External Validation of an International, Multicenter Machine Learning Algorithm for Prediction of Anastomotic Insufficiency After Colonic or Colorectal Anastomosis The Prediction of Anastomotic Insufficiency Risk After Colorectal Surgery (PANIC) Study</brief_title>
+  <official_title>Development and External Validation of an International, Multicenter Machine Learning Algorithm for Prediction of Anastomotic Insufficiency After Colonic or Colorectal Anastomosis The Prediction of Anastomotic Insufficiency Risk After Colorectal Surgery (PANIC) Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kantonsspital Winterthur KSW</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cantonal Hospital of St. Gallen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Geneva</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Clarunis - Universitäres Bauchzentrum Basel</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Basel, Switzerland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Kantonsspital Winterthur KSW</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Prediction of Anastomotic Insufficiency risk after Colorectal surgery (PANIC) study aims&#xD;
+      to establish a machine-learning-based application that allows for accurate preoperative&#xD;
+      prediction of patients at risk for anastomotic insufficiency after colon and colorectal&#xD;
+      surgery.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colorectal anastomotic leaks or anastomotic insufficiency lead to consequential clinical and&#xD;
+      economic strain on patients, and significantly increases morbidity and mortality. On average,&#xD;
+      hospital stay is extended by 12 days while healthcare-related expenses are increased by&#xD;
+      30'000 US$ in patients who suffered from an anastomotic leak. In experienced centers, 3.3% is&#xD;
+      the approximated incidence of anastotic insufficiency after colon anastomoses, with 8.6% for&#xD;
+      colorectal anastomoses. Multiple subgroups of patients with increased hazard for anastomotic&#xD;
+      leaks have been found. Meticulous preoperative recognition of patients with heightened risk&#xD;
+      for anastomotic insufficiency is clinically beneficial, as it would permit improved resource&#xD;
+      preparation, enhanced patient education and informed consent, superior surgical&#xD;
+      decision-making, and possibly even adjustment of specific risk factors. However, it is often&#xD;
+      futile for clinicians to try balancing the many crucial risk factors for anastomotic leaks to&#xD;
+      attain a personalized risk profile for a single patient. Machine learning methods have been&#xD;
+      exceptionally competent at incorporating various clinical patient variables into one unified&#xD;
+      risk prediction model designed specifically for each patient. To the authors' best knowledge,&#xD;
+      there does not yet exist a credible prediction model or a conclusive prediction score for&#xD;
+      anastomotic insufficiency after colon and colorectal anastomosis. The aim of the Prediction&#xD;
+      of Anastomotic Insufficiency risk after Colorectal surgery (PANIC) study is to establish and&#xD;
+      externally validate an efficient machine-learning-based prediction tool based on multicenter&#xD;
+      data from a range of international centers.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>Anastomotic leakage</measure>
+    <time_frame>5 years</time_frame>
+    <description>Anastomotic insufficiency/leakage is defined as any clinical signs of leakage, confirmed by radiological examination, endoscopy, clinical examination of the anastomosis, or upon reoperation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Death</measure>
+    <time_frame>90 days</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to diagnosis of anastomotic leak</measure>
+    <time_frame>90 days</time_frame>
+    <description>Time to diagnosis of a leakage will be calculated as days between the index operation and diagnosis of the leakage by imaging with extraluminal contrast, endoscopy, reoperation, or when fecal containing fluid is objectified in a drainage.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Disease-free survival (months)</measure>
+    <time_frame>5 years</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Overall survival (months)</measure>
+    <time_frame>5 years</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Adjuvant/additive immunochemotherapy (yes/no)</measure>
+    <time_frame>5 years</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Adjuvant/additive radiotherapy (yes/no)</measure>
+    <time_frame>5 years</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Additive curative surgery (no/yes: liver; lung; locoragional relapse)</measure>
+    <time_frame>5 years</time_frame>
+  </other_outcome>
+  <enrollment type="Anticipated">11000</enrollment>
+  <condition>Anastomotic Leak</condition>
+  <condition>Colorectal Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who underwent colocolic or colorectal anastomosis for neoplasia, diverticulitis,&#xD;
+        mesenterial ischemia, iatrogenic or traumatic perforation, or inflammatory bowel disease&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients who underwent colocolic or colorectal anastomosis for neoplasia,&#xD;
+             diverticulitis, mesenterial ischemia, iatrogenic or traumatic perforation, or&#xD;
+             inflammatory bowel disease&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  age &lt; 18&#xD;
+&#xD;
+          -  recurrent colorectal cancer&#xD;
+&#xD;
+          -  peritoneal carcinomatosis or unresectable metastatic disease at time of bowel&#xD;
+             resection&#xD;
+&#xD;
+          -  informed consent not obtainable&#xD;
+&#xD;
+          -  follow-up &lt; 6 weeks after surgery&#xD;
+&#xD;
+          -  no reversal of and ostomy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michel Adamina, Prof. Dr. med.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Clinical Research and Artificial Intelligence in Surgery, Department of Biomedical Engineering, University of Basel, Allschwil, Switzerland</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Anas Taha, Dr. med.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Clinical Research and Artificial Intelligence in Surgery, Department of Biomedical Engineering, University of Basel, Allschwil, Switzerland</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Ahmad Hendie</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Electrical and Computer engineering, University of McGill, Montreal, Canada</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stephanie Taha-Mehlitz, Dr. med.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Visceral Surgery, Clarunis, University Hospital Basel, Basel, Switzerland</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Tobias Staudner</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Clinical Research and Artificial Intelligence in Surgery, Department of Biomedical Engineering, University of Basel, Allschwil, Switzerland</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Michel Adamina, Prof. Dr. med</last_name>
+    <phone>+ 41 52 266 33 76</phone>
+    <email>michel.adamina@ksw.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Anas Taha, Dr. med.</last_name>
+    <phone>+41 61 207 54 02</phone>
+    <email>anas.taha@unibas.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Clinical Research and Artificial Intelligence in Surgery, Department of Biomedical Engineering, University of Basel, Allschwil, Switzerland</name>
+      <address>
+        <city>Allschwil</city>
+        <state>Basel</state>
+        <zip>4123</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Kantonsspital Winterthur</name>
+      <address>
+        <city>Winterthur</city>
+        <state>Zürich</state>
+        <zip>8401</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michel Adamina, Prof/MD/MSc</last_name>
+      <phone>+41522663634</phone>
+      <email>michel.adamina@ksw.ch</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 2, 2021</study_first_posted>
+  <last_update_submitted>July 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Basel</investigator_affiliation>
+    <investigator_full_name>Anas Taha</investigator_full_name>
+    <investigator_title>Dr. med.</investigator_title>
+  </responsible_party>
+  <keyword>Anastomotic Leak</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Anastomotic Leak</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>July 22, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/81/NCT04985981/Prot_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

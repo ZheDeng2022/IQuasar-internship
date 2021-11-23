@@ -1,0 +1,469 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04578665</url>
+  </required_header>
+  <id_info>
+    <org_study_id>STU00212684</org_study_id>
+    <nct_id>NCT04578665</nct_id>
+  </id_info>
+  <brief_title>Human-like Robotic Controllers for Enhanced Motor Learning</brief_title>
+  <acronym>HRCEML</acronym>
+  <official_title>Human-like Robotic Controllers for Enhanced Motor Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shirley Ryan AbilityLab</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shirley Ryan AbilityLab</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop a new paradigm to understand how humans physically&#xD;
+      interact with each other at a single and at multiple joints, with multiple contact points, so&#xD;
+      as to synthesize robot controllers that can exhibit human-like behavior when interacting with&#xD;
+      humans (e.g., exoskeleton) or other co-robots. The investigators will develop models for a&#xD;
+      single joint robot (i.e. at the ankle joint) that can vary its haptic behavioral interactions&#xD;
+      at variable impedances, and replicate in a multi-joint robot (i.e. at the ankle, knee, and&#xD;
+      hip joints). The investigators will collect data from healthy participants and clinical&#xD;
+      populations to create a controller based on our models to implement in the robots. Then, the&#xD;
+      investigators will test our models via the robots to investigate the mechanisms underlying&#xD;
+      enhanced motor learning during different human-human haptic interaction behaviors (i.e.&#xD;
+      collaboration, competition, and cooperation. This study will be carried out in healthy&#xD;
+      participants, participants post-stroke, and participants with spinal cord injury (SCI).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators will look at how the task performance and motor performance of individuals&#xD;
+      in dyadic physical interactions are affected by 1) different behavioral interaction&#xD;
+      conditions (i.e., solo task, collaboration task, competition task, or cooperation task); 2)&#xD;
+      the haptic impedance or stiffness of the virtual connection between dyadic peers (i.e., hard&#xD;
+      connection, medium connection, or soft connection); and 3) the skill level of the other&#xD;
+      partner (i.e., novice or expert). The investigators will be using both an ankle robot (M1&#xD;
+      device) and a bilateral lower limb exoskeleton (H3/X2 device), and will collect EMG and EEG&#xD;
+      data.&#xD;
+&#xD;
+      For Experiment A , the investigators will recruit healthy volunteers (n = 180) to work in&#xD;
+      dyadic pairs. With the collected data, the investigators will model how humans adapt force&#xD;
+      and impedance and share roles/specialize during various dyadic interaction behaviors, and use&#xD;
+      this knowledge to develop robot controllers that mimic movement error and force adaptation&#xD;
+      for enhanced motor performance.&#xD;
+&#xD;
+      For Experiment B , the investigators will recruit healthy volunteers (n = 180), participants&#xD;
+      post-stroke (n = 72) and participants post-SCI (n = 72) to work in dyadic pairs within each&#xD;
+      population. The investigators will test the robot controllers following the models for&#xD;
+      mechanical adaptation and role sharing strategies between peers based on Experiment A. The&#xD;
+      investigators will also monitor single-joint and multi-joint movement error and force&#xD;
+      adaptation in regards to enhanced motor performance. The investigators will assess if the&#xD;
+      robot controllers can pass a &quot;haptic Turing Test&quot;, rendering them indistinguishable with&#xD;
+      respect to human peers.&#xD;
+&#xD;
+      For Experiment C, the investigators will showcase the robot controllers by interfacing with&#xD;
+      participants post-stroke (n = 20) and participants post-SCI (n = 20) with the single-joint&#xD;
+      and multi-joint assistive robots to observe motor learning and functional outcomes with 10&#xD;
+      training sessions per robot.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 13, 2021</start_date>
+  <completion_date type="Anticipated">December 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The purpose of this study is to develop a new paradigm to understand how humans physically interact with each other at a single and at multiple joints, with multiple contact points, so as to synthesize robot controllers that can exhibit human-like behavior when interacting with humans (e.g., exoskeleton) or other co-robots.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in lower limb motor control.</measure>
+    <time_frame>Motor control will be measured all 10 sessions through study completion, an average of 12 weeks.</time_frame>
+    <description>Lower limb motor control will be assessed through analysis of tracking movements to a target trajectory. If the tracking error decreases, this corresponds to motor control improvement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in motor output from surface EMG of lower limb muscles</measure>
+    <time_frame>Change of motor output at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>For Experiment A and B with M1: the surface EMG activation patterns of the gastrocnemius and tibialis anterior muscles will be collected. For Experiment A and B with H3/X2, the surface EMG of the gluteus maximus, biceps femoris, tensor fasciae latae, rectus femoris, vastus lateralis, gastrocnemius medialis, soleus, and tibialis anterior muscles will be collected.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in 6 minute walking test.</measure>
+    <time_frame>Change of ambulation distance at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Physical function test measuring the total distance walked in a span of six minutes will be assessed. A shorter time indicates improvement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in 10 meter walking test.</measure>
+    <time_frame>Change of ambulation distance at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Physical function test measuring the walking speed in a span of 10 meters will be assessed. A shorter time indicates improvement in walking speed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Modified Ashworth Scale.</measure>
+    <time_frame>Change in score at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Spasticity of lower extremity muscles will be assessed using the Modified Ashworth Scale. The minimum score of 0 means no increase in spasticity and the maximum score of 4 means the body part is rigid in flexion or extension. A lower score indicates a better outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in BERG balance scale (BBS)</measure>
+    <time_frame>Change of score at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Static and dynamic sitting and standing balance will be assessed using the BERG balance scale. The scale ranges from 0 to 56, and a higher score indicates better balance and decreased fall risk.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in functional gait assessment (FGA)</measure>
+    <time_frame>Change in score at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Balance while walking will be assessed using the functional gait assessment (FGA). This has a scale of 0 to 30, with the higher score indicating better balance and decreased fall risk.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in strength via dynamometer testing.</measure>
+    <time_frame>Change in strength at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Change in strength will be assessed via the maximum voluntary contraction for joints with a dynamometer.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in stride variability.</measure>
+    <time_frame>Change in stride variability at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Stride variability is the ratio between the standard-deviation and mean of stride time, expressed as percentage. Decreased variability indicates a better outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in cadence.</measure>
+    <time_frame>Change in number of steps at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Cadence is the total number of steps taken within a given time period; often expressed per minute. Typically a higher number of steps is a better outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in step length.</measure>
+    <time_frame>Change in distance at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Step length is the distance between the point of initial contact of one foot and the point of initial contact of the opposite foot. Typically a longer step length is a better outcome, ideally with equal measurements between left and right limbs.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in stride length.</measure>
+    <time_frame>Change in distance at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Stride length is the distance between successive points of initial contact of the same foot. Right and left stride lengths are normally equal. Typically a longer stride length is a better outcome, ideally with equal measurements between left and right limbs.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in stance time.</measure>
+    <time_frame>Change in stance time at baseline, midpoint of intervention after 10 training sessions with assistive robot, and endpoint after 10 additional training sessions with the other assistive robot through participant completion, an average of 5 months.</time_frame>
+    <description>Stance time is the amount of time that passes during the stance phase of one extremity in a gait cycle. It includes single support and double support. Equal stance time between limbs is a better outcome.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">544</enrollment>
+  <condition>Stroke</condition>
+  <condition>Spinal Cord Injuries</condition>
+  <arm_group>
+    <arm_group_label>Healthy Participants Ankle Robot (M1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The investigators will look at how the task performance and motor performance of individuals in dyadic physical interactions are affected.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Participants Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The investigators will look at how the task performance and motor performance of individuals in dyadic physical interactions are affected.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Clinical Populations Ankle Robot (M1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The investigators will look at how the task performance and motor performance of individuals in dyadic physical interactions are affected.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Clinical Populations Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The investigators will look at how the task performance and motor performance of individuals in dyadic physical interactions are affected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Behavioral Interaction Conditions</intervention_name>
+    <description>The participants will be single-blinded and complete a tracking task as either: solo task, collaboration task (both participants work on a common task synchronously to achieve a goal; this is a summative effort to achieve the goal), competition task (each participant has to achieve a goal at the expense of his or her partner, therefore maximizing effort or error of the partner in reaching the goal), or cooperation task (an asymmetric partnership with an active partner and a passive partner working towards a goal).</description>
+    <arm_group_label>Clinical Populations Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Clinical Populations Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+    <arm_group_label>Healthy Participants Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Healthy Participants Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Haptic Impedance Level</intervention_name>
+    <description>The subjects will complete their task at 3 impedance levels: high (a virtual stiffness 160-200 N/m and damping 0~10 Nm/s; this will be a stiff connection in which the subjects feel like they are connected via rigid links and each subject will perceive the other partner's movement directly), medium (a virtual stiffness 100-140 N/m and damping 0~10 Nm/s; this will be a spring like-connection in which the subjects feel like they are connected with a spring and each subject will perceive the other partner with a force that is proportional to the trajectory difference of the two participants), and soft (a virtual stiffness 40-80 N/m and damping 0~10 Nm/s; this will be a spring like connection in which the subjects feel like they are connected with a loose spring and each subject will perceive the other partner with a force that is proportional to the trajectory difference of the two subjects, however, this force will be smaller than that of the medium impedance).</description>
+    <arm_group_label>Clinical Populations Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Clinical Populations Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+    <arm_group_label>Healthy Participants Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Healthy Participants Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Skill Level of Partner</intervention_name>
+    <description>There will be two skill levels: novice (a participant who has no prior experience with the trajectory tracking experiment; in testing with the clinical populations, the investigators will assign this condition to the clinical participant) and expert (a participant who is experienced with the trajectory tracking experiment and who can achieve a tracking error [difference of the desired trajectory and actual trajectory] below a certain threshold; in testing with the clinical population, the investigators will assign this condition to the therapist). Participants will start experimentation paired as novice-novice, and at the end of the session may be invited to continue additional sessions to be paired as the expert in a novice-expert dyad.</description>
+    <arm_group_label>Clinical Populations Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Clinical Populations Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+    <arm_group_label>Healthy Participants Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Healthy Participants Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Robot Controller Showcase</intervention_name>
+    <description>The subjects will complete 10 training sessions per assistive robot for the researchers to observe motor learning and functional outcomes.</description>
+    <arm_group_label>Clinical Populations Ankle Robot (M1)</arm_group_label>
+    <arm_group_label>Clinical Populations Bilateral Lower Limb Exoskeleton (H3/X2)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria for Healthy Participants:&#xD;
+&#xD;
+          -  Age from 18 to 80 years&#xD;
+&#xD;
+          -  No history of a brain and/or skull lesion&#xD;
+&#xD;
+          -  Normal hearing and vision, can be corrected&#xD;
+&#xD;
+          -  Able to understand and give informed consent&#xD;
+&#xD;
+          -  No neurological disorders&#xD;
+&#xD;
+          -  Absence of pathology that could cause abnormal movements of extremities (e.g.,&#xD;
+             epilepsy, stroke, marked arthritis, chronic pain, musculoskeletal injuries)&#xD;
+&#xD;
+          -  Able to understand and speak English&#xD;
+&#xD;
+          -  Height between 3 foot 6 inches (1.1 meters) and 6 foot 9 inches (2.1 meters)&#xD;
+&#xD;
+        Inclusion Criteria for Participants Post-Stroke:&#xD;
+&#xD;
+          -  Age from 18 to 80 years&#xD;
+&#xD;
+          -  History of unilateral, supratentorial, ischemic or hemorrhage stroke greater than 6&#xD;
+             month&#xD;
+&#xD;
+          -  Ability to walk &gt;10m independently on level ground, allowed to use assistive devices&#xD;
+             or bracing as needed&#xD;
+&#xD;
+          -  Self-selected walking speed is less than 0.8 meters/sec&#xD;
+&#xD;
+          -  Medically stable&#xD;
+&#xD;
+          -  No concurrent surgeries, medical treatments, participation in research or outpatient&#xD;
+             therapy&#xD;
+&#xD;
+          -  Normal hearing and vision, both can be corrected&#xD;
+&#xD;
+          -  Able to understand and give informed consent&#xD;
+&#xD;
+          -  Able to understand and speak English&#xD;
+&#xD;
+          -  Height between 3 foot 6 inches (1.1 meters) and 6 foot 9 inches (2.1 meters)&#xD;
+&#xD;
+        Inclusion Criteria for Participants with Spinal Cord Injury:&#xD;
+&#xD;
+          -  Age from 18 to 80 years&#xD;
+&#xD;
+          -  History of incomplete SCI injury (ASIA C or D) &gt; 6 months prior&#xD;
+&#xD;
+          -  Ability to walk &gt;10 m independently on level ground, allowed to use assistive devices&#xD;
+             or bracing as needed&#xD;
+&#xD;
+          -  Self-selected walking speed is less than 0.8 meters/sec&#xD;
+&#xD;
+          -  Medically stable&#xD;
+&#xD;
+          -  No concurrent surgeries, medical treatments, participation in research or outpatient&#xD;
+             therapy&#xD;
+&#xD;
+          -  Normal hearing and vision, both can be corrected&#xD;
+&#xD;
+          -  Able to understand and give informed consent&#xD;
+&#xD;
+          -  Able to understand and speak English&#xD;
+&#xD;
+          -  Height between 3 foot 6 inches (1.1 meters) and 6 foot 9 inches (2.1 meters)&#xD;
+&#xD;
+        Exclusion Criteria for Healthy Participants:&#xD;
+&#xD;
+          -  Weight over 220 lbs&#xD;
+&#xD;
+          -  Pregnancy (ruled out by pregnancy questionnaire)&#xD;
+&#xD;
+          -  Current presence of wounds or pressure ulcers&#xD;
+&#xD;
+          -  Multiple sclerosis, Parkinson's disease or other neurodegenerative disorder, severe&#xD;
+             dementia, brain injury, spinal cord injury, or cancer of the central nervous system&#xD;
+&#xD;
+          -  History of significant head trauma (i.e., extended loss of consciousness, neurological&#xD;
+             sequelae)&#xD;
+&#xD;
+          -  Known structural brain lesion&#xD;
+&#xD;
+          -  Significant other disease (heart disease, malignant tumors, mental disorders)&#xD;
+&#xD;
+          -  History or peripheral nerve injury&#xD;
+&#xD;
+          -  History of sustained non-prescribed drug use or substance abuse (exception: current&#xD;
+             nicotine use is allowed)&#xD;
+&#xD;
+          -  Prior neurosurgical procedures&#xD;
+&#xD;
+          -  Inability or unwillingness to perform study-required activities&#xD;
+&#xD;
+          -  Prisoners&#xD;
+&#xD;
+          -  Unable to meet SRAlab &quot;MRI Pre-Examination Screening Form&quot; requirements&#xD;
+&#xD;
+        Exclusion Criteria for Participants Post-Stroke:&#xD;
+&#xD;
+          -  Weight over 220 lbs&#xD;
+&#xD;
+          -  Pregnancy (ruled out by pregnancy test)&#xD;
+&#xD;
+          -  Botox (botulinum toxin) injection to lower limbs within the prior 3 months, or planned&#xD;
+             injection during study period.&#xD;
+&#xD;
+          -  Current presence of wounds or pressure ulcers&#xD;
+&#xD;
+          -  History of sustained non-prescribed drug use or substance abuse (exception: current&#xD;
+             nicotine use is allowed)&#xD;
+&#xD;
+          -  Reduced cognitive function&#xD;
+&#xD;
+          -  Severe aphasia&#xD;
+&#xD;
+          -  Prisoners&#xD;
+&#xD;
+          -  Co-existence of other neurological diseases (e.g., Parkinson's disease or other&#xD;
+             neurodegenerative disorder, severe dementia, brain injury, spinal cord injury,&#xD;
+             multiple sclerosis, or cancer of the central nervous system)&#xD;
+&#xD;
+          -  History or peripheral nerve injury&#xD;
+&#xD;
+          -  Severe hip, knee, or ankle arthritis&#xD;
+&#xD;
+          -  Recent fracture or osteoporosis&#xD;
+&#xD;
+          -  Significant spasticity in the lower limbs (≥3 on Modified Ashworth Scale)&#xD;
+&#xD;
+          -  Medical (cardiac, renal, hepatic, oncological) or psychiatric disease that would&#xD;
+             interfere with study procedures&#xD;
+&#xD;
+          -  Inability or unwillingness to perform study-required activities&#xD;
+&#xD;
+          -  Unable to meet SRAlab &quot;MRI Pre-Examination Screening Form&quot; requirements&#xD;
+&#xD;
+        Exclusion Criteria for Participants with Spinal Cord Injury:&#xD;
+&#xD;
+          -  Weight over 220 lbs&#xD;
+&#xD;
+          -  Pregnancy (ruled out by pregnancy test)&#xD;
+&#xD;
+          -  Botox (botulinum toxin) injection to lower limbs within the prior 3 months, or planned&#xD;
+             injection during study period&#xD;
+&#xD;
+          -  Current presence of wounds or pressure ulcers&#xD;
+&#xD;
+          -  History of sustained non-prescribed drug use or substance abuse (exception: current&#xD;
+             nicotine use is allowed)&#xD;
+&#xD;
+          -  Prisoners&#xD;
+&#xD;
+          -  Co-existence of other neurological diseases (e.g., Parkinson's disease or other&#xD;
+             neurodegenerative disorder, severe dementia, brain injury, spinal cord injury,&#xD;
+             multiple sclerosis, or cancer of the central nervous system)&#xD;
+&#xD;
+          -  History of peripheral nerve injury&#xD;
+&#xD;
+          -  Severe hip, knee, or ankle arthritis&#xD;
+&#xD;
+          -  Recent fracture or osteoporosis&#xD;
+&#xD;
+          -  Significant spasticity in the lower limbs ( ≥3 on Modified Ashworth Scale)&#xD;
+&#xD;
+          -  Medical (cardiac, renal, hepatic, oncological) or psychiatric disease that would&#xD;
+             interfere with study procedures&#xD;
+&#xD;
+          -  Inability or unwillingness to perform study-required activities&#xD;
+&#xD;
+          -  Unable to meet SRAlab &quot;MRI Pre-Examination Screening Form&quot; requirements&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jose Pons, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Shirley Ryan AbilityLab</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jose Pons, Ph.D</last_name>
+    <phone>312-238-4549</phone>
+    <email>jpons@sralab.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Grace Hoo, BS</last_name>
+    <phone>312-238-4548</phone>
+    <email>ghoo@sralab.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Shirley Ryan AbilityLab</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jose Pons, Ph.D</last_name>
+      <phone>312-238-4549</phone>
+      <email>jpons@sralab.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Grace Hoo, BS</last_name>
+      <phone>312-238-4548</phone>
+      <email>ghoo@sralab.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Jose Pons, Ph.D</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>August 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 8, 2020</study_first_posted>
+  <last_update_submitted>July 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shirley Ryan AbilityLab</investigator_affiliation>
+    <investigator_full_name>Jose Pons</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Stroke</keyword>
+  <keyword>Spinal Cord Injuries</keyword>
+  <keyword>Robotic Rehabilitation</keyword>
+  <keyword>Electromyography</keyword>
+  <keyword>Haptic Feedback</keyword>
+  <keyword>Dyad</keyword>
+  <keyword>Skill Level</keyword>
+  <keyword>Impedance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

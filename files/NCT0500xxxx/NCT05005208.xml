@@ -1,0 +1,256 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05005208</url>
+  </required_header>
+  <id_info>
+    <org_study_id>INRCA_001_2021</org_study_id>
+    <nct_id>NCT05005208</nct_id>
+  </id_info>
+  <brief_title>SocIal ROBOTics for Active and Healthy Ageing</brief_title>
+  <acronym>SI-ROBOTICS</acronym>
+  <official_title>SocIal ROBOTics for Active and Healthy Ageing</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Nazionale di Ricovero e Cura per Anziani</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministero dell'Università e della Ricerca, Italia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Istituto Nazionale di Ricovero e Cura per Anziani</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study was designed to test the acceptability of the Si-Robotics system in a group of 20&#xD;
+      subjects with Parkinson's Disease at an early stage, during a rehabilitation treatment based&#xD;
+      on Irish dancing. Assessments will be performed at the baseline and at the end of the&#xD;
+      treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study was designed to test the acceptability of the SI-ROBOTICS system in a group of 20&#xD;
+      subjects with Parkinson's Disease at an early stage during a rehabilitation treatment.&#xD;
+&#xD;
+      The SI-ROBOTICS system is composed of multiple technological components with the aim of&#xD;
+      facilitating a rehabilitation program based on Irish dance and encouraging the execution of&#xD;
+      dance steps. The SI-ROBOTICS system consists of:&#xD;
+&#xD;
+        -  ROBOTIC PLATFORM: a social robot that allows the monitoring of patients during sessions,&#xD;
+           moving around patients safely and, if necessary, intervening in their support.&#xD;
+&#xD;
+        -  LET'S DANCE GAME: a component that allows users to enjoy the game sessions (setting up&#xD;
+           of therapy sessions by the therapist, presentation of tasks to the player and execution&#xD;
+           by the latter, display of feedback on the sessions).&#xD;
+&#xD;
+        -  ENVIRONMENTAL AND WEARABLE SENSORS: this allows data to be collected on the patient's&#xD;
+           main clinical parameters (e.g. heart rate, respiratory rate, etc.). These data allow the&#xD;
+           therapist to know the patient's state during the execution of tasks and the AI reasoner&#xD;
+           component to have an additional level of information with which to adapt the planning of&#xD;
+           steps.&#xD;
+&#xD;
+        -  AI REASONERS: this is the back-end of the Si-Robotics system, i.e. the &quot;intelligent&quot;&#xD;
+           component that allows the adaptation of the game sessions, based on the users' game&#xD;
+           performance and the data collected through the sensors. In this way it will be possible&#xD;
+           to dynamically customize the session according to the user's needs and abilities.&#xD;
+&#xD;
+        -  ARTIFICIAL VISION SETTING: a commercial camera called Inter Real Sense&#xD;
+           (https://www.intel.it/content/www/it/it/architecture-and-technology/realsense-overview.h&#xD;
+           tml) will be installed in the experimental setting for the extraction of kinematic&#xD;
+           parameters, saved anonymously and locally on this computer. Also the robotic platform&#xD;
+           will be equipped with a RealSense camera and will be able to acquire kinematic&#xD;
+           parameters. To extract features of interest from the signals, proprietary skeleton&#xD;
+           tracking software of the Real Sense camera will be used, together with specially&#xD;
+           developed algorithms for feature extraction.&#xD;
+&#xD;
+      In addition, kinematic and performance parameters will be collected, which will be used by&#xD;
+      the physiotherapist to evaluate and plan subsequent sessions, and by the system to delineate&#xD;
+      the levels of difficulty of the exercise.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 6, 2021</start_date>
+  <completion_date type="Anticipated">May 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in acceptability of the SI-ROBOTICS system</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>Acceptability will be assessed using a 52-item questionnaire based on the unified theory of acceptance and use of technology (UTAUT) model. It's a standardized instrument for measuring the likelihood of success for new technology introductions and helps to understand the drivers of its acceptance.&#xD;
+The questionnaire has 52 questions distributed in 4 key constructs: 1) performance expectancy, 2) effort expectancy, 3) social influence, and 4) facilitating conditions.&#xD;
+Each question are based on a Likert-type 5-point scale ranging from 1 = strongly disagree to 5 = strongly agree. Increments are integers between 1 to 5.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in walking speed</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>The walking speed will be evaluated by the Six-Minute Walking Test (6MWT).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in balance</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>The change in balance will be evaluated by the Performance-Oriented Mobility Assessment (POMA) consists of two sub-scales: the balance evaluation scale (&quot;balance scale&quot; or POMA-B) and the gait evaluation scale (&quot;gait scale&quot; or POMA-G). The maximum score is 28 points: in detail, the maximum score of the POMA-B is 16, while for the POMA-G the maximum score is 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in fear of falling</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>The change in fear of falling will be evaluated by the Short Falls Efficacy Scale - International (FES-I- Short). The cut offs are divided as follows: a score between 7-8 indicates a low concern, between 9-12 a moderate concern and between 14 and 28, high concern.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in physical performance</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>Change in physical performance will be ascertained using the Short Physical Performance Battery (SPPB). Summary scores range from 0-12 and higher scores denote higher physical performance</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in mobility</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>Change in mobility will be evaluated by Timed-Up-and-Go (TUG) Test. A score of ten seconds or less indicates normal mobility; times between 11 and 20 seconds are within normal limits for frail elderly and disabled patients; times over 20 seconds indicate that the person requires external assistance and the need for further examination and intervention. A score above 30 seconds suggests that the person may be prone to falls.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in goal attainment scale</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>Change in goal attainment scale (GAS): definition of an individual goal at start, followed by a 6- point numeric scale indicating to what extent the goal is (score 0 till +2) or is not (-3 indicating detoriation till -1) reached.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in quality of life</measure>
+    <time_frame>change from baseline to 4 and 8 weeks after intervention commencement</time_frame>
+    <description>SF-12 Health Survey (SF-12) is composed of 12 items that produce two measurements related to two different aspects of health: physical health and mental health.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Aging</condition>
+  <arm_group>
+    <arm_group_label>Rehabilitation Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PD subjects will be going through a rehabilitation program based on an Irish dance with the support of the technological platform SI-ROBOTICS</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>rehabilitation program with the support of the technological platform SI-ROBOTICS</intervention_name>
+    <description>A 16-treatment session will be conducted, divided into 2 training sessions per week, for 8 weeks. The therapy sessions last 60 minutes; each session will involve 2 patients at time. Cardiac and respiratory activity monitoring is planned during robotic treatments in order to detect the heart rate during physical activity. Individual participants must complete at least 80% of the sessions. Recovery of 2 sessions will be possible.&#xD;
+Each session involves the following activities:&#xD;
+Breathing, relaxation and postural harmonization exercises;&#xD;
+Active mobility and stretching exercises;&#xD;
+Irish dance with the SI-ROBOTICS system;&#xD;
+Relaxation exercises.</description>
+    <arm_group_label>Rehabilitation Group</arm_group_label>
+    <other_name>SI-ROBOTICS a technological system facilitating a rehabilitation program</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Capacity to consent;&#xD;
+&#xD;
+          -  Hoen and Yahr scale: 1-2 stage;&#xD;
+&#xD;
+          -  Functional Ambulation Category (FAC) ≥ 2;&#xD;
+&#xD;
+          -  Ranking scale score ≤ 3;&#xD;
+&#xD;
+          -  Stability of drug treatment for at least 1 month;&#xD;
+&#xD;
+          -  Geriatric Depression Scale 4-items ≤ 1;&#xD;
+&#xD;
+          -  Mini Mental State Examination ≥ 24;&#xD;
+&#xD;
+          -  Maintaining an upright posture ≥ 30''.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  History of syncopal episodes, epilepsy and vertigo not controlled pharmacologically;&#xD;
+&#xD;
+          -  Serious dysfunction of the autonomic system;&#xD;
+&#xD;
+          -  Severe behavioral syndromes not compensated by drugs;&#xD;
+&#xD;
+          -  Concurrent neurological and/or cardiac diseases;&#xD;
+&#xD;
+          -  Recent femur fracture&#xD;
+&#xD;
+          -  Chronic medium to severe pain affecting standing or walking.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Giovanni Riccardi, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>IRCCS-INRCA</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Roberta Bevilacqua</last_name>
+    <phone>00390718004767</phone>
+    <email>r.bevilacqua@inrca.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Elvira Maranesi</last_name>
+    <phone>00390718004767</phone>
+    <email>e.maranesi@inrca.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>IRCCS INRCA Hospital</name>
+      <address>
+        <city>Ancona</city>
+        <zip>60127</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Anna Rita Bonfigli, MSc</last_name>
+      <phone>00390718003719</phone>
+      <email>a.bonfigli@inrca.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 13, 2021</study_first_posted>
+  <last_update_submitted>August 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Parkinson disease</keyword>
+  <keyword>Older people</keyword>
+  <keyword>Robot</keyword>
+  <keyword>Technology-integrated intervention</keyword>
+  <keyword>Rehabilitation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data will be available to other researchers following a documented request to the INRCA investigators.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

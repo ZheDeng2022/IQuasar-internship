@@ -1,0 +1,176 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04607083</url>
+  </required_header>
+  <id_info>
+    <org_study_id>599/2020</org_study_id>
+    <nct_id>NCT04607083</nct_id>
+  </id_info>
+  <brief_title>Impact of Computer-aided Optical Diagnosis (CAD) in Predicting Histology of Diminutive Rectosigmoid Polyps: a Multicenter Prospective Trial (ABC Study).</brief_title>
+  <acronym>ABC</acronym>
+  <official_title>Impact of Computer-aided Optical Diagnosis (CAD) in Predicting Histology of Diminutive Rectosigmoid Polyps: a Multicenter Prospective Trial (Artificial Intelligence BLI Characterization - ABC Study).</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Valduce Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Valduce Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Recently, a CNN-based artificial intelligence (AI) system for polyp characterization has been&#xD;
+      developed by Fujifilm Co., Tokyo, Japan. It works in conjunction with BLI system. In the&#xD;
+      present study we prospectively evaluate whether the evaluation of the endoscopist combined&#xD;
+      with the CAD system output achieve &gt; 90% accuracy in characterization (i.e. as adenomas or&#xD;
+      non-adenomas) of diminutive rectosigmoid polyps having histopathology as reference standard.&#xD;
+      Consecutive adult outpatients undergoing elective colonoscopy, in which at least one&#xD;
+      diminutive (&lt;5 mm) rectosigmoid polyp is detected are included. During endoscopic procedures&#xD;
+      all polyps identified by the endoscopist are documented for size, location and morphology.&#xD;
+      All diminutive polyps are characterized by a three sequential steps process: I) endoscopist&#xD;
+      prediction: the endoscopist evaluates the polyp by using BLI through the BASIC&#xD;
+      classification; the confidence level (high vs. low) in histology prediction is recorded; II)&#xD;
+      AI prediction: the AI system is switched on and the output of the automatic evaluation is&#xD;
+      recorded; this outcome is rated as stable or unstable, depending of the consistency over time&#xD;
+      of the outcome; III) combined prediction: a final classification is provided by endoscopist&#xD;
+      in light of the results of the first and of the second step; the confidence level is&#xD;
+      recorded. All polyps are resected and retrieved in separate jars and sent for pathology&#xD;
+      assessment. Only polyps characterized with high confidence will be included in the per-polyp&#xD;
+      analysis; the high-confidence characterization rate will be also calculated; the rate of&#xD;
+      polyps characterized with a CAD stable outcome will be calculated. Operative characteristics&#xD;
+      (sensitivity, specificity, positive and negative predictive value and accuracy) in&#xD;
+      distinguishing adenomatous from non-adenomatous polyps, evaluated with high confidence, will&#xD;
+      be calculated for each diminutive polyp and for each diminutive rectosigmoid polyp, having&#xD;
+      histopathology report as reference standard. The post-polypectomy surveillance intervals will&#xD;
+      be calculated on the basis of polyp histology (reference standard) in all patients according&#xD;
+      to both USMSTF and ESGE guidelines.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 22, 2020</start_date>
+  <completion_date type="Actual">March 30, 2021</completion_date>
+  <primary_completion_date type="Actual">February 27, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Agreement of combined prediction with PIVI I statement</measure>
+    <time_frame>6 months</time_frame>
+    <description>To prospectively evaluate whether the evaluation of the endoscopist combined with the CAD system output achieve &gt; 90% accuracy in characterization (i.e. as adenomas or non-adenomas) of diminutive rectosigmoid polyps (i.e. PIVI I threshold) having histopathology as reference standard.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Endoscopist prediction</measure>
+    <time_frame>6 months</time_frame>
+    <description>to calculate the performance measures (sensitivity, specificity, positive and negative predictive value) of the endoscopist alone in characterizing diminutive rectosigmoid polyps</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ai prediction</measure>
+    <time_frame>6 months</time_frame>
+    <description>- to calculate the performance measures (sensitivity, specificity, positive and negative predictive value) of the AI system alone in characterizing diminutive rectosigmoid polyps</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Agreement of combined prediction with PIVI II statement</measure>
+    <time_frame>6 months</time_frame>
+    <description>- to evaluate if the evaluation of the endoscopist combined with the CAD system output achieve &gt; 90% accuracy in the assignment of post-polypectomy surveillance intervals, according to US and EU guidelines, when combined with the histopathology assessment of polyps &gt;5 mm in size</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">1134</enrollment>
+  <condition>Colonic Adenomatous Polyp</condition>
+  <arm_group>
+    <arm_group_label>Patients with at least one diminutive rectosigmoid polyp</arm_group_label>
+    <description>Consecutive adult (&gt;18 years) outpatients undergoing elective colonoscopy, in which at least one diminutive (&lt;5 mm) rectosigmoid polyp is detected.&#xD;
+Exclusion criteria:&#xD;
+patients with CRC history or hereditary polyposis syndromes or hereditary non-polyposis colorectal cancer&#xD;
+patients with inadequate bowel preparation&#xD;
+patients in which caecal intubation was not achieved or scheduled for partial examinations&#xD;
+polyps could not be resected due to ongoing anticoagulation preventing resection and pathologic assessment&#xD;
+patients undergoing urgent colonoscopy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Polyp carachterization by combing endoscopist evaluation and Ai output</intervention_name>
+    <description>A polyp characterization (adenoma vs. non adenoma) is provided by endoscopist in light of the results of this own evaluation and of the Ai system output. The confidence level (high vs. low) in polyp characterization is recorded. The combined evaluation is compared with histopathology results.</description>
+    <arm_group_label>Patients with at least one diminutive rectosigmoid polyp</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive adult outpatients undergoing elective colonoscopy, in which at least one&#xD;
+        diminutive (&lt;5 mm) rectosigmoid polyp is detected&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Consecutive adult outpatients undergoing elective colonoscopy, in which at least one&#xD;
+             diminutive (&lt;5 mm) rectosigmoid polyp is detected.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients with CRC history or hereditary polyposis syndromes or hereditary&#xD;
+             non-polyposis colorectal cancer&#xD;
+&#xD;
+          -  patients with inadequate bowel preparation&#xD;
+&#xD;
+          -  patients scheduled for partial examinations&#xD;
+&#xD;
+          -  polyps could not be resected due to ongoing anticoagulation preventing resection and&#xD;
+             pathologic assessment&#xD;
+&#xD;
+          -  patients undergoing urgent colonoscopy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Gastroenterology Unit, Valduce Hospital</name>
+      <address>
+        <city>Como</city>
+        <zip>22100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>October 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 28, 2020</study_first_posted>
+  <last_update_submitted>June 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Valduce Hospital</investigator_affiliation>
+    <investigator_full_name>Franco Radaelli</investigator_full_name>
+    <investigator_title>Head of Gastroenterology Unit</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenomatous Polyps</mesh_term>
+    <mesh_term>Polyps</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,1048 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02464449</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IIR 13-350</org_study_id>
+    <nct_id>NCT02464449</nct_id>
+  </id_info>
+  <brief_title>Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools</brief_title>
+  <acronym>REACT (AI CBT)</acronym>
+  <official_title>Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VA Office of Research and Development</agency>
+      <agency_class>U.S. Fed</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VA Office of Research and Development</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate a new approach for back pain care management using artificial&#xD;
+      intelligence and evidence-based cognitive behavioral therapy (AI-CBT) so that services&#xD;
+      automatically adapt to each Veteran's unique needs, achieving outcomes as good as standard&#xD;
+      care but with less clinician time.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cognitive behavioral therapy (CBT) is one of the most effective treatments for chronic back&#xD;
+      pain. However, only half of Veterans have access to trained CBT therapists, and program&#xD;
+      expansion is costly. Moreover, VA CBT programs consist of 10 weekly hour-long sessions&#xD;
+      delivered using an approach that is out-of-sync with stepped-care models designed to ensure&#xD;
+      that scarce resources are used as effectively and efficiently as possible. Data from prior&#xD;
+      CBT trials have documented substantial variation in patients' needs for extended treatment,&#xD;
+      and the characteristics of effective programs vary significantly. Some patients improve after&#xD;
+      the first few sessions while others need more extensive contact. After initially establishing&#xD;
+      a behavioral plan, still other Veterans may be able to reach behavioral and symptom goals&#xD;
+      using a personalized combination of manuals, shorter follow-up contacts with a therapist, and&#xD;
+      automated telephone monitoring and self-care support calls. In partnership with the National&#xD;
+      Pain Management Program, the investigators propose to apply state-of-the-art principles from&#xD;
+      &quot;reinforcement learning&quot; (a field of artificial intelligence or AI used successfully in&#xD;
+      robotics and on-line consumer targeting) to develop an evidence-based, personalized CBT pain&#xD;
+      management service that automatically adapts to each Veteran's unique and changing needs&#xD;
+      (AI-CBT). AI-CBT will use feedback from patients about their progress in pain-related&#xD;
+      functioning measured daily via pedometer step-counts to automatically personalize the&#xD;
+      intensity and type of patient support; thereby ensuring that scarce therapist resources are&#xD;
+      used as efficiently as possible and potentially allowing programs with fixed budgets to serve&#xD;
+      many more Veterans. The specific aims of the study are to: (1) demonstrate that AI-CBT has&#xD;
+      non-inferior pain-related outcomes compared to standard telephone CBT; (2) document that&#xD;
+      AI-CBT achieves these outcomes with more efficient use of scarce clinician resources as&#xD;
+      evidenced by less overall therapist time and no increase in the use of other VA health&#xD;
+      services; and (3) demonstrate the intervention's impact on proximal outcomes associated with&#xD;
+      treatment response, including program engagement, pain management skill acquisition,&#xD;
+      satisfaction with care, and patients' likelihood of dropout. The investigators will use&#xD;
+      qualitative interviews with patients, clinicians, and VA operational partners to ensure that&#xD;
+      the service has features that maximize scalability, broad scale adoption, and impact. 278&#xD;
+      patients with chronic back pain will be recruited from the VA Connecticut Healthcare System&#xD;
+      and the VA Ann Arbor Healthcare System, and randomized to standard 10-sessions of telephone&#xD;
+      CBT versus AI-CBT. All patients will begin with weekly hour-long telephone counseling, but&#xD;
+      for patients in the AI-CBT group, those who demonstrate a significant treatment response will&#xD;
+      be stepped down through less resource-intensive alternatives to hour-long contacts,&#xD;
+      including: (a) 15 minute contacts with a therapist, and (b) CBT clinician feedback provided&#xD;
+      via interactive voice response calls (IVR). The AI engine will learn what works best in terms&#xD;
+      of patients' personally-tailored treatment plan based on daily feedback via IVR about&#xD;
+      patients' pedometer-measured step counts as well as their CBT skill practice and physical&#xD;
+      functioning. The AI algorithm the investigators will use is designed to be as efficient as&#xD;
+      possible, so that the system can learn what works best for a given patient based on the&#xD;
+      collective experience of other similar patients as well as the individual's own history. The&#xD;
+      investigator's hypothesis is that AI-CBT will result in pain-related functional outcomes that&#xD;
+      are no worse (and possibly better) than the standard approach, but by scaling back the&#xD;
+      intensity of contact that is not resulting in marginal gains in pain control, the AI-CBT&#xD;
+      approach will be significantly less costly in terms of therapy time. Secondary hypotheses are&#xD;
+      that AI-CBT will result in greater patient engagement and patient satisfaction. Outcomes will&#xD;
+      be measured at three and six months post recruitment and will include pain-related&#xD;
+      interference, treatment satisfaction, and treatment dropout.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 24, 2017</start_date>
+  <completion_date type="Actual">April 30, 2020</completion_date>
+  <primary_completion_date type="Actual">April 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pain-related Disability</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>The Roland Morris Disability Questionnaire (RMDQ) is a 24-item checklist designed for patients to identify the level of disability and functional status associated with chronic low back pain. Patients are instructed to endorse items that describe their functional status that day. Scores range from 0-24, with higher scores indicating more disability.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Global Pain Intensity</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>An 11-point Numeric Rating Scale (NRS) for pain severity, with 0 representing &quot;No pain&quot; and 10 representing the &quot;Worst pain imaginable.&quot; Patients were asked to rate their level of pain on average in the last week.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain-Related Interference</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>Pain-related interference was measured using the Brief Pain Inventory - Short Form (BPI). Scores range from 0-10, with higher scores indicating more interference.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Depression Symptom Severity</measure>
+    <time_frame>3 and 6 months post enrollment</time_frame>
+    <description>Depression symptom severity was assessed using the 9-item Patient Health Questionnaire (PHQ-9). Scores range from 0-27, with higher scores indicating more depression symptom severity.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">278</enrollment>
+  <condition>Back Pain</condition>
+  <arm_group>
+    <arm_group_label>AI CBT</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard telephone CBT</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Behavioral: AI-CBT</intervention_name>
+    <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+    <arm_group_label>AI CBT</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Behavioral: Standard Telephone CBT</intervention_name>
+    <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+    <arm_group_label>Standard telephone CBT</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Back pain-related dx including back and spine conditions and nerve compression and a&#xD;
+             score of &gt;=4 (indicating moderate pain) on the 0-10 Numerical Rating Scale on at least&#xD;
+             two separate outpatient encounters in the past year&#xD;
+&#xD;
+          -  At least 1 outpatient visit in last 12 months&#xD;
+&#xD;
+          -  At least moderate pain-related disability as determined by a score of 5+on the Roland&#xD;
+             Morris Disability Questionnaire&#xD;
+&#xD;
+          -  At least moderate musculoskeletal pain as indicated by a pain score of &gt;=4 on the&#xD;
+             Numeric Rating Scale&#xD;
+&#xD;
+          -  Pain on at least half the days of the prior 6 months as reported on the Chronic Pain&#xD;
+             item&#xD;
+&#xD;
+          -  Touch-tone cell or land line phone.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  COPD requiring oxygen&#xD;
+&#xD;
+          -  Cancer requiring chemotherapy&#xD;
+&#xD;
+          -  Currently receiving CBT&#xD;
+&#xD;
+          -  Suicidality&#xD;
+&#xD;
+          -  Receiving surgical tx related to back pain&#xD;
+&#xD;
+          -  Active psychotic symptoms&#xD;
+&#xD;
+          -  Severe depressive symptoms&#xD;
+&#xD;
+          -  Can't speak English&#xD;
+&#xD;
+          -  Sensory deficits that would impair participation in telephone calls&#xD;
+&#xD;
+          -  Patient not planning to get care at study site&#xD;
+&#xD;
+          -  PCP not affiliated with study site&#xD;
+&#xD;
+          -  Limited life expectancy (COPD requiring oxygen or Cancer requiring chemotherapy&#xD;
+&#xD;
+          -  Active psychotic symptoms, suicidality, severe depressive symptoms (Beck Depression&#xD;
+             Inventory (BDI) score or 30+)&#xD;
+&#xD;
+          -  Substance use disorder or dependence, active manic episode, or poorly controlled&#xD;
+             bipolar disorder as identified by MMini International Neuropsychiatric Interview&#xD;
+&#xD;
+          -  Severe depression identified by chart review of diagnoses and mental health treatment&#xD;
+             notes&#xD;
+&#xD;
+          -  Cognitive impairment defined by a score of &lt;=5 on the Six-Item screener&#xD;
+&#xD;
+          -  Current CBT or surgical treatment related to back pain.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John D. Piette, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Ann Arbor Healthcare System, Ann Arbor, MI</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Alicia A. Heapy, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>VA Connecticut Healthcare System West Haven Campus, West Haven, CT</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>VA Connecticut Healthcare System West Haven Campus, West Haven, CT</name>
+      <address>
+        <city>West Haven</city>
+        <state>Connecticut</state>
+        <zip>06516</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Ann Arbor Healthcare System, Ann Arbor, MI</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <results_reference>
+    <citation>Piette JD, Krein SL, Striplin D, Marinec N, Kerns RD, Farris KB, Singh S, An L, Heapy AA. Patient-Centered Pain Care Using Artificial Intelligence and Mobile Health Tools: Protocol for a Randomized Study Funded by the US Department of Veterans Affairs Health Services Research and Development Program. JMIR Res Protoc. 2016 Apr 7;5(2):e53. doi: 10.2196/resprot.4995.</citation>
+    <PMID>27056770</PMID>
+  </results_reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>May 29, 2015</study_first_submitted>
+  <study_first_submitted_qc>June 2, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">June 8, 2015</study_first_posted>
+  <results_first_submitted>May 5, 2021</results_first_submitted>
+  <results_first_submitted_qc>August 6, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">September 2, 2021</results_first_posted>
+  <last_update_submitted>August 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cognitive Behavioral Therapy</keyword>
+  <keyword>Mobile Health Technology</keyword>
+  <keyword>Patient Care Management</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Back Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No/Undecided</ipd_description>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 14, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/49/NCT02464449/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>AI CBT</title>
+          <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+        </group>
+        <group group_id="P2">
+          <title>Standard Telephone CBT</title>
+          <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="166"/>
+                <participants group_id="P2" count="112"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="151"/>
+                <participants group_id="P2" count="100"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="15"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>AI CBT</title>
+          <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+        </group>
+        <group group_id="B2">
+          <title>Standard Telephone CBT</title>
+          <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="166"/>
+            <count group_id="B2" value="112"/>
+            <count group_id="B3" value="278"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62.8" spread="13.1"/>
+                    <measurement group_id="B2" value="65.6" spread="10.6"/>
+                    <measurement group_id="B3" value="63.9" spread="12.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="9"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="145"/>
+                    <measurement group_id="B2" value="103"/>
+                    <measurement group_id="B3" value="248"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="13"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="160"/>
+                    <measurement group_id="B2" value="105"/>
+                    <measurement group_id="B3" value="265"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="27"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="37"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="131"/>
+                    <measurement group_id="B2" value="94"/>
+                    <measurement group_id="B3" value="225"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="15"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Pain-related Disability</title>
+          <description>The Roland Morris Disability Questionnaire (RMDQ) is a 24-item checklist designed for patients to identify the level of disability and functional status associated with chronic low back pain. Patients are instructed to endorse items that describe their functional status that day. Scores range from 0-24, with higher scores indicating more disability.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13.7" spread="4.1"/>
+                    <measurement group_id="B2" value="13.5" spread="4.2"/>
+                    <measurement group_id="B3" value="13.6" spread="4.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Global Pain Intensity</title>
+          <description>An 11-point Numeric Rating Scale (NRS) for pain severity, with 0 representing &quot;No pain&quot; and 10 representing the &quot;Worst pain imaginable.&quot; Patients were asked to rate their level of pain on average in the last week.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6.2" spread="1.6"/>
+                    <measurement group_id="B2" value="6.3" spread="1.4"/>
+                    <measurement group_id="B3" value="6.2" spread="1.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Pain-Related Interference</title>
+          <description>Pain-related interference was measured using the Brief Pain Inventory - Short Form (BPI). Scores range from 0-10, with higher scores indicating more interference.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4.9" spread="2.2"/>
+                    <measurement group_id="B2" value="5.0" spread="2.1"/>
+                    <measurement group_id="B3" value="4.9" spread="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Depression Symptom Severity</title>
+          <description>Depression symptom severity was assessed using the 9-item Patient Health Questionnaire (PHQ-9). Scores range from 0-27, with higher scores indicating more depression symptom severity.</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6.3" spread="5.2"/>
+                    <measurement group_id="B2" value="6.6" spread="5.1"/>
+                    <measurement group_id="B3" value="6.5" spread="5.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Pain-related Disability</title>
+        <description>The Roland Morris Disability Questionnaire (RMDQ) is a 24-item checklist designed for patients to identify the level of disability and functional status associated with chronic low back pain. Patients are instructed to endorse items that describe their functional status that day. Scores range from 0-24, with higher scores indicating more disability.</description>
+        <time_frame>3 and 6 months post enrollment</time_frame>
+        <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AI CBT</title>
+            <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard Telephone CBT</title>
+            <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Pain-related Disability</title>
+          <description>The Roland Morris Disability Questionnaire (RMDQ) is a 24-item checklist designed for patients to identify the level of disability and functional status associated with chronic low back pain. Patients are instructed to endorse items that describe their functional status that day. Scores range from 0-24, with higher scores indicating more disability.</description>
+          <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="151"/>
+                <count group_id="O2" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="143"/>
+                    <count group_id="O2" value="92"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.0" spread="6.1"/>
+                    <measurement group_id="O2" value="11.3" spread="5.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="137"/>
+                    <count group_id="O2" value="97"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.0" spread="5.9"/>
+                    <measurement group_id="O2" value="12.6" spread="5.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Global Pain Intensity</title>
+        <description>An 11-point Numeric Rating Scale (NRS) for pain severity, with 0 representing &quot;No pain&quot; and 10 representing the &quot;Worst pain imaginable.&quot; Patients were asked to rate their level of pain on average in the last week.</description>
+        <time_frame>3 and 6 months post enrollment</time_frame>
+        <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AI CBT</title>
+            <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard Telephone CBT</title>
+            <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Global Pain Intensity</title>
+          <description>An 11-point Numeric Rating Scale (NRS) for pain severity, with 0 representing &quot;No pain&quot; and 10 representing the &quot;Worst pain imaginable.&quot; Patients were asked to rate their level of pain on average in the last week.</description>
+          <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="151"/>
+                <count group_id="O2" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="140"/>
+                    <count group_id="O2" value="91"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.1" spread="2.0"/>
+                    <measurement group_id="O2" value="5.0" spread="1.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="136"/>
+                    <count group_id="O2" value="96"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.3" spread="1.9"/>
+                    <measurement group_id="O2" value="5.7" spread="1.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Pain-Related Interference</title>
+        <description>Pain-related interference was measured using the Brief Pain Inventory - Short Form (BPI). Scores range from 0-10, with higher scores indicating more interference.</description>
+        <time_frame>3 and 6 months post enrollment</time_frame>
+        <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AI CBT</title>
+            <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard Telephone CBT</title>
+            <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Pain-Related Interference</title>
+          <description>Pain-related interference was measured using the Brief Pain Inventory - Short Form (BPI). Scores range from 0-10, with higher scores indicating more interference.</description>
+          <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="151"/>
+                <count group_id="O2" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="143"/>
+                    <count group_id="O2" value="91"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.9" spread="2.4"/>
+                    <measurement group_id="O2" value="3.8" spread="2.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="136"/>
+                    <count group_id="O2" value="95"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3.9" spread="2.3"/>
+                    <measurement group_id="O2" value="4.5" spread="2.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Depression Symptom Severity</title>
+        <description>Depression symptom severity was assessed using the 9-item Patient Health Questionnaire (PHQ-9). Scores range from 0-27, with higher scores indicating more depression symptom severity.</description>
+        <time_frame>3 and 6 months post enrollment</time_frame>
+        <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>AI CBT</title>
+            <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+          </group>
+          <group group_id="O2">
+            <title>Standard Telephone CBT</title>
+            <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Depression Symptom Severity</title>
+          <description>Depression symptom severity was assessed using the 9-item Patient Health Questionnaire (PHQ-9). Scores range from 0-27, with higher scores indicating more depression symptom severity.</description>
+          <population>The number analyzed in rows differs because some participants did not complete the questionnaire at all time points.</population>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="151"/>
+                <count group_id="O2" value="100"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>3 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="143"/>
+                    <count group_id="O2" value="92"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.7" spread="5.3"/>
+                    <measurement group_id="O2" value="6.7" spread="5.1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>6 months post enrollment</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="136"/>
+                    <count group_id="O2" value="96"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6.8" spread="5.1"/>
+                    <measurement group_id="O2" value="7.5" spread="6.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>During the intervention period (approximately 10 weeks of the standard telephone CBT or the AI CBT).</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>AI CBT</title>
+          <description>AI CBT engine will make recommendations to step-down or step-up intensity of CBT FU based on what patient reports and what other similar patients report. Stepped care model.&#xD;
+Behavioral: AI-CBT: AI CBT engine will make recommendations to step-down or step-up intensity of CBT follow-up based on what patient reports and what other similar patients report. Stepped care model.</description>
+        </group>
+        <group group_id="E2">
+          <title>Standard Telephone CBT</title>
+          <description>Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.&#xD;
+Behavioral: Standard Telephone CBT: Controls receive 10 hour-long standard telephone CBT sessions, a pedometer/log after baseline, and a Patient Handbook.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="166"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="112"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="5" subjects_at_risk="166"/>
+                <counts group_id="E2" subjects_affected="3" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Chest pain</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="166"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Gastrointestinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Emesis</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="166"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Heat stroke</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="166"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Infections and infestations</title>
+            <event_list>
+              <event>
+                <sub_title>Infection</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="166"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Shortness of breath</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="166"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Vascular disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Stroke</sub_title>
+                <description>Unrelated to study</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="166"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="166"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="112"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. John Piette, PhD</name_or_title>
+      <organization>Ann Arbor VA Healthcare System</organization>
+      <phone>734-845-3626</phone>
+      <email>jpiette@umich.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

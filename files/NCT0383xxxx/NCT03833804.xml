@@ -1,0 +1,196 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03833804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>211165</org_study_id>
+    <secondary_id>A534285</secondary_id>
+    <secondary_id>SMPH/MEDICINE</secondary_id>
+    <nct_id>NCT03833804</nct_id>
+  </id_info>
+  <brief_title>Data-driven Identification for Substance Misuse</brief_title>
+  <official_title>Data-driven Strategies for Substance Misuse Identification in Hospitalized Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Wisconsin, Madison</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Rush University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Wisconsin, Madison</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators propose to develop an open-source, publicly available machine learning&#xD;
+      model that health systems could download and apply to their electronic health record data&#xD;
+      marts to screen for substance misuse in their patients. The investigators hypothesize that&#xD;
+      the natural language processing algorithm can provide a standardized and interoperable&#xD;
+      approach for an automated daily screen on all hospitalized patients and provide better&#xD;
+      implementation fidelity for screening, brief intervention, and referral to treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In 2016, nearly 30% hospital discharges in the United States (US) had a major diagnostic&#xD;
+      category for a substance-use related condition. Substance misuse ranks second among principal&#xD;
+      diagnoses for unplanned 7-day hospital readmission rates. Despite the availability of&#xD;
+      Screening, Brief Intervention, and Referral to Treatment (SBIRT) interventions, substance&#xD;
+      misuse is not part of the admission routine and only a minority of patients are screened for&#xD;
+      substance misuse in the hospital setting. This is particularly problematic, since among&#xD;
+      hospitalized inpatients, the prevalence of substance misuse is estimated to be as high as&#xD;
+      25%, greater than either the general population or outpatient setting. Practical screening&#xD;
+      methods tailored for the hospital setting are needed.&#xD;
+&#xD;
+      In the advent of Meaningful Use in the electronic health record (EHR), efficiency for alcohol&#xD;
+      detection may be improved by leveraging data collected during usual care. Documentation of&#xD;
+      substance use is common and occurs in over 96% of provider admission notes, but their free&#xD;
+      text format renders them difficult to mine and analyze. Natural Language Processing (NLP) and&#xD;
+      machine learning are subfields of artificial intelligence (AI) that provide a solution to&#xD;
+      analyze text data in the EHR to identify substance misuse. Modern NLP has fused with machine&#xD;
+      learning, another sub-field of artificial intelligence focused on learning from data. In&#xD;
+      particular, the most powerful NLP methods rely on supervised learning, a type of machine&#xD;
+      learning that takes advantage of current reference standards to make predictions about unseen&#xD;
+      cases&#xD;
+&#xD;
+      In the earlier version of an NLP and machine learning tool, the investigators successfully&#xD;
+      used data from clinical notes collected in the first 24 hours of hospital admission to reach&#xD;
+      a sensitivity and specificity above 70% for identifying alcohol misuse. With nearly 36&#xD;
+      million hospital admissions in 2016, a substance misuse classifier has potential to impact&#xD;
+      millions.&#xD;
+&#xD;
+      In this study, the aim is to prospectively implement a substance misuse classifier to examine&#xD;
+      its effectiveness against current practice of all hospitalized adult patients at a tertiary&#xD;
+      health system. The health system has a mature screening system to examine substance misuse&#xD;
+      classifier performance against current practice of questionnaire screening.&#xD;
+&#xD;
+      The hypothesis is that the substance misuse classifier may provide a standardized,&#xD;
+      interoperable, and accurate approach to screen hospitalized patients. Successful&#xD;
+      implementation of the classifier in hospitalized patients is a step towards an automated and&#xD;
+      comprehensive universal screening system for substance misuse.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 1, 2023</start_date>
+  <completion_date type="Anticipated">March 30, 2025</completion_date>
+  <primary_completion_date type="Anticipated">January 30, 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Quasi-experimental design as an interrupted time series</intervention_model_description>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>No masking as the manual screen is already part of usual care and the automated screen will become usual care in the post-period of the pre-post design.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proportion of patients that had a universal screen positive and received SBIRT (screening, brief intervention, or referral to treatment)</measure>
+    <time_frame>54 months</time_frame>
+    <description>The primary outcome is the proportion of patients who received SBIRT after a positive universal screen for being at risk for substance misuse. The design is an interrupted time-series prospective observational study.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>All-cause re-hospitalizations following 6-months from the Index hospital encounter</measure>
+    <time_frame>12 months enrollment with 6 months follow-up for rehospitalization</time_frame>
+    <description>We will compare healthcare utilization outcomes in all patients between pre- and post-periods controlling for all patient demographic and clinical characteristics.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">34800</enrollment>
+  <condition>Substance Use</condition>
+  <condition>Substance Abuse</condition>
+  <condition>Substance-Related Disorders</condition>
+  <arm_group>
+    <arm_group_label>NLP (natural language processing) pre-screen</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Automated processing of clinical notes collected during routine care in first 24 hours of hospital admission to identify individuals at-risk for substance misuse to receive standard-of-care full screening and assessment, brief intervention, or referral to treatment (SBIRT) intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Processing of clinical notes in the EHR data collected during routine care</intervention_name>
+    <description>Clinical notes collected in the first day of hospital admission during usual care as input to natural language processing and machine learning algorithm.</description>
+    <arm_group_label>NLP (natural language processing) pre-screen</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Ages 18 years old to 89 years old&#xD;
+&#xD;
+          -  Inpatient status during hospitalization&#xD;
+&#xD;
+          -  Length of stay greater than 24 hours&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Cannot participate in the usual care SBIRT intervention&#xD;
+&#xD;
+          -  Death or obtunded during first 24 hours of admission&#xD;
+&#xD;
+          -  Discharged against medical advice&#xD;
+&#xD;
+          -  Transferred from another acute care hospital&#xD;
+&#xD;
+          -  Transferred to another acute care hospital&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>89 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Majid Afshar, MD</last_name>
+    <phone>3125459462</phone>
+    <email>majid.afshar@wisc.edu</email>
+  </overall_contact>
+  <link>
+    <url>https://github.com/</url>
+    <description>login page but full code not finalized for publishing</description>
+  </link>
+  <results_reference>
+    <citation>Afshar M, Phillips A, Karnik N, Mueller J, To D, Gonzalez R, Price R, Cooper R, Joyce C, Dligach D. Natural language processing and machine learning to identify alcohol misuse from the electronic health record in trauma patients: development and internal validation. J Am Med Inform Assoc. 2019 Mar 1;26(3):254-261. doi: 10.1093/jamia/ocy166.</citation>
+    <PMID>30602031</PMID>
+  </results_reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>February 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 7, 2019</study_first_posted>
+  <last_update_submitted>June 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>natural language processing</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>clinical decision support</keyword>
+  <keyword>unhealthy alcohol use</keyword>
+  <keyword>opioid use disorder</keyword>
+  <keyword>illicit drug use</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Substance-Related Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The patient data are protected health information and unavailable to public but the algorithm will be shared. The investigators will serialize our best models developed using either pickle (a Python native mechanism for object serialization) or joblib (https://pythonhosted.org/joblib/) and write software that will be capable of reloading them and making predictions. The software will be distributed via github.com or similar web-based software hosting service.</ipd_description>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>12 months after completion of study and available for at least five years on github.com</ipd_time_frame>
+    <ipd_url>http://github.com</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

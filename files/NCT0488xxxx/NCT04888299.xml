@@ -1,0 +1,345 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04888299</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021/2000</org_study_id>
+    <nct_id>NCT04888299</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence System Based on Raman Spectroscopy in Inflammatory Bowel Disease</brief_title>
+  <official_title>A Feasibility Study of an Artificial Intelligence System Based on Raman Spectroscopy for In-vivo Assessment of Mucosal Healing and Diagnosis of Colorectal Neoplasia in Adults With Inflammatory Bowel Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Changi General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Changi General Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Inflammatory bowel diseases (IBD) are chronic inflammatory disorders that can be categorized&#xD;
+      as ulcerative colitis (UC), Crohn's disease (CD) and indeterminate colitis (IC). Deep&#xD;
+      remission has been shown to improve disease outcome. There may be a lack of concordance&#xD;
+      between endoscopic and histologic remission. IBD patients with long standing colitis are at&#xD;
+      risk of developing dysplasia and colorectal cancer (CRC). However, it can be challenging to&#xD;
+      diagnose dysplasia in IBD patients during colonoscopy, as dysplasia frequently manifests as&#xD;
+      non-pedunculated lesions that present with only subtle visible changes or are even invisible&#xD;
+      due to the surrounding inflammation, scarring, pseudopolyps, or hyperplasia. Although white&#xD;
+      light endoscopy and chromoendoscopy are the current standard modality of imaging, there is&#xD;
+      still a gap to be bridged, in terms of improving endoscopic diagnosis of dysplasia and&#xD;
+      improving concordance of endoscopic and histologic remission. Raman spectroscopy is an&#xD;
+      inelastic light scattering technique provide specific fingerprints of molecular compositions&#xD;
+      and structures of biological tissues. It may be able to provide additional diagnostic&#xD;
+      information over standard endoscopy. A second-generation Raman endoscope system for improving&#xD;
+      in vivo tissue characterization and diagnosis during colonoscopy has been developed (SPECTRA&#xD;
+      IMDx system). Preliminary data suggested its utility in the diagnosis of colorectal neoplasia&#xD;
+      during colonoscopy. There is currently a lack of data concerning the application of this&#xD;
+      novel technology in the context of IBD. Specifically, whether the spectral signals generated&#xD;
+      can be used to better classify disease remission, and thus achieve higher concordance with&#xD;
+      histology when compared to standard endoscopy. It is also unclear whether this technology can&#xD;
+      be used to differentiate dysplastic mucosa from non-dysplastic mucosal in IBD patients.&#xD;
+&#xD;
+      Hypotheses&#xD;
+&#xD;
+        1. Raman spectroscopy based artificial intelligence system has the potential to be used to&#xD;
+           differentiate disease remission from active mucosal inflammation and hence improve&#xD;
+           concordance between endoscopic and histologic remission, with the potential to decrease&#xD;
+           the need for random biopsies real-time during colonoscopy.&#xD;
+&#xD;
+        2. Raman spectroscopy based artificial intelligence system has the potential to&#xD;
+           differentiate dysplastic mucosa in IBD patients (low grade and high grade dysplasia;&#xD;
+           colorectal cancer) from non-dysplastic mucosa. real-time during colonoscopy.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1. BACKGROUND AND RATIONALE Inflammatory bowel diseases (IBD) are chronic inflammatory&#xD;
+      disorders that can be categorized as ulcerative colitis (UC), Crohn's disease (CD) and&#xD;
+      indeterminate colitis (IC). UC is characterised by chronic mucosal inflammation starting&#xD;
+      distally in the rectum, with continuous extension proximally for a variable distance, often&#xD;
+      with an abrupt demarcation between inflamed and non-inflamed mucosa. CD is characterized by&#xD;
+      discontinuous segments of chronic granulomatous inflammation that can be transmural, and&#xD;
+      involve the small bowel in addition to the colon, as well as the upper gastrointestinal&#xD;
+      tract.1 The term IC is used when it is difficult to differentiate between UC and CD. UC, CD&#xD;
+      and IC are chronic, progressive, and disabling conditions. Treatment need to go beyond&#xD;
+      symptom control and aim to treat endoscopic/ macroscopic lesions with the final aim of&#xD;
+      preventing structural damage and disability, thereby improving long term clinical outcomes.&#xD;
+      Although endoscopic remission is the current treatment target, emerging data suggest that&#xD;
+      achieving deep remission with histological remission, rather than just endoscopic remission,&#xD;
+      may confer additional benefits. Commonly used endoscopic severity systems that correlated&#xD;
+      well with clinical and biological activity include the modified Mayo Endoscopic score6 and&#xD;
+      the Ulcerative Colitis Endoscopic Index of Severity (UCEIS) for UC and the Crohn's Disease&#xD;
+      Endoscopic Index of Severity (CDEIS) and the Simplified Endoscopic activity Score for Crohn's&#xD;
+      disease (SES-CD) for CD. However inter-observer variation remains a significant limitation&#xD;
+      for these visual scores. In addition, there may also be a lack of concordance between&#xD;
+      endoscopic and histologic remission. IBD patients with long standing colitis are at risk of&#xD;
+      developing dysplasia and colorectal cancer (CRC). Multiple case-control studies and&#xD;
+      population-based cohort studies have shown that endoscopic surveillance improves CRC-related&#xD;
+      survival in IBD patients at increased risk for colon cancer. Endoscopic surveillance is&#xD;
+      widely recommended by international gastrointestinal societies for the early detection and&#xD;
+      resection of dysplasia or CRC. However, unlike non-IBD patients, it can be challenging to&#xD;
+      diagnose dysplasia in IBD patients during colonoscopy, as dysplasia frequently manifests as&#xD;
+      non-pedunculated lesions that present with only subtle visible changes or are even invisible&#xD;
+      due to the surrounding inflammation, scarring, pseudopolyps, or hyperplasia. Although high&#xD;
+      definition white light endoscopy and chromoendoscopy are the current standard modality of&#xD;
+      imaging, there is still a gap to be bridged, in terms of improving endoscopic diagnosis of&#xD;
+      dysplasia and improving concordance of endoscopic and histologic remission.&#xD;
+&#xD;
+      Raman spectroscopy is an inelastic light scattering technique that is capable of providing&#xD;
+      specific spectroscopic fingerprints of molecular compositions and structures of biological&#xD;
+      tissues. When light energy is incident on a tissue, the light energy is absorbed and&#xD;
+      subsequently scattered. Much of the energy is scattered elastically, but a small amount (&lt;1%)&#xD;
+      is scattered inelastically. Such inelastic scattering is termed Raman scattering and is&#xD;
+      measured by wavelength shifts that is associated with distinct molecular compositions. For&#xD;
+      example, spectral ranges of 850 - 1150, 1200 - 1500, and 1600 - 1750 cm-1 correspond to&#xD;
+      signals related to proteins, nucleic acids and lipids respectively. Cancerous tissue is&#xD;
+      associated with higher metabolic rate and hence different molecular makeup from non-cancerous&#xD;
+      tissue. By investigating the tissue's Raman spectra, which also serves as a bio-fingerprint,&#xD;
+      the investigators can identify if the tissue is cancerous or non-cancerous. Raman&#xD;
+      spectroscopy has been reported for colorectal tissue characterization and diagnosis ex vivo.&#xD;
+      Molckovsky et al applied an endoscope-compatible Raman probe for differential diagnosis&#xD;
+      between adenoma and hyperplastic polyp in vivo, but tissue Raman spectra acquired were&#xD;
+      limited to the so-called fingerprint (FP) range (i.e., 800-1800 cm-1), and the acquisition&#xD;
+      time was lengthy (&gt;5 s) that was impractical for routine clinical endoscopic examinations.&#xD;
+      The diagnostic efficiency of FP Raman spectroscopy could be compromised in patients owing to&#xD;
+      intrinsically very weak tissue Raman signals and overwhelming tissue autofluorescence (AF) of&#xD;
+      the internal organs. In addition to colorectal neoplasia, Raman spectroscopy has been studied&#xD;
+      in the context of IBD in small scale ex-vivo and in-vivo studies, with promising results in&#xD;
+      terms of differentiation of mucosal healing and inflammation, and differentiate UC from CD&#xD;
+      However these IBD related studies face the similar limitations as the studies in colorectal&#xD;
+      neoplasia, especially with regards to practicality for efficient in-vivo diagnosis. Recent&#xD;
+      attentions have been directed toward the use of high-wavenumber (HW) regime (e.g., 2800-3600&#xD;
+      cm-1), as HW spectral range exhibits stronger tissue Raman signals while having less&#xD;
+      background interference from both tissue AF and fiber-optic probes. There are multiple&#xD;
+      rationales for combining the FP and HW Raman techniques for in vivo tissue Raman&#xD;
+      measurements: (i) For tissues that could exhibit intense AF overwhelming the tissue FP Raman&#xD;
+      signals, the HW range could still contain intense tissue Raman peaks for tissue diagnosis;&#xD;
+      (ii) The FP and HW Raman spectra offer complementary biomolecular information, and combining&#xD;
+      FP/HW Raman technique could improve tissue characterization and diagnosis. Very recently, a&#xD;
+      novel second-generation 785-nm excitation Raman endoscope that can simultaneously measure&#xD;
+      both FP Raman spectra (i.e., 800-1800 cm-1) and high-wavenumber (HW) (i.e., 2800-3600 cm-1)&#xD;
+      Raman spectra in real-time (&lt; 0.5 s) for improving in vivo tissue characterization and&#xD;
+      diagnosis during colonoscopy was developed. The simultaneous FP/HW Raman technique is&#xD;
+      integrated with a 1.8-mm endoscope-compatible fiber-optic Raman probe coupled with a sapphire&#xD;
+      ball lens for probing biomolecular signatures from the subsurface of colorectal tissue&#xD;
+      associated with dysplasia. This has been used to create the SPECTRA IMDx system which&#xD;
+      interrogates tissue at the cellular level and utilizes molecular information to provide&#xD;
+      physicians with actionable information in vivo real-time during colonoscopy. The SPECTRA IMDx&#xD;
+      comprises a laser system, a spectrometer, a computer with an analysis algorithm installed,&#xD;
+      and other ancillary parts. The SPECTRA IMDx probe is connected with the main system. The&#xD;
+      SPECTRA IMDx probe is an assembly of optical fibres and optical components arranged for&#xD;
+      maximal transmission of light energy. When in use, the laser system will emit a 785nm near&#xD;
+      infra-red laser that will be transmitted through the SPECTRA IMDx probe to the distal end.&#xD;
+      When the laser is interrogated upon a tissue surface, the light energy is absorbed and&#xD;
+      reflected. The reflected energy is then collected from the distal end of the SPECTRA IMDx&#xD;
+      probe, transmitted back to the main system, and passed through the spectrometer. The&#xD;
+      collected signal is then processed to obtain the clean Raman signal for diagnostic&#xD;
+      classification.&#xD;
+&#xD;
+      There is currently a lack of data concerning the application of this novel technology in the&#xD;
+      context of IBD. Specifically, whether the spectral signals generated can be used to better&#xD;
+      classify disease remission, and thus achieve higher concordance with histology when compared&#xD;
+      to standard endoscopy. It is also unclear whether this technology can be used to&#xD;
+      differentiate dysplastic mucosa from non-dysplastic mucosal in IBD patients.&#xD;
+&#xD;
+      Overview This is a prospective observational study of all subjects with IBD (CD, UC or IC)&#xD;
+      undergoing colonoscopy over a 24-month period. The workflow is summarized in figure 2.&#xD;
+      Informed consent will be taken by the investigator before study enrolment. Subject&#xD;
+      participation in this study will last only the duration of the colonoscopy procedure which is&#xD;
+      about 30 to 45 minutes. Subjects will not be required to make an additional visit to the&#xD;
+      hospital for the study.&#xD;
+&#xD;
+      Bowel preparation and endoscopic procedure Prior to colonoscopy, subjects are required to&#xD;
+      cleanse the colon using bowel preparation as per standard clinical practice. Colonoscopy is&#xD;
+      performed with or without sedation at the discretion of the endoscopist and patient. During&#xD;
+      the process of colonoscopy, which is performed using high definition endoscopy system with or&#xD;
+      without adjunctive chromoendoscopy, biopsies of colonic mucosa may be obtained either for&#xD;
+      assessment of the state of disease activity or to clarify the nature of a detected focal&#xD;
+      lesion, which could be non-neoplastic such as hyperplastic or post-inflammatory polyps, or&#xD;
+      neoplastic, such as IBD-associated dysplasia or sporadic colorectal neoplasia. The findings&#xD;
+      for the ascending colon, transverse colon, descending colon, sigmoid colon and rectum will be&#xD;
+      recorded separately. Lesions may also be resected using a snare. Prior to either the intended&#xD;
+      biopsies of each region, or prior to endoscopic polypectomy, the SPECTRA IMDx probe will be&#xD;
+      inserted through the working channel of the colonoscope to make contact with the mucosa&#xD;
+      surface to collect the Raman signals. Biopsies are then obtained and labelled such that the&#xD;
+      acquired Raman signals can be correlated with the gold standard of histology for creation of&#xD;
+      diagnostic classifiers. No procedures will be placed on audiotape, film / video, or other&#xD;
+      electronic medium as part of the study requirement. Endoscopy findings will be recorded in&#xD;
+      the standard electronic medical report format. Endoscopy and histology results will be&#xD;
+      transcribed to patient case report form and de-identified.&#xD;
+&#xD;
+      Severity of mucosal inflammation Classification systems for endoscopic assessment of disease&#xD;
+      activity have been published.31 For UC and IC, the severity of disease activity will be&#xD;
+      described based on Mayo Endoscopic Subscore6 and UCEIS. UCEIS has been validated.&#xD;
+&#xD;
+      For CD, the definition of endoscopic disease severity does not rely only on the severity of&#xD;
+      mucosal inflammation, and scoring systems such as Crohn's disease Endoscopic Index of&#xD;
+      Severity (CDEIS) and Simple Endoscopic Score for Crohn's disease (SES-CD) incorporate other&#xD;
+      components such as disease distribution and the presence of luminal narrowing as part of the&#xD;
+      assessment. Both CDEIS and SES-CD are validated scoring systems. For this study, as the&#xD;
+      research interest is solely on assessment of mucosal inflammation, the descriptors used for&#xD;
+      mucosal involvement will be used, based on SES-CD, and mucosal healing will be defined as&#xD;
+      absence of mucosal ulceration.&#xD;
+&#xD;
+      Focal flat or polypoid lesions The morphology of detected superficial lesions suspicious of&#xD;
+      either hyperplasia or dysplasia will be described using the Updated Paris Classification&#xD;
+      (table 3, figure 3).32 A sessile lesion has a vertical height of &gt;2.5mm while that for mildly&#xD;
+      elevated lesion is &lt; 2.5mm. For an excavated lesion, the depth is &gt; 1.2mm, whereas it is less&#xD;
+      than 1.2mm for slightly depressed lesion. Biopsy forceps placed longitudinally next to the&#xD;
+      lesion is a helpful reference standard (the diameter with closed jaws is 2.5 mm, while the&#xD;
+      diameter of a single jaw is 1.2 mm). The estimated size, colour and margins of the lesion&#xD;
+      with will be described. The endoscopic diagnosis will be documented.&#xD;
+&#xD;
+      Documentation of histology finding Histological severity of mucosal inflammation&#xD;
+      Classification systems for histological assessment of disease activity have been published.&#xD;
+      For UC or IC, this will be assessed using the Nancy Histological Index. Grade 0 and 1 defines&#xD;
+      histological remission, 2 defines mildly active disease, 3 defines moderately active disease,&#xD;
+      and 4 defines severely active disease. The Nancy index has been validated.&#xD;
+&#xD;
+      For CD, this will be assessed using a scoring system previously developed by the IBD research&#xD;
+      group in Leuven, Belgium. This scoring system has not been validated although it is widely&#xD;
+      used for research.&#xD;
+&#xD;
+      Focal flat or polypoid lesions The WHO classification for colorectal serrated lesions and&#xD;
+      polyps and the Riddell system for classification of IBD-associated dysplasia will be used.&#xD;
+      IBD-associated dysplasia is defined as an unequivocal neoplastic alteration of the colonic&#xD;
+      epithelium. It should be stressed that such dysplastic epithelium not only may be a marker or&#xD;
+      precursor of carcinoma but may itself be malignant and associated with direct invasion into&#xD;
+      the underlying tissue. This definition is analogous to the definition of dysplasia in&#xD;
+      adenomas of the colon in the absence of IBD, in neoplastic lesions of the rest of the&#xD;
+      gastrointestinal tract, and in other epithelia. Dysplasia is identified on the basis of a&#xD;
+      combination of microscopic features, including 1) architectural alteration exceeding that&#xD;
+      resulting from repair in chronic colitis, often resembling the glandular arrangement of&#xD;
+      adenomas, and 2) cytologic abnormalities, principally cellular and nuclear pleomorphism,&#xD;
+      nuclear hyperchromatism, loss of nuclear polarity, and marked stratification of nuclei.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 14, 2021</start_date>
+  <completion_date type="Anticipated">April 2023</completion_date>
+  <primary_completion_date type="Anticipated">April 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Feasibility of Raman spectroscopy to identify mucosal healing in IBD and IBD-related dysplasia against the gold standard of histopathology</measure>
+    <time_frame>24 months</time_frame>
+    <description>sensitivity, specificity</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic performance of Raman spectroscopy for assessment of mmucosal healing in IBD and IBD-related dysplasia against the gold standard of histopathology</measure>
+    <time_frame>24 months</time_frame>
+    <description>positive predictive value and negative predictive value</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Inflammatory Bowel Diseases</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Raman spectroscopy (SPECTRA IMDx)</intervention_name>
+    <description>The SPECTRA IMDx comprises a laser system, a spectrometer, a computer with an analysis algorithm installed, and other ancillary parts. The SPECTRA IMDx probe is connected with the main system. The SPECTRA IMDx probe is an assembly of optical fibres and optical components arranged for maximal transmission of light energy. When in use, the laser system will emit a 785nm near infra-red laser that will be transmitted through the SPECTRA IMDx probe to the distal end. When the laser is interrogated upon a tissue surface, the light energy is absorbed and reflected. The reflected energy is then collected from the distal end of the SPECTRA IMDx probe, transmitted back to the main system, and passed through the spectrometer. The collected signal is then processed to obtain the clean Raman signal for diagnostic classification.</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Known or suspected diagnosis of ulcerative colitis or Crohn's disease&#xD;
+&#xD;
+          2. Age 21 to 90 years (selected age range based on demographic of patients managed at&#xD;
+             Changi General Hospital)&#xD;
+&#xD;
+          3. Ability to provide informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Presence of significant coagulopathy that precludes endoscopic biopsies&#xD;
+&#xD;
+          2. Refusal to provide consent&#xD;
+&#xD;
+          3. Pregnant subjects&#xD;
+&#xD;
+          4. Incarcerated status&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Tiing Leong Ang</last_name>
+    <phone>+65-6788 8833</phone>
+    <email>ang.tiing.leong@singhealth.com.sg</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Changi General Hospital</name>
+      <address>
+        <city>Singapore</city>
+        <zip>529889</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tiing Leong Ang, MBBS</last_name>
+      <phone>+65-67888833</phone>
+      <email>ang.tiing.leong@singhealth.com.sg</email>
+    </contact>
+    <investigator>
+      <last_name>James Wei Quan Li</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Boon Eu Kwek</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chin Kimg Tan</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lai Mun Wang</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Singapore</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 17, 2021</study_first_posted>
+  <last_update_submitted>May 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 17, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>inflammatory bowel disease</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Intestinal Diseases</mesh_term>
+    <mesh_term>Inflammatory Bowel Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

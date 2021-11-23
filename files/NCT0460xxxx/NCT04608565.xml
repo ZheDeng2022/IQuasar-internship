@@ -1,0 +1,404 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04608565</url>
+  </required_header>
+  <id_info>
+    <org_study_id>StJohnRI</org_study_id>
+    <nct_id>NCT04608565</nct_id>
+  </id_info>
+  <brief_title>Remote Biomonitoring (RBM) for Temperature Surveillance of Mothers and Newborns: Pre-clinical and Clinical Evaluation</brief_title>
+  <official_title>Remote Biomonitoring for Temperature Surveillance of Mothers and Newborns: Pre-clinical and Clinical Evaluation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St. John's Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Indian Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>St. John's Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Based on client needs and technological requirements, a wearable sensor device was designed&#xD;
+      and developed using principles of 'social innovation' design. The device underwent multiple&#xD;
+      iterations in product design and engineering based on user-feedback and then following&#xD;
+      pre-clinical testing, a techno-feasibility study and clinical trial were undertaken in a&#xD;
+      tertiary-care, teaching hospital in Bangalore, India. Clinical trial phases I and IIa&#xD;
+      {studies/pilot studies designed to demonstrate clinical efficacy or biological activity&#xD;
+      ('proof of concept' studies)} for evaluation of safety and efficacy were undertaken in the&#xD;
+      following sequence: first with healthy adult volunteers; then healthy mothers; healthy&#xD;
+      babies; stable babies in the Neonatal intensive care unit (NICU) and then a baby with&#xD;
+      morbidities. Time-stamped skin temperatures obtained at 5-minute intervals over a 1-hour&#xD;
+      period from the device secured on upper arms of mothers and abdomen of neonates were compared&#xD;
+      against readings from thermometers used routinely in clinical practice, radiant warmer and&#xD;
+      multimodal sensor&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study setting: St John's Medical College Hospital, Bangalore, a 1300-bedded, tertiary-care&#xD;
+      hospital with 2500 deliveries per annum and a Level-3 nursery that takes care of 1000&#xD;
+      neonates (inborn: outborn ratio = 2:1) in the neonatal care intensive unit (NICU) annually,&#xD;
+      one-third of whom are low birth weight and one-fifth are preterm.&#xD;
+&#xD;
+      Choice of site of temperature measurement in adult and newborn: In the adult, the upper arm&#xD;
+      was selected for continuous monitoring. While in the newborn abdominal skin temperature was&#xD;
+      selected. In addition to being close to the liver, a metabolically-active organ facilitating&#xD;
+      a measurement close to the core temperature, it is also a non-invasive method that is steady,&#xD;
+      continuous, easy-to-use and comfortable for the infant.&#xD;
+&#xD;
+      Innovation Pathway: The USAID 2006 Innovation Pathway model was adopted and it incorporated&#xD;
+      four steps from research to field implementation - (1) priority-setting phase and product&#xD;
+      design (2) product development and proof-of-concept (3) product introduction and (4) field&#xD;
+      implementation.As part of step 1, the sub-steps of (a) problem identification (epidemiologic/&#xD;
+      technological/ social/ financial, etc), (b) critical review of temperature measurement&#xD;
+      devices and other issues (temperature sensors or thermistors, core body temperature&#xD;
+      measurement issues, etc), and (c) determination of niche of this device vis-à-vis other&#xD;
+      devices through horizon scanning.&#xD;
+&#xD;
+      Epidemiologic burden of chief causes of maternal and neonatal mortality and morbidity were&#xD;
+      reviewed as a first step.A technological review revealed that the device to be strapped-on to&#xD;
+      the mother or newborn for vital sign detection had to be a medical-grade device with&#xD;
+      extremely high safety profile. Further, it had to remain functional in situations such as&#xD;
+      soiling or wetting by the newborn, and also continue to work in different areas with varying&#xD;
+      population densities as well as buildings. Several devices such as the ThermoSpot®, a&#xD;
+      temperature sensor tag and remote infrared-based instruments were evaluated. Social review&#xD;
+      revealed that a sensor being continually strapped on to the body for long periods was not&#xD;
+      dissimilar to that of talismans strapped around the arms of adults or around the necks/waists&#xD;
+      of children and might therefore not be too disagreeable to families. A financial review&#xD;
+      revealed that for the device to be used widely, especially by low-income populations, it&#xD;
+      would have to be a low-cost device. Implementation review focused on possible uptake and&#xD;
+      utilization of such a device in rural, urban and slum communities.&#xD;
+&#xD;
+      Conceptual framework: The conceptual framework for remote monitoring consisted of five&#xD;
+      components: (1) a low-cost, wearable sensor tag; (2) a gateway device acting as an&#xD;
+      ultra-low-power 'real-time' communication link; (3) piggy-backing on a commercial cellular&#xD;
+      communication network; (4) smart data analytics system; and (5) feedback loop to the&#xD;
+      care-giver or frontline health worker. This framework was to be ideated, designed, prototyped&#xD;
+      and developed into a Class A medical device with lowest risk level as per Medical Device&#xD;
+      Regulatory Authority of India bearing in mind that the end-product should enable tenets of&#xD;
+      good Quality of Care (QoC) namely effectiveness, timeliness, safety, people-centeredness and&#xD;
+      equity.&#xD;
+&#xD;
+      Requirements for components Two key requirements for the 'on-body' sensor were safety and&#xD;
+      accuracy. Given the fragility of the newborn skin, the device had to be hypoallergenic,&#xD;
+      burst/leak proof, cause minimal infections, and dissipate minimal heat or ultra-low power,&#xD;
+      non-ionizing electromagnetic radiation. nThe adhesive used to secure the device to the skin&#xD;
+      should similarly cause minimal 'medical adhesive-related skin injury' (MARSI), allergy or&#xD;
+      infections. Device accuracy was targeted to be +/-0.2°C in in-vitro conditions and +/-0.5°C&#xD;
+      in actual clinical practice. Other mechanical requirements for the device were: long&#xD;
+      battery-life up to 28 days (with sampling frequency of 5 minutes); robustness (without any&#xD;
+      malfunction on coming into contact with body fluids like sweat, blood, urine, faeces, etc);at&#xD;
+      least 'ingress protection class 67' (dust-proof and water-proof); human-centric and aesthetic&#xD;
+      design for non-intrusiveness over prolonged use; and ability to withstand mild shock or&#xD;
+      vibration; and that the device should not get re-set accidentally. There was also a&#xD;
+      requirement for the device to store data locally and communicate with a gateway device for&#xD;
+      onward transmission of data via the configured cellular network.&#xD;
+&#xD;
+      Product design and engineering: Based on the clinical requirements, a preliminary design was&#xD;
+      constituted and subsequent design choices underwent multiple iterations driven by&#xD;
+      technological capabilities and user reviews. The wearable sensor enclosures were&#xD;
+      pebble-shaped or coin-stack shaped with all the electronics embedded inside. A battery of&#xD;
+      tests (both mechanical and electrical) were undertaken to confirm device performance,&#xD;
+      robustness, and reliability. After several rounds of pre-testing, design optimization was&#xD;
+      achieved.&#xD;
+&#xD;
+      Prototype and Implementation: The details of the prototype sensor device are given elsewhere.&#xD;
+      Briefly, the sensor hardware platform, developed using a multi-layer printed circuit board,&#xD;
+      consisted of a microcontroller (MCU) with integrated Bluetooth 4.0 Low Energy (BLE), a 12-bit&#xD;
+      ADC {Analog to Digital Converter} (CC2540 from Texas Instruments), a NICU-grade temperature&#xD;
+      sensor with its analog front-end circuit, status LEDs {Light Emitting Diode}, power supply&#xD;
+      and RF {Radio-Frequency} balun {a electrical device that converts between a balanced and&#xD;
+      imbalanced signal} transmits filter and antenna for wireless communication over 2.4 GHz&#xD;
+      {gigahertz} ISM {Industrial Scientific and Medical} band. High-precision MF51E NTC {high&#xD;
+      precision negative temperature coefficient} thermistors were used for extremely accurate&#xD;
+      temperature measurements. An embedded Inverted F-antenna (IFA) with higher efficiency, longer&#xD;
+      range and a wider bandwidth than a chip antenna was used. It also had a very low tolerance&#xD;
+      resistor enabling a low power consumption during both active (150μA) as well as sleep (1μA)&#xD;
+      modes. The sensor hardware was programmable as per requirements. A 3-volt coin battery&#xD;
+      powered the device. A baby-friendly enclosure was made from medical-grade hypoallergenic&#xD;
+      plastics.&#xD;
+&#xD;
+      The sensor communicated with a gateway device (a smartphone or a Raspberry pi) that could&#xD;
+      subsequently relay the temperature data over a secured internet backbone provided by GPRS&#xD;
+      {General Packet Radio Service}/Wi-fi on to a centralized database for storage (web figure 3).&#xD;
+&#xD;
+      Phases of device testing: The planned phases of device testing were pre-clinical testing (in&#xD;
+      June 2013) and clinical trial phases I&amp; IIa {studies/pilot studies designed to demonstrate&#xD;
+      clinical efficacy or biological activity ('proof of concept' studies)} for evaluation of&#xD;
+      safety and efficacy in the following sequence: healthy adult volunteers (May 2014); healthy&#xD;
+      mothers (Jan-Feb 2015); healthy babies (Feb 2015); stable babies in the NICU (Feb-Mar 2015)&#xD;
+      and babies with morbidities such as hypoxic ischemic encephalopathy (Mar 2015). The results&#xD;
+      of the pre-clinical testing in the laboratory setting were published earlier. Briefly, the&#xD;
+      response time of the sensor device to attain thermal equilibrium with the surroundings was 4&#xD;
+      minutes compared to 3 minutes observed with a precision-grade digital thermometer used as a&#xD;
+      reference standard. In terms of accuracy, the error was calculated to be within 0.1°C of the&#xD;
+      reference standard while using water-baths in the temperature range of 25°C to 40°C. The&#xD;
+      details of the clinical phase of testing are outlined below.&#xD;
+&#xD;
+      Seven free-living healthy adult volunteers (males = 2; females = 5), with no known&#xD;
+      morbidities, were the first phase participants over a 7-day period. All of them had the&#xD;
+      devices strapped with an arm band secured with Velcro® tape on to their left upper arms and&#xD;
+      were invited to contribute at least a minimum of 24 hours of observations accumulated from&#xD;
+      over one or more days and report any adverse events or side-effects they experienced. In&#xD;
+      parallel, they also noted down timed axillary temperature readings (at least 5 times in a&#xD;
+      24-hour window) using a digital thermometer for paired comparisons.&#xD;
+&#xD;
+      Testing in healthy postnatal mothers (n=11) was first carried out amongst those with well&#xD;
+      babies in the postnatal ward and then amongst mothers (n=7) with neonates admitted in the&#xD;
+      NICU. The devices were secured on to their upper arms with arm band secured with Velcro®&#xD;
+      tape. Paired readings taken every 5 minutes over a 1-hour period with an axillary digital&#xD;
+      thermometer were compared against the readings of the sensor with its time stamp.&#xD;
+&#xD;
+      Testing among neonates was carried out in three different phases in all of which the devices&#xD;
+      were secured with cotton and micropore adhesive to the upper epigastrium. In the first phase,&#xD;
+      well-babies (n=3) in their early neonatal periods in the postnatal ward had their axillary&#xD;
+      temperature readings taken every 5 minutes over a 1-hour period with a digital thermometer&#xD;
+      and compared against the sensor readings. In the second phase, sick but stable neonates&#xD;
+      (n=10) from the NICU were recruited. They were under the radiant warmer with the temperature&#xD;
+      probe fixed on to the upper abdomen beside the sensor device and so the readings taken every&#xD;
+      5 minutes over a 1-hour period from the warmer panel were compared against the sensor&#xD;
+      readings. But since all these babies had their temperatures maintained within a narrow normal&#xD;
+      range under the radiant warmer, we included one sick infant with hypoxic ischemic&#xD;
+      encephalopathy (HIE) due to birth asphyxia and who was on treatment with therapeutic&#xD;
+      whole-body cooling. This facilitated comparison of readings in the range of 33° to 34°C&#xD;
+      during the cooling and re-warming phases of the treatment. The radiant warmer probe readings&#xD;
+      taken every 5 minutes over a 1-hour period from the warmer panel were compared against the&#xD;
+      sensor readings.&#xD;
+&#xD;
+      Definitions Safety: An adverse event reporting and resolution protocol for the wearable&#xD;
+      sensor devices was instituted. This enabled capture of the number and severity of adverse&#xD;
+      events as well as the individual clinical management as also feedback for changes into device&#xD;
+      design. Adverse events to be recorded were: dermatitis, infection, thermal injury, radiation&#xD;
+      injury, device leak/burst and others.&#xD;
+&#xD;
+      Accuracy: Of the device was estimated by comparing temperatures recorded by the device&#xD;
+      against other measurements routinely used in clinical practice. For mothers and well-babies&#xD;
+      in postnatal wards, the comparisons were between the device temperatures versus axillary&#xD;
+      temperatures read from a digital thermometer (once readings stabilized after the beep -&#xD;
+      usually after 3 minutes); for newborns in NICU, the comparisons were between the time-stamped&#xD;
+      device temperatures versus skin probe temperatures obtained from the control panels of&#xD;
+      calibrated radiant warmers (Phoenix Medical Systems Private Limited, Chennai, India or Zeal&#xD;
+      Medical Ltd, Mumbai, India).&#xD;
+&#xD;
+      Statistical Analysis: Mean [+/-Standard deviation (S.D.)] was calculated for the paired sets&#xD;
+      of readings noted in mothers and newborns and the mean differences were obtained. Paired&#xD;
+      t-test was used for testing of significance between two different methods.&#xD;
+&#xD;
+      Ethics: Ethics approval for the study was obtained from the St John's Institutional Ethics&#xD;
+      Review Board (IERB #59/2011 dated 15 Mar 2011&amp;# 125/2014 dated 16 Aug 2014). The clinical&#xD;
+      trial was registered with the Clinical Trials Registry of India (CTRI/2015/05/005779).&#xD;
+      Informed consent was obtained from all participants/care-givers.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Actual">March 2015</completion_date>
+  <primary_completion_date type="Actual">March 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Design, development and testing of a wearable sensor device for remote biomonitoring (RBM) of body temperatures in mothers and newborns</measure>
+    <time_frame>May 2014-Mar 2015</time_frame>
+    <description>We describe the design, development and testing of a wearable sensor device for remote biomonitoring (RBM) of body temperatures in mothers and newborns in southern India.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">250</enrollment>
+  <condition>Temperature Change, Body</condition>
+  <arm_group>
+    <arm_group_label>Remote biomonitoring sensor device</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>250 readings for a power of 80% and to detect a 5% difference in measurements with 95% confidence interval from mothers and newborns was ascertained. Once 3 probes were strapped (radiant warmer, RBM device and multichannel), a waiting period of 10 minutes for temperature stabilization was given. First RBM device &amp; multichannel probe provided readings continuously (every few seconds); Then radiant warmer probe and manual thermometer readings were taken every 15 minutes for 5 timings: 0, 15, 30, 45 and 60 minutes. Participant safety for newborns was ensured following routine appropriate care protocols.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Remote biomonitoring sensor device</intervention_name>
+    <description>Same as described in arm descriptions. Safety was ensured by getting radiant warmer and multichannel probe examined and services by the biomedical engineering department; calibration certificates were obtained and these were used routinely in care of other neonates. An adverse event reporting and resolution protocol for the wearable sensor devices to capture number and severity of adverse events; individual clinical management and feedback for changes into device design. Adverse events recorded were: dermatitis, infection, thermal injury, radiation injury, device leak/burst and others.</description>
+    <arm_group_label>Remote biomonitoring sensor device</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Mothers 15-44 years&#xD;
+&#xD;
+          -  Neonates 1-7 days who were healthy and of normal weight from postnatal ward&#xD;
+&#xD;
+          -  Neonates 1-7 days who were stable from neonatal intensive care unit above 1500 grams&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Not applicable&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>7 Days</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Prem K Mony, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>St. John's Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Prashanth Thankachen, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UCAM Ltd.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>St. John's Research Institute</name>
+      <address>
+        <city>Bangalore</city>
+        <state>KA</state>
+        <zip>560034</zip>
+        <country>India</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>India</country>
+  </location_countries>
+  <link>
+    <url>https://www.unescap.org/sites/default/files/India_and_the_MDGs_0.pdf</url>
+    <description>India and the MDGs: Towards a sustainable future for all.</description>
+  </link>
+  <link>
+    <url>http://www.who.int/management/quality/assurance/QualityCare_B.Def.pdf</url>
+    <description>Quality of Care: A process for making strategic choices in health systems. 2006. Geneva: Switzerland.</description>
+  </link>
+  <link>
+    <url>http://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet</url>
+    <description>Electromagnetic fields and cancer</description>
+  </link>
+  <reference>
+    <citation>Varkey P, Horne A, Bennet KE. Innovation in health care: a primer. Am J Med Qual. 2008 Sep-Oct;23(5):382-8. doi: 10.1177/1062860608317695.</citation>
+    <PMID>18820143</PMID>
+  </reference>
+  <reference>
+    <citation>Christensen CM, Bohmer R, Kenagy J. Will disruptive innovations cure health care? Harv Bus Rev. 2000 Sep-Oct;78(5):102-12, 199.</citation>
+    <PMID>11143147</PMID>
+  </reference>
+  <reference>
+    <citation>Say L, Chou D, Gemmill A, Tunçalp Ö, Moller AB, Daniels J, Gülmezoglu AM, Temmerman M, Alkema L. Global causes of maternal death: a WHO systematic analysis. Lancet Glob Health. 2014 Jun;2(6):e323-33. doi: 10.1016/S2214-109X(14)70227-X. Epub 2014 May 5. Review.</citation>
+    <PMID>25103301</PMID>
+  </reference>
+  <reference>
+    <citation>Million Death Study Collaborators, Bassani DG, Kumar R, Awasthi S, Morris SK, Paul VK, Shet A, Ram U, Gaffey MF, Black RE, Jha P. Causes of neonatal and child mortality in India: a nationally representative mortality survey. Lancet. 2010 Nov 27;376(9755):1853-60. doi: 10.1016/S0140-6736(10)61461-4. Epub 2010 Nov 12.</citation>
+    <PMID>21075444</PMID>
+  </reference>
+  <reference>
+    <citation>Yilmaz T, Foster R, Hao Y. Detecting vital signs with wearable wireless sensors. Sensors (Basel). 2010;10(12):10837-62. doi: 10.3390/s101210837. Epub 2010 Dec 2. Review.</citation>
+    <PMID>22163501</PMID>
+  </reference>
+  <reference>
+    <citation>Ramdorai A, Herstatt C. Frugal innovation in healthcare: how targeting low-income markets leads to disruptive innovation. Springer International Publishing Switzerland. 2015</citation>
+  </reference>
+  <reference>
+    <citation>Registrar General of India. Sample Registration System Bulletin. Vol 49, No. 1. New Delhi, India: Government of India. 2014</citation>
+  </reference>
+  <reference>
+    <citation>Chen W, Dols S, Oetomo SB, et al. Monitoring body temperature of newborn infants at neonatal intensive care units using wearable sensors. BodyNets'2010, September 10-12, 2010, Corfu Island, Greece.</citation>
+  </reference>
+  <reference>
+    <citation>Smith J. Methods and devices of temperature measurement in the neonate: a narrative review and practice recommendations. Newborn &amp; Infant Nursing Reviews 2014: 64-71</citation>
+  </reference>
+  <reference>
+    <citation>USAID. Report to Congress: Health-Related Research and Development Activities at USAID (HRRD), May 2006</citation>
+  </reference>
+  <reference>
+    <citation>Government of India. The Medical Devices Regulation Bill, 2006 (No XX of 2006). Department of Science &amp; Technology, New Delhi.</citation>
+  </reference>
+  <reference>
+    <citation>Thyssen JP, Menné T. Metal allergy--a review on exposures, penetration, genetics, prevalence, and clinical implications. Chem Res Toxicol. 2010 Feb 15;23(2):309-18. doi: 10.1021/tx9002726. Review.</citation>
+    <PMID>19831422</PMID>
+  </reference>
+  <reference>
+    <citation>Lund, C. Medical Adhesives in the NICU. Newborn &amp; Infant Nursing Reviews 2014: 160-165</citation>
+  </reference>
+  <reference>
+    <citation>Rao H, Saxena D, Kumar S, et al. Low power remote neonatal temperature monitoring device. 7th International Conference on Biomedical Electronics and Devices (BioDevices 2014). 3-6 March 2014, Angers, France.</citation>
+  </reference>
+  <reference>
+    <citation>Yock P. Needs-based innovation: the biodesign process. BMJ Innov 2015;1:3</citation>
+  </reference>
+  <reference>
+    <citation>Länsisalmi H, Kivimäki M, Aalto P, Ruoranen R. Innovation in healthcare: a systematic review of recent research. Nurs Sci Q. 2006 Jan;19(1):66-72; discussion 65. Review.</citation>
+    <PMID>16407603</PMID>
+  </reference>
+  <reference>
+    <citation>Basem El-Haik B, Mekki KS. Medical device design for six sigma: a road map for safety and effectiveness.</citation>
+  </reference>
+  <reference>
+    <citation>Zhu Z, Liu T, Li G, Li T, Inoue Y. Wearable sensor systems for infants. Sensors (Basel). 2015 Feb 5;15(2):3721-49. doi: 10.3390/s150203721. Review.</citation>
+    <PMID>25664432</PMID>
+  </reference>
+  <reference>
+    <citation>Verschaeve L. Genetic damage in subjects exposed to radiofrequency radiation. Mutat Res. 2009 Mar-Jun;681(2-3):259-270. doi: 10.1016/j.mrrev.2008.11.002. Epub 2008 Nov 27. Review.</citation>
+    <PMID>19073278</PMID>
+  </reference>
+  <reference>
+    <citation>El-Noush H, Silver KL, Pamba AO, Singer PA. Innovating for women's, children's, and adolescents' health. BMJ. 2015 Sep 14;351:h4151. doi: 10.1136/bmj.h4151. Review.</citation>
+    <PMID>26371217</PMID>
+  </reference>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 29, 2020</study_first_posted>
+  <last_update_submitted>October 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Newborns</keyword>
+  <keyword>Biomonitoring</keyword>
+  <keyword>Sensor</keyword>
+  <keyword>Device</keyword>
+  <keyword>Remote</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Body Temperature Changes</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 4, 2014</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/65/NCT04608565/Prot_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 30, 2015</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/65/NCT04608565/SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

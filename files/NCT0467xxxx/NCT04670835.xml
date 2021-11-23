@@ -1,0 +1,164 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04670835</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RC20_0064</org_study_id>
+    <nct_id>NCT04670835</nct_id>
+  </id_info>
+  <brief_title>Modeling the Impact of Inbound Call Distribution Virtualization in Emergency Medical Communication Centers (EMCCs) on Their Service Level</brief_title>
+  <acronym>CALL_SAMU</acronym>
+  <official_title>Modeling the Impact of Inbound Call Distribution Virtualization in Emergency Medical Communication Centers (EMCCs) on Their Service Level</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nantes University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>IMT Mines Albi - France (https://www.imt-mines-albi.fr/)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Nantes University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Fast access to the Emergency Medical Communication Center (EMCC) is essential for the&#xD;
+      population in emergency situation. It is therefore essential that these call centers operate&#xD;
+      quickly and provide good quality service. However, in recent years, EMCCs have experienced a&#xD;
+      constant and increasing demand from the population. Thus, maintaining the current&#xD;
+      organization of emergency medical communication centers raises questions about both the&#xD;
+      volume of incoming calls to EMCCs and the economic constraints, which make it difficult to&#xD;
+      manage call peaks, especially in periods of crisis.&#xD;
+&#xD;
+      The aim of our study is to assess the impact of incoming call distribution virtualization in&#xD;
+      EMCCs on their service quality.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      France is facing political decisions on the evolution of Emergency Medical Communication&#xD;
+      Center organization to improve population accessibility. Regarding the performance targets&#xD;
+      requested by the French government (MARCUS report:&#xD;
+      http://www.urgences113.fr/marcus/Rapport_MARCUS3.pdf), the virtualization of inbound call&#xD;
+      distribution could improve EMCC service quality indicators.&#xD;
+&#xD;
+      The Virtualization is a process that consists of centralizing calls from different&#xD;
+      territories before distributing them to the centers concerned according to their&#xD;
+      availability. The objective through this process is to improve the population' access to the&#xD;
+      EMCC by reducing waits time. And on the other hand, to optimize the activity rate of&#xD;
+      dispatchers and physicians.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 15, 2021</start_date>
+  <completion_date type="Anticipated">December 16, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 16, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Operational level of service, defined by the quality of service at 20 s (QS20). It corresponds to the rate of answered calls within 20 s</measure>
+    <time_frame>20 seconds</time_frame>
+    <description>This indicator is one of the most frequently used internationally to measure the performance of emergency call centers</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1500000</enrollment>
+  <condition>Emergency Medical Service Communication Systems, Health Care</condition>
+  <arm_group>
+    <arm_group_label>Case Group (unic)</arm_group_label>
+    <description>Group/Cohort Label :&#xD;
+Users of Emergency Call Centers Users of French territory 'Region Pays de la Loire'&#xD;
+Group/Cohort Description:&#xD;
+All Users calling through the five Emergency Medical Centers of the French Pays de la Loire region (5 areas of the region are : Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe, Vendée).&#xD;
+In each Emergency Medical Center, an advanced telephone system automatically keeps track of all inbound calls.&#xD;
+Average annual number of incoming calls for the 5 Emergency Medical Center of Pays de la Loire region is 1,6 million.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All Users calling through the five Emergency Medical Centers of the French Pays de la Loire&#xD;
+        region (5 areas of the region are : Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe,&#xD;
+        Vendée).&#xD;
+&#xD;
+        In each Emergency Medical Center, an advanced telephone system automatically keeps track of&#xD;
+        all inbound calls.&#xD;
+&#xD;
+        Average annual number of incoming calls for the 5 Emergency Medical Center of Pays de la&#xD;
+        Loire region is 1,6 million.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All incoming calls passing through the five Emergency Medical Centers in the Pays de&#xD;
+             la Loire region (Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe and Vendée). In&#xD;
+             each center, an advanced telephone system automatically keeps track of all inbound&#xD;
+             calls.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        According to the French national consortium, incoming calls that hung up in less than 10&#xD;
+        seconds are considered as dialing errors and are excluded&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yann Penverne, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHU Nantes</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yann Penverne, MD</last_name>
+    <phone>+336 50 84 05 72</phone>
+    <phone_ext>+33</phone_ext>
+    <email>yann.penverne@chu-nantes.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Maxime Lebeaupin</last_name>
+    <phone>+336 63 63 91 41</phone>
+    <phone_ext>+33</phone_ext>
+    <email>maxime.lebeaupin@chu-nantes.fr</email>
+  </overall_contact_backup>
+  <link>
+    <url>https://www.chu-nantes.fr/recherche-clinique-26</url>
+    <description>Presentation of the study context; description of the protocol and his main objectives. Presentation of the team</description>
+  </link>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>December 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 17, 2020</study_first_posted>
+  <last_update_submitted>December 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Emergency health service, Accessibility, Virtualization, organization</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

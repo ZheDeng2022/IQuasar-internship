@@ -1,0 +1,232 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05026346</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0002017</org_study_id>
+    <nct_id>NCT05026346</nct_id>
+  </id_info>
+  <brief_title>Construction of an AI System for the Automatic Supervision of Shoulder's Rehabilitation Exercises (Rehab-SPIA)</brief_title>
+  <acronym>Rehab-SPIA</acronym>
+  <official_title>Construction of an Artificial Intelligence System for the Remote Automatic Supervision of Shoulder's Rehabilitation Exercises</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Ortopedico Rizzoli</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Istituto Ortopedico Rizzoli</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The current historical phase and the growing need for rehabilitation in the world make&#xD;
+      tele-rehabilitation systems, and e-Health in general, fundamental tools for increasing&#xD;
+      patient engagement and compliance with care, crucial elements for the preservation of the NHS&#xD;
+      from a perspective expenditure review and resource optimization. In particular, the&#xD;
+      rehabilitation patient has on average an adherence to the Home Exercise Program (HEP) between&#xD;
+      30-50%, to which is frequently added a reduced effectiveness of motor learning due to the&#xD;
+      lack of feedback on the accuracy of the gesture, as is the case. it happens in the hospital&#xD;
+      or outpatient setting under the supervision of a therapist.&#xD;
+&#xD;
+      The new computational approaches for the analysis of data on human movement, aimed at the&#xD;
+      development of algorithms to automatically supervise the accuracy of the patient's gesture&#xD;
+      during home self-treatment exercise such as those based on Artificial Intelligence (AI) and&#xD;
+      Machine Learning (ML), especially those of the latest generation, called sub-symbolics (or&#xD;
+      connectionists) can help.&#xD;
+&#xD;
+      Among the most promising approaches are. Given the importance of the Home Exercise Program in&#xD;
+      shoulder disease, it was decided to select a population of patients affected by the main&#xD;
+      pathologies affecting this joint.&#xD;
+&#xD;
+      The main objective of the study is to create and validate a software tool for the automatic&#xD;
+      and expert analysis of the correct execution of the main rehabilitation exercises for the&#xD;
+      functional recovery of the shoulder following orthopedic pathologies.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The current historical phase and the growing need for rehabilitation in the world make&#xD;
+      tele-rehabilitation systems, and e-Health in general, fundamental tools for increasing&#xD;
+      patient engagement and compliance with care, crucial elements for the preservation of the NHS&#xD;
+      from a perspective expenditure review and resource optimization .&#xD;
+&#xD;
+      In particular, the rehabilitation patient has on average an adherence to the Home Exercise&#xD;
+      Program (HEP) between 30-50%, to which is frequently added a reduced effectiveness of motor&#xD;
+      learning due to the lack of feedback on the accuracy of the gesture, as it happens in the&#xD;
+      hospital or outpatient setting under the supervision of a therapist.&#xD;
+&#xD;
+      The new computational approaches for the analysis of data on human movement, aimed at the&#xD;
+      development of algorithms to automatically supervise the accuracy of the patient's gesture&#xD;
+      during the exercise of home self-treatment, attempt to solve this last critical issue.&#xD;
+&#xD;
+      Among the most promising approaches are those based on Artificial Intelligence (AI) and&#xD;
+      Machine Learning (ML), in particular those of the latest generation, called sub-symbolic (or&#xD;
+      connectionist).&#xD;
+&#xD;
+      These algorithms arouse a lot of interest for their ability to automatically extract the&#xD;
+      salient properties of the movement, reducing the intervention of experts to the collection of&#xD;
+      all the data, and to the possible labeling of the examples (5) In any case, the literature&#xD;
+      shows a lack of models developed with the direct involvement of clinicians and a scarcity of&#xD;
+      data sets created with patient populations.&#xD;
+&#xD;
+      Furthermore, most of the models present in the literature have been created using numerous&#xD;
+      input devices, often with a high technological rate with considerable costs for implementing&#xD;
+      a possible service at the patient's home.&#xD;
+&#xD;
+      For these reasons we want to create a specialist clinical dataset, starting only from the&#xD;
+      videos of the exercises, involving specific populations by pathology and built on the basis&#xD;
+      of clinical judgment. With these characteristics, this project aims to automate the motion&#xD;
+      analysis process as much as possible, enormously reducing the costs deriving from the use of&#xD;
+      technologies and minimizing human error, all by exploiting the most recent computational&#xD;
+      approaches in order to create a useful and low-cost tool for home functional re-education.&#xD;
+&#xD;
+      Given the importance of the Home Exercise Program in shoulder disease, it was decided to&#xD;
+      select a population of patients affected by the main pathologies affecting this joint.&#xD;
+&#xD;
+      The main objective of the study is to create and validate a software tool for the automatic&#xD;
+      and expert analysis of the correct execution of the main rehabilitation exercises for the&#xD;
+      functional recovery of the shoulder following orthopedic pathologies.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Correctness of the shoulder movement</measure>
+    <time_frame>12 months</time_frame>
+    <description>A questionnaire in which the clinician will describe the correctenss of the shoulder movement will be used and compared with the attribution by the Artificial Intelligence software</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Rotator Cuff Tears</condition>
+  <arm_group>
+    <arm_group_label>Healthy</arm_group_label>
+    <description>Healthy subjects, wothout shoulder pathology</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Rotator cuff tears</arm_group_label>
+    <description>Patients after arthroscopic reconstruction of rotator cuff</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Pathologic Exercise</intervention_name>
+    <description>In the first phase of the project, a series of 5 active shoulder mobilization exercises characterized by an adequate range of motion will be tested to verify the set up for the video recording.&#xD;
+In the second phase shoulder movements will be recorder by a smartphone.&#xD;
+A questionnaire will be used and adapted on the basis of which to evaluate the correctness of the exercises performed by each healthy subject / patient. This questionnaire will provide a Clinical Score (CS) which assigns a numerical value to the patient's overall performance for each repetition.&#xD;
+The videos of each repetition of exercises performed by the healthy subjects / patients will then be evaluated by two different clinicians, blinded, using the questionnaire.&#xD;
+The Artificial Intelligence learning algorithm will be able to output an evaluation score that will be compared with that produced by clinicians.</description>
+    <arm_group_label>Healthy</arm_group_label>
+    <arm_group_label>Rotator cuff tears</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients after arthroscopic reconstruction of rotator cuff&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Healthy subjects group:&#xD;
+&#xD;
+               -  Adult patients&gt; 18 years old&#xD;
+&#xD;
+               -  Patients with no known shoulder pathologies&#xD;
+&#xD;
+          -  Group of subjects with shoulder pathology operated on&#xD;
+&#xD;
+               -  Adult patients&gt; 18 years&#xD;
+&#xD;
+               -  Suffering from orthopedic pathologies affecting the shoulder such as: outcomes of&#xD;
+                  ultrasound-guided percutaneous treatment for tendon calcification, outcomes of&#xD;
+                  ultrasound-guided detachment in adhesive bursitis, outcomes of proximal humerus&#xD;
+                  fractures, repair of the rotator cuff, interventions for scapulo-humeral&#xD;
+                  instability.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with a history of opioid drug dependence or a history of substance abuse&#xD;
+&#xD;
+          -  Patients suffering from orthopedic pathologies affecting the upper limbs in the&#xD;
+             presence of clear detectable surgical complications&#xD;
+&#xD;
+          -  Patients with cognitive disorders (MMSE Mini Mental State Examinantion greater than or&#xD;
+             equal to 24/30).&#xD;
+&#xD;
+          -  Patients suffering from major anamnestic or current neurological or psychiatric&#xD;
+             pathologies, severe cardiopulmonary, hepatic or renal pathologies that contraindicate&#xD;
+             participation in the study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Maria Grazia Benedetti, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Istituto Ortopedico Rizzoli</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Maria Grazia Benedetti, MD</last_name>
+    <phone>+390516366236</phone>
+    <email>benedetti@ior.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>IRCCS-Istituto Ortopedico Rizzoli</name>
+      <address>
+        <city>Bologna</city>
+        <zip>40136</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maria Grazia Benedetti, MD</last_name>
+      <phone>6366236</phone>
+      <phone_ext>+39051</phone_ext>
+      <email>benedetti@ior.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 27, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 30, 2021</study_first_posted>
+  <last_update_submitted>August 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Istituto Ortopedico Rizzoli</investigator_affiliation>
+    <investigator_full_name>Mariagrazia Benedetti</investigator_full_name>
+    <investigator_title>Head Physical Medicine and Rehabilitation Unit</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Rotator Cuff Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

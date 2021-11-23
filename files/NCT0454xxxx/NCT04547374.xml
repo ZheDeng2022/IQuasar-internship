@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04547374</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-0769</org_study_id>
+    <nct_id>NCT04547374</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Geisinger at Home (GaH) Patient Management</brief_title>
+  <official_title>Evaluation of Geisinger at Home (GaH) Patient Management</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Healthcare cost has increased drastically in the last decade, and over 50% of the cost can be&#xD;
+      attributed to a small portion (5-10%) of the population. Certain clinical programs, such as&#xD;
+      home-based care, aim to reduce this utilization but need methods to identify the most&#xD;
+      appropriate patients to enroll. The Investigators believe that data-driven approaches can&#xD;
+      optimize this new healthcare delivery system to target patients who may likely benefit from&#xD;
+      the program. The primary aim of this project is to determine the effectiveness of the&#xD;
+      Geisinger at Home ™ (GaH) program on survival, emergency department (ED) visits and&#xD;
+      hospitalizations in multiple patient populations defined by clinical characteristics.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      BACKGROUND AND RATIONALE:&#xD;
+&#xD;
+      Geisinger at Home™ brings personalized healthcare to eligible Geisinger Gold Medicare&#xD;
+      Advantage members where they live. Geisinger's at-home care program aims to keep patients&#xD;
+      healthier, safer, and better connected to their healthcare team. Working closely with&#xD;
+      patients' primary care physicians, Geisinger's team of doctors, registered nurses,&#xD;
+      dietitians, case managers, pharmacists and other medical support staff can visit patients as&#xD;
+      needed. The goal of the program is to meet the health needs of patients with chronic health&#xD;
+      conditions through regular home visits, potentially reducing acute exacerbations of these&#xD;
+      conditions requiring trips to the emergency room or hospital.&#xD;
+&#xD;
+      Geisinger at Home's spectrum of care includes:&#xD;
+&#xD;
+      Checkups Routine testing Wound care Respiratory care Nutritional needs Urgent care Specialty&#xD;
+      care&#xD;
+&#xD;
+      Currently, there are about 7,000 Geisinger Gold members enrolled in the Geisinger at Home&#xD;
+      program and over 11,000 are eligible based on current screening approach.&#xD;
+&#xD;
+      A fundamental operational challenge of this program is determining how to optimally&#xD;
+      deploy/distribute its scarce resources-the members of the care team-among those 7,000&#xD;
+      enrolled members to the optimize their impact. The current screening process uses limited&#xD;
+      data (billing codes) and simple heuristics for assessing patient risk, and does not leverage&#xD;
+      the rich, highly granular clinical data available, such as imaging, laboratory values, and&#xD;
+      vital signs, which can greatly enhance the ability to accurately predict outcomes and&#xD;
+      identify patients most appropriate for the program. The Investigators believe that using&#xD;
+      these more granular data can optimize this new healthcare delivery system to target patients&#xD;
+      who have the highest risk of future healthcare utilization or adverse events such as death.&#xD;
+      As a proof-of-concept, the Investigators generated a machine learning model to predict risk&#xD;
+      of future utilization in the next 12 months. This model utilized 191 input variables&#xD;
+      including clinical data, imaging measures, comorbidities, medications, past utilization&#xD;
+      metrics, as well as social metrics. The results showed that the machine learning model had&#xD;
+      the ability to predict utilization endpoints compared to current screening approaches&#xD;
+      utilizing billing code data. The Investigators now seek to prospectively evaluate the effect&#xD;
+      that GaH interventions have on patient outcomes (e.g., hospitalizations and ED visits,&#xD;
+      mortality), when informed by these accurate predictive modeling results and other&#xD;
+      stratification approaches.&#xD;
+&#xD;
+      PROCEDURES:&#xD;
+&#xD;
+      Research Design This is a prospective pragmatic randomized controlled study to evaluate the&#xD;
+      effects of GaH intervention on eligible patients as compared against current best practices&#xD;
+      for care management. Patients will be identified and screened based on available data from&#xD;
+      the EHR, randomly assigned GaH intervention or standard of care (SoC) and followed for 6&#xD;
+      months. The primary endpoints of the study are number of hospitalizations and ED visits.&#xD;
+      Secondary endpoint will be 6-month survival after enrollment.&#xD;
+&#xD;
+      Detailed Procedures: Once the cohorts are identified, cohort 2 (controls) will continue to&#xD;
+      receive standard clinical care and management. There will be no intent for members of the&#xD;
+      project team to intervene or interact with these individuals. Cohort 1 will be onboarded for&#xD;
+      GaH intervention through the clinically directed process by the GaH team. Of note, the&#xD;
+      purpose of this project is not to define, control, or evaluate the specific details of the&#xD;
+      GaH process or procedure, but to evaluate its effectiveness as an alternative clinical care&#xD;
+      path in this setting. As such, the specific details and actions of the GaH care team in each&#xD;
+      patient interaction are left to their medical discretion.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">September 2025</completion_date>
+  <primary_completion_date type="Anticipated">September 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hospital Visits and Admissions</measure>
+    <time_frame>6 months</time_frame>
+    <description>The primary outcomes of number of IP admission and number of ED visits through 6 months post-enrollment will be compared between groups.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Population Health Management</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1 - GaH Intervention</arm_group_label>
+    <description>Cohort 1 - GaH intervention group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2 - Standard-of-care control group</arm_group_label>
+    <description>Cohort 2 - Standard-of-care control group&#xD;
+*Importantly, these individuals are eligible for referral to GaH at the discretion of their physicians.*</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>GaH Intervention</intervention_name>
+    <description>Patients in this cohort will be referred for management/intervention with GaH.&#xD;
+However, the purpose of this program is not to define, control, or evaluate the specific details of the GaH process or procedure, but to evaluate its effectiveness as an alternative clinical care path in this setting. As such, the specific details and actions of the GaH care team in each patient interaction are left to their medical discretion.</description>
+    <arm_group_label>Cohort 1 - GaH Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All adult Geisinger patients (≥18 years of age) eligible for enrollment into Geisinger at&#xD;
+        Home (TM) (GaH).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All adult Geisinger patients (≥18 years of age) eligible for enrollment into GaH.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients not eligible for enrollment into GaH&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Brandon K Fornwalt, MD,Phd</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>H. Lester Kirchner, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Geisinger</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>September 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 14, 2020</study_first_posted>
+  <last_update_submitted>April 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Machine Learning</keyword>
+  <keyword>Supervised Machine Learning</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

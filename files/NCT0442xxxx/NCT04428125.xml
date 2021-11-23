@@ -1,0 +1,230 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04428125</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ER.ALL.2018.17</org_study_id>
+    <nct_id>NCT04428125</nct_id>
+  </id_info>
+  <brief_title>CFD Analysis and Risk of TOS in Sport</brief_title>
+  <acronym>COFLUTOSPO</acronym>
+  <official_title>Computational Fluid Dynamics Analysis for the Risk of Thoracic Outlet Syndrome in Sporty Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Catanzaro</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Catanzaro</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Thoracic outlet syndrome (TOS) may complicate the activities of sporty subjects that&#xD;
+      participate in sports that involves upper extremities activities, such as baseball, tennis,&#xD;
+      swimming, rowing, volleyball, rugby football, and weightlifting. Disability and&#xD;
+      postintervention recovery related to TOS treatment and possible surgery may have a&#xD;
+      significant impact in the overall performance abilities of athletes. This study aims to&#xD;
+      detect the early predisposition of athletes to TOS onset, by means of computational fluid&#xD;
+      dynamics (CFD) analysis of thoracic outlet region.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Repetitive upper extremity use in athletes may be associated with the development of&#xD;
+      neurogenic and vascular thoracic outlet syndrome (TOS) which typically presents as upper&#xD;
+      extremity symptoms caused by compression of the neurovascular structures in the area of the&#xD;
+      neck above the first rib. Clinical manifestations can include upper extremity pain,&#xD;
+      paresthesias, numbness, weakness, fatigability, swelling, discoloration, and Raynaud&#xD;
+      phenomenon. Vascular TOS can involve the subclavian artery or vein.&#xD;
+&#xD;
+      Most patients who suffer TOSs have an anatomical predisposition and sport activities of upper&#xD;
+      limbs may contribute to TOS onset. Disability and postintervention recovery related to TOS&#xD;
+      treatment and possible surgery can have a significant effect in the overall performance&#xD;
+      abilities of affected patients, and little has been published specifically about the risk of&#xD;
+      TOS athletes. Computational fluid dynamics (CFD) analysis is one of the key analysis methods&#xD;
+      used in bioengineering applications in studying the cardiovascular system. In this context a&#xD;
+      typical fluid dynamics analysis involves evaluation of basic fluid properties like flow&#xD;
+      velocity, and pressure, in relation to time and space.&#xD;
+&#xD;
+      This study aims to study CFD factors in thoracic outlet region (cervicothoracobrachial&#xD;
+      region) in order to evaluate the fluid - structure interactions between muscles, bones and&#xD;
+      vessels in this region in sporty subjects that participate in the following sports: baseball,&#xD;
+      tennis, swimming, rowing, volleyball, rugby football, weightlifting.&#xD;
+&#xD;
+      A cohort of healthy sporty subjects will be recruited and will undergo to diagnostic tests in&#xD;
+      order to assess the thoracic outlet region. For this reason, a Magnetic Resonance scan of the&#xD;
+      cervicothoracobrachial region and a duplex ultrasound of the upper limbs will be performed.&#xD;
+&#xD;
+      COMSOL Multiphysics ® cross-platform will be used for elements analysis, in the simulation&#xD;
+      study. The simulation will be implemented with FreeCAD 3d modeling in order to 3D geometry of&#xD;
+      studied elements.&#xD;
+&#xD;
+      The primary endpoint of this study is to calculate the risk of TOS onset in sporty subjects&#xD;
+      in order to prevent a disabling disease in this kind of subjects.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2020</start_date>
+  <completion_date type="Anticipated">October 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Fluid-structure interaction analysis</measure>
+    <time_frame>at 9 month</time_frame>
+    <description>Fluid-structure interaction of the thoracic outlet will be analyzed between sport and non-sporty subjects, in order to calculate the risk of Thoracic outlet syndrome onset.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Thoracic Outlet Syndrome</condition>
+  <condition>Sport Injury</condition>
+  <arm_group>
+    <arm_group_label>Healthy sporty subjects</arm_group_label>
+    <description>Healthy sporty subjects that participate in the following sports: baseball, tennis, swimming, rowing, volleyball, rugby football, weightlifting.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy non-sporty subjects</arm_group_label>
+    <description>Healthy subjects that do not partecipate in sport activities.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Magnetic Resonance Scan of Thoracic outlet region</intervention_name>
+    <description>Both groups will undergo Magnetic Resonance Scan of cervicothoracobrachial region in order to study the anatomy of this region.</description>
+    <arm_group_label>Healthy non-sporty subjects</arm_group_label>
+    <arm_group_label>Healthy sporty subjects</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Duplex Ultrasound assessment of Upper limbs</intervention_name>
+    <description>Both groups will undergo Duplex Ultrasound assessment of Upper limbs, in order to study diameters and flow of the vascular system of the upper limbs.</description>
+    <arm_group_label>Healthy non-sporty subjects</arm_group_label>
+    <arm_group_label>Healthy sporty subjects</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population is represented of healthy sporty and non-sporty people that have no symptoms&#xD;
+        of thoracic outlet syndrome at the moment of observation.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        For &quot;Sporty&quot; Group:&#xD;
+&#xD;
+        sporty subjects that participate in the following sports: baseball, tennis, swimming,&#xD;
+        rowing, volleyball, rugby football, weightlifting&#xD;
+&#xD;
+        For &quot;Non-Sporty&quot; Group:&#xD;
+&#xD;
+        Subject not involved in sport activities&#xD;
+&#xD;
+        For both groups:&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  presence of muscular or bone problems,&#xD;
+&#xD;
+          -  presence of peripheral arterial disease,&#xD;
+&#xD;
+          -  presence of malignant tumors,&#xD;
+&#xD;
+          -  presence of serious cardiovascular and cerebrovascular pathologies,&#xD;
+&#xD;
+          -  presence of renal and hepatic insufficiency&#xD;
+&#xD;
+          -  subjects diagnosed with thoracic outlet syndrome or with symptoms related to the&#xD;
+             aforementioned syndrome.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raffaele Serra, M.D., Ph.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Magna Graecia of Catanzaro</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Raffaele Serra, M.D., Ph.D.</last_name>
+    <phone>+3909613647380</phone>
+    <email>rserra@unicz.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Magna Graecia of Catanzaro</name>
+      <address>
+        <city>Catanzaro</city>
+        <zip>88100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Raffaele Serra, M.D., Ph.D.</last_name>
+      <phone>+3909613647380</phone>
+      <email>rserra@unicz.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Chandra V, Little C, Lee JT. Thoracic outlet syndrome in high-performance athletes. J Vasc Surg. 2014 Oct;60(4):1012-7; discussion 1017-8. doi: 10.1016/j.jvs.2014.04.013. Epub 2014 May 14.</citation>
+    <PMID>24835692</PMID>
+  </reference>
+  <reference>
+    <citation>Duwayri YM, Emery VB, Driskill MR, Earley JA, Wright RW, Paletta GA Jr, Thompson RW. Positional compression of the axillary artery causing upper extremity thrombosis and embolism in the elite overhead throwing athlete. J Vasc Surg. 2011 May;53(5):1329-40. doi: 10.1016/j.jvs.2010.11.031. Epub 2011 Jan 26.</citation>
+    <PMID>21276687</PMID>
+  </reference>
+  <reference>
+    <citation>Melby SJ, Vedantham S, Narra VR, Paletta GA Jr, Khoo-Summers L, Driskill M, Thompson RW. Comprehensive surgical management of the competitive athlete with effort thrombosis of the subclavian vein (Paget-Schroetter syndrome). J Vasc Surg. 2008 Apr;47(4):809-820; discussion 821. doi: 10.1016/j.jvs.2007.10.057. Epub 2008 Feb 14.</citation>
+    <PMID>18280096</PMID>
+  </reference>
+  <reference>
+    <citation>Epidemiology, diagnosis and treatment of thoracic outlet syndrome: A systematic review. Acta Phlebol. 2015;16(2):59-68.</citation>
+  </reference>
+  <verification_date>June 2020</verification_date>
+  <study_first_submitted>June 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 11, 2020</study_first_posted>
+  <last_update_submitted>June 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>June 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Catanzaro</investigator_affiliation>
+    <investigator_full_name>Prof. Raffaele Serra, MD, Ph.D.</investigator_full_name>
+    <investigator_title>Associate Professor of Vascular Surgery</investigator_title>
+  </responsible_party>
+  <keyword>Thoracic Outlet Syndrome</keyword>
+  <keyword>Sports</keyword>
+  <keyword>Computational fluid dynamics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thoracic Outlet Syndrome</mesh_term>
+    <mesh_term>Syndrome</mesh_term>
+    <mesh_term>Athletic Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

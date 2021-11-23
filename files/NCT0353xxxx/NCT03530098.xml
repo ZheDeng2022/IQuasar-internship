@@ -1,0 +1,1152 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03530098</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB #44764</org_study_id>
+    <nct_id>NCT03530098</nct_id>
+  </id_info>
+  <brief_title>Validation of an Artificial Intelligence-based Algorithm for Skeletal Age Assessment</brief_title>
+  <official_title>Prospective, Multi-Center, Randomized Controlled Trial for Skeletal Age Assessment AI Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Stanford University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to understand the effects of using an Artificial Intelligence&#xD;
+      algorithm for skeletal age estimation as a computer-aided diagnosis (CADx) system. In this&#xD;
+      prospective real-time study, the investigators will send de-identified hand radiographs to&#xD;
+      the Artificial Intelligence algorithm and surface the output of this algorithm to the&#xD;
+      radiologist, who will incorporate this information with their normal workflows to make an&#xD;
+      estimation of the bone age. All radiologists involved in the study will be trained to&#xD;
+      recognize the surfaced prediction to be the output of the Artificial Intelligence algorithm.&#xD;
+      The radiologists' diagnosis will be final and considered independent to the output of the&#xD;
+      algorithm.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators are targeting to study the effect of their Artificial Intelligence&#xD;
+      algorithm on the radiologists' estimation of skeletal age. Currently, radiologists make the&#xD;
+      estimation using only the radiographic images and health records. As part of this study, the&#xD;
+      radiologists will estimate skeletal age from radiographic images, health records, and the&#xD;
+      output of the CADx algorithm. The investigators wish to understand how radiologists using the&#xD;
+      Artificial Intelligence algorithm compare to radiologists who do not for the specific task of&#xD;
+      estimating skeletal age.&#xD;
+&#xD;
+      This study is organized as a multi-institutional randomized control trial with two arms -&#xD;
+      experiment (receiving the Artificial Intelligence algorithm's output) and control (no&#xD;
+      intervention). Both of these arms will be compared to a clinical reference standard (&quot;gold&#xD;
+      standard&quot;) composed of a panel of radiologists. The metric of comparison will be Mean&#xD;
+      Absolute Distance (MAD). The investigators plan to use statistical tests such as the t-test&#xD;
+      to determine any statistically-significant difference in skeletal age estimation between the&#xD;
+      two groups.&#xD;
+&#xD;
+      The investigators have recruited and analyzed data from a sample size of 1600 exams. Patients&#xD;
+      getting these exams will not undergo any research procedures that deviate from the current&#xD;
+      standard practices.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 12, 2018</start_date>
+  <completion_date type="Actual">August 31, 2019</completion_date>
+  <primary_completion_date type="Actual">August 31, 2019</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A hand radiograph will be randomly assigned to one of two groups - control and experiment. In the control group, participating radiologists will diagnose the exam using the current standard of care (no intervention). In the experiment group, the radiologists will factor in the output of the Artificial Intelligence algorithm in their skeletal age estimation. In all cases, the decision of the radiologist will be considered final.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Paired Difference of Skeletal Age Estimate</measure>
+    <time_frame>Up to 10 minutes to acquire the scan; up to 2 days to complete diagnosis review</time_frame>
+    <description>Mean absolute difference between dictated final impressions (baseline measure by Radiologist) and the consensus determination of a panel of radiologists following review.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time for Diagnosis</measure>
+    <time_frame>Up to approximately 4 minutes</time_frame>
+    <description>Amount of time taken by radiologists when using the BoneAgeModel as compared to when they are not.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1903</enrollment>
+  <condition>Bone Age</condition>
+  <arm_group>
+    <arm_group_label>Control (Without-AI)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>This is the control arm where no intervention is provided; represents current standard of care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Experiment (With-AI)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This is the experiment arm where the intervention, &quot;BoneAgeModel&quot;, is provided. The participating radiologists in this arm will receive the output of the Artificial Intelligence algorithm. They will be asked to incorporate this new information with their normal workflows to make a diagnosis. The radiologists' diagnosis will be considered final.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>BoneAgeModel</intervention_name>
+    <description>BoneAgeModel is an Artificial Intelligence tool that takes in a hand radiograph and gender, and outputs the skeletal (bone) age. The intervention involves using this tool as a factor in the clinical decision making process of the participating radiologists. The radiologist's decision will be considered final.</description>
+    <arm_group_label>Experiment (With-AI)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Exams that meet the following inclusion criteria will be included: (1) exams read by&#xD;
+        radiologists who interpret pediatric skeletal age exams and verbally consent to participate&#xD;
+        (2) exams that contain a procedure code or study description indicative of a skeletal age&#xD;
+        exam.&#xD;
+&#xD;
+        Exams containing more than one radiograph will not be included. Exams for which a trainee&#xD;
+        provides a preliminary interpretation will be excluded. No further exclusion criteria will&#xD;
+        be applied on the basis of image quality metrics or manufacturers. No exclusion criteria&#xD;
+        will be applied on the basis of patient chronological age.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Curtis Langlotz, M.D. Ph.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>David Eng, B.S.</last_name>
+    <role>Study Director</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Nishith Khandwala, B.S.</last_name>
+    <role>Study Director</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Safwan Halabi, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Yale New Haven Hospital</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06519</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Boston Children's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York University</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cincinnati Children's Hospital Medical Center</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Children's Hospital of Philadelphia</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 7, 2018</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 21, 2018</study_first_posted>
+  <results_first_submitted>October 1, 2020</results_first_submitted>
+  <results_first_submitted_qc>October 1, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 26, 2020</results_first_posted>
+  <last_update_submitted>May 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Stanford University</investigator_affiliation>
+    <investigator_full_name>Safwan S Halabi, MD</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Age Determination by Skeleton</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Deep Learning</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Prospective</keyword>
+  <keyword>Clinical Validation</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie the results reported in this article after deidentification (text, tables, figures and appendices).</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>Beginning 3 months and ending 5 years following article publication.</ipd_time_frame>
+    <ipd_access_criteria>Researchers who provide a methodologically sound proposal.</ipd_access_criteria>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>August 1, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/98/NCT03530098/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Control (Without-AI)</title>
+          <description>Diagnosis by radiologists made according to current standard of care methods.</description>
+        </group>
+        <group group_id="P2">
+          <title>Experiment (With-AI)</title>
+          <description>Diagnosis by radiologists informed by &quot;BoneAgeModel&quot; Artificial Intelligence (AI) algorithm incorporated into normal radiologist workflows and considered as a factor in the clinical decision making process. The radiologists' diagnosis will be considered final. BoneAgeModel takes in a hand radiograph and gender, and outputs the skeletal (bone) age.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="939"/>
+                <participants group_id="P2" count="964"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Ground-truth Labeled</title>
+              <participants_list>
+                <participants group_id="P1" count="741"/>
+                <participants group_id="P2" count="794"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Primary Analysis Set</title>
+              <participants_list>
+                <participants group_id="P1" count="739"/>
+                <participants group_id="P2" count="792"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="939"/>
+                <participants group_id="P2" count="964"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Primary analysis set: Participants with ground-truth labeled exam results and no bone deformity.&#xD;
+Ground-truth labeled: exam was interpreted by a panel of 4 radiologists and their interpretations were averaged to determine a final label.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Control (Without-AI)</title>
+          <description>Diagnosis by radiologists made according to current standard of care methods.</description>
+        </group>
+        <group group_id="B2">
+          <title>Experiment (With-AI)</title>
+          <description>Diagnosis by radiologists informed by &quot;BoneAgeModel&quot; AI algorithm incorporated into normal radiologist workflows and considered as a factor in the clinical decision making process.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="739"/>
+            <count group_id="B2" value="792"/>
+            <count group_id="B3" value="1531"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11.8" spread="3.6"/>
+                    <measurement group_id="B2" value="11.5" spread="3.6"/>
+                    <measurement group_id="B3" value="11.7" spread="3.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>0-4 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="12"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="26"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;4-8 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="110"/>
+                    <measurement group_id="B2" value="131"/>
+                    <measurement group_id="B3" value="241"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;8-12 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="206"/>
+                    <measurement group_id="B2" value="249"/>
+                    <measurement group_id="B3" value="455"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;12-16 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="331"/>
+                    <measurement group_id="B2" value="338"/>
+                    <measurement group_id="B3" value="669"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;16-20 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="75"/>
+                    <measurement group_id="B2" value="57"/>
+                    <measurement group_id="B3" value="132"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;20 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="338"/>
+                    <measurement group_id="B2" value="359"/>
+                    <measurement group_id="B3" value="697"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="401"/>
+                    <measurement group_id="B2" value="433"/>
+                    <measurement group_id="B3" value="834"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="739"/>
+                    <measurement group_id="B2" value="792"/>
+                    <measurement group_id="B3" value="1531"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Skeletal age final impression (mean)</title>
+          <description>Final impression is the baseline radiologist assessment.</description>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11.6" spread="3.6"/>
+                    <measurement group_id="B2" value="11.4" spread="3.5"/>
+                    <measurement group_id="B3" value="11.5" spread="3.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Skeletal age final impression (categorical)</title>
+          <description>Final impression is the baseline radiologist assessment.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>0-4 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="38"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;4-8 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="110"/>
+                    <measurement group_id="B2" value="131"/>
+                    <measurement group_id="B3" value="241"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;8-12 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="191"/>
+                    <measurement group_id="B2" value="223"/>
+                    <measurement group_id="B3" value="414"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;12-16 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="344"/>
+                    <measurement group_id="B2" value="362"/>
+                    <measurement group_id="B3" value="706"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;16-20 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="73"/>
+                    <measurement group_id="B2" value="59"/>
+                    <measurement group_id="B3" value="132"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>&gt;20 years</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Clinical histories</title>
+          <description>Clinical history types</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Endocrine</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="391"/>
+                    <measurement group_id="B2" value="430"/>
+                    <measurement group_id="B3" value="821"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Orthopedic</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="82"/>
+                    <measurement group_id="B2" value="63"/>
+                    <measurement group_id="B3" value="145"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Congenital/syndrome</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="9"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Medical</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="16"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="33"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Other</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="4"/>
+                    <measurement group_id="B2" value="12"/>
+                    <measurement group_id="B3" value="16"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>More than one category</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="20"/>
+                    <measurement group_id="B2" value="17"/>
+                    <measurement group_id="B3" value="37"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Not available</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="739"/>
+                    <count group_id="B2" value="792"/>
+                    <count group_id="B3" value="1531"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="217"/>
+                    <measurement group_id="B2" value="241"/>
+                    <measurement group_id="B3" value="458"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Paired Difference of Skeletal Age Estimate</title>
+        <description>Mean absolute difference between dictated final impressions (baseline measure by Radiologist) and the consensus determination of a panel of radiologists following review.</description>
+        <time_frame>Up to 10 minutes to acquire the scan; up to 2 days to complete diagnosis review</time_frame>
+        <population>Primary analysis set: Participants with ground-truth labeled exam results and no bone deformity.&#xD;
+Ground-truth labeled: exam was interpreted by a panel of 4 radiologists and their interpretations were averaged to determine a final label.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control (Without-AI)</title>
+            <description>Diagnosis by radiologists made according to current standard of care methods.</description>
+          </group>
+          <group group_id="O2">
+            <title>Experiment (With-AI)</title>
+            <description>Diagnosis by radiologists informed by &quot;BoneAgeModel&quot; AI algorithm incorporated into normal radiologist workflows and considered as a factor in the clinical decision making process.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Paired Difference of Skeletal Age Estimate</title>
+          <description>Mean absolute difference between dictated final impressions (baseline measure by Radiologist) and the consensus determination of a panel of radiologists following review.</description>
+          <population>Primary analysis set: Participants with ground-truth labeled exam results and no bone deformity.&#xD;
+Ground-truth labeled: exam was interpreted by a panel of 4 radiologists and their interpretations were averaged to determine a final label.</population>
+          <units>months</units>
+          <param>Mean</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="739"/>
+                <count group_id="O2" value="792"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5.95" lower_limit="5.53" upper_limit="6.37"/>
+                    <measurement group_id="O2" value="5.36" lower_limit="5.01" upper_limit="5.71"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.04</p_value>
+            <method>t-test, 2 sided</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>-0.59</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>-1.14</ci_lower_limit>
+            <ci_upper_limit>-0.04</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Time for Diagnosis</title>
+        <description>Amount of time taken by radiologists when using the BoneAgeModel as compared to when they are not.</description>
+        <time_frame>Up to approximately 4 minutes</time_frame>
+        <population>Primary analysis set: Participants with ground-truth labeled exam results and no bone deformity.&#xD;
+Ground-truth labeled: exam was interpreted by a panel of 4 radiologists and their interpretations were averaged to determine a final label.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control (Without-AI)</title>
+            <description>Diagnosis by radiologists made according to current standard of care methods.</description>
+          </group>
+          <group group_id="O2">
+            <title>Experiment (Without-AI)</title>
+            <description>Diagnosis by radiologists informed by &quot;BoneAgeModel&quot; AI algorithm incorporated into normal radiologist workflows and considered as a factor in the clinical decision making process.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Time for Diagnosis</title>
+          <description>Amount of time taken by radiologists when using the BoneAgeModel as compared to when they are not.</description>
+          <population>Primary analysis set: Participants with ground-truth labeled exam results and no bone deformity.&#xD;
+Ground-truth labeled: exam was interpreted by a panel of 4 radiologists and their interpretations were averaged to determine a final label.</population>
+          <units>seconds</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="739"/>
+                <count group_id="O2" value="792"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="142" lower_limit="80" upper_limit="248"/>
+                    <measurement group_id="O2" value="102" lower_limit="59" upper_limit="196"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Other</non_inferiority_type>
+            <p_value>0.001</p_value>
+            <method>Wilcoxon rank-sum test</method>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Day of study visit (average approximately 1 hour)</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Control (Without-AI)</title>
+          <description>Diagnosis by radiologists made according to current standard of care methods.</description>
+        </group>
+        <group group_id="E2">
+          <title>Experiment (With-AI)</title>
+          <description>Diagnosis by radiologists informed by &quot;BoneAgeModel&quot; AI algorithm incorporated into normal radiologist workflows and considered as a factor in the clinical decision making process.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="939"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="964"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="939"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="964"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="939"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="964"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Safwan S Halabi, MD</name_or_title>
+      <organization>Stanford University</organization>
+      <phone>(650) 721-2850</phone>
+      <email>safwan.halabi@stanford.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

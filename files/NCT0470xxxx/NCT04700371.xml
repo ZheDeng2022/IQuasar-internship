@@ -1,0 +1,231 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04700371</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1.0-2020</org_study_id>
+    <nct_id>NCT04700371</nct_id>
+  </id_info>
+  <brief_title>Vessel Deformations and Restenosis After Stenting of the Popliteal Artery</brief_title>
+  <acronym>FIRESTEP</acronym>
+  <official_title>Flexion-Induced Vessel Deformations and Restenosis After Stenting of the Popliteal Artery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kantonsspital Aarau</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kantonsspital Aarau</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The femoro-popliteal (FP) artery is the most frequently treated vascular segment in patients&#xD;
+      with symptomatic peripheral artery disease (PAD), for which endovascular therapy became an&#xD;
+      established treatment option during the last decades. However, loss of primary patency and&#xD;
+      consecutive clinically driven target lesion revascularization (TLR) limit this procedure.&#xD;
+      Moreover, in the popliteal artery (PA), evidence about the best treatment strategy to prevent&#xD;
+      loss of patency and TLR is limited to only a few randomized controlled trials (RCT). Arterial&#xD;
+      deformations of the PA with its unique anatomical properties during leg flexion might explain&#xD;
+      the poor technical and clinical outcomes in this segment. Generally, a &quot;leave nothing behind&quot;&#xD;
+      strategy in the PA is preferred, but cannot be avoided in all cases due to e.g. flow limiting&#xD;
+      dissections or re-coil after balloon angioplasty. Basically two different self-expandable&#xD;
+      nitinol-based stent designs are available on the market. An interwoven nitinol and laser-cut&#xD;
+      nitinol stent. The interwoven nitinol stent has a higher radial force in comparison to the&#xD;
+      laser-cut stent and reveals higher patency rates in the FP arteries. However, a head-to-head&#xD;
+      comparison of these stents is missing and it remains unknown in which way different stent&#xD;
+      designs affect the deformation and hemodynamic behaviors of the PA during knee flexion.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Randomized trial to investigate the impact of different stent designs on the target lesion&#xD;
+      restenosis rate in femoro-popliteal arteries. Immediately after stent implantation, sets of&#xD;
+      three orthogonal angiographic views (separated by an angle of &gt; 25°) of the stented region&#xD;
+      (TL) will be obtained with the leg in supine position. This will be followed by&#xD;
+      intra-arterial imaging using Optical Coherence Tomography (OCT). OCT images (one pullback if&#xD;
+      the lesion length is &lt; 75 mm, 2 pullbacks otherwise) of the TL will be acquired using the&#xD;
+      Dragonfly catheter. In addition, duplex ultrasound (DU) of the TL will be performed,&#xD;
+      including the arterial segments 10cm at proximal and distal edge of the TL. Thereafter, a&#xD;
+      bending cast will be used to obtain a knee/hip flexion of approximately 70°/20°. In this&#xD;
+      position the angiographic, OCT, and DU measurements will be repeated.&#xD;
+&#xD;
+      The OCT images will provide the shapes of the arterial lumen which will be used to generate&#xD;
+      3D surface models (in .stl format). The X-ray images will be utilized to construct the 3D&#xD;
+      arterial centerline for the supine and flexed leg positions. These arterial centerlines will&#xD;
+      be used to quantify the axial deformation (in mm), twisting (in °), and curvature changes (in&#xD;
+      mm-1) along the length of the investigated segment. Additionally, the lumen profiles obtained&#xD;
+      from OCT images will be used to accurately estimate the radial deformations (in mm) in the&#xD;
+      lumen and define instances of arterial pinching during leg flexion (as the difference in&#xD;
+      lumen diameters between straight and flexed leg positions).&#xD;
+&#xD;
+      The geometries of the arterial lumens will be combined with their corresponding 3D arterial&#xD;
+      centerlines to generate patient-specific arterial models. Along with patient-specific&#xD;
+      boundary conditions obtained from DU measurements, these models will be transferred to a&#xD;
+      commercial software, to perform Computational Fluid Dynamics analyses. The changes in these&#xD;
+      parameters due to leg flexion, as well as due to different stent designs, will be quantified.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2022</start_date>
+  <completion_date type="Anticipated">August 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary patency</measure>
+    <time_frame>1 year post index procedure</time_frame>
+    <description>Primary patency of the target lesion measured by duplex ultrasound</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Changes in arterial flow within the target lesion</measure>
+    <time_frame>6 weeks, 6 months, and 1 year post index procedure</time_frame>
+    <description>Changes in blood flow/hemodynamics caused by the different stent designs measured by Computational Fluid Dynamics</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">110</enrollment>
+  <condition>Peripheral Arterial Disease</condition>
+  <condition>Popliteal Artery Stenosis</condition>
+  <arm_group>
+    <arm_group_label>Interwoven stent</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Use of an interwoven nitinol stent to treat patients with arteriosclerotic lesions of the distal portion of the superficial artery and/or the popliteal artery.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Laser-cut stent</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Use of a laser-cut nitinol stent to treat patients with arteriosclerotic lesions of the distal portion of the superficial artery and/or the popliteal artery.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Interwoven stent</intervention_name>
+    <description>Interwoven nitinol stent placement in patients with arteriosclerotic lesions of the distal portion of the superficial artery and/or the popliteal artery.</description>
+    <arm_group_label>Interwoven stent</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Laser-cut stent</intervention_name>
+    <description>Laser-cut nitinol stent placement in patients with arteriosclerotic lesions of the distal portion of the superficial artery and/or the popliteal artery.</description>
+    <arm_group_label>Laser-cut stent</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Written informed consent prior to any study procedure,&#xD;
+&#xD;
+          -  Presence of PAD (2 - 3 Rutherford-Becker class),&#xD;
+&#xD;
+          -  Atherosclerotic de-novo lesion (stenosis &gt;70% or occlusion) of the distal part of the&#xD;
+             superficial femoral artery and/or any part of the popliteal artery,&#xD;
+&#xD;
+          -  Target lesion-length: 4cm to 12cm,&#xD;
+&#xD;
+          -  Target vessel diameter: 5mm to 7mm,&#xD;
+&#xD;
+          -  Guidewire must cross target lesion and located intraluminally before randomization,&#xD;
+&#xD;
+          -  At least one (1) patent below-the knee artery (=with no stenosis &gt;50%),&#xD;
+&#xD;
+          -  Possibility to treat the target lesion with one (1) study stent&#xD;
+&#xD;
+          -  Interventions in TASC A and B lesions to restore adequate blood flow, in the same&#xD;
+             index procedure, are allowed. This intervention must be prior to the treatment of the&#xD;
+             study lesion(s) and successful.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnancy,&#xD;
+&#xD;
+          -  Angiographic evidence of thrombus within the target lesion,&#xD;
+&#xD;
+          -  Patients with acute critical limb ischemia (Rutherford-Becker class 4-6),&#xD;
+&#xD;
+          -  Restenosis of the target lesion,&#xD;
+&#xD;
+          -  Non-atherosclerotic obstructions of the target lesion,&#xD;
+&#xD;
+          -  Aneurysm of the target lesion,&#xD;
+&#xD;
+          -  Renal failure, defined as GFR, &lt;40 mL/min/1.73m2,&#xD;
+&#xD;
+          -  Patient's inability to follow the study procedures e.g. psychological disorders,&#xD;
+             dementia, etc.,&#xD;
+&#xD;
+          -  Previous enrolment into an ongoing study,&#xD;
+&#xD;
+          -  Known or suspected allergies or contraindications to aspirin and/or clopidogrel,&#xD;
+             heparin,&#xD;
+&#xD;
+          -  Coagulation disorders, or general refusal of the patient to receive blood&#xD;
+             transfusions,&#xD;
+&#xD;
+          -  Contrast allergy that cannot be treated,&#xD;
+&#xD;
+          -  Thrombolysis therapy including 72 hours before the planned index procedure,&#xD;
+&#xD;
+          -  Myocardial infarction or stroke &lt;30 days prior to index procedure.&#xD;
+&#xD;
+          -  Equipment is unavailable to fulfill study treatments.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aljoscha Rastan</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kantonsspital Aarau</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Aljoscha Rastan</last_name>
+    <phone>0041628386458</phone>
+    <email>aljoscha.rastan@ksa.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Christoph Thalhammer</last_name>
+    <phone>0041628384703</phone>
+    <email>christoph.thalhammer@ksa.ch</email>
+  </overall_contact_backup>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>January 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 7, 2021</study_first_posted>
+  <last_update_submitted>September 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Kantonsspital Aarau</investigator_affiliation>
+    <investigator_full_name>Aljoscha Rastan</investigator_full_name>
+    <investigator_title>Head of Endovascular Therapy, Angiology, Kantonsspital Aarau</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Peripheral Arterial Disease</mesh_term>
+    <mesh_term>Peripheral Vascular Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

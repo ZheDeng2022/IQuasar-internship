@@ -1,0 +1,136 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04660279</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AarhusUH</org_study_id>
+    <nct_id>NCT04660279</nct_id>
+  </id_info>
+  <brief_title>Dynamic FDG PET/CT: Optimization and Validation of Data Acquisition</brief_title>
+  <acronym>VALIDATE</acronym>
+  <official_title>Dynamic Wholebody FDG PET/CT - Next Generational Functional Imaging: Optimization and Validation of Data Acquisition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aarhus University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Aarhus University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Quantification of the metabolic rate of glucose from Dynamic Whole-Body PET examinations&#xD;
+      requires measurements of the time course of the radioactivity concentrations in arterial&#xD;
+      blood by blood sampling, and in the tissue of interest by dynamic PET. Invasive arterial&#xD;
+      blood sampling cannot be part of a standard examination, and therefore the blood samples need&#xD;
+      to be replaced by activity concentrations derived from the PET images, usually from small&#xD;
+      volumes in the descending aorta or left ventricle.&#xD;
+&#xD;
+      Newly developed scanner software (Siemens) allows automated CT-based identification of blood&#xD;
+      pool regions and extraction of an image-derived blood input function from the corresponding&#xD;
+      PET data.&#xD;
+&#xD;
+      However, this automated method needs validation, as it could be prone to systematic errors&#xD;
+      caused by limited spatial resolution, patient movement, and image reconstruction. We will use&#xD;
+      invasively measured arterial blood samples as a reference for validation of methods to&#xD;
+      extract non-invasive PET image-derived input functions and quantify any systematic errors&#xD;
+      that could propagate to the resulting parametric images.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Validation of current parametric reconstruction protocol</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>We will perform a correlation of the image derived input function and the input function obtained from blood sampling. This will allow us to confirm that the information obtained by the equipment is accurate enough and can be trusted.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time reduction of current parametric reconstruction protocol</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>After we have validated the image derived input function we will use the data we sampled to construct a &quot;normal population&quot; input function that can be applied to the current protocol. This way we will be able to skip the acquisition on the camera of the input function and be able to only scan the patients at a later period, therefor shortening the acquisition protocol to something more manageable in daily clinic.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Positron-Emission Tomography</condition>
+  <arm_group>
+    <arm_group_label>Validate</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>D-WB PET/CT scans + arterial blood sampling.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Dynamic Whole-Body parametric PET/CT</intervention_name>
+    <description>Dynamic whole-body PET/CT imaging protocol</description>
+    <arm_group_label>Validate</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with a planned clinical standard PET/CT as part of pre-therapeutic staging,&#xD;
+             response assessment scanning.&#xD;
+&#xD;
+          -  Good performance status, which will allow us to obtain informed consent to draw the&#xD;
+             required arterial blood samples during the examination, and which will permit patients&#xD;
+             to lay still in the scanner for at least 70 min.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  • Age &lt; 18 or &gt; 85 years&#xD;
+&#xD;
+               -  Patients that can not tolerate a PET scan (f.ex: claustrophobia).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Aarhus University Hospital</name>
+      <address>
+        <city>Aarhus</city>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 9, 2020</study_first_posted>
+  <last_update_submitted>August 18, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 18, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Aarhus University Hospital</investigator_affiliation>
+    <investigator_full_name>André H. Dias</investigator_full_name>
+    <investigator_title>Staff specialist, PhD Student</investigator_title>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

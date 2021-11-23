@@ -1,0 +1,258 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04865640</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1.1, 15Oct2020</org_study_id>
+    <nct_id>NCT04865640</nct_id>
+  </id_info>
+  <brief_title>Clinical Validation Study for Noninvasive Cardiopulmonary Management Device</brief_title>
+  <official_title>Clinical Validation Study for Noninvasive Cardiopulmonary Management Device.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Analog Device, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>MCRA, LLC</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Analog Device, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The ADI At-Home CPM (Cardiopulmonary Management) System is a non-invasive device that&#xD;
+      measures and trends a variety of biological parameters.&#xD;
+&#xD;
+      This study will be conducted as a prospective non-randomized study with two study&#xD;
+      arms/cohorts - one of healthy adult patients, one of pathologic patients who fit into the&#xD;
+      intended use population of the CPM System.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 19, 2020</start_date>
+  <completion_date type="Actual">February 16, 2021</completion_date>
+  <primary_completion_date type="Actual">February 9, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of CPM System calculated RR versus reference device</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Correlation coefficient between reference and test device</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of CPM System calculated RR versus reference device</measure>
+    <time_frame>Baseline</time_frame>
+    <description>RMSE accuracy</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of CPM System calculated rTV as compared to reference device calculated TV.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Correlation coefficient between reference device and test device within subjects.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of CPM System calculated rTV as compared to reference device calculated TV.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Average correlation coefficients across subjects for rTV for immediate and long timeframes between measurements</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Standard deviation.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Difference between reference measured impedance and CPM measured impedance .across multiple measurements.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Average of within-subject standard deviation (STD) of TI values</measure>
+    <time_frame>Baseline</time_frame>
+    <description>From test device for short term measurements.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>ECG confirmation.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Confirm that ECG characteristics align with those from bench results using a simulator</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Skin temperature confirmation.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Confirm that ECG characteristics align with those from bench results using a simulator</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ECG confirmation.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Confirm that skin temperature readings align with those from bench results</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Skin temperature confirmation.</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Confirm that skin temperature readings align with those from bench results</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Cardiopulmonary Disease</condition>
+  <arm_group>
+    <arm_group_label>Healthy Cohort</arm_group_label>
+    <description>The target population for this cohort is healthy adult volunteers who do not have preexisting heart or lung conditions or illness. The goal is to recruit a participant population with a range of body types and BMIs and an approximately even split of genders.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pathologic Cohort</arm_group_label>
+    <description>The target population for this cohort is adult patients who have been diagnosed with cardiopulmonary conditions. These can include chronic pulmonary conditions, chronic cardiac conditions, and those who are taking diuretic medications, living with heart failure, Chronic Obstructive Pulmonary Disorder (COPD), or recovering from coronary-artery disease-related events. The goal is to recruit a participant population with a range of body types and BMIs and an approximately even split of genders as well as conditions outlined above (e.g. at least 5 each of COPD, HF, recovering from a coronary artery disease-related event, and taking diuretic medication)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Noninterventional and noninvasive</intervention_name>
+    <description>The ADI At-Home CPM (Cardiopulmonary Management) System is intended for adults undergoing monitoring for cardiopulmonary conditions under the direction of a licensed medical professional to measure, record, and periodically transmit physiological data.</description>
+    <arm_group_label>Healthy Cohort</arm_group_label>
+    <arm_group_label>Pathologic Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Healthy Cohort The target population for this cohort is healthy adult volunteers who do not&#xD;
+        have preexisting heart or lung conditions or illness. The goal is to recruit a participant&#xD;
+        population with a range of body types and BMIs and an approximately even split of genders.&#xD;
+&#xD;
+        Pathologic Cohort The target population for this cohort is adult patients who have been&#xD;
+        diagnosed with cardiopulmonary conditions. These can include chronic pulmonary conditions,&#xD;
+        chronic cardiac conditions, and those who are taking diuretic medications, living with&#xD;
+        heart failure, Chronic Obstructive Pulmonary Disorder (COPD), or recovering from&#xD;
+        coronary-artery disease related events. The goal is to recruit a participant population&#xD;
+        with a range of body types and BMIs and an approximately even split of genders as well as&#xD;
+        conditions outlined above (e.g. at least 5 each of COPD, HF, recovering from a coronary&#xD;
+        artery disease related event, and taking diuretic medication).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        I. Healthy Cohort:&#xD;
+&#xD;
+          1. Adults over the age of 18 and who are willing and able to give informed consent.&#xD;
+&#xD;
+          2. Willing to participate in all activities related to this study, including trimming&#xD;
+             chest hair and wearing a reference device and the CPM wearable device.&#xD;
+&#xD;
+          3. Volunteers of any race, any gender&#xD;
+&#xD;
+          4. Range of physiques&#xD;
+&#xD;
+          5. Healthy&#xD;
+&#xD;
+        II. Pathologic Cohort&#xD;
+&#xD;
+          1. Adults over the age of 21 and who are willing and able to give informed consent&#xD;
+&#xD;
+          2. Willing to participate in all activities related to this study, including wearing a&#xD;
+             capnography device, thoracic impedance reference device, and the CPM wearable device.&#xD;
+&#xD;
+          3. Those who:&#xD;
+&#xD;
+               1. Are taking diuretic medications&#xD;
+&#xD;
+               2. Are living with heart failure&#xD;
+&#xD;
+               3. Have chronic obstructive pulmonary disorder (COPD)&#xD;
+&#xD;
+               4. Are recovering from a coronary-artery disease-related event.&#xD;
+&#xD;
+          4. Volunteers of any race, any gender-Range of physiques.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        I. Healthy Cohort&#xD;
+&#xD;
+          1. Injury or skin disturbance in the area of the test device&#xD;
+&#xD;
+          2. Pregnant&#xD;
+&#xD;
+          3. Currently smokes cigarettes&#xD;
+&#xD;
+          4. Has known respiratory conditions such as:&#xD;
+&#xD;
+               1. Flu&#xD;
+&#xD;
+               2. Pneumonia/bronchitis&#xD;
+&#xD;
+               3. Shortness of breath/respiratory distress&#xD;
+&#xD;
+               4. Respiratory or lung surgery&#xD;
+&#xD;
+               5. Emphysema, COPD, lung disease&#xD;
+&#xD;
+          5. Has self-reported heart or cardiovascular conditions such as chest pain, AFib, CHF,&#xD;
+             cardiomyopathy, or other conditions that could interfere with cardiopulmonary function&#xD;
+&#xD;
+          6. Has other self-reported health conditions that could interfere with the breathing&#xD;
+             patterns and exercises detailed in the protocol (including wearing a capnography mask)&#xD;
+&#xD;
+        II. Pathologic Cohort:&#xD;
+&#xD;
+          1. Under the age of 21&#xD;
+&#xD;
+          2. Cognitive or physical impairment sufficient enough to interfere with informed consent&#xD;
+             or successful completion of the protocol.&#xD;
+&#xD;
+          3. Injury or skin disturbance in the area of the test device.&#xD;
+&#xD;
+          4. Pregnant.&#xD;
+&#xD;
+          5. Have life-threatening arrhythmias which require hospital admission and constant&#xD;
+             monitoring.&#xD;
+&#xD;
+          6. Has other self-reported health conditions that could interfere with wearing a&#xD;
+             capnography mask.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Mayo Clinic Hospital</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905-0001</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 23, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 29, 2021</study_first_posted>
+  <last_update_submitted>April 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Heart Disease</mesh_term>
+  </condition_browse>
+  <pending_results>
+    <submitted>August 2, 2021</submitted>
+    <returned>August 25, 2021</returned>
+  </pending_results>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

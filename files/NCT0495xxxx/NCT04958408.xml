@@ -1,0 +1,220 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04958408</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2020243</org_study_id>
+    <nct_id>NCT04958408</nct_id>
+  </id_info>
+  <brief_title>Deep Learning of Knee Joint MRI Intelligent Detection</brief_title>
+  <official_title>Deep Learning of Knee Joint MRI Intelligent Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Huashan Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Shanghai Jiao Tong University Affiliated Sixth People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chinese PLA General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Inner Mongolia People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The First Affiliated Hospital of BaoTou Medical College</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fourth Medical Center of PLA General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The 8th medical center of chinese PLA general hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hebei Medical University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tianjin Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Knee joint is the most common part of sports injury. MRI is a powerful tool to diagnose knee&#xD;
+      joint injury. However, it takes a long time to read the film, needs a lot, and some hidden&#xD;
+      injuries have a high rate of missed diagnosis. The emerging deep learning technology can&#xD;
+      establish automatic recognition model through large samples. A large sample of knee joint MRI&#xD;
+      was collected retrospectively to train the deep learning model of knee joint MRI, and the&#xD;
+      sensitivity and specificity of the deep learning model were verified in multi center.&#xD;
+      Depending on the clinical needs, the deep learning model annotation system is established. A&#xD;
+      large number of knee MRI were obtained and labeled. According to the knee joint MRI training&#xD;
+      depth learning model, and iterative optimization, the final version is formed. Multi center&#xD;
+      validation was carried out. Continuous operation records and corresponding preoperative knee&#xD;
+      MRI were obtained from multiple hospitals. The sensitivity and specificity of the model were&#xD;
+      calculated with operation records as the gold standard. At the same time, an expert team&#xD;
+      composed of senior radiologists and sports medicine doctors was organized to read the films.&#xD;
+      The sensitivity and specificity of manual reading and AI reading were compared to prove the&#xD;
+      superiority of AI reading. This study can improve the efficiency of clinical MRI film&#xD;
+      reading, reduce the workload of doctors, improve the film reading level of grass-roots&#xD;
+      hospitals, promote the development of the discipline, and has good social benefits and market&#xD;
+      prospects.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The knee joint is the most common sports injury site in the human body, including ligament&#xD;
+      rupture, meniscus tear, cartilage lesions, and free body formation. Knee MRI has extremely&#xD;
+      high sensitivity and specificity in diagnosing knee diseases, especially its negative&#xD;
+      predictive value is close to 100%, and it is an effective means to assist clinicians in&#xD;
+      diagnosing knee diseases. However, there are many MRI sequences of the knee joint, and&#xD;
+      different diseases have different imaging effects on various sequences, and the types of knee&#xD;
+      joint diseases are complicated, so it takes a long time to evaluate the knee joint MRI. Due&#xD;
+      to the huge clinical demand for knee MRI, it has caused a great burden on radiology and&#xD;
+      sports medicine orthopedics. At the same time, for some special injuries of the knee joint,&#xD;
+      such as hidden meniscus tear, rupture of the anterior cross part and adhesion in place after&#xD;
+      rupture, local ligament injury, etc., the conclusions given by different readers are very&#xD;
+      different, and it is easy to miss the diagnosis. And the missed diagnosis seriously affects&#xD;
+      the prognosis of the knee joint, leading to the progression of arthritis. In addition,&#xD;
+      professional musculoskeletal system imaging experts have a long training cycle, and a large&#xD;
+      number of orthopedic doctors and radiologists in basic hospitals have limited reading skills&#xD;
+      for knee MRI, which limits the development of local sports medicine disciplines and the&#xD;
+      development of related diagnosis and treatment. The purpose of our research is to train the&#xD;
+      deep learning model of knee MRI through multi-center and large sample of knee MRI;&#xD;
+      Multi-center verification of the sensitivity and specificity of the knee MRI deep learning&#xD;
+      model, and compare the accuracy of the deep learning model and manual image reading.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2021</start_date>
+  <completion_date type="Anticipated">May 15, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Marking system design based on Magnetic Resonance Imaging（MRI）</measure>
+    <time_frame>2021</time_frame>
+    <description>According to the development goals, combined with the performance of MRI and the structure of the model algorithm, the labeling rules and logic of knee MRI are determined. On this basis, a labeling system is designed, and different labeling tools are designed for a variety of lesions.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Data export and annotation</measure>
+    <time_frame>2021</time_frame>
+    <description>Encrypt the MRI file and import it into the medical standard intelligent labeling system. Create a dedicated tagging account for each tagger to tag. Based on the previously marked image data, develop algorithms for segmenting different lesion areas.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Build a deep learning model</measure>
+    <time_frame>2021</time_frame>
+    <description>According to the diagnostic logic, we select the coronal and sagittal images of the knee joint T2 MRI sequence for analysis. And choose the Resnext model that has been verified by a large number of ImageNet and other large data sets to extract the features of the coronal out-of-state images. After the multi-layer convolution operation, the key feature representation of the image is extracted. At the same time, in the process of feature extraction, the batch normalization module is used to perform feature transformation to highlight the most meaningful part of the feature.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Knee Injuries</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients related to sports injuries&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. ACL-injured patients;&#xD;
+&#xD;
+          2. Follow-up of patients after ACL injury;&#xD;
+&#xD;
+          3. patients with genetic predisposition to ACL injury;&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients with joint injury caused by clear external forces;&#xD;
+&#xD;
+          2. Definitely have stroke, heart disease, epilepsy, cranial neurosurgery, migraine;&#xD;
+&#xD;
+          3. Have had a concussion or head injury in the past 6 months.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Lin Lin</last_name>
+    <role>Study Director</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jia-Kuo Yu</last_name>
+    <phone>01082267392</phone>
+    <email>yujiakuo@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Lin Lin</last_name>
+    <phone>01082267392</phone>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Institute of Sports Medicine, Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100191</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jia-kuo Yu, MD</last_name>
+      <phone>86-10-82267392</phone>
+      <email>yujiakuo@126.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Ai-Bing Huang, PhD</last_name>
+      <phone>8615650715003</phone>
+      <email>hab165@163.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 12, 2021</study_first_posted>
+  <last_update_submitted>July 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Knee Injuries</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

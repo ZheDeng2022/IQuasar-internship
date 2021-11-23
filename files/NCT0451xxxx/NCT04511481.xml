@@ -1,0 +1,149 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04511481</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYSEC-KY-KS-2020-072</org_study_id>
+    <nct_id>NCT04511481</nct_id>
+  </id_info>
+  <brief_title>Deep Learning Magnetic Resonance Imaging Radiomic Predict Platinum-sensitive in Patients With Epithelial Ovarian Cancer</brief_title>
+  <official_title>Deep Learning Magnetic Resonance Imaging Radiomic Predict Platinum-sensitive in Patients With Epithelial Ovarian Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Platinum-sensitive is an important basis for the treatment of recurrent epithelial ovarian&#xD;
+      cancer (EOC) without effective methods to predict.We aimed to develop and validate the EOC&#xD;
+      deep learning system to predict the platinum-sensitive of EOC patients through analysis of&#xD;
+      enhanced magnetic resonance imaging (MRI) images before initial treatment.Ninety-three EOC&#xD;
+      patients received platinum-based chemotherapy (&gt;= 4 cycles) and debulking surgery from Sun&#xD;
+      Yat-sen Memorial Hospitalin China from January 2011 to January 2020 were enrolled. This&#xD;
+      deep-learning EOC signature achieved a high predictive power for platinum-sensitive, and the&#xD;
+      signature based on MRI whole volume is better than that on primary tumor area only.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 15, 2020</start_date>
+  <completion_date type="Anticipated">January 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">August 3, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Platinum sensitivity</measure>
+    <time_frame>9 years</time_frame>
+    <description>Platinum sensitivity</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">93</enrollment>
+  <condition>Predictive Cancer Model</condition>
+  <arm_group>
+    <arm_group_label>platinum-resistant group</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>platinum-sensitive group</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Radiomic Algorithm</intervention_name>
+    <description>Different radiomic and machine learning strategies for radiomic features extraction, sorting features and model constriction</description>
+    <arm_group_label>platinum-resistant group</arm_group_label>
+    <arm_group_label>platinum-sensitive group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients received platinum-based chemotherapy (&gt;= 4 cycles) and debulking surgery from Sun&#xD;
+        Yat-sen Memorial Hospital in China from January 2011 to January 2020&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  (1)Patients with epithelial ovarian cancer (2 )Patients received platinum-based&#xD;
+             chemotherapy (&gt;= 4 cycles) and debulking surgery&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with epithelial ovarian cancer received less than 4 cycles platinum-based&#xD;
+             chemotherapy or no debulking surgery&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>22 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ruilin Lei, phD</last_name>
+    <phone>+8618898325866</phone>
+    <email>leiruilin1988@163.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Sun Yat-Sen Memorial Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510120</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Herui Yao, PhD</last_name>
+      <phone>+8613500018020</phone>
+      <email>yaoherui@mail.sysu.edu.cn</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yunfang Yu, MD</last_name>
+      <phone>+8613660238987</phone>
+      <email>yuyf9@mail.sysu.edu.cn</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 11, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 11, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 13, 2020</study_first_posted>
+  <last_update_submitted>August 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</investigator_affiliation>
+    <investigator_full_name>Herui Yao</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Ovarian Epithelial</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>The datasets used or analysed during the current study are available from the corresponding author on reasonable request.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

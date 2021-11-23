@@ -1,0 +1,195 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04918602</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IA Fibromyalgia</org_study_id>
+    <nct_id>NCT04918602</nct_id>
+  </id_info>
+  <brief_title>Predictive Models on Pain and Severity in FM Patients</brief_title>
+  <official_title>Development of Predictive Models Based on Artificial Intelligence for the Analysis of the Psychosocial Profile of the Patient With Fibromyalgia on Pain and Severity of the Disease.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Castilla-La Mancha</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Castilla-La Mancha</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary goal of this research project is to develop different prediction models in&#xD;
+      fibromyalgia disease through the application of machine learning techniques and to assess the&#xD;
+      explainability of the results.&#xD;
+&#xD;
+      As specific objectives the research project intends: to predicting Fibromyalgia severity of&#xD;
+      patients based on clinical variables; to assess the relevance of social-psycho-demographic&#xD;
+      variables on the fibromyalgia severity of the patients; to predict the pain suffered by the&#xD;
+      patients as well as the impact of the fibromyalgia on patient's life; to categorize&#xD;
+      fibromyalgia group of patients depending on their levels of Fibromyalgia severity.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Fibromyalgia (FM) is a condition characterized by chronic musculoskeletal pain whose&#xD;
+      pathophysiology is still unclear. Furthermore, this pathology is frequently associated with&#xD;
+      sleep disturbances, pronounced fatigue, morning stiffness, poor quality of life, cognitive&#xD;
+      disturbances (mainly memory problems) and psychological problems (depression, anxiety and&#xD;
+      stress).&#xD;
+&#xD;
+      FM is associated with greater negative affect, which implies a general state of anguish&#xD;
+      composed of aversive emotions such as sadness, fear, anger and guilt. Patients with FM&#xD;
+      commonly suffer from high rates of anxiety, depression, pain catastrophizing, and stress&#xD;
+      levels, which are associated with a worsening of symptoms, including own cognitive.&#xD;
+&#xD;
+      Machine learning (ML) and data mining had been successfully applied, over the past few&#xD;
+      decades, to build computer-aided diagnosis (CAD) systems for diagnosing complex health issues&#xD;
+      with good accuracy and efﬁciency by recognizing potentially useful, original, and&#xD;
+      comprehensible patterns in health data. Thus, machine learning provides useful tools for&#xD;
+      multivariate data analysis allowing predictions based on the established models and hence&#xD;
+      offering a suitable advantage for risk assessment of many diseases including heart failure.&#xD;
+      Machine learning offers advantages not only for clinical prediction but also for feature&#xD;
+      ranking improving the interpretation of the outputs by clinical professionals.&#xD;
+&#xD;
+      Explainable ML models, also known as interpretable ML models, allow healthcare experts to&#xD;
+      make reasonable and data-driven decisions to provide personalized treatment that can&#xD;
+      ultimately lead to high quality of service in healthcare. These models fall into eXplainable&#xD;
+      Artificial Intelligence (XAI) field, defined as suite of ML techniques that 1) produce more&#xD;
+      explainable models while maintaining a high level of learning performance, and 2) enable&#xD;
+      humans to understand, appropriately trust, and eﬀectively manage the emerging generation of&#xD;
+      artiﬁcially intelligent partners.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 2021</start_date>
+  <completion_date type="Anticipated">November 2021</completion_date>
+  <primary_completion_date type="Anticipated">November 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pain intensity</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>It will be measured with a visual analog scale (VAS) of 100 millimeters in length. The subject has to indicate the level ofpain he feels, being 0 the absence of pain and 100 the maximum imaginable.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Disease severity.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>It will be measured using the Polysymptomatic Distress Scale (PDS) (or Fibromyalgia Severity Scale), composed of the sum of the following two scales:&#xD;
+Widespread Pain Index (WPI): Questionnaire in which a total of 19 body areas are represented. The subject has to mark the regions where the pain appears. It represents a measure of the extent of pain, with a maximum score of 19 points.&#xD;
+Symptom Severity Scale (SSS): Questionnaire that measures the severity of the symptoms associated with fibromyalgia, such as fatigue, non-restorative sleep, cognitive problems, headaches, abdominal pain or cramps and depression. It represents a measure of somatic and non-somatic symptoms of fibromyalgia, with a maximum score of 12 points.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Referred pain area after suprathreshold pressure stimulation.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>A pressure algometer (Force Ten™, Wagner Instruments, USA) will be used. It will be performed on the infraspinatus muscle (point equidistant between the midpoint of the spine of the scapula, the inferior angle of the scapula and the midpoint of the medial border of the scapula) at a constant suprathreshold pressure (20% above the pressure pain threshold) for 60 seconds.&#xD;
+After the stimulation, the subject should draw the induced pain area on a digital bodychart using the Navigate Pain application (Navigate Pain, Aalborg University, Denmark).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Fibromyalgia Impact Quality-of-Life.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>It will be measured with the version adapted to the Spanish of the Fibromyalgia Impact Questionnaire (FIQ).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anxiety.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>The version adapted to Spanish from the State Scale (STAI-ES) of the State-Trait Anxiety Inventory (STAI) will be used.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pain catastrophizing.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>The Spanish version of the Pain Catastrophizing Scale (PCS) will be used.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Depression.</measure>
+    <time_frame>Baseline.</time_frame>
+    <description>The adaptation to the Spanish of Beck Depression Inventory II will be used.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Fibromyalgia</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Members enrolled in a local fibromyalgia association.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age between 18 and 65 years.&#xD;
+&#xD;
+          -  Fullfilled the 2010 American Collegue of Rheumathology criteria for fibromyalgia.&#xD;
+&#xD;
+          -  Understanding of spoken and written Spanish.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosed psychiatric pathology.&#xD;
+&#xD;
+          -  Rheumatic pathology not medically controlled.&#xD;
+&#xD;
+          -  Neurological pathologies that make evaluations difficult.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Rubén Arroyo Fernández, MSc</last_name>
+    <phone>925803600</phone>
+    <phone_ext>86589</phone_ext>
+    <email>rubenarroyofernandez@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hospital General Nuestra Señora del Prado</name>
+      <address>
+        <city>Talavera De La Reina</city>
+        <state>Toledo</state>
+        <zip>45600</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Rubén Arroyo Fernández, MSc</last_name>
+      <phone>925803600</phone>
+      <phone_ext>86589</phone_ext>
+      <email>rubenarroyofernandez@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 9, 2021</study_first_posted>
+  <last_update_submitted>June 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fibromyalgia</mesh_term>
+    <mesh_term>Myofascial Pain Syndromes</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

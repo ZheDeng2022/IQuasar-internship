@@ -1,0 +1,257 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04846933</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TO7/003/21</org_study_id>
+    <secondary_id>965193</secondary_id>
+    <nct_id>NCT04846933</nct_id>
+  </id_info>
+  <brief_title>Multi-layer Data to Improve Diagnosis, Predict Therapy Resistance and Suggest Targeted Therapies in HGSOC</brief_title>
+  <acronym>DECIDER</acronym>
+  <official_title>Integration of Multiple Data Levels to Improve Diagnosis, Predict Treatment Response and Suggest Targets to Overcome Therapy Resistance in High-grade Serous Ovarian Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Turku University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Helsinki</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Turku University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chemotherapy resistance is the greatest contributor to mortality in advanced cancers and&#xD;
+      severe challenges remain in finding effective treatment modalities to cancer patients with&#xD;
+      metastasized and relapsed disease. High-grade serous ovarian cancer (HGSOC) is typically&#xD;
+      diagnosed at a stage where the disease is already widely spread to the abdomen and current&#xD;
+      standard of practice treatment consists of surgery followed by platinum-taxane based&#xD;
+      chemotherapy and maintenance therapy. While 90% of HGSOC patients show no clinically&#xD;
+      detectable signs of cancer after surgery and chemotherapy, only 43% of the patients are alive&#xD;
+      five years after diagnosis because of chemoresistant cancer.&#xD;
+&#xD;
+      This prospective, observational trial focuses on revealing major mechanisms causing&#xD;
+      chemoresistance in HGSOG patients and derive personalized treatment regimens for chemotherapy&#xD;
+      resistant HGSOC patients. The investigators recruit newly diagnosed advanced stage HGSOC&#xD;
+      patients who are then thoroughly followed during their cancer treatment. Longitudinal&#xD;
+      sampling includes digitalized H&amp;E stained histology slides mainly collected during routine&#xD;
+      diagnostics, fresh tumor &amp; ascites samples for next-generation sequencing/proteomics (WGS,&#xD;
+      RNA-seq, DNA-methylation, ChIP-seq, mass cytometry, etc.) and ex vivo experiments, plasma&#xD;
+      samples for circulating tumor DNA (ctDNA) analyses. Broad range of clinical parameters such&#xD;
+      as laboratory and radiologic parameters (e.g., FDG PET/CT), given cancer treatments and their&#xD;
+      outcomes are collected.&#xD;
+&#xD;
+      The general objective is to establish a clinically useful precision oncology approach based&#xD;
+      on multi-level data collected in longitudinal setting, and translate the most potent and&#xD;
+      validated discoveries into clinical use. DECIDER project will produce AI-powered diagnostic&#xD;
+      tools, cutting-edge software platforms for clinical decision-making, novel data analysis &amp;&#xD;
+      integration methods, and high-throughput ex vivo drug screening approaches.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Specific aims include:&#xD;
+&#xD;
+        -  Develop tools and methods for personalized medicine approaches to cancer patients.&#xD;
+&#xD;
+        -  Develop open-source visualization and interpretation software that facilitate clinical&#xD;
+           decision making via data integration and interpretation of multilevel data from cancer&#xD;
+           patients.&#xD;
+&#xD;
+        -  Rapidly identify HGSOC patients who are likely to respond poorly to current therapies&#xD;
+           combining information on digitalized histopathology samples, genomic and clinical data&#xD;
+           with AI methods.&#xD;
+&#xD;
+        -  Deploy validated personalized medicine treatment options using longitudinal measurement&#xD;
+           and ex vivo cultures from cancer patients in clinical care.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 1, 2012</start_date>
+  <completion_date type="Anticipated">December 2029</completion_date>
+  <primary_completion_date type="Anticipated">December 2027</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Successful clinical translation</measure>
+    <time_frame>5 years</time_frame>
+    <description>The magnitude of successful clinical translation is measured by the number of times project-derived personalized medicine has impacted patients care by application of novel and existing biomarkers and therapies.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Successful prediction of patient outcome with AI methods</measure>
+    <time_frame>5 years</time_frame>
+    <description>Proportion of patients whose disease outcome (PFS, OS) is predicted correctly with digital histopathology images, genomic data and routine laboratory values</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Successful validation of potentially druggable genetic alterations</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of potentially druggable genetic alterations found and validated with in-vitro methods</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Successful prediction of genomic features from tumor histology</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of genomic features that can be successfully recognized from tumor histology</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prediction of primary treatment response from tumor histology using H&amp;E stained whole slide images and AI-based methods</measure>
+    <time_frame>5 years</time_frame>
+    <description>Number of patients whose outcome (primary therapy outcome, PFS) is predicted correctly</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Establishment of an updated version of Chemoresponse score (CRS) for measuring histological effect in tumor tissue after chemotherapy</measure>
+    <time_frame>5 years</time_frame>
+    <description>Predictive power of the updated CRS at interval surgery is compared with traditional CRS</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>High Grade Ovarian Serous Adenocarcinoma</condition>
+  <arm_group>
+    <arm_group_label>HGSOC patients treated with Neoadjuvant chemotherapy (NACT)</arm_group_label>
+    <description>Diagnostic laparoscopy followed with 3-4 cycles of platinum-taxane NACT and interval debulking surgery (IDS). Treatment response is monitored with FDG PET/CT. IDS is followed by standard adjuvant therapy (ESGO/ESMO + local guidelines).&#xD;
+Digital H&amp;E slides and WGS, RNAseq are obtained from performed surgeries including relapse operations/ascites drainages. Patients are followed with longitudinal ctDNA sampling.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HGSOC patients treated with primary debulking surgery (PDS)</arm_group_label>
+    <description>PDS is followed by standard adjuvant therapy (ESGO/ESMO + local guidelines). Digital H&amp;E slides and WGS, RNAseq obtained from PDS and possible relapse operations/ascites drainages when performed. Patients are followed with longitudinal ctDNA sampling.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>WGS and RNA sequencing</intervention_name>
+    <arm_group_label>HGSOC patients treated with Neoadjuvant chemotherapy (NACT)</arm_group_label>
+    <arm_group_label>HGSOC patients treated with primary debulking surgery (PDS)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>circulating tumor DNA (ctDNA)</intervention_name>
+    <arm_group_label>HGSOC patients treated with Neoadjuvant chemotherapy (NACT)</arm_group_label>
+    <arm_group_label>HGSOC patients treated with primary debulking surgery (PDS)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>FDG PET/CT imaging</intervention_name>
+    <arm_group_label>HGSOC patients treated with Neoadjuvant chemotherapy (NACT)</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Tumor tissue (Fresh frozen tissue, FFPE), Whole blood samples, plasma, white cells&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        High grade serous ovarian cancer patients diagnosed at theTurku University Central Hospital&#xD;
+        who give their informed consent&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with a suspected ovarian cancer diagnosis treated at the Turku University&#xD;
+             Hospital&#xD;
+&#xD;
+          -  Ability to understand and the willingness to sign a written informed consent document&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt;18 years, too poor condition for active treatment (surgery, chemotherapy)&#xD;
+&#xD;
+          -  FDG PET/CT scan is not performed for patients with diabetes mellitus and poor glucose&#xD;
+             balance.&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sampsa Hautaniemi, DTech, Prof</last_name>
+    <role>Study Director</role>
+    <affiliation>University of Helsinki</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Johanna Hynninen, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Turku University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Johanna Hynninen</last_name>
+    <phone>+358 50 5383554</phone>
+    <email>johanna.hynninen@utu.fi</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Sampsa Hautaniemi</last_name>
+    <phone>+358503364765</phone>
+    <email>sampsa.hautaniemi@helsinki.fi</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Turku University Hospital</name>
+      <address>
+        <city>Turku</city>
+        <zip>20520</zip>
+        <country>Finland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Johanna Hynninen</last_name>
+      <phone>0505383554</phone>
+      <email>johanna.hynninen@utu.fi</email>
+    </contact>
+    <investigator>
+      <last_name>Johanna Hynninen, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Finland</country>
+  </location_countries>
+  <link>
+    <url>https://www.deciderproject.eu</url>
+    <description>Project web site</description>
+  </link>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 15, 2021</study_first_posted>
+  <last_update_submitted>May 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>chemoresistance</keyword>
+  <keyword>personalized medicine</keyword>
+  <keyword>WGS</keyword>
+  <keyword>ctDNA</keyword>
+  <keyword>digital pathology</keyword>
+  <keyword>FDG PET/CT</keyword>
+  <keyword>bioinformatics</keyword>
+  <keyword>AI</keyword>
+  <keyword>ovarian cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cystadenocarcinoma, Serous</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

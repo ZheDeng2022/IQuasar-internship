@@ -1,0 +1,206 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04949204</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BC-07403</org_study_id>
+    <nct_id>NCT04949204</nct_id>
+  </id_info>
+  <brief_title>Context-awareness, Physiological Monitoring, and Machine Learning in Migraine and Cluster Headache</brief_title>
+  <acronym>COPIMAC</acronym>
+  <official_title>Contextuele Analyse, Fysiologische Metingen en Machinaal Leren Voor Migraine en Clusterhoofdpijn (COPIMAC Studie)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Ghent</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Ghent</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Ghent</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an observational, longitudinal cohort pilot study measuring physiological signals&#xD;
+      through wearable sensors combined with machine learning algorithms to detect behaviour,&#xD;
+      stress and headaches in patients with migraine and cluster headache.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Migraine and cluster headache are among the most disabling headache conditions in humans.&#xD;
+      Both conditions have different phases such as the prodromal/premonitory phase, the aura&#xD;
+      phase, the headache phase and the postdromal phase. This pilot study examines the potential&#xD;
+      of wearable sensors combined with machine learning algorithms to investigate the biological&#xD;
+      changes over time in both conditions. Behaviour such as movement, sleep and activity will be&#xD;
+      monitored. Stress levels will be estimated through the wearable data combined with input from&#xD;
+      the patients. Participants will use a wearable device around the wrist and self-developed&#xD;
+      headache application for 21 days.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2020</start_date>
+  <completion_date type="Anticipated">August 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Galvanic Skin Response changes</measure>
+    <time_frame>21 days</time_frame>
+    <description>Changes in GSR through the different phases of the headache attacks</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Activity ratio</measure>
+    <time_frame>21 days</time_frame>
+    <description>Activity ratio measurement through accelerometer data</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Skin temperature</measure>
+    <time_frame>21 days</time_frame>
+    <description>Skin temperature measurement through builtin thermometer</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Prevalence of premonitory symptoms</measure>
+    <time_frame>21 days</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Prevalence of cranial autonomic symptoms</measure>
+    <time_frame>21 days</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>Prevalence of postdromal symptoms</measure>
+    <time_frame>21 days</time_frame>
+  </other_outcome>
+  <other_outcome>
+    <measure>MSQv2.1 questionnaire</measure>
+    <time_frame>21 days</time_frame>
+    <description>In migraine patients</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>MIDAS questionnaire</measure>
+    <time_frame>21 days</time_frame>
+    <description>In migraine patients</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>SF20</measure>
+    <time_frame>21 days</time_frame>
+    <description>In migraine and cluster headache patients</description>
+  </other_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Migraine</condition>
+  <condition>Cluster Headache</condition>
+  <arm_group>
+    <arm_group_label>Migraine patients</arm_group_label>
+    <description>Wearable wrist sensor + headache application on smartphone</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cluster Headache Patients</arm_group_label>
+    <description>Wearable wrist sensor + headache application on smartphone</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Wearable sensor detection</intervention_name>
+    <description>Empatica E4 wearable wrist sensor</description>
+    <arm_group_label>Cluster Headache Patients</arm_group_label>
+    <arm_group_label>Migraine patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Migraine or cluster headache patients&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  migraine or cluster headache diagnosis based on ICHD 3 criteria&#xD;
+&#xD;
+          -  at least 2 attacks each month&#xD;
+&#xD;
+          -  onset of headache syndrome before the age of 50&#xD;
+&#xD;
+          -  if multiple headache syndromes coexist: attacks are clearly distinguishable&#xD;
+&#xD;
+          -  participant has smartphone that he/she wants to apply for this research&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  chronic migraine patients&#xD;
+&#xD;
+          -  history of alcohol or illicit drug abuse&#xD;
+&#xD;
+          -  significant medical comorbidity deemed by the investigator to interfere with the study&#xD;
+&#xD;
+          -  use of betablockers&#xD;
+&#xD;
+          -  participating in other academic or commercial trials&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University Hospital, Ghent: Department of Neurology</name>
+      <address>
+        <city>Ghent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nicolas Vandenbussche, MD</last_name>
+      <phone>09 332 45 29</phone>
+      <email>nicolas.vandenbussche@ugent.be</email>
+    </contact>
+    <contact_backup>
+      <last_name>Koen Paemeleire, MD PhD</last_name>
+      <phone>09 332 45 29</phone>
+      <email>koen.paemeleire@uzgent.be</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 24, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 2, 2021</study_first_posted>
+  <last_update_submitted>June 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Migraine Disorders</mesh_term>
+    <mesh_term>Cluster Headache</mesh_term>
+    <mesh_term>Headache</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

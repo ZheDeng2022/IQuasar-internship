@@ -1,0 +1,532 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03658642</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HIC 2000023783</org_study_id>
+    <secondary_id>UG3DA047003</secondary_id>
+    <nct_id>NCT03658642</nct_id>
+  </id_info>
+  <brief_title>Clinical Decision Support to Implement ED-initiated Buprenorphine for OUD</brief_title>
+  <acronym>EMBED</acronym>
+  <official_title>Pragmatic Trial of User-centered Clinical Decision Support to Implement EMergency Department-initiated BuprenorphinE for Opioid Use Disorder</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Yale University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of North Carolina</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Alabama at Birmingham</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Cooper Health System</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Davis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Yale University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Emergency Departments (EDs) frequently care for individuals with Opioid Use Disorder (OUD).&#xD;
+      Buprenorphine (BUP) is an effective treatment option for patients with OUD that can safely be&#xD;
+      initiated in the ED. At present, BUP is rarely initiated as a part of routine ED care.&#xD;
+      Clinical decision support (CDS) represents a potential approach to accelerate adoption of&#xD;
+      this best practice into routine emergency care. The goal of this trial is to determine&#xD;
+      whether implementation of a user-centered clinical decision support (CDS) system can increase&#xD;
+      adoption of initiation of BUP into the routine emergency care of individuals with OUD.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study design is an 18-month pragmatic, parallel, cluster randomized, superiority trial&#xD;
+      using constrained randomization of clusters to arms. The unit of randomization (i.e. cluster)&#xD;
+      is the ED. EDs will be randomly allocated with an allocation ratio of 1:1. Adequate lead time&#xD;
+      will be allotted to install the intervention in the electronic health records (EHR) at all&#xD;
+      intervention sites--including a three month implementation and washout phase. The&#xD;
+      intervention will then begin at the same time across all sites with the CDS intervention&#xD;
+      fully implemented in the intervention sites' EHRs at the start of the trial. Clinicians at&#xD;
+      control sites will retain all control of their practice and practice as usual without the CDS&#xD;
+      intervention installed in their EHR.&#xD;
+&#xD;
+      Pragmatic trials study an intervention under the usual conditions in which it will be&#xD;
+      applied; as opposed to an explanatory trial which would test an intervention under ideal&#xD;
+      conditions. In cluster randomized trials, treatment intervention is allocated to clusters&#xD;
+      (i.e. groups of individuals) rather than individuals. This is done to manipulate the physical&#xD;
+      or social environment of the intervention when an individual intervention would likely result&#xD;
+      in contamination between intervention and control participants at the group level. The&#xD;
+      parallel cluster randomized design was chosen over a stepped wedge design due to the high&#xD;
+      likelihood of confounding by temporal trends from ongoing efforts to mitigate the opioid&#xD;
+      epidemic. A major challenge of the cluster randomized design is from potential confounding&#xD;
+      due to a limited number of heterogeneous groups. Constrained randomization offers a solution&#xD;
+      to this source of confounding by balancing key cluster-level prognostic factors across the&#xD;
+      study to avoid distorting estimates of treatment effect due to the confounding factors. This&#xD;
+      allocation technique more evenly distributes potential confounders between intervention arms&#xD;
+      by specifying the confounding factors, characterizing each cluster in terms of these factors,&#xD;
+      identifying a subset of randomization combinations of clusters that adequately balance&#xD;
+      confounding factors between intervention arms and randomly selecting one of these&#xD;
+      combinations as the allocation scheme. Potential confounders that will be used for this trial&#xD;
+      are: EHR vendor, ED annual volume, ED type (e.g., academic, community, urban, rural, etc),&#xD;
+      ratio of ED clinicians who have a waiver to prescribe BUP, current rate of ED BUP&#xD;
+      prescribing, resources in ED to facilitate management of patients with OUD, and willingness&#xD;
+      of staff to adopt the practice of ED-initiation of BUP.&#xD;
+&#xD;
+      Intervention:&#xD;
+&#xD;
+      The intervention for this study includes the user-centered CDS as well as education of ED&#xD;
+      clinicians practicing at all study sites.&#xD;
+&#xD;
+      The need for flexibility in the graphical user interface of the intervention resulted in the&#xD;
+      decision to develop the CDS as a web application. This provides the ability to access the&#xD;
+      tool both embedded within the EHR or directly over the Internet. The web application was&#xD;
+      developed as a single-page application (SPA) based on React JavaScript library. The CDS is a&#xD;
+      user-initiated, Substitutable Medical Applications and Reusable Technologies (SMART) on Fast&#xD;
+      Health Interoperability Resources (FHIR) application that streamlines a flow diagram of the&#xD;
+      clinical protocol for ED-initiated BUP.&#xD;
+&#xD;
+      The intervention's graphical user interface is an intuitive, simple layout presenting four&#xD;
+      care pathways in columns based on the patient's diagnosis of OUD, the severity of withdrawal,&#xD;
+      and readiness to start treatment. There is additional, optional decision support available&#xD;
+      for guidance to: 1) evaluate OUD severity based on diagnostic and statistical manual of&#xD;
+      mental disorders (DSM)-5 criteria, 2) assess withdrawal severity using the clinical opiate&#xD;
+      withdrawal scale (COWS) score, and 3) motivate patient willingness and readiness to initiate&#xD;
+      medications for opioid use disorder (MOUD) treatment with a brief motivational interview.&#xD;
+      These materials are also available to share with other members of the care team via a web&#xD;
+      address, text messaging, or Quick Response (QR) code. The interface also includes a toggle&#xD;
+      switch for the user based on whether or not they have a waiver to prescribe BUP. Clinicians&#xD;
+      without a waiver cannot prescribe BUP but can administer a one-time dose of BUP in the ED for&#xD;
+      up to 72-hours. When integrated into the local EHR system, launching a care pathway enables&#xD;
+      the user to: place orders, refer for ongoing MOUD treatment, and update clinical notes.&#xD;
+&#xD;
+      The educational plan will be site-specific and tailored to the usual care at that&#xD;
+      institution. It will be administered within three months of the study start date. The details&#xD;
+      of the plan will be developed in partnership with local champions who self-identify an&#xD;
+      interest in helping to implement an ED-initiated BUP protocol at their site. Specifically,&#xD;
+      the education plan will be required to include:&#xD;
+&#xD;
+      1) A didactic on opioid use disorder, its diagnosis, assessment of withdrawal severity, and&#xD;
+      local resources for referral for ongoing MOUD treatment, 2)Circulation and posting in each&#xD;
+      study site ED of the flow diagram of the study's clinical protocol for ED-initiated BUP.&#xD;
+      Since this protocol is considered best practice, clinicians at control sites will retain all&#xD;
+      control of their practice and be encouraged to follow this protocol even though the CDS will&#xD;
+      not be available to them. 3) Intervention sites will include strategies to increase use of&#xD;
+      the intervention by training clinicians on how to launch and use the CDS. Use of the&#xD;
+      intervention will be tracked with site-specific audit and feedback that is consistent with&#xD;
+      typical quality improvement initiatives at that site.&#xD;
+&#xD;
+      Given the ongoing and escalating opioid epidemic and wide scope of this trial, the&#xD;
+      investigators anticipate that there may be concomitant interventions to stem OUD at study&#xD;
+      sites during the trial. The investigators plan to permit these interventions as long as they&#xD;
+      are: (1) implemented before randomization so that they can be tracked and accounted for in&#xD;
+      the constrained randomization process, and (2) they are not a health IT intervention targeted&#xD;
+      at clinicians to initiate BUP in the ED.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 15, 2019</start_date>
+  <completion_date type="Actual">September 15, 2021</completion_date>
+  <primary_completion_date type="Actual">May 14, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Parallel cluster randomized</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rate of initiating BUP in the ED with referral for ongoing MOUD with user-centered CDS compared with usual care</measure>
+    <time_frame>18 months</time_frame>
+    <description>The primary outcome will be BUP initiation in the ED, defined as whether or not an eligible patient is administered BUP in the ED and/or prescribed BUP upon discharge from the ED. Although this is not a patient-centered outcome, it is a pragmatic and meaningful surrogate that will serve as a lead indicator of the CDS intervention's effect on engaging more OUD patients in treatment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Referral to follow-up for ongoing MOUD treatment (patient level)</measure>
+    <time_frame>18 months</time_frame>
+    <description>The proportion of enrolled patients who receive an MAT appointment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates receiving a MAT appointment who go to the appointment</measure>
+    <time_frame>18 months</time_frame>
+    <description>Data will be collected in the aggregate for the percentage of patients that attended the referral MAT appointment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinicians providing ED-initiated BUP</measure>
+    <time_frame>18 months</time_frame>
+    <description>Number of clinicians providing ED-initiated BUP regardless of CDS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinicians providing referral of any ongoing MOUD treatment</measure>
+    <time_frame>18 months</time_frame>
+    <description>Number of clinicians that refer patients with OUD regardless of CDS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinicians who have received Drug Addiction Treatment Act (DATA) of 2000 training</measure>
+    <time_frame>18 months</time_frame>
+    <description>Number of clinicians that obtained DATA waiver</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">5047</enrollment>
+  <condition>Clinical Decision Support</condition>
+  <condition>Buprenorphine</condition>
+  <condition>Opioid-use Disorder</condition>
+  <arm_group>
+    <arm_group_label>Clinical Decision Support for BUP</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The Clinical Decision Support (CDS) will be available for clinician use for Emergency Department (ED)-initiated buprenorphine/naloxone (BUP) with referral for ongoing medication assisted treatment (MAT) if: ED chief complaint or urine drug screen indicate opioid use. The clinician will then be prompted to complete DSM-5 checklist for OUD. If DSM-5 OUD Score&gt;5 and urine drug screen is positive for opioids, then the clinician is prompted to complete COWS scale. If COWS score &gt;12, then the clinician is prompted to order BUP. Regardless of COWS score, the clinician will be prompted to schedule an MAT appointment with BUP provider. The CDS will interface with outside MAT facilities so that making an appointment is easy and to capture data on whether an appointment has been scheduled.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The CDS will not be activated and patients will receive care as usual.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical Decision Support (CDS)</intervention_name>
+    <description>This clinical decision support tool will improve the clinician's ability to identify those with OUD, initiate BUP and refer the patient to ongoing Medication Assisted Treatment (MAT)</description>
+    <arm_group_label>Clinical Decision Support for BUP</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Clinicians&#xD;
+&#xD;
+          -  All clinicians working in Emergency Departments in the selected sites&#xD;
+&#xD;
+        Patients&#xD;
+&#xD;
+          -  18 years or older&#xD;
+&#xD;
+          -  Will meet an EHR-derived phenotype suggesting possible OUD will be included in the&#xD;
+             analysis&#xD;
+&#xD;
+          -  Will be discharged from the ED&#xD;
+&#xD;
+          -  Not pregnant&#xD;
+&#xD;
+          -  Not currently taking any medication for Opioid Use Disorder&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Patients&#xD;
+&#xD;
+          -  Have a medical or psychiatric condition that requires hospitalization during the ED&#xD;
+             visit&#xD;
+&#xD;
+          -  Have prior enrollment in the current study&#xD;
+&#xD;
+          -  Currently in addiction treatment&#xD;
+&#xD;
+          -  Be a prisoner or in police custody at the time of ED visit&#xD;
+&#xD;
+        Note: The CDS will also be available for physicians to use when patients do not meet the&#xD;
+        EHR phenotype. These patients will be excluded from the primary analyses&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Edward Melnick, MD, MHS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Yale University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>UAB Medicine Highlands - Highlands ED, (HED)</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UAB - University Hospital ED (UED)</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35233</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UAB Freestanding Emergency Department of Gardendale (GED)</name>
+      <address>
+        <city>Gardendale</city>
+        <state>Alabama</state>
+        <zip>35071</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCHealth Anschutz Medical Campus (AMC)</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCHealth Memorial Hospital Central</name>
+      <address>
+        <city>Colorado Springs</city>
+        <state>Colorado</state>
+        <zip>80909</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCHealth Memorial Hospital North (MHN)</name>
+      <address>
+        <city>Colorado Springs</city>
+        <state>Colorado</state>
+        <zip>80920</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCHealth Poudre Valley Hospital (PVH)</name>
+      <address>
+        <city>Fort Collins</city>
+        <state>Colorado</state>
+        <zip>80524</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCHealth Medical Center of the Rockies</name>
+      <address>
+        <city>Loveland</city>
+        <state>Colorado</state>
+        <zip>80538</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Bridgeport Hospital ED (BPT), YNHHS</name>
+      <address>
+        <city>Bridgeport</city>
+        <state>Connecticut</state>
+        <zip>06610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Greenwich Hospital ED (GH), YNHHS</name>
+      <address>
+        <city>Greenwich</city>
+        <state>Connecticut</state>
+        <zip>06830</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St Raphael's Campus (SRC), YNHHS</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06410</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Lawrence + Memorial Hospital ED (L&amp;M), YNHHS</name>
+      <address>
+        <city>New London</city>
+        <state>Connecticut</state>
+        <zip>06320</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Franklin</name>
+      <address>
+        <city>Greenfield</city>
+        <state>Massachusetts</state>
+        <zip>01301</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Wing Hospital ED</name>
+      <address>
+        <city>Palmer</city>
+        <state>Massachusetts</state>
+        <zip>01069</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Springfield Hospital ED</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01199</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Mary Lane Hospital ED</name>
+      <address>
+        <city>Ware</city>
+        <state>Massachusetts</state>
+        <zip>01082</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baystate Noble</name>
+      <address>
+        <city>Westfield</city>
+        <state>Massachusetts</state>
+        <zip>01085</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UNC Hospitals Emergency Department, UNCHS</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27514</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>REX Healthcare Emergency Department, UNCHS</name>
+      <address>
+        <city>Raleigh</city>
+        <state>North Carolina</state>
+        <zip>27607</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Emergency Care Center at Nash General Hospital, UNCHS</name>
+      <address>
+        <city>Rocky Mount</city>
+        <state>North Carolina</state>
+        <zip>27804</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Chatham Hospital ED, UNCHS</name>
+      <address>
+        <city>Siler City</city>
+        <state>North Carolina</state>
+        <zip>27344</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Johnston Health ED, UNCHS</name>
+      <address>
+        <city>Smithfield</city>
+        <state>North Carolina</state>
+        <zip>27577</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>August 28, 2018</study_first_submitted>
+  <study_first_submitted_qc>August 28, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 5, 2018</study_first_posted>
+  <last_update_submitted>October 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Opioid Use Disorder</keyword>
+  <keyword>Buprenorphine</keyword>
+  <keyword>Opioid-use Disorder</keyword>
+  <keyword>Health IT</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Opioid-Related Disorders</mesh_term>
+    <mesh_term>Substance-Related Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

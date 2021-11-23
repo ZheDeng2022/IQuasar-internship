@@ -1,0 +1,157 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04674787</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NEUROMAN</org_study_id>
+    <nct_id>NCT04674787</nct_id>
+  </id_info>
+  <brief_title>Uncertainty Analysis of Computational Model to Simulate Neurostimulation Caused by Gradient Fields in MRI</brief_title>
+  <acronym>NEUROMAN</acronym>
+  <official_title>Uncertainty Analysis of Computational Model to Simulate Neurostimulation Caused by Gradient Fields in MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bryn Lloyd</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Institute for Biomedical Engineering, Swiss Federal Institute of Technology (ETH Zurich)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The Foundation for Research on Information Technologies in Society (IT'IS), Switzerland</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this research project is to quantify the uncertainty of current state-of-the art&#xD;
+      anatomical phantoms and computational models for predicting neurostimulation induced by&#xD;
+      time-varying magnetic fields (so-called gradient fields) within the context of magnetic&#xD;
+      resonance imaging (MRI) scanners. For this purpose stimulation thresholds will be measured in&#xD;
+      a volunteer study. The measurements will provide valuable data for the development and&#xD;
+      validation of future models.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study does not investigate any health related interventions, neither a therapy nor&#xD;
+      medical device. The study aims to provoke peripheral nerve stimulation from time varying&#xD;
+      magnetic (so-called &quot;gradient&quot;) fields in volunteers in order to measure gradient threshold&#xD;
+      levels in different configurations (different gradient coil units, different positions and&#xD;
+      postures). The experiments will provide new data regarding the interaction of gradient fields&#xD;
+      and function of the peripheral nervous system. These measurements are of general interest to&#xD;
+      quantify associated modeling uncertainties and validate current or future computational&#xD;
+      modeling techniques.&#xD;
+&#xD;
+      The experiments will use an MR scanner to generate the gradient fields used to induce&#xD;
+      stimulation. In normal mode the maximum gradient field allowed by the manufacturer may lead&#xD;
+      to peripheral nerve stimulation in approximately 50% of subjects. However, depending on the&#xD;
+      position and posture it may induce PNS in even fewer than 50% of subjects. Therefore, for the&#xD;
+      purpose of measuring stimulation thresholds it is necessary to operate the gradient units in&#xD;
+      experimental mode (with respect to the gradient field) as described in IEC 60601-2-33, i.e.&#xD;
+      the gradient limits set by the manufacturer will be disabled. As described in the standard,&#xD;
+      the gradient field will be increased slowly from non-stimulating levels until the volunteer&#xD;
+      perceives first stimulation sensations, at which point the gradient field will be stopped.&#xD;
+      This protocol does not lead to an increased risk of cardiac muscle stimulation compared to&#xD;
+      the normal mode, but only an increased likelihood of PNS with non-painful sensations in the&#xD;
+      skin, e.g. tingling, twitching or poking. PNS is not considered a health concern. The&#xD;
+      radio-frequency (RF) field will remain switched off, i.e. there is no risk of heating (the&#xD;
+      scanner will not acquire images in this mode).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 1, 2021</start_date>
+  <completion_date type="Actual">March 20, 2021</completion_date>
+  <primary_completion_date type="Actual">March 20, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Measure PNS stimulation thresholds</measure>
+    <time_frame>The experimental procedure will be conducted during a single visit of approx. 90 minutes.</time_frame>
+    <description>The primary objective is to measure PNS stimulation thresholds in order to quantify the modeling uncertainty and reliability.</description>
+  </primary_outcome>
+  <enrollment type="Actual">12</enrollment>
+  <condition>Peripheral Nerve Stimulation in MRI</condition>
+  <condition>Electric Stimulation</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Peripheral nerve stimulation provocation study</intervention_name>
+    <description>Study which measures stimulation thresholds in volunteers induced by low frequency electromagnetic gradients used in MRI scanners.</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  healthy adult volunteers (six female and six male)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  pregnant woman&#xD;
+&#xD;
+          -  metallic implants or a history of neurological or cardiovascular diseases&#xD;
+&#xD;
+          -  children and persons who are not able to follow the instructions will be excluded, due&#xD;
+             to a higher risk and lack of direct benefits from participation&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>IT'IS Foundation</name>
+      <address>
+        <city>Zurich</city>
+        <state>ZH</state>
+        <zip>8092</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>December 14, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 19, 2020</study_first_posted>
+  <last_update_submitted>May 25, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 25, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>The Foundation for Research on Information Technologies in Society (IT'IS), Switzerland</investigator_affiliation>
+    <investigator_full_name>Bryn Lloyd</investigator_full_name>
+    <investigator_title>Project Leader</investigator_title>
+  </responsible_party>
+  <keyword>MRI gradient coil</keyword>
+  <keyword>peripheral nerve stimulation</keyword>
+  <keyword>Time varying magnetic fields</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Stimulation thresholds and stimulation locations will be recorded for each stimulation configuration (81 measurements with different subject position, posture, slew rates).&#xD;
+This stimulation measurement data will be shared after publication of our findings in anonymized form to allow other researchers to validate their models with the data.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>After publication of our findings in a peer reviewed journal</ipd_time_frame>
+    <ipd_access_criteria>Openly available to interested parties.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

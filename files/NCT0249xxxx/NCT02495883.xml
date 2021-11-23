@@ -1,0 +1,607 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02495883</url>
+  </required_header>
+  <id_info>
+    <org_study_id>131202</org_study_id>
+    <secondary_id>1R01NS073683-01A1</secondary_id>
+    <nct_id>NCT02495883</nct_id>
+  </id_info>
+  <brief_title>Functional Imaging of Tremor Circuits and Mechanisms of Treatment Response</brief_title>
+  <official_title>Functional Imaging of Tremor Circuits and Mechanisms of Treatment Response</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Diego</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Neurological Disorders and Stroke (NINDS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Diego</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Essential Tremor (ET) is the most common tremor disorder, currently affecting an estimated&#xD;
+      2.9 million Americans and leading to disability and decreased quality of life in 75% of&#xD;
+      cases. The pathophysiology of ET is poorly understood, with the source of the tremor&#xD;
+      remaining controversial since all studies show increased activity in the cerebellum&#xD;
+      (including mimicked tremor in controls), while animal models of ET using harmaline and a&#xD;
+      single human PET study implicate the inferior olivary nucleus in the brainstem.&#xD;
+&#xD;
+      There is evidence from the investigator's laboratory that the use of resting-state functional&#xD;
+      magnetic resonance imaging (rs-fMRI) is useful for characterizing the abnormal tremor neural&#xD;
+      network in ET compared with controls. The goal is to identify the source of the tremor, which&#xD;
+      is hypothesized to remain active during rest.&#xD;
+&#xD;
+      Current ET diagnostic criteria require the presence of postural and/or kinetic tremor, which&#xD;
+      are assumed to be different manifestations of the same tremor oscillator. This long-standing&#xD;
+      assumption may be incorrect based on several lines of evidence from the investigator's&#xD;
+      laboratory, and has major implications for understanding ET pathophysiology and treatment.&#xD;
+      The investigators will test the hypothesis that postural and kinetic tremors are generated&#xD;
+      through different neural mechanisms.&#xD;
+&#xD;
+      Treatment of ET focuses on pharmacological agents of various mechanisms and rarely deep brain&#xD;
+      stimulation of the Vim thalamus. Despite the assortment of agents used to treat ET, only ~50%&#xD;
+      of patients benefit from a particular agent. Furthermore, the mechanisms of action on tremor&#xD;
+      are not generally known. Understanding the mechanisms of action of various tremor-suppressing&#xD;
+      agents is critical for future drug development. In this proposal, the investigators plan to&#xD;
+      study the effects of ethanol (the most efficacious tremor-suppressant currently available)&#xD;
+      and propranolol (a non-specific β-adrenergic blocker with proven efficacy and unknown&#xD;
+      mechanism of action) on the tremor neural network.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 2013</start_date>
+  <completion_date type="Actual">April 2017</completion_date>
+  <primary_completion_date type="Actual">April 2017</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Regions With fMRI Differences Between ET and Controls</measure>
+    <time_frame>At visit 1 or 2 based on randomization table.</time_frame>
+    <description>Regions that were differentially activated in ET as measured by number of statistically significant voxels (cluster size). This represents the number of activated voxels seen in the ET group that were not present in the Healthy Control group.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">56</enrollment>
+  <condition>Essential Tremor</condition>
+  <condition>Tremor</condition>
+  <arm_group>
+    <arm_group_label>Essential Tremor Group</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients will be randomized to start in one of two treatment arms: 1) 50ml of 40% ethanol or 2) Propranolol SR 60-120mg. In patients who receive ethanol first, they will return for a second visit when they will receive Propranolol, and vice versa. Ethanol will be administered to participants diagnosed with Essential Tremor during the study visit, whereas patients receiving Propranolol SR will be administered daily over an estimated period of two weeks prior to the fMRI visit.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Health Volunteer Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Healthy Volunteers will receive no interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Ethanol</intervention_name>
+    <description>50ml of 40% Ethanol</description>
+    <arm_group_label>Essential Tremor Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Propranolol</intervention_name>
+    <description>Beta blocker</description>
+    <arm_group_label>Essential Tremor Group</arm_group_label>
+    <other_name>Propranolol SR</other_name>
+    <other_name>Inderal LA</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosed with ET by a Movement Disorder Neurologist.&#xD;
+&#xD;
+          -  Tremors that improve with alcohol.&#xD;
+&#xD;
+          -  Ability to abstain from drinking alcohol or caffeine for at least 2 days before both&#xD;
+             the screening and fMRI visits&#xD;
+&#xD;
+          -  Over the age of 21.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Significant non-ET related abnormal findings during neurological exam.&#xD;
+&#xD;
+          -  Presence of a tremor at rest.&#xD;
+&#xD;
+          -  Pregnant or nursing.&#xD;
+&#xD;
+          -  Unable to safely undergo MRI based on completion of a safety questionnaire.&#xD;
+&#xD;
+          -  History of dementia, brain tumor, stroke, head trauma or a vascular malformation based&#xD;
+             on history or MRI findings.&#xD;
+&#xD;
+          -  Severe active medical condition, such as cardiovascular disease, that prevents subject&#xD;
+             from lying flat for up to 120 minutes.&#xD;
+&#xD;
+          -  Unable or unwilling to provide informed consent.&#xD;
+&#xD;
+          -  Claustrophobia (a fear of tight spaces) or other restrictions that prevent subject&#xD;
+             from undergoing an MRI in a confined space for up to 120 minutes.&#xD;
+&#xD;
+          -  Unable to temporarily stop taking medications that may influence liver metabolism or&#xD;
+             brain function.&#xD;
+&#xD;
+          -  Tremors so severe that subject cannot safely and effectively undergo MRI&#xD;
+&#xD;
+          -  Past/current problems with alcohol abuse or dependence.&#xD;
+&#xD;
+          -  Unwillingness to take alcohol (ethanol), which is a potentially intoxicating drug&#xD;
+&#xD;
+          -  History of deep brain stimulation or thalamotomy surgery.&#xD;
+&#xD;
+          -  Sinus bradycardia, bronchial asthma, or a known allergy to propranolol (Inderal).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Fatta B Nahab, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UCSD</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California, San Diego</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>September 26, 2013</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2015</study_first_submitted_qc>
+  <study_first_posted type="Estimate">July 13, 2015</study_first_posted>
+  <results_first_submitted>May 27, 2020</results_first_submitted>
+  <results_first_submitted_qc>December 1, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">December 2, 2020</results_first_posted>
+  <last_update_submitted>December 1, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 1, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of California, San Diego</investigator_affiliation>
+    <investigator_full_name>Fatta B Nahab</investigator_full_name>
+    <investigator_title>Associate Professor of Neurosciences</investigator_title>
+  </responsible_party>
+  <keyword>Essential Tremor</keyword>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <keyword>Therapy</keyword>
+  <keyword>Alcohol</keyword>
+  <keyword>Propranolol</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Tremor</mesh_term>
+    <mesh_term>Essential Tremor</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Ethanol</mesh_term>
+    <mesh_term>Propranolol</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 8, 2014</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/83/NCT02495883/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Essential Tremor Group</title>
+          <description>50ml of 40% ethanol will be administered to participants diagnosed with Essential Tremor.&#xD;
+Propranolol SR 60-120mg will be administered daily to participants over an estimated period of two weeks.&#xD;
+Ethanol: 50ml of 40% Ethanol&#xD;
+Propranolol: Beta blocker</description>
+        </group>
+        <group group_id="P2">
+          <title>Health Volunteer Group</title>
+          <description>Healthy Volunteers</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="32"/>
+                <participants group_id="P2" count="24"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="31"/>
+                <participants group_id="P2" count="24"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Excessive head motion</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Essential Tremor Group</title>
+          <description>50ml of 40% ethanol will be administered to participants diagnosed with Essential Tremor.&#xD;
+Propranolol SR 60-120mg will be administered daily to participants over an estimated period of two weeks.&#xD;
+Ethanol: 50ml of 40% Ethanol&#xD;
+Propranolol: Beta blocker</description>
+        </group>
+        <group group_id="B2">
+          <title>Health Volunteer Group</title>
+          <description>Healthy Volunteers</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="31"/>
+            <count group_id="B2" value="24"/>
+            <count group_id="B3" value="55"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="31"/>
+                    <count group_id="B2" value="24"/>
+                    <count group_id="B3" value="55"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="63.5" spread="15.4"/>
+                    <measurement group_id="B2" value="60.5" spread="11.5"/>
+                    <measurement group_id="B3" value="62.2" spread="13.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="31"/>
+                    <count group_id="B2" value="24"/>
+                    <count group_id="B3" value="55"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="14"/>
+                    <measurement group_id="B2" value="16"/>
+                    <measurement group_id="B3" value="30"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Montreal Cognitive Assessment</title>
+          <description>Total score on Montreal Cognitive Assessment (MoCA). Range of 0-30 (0-poor cognition, 30-normal cognition).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="31"/>
+                    <count group_id="B2" value="24"/>
+                    <count group_id="B3" value="55"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="27.9" spread="1.7"/>
+                    <measurement group_id="B2" value="28.1" spread="1.6"/>
+                    <measurement group_id="B3" value="28.0" spread="1.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Tremor Research Group Essential Tremor Rating Scale (TETRAS)</title>
+          <description>Tremor Research Group Essential Tremor Rating Scale (TETRAS) is a measure of tremor severity that includes Activities of Daily Living and Performance sub scales. Total score: 112 (0-no tremor, 112-maximal tremor and disability).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="31"/>
+                    <count group_id="B2" value="24"/>
+                    <count group_id="B3" value="55"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="37.8" spread="19.0"/>
+                    <measurement group_id="B2" value="NA" spread="NA">TETRAS was not done in healthy controls</measurement>
+                    <measurement group_id="B3" value="37.8" spread="19.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Regions With fMRI Differences Between ET and Controls</title>
+        <description>Regions that were differentially activated in ET as measured by number of statistically significant voxels (cluster size). This represents the number of activated voxels seen in the ET group that were not present in the Healthy Control group.</description>
+        <time_frame>At visit 1 or 2 based on randomization table.</time_frame>
+        <population>The methodology of this trial utilizes functional MRI measures. In order to understand the significance of a group's unique brain responses, the data between the two groups (Essential Tremor vs. Healthy Controls) are statistically compared to derive regions that are unique. The output of the analyses show regions that are unique to ET.&#xD;
+NOTE: Data structure cannot be provided separately for each group based on the experiment paradigm and analysis methods.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>All Subjects</title>
+            <description>All subject data</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Regions With fMRI Differences Between ET and Controls</title>
+          <description>Regions that were differentially activated in ET as measured by number of statistically significant voxels (cluster size). This represents the number of activated voxels seen in the ET group that were not present in the Healthy Control group.</description>
+          <population>The methodology of this trial utilizes functional MRI measures. In order to understand the significance of a group's unique brain responses, the data between the two groups (Essential Tremor vs. Healthy Controls) are statistically compared to derive regions that are unique. The output of the analyses show regions that are unique to ET.&#xD;
+NOTE: Data structure cannot be provided separately for each group based on the experiment paradigm and analysis methods.</population>
+          <units>Number of Activated Voxels</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="55"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Right Cerebellum</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="139"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Left Putamen</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="93"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Right Posterior Cingulate/Thalamus</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Right Sensorimotor Cortex</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="74"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>2 study visits, each lasting up to 4 hours.</time_frame>
+      <desc>Adverse events were collected in combination across both arms since the goal of the trial was to observe the differences in brain activations between the two groups (ET and healthy controls) and study the brain effects of two therapies on the ET population.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>ET Group</title>
+          <description>Patient Cohort</description>
+        </group>
+        <group group_id="E2">
+          <title>Healthy Volunteers</title>
+          <description>Control Cohort</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="24"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Fatta Nahab, MD</name_or_title>
+      <organization>UCSD</organization>
+      <phone>858-822-5871</phone>
+      <email>fnahab@health.ucsd.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

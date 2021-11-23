@@ -1,0 +1,3002 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03357341</url>
+  </required_header>
+  <id_info>
+    <org_study_id>207223</org_study_id>
+    <secondary_id>HO-17-17827</secondary_id>
+    <nct_id>NCT03357341</nct_id>
+  </id_info>
+  <brief_title>Sensor and Electronic Health Records (EHR) Integration Pilot Study</brief_title>
+  <official_title>Enabling Innovative Respiratory Real World Evidence Generation: Sensor and EHR Integration Pilot Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>GlaxoSmithKline</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Geisinger HealthPlan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>GlaxoSmithKline</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a pilot study that will evaluate the feasibility of collecting increasing amounts of&#xD;
+      clinical study data from subjects through sensor and web/app based methods and integrating it&#xD;
+      with data from their EHR to facilitate more efficient and meaningful research with acceptable&#xD;
+      quality. Approximately 100 subjects with asthma and 100 subjects with chronic obstructive&#xD;
+      pulmonary disease (COPD) will be enrolled in this prospective study. The subjects will be&#xD;
+      identified through integrated EHR records following which eligible subjects will receive&#xD;
+      study devices and training on proper use of the devices at Baseline visit. Data will be&#xD;
+      collected remotely from subject reports, devices and sensors over six months.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">July 23, 2018</start_date>
+  <completion_date type="Actual">September 27, 2019</completion_date>
+  <primary_completion_date type="Actual">September 27, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change From Baseline in Forced Expiratory Volume in One Second (FEV1)</measure>
+    <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>FEV1 is an important measure of pulmonary function and is the maximum amount of air that can be forced out in one second after taking a deep breath. FEV1 was measured using spirometry. Participants were given a hand-held spirometer with instructions on its proper use. Baseline (Week 1) measurement was taken in clinic and the participants were instructed to perform home spirometry on a weekly basis for the remainder of the study. The spirometry use was linked to the Propeller Health application on the iPad, which provided visual cues for the spirometry and sent the data to the central database after completion of the session. Change from Baseline was calculated as the value at specified time point minus Baseline value. Change from Baseline in FEV1 at 4-weekly intervals is presented.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Median Number of Steps Per Day</measure>
+    <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The physical activity was captured using a waist-worn accelerometer. A valid day was defined as a day where the activity monitor detected that it was worn for at least 8 hours during that day. Data for three or more valid days were required to generate data for weekly step counts.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Median Daily Activity Level Based on Vector Magnitude Counts.</measure>
+    <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The physical activity was captured using a waist-worn accelerometer. Vector magnitude in counts are accelerations in 3 dimensions that indicate activity. More counts is associated with more activity.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patient Reported Outcome (PRO) Active Total Score</measure>
+    <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+    <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of PRO was used, and was offered via the participant's electronic PRO application every 28 days. This version of PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'amount' domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). The 'difficulty' domain is covered by 10 items. Each domain score is based on the simple addition of items (scale ranging from 0 to 15 for amount domain and 0 to 40 for difficulty domain), and then scaled from 0 to 100. 'Total Score' is calculated as the sum of the two domains (amount and difficulty) divided by two, thus scored from 0 (worse) to 100 (much better).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>PROactive Amount Domain Score</measure>
+    <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+    <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains (amount and difficulty). The amount domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). Amount domain score is based on the simple addition of items (scale ranging from 0 to 15) and then scaled from 0 to 100.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>PROactive Difficulty Domain Score</measure>
+    <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+    <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'difficulty' domain is covered by 10 items. The difficulty domain score is based on the simple addition of items (0 to 40), which is then scaled from 0 (worse) to 100 (much better).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Evaluating Respiratory Symptoms (E-RS) in COPD Total Score-COPD Cohort Only</measure>
+    <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The E-RS: COPD scale is a derivative instrument used to measure the effect of treatment on the severity of respiratory symptoms in stable COPD. The E-RS utilizes the 11 respiratory symptom items contained in the 14-item Exacerbations of Chronic pulmonary disease Tool (EXACT). For the COPD cohort specifically, the daily EXACT was offered each evening. The domains included: respiratory symptoms (RS)-breathlessness (RS-BRL comprised of 5 items, score range [0-17]), RS-cough and sputum (RS-CSP comprised of 3 items, score range [0-11]), and RS-chest symptoms (RS-CSY comprised of 3 items, score range [0-12]). The total score was derived by summing the 11-item scores and ranged between 0-40 with higher values indicating severe respiratory symptoms. Scores for the week were summarized for each COPD participant where they completed the questionnaire on three or more days during the study week</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Exacerbations of Chronic Pulmonary Disease Tool (EXACT) Event Rate-COPD Cohort Only</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>EXACT is a 14-item diary that measures respiratory symptoms and function. The total score for EXACT ranges from 0-100, higher scores indicate more severe symptoms. EXACT events are considered worsening of symptom scores above the individual's Baseline value over multiple consecutive days.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Primary Care Visits for Asthma Conditions or COPD</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>The number of primary care visits (including ambulatory, home and phone) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Secondary Care Visits for Asthma Conditions or COPD</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>The number of secondary care visits (that is, inpatient hospitalization and emergency department [ED]) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of All Primary Care Visits</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>The number of all primary care visits (including ambulatory, home and phone) were summarized using data from EHR-based healthcare utilization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of All Secondary Care Visits</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>The number of all secondary care visits (that is, inpatient hospitalization and ED) were summarized using data from EHR-based healthcare utilization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants With New Prescriptions</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>New treatments that were prescribed for respiratory-related conditions (Short-acting beta-agonists [SABA], Inhaled corticosteroid (ICS)/long-acting beta-agonist [LABA] combinations, Oral corticosteroids [OCS], Leukotriene modifiers [LEUK], ICS, Long-acting muscarinic antagonists [LAMA], SABA/short-acting muscarinic antagonist [SAMA] combinations, Anti-cholinergics [a-CHOL], LABA/LAMA, ICS/LABA/LAMA, Phosphodiesterase type 4 inhibitors [PDE4], Anti-immunoglobulin E [a-IgE], LABA, and Interleukin-5 inhibitors [IL-5]) were summarized using data from EHR-based healthcare utilization. Some participants may have received prescriptions in more than one medication category.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Days in Hospital for Asthma and COPD</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>The number of days for which the participant was hospitalized for asthma and COPD was summarized using data from EHR-based healthcare utilization</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Who Received Short-acting Beta-agonist Therapy</measure>
+    <time_frame>Up to 6 months</time_frame>
+    <description>Participants who received SABA were summarized using data from EHR-based healthcare utilization.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change From Baseline in COPD Assessment Test (CAT) Score-COPD Cohort Only</measure>
+    <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The CAT is an 8 item questionnaire (cough, sputum, chest tightness, breathlessness, going up hills/stairs, activity limitation at home, confidence leaving the home, and sleep and energy) that measures health status of participants with COPD. Participants completed each question by rating their experience on a 6 point scale ranging from 0 (maximum impairment) to 5 (no impairment). Total score was calculated by summing the non-missing scores on the eight items and ranged from 0-40. Higher scores indicated greater disease impact. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change From Baseline in Asthma Control Test (ACT) Score-asthma Cohort Only</measure>
+    <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The ACT is a validated self-administered questionnaire utilizing 5 questions to assess asthma control on a 5-point categorical scale (1 to 5). Total score was calculated as the sum of scores from 5 questions and ranged from 5 to 25. Higher scores indicated better control of asthma. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Median Rescue Medication Use</measure>
+    <time_frame>Weeks 1, 5, 9, 13, 17, 21, 25</time_frame>
+    <description>The use of rescue medication by participants were monitored by attaching a sensor to rescue inhaler.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants With Maintenance Compliance</measure>
+    <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+    <description>The use of maintenance therapy by participants were monitored by attaching a sensor to maintenance inhaler.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Who Completed Exit Interview</measure>
+    <time_frame>Up to 6 Months</time_frame>
+    <description>An exit interview were conducted to obtain relevant feedback from participants regarding the study, study devices and electronic PRO platform. Exit surveys were triggered via the study-supplied iPad to each participant when they completed (or withdrew from) the study.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">194</enrollment>
+  <condition>Pulmonary Disease, Chronic Obstructive</condition>
+  <arm_group>
+    <arm_group_label>COPD cohort</arm_group_label>
+    <description>Approximately 100 subjects with COPD identified through integrated EHR records will be enrolled.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Asthma cohort</arm_group_label>
+    <description>Approximately 100 subjects with asthma identified through integrated EHR records will be enrolled.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Mobile spirometer</intervention_name>
+    <description>Mobile spirometer will be used to measure FEV1 values weekly.</description>
+    <arm_group_label>Asthma cohort</arm_group_label>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Device sensor</intervention_name>
+    <description>Sensors will be attached to rescue and maintenance inhalers to measure use of rescue medication and maintenance therapy.</description>
+    <arm_group_label>Asthma cohort</arm_group_label>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Salbutamol</intervention_name>
+    <description>Salbutamol MDI will be given as a rescue medication to be used on an as needed basis in this study.</description>
+    <arm_group_label>Asthma cohort</arm_group_label>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Activity monitor</intervention_name>
+    <description>Subjects will be required to wear activity monitors daily to record their physical activity.</description>
+    <arm_group_label>Asthma cohort</arm_group_label>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>electronic diary card</intervention_name>
+    <description>Electronic diary card will be completed daily by subjects in COPD cohort.</description>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>CAT</intervention_name>
+    <description>Subjects will be required to complete CAT monthly.</description>
+    <arm_group_label>COPD cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>ACT</intervention_name>
+    <description>Subjects will be required to complete ACT monthly.</description>
+    <arm_group_label>Asthma cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Two cohorts consisting of approximately 100 subjects each with COPD and asthma identified&#xD;
+        through EHR database analyses will be included.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        COPD cohort&#xD;
+&#xD;
+          -  Provide signed and dated informed consent form.&#xD;
+&#xD;
+          -  Be willing to comply with all study procedures and be available for the duration of&#xD;
+             the study.&#xD;
+&#xD;
+          -  Age &gt;=40 years&#xD;
+&#xD;
+          -  Diagnosed with COPD, defined as COPD listed on the subject's problem list and one of&#xD;
+             the following: a) At least one inpatient hospitalization with a COPD diagnosis listed&#xD;
+             as the primary or secondary diagnosis (J41.x, J42.x, J44.x [chronic bronchitis], J43.9&#xD;
+             [emphysema] or J44.9 [Chronic obstructive pulmonary disease, unspecified]) in the last&#xD;
+             12 months b) At least two outpatient encounters with a diagnosis of COPD exacerbation&#xD;
+             (J44.1), Acute bronchitis (J20.x), or bronchitis (J40) listed as the primary or&#xD;
+             secondary diagnosis, with different dates of service in the last 12 months c) At least&#xD;
+             one emergency room encounter with a COPD diagnosis (J41.x, J42.x, J44.x, J43.9, J44.9)&#xD;
+             listed as the primary or secondary diagnosis in the last 12 months d) At least two&#xD;
+             urgent care encounters with different dates of service, with a COPD diagnosis (J41.x,&#xD;
+             J42.x, J44.x, J43.9, J44.9) listed as the primary or secondary diagnosis in the last&#xD;
+             12 months.&#xD;
+&#xD;
+          -  At least one order for an inhaled COPD medication during the prior year.&#xD;
+&#xD;
+          -  More than 12 months of data available in the integrated EHR data prior to date of&#xD;
+             screening.&#xD;
+&#xD;
+        Asthma cohort&#xD;
+&#xD;
+          -  Provide signed and dated informed consent form.&#xD;
+&#xD;
+          -  Be willing to comply with all study procedures and be available for the duration of&#xD;
+             the study.&#xD;
+&#xD;
+          -  Age &gt;=18 years&#xD;
+&#xD;
+          -  Diagnosed with asthma, defined as asthma listed on the subject's problem list and one&#xD;
+             of the following: a) At least one inpatient hospitalization with an asthma diagnosis&#xD;
+             (J45.x) listed as the primary or secondary diagnosis in the last 12 months. b) At&#xD;
+             least one emergency room encounter with an asthma diagnosis (J45.x) listed as the&#xD;
+             primary or secondary diagnosis in the last 12 months c) at least two urgent care&#xD;
+             encounters, with different dates of service, with an asthma diagnosis (J45.x) listed&#xD;
+             as the primary or secondary diagnosis in the last 12 months d) At least three or more&#xD;
+             prescriptions or prescription refills in the past 12 months for any combination of the&#xD;
+             following: an inhaled glucocorticoid with or without a second controller (Montelukast,&#xD;
+             Theophylline, a long-acting beta agonist [LABA] alone) or a combination drug with a&#xD;
+             LABA and an inhaled glucocorticoid.&#xD;
+&#xD;
+          -  More than 12 months of data available in the integrated EHR data prior to date of&#xD;
+             screening.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        COPD cohort&#xD;
+&#xD;
+          -  Inability/Unwillingness to use the required devices, or&#xD;
+&#xD;
+          -  Inability to read and understand English Asthma cohort&#xD;
+&#xD;
+          -  Inability/Unwillingness to use the required devices&#xD;
+&#xD;
+          -  Inability to read and understand English&#xD;
+&#xD;
+          -  Diagnosis of COPD listed on problem list&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>GSK Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>GlaxoSmithKline</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>GSK Investigational Site</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>November 23, 2017</study_first_submitted>
+  <study_first_submitted_qc>November 23, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 29, 2017</study_first_posted>
+  <results_first_submitted>September 8, 2020</results_first_submitted>
+  <results_first_submitted_qc>November 23, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">November 24, 2020</results_first_posted>
+  <last_update_submitted>November 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>electronic health record</keyword>
+  <keyword>Pilot</keyword>
+  <keyword>COPD</keyword>
+  <keyword>Sensor</keyword>
+  <keyword>Asthma</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Albuterol</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>February 22, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/41/NCT03357341/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>This was a prospective observational study that included two cohorts of participants identified through electronic health records (EHR) within the Geisinger Health System (GHS) database. The study was conducted at a single center in the United States.</recruitment_details>
+      <pre_assignment_details>A total of 194 participants were enrolled and followed up for six months. The study data was captured remotely via sensors and devices provided by GlaxoSmithKline (GSK) to the participants, or via extraction of EHR data.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Asthma Cohort</title>
+          <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+        <group group_id="P2">
+          <title>COPD Cohort</title>
+          <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="96"/>
+                <participants group_id="P2" count="98"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="89"/>
+                <participants group_id="P2" count="86"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="7"/>
+                <participants group_id="P2" count="12"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="6"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+                <participants group_id="P2" count="5"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Death</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Asthma Cohort</title>
+          <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+        <group group_id="B2">
+          <title>COPD Cohort</title>
+          <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="96"/>
+            <count group_id="B2" value="98"/>
+            <count group_id="B3" value="194"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Years</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="59" lower_limit="44" upper_limit="67"/>
+                    <measurement group_id="B2" value="64" lower_limit="57" upper_limit="71"/>
+                    <measurement group_id="B3" value="62" lower_limit="52" upper_limit="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="63"/>
+                    <measurement group_id="B2" value="66"/>
+                    <measurement group_id="B3" value="129"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="65"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Caucasian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="93"/>
+                    <measurement group_id="B2" value="94"/>
+                    <measurement group_id="B3" value="187"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>African-American</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>South East Asian</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Unknown</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change From Baseline in Forced Expiratory Volume in One Second (FEV1)</title>
+        <description>FEV1 is an important measure of pulmonary function and is the maximum amount of air that can be forced out in one second after taking a deep breath. FEV1 was measured using spirometry. Participants were given a hand-held spirometer with instructions on its proper use. Baseline (Week 1) measurement was taken in clinic and the participants were instructed to perform home spirometry on a weekly basis for the remainder of the study. The spirometry use was linked to the Propeller Health application on the iPad, which provided visual cues for the spirometry and sent the data to the central database after completion of the session. Change from Baseline was calculated as the value at specified time point minus Baseline value. Change from Baseline in FEV1 at 4-weekly intervals is presented.</description>
+        <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population: Includes participants with asthma and COPD identified via EHR database. Total of 73 and 68 participants were included in the analysis; however only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change From Baseline in Forced Expiratory Volume in One Second (FEV1)</title>
+          <description>FEV1 is an important measure of pulmonary function and is the maximum amount of air that can be forced out in one second after taking a deep breath. FEV1 was measured using spirometry. Participants were given a hand-held spirometer with instructions on its proper use. Baseline (Week 1) measurement was taken in clinic and the participants were instructed to perform home spirometry on a weekly basis for the remainder of the study. The spirometry use was linked to the Propeller Health application on the iPad, which provided visual cues for the spirometry and sent the data to the central database after completion of the session. Change from Baseline was calculated as the value at specified time point minus Baseline value. Change from Baseline in FEV1 at 4-weekly intervals is presented.</description>
+          <population>All Enrolled Population: Includes participants with asthma and COPD identified via EHR database. Total of 73 and 68 participants were included in the analysis; however only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Liter</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="73"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 5, n=61, 44</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="61"/>
+                    <count group_id="O2" value="44"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.03" lower_limit="-0.23" upper_limit="0.14"/>
+                    <measurement group_id="O2" value="0.07" lower_limit="-0.08" upper_limit="0.17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=61,39</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="61"/>
+                    <count group_id="O2" value="39"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.09" lower_limit="-0.28" upper_limit="0.11"/>
+                    <measurement group_id="O2" value="-0.08" lower_limit="-0.26" upper_limit="0.03"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=57, 40</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="57"/>
+                    <count group_id="O2" value="40"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.06" lower_limit="-0.22" upper_limit="0.14"/>
+                    <measurement group_id="O2" value="-0.10" lower_limit="-0.22" upper_limit="0.06"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=54, 38</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="54"/>
+                    <count group_id="O2" value="38"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.11" lower_limit="-0.27" upper_limit="0.05"/>
+                    <measurement group_id="O2" value="-0.15" lower_limit="-0.23" upper_limit="0.09"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=33, 28</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="33"/>
+                    <count group_id="O2" value="28"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.07" lower_limit="-0.22" upper_limit="0.08"/>
+                    <measurement group_id="O2" value="-0.19" lower_limit="-0.51" upper_limit="0.00"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=26, 14</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="26"/>
+                    <count group_id="O2" value="14"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.12" lower_limit="-0.24" upper_limit="0.18"/>
+                    <measurement group_id="O2" value="-0.10" lower_limit="-0.27" upper_limit="0.01"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Median Number of Steps Per Day</title>
+        <description>The physical activity was captured using a waist-worn accelerometer. A valid day was defined as a day where the activity monitor detected that it was worn for at least 8 hours during that day. Data for three or more valid days were required to generate data for weekly step counts.</description>
+        <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Median Number of Steps Per Day</title>
+          <description>The physical activity was captured using a waist-worn accelerometer. A valid day was defined as a day where the activity monitor detected that it was worn for at least 8 hours during that day. Data for three or more valid days were required to generate data for weekly step counts.</description>
+          <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Steps per day</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="72"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 1, n=72, 68</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="72"/>
+                    <count group_id="O2" value="68"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3574" lower_limit="2321" upper_limit="5584"/>
+                    <measurement group_id="O2" value="2186" lower_limit="1185" upper_limit="3320"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 5, n=53, 54</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="53"/>
+                    <count group_id="O2" value="54"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4547" lower_limit="1956" upper_limit="6021"/>
+                    <measurement group_id="O2" value="2446" lower_limit="1281" upper_limit="3832"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=52,42</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="52"/>
+                    <count group_id="O2" value="42"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3270" lower_limit="2161" upper_limit="6358"/>
+                    <measurement group_id="O2" value="2312" lower_limit="1335" upper_limit="3605"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=52, 42</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="52"/>
+                    <count group_id="O2" value="42"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3124" lower_limit="1944" upper_limit="6425"/>
+                    <measurement group_id="O2" value="2117" lower_limit="1150" upper_limit="3390"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=47, 37</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="47"/>
+                    <count group_id="O2" value="37"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3962" lower_limit="2160" upper_limit="6637"/>
+                    <measurement group_id="O2" value="1583" lower_limit="1148" upper_limit="2752"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=34, 31</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="34"/>
+                    <count group_id="O2" value="31"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3816" lower_limit="1498" upper_limit="6547"/>
+                    <measurement group_id="O2" value="1702" lower_limit="912" upper_limit="3645"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=23, 20</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="23"/>
+                    <count group_id="O2" value="20"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="3431" lower_limit="1822" upper_limit="6501"/>
+                    <measurement group_id="O2" value="2239" lower_limit="1012" upper_limit="3139"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Median Daily Activity Level Based on Vector Magnitude Counts.</title>
+        <description>The physical activity was captured using a waist-worn accelerometer. Vector magnitude in counts are accelerations in 3 dimensions that indicate activity. More counts is associated with more activity.</description>
+        <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Median Daily Activity Level Based on Vector Magnitude Counts.</title>
+          <description>The physical activity was captured using a waist-worn accelerometer. Vector magnitude in counts are accelerations in 3 dimensions that indicate activity. More counts is associated with more activity.</description>
+          <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Vector magnitude counts</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="72"/>
+                <count group_id="O2" value="68"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 1, n=72, 68</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="72"/>
+                    <count group_id="O2" value="68"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="512" lower_limit="407" upper_limit="658"/>
+                    <measurement group_id="O2" value="378" lower_limit="288" upper_limit="492"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 5, n=53, 54</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="53"/>
+                    <count group_id="O2" value="54"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="475" lower_limit="375" upper_limit="669"/>
+                    <measurement group_id="O2" value="415" lower_limit="302" upper_limit="578"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=52, 42</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="52"/>
+                    <count group_id="O2" value="42"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="483" lower_limit="348" upper_limit="629"/>
+                    <measurement group_id="O2" value="389" lower_limit="290" upper_limit="523"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=52, 42</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="52"/>
+                    <count group_id="O2" value="42"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="469" lower_limit="342" upper_limit="685"/>
+                    <measurement group_id="O2" value="384" lower_limit="268" upper_limit="541"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=47, 37</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="47"/>
+                    <count group_id="O2" value="37"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="490" lower_limit="375" upper_limit="670"/>
+                    <measurement group_id="O2" value="342" lower_limit="272" upper_limit="434"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=34, 31</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="34"/>
+                    <count group_id="O2" value="31"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="525" lower_limit="359" upper_limit="683"/>
+                    <measurement group_id="O2" value="359" lower_limit="242" upper_limit="608"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=23, 20</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="23"/>
+                    <count group_id="O2" value="20"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="446" lower_limit="343" upper_limit="661"/>
+                    <measurement group_id="O2" value="412" lower_limit="311" upper_limit="648"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Patient Reported Outcome (PRO) Active Total Score</title>
+        <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of PRO was used, and was offered via the participant's electronic PRO application every 28 days. This version of PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'amount' domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). The 'difficulty' domain is covered by 10 items. Each domain score is based on the simple addition of items (scale ranging from 0 to 15 for amount domain and 0 to 40 for difficulty domain), and then scaled from 0 to 100. 'Total Score' is calculated as the sum of the two domains (amount and difficulty) divided by two, thus scored from 0 (worse) to 100 (much better).</description>
+        <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+        <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Patient Reported Outcome (PRO) Active Total Score</title>
+          <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of PRO was used, and was offered via the participant's electronic PRO application every 28 days. This version of PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'amount' domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). The 'difficulty' domain is covered by 10 items. Each domain score is based on the simple addition of items (scale ranging from 0 to 15 for amount domain and 0 to 40 for difficulty domain), and then scaled from 0 to 100. 'Total Score' is calculated as the sum of the two domains (amount and difficulty) divided by two, thus scored from 0 (worse) to 100 (much better).</description>
+          <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="54"/>
+                <count group_id="O2" value="58"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 2, n=54, 58</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="54"/>
+                    <count group_id="O2" value="58"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75" lower_limit="66.5" upper_limit="78.5"/>
+                    <measurement group_id="O2" value="60.3" lower_limit="54.5" upper_limit="69"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 6, n=40, 52</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="40"/>
+                    <count group_id="O2" value="52"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75" lower_limit="63.8" upper_limit="79.3"/>
+                    <measurement group_id="O2" value="59" lower_limit="55.3" upper_limit="66"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 10, n=35,36</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="35"/>
+                    <count group_id="O2" value="36"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="73" lower_limit="63.5" upper_limit="78.5"/>
+                    <measurement group_id="O2" value="62.5" lower_limit="53.5" upper_limit="69.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 14, n=36, 36</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="36"/>
+                    <count group_id="O2" value="36"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="73.5" lower_limit="65.5" upper_limit="79.3"/>
+                    <measurement group_id="O2" value="58.5" lower_limit="49.5" upper_limit="68.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 18, n=22, 22</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="22"/>
+                    <count group_id="O2" value="22"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75" lower_limit="70" upper_limit="78.5"/>
+                    <measurement group_id="O2" value="57.5" lower_limit="52.5" upper_limit="61.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 22, n=21, 23</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="21"/>
+                    <count group_id="O2" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="76.5" lower_limit="67" upper_limit="81"/>
+                    <measurement group_id="O2" value="56.5" lower_limit="48.5" upper_limit="63.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 26, n=15, 12</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="15"/>
+                    <count group_id="O2" value="12"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="75.5" lower_limit="67" upper_limit="79"/>
+                    <measurement group_id="O2" value="58" lower_limit="56.3" upper_limit="67.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>PROactive Amount Domain Score</title>
+        <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains (amount and difficulty). The amount domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). Amount domain score is based on the simple addition of items (scale ranging from 0 to 15) and then scaled from 0 to 100.</description>
+        <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+        <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>PROactive Amount Domain Score</title>
+          <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains (amount and difficulty). The amount domain is covered by 2 items (amount of walking outside and chores outside) and by 2 activity monitor outputs (vector magnitude units per minute [VMU/min] and steps per day). Amount domain score is based on the simple addition of items (scale ranging from 0 to 15) and then scaled from 0 to 100.</description>
+          <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="54"/>
+                <count group_id="O2" value="58"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 2, n=54, 58</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="54"/>
+                    <count group_id="O2" value="58"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61" lower_limit="52" upper_limit="70"/>
+                    <measurement group_id="O2" value="52" lower_limit="48" upper_limit="57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 6, n=40, 52</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="40"/>
+                    <count group_id="O2" value="52"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61" lower_limit="52" upper_limit="65"/>
+                    <measurement group_id="O2" value="54" lower_limit="48" upper_limit="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 10, n=35,36</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="35"/>
+                    <count group_id="O2" value="36"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="57" lower_limit="52" upper_limit="65"/>
+                    <measurement group_id="O2" value="57" lower_limit="48" upper_limit="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 14, n=36, 36</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="36"/>
+                    <count group_id="O2" value="36"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59" lower_limit="52" upper_limit="70"/>
+                    <measurement group_id="O2" value="52" lower_limit="44" upper_limit="63"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 18, n=22, 22</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="22"/>
+                    <count group_id="O2" value="22"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61" lower_limit="57" upper_limit="75"/>
+                    <measurement group_id="O2" value="52" lower_limit="48" upper_limit="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 22, n=21, 23</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="21"/>
+                    <count group_id="O2" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61" lower_limit="57" upper_limit="75"/>
+                    <measurement group_id="O2" value="52" lower_limit="39" upper_limit="61"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 26, n=15, 12</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="15"/>
+                    <count group_id="O2" value="12"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="61" lower_limit="57" upper_limit="70"/>
+                    <measurement group_id="O2" value="54" lower_limit="46" upper_limit="57"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>PROactive Difficulty Domain Score</title>
+        <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'difficulty' domain is covered by 10 items. The difficulty domain score is based on the simple addition of items (0 to 40), which is then scaled from 0 (worse) to 100 (much better).</description>
+        <time_frame>Weeks 2, 6, 10, 14, 18, 22 and 26</time_frame>
+        <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>PROactive Difficulty Domain Score</title>
+          <description>The PROactive tool is used to investigate dimensions of physical activity (symptoms, distress, difficulties, amount etc.) that are judged as being essential by participants living with COPD. The clinic visit version of the PRO was used in this study, and was offered via the participant's electronic PRO application every 28 days. This version of the PRO includes 14 items, measuring a physical activity 'Total Score' with 2 domains ('amount' and 'difficulty'). The 'difficulty' domain is covered by 10 items. The difficulty domain score is based on the simple addition of items (0 to 40), which is then scaled from 0 (worse) to 100 (much better).</description>
+          <population>All Enrolled Population. Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="68"/>
+                <count group_id="O2" value="83"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 2, n=68, 83</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="68"/>
+                    <count group_id="O2" value="83"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="84.5" lower_limit="73" upper_limit="94"/>
+                    <measurement group_id="O2" value="66" lower_limit="60" upper_limit="75"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 6, n=57, 77</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="57"/>
+                    <count group_id="O2" value="77"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86" lower_limit="68" upper_limit="94"/>
+                    <measurement group_id="O2" value="63" lower_limit="56" upper_limit="77"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 10, n=54, 65</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="54"/>
+                    <count group_id="O2" value="65"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="82" lower_limit="72" upper_limit="92"/>
+                    <measurement group_id="O2" value="65" lower_limit="55" upper_limit="73"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 14, n=49, 56</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="49"/>
+                    <count group_id="O2" value="56"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="83" lower_limit="79" upper_limit="94"/>
+                    <measurement group_id="O2" value="66" lower_limit="56.5" upper_limit="83"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 18, n=39, 41</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="39"/>
+                    <count group_id="O2" value="41"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="83" lower_limit="75" upper_limit="92"/>
+                    <measurement group_id="O2" value="61" lower_limit="56" upper_limit="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 22, n=47, 50</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="47"/>
+                    <count group_id="O2" value="50"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86" lower_limit="77" upper_limit="92"/>
+                    <measurement group_id="O2" value="65.5" lower_limit="53" upper_limit="70"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 26, n=28, 37</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="28"/>
+                    <count group_id="O2" value="37"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="86" lower_limit="78" upper_limit="94"/>
+                    <measurement group_id="O2" value="65" lower_limit="55" upper_limit="72"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Evaluating Respiratory Symptoms (E-RS) in COPD Total Score-COPD Cohort Only</title>
+        <description>The E-RS: COPD scale is a derivative instrument used to measure the effect of treatment on the severity of respiratory symptoms in stable COPD. The E-RS utilizes the 11 respiratory symptom items contained in the 14-item Exacerbations of Chronic pulmonary disease Tool (EXACT). For the COPD cohort specifically, the daily EXACT was offered each evening. The domains included: respiratory symptoms (RS)-breathlessness (RS-BRL comprised of 5 items, score range [0-17]), RS-cough and sputum (RS-CSP comprised of 3 items, score range [0-11]), and RS-chest symptoms (RS-CSY comprised of 3 items, score range [0-12]). The total score was derived by summing the 11-item scores and ranged between 0-40 with higher values indicating severe respiratory symptoms. Scores for the week were summarized for each COPD participant where they completed the questionnaire on three or more days during the study week</description>
+        <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population.Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Evaluating Respiratory Symptoms (E-RS) in COPD Total Score-COPD Cohort Only</title>
+          <description>The E-RS: COPD scale is a derivative instrument used to measure the effect of treatment on the severity of respiratory symptoms in stable COPD. The E-RS utilizes the 11 respiratory symptom items contained in the 14-item Exacerbations of Chronic pulmonary disease Tool (EXACT). For the COPD cohort specifically, the daily EXACT was offered each evening. The domains included: respiratory symptoms (RS)-breathlessness (RS-BRL comprised of 5 items, score range [0-17]), RS-cough and sputum (RS-CSP comprised of 3 items, score range [0-11]), and RS-chest symptoms (RS-CSY comprised of 3 items, score range [0-12]). The total score was derived by summing the 11-item scores and ranged between 0-40 with higher values indicating severe respiratory symptoms. Scores for the week were summarized for each COPD participant where they completed the questionnaire on three or more days during the study week</description>
+          <population>All Enrolled Population.Only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="72"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 1, n=72</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="72"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.5" lower_limit="11.5" upper_limit="22.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 5, n=66</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="66"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17.8" lower_limit="12.0" upper_limit="23.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=60</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="60"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17.1" lower_limit="11.7" upper_limit="25.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=56</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="56"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15.5" lower_limit="12.4" upper_limit="23.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=52</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="52"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15.8" lower_limit="11.9" upper_limit="23.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=43</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="43"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16.3" lower_limit="11.5" upper_limit="23.0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=41</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="41"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15.3" lower_limit="10.3" upper_limit="21.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Exacerbations of Chronic Pulmonary Disease Tool (EXACT) Event Rate-COPD Cohort Only</title>
+        <description>EXACT is a 14-item diary that measures respiratory symptoms and function. The total score for EXACT ranges from 0-100, higher scores indicate more severe symptoms. EXACT events are considered worsening of symptom scores above the individual's Baseline value over multiple consecutive days.</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Exacerbations of Chronic Pulmonary Disease Tool (EXACT) Event Rate-COPD Cohort Only</title>
+          <description>EXACT is a 14-item diary that measures respiratory symptoms and function. The total score for EXACT ranges from 0-100, higher scores indicate more severe symptoms. EXACT events are considered worsening of symptom scores above the individual's Baseline value over multiple consecutive days.</description>
+          <population>All Enrolled Population.</population>
+          <units>Events per participant per year</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2.06"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Primary Care Visits for Asthma Conditions or COPD</title>
+        <description>The number of primary care visits (including ambulatory, home and phone) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization.</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Primary Care Visits for Asthma Conditions or COPD</title>
+          <description>The number of primary care visits (including ambulatory, home and phone) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization.</description>
+          <population>All Enrolled Population.</population>
+          <units>Visits</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Ambulatory</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="23"/>
+                    <measurement group_id="O2" value="79"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Home</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Phone</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="4"/>
+                    <measurement group_id="O2" value="17"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Secondary Care Visits for Asthma Conditions or COPD</title>
+        <description>The number of secondary care visits (that is, inpatient hospitalization and emergency department [ED]) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Secondary Care Visits for Asthma Conditions or COPD</title>
+          <description>The number of secondary care visits (that is, inpatient hospitalization and emergency department [ED]) for asthma conditions or COPD were summarized using data from EHR-based healthcare utilization</description>
+          <population>All Enrolled Population</population>
+          <units>Visits</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Inpatient hospitalization</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ED visits</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of All Primary Care Visits</title>
+        <description>The number of all primary care visits (including ambulatory, home and phone) were summarized using data from EHR-based healthcare utilization</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of All Primary Care Visits</title>
+          <description>The number of all primary care visits (including ambulatory, home and phone) were summarized using data from EHR-based healthcare utilization</description>
+          <population>All Enrolled Population</population>
+          <units>Visits</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Ambulatory</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="426"/>
+                    <measurement group_id="O2" value="598"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Home</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7"/>
+                    <measurement group_id="O2" value="55"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Phone</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="87"/>
+                    <measurement group_id="O2" value="116"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of All Secondary Care Visits</title>
+        <description>The number of all secondary care visits (that is, inpatient hospitalization and ED) were summarized using data from EHR-based healthcare utilization</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of All Secondary Care Visits</title>
+          <description>The number of all secondary care visits (that is, inpatient hospitalization and ED) were summarized using data from EHR-based healthcare utilization</description>
+          <population>All Enrolled Population</population>
+          <units>Visits</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Inpatient hospitalization</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ED visits</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants With New Prescriptions</title>
+        <description>New treatments that were prescribed for respiratory-related conditions (Short-acting beta-agonists [SABA], Inhaled corticosteroid (ICS)/long-acting beta-agonist [LABA] combinations, Oral corticosteroids [OCS], Leukotriene modifiers [LEUK], ICS, Long-acting muscarinic antagonists [LAMA], SABA/short-acting muscarinic antagonist [SAMA] combinations, Anti-cholinergics [a-CHOL], LABA/LAMA, ICS/LABA/LAMA, Phosphodiesterase type 4 inhibitors [PDE4], Anti-immunoglobulin E [a-IgE], LABA, and Interleukin-5 inhibitors [IL-5]) were summarized using data from EHR-based healthcare utilization. Some participants may have received prescriptions in more than one medication category.</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With New Prescriptions</title>
+          <description>New treatments that were prescribed for respiratory-related conditions (Short-acting beta-agonists [SABA], Inhaled corticosteroid (ICS)/long-acting beta-agonist [LABA] combinations, Oral corticosteroids [OCS], Leukotriene modifiers [LEUK], ICS, Long-acting muscarinic antagonists [LAMA], SABA/short-acting muscarinic antagonist [SAMA] combinations, Anti-cholinergics [a-CHOL], LABA/LAMA, ICS/LABA/LAMA, Phosphodiesterase type 4 inhibitors [PDE4], Anti-immunoglobulin E [a-IgE], LABA, and Interleukin-5 inhibitors [IL-5]) were summarized using data from EHR-based healthcare utilization. Some participants may have received prescriptions in more than one medication category.</description>
+          <population>All Enrolled Population</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>SABA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85"/>
+                    <measurement group_id="O2" value="85"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ICS/LABA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59"/>
+                    <measurement group_id="O2" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>OCS</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="33"/>
+                    <measurement group_id="O2" value="52"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>LEUK</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="37"/>
+                    <measurement group_id="O2" value="14"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ICS</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>LAMA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>SABA/SAMA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="9"/>
+                    <measurement group_id="O2" value="22"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>a-CHOL</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>LABA/LAMA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>ICS/LABA/LAMA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>PDE4</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>a-IgE</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>LABA</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>IL-5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Days in Hospital for Asthma and COPD</title>
+        <description>The number of days for which the participant was hospitalized for asthma and COPD was summarized using data from EHR-based healthcare utilization</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Days in Hospital for Asthma and COPD</title>
+          <description>The number of days for which the participant was hospitalized for asthma and COPD was summarized using data from EHR-based healthcare utilization</description>
+          <population>All Enrolled Population</population>
+          <units>Days</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants Who Received Short-acting Beta-agonist Therapy</title>
+        <description>Participants who received SABA were summarized using data from EHR-based healthcare utilization.</description>
+        <time_frame>Up to 6 months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Who Received Short-acting Beta-agonist Therapy</title>
+          <description>Participants who received SABA were summarized using data from EHR-based healthcare utilization.</description>
+          <population>All Enrolled Population</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="85"/>
+                    <measurement group_id="O2" value="85"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Change From Baseline in COPD Assessment Test (CAT) Score-COPD Cohort Only</title>
+        <description>The CAT is an 8 item questionnaire (cough, sputum, chest tightness, breathlessness, going up hills/stairs, activity limitation at home, confidence leaving the home, and sleep and energy) that measures health status of participants with COPD. Participants completed each question by rating their experience on a 6 point scale ranging from 0 (maximum impairment) to 5 (no impairment). Total score was calculated by summing the non-missing scores on the eight items and ranged from 0-40. Higher scores indicated greater disease impact. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+        <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population. A total of 92 participants were included in the analysis; however, only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change From Baseline in COPD Assessment Test (CAT) Score-COPD Cohort Only</title>
+          <description>The CAT is an 8 item questionnaire (cough, sputum, chest tightness, breathlessness, going up hills/stairs, activity limitation at home, confidence leaving the home, and sleep and energy) that measures health status of participants with COPD. Participants completed each question by rating their experience on a 6 point scale ranging from 0 (maximum impairment) to 5 (no impairment). Total score was calculated by summing the non-missing scores on the eight items and ranged from 0-40. Higher scores indicated greater disease impact. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+          <population>All Enrolled Population. A total of 92 participants were included in the analysis; however, only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="92"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 5, n=71</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="71"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-4" upper_limit="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=67</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="67"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-3" upper_limit="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=60</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="60"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1" lower_limit="-3" upper_limit="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=56</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="56"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.5" lower_limit="-3" upper_limit="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=50</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="50"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1.5" lower_limit="-2" upper_limit="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=48</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="48"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-3" upper_limit="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Change From Baseline in Asthma Control Test (ACT) Score-asthma Cohort Only</title>
+        <description>The ACT is a validated self-administered questionnaire utilizing 5 questions to assess asthma control on a 5-point categorical scale (1 to 5). Total score was calculated as the sum of scores from 5 questions and ranged from 5 to 25. Higher scores indicated better control of asthma. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+        <time_frame>Baseline (Week 1) and Weeks 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population. A total of 95 participants were included in the analysis; however, only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change From Baseline in Asthma Control Test (ACT) Score-asthma Cohort Only</title>
+          <description>The ACT is a validated self-administered questionnaire utilizing 5 questions to assess asthma control on a 5-point categorical scale (1 to 5). Total score was calculated as the sum of scores from 5 questions and ranged from 5 to 25. Higher scores indicated better control of asthma. Week 1 was considered as Baseline. Change from Baseline was calculated as value at the specified time point minus Baseline value.</description>
+          <population>All Enrolled Population. A total of 95 participants were included in the analysis; however, only those participants with data available at the specified time points were analyzed (indicated by n=X in category titles).</population>
+          <units>Scores on a scale</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="95"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 5, n=72</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="72"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-1" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9, n=54</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="54"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-2" upper_limit="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13, n=62</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="62"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-1" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17, n=59</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="59"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-2" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21, n=47</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="47"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-1" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25, n=46</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="46"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="-1" upper_limit="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Median Rescue Medication Use</title>
+        <description>The use of rescue medication by participants were monitored by attaching a sensor to rescue inhaler.</description>
+        <time_frame>Weeks 1, 5, 9, 13, 17, 21, 25</time_frame>
+        <population>All Enrolled Population. Only those participants with rescue medication sensors were analyzed.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Median Rescue Medication Use</title>
+          <description>The use of rescue medication by participants were monitored by attaching a sensor to rescue inhaler.</description>
+          <population>All Enrolled Population. Only those participants with rescue medication sensors were analyzed.</population>
+          <units>Occasions per day</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="69"/>
+                <count group_id="O2" value="76"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.3" lower_limit="0.1" upper_limit="1.3"/>
+                    <measurement group_id="O2" value="0.6" lower_limit="0.1" upper_limit="1.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.2" lower_limit="0" upper_limit="1"/>
+                    <measurement group_id="O2" value="0.4" lower_limit="0.1" upper_limit="1.3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1" lower_limit="0" upper_limit="0.6"/>
+                    <measurement group_id="O2" value="0.3" lower_limit="0" upper_limit="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.1" lower_limit="0" upper_limit="0.9"/>
+                    <measurement group_id="O2" value="0.3" lower_limit="0" upper_limit="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0" upper_limit="0.5"/>
+                    <measurement group_id="O2" value="0.3" lower_limit="0" upper_limit="0.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0" upper_limit="0.3"/>
+                    <measurement group_id="O2" value="0.3" lower_limit="0" upper_limit="0.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0" lower_limit="0" upper_limit="0.3"/>
+                    <measurement group_id="O2" value="0.3" lower_limit="0" upper_limit="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage of Participants With Maintenance Compliance</title>
+        <description>The use of maintenance therapy by participants were monitored by attaching a sensor to maintenance inhaler.</description>
+        <time_frame>Weeks 1, 5, 9, 13, 17, 21 and 25</time_frame>
+        <population>All Enrolled Population. Only those participants with maintenance medication sensors were analyzed.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage of Participants With Maintenance Compliance</title>
+          <description>The use of maintenance therapy by participants were monitored by attaching a sensor to maintenance inhaler.</description>
+          <population>All Enrolled Population. Only those participants with maintenance medication sensors were analyzed.</population>
+          <units>Percentage of Participants</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="71"/>
+                <count group_id="O2" value="59"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Week 1</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="68"/>
+                    <measurement group_id="O2" value="64"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 5</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="59"/>
+                    <measurement group_id="O2" value="56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 9</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="54"/>
+                    <measurement group_id="O2" value="54"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 13</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="52"/>
+                    <measurement group_id="O2" value="50"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 17</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="48"/>
+                    <measurement group_id="O2" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 21</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="48"/>
+                    <measurement group_id="O2" value="49"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Week 25</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="46"/>
+                    <measurement group_id="O2" value="48"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Participants Who Completed Exit Interview</title>
+        <description>An exit interview were conducted to obtain relevant feedback from participants regarding the study, study devices and electronic PRO platform. Exit surveys were triggered via the study-supplied iPad to each participant when they completed (or withdrew from) the study.</description>
+        <time_frame>Up to 6 Months</time_frame>
+        <population>All Enrolled Population</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Asthma Cohort</title>
+            <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+          <group group_id="O2">
+            <title>COPD Cohort</title>
+            <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants Who Completed Exit Interview</title>
+          <description>An exit interview were conducted to obtain relevant feedback from participants regarding the study, study devices and electronic PRO platform. Exit surveys were triggered via the study-supplied iPad to each participant when they completed (or withdrew from) the study.</description>
+          <population>All Enrolled Population</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="96"/>
+                <count group_id="O2" value="98"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="96"/>
+                    <measurement group_id="O2" value="80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Up to 6 months</time_frame>
+      <desc>Adverse events (AEs) and serious adverse events (SAEs) were observed in All Enrolled Population.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Asthma Cohort</title>
+          <description>Asthma participants were identified via EHR database analyses, study provider referral (asthma diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+        <group group_id="E2">
+          <title>COPD Cohort</title>
+          <description>Participants with chronic obstructive pulmonary disease (COPD) were identified via EHR database analyses, study provider referral (COPD diagnoses with and without specialist confirmation) or recruited from sites of usual care. Participants attended two visits at the Baseline (Visit 1) and approximately six months later (Visit 2). At Visit 2, the participants returned the study devices and attended exit interview to provide relevant feedback.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="96"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="98"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="96"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="98"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="96"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="98"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>GSK agreements may vary with individual investigators, but will not prohibit any investigator from publishing. GSK supports the publication of results from all centers of a multi-center trial but requests that reports based on single-site data not precede the primary publication of the entire clinical trial.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>GSK Response Center</name_or_title>
+      <organization>GlaxoSmithKline</organization>
+      <phone>866-435-7343</phone>
+      <email>GSKClinicalSupportHD@gsk.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

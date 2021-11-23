@@ -1,0 +1,331 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04368481</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KCH18-197</org_study_id>
+    <nct_id>NCT04368481</nct_id>
+  </id_info>
+  <brief_title>MIDI (MR Imaging Abnormality Deep Learning Identification)</brief_title>
+  <acronym>MIDI</acronym>
+  <official_title>Deep Learning for Identification of Abnormalities on Head MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>King's College Hospital NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study involves the development and testing of an AI tool that can identify abnormalities&#xD;
+      using patient head scans carried out for routine clinical care and research volunteer scans.&#xD;
+      A deep learning algorithm will be developed using a dataset of retrospective and prospective&#xD;
+      MRI head scans, to train, validate and test convolutional networks using software developed&#xD;
+      at the Department of Biomedical Engineering, King's College London. The reference standard&#xD;
+      will be consultant radiologist reports of the MRI head scans.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      An automated strategy for identifying abnormalities on head scans could address the unmet&#xD;
+      clinical need of faster abnormality identification times, potentially allowing for early&#xD;
+      intervention to improve short and long-term clinical outcomes. Radiologist shortages and&#xD;
+      increased demand for MRI scans mean delays in reporting, particularly in the outpatient&#xD;
+      setting.&#xD;
+&#xD;
+      In addition, there is a wide variation in how incidental findings (IFs) discovered in&#xD;
+      'healthy volunteers' are managed. Routine reporting of 'healthy volunteer' scans by a&#xD;
+      radiologist is a challenging logistic and financial burden. It would be valuable to devise&#xD;
+      automated strategies to ensure that IFs can be reliably and accurately identified potentially&#xD;
+      removing 90% of scans requiring routine radiological review, thereby increasing the&#xD;
+      feasibility of implementing a routine reporting strategy.&#xD;
+&#xD;
+      Deep learning is a new technique in computer science that automatically learns hierarchies of&#xD;
+      relevant features directly from the raw inputs (such as MRI or CT) using multi-layered neural&#xD;
+      networks. A deep learning algorithm will be trained on a large database of head MRI scans to&#xD;
+      recognise scans with abnormalities. This algorithm will be trained to classify a subset of&#xD;
+      these scans as normal or abnormal. The technique will then be tested on an independent subset&#xD;
+      to determine its validity.&#xD;
+&#xD;
+      If the tested neural network has a high diagnostic accuracy, future research participants may&#xD;
+      benefit as currently not all institutions review their research scans for incidental&#xD;
+      findings. Similarly, in those cases where clinical scans may not be reported for weeks,&#xD;
+      patients may benefit. In both research and clinical scenarios, an algorithm would quickly&#xD;
+      identify abnormal pathology and prioritise scans for reporting.&#xD;
+&#xD;
+      In summary, the aim is to develop a deep learning abnormality detection algorithm for use in&#xD;
+      both the research and clinical setting.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2019</start_date>
+  <completion_date type="Anticipated">November 20, 2023</completion_date>
+  <primary_completion_date type="Anticipated">October 31, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and specificity of a convolutional neural network to recognise abnormalities on head MRI scans.</measure>
+    <time_frame>At end of study (5-year study)</time_frame>
+    <description>Sensitivity, specificity, positive predictive value, and negative predictive values.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity and specificity of a convolutional neural network to broadly categorise abnormalities on head MRI scans.</measure>
+    <time_frame>At end of study (5-year study)</time_frame>
+    <description>Sensitivity, specificity, positive predictive value, and negative predictive values.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">30000</enrollment>
+  <condition>Neurological Disorder</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All adult MRI head scan patients presenting at secondary and tertiary NHS centres across&#xD;
+        the UK for any indication.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All head MRI scans with compatible sequences&#xD;
+&#xD;
+          -  &gt; 18 years old&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  No corresponding radiologist report&#xD;
+&#xD;
+          -  No consent for future use of the research images held within the historic database&#xD;
+             stored at The Centre for Neuroimaging Sciences (Kings College London).&#xD;
+&#xD;
+          -  Poor image quality&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Booth</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>King's College Hospital NHS Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>MIDI Central Team</last_name>
+    <phone>+44(0)20 7848 9670</phone>
+    <email>kch-tr.midistudy@nhs.net</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Princess Royal University Hospital, King's College Hospital NHS Foundation Trust</name>
+      <address>
+        <city>Orpington</city>
+        <state>Kent</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>MIDI Research Team</last_name>
+      <phone>020 3228 3035</phone>
+      <email>kch-tr.midistudy@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Ajay Arora</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Calderdale and Huddersfield NHS Foundation Trust</name>
+      <address>
+        <city>Huddersfield</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hannah Riley</last_name>
+      <phone>01484 347165</phone>
+      <email>hannah.riley2@cht.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Georgina Turner</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CNS, Maudsley Hospital, South London and Maudsley NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>MIDI Research Team</last_name>
+      <phone>020 3228 3035</phone>
+      <email>kch-tr.midistudy@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Thomas Booth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Croydon University Hospital, Croydon Health Services NHS Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Croydon Research Team</last_name>
+      <phone>020 8401 3000</phone>
+      <phone_ext>3829/5279</phone_ext>
+      <email>ch-tr.midicroydon@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Ketul Patel</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Guy's Hospital, Guy's and St Thomas's NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>MIDI Research Team</last_name>
+      <phone>020 3228 3035</phone>
+      <email>kch-tr.midistudy@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Asif Mazumdar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>King's College Hospital, King's College Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>MIDI KCH Research Team</last_name>
+      <email>kch-tr.midistudy@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Thomas Booth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St George's Hospital, St George's University Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Naomi Priestley</last_name>
+      <phone>020 8725 3260</phone>
+      <email>naomi.priestley@stgeorges.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Andrew Mackinnon</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St Thomas' Hospital, Guy's and St Thomas's NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>MIDI Research Team</last_name>
+      <phone>020 3228 3035</phone>
+      <email>kch-tr.midistudy@nhs.net</email>
+    </contact>
+    <investigator>
+      <last_name>Asif Mazumdar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Queen's Medical Centre University Hospital, Nottingham University Hospitals NHS Foundation Trust</name>
+      <address>
+        <city>Nottingham</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>NUH MIDI Research Team</last_name>
+      <email>midi@nuh.nhs.uk</email>
+    </contact>
+    <investigator>
+      <last_name>Rob Dineen</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Carolyn Costigan</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>February 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 29, 2020</study_first_posted>
+  <last_update_submitted>July 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nervous System Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

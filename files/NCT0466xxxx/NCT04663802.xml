@@ -1,0 +1,370 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04663802</url>
+  </required_header>
+  <id_info>
+    <org_study_id>833400</org_study_id>
+    <secondary_id>1R01HL141608-01A1</secondary_id>
+    <nct_id>NCT04663802</nct_id>
+  </id_info>
+  <brief_title>Implementation of Nudges to Promote Utilization of Low Tidal Volume Ventilation (INPUT) Study</brief_title>
+  <acronym>INPUT</acronym>
+  <official_title>Implementation of Nudges to Promote Utilization of Low Tidal Volume Ventilation (INPUT) Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pennsylvania</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is a large pragmatic stepped-wedge trial of electronic health record (EHR)-based&#xD;
+      implementation strategies informed by behavioral economic principles to increase&#xD;
+      lung-protective ventilation (LPV) utilization among all mechanically ventilated (MV), adult&#xD;
+      patients. The study will compare the standard approach to managing MV across 12 study&#xD;
+      Intensive Care Units (ICUs) within University of Pennsylvania Health System (UPHS) versus&#xD;
+      interventions prompting physicians and respiratory therapists (RTs) to employ LPV settings&#xD;
+      promote LPV utilization among all MV patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study is a 5-arm, stepped-wedge cluster randomized trial of electronic health record&#xD;
+      (EHR)-based implementation strategies set in 12 community and academic ICUs in 5 hospitals of&#xD;
+      UPHS all currently using an EHR-based algorithm to identify patients with Acute Respiratory&#xD;
+      Distress Syndrome (ARDS) and prompt physicians to employ LPV will sequentially add two of&#xD;
+      three EHR-based implementation strategies to further promote LPV utilization among all MV&#xD;
+      patients. ICUs will be randomly assigned to first receive either a default order set&#xD;
+      (Strategy A) or physician-targeted accountable justification strategy (Strategy B). ICUs will&#xD;
+      be assigned to one of six wedges using computerized random-number generation, thereby&#xD;
+      determining the date on which they adopt their assigned EHR-based strategy. The first wedge&#xD;
+      will begin in the fourth month of the trial phase, so that all hospitals will contribute a&#xD;
+      minimum of 3 months of data prior to having adopted the implementation strategy. Six months&#xD;
+      after adoption, ICUs will add on an RT-targeted accountable justification strategy (Strategy&#xD;
+      C). By the end of the 27-month study period, all hospitals will have been utilizing two&#xD;
+      strategies in combination for at least 3 months. This design enables comparisons of outcomes&#xD;
+      before and after implementation within ICUs, as well as at a given point in time among ICUs&#xD;
+      which will have been randomly assigned to different strategies. During the two months after&#xD;
+      the implementation strategy rolls out in each ICU, researchers will perform semi-structured&#xD;
+      interviews of all physicians and RTs who staff study ICUs. After intervention period, there&#xD;
+      will be a 12 month observational period where ICUs will resume usual processes for care of&#xD;
+      mechanically ventilated patients and no study intervention will occur.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 22, 2021</start_date>
+  <completion_date type="Anticipated">May 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>fidelity to LPV</measure>
+    <time_frame>first 72 hours of mechanical ventilation, during study intervention period</time_frame>
+    <description>percentage of time that a patient is exposed to tidal volume &lt;6.5 cc/kg ideal body weight (hours)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>sustainability</measure>
+    <time_frame>first 72 hours of mechanical ventilation, during study observation period</time_frame>
+    <description>the percentage of time that a patient is exposed to tidal volume &lt;6.5 cc/kg ideal body weight (IBW) among MV patients (hours)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Total duration of exposure to tidal volume &gt;8 cc/kg and &gt;10 cc/kg IBW</measure>
+    <time_frame>from initiation to discontinuation of mechanical ventilation, average of 72 hours</time_frame>
+    <description>Total duration of exposure to tidal volume &gt;8 cc/kg and &gt;10 cc/kg IBW (hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hospital mortality</measure>
+    <time_frame>from hospital admission to hospital discharge, average of 120 hours</time_frame>
+    <description>patient mortality occurring during hospitalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ICU length of stay</measure>
+    <time_frame>from time of first eligibility to ICU discharge, average of 120 hours</time_frame>
+    <description>ICU length of stay (hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hospital length of stay</measure>
+    <time_frame>from time of first eligibility to hospital discharge, average of 264 hours</time_frame>
+    <description>hospital length of stay (hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hospital discharge disposition</measure>
+    <time_frame>through time of hospital discharge, average of 264 hours</time_frame>
+    <description>patient disposition at time of hospital discharge</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>mechanical ventilation duration</measure>
+    <time_frame>from initiation to discontinuation of mechanical ventilation, average of 72 hours</time_frame>
+    <description>mechanical ventilation duration (hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>initial tidal volume administered</measure>
+    <time_frame>at time of mechanical ventilation initiation, average of 72 hours</time_frame>
+    <description>initial tidal volume (cc/kg)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of time exposed to plateau pressure (Pplat)&gt;30 mmHg</measure>
+    <time_frame>from initiation to discontinuation of mechanical ventilation, average of 72 hours</time_frame>
+    <description>Duration of time exposed to plateau pressure (Pplat)&gt;30 mmHg (hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>total cumulative doses of sedative medications during and after mechanical ventilation</measure>
+    <time_frame>from initiation of mechanical ventilation to hospital discharge, average of 264 hours</time_frame>
+    <description>Total cumulative doses of sedative medications during and after mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total number of days with acute brain dysfunction during hospitalization</measure>
+    <time_frame>from initiation of mechanical ventilation to hospital discharge, average of 264 hours</time_frame>
+    <description>Total number of days with acute brain dysfunction during hospitalization, during and after mechanical ventilation</description>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Anticipated">15100</enrollment>
+  <condition>ARDS</condition>
+  <condition>Critical Illness</condition>
+  <condition>Acute Respiratory Distress Syndrome</condition>
+  <condition>Acute Respiratory Failure</condition>
+  <arm_group>
+    <arm_group_label>Default order set</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will have the default order set implementation strategy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Physician-targeted accountable justification</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will have the physician-targeted accountable justification implementation strategy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Default order set + physician-targeted accountable justification</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will have the default order set and physician-targeted accountable justification</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>This arm will have no interventions and standard of care practices will be in place.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Physician-targeted accountable justification + RT-targeted accountable justification</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>This arm will have the default order set and respiratory therapist-targeted accountable justification</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>RT-targeted accountable justification</intervention_name>
+    <description>This strategy will require that the RT enter an explicit rationale in the EHR if he/she enters a tidal volume value greater than 6 cc/kg into the flowsheet, similar to the physician-targeted accountable justification strategy.</description>
+    <arm_group_label>Physician-targeted accountable justification + RT-targeted accountable justification</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Default order set</intervention_name>
+    <description>With the default order set strategy, some mechanical ventilation order settings will be pre-populated to be consistent with LPV, including the mode and tidal volume, automatically calculated as 6 cc/kg of the patient's ideal body weight (as determined by each patient's height and gender, which are entered into the EHR on admission). The physician will have the option to opt out of any of the specified LPV settings and select other values.</description>
+    <arm_group_label>Default order set</arm_group_label>
+    <arm_group_label>Default order set + physician-targeted accountable justification</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>physician-targeted accountable justification</intervention_name>
+    <description>When a physician enters a mechanical ventilation order for a tidal volume that is greater than 6 cc/kg ideal body weight, an alert will appear requiring the physician to enter a reason for choosing a setting inconsistent with LPV. Clinicians will be instructed to provide a reason for deviation from LPV settings and that their response will be maintained in the medical record. The physician will not be able to sign the mechanical ventilation order set until after a response is entered.</description>
+    <arm_group_label>Default order set + physician-targeted accountable justification</arm_group_label>
+    <arm_group_label>Physician-targeted accountable justification</arm_group_label>
+    <arm_group_label>Physician-targeted accountable justification + RT-targeted accountable justification</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard of Care</intervention_name>
+    <description>ICUs and clinicians will deliver standard of care to patients with no intervention</description>
+    <arm_group_label>Standard of Care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Aged 18 and over; AND&#xD;
+&#xD;
+          2. Admission to 1 of the 12 participating ICUs; AND&#xD;
+&#xD;
+          3. Undergoing mechanical ventilation&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. The episode of MV lasts less than 12 hours, because we believe that the evidence-based&#xD;
+             practice may not apply to these patients nor alter their outcomes.&#xD;
+&#xD;
+          2. The patient is on minimal settings for the entirety of MV, defined as a spontaneous&#xD;
+             mode (e.g., pressure support ventilation) with pressure support &lt;10 Centimeters of&#xD;
+             Water Column (cmH2O), AND positive end-expiratory pressure (PEEP) &lt;8 cmH20, AND&#xD;
+             fraction of inspired oxygen (FiO2) &lt;50%, because the clinical significance of&#xD;
+             spontaneous tidal volumes is unknown and low tidal volumes may not be beneficial or&#xD;
+             desirable.&#xD;
+&#xD;
+          3. Goals of care are documented as comfort measures only (as identified through their&#xD;
+             &quot;code status&quot; field in the EHR) during the first 72 hours during episode of MV,&#xD;
+             because mechanical ventilation is managed differently during care focused exclusively&#xD;
+             on comfort and low tidal volume ventilation may not be appropriate, nor would it&#xD;
+             likely influence clinical outcomes.&#xD;
+&#xD;
+          4. There is no height documented in the EHR at the time of initiation of MV, because we&#xD;
+             will be unable to estimate ideal body weight, a necessary parameter to calculate the&#xD;
+             primary outcome, and because they will not receive the interventions.&#xD;
+&#xD;
+          5. The height documented is less than 4 feet, because the formula for ideal body weight&#xD;
+             does not hold true below this height.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Meeta Kerlin, MD, MSCE</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Teresa Tran, MPH</last_name>
+    <phone>215-898-2525</phone>
+    <email>teresa.tran@pennmedicine.upenn.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Princeton Medical Center</name>
+      <address>
+        <city>Plainsboro</city>
+        <state>New Jersey</state>
+        <zip>08536</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teresa Tran, MPH</last_name>
+      <phone>215-898-2525</phone>
+      <email>teresa.tran@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital of the University of Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teresa Tran, MPH</last_name>
+      <phone>215-898-2525</phone>
+      <email>teresa.tran@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Penn Presbyterian Medical Center</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teresa Tran, MP</last_name>
+      <phone>215-898-2525</phone>
+      <email>teresa.tran@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Pennsylvania Hospital</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teresa Tran, MPH</last_name>
+      <phone>215-898-2525</phone>
+      <email>teresa.tran@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Chester County Hospital</name>
+      <address>
+        <city>West Chester</city>
+        <state>Pennsylvania</state>
+        <zip>19380</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teresa Tran, MPH</last_name>
+      <phone>215-898-2525</phone>
+      <email>teresa.tran@pennmedicine.upenn.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>June 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 11, 2020</study_first_posted>
+  <last_update_submitted>April 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>mechanical ventilation</keyword>
+  <keyword>lung-protective ventilation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Distress Syndrome</mesh_term>
+    <mesh_term>Respiratory Distress Syndrome, Newborn</mesh_term>
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Acute Lung Injury</mesh_term>
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie published results will be made available to other researchers, after deidentification.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>Data will be available beginning 9 months after publication and up to 36 months following publication. After 36 months the data will be available in our University's data warehouse but without support, except for deposited metadata.</ipd_time_frame>
+    <ipd_access_criteria>Proposals for data use will be reviewed by Principal Investigator and independent review boards (such as Institutional Review Board and Data Safety and Monitoring Board). Approved data requestors will need to sign data use agreements to access and use data</ipd_access_criteria>
+    <ipd_url>https://www.pair.upenn.edu</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

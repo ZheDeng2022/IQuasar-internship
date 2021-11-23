@@ -1,0 +1,164 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04946422</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2020142</org_study_id>
+    <nct_id>NCT04946422</nct_id>
+  </id_info>
+  <brief_title>Chinese Sports Injury Treatment Situation and Development Trend of Big Data Research</brief_title>
+  <official_title>Big Data Research on the Current Situation and Development Trend of Sports Injury Treatment in China</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project is planned to be based on the medical insurance database collected by the China&#xD;
+      Health Insurance Research Association (CHIRA). As a national academic research institution,&#xD;
+      CHIRA collects medical insurance patient data, covering more than 20 provinces across the&#xD;
+      country. The data of more than 60 municipalities, provincial capitals, and prefecture-level&#xD;
+      cities are unique and authoritative in my country. Based on the CHIRA database, big data&#xD;
+      analysis for Chinese sports medicine patients, starting from the names of medical&#xD;
+      institutions, admission/discharge diagnosis and classification of medical items, etc., to&#xD;
+      investigate the development trend of arthroscopic surgery in China and understand my&#xD;
+      country's arthroscopic diseases The distribution characteristics and changing trends of the&#xD;
+      quantity.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Sports medicine is a multidisciplinary comprehensive discipline, and is positioned as a&#xD;
+      secondary discipline in the country. It is a clinical application-based discipline that&#xD;
+      combines medicine and sports to solve sports-related diseases from a medical perspective. The&#xD;
+      treatment range is centered on the joints. The main treatment method is arthroscopic&#xD;
+      technology to solve sports-related injuries. Together with postoperative rehabilitation, the&#xD;
+      goal is to achieve the greatest recovery of motor function. This project is planned to be&#xD;
+      based on the medical insurance database collected by the China Health Insurance Research&#xD;
+      Association (CHIRA). As a national academic research institution, CHIRA collects medical&#xD;
+      insurance patient data, covering more than 20 provinces across the country. The data of more&#xD;
+      than 60 municipalities, provincial capitals, and prefecture-level cities are unique and&#xD;
+      authoritative in my country. Based on the CHIRA database, big data analysis for Chinese&#xD;
+      sports medicine patients, starting from the names of medical institutions,&#xD;
+      admission/discharge diagnosis and classification of medical items, etc., to investigate the&#xD;
+      development trend of arthroscopic surgery in China and understand my country's arthroscopic&#xD;
+      diseases The distribution characteristics and changing trends of the quantity.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 2013</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Use of arthroscopy</measure>
+    <time_frame>2013-2017</time_frame>
+    <description>Calculate the use rate of arthroscopy for various types of sports injuries (arthroscope use rate = number of patients with various types of sports injuries who use arthroscopy/total number of visits for this type of injury) , Get a list of the usage rate of arthroscopy for various sports injuries.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Sports Injury</condition>
+  <arm_group>
+    <arm_group_label>sports injury-related injuries</arm_group_label>
+    <description>Patients who are discharged from the hospital and diagnosed in accordance with sports injury-related injuries, and those whose service item names in the detailed database contain the keyword &quot;arthroscope&quot;. Any one of the above will be included in this topic.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Arthroscopy</intervention_name>
+    <description>Discharge diagnosis of patients with sports injury-related injuries</description>
+    <arm_group_label>sports injury-related injuries</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Sports trauma patients in the Chinese insured population&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Discharge diagnosis of patients with sports injury-related injuries (ICD codes are&#xD;
+             M12, M13, M15-M19, M20-M25, M65-67, M70, M71, M75, M76, M94 and S33, S40, S43, S46,&#xD;
+             S51, S53, S63, S8, S73, S93)&#xD;
+&#xD;
+          2. Patients whose service item name in the detailed database contains the keyword&#xD;
+             &quot;arthroscope&quot;. Any one of the above will be included in this topic.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. After the data is cleaned, it does not meet the requirements of sports injury&#xD;
+             patients;&#xD;
+&#xD;
+          2. The data content contains obvious defects and cannot be backfilled.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>jiakuo yu</last_name>
+    <role>Study Chair</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>jiakuo yu</last_name>
+    <email>yujiakuo@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>jiakuo yu</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 25, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 25, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 30, 2021</study_first_posted>
+  <last_update_submitted>July 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Wounds and Injuries</mesh_term>
+    <mesh_term>Athletic Injuries</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

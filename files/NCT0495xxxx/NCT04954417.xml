@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04954417</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2021179</org_study_id>
+    <nct_id>NCT04954417</nct_id>
+  </id_info>
+  <brief_title>A Study on Vertebral Bone Strength by Micro-CT-Like Image</brief_title>
+  <official_title>A Study on Vertebral Bone Strength by Micro-CT-Like Image: An Approach Based on Conditional Generative Adversarial Nets</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, we use conditional generation adversarial network to enhance the resolution of&#xD;
+      MSCT images and obtain micro-CT-like images. Based on this, we measure the bone structure&#xD;
+      indexes of micro-CT-like images and analyzed the correlation between bone structure and&#xD;
+      bio-mechanical indexes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this study, we expect to collect 10 sets of vertebrae (between T6 and L5) from 10&#xD;
+      formalin-fixed human cadavers. The study protocol was reviewed and approved by the local&#xD;
+      Institutional Review Boards.The collected specimens subject to normalized Micro-CT and MSCT&#xD;
+      image scanning, image reconstruction using standard algorithms, and bone structure&#xD;
+      observation using bone algorithms to obtain high-quality, standardized axial images. We will&#xD;
+      use a conditional generation adversarial network-based image mapping technique to train the&#xD;
+      mapping model between MSCT images and Micro-CT images, find the correspondence between the&#xD;
+      image information contained in each of MSCT and Micro-CT, and finally obtain high-resolution&#xD;
+      micro-CT-like images. After obtaining the Micro-CT-like images of the samples, we will&#xD;
+      segment and annotate the images (including different structures such as vertebral body, bone&#xD;
+      cortex) and train the Teacher-Student &amp; U-Net++ deep learning architecture to achieve&#xD;
+      accurate segmentation of vertebral body regions, and obtain cancellous bone regions of&#xD;
+      interest. Based on this, we will analyze the bone structure characteristics of each spatial&#xD;
+      region in the images, including the thickness, spacing, orientation and distribution pattern&#xD;
+      of bone trabeculae and other indicators. Ultimately, we will cut a standardized cubic sample&#xD;
+      from the vertebral cancellous bone , obtain the bio-mechanical performance index of this&#xD;
+      cancellous bone sample by mechanical experiments, and analyze the correlation between bone&#xD;
+      structure of Micro-CT-like images and bio-mechanical index.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 1, 2021</start_date>
+  <completion_date type="Anticipated">December 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Crossover</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Consistency or correlation</measure>
+    <time_frame>From the beginning of the experiment to 8 months</time_frame>
+    <description>Analyze the consistency or correlation between micro-CT and micro-CT-like bone structure indexes; analyze the correlation between micro-CT-like bone structure indexes and bio-mechanical indexes</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Osteoporosis</condition>
+  <arm_group>
+    <arm_group_label>MSCT image</arm_group_label>
+    <description>Scanning of the vertebral body using MSCT</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>micro-CT image</arm_group_label>
+    <description>Scanning of the vertebral body using micro-CT</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Radiological scanning</intervention_name>
+    <description>The collected specimens subject to normalized Micro-CT and MSCT image acquisition, image reconstruction using standard algorithms, and bone structure observation using bone algorithms to obtain high-quality, standardized axial images.</description>
+    <arm_group_label>MSCT image</arm_group_label>
+    <arm_group_label>micro-CT image</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Deep learning</intervention_name>
+    <description>We will use a conditional generation adversarial network-based image mapping technique to train the mapping model between MSCT images and Micro-CT images, find the correspondence between the image information contained in each of MSCT and Micro-CT, and finally obtain high-resolution micro-CT-like images.</description>
+    <arm_group_label>MSCT image</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Bio-mechanical testing</intervention_name>
+    <description>we will cut a standardized cubic sample from the vertebral cancellous bone , obtain the bio-mechanical performance index of this cancellous bone sample by mechanical experiments, and analyze the correlation between bone structure of Micro-CT-like images and bio-mechanical index.</description>
+    <arm_group_label>MSCT image</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      The vertebral specimens for this experiment were obtained from formalin-fixed human&#xD;
+      cadavers.The donors had dedicated their body for educational and research purposes to the&#xD;
+      local Institute of Anatomy prior to death, in compliance with local institutional and&#xD;
+      legislative requirements.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The specimens for this experiment were obtained from formalin-fixed human cadavers.The&#xD;
+        donors had dedicated their body for educational and research purposes to the local&#xD;
+        Institute of Anatomy prior to death, in compliance with local institutional and legislative&#xD;
+        requirements.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  We will collect human formalin-fixed vertebral specimens provided by the Department of&#xD;
+             Anatomy, Peking University School of Medicine. The expected number of enrolled&#xD;
+             specimens is approximately 100 vertebrae (between T6 and L5) .&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  The vertebrae with significant compression fractures, bone neoplasms, or other causes&#xD;
+             of significant bone destruction.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>huishu Yuan</last_name>
+    <role>Study Chair</role>
+    <affiliation>Department of Radiology Peking University Third Hospital Beijing, China,</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dan Jin</last_name>
+    <phone>+8613161525366</phone>
+    <email>jindan1418@bjmu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>010</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Huishu Yuan, Dr</last_name>
+      <email>huishuy@bjmu.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Osteoporosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

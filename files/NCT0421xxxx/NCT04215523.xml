@@ -1,0 +1,290 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04215523</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DUPLICATE-DECLARE</org_study_id>
+    <nct_id>NCT04215523</nct_id>
+  </id_info>
+  <brief_title>Replication of the DECLARE Diabetes Trial in Healthcare Claims</brief_title>
+  <official_title>Replication of the Dapagliflozin Effect on Cardiovascular Events (DECLARE)-TIMI 58 Diabetes Trial in Healthcare Claims</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Investigators are building an empirical evidence base for real world data through large-scale&#xD;
+      replication of randomized controlled trials. The investigators' goal is to understand for&#xD;
+      what types of clinical questions real world data analyses can be conducted with confidence&#xD;
+      and how to implement such studies.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE&#xD;
+      initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical&#xD;
+      School. It is intended to replicate, as closely as is possible in healthcare insurance claims&#xD;
+      data, the trial listed below/above. Although many features of the trial cannot be directly&#xD;
+      replicated in healthcare claims, key design features, including outcomes, exposures, and&#xD;
+      inclusion/exclusion criteria, were selected to proxy those features from the trial.&#xD;
+      Randomization is also not replicable in healthcare claims data but was proxied through a&#xD;
+      statistical balancing of measured covariates according to standard practice. Investigators&#xD;
+      assume that the RCT provides the reference standard treatment effect estimate and that&#xD;
+      failure to replicate RCT findings is indicative of the inadequacy of the healthcare claims&#xD;
+      data for replication for a range of possible reasons and does not provide information on the&#xD;
+      validity of the original RCT finding.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 8, 2019</start_date>
+  <completion_date type="Anticipated">September 22, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 22, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Relative hazard of composite outcome of Stroke, MI, and Mortality</measure>
+    <time_frame>Through study completion (a median of 120-140 days)</time_frame>
+    <description>Relative hazard of composite outcome of MI, stroke, and mortality - Please refer to uploaded protocol for full definition due to size limitations.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">49790</enrollment>
+  <condition>Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Dapagliflozin</arm_group_label>
+    <description>Exposure group</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>DPP-4 inhibitor</arm_group_label>
+    <description>Reference group</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Dapagliflozin</intervention_name>
+    <description>Dapagliflozin dispensing claim is exposure</description>
+    <arm_group_label>Dapagliflozin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DPP-4 inhibitor</intervention_name>
+    <description>DPP4 inhibitor dispensing claim is reference</description>
+    <arm_group_label>DPP-4 inhibitor</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This study will involve a new user, parallel group, cohort study design comparing&#xD;
+        dapagliflozin to the DPP-4 inhibitor (DPP4i) antidiabetic class. DPP4is serve as a proxy&#xD;
+        for placebo, since this class of antidiabetic drugs is not known to have an impact on the&#xD;
+        outcome of interest. The comparison against DPP4 inhibitors is the primary comparison. The&#xD;
+        patients will be required to have continuous enrollment during the baseline period of 180&#xD;
+        days before initiation of canagliflozin or a comparator drug (cohort entry date). Follow-up&#xD;
+        for the outcomes (a. 3P-MACE and b. composite of heart failure hospitalization/all-cause&#xD;
+        mortality), begins the day after drug initiation. As in the trial, patients are allowed to&#xD;
+        take other antidiabetic medications during the study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Please see: https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for&#xD;
+        full code and algorithm definitions.&#xD;
+&#xD;
+        Eligible cohort entry dates:&#xD;
+&#xD;
+        Market availability of dapagliflozin in the U.S. started on January 8, 2014.&#xD;
+&#xD;
+          -  For Marketscan and Medicare: Jan 8, 2014-Dec 31, 2017 (end of data availability).&#xD;
+&#xD;
+          -  For Optum: Jan 8, 2014-Mar 31, 2019 (end of data availability).&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Provision of informed consent prior to any study specific procedures (including&#xD;
+             run-in)&#xD;
+&#xD;
+          2. Female or male aged ≥ 40 years&#xD;
+&#xD;
+          3. Diagnosed with T2DM&#xD;
+&#xD;
+          4. High Risk for CV event defined as having either established CV disease and/or multiple&#xD;
+             risk factors:&#xD;
+&#xD;
+             - Established CV Disease (See Appendix E for details) OR No known cardiovascular&#xD;
+             disease AND at least two cardiovascular risk factors in addition to&#xD;
+&#xD;
+             T2DM, defined as:&#xD;
+&#xD;
+               -  Age &gt; 55 years in men and &gt; 60 in women AND presence of at least 1 of the&#xD;
+                  following additional risk factors (see Appendix E for details)&#xD;
+&#xD;
+               -  Dyslipidemia&#xD;
+&#xD;
+               -  Hypertension&#xD;
+&#xD;
+               -  Tobacco use&#xD;
+&#xD;
+          5. WOCBP must take precautions to avoid pregnancy throughout the study and for 4 weeks&#xD;
+             after intake of the last dose.&#xD;
+&#xD;
+               -  WOCBP must have a negative urine pregnancy test. WOCBP include any female who has&#xD;
+                  experienced menarche and who has not undergone successful surgical sterilization&#xD;
+                  (hysterectomy, bilateral tubal ligation or bilateral oophorectomy) or is not&#xD;
+                  postmenopausal.&#xD;
+&#xD;
+               -  WOCBP must be willing to use a medically accepted method of contraception that is&#xD;
+                  considered reliable in the judgment of the Investigator. For inclusion in the&#xD;
+                  optional genetic research, patients must fulfill the criterion specified in&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Patients should not meet any exclusion criteria at the time of randomization. If at the&#xD;
+        time of enrollment, it is known that the patient will not meet criteria after a successful&#xD;
+        run-in period he/she should not be entered into run in.&#xD;
+&#xD;
+          1. Use of the following excluded medications:&#xD;
+&#xD;
+               -  Current or recent (within 24 months) treatment with pioglitazone and/or use of&#xD;
+                  pioglitazone for 2 years or more at any time&#xD;
+&#xD;
+               -  Current or recent (within 12 months) treatment with rosiglitazone&#xD;
+&#xD;
+               -  Previous treatment with any SGLT2 inhibitor&#xD;
+&#xD;
+               -  Any patient currently receiving chronic (&gt;30 consecutive days) treatment with an&#xD;
+                  oral steroid at a dose equivalent to oral prednisolone ≥10 mg (e.g.,&#xD;
+                  betamethasone ≥1.2 mg, dexamethasone ≥1.5 mg, hydrocortisone ≥40 mg) per day&#xD;
+&#xD;
+          2. Acute cardiovascular event [e.g., acute coronary syndrome (ACS), transient ischemic&#xD;
+             attack (TIA), stroke, any revascularization, decompensated HF, sustained tachycardia&#xD;
+             &lt;8 weeks prior to randomization. Patients with acute cardiovascular events can be&#xD;
+             enrolled in the run-in period as long as randomization does not occur within 8 weeks&#xD;
+             of the event.&#xD;
+&#xD;
+          3. Systolic BP &gt;180 or diastolic BP &gt;100 mmHg at randomization&#xD;
+&#xD;
+          4. Diagnosis of Type 1 diabetes mellitus, MODY, or secondary diabetes mellitus&#xD;
+&#xD;
+          5. History of bladder cancer or history of radiation therapy to the lower abdomen or&#xD;
+             pelvis at any time&#xD;
+&#xD;
+          6. History of any other malignancy within 5 years (with the exception of successfully&#xD;
+             treated non-melanoma skin cancers)&#xD;
+&#xD;
+          7. Chronic cystitis and/or recurrent urinary tract infections (3 or more in the last&#xD;
+             year)&#xD;
+&#xD;
+          8. Any conditions that, in the opinion of the Investigator, may render the patient unable&#xD;
+             to complete the study including but not limited to cardiovascular (NYHA class IV CHF,&#xD;
+             recurrent ventricular arrhythmias) or non-cardiovascular disease (e.g., active&#xD;
+             malignancy with the exception of basal cell carcinoma, cirrhosis, chronic lung&#xD;
+             disease, severe autoimmune disease) and/or a likely fatal outcome within 5 years&#xD;
+&#xD;
+          9. Pregnant or breast-feeding patients&#xD;
+&#xD;
+         10. Involvement in the planning and/or conduct of the study or other dapagliflozin studies&#xD;
+             (applies to AZ, BMS, Hadassah and Thrombolysis in Myocardial Infarction [TIMI] or&#xD;
+             representative staff and/or staff at the study site)&#xD;
+&#xD;
+         11. Previous randomization in the present study&#xD;
+&#xD;
+         12. Active participation in another clinical study with IP and/or investigational device&#xD;
+&#xD;
+         13. Individuals at risk for poor protocol or medication compliance during run-in period&#xD;
+             (reasonable compliance defined as 80 - 120%, unless a reason for non-compliance is&#xD;
+             judged acceptable by the Investigator). If for any reason, the Investigator believes&#xD;
+             that the patient will not tolerate or be compliant with IP or study procedures, the&#xD;
+             patient should not be randomized and considered a run-in failure. Patients will be&#xD;
+             excluded during run-in and should not be randomized if the following are observed from&#xD;
+             laboratory or observation during enrollment and run-in assessments:&#xD;
+&#xD;
+         14. HbA1c ≥12% or HbA1c&lt;6.5%&#xD;
+&#xD;
+         15. AST or ALT &gt;3x ULN or Total bilirubin &gt;2.5 x ULN&#xD;
+&#xD;
+         16. CrCl &lt; 60 ml/min (based on the Cockroft-Gault equation)&#xD;
+&#xD;
+         17. Hematuria (confirmed by microscopy at Visit 1) with no explanation as judged by the&#xD;
+             Investigator up to randomization. If bladder cancer is identified, patients are not&#xD;
+             eligible to participate.&#xD;
+&#xD;
+         18. Any reason the Investigator believes the patient is not likely to be compliant with&#xD;
+             the study medication and protocol.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jessica Franklin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Womens</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2019</verification_date>
+  <study_first_submitted>December 30, 2019</study_first_submitted>
+  <study_first_submitted_qc>December 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 2, 2020</study_first_posted>
+  <last_update_submitted>December 30, 2019</last_update_submitted>
+  <last_update_submitted_qc>December 30, 2019</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>Jessica Franklin</investigator_full_name>
+    <investigator_title>Assistant Professor and Biostatician</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Dapagliflozin</mesh_term>
+    <mesh_term>Dipeptidyl-Peptidase IV Inhibitors</mesh_term>
+  </intervention_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 27, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/23/NCT04215523/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

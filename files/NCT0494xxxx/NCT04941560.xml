@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04941560</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20210621-2021-1471</org_study_id>
+    <nct_id>NCT04941560</nct_id>
+  </id_info>
+  <brief_title>Assessing the Association Between Multi-dimension Facial Characteristics and Coronary Artery Diseases</brief_title>
+  <official_title>Artificial Intelligence to Assess the Association Between Multi-dimension Facial Characteristics and Coronary Artery Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>China National Center for Cardiovascular Diseases</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>China National Center for Cardiovascular Diseases</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purposes of this study are 1) to explore the association between multi-dimension facial&#xD;
+      characteristics and the increased risk of coronary artery diseases (CAD); 2) to evaluate the&#xD;
+      diagnostic efficacy of multi-dimension appearance factors for coronary artery diseases.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Previous study demonstrated the feasibility of using deep learning to detect coronary artery&#xD;
+      disease based on facial photos. However, several limitations made the algorithm hard to be&#xD;
+      utilized in clinical practice, including low specificity and lack of external validation.&#xD;
+      Adding multi-dimension facial characteristics may further increase the algorithm effect.&#xD;
+&#xD;
+      Thus, the investigators designed a single-center, cross-sectional study to explore the&#xD;
+      association between multi-dimension facial characteristics and CAD and to evaluate the&#xD;
+      predictive efficacy of multi-dimension appearance factors for CAD. The investigators will&#xD;
+      recruit patients undergoing coronary angiography or coronary computer tomography angiography.&#xD;
+      Patients' baseline information and multi-dimension facial images will be collected. The&#xD;
+      investigators will train and validate a deep learning algorithm based on multi-dimension&#xD;
+      facial photos.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 1, 2021</start_date>
+  <completion_date type="Anticipated">October 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Area under receiver operating curve (AUC)</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>Area under receiver operating curve of algorithm assessed in test group</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity of algorithm</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>Sensitivity of algorithm assessed in test group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity of algorithm</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>Specificity of algorithm assessed in test group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive predictive value (PPV)</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>PPV of algorithm assessed in test group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value (NPV)</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>NPV of algorithm assessed in test group</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy rate</measure>
+    <time_frame>At the end of enrollment (1 mouth)</time_frame>
+    <description>Diagnostic accuracy rate of algorithm assessed in test group</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">460</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Algorithm training and test group</arm_group_label>
+    <description>Patients undergoing coronary angiography or coronary computer tomography angiography will be enrolled. Patients data will be used to training and validate the algorithm for CAD detection based on facial photos.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>No intervention</intervention_name>
+    <description>No intervention</description>
+    <arm_group_label>Algorithm training and test group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who undergo coronary angiography or coronary computer tomography angiography from&#xD;
+        both resident patients and outpatient.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Undergoing coronary angiography or coronary computer tomography angiography&#xD;
+&#xD;
+          -  Written informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Prior percutaneous coronary intervention (PCI)&#xD;
+&#xD;
+          -  Prior coronary artery bypass graft (CABG)&#xD;
+&#xD;
+          -  Screening coronary artery disease before treating other heart diseases&#xD;
+&#xD;
+          -  Without blood biochemistry outcome&#xD;
+&#xD;
+          -  With artificially facial alteration (i.e. cosmetic surgery, facial trauma or make-up)&#xD;
+&#xD;
+          -  Other situations which make patients fail to be photographed&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Zhe Zheng, M.D., PhD</last_name>
+    <phone>+86 13910698957</phone>
+    <email>zhengzhe@fuwai.com</email>
+  </overall_contact>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>June 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 28, 2021</study_first_posted>
+  <last_update_submitted>August 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 25, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Facial characteristics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

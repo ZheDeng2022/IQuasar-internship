@@ -1,0 +1,261 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04654546</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0177-20-EMC</org_study_id>
+    <nct_id>NCT04654546</nct_id>
+  </id_info>
+  <brief_title>Conversion of Ultrasound Images to CT Format Imaging Using Artificial Intelligence-based Learning</brief_title>
+  <official_title>A Prospective Study for the Conversion of Ultrasound Images to CT Format Imaging Using Artificial Intelligence-based Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>HaEmek Medical Center, Israel</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Weizmann Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>HaEmek Medical Center, Israel</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Ultrasound imaging is an imaging method that uses sound waves to characterize the&#xD;
+      structure and function of various organs in health and disease conditions. This technique is&#xD;
+      widely used in clinical day-to-day life and has many advantages, such as real-time imaging,&#xD;
+      availability for imaging at the patient's bedside, and lack of ionizing radiation. Aside from&#xD;
+      the mentioned advantages, the ultrasound test also has notable drawbacks. These include the&#xD;
+      absence of sound wave penetration through a medium containing air such as intestinal loops,&#xD;
+      dependence on operator skill, and the need for the subject's cooperation during the test.&#xD;
+      Compared to the ultrasound examination, the CT scan allows for a broader anatomical view and&#xD;
+      is not limited by physiological factors such as bones and air. on the other hand, the test&#xD;
+      requires ionizing radiation that inevitably carries a direct and indirect danger to the&#xD;
+      patient's health, and requires more financial resources.&#xD;
+&#xD;
+      Objectives of the study: Using artificial intelligence to bridge the gap between ultrasound&#xD;
+      and CT scans, and to create a uniform system that takes advantage of them. This is to allow&#xD;
+      for better spatial orientation as well as a better characterization of the anatomical&#xD;
+      structures being scanned.&#xD;
+&#xD;
+      Participants: Women and/or men over the age of 18, who performed an abdominal CT scan during&#xD;
+      the previous month for the ultrasound examination in the experiment.&#xD;
+&#xD;
+      Methods: The study is a prospective open-label research, in which both the physician and the&#xD;
+      patient are aware of the manner and purposes of the scan. Participants who meet the threshold&#xD;
+      conditions will be summoned for examination in the rooms of the Imaging Institute at Haemek&#xD;
+      medical center, during which the participants will undergo a complete ultrasound scan of the&#xD;
+      abdominal organs using a clinical ultrasound device. The ultrasound images will be visually&#xD;
+      coupled to previous CT images of the same patient at the time of the examination, using a&#xD;
+      Fusion system located in the ultrasound device mentioned above. The conjugated CT and&#xD;
+      ultrasound images will be encoded and will be sent without identifying details to the SAMPL&#xD;
+      laboratory, to be used as a learning platform for the artificial intelligence system. The&#xD;
+      images will be transferred after the subject's personal details have been encoded in an EXCEL&#xD;
+      file and saved by the principal investigator.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background and rationale of the medical experiment:&#xD;
+&#xD;
+      Ultrasound imaging is an imaging method that uses sound waves to characterize the structure&#xD;
+      and function of various organs in health and disease conditions. This technique is widely&#xD;
+      used in clinical daily life and has many benefits. The exam does not involve the use of&#xD;
+      ionizing radiation, so its use is safer than other techniques such as X-rays or CT scans&#xD;
+      (Computed Tomography). The images acquired and viewed on the ultrasound device are real-time,&#xD;
+      so changes can be identified, which in many cases affects the final diagnosis. The test is&#xD;
+      non-invasive, nor does the test require the use of a contrast agent that contains substances&#xD;
+      that may cause an allergic reaction or impair kidney function. In addition, the equipment is&#xD;
+      widely available, and can also be used bedside. Aside from the mentioned advantages, the&#xD;
+      ultrasound test also has notable drawbacks. The ultrasound waves do not penetrate well&#xD;
+      through bones or air, thus impairing test quality. In addition, the method is highly&#xD;
+      dependent on the skill of the operator, so substantial experience is required in order to&#xD;
+      produce sufficient quality information and make an accurate diagnosis. The quality of the&#xD;
+      test also depends on the cooperation of the subject during the test, such as changes in&#xD;
+      posture and deep breathing.&#xD;
+&#xD;
+      Compared to the ultrasound examination, the CT scan allows for a broader anatomical view, and&#xD;
+      is not limited by physiological factors such as bones and air. The most notable shortcomings&#xD;
+      of the CT scan include the fact that the test requires ionizing radiation that inevitably&#xD;
+      carries a direct and indirect danger to the patient's health. In addition, the test requires&#xD;
+      more resources financially and in terms of manpower, which is a limitation in its use outside&#xD;
+      the hospital or in countries with poor socio-economic status.&#xD;
+&#xD;
+      In this study, the investigators aim to bridge the gap between these two types of techniques&#xD;
+      and create a uniform system that takes advantage of both. This is done by creating CT images&#xD;
+      from ultrasound images. This process will involve the use of artificial intelligence methods,&#xD;
+      namely machine learning algorithms.&#xD;
+&#xD;
+      Machine learning in general, and deep learning in particular, have gained momentum in recent&#xD;
+      years in the field of computer vision and more recently also in the field of medical imaging.&#xD;
+      In addition, one can already see significant successes in the classification of retinal&#xD;
+      diseases, in which the sensor is a fundus camera or Optical Coherence Tomography (OCT), in&#xD;
+      the classification of classifications In MRI imaging of the breast 3, and more recently, in&#xD;
+      the classification of the severity of the disease caused by the Corona virus, using chest&#xD;
+      X-rays and ultrasound scans.&#xD;
+&#xD;
+      Machine learning includes two phases. In the first phase, the algorithm trains on tagged&#xD;
+      data, using architectures and target functions, which allow high accuracy to be achieved. In&#xD;
+      the second step, the investigators will test the algorithm for data that has not yet been&#xD;
+      observed. It should be noted that a large amount of tagged data can be very helpful in&#xD;
+      developing the algorithm, but at the same time, it may be difficult to produce tagged data&#xD;
+      and it can be a long and expensive process. Therefore, the investigators will utilize&#xD;
+      unsupervised or semi-supervised approaches.&#xD;
+&#xD;
+      Objectives of medical research: Providing sonographic and radiographic information to an&#xD;
+      artificial intelligence system for the purpose of creating CT images from ultrasound images,&#xD;
+      in order to allow better spatial orientation as well as better characterization of the&#xD;
+      scanned anatomical structures.&#xD;
+&#xD;
+      Type of study: A prospective, open label study in which both the physician and the patient&#xD;
+      are aware of the manner and purposes of the scan.&#xD;
+&#xD;
+      Experimental procedure: Participants who meet the study criteria will undergo a complete&#xD;
+      ultrasound scan of the abdominal organs using a clinical ultrasound device in the Imaging&#xD;
+      Institute at Haemek medical center. The estimated duration of the exam is 20 minutes. The&#xD;
+      ultrasound images will be visually coupled to previous CT images of the same patient at the&#xD;
+      time of the examination, using a Fusion system located in the ultrasound device mentioned&#xD;
+      above.&#xD;
+&#xD;
+      Note that if the participant came for a clinical ultrasound examination which was supposed to&#xD;
+      take place in any case, he will pass the clinical examination as usual, and then will&#xD;
+      separately go through the examination described above as part of the study.&#xD;
+&#xD;
+      The coupled CT and ultrasound images will be encoded and be sent to the SAMPL laboratory in&#xD;
+      Weizmann institute, there the images will serve as a learning platform for the artificial&#xD;
+      intelligence system. The images will be transferred only after the subject personal details&#xD;
+      have been encoded in an EXCEL file and saved by the principal investigator. Only the lead&#xD;
+      researcher and secondary researchers will be exposed to pre-encoding information, which will&#xD;
+      be stored on a dedicated computer at the lead researcher, password protected.&#xD;
+&#xD;
+      The coded information collected will be passed continuously during the research to the&#xD;
+      Weizmann Institute, in order to ensure good acquisition of information and the possibility of&#xD;
+      real-time feedback to the lead researcher in favor of acquiring better quality information&#xD;
+      that enables data analysis.&#xD;
+&#xD;
+      In any future application of the SAMPL laboratory for details about the participants, it will&#xD;
+      have to contact with the serial number when the coding key will be exclusively at the&#xD;
+      clinical site (Haemek Hospital). The SAMPL laboratory at the Weizmann Institute will not be&#xD;
+      exposed in any way and at any stage in the experiment to identifying information about the&#xD;
+      participants.&#xD;
+&#xD;
+      Monitoring of participants and reporting of medical findings&#xD;
+&#xD;
+      If unexpected medical findings that are important to the patient's health are discovered&#xD;
+      during the study, it is the responsibility of the principal investigator to transfer them to&#xD;
+      the attending physician without delay for further follow-up and treatment as necessary by&#xD;
+      standard medical care. Participants will not be followed up after the experimental scan as&#xD;
+      part of the clinical trial.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 1, 2021</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">January 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Scan of abdominal organs of participants as detailed in the study protocol</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Normalized cross-correlation between input CT images and the ultrasound-based algorithm-generated CT images</measure>
+    <time_frame>2 year</time_frame>
+    <description>The cross-correlation between the input CT images, serving as Ground Truth, and the algorithm-generated CT images will serve as a measure of similarity (Similarity score), normalized to a range [-1,1].</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy rate</measure>
+    <time_frame>2 year</time_frame>
+    <description>System accuracy rate will be evaluated by comparing the aforementioned similarity score to a success rate threshold (T).</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Anatomy</condition>
+  <arm_group>
+    <arm_group_label>Abdominal scans</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants who performed an abdominal CT exam up to one month prior to the experimental ultrasound exam.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Ultrasound abdominal scan</intervention_name>
+    <description>A complete ultrasound scan of the abdominal organs using a clinical ultrasound device in the Imaging Institute at Haemek medical center. The ultrasound images will be visually coupled to previous CT images of the same patient at the time of the examination, using a Fusion system located in the ultrasound device mentioned above.&#xD;
+The coupled CT and ultrasound images will be encoded and be sent to the SAMPL laboratory in Weizmann institute, there it will serve as a learning platform for the artificial intelligence system.</description>
+    <arm_group_label>Abdominal scans</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participants who performed an abdominal CT exam up to one month prior to the&#xD;
+             experimental ultrasound exam.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Participants who had a change in their medical condition that may have substantial&#xD;
+             effects on the imaging features of the abdominal organs.&#xD;
+&#xD;
+          -  Pregnant women&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Israel Aharony, M.D. Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Imaging institute, Haemek Medical Center, Afula, Israel.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Israel Aharony‬, M.D. Ph.D</last_name>
+    <phone>97246495635</phone>
+    <email>elik.aharony@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Emek medical center</name>
+      <address>
+        <city>Afula</city>
+        <zip>1834111</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>November 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 3, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 4, 2020</study_first_posted>
+  <last_update_submitted>September 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>HaEmek Medical Center, Israel</investigator_affiliation>
+    <investigator_full_name>Israel Aharoni</investigator_full_name>
+    <investigator_title>Radiology resident, Haemek medical center Radiology institute, Principal investigator.</investigator_title>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

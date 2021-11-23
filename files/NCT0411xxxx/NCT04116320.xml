@@ -1,0 +1,507 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04116320</url>
+  </required_header>
+  <id_info>
+    <org_study_id>21850</org_study_id>
+    <nct_id>NCT04116320</nct_id>
+  </id_info>
+  <brief_title>Focused Ultrasound Ablation and PD-1 Antibody Blockade in Advanced Solid Tumors</brief_title>
+  <acronym>AM-003</acronym>
+  <official_title>Pilot Evaluation of Focused Ultrasound Ablation and Focused Ultrasound Ablation Plus PD-1 Antibody Blockade in Advanced Solid Tumors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Craig L Slingluff, Jr</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Theraclion</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>Yes</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study evaluates whether it is safe to Focused Ultrasound Ablation (FUSA) treatments with&#xD;
+      and without PD-1 blockade and with and without imiquimod. A device called the Echopulse will&#xD;
+      be used for the FUSA therapy. Patients will be assigned to 1 of 2 cohorts depending on their&#xD;
+      disease and treatment status. In Cohort 1, patients will receive FUSA therapy while receiving&#xD;
+      PD-1 blockade therapy as part of standard clinical care treatment. In Cohort 2, patients who&#xD;
+      discontinue or are ineligible for PD-1 blockade therapy will undergo FUSA without concurrent&#xD;
+      systemic therapy, with the goal of utilizing the FUSA to boost the innate immune response.&#xD;
+      The optional secondary regimen will combine FUSA (+/- PD-1 blockade) with imiquimod, which is&#xD;
+      a topical TLR7 agonist.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 21, 2019</start_date>
+  <completion_date type="Anticipated">May 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2022</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To assess the safety and toxicity of FUSA administered alone or in combination with PD-1 antibody blockade.</measure>
+    <time_frame>30 days after the last study intervention</time_frame>
+    <description>Incidence and severity of adverse events and incidence of dose-limiting toxicities (DLTs).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To estimate the proportion of patients with increased CD8+ T cell infiltration of spot FUSA-treated metastasis.</measure>
+    <time_frame>Day 43 (cohort 1) or Day 36 (cohort 2)</time_frame>
+    <description>Proportion of participants achieving at least a 2-fold increase in CD8+ T cell infiltration per mm2.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To estimate the proportion of patients with increased CD8+ T cell infiltration, after spot FUSA, in untreated metastasis, when available.</measure>
+    <time_frame>Day 43 (cohort 1) or Day 36 (cohort 2)</time_frame>
+    <description>Proportion of participants achieving at least a 2-fold increase in CD8+ T cell infiltration per mm2</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">32</enrollment>
+  <condition>Melanoma</condition>
+  <condition>Breast Cancer</condition>
+  <condition>Merkel Cell Carcinoma</condition>
+  <condition>Squamous Cell Cancer</condition>
+  <condition>Non Small Cell Lung Cancer</condition>
+  <condition>Cervical Cancer</condition>
+  <condition>Urothelial Carcinoma</condition>
+  <condition>Ovarian Cancer</condition>
+  <condition>Hepatocellular Carcinoma</condition>
+  <condition>Small-cell Lung Cancer</condition>
+  <condition>Microsatellite Instability High</condition>
+  <condition>Gastric Cancer</condition>
+  <condition>Esophageal Cancer</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1, primary regimen (Regimen 1a)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>FUSA therapy and standard of care PD-1 blockade. FUSA therapy will be administered on day 8.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 1, secondary regimen (Regimen 2a)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>FUSA therapy will be administered on day 8.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2, primary regimen (Regimen 1b)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>FUSA therapy, standard of care PD-1 blockade, and imiquimod. FUSA therapy will be administered on day 1.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2, secondary regimen (Regimen 2b)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>FUSA therapy and imiquimod. FUSA therapy will be administered on day 1.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Echopulse</intervention_name>
+    <description>The Echopulse device delivers focused ultrasound ablation (FUSA) therapy. FUSA is a technology that delivers continuous high-intensity focused ultrasound to ablate tissue.</description>
+    <arm_group_label>Cohort 1, primary regimen (Regimen 1a)</arm_group_label>
+    <arm_group_label>Cohort 1, secondary regimen (Regimen 2a)</arm_group_label>
+    <arm_group_label>Cohort 2, primary regimen (Regimen 1b)</arm_group_label>
+    <arm_group_label>Cohort 2, secondary regimen (Regimen 2b)</arm_group_label>
+    <other_name>Focused Ultrasound Ablation</other_name>
+    <other_name>FUSA</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Imiquimod</intervention_name>
+    <description>Imiquimod is a TLR7 agonist therapy.</description>
+    <arm_group_label>Cohort 2, primary regimen (Regimen 1b)</arm_group_label>
+    <arm_group_label>Cohort 2, secondary regimen (Regimen 2b)</arm_group_label>
+    <other_name>Aldara</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Standard of Care PD-1 Therapy</intervention_name>
+    <description>PD-1 therapy FDA approved for use on a 3-week schedule will be used per standard of care.</description>
+    <arm_group_label>Cohort 1, primary regimen (Regimen 1a)</arm_group_label>
+    <arm_group_label>Cohort 2, primary regimen (Regimen 1b)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥18 years.&#xD;
+&#xD;
+          2. Advanced solid tumor with measurable disease in regional and/or distant metastases.&#xD;
+&#xD;
+          3. Subject must have failed or have contraindication to standard therapies&#xD;
+&#xD;
+          4. For Cohort 1, primary regimen (Regimen 1a): Patients with advanced solid malignancy&#xD;
+             for which PD1 or PDL1 antibody monotherapy administered on a 3-week schedule is&#xD;
+             FDA-approved for treatment, who have one or more tumor deposits that are accessible to&#xD;
+             focused ultrasound treatment, and who are eligible to receive (or to continue to&#xD;
+             receive) PD1 or PDL1 blockade therapy. Uveal melanoma patients are not eligible for&#xD;
+             Regimen 1a.&#xD;
+&#xD;
+             Note: These patients may receive the primary protocol therapy (Regimen 1a) concurrent&#xD;
+             with PD1/PDL1 antibody therapy even if they may be eligible for other effective&#xD;
+             FDA-approved therapies in the following settings:&#xD;
+&#xD;
+             Patients with stable disease after 12 weeks of PD1/PDL1 therapy per RECIST criteria&#xD;
+             may be eligible for Regimen 1a if their disease has remained stable on therapy and if&#xD;
+             their treating physician would normally continue PD1/PDL1 therapy even if they were&#xD;
+             not treated on this trial.&#xD;
+&#xD;
+          5. For Cohort 1, secondary regimen (Regimen 2a): For those patients treated with primary&#xD;
+             regimen 1a, select participants may be enrolled in a secondary regimen. This would&#xD;
+             include participants in the following scenarios:&#xD;
+&#xD;
+               -  Stable disease.&#xD;
+&#xD;
+               -  Response in lesion treated in regimen 1, but persistent disease or progression in&#xD;
+                  a separate lesion.&#xD;
+&#xD;
+               -  Initial partial response but still persistent disease at the treated lesion.&#xD;
+&#xD;
+               -  Initial response followed by progression at treated lesion or separate site,&#xD;
+                  after discontinuation of PD-1/PD-L1 antibody. If there is a response and then&#xD;
+                  progression at the site treated in Regimen 1 and the residual tumor meets&#xD;
+                  inclusion criteria, this lesion may be re-treated on the secondary regimen. For&#xD;
+                  participants who progress at a site unique from the treated lesion, they may&#xD;
+                  enroll in Regimen 2 and have this new lesion treated, as long as they meet all&#xD;
+                  inclusion criteria requirements.&#xD;
+&#xD;
+             The patient must have a treatable tumor deposit in the dermis. The lesion to be FUSA&#xD;
+             treated in regimen 2 does not need to be the same lesion targeted in regimen 1. The&#xD;
+             patient must remain eligible for PD1/PDL1 Ab therapy. The length between the FUSA&#xD;
+             treatments in primary regimen and secondary regimen should be no less than 6 weeks.&#xD;
+             Patients who experienced an unanticipated device effect in the primary regimen are not&#xD;
+             eligible for the secondary regimen.&#xD;
+&#xD;
+          6. For Cohort 2, primary regimen (Regimen 1b): The following patient subsets would be&#xD;
+             eligible for the Cohort 2 primary regimen, as long as they have failed (progressed or&#xD;
+             not tolerated) or are not eligible for all effective available approved therapies&#xD;
+             known to confer clinical benefit:&#xD;
+&#xD;
+               -  Patients with advanced solid malignancy for which PD1 or PDL1 blockade is not&#xD;
+                  FDA-approved.&#xD;
+&#xD;
+               -  Patients with metastatic uveal melanoma&#xD;
+&#xD;
+               -  Patients with advanced solid malignancies for which PD1 or PDL1 blockade is FDA&#xD;
+                  approved but who are not eligible to receive that therapy because of prior&#xD;
+                  failure, toxicity, baseline autoimmune disease, or frailty.&#xD;
+&#xD;
+               -  Patients who previously responded to PD1/PDL1 therapy but then progressed, if&#xD;
+                  there are no other systemic therapies available to them.&#xD;
+&#xD;
+             Patients who were previously undergoing PD-1 blockade therapy must not have received a&#xD;
+             dose within 4 weeks prior to FUSA treatment.&#xD;
+&#xD;
+          7. For Cohort 2, secondary regimen (Regimen 2b): For those patients treated with primary&#xD;
+             regimen 1a or 1b, select participants may be enrolled in a secondary regimen. This&#xD;
+             would include participants in the following scenarios:&#xD;
+&#xD;
+               -  Stable disease.&#xD;
+&#xD;
+               -  Response in lesion treated in regimen 1, but persistent disease or progression in&#xD;
+                  a separate lesion.&#xD;
+&#xD;
+               -  Initial partial response but still persistent disease at the treated lesion.&#xD;
+&#xD;
+               -  Initial response followed by progression at the treated lesion or a separate site&#xD;
+                  after discontinuation of PD-1/PD-L1 antibody. If there is a response and then&#xD;
+                  progression at the site treated in Regimen 1 and the residual tumor meets&#xD;
+                  inclusion criteria, this lesion may be re-treated on the secondary regimen. For&#xD;
+                  participants who progress at a site unique from the treated lesion, they may&#xD;
+                  enroll in Regimen 2 and have this new lesion treated, as long as they meet all&#xD;
+                  inclusion criteria requirements.&#xD;
+&#xD;
+             Patients enrolling to Regimen 2b must have a treatable tumor deposit in the dermis.&#xD;
+             The lesion to be FUSA treated in regimen 2 does not need to be the same lesion&#xD;
+             targeted in regimen 1. Crossover from primary regimen 1a is allowed if the patient is&#xD;
+             no longer eligible for continued PD1/PDL1 Ab therapy (e.g. due to autoimmune&#xD;
+             toxicity), and if there is no other effective systemic therapy option. The length&#xD;
+             between the FUSA treatments in regimen 1 and regimen 2 should be no less than 6 weeks.&#xD;
+             Patients who experienced an unanticipated device effect in the primary regimen are not&#xD;
+             eligible for the secondary regimen.&#xD;
+&#xD;
+          8. One or more dermal, subcutaneous or nodal metastases from an advanced solid tumor. The&#xD;
+             metastases need to be accessible for FUSA and for biopsy.&#xD;
+&#xD;
+             For FUSA:&#xD;
+&#xD;
+             The targeted lesion(s) must be visible by ultrasound imaging and meet the following&#xD;
+             criteria. Brain lesions may not be targeted for treatment.&#xD;
+&#xD;
+               -  Approximately 1 cm (or more) diameter of treatable tumor volume for lesions to be&#xD;
+                  treated with FUSA.&#xD;
+&#xD;
+               -  The target treatment area needs to be contained within a region at least 5 mm&#xD;
+                  from the skin surface and less than or equal to 23 mm from the skin surface.&#xD;
+&#xD;
+               -  The target treatment area must be at a safe distance from all critical&#xD;
+                  structures, including but not limited to ribs or other bony structures, vital&#xD;
+                  organs, named blood vessels or nerves.&#xD;
+&#xD;
+               -  The critical structures, with the exception of the skin, will not be in the&#xD;
+                  pre-focal ultrasound path.&#xD;
+&#xD;
+               -  The anterior-posterior dimension of the treatment area by US should be no less&#xD;
+                  than 9mm.&#xD;
+&#xD;
+             For Biopsies:&#xD;
+&#xD;
+             Biopsies may be completed with or without image guidance.&#xD;
+&#xD;
+          9. Lesions that have been selected for focused ultrasound or lesions that have been&#xD;
+             selected for biopsies as untreated controls may have been previously radiated&#xD;
+             provided:&#xD;
+&#xD;
+               -  The tumor site that was previously radiated has progressed.&#xD;
+&#xD;
+               -  A baseline biopsy of the tumor site is obtained following progression and prior&#xD;
+                  to study entry.&#xD;
+&#xD;
+         10. ECOG performance status 0-2.&#xD;
+&#xD;
+         11. Subjects with brain metastases may participate if all of the following are true:&#xD;
+&#xD;
+               -  There has been no evident growth of any brain metastasis since the most recent&#xD;
+                  treatment&#xD;
+&#xD;
+               -  No brain metastasis is &gt; 2 cm in diameter at the time of registration.&#xD;
+&#xD;
+               -  Neurologic symptoms have returned to baseline,&#xD;
+&#xD;
+               -  There is no evidence of new or enlarging brain metastases,&#xD;
+&#xD;
+               -  Subjects are not using steroids for at least 7 days prior to registration.&#xD;
+                  Regardless of dose, however, subjects who are on a steroid taper for management&#xD;
+                  of brain metastases are not eligible until 7 days after completion of that&#xD;
+                  steroid taper.&#xD;
+&#xD;
+               -  Brain metastases will not be targeted for FUSA treatment.&#xD;
+&#xD;
+         12. Adequate organ function&#xD;
+&#xD;
+         13. Ability and willingness to give informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        A subject will be excluded from participating in the trial if the subject:&#xD;
+&#xD;
+          1. Has received the following medications or treatments at any time within 3 weeks of&#xD;
+             study day 1:&#xD;
+&#xD;
+               1. Immune therapies including:&#xD;
+&#xD;
+                    -  interferon (e.g. Intron-A®),&#xD;
+&#xD;
+                    -  checkpoint blockade therapies other than anti-PD-1/PD-L1 antibodies,&#xD;
+&#xD;
+                    -  antibodies to costimulatory molecules (e.g. CD27, CD137),&#xD;
+&#xD;
+                    -  small molecule immune therapies (e.g. IDO1 inhibitor)&#xD;
+&#xD;
+               2. Cytotoxic chemotherapy for cancer&#xD;
+&#xD;
+          2. Has received the following medications or treatments at any time within 4 weeks of&#xD;
+             study day 1:&#xD;
+&#xD;
+               1. Radiation therapy (Note: Stereotactic radiotherapy, such as gamma knife, can be&#xD;
+                  used ≥ 1 week prior to registration)&#xD;
+&#xD;
+               2. Allergy desensitization injections&#xD;
+&#xD;
+               3. High doses of systemic corticosteroids, with the following qualifications and&#xD;
+                  exceptions:&#xD;
+&#xD;
+                    -  Daily doses of 10 mg or less prednisone (or equivalent) per day administered&#xD;
+                       parenterally or orally are allowed in patients with normal adrenal and&#xD;
+                       pituitary function.&#xD;
+&#xD;
+                    -  In patients with adrenal or pituitary insufficiency replacement steroid&#xD;
+                       doses are allowed.&#xD;
+&#xD;
+                    -  Inhaled steroids (e.g.: Advair®, Flovent®, Azmacort®) are permitted at low&#xD;
+                       doses (less than 500 mcg fluticasone per day, or equivalent)&#xD;
+&#xD;
+                    -  Topical and nasal corticosteroids are acceptable.&#xD;
+&#xD;
+               4. Growth factors (e.g. Procrit®, Aranesp®, Neulasta®)&#xD;
+&#xD;
+               5. Interleukins (e.g. Proleukin®)&#xD;
+&#xD;
+               6. Any investigational medication&#xD;
+&#xD;
+               7. Targeted therapies specific for mutated BRAF or for MEK&#xD;
+&#xD;
+               8. Live vaccine&#xD;
+&#xD;
+          3. Has a known addiction to alcohol or drugs and is actively taking those agents, or has&#xD;
+             recently (within 1 year) taken these agents or has ongoing illicit IV drug use.&#xD;
+&#xD;
+          4. Is HIV positive or has evidence of active Hepatitis B or C virus (testing to be done&#xD;
+             within 6 months of study entry).&#xD;
+&#xD;
+          5. Is currently receiving nitrosoureas or has received this therapy within the preceding&#xD;
+             6 weeks&#xD;
+&#xD;
+          6. Is pregnant or breastfeeding. Female participants of childbearing potential must have&#xD;
+             a negative pregnancy test obtained within 2 weeks prior to registration. Males and&#xD;
+             females must agree, in the consent form, to use effective birth control methods during&#xD;
+             the course of treatment and following treatment in accordance with the labeling&#xD;
+             guidelines for each approved therapy.&#xD;
+&#xD;
+          7. Has a medical contraindication or potential problem in complying with the requirements&#xD;
+             of the protocol in the opinion of the investigator.&#xD;
+&#xD;
+          8. Has an active infection requiring systemic therapy.&#xD;
+&#xD;
+          9. Has Class III or IV heart disease as classified according to the New York Heart&#xD;
+             Association.&#xD;
+&#xD;
+         10. Has had prior autoimmune disorders requiring cytotoxic or immunosuppressive therapy,or&#xD;
+             autoimmune disorders with visceral involvement. Participants with an active autoimmune&#xD;
+             disorder requiring these therapies are also excluded.&#xD;
+&#xD;
+             Note: The following are not exclusionary:&#xD;
+&#xD;
+               -  The presence of laboratory evidence of autoimmune disease (e.g. positive ANA&#xD;
+                  titer) without symptoms&#xD;
+&#xD;
+               -  Clinical evidence of vitiligo&#xD;
+&#xD;
+               -  Other forms of depigmenting illness&#xD;
+&#xD;
+               -  Mild arthritis requiring NSAID medications&#xD;
+&#xD;
+               -  A history of immune-related adverse events with immune therapy, if the&#xD;
+                  immune-related adverse events have resolved completely.&#xD;
+&#xD;
+         11. History of another cancer&#xD;
+&#xD;
+             Note: the following diagnoses are exceptions and are permitted as long as they have&#xD;
+             been treated successfully and without clinical evidence of disease:&#xD;
+&#xD;
+               -  Any cancer that has been treated successfully, without evidence of subsequent&#xD;
+                  recurrence or metastasis for over 5 years&#xD;
+&#xD;
+               -  Any cancer without distant metastasis that has been treated successfully, without&#xD;
+                  evidence of recurrence or metastasis for over 2 years&#xD;
+&#xD;
+               -  Squamous cell cancer of the skin without known metastasis&#xD;
+&#xD;
+               -  Basal cell cancer of the skin without known metastasis&#xD;
+&#xD;
+               -  Carcinoma in situ of the breast (DCIS or LCIS)&#xD;
+&#xD;
+               -  Carcinoma in situ of the cervix&#xD;
+&#xD;
+         12. Has a history of (non-infectious) pneumonitis that required steroids or current&#xD;
+             evidence of interstitial lung disease or pneumonitis.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lynn Dengel, MD, MSc</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Adela Mahmutovic, BA, MPH</last_name>
+    <phone>14349826714</phone>
+    <email>am6bd@hscmail.mcc.virginia.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Meaghan Kane, BS</last_name>
+    <phone>434-982-1901</phone>
+    <email>MBK2MS@hscmail.mcc.virginia.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Craig L. Slingluff, MD</last_name>
+      <phone>434-924-1730</phone>
+      <email>cls8h@virginia.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Adela Mahmutovic</last_name>
+      <phone>14349826714</phone>
+      <email>am6bd@hscmail.mcc.virginia.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lynn Dengel, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>October 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 4, 2019</study_first_posted>
+  <last_update_submitted>August 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Craig L Slingluff, Jr</investigator_full_name>
+    <investigator_title>Professor of Surgery; Director, Human Immune Therapy Center</investigator_title>
+  </responsible_party>
+  <keyword>Echopulse</keyword>
+  <keyword>Focused Ultrasound Ablation</keyword>
+  <keyword>FUSA</keyword>
+  <keyword>imiquimod</keyword>
+  <keyword>Aldara</keyword>
+  <keyword>Pembrolizumab</keyword>
+  <keyword>Keytruda</keyword>
+  <keyword>Atezolizumab</keyword>
+  <keyword>Tecentriq</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Merkel Cell</mesh_term>
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Small Cell Lung Carcinoma</mesh_term>
+    <mesh_term>Neoplasms, Squamous Cell</mesh_term>
+    <mesh_term>Carcinoma, Squamous Cell</mesh_term>
+    <mesh_term>Microsatellite Instability</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Imiquimod</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>De-identified individual participant data that underlie the results of this study may be shared.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>Data may be available after the main findings from the final research data set have been accepted for publication.</ipd_time_frame>
+    <ipd_access_criteria>Requests for data access will be accepted only with an accompanying signed Data Access Agreement.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

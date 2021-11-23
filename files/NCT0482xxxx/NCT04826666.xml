@@ -1,0 +1,281 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04826666</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20.436</org_study_id>
+    <nct_id>NCT04826666</nct_id>
+  </id_info>
+  <brief_title>Intraoperative Phlebotomies and Bleeding in Liver Transplantation</brief_title>
+  <acronym>TOF_PHLEBO</acronym>
+  <official_title>Intraoperative Phlebotomies and Bleeding in Liver Transplantation: a Retrospective Cohort Study and Causal Analysis Protocol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre hospitalier de l'Université de Montréal (CHUM)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Centre hospitalier de l'Université de Montréal (CHUM)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Liver transplantation are surgeries associated with important bleeding and often require&#xD;
+      perioperative red blood cell (RBC) transfusions. Overall, between 20 and 85 % of liver&#xD;
+      transplant recipients receive at least one RBC transfusion during their surgery. Such&#xD;
+      transfusions are consistently associated with higher morbidity and mortality, although this&#xD;
+      causal association is still under debate in many surgical populations. Despite the lack of&#xD;
+      clear causative association between perioperative transfusions and worse outcomes, minimizing&#xD;
+      bleeding and transfusions is believed to improve postoperative outcomes. Many perioperative&#xD;
+      variables are associated with higher blood loss and need for perioperative transfusions:&#xD;
+      liver disease severity, preoperative anemia and coagulopathy, higher cardiac filling&#xD;
+      pressures and higher fluid administration, among others. However, few perioperative&#xD;
+      interventions have been shown to reduce bleeding and transfusion requirements in this&#xD;
+      population. Among them, the use of intraoperative phlebotomies to reduce portal and hepatic&#xD;
+      venous pressure during the dissection phase is a promising one, also described in liver&#xD;
+      resection surgery.&#xD;
+&#xD;
+      To further investigate the effects of intraoperative phlebotomies on intraoperative bleeding,&#xD;
+      perioperative transfusions and mortality, the Principal Investigator will conduct a&#xD;
+      retrospective cohort study with a propensity score based causal analysis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Methods&#xD;
+&#xD;
+      Objective: To investigate the effects of intraoperative phlebotomies on intraoperative&#xD;
+      bleeding, perioperative transfusions and mortality among patients who underwent a liver&#xD;
+      transplantation.&#xD;
+&#xD;
+      Study design and participants:&#xD;
+&#xD;
+      All successive adult patients who underwent a liver transplantation between July 2008 and&#xD;
+      January 2021 at the Centre hospitalier de l'Université de Montréal (CHUM) will be included in&#xD;
+      the study. Because phlebotomies are mostly performed in patients with a near normal renal&#xD;
+      function, patients who were under renal replacement therapy prior to surgery as well as those&#xD;
+      who had a glomerular filtration rate below 30 mL/h (based on MDRD formula) will be excluded.&#xD;
+&#xD;
+      Exposure:&#xD;
+&#xD;
+      The exposure of interest will be the performance of an intraoperative phlebotomies.&#xD;
+      Intraoperative phlebotomies are performed at the beginning of liver transplant surgery to&#xD;
+      reduce portal and hepatic venous pressure and thus reduce bleeding and the need for&#xD;
+      transfusions. After graft reperfusion, retrieved blood is reinjected to patients to optimize&#xD;
+      volemia and cardiac output. Intraoperative phlebotomy is thus a manipulable well-defined&#xD;
+      exposure amenable to causal analysis by consistency.&#xD;
+&#xD;
+      Covariables:&#xD;
+&#xD;
+      Many variables are associated with bleeding in liver transplantation. Most of them are also&#xD;
+      associated with our exposure of interest and are cofounding factors. Phlebotomies will be&#xD;
+      more often performed in non-anemic cirrhotic patients with high portal and central venous&#xD;
+      pressure, but less often in patients with severe acute disease with end-organ damage such as&#xD;
+      renal failure. Thus, patients who received a phlebotomy have different baseline prognostic&#xD;
+      characteristics than those who do not receive as phlebotomy. To control for such confounding,&#xD;
+      a sufficient set of variables based on a directed acyclic graph (DAG) constructed using&#xD;
+      published data and knowledge of the clinical practice (see figure 1) will be included. Since&#xD;
+      MELD score is a very robust marker of liver disease severity, it will increase in most&#xD;
+      situations of worsening liver disease (such as acute-n-chronic liver failure) and adjust for&#xD;
+      all such situations. Since an observational study from the CHUM suggested that intraoperative&#xD;
+      bleeding and transfusions have increased since recipients are prioritized by the MELD score,&#xD;
+      the calendar year as a covariable will be added, although it is not expected that phlebotomy&#xD;
+      practices have significantly changed over time.&#xD;
+&#xD;
+      Data management:&#xD;
+&#xD;
+      Data for patients who received their transplantation between 2008 and 2017 is already&#xD;
+      available in a dataset used for previous analyses (CHUM Research Ethic Board (REB) approval&#xD;
+      #17.036). Data from patients who received a transplantation between January 2018 and January&#xD;
+      2021 will be extracted from patients' chart after REB approval or from the dataset used for&#xD;
+      another already approved study (CHUM REB #17.251). Data from all these patients will be&#xD;
+      merged in a common dataset, cleaned and analyzed.&#xD;
+&#xD;
+      Data analyses:&#xD;
+&#xD;
+      Main analyses:&#xD;
+&#xD;
+      The patient cohort based on the exposure category will be described. Frequencies and&#xD;
+      proportions for categorical variables and mean with standard deviation for continuous&#xD;
+      variables (or median with quartiles for skewed distributions) will be summarized. Crude&#xD;
+      outcome incidence without any relative risk (table 2) will also be presented. For analytical&#xD;
+      purposes, intraoperative bleeding will be used as a continuous variable and because many&#xD;
+      patients do not receive any perioperative RBC transfusions, perioperative RBC transfusions&#xD;
+      between &quot;no transfusion&quot; and &quot;any transfusion&quot; will be dichotomized.&#xD;
+&#xD;
+      A causal analysis will be conducted based on a balancing score, the propensity score. No&#xD;
+      previous sample size calculation was computed as a convenience sample of all transplanted&#xD;
+      patients that meet the inclusion criteria will be used. By excluding patients with at least&#xD;
+      moderate renal failure prior to surgery (almost only untreated patients), a cohort with more&#xD;
+      treated than untreated patients will be obtained. Treated patients are also the ones for whom&#xD;
+      clinicians believed a phlebotomy was helpful based on measured covariables (and potential&#xD;
+      unmeasured ones (&quot;confounding by indication bias&quot;)). Also, many untreated patients may not be&#xD;
+      at risk of receiving the intervention (positivity) and not overlap treated patients. Thus, an&#xD;
+      average treatment effect in the treated (ATT) by the inverse probability of treatment&#xD;
+      weighting (IPTW) will be estimated.&#xD;
+&#xD;
+      To do so, a propensity score (π_i) for the exposure (intraoperative phlebotomies) based on&#xD;
+      all identified and measured previously mentioned confounders will be computed. Quadratic&#xD;
+      terms for continuous variables (for more flexibility) and an interaction term between the&#xD;
+      MELD score and the central venous pressure (since more severe disease usually have higher&#xD;
+      cardiac filling pressure), important drivers of the exposure, will be included. The overlap&#xD;
+      of the propensity score between the treated patients and their untreated counterparts will be&#xD;
+      evaluated. In case many treated patients do not overlap with any untreated ones, the&#xD;
+      specifications of the propensity score model further (remove quadratic terms for example)&#xD;
+      will be modified to further restrict the population of interest. The calculated propensity&#xD;
+      score to compute weights will be used and create an untreated pseudo-population comparable to&#xD;
+      the treated ones (conditional exchangeability); Weights for treated patients and weights will&#xD;
+      be used for untreated patients. In case extreme weighs are estimated, truncation (between 1%&#xD;
+      and 5% percentiles of the propensity score distribution depending on overlap effect) will be&#xD;
+      used to minimize variance and effect of near violations of practical positivity. The&#xD;
+      population of interest may be further restriced, if deemed necessary. The pseudo-population&#xD;
+      will be described using weighted descriptive statistics and the balancing effect of the&#xD;
+      weights will be verified. The causal marginal effect on bleeding will be estimated using a&#xD;
+      weighted mean difference and the causal marginal effect of transfusions using a weighted risk&#xD;
+      difference. Survival up to 1 year will be reported using a marginal structural model using a&#xD;
+      weighted proportional hazard Cox model and express a causal marginal hazard ratio. Results&#xD;
+      will be expressed with non-parametric bootstrap percentile 95% confidence intervals.&#xD;
+&#xD;
+      Senstivity analyses:&#xD;
+&#xD;
+      IPTW analyses may be more sensitive to misspecification of the propensity score model as well&#xD;
+      as have a higher estimated variance. Thus, a sensitivity analysis to estimate ATT for all&#xD;
+      outcomes will be conducted using a propensity score based matching analysis. This analysis&#xD;
+      will use a 1:2 (1 treated and 2 untreated) greedy matching using a caliper (0.2 linear&#xD;
+      propensity score standard deviation). For matching, balancing between groups by comparing&#xD;
+      covariables' central tendency measurement and variance will be explored, including quadratic&#xD;
+      terms for continuous variables, as well as q-q plots. Distribution homogeneity between groups&#xD;
+      will also be assessed using Kolmogorov-Smirnov tests. The matching specifications (caliper,&#xD;
+      matching ratio) may bemodified if group balancing is not satisfactory. However, the&#xD;
+      propensity score specifications will not be modified, to maintain consistency across&#xD;
+      analyses. Once balancing is considered appropriate to estimate an ATT, the causal effects&#xD;
+      will be estimated by using the Abadie-Imbens estimator. The Abadie-Imbens variance will be&#xD;
+      used to compute 95% confidence intervals. R software (R Core Team, 2020, version 4.0.3) will&#xD;
+      be used, as well as the Matching, survival, survey and tableone packages. IPTW analyses and&#xD;
+      bootstrap will be computed manually.&#xD;
+&#xD;
+      Subgroup analysis:&#xD;
+&#xD;
+      The effect of phlebotomies is considered to be mechanistically mediated by reducing portal&#xD;
+      pressure and splanchnic congestion. The effect of the intervention should thus be stronger in&#xD;
+      patients with cirrhosis. Thus, a subgroup analysis will be conducted by conduction the&#xD;
+      primary analysis (IPTW and bleeding) only in patients transplanted for cirrhosis by excluding&#xD;
+      retransplantations and transplantation for acute liver failure.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">March 31, 2021</start_date>
+  <completion_date type="Actual">November 4, 2021</completion_date>
+  <primary_completion_date type="Actual">November 4, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Intraoperative bleeding</measure>
+    <time_frame>During the liver transplantation</time_frame>
+    <description>The intervention of interest is aimed at reducing bleeding. Even though intraoperative bleeding measurement is subject to measurement error, such measurement is homogeneously done through a cellsaver device at the CHUM..</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Perioperative red blood cell transfusions</measure>
+    <time_frame>Up to 48 hours after liver transplantation</time_frame>
+    <description>Clinicians conducting the intervention are also the ones who make decision regarding intraoperative red blood cell transfusions. Thus, perioperative red blood cell transfusions will be used as a secondary outcome (intraoperative + postoperative up to 48 hours) in case patients who received a phlebotomy were less transfused only because anesthesiologist decided not to transfuse (differential &quot;classification&quot; bias)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Any intraoperative red blood cell transfusions</measure>
+    <time_frame>During the liver transplantation</time_frame>
+    <description>Clinicians conducting the intervention are also the ones who make decision regarding intraoperative red blood cell transfusions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival up to 1 year after liver transplantation</measure>
+    <time_frame>1 year after liver transplantation</time_frame>
+    <description>Survival was calculated from the date of liver transplantation to the date of recipient's death due to any cause, within 1 year after the surgery.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">679</enrollment>
+  <condition>Liver Diseases</condition>
+  <condition>Liver Cirrhosis</condition>
+  <condition>Surgery</condition>
+  <condition>Surgery--Complications</condition>
+  <condition>Postoperative Complications</condition>
+  <condition>Transplant; Failure, Liver</condition>
+  <arm_group>
+    <arm_group_label>Groups/Cohorts</arm_group_label>
+    <description>The Principal Investigator propose to conduct a retrospective observational cohort study of all consecutive adult patients who underwent a liver transplantation between July 2008 and January 2021 at the Centre hospitalier de l'Université de Montréal (CHUM).</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All successive adult patients who underwent a liver transplantation between July 2008 and&#xD;
+        January 2021 at the Centre hospitalier de l'Université de Montréal (CHUM).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        - All successive adult patients who underwent a liver transplantation between July 2008 and&#xD;
+        January 2021 at the Centre hospitalier de l'Université de Montréal (CHUM).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        - All patients who were under renal replacement therapy prior to surgery as well as those&#xD;
+        who had a glomerular filtration rate below 30 mL/h (based on MDRD formula).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>François-Martin Carrier, MD, FRCPC</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centre hospitalier de l'Université de Montréal (CHUM)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Centre Hospitalier de l'Université de Montréal (CHUM)</name>
+      <address>
+        <city>Montréal</city>
+        <state>Quebec</state>
+        <zip>H2X 3E4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 30, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 31, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 1, 2021</study_first_posted>
+  <last_update_submitted>November 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Diseases</mesh_term>
+    <mesh_term>Liver Cirrhosis</mesh_term>
+    <mesh_term>Postoperative Complications</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

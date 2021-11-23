@@ -1,0 +1,539 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03583957</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P00022420</org_study_id>
+    <secondary_id>2R44NS100235-02</secondary_id>
+    <nct_id>NCT03583957</nct_id>
+  </id_info>
+  <brief_title>A Wireless EEG Patch for Continuous Electrographic Monitoring</brief_title>
+  <official_title>A Wireless EEG Patch for Continuous Electrographic Monitoring</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Epitel, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Boston Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>National Institute of Neurological Disorders and Stroke (NINDS)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>NYU Langone Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Epitel, Inc.</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This proposal will evaluate an individual-use, patch-type telemetry device for simplified,&#xD;
+      single-channel EEG recording from human patients along-side the traditional in hospital wired&#xD;
+      EEG.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Objectives:&#xD;
+&#xD;
+      The primary objectives of this study are to evaluate the devices ability: (1) to record&#xD;
+      wireless EEG from patients in the long-term EEG monitoring unit (2) compare wireless EEG in&#xD;
+      these recordings to standard-of-care wired EEG (3) to record wireless EEG from patients&#xD;
+      undergoing ambulatory EEG monitoring (4) compare wireless EEG in these recordings to the&#xD;
+      ambulatory EEG findings (5) develop automated seizure detection algorithms based on the data&#xD;
+      collected herein (6) develop real-time seizure alerting based on the data collected herein&#xD;
+      (7) record longitudinal EEG from Epilog outside of the epilepsy monitoring unit while&#xD;
+      patients answer daily questions through a mobile app designed to provide a probability of the&#xD;
+      patient having a seizure event.&#xD;
+&#xD;
+      Hypotheses:&#xD;
+&#xD;
+        1. Single-channel EEG recorded with Epilog can be used to accurately detect seizures.&#xD;
+&#xD;
+        2. Single-channel EEG recorded with Epilog can be used to alert to seizures in real time.&#xD;
+&#xD;
+        3. Single-channel EEG recorded with Epilog can be used along with psychological,&#xD;
+           behavioral, and environmental input to a mobile app to create an hourly forecast of&#xD;
+           seizure probability.&#xD;
+&#xD;
+      Background:&#xD;
+&#xD;
+      Continuous electroencephalography (EEG) is a relatively expensive, time-consuming, inpatient&#xD;
+      monitoring procedure that can require several days to complete. It is designed to aid&#xD;
+      epileptologists in the diagnosis and localization of seizures and other abnormalities. EEG&#xD;
+      monitoring outside of the clinic is limited to bulky and cumbersome ambulatory monitoring&#xD;
+      systems that are prone to a variety of noise artifacts outside of the controlled confines of&#xD;
+      the long-term EEG monitoring (LTM) unit. An effective wireless EEG solution could improve&#xD;
+      long-term (continuous) EEG recordings. Importantly, long-term EEG monitoring outside of the&#xD;
+      hospital could yield important data regarding the general brain state, including seizure&#xD;
+      occurrence, in a realistic at-home setting. There is a clear need for a small, easy to use,&#xD;
+      reliable, wireless device for human EEG monitoring to aid in the treatment of a patients&#xD;
+      seizure disorder.&#xD;
+&#xD;
+      Patients are frequently referred to the long-term epilepsy monitoring unit (EMU) in order to&#xD;
+      evaluate a suspect underlying neurological condition that may manifest through EEG and is a&#xD;
+      common procedure. Despite its clinical significance and the desire to minimize the time spent&#xD;
+      in the hospital, there is a gap in the ability to maintain a quantifiable report of EEG&#xD;
+      activity in the patients home environment. In general, patients diagnosed with a seizure&#xD;
+      disorder are asked to keep a seizure diary that is designed to aid the clinician in&#xD;
+      diagnosis. Patient self reporting of seizures with a seizure diary is often unreliable up to&#xD;
+      55% of all seizures can be missed, and still others go misreported [1-3]. This is especially&#xD;
+      true of the developmentally delayed population where the burden of self-reporting seizures is&#xD;
+      often placed upon a care giver. Most seizures are non-convulsive and can be relatively&#xD;
+      subtle. It is extremely important for effective treatment to know how an anticonvulsant is&#xD;
+      affecting a patients seizures, particularly focal seizures. Often, seizures are amnesic and&#xD;
+      unless someone else recognizes the clinical signs of the seizure, it may go unnoticed[4].&#xD;
+      Many seizures can occur at night or while a patient is sleepy or stressed [5-7] further&#xD;
+      making the detection of seizures difficult. Obtaining an accurate report of such&#xD;
+      unrecognizable seizures is difficult for persons with epilepsy and their families.&#xD;
+&#xD;
+      Early detection of acute electrographic seizures could lead to more-effective application of&#xD;
+      therapeutic approaches to block or minimize brain damage. Over 30% of patients with epilepsy&#xD;
+      have intractable seizures that are difficult to manage, are an immense financial burden to&#xD;
+      the person with epilepsy and their family, and drastically reduce quality of life [8, 9].&#xD;
+      Thus, there remains a need to obtain quantifiable, continuous EEG records after a diagnosis&#xD;
+      of epilepsy. This study will allow the development of automated seizure detection, alerting,&#xD;
+      and prediction algorithms based on Epitel's Epilog single-channel, wireless EEG sensor.&#xD;
+&#xD;
+      This proposal will evaluate an individual-use, patch-type telemetry sensor for simplified,&#xD;
+      single-channel EEG recording from human patients. This sensor can be applied in a simple&#xD;
+      fashion to the scalp allowing real-time recording of the EEG signal on the sensor. This&#xD;
+      relatively small unit, roughly the size of a thick Band-Aid is self-contained, water&#xD;
+      resistant, and powered by a watch battery. The sensor is compact and would be applied and/or&#xD;
+      shown how to use during a clinical visit. The sensor is noninvasive and is attached to the&#xD;
+      patient by external placement on intact skin below hairline with a one-piece, one-day-use&#xD;
+      disposable conductive-adhesive sticker.&#xD;
+&#xD;
+      Research Design and Methods:&#xD;
+&#xD;
+      Study design:&#xD;
+&#xD;
+      This is both a prospective, un-blinded, observational study as well as a prospective&#xD;
+      un-blinded interventional study.&#xD;
+&#xD;
+      For the inpatient unit, the findings of standard wired EEG will be compared to the findings&#xD;
+      of wireless EEG recording device to develop a training dataset for machine learning&#xD;
+      algorithms for automated seizure detection.&#xD;
+&#xD;
+      For the outpatient unit, the characteristics of the EEG recorded with be combined with&#xD;
+      psychological, behavioral, and environmental input by the patient in a mobile app that then&#xD;
+      provides an hourly probability (percent change) of having a seizure in the next hour.&#xD;
+&#xD;
+      Study population:&#xD;
+&#xD;
+      The proposed patient population for this study involves pediatric patients, ages 5-17. The&#xD;
+      consideration of the pediatric population as a vulnerable population for participation in&#xD;
+      this study has been taken into account in determining the appropriateness of this protocol.&#xD;
+      This study will specifically provide information as to the specific needs of the pediatric&#xD;
+      patient population; which is anticipated to be a significant percentage of the user&#xD;
+      population of the proposed device. The risk assessment of the study anticipates that the&#xD;
+      pediatric subject population will not be exposed to risks greater than the current standard&#xD;
+      of care for which they are already being evaluated.&#xD;
+&#xD;
+      Subject Selection:&#xD;
+&#xD;
+      Inclusion Criteria for inpatient and outpatient unit:&#xD;
+&#xD;
+      Previous diagnosis of Epilepsy or other seizure disorder admitted for scheduled EEG testing,&#xD;
+      5 to 17 years of age, inclusive&#xD;
+&#xD;
+      Exclusion criteria for the inpatient and outpatient unit:&#xD;
+&#xD;
+      Known or suspected allergy to adhesives&#xD;
+&#xD;
+      Study methods:&#xD;
+&#xD;
+      Up to four Epilog single-channel EEG sensors will be placed alongside gold-standard wired EEG&#xD;
+      in the epilepsy monitoring unit. Each sensor (1&quot; x 1&quot; x 1/4&quot;, 6.6 g) is attached to the scalp&#xD;
+      below hairline with a one-piece conductive adhesive sticker consisting of a hypoalergenic&#xD;
+      hydrocolloid and hydrogel. Sensors are placed in roughly the F7, F8, TP9, or TP10 electrode&#xD;
+      locations in the international 10-10 system. Epilog is constructed of a circuit board with&#xD;
+      built-in gold EEG recording electrodes attached to both ends. The sensors are then be sealed&#xD;
+      and packaged in the form of a pliable medical-grade silicone, and be designed to have a low&#xD;
+      profile, such that it will not be easily dislodged or be uncomfortable to the user. The&#xD;
+      wireless EEG device is powered by a single lithium watch battery (CR2016, 270mW) sealed&#xD;
+      within the sensor to IPX3. The Epilog sensors only use batteries approved to IEC-60086-4.&#xD;
+      Epilog transmits EEG through secure Bluetooth when interacting with the mobile app.&#xD;
+      Otherwise, Epilog is capable of storing 10 consecutive days of EEG when the Bluetooth radio&#xD;
+      is disabled.&#xD;
+&#xD;
+      Once activated, the sensor begins transmitting and/or data logging the signal. The clinician&#xD;
+      can connect the device to the USB port of an HIPAA-approved, password protected laptop or&#xD;
+      other computer device for activating the sensor and/or imputing patient study ID information&#xD;
+      in the sensor and/or downloaded data off of the sensor according to the European Data Format,&#xD;
+      an internationally recognized standard EEG format (www.edfplus.info). In order to visualize&#xD;
+      the EEG signal in real time, a specifically-designed, mobile app can be used when Bluetooth&#xD;
+      is enabled on each sensor. For outpatient use, the ability to view EEG is disabled. Data can&#xD;
+      be downloaded from the device by connecting to an USB-enabled, password-protected computer.&#xD;
+      An USB-based acquisition hardware, computer, and software with an EDF-file viewer will be&#xD;
+      used for viewing, analyzing, and storing of EEG data according to HIPAA patient privacy&#xD;
+      policies.&#xD;
+&#xD;
+      Device information:&#xD;
+&#xD;
+      Labeling:&#xD;
+&#xD;
+      All investigational devices will have the following label statement: CAUTION Investigational&#xD;
+      Device. Limited by Federal law to investigational use.&#xD;
+&#xD;
+      Each sensor will also be labeled with the manufacturer, business location, quantity of&#xD;
+      contents and for identification and traceability, by serial number and date of manufacture.&#xD;
+&#xD;
+      Classification of the sensor:&#xD;
+&#xD;
+      This sensor is suitably similar to FDA-cleared, electroencephalography devices under section&#xD;
+      number 21 CFR 882.1400, identified as a device used to measure and record electrical activity&#xD;
+      of the patients brain obtained by placing two or more electrodes on the head. This sensor is&#xD;
+      subject to FDA Class II performance standards. This sensor route-to-market is through 510(k)&#xD;
+      clearance by demonstration of substantial equivalence to a legally marketed predicate device.&#xD;
+&#xD;
+      Sensor Receipt:&#xD;
+&#xD;
+      Epitel will directly deliver sensors to the Principal Investigator, who will log them on the&#xD;
+      sensor accountability form in the Study Binder.&#xD;
+&#xD;
+      Sensor Storage: Sensors are singly housed in boxes marked with the sensor serial number and a&#xD;
+      label statement: CAUTION Investigational Device. Limited by Federal law to investigational&#xD;
+      use. Sensors will be kept under material control in the epilepsy monitoring unit prior to and&#xD;
+      after use. Sensors shall be stored at approximately room temperature, under ambient&#xD;
+      conditions. There are no other special storage requirements.&#xD;
+&#xD;
+      Sensor Dispensing: Sensors will be logged on a device accountability form in the Study Binder&#xD;
+      when they 1 are delivered to neurology, 2 are placed on a study patient, 3 data has been&#xD;
+      downloaded from the device, 4 device data has been erased, and 5 devices have been returned&#xD;
+      to and received by the Study Sponsor. This will be signed and dated by the study team.&#xD;
+&#xD;
+      Sensor Disposition: After use, the study team will return sensors to the storage box/cabinet&#xD;
+      after downloading the data. Data on the sensors will be erased and each sensor will be used&#xD;
+      once if in-patient and only on a single patient if out-patient. Sensors will then be returned&#xD;
+      to the Study Sponsor where they will be accounted for, destroyed, and properly disposed of.&#xD;
+&#xD;
+      Return or Destruction of Sensors: Following collection of the data and sensor inspection,&#xD;
+      used sensors stored at neurology with battery level below 1.4V will be returned to the Study&#xD;
+      Sponsor where they will be accounted for, destroyed, and properly disposed of.&#xD;
+&#xD;
+      Recruitment and consent process in inpatient and outpatient units:&#xD;
+&#xD;
+      General Consent Processes: Patients presenting to the EMU for standard-of-care procedures&#xD;
+      will be recruited for this study. The Study Coordinator also maintains the responsibility of&#xD;
+      contacting eligible patients physician to ask for permission to approach family and patient&#xD;
+      via email. If the physician grants permission, the Study Coordinator will approach and inform&#xD;
+      the patient/guardian of the opportunity to participate in this study. All participants will&#xD;
+      be required to participate in the consent/assent process. The patient and legal guardians&#xD;
+      will be walked through the informed consent and assent documents and will be given&#xD;
+      appropriate time to ask questions on the study.&#xD;
+&#xD;
+      Consent/assent process for all patients who meet the criteria for enrollment:&#xD;
+&#xD;
+      The study will be described verbally when the Study Coordinator approaches the patient and&#xD;
+      family and the description will also be written in the consent document. The patients will be&#xD;
+      given a chance to ask questions at any point during the enrollment process. Upon their&#xD;
+      agreement to participate in the study, they will be asked to sign the consent form and give&#xD;
+      verbal consent/assent. There are no external recruitment procedures for this study.&#xD;
+&#xD;
+      Study Procedures:&#xD;
+&#xD;
+      Screening process: Patients will be screened by the research staff prior to their hospital&#xD;
+      admission. The research staff team will review the weekly admission list and screen patients&#xD;
+      for enrollment appropriateness. Once an eligible patient is selected, the research team will&#xD;
+      call or email the patients asummary of the study and request approval to approach the patient&#xD;
+      for consent/assent when they are admitted.&#xD;
+&#xD;
+      Enrollment:&#xD;
+&#xD;
+      Once eligibility is determined and the research team receives approval to approach, the&#xD;
+      eligible patient and their family will be given a verbal description of the study by the&#xD;
+      research staff and offered a chance to participate in the study. The eligible patient and&#xD;
+      their family where appropriate, will be walked through the informed consent documents and&#xD;
+      will be given appropriate time to ask questions on the study. After informed consent to&#xD;
+      participate in the study is obtained, the patient will be enrolled. Patient enrollment may be&#xD;
+      performed by any of the study team members, as listed in the roles/responsibilities section.&#xD;
+      Patient enrollment is documented in the Study Binder.&#xD;
+&#xD;
+      Sensor Placement:&#xD;
+&#xD;
+      Patients will be monitored by the Epilog sensor(s) and full-montage wired EEG for patients&#xD;
+      who remain in the EMU. Sensors will be placed per the neurologists direction, next to a&#xD;
+      standard electrode in an area where seizures are known to occur in the event that epilepsy&#xD;
+      has been previously diagnosed or suspect to occur. Written documentation on the placement&#xD;
+      location(s) of each sensor alongside the standard wired EEG electrodes shall be recorded for&#xD;
+      each patient. Patients will wear Epilog for as long as wired EEG is simultaneously recorded&#xD;
+      (1-7 days in the EMU). For patients who are to wear Epilog continuously outside of the EMU,&#xD;
+      instructions will be provided in both written, a verbal interactive demonstration, as well as&#xD;
+      video of how to use Epilog and the mobile app.&#xD;
+&#xD;
+      After use, the Epilog sensors will be removed by gently peeling it off the scalp. For&#xD;
+      out-patient use, patients and their family/caregivers are instructed to replace the&#xD;
+      conductive-adhesive sticker once per day, typically while showering or bathing, or before&#xD;
+      bed.&#xD;
+&#xD;
+      Risks and Benefits:&#xD;
+&#xD;
+      Study Risks:&#xD;
+&#xD;
+      The risks of this study are minimal. There is a potential risk that the patient may have an&#xD;
+      adverse reaction to the conductive-adhesive gel used to fix the recording electrodes to the&#xD;
+      scalp. This risk will be minimized by observing the scalp around the device daily for redness&#xD;
+      or irritation that could indicate a reaction to the conductive-adhesive. Only FDA-clear&#xD;
+      hypoalergenic conductive hydrogel and adhesive hydrocolloids are used.&#xD;
+&#xD;
+      Study Benefits:&#xD;
+&#xD;
+      There are no direct benefits to the patient for taking part in this study. The potential&#xD;
+      benefit to clinics and patients longer term is that recording wireless EEG may prove useful&#xD;
+      for determining if a single channel of wireless, long-term EEG can be used to detect, alert,&#xD;
+      and predict seizure activity outside of the hospital during a patients everyday activities.&#xD;
+      The EEG may also be used to determine the prevalence of normal versus abnormal sleep cycling&#xD;
+      in patients, though this information will not be directly evaluated in this study.&#xD;
+&#xD;
+      Withdrawal:&#xD;
+&#xD;
+      Subject withdrawal: Subjects will exit the study if any of the following conditions exist; 1)&#xD;
+      Subject voluntarily withdraws from the study, 2) Subjects well-being, in the opinion of the&#xD;
+      Investigator would be compromised by study continuation, 3) Subject experiences an adverse&#xD;
+      event defined by the Investigator as device related.&#xD;
+&#xD;
+      How to withdraw subjects:&#xD;
+&#xD;
+      A subject may report their voluntary withdrawal to any of the contacts of the study. Any&#xD;
+      study team member receiving a notification of withdrawal shall report this to the Study&#xD;
+      Coordinator. If an Investigator withdraws a subject; this shall be documented in the Study&#xD;
+      Binder with the reason for withdrawal. If there were any adverse events related to the&#xD;
+      withdrawal, the Investigator and the Study Coordinator in their role as Safety Monitor are&#xD;
+      responsible for investigating, documenting and if applicable, reporting these incidents. The&#xD;
+      Study Coordinator and Principal Investigator of the study are responsible for ensuring the&#xD;
+      safety of the patient in the event of withdrawal and that all dispensed devices have been&#xD;
+      recovered. The withdrawal of any patient is documented in the Study Binder under participant&#xD;
+      information.&#xD;
+&#xD;
+      Safety:&#xD;
+&#xD;
+      There are no risks to the patient for premature withdrawal from this study.&#xD;
+&#xD;
+      Follow-up:&#xD;
+&#xD;
+      A reasonable effort shall be made to follow-up with all study participants who withdraw from&#xD;
+      the study after the time of withdrawal to ensure that there are no device related adverse&#xD;
+      events. Minimally, this effort should obtain survival data on the patient. The Study&#xD;
+      Coordinator is responsible for this follow-up.&#xD;
+&#xD;
+      Study Data:&#xD;
+&#xD;
+      Upon enrollment the following data will be collected as part of the study: sex, age,&#xD;
+      documentation of no known skin allergy/sensitivity to adhesives (exclusionary&#xD;
+      characteristic), history of epilepsy diagnosis (if applicable). During the Study, wireless&#xD;
+      EEG will be obtained from the study device. For in-patient, the EEG will be recorded by&#xD;
+      traditional wired procedure for the duration the study device is worn. For out-patient data,&#xD;
+      daily responses to ta set of survey questions presented to the patient by the Aura app,&#xD;
+      modified with PROMIS, developed by Dr. Madison Berl. Each person enrolled will answer&#xD;
+      baseline survey questions that include (1) average number of hours one sleeps per-day during&#xD;
+      a typical week, and (2) 10-question Perceived Stress Scale survey. Answers to these baseline&#xD;
+      questions will personalize risk associated with each change from baseline over time. As the&#xD;
+      out-patient study begins and enrollees wear Epilog for the 90 day period, the mobile app will&#xD;
+      continue to ask behavioral and psychological survey questions as a means to effect a change&#xD;
+      in the seizure forecast provided by the mobile app. The number of questions asked of the user&#xD;
+      by the app will not exceed four per day to reduce burden of using the app on a daily basis.&#xD;
+      Along with physiological parameters (EEG and circadian seizure susceptibility), an hourly&#xD;
+      seizure forecast will be estimated and optimized post hoc. This would be a forecast the user&#xD;
+      would see and could use to plan their day. Importantly, we will track how the user interacts&#xD;
+      with the mobile app to determine adherence, how often the app is used, clicks, crash&#xD;
+      statistics, and overall satisfaction. It may be the case where the patient enrolled begins to&#xD;
+      answer questions posed by the app infrequently or not at all. To mitigate this problem the&#xD;
+      app will continue to prompt the user to answer the questions if they are dismissed. If the&#xD;
+      user misses two or more days, the study coordinator will contact the patient to encourage&#xD;
+      adherence.&#xD;
+&#xD;
+      Analysis plan:&#xD;
+&#xD;
+      The primary outcome measures for this study are seizure event times marked by epileptologists&#xD;
+      as the start, end, artifacts, and seizure type during the in-patient studies. These data are&#xD;
+      used to develop the automated seizure detection and alerting algorithms. For out-patient&#xD;
+      studies, the patients' interaction with the mobile app, how often the app is used, clicks,&#xD;
+      crash statistics, and overall satisfaction with the seizure forecast probability performance.&#xD;
+&#xD;
+      References:&#xD;
+&#xD;
+        1. Blum, D.E., et al., Patient awareness of seizures. Neurology, 1996. 47(1): p. 260-4.&#xD;
+&#xD;
+        2. Hoppe, C., A. Poepel, and C.E. Elger, Epilepsy: accuracy of patient seizure counts. Arch&#xD;
+           Neurol, 2007. 64(11): p.&#xD;
+&#xD;
+      1595-9. 3. Poochikian-Sarkissian, S., et al., Patient awareness of seizures as documented in&#xD;
+      the epilepsy monitoring unit. Can J Neurosci Nurs, 2009. 31(4): p. 22-3. 4. Fisher, R.S., et&#xD;
+      al., Seizure diaries for clinical research and practice: limitations and future prospects.&#xD;
+      Epilepsy Behav, 2012. 24(3): p. 304-10. 5. Derry, C.P. and S. Duncan, Sleep and epilepsy.&#xD;
+      Epilepsy Behav, 2013. 26(3): p. 394-404.&#xD;
+&#xD;
+      6. Matos, G., et al., Sleep and epilepsy: exploring an intriguing relationship with a&#xD;
+      translational approach. Epilepsy Behav, 2013. 26(3): p. 405-9. 7. Novakova, B., et al., The&#xD;
+      role of stress as a trigger for epileptic seizures: a narrative review of evidence from human&#xD;
+      and animal studies. Epilepsia, 2013. 54(11): p. 1866-76. 8. Luoni, C., et al., Determinants&#xD;
+      of health-related quality of life in pharmacoresistant epilepsy: results from a large&#xD;
+      multicenter study of consecutively enrolled patients using validated quantitative&#xD;
+      assessments. Epilepsia, 2011. 52(12): p. 2181-91. 9. Schuele, S.U. and H.O. Luders,&#xD;
+      Intractable epilepsy: management and therapeutic alternatives. Lancet Neurol, 2008.&#xD;
+&#xD;
+      7(6): p. 514-24. 10. Freeman, W.J., et al., Spatial spectra of scalp EEG and EMG from awake&#xD;
+      humans. Clin Neurophysiol, 2003. 114(6): p. 1053-68. 11. Davey, M.P., J.D. Victor, and N.D.&#xD;
+      Schiff, Power spectra and coherence in the EEG of a vegetative patient with severe asymmetric&#xD;
+      brain damage. Clin Neurophysiol, 2000. 111(11): p. 1949-54&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">May 8, 2018</start_date>
+  <completion_date type="Anticipated">April 30, 2026</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2026</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Single channel EEG coherence</measure>
+    <time_frame>Through study completion</time_frame>
+    <description>Patient events noted in wired EEG will be measured against physician identified events in single channel EEG</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity and specificity for retrospect seizure detection</measure>
+    <time_frame>Through Phase I completion, 2 years</time_frame>
+    <description>The initial Phase of this program is the development and FDA clearance of an automated seizure detection system through a participants personal mobile device.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity and specificity for prospective seizure alerting</measure>
+    <time_frame>Through study completion, 5 years</time_frame>
+    <description>The second Phase of this program is to create a real-time automated seizure alerting system for both a participants personal mobile device as well as a caregiver/parent's personal mobile device.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity and specificity fro prospective seizure forecasting</measure>
+    <time_frame>Through study completion, 5 years</time_frame>
+    <description>The final Phase of this program is to create an hourly seizure prediction system that provides the participant with a probability of having an electrographic seizure based on physiological, psychological, behavioral, and environmental input.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">750</enrollment>
+  <condition>Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>Entire Study</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Each patient is eligible for all interventions in the study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Observational only</intervention_name>
+    <description>Device is only observational and used to record EEG.</description>
+    <arm_group_label>Entire Study</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychological and Behavioral interaction with a seizure forecasting mobile app</intervention_name>
+    <description>Participants will be interacting with a mobile app to input perceived behavioral (e.g., number of hours slept and sleepiness) and psychological (perceived stress).</description>
+    <arm_group_label>Entire Study</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Combination Product</intervention_type>
+    <intervention_name>Seizure Alerting and Prediction System</intervention_name>
+    <description>The combination of Epilog (device) and the Aura app (psychological and behavioral interaction) will be used to create a real-time seizure alerting and an hourly seizure forecasting system.</description>
+    <arm_group_label>Entire Study</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Previous diagnosis of Epilepsy or other seizure disorder&#xD;
+&#xD;
+          -  Admitted for scheduled EEG testing with a minimum of overnight (24 hour) EEG&#xD;
+&#xD;
+          -  5 years of age through adult&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Known or suspected allergy to adhesives&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>5 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University of Colorado Anschutz Medical Center</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Boston Children's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York University Langone Medical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>100160000</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>June 28, 2018</study_first_submitted>
+  <study_first_submitted_qc>July 10, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 12, 2018</study_first_posted>
+  <last_update_submitted>April 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Caffeine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

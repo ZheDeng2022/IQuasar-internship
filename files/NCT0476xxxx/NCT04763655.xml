@@ -1,0 +1,152 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04763655</url>
+  </required_header>
+  <id_info>
+    <org_study_id>K23MH120504</org_study_id>
+    <nct_id>NCT04763655</nct_id>
+  </id_info>
+  <brief_title>Neural Biomarkers of Electroconvulsive Therapy Response</brief_title>
+  <official_title>Neural Biomarkers of Electroconvulsive Therapy Response in Schizophrenia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Northwell Health</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Northwell Health</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In the proposed study, we will utilize resting-state functional MRI (fMRI) and structural&#xD;
+      MRI-based electrical field modeling to study the effect of electroconvulsive therapy on human&#xD;
+      neural circuitry. Our study will recruit patients who are beginning treatment with bilateral&#xD;
+      electroconvulsive therapy (N=75). Our design will be longitudinal we will follow patients up&#xD;
+      until their 8th week electroconvulsive therapy clinically. The primary measure of interest&#xD;
+      will be the slope of clinical change estimated with mixed effect modeling (see Approach).&#xD;
+      Secondary measures will be the cognitive performance change between baseline and the 8th week&#xD;
+      electroconvulsive therapy time point.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">July 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2023</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Rate of Response</measure>
+    <time_frame>We will measure Brief Psychiatry Rating Scale weekly for 8 weeks.</time_frame>
+    <description>The outcome measure that we are interested in is the rate of change of the clinical response measured by the BPRS. To model the slope of change, we will use hierarchical linear modeling. Assuming linear improvement over time, the individual symptom trajectories may be modeled as Yij = β0j - β1j Xij + εij, where Y is the outcome measure (e.g. BPRS) at time i for patient j. β0j is the intercept and β1j is the slope for patient j, X.j is a vector of time predictor (in days from the start of the treatment), while ε is the error term (normally distributed with zero mean and unknown variance). In a second level analysis, we will extend to include sample averages of intercept and slope. In the second level analysis therefore we will estimate (1) β0j = μ0 + S0j and (2) β1j = μ1 + S1j, where S0j is the random intercept, and S1j is the random slope in patient j (the deviations from the group mean). The measure of primary interest in this study will be S1j.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cognitive change</measure>
+    <time_frame>Two time points: baseline and at 8th week.</time_frame>
+    <description>Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) neuropsychology battery and its change.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MRI of the brain</measure>
+    <time_frame>Two time points: baseline and at the end of the study</time_frame>
+    <description>Structural and functional MRI measures</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Electric field</measure>
+    <time_frame>At baseline.</time_frame>
+    <description>We will estimate first electrical field maps with finite element modeling from the structural scans.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">75</enrollment>
+  <condition>Electroconvulsive Therapy Treated Patients</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>clinical and neuropsychological testing</intervention_name>
+    <description>Patients are monitored with Brief Psychiatric Rating Scale (BPRS) weekly and structural and functional MRI and MATRICS battery before and at the end of the course of the study</description>
+    <other_name>MRI of the brain</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        (1) current positive symptoms rated ≥4 (moderate) on one or more of these BPRS 53 items:&#xD;
+        hallucinatory behavior, unusual thought content, suspiciousness, conceptual&#xD;
+        disorganization; (2) has failed at least one trial of treatment with antipsychotic drug,&#xD;
+        lasting 6 weeks in duration, (3) competent and willing to sign informed consent; (4) for&#xD;
+        women, negative pregnancy test and agreement to use a medically accepted birth control&#xD;
+        method; and (5) Diagnostic and Statistical Manual (DSM)-IV diagnosis of schizophrenia,&#xD;
+        schizoaffective or schizophreniform disorder.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        (1) serious neurological or endocrine disorder; (2) any medical condition which requires&#xD;
+        treatment with a medication with psychotropic effects; (3) significant risk of suicidal or&#xD;
+        homicidal behavior; (4) cognitive (MMSE ≤ 23) or language limitations that would preclude&#xD;
+        subjects providing informed consent; (5) contraindications to treatment with&#xD;
+        electroconvulsive therapy; (6) contraindications to magnetic resonance imaging (e.g.&#xD;
+        pacemaker)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Heela Azizi</last_name>
+    <phone>718-470-8165</phone>
+    <email>hazizi1@northwell.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Zucker Hillside Hospital</name>
+      <address>
+        <city>Glen Oaks</city>
+        <state>New York</state>
+        <zip>11004</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Heela Azizi</last_name>
+      <phone>718-470-8165</phone>
+      <email>hazizi1@northwell.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 18, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 18, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 21, 2021</study_first_posted>
+  <last_update_submitted>February 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 24, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data is shared via the National Institute of Mental Health Data Archive mechanisms.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,176 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04849312</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017P002583a</org_study_id>
+    <nct_id>NCT04849312</nct_id>
+  </id_info>
+  <brief_title>Prediction of 30-Day Readmission Using Machine Learning</brief_title>
+  <official_title>Prediction of 30-Day Readmission Using Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Biofourmis Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a retrospective observational study drawing on data from the Brigham and Women's Home&#xD;
+      Hospital database. Sociodemographic and clinic data from a training cohort were used to train&#xD;
+      a machine learning algorithm to predict the likelihood of 30-day readmission throughout a&#xD;
+      patient's admission. This algorithm was then validated in a validation cohort.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 20, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30-Day Readmission [ yes / no ]</measure>
+    <time_frame>From date of admission to 30-days post-discharge (31 to 54 days)</time_frame>
+    <description>Unplanned hospital admission within 30 days of having been discharged</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Infection</condition>
+  <condition>Heart Failure</condition>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <condition>Asthma</condition>
+  <condition>Gout Flare</condition>
+  <condition>Chronic Kidney Diseases</condition>
+  <condition>Hypertensive Urgency</condition>
+  <condition>Atrial Fibrillation Rapid</condition>
+  <condition>Anticoagulants; Increased</condition>
+  <arm_group>
+    <arm_group_label>Training</arm_group_label>
+    <description>A subset of patients that are used to train the machine learning algorithm.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Validation</arm_group_label>
+    <description>A subset of patients that are &quot;held back&quot; and used to validate the algorithm's accuracy.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects admitted at Brigham and Women's Hospital and Brigham and Women's Faulkner Hospital&#xD;
+        who meet primary diagnosis, age, and residence within 5 mile requirements and are enrolled&#xD;
+        in home hospital.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Was a subject in the Brigham and Women's Home Hospital study and has a completed record in&#xD;
+        the study's database.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Levine, MD MPH MA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associate Physician</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Faulkner Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Merrill RK, Ferrandino RM, Hoffman R, Shaffer GW, Ndu A. Machine Learning Accurately Predicts Short-Term Outcomes Following Open Reduction and Internal Fixation of Ankle Fractures. J Foot Ankle Surg. 2019 May;58(3):410-416. doi: 10.1053/j.jfas.2018.09.004. Epub 2019 Feb 23.</citation>
+    <PMID>30803914</PMID>
+  </reference>
+  <reference>
+    <citation>Li Q, Yao X, Échevin D. How Good Is Machine Learning in Predicting All-Cause 30-Day Hospital Readmission? Evidence From Administrative Data. Value Health. 2020 Oct;23(10):1307-1315. doi: 10.1016/j.jval.2020.06.009. Epub 2020 Sep 7.</citation>
+    <PMID>33032774</PMID>
+  </reference>
+  <reference>
+    <citation>Xue Y, Klabjan D, Luo Y. Predicting ICU readmission using grouped physiological and medication trends. Artif Intell Med. 2019 Apr;95:27-37. doi: 10.1016/j.artmed.2018.08.004. Epub 2018 Sep 10.</citation>
+    <PMID>30213670</PMID>
+  </reference>
+  <reference>
+    <citation>Morel D, Yu KC, Liu-Ferrara A, Caceres-Suriel AJ, Kurtz SG, Tabak YP. Predicting hospital readmission in patients with mental or substance use disorders: A machine learning approach. Int J Med Inform. 2020 Jul;139:104136. doi: 10.1016/j.ijmedinf.2020.104136. Epub 2020 Apr 18.</citation>
+    <PMID>32353752</PMID>
+  </reference>
+  <reference>
+    <citation>Loreto M, Lisboa T, Moreira VP. Early prediction of ICU readmissions using classification algorithms. Comput Biol Med. 2020 Mar;118:103636. doi: 10.1016/j.compbiomed.2020.103636. Epub 2020 Feb 1.</citation>
+    <PMID>32174313</PMID>
+  </reference>
+  <reference>
+    <citation>Bolourani S, Tayebi MA, Diao L, Wang P, Patel V, Manetta F, Lee PC. Using machine learning to predict early readmission following esophagectomy. J Thorac Cardiovasc Surg. 2021 Jun;161(6):1926-1939.e8. doi: 10.1016/j.jtcvs.2020.04.172. Epub 2020 May 29. Erratum in: J Thorac Cardiovasc Surg. 2020 Oct 17;:.</citation>
+    <PMID>32711985</PMID>
+  </reference>
+  <reference>
+    <citation>Arvind V, London DA, Cirino C, Keswani A, Cagle PJ. Comparison of machine learning techniques to predict unplanned readmission following total shoulder arthroplasty. J Shoulder Elbow Surg. 2021 Feb;30(2):e50-e59. doi: 10.1016/j.jse.2020.05.013. Epub 2020 Jun 9.</citation>
+    <PMID>32868011</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 19, 2021</study_first_posted>
+  <last_update_submitted>September 15, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 15, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>David Levine</investigator_full_name>
+    <investigator_title>Attending Physician</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

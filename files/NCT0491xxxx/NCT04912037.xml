@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04912037</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EA-21-005</org_study_id>
+    <nct_id>NCT04912037</nct_id>
+  </id_info>
+  <brief_title>A Study on the Effectiveness of AI-assisted Colonoscopy in Improving the Effect of Colonoscopy Training for Trainees</brief_title>
+  <official_title>A Study on the Effectiveness of Artificial Intelligence-assisted Colonoscopy in Improving the Effect of Colonoscopy Training for Trainees</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study,the AI-assisted system（EndoAngel）has the functions of reminding the ileocecal&#xD;
+      junction, withdrawal time, withdrawal speed, sliding lens, polyps in the field of vision,&#xD;
+      etc. These functions can improve the colonoscopy performance of novice physicians and assist&#xD;
+      the colonoscopy training。&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Colonoscopy is a key technique for detecting and diagnosing lesions of the lower digestive&#xD;
+      tract.High-quality endoscopy leads to better disease outcomes.However, the demand for&#xD;
+      endoscopy is high in China, and endoscopy is in short supply.A colonoscopy is a complex&#xD;
+      technical procedure that requires training and experience for maximal accuracy and&#xD;
+      safety.Therefore, it is of great significance to improve the colonoscopy ability of novice&#xD;
+      physicians and shorten the colonoscopy training time for solving the problems such as the&#xD;
+      lack and uneven distribution of digestive endoscopists and the substandard quality of&#xD;
+      endoscopy in China.&#xD;
+&#xD;
+      In recent years, deep learning algorithms have been continuously developed and increasingly&#xD;
+      mature.They have been gradually applied to the medical field. Computer vision is a science&#xD;
+      that studies how to make machines &quot;see&quot;. Through deep learning, camera and computer can&#xD;
+      replace human eyes to carry out machine vision such as target recognition, tracking and&#xD;
+      measurement.Interdisciplinary cooperation in the field of medical imaging and computer vision&#xD;
+      is also one of the research hotspots in recent years. At present, it is mainly applied to the&#xD;
+      automatic identification and detection of lesions and quality control, and has achieved good&#xD;
+      results.&#xD;
+&#xD;
+      Our preliminary experiments have shown that deep learning has a high accuracy in endoscopic&#xD;
+      quality monitoring, which can effectively regulate doctors' operations, reduce blind spots&#xD;
+      and improve the quality of endoscopic examination.At the same time, it can also monitor the&#xD;
+      doctor's withdrawal time in real time and improve the detection rate of adenoma.In the&#xD;
+      previous work of our research group, we have successfully developed deep learning-based&#xD;
+      colonoscopy withdraw speed monitoring and intestinal cleanliness assessment, and verified the&#xD;
+      effectiveness of the AI-assisted system（EndoAngel） in improving the quality of gastroscopy&#xD;
+      and colonoscopy in clinical trials.&#xD;
+&#xD;
+      Based on the above rich foundation of preliminary work, as well as the huge demand in the&#xD;
+      field of colonoscopy training,By comparing the colonoscopy operation training for novices&#xD;
+      with and without EndoAngel assistance, we plan to compare the colonoscopy learning effect of&#xD;
+      novices with and without assistance, including skill results and cognitive level, to explore&#xD;
+      whether AI can promote the improvement of the colonoscopy operation training for novices.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">June 1, 2021</start_date>
+  <completion_date type="Anticipated">February 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Double (Participant, Investigator)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>CUSUM learning curve for colonoscopy (ACE scoring scale)</measure>
+    <time_frame>From the beginning to the end of colonoscopy training</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Average test score difference before and after training</measure>
+    <time_frame>From the beginning to the end of colonoscopy training</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Detection rate of advanced adenoma</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the number of patients diagnosed with advanced adenomas, and the denominator is the total number of patients undergoing colonoscopy,Advanced adenoma was defined as &gt; 10mm adenoma, villous adenoma, tubular villous adenoma, high-grade intraepithelial neoplasia, and carcinoma.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Polyp Detection Rate, PDR</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the number of patients with polyps detected by colonoscopy, and the denominator is the total number of patients who underwent colonoscopy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average number of adenomas detected per patient</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the total number of adenomas detected by colonoscopy, and the denominator is the total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The detection rate of large, small and micro polyps</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the number of patients with large (≥10 mm), small (6-9 mm) and micro-small (≤5 mm) polyps detected by colonoscopy, and the denominator is the total number of patients receiving colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The average number of large, small and micro polyps detected</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the total number of large (≥10 mm), small (6-9 mm) and micro-small (≤5 mm) polyps detected by colonoscopy, and denominator is the total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The detection rate of large, small and micro adenomas</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the number of patients with large (≥10 mm), small (6-9 mm) and micro-small (≤5 mm) adenomas detected by colonoscopy, and the denominator is the total number of patients receiving colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The average number of large, small and micro adenomas detected</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the total number of large (≥10 mm), small (6-9 mm) and micro-small (≤5 mm) adenomas detected by colonoscopy, and denominator is the total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The detection rate of adenoma in different sites</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the number of patients with adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region and other sites during colonoscopy, and the denominator is the total number of patients receiving colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The average number of adenomas detected in different sites</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the total number of adenomas detected in the rectum, sigmoid colon, descending colon, transverse colon, ascending colon, ileocecal region and other sites during colonoscopy, and the denominator is the total number of patients undergoing colonoscopy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of missed return of the sliding endoscopy/number of successful return of the sliding endoscopy</measure>
+    <time_frame>A month</time_frame>
+    <description>The numerator is the total number of sliding endoscopy during colonoscopy, and the denominator is the number of sliding endoscopy and successful return endoscopy during colonoscopy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Real-time gut cleanliness score</measure>
+    <time_frame>During procedure</time_frame>
+    <description>During colonoscopy, a real-time intestinal cleanliness score was given by EndoAngel based on the Boston-scale Boreal Preparation Score (BBPS).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>withdraw overspeed percentage</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The ratio of the overspeed duration to the total duration in the process of withdrawal.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The withdraw time</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The time between colonoscopy arrival at ileocecal valve and colonoscopy exit from anus.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Ratio of ileocecal reach</measure>
+    <time_frame>A month</time_frame>
+    <description>For a period of time, the number of colonoscopies that failed to reach the ileocecal part accounted for the proportion of the total number of colonoscopies.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">385</enrollment>
+  <condition>Colonoscopy</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Gastrointestinal Disease</condition>
+  <arm_group>
+    <arm_group_label>with AI-assisted system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The novice doctors are trained in colonoscopy with an artificial intelligence assisted system that can indicate abnormal lesions and the speed of withdrawal in real time, as well as feedback on the percentage of overspeed.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>without AI-assisted system</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The novice doctors receive routine colonoscopy training without artificial intelligence assistance system and no special tips</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>artificial intelligence assistance system</intervention_name>
+    <description>the artificial intelligence assistance system can indicate abnormal lesions and real-time withdrawal speed, and feedback the overspeed percentage.</description>
+    <arm_group_label>with AI-assisted system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Male or female ≥50 years old;&#xD;
+&#xD;
+          2. Able to read, understand and sign informed consent&#xD;
+&#xD;
+          3. The investigator believes that the subjects can understand the process of the clinical&#xD;
+             study, are willing and able to complete all study procedures and follow-up visits, and&#xD;
+             cooperate with the study procedures&#xD;
+&#xD;
+          4. Patients requiring colonoscopy&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Have drug or alcohol abuse or mental disorder in the last 5 years&#xD;
+&#xD;
+          2. Pregnant or lactating women&#xD;
+&#xD;
+          3. Patients with known multiple polyp syndrome;&#xD;
+&#xD;
+          4. patients with known inflammatory bowel disease;&#xD;
+&#xD;
+          5. known intestinal stenosis or space-occupying tumor;&#xD;
+&#xD;
+          6. known colon obstruction or perforation;&#xD;
+&#xD;
+          7. patients with a history of colorectal surgery;&#xD;
+&#xD;
+          8. Patients with previous history of allergy to pre-used spasmolysis;&#xD;
+&#xD;
+          9. Unable to perform biopsy and polyp removal due to coagulation disorders or oral&#xD;
+             anticoagulants;&#xD;
+&#xD;
+         10. High risk diseases or other special conditions that the investigator considers the&#xD;
+             subject unsuitable for participation in the clinical trial.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yu w Honggang, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Renmin Hospital of Wuhan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yu W Honggang, Doctor</last_name>
+    <phone>+862788041911</phone>
+    <email>whdxrmyy@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yu Honggang, Doctor</last_name>
+    <phone>+862788041911</phone>
+    <email>whdxrmyy@126.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Renmin hospital of Wuhan University</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <zip>430000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Honggang Yu, Doctor</last_name>
+      <phone>+862788041911</phone>
+      <email>whdxrmyy@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 3, 2021</study_first_posted>
+  <last_update_submitted>May 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol, Statistical Analysis Plan, and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 18, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/37/NCT04912037/Prot_SAP_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

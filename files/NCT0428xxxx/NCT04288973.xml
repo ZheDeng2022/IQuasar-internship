@@ -1,0 +1,234 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04288973</url>
+  </required_header>
+  <id_info>
+    <org_study_id>653</org_study_id>
+    <nct_id>NCT04288973</nct_id>
+  </id_info>
+  <brief_title>Mother-Infant Interaction Kinect Analysis (MIIKA)</brief_title>
+  <acronym>MIIKA</acronym>
+  <official_title>EMPATIA@Lecco - Tavolo 13: Mother-Infant Interaction Kinect Analysis (MIIKA)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>IRCCS Eugenio Medea</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>IRCCS Eugenio Medea</source>
+  <brief_summary>
+    <textblock>
+      An innovative methodology is developed to better understand parent-infant relationships.&#xD;
+      RGB-D sensors (such as Microsoft Kinect) give us the opportunity of online skeleton&#xD;
+      extraction based on the joints architecture of human bodies. These technologies provide&#xD;
+      automatic quantitative information of dyadic play, in order to get micro and macro features&#xD;
+      of the dynamic flow occurring during the interaction. This methodology looks at both&#xD;
+      behavioral features and objective measurement of spatial proximity and variations during free&#xD;
+      and structured interactions.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      RATIONALE:&#xD;
+&#xD;
+      Children developmental outcomes are known to be shaped by the early context of care and&#xD;
+      caregiver-infant interaction: an early sensitive caregiving environment provides an optimal&#xD;
+      emotional context for children's early brain maturation. Consequently, the multilayered and&#xD;
+      complex interactional processes occurring between infants and their mothers is of vital&#xD;
+      importance for healthy developmental trajectories. Although mother-infant communication is&#xD;
+      expressed and regulated using multiple modalities, only few studies focused on the role of&#xD;
+      body movements within the dyadic communication. Observational instruments - such as PICCOLO&#xD;
+      (Parenting Interactions with Children-Checklist of Observations Linked to Outcomes) - are&#xD;
+      useful to get the outstanding characteristics of the dynamicity and complexity of&#xD;
+      parent-infant relationships, but advances in technology allows us to analyze the flow of&#xD;
+      movements characterizing information exchanges in the bidirectional process of the&#xD;
+      parent-infant relationship. Spatial proximity is a core aspect of early dyadic relationships.&#xD;
+      The temporal and spatial reliability of automatic and computational methods, together with&#xD;
+      the decreasing costs of technology, are paving the way to the intersection of behavioral and&#xD;
+      technological techniques in both clinical and research fields. Nevertheless, to the best of&#xD;
+      our knowledge, kinematic full skeleton registration of mother-infant interaction in a&#xD;
+      free-play setting with children 18-36 months has not yet been explored both in at-typical and&#xD;
+      atypical development dyads. Indeed, previous studies assessed social interactions using&#xD;
+      automatic and computational methods, but mostly focusing on gesture and posture, gaze and&#xD;
+      mimics, quantity of body, facial and hand movements.&#xD;
+&#xD;
+      SPECIFIC AIM 1: To identify spatial proximity features during free and structured dyadic&#xD;
+      interaction of typical development dyads and its association with mother and infant&#xD;
+      characteristics EXPERIMENTAL DESIGN AIM 1: mother-infant dyads will be asked to play within a&#xD;
+      specific perimeter that correspond to the detection area of Microsoft Kinect. The play&#xD;
+      session is divided into 3 phases: (1) free play. Some standard toys are positioned on the&#xD;
+      floor. (2) tower-task: mother and child are asked to play in order to build a tower with some&#xD;
+      cubes. (3) Empathy task: the mother is asked to pretend to hurt herself until a &quot;stop&quot; signal&#xD;
+      from the experimenter. Each session will be videotaped and data from Microsoft Kinect will be&#xD;
+      detected. Mothers will be asked to answer some questionnaires and expert coders will do&#xD;
+      behavioral coding with PICCOLO. Spatial proximity measures will be developed through&#xD;
+      algorithms able to extract, from Kinect row data, measures of approaches and separations of&#xD;
+      the dyad and mother and child's reciprocal contributions SPECIFIC AIM 2: to understand&#xD;
+      differences regarding the use of spatial proximity and reciprocal contributions of mother and&#xD;
+      infant both in typical and atypical dyads EXPERIMENTAL DESIGN AIM 2: children with&#xD;
+      neurodevelopmental disabilities and their mothers will be asked to play in the same setting&#xD;
+      explained in &quot;experimental design 1&quot;. Data and proximity patterns that will emerge from&#xD;
+      typical development dyads will be compared to proximity patterns of atypical development&#xD;
+      children dyads, in order to understand how neurodevelopmental disabilities affect&#xD;
+      mother-infant interaction from a spatial and motor point of view.&#xD;
+&#xD;
+      SIGNIFICANCE AND INNOVATION Although mother-infant communication is expressed and regulated&#xD;
+      using multiple modalities, only few studies focused on the role of body movements and spatial&#xD;
+      proximity within dyadic communication. This study wants to develop and test an innovative&#xD;
+      methodology based on RGB-D sensors applied to the setting of free parent-infant interaction.&#xD;
+      Automatic quantitative information of the dyad will provide micro and macro features of the&#xD;
+      dynamic flow occurring during the interaction. Thus, automatic quantitative information will&#xD;
+      supplement behavioral assessments, enriching these observations with objective measurement of&#xD;
+      spatial proximity and variations during free and structured interactions.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 11, 2019</start_date>
+  <completion_date type="Anticipated">December 30, 2021</completion_date>
+  <primary_completion_date type="Actual">May 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Proximity features identification</measure>
+    <time_frame>Mother-infant interaction occurs when the chld is between 18-36 months of age (6 months after the enrollment, that occurs betrween 12-18 months of age of the child)</time_frame>
+    <description>identification, using Microsoft Kinect, of patterns that are typical of mother-infant interaction in the context of both typical development and developmental neurodisability. Patterns are extracted thanks to the generation of an algorithm that is able to extract data provided by Miscrosoft Kinect</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Integration of automatic computational metrics obtained by the kinect data extraction with behavioral assessment made through PICCOLO observational checklist</measure>
+    <time_frame>Mother-infant interaction occurs when the child is between 18-36 months of age (6 months after the enrollment, that occurs betrween 12-18 months of age of the child)</time_frame>
+    <description>to compare and integrate automatic computational metrics extracted from Microsoft Kinect with behavioral assessments of the interaction. PICCOLO (Parenting Interactions with Children: Checklist of Observations Linked to Outcomes) is the validated observational tool used for the assessment of the mother-infant interaction. The parenting skills profile obtained from PICCOLO will be paired to metrics extracted from Microsoft Kinect, facilitating and objectivizing features of the mother-infant interaction.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Developmental Disability</condition>
+  <condition>Parent Child Relationship</condition>
+  <arm_group>
+    <arm_group_label>Typical development children</arm_group_label>
+    <description>Control sample</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Children with developmental disability</arm_group_label>
+    <description>Clinical sample</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Microsoft Kinect Detection during mother child interaction</intervention_name>
+    <description>methodology based on RGB-D sensors applied to the setting of free parent-infant interaction</description>
+    <arm_group_label>Children with developmental disability</arm_group_label>
+    <arm_group_label>Typical development children</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Clinical population is enrolled from the hospital unit. Control population is enrolled from&#xD;
+        kindergarten.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        clinical sample&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Chronological age 18-36 months&#xD;
+&#xD;
+          -  IQ &gt;= 60&#xD;
+&#xD;
+          -  Autonomous walk&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        - ASD diagnosis&#xD;
+&#xD;
+        control sample&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Chronological age 18-36 months&#xD;
+&#xD;
+          -  At term birth&#xD;
+&#xD;
+        Exclusion criteria&#xD;
+&#xD;
+          -  previous hospitalization&#xD;
+&#xD;
+          -  psychopathologies&#xD;
+&#xD;
+        Mothers Inclusion criteria&#xD;
+&#xD;
+          -  &gt; 18 y.o. Exclusion criteria&#xD;
+&#xD;
+          -  intellectual disability&#xD;
+&#xD;
+          -  psychopathologies&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Months</minimum_age>
+    <maximum_age>36 Months</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Rosario Montirosso, PsyD</last_name>
+    <phone>+39 031877494</phone>
+    <email>rosario.montirosso@lanostrafamiglia.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Fabio A Storm, PhD</last_name>
+    <phone>+39 031877862</phone>
+    <email>fabio.storm@lanostrafamiglia.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>IRCCS E. Medea</name>
+      <address>
+        <city>Bosisio Parini</city>
+        <state>Lecco</state>
+        <zip>23842</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rosario Montirosso, PsyD</last_name>
+      <phone>+39-031-877494</phone>
+      <email>rosario.montirosso@lanostrafamiglia.it</email>
+    </contact>
+    <contact_backup>
+      <last_name>Fabio A Storm, PhD</last_name>
+      <phone>+39031877862</phone>
+      <email>fabio.storm@lanostrafamiglia.it</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>February 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2020</study_first_posted>
+  <last_update_submitted>June 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>mother-infant relationship</keyword>
+  <keyword>technologies</keyword>
+  <keyword>disability</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Developmental Disabilities</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

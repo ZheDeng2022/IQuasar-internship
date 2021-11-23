@@ -1,0 +1,246 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04637230</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20-139</org_study_id>
+    <nct_id>NCT04637230</nct_id>
+  </id_info>
+  <brief_title>Prevention of Stroke and Sudden Cardiac Death by Recording of 1-Channel Electrocardiograms</brief_title>
+  <acronym>PRICE</acronym>
+  <official_title>Prevention of Stroke and Sudden Cardiac Death by Recording of 1-Channel Electrocardiograms</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>A-Rhythmik GmbH</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Lanserhof</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Single-channel electrocardiograms (lead I of 12-lead surface ECG; 30 seconds) will be&#xD;
+      collected from subjects/patients at 11 clinical centers in Germany to train an Artificial&#xD;
+      Intelligence in the automatic diagnosis of regular and irregular heart rhythms. Heart rhythms&#xD;
+      of interest are normal sinus rhythm (SR), atrial fibrillation (AF), atrial premature beats&#xD;
+      (APBs), ventricular premature beats (VPBs), and nonsustained ventricular tachycardia (VT).&#xD;
+      Per diagnosis, 20,000 ECGs are required, for a total of 100,000 ECGs to be obtained from&#xD;
+      approximately 10,000 subjects/patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In phase 1 of a research project titled 'Prevention of stroke and sudden cardiac death by&#xD;
+      Recording of 1-Channel Electrocardiograms' (PRICE), a total of 100,000 30-sec single-channel&#xD;
+      ECGs (lead I of 12-lead surface ECG) will be collected from approximately 10,000&#xD;
+      subjects/patients at 11 participating clinical centers in Germany. Relevant baseline clinical&#xD;
+      patient characteristics will also be recorded. The ECGs, diagnosed by an experienced&#xD;
+      electrophysiologist (diagnostic gold standard), will be fed into an Artificial Intelligence&#xD;
+      (AI) for the automatic detection of normal sinus rhythm (SR), atrial fibrillation (AF),&#xD;
+      atrial premature beats (APBs), ventricular premature beats (VPBs), and nonsustained&#xD;
+      ventricular tachycardia (VT). It is expected that the overall diagnostic accuracy of the AI&#xD;
+      against an experienced electrophysiologist will be on the order of 95%.&#xD;
+&#xD;
+      In PRICE phase 2, ECG diagnosis by the AI will be compared with the diagnosis by 3 general&#xD;
+      cardiologists of the same ECGs. It is expected that the AI will surpass the general&#xD;
+      cardiologists in terms of diagnostic accuracy.&#xD;
+&#xD;
+      The final clinical phase of the PRICE project will comprise a randomized controlled community&#xD;
+      trial of risk patients to establish the superiority in stroke prevention of AI detection of&#xD;
+      AF on smart-watch ECGs vs. no AF detection.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Day</target_duration>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of AI</measure>
+    <time_frame>1 year</time_frame>
+    <description>Overall diagnostic accuracy of the AI in the diagnosis of normal SR, AF, APBs, VPBs, and nonsustained VT (gold standard: diagnosis by experienced electrophysiologist)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG R-R interval</measure>
+    <time_frame>Immediate</time_frame>
+    <description>30-sec mean and standard deviation of R-R intervals</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG QRS-complex duration</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Measurement of width/duration of QRS complex; distinction between &quot;narrow&quot; (&lt;=110ms) and &quot;wide&quot; (&gt;110ms)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG QRS-complex fragmentation</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Assessment of presence (&quot;Yes&quot;) or absence (&quot;No&quot;) of QRS-complex fragmentation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG QTc interval</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Calculation of heart rate corrected QT interval (QTc) via Bazett formula from measured QT interval</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG T wave inversion</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Assessment of presence (&quot;Yes&quot;) or absence (&quot;No&quot;) of T wave inversion</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>ECG P wave</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Assessment of presence (&quot;Yes&quot;) or absence (&quot;No&quot;) of P wave on ECG; measurement of P-wave duration (in ms)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ECG PQ interval</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Measurement of PQ interval (onset of P wave to onset of Q wave) on ECG</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ECG QT interval</measure>
+    <time_frame>Immediate</time_frame>
+    <description>Measurement of QT interval (onset of Q wave to end of T wave) on ECG</description>
+  </secondary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Sinus Rhythm</condition>
+  <condition>Atrial Fibrillation</condition>
+  <condition>Atrial Premature Complexes</condition>
+  <condition>Ventricular Premature Complexes</condition>
+  <condition>Ventricular Tachycardia, Nonsustained</condition>
+  <arm_group>
+    <arm_group_label>Sinus Rhythm</arm_group_label>
+    <description>Subjects/patients in normal sinus rhythm</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Atrial Fibrillation</arm_group_label>
+    <description>Patients with atrial fibrillation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Atrial Premature Complexes</arm_group_label>
+    <description>Patients with atrial premature complexes in between sinus beats</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ventricular Premature Complexes</arm_group_label>
+    <description>Patients with ventricular premature complexes in between sinus beats</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ventricular Tachycardia, Nonsustained</arm_group_label>
+    <description>Patients with episodes of nonsustained ventricular tachycardia in between sinus beats</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Electrocardiogram analysis by Artificial Intelligence</intervention_name>
+    <description>1-channel electrocardiograms are collected to train an Artificial Intelligence in the automatic diagnosis of regular and irregular heart rhythms</description>
+    <arm_group_label>Atrial Fibrillation</arm_group_label>
+    <arm_group_label>Atrial Premature Complexes</arm_group_label>
+    <arm_group_label>Sinus Rhythm</arm_group_label>
+    <arm_group_label>Ventricular Premature Complexes</arm_group_label>
+    <arm_group_label>Ventricular Tachycardia, Nonsustained</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients from tertiary care centers&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Heart rhythm of interest present on ECG&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient incapable of or not willing to sign informed consent form&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Karl-Heinz Kuck, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Universitäres Herzzentrum, Lübeck, Germany</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Karl-Heinz Kuck, MD</last_name>
+    <phone>+49451 500 75301</phone>
+    <email>karl-heinz.kuck@uksh.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Michael Schlüter, PhD</last_name>
+    <phone>+49172 4089325</phone>
+    <email>meos04@gmx.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Universitäres Herzzentrum, Lübeck, Germany</name>
+      <address>
+        <city>Lübeck</city>
+        <zip>23538</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Roza Saraei, PhD</last_name>
+      <phone>+49451 500 44542</phone>
+      <email>roza.saraei@uksh.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Michael Schlüter, PhD</last_name>
+      <phone>+49172 408 9325</phone>
+      <email>meos04@gmx.de</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Roland R. Tilz, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>November 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 19, 2020</study_first_posted>
+  <last_update_submitted>August 31, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 31, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Automated ECG diagnosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Premature Birth</mesh_term>
+    <mesh_term>Atrial Fibrillation</mesh_term>
+    <mesh_term>Tachycardia</mesh_term>
+    <mesh_term>Tachycardia, Ventricular</mesh_term>
+    <mesh_term>Death, Sudden, Cardiac</mesh_term>
+    <mesh_term>Ventricular Premature Complexes</mesh_term>
+    <mesh_term>Atrial Premature Complexes</mesh_term>
+    <mesh_term>Death</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,429 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04685083</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020VIMT</org_study_id>
+    <nct_id>NCT04685083</nct_id>
+  </id_info>
+  <brief_title>Research on Voice Intelligent Monitoring Technology for Early Warning of Recurrence of Depression Disorder</brief_title>
+  <official_title>Research on Voice Intelligent Monitoring Technology for Early Warning of Recurrence of Depression Disorder</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Mental Health Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Mental Health Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to collect the voice output of depression patients and healthy subjects,&#xD;
+      extract the acoustic and semantic parameters, compare the similarities and differences&#xD;
+      between the depression group and the healthy control group horizontally, and track the&#xD;
+      depression patients' changes in the rehabilitation stage to construct a voice-based early&#xD;
+      warning model of depression recurrence. At the same time, the use of EEG technology, nuclear&#xD;
+      magnetic resonance and near-infrared brain imaging technology to record and analyze the&#xD;
+      neural activity characteristics behind the voice variation of depression patients, and build&#xD;
+      a neural mechanism model. And construct the facial recognition function through the&#xD;
+      convolutional neural network, extract the facial parameters to enrich the intelligent&#xD;
+      monitoring and early warning technology.&#xD;
+&#xD;
+        1. Collect linguistic data of depression patients and healthy people collected in the&#xD;
+           laboratory, as well as data related to changes in the condition of depression patients&#xD;
+           in daily life and home care after treatment, and construct comparative data and dynamic&#xD;
+           observations Large database to analyze its voice mutation characteristics;&#xD;
+&#xD;
+        2. Using EEG technology, nuclear magnetic resonance, and near-infrared brain imaging to&#xD;
+           record and analyze the neural activity characteristics behind the voice variation of&#xD;
+           depression patients, and build a neural mechanism model.&#xD;
+&#xD;
+        3. Use the convolutional neural network to realize the facial recognition function, and&#xD;
+           extract the facial parameters to enrich the monitoring indicators.&#xD;
+&#xD;
+        4. Based on the dynamic observation big data of depression speech mutation, construct the&#xD;
+           speech feature parameter vector of depression recurrence, and use adaptive personalized&#xD;
+           intelligent learning algorithm to develop intelligent monitoring and early warning&#xD;
+           technology.&#xD;
+&#xD;
+        5. Establish monitoring and diagnostic indicators for recurrence early warning, verify the&#xD;
+           application of the above-mentioned intelligent monitoring and early warning technology&#xD;
+           in rehabilitation guidance, and make a comprehensive assessment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Case control study Clinical symptoms, speech behavior test, EEG data, near-infrared brain&#xD;
+      imaging data and facial expression data are collected from three groups of subjects&#xD;
+      (consolidation/maintenance depression patient group, acute episode depression patient group&#xD;
+      and healthy alternatives), In terms of magnetic resonance data and other aspects, compare the&#xD;
+      similarities and differences of the data of the three groups of subjects.&#xD;
+&#xD;
+      Follow up research The acute-onset patient group will receive follow-up every two weeks for&#xD;
+      three months, and then continue in June, September, December, 18 and 24 months.&#xD;
+      Consolidation/maintenance patients and healthy patients will receive follow-up evaluations in&#xD;
+      March, June, September, December, 18 and 24 months after enrollment. The content includes&#xD;
+      clinical symptom assessment, behavioral testing, EEG testing, near infrared testing, etc. The&#xD;
+      time points of cranial imaging detection are 0, March, December and 24 months. In the&#xD;
+      laboratory, if the subject agrees to collect language information in the patient's real life&#xD;
+      environment.&#xD;
+&#xD;
+      Evaluation and inspection items&#xD;
+&#xD;
+        1. Clinical scale evaluation&#xD;
+&#xD;
+        2. Speech Behavior Test Using speech production paradigm, semantic feature task, emotional&#xD;
+           prosody perception paradigm and emotional vocabulary paradigm to comprehensively detect&#xD;
+           the language perception, comprehension and output of patients with depression to find&#xD;
+           objective indicators of speech mutation. Voice detection includes short-term energy&#xD;
+           (Max, Min, Mean), pitch (Max, Min, Mean), voice speed, number of voice interruptions,&#xD;
+           short-term zero-crossing rate (Max, Min, Mean), first formant, first Two formants,&#xD;
+           12-order MFCC (12 coefficients) and other parameters. The experiment is carried out in a&#xD;
+           well-lit and quiet room. Before the experiment, the subject will explain the experiment&#xD;
+           process to the subjects. After the experiment, in order to avoid interference, the&#xD;
+           subject should leave the room. The whole process of the experiment was in the same&#xD;
+           computer program, and the subjects responded according to the task requirements on the&#xD;
+           screen.&#xD;
+&#xD;
+           2.1 Speech and video production paradigm The speech and video output paradigm used in&#xD;
+           this study includes five tasks: interview, short text reading, recitation, picture&#xD;
+           description and video viewing. The video viewing task is only used for facial video data&#xD;
+           collection. The experiment is written and run using E-prime 2.0 software. Participants&#xD;
+           completed five speech production tasks accordingly, and recorded their voices and facial&#xD;
+           expressions throughout the experiment to obtain speech and video data.&#xD;
+&#xD;
+           2.2 Semantic processing tasks The semantic processing task is used to compare the&#xD;
+           abilities of depressed patients and healthy subjects in speech processing, semantic&#xD;
+           coding and extraction, and speech fluency, and explore more comprehensively the early&#xD;
+           warning indicators of the recurrence of depression.&#xD;
+&#xD;
+        3. Magnetic resonance examination The Siemens 3.0T magnetic resonance scanner is used,&#xD;
+           which is a 32-channel head coil. Before scanning, use a foam cushion to fix the head to&#xD;
+           avoid head movement during scanning. The scanning sequence is: first routine scan to&#xD;
+           obtain the T1-weighted positioning image of the whole brain 3D structure, then use the&#xD;
+           fast gradient echo imaging sequence to perform sagittal scan of the whole brain for&#xD;
+           three-dimensional reconstruction and spatial registration, and finally use plane echo (&#xD;
+           EPI) sequence for blood oxygen dependent BOLD-fMRI imaging (resting state and task&#xD;
+           state).&#xD;
+&#xD;
+        4. Functional near infrared spectroscopy Using Shimadzu lighnirs portable near-infrared&#xD;
+           brain imager, the sampling rate was set to 0.1s, and the oxygenated hemoglobin&#xD;
+           concentration (HbO), deoxyhemoglobin concentration (HbR) and total oxygen content (HbT)&#xD;
+           were used as measurement indicators. Since language processing is mainly in the frontal&#xD;
+           and temporal lobes, the probe layout covers the lateral fronto-temporal complex area.&#xD;
+           After the fNIRS test, a 3D locator is used to locate the brain area. The positions of&#xD;
+           the transmitter and the detector will be referenced to the Brodmann partition, and the&#xD;
+           fNIRS channel position will be registered with the probability of the MNI space. The&#xD;
+           subjects in the fNIRS examination need to complete the speech output paradigm and&#xD;
+           semantic feature tasks. The experiment adopts a block design, the stimulation sequence&#xD;
+           is written by E-prime software, and the stimulation program programmed by the computer&#xD;
+           is presented on the computer display screen (approximately 55cm from the subject).&#xD;
+           Before the start of the experiment, the subjects should wear an optode cap to ensure&#xD;
+           that the signals of each channel are received normally. At the beginning of the&#xD;
+           experiment, the screen showed &quot;+&quot;, and the subjects only need to watch the screen and&#xD;
+           try to stay calm as much as possible; then complete the relevant behavioral tests, and&#xD;
+           the subjects can complete according to the instructions. The entire experiment lasted&#xD;
+           about 25 minutes. The subjects collected near-infrared brain signals and voice data&#xD;
+           online while completing the task.&#xD;
+&#xD;
+        5. EEG examination Use Brainproducts liveamp portable EEG equipment to conduct EEG&#xD;
+           examination in two stages: resting state and voice task state. In the resting state EEG&#xD;
+           collection stage, after the subjects put on the EEG collection equipment, sit on a&#xD;
+           comfortable chair, close their eyes and stay awake, and collect the resting EEG for 5&#xD;
+           minutes. In the voice task stage, the subject wears an EEG device and sits in front of&#xD;
+           the computer screen. According to the instructions displayed on the screen, the voice&#xD;
+           production paradigm and semantic feature tasks are performed accordingly. The microphone&#xD;
+           will simultaneously record the subject's voice. The experimental program is written&#xD;
+           using e-prime2.0.&#xD;
+&#xD;
+        6. Other physiological tests Physiological indicators (including heart rate, blood&#xD;
+           pressure, weight, height, etc.), environmental indicators (including weather,&#xD;
+           temperature, environmental noise, ultraviolet intensity, human comfort, etc.), Cambridge&#xD;
+           Neuropsychological Test Automatic Battery (CANTAB) The gait test during natural walking,&#xD;
+           the eye movement during task and facial expression information will be performed once in&#xD;
+           baseline, March, June, September, December, 18 and 24 respectively.&#xD;
+&#xD;
+        7. Feasibility and specificity analysis of multiple detection methods This study uses&#xD;
+           multiple detection methods, including clinical scale evaluation, language testing, and&#xD;
+           neurophysiological examination. The purpose is to comprehensively and systematically&#xD;
+           collect subjects' linguistic related information to better develop and develop voice&#xD;
+           intelligent detection technology. application.&#xD;
+&#xD;
+      Multiple detection methods are feasible. Clinical scales are implemented by trained&#xD;
+      researchers, language-related paradigms are implemented by computer programs, and&#xD;
+      neurophysiological testing techniques are operated by experimenters. All detection methods&#xD;
+      and methods are widely used in clinical research and are feasible.&#xD;
+&#xD;
+      Statistical analysis plan, definition and selection of statistical analysis data set&#xD;
+&#xD;
+        1. Statistical analysis data set Full analysis set (FAS, Full analysis set): People who&#xD;
+           have undergone at least one clinical scale evaluation, voice collection,&#xD;
+           neurophysiological data, and major index evaluation data after enrollment. Cases with&#xD;
+           missing baseline data for the main evaluation indicators will be excluded.&#xD;
+&#xD;
+           Per Protocol Set (PPS, Per Protocol Set): On the basis of FAS, cases that meet the&#xD;
+           inclusion and exclusion criteria, have a valid baseline value, have good compliance, and&#xD;
+           do not violate the clinical research protocol.&#xD;
+&#xD;
+           The curative effect analysis uses both the full analysis set and the conforming plan&#xD;
+           set, and the FAS result is the main one.&#xD;
+&#xD;
+        2. Data description Observe whether the data conforms to the normal distribution, if not,&#xD;
+           modify the statistical method or perform data conversion. Observe whether there are&#xD;
+           outliers and missing values, and perform statistical and professional analysis to&#xD;
+           determine the choice and the way of filling the missing values. Descriptive statistics&#xD;
+           indicate the mean, standard deviation, maximum, minimum, credible interval, frequency,&#xD;
+           composition ratio, etc.&#xD;
+&#xD;
+        3. Statistical inference methods Measurement data adopt t test, paired t test, rank sum&#xD;
+           test, paired rank sum test, median test and other methods. Counting data: Chi-square&#xD;
+           test, Fisher's exact test, etc.; grade data using Ridit analysis, CMH method. Use&#xD;
+           machine learning algorithms such as Support Vector Machine (SVM), Dynamic Bayesian&#xD;
+           Network (DBN) and Deep Neural Networks (DNN) for speech and video data.&#xD;
+&#xD;
+        4. Statistical expression The report is mainly expressed in tables, with table titles,&#xD;
+           table notes, and number of cases. In addition to the statistical results of the&#xD;
+           comparison between the groups, the statistical parameter diagrams and other icons are&#xD;
+           attached to increase the readability.&#xD;
+&#xD;
+        5. Statistical software Use SPSS22.0, Matlab software (v2014a) and NIRS-SPM (Statistical&#xD;
+           Parametric Mapping for Near-infrared Spectroscopy) software for parameter statistics&#xD;
+           (t-test, analysis of variance, etc.) and non-parametric statistics (rank sum test,&#xD;
+           chi-square test) Etc.), using two-sided tests, P less than or equal to 0.05 is&#xD;
+           considered statistically significant.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 31, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Acoustic parameters</measure>
+    <time_frame>2022.6</time_frame>
+    <description>Acoustic parameters of depression patients and healthy subjects are extracted through voice recording.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neural activity parameters of EEG</measure>
+    <time_frame>2022.6</time_frame>
+    <description>Neural activity parameters of depression patients and healthy subjects are extracted through EEG technology.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neural activity parameters of MRI</measure>
+    <time_frame>2022.6</time_frame>
+    <description>Neural activity parameters of depression patients and healthy subjects are extracted through MRI.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neural activity parameters of near-infrared brain imaging</measure>
+    <time_frame>2022.6</time_frame>
+    <description>Neural activity parameters of depression patients and healthy subjects are extracted through near-infrared brain imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Facial action parameters of facial expression recognition technology</measure>
+    <time_frame>2022.6</time_frame>
+    <description>The facial expression recognition technology is implemented by convolutional neural network to extract facial action parameters.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">240</enrollment>
+  <condition>Depressive Disorder</condition>
+  <arm_group>
+    <arm_group_label>Patients with Depression in consolidation phase</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with Depression in acute onset</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy subjects</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        It is planned to collect 80 patients with depression in the consolidating stage, 80&#xD;
+        patients with depression in the acute stage, and 80 healthy controls recruited by&#xD;
+        advertisement in the psychological consultation clinic and psychiatric clinic of Shanghai&#xD;
+        Mental Health Center.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients with depression in the consolidation/maintenance phase&#xD;
+&#xD;
+               1. 18-65 years old, no gender limit;&#xD;
+&#xD;
+               2. Meet the DSM-5 diagnostic criteria for depression;&#xD;
+&#xD;
+               3. Currently in the consolidation/maintenance phase, with stable condition, HAMD-17&#xD;
+                  &lt;7 points;&#xD;
+&#xD;
+               4. Patients and their guardians understand the nature of this study and sign an&#xD;
+                  informed consent form.&#xD;
+&#xD;
+               5. Have sufficient audiovisual level to complete the necessary inspections for&#xD;
+                  research;&#xD;
+&#xD;
+               6. Han nationality&#xD;
+&#xD;
+               7. Willing to participate in this research;&#xD;
+&#xD;
+               8. Education level is junior high school and above.&#xD;
+&#xD;
+          2. Patients with depression in acute onset:&#xD;
+&#xD;
+               1. 18-65 years old, no gender limit;&#xD;
+&#xD;
+               2. Meet the DSM-5 diagnostic criteria for depression;&#xD;
+&#xD;
+               3. Currently in depressive episode, HAMD-17&gt;17 points;&#xD;
+&#xD;
+               4. Patients and their guardians understand the nature of this study and sign an&#xD;
+                  informed consent form.&#xD;
+&#xD;
+               5. Have sufficient audiovisual level to complete the necessary inspections for&#xD;
+                  research;&#xD;
+&#xD;
+               6. Han nationality&#xD;
+&#xD;
+               7. Willing to participate in this research;&#xD;
+&#xD;
+               8. Education level is junior high school and above.&#xD;
+&#xD;
+          3. Healthy control subjects&#xD;
+&#xD;
+               1. 18-65 years old, no gender limit;&#xD;
+&#xD;
+               2. Depressive symptoms have never occurred, and it does not meet the DSM-5&#xD;
+                  diagnostic criteria for depression or other mental disorders;&#xD;
+&#xD;
+               3. No history of taking psychiatric drugs;&#xD;
+&#xD;
+               4. Have sufficient audiovisual level to complete the necessary inspections for&#xD;
+                  research;&#xD;
+&#xD;
+               5. Willing to participate in this research;&#xD;
+&#xD;
+               6. Education level is junior high school and above.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients with depression in the consolidation/maintenance phase&#xD;
+&#xD;
+               1. Patients with severe brain diseases and other severe physical diseases;&#xD;
+&#xD;
+               2. Diagnosis of other mental diseases such as schizophrenia and bipolar disorder;&#xD;
+&#xD;
+               3. There are negative beliefs or a higher risk of suicide;&#xD;
+&#xD;
+               4. People who are addicted to psychoactive substances such as alcohol or drugs;&#xD;
+&#xD;
+               5. Women who are pregnant or about to become pregnant recently, and women who are&#xD;
+                  breastfeeding;&#xD;
+&#xD;
+               6. There are metal implants in the body: there is a pacemaker, intracranial silver&#xD;
+                  clip, metal denture, arterial stent, arterial clip, joint metal fixation, or&#xD;
+                  other metal implant conditions, or non-right-handed (this standard (Only for MRI&#xD;
+                  testers);&#xD;
+&#xD;
+               7. Failure to sign or refuse to sign the informed consent form.&#xD;
+&#xD;
+          2. Patients with depression in acute onset:&#xD;
+&#xD;
+               1. Patients with severe brain diseases and other severe physical diseases;&#xD;
+&#xD;
+               2. Diagnosis of other mental diseases such as schizophrenia and bipolar disorder;&#xD;
+&#xD;
+               3. There are negative beliefs or a higher risk of suicide;&#xD;
+&#xD;
+               4. People who are addicted to psychoactive substances such as alcohol or drugs;&#xD;
+&#xD;
+               5. Women who are pregnant or about to become pregnant recently, and women who are&#xD;
+                  breastfeeding;&#xD;
+&#xD;
+               6. There are metal implants in the body: there is a pacemaker, intracranial silver&#xD;
+                  clip, metal denture, arterial stent, arterial clip, joint metal fixation, or&#xD;
+                  other metal implant conditions, or non-right-handed (this standard (Only for MRI&#xD;
+                  testers);&#xD;
+&#xD;
+               7. Failure to sign or refuse to sign the informed consent form.&#xD;
+&#xD;
+          3. Healthy control subjects:&#xD;
+&#xD;
+               1. Two lines and three generations of mental illness history;&#xD;
+&#xD;
+               2. There are negative beliefs or a higher risk of suicide;&#xD;
+&#xD;
+               3. Serious brain diseases and other severe physical diseases;&#xD;
+&#xD;
+               4. Pregnant and lactating women;&#xD;
+&#xD;
+               5. History of exposure to psychoactive substances such as alcohol or drugs;&#xD;
+&#xD;
+               6. Failure to sign or refuse to sign the informed consent form.&#xD;
+&#xD;
+               7. There is a metal implant in the body: there is a pacemaker, intracranial silver&#xD;
+                  clip, metal denture, arterial stent, arterial clip, joint metal fixation, or&#xD;
+                  other metal implant conditions, etc. (this standard is limited to MRI testers ).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Qing Fan</last_name>
+    <phone>13916436072</phone>
+    <email>fanqing_98@vip.sina.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Shanghai Mental Health Center</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200030</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Qing Fan</last_name>
+      <phone>13916436072</phone>
+      <email>fanqing_98@vip.sina.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 28, 2020</study_first_posted>
+  <last_update_submitted>May 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Recurrence</mesh_term>
+    <mesh_term>Depressive Disorder</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

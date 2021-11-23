@@ -1,0 +1,176 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04796987</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KAEK/2020.07.129</org_study_id>
+    <nct_id>NCT04796987</nct_id>
+  </id_info>
+  <brief_title>Convolutional Neural Network for the Detection of Cervical Myelomalacia</brief_title>
+  <official_title>Convolutional Neural Network for the Detection of Cervical Myelomalacia on Magnetic Resonance Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istanbul University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Istanbul University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Deep learning technology has been used increasingly in spine surgery as well as in many&#xD;
+      medical fields. However, it is noticed that most of the studies about this subject in the&#xD;
+      literature have been conducted except of the cervical spine. In this study, we aimed to&#xD;
+      demonstrate the effectiveness of the deep learning algorithm in the diagnosis of cervical&#xD;
+      myelomalacia compared to conventional diagnostic methods.&#xD;
+&#xD;
+      Artificial neural networks, a machine learning technique, have been used in several&#xD;
+      industrial and research fields increasingly. The development of computational units and the&#xD;
+      increasing amount of data led to the development of new methods on artificial neural networks&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cervical myelopathy (CM) is a frequent degenerative disease of the cervical spine that occurs&#xD;
+      as a result of compression of the spinal cord. In evaluating of this disease and determining&#xD;
+      treatment options, the patient's clinic and radiological modalities should be evaluated&#xD;
+      together.&#xD;
+&#xD;
+      The current imaging procedures for CM are plain roentgenograms, computed tomography and&#xD;
+      magnetic resonance imaging (MRI). However, MRI in CM is more valuable in evaluating of the&#xD;
+      disc, spinal cord and other soft tissues compared to other imaging methods. Artificial&#xD;
+      intelligence technologies also used in many health applications such as medical image&#xD;
+      analysis, biological signal analysis, etc. In this study, we aimed to demonstrate the&#xD;
+      effectiveness of the deep learning algorithm in the diagnosis of cervical myelomalacia&#xD;
+      compared to conventional diagnostic methods.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 15, 2021</start_date>
+  <completion_date type="Actual">April 22, 2021</completion_date>
+  <primary_completion_date type="Actual">April 22, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The value of confusion matrix accuracy for sagittal views</measure>
+    <time_frame>1 day</time_frame>
+    <description>It is a specific table layout that allows visualization of the performance of an algorithm.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The value of confusion matrix accuracy for axial views</measure>
+    <time_frame>1 day</time_frame>
+    <description>It is a specific table layout that allows visualization of the performance of an algorithm.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">125</enrollment>
+  <condition>Cervical Myelopathy</condition>
+  <arm_group>
+    <arm_group_label>cervical myelopathy</arm_group_label>
+    <description>MR images of patients with cervical myelopathy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>normal</arm_group_label>
+    <description>normal section of the MRI of patients with cervical myelopathy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Convolutional Neural Network</intervention_name>
+    <description>Convolutional neural networks, a machine learning technique, have been used in several industrial and research fields increasingly. The development of computational units and the increasing amount of data led to the development of new methods on artificial neural networks. Deep learning (DL) is a multi-layered neural network in which feature extraction is done automatically. It extends traditional neural networks by adding more hidden layers to the network architecture between the input and output layers to model more complex and nonlinear relationships.</description>
+    <arm_group_label>cervical myelopathy</arm_group_label>
+    <arm_group_label>normal</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The participants are aged 30-80 years, who have cervical myelomalacia that proved in MRI.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  the patients with classical cervical myelomalacia sypmtoms such as neck pain and&#xD;
+             stiffness, weakness and clumsiness at the upper extremities or gait difficulties and&#xD;
+             radiological findings of spinal compression&#xD;
+&#xD;
+          -  30-80 years age.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with a previous history of cervical spinal surgery and has a systematic&#xD;
+             disease (rheumatologic or neural disease) .&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>32 Years</minimum_age>
+    <maximum_age>77 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Hakan Yilmaz</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karabuk University, Faculty of Engineering</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Murat Korkmaz</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Istanbul University, Faculty of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>İstanbul University</name>
+      <address>
+        <city>Istanbul</city>
+        <state>Fatih</state>
+        <zip>34093</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Turkey</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>March 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 15, 2021</study_first_posted>
+  <last_update_submitted>May 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Istanbul University</investigator_affiliation>
+    <investigator_full_name>Merve Damla Korkmaz</investigator_full_name>
+    <investigator_title>Principle investigator</investigator_title>
+  </responsible_party>
+  <keyword>neural network</keyword>
+  <keyword>deep learning</keyword>
+  <keyword>cervical myelopathy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Cord Diseases</mesh_term>
+    <mesh_term>Bone Marrow Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>It can be shared after publication</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>after publication</ipd_time_frame>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,175 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04846413</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DIPNEUROSCI_01</org_study_id>
+    <nct_id>NCT04846413</nct_id>
+  </id_info>
+  <brief_title>Voice Analysis in Patients With Neurologic Diseases</brief_title>
+  <official_title>Advanced Voice Analysis With Machine Learning Algorithms in Patients With Neurologic Diseases</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Neuromed IRCCS</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Neuromed IRCCS</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this observational pilot study, the investigators will record and assess voice samples&#xD;
+      from healthy participants and those participants affected by neurologic diseases to evaluate&#xD;
+      possible differences in voice features.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this study, the investigators will evaluate the clinical features of healthy participants&#xD;
+      and those participants with neurologic disorders by applying dedicated clinical scales. Also,&#xD;
+      the investigators will assess voice impairment by using perceptual examination tools. Then,&#xD;
+      the investigators will apply spectral analysis to assess the main frequency components of&#xD;
+      voice in healthy participants and in patients affected by neurologic disorders with a&#xD;
+      prominent voice impairment. To distinguish between healthy participants and patients affected&#xD;
+      by various neurologic diseases, the investigators will apply a voice analysis based on&#xD;
+      support vector machine (SVM) classifier that included a large number of features in addition&#xD;
+      to the main frequency components of voice.&#xD;
+&#xD;
+      For these purposes, the investigators will assess in detail the sensitivity, specificity,&#xD;
+      positive predictive value, and negative predictive value and accuracy of all diagnostic&#xD;
+      tests. Furthermore, the investigators will calculate the area under the receiver operating&#xD;
+      characteristic (ROC) curves to verify the optimal diagnostic threshold as reflected by the&#xD;
+      associated criterion (Ass. Crit.) and Youden Index (YI). To assess possible&#xD;
+      clinical-instrumental correlations, the investigators will also use a modified algorithm of&#xD;
+      SVM analysis to calculate a continuous numerical value (the likelihood ratio [LR]) providing&#xD;
+      a measure of voice impairment severity for each participant.&#xD;
+&#xD;
+      Voice recordings will be performed by asking participants to produce a specific speech task&#xD;
+      with their usual voice intensity, pitch, and quality. The speech task will consist of a&#xD;
+      sustained emission of a close mid-front unrounded vowel /e/ for at least 5 seconds. Voice&#xD;
+      recordings will be collected by using a high-definition audio-recorder placed at a distance&#xD;
+      of 5 cm from the mouth. Voice samples will be recorded in linear PCM format (.wav) at a&#xD;
+      sampling rate of 44.1 kHz, with 24-bit sample size. Voice analysis will consist of three&#xD;
+      separate processes: feature extraction, selection and classification. For feature extraction,&#xD;
+      the investigators will use the OpenSMILE (audEERING GmbH, Germany), dedicated software. Then,&#xD;
+      the investigators will select and classify voice feature by using SVM algorithm included in&#xD;
+      Weka.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 1, 2021</start_date>
+  <completion_date type="Anticipated">July 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Voice analysis</measure>
+    <time_frame>Voice analysis with machine learning algorithms will be implemented immediately after voice recording, during the clinical evaluation of each participant.</time_frame>
+    <description>Voice features obtained by using Support Vector Machine algorithm</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Voice Disorders</condition>
+  <condition>Neurologic Disorder</condition>
+  <arm_group>
+    <arm_group_label>Patients</arm_group_label>
+    <description>Patients affected by neurologic disorders showing a prominent voice impairment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Speech task</intervention_name>
+    <description>Speech task which consists of a sustained emission of the vowel /e/.</description>
+    <arm_group_label>Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We will recruit neurologic patients not taking any oral medications or alcohol and any&#xD;
+        drugs acting on the central nervous system at the time of the study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis of neurologic disorders&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  smoking&#xD;
+&#xD;
+          -  bilateral/unilateral hearing loss&#xD;
+&#xD;
+          -  respiratory disorders&#xD;
+&#xD;
+          -  conditions affecting the vocal cords, including nodules.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Antonio Suppa, MD, PhD</last_name>
+    <phone>3494940365</phone>
+    <phone_ext>+0039</phone_ext>
+    <email>antonio.suppa@uniroma1.it</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Antonio Suppa</name>
+      <address>
+        <city>Pozzilli</city>
+        <zip>86077</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Antonio Suppa</last_name>
+      <phone>+00393494940365</phone>
+      <email>antonio.suppa@uniroma1.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>April 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 15, 2021</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Neuromed IRCCS</investigator_affiliation>
+    <investigator_full_name>Antonio Suppa</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>voice analysis</keyword>
+  <keyword>machine learning</keyword>
+  <keyword>neurologic disorders</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Voice Disorders</mesh_term>
+    <mesh_term>Nervous System Diseases</mesh_term>
+    <mesh_term>Disease</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

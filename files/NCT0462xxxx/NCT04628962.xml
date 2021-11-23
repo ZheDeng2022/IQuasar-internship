@@ -1,0 +1,318 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04628962</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FDG_RamanSaliva_COPD_01</org_study_id>
+    <nct_id>NCT04628962</nct_id>
+  </id_info>
+  <brief_title>Raman Analysis of Saliva as Biomarker of COPD</brief_title>
+  <acronym>BIO-RAnCh</acronym>
+  <official_title>Raman Analysis of Saliva as Biomarker of COPD</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fondazione Don Carlo Gnocchi Onlus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fondazione Don Carlo Gnocchi Onlus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic Obstructive Pulmonary Disease (COPD) is a debilitating and chronic lung syndrome that&#xD;
+      causes accelerated lung function decline and death in 20% of cases. The worsening of&#xD;
+      symptoms, as well as the patient's condition, strictly depends on the identified COPD&#xD;
+      phenotype, severity stages, exacerbation events, selected drugs, rehabilitation cures and on&#xD;
+      the adherence of patients to these therapies. Despite the efficient COPD diagnostic&#xD;
+      procedure, a new fast, sensitive and easily applicable approach must be developed in order to&#xD;
+      achieve the specific evaluation and monitoring of therapy adherence in COPD patients,&#xD;
+      stratifying the different COPD phenotypes and foreseeing the exacerbation events in order to&#xD;
+      optimize the COPD disease management. The application of Raman spectroscopy on saliva has&#xD;
+      been already proposed for different infective, neurological and cancer diseases, with&#xD;
+      promising results in the diagnostic and monitoring fields, representing saliva an easy&#xD;
+      collectable and highly informative biofluid. In this project we propose a combined Raman&#xD;
+      Spectroscopy - Machine Learning analysis of saliva collected from COPD patients and&#xD;
+      non-pathological and pathological controls for the development of a multifactorial device&#xD;
+      able to provide fast and sensitive information regarding COPD phenotypes, exacerbation risks,&#xD;
+      adherence and effectiveness of pharmacological and rehabilitation therapies, achieving the&#xD;
+      crucial target of the personalized medicine. Moreover, after the model development, we&#xD;
+      propose to test the Raman approach in hospital evaluating the creation of a COPD point of&#xD;
+      care, accompanying the clinicians in the disease management. Starting from FDG preliminary&#xD;
+      results, the biochemical composition of saliva in patients with diagnosed COPD will be&#xD;
+      evaluated and statistically compared with the one obtained from age and sex-matched healthy&#xD;
+      subjects and from patients affected by other respiratory chronic diseases (Asthma). Moreover,&#xD;
+      an intra-group COPD clustering will be analysed in order to verify a different Raman&#xD;
+      fingerprint obtained from COPD patients with different phenotypes. The collected Raman data&#xD;
+      will be processed using a multivariate analysis approach. The classification model will be&#xD;
+      created using cross-validation and subset validation. Thanks to RS, the overall composition&#xD;
+      of saliva will be established with minimal sample preparation, providing a comprehensive&#xD;
+      biochemical fingerprint of the sample. The expected results are I) Identification of the&#xD;
+      specific COPD Raman fingerprint through the comparison with healthy subjects and patients&#xD;
+      affected by asthma; II) Monitoring of the therapy adherence through the drug signal and/or&#xD;
+      biochemical modification in saliva; III) Stratification of the 4 COPD phenotypes on the base&#xD;
+      of the provided Raman fingerprint; IV) Monitoring of the rehabilitation procedures and&#xD;
+      effects; V) Association of an high exacerbation risk index to specific COPD patients; VI)&#xD;
+      Creation of a classification model of the created Raman database.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      SAMPLE COLLECTION: Saliva collection from all the selected subjects will be performed&#xD;
+      following the Salivette (SARSTEDT) manufacturer's instructions. To limit variability in&#xD;
+      salivary content not related to COPD, saliva will be obtained from all subjects at a fixed&#xD;
+      time, after an appropriate lag time from feeding and teeth brushing. Pre-analytical&#xD;
+      parameters (i.e. storage temperature and time between collection and processing), dietary and&#xD;
+      smoking habit will be properly recorded. Briefly, the swab will be removed, placed in the&#xD;
+      mouth and chewed for 60 seconds to stimulate salivation. Then the swab will be centrifuged&#xD;
+      for 2 minutes at 1,000 g to remove cells fragments and food debris. Collected samples will be&#xD;
+      stored at -80° C.&#xD;
+&#xD;
+      SAMPLE PROCESSING: For the Raman analysis, a drop of each sample will be casted on an&#xD;
+      aluminium foil in order to achieve the Surface Enhanced Raman Scattering (SERS).&#xD;
+&#xD;
+      DATA COLLECTION: SERS spectra will be acquired using an Aramis Raman microscope (Horiba&#xD;
+      Jobin-Yvon, France) equipped with a laser light source operating at 785 nm with laser power&#xD;
+      ranging from 25-100% (Max power 512 mW). Acquisition time between 10-30 seconds will be used.&#xD;
+      The instrument will be calibrated before each analysis using the reference band of silicon at&#xD;
+      520.7 cm-1. Raman spectra will be collected from 35 points following a line-map from the edge&#xD;
+      to the centre of the drop. Spectra will be acquired in the region between 400 and 1600 cm-1&#xD;
+      using a 50x objective (Olympus, Japan). Spectra resolution is about 1.2 cm-1. The software&#xD;
+      package LabSpec 6 (Horiba Jobin-Yvon, France) will be used for map design and the acquisition&#xD;
+      of spectra.&#xD;
+&#xD;
+      DATA PROCESSING: All the acquired spectra will be fit with a fourth-degree polynomial&#xD;
+      baseline and normalized by unit vector using the dedicated software LabSpec 6. The&#xD;
+      contribution of the substrate will be removed from each spectra. The statistical analysis to&#xD;
+      validate the method, will be performed using a multivariate analysis approach. Principal&#xD;
+      Component analysis (PCA) will be performed in order to reduce data dimensions and to evidence&#xD;
+      major trends. The first 20 resultant Principal Components (PCs) will be used in a&#xD;
+      classification model, Linear Discriminant Analysis (LDA), to discriminate the data maximizing&#xD;
+      the variance between the selected groups. The smallest number of PCs will be selected to&#xD;
+      prevent data overfitting. Leave-one-out cross-validation and confusion matrix test will be&#xD;
+      used to evaluate the method sensitivity, precision and accuracy of the LDA model.&#xD;
+      Mann-Whitney will be performed on PCs scores to verify the differences statistically relevant&#xD;
+      between the analysed groups. Correlation and partial correlation analysis will be performed&#xD;
+      using the Spearman's test, assuming as valid correlation only the coefficients with a p-value&#xD;
+      lower than 0.05. The statistical analysis will be performed using Origin2018 (OriginLab,&#xD;
+      USA).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2020</start_date>
+  <completion_date type="Anticipated">January 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Identification of the salivary COPD Raman signature</measure>
+    <time_frame>One year</time_frame>
+    <description>Raman spectroscopy will be used to analyse saliva of COPD patients, leading to the characterization of a specific COPD signature highlighting the differences between the one of asthma patients and healthy subjects. Using multivariate analysis, the possibility to create a classification model will be tested.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Characterization of the spectral differences of COPD patients</measure>
+    <time_frame>One year</time_frame>
+    <description>Raman data will be interpreted comparing the signatures of the different experimental groups (COPD vs asthma vs healthy subjects), identifing the molecular classes responsible for the principal differences</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Stratification of the 4 COPD phenotypes through the Raman signature</measure>
+    <time_frame>One year</time_frame>
+    <description>An intra COPD class analysis will be performed, identifying the specific Raman signature of each phenotype considered in the study. The multivariate analysis will be performed evaluating the possibility to create a classification model able to perform a fast diagnosis based on the analysis of saliva</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Monitoring of therapy adherence and effects</measure>
+    <time_frame>Two years</time_frame>
+    <description>Raman data will be correlated with the clinical parameters, identifying hidden trends and relationships between the two investigated factors. In particular, the effects of a full and missing therapy adherence will be evaluated in terms of changing in salivary Raman signatures</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Determination of the exacerbation index</measure>
+    <time_frame>Two years</time_frame>
+    <description>The Raman signal associated with frequently exacerbator patients will be computed through linear discriminant analysis, obtaing coefficients related to the exacerbation event. In this way, a measurable parameter will be created in order to monitor and potentially forecast the exacerbation events</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Application of a portable Raman spectrometer as Point of Care</measure>
+    <time_frame>Two years</time_frame>
+    <description>All the data, databases and classification models created in the previous outcomes will be integrated in a portable Raman instrument that will be applied directly on new patinets, in order to test the reliability of the methodology. At the same time, the new data will be used to train the model, increasing the discriminatory power in terms of accuracy, precision, sensitivity and specificity</description>
+  </primary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <arm_group>
+    <arm_group_label>Asthma-COPD Overlapped (aCOPD)</arm_group_label>
+    <description>30 subjects affected by Asthma-COPD Overlapped comparable by age and sex with the other recruited subjects. The diagnosis of the mixed phenotypes will be established by the presence of a combination of the following factors: history of asthma and/or atopy, reversibility in the bronchodilator test, notable eosinophilia in respiratory and/or peripheral secretions, high IgE, positive prick test to pneumoallergens and high concentrations of exhaled NO</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Exacerbator COPD (neCOPD)</arm_group_label>
+    <description>30 subjects affected by Non-Exacerbator COPD comparable by age and sex with the other recruited subjects</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>frequent Excacerbator with Emphysema COPD (eeCOPD)</arm_group_label>
+    <description>30 subjects affected by frequent exacerbation with emphysema COPD comparable by age and sex with the other recruited subjects</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>frequent Excacerbator with chronic Bronchitis COPD (ebCOPD)</arm_group_label>
+    <description>30 subjects affected by frequent excacerbation with chronic bronchitis COPD comparable by age and sex with the other recruited subjects</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Asthma patients (AST)</arm_group_label>
+    <description>30 subjects affected by asthma comparable by age and sex with the other recruited subjects</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy subjects (CTRL)</arm_group_label>
+    <description>200 healthy subjects in a good health state comparable by age and sex with the other recruited subjects</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Collection and Raman analysis of saliva for the database</intervention_name>
+    <description>Saliva will be collected and processed for the Raman analysis. The collected data will be computed for the creation of the classification model</description>
+    <arm_group_label>Asthma patients (AST)</arm_group_label>
+    <arm_group_label>Asthma-COPD Overlapped (aCOPD)</arm_group_label>
+    <arm_group_label>Healthy subjects (CTRL)</arm_group_label>
+    <arm_group_label>Non-Exacerbator COPD (neCOPD)</arm_group_label>
+    <arm_group_label>frequent Excacerbator with Emphysema COPD (eeCOPD)</arm_group_label>
+    <arm_group_label>frequent Excacerbator with chronic Bronchitis COPD (ebCOPD)</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      The biofluid collected will be saliva containing DNA. The nucleic acids will be not&#xD;
+      specifically analysed&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be recruited from the primary care clinic patients under&#xD;
+        treatment at IRCCS Fondazione Don Carlo Gnocchi ONLUS - Ospedale Santa Maria Nascente,&#xD;
+        Milano (Italy)&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  COPD patients will be defined as a postbronchodilator ratio of FEV1/FEV &lt;0.7. The&#xD;
+             severity of airflow limitation and phenotypes will be defined as described by the GOLD&#xD;
+             grading system, including Grade 2, 3 or 4.&#xD;
+&#xD;
+          -  Overlapped Asthma - COPD will be established by the presence of a combination of the&#xD;
+             following factors: history of asthma and/or atopy, reversibility in the bronchodilator&#xD;
+             test, notable eosinophilia in respiratory and/or peripheral secretions, high IgE,&#xD;
+             positive prick test to pneumoallergens and high concentrations of exhaled NO&#xD;
+&#xD;
+          -  Sex and age matched HC and AsP (bronchial asthma according to The Global Strategy for&#xD;
+             Asthma Management and Prevention 2018 from at least 6 months) will be recruited as&#xD;
+             controls.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Exclusion criteria will be the combination with obstructive sleep apnea, cancer,&#xD;
+             MMSE&lt;24, at least 4 weeks from the last acute exacerbation, cardiovascular, neurologic&#xD;
+             and kidney diseases, age&lt;18&#xD;
+&#xD;
+          -  Bacterial or fungal oral infections in progress&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marzia Bedoni, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>IRCCS Fondazione Don Carlo Gnocchi ONLUS, Laboratory of Nanomedicine and Clinical Biophotonics</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Paolo I Banfi, MD</last_name>
+    <phone>0240308812</phone>
+    <phone_ext>+39</phone_ext>
+    <email>pabanfi@dongnocchi.it</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Cristiano Carlomagno, PhD</last_name>
+    <phone>0240308533</phone>
+    <phone_ext>+39</phone_ext>
+    <email>ccarlomagno@dongnocchi.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Ospedale Santa Maria Nascente - IRCCS Fondazione Don Carlo Gnocchi ONLUS</name>
+      <address>
+        <city>Milano</city>
+        <zip>20148</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paolo I Banfi, MD</last_name>
+      <phone>02 40308812</phone>
+      <phone_ext>+39</phone_ext>
+      <email>pabanfi@dongnocchi.it</email>
+    </contact>
+    <investigator>
+      <last_name>Cristiano Carlomagno, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <link>
+    <url>http://www.labion.eu/</url>
+    <description>Laboratory of Nanomedicine and Clinical Biophotonics at IRCCS Fondazione Don Carlo Gnocchi ONLUS, Milano (Italy)</description>
+  </link>
+  <reference>
+    <citation>Carlomagno C, Banfi PI, Gualerzi A, Picciolini S, Volpato E, Meloni M, Lax A, Colombo E, Ticozzi N, Verde F, Silani V, Bedoni M. Human salivary Raman fingerprint as biomarker for the diagnosis of Amyotrophic Lateral Sclerosis. Sci Rep. 2020 Jun 23;10(1):10175. doi: 10.1038/s41598-020-67138-8.</citation>
+    <PMID>32576912</PMID>
+  </reference>
+  <reference>
+    <citation>Mirza S, Clay RD, Koslow MA, Scanlon PD. COPD Guidelines: A Review of the 2018 GOLD Report. Mayo Clin Proc. 2018 Oct;93(10):1488-1502. doi: 10.1016/j.mayocp.2018.05.026. Review.</citation>
+    <PMID>30286833</PMID>
+  </reference>
+  <reference>
+    <citation>Nikolaou V, Massaro S, Fakhimi M, Stergioulas L, Price D. COPD phenotypes and machine learning cluster analysis: A systematic review and future research agenda. Respir Med. 2020 Sep;171:106093. doi: 10.1016/j.rmed.2020.106093. Epub 2020 Jul 28.</citation>
+    <PMID>32745966</PMID>
+  </reference>
+  <reference>
+    <citation>Miravitlles M, Calle M, Soler-Cataluña JJ. Clinical phenotypes of COPD: identification, definition and implications for guidelines. Arch Bronconeumol. 2012 Mar;48(3):86-98. doi: 10.1016/j.arbres.2011.10.007. Epub 2011 Dec 22. Review. English, Spanish.</citation>
+    <PMID>22196477</PMID>
+  </reference>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 9, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 9, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 16, 2020</study_first_posted>
+  <last_update_submitted>November 9, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 9, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Raman Spectroscopy</keyword>
+  <keyword>COPD</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Biomarker</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

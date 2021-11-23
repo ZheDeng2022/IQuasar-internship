@@ -1,0 +1,200 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04648449</url>
+  </required_header>
+  <id_info>
+    <org_study_id>108573</org_study_id>
+    <nct_id>NCT04648449</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence (AI) Support in Stroke Calls</brief_title>
+  <acronym>AISIS</acronym>
+  <official_title>Artificial Intelligence (AI) Support in Stroke Calls - &quot;The AISIS-study&quot; -Can Artificial Intelligence Improve the Precision in Identifying Acute Stroke in Emergency Medical Calls?</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Haukeland University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Helse Vest</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Western Norway University of Applied Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Oslo University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Norwegian Heart and Lung Patient Organization</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Helsetjenestens driftsorganisasjon for nødnett HF (HDO)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Norwegian Stroke Register</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Haukeland University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      More than 12.000 patients suffer acute stroke in Norway every year, but less than half of&#xD;
+      them reach hospital within the current treatment window for thrombolysis. Stroke is the&#xD;
+      third-highest cause of death and the number one cause of severe disability requiring long&#xD;
+      time care at institutions. Consequently this has a high impact on society, patients and&#xD;
+      relatives, in addition to high costs related to care estimated to approximately 10 billion&#xD;
+      NOK per year. Although there are few studies on emergency medical communication centres&#xD;
+      (EMCC) in Norway, some have shown that the performance of the emergency medical communication&#xD;
+      centres can be improved. This project will seek to amend EMCC´s handling of acute stroke&#xD;
+      inquiries using artificial intelligence (AI), thus contributing to getting the patient to&#xD;
+      hospital in time for optimal treatments.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In this project, the investigators will collect data from all stroke patients discharged from&#xD;
+      Helse Bergen in 2019 (approx. 1000 patients) via the Norwegian Stroke Registry (NSR). For&#xD;
+      these patients, structured hospital data from Helse Bergen will be retrieved, and based on&#xD;
+      these and the spoken content of their emergency call regarding the stroke, the investigators&#xD;
+      will use machine learning to calculate the stroke risk. The connection of historical hospital&#xD;
+      data to the spoken words in the emergency call, amplifies the analysis of emergency calls in&#xD;
+      a novel way, in comparison to sound analysis alone.&#xD;
+&#xD;
+      After retrieving and connecting stroke patient data, the investigators train the deep network&#xD;
+      using data from 2019. Accordingly, testing will be performed based on patients from the first&#xD;
+      half of 2020. A separation of the data into training, test, and validation assures that our&#xD;
+      trained network does not over fit on the training data and can reproduce similar results on&#xD;
+      previously unseen patients. Finally, the investigators will compare the performance of the AI&#xD;
+      with the current system through statistical analyses on data from a period of approximately&#xD;
+      one year of live usage of the AI in AMK Bergen. This will enable us to evaluate to what&#xD;
+      degree the system is able to improve within the decision process of the EMCC operators in&#xD;
+      terms of sensitivity and specificity.&#xD;
+&#xD;
+      Summarized, the primary objective is to build a robust, working prototype of an AI system&#xD;
+      capable of real-time identification of acute stroke for improved assessment in emergency&#xD;
+      medical calls.&#xD;
+&#xD;
+      Our secondary objectives are:&#xD;
+&#xD;
+        -  To implement an AI system capable of providing fast prediction of whether a patient is&#xD;
+           suffering from acute stroke or not based on audio from emergency call and available data&#xD;
+           sources within the hospital records&#xD;
+&#xD;
+        -  To prove that AI systems can be used to assist and improve the triage decision procedure&#xD;
+           of the EMCC operator.&#xD;
+&#xD;
+      The anticipated result is to deliver fast (i.e. seconds) prediction scores to assist the EMCC&#xD;
+      operator in recognizing acute stroke patients, which provides an improved sensitivity and&#xD;
+      specificity compared to manual assessment only.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">September 1, 2020</start_date>
+  <completion_date type="Anticipated">August 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Stroke recognition in medical emergency calls</measure>
+    <time_frame>Sept. 22 - Sept. 23</time_frame>
+    <description>Survey AI's ability to recognize stroke, compared to the current system</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Stroke, Acute</condition>
+  <condition>Apoplexy; Brain</condition>
+  <condition>Emergencies</condition>
+  <condition>Communication, Multidisciplinary</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Artificial intelligence on emergency calls</intervention_name>
+    <description>AI listens to all calls to Bergen EMCC, detecting calls regarding possible stroke.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All calls to 113 in Bergen will be subject to the AI. A warning will be given the&#xD;
+        EMCC-operator if risk of stroke, when combining contents in the call and historical data in&#xD;
+        the hospital record, exceeds a certain limit.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All callers to medical emergency number 113 in Bergen&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt;18&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Guttorm Brattebo, Professor II</last_name>
+    <role>Study Director</role>
+    <affiliation>Haukeland University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Haukeland Universitetssykehus, Kirurgisk serviceklinikk, Nasjonalt kompetansesenter for helsetjenestens kommunikasjonsberedskap</name>
+      <address>
+        <city>Bergen</city>
+        <zip>5021</zip>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Norway</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 1, 2020</study_first_posted>
+  <last_update_submitted>December 11, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 11, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>EMCC</keyword>
+  <keyword>Stroke</keyword>
+  <keyword>Apoplexy</keyword>
+  <keyword>Emergency Medical Service Communication Systems</keyword>
+  <keyword>Dispatch</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Not relevant at this stage.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

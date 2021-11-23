@@ -1,0 +1,963 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02914457</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYNSEQ</org_study_id>
+    <nct_id>NCT02914457</nct_id>
+  </id_info>
+  <brief_title>Left Ventricular Synchronous Versus Sequential MultiSpot Pacing for Cardiac Resynchronization Therapy (CRT)</brief_title>
+  <acronym>SYNSEQ</acronym>
+  <official_title>Left Ventricular Synchronous Versus Sequential MultiSpot Pacing for CRT</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medtronic Cardiac Rhythm and Heart Failure</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medtronic Cardiac Rhythm and Heart Failure</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The SYNSEQ study intends to assess the positive left ventricular dP/dt max achieved by&#xD;
+      MultiSpot LV pacing (either simultaneously or sequentially) in comparison to the response&#xD;
+      achieved by the current (standard) BiV pacing configuration in patients indicated/recommended&#xD;
+      for cardiac resynchronization therapy.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The following pacing configurations will be evaluated.&#xD;
+&#xD;
+      Biventricular pacing (BiV):&#xD;
+&#xD;
+      Pacing will be performed on one LV electrode pair, (at 3 different longitudinal locations),&#xD;
+      and on the tip of the RV-lead. In total, three different pacing BiV settings will be&#xD;
+      evaluated. Configuration 1: RV + LV lateral Apex, Configuration 2: RV + LV lateral Mid,&#xD;
+      Configuration 3: RV + LV lateral Base (Reference: Standard CRT)&#xD;
+&#xD;
+      MultiSpot simultaneous LV-ventricular pacing (MultiSpot-SYN):&#xD;
+&#xD;
+      Pacing will be performed on 3 electrodes on the LV wall, placed at different longitudinal&#xD;
+      locations, and on the tip of the RV-lead simultaneously. Configuration 4: RV + LV lateral&#xD;
+      Apex + LV lateral Mid + LV lateral Base&#xD;
+&#xD;
+      MultiSpot sequential LV-ventricular pacing (MultiSpot-SEQ):&#xD;
+&#xD;
+      3 electrodes on the LV wall will be paced sequentially. The RV electrode will be paced&#xD;
+      simultaneously with last paced LV electrode.The timing-sequence and the amount of spots will&#xD;
+      depend on the electrical delays measured during the experiments. Configuration 5: LV lateral&#xD;
+      Apex =&gt; LV lateral Mid =&gt; LV lateral Base + RV&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 7, 2016</start_date>
+  <completion_date type="Actual">April 20, 2018</completion_date>
+  <primary_completion_date type="Actual">April 20, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percentage Change in Positive Left Ventricular dP/dt Max (mmHG/Sec)</measure>
+    <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+    <description>LV dP/dt max is a measurement of the initial velocity of myocardial contraction and is derivative of the LV-pressure. The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median dP/dt max during pacing On] - (median baseline dP/dt max during pacing Off])/[median dP/dt max during pacing Off]. From all percentage changes for a given pacing configuration and subject, a regression analysis is performed to determine the regression predicted highest percentage change. The presented percentage change is the average over all subjects.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Blood Pressure</measure>
+    <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+    <description>Measured by invasive arterial blood line connected to a sensitive membrane displacement sensor. Systolic blood pressure (SBP) and diastolic blood pressure (DBP) were collected.The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median pressure during pacing On] - (median pressure during pacing Off])/[median pressure during pacing Off]. Correlation will be summarized over all pacing configurations and time points since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Non-Invasive Blood Pressure</measure>
+    <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+    <description>Acquired through finger volume clamp</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation Between Percentage Change LV dP/dt Max and Q-LV Ratio</measure>
+    <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+    <description>Derived from intra-cardiac leads (invasive) and surface electrodes (non-invasive) respectively. The Q-LV interval is defined as the time from the onset of the QRS width of the surface ECG to the first large positive or negative peak of the LV electrogram (EGM) during a cardiac cycle. The Q-LV ratio will be calculated as Q-LV/QRS duration. Correlation will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation between % change LV dP/dt max and Q-LV ratio.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation Between Percentage Change LV dP/dt Max and % Change QRS Width</measure>
+    <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+    <description>Derived from surface electrodes (non-invasive). The percentage change is determined as ([QRS width during pacing On] - (QRS width during pacing Off])/[QRS width during pacing Off]. The correlation between % change LV dP/dt max and % change QRS width will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">31</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Electrophysiological Study</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Electrophysiological Study</intervention_name>
+    <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+    <arm_group_label>Electrophysiological Study</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Subject is indicated or recommended for CRT-P or CRT-D device according to current&#xD;
+             applicable ESC/AHA guidelines&#xD;
+&#xD;
+          -  Subject is in sinus rhythm&#xD;
+&#xD;
+          -  Subject receives optimal heart failure oral medical therapy&#xD;
+&#xD;
+          -  Subject is willing to sign the informed consent form&#xD;
+&#xD;
+          -  Subject is 18 years or older&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subject has permanent atrial fibrillation/flutter or tachycardia&#xD;
+&#xD;
+          -  Subject has pure right bundle branch block (= no additional left ventricular&#xD;
+             conduction delays)&#xD;
+&#xD;
+          -  Subject has left bundle branch block and QRS-duration of &gt; 150 ms and no sign of&#xD;
+             myocardial scar indicated by late gadolinium enhancement MRI&#xD;
+&#xD;
+          -  Subject experienced recent myocardial infarction, within 40 days prior to enrollment&#xD;
+&#xD;
+          -  Subject underwent valve surgery, within 90 days prior to enrollment&#xD;
+&#xD;
+          -  Subject is post heart transplantation, or is actively listed on the transplantation&#xD;
+             list&#xD;
+&#xD;
+          -  Subject is implanted with a left ventricular assist device&#xD;
+&#xD;
+          -  Subject has severe renal disease (up to physicians discretion)&#xD;
+&#xD;
+          -  Subject is on continuous or uninterrupted infusion (inotropic) therapy for heart&#xD;
+             failure (≥ 2 stable infusions per week)&#xD;
+&#xD;
+          -  Subject has severe aortic stenosis (with a valve area of &lt;1.0 cm2 or significant valve&#xD;
+             disease expected to be operated within study period)&#xD;
+&#xD;
+          -  Subject has complex and uncorrected congenital heart disease&#xD;
+&#xD;
+          -  Subject has a mechanical heart valve&#xD;
+&#xD;
+          -  Pregnant or breastfeeding women, or women of child bearing potential and who are not&#xD;
+             on a reliable form of birth control&#xD;
+&#xD;
+          -  Subject is enrolled in another study that could confound the results of this study,&#xD;
+             without documented pre-approval from Medtronic study manager&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Klinika Choroby Wieńcowej</name>
+      <address>
+        <city>Warszawa</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical University of Silesia, Silesian Center for Heart Disease,</name>
+      <address>
+        <city>Zabrze</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Národný ústav srdcových a cievnych chorôb, a.s. (NUSCH)</name>
+      <address>
+        <city>Bratislava</city>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Východoslovenský ústav srdcových a cievnych chorôb, a.s. (VUSCH)</name>
+      <address>
+        <city>Košice</city>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari I Politècnic La Fe</name>
+      <address>
+        <city>València</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Skåne University Hospital</name>
+      <address>
+        <city>Lund</city>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Queen Elizabeth Medical Centre</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Poland</country>
+    <country>Slovakia</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>June 8, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 22, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 26, 2016</study_first_posted>
+  <results_first_submitted>August 3, 2020</results_first_submitted>
+  <results_first_submitted_qc>August 3, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">August 14, 2020</results_first_posted>
+  <last_update_submitted>September 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>May 30, 2016</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/57/NCT02914457/SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>October 22, 2015</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/57/NCT02914457/Prot_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Electrophysiological Study</title>
+          <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="31"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="25">Subjects who completed electrophysiological study with analyzable data</participants>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Physician Decision</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>No veins available for lead placement</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Electrical instability of patient</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>ECG acquisition error due to sweating</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Protocol Violation</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>All enrolled patient except patient with protocol deviation (subject was not eligible for study)</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Electrophysiological Study</title>
+          <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="30"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="19"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="66.4" spread="11.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="25"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Sweden</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Poland</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>United Kingdom</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Spain</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="30"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Percentage Change in Positive Left Ventricular dP/dt Max (mmHG/Sec)</title>
+        <description>LV dP/dt max is a measurement of the initial velocity of myocardial contraction and is derivative of the LV-pressure. The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median dP/dt max during pacing On] - (median baseline dP/dt max during pacing Off])/[median dP/dt max during pacing Off]. From all percentage changes for a given pacing configuration and subject, a regression analysis is performed to determine the regression predicted highest percentage change. The presented percentage change is the average over all subjects.</description>
+        <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+        <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For some patients not all pacing configurations were applied. Two patients missed Multispot sequential pacing and one patient missed BiV mid pacing.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Electrophysiological Study</title>
+            <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Percentage Change in Positive Left Ventricular dP/dt Max (mmHG/Sec)</title>
+          <description>LV dP/dt max is a measurement of the initial velocity of myocardial contraction and is derivative of the LV-pressure. The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median dP/dt max during pacing On] - (median baseline dP/dt max during pacing Off])/[median dP/dt max during pacing Off]. From all percentage changes for a given pacing configuration and subject, a regression analysis is performed to determine the regression predicted highest percentage change. The presented percentage change is the average over all subjects.</description>
+          <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For some patients not all pacing configurations were applied. Two patients missed Multispot sequential pacing and one patient missed BiV mid pacing.</population>
+          <units>% change LV dP/dt max</units>
+          <param>Mean</param>
+          <dispersion>Standard Error</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="25"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>BiV apical</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="25"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="10.59" spread="2.56"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>BiV mid</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="24"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="12.20" spread="2.06"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>BiV basal</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="25"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.51" spread="2.15"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Multispot simultaneous</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="25"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="15.64" spread="3.31"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Multispot sequential</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="23"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="11.80" spread="2.03"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Blood Pressure</title>
+        <description>Measured by invasive arterial blood line connected to a sensitive membrane displacement sensor. Systolic blood pressure (SBP) and diastolic blood pressure (DBP) were collected.The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median pressure during pacing On] - (median pressure during pacing Off])/[median pressure during pacing Off]. Correlation will be summarized over all pacing configurations and time points since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+        <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+        <population>All patients with analyzable LV dP/dt max data and analyzable and/or available blood pressure data. Two patients of the 25 patients with analyzable LV dP/dt max data did not have blood pressure data available or analyzable.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Electrophysiological Study</title>
+            <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Blood Pressure</title>
+          <description>Measured by invasive arterial blood line connected to a sensitive membrane displacement sensor. Systolic blood pressure (SBP) and diastolic blood pressure (DBP) were collected.The percentage changes correspond to a percentage change between a pacing configuration (pacing on, e.g., Multispot pacing) and baseline (LV pacing off). There are several repetitions of pacing off and on for each pacing configuration. For one repetition, the percentage change is determined as ([median pressure during pacing On] - (median pressure during pacing Off])/[median pressure during pacing Off]. Correlation will be summarized over all pacing configurations and time points since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+          <population>All patients with analyzable LV dP/dt max data and analyzable and/or available blood pressure data. Two patients of the 25 patients with analyzable LV dP/dt max data did not have blood pressure data available or analyzable.</population>
+          <units>Correlation coefficient</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Correlation between % change LV dP/dt max and SBP</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.52" lower_limit="0.50" upper_limit="0.54"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Correlation between % change LV dP/dt max and DBP</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.37" lower_limit="0.35" upper_limit="0.40"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Non-Invasive Blood Pressure</title>
+        <description>Acquired through finger volume clamp</description>
+        <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+        <population>The collection of non-invasive blood pressures was optional. During study execution, it was decided to not collect and/or analyze any non-invasive blood pressures.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Electrophysiological Study</title>
+            <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Correlation Between Percentage Change LV dP/dt Max and Percentage Change Non-Invasive Blood Pressure</title>
+          <description>Acquired through finger volume clamp</description>
+          <population>The collection of non-invasive blood pressures was optional. During study execution, it was decided to not collect and/or analyze any non-invasive blood pressures.</population>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="0"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Correlation Between Percentage Change LV dP/dt Max and Q-LV Ratio</title>
+        <description>Derived from intra-cardiac leads (invasive) and surface electrodes (non-invasive) respectively. The Q-LV interval is defined as the time from the onset of the QRS width of the surface ECG to the first large positive or negative peak of the LV electrogram (EGM) during a cardiac cycle. The Q-LV ratio will be calculated as Q-LV/QRS duration. Correlation will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation between % change LV dP/dt max and Q-LV ratio.</description>
+        <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+        <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For five patients no Q-LV timings were available for analysis.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Electrophysiological Study</title>
+            <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Correlation Between Percentage Change LV dP/dt Max and Q-LV Ratio</title>
+          <description>Derived from intra-cardiac leads (invasive) and surface electrodes (non-invasive) respectively. The Q-LV interval is defined as the time from the onset of the QRS width of the surface ECG to the first large positive or negative peak of the LV electrogram (EGM) during a cardiac cycle. The Q-LV ratio will be calculated as Q-LV/QRS duration. Correlation will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation between % change LV dP/dt max and Q-LV ratio.</description>
+          <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For five patients no Q-LV timings were available for analysis.</population>
+          <units>Correlation coefficient</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="20"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.20" lower_limit="-0.06" upper_limit="0.44"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Correlation Between Percentage Change LV dP/dt Max and % Change QRS Width</title>
+        <description>Derived from surface electrodes (non-invasive). The percentage change is determined as ([QRS width during pacing On] - (QRS width during pacing Off])/[QRS width during pacing Off]. The correlation between % change LV dP/dt max and % change QRS width will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+        <time_frame>Participants were followed for the time of the EP procedure, which had a median duration of 48 min</time_frame>
+        <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For one patient no QRS width was available for analysis.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Electrophysiological Study</title>
+            <description>Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.&#xD;
+Electrophysiological Study: Subjects will receive pacing from one right ventricular lead and one left ventricular catheter/lead with multiple LV pacing spots during electrophysiological study procedure.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Correlation Between Percentage Change LV dP/dt Max and % Change QRS Width</title>
+          <description>Derived from surface electrodes (non-invasive). The percentage change is determined as ([QRS width during pacing On] - (QRS width during pacing Off])/[QRS width during pacing Off]. The correlation between % change LV dP/dt max and % change QRS width will be summarized over all pacing configurations since the interest is in the overall correlation between LV dP/dt max and other measurements, not in the correlation per pacing configuration or per time point. The general linear model as described in Blank &amp; Altman, Biometrical Journal 310 (1995), p 446, was used to determine the correlation.</description>
+          <population>The analysis population contains all subjects who completed electrophysiological study with analyzable data. For one patient no QRS width was available for analysis.</population>
+          <units>Correlation coefficient</units>
+          <param>Number</param>
+          <dispersion>95% Confidence Interval</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="24"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.28" lower_limit="-0.44" upper_limit="-0.10"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Adverse events were collected from enrollment to study exit. Follow-up time (enrollment to exit) for subjects varied from 1 to 113 days.</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Enrolled Subjects</title>
+          <description>All patients that signed informed consent will be summarized</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_vocab>MedDRA (18.1)</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="31"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="3" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Cardiac disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Coronary artery disease</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Lead dislogdement</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Pneumothorax</sub_title>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <default_vocab>MedDRA (18.1)</default_vocab>
+        <default_assessment>Systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="2" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Injury, poisoning and procedural complications</title>
+            <event_list>
+              <event>
+                <sub_title>Cardiac vein dissection</sub_title>
+                <counts group_id="E1" events="2" subjects_affected="2" subjects_at_risk="31"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release and can embargo communications regarding trial results for a period that is less than or equal to 60 days. The sponsor cannot require changes to the communication and cannot extend the embargo.</restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Richard Cornelussen</name_or_title>
+      <organization>Medtronic Bakken Research Center</organization>
+      <phone>+31433566651</phone>
+      <email>richard.cornelussen@medtronic.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

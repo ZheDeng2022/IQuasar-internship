@@ -1,0 +1,369 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04771403</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19973</org_study_id>
+    <nct_id>NCT04771403</nct_id>
+  </id_info>
+  <brief_title>Two Way Crossover Closed Loop Study MPC vs FMPD</brief_title>
+  <official_title>A Randomized, Two-way, Cross-over Study to Assess the Efficacy of an MPC Exercise-enabled Closed-loop System vs FMPD Exercise-enabled Closed-loop System</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oregon Health and Science University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Juvenile Diabetes Research Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The Leona M. and Harry B. Helmsley Charitable Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Oregon Health and Science University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      An artificial pancreas (AP) is a control system for automatic insulin delivery. Our group has&#xD;
+      implemented a fading memory proportional derivative controller (FMPD) for use within an AP&#xD;
+      control system which has been evaluated in clinical studies. However, the long action of&#xD;
+      insulin (90 minutes for peak action) makes it challenging to control insulin with a classical&#xD;
+      proportional derivative system. The study described within this protocol is designed to test&#xD;
+      the effectiveness of a new model-predictive control (MPC) AP that modulates insulin delivery&#xD;
+      based on estimated activity level. The potential benefit of this type of AP is that it&#xD;
+      handles exercise not as a discrete event, but it automatically adjusts insulin delivery based&#xD;
+      on estimated activity level calculated at every 5 minute cycle. This type of algorithm may&#xD;
+      significantly improve glucose control over our FMPD AP, which is designed only to detect&#xD;
+      exercise when activity level goes above a threshold for a specific duration of 45 minutes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Participants will undergo two approximately 76 hour studies. During each of these&#xD;
+      intervention visits, participants will wear an Omnipod to deliver insulin and a Dexcom G6 CGM&#xD;
+      to measure glucose. The CGM system will provide sensed glucose data every 5 minutes. Sensed&#xD;
+      glucose data will be wirelessly transmitted via Bluetooth Low Energy (BTLE) from the Dexcom&#xD;
+      G6 transmitter to the Samsung master controller every five minutes. The smart phone will&#xD;
+      wirelessly communicate via BTLE to an Omnipod through an Omnipod PDM. During one of the&#xD;
+      studies, glucose will be controlled using the MPC AP. During another study, glucose will be&#xD;
+      controlled using the FMPD AP. The AP system will receive activity data through a Polar M600&#xD;
+      watch worn by the participant.&#xD;
+&#xD;
+      Participants will arrive at the clinic at approximately 7am for the inpatient visits.&#xD;
+      Participants will eat breakfast, lunch and dinner in the clinic. Participants will perform&#xD;
+      activities of daily living and exercise using an aerobic exercise video. Participants will&#xD;
+      discharge at 7pm to go home for the remainder of the study visit and perform one exercise&#xD;
+      video session at home. Participants will return to OHSU on Day 4 for removal of all devices.&#xD;
+      The exception to this is for the first 8 participants using the MPC AP. These participants&#xD;
+      will stay at the research clinic during the day and go home to sleep each night (7pm-7am).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 23, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Percent of time with sensed glucose &lt;70 mg/dl</measure>
+    <time_frame>12 hour inpatient stay (Day 3 MPC vs. Day 1 FMPD)</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor across the duration of the 12 hour inpatient stay (Day 3 MPC vs. Day 1 FMPD).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose between 70-180 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor across both arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose between 70 - 180 mg/dl</measure>
+    <time_frame>12 hour inpatient stay (Day 3 MPC vs. Day 1 FMPD)</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor across the duration of the 12 hour inpatient stay (Day 3 MPC vs. Day 1 FMPD).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose between 70 - 180 mg/dl after exercise</measure>
+    <time_frame>start of the in-clinic exercise session until the start of the next meal, assessed up to 100 weeks</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor across both arms from the start of the in-clinic exercise session until the start of the next meal.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose &lt;70 mg/dl after exercise</measure>
+    <time_frame>start of the in-clinic exercise session until the start of the next meal, assessed up to 100 weeks</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor across both arms from the start of the in-clinic exercise session until the start of the next meal.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of carbohydrate treatments</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the number of carbohydrate treatments (defined as 15 or 20 grams of carbohydrate) across both arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean sensed glucose</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the mean sensed glucose from the Dexcom G6 reported sensor glucose values across both arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coefficient of variation of glucose</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the coefficient of variation of glucose from the Dexcom G6 reported sensor glucose values across both arms.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose &lt;54 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 54 mg/dl using Dexcom sensor across both arms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of time with sensed glucose &gt;180 mg/dl</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor across both arms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean amount of insulin delivered per day (in units/kg)</measure>
+    <time_frame>entire 76 hour study</time_frame>
+    <description>Assess the mean amount of insulin delivered per day by the Omnipod through the AP system study in units/kg across both arms.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>FMPD AP system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will use the FMPD AP system for automated insulin delivery for a 76 hour study visit.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>MPC AP System</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will use the MPC AP system for automated insulin delivery for a 76 hour study visit.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>FMPD AP algorithm</intervention_name>
+    <description>The Fading Memory Proportional Derivative (FMPD) insulin infusion algorithm determines insulin delivery rates based on proportional error, defined as the difference between the current CGM level and the target CGM level, and the derivative error, defined as the rate of change of the CGM. The FMPD algorithm utilizes derivative and proportional glucose errors to determine delivery rates of insulin.</description>
+    <arm_group_label>FMPD AP system</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MPC AP system</intervention_name>
+    <description>The Model Predictive Control (MPC) insulin infusion algorithm contains a model within the controller that takes as an input the aerobic metabolic expenditure in addition to the CGM and meal inputs. The algorithm uses heart rate and accelerometer data collected on the patient's body to calculate metabolic expenditure. The metabolic expenditure then acts on the model for the insulin dynamics, whereby more energy expenditure and longer duration exercise can lead to a more substantial effect of insulin on the CGM.</description>
+    <arm_group_label>MPC AP System</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosis of type 1 diabetes mellitus for at least 1 year.&#xD;
+&#xD;
+          -  Male or female participants 21 to 50 years of age.&#xD;
+&#xD;
+          -  Physically willing and able to perform aerobic exercise (as determined by the&#xD;
+             investigator after reviewing the participant's activity level)&#xD;
+&#xD;
+          -  Current use of an insulin pump for at least 3 months with stable insulin pump settings&#xD;
+             for &gt;2 weeks.&#xD;
+&#xD;
+          -  Lives with another person age 18 or older who will be present while participant&#xD;
+             exercises at home and that can attend the training on using the system.&#xD;
+&#xD;
+          -  Lives within 40 miles of OHSU main campus.&#xD;
+&#xD;
+          -  HbA1c ≤ 10% at screening.&#xD;
+&#xD;
+          -  Total daily insulin requirement is less than 139 units/day.&#xD;
+&#xD;
+          -  Current use of a phone or other device so can be contacted by study staff off-campus&#xD;
+&#xD;
+          -  Willingness to follow all study procedures, including attending all clinic visits.&#xD;
+&#xD;
+          -  Willingness to sign informed consent and HIPAA documents.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Female of childbearing potential who is pregnant or intending to become pregnant or&#xD;
+             breast-feeding, or is not using adequate contraceptive methods. Acceptable&#xD;
+             contraception includes birth control pill / patch / vaginal ring, Depo-Provera,&#xD;
+             Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide&#xD;
+             and the man uses a condom), or abstinence.&#xD;
+&#xD;
+          -  Any cardiovascular disease, defined as a clinically significant EKG abnormality at the&#xD;
+             time of screening or any history of: stroke, heart failure, myocardial infarction,&#xD;
+             angina pectoris, or coronary arterial bypass graft or angioplasty. Diagnosis of 2nd or&#xD;
+             3rd degree heart block or any non-physiological arrhythmia judged by the investigator&#xD;
+             to be exclusionary.&#xD;
+&#xD;
+          -  Renal insufficiency (GFR &lt; 60 ml/min, using the MDRD equation as reported by the OHSU&#xD;
+             laboratory).&#xD;
+&#xD;
+          -  Liver failure, cirrhosis, or any other liver disease that compromises liver function&#xD;
+             as determined by the investigator.&#xD;
+&#xD;
+          -  Hematocrit of less than 36% for men, less than 32% for women.&#xD;
+&#xD;
+          -  Hypertensive participants with systolic blood pressure ≥ 160 mmHg or diastolic blood&#xD;
+             pressure ≥ 100 mmHg despite treatment or who have treatment-refractory hypertension&#xD;
+             (e.g. requiring four or more medications).&#xD;
+&#xD;
+          -  History of severe hypoglycemia during the past 12 months prior to screening visit or&#xD;
+             hypoglycemia unawareness as judged by the investigator. Participants will complete a&#xD;
+             hypoglycemia awareness questionnaire. Participants will be excluded for four or more R&#xD;
+             responses.&#xD;
+&#xD;
+          -  History of diabetes ketoacidosis during the prior 6 months prior to screening visit,&#xD;
+             as diagnosed on hospital admission or as judged by the investigator.&#xD;
+&#xD;
+          -  Adrenal insufficiency.&#xD;
+&#xD;
+          -  Any active infection.&#xD;
+&#xD;
+          -  Known or suspected abuse of alcohol, narcotics, or illicit drugs.&#xD;
+&#xD;
+          -  Seizure disorder.&#xD;
+&#xD;
+          -  Active foot ulceration.&#xD;
+&#xD;
+          -  Severe peripheral arterial disease characterized by ischemic rest pain or severe&#xD;
+             claudication.&#xD;
+&#xD;
+          -  Major surgical operation within 30 days prior to screening.&#xD;
+&#xD;
+          -  Use of an investigational drug within 30 days prior to screening.&#xD;
+&#xD;
+          -  Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine,&#xD;
+             sirolimus, or tacrolimus).&#xD;
+&#xD;
+          -  Bleeding disorder, treatment with warfarin, or platelet count below 50,000.&#xD;
+&#xD;
+          -  Allergy to aspart or lispro insulin.&#xD;
+&#xD;
+          -  Current administration of oral or parenteral corticosteroids.&#xD;
+&#xD;
+          -  Any life threatening disease, including malignant neoplasms and medical history of&#xD;
+             malignant neoplasms within the past 5 years prior to screening (except basal and&#xD;
+             squamous cell skin cancer).&#xD;
+&#xD;
+          -  Beta blockers or non-dihydropyridine calcium channel blockers.&#xD;
+&#xD;
+          -  Current use of any medication intended to lower glucose other than insulin (ex. use of&#xD;
+             liraglutide).&#xD;
+&#xD;
+          -  A positive response to any of the questions from the Physical Activity Readiness&#xD;
+             Questionnaire with one exception: participant will not be excluded if he/she takes a&#xD;
+             single blood pressure medication that doesn't impact heart rate and blood pressure is&#xD;
+             controlled on the medication (blood pressure is less than 140/90 mmHg).&#xD;
+&#xD;
+          -  Any chest discomfort with physical activity, including pain or pressure, or other&#xD;
+             types of discomfort.&#xD;
+&#xD;
+          -  Any clinically significant disease or disorder which in the opinion of the&#xD;
+             Investigator may jeopardize the participant's safety or compliance with the protocol.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>50 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Peter Jacobs, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jessica Castle, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Oregon Health and Science University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jessica Castle, MD</last_name>
+    <phone>503-494-7072</phone>
+    <email>castleje@ohsu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Deborah Branigan</last_name>
+    <phone>5034189070</phone>
+    <email>branigad@ohsu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Oregon Health and Science University</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Deborah Branigan, BA CCRP</last_name>
+      <phone>503-418-9070</phone>
+      <email>branigad@ohsu.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Castle, MD</last_name>
+      <phone>503-494-7072</phone>
+      <email>castleje@ohsu.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Peter Jacobs, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jessica Castle, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joseph El Youssef, MBBS</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leah Wilson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Melanie Jackson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>January 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 25, 2021</study_first_posted>
+  <last_update_submitted>March 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oregon Health and Science University</investigator_affiliation>
+    <investigator_full_name>Jessica Castle</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>glucose sensor</keyword>
+  <keyword>automated insulin delivery systems</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

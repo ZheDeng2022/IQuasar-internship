@@ -1,0 +1,293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04966637</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pro00097014</org_study_id>
+    <nct_id>NCT04966637</nct_id>
+  </id_info>
+  <brief_title>Identifying Early Chronic Obstructive Pulmonary Disease (COPD) Using Health Administrative Data</brief_title>
+  <official_title>Identifying Early Chronic Obstructive Pulmonary Disease (COPD) Using Health Administrative Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Alberta</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Alberta Health Services</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Alberta</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic Obstructive Pulmonary Disease (COPD) affects the airways that causes shortness of&#xD;
+      breath, cough. COPD gets worse over time, and often leads to emergency department visits,&#xD;
+      hospital visits, frequent doctor appointments and medications. This means COPD is expensive,&#xD;
+      and severely impacts patient quality of life. Unfortunately, patients are often not properly&#xD;
+      diagnosed until their disease is fairly advanced. We know a lot about the health care use of&#xD;
+      people with COPD once they have been diagnosed, but we do not know much about what happens to&#xD;
+      them leading up to their diagnosis. Through this project we want to better understand the&#xD;
+      time period prior to COPD diagnosis, so that we can learn more about what happens to people&#xD;
+      before they are diagnosed.&#xD;
+&#xD;
+      This project will use health data to find out if we can identify trends in health care use by&#xD;
+      individuals newly diagnosed with COPD. We will identify people that have COPD based on health&#xD;
+      records, and look back to find out about their health care use prior to their diagnosis. We&#xD;
+      will look at data related to doctors' visits, emergency department visits, hospital stays and&#xD;
+      medications. We want to use these markers to better understand what happens to people before&#xD;
+      they are diagnosed, and to find out if we can identify risk factors for a COPD diagnosis. We&#xD;
+      hope by doing this research we can better identify people at risk for COPD and ensure that&#xD;
+      they receive treatment early, which may improve their health outcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Objectives&#xD;
+&#xD;
+        1. Identifying a cohort of individuals with a new onset of COPD in the between April 1,&#xD;
+           2016 and March 31, 2019.&#xD;
+&#xD;
+        2. To determine factors associated with a new diagnosis of COPD through using traditional&#xD;
+           mixed-model regression.&#xD;
+&#xD;
+        3. To evaluate whether information collected within administrative data can be used to&#xD;
+           create a prediction model for a COPD diagnosis.&#xD;
+&#xD;
+        4. To determine whether machine learning methodology improves the prediction of a new COPD&#xD;
+           diagnosis from administrative data.&#xD;
+&#xD;
+      Measures:&#xD;
+&#xD;
+        1. The cohort of individuals with COPD in Alberta has already been defined, and this data&#xD;
+           exists within the Alberta Health Services, Respiratory Health Strategic Clinical Network&#xD;
+           (RHSCN) dataset. It will be used to further identify individuals with a new diagnosis of&#xD;
+           COPD within the three year study time period.&#xD;
+&#xD;
+        2. In order to conduct this study, a variety of data sets will be used including:&#xD;
+&#xD;
+             -  Inpatient Discharge Abstract Database;&#xD;
+&#xD;
+             -  Practitioner Claims Database;&#xD;
+&#xD;
+             -  Provincial Registry Database;&#xD;
+&#xD;
+             -  Population Health Database and&#xD;
+&#xD;
+             -  Pharmaceutical information Network&#xD;
+&#xD;
+      Project Hypothesis We anticipate individuals with a diagnosis of COPD in the last three years&#xD;
+      will have identifiable markers associated with lung disease in the five years prior to their&#xD;
+      diagnosis. These markers may include: diagnosis of acute respiratory disease (such as&#xD;
+      pneumonia, bronchitis, upper respiratory infections), increased health care utilization, and&#xD;
+      the use of medications such as antibiotics.&#xD;
+&#xD;
+      The project plan will address the specific project goals as follows:&#xD;
+&#xD;
+        1. Identifying a cohort of individuals with a new onset of COPD from April 1, 2016 to March&#xD;
+           30, 2019. Through the RHSCN, a cohort of individuals with COPD has been identified of&#xD;
+           over 200,000 individuals with COPD in Alberta. This cohort will be refined to identify&#xD;
+           only those individuals that have been diagnosed within the specified time period. This&#xD;
+           time period was chosen due to data availability. Given our most recent data, we know&#xD;
+           that approximate 19,000 individuals have been diagnosed with COPD per year, over the&#xD;
+           last five years. Thus we can approximate that our dataset will include approximately&#xD;
+           55,000 individuals with COPD diagnosed in a three year time period.&#xD;
+&#xD;
+        2. Retrospectively review the pattern of health care utilization for individuals with a new&#xD;
+           diagnosis of COPD in the five years prior to their diagnosis. The health care&#xD;
+           utilization (ED visits, hospitalization visits, physician visits) for each case in the&#xD;
+           cohort for the previous five years will be identified.&#xD;
+&#xD;
+        3. Explore the medication use for individuals with COPD for five years prior to their&#xD;
+           diagnosis. Lastly, the medication use for each case identified in the cohort during the&#xD;
+           time period five years prior to their diagnosis will be explored. The Pharmaceutical&#xD;
+           Information Network (PIN) database will be used to identify all medications (both&#xD;
+           respiratory and non-respiratory) for individuals in the cohort to assess medication use&#xD;
+           prior to diagnosis.&#xD;
+&#xD;
+        4. Working with the machine learning provider (AltaML) we will additionally conduct a&#xD;
+           machine learning based analysis to further explore this data set regarding the same&#xD;
+           variables.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>determine factors associated with a new diagnosis of COPD</measure>
+    <time_frame>each patient's COPD incidence diagnosis date and a COPD incidence diagnosis date (minus 5 years)</time_frame>
+    <description>Health care utilization (physician visits, hospitalizations, emergency department visits, dispensed medication for the cohort of patients five year prior to their diagnosis will be evaluated</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>prediction model for COPD</measure>
+    <time_frame>each patient's COPD incidence diagnosis date and a COPD incidence diagnosis date (minus 5 years)</time_frame>
+    <description>Health care utilization (physician visits, hospitalizations, emergency department visits, dispensed medication for the cohort of patients five year prior to their diagnosis will be evaluated</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>machine learning prediction model for COPD</measure>
+    <time_frame>each patient's COPD incidence diagnosis date and a COPD incidence diagnosis date (minus 5 years)</time_frame>
+    <description>Health care utilization (physician visits, hospitalizations, emergency department visits, dispensed medication for the cohort of patients five year prior to their diagnosis will be evaluated using machine learning</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">50000</enrollment>
+  <condition>Chronic Obstructive Pulmonary Disease (COPD</condition>
+  <arm_group>
+    <arm_group_label>Individuals with COPD</arm_group_label>
+    <description>This retrospective annual analysis will use the following validated case definition to identify a cohort of individuals with COPD: an individual aged 35 years and older having at least one visit to a physician with a diagnosis of COPD (by ICD-9(-CM) 491-492, 496) or one hospital separation with a diagnosis of COPD (ICD-10-CA J41-44) between April 1, 2016 and March 31, 2019.&#xD;
+This is a retrospective descriptive study with administrative data and no intervention will be administered to the cohort</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>COPD cohort</intervention_name>
+    <description>as this a retrospective descriptive study no intervention will be administered to study participants</description>
+    <arm_group_label>Individuals with COPD</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population includes all individuals in the province of Alberta that meet the&#xD;
+        inclusion criteria, and have accessed the provincial health care system during the study&#xD;
+        period. All individuals that have an incident case of COPD within the 3 year time period&#xD;
+        for study inclusion that reside in Alberta will have their data included in the study.&#xD;
+        Based on our pre-existing knowledge of the administrative data available, we would expect&#xD;
+        over 50,000 individual patients in the cohort. Given our health care is provided at a&#xD;
+        provincial level, we would expect this would capture all individuals in the province that&#xD;
+        had their incident diagnosis of COPD in the time period. The exception may be individuals&#xD;
+        that were diagnosed with COPD while out of province.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Must have had at least one visit to a physician with a diagnosis of COPD (by&#xD;
+             ICD-9(-CM) 491-492, 496) or one hospital separation with a diagnosis of COPD&#xD;
+             (ICD-10-CA J41-44).&#xD;
+&#xD;
+          2. Incidence criteria included 5 year washout period in which they were not in Alberta,&#xD;
+             Canada but did not have any diagnosis of COPD&#xD;
+&#xD;
+          3. Individuals that meet this criteria with a new diagnosis in the last 3 years will be&#xD;
+             included in the cohort, thus individuals with their 'incident' diagnosis of COPD in&#xD;
+             the last three years will be included (01-APR-2016 to 31-MAR-2017, 01-APR-2017 to&#xD;
+             31-MAR-2018; 01-APR-2018 to 31-MAR-2019)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Individuals that were diagnosed with COPD prior to or after the enrollment period.&#xD;
+&#xD;
+          2. Individuals that did not live in Alberta (with access to Alberta health care) during&#xD;
+             the five year washout period&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>35 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Stickland, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Alberta</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Heather Sharpe, PhD</last_name>
+    <phone>7809919232</phone>
+    <email>hsharpe@ualberta.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Alberta</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 2R3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Heather Sharpe, PhD</last_name>
+      <phone>7809919232</phone>
+      <email>hsharpe@ualberta.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Michael Stickland, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Heather Sharpe, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Maeve Smith, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Fong, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mohit Bhutani, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Brandie Walker, MD/PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Naushad Hirani, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alim Hirji, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Tatiana Makhinova, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 19, 2021</study_first_posted>
+  <last_update_submitted>July 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases</mesh_term>
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

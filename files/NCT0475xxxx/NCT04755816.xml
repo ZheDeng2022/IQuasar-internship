@@ -1,0 +1,349 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04755816</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00181316</org_study_id>
+    <secondary_id>R01AG062582-01A1</secondary_id>
+    <nct_id>NCT04755816</nct_id>
+  </id_info>
+  <brief_title>A Mobile Application to Promote Self-management and Improve Outcomes in Heart Failure</brief_title>
+  <official_title>A Multifaceted Adaptive Mobile Application to Promote Self-management and Improve Outcomes in Heart Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Aging (NIA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will investigate the effectiveness of two contextual just-in-time adaptive&#xD;
+      interventions (JITAIs) delivered via a mobile app for heart failure patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Manage HF study is a multicenter 12-week randomized controlled double-blind 2x2 factorial&#xD;
+      clinical trial. This study will investigate the effectiveness of two contextual just-in-time&#xD;
+      adaptive interventions (JITAIs) delivered via a mobile app for heart failure patients. The&#xD;
+      clinical worsening intervention targets self-management of behaviors to prevent worsening of&#xD;
+      a patient's heart failure symptoms. The dietary sodium intervention promotes lower sodium&#xD;
+      intake. Eligible participants will be randomized to the dietary sodium intervention, the&#xD;
+      clinical worsening intervention, both interventions, or no intervention in a 1:1:1:1 manner,&#xD;
+      stratified by site, gender, and HF type (HFpEF versus HFrEF).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 14, 2021</start_date>
+  <completion_date type="Anticipated">April 2024</completion_date>
+  <primary_completion_date type="Anticipated">April 2024</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hierarchical combination (&quot;win ratio&quot;) of time to all-cause mortality, time to heart failure hospital readmission, and decline in health-related quality of life (HRQOL) [ Time Frame: Baseline up to Week 12 ]</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Time to all-cause mortality (ACM), time to heart failure hospital readmission (HFHR), and decline in quality of life will be analyzed using the Finkelstein-Schoenfeld method. The method combines these three endpoints in a hierarchical fashion using ACM first, HRHR second, and change in HRQOL third. The method pairs every participant receiving the intervention with every participant not receiving the intervention within each stratum. Within each pairing, a +1 is assigned to the &quot;better&quot; participant, -1 to the &quot;worse&quot; participant, and 0 if they are &quot;tied&quot;. The comparison begins with ACM. Tied pairings are then compared using HFHR. Any remaining tied pairings are compared using change in HRQOL. A 'Win' represents a participant doing better within each pairing (receiving +1) based on the hierarchical comparison. The reported unit is the total &quot;wins&quot; for each intervention group from performing such a hierarchical comparison across all strata.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>All-Cause Mortality [ Time Frame: Baseline up to Week 12 ]</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Time to all-cause mortality will be analyzed up to week 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Heart failure-related hospitalizations [ Time Frame: Baseline to Week 12 ]</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Time to first heart-failure related hospitalization will be analyzed up to week 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in health-related quality of life [ Time Frame: Baseline, Week 12 ]</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Change from baseline to week 12 in health-related quality of life as measured by the Minnesota Living with Heart Failure Questionnaire.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>Sham Comparator</arm_group_type>
+    <description>Standard heart failure educational information.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dietary Sodium Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The dietary sodium intervention facilitates lower sodium choices using tailored push notifications.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Clinical Worsening Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The clinical worsening intervention promotes self-monitoring and self-management and is linked tailored push notifications.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dietary Sodium and Clinical Worsening</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Full access to all content in the control, dietary sodium, and clinical worsening interventions.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Sodium intervention</intervention_name>
+    <description>The sodium dietary intervention provides uses location services to determine when a participant is at home, arrives at a grocery store or arrives at a restaurant. The user receives a tailored message to assist with making dietary choices based on sodium content.</description>
+    <arm_group_label>Dietary Sodium Intervention</arm_group_label>
+    <arm_group_label>Dietary Sodium and Clinical Worsening</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical worsening intervention</intervention_name>
+    <description>The intervention adapts to the participant's reported symptoms and provides feedback with a global health status indicator (HSI). Users will receive tailored push notification based on their HSI status.</description>
+    <arm_group_label>Clinical Worsening Intervention</arm_group_label>
+    <arm_group_label>Dietary Sodium and Clinical Worsening</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Educational content</intervention_name>
+    <description>Standard heart failure educational information and a daily symptom survey.</description>
+    <arm_group_label>Control Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age 18 years and older at screening and able to provide consent&#xD;
+&#xD;
+          2. Currently admitted to the hospital for acute or acute on chronic decompensated HF&#xD;
+&#xD;
+          3. Left ventricular ejection fraction (LVEF) ≤ 40% or an LVEF &gt;40% (with left atrial size&#xD;
+             &gt;40mm or BNP &gt; 200 pg/ml or NT-proBNP &gt; 800 pg/ml). LVEF within 12 months of&#xD;
+             randomization. BNP or NT-proBNP criteria within 30 days prior to randomization.&#xD;
+&#xD;
+          4. Have a personal physician for follow-up&#xD;
+&#xD;
+          5. A smartphone with Apple or Android operating system installed and able to download and&#xD;
+             use ManageHF&#xD;
+&#xD;
+          6. A valid email address&#xD;
+&#xD;
+          7. Fluent in spoken and written English&#xD;
+&#xD;
+          8. Signed written informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Contraindication to recommending a sodium restriction diet&#xD;
+&#xD;
+          2. Acute coronary syndrome, stroke, transient ischemic attack, cardiac, carotid, or other&#xD;
+             major cardiovascular surgery, PCI, or carotid angioplasty within 3 months prior to&#xD;
+             screening&#xD;
+&#xD;
+          3. Planned intervention for primary valvular heart disease will occur during the study&#xD;
+             period&#xD;
+&#xD;
+          4. Cardiac resynchronization therapy (CRT) within 3 months prior to screening or current&#xD;
+             plan to implant CRT device during the study period.&#xD;
+&#xD;
+          5. Known active myocarditis, hypertrophic obstructive cardiomyopathy, pericarditis,&#xD;
+             cardiac amyloidosis, or restrictive cardiomyopathy&#xD;
+&#xD;
+          6. Complex congenital heart disease&#xD;
+&#xD;
+          7. Severe stenotic valvular disease&#xD;
+&#xD;
+          8. Severe uncorrected thyroid disease&#xD;
+&#xD;
+          9. End stage renal disease (dialysis or creatinine &gt;4.0 mg/dL)&#xD;
+&#xD;
+         10. End stage liver disease&#xD;
+&#xD;
+         11. Previous cardiac transplantation or implantation of a ventricular assistance device or&#xD;
+             similar device, or implantation expected within 6 months after randomization&#xD;
+&#xD;
+         12. Cardiac (including end stage HF) or non-cardiac illness with expected survival less&#xD;
+             than 6 months&#xD;
+&#xD;
+         13. Oxygen-dependent lung disease&#xD;
+&#xD;
+         14. Discharge to a setting other than home&#xD;
+&#xD;
+         15. Requirement for chronic inotropic therapy (e.g. milrinone, dobutamine).&#xD;
+&#xD;
+         16. Currently pregnant or intent to become pregnant during the study period.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Dorsch, PharmD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Michael Dorsch, PharmD</last_name>
+    <phone>734-647-1452</phone>
+    <email>mdorsch@umich.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Brigid Rowell, MA</last_name>
+    <email>browell@umich.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Alabama at Birmingham</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35294</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Stanford University</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Emory University</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30322</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Atlanta VA Health Care System</name>
+      <address>
+        <city>Decatur</city>
+        <state>Georgia</state>
+        <zip>30033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Michigan</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Henry Ford Hospital System</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Washington University in St. Louis</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of North Carolina at Chapel Hill</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27514</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Commonwealth University</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23284</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>January 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 10, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 16, 2021</study_first_posted>
+  <last_update_submitted>July 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Michael Dorsch</investigator_full_name>
+    <investigator_title>Assistant Professor of Clinical Pharmacy</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The aim is to prepare data for deposit into the National Institute on Aging supported National Archive of Computerized Data on Aging data repository. The de-identified analytic data will be prepared as SAS transport files or ASCII comma-delimited files with accompanying codebooks that describe the data and data structure. The redaction will employ best practices and will be consistent with National Institute on Aging data sharing policies.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>No later than 3 years after the end of the study or 2 years after the main paper reporting the results of the trial, whichever comes first.</ipd_time_frame>
+    <ipd_access_criteria>Researchers at institutions with a Federal Wide Assurance will be able to gain access to repository data by submitting a data access request in accordance with applicable policies.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

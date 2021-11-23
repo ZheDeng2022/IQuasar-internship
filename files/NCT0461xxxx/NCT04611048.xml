@@ -1,0 +1,271 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04611048</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PsiNorm</org_study_id>
+    <nct_id>NCT04611048</nct_id>
+  </id_info>
+  <brief_title>Establishing Normative Values for Thermal Detection and Pain Threshold Established by the Psi Method</brief_title>
+  <official_title>Establishing Normative Values for Thermal Detection and Pain Threshold Established by the Psi Method</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Université Catholique de Louvain</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cliniques universitaires Saint-Luc- Université Catholique de Louvain</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Université Catholique de Louvain</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study aims to compare different methods to assess thermal detection ability in diabetic&#xD;
+      patients, as a way to monitor and diagnose neurological complications of diabetes mellitus.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diabetic polyneuropathy is a frequent complication of diabetes mellitus. The impairment of&#xD;
+      peripheral nerve fibre function can be very variable, predominantly affecting large-diameter&#xD;
+      fibres (subserving touch), small-diameter fibres (subserving thermonociception), or both.&#xD;
+&#xD;
+      Thermal detection threshold evaluation can be used to quantify the extent of function loss&#xD;
+      (hypoesthesia) and, to a lesser extent, gain (hyperesthesia) in patients with&#xD;
+      thermonociceptive impairments. They are important features of quantitative sensory testing&#xD;
+      (QST) protocols (Rolke, Baron, et al., 2006; Rolke, Magerl, et al., 2006) and are pivotal to&#xD;
+      the determination of sensory phenotypes (Baron et al., 2017; Raputova et al., 2017). Their&#xD;
+      role is particularly important in the diagnostic workup of neuropathies affecting small&#xD;
+      fibers (i.e., the subgroup of primary afferents responsible for thermonociception and&#xD;
+      autonomic functions) such as painful diabetic neuropathies (Terkelsen et al., 2017; Tesfaye&#xD;
+      et al., 2010).&#xD;
+&#xD;
+      Currently, clinical measurements of thermal detection thresholds are mainly performed using&#xD;
+      the method of limits (Fruhstorfer, Lindblom, &amp; Schmidt, 1976), in which a continuous heating&#xD;
+      or cooling ramp (usually at a slow rate, 1°C/s in the case of the DFNS QST protocol (Rolke,&#xD;
+      Magerl, et al., 2006)) is applied to the skin of the patient who is instructed to press a&#xD;
+      button as soon as he/she feels a warm or cold sensation. The detection threshold is then&#xD;
+      considered to be the temperature reached at the moment the patient pressed the button. The&#xD;
+      method of limits has been known for a long time to be methodologically biased due to its&#xD;
+      reliance on the reaction time (Yarnitsky &amp; Ochoa, 1991), which lead to an overestimation of&#xD;
+      the threshold value corresponding to the temperature change that occurred between detection&#xD;
+      and it's signalling by a motor response. This is problematic as reaction times are under the&#xD;
+      influence of decision and motor reaction response speeds which may be affected by factors&#xD;
+      irrelevant to the assessment of sensory discrimination, such as cognitive or motor&#xD;
+      impairments.&#xD;
+&#xD;
+      A methodologically sounder approach for threshold measurement is the method of levels or&#xD;
+      constant stimuli (Kingdom &amp; Prins, 2010). A number of preselected stimulus intensities are&#xD;
+      presented a number of times in random order and the subject is asked whether he/she felt each&#xD;
+      stimulus. Unlike the method of limits, this approach is not biased by decision speed and&#xD;
+      motor function. Furthermore, this method enables the fitting of a psychometric function&#xD;
+      (probability of detection as a function of stimulus intensity) to the results, therefore&#xD;
+      moving thermal detection performance assessments from the outdated High Threshold Theory&#xD;
+      framework to that of the currently leading Signal Detection Theory (Kingdom &amp; Prins, 2010).&#xD;
+      Whereas High Threshold Theory conceptualized detection as an ON/OFF process (below threshold,&#xD;
+      no detection occurs, above threshold detection always occurs), Signal Detection Theory sees&#xD;
+      detection as a probabilistic process (each stimulus intensity is associated with a&#xD;
+      probability of detection). This theoretical framework implies to redefine the threshold as&#xD;
+      the stimulus intensity for which detection probability equates 0.5. In addition to the&#xD;
+      threshold, the psychometric function is also defined by its slope, i.e. the rate at which&#xD;
+      detection probability changes around the value of the threshold. . Unfortunately, the method&#xD;
+      of levels has some important drawbacks. First, it is time consuming as it requires collecting&#xD;
+      responses to a large amount of stimuli (usually several hundreds) (Gescheider, 1997). Second,&#xD;
+      the range of stimulus intensities must be approximately centered on the actual threshold&#xD;
+      value and cover the transition range of detection probability.&#xD;
+&#xD;
+      To overcome these limitations, several adaptive procedures have been proposed. These&#xD;
+      procedures actively adjust the intensity of the presented stimuli depending on the previous&#xD;
+      responses of the subject (Kingdom &amp; Prins, 2010). In the present study, we implemented for&#xD;
+      the first time the Psi method (a Bayesian adaptive algorithm proposed by Kontsevich and Tyler&#xD;
+      (1999)) to estimate the thresholds and slopes of the psychometric function for heat and cold&#xD;
+      detection. This algorithm associates each potential values of slope and threshold with a&#xD;
+      probability, updates this probability distribution based on the response recorded after each&#xD;
+      stimulus presentation (detected/not detected), and selects the next stimulus intensity so&#xD;
+      that the response to its presentation maximizes the entropy (i.e. the uncertainty around the&#xD;
+      values of slope and threshold) reduction.&#xD;
+&#xD;
+      In this study, we will test healthy controls with the conventional method of limit and the&#xD;
+      new psi method, in order to establish normative values for the new test.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    Due to covid, the recruitment plan was disrupted and recruitment is on hold for a undetermined&#xD;
+    period of time.&#xD;
+  </why_stopped>
+  <start_date type="Actual">October 10, 2020</start_date>
+  <completion_date type="Anticipated">January 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Healthy volunteers will be tested in this study, in order to establish normative values for the new procedure (psi method)</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Fitted psychometric functions for cold detection obtained with the psi method</measure>
+    <time_frame>baseline</time_frame>
+    <description>The alpha (threshold; °C) and beta (slope, °C^-1) terms of the fitted logistic equation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fitted psychometric functions for warm detection obtained with the psi method</measure>
+    <time_frame>baseline</time_frame>
+    <description>The alpha (threshold; °C) and beta (slope, °C^-1) terms of the fitted logistic equation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fitted psychometric functions for cold pain obtained with the psi method</measure>
+    <time_frame>baseline</time_frame>
+    <description>The alpha (threshold; °C) and beta (slope, °C^-1) terms of the fitted logistic equation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Fitted psychometric functions for heat pain obtained with the psi method</measure>
+    <time_frame>baseline</time_frame>
+    <description>The alpha (threshold; °C) and beta (slope, °C^-1) terms of the fitted logistic equation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cold detection threshold (protocol of the German Research Network on Neuropathic Pain - DFNS)</measure>
+    <time_frame>baseline</time_frame>
+    <description>average of 3 measurement of the threshold with the method of limits, as described in the protocol of the German Research Network on Neuropathic Pain - DFNS</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cold pain threshold (protocol of the German Research Network on Neuropathic Pain - DFNS)</measure>
+    <time_frame>baseline</time_frame>
+    <description>average of 3 measurement of the threshold with the method of limits, as described in the protocol of the German Research Network on Neuropathic Pain - DFNS</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Warm detection threshold (protocol of the German Research Network on Neuropathic Pain - DFNS)</measure>
+    <time_frame>baseline</time_frame>
+    <description>average of 3 measurement of the threshold with the method of limits, as described in the protocol of the German Research Network on Neuropathic Pain - DFNS</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Heat Pain threshold (protocol of the German Research Network on Neuropathic Pain - DFNS)</measure>
+    <time_frame>baseline</time_frame>
+    <description>average of 3 measurement of the threshold with the method of limits, as described in the protocol of the German Research Network on Neuropathic Pain - DFNS</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Utah Early Neuropathy Scale</measure>
+    <time_frame>baseline</time_frame>
+    <description>The UENS is a score derived from standard neurological examination items (evaluation of ankles deep tendon reflexes; evaluation of vibration sensation (128 Hz tuning fork); evaluation of allodynia; evaluation of position sensation in the big toes; mapping of pinprick sensitivity in the lower leg; and evaluation of the active extension of the big toes), ranging from 0 to 42.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Toronto clinical neuropathy score</measure>
+    <time_frame>baseline</time_frame>
+    <description>The UENS is a score derived from standard neurological examination items (questions about symptoms (presence or absence of foot pain, numbness, tingling, weakness, imbalance and upper limb symptoms); evaluation of knees and ankles deep tendon reflexes; evaluation of pinprick, temperature, light touch, vibration (128 Hz tuning fork) compared to that of an unaffected sites (e.g., sternum); position sensation in the big toes), ranging from 0 to 19.</description>
+  </other_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Small Fiber Neuropathy</condition>
+  <arm_group>
+    <arm_group_label>Main study</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Several electrophysiological and behavioural tests will be performed to properly diagnose the patients/check that the healthy controls do not suffer of neuropathy.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Thermal QST (CDT, WDT, CPT, HPT) with the method of limits</intervention_name>
+    <description>The testing will be carried out using the classical method of limits, i.e. a continuous heating/cooling stimulus will be applied to the skin at a rate of 1°C/s, until the subject signals that he/she felt the targeted sensation by pressing a button (Rolke, Baron, et al., 2006). The temperature reached by the time the subject pressed the button will be considered the threshold. Baseline temperature will be set at 32°C. The stimuli will not go lower than 0°C and higher than 50°C.</description>
+    <arm_group_label>Main study</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Thermal QST (cold and warm detection, heat pain) with the psi method</intervention_name>
+    <description>The Psi algorithm is a method using Bayesian statistics to determine not only the threshold but also the slope of the psychometric function (relationship between the intensity of a stimulus and its detection probability; Kingdom &amp; Prins, 2010). The algorithm selects the next stimulus intensity to be the most informative on the parameters of interest, based on the prior probability density. After each stimulation, the subject will be asked if he/she felt it (as painful) or not. Based on that answer, a posterior probability density is computed. This posterior is then used as prior for the next stimulation. The stimuli will last maximum 1 s and temperature will be kept between 0°C and 60°C.</description>
+    <arm_group_label>Main study</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Neurological examination</intervention_name>
+    <description>A standardized neurological examination will be performed to assess all the items included in the Utah Early Neuropathy Scale (UENS ) (Singleton et al., 2008) and the Toronto Clinical Neuropathy Score (TCNS)(Perkins, Olaleye, Zinman, &amp; Bril, 2001). This will include: questions about symptoms (presence or absence of foot pain, numbness, tingling, weakness, imbalance and upper limb symptoms); evaluation of knees and ankles deep tendon reflexes; evaluation of pinprick, temperature, light touch, vibration (128 Hz tuning fork) compared to that of an unaffected sites (e.g., sternum); position sensation in the big toes; mapping of pinprick sensitivity in the lower leg; and evaluation of the active extension of the big toes. Pinprick evaluation will be performed using a disposable pin designed for that purpose (Medipin, The United-Kingdom).</description>
+    <arm_group_label>Main study</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        -&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Alcohol beverage intake &gt;3 units/day&#xD;
+&#xD;
+          -  Habitual substance abuse&#xD;
+&#xD;
+          -  History of chemotherapy&#xD;
+&#xD;
+          -  Scar or dermatological condition at the site of stimulation (forearm and hands, leg&#xD;
+             and foot)&#xD;
+&#xD;
+          -  History of neurological, psychiatric or metabolic disorder other than Diabetes&#xD;
+             Mellitus (screening will be performed with the patient)&#xD;
+&#xD;
+          -  Currently taking drugs that could induce neuropathy (screening will be performed with&#xD;
+             the patient)&#xD;
+&#xD;
+          -  For healthy controls: Suffering of chronic pain&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>79 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>André Mouraux, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Université Catholique de Louvain</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Institute of Neuroscience</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1200</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>July 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 2, 2020</study_first_posted>
+  <last_update_submitted>September 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Small Fiber Neuropathy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>SAP will be available on the OSF repository by January 2021. Anonymized data will be freely available (stored on an OSF repository) as supporting material for publication.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_time_frame>SAP will be available on the OSF repository by January 2021. Anonymized data will be freely available (stored on an OSF repository) as supporting material for publication.</ipd_time_frame>
+    <ipd_access_criteria>No restriction</ipd_access_criteria>
+    <ipd_url>https://osf.io/r3fxu/</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

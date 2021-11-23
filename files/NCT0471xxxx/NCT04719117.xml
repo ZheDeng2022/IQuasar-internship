@@ -1,0 +1,241 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04719117</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EA-19-006-08</org_study_id>
+    <nct_id>NCT04719117</nct_id>
+  </id_info>
+  <brief_title>Retrograde Cholangiopancreatography AI Assisted System Validation on Effectiveness and Safety</brief_title>
+  <official_title>A Multicentric Validation Study on the Effectiveness and Safety of Artificial Intelligence Assisted System in Clinical Application of Retrograde Cholangiopancreatography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, the investigators proposed a prospective study about the effectiveness of&#xD;
+      artificial intelligence system for Retrograde cholangiopancreatography. The subjects would be&#xD;
+      include in an analyses groups. The AI-assisted system helps endoscopic physicians estimate&#xD;
+      the difficulty of Endoscopic retrograde cholangiopancreatography for choledocholithiasis and&#xD;
+      make recommendations based on guidelines and difficulty scores. The investigators used the&#xD;
+      stone removal times, success rate of stone extraction and Operating time to reflect the&#xD;
+      difficulty of the operation, and evaluated whether the results of the AI system were correct.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Endoscopy is a routine and reliable method for the diagnosis of digestive tract&#xD;
+      diseases.Common endoscopy are gastroscopy, colonoscopy, capsule endoscopy and enteroscopy,&#xD;
+      ultrasonic gastroscopy, after ercp and other related technology, can be used in early gastric&#xD;
+      cancer and peptic ulcer, esophageal varices, the stomach before lesion, intestinal polyps and&#xD;
+      adenomas and colorectal lesions, inflammatory bowel disease, pancreas disease, biliary tract&#xD;
+      disease diagnosis and follow-up.At present, digestive endoscopy almost covers the diagnosis&#xD;
+      of the vast majority of diseases of the digestive tract, and diseases of the digestive system&#xD;
+      that cannot be directly seen by endoscopy can also be realized through endoscopic-based&#xD;
+      technologies such as endoscopy and ERCP (here the investigators collectively refer to&#xD;
+      endoscopy), so as to achieve the coverage of the whole digestive system.It can be seen that&#xD;
+      digestive endoscopy is of great significance for the diagnosis of digestive diseases and the&#xD;
+      development of digestive field.&#xD;
+&#xD;
+      With the popularization of these related technologies, the number of endoscopy increased&#xD;
+      rapidly, which further increased the workload of endoscopists. The operation of endoscopy by&#xD;
+      high-load endoscopists would reduce the quality of endoscopy, which is prone to problems such&#xD;
+      as incomplete examination coverage and incomplete detection of lesions.In digestive&#xD;
+      endoscopy, there are some problems in China, such as lack of endoscopic physicians and uneven&#xD;
+      distribution, and the quality of endoscopy is not up to standard. These problems need to be&#xD;
+      solved urgently in order to relieve the pain of patients, save medical resources, save the&#xD;
+      time and money of patients, and ensure the quality of patients' medical treatment.&#xD;
+&#xD;
+      In 2015, the proposal of deep learning brought great changes to the field of artificial&#xD;
+      intelligence, which made the development of artificial intelligence leap to a new&#xD;
+      level.Computer vision is a science that studies how to make machines &quot;see&quot;. Through deep&#xD;
+      learning, camera and computer can replace human eyes to carry out machine vision such as&#xD;
+      target recognition, tracking and measurement.Interdisciplinary cooperation in the field of&#xD;
+      medical imaging and computer vision is also one of the research hotspots in recent years. At&#xD;
+      present, it is mainly applied to the automatic identification and detection of lesions and&#xD;
+      quality control, and has achieved good results. It can assist doctors to find lesions, make&#xD;
+      disease diagnosis and standardize doctors' operations, so as to improve the quality of&#xD;
+      doctors' operations.With mature technical support, it has a good prospect and application&#xD;
+      value to develop endoscopic operating system for lesion detection and quality control based&#xD;
+      on artificial intelligence methods such as deep learning.&#xD;
+&#xD;
+      In this study, the investigators proposed a prospective study about the effectiveness of&#xD;
+      artificial intelligence system for Retrograde cholangiopancreatography. The subjects would be&#xD;
+      include in an analyses groups. The AI-assisted system helps endoscopic physicians estimate&#xD;
+      the difficulty of Endoscopic retrograde cholangiopancreatography for choledocholithiasis and&#xD;
+      make recommendations based on guidelines and difficulty scores. The investigators used the&#xD;
+      stone removal times, success rate of stone extraction and Operating time to reflect the&#xD;
+      difficulty of the operation, and evaluated whether the results of the AI system were correct.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">September 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of stone removal operations</measure>
+    <time_frame>A year</time_frame>
+    <description>The number of times that the stoning balloon and the stoning net were pulled out of the lumen during the stoning process.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>the accuracy of the measurement</measure>
+    <time_frame>A year</time_frame>
+    <description>The diameter of the stone (or the width of the lower end of the bile duct) measured by the machine is consistent with the doctor's degree.Accurate DuDu = | machine measurement results - the doctor gold standard measurement results | / doctor gold standard measurements.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stone clearance success rate</measure>
+    <time_frame>A year</time_frame>
+    <description>Whether the stones have been removed successfully</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>the sensitivity of the prediction of the stone</measure>
+    <time_frame>A year</time_frame>
+    <description>That is, the sensitivity of the machine to predict the number of stones.Sensitivity = the number of calculi correctly predicted by the machine/the number of actual calculi.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>the operate time</measure>
+    <time_frame>During surgery</time_frame>
+    <description>Refers to the time from the successful intubation of the duodenal papilla guide wire to the beginning of endoscopic withdrawal.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>the removal stone time</measure>
+    <time_frame>During surgery</time_frame>
+    <description>Refers to the time from the successful intubation of the duodenal papilla guide wire to the beginning of endoscopic withdrawal.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Gastrointestinal Disease</condition>
+  <condition>Endoscopy</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Cholangiopancreatography, Endoscopic Retrograde</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who meet the admission criteria for endoscopic examination.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Who needs ERCP and its related tests are needed to further define the characteristics&#xD;
+             of digestive tract diseases&#xD;
+&#xD;
+          -  Able to read, understand and sign informed consent&#xD;
+&#xD;
+          -  The investigator believes that the subject can understand the process of the clinical&#xD;
+             study, is willing and able to complete all the study procedures and follow-up visits,&#xD;
+             and cooperate with the study procedures&#xD;
+&#xD;
+          -  Patients with a natural duodenal papilla&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Has participated in other clinical trials, signed informed consent and is in the&#xD;
+             follow-up period of other clinical trials&#xD;
+&#xD;
+          -  Has drug or alcohol abuse or mental disorder in the last 5 years&#xD;
+&#xD;
+          -  Women who are pregnant or lactating&#xD;
+&#xD;
+          -  Subjects with previous biliary sphincterotomy&#xD;
+&#xD;
+          -  The investigator determined that subjects were not suitable for ERCP and related tests&#xD;
+&#xD;
+          -  A high-risk disease or other special condition that the investigator considers&#xD;
+             inappropriate for the subject to participate in a clinical trial&#xD;
+&#xD;
+          -  Patients with known more severe pancreatic head carcinoma&#xD;
+&#xD;
+          -  Patients with acute pancreatitis within 3 days&#xD;
+&#xD;
+          -  Biliary stent replacement or removal did not occur after pancreatic angiography as&#xD;
+             expected&#xD;
+&#xD;
+          -  Acute cardiovascular and cerebrovascular diseases&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Honggang Yu, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Wuhan University Renmin Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Renmin hospital</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <zip>430000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>People's Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200072</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Changhai Hospital</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200433</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>January 15, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 20, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 22, 2021</study_first_posted>
+  <last_update_submitted>January 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 22, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Deep Learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,231 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04600700</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P00036870</org_study_id>
+    <secondary_id>R44HL117340</secondary_id>
+    <nct_id>NCT04600700</nct_id>
+  </id_info>
+  <brief_title>Use of a Predictive Analytics Algorithm to Optimize Weaning of Inotropes Following Pediatric Cardiac Surgery</brief_title>
+  <official_title>Real-time Continuous Predictive Analytics Algorithm to Optimize Weaning of Inotropic Agents in Post-operative Pediatric Surgical Cardiac Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boston Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Heart, Lung, and Blood Institute (NHLBI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Boston Children's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to determine the effectiveness of a real time continuous risk&#xD;
+      analytics algorithm in the successful de-escalation of vasoactive and inotropic support in&#xD;
+      pediatric patients following cardiac surgery.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      IDO2 utilizes high fidelity continuous and intermittent patient data to feed a Bayesian model&#xD;
+      which predicts the risk of inadequate tissue oxygen delivery. This index (the IDO2) is FDA&#xD;
+      510k cleared for pediatric patients 2 kg up to 12 years of age to continuously report the&#xD;
+      risk for inadequate tissue oxygen delivery (defined as a mixed venous oxygen saturation less&#xD;
+      than 40%). The index is continuously displayed in graphical form at the bedside. Clinical&#xD;
+      decision support systems (CDSS) such as IDO2 may inform inform the clinician when it is&#xD;
+      appropriate to de-escalate care on a critically ill. Appropriate de-escalation plays a role&#xD;
+      in the safe, efficient utilization of resources in the CICU, and may reduce duration&#xD;
+      intervals of care such as duration of support with vasoactive and inotropic drugs, mechanical&#xD;
+      ventilation and length of stay. In support of this hypothesis, the investigators for this&#xD;
+      proposed study have recently completed a retrospective, multi-center analysis of 2,556&#xD;
+      patient encounters demonstrating that elevated IDO2 during a wean off inotropic agents is&#xD;
+      associated with weaning failure. When compared to conventional markers of cardiac output,&#xD;
+      6-hour average IDO2 was superior to lactate elevation, fall in base deficit, and fall in&#xD;
+      urine output in discriminating inotrope weaning success from failure. Additionally, for those&#xD;
+      patients who failed inotrope wean, rescue with re-starting an inotrope was associated with a&#xD;
+      concomitant fall in IDO2. This analysis supports an underlying hypothesis that IDO2 reflects&#xD;
+      underlying patient stability, and the rescue of deteriorating physiology leads to an improved&#xD;
+      physiologic state, and hence a lower IDO2.7 Data suggest that simple CDSS which prompt&#xD;
+      discussion about management decisions, such as those made during daily ICU rounds, may&#xD;
+      improve outcomes. These CDSS are often in the form of checklists and apply to usual or&#xD;
+      standardized practices. These simplified mechanisms may not apply to the more dynamic&#xD;
+      clinical situations in which specific and intensively monitored patient populations can&#xD;
+      demonstrate variable response to drugs and recovery. In these circumstances, a CDSS utilizing&#xD;
+      a 6-hour rolling average value of IDO2, in which the physiologic response to decisions is&#xD;
+      demonstrated continuously, may inform a more rapid more efficient and safe de-escalation of&#xD;
+      vasoactive and inotropic drugs when implemented on each of the twice daily clinical work&#xD;
+      rounds in the CICU.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 1, 2021</start_date>
+  <completion_date type="Anticipated">March 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Hours of inotropic support</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Hours of inotropic support</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hours of mechanical ventilation</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Hours of mechanical ventilation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Days in the Cardiac Intensive Care Unit (CICU)</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Number of days in the CICU</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of central line days</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Number of days with a central catheter</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of nosocomial infection</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>The rate per patient day of nosocomial infection</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>adherence to Clinical Decision Support System (CDSS)</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Number of deviations from the protocol</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>hospital cost</measure>
+    <time_frame>12/31/21</time_frame>
+    <description>Hospital charges in US dollars</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>Congenital Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>CDSS weaning group</arm_group_label>
+    <description>This group will be exposed to the CDSS to inform inotrope weaning</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Clinical Decision support system (CDSS) for inotrope weaning</intervention_name>
+    <description>A Clinical Decision Support System informed by 6-hour rolling average IDO2, will be utilized during the intervention phase of the study. The CDSS tool will be introduced in a stepped-wedge pattern. Randomization will occur by center, with time of introduction being staggered, with each center ultimately receiving the CDSS intervention. Teams in the CICU make rounds twice per day. During each of the rounds (AM and PM), the team will refer to the CDSS and the 6-hour average IDO2 (as reported on the T3 platform at the bedside computer). The clinical team will consider the CDSS in decision making around inotrope weans. If the decision is made to not utilize IDO2, the bedside clinician will complete a brief survey with rationale.</description>
+    <arm_group_label>CDSS weaning group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Neonates and infants with congenital heart disease following cardiac surgery&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Neonates and infants aged 1-365 days&#xD;
+&#xD;
+          -  weight greater than 3kg&#xD;
+&#xD;
+          -  Gestational age greater than 36 weeks&#xD;
+&#xD;
+          -  admitted to the cardiovascular intensive care uni following biventricular repairs of&#xD;
+             congenital heart disease&#xD;
+&#xD;
+          -  high risk for hemodynamic instability (ie started on inotropes - milrinone,&#xD;
+             epinephrine, norepinephrine, dopamine, vasopressin) in operating room or within 6&#xD;
+             hours cardiopulmonary bypass cessation.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients undergoing palliation of single ventricle heart disease&#xD;
+&#xD;
+          -  surgical cases not requiring cardiopulmonary bypass&#xD;
+&#xD;
+          -  cases not requiring vasoactive or inotropic support&#xD;
+&#xD;
+          -  patients requiring extracorporeal membrane oxygenation (ECMO) in the perioperative&#xD;
+             period (either out of the operating room, or in the ICU prior to weaning off inotropic&#xD;
+             support)&#xD;
+&#xD;
+          -  patients who died prior to weaning off inotropic support&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>365 Days</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joshua W Salvin, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Boston Children's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Joshua Salvin, MD</last_name>
+    <phone>6173555894</phone>
+    <email>joshua.salvin@cardio.chboston.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Boston Children's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joshua W Salvin, MD</last_name>
+      <phone>617-355-7866</phone>
+      <email>joshua.salvin@cardio.chboston.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 23, 2020</study_first_posted>
+  <last_update_submitted>October 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Boston Children's Hospital</investigator_affiliation>
+    <investigator_full_name>Joshua Salvin</investigator_full_name>
+    <investigator_title>Cardiac Intensive Care Physician</investigator_title>
+  </responsible_party>
+  <keyword>cardiac surgery</keyword>
+  <keyword>congenital heart disease</keyword>
+  <keyword>critical care</keyword>
+  <keyword>pediatrics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Heart Defects, Congenital</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

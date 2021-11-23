@@ -1,0 +1,315 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04620551</url>
+  </required_header>
+  <id_info>
+    <org_study_id>120-20-FB</org_study_id>
+    <nct_id>NCT04620551</nct_id>
+  </id_info>
+  <brief_title>Adaptive Neurostimulation to Restore Sleep in Parkinson's Disease</brief_title>
+  <official_title>Adaptive Neurostimulation to Restore Sleep in Parkinson's Disease: An Investigation of STN LFP Biomarkers in Sleep Dysregulation and Repair</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Nebraska</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Pennsylvania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Nebraska</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Parkinson's disease (PD) is a neurodegenerative disorder that leads to both motor and&#xD;
+      non-motor symptoms. Therapies have been developed that effectively target the motor symptoms.&#xD;
+      Non-motor symptoms are far more disabling for patients, precede the onset of motor symptoms&#xD;
+      by a decade, are more insidious in onset, have been less apparent to clinicians, and are less&#xD;
+      effectively treated. Sleep dysfunction is oftentimes the most burdensome of the non-motor&#xD;
+      symptoms. There are limited options for treating sleep dysfunction in PD, and the mainstay of&#xD;
+      therapy is the use of sedative-hypnotic drugs without addressing the underlying mechanisms.&#xD;
+      Patients with PD who demonstrate significant motor fluctuations and dyskinesia are considered&#xD;
+      for subthalamic nucleus (STN) deep brain stimulation (DBS) surgery. Several studies have&#xD;
+      reported that STN-DBS also provides benefit for sleep dysregulation. Additionally, local&#xD;
+      field potentials recorded from STN DBS electrodes implanted for the treatment of PD, have led&#xD;
+      to the identification of unique patterns in STN oscillatory activity that correlate with&#xD;
+      distinct sleep cycles, offering insight into sleep dysregulation. This proposal will leverage&#xD;
+      novel investigational DBS battery technology (RC+S Summit System; Medtronic) that allows the&#xD;
+      exploration of sleep biomarkers and prototyping of closed-loop stimulation algorithms, to&#xD;
+      test the hypothesis that STN contributes to the regulation and disruption of human sleep&#xD;
+      behavior and can be manipulated for therapeutic advantage. Specifically, in PD patients&#xD;
+      undergoing STN-DBS, the investigators will determine whether STN oscillations correlate with&#xD;
+      sleep stage transitions, then construct and evaluate sensing and adaptive stimulation&#xD;
+      paradigms that allow ongoing sleep-stage identification, and induce through adaptive&#xD;
+      stimulation an increase in duration of sleep stages associated with restorative sleep.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Although STN-DBS is routinely used to treat PD motor symptoms, several studies have reported&#xD;
+      that STN-DBS also provides benefit for sleep dysregulation through normalization of sleep&#xD;
+      architecture. In our previous work, using local field potentials (LFP) recorded from STN DBS&#xD;
+      electrodes implanted for the treatment of PD, unique spectral patterns in STN oscillatory&#xD;
+      activity were identified that correlated with distinct sleep cycles, offering insight into&#xD;
+      sleep dysregulation. These findings were used to construct an Artificial Neural Network (ANN)&#xD;
+      that can accurately predict sleep stage. Building on this work with the use of new DBS&#xD;
+      battery technology that allows exploration of potential biomarkers and prototyping of&#xD;
+      closed-loop algorithms, the investigators will test the hypothesis that STN-a highly&#xD;
+      interconnected node within the basal ganglia- contributes to the regulation and disruption of&#xD;
+      human sleep behavior and can be manipulated for therapeutic advantage.&#xD;
+&#xD;
+      This is the first part, Aim 1, of a two-part study. Investigators will enroll 20 subjects for&#xD;
+      Aim 1 of this study and 20 subjects for Aim 2, with 10 subjects enrolled at each clinical&#xD;
+      site for each aim (University of Nebraska Medical Center and Stanford University Medical&#xD;
+      Campus). In Aim 1, subjects will undergo standard-of-care STN DBS lead implantation surgery&#xD;
+      for the treatment of PD. They will return 3 weeks later to the in-patient Sleep Lab for 3&#xD;
+      nights of STN LFP recordings with concurrent PSG, EMG, EOG, actigraphy, and video-EEG. The&#xD;
+      first two nights of recording will be used to establish a physiological sleep baseline for&#xD;
+      each patient. The third night of recording will involve sub-clinical thresholds of&#xD;
+      stimulation in all subjects, in an effort to favorably alter sleep-stage duration, so that&#xD;
+      NREM and REM-3 are prolonged. As a secondary outcome, subjects will be asked to complete a&#xD;
+      sleep questionnaire for all three nights, sleep during which stimulation occurred will be&#xD;
+      compared to the preceding two nights. Data collected during all three nights of recordings&#xD;
+      will be used to predict sleep stage identity from the LFPs recorded within STN, with the&#xD;
+      ground truth for each sleep stage provided by sleep-expert evaluated PSG. These data will&#xD;
+      also be used to identify the optimal sub-clinical threshold current amplitude and sleep-stage&#xD;
+      timing for adaptive stimulation to improve sleep. The stimulation algorithm developed in Aim&#xD;
+      1 will be implemented in the second part of the study, Aim 2, to provide adaptive stimulation&#xD;
+      to subjects during nighttime sleep, over the course of 3 weeks of in-home sleep.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 21, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sleep stage duration and transitions</measure>
+    <time_frame>Years 1-2</time_frame>
+    <description>We will measure pre- vs. post-stimulation impact on (1) LFP spectral composition; (2) sleep episode-specific change in duration; and (3) stimulation-induced latency to transition to next sleep episode.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sleep Quality</measure>
+    <time_frame>Years 1-2</time_frame>
+    <description>Study participants will complete the Pittsburgh Sleep Diary as a measure of self-reported sleep quality and sleep disturbance.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Parkinson Disease</condition>
+  <condition>Sleep Fragmentation</condition>
+  <arm_group>
+    <arm_group_label>PD with DBS</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients with Parkinson's Disease who opt for DBS surgery and consent to participate in the sleep study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Sub-clinical stimulation</intervention_name>
+    <description>The third night of recording will involve sub-clinical thresholds of stimulation in all subjects.</description>
+    <arm_group_label>PD with DBS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Ability to provide informed consent for this study&#xD;
+&#xD;
+          -  Diagnosis of Idiopathic Parkinson's disease with motor symptoms that have been present&#xD;
+             for a minimum of 4 years&#xD;
+&#xD;
+          -  Motor symptoms are severe enough, despite optimized medical therapy, to warrant&#xD;
+             surgical implantation of DBS&#xD;
+&#xD;
+          -  UPDRS-III score off medication between 20 and 80, and an improvement in UPDRS-III&#xD;
+             score on medications of at least 30%, or patients with tremor-dominant PD (score &gt;/= 2&#xD;
+             on UPDRS-III tremor sub-score)-or tremor in addition to other motor symptoms-that is&#xD;
+             treatment-resistant and results in significant functional disability&#xD;
+&#xD;
+          -  Appropriate trials of oral PD medications have resulted in inadequate relief of motor&#xD;
+             symptoms&#xD;
+&#xD;
+          -  Absence of abnormalities on brain MRI suggestive of an alternate diagnosis or serving&#xD;
+             as a contraindication to surgery&#xD;
+&#xD;
+          -  Absence of significant cognitive deficits or significant depression (BDI-II score &gt;&#xD;
+             20) on formal Neuropsychological Testing&#xD;
+&#xD;
+          -  Age 21 - 80 years&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Coagulopathy, uncontrolled hypertension, history of seizures, heart disease, inability&#xD;
+             to undergo general anesthesia&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+&#xD;
+          -  Significant untreated depression (BDI-II score &gt; 20)&#xD;
+&#xD;
+          -  Personality or mood disorder symptoms that Study Personnel believe will interfere with&#xD;
+             study requirements&#xD;
+&#xD;
+          -  Patients requiring ongoing treatment with ECT, rTMS, or diathermy&#xD;
+&#xD;
+          -  Pre-existing implanted stimulation system (e.g., cochlear implant, cardiac pacemaker,&#xD;
+             defibrillator, neuro-stimulator for indication other than Parkinson's disease) or&#xD;
+             ferromagnetic metallic implant&#xD;
+&#xD;
+          -  Prior intracranial surgery&#xD;
+&#xD;
+          -  History of, or active, drug or alcohol abuse&#xD;
+&#xD;
+          -  Meets criteria for PD with Mild Cognitive Impairment (PD-MCI), as defined by&#xD;
+             Performance &gt; 2 standard deviations below appropriate norms on tests from 2 or more of&#xD;
+             the following cognitive domains: Attention, Executive Function, Language, Memory, and&#xD;
+             Visuospatial Ability&#xD;
+&#xD;
+          -  Patients with Restless Leg Syndrome&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Aviva Abosch, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>University of Nebraska</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Casey Halpern, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Clete Kushida, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Stanford University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>John Thompson, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dulce Maroni, PhD</last_name>
+    <phone>402.836.9751</phone>
+    <email>dmaroni@unmc.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Andrew Schnaubelt, PhD</last_name>
+    <phone>402.559.4846</phone>
+    <email>andy.schnaubelt@unmc.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Standord University Medical Center</name>
+      <address>
+        <city>Stanford</city>
+        <state>California</state>
+        <zip>94305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Casey Halpern, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Clete Kushida, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Colorado Denver School of Medicine</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Nebraska Medical Center</name>
+      <address>
+        <city>Omaha</city>
+        <state>Nebraska</state>
+        <zip>68198</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dulce Maroni, PhD</last_name>
+      <phone>402-836-9751</phone>
+      <email>dmaroni@unmc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Andrew Schnaubelt, PhD</last_name>
+      <phone>402.559.4846</phone>
+      <email>andy.schnaubelt@unmc.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Aviva Abosch, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>November 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 2, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 9, 2020</study_first_posted>
+  <last_update_submitted>October 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Nebraska</investigator_affiliation>
+    <investigator_full_name>Aviva Abosch</investigator_full_name>
+    <investigator_title>Professor and Chair Department of Neurosurgery</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Sleep Deprivation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

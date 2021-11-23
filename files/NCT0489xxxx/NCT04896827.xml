@@ -1,0 +1,270 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04896827</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-4227</org_study_id>
+    <nct_id>NCT04896827</nct_id>
+  </id_info>
+  <brief_title>DNIC Using Deep Learning and Artificial Intelligence</brief_title>
+  <official_title>Reference Values and Clinical Screening Test of Diffuse Noxious Inhibitory Controls (DNIC) Using Deep Learning and Artificial Intelligence</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Université de Sherbrooke</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Lucine</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centre for Research of CHUS (CRCHUS)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Université de Sherbrooke</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic pain (CP) is disabling for people triggering important costs for society. A deficit&#xD;
+      of diffuse noxious inhibitory controls (DNIC) is one of the CP mechanisms. DNICs are&#xD;
+      evaluated in research setting using a CPM protocol (conditioned pain modulation). There is a&#xD;
+      lack of reference values on the effectiveness of DNICs. Wider research on DNIC will help to&#xD;
+      understand CP and to develop a clinical screening test evaluating DNICs. This study aims more&#xD;
+      specifically to determine whether it is possible to develop a facial recognition system to&#xD;
+      automate pain measurement and the effectiveness of pain control mechanisms.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study aims:&#xD;
+&#xD;
+        1. To develop and validate a predictive tool (using deep learning and artificial&#xD;
+           intelligence) to estimate the efficacy of pain control mechanisms.&#xD;
+&#xD;
+        2. To estimate references values for facial expressions of pain control mechanisms in&#xD;
+           healthy and in chronic pain participants.&#xD;
+&#xD;
+      The target population will be healthy volunteers and volunteers with chronic pain, male and&#xD;
+      female, stratified by age.&#xD;
+&#xD;
+      The reference values (healthy volunteers) will be established via a non-parametric method for&#xD;
+      a standard conditioned pain modulation (CPM) protocol in which two &quot;stimuli tests&quot; of the&#xD;
+      same intensity and nature (heat) will be applied before and after the application of another&#xD;
+      &quot;conditioning stimulus&quot; (cold water bath). The perceived pain difference between the 1st and&#xD;
+      2nd stimuli tests will reflect the intensity of the DNICs. Participants' facial expressions&#xD;
+      will be captured simultaneously by three cameras during the CPM testing.&#xD;
+&#xD;
+      These results will be compared to those from volunteers suffering with chronic pain. The&#xD;
+      clinical decision rule will result from clinical and paraclinical elements correlating with&#xD;
+      the amplitude of the efficacy of CPM (serum noradrenaline, intensity of pain, heart rate and&#xD;
+      blood pressure measurements, psychometric questionnaires assessing anxiety, depressive&#xD;
+      feelings and pain catastrophizing). Logistic regression analysis will determine the best&#xD;
+      predictors of a CPM deficit.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 2021</start_date>
+  <completion_date type="Anticipated">January 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Conditioned pain modulation (CPM) profiles</measure>
+    <time_frame>Once, at baseline, at recruitment (comparison between 1st and 2nd test, after the conditioning stimuli)</time_frame>
+    <description>Sensitivity and specificity of the classification algorithm according to different profiles (normal vs altered) of conditioned pain modulation, as defined by the change of pain perception before and after the cold water bath measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] in healthy and in chronic pain volunteers together.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Temporal summation profiles</measure>
+    <time_frame>Once, at baseline, at recruitment (during the first stimuli test)</time_frame>
+    <description>Sensitivity and specificity of the classification algorithm according to different profiles (normal vs altered) of temporal summation, as defined by the change of pain perception during the first stimuli test measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] in healthy and in chronic pain volunteers together.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Conditioned pain modulation (CPM) profiles of healthy volunteers</measure>
+    <time_frame>Once, at baseline, at recruitment (comparison between 1st and 2nd test, after the conditioning stimuli</time_frame>
+    <description>Conditioned pain modulation, as defined by the change of pain perception before and after the cold water bath measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] only in healthy volunteers.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Temporal summation profiles of healthy volunteers</measure>
+    <time_frame>Once, at baseline, at recruitment (during the first stimuli test)</time_frame>
+    <description>Temporal summation, as defined by the change of pain perception during the first stimuli test measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] only in healthy volunteers.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Conditioned pain modulation (CPM) profiles of volunteers with chronic pain</measure>
+    <time_frame>Once, at baseline, at recruitment (comparison between 1st and 2nd test, after the conditioning stimuli)</time_frame>
+    <description>Conditioned pain modulation, as defined by the change of pain perception before and after the cold water bath measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] only in volunteers with chronic pain.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Temporal summation profiles of volunteers with chronic pain</measure>
+    <time_frame>Once, at baseline, at recruitment (during the first stimuli test)</time_frame>
+    <description>Temporal summation, as defined by the change of pain perception during the first stimuli test measured by computerized visual analog scale (CoVAS) ranging from 0 [no pain] to 100 [most intense pain that could be tolerated] only in volunteers with chronic pain.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Demographic factors</measure>
+    <time_frame>Once, at baseline, at recruitment</time_frame>
+    <description>Association of demographic factors (age, gender) with different response profiles of CPM and temporal summation established by the algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Psychologic factors</measure>
+    <time_frame>Once, at baseline, at recruitment</time_frame>
+    <description>Association of psychologic factors (anxiety measured with HADS questionnaire) with different response profiles of CPM and temporal summation established by the algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physiologic factors</measure>
+    <time_frame>Once, at baseline, at recruitment</time_frame>
+    <description>Association of physiologic factors (continuous blood pressure, heart rate, electrodermal activity) with different response profiles of CPM and temporal summation established by the algorithm.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Facial expressions and postures</measure>
+    <time_frame>Once, at baseline, at recruitment</time_frame>
+    <description>Association of facial expressions and postures with different response profiles of CPM and temporal summation established by the algorithm.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">244</enrollment>
+  <condition>Chronic Pain</condition>
+  <arm_group>
+    <arm_group_label>Chronic pain</arm_group_label>
+    <description>Patients with chronic pain (n=100)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy participants</arm_group_label>
+    <description>Healthy participants (n=144)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Conditioned pain modulation test</intervention_name>
+    <description>Conditioned pain modulation (CPM) protocol consist of evaluating pain during a heat test, before and after one conditioning stimulus (cold water bath); 3 cameras will be capturing participants' facial expressions during the tests.</description>
+    <arm_group_label>Chronic pain</arm_group_label>
+    <arm_group_label>Healthy participants</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Male and female volunteers, with and without chronic pain.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Healthy participants&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18-79 years old&#xD;
+&#xD;
+          -  No chronic pain&#xD;
+&#xD;
+          -  Able to provide consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Cardiovascular disease (arrhythmia, cerebrovascular accident, infarction...)&#xD;
+&#xD;
+          -  Raynaud syndrome&#xD;
+&#xD;
+          -  Severe psychiatric disease (dementia, schizophrenia, psychosis, major depression)&#xD;
+&#xD;
+          -  Injuries or loss sensitivity to their forearms or hands&#xD;
+&#xD;
+          -  Pregnant women or in post-partum period (&lt;1 year)&#xD;
+&#xD;
+        Participants with chronic pain&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18-79 years old&#xD;
+&#xD;
+          -  Chronic pain (chronic pain is defined by any regular pain for more than 6 months)&#xD;
+&#xD;
+          -  Able to provide consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Cardiovascular disease (arrhythmia, cerebrovascular accident, infarction...)&#xD;
+&#xD;
+          -  Raynaud syndrome&#xD;
+&#xD;
+          -  Severe psychiatric disease (dementia, schizophrenia, psychosis, major depression)&#xD;
+&#xD;
+          -  Injuries or loss sensitivity to their forearms or hands&#xD;
+&#xD;
+          -  Pregnant women or in post-partum period (&lt;1 year)&#xD;
+&#xD;
+          -  Chronic pain caused by cancer or migraine&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>79 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Serge Marchand, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Université de Sherbrooke</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Marie-Philippe Harvey</last_name>
+    <phone>819-780-2220</phone>
+    <phone_ext>45156</phone_ext>
+    <email>Marie.Philippe.Harvey@USherbrooke.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Université de Sherbrooke</name>
+      <address>
+        <city>Sherbrooke</city>
+        <state>Quebec</state>
+        <zip>J1H 5N4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Marie-Philippe Harvey</last_name>
+      <phone>819-780-2220</phone>
+      <phone_ext>45156</phone_ext>
+      <email>Marie.Philippe.Harvey@USherbrooke.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Serge Marchand, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>May 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 17, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 21, 2021</study_first_posted>
+  <last_update_submitted>November 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Conditioned pain modulation (CPM)</keyword>
+  <keyword>Diffuse Noxious Inhibitory Controls (DNIC)</keyword>
+  <keyword>Pressure pain threshold (PPT)</keyword>
+  <keyword>Reference values</keyword>
+  <keyword>Clinical decision rule</keyword>
+  <keyword>Deep learning</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

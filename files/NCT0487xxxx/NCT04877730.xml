@@ -1,0 +1,423 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04877730</url>
+  </required_header>
+  <id_info>
+    <org_study_id>210035</org_study_id>
+    <secondary_id>UC4DK108483</secondary_id>
+    <nct_id>NCT04877730</nct_id>
+  </id_info>
+  <brief_title>Diabetes Closed-Loop Project 6 (DCLP6): Fully Automated Closed-Loop Control in Type 1 Diabetes Using Meal Anticipation</brief_title>
+  <official_title>Diabetes Closed-Loop Project 6 (DCLP6): Fully Automated Closed-Loop Control in Type 1 Diabetes Using Meal Anticipation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to test the meal anticipation module on a closed loop algorithm,&#xD;
+      assessing efficacy and safety.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a pilot study to assess glycemic responses to three different approaches to insulin&#xD;
+      dosing for carbohydrate ingestion, with different approaches to a closed-loop system in&#xD;
+      random order;&#xD;
+&#xD;
+        1. without the meal anticipation module and without carbohydrate announcement (FCL)&#xD;
+&#xD;
+        2. with the meal anticipation module and without carbohydrate announcement (FCL+)&#xD;
+&#xD;
+        3. without the meal anticipation module and with carbohydrate announcement (HCL),&#xD;
+&#xD;
+      This study will target completion of up to 18 adults in a randomized cross-over trial,&#xD;
+      comparing blood glucose time in range 70-180 mg/dL following meals with and without the meal&#xD;
+      anticipation module in use (FCL+ vs FCL), and comparing to a system with carb announcement&#xD;
+      instead of a meal anticipation module (HCL). The study will also assess safety when dinner is&#xD;
+      consumed later than usual and when a lunch is consumed without having been entrained in the&#xD;
+      meal anticipation module. Each participant will complete each of the 3 modules in random&#xD;
+      order.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 21, 2021</start_date>
+  <completion_date type="Anticipated">February 2022</completion_date>
+  <primary_completion_date type="Anticipated">February 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Time in range (TIR) 70-180 mg/dL from breakfast time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling between 70 mg/dL and 180mg/dL (included)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time in range (TIR) 70-180 mg/dL overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>frequency of CGM values falling between 70 mg/dL and 180mg/dL (included)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in range (TIR) 70-180 mg/dL from dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling between 70 mg/dL and 180mg/dL (included)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in range (TIR) 70-180 mg/dL from lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling between 70 mg/dL and 180mg/dL (included)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time below range (TBR) from breakfast time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 70 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time below range (TBR) overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>frequency of CGM values falling below 70 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time below range (TBR) from dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 70 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time below range (TBR) from lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 70 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time above range (TAR) from breakfast time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 180 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time above range (TAR) overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>frequency of CGM values falling above 180 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time above range (TAR) from dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 180 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time above range (TAR) from lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 180 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hyperglycemia from breakfast time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 250 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hyperglycemia overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>frequency of CGM values falling above 250 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hyperglycemia from dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 250 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hyperglycemia from lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling above 250 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hypoglycemia from breakfast time +5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 54 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hypoglycemia overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>frequency of CGM values falling below 54 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hypoglycemia dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 54 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time in significant hypoglycemia lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>frequency of CGM values falling below 54 mg/dL (excluded)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycemia events from breakfast time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>Number of hypoglycemia events defined as at least two consecutive CGM values &lt;70mg/dL or a hypoglycemia treatment (two events separated by less than 30 minutes are counted as one).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycemia events overall</measure>
+    <time_frame>24 hours</time_frame>
+    <description>Number of hypoglycemia events defined as at least two consecutive CGM values &lt;70mg/dL or a hypoglycemia treatment (two events separated by less than 30 minutes are counted as one).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycemia events dinner time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>Number of hypoglycemia events defined as at least two consecutive CGM values &lt;70mg/dL or a hypoglycemia treatment (two events separated by less than 30 minutes are counted as one).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hypoglycemia events lunch time + 5 hours</measure>
+    <time_frame>5 hours</time_frame>
+    <description>Number of hypoglycemia events defined as at least two consecutive CGM values &lt;70mg/dL or a hypoglycemia treatment (two events separated by less than 30 minutes are counted as one).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Units of insulin injected between 2 hours before and 5 hours after breakfast</measure>
+    <time_frame>7 hours</time_frame>
+    <description>sum of all system provided insulin for breakfast (as planned) post-prandial excursion, including anticipation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Units of insulin injected during test period</measure>
+    <time_frame>24 hours</time_frame>
+    <description>sum of all system provided insulin for a specific admission</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Units of insulin injected between 4 hours before and 5 hours after dinner</measure>
+    <time_frame>9 hours</time_frame>
+    <description>sum of all system provided insulin for dinner (late) post-prandial excursion, including anticipation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Units of insulin injected between 2 hours before and 5 hours after lunch</measure>
+    <time_frame>7 hours</time_frame>
+    <description>sum of all system provided insulin for lunch (unplanned) post-prandial excursion, including anticipation</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">18</enrollment>
+  <condition>Type 1 Diabetes</condition>
+  <arm_group>
+    <arm_group_label>FCL (Fully Closed Loop)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Closed-loop control without meal anticipation module without meal bolus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>FCL+ (Fully Closed Loop with meal anticipation)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Closed-loop control with meal anticipation module without meal bolus</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HCL (Hybrid Closed Loop)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Closed-loop control without meal anticipation module with meal bolus</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Fully Closed Loop (FCL)</intervention_name>
+    <description>Closed loop without a meal anticipation module without announced carbohydrate</description>
+    <arm_group_label>FCL (Fully Closed Loop)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Fully Closed Loop with meal anticipation module (FCL+)</intervention_name>
+    <description>Closed loop with a meal anticipation module and without announced carbohydrate</description>
+    <arm_group_label>FCL+ (Fully Closed Loop with meal anticipation)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Hybrid Closed Loop (HCL)</intervention_name>
+    <description>Closed loop without a meal anticipation module with announced carbohydrate</description>
+    <arm_group_label>HCL (Hybrid Closed Loop)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥18.0 and ≤70 years old at time of consent&#xD;
+&#xD;
+          2. Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least&#xD;
+             one year&#xD;
+&#xD;
+          3. Currently using insulin for at least six months&#xD;
+&#xD;
+          4. Currently using insulin pump for at least three months&#xD;
+&#xD;
+          5. Using insulin parameters such as carbohydrate ratio and correction factors&#xD;
+             consistently on their pump in order to dose insulin for meals or corrections&#xD;
+&#xD;
+          6. Access to internet and willingness to upload data during the study as needed&#xD;
+&#xD;
+          7. For females, not currently known to be pregnant or breastfeeding&#xD;
+&#xD;
+          8. If female and sexually active, must agree to use a form of contraception to prevent&#xD;
+             pregnancy while a participant in the study. A negative serum or urine pregnancy test&#xD;
+             will be required for all females of childbearing potential. Participants who become&#xD;
+             pregnant will be discontinued from the study. Also, participants who during the study&#xD;
+             develop and express the intention to become pregnant within the timespan of the study&#xD;
+             will be discontinued.&#xD;
+&#xD;
+          9. Willingness to suspend use of any personal CGM for the duration of the clinical trial&#xD;
+             once the study CGM is in use&#xD;
+&#xD;
+         10. Willingness to use the University of Virginia (UVa) closed-loop system throughout&#xD;
+             study admission&#xD;
+&#xD;
+         11. Willingness to use the insulin supplied by the study for the hotel stay, if not&#xD;
+             already using that preparation. Study insulin will be lispro (Humalog) or aspart&#xD;
+             (Novolog)&#xD;
+&#xD;
+         12. Willingness not to start any new non-insulin glucose-lowering agent during the course&#xD;
+             of the trial (including metformin, GLP-1 agonists, pramlintide, DPP-4 inhibitors,&#xD;
+             biguanides, sulfonylureas and naturaceuticals)&#xD;
+&#xD;
+         13. Willingness to eat at least 1g/kg of carbohydrate per day during the hotel admission&#xD;
+&#xD;
+         14. Willingness to reschedule if placed on oral steroids&#xD;
+&#xD;
+         15. An understanding and willingness to follow the protocol and signed informed consent&#xD;
+&#xD;
+         16. Willingness to commit to self-quarantine for at least 5 days before COVID-19 testing&#xD;
+             (If participant has received a full course of COVID-19 vaccine and data emerge&#xD;
+             suggesting significantly reduced transmissibility among those receiving that vaccine,&#xD;
+             this self-quarantine requirement can be waived.)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. History of diabetic ketoacidosis (DKA) in the 12 months prior to enrollment&#xD;
+&#xD;
+          2. Severe hypoglycemia resulting in seizure or loss of consciousness in the 12 months&#xD;
+             prior to enrollment&#xD;
+&#xD;
+          3. Pregnancy or intent to become pregnant during the trial&#xD;
+&#xD;
+          4. Currently being treated for a seizure disorder&#xD;
+&#xD;
+          5. Planned surgery during study duration&#xD;
+&#xD;
+          6. Treatment with any non-insulin glucose-lowering agent (including metformin, GLP-1&#xD;
+             agonists, pramlintide, DPP-4 inhibitors, SGLT-2 inhibitors, biguanides, sulfonylureas&#xD;
+             and naturaceuticals)&#xD;
+&#xD;
+          7. A known medical condition that in the judgment of the investigator might interfere&#xD;
+             with the completion of the protocol.&#xD;
+&#xD;
+          8. Use of an automated insulin delivery mechanism that is not downloadable by the subject&#xD;
+             or study team&#xD;
+&#xD;
+          9. Known contact with a COVID-19 positive individual within 14 days of the hotel/rental&#xD;
+             house studies.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sue Brown, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia Center for Diabetes Technology</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Helen Myers</last_name>
+    <phone>434-243-5571</phone>
+    <email>hec2n@virginia.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Morgan Fuller</last_name>
+    <phone>434 249-1561</phone>
+    <email>mf2nu@virginia.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Virginia Center for Diabetes Technology</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sue A Brown, MD</last_name>
+      <phone>434-982-0602</phone>
+      <email>sab2f@virginia.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Marc Breton, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mark DeBoer, MD, MSc, MCR</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jose Garcia-Tirado, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Orianne Villard, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patricio Colmegna, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 7, 2021</study_first_posted>
+  <last_update_submitted>May 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>Sue Brown</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <keyword>Type 1 Diabetes (T1D)</keyword>
+  <keyword>Continuous Glucose Monitor (CGM)</keyword>
+  <keyword>Insulin Pump</keyword>
+  <keyword>Fully Automated Closed Loop (FCL)</keyword>
+  <keyword>Hybrid Closed Loop (HCL)</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Diabetes Mellitus, Type 1</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Will follow the NIH Data Sharing Policy and Implementation Guidance on sharing research resources for research purposes to qualified individuals within the scientific community.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Generally data will be made available after the primary publications of each study.</ipd_time_frame>
+    <ipd_access_criteria>Data Sharing agreements will be formulated by the study team.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

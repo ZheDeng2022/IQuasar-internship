@@ -1,0 +1,221 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04873492</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RC20_0404</org_study_id>
+    <nct_id>NCT04873492</nct_id>
+  </id_info>
+  <brief_title>From Genetics to Transcriptomics to Unravel the Mechanisms Behind a Poor Outcome in Multiple Sclerosis</brief_title>
+  <acronym>OUTCOMS</acronym>
+  <official_title>From Genetics to Transcriptomics to Unravel the Mechanisms Behind a Poor Outcome in Multiple Sclerosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Nantes University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Nantes University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      MS is a heterogeneous disease either in its response to treatment or clinical manifestation.&#xD;
+      Indeed, the natural history of MS is varying from a benign condition to a devastating and&#xD;
+      rapidly incapacitating disease. Clinical heterogeneity could also be cellular and / or&#xD;
+      molecular. The aim is to identify from OMIC analyses, at the early stage of the disease,&#xD;
+      differentially expressed molecules and / or cell subpopulations derived from CD8 + T&#xD;
+      lymphocytes and / or CD4 + T lymphocytes and / or B lymphocytes and monocytes from patients&#xD;
+      with aggressive versus non-aggressive, compared to a cohort of healthy controls&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2021</start_date>
+  <completion_date type="Anticipated">September 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The study model consists of two cohorts, the first one or &quot;learning cohort&quot; includes a group of health volunteers and 2 groups of MS patients from who clinical outcome (aggressive vs non-aggressive) is already known based on clinical follow up since first event. Clinical data and blood sample have been already collected and are available from OFSEP (Observatoire français de la Sclérose en plaques). Blood will be analyzed to characterize transcriptomic, epigenomic, genomic immune cells features to discover predictive markers of clinical outcome. The second cohort or &quot;validation cohort&quot; consists of MS patients enrolled after their first event and followed for maximum 2-years until the determination of their clinical outcome. Blood will be collected after their first event and used in FACS to classified the patients based on molecule of interest discover thanks to learning cohort and predict clinical outcome.</intervention_model_description>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+    <masking_description>NA/NO</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Bulk RNA-sequencing</measure>
+    <time_frame>Blood sample collection within 6 months after first inflammatory event for MS patients and at inclusion for healthy volunteers.</time_frame>
+    <description>Transcriptional profile of T and B cells in aggressive and non-aggressive MS and healthy volunteers. Measurement of gene expression of naïve and memory CD4+ and CD8+ T and B cell. Comparison of these expression level between MS patients with aggressive and non-aggressive form and healthy volunteers.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Single RNA sequencing</measure>
+    <time_frame>Blood sample collection within 6 months after first inflammatory event.</time_frame>
+    <description>Single cell transcriptomics of T and B cells in order to identify by clustering, sub populations within these cells based on gene expression and associated to poor pronostic.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Association of genetic sequence variation from whole genome sequencing with gene expression profile via Bulk RNA-seq</measure>
+    <time_frame>Blood sample collection within 6 months after first inflammatory event.</time_frame>
+    <description>Add genetic variant analyzes to RNA seq analyses related to MS 1) Identify eQTL. 2 Impute SNPs result to calculate MS Genetic Burden (MSGB) a polygenic risk score of MS computed based on a weighted scoring algorithm using independent MS-SNPs.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Association of transcriptomic variation with DNA methylation</measure>
+    <time_frame>Blood sample collection within 6 months after first inflammatory event.</time_frame>
+    <description>Add Analyzes of gene expression regulation throughout DNA methylation of CpG sites to RNA seq analyses related to MS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>OMIC integration</measure>
+    <time_frame>Blood sample collection within 6 months after first inflammatory event.</time_frame>
+    <description>Developing machine learning method to combine genomic, epigenomic transcriptomic and clinical data to pinpoint genes of interest particularly involved in aggressive MS outcomes.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">130</enrollment>
+  <condition>Multiple Sclerosis</condition>
+  <arm_group>
+    <arm_group_label>Retrospective Aggressive MS patients</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients from who the clinical outcome is already known and classified as poor based on study definition detailed in inclusion criteria (retrospective arm). Blood sample collected after first event is available and used to characterize OMIC profile of T and B cells involve in MS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Retrospective Non Aggressive MS patient</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patient from who the clinical outcome is already known and classified as non-aggressive based on study definition detailed in inclusion criteria (retrospective arm). Blood sample collected after first event is available and used to characterize OMIC profile of T and B cells involve in MS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Prospective arm use as comparator.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prospective MS patients</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>MS patients from who the clinical outcome will be established at the end of the follow up. Blood sample will be collected after the first event to validate molecules of interest from OMIC results by using FACS a different technology and classify MS patient.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Biological sample collection</intervention_name>
+    <description>Venous blood sample will be collected from patients belonging to validation cohort and healthy volunteers at baseline resulting in 90 Ml EDTA tube and 10 ml serum tube. Approximately 100 ml will be collected. optional saliva and stool collection will be performed.</description>
+    <arm_group_label>Healthy volunteers</arm_group_label>
+    <arm_group_label>Prospective MS patients</arm_group_label>
+    <arm_group_label>Retrospective Aggressive MS patients</arm_group_label>
+    <arm_group_label>Retrospective Non Aggressive MS patient</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria :&#xD;
+&#xD;
+        Common criteria for retrospective MS patients:&#xD;
+&#xD;
+          -  Patients aged 18 years or older&#xD;
+&#xD;
+          -  Clinical isolated syndrome (CIS) with or without dissemination in space&#xD;
+&#xD;
+          -  Patients affiliated to an appropriate health insurance&#xD;
+&#xD;
+        Criteria for Aggressive MS group&#xD;
+&#xD;
+        • Start of a 2nd line therapy within the two years following the CIS&#xD;
+&#xD;
+        Criteria for Non aggressive MS group&#xD;
+&#xD;
+          -  No conversion according to McDonald criteria from clinical isolated syndrome to&#xD;
+             multiple sclerosis within 2 years or&#xD;
+&#xD;
+          -  Conversion based to McDonald criteria treated or not with first line disease modifying&#xD;
+             therapy within 2 years.&#xD;
+&#xD;
+          -  Have a minimum of least 2 years of follow-up.&#xD;
+&#xD;
+        Healthy volunteers&#xD;
+&#xD;
+          -  Aged 18 years or older&#xD;
+&#xD;
+          -  No history of clinically isolated syndrome or MS&#xD;
+&#xD;
+        Pairing criteria :&#xD;
+&#xD;
+          -  Age +/- 5 years&#xD;
+&#xD;
+          -  Sex&#xD;
+&#xD;
+        Prospective MS Patients&#xD;
+&#xD;
+          -  Patients aged 18 years or older&#xD;
+&#xD;
+          -  Clinical isolated syndrome (CIS) with or without dissemination in space&#xD;
+&#xD;
+          -  Patients affiliated to an appropriate health insurance&#xD;
+&#xD;
+        Exclusion Criteria :&#xD;
+&#xD;
+          -  Ongoing participation to a another study&#xD;
+&#xD;
+          -  Refusal to genetic analyses&#xD;
+&#xD;
+          -  Immunosuppressive drug at the time of blood collection&#xD;
+&#xD;
+          -  Adults under a legal protection regime (guardianship, trusteeship, judicial safeguard)&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>David LAPLAUD, PhD</last_name>
+    <phone>33 2 40 16 52 00</phone>
+    <email>david.laplaud@chu-nantes.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Nantes University Hospital</name>
+      <address>
+        <city>Nantes</city>
+        <state>Loire-Atlantique</state>
+        <zip>44093</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David LAPLAUD, Phd</last_name>
+      <phone>33240165200</phone>
+      <email>david.laplaud@chu-nantes.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 30, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 30, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 5, 2021</study_first_posted>
+  <last_update_submitted>April 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Sclerosis</mesh_term>
+    <mesh_term>Sclerosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

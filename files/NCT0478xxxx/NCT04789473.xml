@@ -1,0 +1,245 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04789473</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PRE001</org_study_id>
+    <nct_id>NCT04789473</nct_id>
+  </id_info>
+  <brief_title>OneinSeven Gestational Diabetes Genetic and Socioeconomic Risk Study</brief_title>
+  <official_title>Gestational Diabetes Genetic and Socioeconomic Risk Study OneinSeven Gestational Diabetes Genetic and Socioeconomic Risk Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Prenome</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Prenome</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of the Gestational Diabetes Genetic Socioeconomic Risk Study is to generate&#xD;
+      genome wide association study data (GWAS) to calculate polygenic risk scores (PRS) for the&#xD;
+      development of gestational diabetes in pregnant women. Oshun Medical's GWAS study will be&#xD;
+      conducted by collecting DNA samples alongside medical and socioeconomic data and applying&#xD;
+      data science methodology to generate a polygenic risk score algorithm for gestational&#xD;
+      diabetes. Our hypothesis is that key genetic variants linked to gestational diabetes will be&#xD;
+      identified, and sociodemographic characteristics may impact epigenetic factors which further&#xD;
+      contribute to this risk of gestational diabetes. The PRS generated through our study will be&#xD;
+      combined with an analysis of epigenetic factors to produce a new method for predicting risk&#xD;
+      of developing gestational diabetes during pregnancy.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gestational diabetes is a condition where high blood glucose levels occur during pregnancy&#xD;
+      and the mother was not diabetic before pregnancy. Between 6-9% of pregnancies are affected by&#xD;
+      this disorder. Gestational diabetes is usually diagnosed with a glucose challenge test where&#xD;
+      a blood glucose level of 190mg/dL or above would be indicative of gestational diabetes. This&#xD;
+      test usually occurs around 24-28 weeks into pregnancy. If a patient has other risk factors&#xD;
+      such as obesity or family history of diabetes, the assessment may be performed earlier.&#xD;
+&#xD;
+      Gestational diabetes increases risk of complications in both the mother and the baby. For the&#xD;
+      child, it may result in excessive weight at birth, a preterm birth, hypoglycemia, Type II&#xD;
+      diabetes later in life, and potential stillbirth. For the mother, it drastically increases&#xD;
+      the risk of high blood pressure, preeclampsia, and developing diabetes later in life.&#xD;
+      Gestational diabetes can also lead to further pregnancy related complications and increased&#xD;
+      risk of maternal morbidity and mortality events.&#xD;
+&#xD;
+      Very few genome-wide association studies have been carried out to correlate genetic variants&#xD;
+      to gestational diabetes, and have identified a small non-exhaustive number of genes linked to&#xD;
+      the condition. The list comprises genes encoding transcription factors such as TCF7L2 and&#xD;
+      genes required for glucose processing such as GCK and GCKR. Many of these genes are also&#xD;
+      associated with the risk of Type II diabetes. A large number of GWAS have identified genes&#xD;
+      tightly associated with Type II diabetes including CDKALI 1, FOXO1, GCKR and FTO, and the&#xD;
+      risk of gestational diabetes and type II is strongly correlated. These variants, along with&#xD;
+      demonstrated non-genetic risk factors such as obesity and high blood pressure, have&#xD;
+      demonstrated a clear ability to assess risk of different types of diabetes including&#xD;
+      gestational diabetes . However, there are currently no PRS for gestational diabetes available&#xD;
+      as a market product in any country. Additionally, the studies mentioned above do not wholly&#xD;
+      combine genome data with sociodemographic and lifestyle risks. Very few large scale GWAS&#xD;
+      studies have focused solely on female participants or pregnancy related complications.&#xD;
+      Further, existing literature and publications lack diversity among female participants and&#xD;
+      often focus on specific sub-populations. Prenome intends to conduct a large-scale GWAS in&#xD;
+      conjunction with the additional socioeconomic qualifications to generate a novel PRS to&#xD;
+      assess the risk of gestational diabetes with focus on inclusion of diverse populations in our&#xD;
+      samples. With these added quantifications of qualitative data, Prenome's PRS will be more&#xD;
+      representative of a patient's personal health and risk of developing gestational diabetes.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 24, 2021</start_date>
+  <completion_date type="Anticipated">August 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Polygenic Risk Score Prediction for Gestational Diabetes</measure>
+    <time_frame>1 year</time_frame>
+    <description>A predictive model of genetic risk of developing gestational diabetes based on comparing variants between control and diabetic groups.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Impact of Social Determinants of Health on Risk</measure>
+    <time_frame>1 year</time_frame>
+    <description>The impact of a social determinant from survey data on the generated genetic risk assessment.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Gestational Diabetes</condition>
+  <condition>Pregnancy Complications</condition>
+  <condition>Pregnancy Related</condition>
+  <condition>Genetic Predisposition</condition>
+  <condition>Risk Reduction</condition>
+  <arm_group>
+    <arm_group_label>Control Normal Glycemic Pregnancy</arm_group_label>
+    <description>Cohort of control adults who are currently pregnant or have been pregnant within the last year, but were not diagnosed with gestational diabetes.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Gestational Diabetic Cohort</arm_group_label>
+    <description>Cohort of adults who are currently pregnant or have been pregnant within the last year, but were diagnosed with gestational diabetes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Polygenic Risk Score Generation</intervention_name>
+    <description>PRS will be calculated for gestational diabetes risk using both cohorts, participants wont have results returned to them during the study.</description>
+    <arm_group_label>Control Normal Glycemic Pregnancy</arm_group_label>
+    <arm_group_label>Gestational Diabetic Cohort</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Saliva specimens used for DNA collection.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population included in this study are pregnant or recently pregnant women, with a focus&#xD;
+        on women who are currently diagnosed or have previously been diagnosed with gestational&#xD;
+        diabetes. The population are being recruited from all adult age ranges, ethnicities, races&#xD;
+        and location across the united states.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adult females who are currently pregnant&#xD;
+&#xD;
+          -  Adult females who have been pregnant within the last 12 months&#xD;
+&#xD;
+          -  Adult female who is currently diagnosed with gestational diabetes&#xD;
+&#xD;
+          -  Adult female who has been diagnosed with gestational diabetes within the last 12&#xD;
+             months&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Males&#xD;
+&#xD;
+          -  Minors/ Children&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <gender_based>Yes</gender_based>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Barbara Levy, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Prenome</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Sarah Brozio, PHD</last_name>
+    <phone>6693429253</phone>
+    <email>sarah@prenome.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Stevie Cline, LLM</last_name>
+    <phone>6148008477</phone>
+    <email>stevie@prenome.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Illumina Accelerator</name>
+      <address>
+        <city>Foster City</city>
+        <state>California</state>
+        <zip>94044</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sarah Brozio, PhD</last_name>
+      <phone>669-342-9253</phone>
+      <email>sarah@prenome.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Stevie Cline, LLM</last_name>
+      <phone>6148008477</phone>
+      <email>clinical@prenome.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Barbara Levy, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.prenome.com/clinical-study-oneinseven</url>
+    <description>Study Sign Up</description>
+  </link>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>March 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 9, 2021</study_first_posted>
+  <last_update_submitted>June 24, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 24, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gestational Diabetes</keyword>
+  <keyword>Polygenic Risk Score</keyword>
+  <keyword>Genomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes, Gestational</mesh_term>
+    <mesh_term>Pregnancy Complications</mesh_term>
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Disease Susceptibility</mesh_term>
+    <mesh_term>Genetic Predisposition to Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>May 5, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/73/NCT04789473/Prot_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

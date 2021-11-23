@@ -1,0 +1,204 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04852536</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EEGPain/hd-tDCS</org_study_id>
+    <nct_id>NCT04852536</nct_id>
+  </id_info>
+  <brief_title>Electroencephalographia as Predictor of Effectiveness HD-tDCS in Neuropathic Pain: Machine Learning Approach</brief_title>
+  <official_title>EEG as Predictor of Effectiveness of HD-tDCS in Treatment of Neuropathic Pain After Brachial Plexus Injury: Machine Learning Approach</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Federal University of Paraíba</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Federal University of Paraíba</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Contextualization: Neuropathic pain is a complication present in the clinical picture of&#xD;
+      patients with traumatic Brachial Plexus injury (BPI). It is characterized by high intensity,&#xD;
+      severity and refractoriness to clinical treatments, resulting in high disability and loss of&#xD;
+      quality of life. Due to loss of afferent entry, it causes cortical and subcortical&#xD;
+      alterations and changes in somatotopic representation, from inadequate plastic adaptations in&#xD;
+      the Central and Peripheral Nervous System, one of the therapies with potential benefit in&#xD;
+      this population is the Transcranial High Definition Continuous Current Stimulation (HD-tDCS).&#xD;
+      Thus, by using connectivity-based response prediction and machine learning, it will allow&#xD;
+      greater assurance of efficiency and optimization of the application of this therapy, being&#xD;
+      directed to patients with greater potential to benefit from the application of this approach.&#xD;
+      Objective: Using connectivity-based prediction and machine learning, this study aims to&#xD;
+      assess whether baseline EEG related characteristics predict the response of patients with&#xD;
+      neuropathic pain after BPI to the effectiveness of HD-tDCS treatment. Materials and methods:&#xD;
+      A quantitative, applied, exploratory, open-label response prediction study will be conducted&#xD;
+      from data acquired from a pilot, triple-blind, cross-over, placebo-controlled, randomized&#xD;
+      clinical trial investigating the efficacy of applying HD-tDCS to patients with neuropathic&#xD;
+      brachial plexus trauma pain. Participants will be evaluated for eligibility and then randomly&#xD;
+      allocated into two groups to receive the active HD-tDCS or simulated HD-tDCS. The primary&#xD;
+      outcome will be pain intensity as measured by the numerical pain scale. Participants will be&#xD;
+      invited to participate in an EEG study before starting treatment. Clinical improvement labels&#xD;
+      used for machine learning classification will be determined based on data obtained from the&#xD;
+      clinical trial (baseline and post-treatment evaluations). The hypothesis adopted in this&#xD;
+      study is that the response prediction model constructed from EEG frequency band pattern data&#xD;
+      collected at baseline will be able to identify responders and non-responders to HD-tDCS&#xD;
+      treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Using connectivity-based prediction and machine learning, the objective is to assess whether&#xD;
+      characteristics related to baseline EEG predict the response of patients with neuropathic&#xD;
+      pain after BPI to the effectiveness of HD-tDCS treatment. An observational, retrospective&#xD;
+      cohort study will be carried out, of predictive response with a quantitative approach, of an&#xD;
+      applied nature, of an exploratory and open-label type, related to the efficacy of HD-tDCS4x1&#xD;
+      in patients with neuropathic pain due to BPI, from an analysis of data obtained from a pilot,&#xD;
+      placebo-controlled, triple-blind, randomized, crossover type clinical trial, in accordance&#xD;
+      with the CONSORT guidelines, which will investigate the effectiveness of treatment with&#xD;
+      HD-tDCS.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">June 15, 2021</start_date>
+  <completion_date type="Anticipated">June 15, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 15, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Pain intensity measured using Numerical Pain Scale</measure>
+    <time_frame>1 week (5 sessions)</time_frame>
+    <description>Identification of responders and non-responders to treatment with HD-tDCS, according to the scores obtained by the patients response on the Numerical Pain Scale recorded immediately after the treatment, thus determining the functional labels for processing machine learning models. This instrument measures the intensity of pain, consisting of 11 points (0-10), 0 being counted for no pain and 10 for the worst possible pain. A reduction of two points or by 30% will be considered a clinically important minimum difference (DWORKIN et al., 2008).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Neurophysiological characteristics and biomarkers recorded by EEG</measure>
+    <time_frame>One month</time_frame>
+    <description>The EEG data will be retrospectively examined by comparing the two groups (responders and non-responders), identifying possible neurophysiological characteristics and biomarkers related to frequency bands and connectivity that could be characterized as possible markers of response to treatment, predicting which are most likely to respond. The examination of the cortical electrical activity using the EEG tool (BrainVision actiCHamp, Herrsching, Germany), with 32 silver chloride electrodes fixed according to the International System 10-20, by means of an adjustable cap, containing holes that will allow the contact of the electrode with the scalp. The prefrontal, frontal, parietal, temporal and occipital regions will be monitored bilaterally (Fp1, Fp2, F3, F4), temporal (F7, F8, T3, T4, T5, T6), central (C3, C4, Cz) and parieto-occipital (P3, P4, P7, P8, O1, O2), in the condition of silence, with eyes closed, for five minutes each, totaling 10 minutes of collection for each participant.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Traumatic Brachial Plexus Lesion</condition>
+  <condition>Chronic Pain</condition>
+  <arm_group>
+    <arm_group_label>HD-tDCS4x1</arm_group_label>
+    <description>All data will be acquired from patients of the triple-blind clinical trial that will investigate the effectiveness of treatment for neuropathic pain after brachial plexus injury with HD-tDCS. There will be collection and analysis of EEG data before the clinical trial protocol, to later assess the prediction of response to the technique employed. At the end, they will be grouped into responders and non-responders to HD-tDCS, according to the numerical scale of pain, with assignments serving as targets for the analyzes with machine learning. The labels for clinical improvement used to classify machine learning will be determined based on the data obtained in the baseline and post-treatment assessments, according to similar studies. Thus, the EEG data of these patients will be retrospectively examined, identifying possible neurophysiological characteristics and biomarkers related to the frequency bands that allow predicting which patients are most likely to improve with this treatment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Neurostimulation (High Definition - transcranial Direct Current Stimulation) HD-tDCS</intervention_name>
+    <description>5 consecutive sessions lasting 20 minutes of HD-tDCS4x1, based on previous publications (VILLAMAR et al., 2013). A list will be provided current of 2 mA, placing a central electrode (anode) on the M1 contralateral to the painful limb and the four return electrodes within a radius of 7.5 cm around, corresponding approximately to Cz, F3, T7 and P3 if the stimulation is on the side left, and Cz, F4, T8 and P4 if it is on the right, according to the International 10/20 System.</description>
+    <arm_group_label>HD-tDCS4x1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants in a triple-blind clinical trial, based on free demand by the Laboratory of&#xD;
+        Neuroscience and aging studies at the UFPB and through access to a database with the&#xD;
+        information of these patients, linked to the Institute of Neurology and Neurosurgery of&#xD;
+        Paraíba. Patients diagnosed with neuropathic pain due to brachial plexus injury according&#xD;
+        to clinical history, physical examination and complementary. The diagnosis will be based on&#xD;
+        clinical and neurophysiological criteria, according to protocols and recommendations of&#xD;
+        Guidelines of the American Academy of Neurology. Also, it will be based on clinical&#xD;
+        evidence of loss of post-traumatic sensitivity and muscle weakness involving the upper&#xD;
+        limb. And neurophysiological tests showing damage to the nerve trunks of the brachial&#xD;
+        plexus.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age over 18 years;&#xD;
+&#xD;
+          2. Moderate to severe pain score according to the Numerical Pain Scale (4-10);&#xD;
+&#xD;
+          3. Persistent pain and refractory to clinical treatment for at least 3 months;&#xD;
+&#xD;
+          4. Appropriate pharmacological treatment for pain for at least 1 month before the start&#xD;
+             of the study;&#xD;
+&#xD;
+          5. Not presenting contraindications for Non-Invasive Brain Stimulation;&#xD;
+&#xD;
+          6. Absence of concomitant diseases of the Central Nervous Sistem or Peripheral Nervous&#xD;
+             Sistem.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Failure to sign the informed consent form;&#xD;
+&#xD;
+          2. Missing two consecutive or three alternate sessions during treatment;&#xD;
+&#xD;
+          3. Developing a disabling condition that prevents further participation in the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Suellen Andrade</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Federal University of Paraiba</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Suellen Andrade</last_name>
+    <phone>+55 83 987772488</phone>
+    <email>suellenandrade@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Carolina Carvalho</last_name>
+    <phone>+55 83 999843614</phone>
+    <email>carolinadiasdecarvalho@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Federal University of Paraíba,Department of Psychology</name>
+      <address>
+        <city>João Pessoa</city>
+        <state>Paraíba</state>
+        <zip>58051-900</zip>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Brazil</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 21, 2021</study_first_posted>
+  <last_update_submitted>April 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Federal University of Paraíba</investigator_affiliation>
+    <investigator_full_name>Suellen Marinho Andrade</investigator_full_name>
+    <investigator_title>Principal Investigator and Professor</investigator_title>
+  </responsible_party>
+  <keyword>Transcranial Direct Current Stimulation</keyword>
+  <keyword>Chronic Pain</keyword>
+  <keyword>Electroencephalogram</keyword>
+  <keyword>Machine learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neuralgia</mesh_term>
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,944 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04333199</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-0316</org_study_id>
+    <nct_id>NCT04333199</nct_id>
+  </id_info>
+  <brief_title>Timely Nudge About Lab Results to Increase myGeisinger Uptake</brief_title>
+  <official_title>Nudging myGeisinger Enrollment Using Timely Email Messaging Reminding Patients of Lab Results Available</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the current study is to test whether sending email communications in a timely&#xD;
+      manner - when patients have laboratory results available to view on the myGeisinger patient&#xD;
+      portal - increases enrollment in the portal.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Online patient portals are convenient tools that improve patient access to healthcare&#xD;
+      services while often reducing burden to both patients and providers. However, many patients&#xD;
+      have not enrolled in such portals, including Geisinger's patient portal, known as&#xD;
+      myGeisinger.&#xD;
+&#xD;
+      The purpose of the current study is to test whether sending myGeisinger enrollment&#xD;
+      information in a timely manner - when the benefits of enrolling are most readily available -&#xD;
+      increases enrollment. Specifically, messages will be timely in terms of lab test results&#xD;
+      having just been made available online, with the added benefit that patients can view their&#xD;
+      results prior to receiving them via mail. Unenrolled patients who recently had a laboratory&#xD;
+      procedure ordered and whose results are now ready for sharing will be informed via email that&#xD;
+      their lab results are available. At the same time, these patients will be reminded that these&#xD;
+      results can be viewed online through myGeisinger.&#xD;
+&#xD;
+      The primary outcome measure of interest, myGeisinger enrollment rates, will be compared&#xD;
+      between the emailed population and a control group that similarly has lab results available&#xD;
+      but will not be contacted. In addition, two different versions of the email communication&#xD;
+      will be tested. One will highlight that the patient will have to go through a sign-up process&#xD;
+      before viewing test results (in the service of transparency). The other will provide a&#xD;
+      presumed direct link to view those results, via a button that potentially serves as a&#xD;
+      pre-commitment step to undergo the registration process (&quot;foot in the door&quot; effect).&#xD;
+      Secondary analyses will assess differences in enrollment rates as well as unsubscribe rates&#xD;
+      between the email versions. Exploratory analyses will further examine differences in the&#xD;
+      rates at which patients opened and clicked on enrollment links within the two emails.&#xD;
+      Statistical analyses will employ generalized linear models with a binary distribution and&#xD;
+      log-link function.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 18, 2020</start_date>
+  <completion_date type="Actual">July 1, 2020</completion_date>
+  <primary_completion_date type="Actual">June 8, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Every day within the designated study period, an email will be sent to patients who 1) fulfill inclusion criteria, 2) have been randomized to one of the email conditions (rather than the control group), and 3) have not already been randomized to a study condition on a previous day (i.e. no patient will be emailed for this study twice).</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Participants (i.e., patients) will not be informed specifically of their assignment to different arms throughout the study.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Enrollment - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Email Opened - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Email was opened (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Link Clicked - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</measure>
+    <time_frame>1 week post-intervention</time_frame>
+    <description>Link / button to start the enrollment process was clicked (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Unsubscribed - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</measure>
+    <time_frame>1 month post-intervention</time_frame>
+    <description>Patient unsubscribed from these email communications (yes / no)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</measure>
+    <time_frame>1 month post-intervention</time_frame>
+    <description>Patient enrolled in myGeisinger (yes / no)</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">5012</enrollment>
+  <condition>Telehealth</condition>
+  <condition>Health Behavior</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients do not receive an email</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Timely</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Transparency</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - get started</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Foot-in-the-door</intervention_name>
+    <description>Email</description>
+    <arm_group_label>Timely nudge - view results</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Geisinger patient for whom a lab was ordered within 30 days prior to email date&#xD;
+&#xD;
+          -  Patient's lab test result released day before email date&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient already enrolled in myGeisinger&#xD;
+&#xD;
+          -  Patient has already declined myGeisinger&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amir Goren, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Geisinger Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Geisinger</name>
+      <address>
+        <city>Danville</city>
+        <state>Pennsylvania</state>
+        <zip>17822</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 1, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 1, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 3, 2020</study_first_posted>
+  <results_first_submitted>April 7, 2021</results_first_submitted>
+  <results_first_submitted_qc>April 7, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 3, 2021</results_first_posted>
+  <last_update_submitted>May 18, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 18, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Geisinger Clinic</investigator_affiliation>
+    <investigator_full_name>Amir Goren</investigator_full_name>
+    <investigator_title>Program Director, Behavioral Insights Team</investigator_title>
+  </responsible_party>
+  <keyword>Behavioral Economics</keyword>
+  <keyword>Patient Portal</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data with no personally identifiable information will be made available to other researchers on the Open Science Framework for transparency. This will include the essential data and code needed to replicate the analysis that yielded reported findings.</ipd_description>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>The data will become available after publication of study results in a scientific journal and will be available as long as the Open Science Framework hosts the data.</ipd_time_frame>
+    <ipd_access_criteria>The data on the Open Science Framework will be open to anyone requesting that information.</ipd_access_criteria>
+    <ipd_url>http://osf.io</ipd_url>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>April 7, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/99/NCT04333199/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Control</title>
+          <description>Patients do not receive an email</description>
+        </group>
+        <group group_id="P2">
+          <title>Timely Nudge - View Results</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+        </group>
+        <group group_id="P3">
+          <title>Timely Nudge - Get Started</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Evaluated Patients</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="1669"/>
+                <participants group_id="P2" count="1672"/>
+                <participants group_id="P3" count="1671"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="1669"/>
+                <participants group_id="P2" count="1671"/>
+                <participants group_id="P3" count="1669"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+                <participants group_id="P3" count="2"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="1"/>
+                <participants group_id="P3" count="2"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+        <period>
+          <title>Emailed Patients</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="0">Patients in this group were not emailed</participants>
+                <participants group_id="P2" count="1671"/>
+                <participants group_id="P3" count="1669"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>Valid Email Address</title>
+              <participants_list>
+                <participants group_id="P1" count="0">Patients in this group were not emailed</participants>
+                <participants group_id="P2" count="1495"/>
+                <participants group_id="P3" count="1441"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0">Patients in this group were not emailed</participants>
+                <participants group_id="P2" count="1399"/>
+                <participants group_id="P3" count="1351"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="272"/>
+                <participants group_id="P3" count="318"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Investigators did not have access to baseline demographic information for study participants.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Control</title>
+          <description>Patients do not receive an email</description>
+        </group>
+        <group group_id="B2">
+          <title>Timely Nudge - View Results</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+        </group>
+        <group group_id="B3">
+          <title>Timely Nudge - Get Started</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="1669"/>
+            <count group_id="B2" value="1671"/>
+            <count group_id="B3" value="1669"/>
+            <count group_id="B4" value="5009"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="1669"/>
+                    <count group_id="B2" value="1671"/>
+                    <count group_id="B3" value="1669"/>
+                    <count group_id="B4" value="5009"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="NA">Data not collected</measurement>
+                    <measurement group_id="B2" value="NA">Data not collected</measurement>
+                    <measurement group_id="B3" value="NA">Data not collected</measurement>
+                    <measurement group_id="B4" value="NA">Total not calculated because data are not available (NA) in one or more arms.</measurement>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="NA">Data not collected</measurement>
+                    <measurement group_id="B2" value="NA">Data not collected</measurement>
+                    <measurement group_id="B3" value="NA">Data not collected</measurement>
+                    <measurement group_id="B4" value="NA">Total not calculated because data are not available (NA) in one or more arms.</measurement>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="NA">Data not collected</measurement>
+                    <measurement group_id="B2" value="NA">Data not collected</measurement>
+                    <measurement group_id="B3" value="NA">Data not collected</measurement>
+                    <measurement group_id="B4" value="NA">Total not calculated because data are not available (NA) in one or more arms.</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="1669"/>
+                    <count group_id="B2" value="1671"/>
+                    <count group_id="B3" value="1669"/>
+                    <count group_id="B4" value="5009"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="NA">Data not collected</measurement>
+                    <measurement group_id="B2" value="NA">Data not collected</measurement>
+                    <measurement group_id="B3" value="NA">Data not collected</measurement>
+                    <measurement group_id="B4" value="NA">Total not calculated because data are not available (NA) in one or more arms.</measurement>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="NA">Data not collected</measurement>
+                    <measurement group_id="B2" value="NA">Data not collected</measurement>
+                    <measurement group_id="B3" value="NA">Data not collected</measurement>
+                    <measurement group_id="B4" value="NA">Total not calculated because data are not available (NA) in one or more arms.</measurement>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                    <count group_id="B4" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</title>
+        <description>Patient enrolled in myGeisinger (yes / no)</description>
+        <time_frame>1 week post-intervention</time_frame>
+        <population>Patients who were randomized and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control</title>
+            <description>Patients do not receive an email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view.&#xD;
+Timely: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</title>
+          <description>Patient enrolled in myGeisinger (yes / no)</description>
+          <population>Patients who were randomized and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1669"/>
+                <count group_id="O2" value="3340"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="65"/>
+                    <measurement group_id="O2" value="361"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <p_value_desc>We used an a priori threshold of p &lt; .05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>2.9903891</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>2.2805876</ci_lower_limit>
+            <ci_upper_limit>3.9211066</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Enrollment - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+        <description>Patient enrolled in myGeisinger (yes / no)</description>
+        <time_frame>1 week post-intervention</time_frame>
+        <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Timely Nudge - View Results</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge - Get Started</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Enrollment - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+          <description>Patient enrolled in myGeisinger (yes / no)</description>
+          <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1399"/>
+                <count group_id="O2" value="1351"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="190"/>
+                    <measurement group_id="O2" value="159"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.154</p_value>
+            <p_value_desc>We used an a priori threshold of p &lt; .05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>1.1781659</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.9404654</ci_lower_limit>
+            <ci_upper_limit>1.4759445</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Email Opened - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+        <description>Email was opened (yes / no)</description>
+        <time_frame>1 week post-intervention</time_frame>
+        <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Timely Nudge - View Results</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge - Get Started</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Email Opened - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+          <description>Email was opened (yes / no)</description>
+          <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1399"/>
+                <count group_id="O2" value="1351"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="654"/>
+                    <measurement group_id="O2" value="617"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>0.571</p_value>
+            <p_value_desc>We used an a priori threshold of p &lt; .05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>0.9575636</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>0.8242111</ci_lower_limit>
+            <ci_upper_limit>1.1124918</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Link Clicked - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+        <description>Link / button to start the enrollment process was clicked (yes / no)</description>
+        <time_frame>1 week post-intervention</time_frame>
+        <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Timely Nudge - View Results</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge - Get Started</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Link Clicked - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+          <description>Link / button to start the enrollment process was clicked (yes / no)</description>
+          <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1399"/>
+                <count group_id="O2" value="1351"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="494"/>
+                    <measurement group_id="O2" value="307"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <p_value_desc>We used an a priori threshold of p &lt; .05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>1.8562672</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>1.5692523</ci_lower_limit>
+            <ci_upper_limit>2.1957769</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Unsubscribed - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+        <description>Patient unsubscribed from these email communications (yes / no)</description>
+        <time_frame>1 month post-intervention</time_frame>
+        <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Timely Nudge - View Results</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge - Get Started</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Unsubscribed - Email Including a &quot;Get Started&quot; Button vs. a &quot;View Results&quot; Button</title>
+          <description>Patient unsubscribed from these email communications (yes / no)</description>
+          <population>Patients who were delivered an email (i.e. email did not bounce back) and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1399"/>
+                <count group_id="O2" value="1351"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</title>
+        <description>Patient enrolled in myGeisinger (yes / no)</description>
+        <time_frame>1 month post-intervention</time_frame>
+        <population>Patients who were randomized and for whom there was a record in the EHR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control</title>
+            <description>Patients do not receive an email</description>
+          </group>
+          <group group_id="O2">
+            <title>Timely Nudge</title>
+            <description>Patients are emailed about myGeisinger when they have a lab result ready to view.&#xD;
+Timely: Email</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Enrollment - Timely Email (Combined Email Arms) vs. no Intervention</title>
+          <description>Patient enrolled in myGeisinger (yes / no)</description>
+          <population>Patients who were randomized and for whom there was a record in the EHR.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="1669"/>
+                <count group_id="O2" value="3340"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="141"/>
+                    <measurement group_id="O2" value="488"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <p_value>&lt;0.001</p_value>
+            <p_value_desc>We used an a priori threshold of p &lt; .05.</p_value_desc>
+            <method>Regression, Logistic</method>
+            <param_type>Odds Ratio (OR)</param_type>
+            <param_value>1.8542767</param_value>
+            <ci_percent>95</ci_percent>
+            <ci_n_sides>2-Sided</ci_n_sides>
+            <ci_lower_limit>1.5220654</ci_lower_limit>
+            <ci_upper_limit>2.2589975</ci_upper_limit>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>No adverse events were evaluated.</time_frame>
+      <desc>We only received information about email engagement and portal enrollment. We did not collect or receive any information regarding adverse events.</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Control</title>
+          <description>Patients do not receive an email</description>
+        </group>
+        <group group_id="E2">
+          <title>Timely Nudge - View Results</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;View My Lab Results&quot; button, which encourages them to click as a pre-commitment step that then brings them to the myGeisinger sign-up page.&#xD;
+Timely: Email&#xD;
+Foot-in-the-door: Email</description>
+        </group>
+        <group group_id="E3">
+          <title>Timely Nudge - Get Started</title>
+          <description>Patients are emailed about myGeisinger when they have a lab result ready to view. The email includes a &quot;Get Started With myGeisinger&quot; button that is transparent about the next step in the process, before the patient can view test results.&#xD;
+Timely: Email&#xD;
+Transparency: Email</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="0"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="0"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>For this study, we only received data about engagement with the email and enrollment in the patient portal. Demographic information such as age, sex, or gender were not collected. Note that for some patients, enrollment data could not be extracted from Geisinger's electronic health records; these patients were excluded from analyses.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Amir Goren, PhD</name_or_title>
+      <organization>Geisinger Clinic</organization>
+      <phone>5702144395</phone>
+      <email>agoren@geisinger.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

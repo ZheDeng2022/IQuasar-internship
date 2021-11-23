@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04551105</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TaiHao BR-USCAD VT 20-249</org_study_id>
+    <nct_id>NCT04551105</nct_id>
+  </id_info>
+  <brief_title>Evaluation of TaiHao Breast Ultrasound Diagnosis Software</brief_title>
+  <official_title>Evaluation of TaiHao Breast Ultrasound Diagnosis Software</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>TaiHao Medical Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Columbia University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Virginia Polytechnic Institute and State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>TaiHao Medical Inc.</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The BR-USCAD DS Module is a computer-assisted detection and diagnosis software based on a&#xD;
+      deep learning algorithm. This retrospective, fully-crossed, multi-reader, multi-case (MRMC)&#xD;
+      study aims to compare the performances of readers without and with the aid of the Breast&#xD;
+      Ultrasound Image Reviewed with Assistance of Computer-Assisted Detection and Diagnosis System&#xD;
+      (BR-USCAD DS) in interpreting breast ultrasound images of lesions.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">August 15, 2020</start_date>
+  <completion_date type="Anticipated">October 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>MRMC AUC analysis</measure>
+    <time_frame>15 Day</time_frame>
+    <description>Area under the ROC curve. Value range: [0, 1]</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sensitivity</measure>
+    <time_frame>2 Days</time_frame>
+    <description>Sensitivity = TP/P, value range: [0, 1] Comparing to the reference standard, the sensitivity of breast imaging results by readers with BR-USCAD DS will be evaluated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity</measure>
+    <time_frame>2 Days</time_frame>
+    <description>Specificity = TN/N, value range: [0, 1] Comparing to the reference standard, the specificity of breast imaging results by readers with BR-USCAD DS will be evaluated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Inter-rater reliability</measure>
+    <time_frame>2 Days</time_frame>
+    <description>Calculate Kappa result to evaluate the agreement between raters and system. The Kappa value could be interpreted as follows: values ≤ 0 as indicating no agreement and 0.01-0.20 as none to slight, 0.21-0.40 as fair, 0.41- 0.60 as moderate, 0.61-0.80 as substantial, and 0.81-1.00 as almost perfect agreement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Reading time</measure>
+    <time_frame>2 Days</time_frame>
+    <description>Reading time in seconds. Measure reading time of breast imaging reporting and system lexicon value in breast imaging by readers without BR-USCAD DS for breast and also measured report time by readers with BR-USCAD DS for breast.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">16</enrollment>
+  <condition>Breast Cancer</condition>
+  <condition>Breast Diseases</condition>
+  <arm_group>
+    <arm_group_label>First session: manual review first and then review with CADx</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Each rater will interpret the &quot;Dataset A&quot; cases in different random order without any assistance of artificial assistance first, and then interpret the &quot;Dataset B&quot; cases in different random order with BR-USCAD DS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>First session: review with CADx first and then manual review</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Each rater will interpret the &quot;Dataset A&quot; cases in different random order with BR-USCAD DS first, and then interpret the &quot;Dataset B&quot; cases in different random order without any assistance of artificial assistance.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Second session: manual review first and then review with CADx</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>At least 4 weeks after first session for memory washing out. Each rater will interpret the &quot;Dataset A&quot; cases in different random order without any assistance of artificial assistance first, and then interpret the &quot;Dataset B&quot; cases in different random order with BR-USCAD DS.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Second session: review with CADx first and then manual review</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>At least 4 weeks after first session for memory washing out. Each rater will interpret the &quot;Dataset A&quot; cases in different random order with BR-USCAD DS first, and then interpret the &quot;Dataset B&quot; cases in different random order without any assistance of artificial assistance.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Reader Group X</intervention_name>
+    <description>Each rater in &quot;Reader Group X&quot; will interpret the &quot;dataset A&quot; cases in different random order without BR-USCAD DS and interpret the &quot;dataset B&quot; cases in different random order with BR-USCAD DS.</description>
+    <arm_group_label>First session: manual review first and then review with CADx</arm_group_label>
+    <arm_group_label>Second session: review with CADx first and then manual review</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Reader Group Y</intervention_name>
+    <description>Each rater in &quot;Reader Group Y&quot; will interpret the &quot;dataset A&quot; cases in different random order with BR-USCAD DS and interpret the &quot;dataset B&quot; cases in different random order without BR-USCAD DS.</description>
+    <arm_group_label>First session: review with CADx first and then manual review</arm_group_label>
+    <arm_group_label>Second session: manual review first and then review with CADx</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  B-mode breast ultrasound image&#xD;
+&#xD;
+          -  Female, age 21 or older&#xD;
+&#xD;
+          -  Breast lesion images acquired before a biopsy or surgery - these images were&#xD;
+             retrospectively collected with histology report.&#xD;
+&#xD;
+          -  Non-biopsied benign lesions with negative follow-up for a minimum of 12 months&#xD;
+&#xD;
+          -  At least two orthogonal views of a lesion&#xD;
+&#xD;
+          -  All the cases in this study are collected from at least 3 different ultrasound&#xD;
+             apparatuses&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Breast lesion images acquired after biopsy or surgery.&#xD;
+&#xD;
+          -  Any breast surgeries or interventional procedures in the 12 months prior to ultrasound&#xD;
+             imaging&#xD;
+&#xD;
+          -  Case demonstrating administrative or technical errors&#xD;
+&#xD;
+          -  Multiple lesions in one 2-D ultrasound image&#xD;
+&#xD;
+          -  Breast ultrasound images with Doppler, elastography, or other overlays present&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shih Chung Lo, Ph.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Arlington Innovation Center: Health Research - Virginia Tech</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Arlington Innovation Center: Health Research - Virginia Tech</name>
+      <address>
+        <city>Arlington</city>
+        <state>Virginia</state>
+        <zip>22203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>September 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 16, 2020</study_first_posted>
+  <last_update_submitted>September 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

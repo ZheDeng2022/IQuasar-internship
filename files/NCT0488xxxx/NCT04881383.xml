@@ -1,0 +1,310 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04881383</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UW19-831</org_study_id>
+    <nct_id>NCT04881383</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of DM and Pre-DM Risk Prediction Model</brief_title>
+  <official_title>The Development and Validation of a DM and Pre-DM Risk Prediction Function for Case Finding in Primary Care in Hong Kong</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The University of Hong Kong</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Many DM and pre-DM remain undiagnosed. The aim is to develop and validate a risk prediction&#xD;
+      function to detect DM and pre-DM in Chinese adults aged 18-84 in primary care (PC). The&#xD;
+      objectives are to:&#xD;
+&#xD;
+        1. Develop a risk prediction function using non-laboratory parameters to predict DM and&#xD;
+           pre-DM from the data of the HK Population Health Survey 2014/2015&#xD;
+&#xD;
+        2. Develop a risk scoring algorithm and determine the cut-off score&#xD;
+&#xD;
+        3. Validate the risk prediction function and determine its sensitivity in predicting DM and&#xD;
+           pre-DM in PC&#xD;
+&#xD;
+      Hypothesis to be tested:&#xD;
+&#xD;
+      The prediction function developed from the Population Health Survey (PHS) 2014/2015 is valid&#xD;
+      and sensitive in PC.&#xD;
+&#xD;
+      Design and subjects:&#xD;
+&#xD;
+      We will develop a risk prediction function for DM and pre-DM using data of 1,857 subjects&#xD;
+      from the PHS 2014/2015. We will recruit 1014 Chinese adults aged 18-84 from PC clinics to&#xD;
+      validate the risk prediction function. Each subject will complete an assessment on the&#xD;
+      relevant risk factors and have a blood test on OGTT and HbA1c on recruitment and at 12&#xD;
+      months.&#xD;
+&#xD;
+      Main outcome measures:&#xD;
+&#xD;
+      The area under the Receiver operating characteristic (ROC) curve, sensitivity and specificity&#xD;
+      of the prediction function.&#xD;
+&#xD;
+      Data analysis and expected results:&#xD;
+&#xD;
+      Machine learning and Logistic regressions will be used to develop the best model. ROC curve&#xD;
+      will be used to determine the cut-off score. Sensitivity and specificity will be determined&#xD;
+      by descriptive statistics. A new HK Chinese general population specific risk prediction&#xD;
+      function will enable early case finding and intervention to prevent DM and DM complications&#xD;
+      in PC.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diabetes Mellitus (DM) is the second most common chronic non-communicable disease (NCD) and a&#xD;
+      major public health issue. In 2017, it was estimated that 451 million adults worldwide had&#xD;
+      DM, a number that is anticipated to rise to 693 million by 2045. In terms of economic burden,&#xD;
+      it was estimated that the global cost of DM in 2015 was 1·31 trillion US dollars, which&#xD;
+      accounted for 1.8% of global gross domestic product. In China, the prevalence of DM has&#xD;
+      increased rapidly, from less than 1% in 1980 to 10.9% in 2013, with approximately 109.6&#xD;
+      million Chinese adults (25.8% of all cases worldwide) currently living with the condition.&#xD;
+      Among the Chinese population, Hong Kong has one of the highest prevalence of DM. The&#xD;
+      Population Health Survey (PHS) 2014/2015 conducted by Department of Health found a prevalence&#xD;
+      of 8.4% of DM among persons aged 15-84 in Hong Kong, more than half (4.5%) of which were&#xD;
+      previously unknown. Data (unpublished) from the Population Health Survey 2014/2015 showed a&#xD;
+      further 9.5% of persons aged 15-84 had hyperglycaemia (pre-diabetes) but were unaware of the&#xD;
+      problem before the survey DM can result in severe complications, which lead to disabling&#xD;
+      morbidity and premature mortality. A number of randomised controlled trials (RCTs) have found&#xD;
+      that lifestyle interventions (e.g., diet, exercise) and pharmacological treatments are&#xD;
+      effective in preventing DM and its complications. However, it has been reported that 224&#xD;
+      million adults (49.7% of all cases) world-wide are unaware that they have the condition,&#xD;
+      similar to the finding of the Hong Kong PHS 2014/2015. DM can be present for 9-12 years prior&#xD;
+      to a diagnosis and is often only detected when patients present with complications. Hence,&#xD;
+      there is an urgent need for earlier detection of DM so that appropriate interventions can be&#xD;
+      provided to prevent and/or delay progression to complications. It would be even more&#xD;
+      effective if individuals could be identified at the pre-diabetes (pre-DM) stage when there&#xD;
+      may still be an opportunity to revert to normoglycaemia by life-style modifications. While DM&#xD;
+      satisfies all Wilson and Jungner's (1968) criteria of screening studies have shown that&#xD;
+      general population screening is not effective and the current recommendation is case finding&#xD;
+      targeting at high-risk individuals. The Hong Kong Reference Framework for Diabetes Care for&#xD;
+      Adults in Primary Care Settings recommends periodic screening for DM among persons aged &gt;=45&#xD;
+      years old or having DM risk factors. The recommended methods for screening include 75-g oral&#xD;
+      glucose tolerance tests (OGTT), fasting plasma glucose (FPG) tests or HbA1c tests. Indeed, a&#xD;
+      cost-effectiveness analysis reported that screening for DM and prediabetes was cost-saving&#xD;
+      among patients identified as being at high risk (e.g., body mass index (BMI) &gt; 35 kg/m(2),&#xD;
+      systolic blood pressure ≥ 130mmHg or &gt; 55 years of age) when compared with no screening. In&#xD;
+      order to identify high risk individuals more accurately, multivariate risk prediction models&#xD;
+      have been developed and incorporated into DM prevention programs in a number of Western&#xD;
+      countries. Such models have included sociodemographic factors (e.g., age, sex), clinical&#xD;
+      factors (e.g., family history of DM, gestational DM) or biomarkers (e.g., BMI, blood&#xD;
+      pressure). However, the majority of these models were developed primarily in Caucasian&#xD;
+      populations and have not performed as well among Chinese populations. For example, the&#xD;
+      Prospective Cardiovascular Münster, Cambridge, San Antonia and Framingham models were found&#xD;
+      to have inferior discrimination in a cohort of Chinese people. This can be due to ethnic&#xD;
+      differences as well as lifestyle and socioeconomic factors, calling for the need of&#xD;
+      population-specific risk prediction models. Since 2009, a number of risk prediction models&#xD;
+      and scoring algorithms have been developed specifically for Chinese populations, mostly from&#xD;
+      Mainland China, only two of which were developed and validated on Hong Kong Chinese people.&#xD;
+      The first used simple self-reported factors and laboratory measurements to develop a scoring&#xD;
+      algorithm. However, the generalisability of the model to primary care patients may be limited&#xD;
+      as 70% of the subjects of the development and validation samples had known risk factors for&#xD;
+      DM. The second risk prediction model for Hong Kong Chinese was previously developed by&#xD;
+      members of the investigators' team with data from 3,357 asymptomatic non-diabetic&#xD;
+      professional drivers. Non-laboratory risk factors included age, BMI, family history of DM,&#xD;
+      regular physical activity (PA), and high blood pressure. Triglyceride was added to the&#xD;
+      laboratory-based algorithm. The application of this risk predication model is limited because&#xD;
+      the sample was predominately male (92.7%) professional drivers and the accuracy was modest.&#xD;
+      It is noted that the majority of factors included in previous models are non-modifiable&#xD;
+      (e.g., family history of DM, gestational DM, age), and there is a call for future research to&#xD;
+      incorporate more lifestyle factors in order to improve the predictive validity and impact of&#xD;
+      risk prediction models. Lifestyle factors that may be associated with DM and pre-DM include&#xD;
+      physical activity (PA) level, dietary factors (e.g., fibre, sugar or fat intake), alcohol&#xD;
+      consumption, smoking and sleep. This proposed study aims to develop a new DM and pre-DM risk&#xD;
+      prediction model specific for the Hong Kong general Chinese population that incorporates&#xD;
+      traditional and modifiable life style factors. The investigators will apply the novel method&#xD;
+      of machine learning as well as the traditional logistic regression in model development to&#xD;
+      improve predictive power. The investigators hope the results will enable the implementation&#xD;
+      of effective case finding of DM and pre-DM in primary care, and prevent mortality and&#xD;
+      morbidity from this common but silent NCD for the people in Hong Kong.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The sensitivity of the risk prediction function in detecting DM and pre-DM in primary care</measure>
+    <time_frame>12 months</time_frame>
+    <description>To validate the risk prediction functions, each of the models developed by logistic regressions or machine learning will be applied to the prospective data collected from subjects recruited from the participating primary care clinics. Overall sensitivity will be assessed by applying the risk threshold score to the validation data and a ROC curve of predicted risk against observed events (DM and pre-DM).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Area under curve (AUC) of the risk prediction function in detecting DM and pre-DM in primary care</measure>
+    <time_frame>12 months</time_frame>
+    <description>To validate the risk prediction functions, each of the models developed by logistic regressions or machine learning will be applied to the prospective data collected from subjects recruited from the participating primary care clinics. A ROC curve of predicted risk against observed events (DM and pre-DM) will be used to calculate the area under the curve (AUC) for assessing overall prediction accuracy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Specificity of the risk prediction function in detecting DM and pre-DM in primary care</measure>
+    <time_frame>12 months</time_frame>
+    <description>To validate the risk prediction functions, each of the models developed by logistic regressions or machine learning will be applied to the prospective data collected from subjects recruited from the participating primary care clinics. Overall specificity will be assessed by applying the risk threshold score to the validation data and a ROC curve of predicted risk against observed events (DM and pre-DM).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive predictive value (PPV) of the risk prediction function in detecting DM and pre-DM in primary care</measure>
+    <time_frame>12 months</time_frame>
+    <description>To validate the risk prediction functions, each of the models developed by logistic regressions or machine learning will be applied to the prospective data collected from subjects recruited from the participating primary care clinics. Positive predictive value (PPV) will be assessed by applying the risk threshold score to the validation data and a ROC curve of predicted risk against observed events (DM and pre-DM).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value (NPV) of the risk prediction function in detecting DM and pre-DM in primary care</measure>
+    <time_frame>12 months</time_frame>
+    <description>To validate the risk prediction functions, each of the models developed by logistic regressions or machine learning will be applied to the prospective data collected from subjects recruited from the participating primary care clinics. Negative predictive value (NPV) will be assessed by applying the risk threshold score to the validation data and a ROC curve of predicted risk against observed events (DM and pre-DM).</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1014</enrollment>
+  <condition>Diabetes Mellitus</condition>
+  <condition>Pre Diabetes</condition>
+  <arm_group>
+    <arm_group_label>Patients from Primary Care Clinics</arm_group_label>
+    <description>Participating Chinese adults aged 18-84 from Primary Care clinics to validate the risk prediction function. Each subject will complete an assessment on the relevant risk factors and have a blood test on OGTT and HbA1c on recruitment and at 12 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>OGTT and HbA1c</intervention_name>
+    <description>An investigation form will be given to the patient to attend an approved private laboratory for blood pressure, weight, height, waist and hip circumferences, and a blood test on OGTT, HbA1c, complete blood count (CBC) and lipid profile within three months</description>
+    <arm_group_label>Patients from Primary Care Clinics</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Chinese adults aged 18-84 attending Primary Clinics clinics with no previous history of DM,&#xD;
+        CVD, cancer, CKD and anaemia&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        (Development Study)&#xD;
+&#xD;
+        Inclusion criteria:&#xD;
+&#xD;
+          -  PHS 2014/2015 participants&#xD;
+&#xD;
+          -  Completed the health examination including physical measurements (body height, weight,&#xD;
+             BMI, waist and hip circumference) and blood tests (fasting plasma glucose, HbA1c and&#xD;
+             lipid profile) during PHS 2014/2015&#xD;
+&#xD;
+          -  aged 18-84 years&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  Doctor-diagnosed DM&#xD;
+&#xD;
+          -  Doctor-diagnosed high blood glucose&#xD;
+&#xD;
+          -  Doctor-diagnosed cardiovascular disease (coronary heart disease, stroke)&#xD;
+&#xD;
+          -  Doctor-diagnosed cancer&#xD;
+&#xD;
+          -  Doctor-diagnosed chronic kidney disease&#xD;
+&#xD;
+          -  Doctor-diagnosed anaemia&#xD;
+&#xD;
+        (Validation study)&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Chinese&#xD;
+&#xD;
+          -  aged 18-84 years&#xD;
+&#xD;
+          -  Can communicate in Chinese&#xD;
+&#xD;
+          -  Consent to participate in the study&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Doctor-diagnosed DM&#xD;
+&#xD;
+          -  Doctor-diagnosed high blood glucose&#xD;
+&#xD;
+          -  Doctor-diagnosed cardiovascular disease (coronary heart disease, stroke)&#xD;
+&#xD;
+          -  Doctor-diagnosed cancer&#xD;
+&#xD;
+          -  Doctor-diagnosed chronic kidney disease&#xD;
+&#xD;
+          -  Doctor-diagnosed anaemia&#xD;
+&#xD;
+          -  Inability to complete the survey or blood test because of sickness or cognitive&#xD;
+             impairment&#xD;
+&#xD;
+          -  Do not give consent to the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>84 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Cindy LK Lam, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Family Medicine and Primary Care, University of Hong Kong</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Cindy LK Lam, MD</last_name>
+    <phone>+85225185657</phone>
+    <email>clklam@hku.hk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Family Medicine &amp; Primary Care, LKS Faculty of Medicine, University of Hong Kong</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cindy LK Lam, MD</last_name>
+      <phone>+85225185657</phone>
+      <email>clklam@hku.hk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 10, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 11, 2021</study_first_posted>
+  <last_update_submitted>May 10, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 10, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The University of Hong Kong</investigator_affiliation>
+    <investigator_full_name>Professor Cindy L.K. Lam</investigator_full_name>
+    <investigator_title>Danny D. B. Ho Professor in Family Medicine and Head of Department</investigator_title>
+  </responsible_party>
+  <keyword>Risk prediction model</keyword>
+  <keyword>Early detection</keyword>
+  <keyword>Non-laboratory based</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus</mesh_term>
+    <mesh_term>Prediabetic State</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

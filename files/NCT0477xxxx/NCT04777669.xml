@@ -1,0 +1,144 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04777669</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SBIR01</org_study_id>
+    <nct_id>NCT04777669</nct_id>
+  </id_info>
+  <brief_title>Removing Background Talker Noise for Cochlear Implant Users</brief_title>
+  <official_title>Removing Background Talker Noise for Cochlear Implant Users</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>York Sound Inc</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>NYU Langone Health</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>York Sound Inc</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      When hearing-impaired listeners are properly aided with a hearing aid (HA) or cochlear&#xD;
+      implant (CI), they are often able to comfortably maintain a conversation in quiet&#xD;
+      environments. However, in group environments, such as a large family dinner, restaurant, or&#xD;
+      other environment where multiple people are talking simultaneously, hearing-impaired&#xD;
+      listeners have great difficulty participating in conversations and frequently withdraw or&#xD;
+      avoid the situation. As such, it would be highly beneficial to implement an algorithm into&#xD;
+      HAs or CIs to remove background talkers (&quot;babble&quot;) from the signal to reduce listening effort&#xD;
+      for the hearing-impaired listener and allow them to converse as if they were in a quiet&#xD;
+      environment. Although HAs and CIs frequently incorporate noise reduction algorithms, these&#xD;
+      algorithms are not effective when the background is babble. The problem of removing babble&#xD;
+      involves segregating speech from speech. Hence, the spectral properties of the signal and&#xD;
+      noise are extremely similar.&#xD;
+&#xD;
+      Despite these challenges, we developed an algorithm to remove background babble. In the&#xD;
+      following study will test the ability of cochlear implant users to understand speech with&#xD;
+      background babble noise using our noise reduction algorithm or no noise reduction algorithm.&#xD;
+      We hypothesize that CI users will be able to understand significantly more speech in babble&#xD;
+      noise when using our algorithm.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 25, 2020</start_date>
+  <completion_date type="Anticipated">March 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2022</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Basic Science</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Speech Recognition</measure>
+    <time_frame>1 day</time_frame>
+    <description>The % of words correctly understood in various noisy situations will be measured</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Hearing Loss</condition>
+  <arm_group>
+    <arm_group_label>Experiment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will be tested for their ability to understand speech with and without noise reduction</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Noise Reduction</intervention_name>
+    <description>In within subject design, listeners will have background noise removed by a noise reduction algorithm</description>
+    <arm_group_label>Experiment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Subjects with CIs 12 years of age and older with no diagnosis of other communicative or&#xD;
+        cognitive disorders. Subjects must have native or native-like English proficiency.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        No diagnosed cognitive or communicative disorders (other than hearing loss), presence of&#xD;
+        acute/chronic otitis media, useable acoustic hearing, and non-English speaking.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>New York University School of Medicine</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Natalia Stupak, AuD</last_name>
+      <phone>646-501-4153</phone>
+      <email>Natalia.Stupak@nyulangone.org</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 25, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 25, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 2, 2021</study_first_posted>
+  <last_update_submitted>February 25, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 25, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 2, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hearing Loss</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data requests will be considered on a case by case basis</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

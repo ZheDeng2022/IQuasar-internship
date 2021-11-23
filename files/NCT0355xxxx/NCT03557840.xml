@@ -1,0 +1,627 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03557840</url>
+  </required_header>
+  <id_info>
+    <org_study_id>temocillin prot-bind non-ICU</org_study_id>
+    <nct_id>NCT03557840</nct_id>
+  </id_info>
+  <brief_title>Plasma Protein Binding and PK/PD of Total and Unbound Temocillin Non-ICU Patients</brief_title>
+  <acronym>TEMODELTA</acronym>
+  <official_title>Plasma Protein Binding and Population Pharmacokinetics and Pharmacodynamics of Total and Unbound Temocillin in Patients With Complicated Urinary Tract Infection or Pyelonephritis, Lower Respiratory Tract Infection, or Abdominal Infection.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Paul M. Tulkens</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Université Catholique de Louvain</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Multidrug resistance towards Gram-negative pathogens makes essential the re-examination of&#xD;
+      older compounds. Temocillin is a penicillin originally marketed in the 1980s but then largely&#xD;
+      abandoned. It, however, shows a marked ß-lactamase stability (including most classical and&#xD;
+      extended-spectrum TEM, SHV, CTX-M enzymes and AmpC ß-lactamase). Temocillin is approved for&#xD;
+      the treatment of bacterial infections of the chest, the lungs, the kidney, the bladder, as&#xD;
+      well as bacterial infections of the bloodstream and wound infections.&#xD;
+&#xD;
+      Temocillin efficacy depends primarily from the time interval during which the unbound plasma&#xD;
+      concentration remains above the minimal inhibitory concentration (MIC) of the antibiotic&#xD;
+      against the target organism(s). Unfortunately, no comprehensive pharmacokinetic data are&#xD;
+      available in non-critically-ill patients.&#xD;
+&#xD;
+      The primary objective of the study is characterize the pharmacokinetics of total and unbound&#xD;
+      temocillin in non-ICU patients, and, on this basis, to propose optimized dosage regimens in&#xD;
+      this population. The secondary objectives are (i) to look for possible correlations between&#xD;
+      the plasma protein profile and the unbound temocillin concentrations; (ii) to investigate the&#xD;
+      impact of the level and nature of circulating plasma proteins on the unbound temocillin&#xD;
+      concentration.&#xD;
+&#xD;
+      The study will be non-randomized, uncontrolled, prospective, open label, interventional, and&#xD;
+      monocentric. It will include a population pharmacokinetic-pharmacodynamic analysis of the&#xD;
+      data obtained. The study will enroll patients ≥ 18 years in need of a treatment with&#xD;
+      temocillin for (i) complicated urinary tract infection and pyelonephritis (associated or not&#xD;
+      with bacteremia), or (ii) lower respiratory tract infection, or (iii) abdominal infection,&#xD;
+      and requiring ≥ 4 days of hospitalization. Blood samples will be obtained at day 0 (control)&#xD;
+      and after 2 and 4 days of drug treatment (full pharmacokinetic evaluation over 8 to 12 h&#xD;
+      post-administration). Total and unbound temocillin concentrations in plasma will be&#xD;
+      quantified by a validated analytical method.&#xD;
+&#xD;
+      A population pharmacokinetic/pharmacodynamics model of plasma total and unbound&#xD;
+      concentrations of temocillin will be obtained by Bayesian algorithms using Pmetrics software,&#xD;
+      driven by the predicted plasma total and unbound concentration. The model will be used to&#xD;
+      assess the probability of target attainment of temocillin.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      1.1. Introduction.&#xD;
+&#xD;
+      Multidrug resistance towards gram-negative pathogens has been increasing dramatically over&#xD;
+      the last decades. Due to insufficient discovery of drugs acting on novel targets,&#xD;
+      re-examination of older compounds, such as temocillin, for which resistance is still low, has&#xD;
+      proven to be of great therapeutic interest.&#xD;
+&#xD;
+      As all the β-lactams, temocillin efficacy depends primarily on the time interval during which&#xD;
+      the plasma concentration remains above the minimal inhibitory concentration (MIC) of the&#xD;
+      antibiotic against the target organism(s) (Craig, 1998). It is generally accepted that the&#xD;
+      unbound concentration of the antibiotic must remain above the MIC for at least 40 to 70% of&#xD;
+      the interval between two successive administrations, and should even reach 100% for severe&#xD;
+      infections in patients hospitalized in Intensive Care Units (MacGowan, 2011).&#xD;
+&#xD;
+      Temocillin (Negaban®), a ß-lactamase-resistant penicillin antibiotic, was first marketed in&#xD;
+      the 1980s but then abandoned due to a lack of activity against anaerobes, gram-positive&#xD;
+      bacteria and Pseudomonas aeruginosa (Livermore et al., 2006; Zykov et al., 2016). However,&#xD;
+      temocillin stability to ß-lactamases (including classical and extended-spectrum TEM, SHV,&#xD;
+      CTX-M enzymes and AmpC ß-lactamase) has found great appreciation amongst a large number of&#xD;
+      professionals in the field (Balakrishnan et al., 2011; Livermore and Tulkens, 2009). It is&#xD;
+      approved for intravenous and intramuscular administration at a dose ranging between 1-2 g&#xD;
+      twice - thrice - a day for the treatment of bacterial infections of the chest, the lungs, the&#xD;
+      kidney, the bladder, as well as bacterial infections of the bloodstream, abdominal infection,&#xD;
+      and wound infections (RCP Temocillin, 2014).&#xD;
+&#xD;
+      Studies performed in critical ill patients show important variations in the level of plasma&#xD;
+      proteins and rapid and unpredictable fluctuations in renal function (Beumier et al., 2015;&#xD;
+      Goncalves-Pereira and Povoa, 2011; Roberts and Lipman, 2009), both of which are known to&#xD;
+      modulate the pharmacokinetics of β-lactams (Goncalves-Pereira and Povoa, 2011; Hayashi et&#xD;
+      al., 2013; Sime et al., 2012; Udy et al., 2012; Wong et al., 2013). As a consequence, the&#xD;
+      unbound concentration of β-lactams with high protein binding (Schleibinger et al., 2015;&#xD;
+      Ulldemolins et al., 2011; Van Dalen et al., 1987; Wong et al., 2013), and renal elimination&#xD;
+      (Carlier et al., 2013; Simon et al., 2006; Vandecasteele et al., 2015) such as temocillin&#xD;
+      will be markedly modified in these patients.&#xD;
+&#xD;
+      The pharmacokinetics of total and unbound temocillin together with its plasma protein binding&#xD;
+      have been recently investigated in clinical studies performed in healthy volunteers and in&#xD;
+      critical-ill patients. The first results show that plasma protein binding of temaocillin was&#xD;
+      concentration-dependent in both populations but much more important in healthy volunteers&#xD;
+      compared to critically-ill patients), resulting in a lower unbound concentration of&#xD;
+      temocillin in healthy volunteers as compared to critically ill patients.&#xD;
+&#xD;
+      These studies were conducted in two extreme populations, but temocillin is more widely used&#xD;
+      in patients who do not require hospitalization in an intensive care unit. It would therefore&#xD;
+      be of high interest to study the pharmacokinetics of temocillin in non-critically-ill&#xD;
+      patients, including its protein binding, in order to estimate whether the current dosing&#xD;
+      regimen is optimal to reach PK/PD targets predictive of efficacy.&#xD;
+&#xD;
+      1.2. Study objectives.&#xD;
+&#xD;
+      1.2.1. Primary objectives.&#xD;
+&#xD;
+        -  To characterize the pharmacokinetics of total and unbound temocillin using population&#xD;
+           pharmacokinetic and pharmacodynamics modeling and to calculate and assess the values of&#xD;
+           key pharmacokinetic parameters (total clearance, volume of distribution, constants of&#xD;
+           elimination, plasma total and unbound maximal and minimal concentrations) in patients&#xD;
+           hospitalized in standard care wards.&#xD;
+&#xD;
+        -  To propose optimized dosage regimens in this population, as compared to what could be&#xD;
+           proposed for patients hospitalized in intensive care units.&#xD;
+&#xD;
+      Secondary objectives:&#xD;
+&#xD;
+      1.2.2. Secondary objectives.&#xD;
+&#xD;
+        -  To look for possible correlations between the plasma protein profile and the unbound&#xD;
+           temocillin concentrations;&#xD;
+&#xD;
+        -  To investigate the impact of the level and nature of circulating plasma proteins on the&#xD;
+           unbound temocillin concentration.&#xD;
+&#xD;
+      1.3. Study design.&#xD;
+&#xD;
+      Non-randomized control trial, prospective, open label, interventional, monocentric,&#xD;
+      population pharmacokinetic and pharmacodynamics.&#xD;
+&#xD;
+      1.4. Study population.&#xD;
+&#xD;
+      1.4.1. Sample size calculation.&#xD;
+&#xD;
+      As a descriptive pharmacokinetic study without formal predefined hypothesis, no calculation&#xD;
+      of the size of the population has been made. Based on literature data and our own experience,&#xD;
+      a maximum of 60 patients should be sufficient to draw meaningful conclusions.&#xD;
+&#xD;
+      1.4.2. Study groups and number of patients&#xD;
+&#xD;
+      The population studied is divided according to their pathology into 3 groups&#xD;
+&#xD;
+        -  Group 1: 15 to 20 patients with complicated urinary tract infection and pyelonephritis&#xD;
+           associated or not with bacteraemia.&#xD;
+&#xD;
+        -  Group 2: 15 to 20 patients with lower respiratory tract infection.&#xD;
+&#xD;
+        -  Group 3: 15 to 20 patients with abdominal infection.&#xD;
+&#xD;
+      In a first step, each group will undergo a thorough pharmacokinetic study. In a second step&#xD;
+      we will study the pharmacokinetics of all pooled data and the results obtained will make it&#xD;
+      possible to compare the parameters.&#xD;
+&#xD;
+      1.4.3. Inclusion criteria (see elsewhere)&#xD;
+&#xD;
+      1.4.4. Exclusion criteria (see elsewhere)&#xD;
+&#xD;
+      1.4.5. Reason for withdrawal of study: at the patient's own request; in case of lack of&#xD;
+      cooperation, change of medication, occurrence of adverse event(s), or other objections to&#xD;
+      participate in the study in the opinion of the investigator&#xD;
+&#xD;
+      1.5. Study drug.&#xD;
+&#xD;
+      Temocillin (NEGABAN®) 2 g will be administered as intravenous infusion over 30 minutes 2 or 3&#xD;
+      times a day. The patient's physician will decide on the duration of temocillin use.&#xD;
+&#xD;
+      1.5.1. Indications.&#xD;
+&#xD;
+      Temocillin is indicated for treatment of the infections mentioned in the protocol.&#xD;
+&#xD;
+      1.5.2. Contraindications.&#xD;
+&#xD;
+      The use of Temocillin (NEGABAN®) is contraindicated in patients with a history of allergic&#xD;
+      reactions to any of the penicillins or any other type of beta-lactam drug.&#xD;
+&#xD;
+      1.5.3. Undesirable effects: diarrhoea, pain at site of injection, occasionally rash&#xD;
+      (urticarial or erythematous), fever, arthralgia or myalgia, sometimes developing more than 48&#xD;
+      hours after treatment initiation, angioedema and anaphylaxis. In patients suffering from&#xD;
+      renal failure, neurological disorders with convulsions have been reported following i.v.&#xD;
+      injection of high dose of penicillins.&#xD;
+&#xD;
+      1.6. Study protocol.&#xD;
+&#xD;
+      Upon signature of the informed consent form and provided that the inclusion/exclusion&#xD;
+      criteria are fulfilled, subjects will be enrolled in the study. Only the procedure of&#xD;
+      management of the patients of the hospital where the study will be conducted will be taken&#xD;
+      into account in this study. Only patients verifying inclusion criteria will be accepted.&#xD;
+&#xD;
+      1.6.1. Study day.&#xD;
+&#xD;
+      1.6.1.1. Study day 1.&#xD;
+&#xD;
+      Control (Blood Sampling before dosing)&#xD;
+&#xD;
+      1.6.1.2. Study day 2.&#xD;
+&#xD;
+      Determination of total and unbound temocillin concentrations in plasma, will be performed&#xD;
+      after intravenous administration. Plasma samples will be collected at defined time points&#xD;
+      before the dose administration and during up to 8 hours (if the dose is 2g/8h) or up to 12&#xD;
+      hours (if the dose is 2g/12h).&#xD;
+&#xD;
+      1.6.1.3. Study day 4.&#xD;
+&#xD;
+      Determination of total and unbound temocillin concentrations in plasma, will be performed&#xD;
+      after intravenous administration of 2g of temocillin. Plasma samples will be collected at&#xD;
+      defined time points before the dose administration and during up to 8 hours (if the dose is 2&#xD;
+      g/8 h) or up to 12 hours (if the dose is 2 g/12 h).&#xD;
+&#xD;
+      1.7. Study duration.&#xD;
+&#xD;
+      The expected total duration of the trial (recruitment) is 24 months (or more if patient&#xD;
+      enrollment is slow).&#xD;
+&#xD;
+      2. Methods.&#xD;
+&#xD;
+      2.1. Sampling period's instructions.&#xD;
+&#xD;
+      Blood sampling will be performed over 8 or 12 hours. Venous blood will be drawn from a&#xD;
+      suitable antecubital vein at defined time points before and after study drug administration.&#xD;
+&#xD;
+      Time points will be as follows: If dose administration is 2g/8h&#xD;
+&#xD;
+        -  Day 1: Control (before dosing),&#xD;
+&#xD;
+        -  Day 2 and 4: T0 + 30 min, 1, 2, 4, 6, and 8 hours after study drug administration.&#xD;
+&#xD;
+        -  T0: time after end of infusion.&#xD;
+&#xD;
+      Time points will be as follows: If dose administration is 2g/12h&#xD;
+&#xD;
+        -  Day 1: Control (before dosing)&#xD;
+&#xD;
+        -  Day 2 and 4: T0 + 30 min, 1, 2, 4, 6, 8, and 12 hours after study drug administration.&#xD;
+&#xD;
+        -  T0: time after end of infusion.&#xD;
+&#xD;
+      2.2. Blood collection tube and volume.&#xD;
+&#xD;
+        -  Blood collection tube: EDTA tube (plasma) without ball or gel&#xD;
+&#xD;
+        -  Blood volume per tube: 5mL&#xD;
+&#xD;
+        -  Total blood volume by kinetics: 45mL The blood samples will be placed on ice immediately&#xD;
+           after collection and subsequently centrifuged (2000g, 10 minutes, 4°C). Resulting plasma&#xD;
+           will be aliquoted and frozen at -80°C until analysis.&#xD;
+&#xD;
+      Collection of bacterial strains from the patient All bacterial strains identified in the&#xD;
+      biological samples of each patient will be conserved&#xD;
+&#xD;
+      2.3 and 2.4: Flow Charts (available on request).&#xD;
+&#xD;
+      2.5. Total and unbound temocillin quantification.&#xD;
+&#xD;
+      Total and unbound temocillin concentrations in plasma samples will be quantified using a&#xD;
+      validated liquid chromatography - tandem mass spectrometry (LC-MS/MS) method (Ngougni Pokem&#xD;
+      et al., 2015).&#xD;
+&#xD;
+      For determination of the total temocillin,- concentration, assay will be performed after&#xD;
+      plasma protein precipitation with methanol. Unbound concentrations will be determined after&#xD;
+      ultracentrifugation of samples using Amicon filter Ultra-15 device; NMWL 30K; Merck Millipore&#xD;
+      Ltd) TMO.&#xD;
+&#xD;
+      2.6. Demographic and Laboratory data.&#xD;
+&#xD;
+      The following laboratory investigations will be collected&#xD;
+&#xD;
+        -  Age,&#xD;
+&#xD;
+        -  Body weight and body mass index (BMI),&#xD;
+&#xD;
+        -  Calculated Glomerular filtration rate (GFR)&#xD;
+&#xD;
+        -  Total protein and albumin level&#xD;
+&#xD;
+      2.7. Labeling.&#xD;
+&#xD;
+      2.7.1. Patient identification.&#xD;
+&#xD;
+      Each enrolled patient will be identified by the first letter of the first name and the first&#xD;
+      letter of the surname. Patient numbers 01 - 60 will be used in a consecutive order.&#xD;
+&#xD;
+      2.7.2. Sample identification.&#xD;
+&#xD;
+      Each sample will be clearly and unequivocally identified with a label resistant to the&#xD;
+      storage temperature and containing the following information:&#xD;
+&#xD;
+        -  Type of infection&#xD;
+&#xD;
+        -  patient number&#xD;
+&#xD;
+        -  Scheduled time of sampling (hh:min)&#xD;
+&#xD;
+      2.8. Statistical and pharmacokinetic data analysis.&#xD;
+&#xD;
+      Statistical analysis will be performed using commercially available softwares (JMP Pro and&#xD;
+      Graph Pad Prism). Primary pharmacokinetic outcome variables (area under the curve [AUC],&#xD;
+      volume of distribution [Vd], total drug clearance [Cl]), and maximal and minimal&#xD;
+      concentration [Cmax, Cmin] will be displayed as means ± standard deviation (SD) given normal&#xD;
+      distribution of the data, or as medians and interquartile range if data are not normally&#xD;
+      distributed. Normal distribution of the data will be assessed by means of boxplots, Q-Q&#xD;
+      plots. Graphs showing the concentration-time profiles of total and unbound temocillin will be&#xD;
+      presented.&#xD;
+&#xD;
+      2.9. Population pharmacokinetic and pharmacodynamics analysis.&#xD;
+&#xD;
+      2.9.1. Model building.&#xD;
+&#xD;
+      The Population pharmacokinetic and pharmacodynamics (Pop-PK/PD) model of plasma total and&#xD;
+      unbound concentrations of temocillin will be analysed and fitted by Bayesian algorithms using&#xD;
+      non-commercially available software programs (Pmetrics software version1.4.1 ; LAPKB, Los&#xD;
+      Angeles, CA, USA.), driven by the predicted plasma total and unbound concentration.&#xD;
+&#xD;
+      One-, two and three-compartmental pharmacokinetic models will be fitted to the plasma&#xD;
+      temocillin pharmacokinetic data set. The model which best describes the data will be selected&#xD;
+      to drive the unbound temocillin concentration pharmacokinetic model in plasma.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Unknown status</overall_status>
+  <last_known_status>Not yet recruiting</last_known_status>
+  <start_date type="Anticipated">July 15, 2018</start_date>
+  <completion_date type="Anticipated">October 15, 2020</completion_date>
+  <primary_completion_date type="Anticipated">July 15, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>All patients will be simultaneously studied (disregarding the nature of their infection or the dose/schedule of temocillin)</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>pharmacokinetics of total plasma temocillin</measure>
+    <time_frame>12 days</time_frame>
+    <description>Measurement of total plasma temocillin concentrations (measurement by a validated HPLC-MS-MS after suitable extraction; no predefined value set [exploratory])</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>pharmacokinetics of unbound plasma temocillin</measure>
+    <time_frame>12 days</time_frame>
+    <description>Measurement of unbound plasma temocillin concentrations (measurement by a validated HPLC-MS-MS after separation from protein-bound temocillin; no predefined value set [exploratory])</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic analysis and population pharmacokinetics: Cmax (total and free)</measure>
+    <time_frame>36 months</time_frame>
+    <description>Analysis of the antibiotic pharmacokinetic profiles by means of appropriate software to calculate the actual mean and median values of the total and free plasma Cmax of temocillin (in mg/L) in the study population and to determine their value in a simulated population (Monte Carlo simulations; 1000 simulated patients)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic analysis and population pharmacokinetics: Cmin (total and free)</measure>
+    <time_frame>36 months</time_frame>
+    <description>Analysis of the antibiotic pharmacokinetic profiles by means of appropriate software to calculate the actual mean and median values of the total and free plasma Cmin of temocillin (in mg/L) in the study population and to determine their values in a simulated population (Monte Carlo simulations; 1000 simulated patients)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic analysis and population pharmacokinetics: time above a critical concentration value for total and free concentrations</measure>
+    <time_frame>36 months</time_frame>
+    <description>Analysis of the antibiotic pharmacokinetic profiles by means of appropriate software to calculate the actual mean and median values of the fraction of the time between two successive drug administrations during which the total and free plasma concentrations of temocillin remain above a critical value (8 mg/L) in the study population, and to determine its value in a simulated population (Monte Carlo simulations; 1000 simulated patients)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covariables analysis (biometric values): weight</measure>
+    <time_frame>36 months</time_frame>
+    <description>Assessment of the impact of patient's weight [in kg]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covariables analysis (biometric values): height</measure>
+    <time_frame>36 months</time_frame>
+    <description>Assessment of the impact of patient's height [in cm]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covariables analysis (biometric values): age</measure>
+    <time_frame>36 months</time_frame>
+    <description>Assessment of the impact of patient's age [in years]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covariables analysis (biochemical data): plasma total protein</measure>
+    <time_frame>36 months</time_frame>
+    <description>Assessment of the impact of total plasma protein [in g/L] [in g/L].</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Covariables analysis (biochemical data): plasma albumin</measure>
+    <time_frame>36 months</time_frame>
+    <description>Assessment of the impact of plasma albumin [in g/L].</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard laboratory data: serum creatinine</measure>
+    <time_frame>36 months</time_frame>
+    <description>serum creatinine [in mg/L]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard laboratory data: hepatic transaminases</measure>
+    <time_frame>36 months</time_frame>
+    <description>serum hepatic transaminases [in international units/L, with reference fo the local normal values]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Standard laboratory data: C-reactive protein</measure>
+    <time_frame>36 months</time_frame>
+    <description>serum C-reactive protein [in mg/L]</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Pharmacokinetics</condition>
+  <condition>Antibacterial Agents</condition>
+  <condition>Infections, Bacterial</condition>
+  <condition>Infection</condition>
+  <condition>Drug Monitoring</condition>
+  <condition>Temocillin</condition>
+  <arm_group>
+    <arm_group_label>Temocillin treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients treated with temocillin and sampled as per the protocol</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>temocillin</intervention_name>
+    <description>Drug dosing and blood sampling as per the protocol</description>
+    <arm_group_label>Temocillin treatment</arm_group_label>
+    <other_name>NEGABAN</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  ≥ 18 years old&#xD;
+&#xD;
+          -  prescribed temocillin for a complicated urinary tract infection and pyelonephritis&#xD;
+             associated or not with bacteraemia; or a l ower respiratory tract infection; or an&#xD;
+             abdominal infection&#xD;
+&#xD;
+          -  requiring ≥ 4 days hospitalization&#xD;
+&#xD;
+          -  having signed and informed consent (or signed by the legal representative)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients &lt; 18 years old&#xD;
+&#xD;
+          -  Patients allergic to β-lactams&#xD;
+&#xD;
+          -  Patients Ig-E mediated allergy to penicillin&#xD;
+&#xD;
+          -  Patients with acute or chronic renal failure (GFR &lt; 30ml/min)&#xD;
+&#xD;
+          -  Patients having participated in another study &lt; 30 days before inclusion in the&#xD;
+             present study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Françoise Van Bambeke, PharmD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Université cathollique de Louvain, Louvain Drug Research Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Paul M. Tulkens, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Université catholique de Louvain, Louvain Drug Research Institute</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Steven Vervaeke, MD</last_name>
+    <phone>0013251237196</phone>
+    <email>Steven.Vervaeke@azdelta.be</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Perrin Ngougni Pokem, Pharm</last_name>
+    <phone>003227647225</phone>
+    <email>perrin.ngougni@uclouvain.be</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>AZ Delta ziekenhuis</name>
+      <address>
+        <city>Roeselare</city>
+        <state>West-Vlaanderen</state>
+        <zip>8800</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Steven Vervaeke, MD</last_name>
+      <phone>0013251237196</phone>
+      <email>Steven.Vervaeke@azdelta.be</email>
+    </contact>
+    <contact_backup>
+      <last_name>Steven Vervaeke, MD</last_name>
+      <phone>0013251237196</phone>
+      <email>dokterslabo@azdelta.be</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <results_reference>
+    <citation>Balakrishnan I, Awad-El-Kariem FM, Aali A, Kumari P, Mulla R, Tan B, Brudney D, Ladenheim D, Ghazy A, Khan I, Virgincar N, Iyer S, Carryn S, Van de Velde S. Temocillin use in England: clinical and microbiological efficacies in infections caused by extended-spectrum and/or derepressed AmpC β-lactamase-producing Enterobacteriaceae. J Antimicrob Chemother. 2011 Nov;66(11):2628-31. doi: 10.1093/jac/dkr317. Epub 2011 Aug 2.</citation>
+    <PMID>21810837</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Beumier M, Casu GS, Hites M, Wolff F, Cotton F, Vincent JL, Jacobs F, Taccone FS. Elevated β-lactam concentrations associated with neurological deterioration in ICU septic patients. Minerva Anestesiol. 2015 May;81(5):497-506. Epub 2014 Sep 15.</citation>
+    <PMID>25220556</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Carlier M, Carrette S, Roberts JA, Stove V, Verstraete A, Hoste E, Depuydt P, Decruyenaere J, Lipman J, Wallis SC, De Waele JJ. Meropenem and piperacillin/tazobactam prescribing in critically ill patients: does augmented renal clearance affect pharmacokinetic/pharmacodynamic target attainment when extended infusions are used? Crit Care. 2013 May 3;17(3):R84. doi: 10.1186/cc12705.</citation>
+    <PMID>23642005</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Craig WA. Pharmacokinetic/pharmacodynamic parameters: rationale for antibacterial dosing of mice and men. Clin Infect Dis. 1998 Jan;26(1):1-10; quiz 11-2. Review.</citation>
+    <PMID>9455502</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gonçalves-Pereira J, Póvoa P. Antibiotics in critically ill patients: a systematic review of the pharmacokinetics of β-lactams. Crit Care. 2011;15(5):R206. doi: 10.1186/cc10441. Epub 2011 Sep 13. Review.</citation>
+    <PMID>21914174</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hayashi Y, Lipman J, Udy AA, Ng M, McWhinney B, Ungerer J, Lust K, Roberts JA. β-Lactam therapeutic drug monitoring in the critically ill: optimising drug exposure in patients with fluctuating renal function and hypoalbuminaemia. Int J Antimicrob Agents. 2013 Feb;41(2):162-6. doi: 10.1016/j.ijantimicag.2012.10.002. Epub 2012 Nov 13.</citation>
+    <PMID>23153962</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Livermore DM, Hope R, Fagan EJ, Warner M, Woodford N, Potz N. Activity of temocillin against prevalent ESBL- and AmpC-producing Enterobacteriaceae from south-east England. J Antimicrob Chemother. 2006 May;57(5):1012-4. Epub 2006 Mar 10.</citation>
+    <PMID>16531428</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Livermore DM, Tulkens PM. Temocillin revived. J Antimicrob Chemother. 2009 Feb;63(2):243-5. doi: 10.1093/jac/dkn511. Epub 2008 Dec 18. Review.</citation>
+    <PMID>19095679</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ramsdale EH, Hargreave FE. Differences in airway responsiveness in asthma and chronic airflow obstruction. Med Clin North Am. 1990 May;74(3):741-51. Review.</citation>
+    <PMID>2186240</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ngougni Pokem P, Miranda Bastos AC, Tulkens PM, Wallemacq P, Van Bambeke F, Capron A. Validation of a HPLC-MS/MS assay for the determination of total and unbound concentration of temocillin in human serum. Clin Biochem. 2015 May;48(7-8):542-5. doi: 10.1016/j.clinbiochem.2015.02.006. Epub 2015 Feb 21.</citation>
+    <PMID>25712752</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>RCP Temocillin. Temocillin Summary of Product Characteristics. Centre Belge d'Information Pharmacothérapeutique (C.B.I.P.asbl) . 2014. 4-1-2016 http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE467724&amp;leafletType=rcp</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Roberts JA, Lipman J. Pharmacokinetic issues for antibiotics in the critically ill patient. Crit Care Med. 2009 Mar;37(3):840-51; quiz 859. doi: 10.1097/CCM.0b013e3181961bff. Review.</citation>
+    <PMID>19237886</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Schleibinger M, Steinbach CL, Töpper C, Kratzer A, Liebchen U, Kees F, Salzberger B, Kees MG. Protein binding characteristics and pharmacokinetics of ceftriaxone in intensive care unit patients. Br J Clin Pharmacol. 2015 Sep;80(3):525-33. doi: 10.1111/bcp.12636. Epub 2015 Jun 11.</citation>
+    <PMID>25808018</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Sime FB, Roberts MS, Peake SL, Lipman J, Roberts JA. Does Beta-lactam Pharmacokinetic Variability in Critically Ill Patients Justify Therapeutic Drug Monitoring? A Systematic Review. Ann Intensive Care. 2012 Jul 28;2(1):35.</citation>
+    <PMID>22839761</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Simon N, Dussol B, Sampol E, Purgus R, Brunet P, Lacarelle B, Berland Y, Bruguerolle B, Urien S. Population pharmacokinetics of ceftriaxone and pharmacodynamic considerations in haemodialysed patients. Clin Pharmacokinet. 2006;45(5):493-501.</citation>
+    <PMID>16640454</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Udy AA, Varghese JM, Altukroni M, Briscoe S, McWhinney BC, Ungerer JP, Lipman J, Roberts JA. Subtherapeutic initial β-lactam concentrations in select critically ill patients: association between augmented renal clearance and low trough drug concentrations. Chest. 2012 Jul;142(1):30-39. doi: 10.1378/chest.11-1671.</citation>
+    <PMID>22194591</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ulldemolins M, Roberts JA, Rello J, Paterson DL, Lipman J. The effects of hypoalbuminaemia on optimizing antibacterial dosing in critically ill patients. Clin Pharmacokinet. 2011 Feb;50(2):99-110. doi: 10.2165/11539220-000000000-00000. Review.</citation>
+    <PMID>21142293</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Van Dalen R, Vree TB, Baars IM. Influence of protein binding and severity of illness on renal elimination of four cephalosporin drugs in intensive-care patients. Pharm Weekbl Sci. 1987 Apr 24;9(2):98-103.</citation>
+    <PMID>3588249</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Vandecasteele SJ, Miranda Bastos AC, Capron A, Spinewine A, Tulkens PM, Van Bambeke F. Thrice-weekly temocillin administered after each dialysis session is appropriate for the treatment of serious Gram-negative infections in haemodialysis patients. Int J Antimicrob Agents. 2015 Dec;46(6):660-5. doi: 10.1016/j.ijantimicag.2015.09.005. Epub 2015 Oct 9.</citation>
+    <PMID>26603304</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Wong G, Briscoe S, Adnan S, McWhinney B, Ungerer J, Lipman J, Roberts JA. Protein binding of β-lactam antibiotics in critically ill patients: can we successfully predict unbound concentrations? Antimicrob Agents Chemother. 2013 Dec;57(12):6165-70. doi: 10.1128/AAC.00951-13. Epub 2013 Sep 30.</citation>
+    <PMID>24080664</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Zykov IN, Sundsfjord A, Småbrekke L, Samuelsen Ø. The antimicrobial activity of mecillinam, nitrofurantoin, temocillin and fosfomycin and comparative analysis of resistance patterns in a nationwide collection of ESBL-producing Escherichia coli in Norway 2010-2011. Infect Dis (Lond). 2016 Feb;48(2):99-107. doi: 10.3109/23744235.2015.1087648. Epub 2015 Sep 28.</citation>
+    <PMID>26414659</PMID>
+  </results_reference>
+  <verification_date>June 2018</verification_date>
+  <study_first_submitted>June 4, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 4, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 15, 2018</study_first_posted>
+  <last_update_submitted>June 14, 2018</last_update_submitted>
+  <last_update_submitted_qc>June 14, 2018</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 18, 2018</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Université Catholique de Louvain</investigator_affiliation>
+    <investigator_full_name>Paul M. Tulkens</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>temocillin</keyword>
+  <keyword>free concentration</keyword>
+  <keyword>total concentration</keyword>
+  <keyword>pharmacokinetics</keyword>
+  <keyword>pharmacodynamic</keyword>
+  <keyword>probability of target attainment</keyword>
+  <keyword>non-ICU</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Bacterial Infections</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Temocillin</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No plan</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

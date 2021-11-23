@@ -1,0 +1,228 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04955652</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-0996</org_study_id>
+    <nct_id>NCT04955652</nct_id>
+  </id_info>
+  <brief_title>Evaluation of Alerts in Promoting Bone Densitometry Scans</brief_title>
+  <official_title>Evaluation of Best Practice Alerts and an Actionable Sidebar in Electronic Health Records in Promoting Bone Densitometry Scans</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Geisinger Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Geisinger Clinic</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess, prospectively, the effect of provider-facing alerts&#xD;
+      for bone densitometry scans with and without a single-click best practice alert (BPA) on scan&#xD;
+      orders and completions. The investigators hypothesize that the remaining alerts left in place&#xD;
+      (via health maintenance topics and an actionable item in the electronic health record&#xD;
+      sidebar) will be as effective without the BPA compared to the alerts with a BPA.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Standard care for bone densitometry scans at Geisinger--i.e., dual-energy x-ray&#xD;
+      absorptiometry (DXA) scans--involves (1) an alert under the health maintenance topics tab in&#xD;
+      Epic, (2) an actionable item in a sidebar (Storyboard), (3) and a single-click best practice&#xD;
+      alert (BPA). Storyboard and the BPA theoretically serve a redundant function, but it is&#xD;
+      possible that combined alerting is effective. Therefore, the investigators plan to evaluate&#xD;
+      whether the BPA for DXA scans will increase the percentage of DXA scans ordered and&#xD;
+      completed.&#xD;
+&#xD;
+      For this evaluation, the investigators will randomly assign (by odd and even MRN) half of&#xD;
+      patients who need DXA scans to go through standard care (including the single-click BPA) and&#xD;
+      half of patients to have no BPA shown to their provider, but only the health maintenance&#xD;
+      topic and actionable Storyboard alert. This evaluation will help the investigators determine&#xD;
+      whether redundant, more traditional alerts such as BPAs are helpful or can be removed from&#xD;
+      alerts for DXA scans.&#xD;
+&#xD;
+      The randomization of patients to different alert conditions will be in place until 4,200&#xD;
+      participants have been reached (estimated sample to detect 4% absolute difference, rounded to&#xD;
+      nearest hundred) or 6 months, whichever comes first. To account for delays in updating&#xD;
+      clinical databases, the outcome data will pulled 3 months after each encounter (for a maximum&#xD;
+      study period of 9 months).&#xD;
+&#xD;
+      The main analysis will use a logistic regression to compare the two groups. Exploratory&#xD;
+      analyses will also examine the time from order to completion to examine any effect on timing&#xD;
+      between arms. Another set of exploratory analyses will also examine the number of other BPAs&#xD;
+      firing to see if alert fatigue influenced the number of orders or completions or interacted&#xD;
+      with the experimental conditions.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 30, 2021</start_date>
+  <completion_date type="Anticipated">September 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>1 x 2 factorial design, with randomization happening at the patient level</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>Double (Participant, Care Provider)</masking>
+    <masking_description>The participants and providers will not know that alerts were randomized. Participants will not know the arm to which they were assigned. Providers might notice that a given participant did or did not receive a certain alert, but this is expected to be unlikely, given the volume of alerts to which providers are exposed constantly.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Bone Densitometry Scan Order Placed</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Binary variable indicating whether or not the order was placed</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Bone Densitometry Scan Completed</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Binary variable indicating whether or not the order placed at the encounter was completed</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Bone Densitometry Scan Completion Time</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Number of days from order time to completion time</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Unique Alerts</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Number of unique alerts (BPAs and medication alerts) that fired at the encounter</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Number of Alerts Fired</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Number of alerts (BPAs and medication alerts) that fired at the encounter</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total number of BPAs</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Total number of BPAs that fired at the encounter</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total number of medication alerts</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Total number of medication alerts that fired at the encounter</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total number of passive alerts</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Total number of passive alerts that fired at the encounter</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Total number of interruptive alerts</measure>
+    <time_frame>6 months or as long as it takes to reach N=4,200, whichever occurs first</time_frame>
+    <description>Total number of interruptive alerts that fired at the encounter</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">4200</enrollment>
+  <condition>Bone Diseases</condition>
+  <condition>Communication</condition>
+  <arm_group>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A health maintenance topic, actionable sidebar item, and a single-click best practice alert are presented.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Silent Best Practice Alert</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A health maintenance topic and an actionable sidebar item are presented. The best practice alert is set to be silent and will not appear in the patient's chart.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Health Maintenance Topic</intervention_name>
+    <description>Alert</description>
+    <arm_group_label>Silent Best Practice Alert</arm_group_label>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <other_name>HMT</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Actionable Sidebar Item</intervention_name>
+    <description>Alert</description>
+    <arm_group_label>Silent Best Practice Alert</arm_group_label>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <other_name>Storyboard</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Best Practice Alert</intervention_name>
+    <description>Alert</description>
+    <arm_group_label>Standard of Care</arm_group_label>
+    <other_name>BPA</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  In primary care&#xD;
+&#xD;
+          -  Records indicate patient is due for a bone densitometry scan (generally, a high-risk&#xD;
+             patient that requires this scan or age 65 and older)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Encounters at clinics/sites where the randomization build cannot easily be deployed&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amir Goren, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Program Director, Behavioral Insights Team</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Amir Goren, PhD</last_name>
+    <phone>5702144395</phone>
+    <email>agoren@geisinger.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Henri Santos, PhD</last_name>
+    <email>hsantos@geisinger.edu</email>
+  </overall_contact_backup>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>June 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 9, 2021</study_first_posted>
+  <last_update_submitted>November 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Geisinger Clinic</investigator_affiliation>
+    <investigator_full_name>Amir Goren</investigator_full_name>
+    <investigator_title>Program Director, Behavioral Insights Team</investigator_title>
+  </responsible_party>
+  <keyword>Bone Diseases</keyword>
+  <keyword>Alerts</keyword>
+  <keyword>Densitometry</keyword>
+  <keyword>Dual Energy X-ray Absorptiometry Scan</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bone Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data with no personally identifiable information will be made available to other researchers on the Open Science Framework for transparency. This will include the essential data and code needed to replicate the analysis that yielded reported findings. The PI did not examine or analyze any data from this study prior to this registration.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Analytic Code</ipd_info_type>
+    <ipd_time_frame>The data will become available after publication of study results in a scientific journal and will be available as long as the Open Science Framework hosts the data.</ipd_time_frame>
+    <ipd_access_criteria>The data on the Open Science Framework will be open to anyone requesting that information.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

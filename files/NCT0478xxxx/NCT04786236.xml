@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04786236</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REGALVAD</org_study_id>
+    <nct_id>NCT04786236</nct_id>
+  </id_info>
+  <brief_title>Physiological Control for Mechanical Circulatory Devices</brief_title>
+  <acronym>REGALVAD</acronym>
+  <official_title>Pilot Study for the Evaluation of Control Algorithms for Mechanical Circulatory Support Devices Based on Physiological Demand</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Heinrich Schima</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Vienna</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Aim of this clinical study is to compare our newly developed control algorithms for&#xD;
+      mechanical circulatory support devices based on physiological demand with the standard manual&#xD;
+      LVAD speed operation. Specifically it shall be demonstrated that:&#xD;
+&#xD;
+        -  Suction is properly detected by the pre-trained pump flow estimation algorithm&#xD;
+&#xD;
+        -  Suction events (due to changes in physiological demand) can be reduced by control&#xD;
+           algorithms compared to continuous speed&#xD;
+&#xD;
+        -  If suction is encountered, it can be detected and cleared&#xD;
+&#xD;
+        -  The pump reacts adequately to changes in patient demand due to physical activity&#xD;
+&#xD;
+        -  Physicians pump setpoints (of requested speed for a certain heartrate) can be achieved&#xD;
+           safely.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients complete a set of tests in constant speed setting and repeat the same tests with&#xD;
+      physiological control algorithms turned on. Order is randomized.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 14, 2020</start_date>
+  <completion_date type="Anticipated">May 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>Patients undergo testings in constant speed mode and physiologically controlled mode on the same day. the sequence is randomized. The number of patients was chosen due to the fact (experience in clinical care of the patients) the anatomical situation, the pump position due to surgical implant and the patient condition can vary to a high extent.</intervention_model_description>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Patients are blinded to their current control mode.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Device Feasibility</measure>
+    <time_frame>duration of the testing (up to 4 hours)</time_frame>
+    <description>Feasibility of the Control algorithm to safely adapt pump speed within provided limits, quantified by the number of necessary switchovers to manual mode</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Quantification of overpumping by number of suction events / minute during lying, standing and sitting and comparison with constant speed mode.</measure>
+    <time_frame>Duration of the testing (up to 4 hours)</time_frame>
+    <description>Overpumping leads to occlusion of the pump inflow by the ventricular septum and sudden temporary decrease of flow. The number of such events can be counted by analysis of the flow pattern in the pump. The automatic control should lead to a reduction of such events per minute compared to the condition in constant speed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quantification of overpumping by number of suction events / minute due to change of position from lying sitting and sitting to standing compared to the situation in constant speed mode.</measure>
+    <time_frame>Duration of the testing (up to 4 hours)</time_frame>
+    <description>Due to decreased venous return at changes of orthostasis the number of suctions increases in constant speed mode. The control should lead to a reduction of suction events due to intermittent reduction of pump speed. The quantification shall be done by comparing the number of suction events/minute immedeately after such changes in controlled and constant speed mode.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Heart Failure</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Physiological Control Module for the Medtronic -&quot;HVAD&quot; Left Ventricular Assist Device</intervention_name>
+    <description>Software, which sets the device speed according to physiological demand, is activated for the duration of the tests (up to 4 hours). Every patient provides his/her own control, because sequences with active control and with standard pump operation are subsequently performed in randomized order (determined by permutated blocks).</description>
+    <other_name>Automatic Speed Adaptation for Left Ventricular Assist Devices</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        All patients with a Medtronic HVAD system implanted at the Medical University of Vienna,&#xD;
+        Division of Cardiac Surgery, which are able and willing to understand and sign the informed&#xD;
+        consent form, and which do not meet any exclusion criteria will be included.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Inability to provide informed consent&#xD;
+&#xD;
+          -  Patients with known intraventricular or aortic root thrombus formation confirmed by&#xD;
+             transthoracic ultrasound diagnostic&#xD;
+&#xD;
+          -  Known pathology of the coagulatory system&#xD;
+&#xD;
+          -  Supra or sub-therapeutic anticoagulation (aPTT or INR)&#xD;
+&#xD;
+          -  Suspected or confirmed pump thrombus (based on lab parameters, abnormal high pump&#xD;
+             power consumption or acoustic spectral analysis)&#xD;
+&#xD;
+          -  History of ischemic or hemorrhagic stroke (&lt;2 months)&#xD;
+&#xD;
+          -  Hypertension at rest (mean arterial pressure &gt; 120mmHg)&#xD;
+&#xD;
+          -  Cerebrovascular or musculoskeletal disease preventing the performance of daily life&#xD;
+             activities or exercise training&#xD;
+&#xD;
+          -  Severe arrhythmia (e.g. long QT syndrome), ventricular fibrillation or required&#xD;
+             defibrillation - excluding the LVAD implantation - in the previous 2 months&#xD;
+&#xD;
+          -  All contraindications applicable to the HVAS are applicable to this study.&#xD;
+&#xD;
+        The System is contraindicated:&#xD;
+&#xD;
+          -  In patients with a body surface area (BSA) less than 1.2 m²&#xD;
+&#xD;
+          -  In patients who cannot tolerate anticoagulation therapy&#xD;
+&#xD;
+          -  During pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Daniel Zimpfer, Prof.</last_name>
+    <phone>+43 1 40400 22000</phone>
+    <email>daniel.zimpfer@meduniwien.ac.at</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Heinrich Schima, Assoc. Professor</last_name>
+    <phone>+43 1 40400 39820</phone>
+    <email>heinrich.schima@meduniwien.ac.at</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Medical University of Vienna</name>
+      <address>
+        <city>Vienna</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daniel Zimpfer, Prof.</last_name>
+      <phone>+43 1 40400 20200</phone>
+      <email>daniel.zimpfer@meduniwien.ac.at</email>
+    </contact>
+    <contact_backup>
+      <last_name>Heinrich Schima, Assoc. Prof.</last_name>
+      <phone>+43 1 40400 39820</phone>
+      <email>heinrich.schima@meduniwien.ac.at</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>February 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 3, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 8, 2021</study_first_posted>
+  <last_update_submitted>March 3, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 3, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Vienna</investigator_affiliation>
+    <investigator_full_name>Heinrich Schima</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>LVAD</keyword>
+  <keyword>Physiological Control</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

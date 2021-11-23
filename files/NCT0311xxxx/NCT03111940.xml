@@ -1,0 +1,750 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03111940</url>
+  </required_header>
+  <id_info>
+    <org_study_id>12005</org_study_id>
+    <nct_id>NCT03111940</nct_id>
+  </id_info>
+  <brief_title>The Oxford Optimisation of PCI Study (OXOPT-PCI Study)</brief_title>
+  <acronym>OXOPT-PCI</acronym>
+  <official_title>The Oxford Optimisation of PCI Study (OXOPT-PCI Study)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Oxford University Hospitals NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Oxford University Hospitals NHS Trust</source>
+  <brief_summary>
+    <textblock>
+      The OxOPT-PCI study addresses patients with coronary artery disease who are referred to the&#xD;
+      John Radcliffe Hospital because of the need for treatment with an intra-coronary stent (metal&#xD;
+      scaffold) for clinical reasons. Although, this has become a highly standardised procedure it&#xD;
+      is still challenging for the clinician to assess the final success of this procedure at the&#xD;
+      end of intervention with conventional methods. This shortcoming can potentially translate&#xD;
+      into a worse clinical outcome for approximately 10 percent of all patients treated with an&#xD;
+      intra-coronary stent for this type of disease.&#xD;
+&#xD;
+      This study (OxOPT-PCI) investigates if the use of blood flow measurements (namely measurement&#xD;
+      of fractional flow reserve (FFR)) and intravascular imaging (namely optical coherence&#xD;
+      tomography (OCT)) after the implantation of a stent can improve the treatment result for&#xD;
+      these patients. Both, FFR and OCT are being used already in daily clinical routing but their&#xD;
+      usefulness especially in combination is not clear. In order to standardise the optimisation&#xD;
+      procedure we developed a specific algorithm to make sure that all patients receive the same&#xD;
+      optimisation measures based on the assessment of FFR and OCT.&#xD;
+&#xD;
+      The benefit of this specific optimisation algorithm will be assessed by measuring 1) indices&#xD;
+      of coronary blood flow, 2) intravascular imaging at the end of the procedure, and 3) by&#xD;
+      contacting the patients 12 months after stenting to verify the clinical mid-term success.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 2016</start_date>
+  <completion_date type="Actual">July 2017</completion_date>
+  <primary_completion_date type="Actual">July 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Final Fractional Flow Reserve (FFR) After Intracoronary Stenting</measure>
+    <time_frame>Immediately post-stenting for Group 1A and 1B, and post FFR/OCT-guided optimisation for Group 1A</time_frame>
+    <description>After administration of intracoronary nitrates, FFR was measured under maximal hyperaemia, using intravenous adenosine (140 mg kg-1 min-1) as the ratio between distal coronary pressure (Pd) and aortic pressure (Pa)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Stent-edge Dissection Assessed by OCT</measure>
+    <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+    <description>Defined as presence of a linear rim of tissue ≥200 μm in width and with clear separation from the vessel wall, or underlying plaque &lt;5 mm from stent edges</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Reference Lumen Narrowing (Geographical Miss) Assessed by OCT</measure>
+    <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+    <description>Defined as reference lumen area &lt;4.5 mm2, with significant residual plaque within 10 mm of stent edges</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Stent Malapposition Assessed by OCT</measure>
+    <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+    <description>Defined as stent-adjacent vessel lumen distance &gt; 200 μm</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Plaque/Thrombus Protrusion Assessed by OCT</measure>
+    <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+    <description>Defined as tissue prolapsing between stent struts extending inside a circular arc connecting adjacent struts or intraluminal mass ≥500 μm thick with no direct connection to the vessel wall, or highly backscattered luminal protrusion in continuity with the vessel wall, resulting in signal-free shadowing</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Stent Under-expansion Assessed by OCT</measure>
+    <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+    <description>Defined as minimal stent area (MSA) &lt; 70% of average reference lumen area and/or MSA &lt; 4.5 mm2</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">35</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>PCI optimisation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Post PCI FFR below 0.9</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No PCI optimisation</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Post PCI FFR 0.9 or higher</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Optimisation of the result of intracoronary stenting according to specific algorithm</intervention_name>
+    <arm_group_label>PCI optimisation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  participant is willing and able to give informed consent for participation in the&#xD;
+             study&#xD;
+&#xD;
+          -  angiogram shows haemodynamically relevant lesion suitable for PCI and suitable for the&#xD;
+             use of intravascular imaging (OCT)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients in whom safety or clinical concerns preclude participation&#xD;
+&#xD;
+          -  ST-segment elevation myocardial infarction&#xD;
+&#xD;
+          -  presentation with cardiogenic shock&#xD;
+&#xD;
+          -  revascularization by mean of balloon angioplasty without stenting&#xD;
+&#xD;
+          -  contraindications to adenosine&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>30 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Oxford University Hospital - NHS Trust</name>
+      <address>
+        <city>Oxford</city>
+        <zip>OX3 9DU</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>June 12, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 12, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 13, 2017</study_first_posted>
+  <results_first_submitted>February 9, 2021</results_first_submitted>
+  <results_first_submitted_qc>March 12, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">April 8, 2021</results_first_posted>
+  <last_update_submitted>March 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Oxford University Hospitals NHS Trust</investigator_affiliation>
+    <investigator_full_name>Adrian Banning</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 14, 2016</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/40/NCT03111940/Prot_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>Eligible subjects were referred for elective or urgent complex PCI between September 2016 and July 2017 at the John Radcliffe Hospital, Oxford Heart Centre, United Kingdom. All patients underwent conventional angiography-guided stent deployment, until an acceptable angiographic result was achieved. Following completion of conventional PCI, FFR was measured, and intracoronary OCT imaging was performed. The study population was then divided into two groups based on the observed FFR value.</recruitment_details>
+      <pre_assignment_details>35 pts recruited</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Group 1 Patients With a Suboptimal Functional Result (FFR &lt;0.90) After Conventional PCI</title>
+          <description>OCT was performed per protocol after achievement of satisfactory angiographic results. OCT was analysed according to the presence of one or more of the following according to CLI-OPCI study criteria: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion. Operators were mandated to perform PCI optimisation according to the respective OCT finding.</description>
+        </group>
+        <group group_id="P2">
+          <title>Group 2 Patients With a Satisfactory Functional Result (FFR ≥0.90) After Conventional PCI</title>
+          <description>No further PCI optimisation was performed and OCT acquisition was performed only as a safety measure, to assess the frequency of relevant vessel-related complications</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+                <participants group_id="P2" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="21"/>
+                <participants group_id="P2" count="14"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Group 1 Patients With a Suboptimal Functional Result (FFR &lt;0.90) After Conventional PCI</title>
+          <description>In patients in Group 1, OCT was performed per protocol after achievement of satisfactory angiographic results. OCT was analysed according to the CLI-OPCI study defining a suboptimal stent result according to specific criteria. For patients that fulfilled OCT criteria for optimisation (Group 1A), operators were mandated to perform PCI optimisation according to the respective OCT finding. For patients in Group 1 who did not fulfil the OCT criteria (Group 1B), further PCI optimisation was not performed.</description>
+        </group>
+        <group group_id="B2">
+          <title>Group 2 Patients With a Satisfactory Functional Result (FFR ≥0.90) After Conventional PCI</title>
+          <description>For patients in Group 2, no further PCI optimisation was performed and OCT acquisition was performed only as a safety measure, to assess the frequency of relevant vessel-related complications.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="21"/>
+            <count group_id="B2" value="14"/>
+            <count group_id="B3" value="35"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="64.4" spread="8.4"/>
+                    <measurement group_id="B2" value="64.8" spread="8.2"/>
+                    <measurement group_id="B3" value="64.4" spread="8.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="3"/>
+                    <measurement group_id="B3" value="6"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="18"/>
+                    <measurement group_id="B2" value="11"/>
+                    <measurement group_id="B3" value="29"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="35"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United Kingdom</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="21"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Final Fractional Flow Reserve (FFR) After Intracoronary Stenting</title>
+        <description>After administration of intracoronary nitrates, FFR was measured under maximal hyperaemia, using intravenous adenosine (140 mg kg-1 min-1) as the ratio between distal coronary pressure (Pd) and aortic pressure (Pa)</description>
+        <time_frame>Immediately post-stenting for Group 1A and 1B, and post FFR/OCT-guided optimisation for Group 1A</time_frame>
+        <population>OCT-guided PCI optimisation was only performed in Group 1A</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: OCT-guided PCI Optimisation</title>
+            <description>Patients from Group 1 who fulfilled the OCT criteria and further PCI optimisation was performed</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 1B: No PCI Optimisation Performed</title>
+            <description>Patients from Group 1 who did not fulfil the OCT criteria, and thus, further PCI optimisation was not performed</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Final Fractional Flow Reserve (FFR) After Intracoronary Stenting</title>
+          <description>After administration of intracoronary nitrates, FFR was measured under maximal hyperaemia, using intravenous adenosine (140 mg kg-1 min-1) as the ratio between distal coronary pressure (Pd) and aortic pressure (Pa)</description>
+          <population>OCT-guided PCI optimisation was only performed in Group 1A</population>
+          <units>Ratio</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="8"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <title>Immediately post-stenting</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="13"/>
+                    <count group_id="O2" value="8"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.80" spread="0.02"/>
+                    <measurement group_id="O2" value="0.84" spread="0.03"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+            <class>
+              <title>Post OCT-guided optimisation</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="O1" value="13"/>
+                    <count group_id="O2" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.88" spread="0.01"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Stent-edge Dissection Assessed by OCT</title>
+        <description>Defined as presence of a linear rim of tissue ≥200 μm in width and with clear separation from the vessel wall, or underlying plaque &lt;5 mm from stent edges</description>
+        <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: Post-stenting FFR Below 0.9, FFR/OCT Optimisation Performed</title>
+            <description>OCT fulfilled optimisation criteria Presence of one or more of the following criteria for optimisation: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion.</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 2: Post-stenting FFR 0.9 or Higher</title>
+            <description>No further PCI optimisation performed and OCT acquisition performed only as safety measure to assess frequency of relevant vessel-related complications</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Stent-edge Dissection Assessed by OCT</title>
+          <description>Defined as presence of a linear rim of tissue ≥200 μm in width and with clear separation from the vessel wall, or underlying plaque &lt;5 mm from stent edges</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="2"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Reference Lumen Narrowing (Geographical Miss) Assessed by OCT</title>
+        <description>Defined as reference lumen area &lt;4.5 mm2, with significant residual plaque within 10 mm of stent edges</description>
+        <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: Post-stenting FFR Below 0.9, FFR/OCT Optimisation Performed</title>
+            <description>OCT fulfilled optimisation criteria Presence of one or more of the following criteria for optimisation: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion.</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 2: Post-stenting FFR 0.9 or Higher</title>
+            <description>No further PCI optimisation performed and OCT acquisition performed only as safety measure to assess frequency of relevant vessel-related complications</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Reference Lumen Narrowing (Geographical Miss) Assessed by OCT</title>
+          <description>Defined as reference lumen area &lt;4.5 mm2, with significant residual plaque within 10 mm of stent edges</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="5"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Stent Malapposition Assessed by OCT</title>
+        <description>Defined as stent-adjacent vessel lumen distance &gt; 200 μm</description>
+        <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: Post-stenting FFR Below 0.9, FFR/OCT Optimisation Performed</title>
+            <description>OCT fulfilled optimisation criteria Presence of one or more of the following criteria for optimisation: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion.</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 2: Post-stenting FFR 0.9 or Higher</title>
+            <description>No further PCI optimisation performed and OCT acquisition performed only as safety measure to assess frequency of relevant vessel-related complications</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Stent Malapposition Assessed by OCT</title>
+          <description>Defined as stent-adjacent vessel lumen distance &gt; 200 μm</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="7"/>
+                    <measurement group_id="O2" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Plaque/Thrombus Protrusion Assessed by OCT</title>
+        <description>Defined as tissue prolapsing between stent struts extending inside a circular arc connecting adjacent struts or intraluminal mass ≥500 μm thick with no direct connection to the vessel wall, or highly backscattered luminal protrusion in continuity with the vessel wall, resulting in signal-free shadowing</description>
+        <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: Post-stenting FFR Below 0.9, FFR/OCT Optimisation Performed</title>
+            <description>OCT fulfilled optimisation criteria Presence of one or more of the following criteria for optimisation: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion.</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 2: Post-stenting FFR 0.9 or Higher</title>
+            <description>No further PCI optimisation performed and OCT acquisition performed only as safety measure to assess frequency of relevant vessel-related complications</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Plaque/Thrombus Protrusion Assessed by OCT</title>
+          <description>Defined as tissue prolapsing between stent struts extending inside a circular arc connecting adjacent struts or intraluminal mass ≥500 μm thick with no direct connection to the vessel wall, or highly backscattered luminal protrusion in continuity with the vessel wall, resulting in signal-free shadowing</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="1"/>
+                    <measurement group_id="O2" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Number of Participants With Stent Under-expansion Assessed by OCT</title>
+        <description>Defined as minimal stent area (MSA) &lt; 70% of average reference lumen area and/or MSA &lt; 4.5 mm2</description>
+        <time_frame>During PCI procedure, OCT typically adds 5 minutes to the procedure</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Group 1A: Post-stenting FFR Below 0.9, FFR/OCT Optimisation Performed</title>
+            <description>OCT fulfilled optimisation criteria Presence of one or more of the following criteria for optimisation: stent underexpansion and/or incomplete lesion coverage and/or stent malapposition and/or stent-edge dissection and/or intra-stent plaque/thrombus protrusion.</description>
+          </group>
+          <group group_id="O2">
+            <title>Group 2: Post-stenting FFR 0.9 or Higher</title>
+            <description>No further PCI optimisation performed and OCT acquisition performed only as safety measure to assess frequency of relevant vessel-related complications</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Participants With Stent Under-expansion Assessed by OCT</title>
+          <description>Defined as minimal stent area (MSA) &lt; 70% of average reference lumen area and/or MSA &lt; 4.5 mm2</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="13"/>
+                <count group_id="O2" value="14"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="6"/>
+                    <measurement group_id="O2" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>During procedure, approximately 1 hour and 30 minutes</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>PCI Optimisation</title>
+          <description>Post PCI FFR below 0.9&#xD;
+Optimisation of the result of intracoronary stenting according to specific algorithm</description>
+        </group>
+        <group group_id="E2">
+          <title>No PCI Optimisation</title>
+          <description>Post PCI FFR 0.9 or higher</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="21"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="14"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>Small sample size and non-randomized observational nature limiting statistical power; Larger randomised trials are required to determine clinical impact of any final combined imaging/physiology assessment.</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Prof Adrian Banning</name_or_title>
+      <organization>Oxford Heart Centre, John Radcliffe Hospital</organization>
+      <phone>01865 228934</phone>
+      <email>Adrian.Banning@ouh.nhs.uk</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

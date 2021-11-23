@@ -1,0 +1,338 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04702971</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-11-004C</org_study_id>
+    <nct_id>NCT04702971</nct_id>
+  </id_info>
+  <brief_title>Decoding Pain Sensitivity in Migraine With Multimodal Brainstem-based Neurosignature</brief_title>
+  <official_title>Decoding Pain Sensitivity in Migraine With Multimodal Brainstem-based Neurosignature</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Migraine is a highly prevalent and disabling neurological disease, which has a tremendous&#xD;
+      impact on sufferers, healthcare systems, and the economy. According to the 2016 WHO report,&#xD;
+      migraine is the second leading cause of years lived with disability, greater than all other&#xD;
+      neurological diseases combined. Yet, the treatment in migraine is far from optimum; the&#xD;
+      sufferers often abuse painkillers and complicated with medication overuse headache. Migraine&#xD;
+      is characterized by the hypersensitivity of the sensory system, potentially attributed to&#xD;
+      dysfunctional pain modulatory networks located in the deep brain structures, particularly the&#xD;
+      brainstem. However, the current understanding of these deeply seated, dysregulated pain&#xD;
+      modulatory circuits in migraine is limited due to technological constraints. Besides, studies&#xD;
+      with an in-depth analysis of the clinical manifestations (i.e., deep phenotyping) are&#xD;
+      lacking, and there is no corresponding animal model readily available for translational&#xD;
+      research. In this project, the investigators propose a multimodal approach to address these&#xD;
+      issues by applying the technologies and platforms developed by our team to explore the&#xD;
+      correlation between pain sensitivity and dysregulated connectivities from brainstem to other&#xD;
+      brain regions. In this four-year project, the investigators will recruit 400 migraine&#xD;
+      patients and 200 healthy subjects. The investigators aim at decomposing the key brainstem&#xD;
+      mechanisms underlying dysmodulated pain sensitivity in migraine from 5 comprehensive&#xD;
+      perspectives: (1) clinical deep phenotyping, (2) high-resolution brainstem structural MRI and&#xD;
+      functional connectivity analysis, (3) innovative brainstem EEG signal detecting technique,&#xD;
+      (4) multimodal data fusion platform with neural network analysis, and (5)&#xD;
+      ultrahigh-resolution brainstem-based connectomes, intravital manipulations and recording, and&#xD;
+      connectome-sequencing in animal models. Moreover, the investigators will collaborate with&#xD;
+      Taiwan Semiconductor Research Institute to develop a wearable high-density EEG equipment,&#xD;
+      integrated with a System-on-Chip capable of edge-computing the signal using algorithms&#xD;
+      derived from our brainstem decoding platform. The ultimate goal is to build a real-time&#xD;
+      brainstem decoding system for clinical application.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Migraine causes a tremendous disease burden around the world. Migraine is one of the most&#xD;
+      prevalent neurological disorders and is reported by the WHO as the second leading cause of&#xD;
+      disease-related disabilities globally (No. 1 in the population under the 50s). There has been&#xD;
+      no much change in the ranking of disability for migraine for the past two decades, reflecting&#xD;
+      an unmet need for better treatment options. Even with the recently available calcitonin-gene&#xD;
+      related peptide (CGRP)-based treatment, the treatment response versus placebo is still&#xD;
+      disappointing (6.4-17.6% in acute treatment, 10.2-23.7% in preventive treatment). There is an&#xD;
+      urgent need to push further the current understanding of the pathophysiology of migraine,&#xD;
+      based on which novel treatment strategies can be developed. The lack of appropriate research&#xD;
+      tools hinders the acceleration of migraine research. As a neurological disorder, many&#xD;
+      neuroimaging studies have been focused on brain alterations; however, the majority focused on&#xD;
+      the cerebrum. Limited by the currently available neuroimaging and electrophysiological&#xD;
+      technologies, the deep brain structures especially the brainstem involved in the sensory and&#xD;
+      nociceptive neurotransmission in migraine, such as the trigeminal nucleus, could only be&#xD;
+      investigated to a limited extent. Obviously, there is an unmet need for novel technologies&#xD;
+      that can be used to delineate structural or functional alterations in the brainstem.&#xD;
+      Elucidation of the role of these deep brain structures may fill the gap in the current&#xD;
+      understanding of migraine pathophysiology, and pave the way to precise and efficient&#xD;
+      treatment. Studies restricted to single methodologies are insufficient for the complexity of&#xD;
+      migraine. Migraine is a complex and dynamic disorder. However, most prior studies were&#xD;
+      limited to single methodologies and provided limited insights into such a multifaceted&#xD;
+      disorder. Studies with an integrated approach are lacking. An exhaustive examination of the&#xD;
+      discrete components of a phenotype, i.e., 'deep phenotyping', can help understand different&#xD;
+      aspects of its clinical manifestations, and facilitate patient classification. Coupled with&#xD;
+      neuroimaging and electrophysiological research methodologies, a multi-modal decoding approach&#xD;
+      would help identify a constellation of migraine-specific biosignatures, rather than just one.&#xD;
+      This can not only provide clues to decipher migraine pathophysiology in various dimensions&#xD;
+      but also serve as the basis of the development of a prediction algorithm that can be applied&#xD;
+      in clinical practice. To pursue the overall goal, the present project schemes as a&#xD;
+      composition of the following 5 aims:&#xD;
+&#xD;
+      Aim 1: Deep phenotyping for sensory processing in patients with migraine Aim 2:&#xD;
+      Brainstem-based functional and structural connectomics in migraine Aim 3: Capturing brainstem&#xD;
+      electro-neurosignature in migraine Aim 4: Constructing a data fusion platform and developing&#xD;
+      an EEG cap with a built-in analytic chip Aim 5: Exploring brainstem-based connectome&#xD;
+      sequencing in migraine animal model&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 26, 2021</start_date>
+  <completion_date type="Anticipated">December 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 2024</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Clinical change after treatment (1) headache frequency</measure>
+    <time_frame>6 months</time_frame>
+    <description>clinical change (headache frequency) after treatment unit: attacks per month analysis: comparing the mean headache frequency in each month after treatment (M1/M2/M3/M4/M5/M6) to that before treatment (M0)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical change after treatment (2) headache intensity</measure>
+    <time_frame>6 months</time_frame>
+    <description>clinical change (headache intensity) after treatment unit: NRS (numeric rating scale, 0-10) analysis: comparing the mean headache intensity in each month after treatment (M1/M2/M3/M4/M5/M6) to that before treatment (M0)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical change after treatment (3) headache duration</measure>
+    <time_frame>6 months</time_frame>
+    <description>clinical change (headache duration) after treatment unit: hours/day analysis: comparing the mean headache duration (hours/day) in each month after treatment (M1/M2/M3/M4/M5/M6) to that before treatment (M0)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>EEG change after treatment (1) Linear analysis of EEG before and after treatment</measure>
+    <time_frame>12 months</time_frame>
+    <description>power spectral density change of EEG before and after treatment&#xD;
+• Four EEG sessions will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EEG change after treatment (2) Nonlinear analysis of EEG before and after treatment</measure>
+    <time_frame>12 months</time_frame>
+    <description>functional connectivity change of EEG before and after treatment&#xD;
+• Four EEG sessions will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>EEG change after treatment (3) Nonlinear analysis of EEG before and after treatment</measure>
+    <time_frame>12 months</time_frame>
+    <description>evoked potential amplitude change of EEG before and after treatment&#xD;
+• Four EEG sessions will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sensory threshold change after treatment</measure>
+    <time_frame>12 months</time_frame>
+    <description>Using quantitative sensory testing (QST) to evaluate the sensory threshold before and after treatment&#xD;
+• Four standard QST sessions will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>fMRI change after treatment (1)</measure>
+    <time_frame>12 months</time_frame>
+    <description>functional connectivity change of fMRI before and after treatment&#xD;
+• Three fMRI sessions will be arranged. The first one is done before treatment, and the 2nd/3rd one will be done after a 6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>fMRI change after treatment (2)</measure>
+    <time_frame>12 months</time_frame>
+    <description>activation change of fMRI before and after treatment&#xD;
+• Three fMRI sessions will be arranged. The first one is done before treatment, and the 2nd/3rd one will be done after a 6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MRI change after treatment (1)</measure>
+    <time_frame>12 months</time_frame>
+    <description>VBM changes of MRI before and after treatment&#xD;
+• Three MRI sessions will be arranged. The first one is done before treatment, and the 2nd/3rd one will be done after a 6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MRI change after treatment (2)</measure>
+    <time_frame>12 months</time_frame>
+    <description>SBM changes of MRI before and after treatment&#xD;
+• Three MRI sessions will be arranged. The first one is done before treatment, and the 2nd/3rd one will be done after a 6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Humoral change after treatment (1)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Test the cytokine level using ELISA kit to evaluate the status before and after treatment&#xD;
+• Four blood test sessions and saliva collection will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Humoral change after treatment (2)</measure>
+    <time_frame>12 months</time_frame>
+    <description>Test the hormone level using ELISA kit to evaluate the status before and after treatment&#xD;
+• Four blood test sessions and saliva collection will be arranged. The first one is done before treatment, and the 2nd/3rd/4th one will be done after a 3-month/6-month/12-month treatment course, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Genetic variance</measure>
+    <time_frame>5 minutes</time_frame>
+    <description>Genetic variants associated with baseline demographics and treatment response as assessed with genome-wide association study using the genotyping data derived from the Axiom Genome-wide array&#xD;
+• Blood draw before the treatment to extract DNA for further sequencing</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Migraine</condition>
+  <arm_group>
+    <arm_group_label>patients with migraine</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patient with migraine will be prescribed with flunarizine or routine clinical care per clinician's decision based on the condition of each individual patient</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>healthy control</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>healthy control</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Flunarizine</intervention_name>
+    <description>The flunarizine will be given per clinical routine</description>
+    <arm_group_label>patients with migraine</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>healthy control</intervention_name>
+    <description>no intervention for healthy control</description>
+    <arm_group_label>healthy control</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Migraine:&#xD;
+&#xD;
+        Inclusion criteria:&#xD;
+&#xD;
+          1. fulfill the diagnostic criteria of migraine in ICHD-3,&#xD;
+&#xD;
+          2. 20-65 yrs,&#xD;
+&#xD;
+          3. understand the study design and willing to join the study&#xD;
+&#xD;
+          4. at least four headache days per month,&#xD;
+&#xD;
+          5. the onset of headache is prior to 50 yrs.,&#xD;
+&#xD;
+          6. normal neurological examination findings.&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          1. history or family history of epilepsy,&#xD;
+&#xD;
+          2. taking migraine prophylactics,&#xD;
+&#xD;
+          3. women who are breastfeeding or pregnant,&#xD;
+&#xD;
+          4. severe psychological disorders, including major depression, PTSD, personality&#xD;
+             disorders, bipolar disorder, schizophrenia,&#xD;
+&#xD;
+          5. medical, neurological or psychiatric disease discovered by the researcher that would&#xD;
+             hinder the research,&#xD;
+&#xD;
+          6. contraindications for MR scan (pacemaker, claustrophobia, stent, metal implants…).&#xD;
+&#xD;
+        Healthy:&#xD;
+&#xD;
+        Inclusion criteria:&#xD;
+&#xD;
+          1. 20-65 yrs,&#xD;
+&#xD;
+          2. normal neurological examination findings,&#xD;
+&#xD;
+          3. understand the study design and willing to join the study.&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          1. history or family history of epilepsy,&#xD;
+&#xD;
+          2. women who are breastfeeding or pregnant,&#xD;
+&#xD;
+          3. severe psychological disorders, including major depression, PTSD, personality&#xD;
+             disorders, bipolar disorder, schizophrenia,&#xD;
+&#xD;
+          4. medical, neurological or psychiatric disease discovered by the researcher that would&#xD;
+             hinder the research,&#xD;
+&#xD;
+          5. contraindications for MR scan (pacemaker, claustrophobia, stent, metal implants…),&#xD;
+&#xD;
+          6. history of headache will be included (the tension-type headache occurs &lt; 1 time per&#xD;
+             month is allowed)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Shuu-Jiun Wang</last_name>
+    <phone>28712121</phone>
+    <email>k123wang@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Li-Ling Pan</last_name>
+    <email>hope881212@hotmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Headache Center, Teipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shuu-Jiun Wang, MD</last_name>
+      <phone>+886-2-28712121</phone>
+      <phone_ext>7578</phone_ext>
+      <email>sjwang@vghtpe.gov.tw</email>
+    </contact>
+    <contact_backup>
+      <last_name>Li-Ling Pan, Ph.D.</last_name>
+      <phone>+886-2-28712121</phone>
+      <phone_ext>1291</phone_ext>
+      <email>hope881212@hotmail.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>November 25, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 11, 2021</study_first_posted>
+  <last_update_submitted>April 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Migraine Disorders</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Flunarizine</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

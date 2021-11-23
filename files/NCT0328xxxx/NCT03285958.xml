@@ -1,0 +1,982 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03285958</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HUM00133021</org_study_id>
+    <nct_id>NCT03285958</nct_id>
+  </id_info>
+  <brief_title>Tracking Physical Activity for Chronic Pain Management Among Older Adults in Detroit</brief_title>
+  <official_title>Promoting Physical Activity for Chronic Pain Management Among Older Adults in Detroit: Comparing Technology-Based Strategies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Michigan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Michigan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Wearable, commercially-available physical activity monitors are being increasingly&#xD;
+      incorporated into chronic pain self-management interventions as a tool to help patients set&#xD;
+      goals and to tailor intervention content based on patient progress. Yet older adults from&#xD;
+      resource-challenged communities may face significant barriers to using these monitors and&#xD;
+      reporting activity data. Our pilot study will focus on wearable monitor use among older&#xD;
+      adults in Detroit with chronic musculoskeletal pain, testing the feasibility and validity of&#xD;
+      various technology-based strategies for reporting daily step count data. The study will also&#xD;
+      assess whether six weeks of monitor use is associated with improvements in functioning,&#xD;
+      relative to a control group.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 16, 2017</start_date>
+  <completion_date type="Actual">August 14, 2018</completion_date>
+  <primary_completion_date type="Actual">July 20, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in Pain Interference</measure>
+    <time_frame>Baseline, eight weeks</time_frame>
+    <description>The Patient-Reported Outcomes Measurement Information System (PROMIS-29) Pain Interference 4-item subscale, where a higher score indicates more pain interference. Items ask how much pain in the last 7 days has interfered with daily activities such as household chores and social activities (1=not at all to 5=very much). Raw scores are converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation). The possible range is 42 to 76, with a higher score representing worse outcome.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adherence to Step Count Reporting - SMS</measure>
+    <time_frame>Two weeks</time_frame>
+    <description>Proportion of days that step count was successfully provided/possible reporting days for SMS</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adherence to Step Count Reporting - IVR</measure>
+    <time_frame>two weeks</time_frame>
+    <description>Proportion of days that step count was successfully provided/possible reporting days for IVR.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adherence to Step Count Reporting - Sync</measure>
+    <time_frame>two weeks</time_frame>
+    <description>Proportion of days that step count was successfully provided/possible reporting days for syncing with app</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in Physical Functioning</measure>
+    <time_frame>Baseline, eight weeks</time_frame>
+    <description>The Physical Functioning 4-item subscale of the Patient-Reported Outcomes Measurement Information System (PROMIS)-29 Adult Profile. Items ask how much difficulty participant has in doing daily activities such as household chores, using stairs, and walking 15 minutes (1=without any difficulty to 5=unable to do); raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 23 to 57, with a higher score representing worse outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Social Participation</measure>
+    <time_frame>Baseline, eight weeks</time_frame>
+    <description>Ability to Participate in Social Roles and Activities, a 4-item subscale from PROMIS-20 rating the amount of trouble (1=not at all to 5=very much) in participating in social roles such as family activities, leisure activities, and work. Raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 29 to 64, with a higher score representing worse outcome.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Validity of Manually-reported Step Count Data - SMS</measure>
+    <time_frame>Two weeks</time_frame>
+    <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Validity of Manually Reported Step Count Data - IVR</measure>
+    <time_frame>Two weeks</time_frame>
+    <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">57</enrollment>
+  <condition>Chronic Pain</condition>
+  <arm_group>
+    <arm_group_label>STEPS Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>STEPS Control Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>STEPS Intervention</intervention_name>
+    <description>Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+    <arm_group_label>STEPS Intervention Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age &gt; 60 years&#xD;
+&#xD;
+          -  Ambulatory with or without assistive device&#xD;
+&#xD;
+          -  Community living&#xD;
+&#xD;
+          -  Have a SMS-capable cell phone&#xD;
+&#xD;
+          -  Internet access (via smartphone, in-home or elsewhere);&#xD;
+&#xD;
+          -  Self-reported chronic musculoskeletal pain (pain in muscles or joints for &gt; 3 months)&#xD;
+&#xD;
+          -  &gt;4 (0-10 scale) average pain level over last week&#xD;
+&#xD;
+          -  &gt;1 day/previous 30 when pain made it difficult to do usual activities&#xD;
+&#xD;
+          -  Ability to travel to study location in Detroit for a one-time session&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  Serious acute illness or hospitalization in last month&#xD;
+&#xD;
+          -  Planned surgery in next month&#xD;
+&#xD;
+          -  Severe cognitive impairment&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>60 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mary Janevic</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Michigan School of Public Health</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Michigan</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>September 14, 2017</study_first_submitted>
+  <study_first_submitted_qc>September 14, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 18, 2017</study_first_posted>
+  <results_first_submitted>September 2, 2021</results_first_submitted>
+  <results_first_submitted_qc>September 2, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">October 4, 2021</results_first_posted>
+  <last_update_submitted>September 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Michigan</investigator_affiliation>
+    <investigator_full_name>Mary Janevic</investigator_full_name>
+    <investigator_title>Assistant Research Scientist</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Chronic Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>June 19, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/58/NCT03285958/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>June 19, 2018</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/58/NCT03285958/ICF_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <pre_assignment_details>No significant pre-assignment events.</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>STEPS Intervention Group</title>
+          <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+        </group>
+        <group group_id="P2">
+          <title>STEPS Control Group</title>
+          <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="33"/>
+                <participants group_id="P2" count="24"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="28"/>
+                <participants group_id="P2" count="23"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="5"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="1"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Not able to attend required orientation</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Note: This is the analytic sample (i.e., participants with baseline and 8-week follow-up data, representing 51 of 57 randomized.)</population>
+      <group_list>
+        <group group_id="B1">
+          <title>STEPS Intervention Group</title>
+          <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+        </group>
+        <group group_id="B2">
+          <title>STEPS Control Group</title>
+          <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="28"/>
+            <count group_id="B2" value="23"/>
+            <count group_id="B3" value="51"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="71.3" spread="7.1"/>
+                    <measurement group_id="B2" value="69.3" spread="6.4"/>
+                    <measurement group_id="B3" value="70.4" spread="6.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="26"/>
+                    <measurement group_id="B2" value="19"/>
+                    <measurement group_id="B3" value="45"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="2"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="27"/>
+                    <measurement group_id="B2" value="21"/>
+                    <measurement group_id="B3" value="48"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="2"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="1"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                    <measurement group_id="B2" value="23"/>
+                    <measurement group_id="B3" value="51"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Pain intensity in last week</title>
+          <description>Pain intensity rated on 1 to 10 scale, where 1=no pain and 10=worst imaginable pain).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5.1" spread="1.3"/>
+                    <measurement group_id="B2" value="5.4" spread="2.2"/>
+                    <measurement group_id="B3" value="5.2" spread="1.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>PROMIS 4-item pain interference T-score</title>
+          <description>Items ask how much pain in the last 7 days has interfered with daily activities such as household chores and social activities (1=not at all to 5=very much). Converted to population-normed T-score (population mean of 50).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="58.7" spread="6.1"/>
+                    <measurement group_id="B2" value="57.0" spread="8.4"/>
+                    <measurement group_id="B3" value="58.0" spread="7.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>PROMIS 4-item physical function difficulty T-score</title>
+          <description>Items ask how much difficulty participant has in doing daily activities such as household chores, using stairs, and walking 15 minutes (1=without any difficulty to 5=unable to do). Converted to population-normed T-score (population mean of 50).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33.2" spread="4.3"/>
+                    <measurement group_id="B2" value="31.9" spread="4.2"/>
+                    <measurement group_id="B3" value="33.0" spread="5.2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>PROMIS 4-item social partcipation T-score</title>
+          <description>Items assess difficulty participating in family activities, leisure activities, and work 1=not at all to 5=very much). Converted to population-normed T-score (population mean of 50).</description>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38.1" spread="7.3"/>
+                    <measurement group_id="B2" value="37.0" spread="6.4"/>
+                    <measurement group_id="B3" value="37.6" spread="6.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Change in Pain Interference</title>
+        <description>The Patient-Reported Outcomes Measurement Information System (PROMIS-29) Pain Interference 4-item subscale, where a higher score indicates more pain interference. Items ask how much pain in the last 7 days has interfered with daily activities such as household chores and social activities (1=not at all to 5=very much). Raw scores are converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation). The possible range is 42 to 76, with a higher score representing worse outcome.</description>
+        <time_frame>Baseline, eight weeks</time_frame>
+        <population>This is from the analytic sample that had both baseline and follow-up data on this measure. Change score is the follow-up minus baseline score, such that a greater, negative change value is a better outcome.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+          </group>
+          <group group_id="O2">
+            <title>STEPS Control Group</title>
+            <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in Pain Interference</title>
+          <description>The Patient-Reported Outcomes Measurement Information System (PROMIS-29) Pain Interference 4-item subscale, where a higher score indicates more pain interference. Items ask how much pain in the last 7 days has interfered with daily activities such as household chores and social activities (1=not at all to 5=very much). Raw scores are converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation). The possible range is 42 to 76, with a higher score representing worse outcome.</description>
+          <population>This is from the analytic sample that had both baseline and follow-up data on this measure. Change score is the follow-up minus baseline score, such that a greater, negative change value is a better outcome.</population>
+          <units>score on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-0.85" spread="6.2"/>
+                    <measurement group_id="O2" value="-0.21" spread="6.6"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Adherence to Step Count Reporting - SMS</title>
+        <description>Proportion of days that step count was successfully provided/possible reporting days for SMS</description>
+        <time_frame>Two weeks</time_frame>
+        <population>Intervention group participants with baseline and follow-up data. Excludes one case that did not have a texting plan on her phone. Result represents number of adherent person-days out of all possible person-days for SMS.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>This analysis was only conducted on the Intervention group, who participated in 6 weeks of tracking and reporting step counts.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to Step Count Reporting - SMS</title>
+          <description>Proportion of days that step count was successfully provided/possible reporting days for SMS</description>
+          <population>Intervention group participants with baseline and follow-up data. Excludes one case that did not have a texting plan on her phone. Result represents number of adherent person-days out of all possible person-days for SMS.</population>
+          <units>person-days</units>
+          <param>Count of Units</param>
+          <units_analyzed>person-days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="27"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>person-days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="378"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="299"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Adherence to Step Count Reporting - IVR</title>
+        <description>Proportion of days that step count was successfully provided/possible reporting days for IVR.</description>
+        <time_frame>two weeks</time_frame>
+        <population>Intervention group participants with baseline and follow-up data. Excludes one case who did not receive IVR calls on schedule due to system error. Result represents number of adherent person-days out of all possible person-days for IVR.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>This analysis was only conducted on the Intervention group, who participated in 6 weeks of tracking and reporting step counts.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to Step Count Reporting - IVR</title>
+          <description>Proportion of days that step count was successfully provided/possible reporting days for IVR.</description>
+          <population>Intervention group participants with baseline and follow-up data. Excludes one case who did not receive IVR calls on schedule due to system error. Result represents number of adherent person-days out of all possible person-days for IVR.</population>
+          <units>person-days</units>
+          <param>Count of Units</param>
+          <units_analyzed>person-days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="27"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>person-days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="378"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="257"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Adherence to Step Count Reporting - Sync</title>
+        <description>Proportion of days that step count was successfully provided/possible reporting days for syncing with app</description>
+        <time_frame>two weeks</time_frame>
+        <population>Intervention group participants with baseline and follow-up data. Result represents number of adherent person-days out of all possible person-days for sync.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>This analysis was only conducted on the Intervention group, who participated in 6 weeks of tracking and reporting step counts.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to Step Count Reporting - Sync</title>
+          <description>Proportion of days that step count was successfully provided/possible reporting days for syncing with app</description>
+          <population>Intervention group participants with baseline and follow-up data. Result represents number of adherent person-days out of all possible person-days for sync.</population>
+          <units>person-days</units>
+          <param>Count of Units</param>
+          <units_analyzed>person-days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>person-days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="392"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="267"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Change in Physical Functioning</title>
+        <description>The Physical Functioning 4-item subscale of the Patient-Reported Outcomes Measurement Information System (PROMIS)-29 Adult Profile. Items ask how much difficulty participant has in doing daily activities such as household chores, using stairs, and walking 15 minutes (1=without any difficulty to 5=unable to do); raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 23 to 57, with a higher score representing worse outcome.</description>
+        <time_frame>Baseline, eight weeks</time_frame>
+        <population>Participants who had data on both baseline and follow-up measure. Change score is the follow-up minus baseline score, such that a greater, negative change value is a better outcome.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+          </group>
+          <group group_id="O2">
+            <title>STEPS Control Group</title>
+            <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in Physical Functioning</title>
+          <description>The Physical Functioning 4-item subscale of the Patient-Reported Outcomes Measurement Information System (PROMIS)-29 Adult Profile. Items ask how much difficulty participant has in doing daily activities such as household chores, using stairs, and walking 15 minutes (1=without any difficulty to 5=unable to do); raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 23 to 57, with a higher score representing worse outcome.</description>
+          <population>Participants who had data on both baseline and follow-up measure. Change score is the follow-up minus baseline score, such that a greater, negative change value is a better outcome.</population>
+          <units>units on a scale (T-score)</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="-1.4" spread="3.5"/>
+                    <measurement group_id="O2" value="-0.85" spread="3.7"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Change in Social Participation</title>
+        <description>Ability to Participate in Social Roles and Activities, a 4-item subscale from PROMIS-20 rating the amount of trouble (1=not at all to 5=very much) in participating in social roles such as family activities, leisure activities, and work. Raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 29 to 64, with a higher score representing worse outcome.</description>
+        <time_frame>Baseline, eight weeks</time_frame>
+        <population>Participants who had data on both baseline and follow-up measure. Change score is the follow-up minus baseline score, such that a greater, negative change value (or smaller positive value) is a better outcome.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+          </group>
+          <group group_id="O2">
+            <title>STEPS Control Group</title>
+            <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Change in Social Participation</title>
+          <description>Ability to Participate in Social Roles and Activities, a 4-item subscale from PROMIS-20 rating the amount of trouble (1=not at all to 5=very much) in participating in social roles such as family activities, leisure activities, and work. Raw total scale scores range from 4 (high functioning) to 20 (low functioning). When converted to T-scores (normed such that a score of 50 is the population mean and 10 T-score points=1 standard deviation), the possible range is 29 to 64, with a higher score representing worse outcome.</description>
+          <population>Participants who had data on both baseline and follow-up measure. Change score is the follow-up minus baseline score, such that a greater, negative change value (or smaller positive value) is a better outcome.</population>
+          <units>units on a scale</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="28"/>
+                <count group_id="O2" value="23"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0.28" spread="7.8"/>
+                    <measurement group_id="O2" value="0.83" spread="8.4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Validity of Manually-reported Step Count Data - SMS</title>
+        <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+        <time_frame>Two weeks</time_frame>
+        <population>Result is number of person- days with valid data reported that were within 50 steps of sync value.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>This analysis was only conducted on the Intervention group, who participated in 6 weeks of tracking and reporting step counts.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Validity of Manually-reported Step Count Data - SMS</title>
+          <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+          <population>Result is number of person- days with valid data reported that were within 50 steps of sync value.</population>
+          <units>person-days</units>
+          <param>Count of Units</param>
+          <units_analyzed>person-days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="27"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>person-days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="256"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="133"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Validity of Manually Reported Step Count Data - IVR</title>
+        <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+        <time_frame>Two weeks</time_frame>
+        <population>Result is number of person- days with valid data reported that were within 50 steps of sync value.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>STEPS Intervention Group</title>
+            <description>This analysis was only conducted on the Intervention group, who participated in 6 weeks of tracking and reporting step counts.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Validity of Manually Reported Step Count Data - IVR</title>
+          <description>Correlation of manually-reported SMS data with automatically uploaded data - percentage of days that counts are within 50 steps of each other</description>
+          <population>Result is number of person- days with valid data reported that were within 50 steps of sync value.</population>
+          <units>person-days</units>
+          <param>Count of Units</param>
+          <units_analyzed>person-days</units_analyzed>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="27"/>
+              </count_list>
+            </analyzed>
+            <analyzed>
+              <units>person-days</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="215"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="94"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>8 weeks</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>STEPS Intervention Group</title>
+          <description>Participants will receive a wearable physical activity monitor and will be asked to report their daily step count in 3 different ways (2 weeks each of SMS text messages, Interactive Voice Response calls (IVR), automatic upload) during the 6-week study period.&#xD;
+STEPS Intervention: Participants in the STEPS (Seniors Tracking Exercise for Pain Self-management) intervention will receive a commercially-available, wearable physical activity monitor. They will be asked to wear this monitor during waking hours for 6 weeks, reporting their daily step count every evening. The way in which participants report steps will change every 2 weeks. For the first 4 weeks of the study, participants will report via Interactive Voice Response (IVR) calls for 2 weeks and SMS text messages for 2 weeks. For the final two week period, research staff will help participants to set up the monitor to automatically send daily step counts to STEPS project staff. This can be done through a smartphone, tablet, or computer.</description>
+        </group>
+        <group group_id="E2">
+          <title>STEPS Control Group</title>
+          <description>Participants in this group will not receive a wearable physical activity monitor and will not be asked to report their step count.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="28"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="1" subjects_at_risk="28"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Respiratory, thoracic and mediastinal disorders</title>
+            <event_list>
+              <event>
+                <sub_title>hospitalization</sub_title>
+                <description>Participant was hospitalized for pneumonia. Not related to research.</description>
+                <counts group_id="E1" events="1" subjects_affected="1" subjects_at_risk="28"/>
+                <counts group_id="E2" events="0" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="28"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="23"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Mary Janevic</name_or_title>
+      <organization>University of Michigan</organization>
+      <phone>734 647 3194</phone>
+      <email>mjanevic@umich.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,226 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04074772</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-1250</org_study_id>
+    <nct_id>NCT04074772</nct_id>
+  </id_info>
+  <brief_title>Leveraging Machine Learning to Effortlessly Track Patient Movement in the Clinic.</brief_title>
+  <official_title>Leveraging Machine Learning to Effortlessly Track Patient Movement in the Clinic.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Colorado, Denver</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Colorado, Denver</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is the development of a system that will allow for the precise&#xD;
+      measurement of movement kinematics in a clinical exam setting using natural video from three&#xD;
+      cameras and machine learning to track points of interest. The investigators aim to implement&#xD;
+      such system in an unobtrusive and simply-incorporated way into the physical exam to provide&#xD;
+      exact, objective measures to detect patient movement abnormalities in ways not feasible with&#xD;
+      current tracking technologies.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim 1: Develop 3D tracking capable of capturing behavior of healthy controls during physical&#xD;
+      exams. In aim 1, the investigators will recruit healthy volunteers to perform a simplified&#xD;
+      physical exam in a replica exam room while being recorded with three synchronized FLIR&#xD;
+      cameras. The simplified exam will consist of four tasks: assessment of tremor, finger chase,&#xD;
+      finger-to-nose movements, and finger tapping. Study staff will then use DeepLabCut (DLC)&#xD;
+      software -technology that trains artificial neural networks to identify user defined features&#xD;
+      in an image - to recognize body parts of interest in physical exam videos. Once the network&#xD;
+      is fully trained the investigators will test its ability to generalize on different patients&#xD;
+      and different contexts. Additional analysis of volunteers' movement during the physical exam&#xD;
+      will be performed to assess for characteristics such as tremor, speed, and tortuosity of&#xD;
+      movement.&#xD;
+&#xD;
+      Aim 2: Apply 3D tracking to the clinic to track physical exam behaviors in motor disorder&#xD;
+      patients. In aim 2, the investigators will apply the trained network to the clinic to examine&#xD;
+      the physical exam characteristics of movement disorder patients. Aim 2a will test the DLC&#xD;
+      network's ability to capture movement disorder abnormalities during the physical exam in&#xD;
+      patients and healthy age-matched controls. DLC scores of each test variable will be compared&#xD;
+      to the physician's score of movement according to a standardized scale. The investigators&#xD;
+      expect to find that the DLC tracking method is able to objectively score movement disorders&#xD;
+      in ways that mirror and surpass the ability of the physician. In Aim 2b, the investigators&#xD;
+      will explore the population of recruited patients to see whether it is possible to pull out&#xD;
+      characteristic movements that correspond to certain disease states. In this exploratory aim,&#xD;
+      the investigators expect to be able to separate different disease groups (e.g.: Parkinsonian&#xD;
+      and ataxic patients) from each other based simply on the tracked movement characteristics.&#xD;
+&#xD;
+      Research Methods:&#xD;
+&#xD;
+      In Aim 1, a movement arena will be built on the University of Colorado Denver Graduate School&#xD;
+      campus using three FLIR cameras with a custom built synchronization and initiation system.&#xD;
+      The investigators will recruit up to 30 healthy 18-70-year-old controls from the University&#xD;
+      of Colorado Denver Graduate School to perform the simplified physical exam (assessment of&#xD;
+      tremor, finger chase, finger-to-nose movements, and finger tapping) while video is captured&#xD;
+      from three angles at 100 Hz. The investigators expect this testing to take no more than 5&#xD;
+      minutes per subject. This video will be used to train the DLC artificial neural network to&#xD;
+      recognize limb features. The investigators will measure the ability of our trained DLC&#xD;
+      network to characterize twelve points of interest on each limb during a physical exam: the&#xD;
+      tips of the four fingers and the thumb, all four metacarpophalangeal joints, the center of&#xD;
+      the hand, the elbow, and the shoulder. A successful outcome will be a network that maintains&#xD;
+      the ability to recognize features of interest at high confidence between different&#xD;
+      individuals and different room contexts.&#xD;
+&#xD;
+      In Aim 2a, a tracking arena will be set up in a University of Colorado Movement Disorder&#xD;
+      Clinic exam room. The investigators will recruit up to 100 patients between 18-70 years old&#xD;
+      that are visiting for a movement disorder related appointment as well as spouses and&#xD;
+      relatives of the patients at the appointment for healthy age-matched controls. Patients in&#xD;
+      the clinic will be asked after their visit if they would like to participate in the study. If&#xD;
+      they consent, the physician will obtain written consent and fill out a patient form that&#xD;
+      includes the patient's age, race, sex, and diagnosis (or putative diagnosis). Video recording&#xD;
+      will be started and the physician will perform the simplified physical exam mentioned above.&#xD;
+      The physicians will judge the finger chase and finger-to-nose task as is described in the&#xD;
+      Scale for the Assessment and Rating of Ataxia (SARA, items 5 &amp; 6) from 0-4. The postural&#xD;
+      tremor and finger tapping will be judged according to the Unified Parkinson Disease Rating&#xD;
+      Scale (UPDRS, items 21 &amp; 23) from 0-4. If the patient is visiting with a person that consents&#xD;
+      to be an age-matched control (within 10 years of the patient's age) the physical exam will be&#xD;
+      repeated as above. The investigators expect this testing to take no more than 5 minutes per&#xD;
+      subject, beginning to end. The investigators will then use the DLC algorithm to score the&#xD;
+      physical exam in a way analogous to the physician scoring to assess the accuracy of the&#xD;
+      system.&#xD;
+&#xD;
+      In Aim 2b, the investigators will explore the patient data from Aim 2a for movement features&#xD;
+      specific to individual diseases. Data clustering methods (PCA and t-SNE) will be used to&#xD;
+      separate data into groups using high-dimensional DLC tracking data from each physical exam&#xD;
+      task. Success will be measured as the ability to separate diseases from one another based&#xD;
+      solely on the analysis of movement data.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 7, 2020</start_date>
+  <completion_date type="Anticipated">October 2021</completion_date>
+  <primary_completion_date type="Anticipated">October 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Successful Tracking Achieved in Clinic</measure>
+    <time_frame>On the day of physical exam</time_frame>
+    <description>If the neural network can generalize to different patients and contexts with accurate tracking, such that it can track all 12 points of interest with &gt;99% accuracy in &gt;95% of frames of novel video data, the investigators will consider this outcome a success.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Identification of Diseases by Movement Tracking</measure>
+    <time_frame>On the day of physical exam</time_frame>
+    <description>If the investigators can separate different movement disorders from one another based on tracking data alone this outcome will be considered a success. Specifically, in LOTO cross validation, individual patient data must be assigned the correct disease state with 95% confidence.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">190</enrollment>
+  <condition>Movement Disorders</condition>
+  <arm_group>
+    <arm_group_label>Healthy Controls</arm_group_label>
+    <description>This group will consist of healthy controls between the ages of 18 and 70-years-old. Following consent, they will complete a simplified motor physical exam while being filmed from three angles. This video data will be used to train a neural network to identify points of interest in a generalized patient population.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Movement Disorder Patients</arm_group_label>
+    <description>This group will consist of movement disorder clinic patients between the ages of 18 and 70-years-old with a diagnosed or putative movement disorder. Following consent, they will complete a simplified motor physical exam while being filmed from three angles. This video data will be analyzed with the neural network trained on the healthy controls.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Age-Matched Controls</arm_group_label>
+    <description>This group will consist of relatives of movement disorder clinic patients that are visiting with them to serve as age-matched controls (within 10 years of patient's age). Following consent, they will complete a simplified motor physical exam while being filmed from three angles. This video data will be analyzed with the neural network trained on the healthy controls.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        -  Healthy controls: health volunteers recruited within the Anschutz Medical Campus&#xD;
+&#xD;
+          -  Age-Matched controls: spouses and relatives of patients visiting the movement&#xD;
+             disorders clinic at the University of Colorado Hospital within 10 years of patient's&#xD;
+             age.&#xD;
+&#xD;
+          -  Movement Disorder Patients: patients visiting the movement disorders clinic at the&#xD;
+             University of Colorado Hospital&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Healthy controls: within age range&#xD;
+&#xD;
+          -  Age-Matched controls: within age range&#xD;
+&#xD;
+          -  Movement Disorder Patients: have diagnosed or putative movement disorder&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Healthy controls: have diagnosed or putative movement disorder; outside of age range&#xD;
+&#xD;
+          -  Age-Matched controls: have diagnosed or putative movement disorder; outside of age&#xD;
+             range&#xD;
+&#xD;
+          -  Movement Disorder Patients: outside of age range&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Dylan J Calame, BS</last_name>
+    <phone>8015560395</phone>
+    <email>dylan.calame@ucdenver.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Colorado Hospital</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lauren Seeberger, MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Mathis A, Mamidanna P, Cury KM, Abe T, Murthy VN, Mathis MW, Bethge M. DeepLabCut: markerless pose estimation of user-defined body parts with deep learning. Nat Neurosci. 2018 Sep;21(9):1281-1289. doi: 10.1038/s41593-018-0209-y. Epub 2018 Aug 20.</citation>
+    <PMID>30127430</PMID>
+  </reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>August 27, 2019</study_first_submitted>
+  <study_first_submitted_qc>August 27, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 30, 2019</study_first_posted>
+  <last_update_submitted>December 8, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 8, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Movement Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Will not share IPD</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

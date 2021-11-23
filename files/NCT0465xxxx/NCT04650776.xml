@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04650776</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5213.00095</org_study_id>
+    <nct_id>NCT04650776</nct_id>
+  </id_info>
+  <brief_title>Non-invasive Prediction of Thermal Strain in Healthy Male Adults</brief_title>
+  <acronym>HUMONHEAT</acronym>
+  <official_title>Single-centre Experimental Evaluation of Methods for Reliable Non-invasive Prediction of Thermal Strain in Healthy Male Adults</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Simon Annaheim</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Empa, Swiss Federal Laboratories for Materials Science and Technology</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is primarily an experimental study investigating methods of temperature measurement /&#xD;
+      heat strain detection. In the calibration study, there are different skin temperature sensor&#xD;
+      types, and in the prediction study there are different methods for determining heat strain,&#xD;
+      including conventional methods (rectal, gastro-intestinal), the development of a prediction&#xD;
+      model, and an index based on heart rate variability.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">September 1, 2017</start_date>
+  <completion_date type="Actual">April 30, 2018</completion_date>
+  <primary_completion_date type="Actual">April 30, 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Core body temperature</measure>
+    <time_frame>90 minutes</time_frame>
+    <description>Rectal core body temperature (unit of measure is degree celsius °C)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Predicted core body temperature</measure>
+    <time_frame>90 minutes</time_frame>
+    <description>Estimated core body temperature (°C) from selected non-invasive measurements: applying a multiple linear regression model several predictive parameters, including skin temperature at different body sites, heat flux at different body sites, and heart rate will be combined to achieve one reported temperature value (°C)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>ECG-based heat strain index</measure>
+    <time_frame>90 minutes</time_frame>
+    <description>ECG-based index of heat strain derived from heart rate variability</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">13</enrollment>
+  <condition>Heat Stress</condition>
+  <arm_group>
+    <arm_group_label>High heat strain</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>participants exercised at 75% of their heart rate maximum (HR max) and wore light athletic clothing (t-shirt and shorts)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Low heat strain</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>participants exercised at 50% HR max, wearing protective firefighter clothing (jacket and trousers)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Heat strain</intervention_name>
+    <description>The experimental procedure comprised 15 min baseline seated rest (23.2 ± 0.3°C, 24.5 ± 1.6% relative humidity), followed by 15 min seated rest and cycling in a climatic chamber (35.4 ± 0.2◦C, 56.5 ± 3.9% relative humidity; to +1.5◦C or maximally 38.5°C rectal temperature, duration 20-60 min), with a final 30 min seated rest outside the chamber.</description>
+    <arm_group_label>High heat strain</arm_group_label>
+    <arm_group_label>Low heat strain</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Apparently healthy males&#xD;
+&#xD;
+          -  aged 18-45 y&#xD;
+&#xD;
+          -  regularly participate in sport, exercise, or equivalent physical activity on a weekly&#xD;
+             basis.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Known injuries or illnesses that may affect safe participation. These include injuries&#xD;
+             or illnesses involving (but not limited to):&#xD;
+&#xD;
+          -  cardiovascular, renal, or gastrointestinal tract&#xD;
+&#xD;
+          -  heat or exercise intolerance&#xD;
+&#xD;
+          -  acute infections,&#xD;
+&#xD;
+          -  immunological diseases (including asthma)&#xD;
+&#xD;
+          -  psychiatric disorders.&#xD;
+&#xD;
+          -  Participants must not be currently or previously on cardiovascular-related medication&#xD;
+             and must not be taking psychotropic medication (last 60 days).&#xD;
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Simon Annaheim, Dr.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Empa, Swiss Federal Laboratories for Materials Science and Technology</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Empa</name>
+      <address>
+        <city>St.Gallen</city>
+        <state>SG</state>
+        <zip>9014</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <link>
+    <url>https://www.frontiersin.org/articles/10.3389/fphys.2018.01780/full</url>
+    <description>Published manuscript</description>
+  </link>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 3, 2020</study_first_posted>
+  <last_update_submitted>November 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 3, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Empa, Swiss Federal Laboratories for Materials Science and Technology</investigator_affiliation>
+    <investigator_full_name>Simon Annaheim</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heat Stress Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Data is available upon request from qualified researchers.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

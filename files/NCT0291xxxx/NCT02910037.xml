@@ -1,0 +1,950 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02910037</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P0509948</org_study_id>
+    <nct_id>NCT02910037</nct_id>
+  </id_info>
+  <brief_title>Precision Diagnosis of Acute Infectious Diseases; Neuroinflammatory Cohort</brief_title>
+  <acronym>PDAID</acronym>
+  <official_title>Clinical Implementation of Metagenomic Next-Generation Sequencing for Precision Diagnosis of Acute Infectious Diseases; Neuroinflammatory Cohort</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>California Initiative to Advance Precision Medicine</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sandler Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Bowes Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Charles and Helen Schwab Foundation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Davis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Children's Hospital Los Angeles</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Children's Hospital Colorado</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>St. Jude Children's Research Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Children's National Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of California, Berkeley</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DNAnexus, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Syapse, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of California, San Francisco</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to use a clinically validated metagenomic next-generation sequencing (mNGS)&#xD;
+      assay to provide a demonstration of precision medicine for diagnosis of acute infectious&#xD;
+      disease in hospitalized patients. From June 2016 to June 2017, 200 patients will be enrolled&#xD;
+      from multiple hospitals in California and outside of California. Patients will be evaluated&#xD;
+      to determine the impact on the mNGS assay on diagnostic yield, hospital costs and clinical&#xD;
+      outcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study aims to use a clinically validated metagenomic next-generation sequencing (mNGS)&#xD;
+      assay to provide a demonstration of precision medicine for diagnosis of acute infectious&#xD;
+      disease in hospitalized patients, with the goal of directly impacting clinical care and&#xD;
+      improving patient mortality. This diagnostic test has been previously validated in a Clinical&#xD;
+      Laboratory Improvement Amendments (CLIA)-certified laboratory, the University of California,&#xD;
+      San Francisco Clinical Microbiology Laboratory. From June 2016 to June 2017, investigators&#xD;
+      will prospectively enroll 200 patients from multiple hospitals in California (University of&#xD;
+      California, San Francisco; University of California, Los Angeles; University of California,&#xD;
+      Davis; Children's Hospital Los Angeles) and outside California (Children's National Medical&#xD;
+      Center, Children's Hospital Colorado, St. Jude Children's Research Hospital) for mNGS&#xD;
+      testing, and evaluate the impact on the assay on diagnostic yield, hospital costs and&#xD;
+      clinical outcomes.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 1, 2016</start_date>
+  <completion_date type="Actual">July 31, 2017</completion_date>
+  <primary_completion_date type="Actual">July 31, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Total Number of Cases With at Least One Provider Response</measure>
+    <time_frame>within 1 month of patient enrollment in study</time_frame>
+    <description>Investigators will evaluate impact of mNGS assay by clinician surveys and Clinical Microbial Sequencing Board (CMSB) feedback and discussion as measured by at least 1 provider response per case.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcomes: Time From Cerebrospinal Fluid Collection to mNGS Results</measure>
+    <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+    <description>Investigators will review medical records to determine time of initial presentation and measure the time to mNGS results.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcomes: Length of Stay</measure>
+    <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+    <description>Investigators will review medical records to determine length of stay including discharge to rehab facilities.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcomes: Final Diagnosis Category</measure>
+    <time_frame>from admission to time of final case review (1 month post discharge or up to one year)</time_frame>
+    <description>Investigators will review medical records to determine final diagnosis after all diagnostic testing has been performed including metagenomic Next-Gen sequencing and autopsy where applicable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical Outcomes: Concordance of mNGS With Other Molecular Testing on Cerebrospinal Fluid Pathogens</measure>
+    <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+    <description>mNGS findings were compared to conventional testing for concordance. Conventional testing included both tests that were ordered as part of each patients workup and those order to confirm mNGS findings on cerebrospinal fluid (CSF).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">214</enrollment>
+  <condition>Encephalitis</condition>
+  <condition>Meningitis</condition>
+  <arm_group>
+    <arm_group_label>patients enrolled for mNGS testing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>mNGS for pathogen detection</intervention_name>
+    <description>This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+    <arm_group_label>patients enrolled for mNGS testing</arm_group_label>
+    <other_name>Sequence-Based Ultrarapid Pathogen Identification (SURPI)+</other_name>
+    <other_name>UCSF metagenomic next-generation sequencing testing</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Exclusions:&#xD;
+&#xD;
+          -  Patients on a 5150 or 5250 psychiatric hold&#xD;
+&#xD;
+          -  Prisoners&#xD;
+&#xD;
+          -  University of California employees / students or close associates of any of the key&#xD;
+             personnel on the study&#xD;
+&#xD;
+          -  Outpatients and/or patients with chronic illness&#xD;
+&#xD;
+        Inclusion:&#xD;
+&#xD;
+        Demographic Criteria&#xD;
+&#xD;
+          1. Age: any (no age limit)&#xD;
+&#xD;
+          2. Language: any (with the use of interpreting services for obtaining consent)&#xD;
+&#xD;
+        For the following, the infectious syndromes include meningitis, encephalitis, fever,&#xD;
+        sepsis, and pneumonia:&#xD;
+&#xD;
+        Clinical Criteria&#xD;
+&#xD;
+          1. Hospital admission or transfer with diagnosis of an presumed infectious syndrome or&#xD;
+             clinical presentation consisting with an infectious syndrome, as defined below:&#xD;
+&#xD;
+               -  Meningitis: fever &gt;38°C and abnormal imaging or CSF pleocytosis (CSF white blood&#xD;
+                  cell count (WBC) &gt; 5 /mm^3) +/- stiff neck, +/- headache, +/- seizure&#xD;
+&#xD;
+               -  Encephalitis: pleocytosis and at least one of the following: altered mental&#xD;
+                  status, seizures, new onset of focal neurologic findings, abnormal EEG, acute&#xD;
+                  brain abnormalities on neuroimaging&#xD;
+&#xD;
+          2. No known diagnosis of non-infectious etiology responsible for symptoms&#xD;
+&#xD;
+          3. Time of enrollment: within 7 days of onset of symptoms, either initial presentation or&#xD;
+             acute exacerbation of presumed infectious syndrome.&#xD;
+&#xD;
+        Specimen Criteria&#xD;
+&#xD;
+          1. cerebrospinal fluid available within 7 days of symptom onset AND within 3 days of&#xD;
+             hospital admission or transfer unless evidence for acute exacerbation as defined by&#xD;
+             abrupt decline in clinical status, worsening pleocytosis or other laboratory&#xD;
+             parameters&#xD;
+&#xD;
+          2. Minimum of 600 microliters (uL) of clinical sample, stored at 4 degrees Celsius (C) no&#xD;
+             more than 5 days (ideally frozen in -70 degrees Celsius within 24 hours of collection)&#xD;
+&#xD;
+          3. No more than 3 freeze-thaw cycles&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>110 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Charles Y Chiu, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Hannah Sample, BS</last_name>
+    <role>Study Director</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California, Davis Medical Center</name>
+      <address>
+        <city>Davis</city>
+        <state>California</state>
+        <zip>95616</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Children's Hospital Los Angeles</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90027</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California, Los Angeles Medical Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90095</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of California, San Francisco Medical Center</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94116</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Children's Hospital Colordao</name>
+      <address>
+        <city>Denver</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Children's National Medical Center</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Jude Children's Research Hospital</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://chiulab.ucsf.edu</url>
+    <description>brief description of PDAID study and referral link</description>
+  </link>
+  <link>
+    <url>http://www.ciapm.org/project/precision-diagnosis-acute-infectious-diseases</url>
+    <description>summary of the PDAID project, sponsored by the California Initiative to Advance Precision Medicine</description>
+  </link>
+  <link>
+    <url>https://www.youtube.com/watch?v=OFYSEowGfeI</url>
+    <description>video describing metagenomic next-generation sequencing and its use for diagnosis of infections</description>
+  </link>
+  <link>
+    <url>http://nextgendiagnostics.ucsf.edu</url>
+    <description>The UCSF Center for Next-Gen Precision Diagnostics</description>
+  </link>
+  <reference>
+    <citation>Wilson MR, Naccache SN, Samayoa E, Biagtan M, Bashir H, Yu G, Salamat SM, Somasekar S, Federman S, Miller S, Sokolic R, Garabedian E, Candotti F, Buckley RH, Reed KD, Meyer TL, Seroogy CM, Galloway R, Henderson SL, Gern JE, DeRisi JL, Chiu CY. Actionable diagnosis of neuroleptospirosis by next-generation sequencing. N Engl J Med. 2014 Jun 19;370(25):2408-17. doi: 10.1056/NEJMoa1401268. Epub 2014 Jun 4.</citation>
+    <PMID>24896819</PMID>
+  </reference>
+  <reference>
+    <citation>Greninger AL, Messacar K, Dunnebacke T, Naccache SN, Federman S, Bouquet J, Mirsky D, Nomura Y, Yagi S, Glaser C, Vollmer M, Press CA, Kleinschmidt-DeMasters BK, Dominguez SR, Chiu CY. Clinical metagenomic identification of Balamuthia mandrillaris encephalitis and assembly of the draft genome: the continuing case for reference genome sequencing. Genome Med. 2015 Dec 1;7:113. doi: 10.1186/s13073-015-0235-2. Erratum in: Genome Med. 2016;8(1):1. Klenschmidt-DeMasters, Bette K [corrected to Kleinschmidt-DeMasters, Bette K].</citation>
+    <PMID>26620704</PMID>
+  </reference>
+  <reference>
+    <citation>Naccache SN, Peggs KS, Mattes FM, Phadke R, Garson JA, Grant P, Samayoa E, Federman S, Miller S, Lunn MP, Gant V, Chiu CY. Diagnosis of neuroinvasive astrovirus infection in an immunocompromised adult with encephalitis by unbiased next-generation sequencing. Clin Infect Dis. 2015 Mar 15;60(6):919-23. doi: 10.1093/cid/ciu912. Epub 2015 Jan 7.</citation>
+    <PMID>25572898</PMID>
+  </reference>
+  <reference>
+    <citation>Greninger AL, Naccache SN, Messacar K, Clayton A, Yu G, Somasekar S, Federman S, Stryke D, Anderson C, Yagi S, Messenger S, Wadford D, Xia D, Watt JP, Van Haren K, Dominguez SR, Glaser C, Aldrovandi G, Chiu CY. A novel outbreak enterovirus D68 strain associated with acute flaccid myelitis cases in the USA (2012-14): a retrospective cohort study. Lancet Infect Dis. 2015 Jun;15(6):671-82. doi: 10.1016/S1473-3099(15)70093-9. Epub 2015 Mar 31.</citation>
+    <PMID>25837569</PMID>
+  </reference>
+  <reference>
+    <citation>Naccache SN, Federman S, Veeraraghavan N, Zaharia M, Lee D, Samayoa E, Bouquet J, Greninger AL, Luk KC, Enge B, Wadford DA, Messenger SL, Genrich GL, Pellegrino K, Grard G, Leroy E, Schneider BS, Fair JN, Martínez MA, Isa P, Crump JA, DeRisi JL, Sittler T, Hackett J Jr, Miller S, Chiu CY. A cloud-compatible bioinformatics pipeline for ultrarapid pathogen identification from next-generation sequencing of clinical samples. Genome Res. 2014 Jul;24(7):1180-92. doi: 10.1101/gr.171934.113. Epub 2014 Jun 4.</citation>
+    <PMID>24899342</PMID>
+  </reference>
+  <reference>
+    <citation>Wilson MR, Shanbhag NM, Reid MJ, Singhal NS, Gelfand JM, Sample HA, Benkli B, O'Donovan BD, Ali IK, Keating MK, Dunnebacke TH, Wood MD, Bollen A, DeRisi JL. Diagnosing Balamuthia mandrillaris Encephalitis With Metagenomic Deep Sequencing. Ann Neurol. 2015 Nov;78(5):722-30. doi: 10.1002/ana.24499. Epub 2015 Aug 24.</citation>
+    <PMID>26290222</PMID>
+  </reference>
+  <results_reference>
+    <citation>Wilson MR, Sample HA, Zorn KC, Arevalo S, Yu G, Neuhaus J, Federman S, Stryke D, Briggs B, Langelier C, Berger A, Douglas V, Josephson SA, Chow FC, Fulton BD, DeRisi JL, Gelfand JM, Naccache SN, Bender J, Dien Bard J, Murkey J, Carlson M, Vespa PM, Vijayan T, Allyn PR, Campeau S, Humphries RM, Klausner JD, Ganzon CD, Memar F, Ocampo NA, Zimmermann LL, Cohen SH, Polage CR, DeBiasi RL, Haller B, Dallas R, Maron G, Hayden R, Messacar K, Dominguez SR, Miller S, Chiu CY. Clinical Metagenomic Sequencing for Diagnosis of Meningitis and Encephalitis. N Engl J Med. 2019 Jun 13;380(24):2327-2340. doi: 10.1056/NEJMoa1803396.</citation>
+    <PMID>31189036</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Chiu CY, Coffey LL, Murkey J, Symmes K, Sample HA, Wilson MR, Naccache SN, Arevalo S, Somasekar S, Federman S, Stryke D, Vespa P, Schiller G, Messenger S, Humphries R, Miller S, Klausner JD. Diagnosis of Fatal Human Case of St. Louis Encephalitis Virus Infection by Metagenomic Sequencing, California, 2016. Emerg Infect Dis. 2017 Oct;23(10):1964-1968. doi: 10.3201/eid2310.161986.</citation>
+    <PMID>28930022</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Murkey JA, Chew KW, Carlson M, Shannon CL, Sirohi D, Sample HA, Wilson MR, Vespa P, Humphries RM, Miller S, Klausner JD, Chiu CY. Hepatitis E Virus-Associated Meningoencephalitis in a Lung Transplant Recipient Diagnosed by Clinical Metagenomic Sequencing. Open Forum Infect Dis. 2017 Jun 13;4(3):ofx121. doi: 10.1093/ofid/ofx121. eCollection 2017 Summer.</citation>
+    <PMID>28721353</PMID>
+  </results_reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>September 13, 2016</study_first_submitted>
+  <study_first_submitted_qc>September 19, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">September 21, 2016</study_first_posted>
+  <results_first_submitted>June 21, 2019</results_first_submitted>
+  <results_first_submitted_qc>May 7, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">May 27, 2021</results_first_posted>
+  <last_update_submitted>May 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>metagenomic next-generation sequencing</keyword>
+  <keyword>microbiological diagnosis</keyword>
+  <keyword>bacterial infections</keyword>
+  <keyword>viral infections</keyword>
+  <keyword>fungal infections</keyword>
+  <keyword>parasitic infections</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Meningitis</mesh_term>
+    <mesh_term>Encephalitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All genomic / metagenomic sequencing data from this study will be made available either at NIH Sequence Read Archive or NIH database of Genotypes and Phenotypes (dbGaP), depending on whether human sequence data is included. The investigators intend to make de-identified ancillary clinical, laboratory, and radiographic data available as well upon request.</ipd_description>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_time_frame>The clinical study report will be submitted for publication by June 2018.</ipd_time_frame>
+    <ipd_url>http://nextgendiagnostics.ucsf.edu/our-research/</ipd_url>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>August 17, 2017</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/37/NCT02910037/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Patients Enrolled for mNGS Testing</title>
+          <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).&#xD;
+mNGS for pathogen detection: This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="214"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="204"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="10"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Withdrawal by Subject</title>
+              <participants_list>
+                <participants group_id="P1" count="4"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="6"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Patients Enrolled for mNGS Testing</title>
+          <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).&#xD;
+mNGS for pathogen detection: This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="204"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>&lt;=18 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Between 18 and 65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="124"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt;=65 years</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="35"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="39.6" spread="22.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="90"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="114"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="17"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="118"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="42"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="13"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="204"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Total Number of Cases With at Least One Provider Response</title>
+        <description>Investigators will evaluate impact of mNGS assay by clinician surveys and Clinical Microbial Sequencing Board (CMSB) feedback and discussion as measured by at least 1 provider response per case.</description>
+        <time_frame>within 1 month of patient enrollment in study</time_frame>
+        <population>Treating teams for 204 included patients</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Pre mNGS Result Feedback From Providers</title>
+            <description>Response from treating clinicians regarding differential for patients before mNGS for pathogen detection was resulted.</description>
+          </group>
+          <group group_id="O2">
+            <title>Post mNGS Results Feedback From Providers</title>
+            <description>Response for survey from treating clinicians regarding differential and impact of mNGS results on care.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Total Number of Cases With at Least One Provider Response</title>
+          <description>Investigators will evaluate impact of mNGS assay by clinician surveys and Clinical Microbial Sequencing Board (CMSB) feedback and discussion as measured by at least 1 provider response per case.</description>
+          <population>Treating teams for 204 included patients</population>
+          <units>cases</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="204"/>
+                <count group_id="O2" value="204"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="98"/>
+                    <measurement group_id="O2" value="58"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clinical Outcomes: Time From Cerebrospinal Fluid Collection to mNGS Results</title>
+        <description>Investigators will review medical records to determine time of initial presentation and measure the time to mNGS results.</description>
+        <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Patients Enrolled for mNGS Testing</title>
+            <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).&#xD;
+mNGS for pathogen detection: This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clinical Outcomes: Time From Cerebrospinal Fluid Collection to mNGS Results</title>
+          <description>Investigators will review medical records to determine time of initial presentation and measure the time to mNGS results.</description>
+          <units>days</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="204"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="13.5" spread="4.8"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clinical Outcomes: Length of Stay</title>
+        <description>Investigators will review medical records to determine length of stay including discharge to rehab facilities.</description>
+        <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Patients Enrolled for mNGS Testing</title>
+            <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).&#xD;
+mNGS for pathogen detection: This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clinical Outcomes: Length of Stay</title>
+          <description>Investigators will review medical records to determine length of stay including discharge to rehab facilities.</description>
+          <units>days</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="204"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="27.9" spread="32.5"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clinical Outcomes: Final Diagnosis Category</title>
+        <description>Investigators will review medical records to determine final diagnosis after all diagnostic testing has been performed including metagenomic Next-Gen sequencing and autopsy where applicable.</description>
+        <time_frame>from admission to time of final case review (1 month post discharge or up to one year)</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Autoimmune</title>
+            <description>Patients that received a definitive autoimmune diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O2">
+            <title>Infectious</title>
+            <description>Patients that received a definite infectious disease diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O3">
+            <title>Neoplastic</title>
+            <description>Patients that received a definitive neoplastic diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O4">
+            <title>Post Infectious</title>
+            <description>Patients that received a definitive post infectious diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O5">
+            <title>Toxic Metabolic</title>
+            <description>Patients that received a definitive toxic metabolic diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O6">
+            <title>Structural</title>
+            <description>Patients that received a definitive structural diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O7">
+            <title>Vascular</title>
+            <description>Patients that received a definitive vascular diagnosis for their CNS disease.</description>
+          </group>
+          <group group_id="O8">
+            <title>Other</title>
+            <description>Patients that received a definitive diagnosis for their CNS disease in another category.</description>
+          </group>
+          <group group_id="O9">
+            <title>Unknown</title>
+            <description>Patients that did not received a definitive diagnosis for their CNS disease.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clinical Outcomes: Final Diagnosis Category</title>
+          <description>Investigators will review medical records to determine final diagnosis after all diagnostic testing has been performed including metagenomic Next-Gen sequencing and autopsy where applicable.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="204"/>
+                <count group_id="O2" value="204"/>
+                <count group_id="O3" value="204"/>
+                <count group_id="O4" value="204"/>
+                <count group_id="O5" value="204"/>
+                <count group_id="O6" value="204"/>
+                <count group_id="O7" value="204"/>
+                <count group_id="O8" value="204"/>
+                <count group_id="O9" value="204"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="17"/>
+                    <measurement group_id="O2" value="57"/>
+                    <measurement group_id="O3" value="7"/>
+                    <measurement group_id="O4" value="3"/>
+                    <measurement group_id="O5" value="3"/>
+                    <measurement group_id="O6" value="0"/>
+                    <measurement group_id="O7" value="1"/>
+                    <measurement group_id="O8" value="15"/>
+                    <measurement group_id="O9" value="101"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Clinical Outcomes: Concordance of mNGS With Other Molecular Testing on Cerebrospinal Fluid Pathogens</title>
+        <description>mNGS findings were compared to conventional testing for concordance. Conventional testing included both tests that were ordered as part of each patients workup and those order to confirm mNGS findings on cerebrospinal fluid (CSF).</description>
+        <time_frame>from admission to 1 month post discharge for each patient during the enrollment period of study</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>mNGS Only Diagnosis, Confirmation Attempted</title>
+            <description>mNGS only diagnosis, confirmation attempted on remnant CSF and/or ancillary specimen(s) (i.e. brain biopsy)</description>
+          </group>
+          <group group_id="O2">
+            <title>Concordant With Conventional Testing</title>
+            <description>mNGS and conventional direct detection testing resulted in the same finding. Direct detection included culture and PCR. Results were considered concordant for this measure if conventional testing was positive by indirect testing (i.e. antibody) and both direct detection (i.e. PCR) and mNGS were negative.</description>
+          </group>
+          <group group_id="O3">
+            <title>Missed by mNGS</title>
+            <description>Missed by mNGS, includes those with reads under established reporting thresholds</description>
+          </group>
+          <group group_id="O4">
+            <title>False Positive by mNGS</title>
+            <description>False positives were reported when mNGS resulted an organism that was not detected by other method (direct and/or indirect) and was not thought to be clinically relevant by the treating clinicians. Incidental findings (i.e. HIV) were not reported as false positives.</description>
+          </group>
+          <group group_id="O5">
+            <title>mNGS Only Finding, Unable to Confirm</title>
+            <description>mNGS only finding, unable to confirm due to test or specimen unavailability</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Clinical Outcomes: Concordance of mNGS With Other Molecular Testing on Cerebrospinal Fluid Pathogens</title>
+          <description>mNGS findings were compared to conventional testing for concordance. Conventional testing included both tests that were ordered as part of each patients workup and those order to confirm mNGS findings on cerebrospinal fluid (CSF).</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="204"/>
+                <count group_id="O2" value="204"/>
+                <count group_id="O3" value="204"/>
+                <count group_id="O4" value="204"/>
+                <count group_id="O5" value="204"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="16"/>
+                    <measurement group_id="O2" value="174"/>
+                    <measurement group_id="O3" value="9"/>
+                    <measurement group_id="O4" value="1"/>
+                    <measurement group_id="O5" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>up to 1.5 years, 30 day mortality is reported</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Patients Enrolled for mNGS Testing</title>
+          <description>Patients with meningitis and/or encephalitis will be enrolled in this study in order to analyze the clinical utility of mNGS for pathogen detection. There is no control group for this study (Investigators will identify historical controls by retrospective chart review and clinical reimbursement documents).&#xD;
+mNGS for pathogen detection: This assay is a laboratory-validated metagenomic test for comprehensive detection of viruses, bacteria, fungi, and parasites in clinical samples.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="23" subjects_at_risk="204"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="204"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="204"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Charles Chiu</name_or_title>
+      <organization>The University of California, San Francisco</organization>
+      <phone>(415) 514-8219</phone>
+      <email>charles.chiu@ucsf.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,275 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04903444</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EA-19-003-22</org_study_id>
+    <nct_id>NCT04903444</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of an Artificial Intelligence-based Biliary Stricture Navigation System in MRCP-based ERCP</brief_title>
+  <official_title>A Single-center Study on the Effectiveness and Safety of Artificial Intelligence Assisted System in Clinical Application of Endoscopic Retrograde Cholangiopancreatography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this study, the investigators proposed an artificial intelligence-based biliary stricture&#xD;
+      navigation system in MRCP-based ERCP, which can instruct the direction of guide wire and the&#xD;
+      position of stent placement in real time.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      585/5000 Biliary stricture can be divided into benign biliary stricture and malignant biliary&#xD;
+      stricture, and malignant hilar biliary obstruction is the one of the common cause. Since&#xD;
+      there is no specific early screening method for malignant hilar biliary obstruction at&#xD;
+      present and most patients have no obvious clinical symptoms in the early stage, most patients&#xD;
+      are already in the advanced stage when they are first diagnosed. Advanced malignant hilar&#xD;
+      biliary obstruction cannot undergo resection surgery, whose first choice for the treatment is&#xD;
+      palliative endoscopic biliary drainage.Biliary drainage can relieve jaundice, pruritus and&#xD;
+      other symptoms due to cholestasis. However,before the narrow segment was placed the stent,&#xD;
+      the contrast agent could not pass through the narrow segment and the bile duct above the&#xD;
+      narrow segment could not be seen.So it was difficult for doctors to determine the direction&#xD;
+      of the guide wire and the position of the stent. In addition, indiscriminate application of&#xD;
+      the contrast agent may cause outflow obstruction leading to infection. However, there is no&#xD;
+      relevant research to solve these problems.&#xD;
+&#xD;
+      MRCP is the preferred examination method of pancreatic and bile duct diseases. Therefore,&#xD;
+      MRCP should be routinely performed before patients are treated with ERCP. At present, MRCP is&#xD;
+      in supine position, and ERCP is in prone position. Different positions lead to differences in&#xD;
+      the morphology of MRCP and the bile duct on ERCP.So preoperative MRCP in supine position has&#xD;
+      limited role in advising physicians on the morphology of the bile duct. Therefore, MRCP in&#xD;
+      the prone position is more favorable for endoscopists to perform ERCP .&#xD;
+&#xD;
+      In recent years, deep learning algorithms have been continuously developed and increasingly&#xD;
+      mature.They have been gradually applied to the medical field. Computer vision is a science&#xD;
+      that studies how to make machines &quot;see&quot;. Through deep learning, camera and computer can&#xD;
+      replace human eyes to carry out machine vision such as target recognition, tracking and&#xD;
+      measurement.Interdisciplinary cooperation in the field of medical imaging and computer vision&#xD;
+      is also one of the research hotspots in recent years. At present, it is mainly applied to the&#xD;
+      automatic identification and detection of lesions and quality control, and has achieved good&#xD;
+      results. It can assist doctors to find lesions, make disease diagnosis and standardize&#xD;
+      doctors' operations, so as to improve the quality of doctors' operations.With mature&#xD;
+      technical support, it has a good prospect and application value to develop endoscopic&#xD;
+      operating system for lesion detection and quality control based on artificial intelligence&#xD;
+      methods such as deep learning.&#xD;
+&#xD;
+      In this study, the investigators proposed an artificial Intelligence-based Biliary Stricture&#xD;
+      Navigation System in MRCP-based ERCP, which can instruct the direction of guide wire and the&#xD;
+      position of stent placement in real time.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">May 27, 2021</start_date>
+  <completion_date type="Anticipated">July 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Procedure time</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The time of performing ERCP</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Intersection over Union of bile duct segmentation</measure>
+    <time_frame>A month</time_frame>
+    <description>Intersection over Union of bile ducts predicted by artificial intelligence devices and actual bile ducts</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Intersection over union of bile duct matching model:</measure>
+    <time_frame>6 month</time_frame>
+    <description>Intersection over Union of the bile ducts generated by the AI device and the actual bile ducts in ERCP</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Success rate of stent placement</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The number of successful patients is the numerator, and the total number of patients with stent placement is the denominator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of adverse events</measure>
+    <time_frame>Until discharge assessed up to 14 days</time_frame>
+    <description>The number of patients who experienced adverse events was numerator, and the total number of patients undergoing stent placement was denominator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fluoroscopy time</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The sum of the total X ray fluoroscopy time during the whole procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Total amount of contrast medium</measure>
+    <time_frame>During procedure</time_frame>
+    <description>Total amount of contrast medium during the whole procedure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The difference of the area of bile duct visualization in different position</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The area of bile duct visualization of MRCP in different position</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The difference in the time required to perform MRCP in different position</measure>
+    <time_frame>During procedure</time_frame>
+    <description>The difference in the time required to perform MRCP in different position</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">62</enrollment>
+  <condition>Gastrointestinal Disease</condition>
+  <condition>Endoscopy</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Endoscopic Retrograde Cholangiopancreatography</condition>
+  <arm_group>
+    <arm_group_label>with AI navigation system</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The endoscopists in the experimental group will be assisted by AI system, which can instruct the direction of guide wire and the position of stent placement in real time. The system is an non-invasive AI system.All patients underwent MRCP in the prone position prior to ERCP. A round box with a diameter of 2mm filled with water was pasted next to the patient's spine at the level of angulus inferior scapulae during MRCP, and a sheet metal with a diameter of 2mm was pasted at the same area during ERCP.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>without AI navigation system</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The endoscopists in the contrpl group performs ERCP routinely without special prompts.All patients underwent MRCP in the prone position prior to ERCP. A round box with a diameter of 2mm filled with water was pasted next to the patient's spine at the level of angulus inferior scapulae during MRCP, and a sheet metal with a diameter of 2mm was pasted at the same area during ERCP.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Artificial intelligence assistant system</intervention_name>
+    <description>The endoscopists in the experimental group will be assisted by AI system, which can instruct the direction of guide wire and the position of stent placement in real time. The system is an non-invasive AI system .</description>
+    <arm_group_label>with AI navigation system</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Bile duct segmentation model 1) Male or female aged 18 or above; 2) Who needs&#xD;
+             ERCP,MRCP and its related tests are needed to further define the characteristics of&#xD;
+             digestive tract diseases； 3)The images of MRCP and ERCP are clear; 4) Able to read,&#xD;
+             understand and sign informed consent; 5) The investigator believes that the subject&#xD;
+             can understand the process of the clinical study and is willing and able to complete&#xD;
+             all the study procedures and follow-up visits and cooperate with the study procedures.&#xD;
+&#xD;
+          2. Bile duct matching model&#xD;
+&#xD;
+        In addition to the criteria mentioned in the bile duct segmentation model, the bile duct&#xD;
+        matching model should also meet the following criteria:&#xD;
+&#xD;
+          1. Able to complete MRCP in prone position;&#xD;
+&#xD;
+          2. Bile ducts are almost completely visible in MRCP and ERCP.&#xD;
+&#xD;
+        (3) Clinical trials&#xD;
+&#xD;
+        In addition to the criteria mentioned in the bile duct segmentation model, the clinical&#xD;
+        trials should also meet the following criteria:&#xD;
+&#xD;
+          1. Able to complete MRCP in prone position;&#xD;
+&#xD;
+          2. Patients requiring biliary drainage by ERCP due to malignant hilar biliary&#xD;
+             obstruction.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Bile duct segmentation model and bile duct matching model 1)Has participated in other&#xD;
+             clinical trials, signed the informed consent and was in the follow-up period of other&#xD;
+             clinical trials; 2) Drug or alcohol abuse or psychological disorder in the last 5&#xD;
+             years; 3) Patients in pregnancy or lactation; 4) The investigator considers that the&#xD;
+             subjects were not suitable for MRCP, ERCP and related tests; 5)A high-risk diseases or&#xD;
+             other special conditions that the investigator considers inappropriate for the subject&#xD;
+             to participate in a clinical trial；&#xD;
+&#xD;
+          2. Clinical trials&#xD;
+&#xD;
+        In addition to the criteria mentioned in the above, the clinical trial must not meet any of&#xD;
+        the following criteria:&#xD;
+&#xD;
+          1. Previous gastrectomy;&#xD;
+&#xD;
+          2. Stent replacement;&#xD;
+&#xD;
+          3. Pyloric or duodenal obstruction.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Honggang Yu Yu, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Renmin Hospital of Wuhan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Honggang Yu, Doctor</last_name>
+    <phone>+862788041911</phone>
+    <email>whdxrmyy@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Honggang Yu Yu, Doctor</last_name>
+    <phone>+862788041911</phone>
+    <email>whdxrmyy@126.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Renmin hospital of Wuhan University</name>
+      <address>
+        <city>Wuhan</city>
+        <state>Hubei</state>
+        <zip>430000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Honggang Yu, Doctor</last_name>
+      <phone>+862788041911</phone>
+      <email>whdxrmyy@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 17, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 26, 2021</study_first_posted>
+  <last_update_submitted>June 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Digestive System Diseases</mesh_term>
+  </condition_browse>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 13, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/44/NCT04903444/Prot_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

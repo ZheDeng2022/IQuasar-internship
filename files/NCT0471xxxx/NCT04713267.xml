@@ -1,0 +1,242 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04713267</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ISABel Bed 1 and ISABel Bed 2</org_study_id>
+    <nct_id>NCT04713267</nct_id>
+  </id_info>
+  <brief_title>ISABel: Intelligent Sleep Apnoea Bed</brief_title>
+  <acronym>ISABel</acronym>
+  <official_title>ISABel: Intelligent Sleep Apnoea Bed</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Swiss Federal Institute of Technology</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Swiss Federal Institute of Technology</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this trial is to assess the effect of two automated beds on severity of POSA as&#xD;
+      well as the feasibility of these beds as POSA treatment. These beds are equipped with sensors&#xD;
+      detecting apnoeas and hypopnoeas from physiological measurements - such as chest movement or&#xD;
+      breathing sound -, and coherently reacting by actively changing the user position whenever an&#xD;
+      apnoeic event occurs. Thereby we will investigate a possible treatment alternative to already&#xD;
+      established OSA therapies, either as a valuable add-on for patients eligible to the currently&#xD;
+      available therapies or as primary treatment option.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      During the intervention nights (2 out of 3 experiment nights), positional therapy by means of&#xD;
+      the automated bed will be applied in order to induce a change in the sleeping position. Two&#xD;
+      approaches to influence the position will be investigated:&#xD;
+&#xD;
+        1. Lifting the upper body up, which has been suggested as a method for reducing habitual&#xD;
+           snoring. This intervention will be provided by an adjustable bed (AmbianceE-Motion,&#xD;
+           manufactured by Elite SA, Aubonne, Switzerland) referred to as ISABel Bed 1. This bed&#xD;
+           contains four motors for changing the inclination angle of the head, trunk, leg, and&#xD;
+           foot support. Only the position of the trunk and head support is changed during the&#xD;
+           study. The inclination angle is set to the maximum inclination angle the bed allows:&#xD;
+           this is 50° at the slatted frame which results in approximately 40° inclination of the&#xD;
+           hip of the user. The reference angle (0°) is represented by the supine position.&#xD;
+&#xD;
+        2. Inclination of one side of the bed. This intervention will be provided with a&#xD;
+           custom-made, adjustable bed base prototype, referred to as ISABel Bed 2 (produced by&#xD;
+           Sensory-Motor Systems Lab, ETH Zurich, Zurich, Switzerland). The bed is equipped with&#xD;
+           two motors which allow sideward inclination of up to 40 °. The inclination to be applied&#xD;
+           in this study is set to 30 ° based on a pre-study with healthy human subjects. Both beds&#xD;
+           are equipped with non-invasive, cable-free sensors (cardio-ballistography, microphone,&#xD;
+           and force sensor). A closed-loop control algorithm, which has been developed using&#xD;
+           machine learning techniques, continuously monitors these signals and triggers the&#xD;
+           positional intervention, when it detects that the participant is experiencing an apnoea&#xD;
+           event.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 19, 2021</start_date>
+  <completion_date type="Anticipated">January 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Sequential Assignment</intervention_model>
+    <intervention_model_description>Randomised crossover interventional trial allocating patients with POSA to ISABel Bed 1 or ISABel Bed 2 in random order to study the effect on POSA. Patients with POSA (untreated, or if treated, following a short-term therapy withdrawal) will undergo an in-laboratory polysomnography in ISABel Bed 1 and Bed 2.</intervention_model_description>
+    <primary_purpose>Device Feasibility</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Assessment of the presence of a difference in supine AHI either in ISABel Bed 1 or ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>The primary outcome will be the presence of a difference in supine AHI (events/hour) between the control bed (polysomnography - PSG- on Day 6) and either ISABel Bed 1 or ISABel Bed 2 (respectively on Day 7 and Day 8 to 14, depending on the randomisation order). AHI supine refers to the part of the total AHI that is caused by lying in supine position. This index is per definition twice as much as the non-supine AHI in patients with POSA. The intervention should reduce the time spent in supine position and therefore reduce the supine AHI.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>User feasibility of ISABel Bed 1 or ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>snoring, sleep architecture</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User effect of ISABel Bed 1 or ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>total AHI (events/hours), ODI4%, SpO2%, total arousal index (events/hours)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>User tolerance</measure>
+    <time_frame>three nights</time_frame>
+    <description>morning blood pressure and heart rate</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference ISABel Bed 1 and ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>in supine AHI between the two beds</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess reliability fo the machine learning algorithms of ISABel Bed 1 and ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>data collection</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety of ISABel Bed 1 and ISABel Bed 2</measure>
+    <time_frame>three nights</time_frame>
+    <description>Sleep structure and quality</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">16</enrollment>
+  <condition>Effect of ISABel Bed 1 Ans ISABel Bed 2</condition>
+  <arm_group>
+    <arm_group_label>ISABel Bed 1 or ISABel Bed 2</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>The study has a within-subject repeated measures-design. After a baseline measurement, participants will be allocated to either a first experimental night in automated bed 1 (ISABel Bed 1) and a second one in automated bed 2 (ISABel Bed 2) or a first experimental night in bed 2 and a second one in bed 1. Afterwards, the results of each polysomnographic measurement carried out during the intervention will be compared to the off-treatment baseline measurement.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ISABel Bed 1</intervention_name>
+    <description>During the intervention nights (2 out of 3 experiment nights), positional therapy by means of the automated bed will be applied in order to induce a change in the sleeping position.</description>
+    <arm_group_label>ISABel Bed 1 or ISABel Bed 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Documented supine positional OSA (AHIsupine/AHInonsupine ≥2) with a total AHI of ≥10&#xD;
+             events/hour&#xD;
+&#xD;
+          -  Age ≥18 years and &lt;80 years&#xD;
+&#xD;
+          -  Written informed consent documented by signature&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Previous or current use of positional therapy&#xD;
+&#xD;
+          -  Use of home oxygen therapy&#xD;
+&#xD;
+          -  Documented hypoventilation syndrome&#xD;
+&#xD;
+          -  Documented Cheyne-Stokes breathing&#xD;
+&#xD;
+          -  Documented moderate-to-severe or severe obstructive lung diseases&#xD;
+&#xD;
+          -  Chronic heart failure&#xD;
+&#xD;
+          -  Documented active drug or alcohol abuse&#xD;
+&#xD;
+          -  Known or suspected non-compliance&#xD;
+&#xD;
+          -  Inability to follow the procedures of the study, e.g. due to language problems,&#xD;
+             documented psychological disorders, documented dementia, etc. of the participant&#xD;
+&#xD;
+          -  Current professional driver or any either documented or reported previous&#xD;
+             sleep-related driving accidents&#xD;
+&#xD;
+          -  People working with or operating heavy machinery&#xD;
+&#xD;
+          -  Child-bearing age: female participants who are neither surgically sterilised /&#xD;
+             hysterectomised nor post-menopausal for longer than 2 years are considered as being of&#xD;
+             child bearing potential&#xD;
+&#xD;
+          -  Documented unstable, untreated coronary or peripheral artery disease, severe&#xD;
+             hypertension or hypotension (≥180/110 or ≤90/60 mmHg)&#xD;
+&#xD;
+          -  BMI &gt;40 kg/m2 or body weight &gt;130 kg&#xD;
+&#xD;
+          -  Being the investigator, his/her family members, employees, or other dependent persons&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Alexander Breuss, PhD student</last_name>
+    <phone>+41 44 510 7234</phone>
+    <email>alexander.breuss@hest.ethz.ch</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Esther Schwarz, MD</last_name>
+    <phone>+41 44 255 11 11</phone>
+    <email>esther.schwarz@usz.ch</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>ETH Zurich</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8000</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Esther Schwarz, MD</last_name>
+      <phone>+41 44 255 11 11</phone>
+      <email>esther.schwarz@usz.ch</email>
+    </contact>
+    <contact_backup>
+      <last_name>Alexander Breuss, PhD student</last_name>
+      <phone>+ 41 44 510 72 34</phone>
+      <email>alexander.breuss@hest.ethz.ch</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Switzerland</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>December 17, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 19, 2021</study_first_posted>
+  <last_update_submitted>October 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Effect</keyword>
+  <keyword>Comparation</keyword>
+  <keyword>User Feasibility</keyword>
+  <keyword>Tolerance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sleep Apnea Syndromes</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

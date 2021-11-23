@@ -1,0 +1,147 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04979624</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20213357006</org_study_id>
+    <nct_id>NCT04979624</nct_id>
+  </id_info>
+  <brief_title>Construction and Validation of an In-hospital Mortality Risk Prediction Model for Acute Ischemic Stroke Patients</brief_title>
+  <official_title>Construction and Validation of an In-hospital Mortality Risk Prediction Model for Acute Ischemic Stroke Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shenzhen Second People's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shenzhen Second People's Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Firstly, the application effect of the existing predictive models, SOAR and GWTG-Stroke, was&#xD;
+      verified in Guangdong acute ischemic Stroke population, and the clinical application effect&#xD;
+      of the existing predictive models was verified.&#xD;
+&#xD;
+      Secondly, the predictive value of clinical indicators was analyzed, SOAR and GWTG-Stroke&#xD;
+      scores were optimized, and an improved prediction Model (New Model) was constructed.&#xD;
+&#xD;
+      The third is to apply the New Model to clinical practice, collect clinical data and evaluate&#xD;
+      the prediction effect of the Model, and evaluate the prediction efficiency of the improved&#xD;
+      prediction Model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This research is mainly divided into two parts. The first part is to verify and optimize the&#xD;
+      existing prediction model. Through continuous collection of clinical data of acute ischemic&#xD;
+      Stroke patients hospitalized in Shenzhen Second People's Hospital from January 2017 to&#xD;
+      December 2021, including baseline indicators and end point events, based on the existing&#xD;
+      prediction model (SOAR, GWTG-Stroke), The predictive probability was calculated and compared&#xD;
+      with the actual mortality during hospitalization. The ROC curve, calibration curve and&#xD;
+      decision curve were used to evaluate the model's differentiation, calibration and clinical&#xD;
+      application value.&#xD;
+&#xD;
+      Using retrospective data, multivariate logistic regression was used to analyze the predictive&#xD;
+      value of baseline clinical indicators, screen risk factors, and optimize the prediction model&#xD;
+      of SOAR and GWTG-Stroke.&#xD;
+&#xD;
+      Extreme Gradient Boosting (XGBOOST) was used to select variables, and logistic regression&#xD;
+      model was used based on Akaike Information Criterion.&#xD;
+&#xD;
+      AIC) was used to construct an improved mortality risk prediction Model (New Model). Decision&#xD;
+      curves were used to compare the models. Combined with the clinical significance of the&#xD;
+      indicators, the construction of the prediction Model was improved.&#xD;
+&#xD;
+      The model was validated internally by resampling with computer simulation. The second part is&#xD;
+      to evaluate the clinical application effect of the improved prediction Model. The clinical&#xD;
+      data of acute ischemic stroke patients hospitalized in Shenzhen Second People's Hospital and&#xD;
+      Shenzhen Longhua District People's Hospital from January 2022 to December 2023 are collected&#xD;
+      continuously. The New Model is applied in the clinic, and the New Model is validated in the&#xD;
+      external time and space.&#xD;
+&#xD;
+      Evaluate prediction effectiveness and extrapolation.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2022</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital mortality</measure>
+    <time_frame>7-day in-hospital mortality rates</time_frame>
+    <description>Deaths during hospitalization in patients with acute ischemic stroke</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">234</enrollment>
+  <condition>Acute Ischemic Stroke</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Clinical data of acute ischemic stroke patients hospitalized in Shenzhen Second People's&#xD;
+        Hospital and Shenzhen Longhua District People's Hospital&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. ≥18 years old;&#xD;
+&#xD;
+          2. It meets the diagnostic criteria of China Guidelines for the Diagnosis and Treatment&#xD;
+             of Acute Ischemic Stroke 2018, and bleeding is confirmed by head MRI or excluded by CT&#xD;
+             after admission;&#xD;
+&#xD;
+          3. Admission within 72 hours of onset. -&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Non-vascular causes and transient ischemic attack;&#xD;
+&#xD;
+          2. with severe hepatic and renal dysfunction;&#xD;
+&#xD;
+          3. Central nervous system infection, recent history of severe trauma, and malignant&#xD;
+             tumors affecting survival time;&#xD;
+&#xD;
+          4. Incomplete main clinical data. -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 27, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 27, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 28, 2021</study_first_posted>
+  <last_update_submitted>July 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>In-hospital mortality</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Ischemic Stroke</mesh_term>
+    <mesh_term>Cerebral Infarction</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

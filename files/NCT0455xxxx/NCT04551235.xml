@@ -1,0 +1,138 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04551235</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202007086RIPB</org_study_id>
+    <nct_id>NCT04551235</nct_id>
+  </id_info>
+  <brief_title>Establishing Automatic Method of Counting and Classify Bone Marrow and Peripheral Blood Cells</brief_title>
+  <official_title>Establishing Automatic Method of Counting and Classify Bone Marrow and Peripheral Blood Cells</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Taiwan University Tai-Chen Cell Therapy Center, Biomdcare Corporation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Counting and classification of blood cells in a bone marrow smear and peripheral blood smear&#xD;
+      are essential to clinical hematology. To this date, this procedure has been carried out in a&#xD;
+      manual manner in the great majority of clinical settings. There is often inconsistency in the&#xD;
+      counting result between different operators largely due to its manual nature. There has not&#xD;
+      been an effective and standard method for blood smear preparation and automatic counting and&#xD;
+      classification. The recent advent of deep neural network for medical image processing&#xD;
+      introduced new opportunities for an effective solution of this long-standing problem.&#xD;
+      Numerous results have been published on the effectiveness of convolutional neural network in&#xD;
+      clinical image recognition task.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 28, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Evaluate the accuracy of cell counting and classifying between automatic method and manual method through digital microscopic photos of bone marrow smear and peripheral blood smear using deep convolutional neural networks</measure>
+    <time_frame>3 years</time_frame>
+  </primary_outcome>
+  <enrollment type="Anticipated">900</enrollment>
+  <condition>Hematologic Diseases</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Acute Leukemia</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>there are not any interventions in this study</intervention_name>
+    <description>there are not any interventions in this study</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who have suspected or confirmed hematological diseases and receive bone marrow or&#xD;
+        peripheral blood cell morphological examination in National Taiwan University Cancer Center&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients who have suspected or confirmed hematological diseases and receive bone&#xD;
+&#xD;
+          -  marrow or peripheral blood cell morphological examination in National Taiwan&#xD;
+             University Cancer Center&#xD;
+&#xD;
+          -  Patients who are aged more than 20 y/o&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        •Patients who are not willing to sign informed consents&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jih-Luh Tang</last_name>
+    <phone>886-0-72651057</phone>
+    <email>tangntuh@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Tai-Chen Cell Therapy Center</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jih-Luh Tang</last_name>
+      <phone>886-9-72651057</phone>
+      <email>tangntuh@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 27, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 10, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 16, 2020</study_first_posted>
+  <last_update_submitted>September 10, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 10, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 16, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hematologic Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

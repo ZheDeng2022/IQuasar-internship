@@ -1,0 +1,152 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03981393</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ECMO-002</org_study_id>
+    <nct_id>NCT03981393</nct_id>
+  </id_info>
+  <brief_title>Cardinality Matching Study of Early v.s. Delayed VV ECMO in Severe Respiratory Failure</brief_title>
+  <official_title>Cardinality Matching Study of Early v.s. Delayed VV ECMO in Severe Respiratory Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Cambridge</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Cambridge</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Clinical reasoning and recent data suggest that early use of venovenous extracorporeal&#xD;
+      membrane oxygenation in refractory respiratory failure may confer a survival advantage.&#xD;
+&#xD;
+      This retrospective matched study will assess whether patients who received VV ECMO at less&#xD;
+      severe hypoxaemia had differing outcomes to those who received ECMO with very severe&#xD;
+      hypoxaemia.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      VV ECMO is increasingly used in refractory respiratory failure. Despite advances in lung&#xD;
+      protective ventilation strategies, patients who have severe respiratory failure often develop&#xD;
+      complications from mechanical ventilation, including volutrauma and barotrauma. ECMO allows&#xD;
+      gas exchange to occur extracorporeally and may reduce the potential burden of iatrogenic lung&#xD;
+      injury by allowing a reduction of volume and pressure support - a 'lung rest' strategy. It is&#xD;
+      theorised that earlier intitiation of ECMO may allow for better outcomes, as there will have&#xD;
+      been less time for iatrogenic lung injury to occur.&#xD;
+&#xD;
+      The UK ECMO registry has been collected of patients treated under the NHS England&#xD;
+      commissioned respiratory ECMO service since 2011. This study has been previously registered&#xD;
+      and publication is intended shortly.&#xD;
+&#xD;
+      Patients will be extracted from this registry if they received VV ECMO. Propensity matching&#xD;
+      scores will be created and patients will be stratified into groups of 'early' vs 'delayed'&#xD;
+      ECMO, based on their probability of being in either group.&#xD;
+&#xD;
+      Patients will be divided into cohorts based on the median PaO2/FiO2 ratio at decision to&#xD;
+      cannulate ('less severe hypoxaemia') and ('very severe hypoxaemia'). Matched cohorts will be&#xD;
+      created correcting for key confounding factors (age, primary diagnosis, duration of pre-ECMO&#xD;
+      ventilation and PaCO2), using cardinality matching (a novel technique described by&#xD;
+      Zubizaretta et al. in 2014) and traditional propensity-score-based methods.&#xD;
+&#xD;
+      The technique with greater balance and statistical power (as defined by sample size) will be&#xD;
+      selected for the primary analysis.&#xD;
+&#xD;
+      Further analyses will assess the relationship between hypoxaemia at decision-to-cannulate and&#xD;
+      confounding factors as above.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">December 1, 2011</start_date>
+  <completion_date type="Actual">March 31, 2018</completion_date>
+  <primary_completion_date type="Actual">December 31, 2017</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Survival to ECMO ICU discharge</measure>
+    <time_frame>Up to 90 days.</time_frame>
+    <description>Percentage of patients alive at discharge from the ICU at the specialist ECMO centre</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Duration of ECMO treatment</measure>
+    <time_frame>Up to 90 days.</time_frame>
+    <description>Duration spent supported by active ECMO treatment.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">667</enrollment>
+  <condition>Acute Respiratory Failure</condition>
+  <condition>ECMO</condition>
+  <arm_group>
+    <arm_group_label>'Less severe hypoxaemia'</arm_group_label>
+    <description>PaO2/FiO2 ratio &gt; 68 mmHg (9.1kPa) at decision-to-cannulate</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>'Very severe hypoxaemia'</arm_group_label>
+    <description>PaO2/FiO2 ratio ≤ 68 mmHg (9.1kPa) at decision-to-cannulate</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This is a prespecified secondary analysis of the UK ECMO registry. Inclusion criteria are&#xD;
+        ultimately at the discretion of each recruiting centre, but includes adult patients with&#xD;
+        potentially reversible acute respiratory failure without absolute contraindications to ECMO&#xD;
+        therapy.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients included in the UK ECMO registry (see previous registration; NCT number&#xD;
+             awaited; protocol ECMO-001)&#xD;
+&#xD;
+          -  Patients with VV ECMO&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with inadequate or missing data for creation of propensity score models.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>June 6, 2019</study_first_submitted>
+  <study_first_submitted_qc>June 6, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 10, 2019</study_first_posted>
+  <last_update_submitted>April 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Cambridge</investigator_affiliation>
+    <investigator_full_name>Alex Warren</investigator_full_name>
+    <investigator_title>Academic Foundation Doctor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Access to IPD is via the UK ECMO network steering group. Enquiries in the first instance can be made to Dr Alain Vuylsteke, at a.vuylsteke@nhs.net</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

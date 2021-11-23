@@ -1,0 +1,496 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04880005</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FEA - DICTA</org_study_id>
+    <nct_id>NCT04880005</nct_id>
+  </id_info>
+  <brief_title>Digital Individualized and Collaborative Treatment of T2D in General Practice Based on Decision Aid</brief_title>
+  <acronym>DICTA</acronym>
+  <official_title>Digital Individualized and Collaborative Treatment of T2D in General Practice Based on Decision Aid - A Randomized Controlled Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Southern Denmark</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Steno Diabetes Center Odense</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Odense University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Steno Diabetes Center Sjaelland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Aalborg University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Holbaek Sygehus</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Slagelse Sygehus</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Southern Denmark</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this project is to improve life of patients with type 2 diabetes through an&#xD;
+      IT-supported lifestyle and treatment intervention.&#xD;
+&#xD;
+      The intervention is based on combining and adapting three existing and effective elements&#xD;
+      into the IT system of the general practitioner. In this way we will integrate specialist&#xD;
+      supervised treatment in general practice, individual patient coaching, and improved&#xD;
+      information exchange and data mining.&#xD;
+&#xD;
+      The intervention will&#xD;
+&#xD;
+        1. enable individualized high-quality care in general practice,&#xD;
+&#xD;
+        2. empower patients to improve their lifestyle and&#xD;
+&#xD;
+        3. facilitate collaboration between hospitals, municipalities and general practitioners.&#xD;
+&#xD;
+      This is expected to facilitate use, assure individually tailored solutions, optimize&#xD;
+      treatment effects, and strengthen patient engagement.&#xD;
+&#xD;
+      The study is a randomized controlled trial (RCT). It will include 660 patients with newly&#xD;
+      diagnosed type 2 diabetes. The patients will receive either treatment based on the&#xD;
+      intervention or usual care. After one year, we will assess quality of life and cardiovascular&#xD;
+      risk factors in both groups and evaluate if one group has improved management of their type 2&#xD;
+      diabetes compared to the other.&#xD;
+&#xD;
+      If the intervention proves effective, implementation on a national scale is highly feasible,&#xD;
+      and the intervention could probably be adapted to other lifestyle-related chronic diseases in&#xD;
+      Denmark and in other countries.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background&#xD;
+&#xD;
+      A study from the UK showed that an intensive intervention comprising a total diet&#xD;
+      replacement, stepped food reintroduction and structured support for long-term weight loss&#xD;
+      maintenance resulted in long-term T2D remission for almost half of the patients (Lean et al.,&#xD;
+      2018).&#xD;
+&#xD;
+      In Denmark T2D is primarily managed in general practice, but despite intensive focus on T2D,&#xD;
+      many patients are not treated optimally, nor do they follow the recommendations for healthy&#xD;
+      lifestyle (Bo A et al, 2018). The Danish Center for Strategic Research in T2D (DD2) was&#xD;
+      initiated in 2010 with the overall aim of improving the quality of care for newly diagnosed&#xD;
+      T2D patients. The DD2 data comprises biological samples, as well clinical, lifestyle and&#xD;
+      quality of life data (Christensen et al, 2018). As of May 2019, DD2 holds samples from over&#xD;
+      8,500 incident T2D patients. Based on the DD2 data, a model-intervention on individually&#xD;
+      tailored treatment of T2D was developed in 2013 and showed to be feasible in general practice&#xD;
+      (Stidsen et al, 2017).&#xD;
+&#xD;
+      Further researchers from the DICTA study group have found in a pilot study, a collaborative&#xD;
+      eHealth tool in a GP setting to induce weight loss among obese patients resulted in a 7 kg&#xD;
+      weight reduction, which was maintained over a 20-month period (Brandt et al., 2011) and a 5,4&#xD;
+      kg weight loss for T2D men after 12 months (Haste et al, 2017). This collaborative eHealth&#xD;
+      tool(LIVA) has been updated and refined on the basis of input from extensive interviews with&#xD;
+      patients, healthcare professionals, and GPs (Brandt 2018a, Brandt 2018b and Brandt 2018c) and&#xD;
+      is in use in several Danish municipalities with promising results (Komkova 2019).&#xD;
+&#xD;
+      The DICTA project received support from Steno Collaboratory Grants 2018 and 2019 developing a&#xD;
+      web-based platform for patient registered outcome measurements and lifestyle coaching in&#xD;
+      collaboration with Liva Healthcare a/s, Cambio Healthcare Systems A/S and CGM A/S. This&#xD;
+      platform is now integrated in the electronic healthcare record systems used by the majority&#xD;
+      of Danish GPs (XMO, CGM). The intervention will provide novel, data-driven, individualized&#xD;
+      support to GPs, and individualized digital data-driven lifestyle support to their T2D&#xD;
+      patients supported by AI (machine learning) and timely accessible to the GPs when relevant.&#xD;
+&#xD;
+      Aim&#xD;
+&#xD;
+      The aim of DICTA is to test the clinical and economic effects of the complex eHealth&#xD;
+      intervention in general practice targeting management of T2D patients in a RCT.&#xD;
+&#xD;
+      Design and methods&#xD;
+&#xD;
+      Design:&#xD;
+&#xD;
+      The DICTA project is using a multi-method research approach including questionnaires,&#xD;
+      interviews, analysis of clinical outcome and health costs and all included in DICTA. This&#xD;
+      trial will recruit T2D patients in a GPs in the Region of Southern Denmark and Region of&#xD;
+      Zealand, and specialists from Odense University Hospital and Holbaek Hospital will&#xD;
+      electronically supervise the pharmacological treatment and specialized health coaches will&#xD;
+      offer online support for lifestyle changes. To ensure access to longitudinal data the&#xD;
+      investigators are aiming to enroll patients from GPs that also enroll their T2D patients in&#xD;
+      DD2. This will establish a comprehensive and strong inter-institutional and cross-sectional&#xD;
+      collaboration with the aim to improve care provided by the GPs and the quality of life for&#xD;
+      patients, based both on pharmacological and non-pharmacological treatments.&#xD;
+&#xD;
+      The intervention:&#xD;
+&#xD;
+      Based on the investigators previous research and subsequently developed IT programs and&#xD;
+      platforms, the investigators have implemented a complex intervention in collaboration with&#xD;
+      Liva Healthcare A/S, CGM and Cambio Healthcare Systems A/S. The two core elements of the&#xD;
+      intervention are:&#xD;
+&#xD;
+        1. Individualized supervised treatment Patients from DD2 who agree to participate have&#xD;
+           already been offered advanced phenotyping. Based on the phenotyping and algorithms&#xD;
+           developed by the hospital specialists at Odense University Hospital and Holbæk Hospital&#xD;
+           in collaboration with GPs. The GPs will receive specific clinical decision support&#xD;
+           recommendations on what drugs to prescribe to each patient based on the phenotyping in&#xD;
+           accordance with a clinical decision support tool (Cambio).&#xD;
+&#xD;
+        2. Individual digital coaching of T2D patients As part of DICTA, the patients are offered a&#xD;
+           personal health coach (dietician, nurse, occupational therapist, or physiotherapist)&#xD;
+           through the collaborative eHealth tool (Liva), and receive personalized empathic,&#xD;
+           relation driven coaching on healthy lifestyle on the individual patient's own terms&#xD;
+           (e.g. increased physical activity, healthier diet, weight loss, smoking cessation,&#xD;
+           personal goal setting, tailored information, peer to peer support), including optimal&#xD;
+           pharmacological treatment (Komkova, 2019). The collaborative eHealth tool will give&#xD;
+           health coaches access to patient registered outcome measurements (PROM) and support&#xD;
+           individual intervention goals. This forms the basis of the individual coaching and is&#xD;
+           partly supported by artificial intelligence (AI) to improve the coaching by the health&#xD;
+           coaches. As an example, health coaches are notified when patterns of usage is related to&#xD;
+           reduced success rates in weight loss. Presentation of patient registered outcomes to GPs&#xD;
+           Patient registered outcome measurements (PROM) on physical activity, steps, diet goal&#xD;
+           fulfillment, smoking status etc., are being provided for GPs in a web-based solution&#xD;
+           integrated into the GPs' health record system XMO, CGM (covering 52% of all Danish GPs).&#xD;
+&#xD;
+      Method In this RCT the investigators will test the effect of a combined individualized&#xD;
+      lifestyle and pharmacological treatment intervention package among newly diagnosed T2D&#xD;
+      patients in a GP setting. The investigators will recruit GPs from DD2 practices and invite&#xD;
+      new GPs to DD2 in Denmark. At each GP appointment, all patients newly diagnosed with T2D will&#xD;
+      be informed about the study in writing and orally, and those who agree to participate will&#xD;
+      after committing to informed consent via an online questionnaire be randomized 1:1 to either&#xD;
+      intervention or control group, after relevant time to consider if they want to participate,&#xD;
+      typically within one to two weeks. Inclusion will start May 3, 2021 and the investigators&#xD;
+      expect to have included all 660 patients by May 1, 2022. The intervention group receives one&#xD;
+      year of individualized treatment (the intervention) in addition to usual care, while the&#xD;
+      control group receives usual care in the first year and then both individualized treatment&#xD;
+      and usual care in the second year. This design enables analysis of the effect of the&#xD;
+      intervention after the first year after May 1 2022. Both groups (intervention and control)&#xD;
+      will be seen by their GP at 3, 6, 9 and 12 months. No extra biological material will be&#xD;
+      collected in this study apart from what is collected as part of usual care and DD2.&#xD;
+&#xD;
+      Effect evaluation is displayed under outcome measures.&#xD;
+&#xD;
+      Sample size Based on our experience from the ongoing IDA trial the investigators expect that&#xD;
+      approximately 50% of the patients in the control group will meet the composite endpoint. With&#xD;
+      a minimal clinically relevant difference of 25%, at least 62.5% should meet the composite&#xD;
+      endpoint in the intervention group. With a power of 80% and a significance level of 5%, the&#xD;
+      investigators will need 250 patients in each group.&#xD;
+&#xD;
+      Statistical analysis The analyses will be performed by a statistician blinded to allocations.&#xD;
+      The primary analysis population will be the modified intention-to-treat population comprising&#xD;
+      those subjects with available data on the primary endpoint, i.e. those with completed&#xD;
+      12-month follow-up. Per-protocol analyses will be predefined in the protocol and/or&#xD;
+      statistical analysis plan before any analyses are initiated. To enable the identification of&#xD;
+      the per-protocol population, major protocol deviations will be predefined in the protocol. To&#xD;
+      support future hypotheses, several ad-hoc exploratory analyses will also be performed. In&#xD;
+      general, categorical variables will be summarized as n (%), continuous variables as min-max,&#xD;
+      mean(sd), and median, Q1, Q3. All summaries will be by randomization group. Kaplan-Meier&#xD;
+      curves will be used to estimate survival functions related to time-to-event endpoints e.g.&#xD;
+      admissions stratified by group. Regression analyses, linear, logistic, and Cox proportional&#xD;
+      hazards will be used as appropriate. The type of analysis will depend on the endpoint in&#xD;
+      question. Before release of the data for analyses, a detailed statistical analysis plan will&#xD;
+      be written, reviewed, and approved.&#xD;
+&#xD;
+      Economic evaluation&#xD;
+&#xD;
+      The investigators will expand the evaluation to encompass all outcomes in a full economic&#xD;
+      evaluation. Potential improvements in Quality Adjusted Life-Years (QALYs) will be the primary&#xD;
+      effect measure (using EQ-5D-5L). The evaluation will be conducted from a societal perspective&#xD;
+      and will include all measurable resource-use consequences, irrespective of sector. The&#xD;
+      investigators will focus on the cost of running and maintaining DICTA, the total cost of&#xD;
+      medication, the cost of general practice visits and the cost of hospital admissions. The&#xD;
+      economic evaluation will be conducted over the trial period in the first instance, with no&#xD;
+      extrapolation beyond the trial period. This will generate a conservative, but robust measure&#xD;
+      of outcomes.&#xD;
+&#xD;
+      Cost estimates will be based on registry analyses, where the relevant registries comprise:&#xD;
+      Danish National Patient Registry, National Danish Prescription Database, and the National&#xD;
+      Health Service Register. Moreover, the investigators will decipher whether there are job&#xD;
+      market participation implications (via Income Statistics). Statistics on the Elderly&#xD;
+      (&quot;Ældredokumentationen&quot;) will be used to identify potential implications on housing status&#xD;
+      (nursing home residency) and services received (e.g. home help services and rehabilitation&#xD;
+      services).&#xD;
+&#xD;
+      Data Management&#xD;
+&#xD;
+      Through a collaboration with OPEN data will be collected using the online services provided&#xD;
+      in RedCap. In RedCap a project-specific and secure database can be developed for use in&#xD;
+      DICTA. This allows online and safe data sampling from all participating GP sites, and ensures&#xD;
+      a data handling process in concordance with current data protection legislation. Furthermore,&#xD;
+      RedCap supports automated integration between the eHealth solution and the GP-collected data,&#xD;
+      thus enabling merging of all data into one database. GP data will be laboratory results in&#xD;
+      accordance with the outcome descriptions as well as laboratory results, diagnose codes and&#xD;
+      medicine prescriptions of relevance for the clinical decision support tool developed in&#xD;
+      collaboration with Cambio. All statistics will be conducted via the service &quot;OPEN analyze,&quot;&#xD;
+      placed on the same secure server as the project-specific OPEN database, or on the similarly&#xD;
+      protected research server at Statistics Denmark. A data management plan, including a protocol&#xD;
+      for access to and download of aggregated summaries and analysis results, will be available.&#xD;
+&#xD;
+      Dissemination of results&#xD;
+&#xD;
+      For the scientific dissemination, the investigators aim to publish in high-ranking scientific&#xD;
+      journals and present the data at scientific meetings, while at the same time pursuing the&#xD;
+      Science Europe principles on Open Access, ensuring the widest possible accessibility to the&#xD;
+      project outcomes.&#xD;
+&#xD;
+      Ethics&#xD;
+&#xD;
+      The overall assessment is that there are no risks of harm in project participation. Ethical&#xD;
+      permission will be obtained from the Danish Committee System on Health Research. Compliant to&#xD;
+      GDPR, written informed consent will be obtained from participants following an oral&#xD;
+      explanation of the project. Patient withdrawal from the study as well as the database can be&#xD;
+      done at any given time. All patient related data will be owned by SDCO. If ethical dilemmas&#xD;
+      should arise, experts at the involved institutions and ethical committees will be consulted.&#xD;
+      In case of disagreements, the PI decides about interpretation of data and on publication&#xD;
+      strategy.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 3, 2021</start_date>
+  <completion_date type="Anticipated">December 30, 2024</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in a binary indicator, composed by a composite endpoint of HbA1c, systolic blood pressure, low-density lipoprotein cholesterol, no smoking, and normal albuminuria</measure>
+    <time_frame>12 months</time_frame>
+    <description>HbA1c (+/- &lt;7.0% or &lt;53mmol/mole), systolic blood pressure (+/- &lt;140/80mmHg), low-density lipoprotein cholesterol (+/- &lt;2.5mmol/l or &lt;97mg/dl), +/- no smoking, and +/- normal albuminuria (+/- no micro- and no macroalbuminuria).&#xD;
+We expect most of the participants in the DICTA study to have 2-3 of the five risk factors. Therefore, our composite endpoint is the fraction of patients having none of these five risk factors or having reduced the number of risk factors by two or more after the 1-year intervention. We believe it is unrealistic to expect patients having 4-5 risk factors to eliminate them all after only one year of intervention.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change in HbA1c</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in mmol/mole as the number of persons with HbA1c less than 53 mmol/mole</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Numbers change in level of use of hypertension, hypercholesterolemic and glucose-lowering drugs</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of patients change in medication in accordance with the following guideline:&#xD;
+Increased:&#xD;
+increased dosage of known drug&#xD;
+adding extra drug&#xD;
+No change&#xD;
+same drug before and after&#xD;
+shift to another drug i.e. metformin to SGLT2 inhibitor or Victoza to Ozempic&#xD;
+Reduced:&#xD;
+reduced dosage of known drug&#xD;
+reducing number of drugs</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in quality of life measured by European Quality of life - 5 Dimensions - 5 level (EQ-5D-5L)</measure>
+    <time_frame>12 months</time_frame>
+    <description>The descriptive system comprises five dimensions: mobility, self-care, usual activities, pain/discomfort and anxiety/depression. Each dimension has 5 levels: no problems, slight problems, moderate problems, severe problems and extreme problems. The patient is asked to indicate his/her health state by ticking the box next to the most appropriate statement in each of the five dimensions. This decision results in a 1-digit number that expresses the level selected for that dimension. The digits for the five dimensions can be combined into a 5-digit number that describes the patient's health state.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in weight</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in kilograms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in abdominal circumference to hip circumference</measure>
+    <time_frame>12 months</time_frame>
+    <description>Ratio measured in centimeters to centimeters</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in physical activity measured through AX3</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in minutes of activity</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in systolic blood pressure</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in mmHg as the number of persons with less than 140 mmHg</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in low-density lipoprotein cholesterol</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in mmol/L and mg/dl as the number of persons with less than 2.5mmol/l or 97mg/dl</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in number of patients not smoking,</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured as the number of patients who do not smoke</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in level of albuminuria</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in urine albumin/creatinine ratio * 10-3 as as the number of persons with less than 30 *10-3</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in HbA1c</measure>
+    <time_frame>12 months</time_frame>
+    <description>Measured in mmol/mole as the number of persons with HbA1c less than 48 mmol/mole</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in quality of life measured by European Quality of life - EQ VAS</measure>
+    <time_frame>12 months</time_frame>
+    <description>The EQ VAS records the patient's self-rated health on a vertical visual analogue scale (0-100), where the endpoints are labelled 'The best health you can imagine' and 'The worst health you can imagine'. The VAS can be used as a quantitative measure of health outcome that reflect the patient's own judgement.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Diabetes type2</condition>
+  <arm_group>
+    <arm_group_label>The intervention group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The three core elements of the intervention are: 1) individualized data-driven recommendations to GPs on how to treat each individual T2D patient, as well as 2) individualized digital coaching of T2D patients, and 3) on-line presentation of patient registered outcomes (PRO) to GPs.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Usual care</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Clinical decision support</intervention_name>
+    <description>Based on the phenotyping and algorithms developed by the hospital specialists at Odense University Hospital and Holbæk Hospital in collaboration with GPs, the individual GPs and their patients will receive individualized recommendations on lifestyle interventions and pharmacological treatments.&#xD;
+The GPs will receive specific clinical decision support (CDS) recommendations on what drugs to prescribe to each patient based on the phenotyping in accordance with a clinical decision support tool (Cambio) and the updated guidelines at all times (Sparrow 2019). The treatment advice to the GPs will be adjusted annually based on treatment effect, re-phenotyping, and updated knowledge of the treatment of T2D. Furthermore, psychiatric, socioeconomic and/or cultural challenges and other determinants for frailty will be a part of the individualized intervention provided to patients by the GPs, again based on the specialist advice.</description>
+    <arm_group_label>The intervention group</arm_group_label>
+    <other_name>Individualized data-driven recommendations to GPs</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Digital Lifestyle Coaching</intervention_name>
+    <description>As part of DICTA, the patients are offered a personal health coach (dietician, nurse, occupational therapist, or physiotherapist) through the complex eHealth intervention (Liva). Patients will receive personalized empathic, relation driven coaching on healthy lifestyle on the individual patient's preferences (e.g. increased physical activity, healthier diet, weight loss, smoking cessation, personal goal setting, tailored information, peer to peer support), including optimal pharmacological treatment (Komkova 2019). The collaborative eHealth tool will give health coaches access to patient registered outcome measurements (PRO), information. This forms the basis of the individual coaching and is partly supported by artificial intelligence (AI) to improve the coaching by the health coaches (Holzinger 2016).</description>
+    <arm_group_label>The intervention group</arm_group_label>
+    <other_name>Individual digital coaching of T2D patients</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Integration to Standard Electronic Health Record</intervention_name>
+    <description>Data on physical activity, steps, diet goal fulfillment, smoking status etc., are being provided for GPs in a web-based solution integrated into the GPs' health record system. Integration with the GP system XMO (covering 52% of all Danish GPs) has been finalized.</description>
+    <arm_group_label>The intervention group</arm_group_label>
+    <other_name>Presentation of patient registered outcomes to GPs</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diabetes type 2 in up to 10 years&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Fails to complete the initial questionnaire&#xD;
+&#xD;
+          -  No Internet access in own home through computer or smart phone&#xD;
+&#xD;
+          -  Is pregnant or actively trying to get pregnant&#xD;
+&#xD;
+          -  Has a serious or life-threatening disease&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jens H Søndergaard</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Southern Denmark</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Carl J Brandt, PhD</last_name>
+    <phone>+45 2014 1566</phone>
+    <email>cbrandt@health.sdu.dk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Michael Olesen, Prof.</last_name>
+    <phone>+45 6550 3830</phone>
+    <email>michael.olsen@dadlnet.dk</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Bo A, Thomsen RW, Nielsen JS, Nicolaisen SK, Beck-Nielsen H, Rungby J, Sørensen HT, Hansen TK, Søndergaard J, Friborg S, Lauritzen T, Maindal HT. Early-onset type 2 diabetes: Age gradient in clinical and behavioural risk factors in 5115 persons with newly diagnosed type 2 diabetes-Results from the DD2 study. Diabetes Metab Res Rev. 2018 Mar;34(3). doi: 10.1002/dmrr.2968. Epub 2017 Dec 21.</citation>
+    <PMID>29172021</PMID>
+  </reference>
+  <reference>
+    <citation>Lean MEJ, Leslie WS, Barnes AC, Brosnahan N, Thom G, McCombie L, Peters C, Zhyzhneuskaya S, Al-Mrabeh A, Hollingsworth KG, Rodrigues AM, Rehackova L, Adamson AJ, Sniehotta FF, Mathers JC, Ross HM, McIlvenna Y, Welsh P, Kean S, Ford I, McConnachie A, Messow CM, Sattar N, Taylor R. Durability of a primary care-led weight-management intervention for remission of type 2 diabetes: 2-year results of the DiRECT open-label, cluster-randomised trial. Lancet Diabetes Endocrinol. 2019 May;7(5):344-355. doi: 10.1016/S2213-8587(19)30068-3. Epub 2019 Mar 6.</citation>
+    <PMID>30852132</PMID>
+  </reference>
+  <reference>
+    <citation>Christensen DH, Nicolaisen SK, Berencsi K, Beck-Nielsen H, Rungby J, Friborg S, Brandslund I, Christiansen JS, Vaag A, Sørensen HT, Nielsen JS, Thomsen RW. Danish Centre for Strategic Research in Type 2 Diabetes (DD2) project cohort of newly diagnosed patients with type 2 diabetes: a cohort profile. BMJ Open. 2018 Apr 7;8(4):e017273. doi: 10.1136/bmjopen-2017-017273.</citation>
+    <PMID>29627803</PMID>
+  </reference>
+  <reference>
+    <citation>Stidsen JV, Nielsen JS, Henriksen JE, Friborg SG, Thomsen RW, Olesen TB, Olsen MH, Beck-Nielsen H. Protocol for the specialist supervised individualised multifactorial treatment of new clinically diagnosed type 2 diabetes in general practice (IDA): a prospective controlled multicentre open-label intervention study. BMJ Open. 2017 Dec 10;7(12):e017493. doi: 10.1136/bmjopen-2017-017493.</citation>
+    <PMID>29229652</PMID>
+  </reference>
+  <reference>
+    <citation>Brandt V, Brandt CJ, Glintborg D, Arendal C, Toubro S, Brandt K Sustained Weight Loss during 20 Months using a Personalized Interactive Internet Based Dietician Advice Program in a General Practice Setting, International Journal on Advances in Life Sciences, vol 3 no 1 &amp; 2, year 2011,</citation>
+  </reference>
+  <reference>
+    <citation>Haste A, Adamson AJ, McColl E, Araujo-Soares V, Bell R. Web-Based Weight Loss Intervention for Men With Type 2 Diabetes: Pilot Randomized Controlled Trial. JMIR Diabetes. 2017 Jul 7;2(2):e14. doi: 10.2196/diabetes.7430.</citation>
+    <PMID>30291100</PMID>
+  </reference>
+  <reference>
+    <citation>Brandt CJ, Clemensen J, Nielsen JB, Søndergaard J. Drivers for successful long-term lifestyle change, the role of e-health: a qualitative interview study. BMJ Open. 2018 Mar 12;8(3):e017466. doi: 10.1136/bmjopen-2017-017466.</citation>
+    <PMID>29530904</PMID>
+  </reference>
+  <reference>
+    <citation>Brandt CJ, Søgaard GI, Clemensen J, Sndergaard J, Nielsen JB. General Practitioners' Perspective on eHealth and Lifestyle Change: Qualitative Interview Study. JMIR Mhealth Uhealth. 2018 Apr 17;6(4):e88. doi: 10.2196/mhealth.8988.</citation>
+    <PMID>29666045</PMID>
+  </reference>
+  <reference>
+    <citation>Brandt CJ, Søgaard GI, Clemensen J, Søndergaard J, Nielsen JB. Determinants of Successful eHealth Coaching for Consumer Lifestyle Changes: Qualitative Interview Study Among Health Care Professionals. J Med Internet Res. 2018 Jul 5;20(7):e237. doi: 10.2196/jmir.9791.</citation>
+    <PMID>29980496</PMID>
+  </reference>
+  <reference>
+    <citation>Komkova A, Brandt CJ, Hansen Pedersen D, Emneus M, Sortsø C. Electronic Health Lifestyle Coaching Among Diabetes Patients in a Real-Life Municipality Setting: Observational Study. JMIR Diabetes. 2019 Mar 12;4(1):e12140. doi: 10.2196/12140.</citation>
+    <PMID>30860486</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 15, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 10, 2021</study_first_posted>
+  <last_update_submitted>May 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>diabetes type 2 management</keyword>
+  <keyword>digital behavioral coaching</keyword>
+  <keyword>lifestyle change</keyword>
+  <keyword>health behavior change</keyword>
+  <keyword>weight loss</keyword>
+  <keyword>interactive advice</keyword>
+  <keyword>participant engagement</keyword>
+  <keyword>quality of life</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetes Mellitus, Type 2</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Anonymized participant data will be made accessible after end of study.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>All data will become available when published starting july of 2022 and to be held accessible until January 2030</ipd_time_frame>
+    <ipd_access_criteria>Accessible partly on the website and partly upon request to the PI</ipd_access_criteria>
+    <ipd_url>http://www.dicta.dk</ipd_url>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

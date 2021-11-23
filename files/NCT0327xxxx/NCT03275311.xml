@@ -1,0 +1,605 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03275311</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ESMEMBC</org_study_id>
+    <nct_id>NCT03275311</nct_id>
+  </id_info>
+  <brief_title>Evolution of the Therapeutic Care in Metastatic Breast Cancer From 2008</brief_title>
+  <acronym>ESME-MBC</acronym>
+  <official_title>Epidemiological Strategy and Medical Economic (ESME) Research Program / Academic Real World Data Platform: Evolution of the Therapeutic Care in Metastatic Breast Cancer Across the French Comprehensive Cancer Centers From 2008</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>UNICANCER</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Roche Pharma AG</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Pierre Fabre Laboratories</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Pfizer</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>AstraZeneca</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>UNICANCER</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The Epidemiological Strategy and Medical Economic (ESME) Ovarian cancer Data Platform is a&#xD;
+      multi-center real life database using a retrospective data collection process (18 FCCCs over&#xD;
+      20 sites). This database compiles data from Patient's Electronic medical records (EMR),&#xD;
+      inpatient Hospitalisation records and Pharmacy records.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This database compiles data from Patient's Electronic medical records (EMR), inpatient&#xD;
+      Hospitalisation records and Pharmacy records.&#xD;
+&#xD;
+      Patient Database: Patient-related data integrates data from non-structured sources&#xD;
+      (electronic medical records), such as patient medical records and reports of multidiscipline&#xD;
+      team meetings. It can provide information on patient demographics, primitive tumour,&#xD;
+      relapses, pathology reports, metastatic disease, therapeutic care/settings and withdrawal&#xD;
+      reasons when applicable, and clinical events.&#xD;
+&#xD;
+      Treatment Database: Pharmacy records-related data is a structured database including all data&#xD;
+      pertaining to medications prescribed and dispensed by pharmacies within each French&#xD;
+      Comprehensive Cancer Centers (FCCC), specifically chemotherapy and co-prescriptions. It does&#xD;
+      not contain information on products that are prescribed or delivered outside of the center.&#xD;
+      From each center's pharmacy database, information on systemic treatment patterns (dates,&#xD;
+      pharmaceutical forms, treatment protocols, etc.) can be obtained.&#xD;
+&#xD;
+      Hospitalization Database: Hospitalisation-related data is a structured and systematic&#xD;
+      database that contains all medical data reported related to any hospitalisation in the FCCC,&#xD;
+      and is used to bill the French National Health Insurance Fund (Assurance Maladie). It&#xD;
+      provides information on patient entry and discharge dates as well as diagnostic and&#xD;
+      therapeutic procedures performed, including radiotherapy and surgery.&#xD;
+&#xD;
+      Data imported into the final database are controlled, recoded, and harmonized before import&#xD;
+      according to a data management plan. All coding procedures are predefined by the data&#xD;
+      manager. There is no transmission of individual data; all data are centralized within each&#xD;
+      center using a shared anonymous format. All data are exclusively obtained retrospectively; no&#xD;
+      attempts are made to recover non available data from the patient's medical record by&#xD;
+      contacting healthcare providers or patients.&#xD;
+&#xD;
+      ESME MBC Data Platform aims to be a clinical and therapeutic database centralising existing&#xD;
+      and available data from different sources used in the FCCCs.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 27, 2014</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Describe the evolution of therapeutic care</measure>
+    <time_frame>baseline</time_frame>
+    <description>Patient characteristics, tumor characteristics and treatment patterns</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Describe the impact of therapeutic strategies on survival criteria</measure>
+    <time_frame>From date of diagnosis or first treatment until the date of date of death from any cause. Follow up until 2020.</time_frame>
+    <description>Overall survival</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Describe the impact of therapeutic strategies on survival criteria</measure>
+    <time_frame>From date of diagnosis or first treatment until the date of first documented progression or date of death from any cause. Follow up until 2020.</time_frame>
+    <description>Progression free survival</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">30000</enrollment>
+  <condition>Metastatic Breast Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All consecutive patients treated for a metastatic breast cancer in a French Comprehensive&#xD;
+        Cancer Center over the selection period.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria :&#xD;
+&#xD;
+          -  18 years old patient&#xD;
+&#xD;
+          -  Patient receiving chemotherapy, targeted therapy, immunotherapy, radiation therapy and&#xD;
+             hormonotherapy in a French Comprehensive Cancer Center.&#xD;
+&#xD;
+        Exclusion criteria : None&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mathieu Robain, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>UNICANCER</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mathieu Robain, MD, PhD</last_name>
+    <email>m-robain@unicancer.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Gaëtane Simon, Msc</last_name>
+    <email>g-simon@unicancer.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Institut de Cancérologie de l'Ouest - Paul Papin</name>
+      <address>
+        <city>Angers</city>
+        <zip>49933</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Geneviève PERROCHEAU</last_name>
+      <phone>+33 2 40 67 99 77</phone>
+      <email>genevieve.perrocheau@ico.unicancer.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Loïc CAMPION</last_name>
+      <email>loic.campion@ico.unicancer.fr</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Bergonié</name>
+      <address>
+        <city>Bordeaux</city>
+        <zip>33076</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anne JAFFRE</last_name>
+      <phone>+33 5 56 33 78 48</phone>
+      <email>a.jaffre@bordeaux.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre François Baclesse</name>
+      <address>
+        <city>Caen</city>
+        <zip>14076</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anne-Valérie GUIZARD</last_name>
+      <phone>+33 2 31 45 52 45</phone>
+      <email>av.guizard@baclesse.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Jean Perrin</name>
+      <address>
+        <city>Clermont-ferrand</city>
+        <zip>63011</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marie-Ange MOURET-REYNIER</last_name>
+      <phone>+33 4 73 27 81 37</phone>
+      <email>marie-ange.mouret-reynier@clermont.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Georges-François Leclerc</name>
+      <address>
+        <city>Dijon</city>
+        <zip>21079</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sandrine DABAYUKO</last_name>
+      <phone>+33 45 34 80 67</phone>
+      <email>SDabakuyo@cgfl.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Oscar Lambret</name>
+      <address>
+        <city>Lille</city>
+        <zip>59020</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marie-paule LEBITASY</last_name>
+      <phone>+33 3 20 29 55 60</phone>
+      <email>m-lebitasy@o-lambret.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Léon Bérard</name>
+      <address>
+        <city>Lyon</city>
+        <zip>69373</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Thomas BACHELOT</last_name>
+      <phone>+33 4 78 78 26 54</phone>
+      <email>thomas.bachelot@lyon.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Paoli-Calmettes</name>
+      <address>
+        <city>Marseille</city>
+        <zip>13273</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lilian LABORDE</last_name>
+      <phone>+33 4 91 22 35 10</phone>
+      <email>LABORDEL@ipc.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut régional du Cancer Montpellier / Val d'Aurelle</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34298</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stéphanie DELAINE</last_name>
+      <phone>+33 4 67 61 47 39</phone>
+      <email>Stephanie.delaine@icm.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut de Cancérologie de Lorraine</name>
+      <address>
+        <city>Nancy</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carine LAURENT</last_name>
+      <phone>+33 3 83 59 83 32</phone>
+      <email>c.laurent@nancy.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut de cancérologie de l'Ouest - René Gauducheau</name>
+      <address>
+        <city>Nantes</city>
+        <zip>44805</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Geneviève PERROCHEAU</last_name>
+      <phone>+33 2 40 67 99 77</phone>
+      <email>genevieve.perrocheau@ico.unicancer.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Loïc CAMPION</last_name>
+      <email>loic.campion@ico.unicancer.fr</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Antoine Lacassagne</name>
+      <address>
+        <city>Nice</city>
+        <zip>06189</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Emmanuel CHAMOREY</last_name>
+      <phone>+33 4 92 03 15 29</phone>
+      <email>emmanuel.chamorey@nice.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Curie</name>
+      <address>
+        <city>Paris</city>
+        <zip>75005</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Etienne BRAIN</last_name>
+      <email>etienne.brain@curie.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Jean Godinot</name>
+      <address>
+        <city>Reims</city>
+        <zip>51056</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Damien PARENT</last_name>
+      <phone>+33 3 26 50 42 76</phone>
+      <email>damien.parent@reims.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Eugène Marquis</name>
+      <address>
+        <city>Rennes</city>
+        <zip>35042</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mathias BRETON</last_name>
+      <phone>+33 2 99 25 32 67</phone>
+      <email>m.breton@rennes.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Henri Becquerel</name>
+      <address>
+        <city>Rouen</city>
+        <zip>76038</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Agnès LOEB</last_name>
+      <phone>+33 2 32 08 22 80</phone>
+      <email>agnes.loeb@chb.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Curie - Hôpital René Huguenin</name>
+      <address>
+        <city>Saint-Cloud</city>
+        <zip>92210</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Etienne BRAIN</last_name>
+      <phone>+33 1 47 11 15 15</phone>
+      <email>etienne.brain@curie.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centre Paul Strauss</name>
+      <address>
+        <city>Strasbourg</city>
+        <zip>67065</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michel VELTEN</last_name>
+      <phone>+33 3 88 25 24 53</phone>
+      <email>mvelten@strasbourg.unicancer.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Claudius Regaud</name>
+      <address>
+        <city>Toulouse</city>
+        <zip>31059</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Delphine BERCHERY</last_name>
+      <phone>05 31 15 50 60</phone>
+      <email>Berchery.Delphine@iuct-oncopole.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Institut Gustave Roussy</name>
+      <address>
+        <city>Villejuif</city>
+        <zip>94805</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Valérie DEJEAN</last_name>
+      <phone>+33 1 42 11 46 49</phone>
+      <email>valerie.dejean@gustaveroussy.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Heudel P, Delaloge S, Parent D, Madranges N, Levy C, Dalenc F, Brain E, Uwer L, D'Hondt V, Augereau P, Mailliez A, Perrin C, Frenel JS, Sablin MP, Mouret-Reynier MA, Vermeulin T, Eymard JC, Petit T, Ferrero JM, Ilie S, Goncalves A, Chenuc G, Robain M, Simon G, Perol D. Real-world Evaluation of Oral Vinorelbine in the Treatment of Metastatic Breast Cancer: An ESME-MBC Study. Anticancer Res. 2020 Jul;40(7):3905-3913. doi: 10.21873/anticanres.14381.</citation>
+    <PMID>32620631</PMID>
+  </reference>
+  <reference>
+    <citation>Pasquier D, Darlix A, Louvel G, Fraisse J, Jacot W, Brain E, Petit A, Mouret-Reynier MA, Goncalves A, Dalenc F, Deluche E, Fresnel JS, Augereau P, Ferrero JM, Geffrelot J, Fumet JD, Lecouillard I, Cottu P, Petit T, Uwer L, Jouannaud C, Leheurteur M, Dieras V, Robain M, Mouttet-Audouard R, Bachelot T, Courtinard C. Treatment and outcomes in patients with central nervous system metastases from breast cancer in the real-life ESME MBC cohort. Eur J Cancer. 2020 Jan;125:22-30. doi: 10.1016/j.ejca.2019.11.001. Epub 2019 Dec 10.</citation>
+    <PMID>31835235</PMID>
+  </reference>
+  <reference>
+    <citation>Pons-Tostivint E, Kirova Y, Lusque A, Campone M, Geffrelot J, Rivera S, Mailliez A, Pasquier D, Madranges N, Firmin N, Crouzet A, Gonçalves A, Jankowski C, De La Motte Rouge T, Pouget N, De La Lande B, Mouttet-Boizat D, Ferrero JM, Uwer L, Eymard JC, Mouret-Reynier MA, Petit T, Courtinard C, Filleron T, Robain M, Dalenc F. Radiation therapy to the primary tumor for de novo metastatic breast cancer and overall survival in a retrospective multicenter cohort analysis. Radiother Oncol. 2020 Apr;145:109-116. doi: 10.1016/j.radonc.2019.12.019. Epub 2020 Jan 10.</citation>
+    <PMID>31931289</PMID>
+  </reference>
+  <reference>
+    <citation>Saleh K, Carton M, Dieras V, Heudel PE, Brain E, D'Hondt V, Mailliez A, Patsouris A, Mouret-Reynier MA, Goncalves A, Ferrero JM, Petit T, Emile G, Uwer L, Debled M, Dalenc F, Jouannaud C, Ladoire S, Leheurteur M, Cottu P, Veron L, Savignoni A, Courtinard C, Robain M, Delaloge S, Deluche E. Impact of body mass index on overall survival in patients with metastatic breast cancer. Breast. 2021 Feb;55:16-24. doi: 10.1016/j.breast.2020.11.014. Epub 2020 Dec 1.</citation>
+    <PMID>33307392</PMID>
+  </reference>
+  <reference>
+    <citation>Sirieix J, Fraisse J, Mathoulin-Pelissier S, Leheurteur M, Vanlemmens L, Jouannaud C, Diéras V, Lévy C, Ung M, Mouret-Reynier MA, Petit T, Coudert B, Brain E, Pistilli B, Ferrero JM, Goncalves A, Uwer L, Patsouris A, Tredan O, Courtinard C, Gourgou S, Frénel JS. Management and outcome of male metastatic breast cancer in the national multicenter observational research program Epidemiological Strategy and Medical Economics (ESME). Ther Adv Med Oncol. 2020 Dec 23;12:1758835920980548. doi: 10.1177/1758835920980548. eCollection 2020.</citation>
+    <PMID>33488779</PMID>
+  </reference>
+  <reference>
+    <citation>Bertho M, Fraisse J, Patsouris A, Cottu P, Arnedos M, Pérol D, Jaffré A, Goncalves A, Lebitasy MP, D'Hondt V, Dalenc F, Ferrero JM, Levy C, Dabakuyo S, Rouzier R, Penault-Llorca F, Uwer L, Eymard JC, Breton M, Chevrot M, Thureau S, Petit T, Simon G, Frénel JS. Real-life prognosis of 5041 bone-only metastatic breast cancer patients in the multicenter national observational ESME program. Ther Adv Med Oncol. 2021 Jan 21;13:1758835920987657. doi: 10.1177/1758835920987657. eCollection 2021.</citation>
+    <PMID>33613700</PMID>
+  </reference>
+  <reference>
+    <citation>Cabel L, Carton M, Pistilli B, Dalenc F, Vanlemnens L, Levy C, Jacot W, Debled M, Loeb A, Hennequin A, De la Motte Rouge T, Laborde L, Laurent C, Chamorey E, Parent D, Petit T, Mouret-Reynier MA, Campone M, Perrocheau G, Labreveux C, Bachelot T, Robain M, Lerebours F. Outcome beyond third-line chemotherapy for metastatic triple-negative breast cancer in the French ESME program. Breast. 2021 Apr;56:18-25. doi: 10.1016/j.breast.2021.01.006. Epub 2021 Jan 30.</citation>
+    <PMID>33561617</PMID>
+  </reference>
+  <reference>
+    <citation>Hotton J, Lusque A, Leufflen L, Campone M, Levy C, Honart JF, Mailliez A, Debled M, Gutowski M, Leheurteur M, Gonçalves A, Jankowski C, Guillermet S, Bachelot T, Ferrero JM, Eymard JC, Petit T, Pouget N, de La Lande B, Frenel JS, Villacroux O, Simon G, Pons-Tostivint E, Marchal F. Early Locoregional Breast Surgery and Survival in de novo Metastatic Breast Cancer in the Multicenter National ESME Cohort. Ann Surg. 2021 Feb 1. doi: 10.1097/SLA.0000000000004767. [Epub ahead of print]</citation>
+    <PMID>33534229</PMID>
+  </reference>
+  <results_reference>
+    <citation>Delaloge S, Pérol D, Courtinard C, Brain E, Asselain B, Bachelot T, Debled M, Dieras V, Campone M, Levy C, Jacot W, Lorgis V, Veyret C, Dalenc F, Ferrero JM, Uwer L, Kerbrat P, Goncalves A, Mouret-Reynier MA, Petit T, Jouannaud C, Vanlemmens L, Chenuc G, Guesmia T, Robain M, Cailliot C. Paclitaxel plus bevacizumab or paclitaxel as first-line treatment for HER2-negative metastatic breast cancer in a multicenter national observational study. Ann Oncol. 2016 Sep;27(9):1725-32. doi: 10.1093/annonc/mdw260. Epub 2016 Jul 19.</citation>
+    <PMID>27436849</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Jacquet E, Lardy-Cléaud A, Pistilli B, Franck S, Cottu P, Delaloge S, Debled M, Vanlemmens L, Leheurteur M, Guizard AV, Laborde L, Uwer L, Jacot W, Berchery D, Desmoulins I, Ferrero JM, Perrocheau G, Courtinard C, Brain E, Chabaud S, Robain M, Bachelot T. Endocrine therapy or chemotherapy as first-line therapy in hormone receptor-positive HER2-negative metastatic breast cancer patients. Eur J Cancer. 2018 May;95:93-101. doi: 10.1016/j.ejca.2018.03.013. Epub 2018 Apr 11.</citation>
+    <PMID>29655061</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gobbini E, Ezzalfani M, Dieras V, Bachelot T, Brain E, Debled M, Jacot W, Mouret-Reynier MA, Goncalves A, Dalenc F, Patsouris A, Ferrero JM, Levy C, Lorgis V, Vanlemmens L, Lefeuvre-Plesse C, Mathoulin-Pelissier S, Petit T, Uwer L, Jouannaud C, Leheurteur M, Lacroix-Triki M, Cleaud AL, Robain M, Courtinard C, Cailliot C, Perol D, Delaloge S. Time trends of overall survival among metastatic breast cancer patients in the real-life ESME cohort. Eur J Cancer. 2018 Jun;96:17-24. doi: 10.1016/j.ejca.2018.03.015. Epub 2018 Apr 13.</citation>
+    <PMID>29660596</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Cabel L, Carton M, Cheaib B, Pierga JY, Dalenc F, Mailliez A, Levy C, Jacot W, Debled M, Leheurteur M, Desmoulins I, Lefeuvre C, Gonçalves A, Uwer L, Ferrero JM, Eymard JC, Petit T, Mouret-Reynier MA, Perrocheau G, Piot I, Pérol D, Simon G, Lerebours F. Oral etoposide in heavily pre-treated metastatic breast cancer: results from the ESME cohort and comparison with other chemotherapy regimens. Breast Cancer Res Treat. 2019 Jan;173(2):397-406. doi: 10.1007/s10549-018-5017-2. Epub 2018 Oct 24.</citation>
+    <PMID>30357526</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pons-Tostivint E, Kirova Y, Lusque A, Campone M, Geffrelot J, Mazouni C, Mailliez A, Pasquier D, Madranges N, Firmin N, Crouzet A, Gonçalves A, Jankowski C, De La Motte Rouge T, Pouget N, de La Lande B, Mouttet-Boizat D, Ferrero JM, Uwer L, Eymard JC, Mouret-Reynier MA, Petit T, Robain M, Filleron T, Cailliot C, Dalenc F. Survival Impact of Locoregional Treatment of the Primary Tumor in De Novo Metastatic Breast Cancers in a Large Multicentric Cohort Study: A Propensity Score-Matched Analysis. Ann Surg Oncol. 2019 Feb;26(2):356-365. doi: 10.1245/s10434-018-6831-9. Epub 2018 Dec 11.</citation>
+    <PMID>30539492</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Delaloge S, Pérol D, Robain M, Cailliot C. Reply to 'The potential and perils of observational studies' by M. Buyse et al. Ann Oncol. 2017 Feb 1;28(2):436-437. doi: 10.1093/annonc/mdw572.</citation>
+    <PMID>27831508</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pérol D, Robain M, Delaloge S, Cailliot C. Routinely collected data may usefully supplement randomised controlled data on treatment effects for mortality. BMJ. 2016 Dec 16;355:i6745. doi: 10.1136/bmj.i6745.</citation>
+    <PMID>27986716</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Petitjean A, Smith-Palmer J, Valentine W, Tehard B, Roze S. Cost-effectiveness of bevacizumab plus paclitaxel versus paclitaxel for the first-line treatment of HER2-negative metastatic breast cancer in specialist oncology centers in France. BMC Cancer. 2019 Feb 11;19(1):140. doi: 10.1186/s12885-019-5335-8.</citation>
+    <PMID>30744578</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pérol D, Robain M, Arveux P, Mathoulin-Pélissier S, Chamorey E, Asselain B, Berchery D, Gourgou S, Breton M, Delaine-Clisant S, Mons M, Diéras V, Carton M, Guizard AV, Laborde L, Laurent C, Loeb A, Mouret-Reynier MA, Parent D, Perrocheau G, Campion L, Velten M, Cailliot C, Ezzalfani M, Simon G. The ongoing French metastatic breast cancer (MBC) cohort: the example-based methodology of the Epidemiological Strategy and Medical Economics (ESME). BMJ Open. 2019 Feb 21;9(2):e023568. doi: 10.1136/bmjopen-2018-023568.</citation>
+    <PMID>30796119</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Jacot W, Heudel PE, Fraisse J, Gourgou S, Guiu S, Dalenc F, Pistilli B, Campone M, Levy C, Debled M, Leheurteur M, Chaix M, Lefeuvre C, Goncalves A, Uwer L, Ferrero JM, Eymard JC, Petit T, Mouret-Reynier MA, Courtinard C, Cottu P, Robain M, Mailliez A. Real-life activity of eribulin mesylate among metastatic breast cancer patients in the multicenter national observational ESME program. Int J Cancer. 2019 Dec 15;145(12):3359-3369. doi: 10.1002/ijc.32402. Epub 2019 Jun 20.</citation>
+    <PMID>31087564</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Le Saux O, Lardy-Cleaud A, Frank S, Debled M, Cottu PH, Pistilli B, Vanlemmens L, Leheurteur M, Lévy C, Laborde L, Uwer L, D'hondt V, Berchery D, Lorgis V, Ferrero JM, Perrocheau G, Courtinard C, Mouret-Reynier MA, Velten M, Breton M, Parent D, Chabaud S, Robain M, Bachelot T. Assessment of the efficacy of successive endocrine therapies in hormone receptor-positive and HER2-negative metastatic breast cancer: a real-life multicentre national study. Eur J Cancer. 2019 Sep;118:131-141. doi: 10.1016/j.ejca.2019.06.014. Epub 2019 Jul 19.</citation>
+    <PMID>31330488</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gougis P, Carton M, Tchokothe C, Campone M, Dalenc F, Mailliez A, Levy C, Jacot W, Debled M, Leheurteur M, Bachelot T, Hennequin A, Perrin C, Gonçalves A, Uwer L, Eymard JC, Petit T, Mouret-Reynier MA, Chamorey E, Simon G, Saghatchian M, Cailliot C, Le Tourneau C. CinéBreast-factors influencing the time to first metastatic recurrence in breast cancer: Analysis of real-life data from the French ESME MBC database. Breast. 2020 Feb;49:17-24. doi: 10.1016/j.breast.2019.10.004. Epub 2019 Oct 19.</citation>
+    <PMID>31675683</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Darlix A, Louvel G, Fraisse J, Jacot W, Brain E, Debled M, Mouret-Reynier MA, Goncalves A, Dalenc F, Delaloge S, Campone M, Augereau P, Ferrero JM, Levy C, Fumet JD, Lecouillard I, Cottu P, Petit T, Uwer L, Jouannaud C, Leheurteur M, Dieras V, Robain M, Chevrot M, Pasquier D, Bachelot T. Impact of breast cancer molecular subtypes on the incidence, kinetics and prognosis of central nervous system metastases in a large multicentre real-life cohort. Br J Cancer. 2019 Dec;121(12):991-1000. doi: 10.1038/s41416-019-0619-y. Epub 2019 Nov 13.</citation>
+    <PMID>31719684</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Deluche E, Antoine A, Bachelot T, Lardy-Cleaud A, Dieras V, Brain E, Debled M, Jacot W, Mouret-Reynier MA, Goncalves A, Dalenc F, Patsouris A, Ferrero JM, Levy C, Lorgis V, Vanlemmens L, Lefeuvre-Plesse C, Mathoulin-Pelissier S, Petit T, Uwer L, Jouannaud C, Leheurteur M, Lacroix-Triki M, Courtinard C, Perol D, Robain M, Delaloge S. Contemporary outcomes of metastatic breast cancer among 22,000 women from the multicentre ESME cohort 2008-2016. Eur J Cancer. 2020 Apr;129:60-70. doi: 10.1016/j.ejca.2020.01.016. Epub 2020 Mar 2.</citation>
+    <PMID>32135312</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Frasca M, Sabathe C, Delaloge S, Galvin A, Patsouris A, Levy C, Mouret-Reynier MA, Desmoulins I, Vanlemmens L, Bachelot T, Goncalves A, Perotin V, Uwer L, Frenel JS, Ferrero JM, Bouleuc C, Eymard JC, Dieras V, Leheurteur M, Petit T, Dalenc F, Jaffre A, Chevrot M, Courtinard C, Mathoulin-Pelissier S. Palliative care delivery according to age in 12,000 women with metastatic breast cancer: Analysis in the multicentre ESME-MBC cohort 2008-2016. Eur J Cancer. 2020 Sep;137:240-249. doi: 10.1016/j.ejca.2020.07.007. Epub 2020 Aug 14.</citation>
+    <PMID>32805641</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Frank S, Carton M, Dubot C, Campone M, Pistilli B, Dalenc F, Mailliez A, Levy C, D'Hondt V, Debled M, Vermeulin T, Coudert B, Perrin C, Gonçalves A, Uwer L, Ferrero JM, Eymard JC, Petit T, Mouret-Reynier MA, Patsouris A, Guesmia T, Bachelot T, Robain M, Cottu P. Impact of age at diagnosis of metastatic breast cancer on overall survival in the real-life ESME metastatic breast cancer cohort. Breast. 2020 Aug;52:50-57. doi: 10.1016/j.breast.2020.04.009. Epub 2020 Apr 23.</citation>
+    <PMID>32380440</PMID>
+  </results_reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>June 27, 2017</study_first_submitted>
+  <study_first_submitted_qc>September 5, 2017</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 7, 2017</study_first_posted>
+  <last_update_submitted>March 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 25, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>metastatic breast cancer</keyword>
+  <keyword>observational study</keyword>
+  <keyword>survival</keyword>
+  <keyword>real world data</keyword>
+  <keyword>real life setting</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

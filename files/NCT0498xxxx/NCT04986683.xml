@@ -1,0 +1,293 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04986683</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Pediatric epilepsy DWI</org_study_id>
+    <nct_id>NCT04986683</nct_id>
+  </id_info>
+  <brief_title>Diffusion MRI Methods to Minimize Postoperative Deficits in Pediatric Epilepsy Surgery</brief_title>
+  <official_title>Novel DWI Methods to Minimize Postoperative Deficits in Pediatric Epilepsy Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Wayne State University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institutes of Health (NIH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Wayne State University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project will test the accuracy of a novel diffusion-weighted magnetic resonance imaging&#xD;
+      (DWMRI) approach using a deep convolutional neural network (DCNN) to predict an optimal&#xD;
+      resection margin for pediatric epilepsy surgery objectively. Its primary goal is to minimize&#xD;
+      surgical risk probability (i.e., functional deficit) and maximize surgical benefit&#xD;
+      probability (i.e., seizure freedom) by precisely localizing eloquent white matter pathways in&#xD;
+      children and adolescents with drug-resistant focal epilepsy. This new imaging approach, which&#xD;
+      will acquire a DWMRI scan before pediatric epilepsy surgery in about 10 minutes without&#xD;
+      contrast administration (and also without sedation even in young children), can be readily&#xD;
+      applied to improve preoperative benefit-risk evaluation for pediatric epilepsy surgery in the&#xD;
+      future. The investigators will also study how the advanced DWMRI-DCNN connectome approach can&#xD;
+      detect complex signs of brain neuronal reorganization that help improve neurological and&#xD;
+      cognitive outcomes following pediatric epilepsy surgery. This new imaging approach could&#xD;
+      benefit targeted interventions in the future to minimize neurocognitive deficits in affected&#xD;
+      children. All enrolled subjects will undergo advanced brain MRI and neurocognitive evaluation&#xD;
+      to achieve these goals. The findings of this project will not guide any clinical&#xD;
+      decision-making or clinical intervention until the studied approach is thoroughly validated.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This project will combine advanced brain MRI with detailed neuro-psychology evaluation,&#xD;
+      performed in children and adolescents affected by drug-resistant focal epilepsy, to address&#xD;
+      two main aims, each of them with the following research hypotheses:&#xD;
+&#xD;
+      AIM 1. To determine the accuracy of deep learning tractography-based benefit-risk analysis&#xD;
+      compared to a standard electrical stimulation mapping (ESM) which is the current clinical&#xD;
+      standard for detecting eloquent cortical regions before epilepsy surgery.&#xD;
+&#xD;
+      Hypothesis 1.1 In healthy controls, DCNN-based tract classification will localize eloquent&#xD;
+      cortices, which are significantly overlapped at both single shell DWI acquisition and&#xD;
+      generalized Q-sampling imaging, suggesting that the accuracy of this approach may not be&#xD;
+      significantly affected by the acquisition protocol.&#xD;
+&#xD;
+      Hypothesis 1.2 DCNN-based tract classification will achieve at least 93% accuracy for&#xD;
+      prospective detection of ESM-defined eloquent cortices, including patients with a high&#xD;
+      likelihood of functional reorganization.&#xD;
+&#xD;
+      Hypothesis 1.3 Preservation of DCNN-classified eloquent white matter pathways during surgery&#xD;
+      will predict the avoidance of postoperative deficits as accurately as the preservation of&#xD;
+      ESM-defined eloquent cortex.&#xD;
+&#xD;
+      Hypothesis 1.4 Preservation of surgical margins optimized by Kalman filter on retrospective&#xD;
+      data will achieve seizure control and avoidance of postoperative deficits in a prospective&#xD;
+      surgical patient cohort.&#xD;
+&#xD;
+      In this aim, the investigators will test the accuracy of a recently developed deep&#xD;
+      learning-based benefit-risk model, called deep convolutional neural network (DCNN) tract&#xD;
+      classification combined with Kalman filter analysis, for non-invasive detection of eloquent&#xD;
+      white matter pathways and optimization of surgical margin (i.e., the distance between&#xD;
+      epileptogenic area and eloquent area), resulting in seizure freedom and avoidance of&#xD;
+      functional deficits. Failure to identify eloquent areas in the proposed resection region can&#xD;
+      have potentially lifelong consequences, and overestimation or incorrect localization of the&#xD;
+      extent of the eloquent regions may lead to incomplete resection of the epileptogenic zone.&#xD;
+      Without optimizing the benefit-risk ratio, the minimum acceptable margin is highly variable&#xD;
+      across different settings, ranging from 0 to 2 cm across epilepsy surgery centers. The&#xD;
+      investigators will study whether the proposed benefit-risk model can standardize (or&#xD;
+      customize) epilepsy surgery of individual patients by accurately optimizing the margins of&#xD;
+      the eloquent white matter pathways to be preserved, which is ultimately essential to balance&#xD;
+      the benefit of seizure freedom with the risk of functional deficit. This proposed new imaging&#xD;
+      approach could change clinical practice for pediatric epilepsy surgery and is widely&#xD;
+      applicable for other types of neurosurgical procedures such as tumor resection.&#xD;
+&#xD;
+      AIM 2. To determine the accuracy of deep learning-based connectome analysis for prediction of&#xD;
+      long-term neurocognitive improvement following epilepsy surgery.&#xD;
+&#xD;
+      Hypothesis 2.1 Connectivity efficiencies preserved in specific modular networks of&#xD;
+      preoperative DCNN-based connectome, found to be associated with postoperative functional&#xD;
+      improvement on retrospective data, will accurately predict long-term functional improvement&#xD;
+      in a prospective patient cohort.&#xD;
+&#xD;
+      Hypothesis 2.2 Longer epilepsy duration will be significantly associated with more decreased&#xD;
+      efficiency in full-scale IQ modular network of preoperative DCNN-based connectome, thus&#xD;
+      suggesting that earlier surgery will yield better long-term full-scale IQ improvement.&#xD;
+&#xD;
+      Hypothesis 2.3 Patients with ipsilateral resections, who show signs of postoperative&#xD;
+      &quot;crowding&quot; (i.e., verbal IQ improvement at the expense of non-verbal function), will show&#xD;
+      decreased efficiency in non-verbal and increased efficiency in verbal IQ network of&#xD;
+      DCNN-based connectome in the contralateral hemisphere.&#xD;
+&#xD;
+      In this aim, the investigators will test if an advanced DWMRI approach integrating DCNN and&#xD;
+      connectome helps decide timely surgery by providing 1) preoperative imaging markers&#xD;
+      underlying high likelihood of postoperative neurocognitive improvements and 2) mechanistic&#xD;
+      insight in structural brain reorganization associated with postoperative verbal IQ&#xD;
+      improvement. A series of preoperative imaging markers called &quot;local efficiency&quot; that&#xD;
+      quantifies how efficiently neural connection is shared by neighboring regions will be&#xD;
+      evaluated at the levels of specific modular networks. We expect that these markers can&#xD;
+      identify long-term and specific neurocognitive consequences (and potential predictors of&#xD;
+      these) associated with surgical intervention and their neural correlates for specific&#xD;
+      neurocognitive functions. In addition, neuronal remodeling associated with a functional&#xD;
+      crowding effect, studied with DWMRI connectome improved by the DCNN tract classification,&#xD;
+      will provide a new mechanistic insight in compensatory processes for verbal IQ function in&#xD;
+      children and adolescents who undergo resective surgery to treat drug-resistant focal&#xD;
+      epilepsy.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 15, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2026</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2026</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of DCNN tract classification for detection of ESM-defined eloquent white matter pathways in healthy controls</measure>
+    <time_frame>During procedure</time_frame>
+    <description>Spatial overlap of DCNN tract classification (range: 0-100%, 0 indicating no overlap and 100% indicating complete overlap) will be evaluated between two different DWMRI scans of healthy controls: single-shell and generalized Q-sampling imaging (GQI) that are acquired on the same day. 14 ESM-defined eloquent pathways will be obtained using 14 DCNN tract classifications from the single-shell and GQI data, and the spatial overlap between single shell and GQI data (score: %) will be assessed per each pathway.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of DCNN tract classification for detection of ESM-defined eloquent area that will be acquired a month after the DCNN tract classification in children with drug-resistant epilepsy</measure>
+    <time_frame>1 month</time_frame>
+    <description>Spatial overlap (range: 0-100%, 0 indicating no overlap and 100% indicating complete overlap) will be measured between cortical terminals of DCNN-classified white matter pathways and their ground truth data: ESM-defined eloquent areas that will be acquired a month after the DCNN tract classification.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of DCNN tract classification for prediction of eloquent white matter pathways providing no postoperative deficits that will be assessed at 1.5 years after surgery</measure>
+    <time_frame>1.5 years</time_frame>
+    <description>Preservation (score: 1) vs. no preservation (score: 0) of preoperative DCNN-classified white matter pathways will be compared with presence (score: 1) vs. absence (score: 0) of postoperative deficits in primary motor, language, auditory, and visual functions that will be assessed at 1.5 years after surgery.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of DCNN tract classification combined with Kalman analysis to predict optimal margin balancing maximal seizure freedom and minimal functional deficits that will be assessed at 1.5 years after surgery</measure>
+    <time_frame>1.5 years</time_frame>
+    <description>Preservation (score: 1) vs. no preservation (score: 0) of preoperative DCNN-Kalman filter predicted surgical margin will be compared with presence (score: 1) vs. absence (score: 0) of postoperative deficits and seizure freedom that will be assessed at 1.5 years after surgery.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Strength of association between local efficiency of preoperative network and functional measure: full-scale IQ, verbal-IQ, non-verbal IQ, expressive language, receptive language, and motor function that will be assessed at 1.5 years after surgery</measure>
+    <time_frame>1.5 years</time_frame>
+    <description>Local efficiency value (range: 0-1, 0 indicating no efficacy and 1 indicating the strongest efficacy) will be evaluated from full-scale IQ network, non-verbal IQ network, verbal IQ network, expressive language network, receptive language network, and motor network of preoperative DWMRI connectome data, respectively. Full-scale IQ (normal mean: 100, standard deviation: 15), verbal IQ (normal mean: 100, standard deviation: 15), non-verbal IQ (normal mean: 100, standard deviation: 15), expressive language score (normal mean: 50, standard deviation: 10), receptive language score (normal mean: 50, standard deviation: 10), and motor score (normal mean: 50, standard deviation: 10) will be also evaluated from neuro-psychology testing at 1.5 years after surgery. The correlation coefficient (range: 0-1, 0 indicating no correlation and 1 indicating complete correlation) will be evaluated between local efficiency and neuro-psychology score measured for each corresponding function.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Strength of association between local efficiency of preoperative full-scale IQ network and epilepsy duration that will be assessed at the time of preoperative MRI (Hypothesis 2.2)</measure>
+    <time_frame>Within 1 day</time_frame>
+    <description>Full-scale IQ (normal mean: 100, standard deviation: 15) will be assessed at the time of preoperative MRI scan. It will be associated with local efficiency (range: 0-1, 0 indicating no efficacy and 1 indicating the strongest efficacy) of preoperative full-scale IQ network and epilepsy duration (range: 0-19 years) that will be assessed within 1 day of preoperative MRI scan. The correlation coefficient (range: 0-1, 0 indicating no correlation and 1 indicating a perfect correlation) will be evaluated between full-scale IQ and local efficiency of preoperative full-scale IQ network.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Strength of association between local efficiency change of contralateral verbal-/non-verbal IQ network and verbal-/non-verbal IQ change that will be measured between 1 month before surgery and 1.5 years after surgery</measure>
+    <time_frame>1.5 years</time_frame>
+    <description>Longitudinal change of local efficiency in contralateral verbal-/non-verbal IQ network (range: -1 - +1, -1 indicating a complete loss of local efficiency after surgery and +1 indicating a complete gain of local efficiency after surgery) will be measured from postoperative and preoperative DWMRI connectome data that will be measured between 1 month before surgery and 1.5 years after surgery, respectively. It will be then correlated with the longitudinal change of verbal/non-verbal IQ (range: -100 - +100, -100 indication a complete loss of verbal/non-verbal IQ after surgery and +100 indicating a complete improvement of verbal/non-verbal IQ after surgery) that will be measured between 1 month before surgery and 1.5 years after surgery. The correlation coefficient (range: 0-1, 0 indicating no correlation and 1 indicating a perfect correlation) will be calculated between two longitudinal changes.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Focal Epilepsy</condition>
+  <arm_group>
+    <arm_group_label>Patients with drug-resistant epilepsy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All patients who undergo two-stage epilepsy surgery will receive two longitudinal evaluations of brain MRI and neuropsychology test: a month before surgery and 1.5 years after surgery.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Brain magnetic resonance imaging</intervention_name>
+    <description>Brain magnetic resonance imaging (MRI) will be done using multiple sequences to evaluate the presence, type, and severity of brain abnormalities in enrolled subjects.</description>
+    <arm_group_label>Patients with drug-resistant epilepsy</arm_group_label>
+    <other_name>MRI</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Neuro-psychology testing</intervention_name>
+    <description>Participants will undergo age-appropriate neuro-psychology testing to assess motor, language, and other neurocognitive functions potentially affected by drug-resistant epilepsy.</description>
+    <arm_group_label>Patients with drug-resistant epilepsy</arm_group_label>
+    <other_name>neuro-cognitive testing</other_name>
+    <other_name>neuro-psychology</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Subjects with drug-resistant focal epilepsy&#xD;
+&#xD;
+             1. Age 2.6-19 years. 2. Planned two-stage epilepsy surgery with subdural electrodes.&#xD;
+&#xD;
+          2. Healthy control subjects 1. Age 5-19 years. 2. No cognitive, motor, and/or language&#xD;
+             impairment or clinical elevations on a measure of behavioral problems. 3. Brain MRI&#xD;
+             interpreted as normal.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        For all subjects:&#xD;
+&#xD;
+        1. History of prematurity or perinatal hypoxic-ischemic event. 2. Hemiplegia on&#xD;
+        preoperative neurological examination by pediatric neurologists. 3. Dysmorphic features&#xD;
+        suggestive of a clinical syndrome. 4. Diagnosis of any pervasive developmental or&#xD;
+        psychiatric condition which clearly predates the onset of seizures, including autism&#xD;
+        spectrum disorder, tic disorders, obsessive-compulsive disorder. 5. MRI abnormalities&#xD;
+        showing massive brain malformation and other extensive lesions that likely destroyed the&#xD;
+        contralateral tracts and severely affected i) spatial normalization accuracy in advanced&#xD;
+        normalization tools (ANTs), mutual information (MI) between native T1- MRI of Geodesic SyN&#xD;
+        transform and template T1-MRI &lt; mean-3*standard deviation of MI in the healthy control&#xD;
+        group and ii) parcellation accuracy in surface-matching-based deformable registration,&#xD;
+        target registration error (TRE) of fine tetrahedra mesh between native T1- MRI brain&#xD;
+        surface and template T1-MRI brain surface &gt; mean-3*standard deviation of TRE in the healthy&#xD;
+        control group. 6. History of claustrophobia. 7. Unsuccessful MRI showing head motion &gt; 2 mm&#xD;
+        in DWMRI (i.e., voxel size of DWMRI) which is evaluated by NIH TORTOISE DWMRI motion&#xD;
+        artifact correction package. 8. Subject who cannot speak English.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>31 Months</minimum_age>
+    <maximum_age>19 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Justin J Jeong, PhD</last_name>
+    <phone>313-993-0258</phone>
+    <email>jjeong@med.wayne.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eishi Asano, MD, PhD</last_name>
+    <phone>313-745-5547</phone>
+    <email>easano@med.wayne.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Wayne State University/Children's Hospital of Michigan</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Aimee Luat, MD</last_name>
+      <phone>313-832-9620</phone>
+      <email>aluat@dmc.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Eishi Asano, MD, PHD</last_name>
+      <phone>313-745-5547</phone>
+      <email>easano@med.wayne.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 3, 2021</study_first_posted>
+  <last_update_submitted>July 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Wayne State University</investigator_affiliation>
+    <investigator_full_name>Justin Jeong-Won Jeong</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Epilepsy</mesh_term>
+    <mesh_term>Epilepsies, Partial</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

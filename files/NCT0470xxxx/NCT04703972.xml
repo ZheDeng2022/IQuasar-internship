@@ -1,0 +1,211 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04703972</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38RC20.087</org_study_id>
+    <nct_id>NCT04703972</nct_id>
+  </id_info>
+  <brief_title>Identification of Predictive Biomarkers of Mood Relapses in Patients With Bipolar Disorder</brief_title>
+  <acronym>Predibip</acronym>
+  <official_title>Identification of Predictive Biomarkers of Mood Relapses in Patients With Bipolar Disorder</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Commissariat A L'energie Atomique</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Relapses in bipolar disorders are associated with a significant proportional functional&#xD;
+      impact, as well as worsening of the course of bipolar disorder, with impairment of the&#xD;
+      quality of functional remission, as well as the development of addictive, anxiety and&#xD;
+      suicidal comorbidities.The functional deficit and the instability of the mood disorder&#xD;
+      increase with thymic relapses. Currently, these relapses (transition from the state of&#xD;
+      remission, to a depressive or hyperthymic state) are difficult to predict and to treat&#xD;
+      because of the absence of correlation between the degree of severity of the stressful event&#xD;
+      (intensity associated stress) and the occurrence of relapse, taking into account the&#xD;
+      mediation of this relationship by the stress compensation / adaptation capacities, which are&#xD;
+      very individual.&#xD;
+&#xD;
+      This project proposes to develop tools based on artificial intelligence technologies to&#xD;
+      monitor the level of stress and adaptation to life events as well as identifying relapse&#xD;
+      predictive factors of a patient by using portable and connected devices recording different&#xD;
+      physiological signals in order to alert him/her when there is a risk of relapse, thus&#xD;
+      anticipating therapeutic strategies.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 13, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Prediction of mood relapses</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>number of relapses predicted by machine learning algorithms versus number of relapses highlighted by clinical assessment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of Heart rate variability and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Heart rate variability (HRV) (ms)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of skin surface temperature and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Physical parameters measured: Skin surface temperature in °C</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of actimetry and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Physical parameters measured: Actimetry using accelerometer (movement per minute)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between ElectroDermal activity and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>ElectroDermal activity (siemens)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between sleep periods and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Sleep periods</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between social measures and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>The internet connection times (minute), including social networks, the number and duration (minute) of telephone calls and the number and length (number of characters) of text messages will be automatically recorded daily in order to provide parameters that help quantify the patient's social activity.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics (age of onset) and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Age of onset (in years)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics about thyme episode and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Predominant polarity (hypo/manic or depressive or without), polarity of last episode (hypo/manic or depressive), number of previous thymic episodes, duration of remission (in month).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics (suicide attempts) and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Number of suicide attempts.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics (hospitalizations) and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Number of hospitalizations.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics (comorbid disorders) and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>History and presence of comorbid disorders.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between values of clinical characteristics (medication) and the occurrence of a thymic relapse (number of relapses during the follow-up period).</measure>
+    <time_frame>at Month 6 of the follow-up</time_frame>
+    <description>Medication load (in Chlorpromazine equivalent for antipsychotic medication, Chen&amp;Davis).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">10</enrollment>
+  <condition>Bipolar Disorder</condition>
+  <arm_group>
+    <arm_group_label>Bipolar Patients with connected devices</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients with bipolar disorder provided with connected devices (wristwatch and wristband)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>clinical assessment (mood relapses identification)</intervention_name>
+    <description>clinical assessment via psychometric scales physiological data acquired automatically via the connected device (wristwatch, wristband)</description>
+    <arm_group_label>Bipolar Patients with connected devices</arm_group_label>
+    <other_name>physiological data monitoring</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Voluntary subjects responding to the diagnosis of bipolar I or II disorder according&#xD;
+             to the criteria of the DSM-5&#xD;
+&#xD;
+          -  Agreement to benefit from connected objects required for study and able to understand&#xD;
+             their use&#xD;
+&#xD;
+          -  Age between 18 and75 years old&#xD;
+&#xD;
+          -  Affiliated to the Social Security system (beneficiary or entitled)&#xD;
+&#xD;
+          -  No opposition signed&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Subject included in clinical and/or therapeutic experimentation with exclusion period&#xD;
+&#xD;
+          -  Primary psychiatric pathology other than bipolar type I or II disorder&#xD;
+&#xD;
+          -  Patient hospitalized without consent&#xD;
+&#xD;
+          -  Subject deprived of liberty by judicial or administrative decision&#xD;
+&#xD;
+          -  Pregnant, parturient, breastfeeding woman&#xD;
+&#xD;
+          -  Known allergy to one of the materials of the bracelets&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Mircea POLOSAN, MD-PhD</last_name>
+    <phone>04 76 76 54 11</phone>
+    <email>MPolosan@chu-grenoble.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Arnaud Pouchon, MD</last_name>
+    <phone>04 76 76 54 11</phone>
+    <email>APouchon@chu-grenoble.fr</email>
+  </overall_contact_backup>
+  <verification_date>May 2020</verification_date>
+  <study_first_submitted>December 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 11, 2021</study_first_posted>
+  <last_update_submitted>January 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 14, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Bipolar Disorder</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

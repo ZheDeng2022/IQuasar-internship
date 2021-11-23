@@ -1,0 +1,182 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04863391</url>
+  </required_header>
+  <id_info>
+    <org_study_id>18-00787</org_study_id>
+    <nct_id>NCT04863391</nct_id>
+  </id_info>
+  <brief_title>Telemedicine in Age-Related Macular Degeneration</brief_title>
+  <official_title>Pivotal Trial of an Automated AI-based System for Early Diagnosis and Prediction of Late Age Related Macular Degeneration in Primary Care Settings.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The New York Eye &amp; Ear Infirmary</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>iHealthScreen Inc</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The New York Eye &amp; Ear Infirmary</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study seeks to evaluate a system for the automated early detection of Age-Related&#xD;
+      Macular Degeneration (AMD). AMD is a condition in which there is breakdown of the macula of&#xD;
+      the eye, the part of the retina that is responsible for sharp, central vision. We will take&#xD;
+      pictures of subjects' eyes using an automated camera. These photographs will be securely&#xD;
+      transmitted and and then analyzed by a computer program which has been developed in other&#xD;
+      studies. The outcome of the computer program analysis will be compared with human analysis of&#xD;
+      these same pictures. If the computer analysis is has good enough accuracy, then this computer&#xD;
+      system could be used for wide-scale screening for AMD.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      iPredict,an AI and telemedicine based software which used individual's color fundus image for&#xD;
+      early diagnosis of AMD and predict if an individual is at risk of progression to late AMD.&#xD;
+      iPredict platform integrates the server-side programs (the image analysis and deep-learning&#xD;
+      modules for AMD severity screening and prediction) and local remote computer/mobile devices&#xD;
+      (for collecting patient data and images). DRS plus camera will be used in the doctor's&#xD;
+      office. The remote devices will upload images and data to the server to analyze and screen&#xD;
+      AMD automatically. The telemedicine platform has been developed for web-based platform. The&#xD;
+      automatic analysis will be performed on the server, and a report will be sent to the&#xD;
+      patient/remote devices with an individual's AMD stage as referable or non-referable AMD, and&#xD;
+      a risk prediction score of developing late AMD (within a minute), and further recommendations&#xD;
+      to visit a nearby ophthalmologist.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 19, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 19, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of identification of referable and non-referable AMD for early diagnosis of AMD</measure>
+    <time_frame>2 years</time_frame>
+    <description>Sensitivity of identification of referable and non-referable AMD for early diagnosis of AMD using the iPredict's AI-based AMD screening software utilizing color fundus imaging.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of identification of referable and non-referable AMD for early diagnosis of AMD using the iPredict's AI-based AMD screening software utilizing color fundus imaging.</measure>
+    <time_frame>2 years</time_frame>
+    <description>Using the gold standard (i.e., the ophthalmologist's grading), the sensitivity and specificity are calculated as: Sens=TP/(TP+FN) Spec=TN/(TN+FP) Where TP is the number of true positives (referable AMD subjects correctly classified), FN is the number of false negatives (referable AMD subjects incorrectly classified as non-referable), TN is the number of true negatives (non-referable subjects correctly classified), and FP is the number of false positives (non-referable AMD subjects incorrectly classified as referable AMD).</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Age Related Macular Degeneration</condition>
+  <arm_group>
+    <arm_group_label>early/none vs.</arm_group_label>
+    <description>For identification of early/none (i.e., non-referral level) Age Related Macular Degeneration (ARMD)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>intermediate/late AMD</arm_group_label>
+    <description>intermediate/late (i.e., referral level) Age Related Macular Degeneration (ARMD)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Referrable versus Non Referral AMD diagnostic test</intervention_name>
+    <description>Artificial intelligence read reports Referrable versus Non Referral AMD</description>
+    <arm_group_label>early/none vs.</arm_group_label>
+    <arm_group_label>intermediate/late AMD</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants who fit the eligibility inclusion criteria and not the exclusion criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Subjects will be recruited if willing and able to comply with clinic visit and&#xD;
+             study-related procedures, and provide signed informed consent&#xD;
+&#xD;
+          2. Gender of Subjects: Both males and females will be invited to participate.&#xD;
+&#xD;
+          3. Age of Subjects: Patients will be over 50 years and older&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Unable to provide informed consent.&#xD;
+&#xD;
+          2. Other retinal degenerations and retinal vascular diseases such as diabetic retinopathy&#xD;
+             or macular edema, prior retinal surgery.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>50 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Alauddin Bhuiyan, Ph.D.</last_name>
+    <phone>718 926 9000</phone>
+    <email>alauddin.bhuiyan@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Katy Tai</last_name>
+    <phone>2129794251</phone>
+    <email>ktai@nyee.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>New York Eye and Ear Infirmary of Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Katy Tai</last_name>
+      <phone>212-979-4251</phone>
+      <email>ktai@nyee.edu</email>
+    </contact>
+    <investigator>
+      <last_name>R. Theodore Smith, MD, PHD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 19, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 28, 2021</study_first_posted>
+  <last_update_submitted>April 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Macular Degeneration</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There is no IPD sharing plan at this time.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

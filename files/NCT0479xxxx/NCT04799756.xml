@@ -1,0 +1,167 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04799756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-12-015CC</org_study_id>
+    <nct_id>NCT04799756</nct_id>
+  </id_info>
+  <brief_title>Pulse Diagnosis of Traditional Chinese Medicine</brief_title>
+  <official_title>To Develop Pulse Diagnosis of Traditional Chinese Medicine by Deep Learning.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taipei Veterans General Hospital, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taipei Veterans General Hospital, Taiwan</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Taking pulse as a disease diagnosis process has a long history in traditional Chinese&#xD;
+      medicine (TCM). Ancient physicians used the common attributes of pulse conditions and&#xD;
+      finger-feeling characteristics as a basis for pulse classification, which &quot; position, rate,&#xD;
+      shape and tendency &quot; is the principle for pulse differentiation. However, it is not easy to&#xD;
+      express feelings of hands in a scientific way and not easy for clinical teaching and&#xD;
+      practice.&#xD;
+&#xD;
+      To develope a new direction of pulse diagnosis in TCM by deep learning and integrative&#xD;
+      time-frequency domain analysis maybe can be solved the problem.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Taking pulse as a disease diagnosis process has a long history in traditional Chinese&#xD;
+      medicine (TCM). Ancient physicians used the common attributes of pulse conditions and&#xD;
+      finger-feeling characteristics as a basis for pulse classification, which &quot; position, rate,&#xD;
+      shape and tendency &quot; is the principle for pulse differentiation. However, it is not easy to&#xD;
+      express feelings of hands in a scientific way and not easy for clinical teaching and&#xD;
+      practice. The modernization of pulse diagnosis in Taiwan originated in the 1970s. By using&#xD;
+      pressure waves of the radial artery, two methods were developed : time-domain analysis and&#xD;
+      frequency domain analysis. Dr. Huang used time-domain analysis combined with frequency-domain&#xD;
+      analysis of 6-sec pulse waves, to quantify 28 pulse patterns in TCM. Professor Wang measured&#xD;
+      a single pulse wave and performed Fourier transformation to obtain the corresponding 12&#xD;
+      meridian frequency spectrum, but it is very different from the clinical practice of pulse&#xD;
+      diagnosis. Our team found that the frequency-domain and the tim-domain analysis can be&#xD;
+      integrated if Fourier transformation integral formula is applied. Because the extracted data&#xD;
+      is big, the characteristic values of time and frequency domain analysis are calculated and&#xD;
+      judged by deep learning method.&#xD;
+&#xD;
+      The purpose of this study is to use the &quot; Integration analysis of time-domain&quot; method to&#xD;
+      extract the characteristic values of the radial pulse, and then use deep learning for model&#xD;
+      training. That is, after measuring the pulse waves at different positions and depths of the&#xD;
+      bilateral radial arteries, by using the pulse diagnostic instrument, to initial signal&#xD;
+      processing and to get a single pulse. Then Fourier transformation is performed to obtain the&#xD;
+      magnitude and phase parameters of the 12 harmonics (24 variables in total), and then extract&#xD;
+      7 time-domain characteristic parameters of a single pulse. The next step to perform Fourier&#xD;
+      transformation again using the 6-second pulse waves to obtain high and low frequency spectrum&#xD;
+      by using above parameters. The feature parameters obtained by the above two analysis methods&#xD;
+      are simultaneously sent to the deep learning-convolution neuron network (CNN) training. Since&#xD;
+      the pulse wave changes of the radial artery are related to time, CNN combined with&#xD;
+      long-short-term memory work (LSTM) is also used to do the above-mentioned model training. It&#xD;
+      is set to compare the differences between the pulse waves of healthy subjects and subjects&#xD;
+      with the suboptimal health status. It is also proved whether the frequency-domain analysis&#xD;
+      analysis method by Professor Wang and the time-domain analysis method by Dr. Huang is the&#xD;
+      same through the deep learning training process. It is possible to develope a new direction&#xD;
+      of pulse diagnosis in TCM by deep learning and integrative time-frequency domain analysis.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 17, 2021</start_date>
+  <completion_date type="Anticipated">January 5, 2022</completion_date>
+  <primary_completion_date type="Anticipated">May 5, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>&quot;Skylark&quot; Pulse Analysis System</measure>
+    <time_frame>6 second</time_frame>
+    <description>That is, after measuring the pulse waves at different positions and depths of the bilateral radial arteries, by using the pulse diagnostic instrument, to initial signal processing and to get a single pulse. Then Fourier transformation is performed to obtain the magnitude and phase parameters of the 12 harmonics (24 variables in total), and then extract 7 time-domain characteristic parameters of a single pulse. The next step to perform Fourier transformation again using the 6-second pulse waves to obtain high and low frequency spectrum by using above parameters. The feature parameters obtained by the above two analysis methods are simultaneously sent to the deep learning-convolution neuron network (CNN) training.</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Detection</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        &quot;Sub-healthy state&quot; is defined as a condition where there is no illness but unhealthy. It&#xD;
+        causes abnormal psychological and physiological changes under internal and external&#xD;
+        environmental stimulation, but it has not yet reached the level of obvious pathological&#xD;
+        response.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        People who do not have a clear diagnosis of chronic diseases by Western medicine&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Western medicine confirms the diagnosis of chronic diseases, such as high blood&#xD;
+             pressure, diabetes, chronic hepatitis, chronic kidney disease, chronic hyperlipidemia,&#xD;
+             coronary heart disease, etc.&#xD;
+&#xD;
+          2. There is a clear diagnosis of mental illness by Western medicine&#xD;
+&#xD;
+          3. Cancer patients&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Yen-Ying Yen-Ying, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Taipei Veterans General Hospital Center for Traditional Medicine</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yen-Ying Yen-Ying, MD</last_name>
+    <phone>0228757453</phone>
+    <phone_ext>333</phone_ext>
+    <email>yykung@vghtpe.gov.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Center for Traditional Medicine, Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yenying Kung, MD</last_name>
+      <phone>886-2-28730502</phone>
+      <email>yykung@vghtpe.gov.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 16, 2021</study_first_posted>
+  <last_update_submitted>April 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04858893</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CoMDA</org_study_id>
+    <nct_id>NCT04858893</nct_id>
+  </id_info>
+  <brief_title>Application of Machine Learning Method in Validation of Screening Cognitive Test for Parkinsonisms</brief_title>
+  <acronym>CoMDA-ML-P</acronym>
+  <official_title>Cognitive Screening in Patients With Parkinsonism: Proposal for a New, Machine Learning Based Diagnostic Tool</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Ospedale Generale Di Zona Moriggia-Pelascini</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ospedale di Vipiteno-Sterzing (SABES-ASDAA)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Ospedale Generale Di Zona Moriggia-Pelascini</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Based on a prospectively collected data analysis, a new tool, namely CoMDA (Cognition in&#xD;
+      Movement Disorders Assessment) is developed by merging each item of Mini-Mental State&#xD;
+      Examination (MMSE), Montreal Cognitive Assessment (MoCA) and Frontal Assessment Battery&#xD;
+      (FAB). A machine learning, able to classify the cognitive profile and predict patients' at&#xD;
+      risk of dementia, is created.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A prospectively data-base was setting up, collecting CoMDA and&#xD;
+      in-depht-neuropsychologocal-battery scores, obtained from the evaluation of 500 patients with&#xD;
+      parkinsonisms. Data were analyzed to compare the classification of patient cognition profile,&#xD;
+      obtained with CoMDA, MMSE, MoC and FAB, with that obtained from in-depth neuropsychological&#xD;
+      evaluation. A very high percentage of false negative emerged, for MMSE, MoCA and FAB.&#xD;
+      Conversely, the CoMDA score significantly reduces the rate of false negative.&#xD;
+&#xD;
+      This new tool, namely &quot;CoMDA&quot; (Cognition in Movement Disorders Assessment), was composed, by&#xD;
+      merging each item of Mini-Mental State Examination (MMSE), Montreal Cognitive Assessment&#xD;
+      (MoCA) and Frontal Assessment Battery (FAB). Moreover, we created a machine learning, namely&#xD;
+      &quot;Neural Net 91classification&quot; able to classify the cognitive profile and predict patients' at&#xD;
+      risk of dementia, providing a prediction of the findings resulting from a in-depht&#xD;
+      neuropsychological evaluation.&#xD;
+&#xD;
+      CoMDA and the related Neural Net 91classification represent a reliable, time-sparing&#xD;
+      screening instrument, which is much more powerful of other common, widely-adopted tools.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2017</start_date>
+  <completion_date type="Actual">August 31, 2020</completion_date>
+  <primary_completion_date type="Actual">February 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Neural Net 91 classificator from CoMDA score</measure>
+    <time_frame>30 minuts</time_frame>
+    <description>prediction of cognitive level obtained from the application of Neural Net 91 classificator at CoMDA score</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">562</enrollment>
+  <condition>Primary Parkinsonism</condition>
+  <condition>Secondary Vascular Parkinson Disease</condition>
+  <condition>Multiple System Atrophy</condition>
+  <condition>Supranuclear Palsy, Progressive</condition>
+  <arm_group>
+    <arm_group_label>Subjects affected from Parkinsonims</arm_group_label>
+    <description>Scores of MMSE, FAB MoCA were summarized to calculate the CoMDA scores, than they were used to develop the Neural Net 91 classificator</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Health Controls</arm_group_label>
+    <description>CoMDA was administered and total score was calculate to develop the Neural Net 91 classificator</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>CoMDA associated with Neural Net 91 classificator</intervention_name>
+    <arm_group_label>Health Controls</arm_group_label>
+    <arm_group_label>Subjects affected from Parkinsonims</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        500 subjects suffering from different forms of Parkinson Disease or Atypical Parkinsonims&#xD;
+        Syndorme and 61 Helathy Controls&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        diagnosis of idiopathic PD according to the MDS clinical diagnostic criteria (Postuma et&#xD;
+        al. 2015); b) diagnosis of PSP according to the MDS clinical diagnostic criteria (Höglinger&#xD;
+        et al. 2017); c) diagnosis of MSA according to the second diagnostic consensus statement&#xD;
+        (Gilman et al. 2008); d) diagnosis of VP according to Zijlmans et al (Zijlmans et al.&#xD;
+        2004).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        a) any focal brain lesion detected with brain imaging studies (CT or MRI); b) diagnosis of&#xD;
+        clinically relevant psychiatric disorders, psychosis (evaluated with Neuropsychiatric&#xD;
+        Inventory) and/or delirium; c) diagnosis of dementia or MCI; d) diagnosis of neurological&#xD;
+        diseases other than PD or atypical parkinsonian syndromes; e) other medical conditions&#xD;
+        negatively affecting the cognitive status; f) disturbing resting and/or action tremor,&#xD;
+        corresponding to scores 2-4 in the specific items of MDS Unified Parkinson's Disease Rating&#xD;
+        Scale (MDS-UPDRS) III, such as to affect the psychometric evaluation; g) disturbing&#xD;
+        dyskinesia, corresponding to scores 2-4 in the specific items of MDS-UPDRS III, such as to&#xD;
+        affect the psychometric evaluation; h) auditory and/or visual dysfunctions impairing the&#xD;
+        patient´s ability to perform cognitive tests.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>&quot;Moriggia Pelascini&quot; Hospital</name>
+      <address>
+        <city>Gravedona E Uniti</city>
+        <state>Como</state>
+        <zip>22015</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>April 21, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 23, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 26, 2021</study_first_posted>
+  <last_update_submitted>May 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Parkinson Disease</mesh_term>
+    <mesh_term>Multiple System Atrophy</mesh_term>
+    <mesh_term>Shy-Drager Syndrome</mesh_term>
+    <mesh_term>Parkinsonian Disorders</mesh_term>
+    <mesh_term>Supranuclear Palsy, Progressive</mesh_term>
+    <mesh_term>Parkinson Disease, Secondary</mesh_term>
+    <mesh_term>Atrophy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

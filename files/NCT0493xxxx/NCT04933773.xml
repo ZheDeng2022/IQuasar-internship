@@ -1,0 +1,175 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04933773</url>
+  </required_header>
+  <id_info>
+    <org_study_id>POAveragingTime21</org_study_id>
+    <nct_id>NCT04933773</nct_id>
+  </id_info>
+  <brief_title>SpO2 Measurement Depending on Different Pulse Oximeter Averaging Time Settings</brief_title>
+  <official_title>SpO2 Measurement Depending on Different Pulse Oximeter Averaging Time Settings</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Czech Technical University in Prague</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Czech Technical University in Prague</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is to characterize the noise in the SpO2 signal depending on different&#xD;
+      pulse oximeter averaging time settings.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Noise in the SpO2 signal is most often caused by artifacts, such as movement artifacts,&#xD;
+      reduced perfusion, additional light and others. These artifacts can be partially removed from&#xD;
+      the SpO2 signal by different pulse oximeter settings, specifically the sensitivity mode and&#xD;
+      averaging time. It is known that when a longer averaging time is set, the measured signal&#xD;
+      contains fewer artifacts, on the other hand there is an increased risk of missing short&#xD;
+      desaturation. The aim of this work is to characterize the noise in the SpO2 signal depending&#xD;
+      on the set averaging time of the pulse oximeter based on experimental data from healthy&#xD;
+      volunteers.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">May 15, 2021</start_date>
+  <completion_date type="Anticipated">July 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <intervention_model_description>All participants go through all study arms, in random order. Two pulse oximeters with different averaging time settings are active simultaneously during measurement on each participant and the measured signal is compared.</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>SpO2 readings with different averaging times</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Differences in the SpO2 signal during artifacts depending on the set averaging time.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">17</enrollment>
+  <condition>Movement Artifacts During SpO2 Measurements</condition>
+  <condition>Reduced Perfusion During SpO2 Measurements</condition>
+  <arm_group>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SpO2 is measured by two pulse oximeters on one participant's hand (on the index finger and middle finger). One pulse oximeter is set to an averaging time of 2-4 seconds, the second pulse oximeter is set to an averaging time of 8 seconds.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SpO2 is measured by two pulse oximeters on one participant's hand (on the index finger and middle finger). One pulse oximeter is set to an averaging time of 8 seconds, the second pulse oximeter is set to an averaging time of 16 seconds.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Movement artifact - knocking</intervention_name>
+    <description>60 seconds motion artifact simulation - knocking with sensors</description>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Movement artifact - tremor</intervention_name>
+    <description>60 seconds motion artifact simulation - tremor with sensors</description>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Artifact - ambient light</intervention_name>
+    <description>60 seconds artifact simulation - ambient light using sensor opening</description>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Artifact - low perfusion</intervention_name>
+    <description>60 seconds artifact simulation - reduced perfusion using a cuff</description>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>SpO2 measurement</intervention_name>
+    <description>Two SpO2 measuring devices are active simultaneously on one hand during measurement.</description>
+    <arm_group_label>Set averaging times: 2-4 seconds and 8 seconds</arm_group_label>
+    <arm_group_label>Set averaging times: 8 seconds and 16 seconds</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  healthy volunteers from the Czech Technical University&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  pregnancy&#xD;
+&#xD;
+          -  severe cardiovascular conditions&#xD;
+&#xD;
+          -  injury to the upper limbs or hands that could affect the peripheral perfusion&#xD;
+&#xD;
+          -  diabetes&#xD;
+&#xD;
+          -  hypotension or hypertension&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>30 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Veronika Rafl Huttova</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Czech Technical University in Prague</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Faculty of Biomedical Engineering, Czech Technical University in Prague</name>
+      <address>
+        <city>Kladno</city>
+        <zip>27201</zip>
+        <country>Czechia</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Czechia</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 14, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 22, 2021</study_first_posted>
+  <last_update_submitted>June 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>pulse oximetry</keyword>
+  <keyword>SpO2</keyword>
+  <keyword>averaging time</keyword>
+  <keyword>motion artifacts</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

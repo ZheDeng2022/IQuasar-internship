@@ -1,0 +1,178 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04585971</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SIGBF</org_study_id>
+    <nct_id>NCT04585971</nct_id>
+  </id_info>
+  <brief_title>A Study on Hemodynamic Relationship Including Cerebral Blood Flow Using Phase Contrast and Signal Intensity Gradient of Brain Magnetic Resonance Imaging, and Carotid Doppler Ultrasound</brief_title>
+  <official_title>A Study on Hemodynamic Relationship Including Cerebral Blood Flow Using Phase Contrast and Signal Intensity Gradient of Brain Magnetic Resonance Imaging, and Carotid Doppler Ultrasound</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chonbuk National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medi Image, Inc</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chonbuk National University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Cerebral blood flow measurement, which is applied to patients with cerebrovascular-related&#xD;
+      diseases, provides useful information about hemodynamic status. There was a method using&#xD;
+      Doppler ultrasound and phase contrast (PC) MRI, but it was not widely used in clinical&#xD;
+      practice due to limitations in reproducibility between examiners, complexity of procedure,&#xD;
+      and time-intensive protocol. We intend to measure cerebral blood flow through the&#xD;
+      signal-intensity gradient (SIG) technique using Time-of-Flight (TOF) of brain magnetic&#xD;
+      resonance imaging, which can compensate for the shortcomings of the existing research&#xD;
+      methods. In addition, by analyzing the correlation with the previous methods, Doppler&#xD;
+      ultrasound and PC MRI, we will evaluate the effectiveness of our new method.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 3, 2020</start_date>
+  <completion_date type="Anticipated">January 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Cerebral blood flow correlation</measure>
+    <time_frame>After completion of recruitment, average 1 year</time_frame>
+    <description>Cerebral blood flow correlation between 3 tests (SIG, PC MR, US)</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Cerebral Blood Flow</condition>
+  <arm_group>
+    <arm_group_label>Subjects</arm_group_label>
+    <description>Cerebral blood flow of a subject is measured using three methods in both common carotid and vertebral arteries. 1) Phase-contrast MR 2) Doppler sonography 3) Signal Intensity Gradient (SIG) To determine whether there is a correlation between the measured values, the correlation coefficient is calculated and analyzed.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Signal intensity gradient</intervention_name>
+    <description>Signal intensity gradient:&#xD;
+In time-of-flight (TOF) MRA, The signal intensities at the iso-point (Φa; signal intensity at position A [Xa] along the arterial contour line) and at the inner point (Φb; signal intensity at position B [Xb]) were calculated by using a trilinear interpolation algorithm based on the positions and signal intensities in the eight neighboring voxels. The signal intensities of TOF-MRA were normalized to eliminate the offset and scale effects across the MRA datasets of participants. For each iso-point (position A), the SIG was calculated from the difference in signal intensities between points A and B as follows:&#xD;
+Scalar SIG, SI/mm = (Φb - Φa) / │Xb - Xa│ (1)&#xD;
+Vector SIG, SI/mm = (Φb - Φa) n / │Xb - Xa│ (2)</description>
+    <arm_group_label>Subjects</arm_group_label>
+    <other_name>Time-of-flight magnetic resonance imaging</other_name>
+    <other_name>Carotid Doppler sonography</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted to the neurology department of a tertiary center&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients 18 years of age or older who have been admitted to the neurology department&#xD;
+             due to a stroke, and those who have already performed brain magnetic resonance imaging&#xD;
+&#xD;
+          2. Among the patients (1) who underwent carotid artery Doppler ultrasound&#xD;
+&#xD;
+          3. Patients who fully understand the research objectives and procedures and wish to&#xD;
+             participate in clinical research voluntarily&#xD;
+&#xD;
+          4. If a patient is not fully understood due to a decrease in awareness or consciousness,&#xD;
+             the consent of the legal representative is required&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients whose extracranial artery occlusion or severe stenosis was confirmed in brain&#xD;
+             magnetic resonance images.&#xD;
+&#xD;
+          2. Those who judge that the subject is unsuitable for participation in clinical research&#xD;
+             due to other reasons.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chan-Hyuk Lee, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Jeonbuk National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chan-Hyuk Lee, Prof.</last_name>
+    <phone>+82-063-250-1590</phone>
+    <email>bluewave0210@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Jeonbuk National University Hospital</name>
+      <address>
+        <city>Jeonju</city>
+        <state>Jeollabuk-do</state>
+        <zip>54907</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chan-Hyuk Lee, Prof.</last_name>
+      <phone>+82-010-2822-9803</phone>
+      <email>bluewave0210@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Han KS, Lee SH, Ryu HU, Park SH, Chung GH, Cho YI, Jeong SK. Direct Assessment of Wall Shear Stress by Signal Intensity Gradient from Time-of-Flight Magnetic Resonance Angiography. Biomed Res Int. 2017;2017:7087086. doi: 10.1155/2017/7087086. Epub 2017 Aug 16.</citation>
+    <PMID>28900625</PMID>
+  </reference>
+  <reference>
+    <citation>Lee WJ, Jeong SK, Han KS, Lee SH, Ryu YJ, Sohn CH, Jung KH. Impact of Endothelial Shear Stress on the Bilateral Progression of Unilateral Moyamoya Disease. Stroke. 2020 Mar;51(3):775-783. doi: 10.1161/STROKEAHA.119.028117. Epub 2019 Dec 20.</citation>
+    <PMID>31856692</PMID>
+  </reference>
+  <reference>
+    <citation>Jeong SK, Lee JY, Rosenson RS. Association between Ischemic Stroke and Vascular Shear Stress in the Carotid Artery. J Clin Neurol. 2014 Apr;10(2):133-9. doi: 10.3988/jcn.2014.10.2.133. Epub 2014 Apr 23.</citation>
+    <PMID>24829599</PMID>
+  </reference>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>October 6, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 13, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 14, 2020</study_first_posted>
+  <last_update_submitted>October 13, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 13, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 14, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chonbuk National University Hospital</investigator_affiliation>
+    <investigator_full_name>Chan-Hyuk Lee</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Endothelial shear stress</keyword>
+  <keyword>signal-intensity gradient</keyword>
+  <keyword>phase contrast MRI</keyword>
+  <keyword>Time-of-Flight MRI</keyword>
+  <keyword>Carotid Doppler sonography</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

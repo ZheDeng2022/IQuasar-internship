@@ -1,0 +1,176 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04953013</url>
+  </required_header>
+  <id_info>
+    <org_study_id>LM2020046</org_study_id>
+    <nct_id>NCT04953013</nct_id>
+  </id_info>
+  <brief_title>Risk Potential for Organ Dysfunction Associated With Sodium Bicarbonate Therapy (SBT) in Critically Ill Patients</brief_title>
+  <official_title>Risk Potential for Organ Dysfunction Associated With Sodium Bicarbonate Therapy (SBT) in Critically Ill Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aimed to investigate whether hemodynamic status before SBT contributed to the&#xD;
+      effect of sodium bicarbonate infusion on the risk of neonatal organ dysfunction and mortality&#xD;
+      in critically ill patients with early metabolic acidosis in ICU.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Population We obtained data from the MIMIC-III. The newest version of MIMIC-III, v.&#xD;
+      1.4, integrates 61,532 patients admitted to the ICUs of Beth Israel Deaconess Medical Center&#xD;
+      in Boston, Massachusetts.&#xD;
+&#xD;
+      Our study included patients with severe metabolic acidosis within 48 hours after ICU&#xD;
+      admission who fulfilled all of the following criteria: (1) pH≤7.3; (2) BE≤-8, or HCO3- &lt; 20&#xD;
+      mmol/L if BE was missing; and (3) PaCO2&lt; 50 mmHg, or without chronic obstructive pulmonary&#xD;
+      disease (COPD) in discharge diagnoses if PaCO2 was unavailable. The lowest values of pH, BE,&#xD;
+      and HCO3- and the highest value of PaCO2 were selected when there were multiple measurements.&#xD;
+      We defined a composite of newly &quot;developed or exacerbated organ dysfunction&quot; (d/eOD) as a net&#xD;
+      increase in Sequential Organ Failure Assessment (SOFA) score ≥2 of at least one organ within&#xD;
+      7 days of ICU admission over the baseline (SOFA score in the first 24 hours). Hemodynamic&#xD;
+      status during the initial resuscitation was defined as hemodynamic improvement, hemodynamic&#xD;
+      worsening and unchanged hemodynamics.&#xD;
+&#xD;
+      Variables Characteristic data of patients were extracted, including age and sex; category of&#xD;
+      diseases (surgical vs medical), history of comorbidity and whether cardiopulmonary&#xD;
+      resuscitation (CPR) was experienced; and diagnosis of sepsis, shock and AKI. Supportive&#xD;
+      interventions such as mechanical ventilation (MV) and RRT were recorded. Fluid balances at 24&#xD;
+      hours and 48 hours after ICU admission and the total SB dosage administered within the first&#xD;
+      48 hours were extracted. The SOFA score including each component was calculated every 24&#xD;
+      hours if data were available. The Simplified Acute Physiology Score II (SAPSII) was&#xD;
+      calculated within the first 24 hours after ICU admission.&#xD;
+&#xD;
+      Laboratory variables included pH, actual bicarbonate (AB), base excess (BE), PaO2, PaCO2,&#xD;
+      hematocrit (Hct), hemoglobin (Hb), lactate concentration and electrolytes such as [Na+],&#xD;
+      [K+], and [Cl-]. We also calculated the anion gap (AG) by the formula AG=[Na+] + [K+] - [Cl-]&#xD;
+      - [HCO3-] .&#xD;
+&#xD;
+      A composite of newly d/eOD within 7 days of ICU admission was used as the primary outcome of&#xD;
+      this study. The secondary outcome was 28-day mortality.&#xD;
+&#xD;
+      Statistical Analysis Propensity score matching (PSM) was applied to minimize either selection&#xD;
+      biases or potential confounders for SBT. Continuous variables are expressed as the mean&#xD;
+      (standard deviation) or median (upper quantile, lower quantile), and a t-test or the&#xD;
+      Wilcoxon-test was used to compare the differences between groups. Categorical variables are&#xD;
+      depicted as the number of groups (the number of percentages), and the chi-squared test or&#xD;
+      Fisher's exact test was applied.Univariate and multivariat logistic regression and Cox&#xD;
+      regression were used to evaluate the effectiveness of SBT.&#xD;
+&#xD;
+      All statistical analyses were performed by R (version 3.6.1). A p value less than 0.05 was&#xD;
+      indicative of statistical significance.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 1, 2019</start_date>
+  <completion_date type="Actual">September 1, 2020</completion_date>
+  <primary_completion_date type="Actual">February 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>newly developed or exacerbated organ dysfunction</measure>
+    <time_frame>The duration of the database covers from June 2001 to October 2012.</time_frame>
+    <description>We defined a composite of newly &quot;developed or exacerbated organ dysfunction&quot; (d/eOD) as a net increase in Sequential Organ Failure Assessment (SOFA) score ≥2 of at least one organ within 7 days of ICU admission over the baseline (SOFA score in the first 24 hours).</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">664</enrollment>
+  <condition>Metabolic Acidosis; Critically Ill Patients; Organ Dysfunction</condition>
+  <arm_group>
+    <arm_group_label>sodium bicarbonate group</arm_group_label>
+    <description>Sodium bicarbonate was initiated within 48 hours after ICU admission.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>non-sodium bicarbonate group</arm_group_label>
+    <description>Patients were not infused with sodium bicarbonate.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>sodium bicarbonate</intervention_name>
+    <description>Drug exposure</description>
+    <arm_group_label>sodium bicarbonate group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We obtained data from the MIMIC-III. The newest version of MIMIC-III, v. 1.4, integrates&#xD;
+        61,532 patients admitted to the ICUs of Beth Israel Deaconess Medical Center in Boston,&#xD;
+        Massachusetts.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  (1) pH≤7.3; (2) BE≤-8, or HCO3- &lt; 20 mmol/L if BE was missing; and (3) PaCO2&lt; 50 mmHg,&#xD;
+             or without chronic obstructive pulmonary disease (COPD) in discharge diagnoses if&#xD;
+             PaCO2 was unavailable.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  (1) age 16 or under; (2) diabetes insipidus ; (3) comorbidity of peripheral paralysis;&#xD;
+             (4) ICU stay over 100 days; (5) SBT was initiated before ICU admission , later than 48&#xD;
+             hours after ICU admission or after a record of order for renal replacement therapy&#xD;
+             (RRT); and (6) death within the first 24 hours after ICU admission.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Critical Care Medicine Department</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>100191</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acidosis</mesh_term>
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

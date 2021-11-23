@@ -1,0 +1,289 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04657042</url>
+  </required_header>
+  <id_info>
+    <org_study_id>15547</org_study_id>
+    <nct_id>NCT04657042</nct_id>
+  </id_info>
+  <brief_title>4D-MRI for Precision Medicine</brief_title>
+  <official_title>Toward Precision Radiotherapy: Physiological Modeling of Respiratory Motion Based on Ultra-quality 4D-MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Duke University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hong Kong Polytechnic University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Virginia</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to develop new ways to make medical images of the lungs and&#xD;
+      liver of adults using a technique called four-dimensional magnetic resonance imaging&#xD;
+      (4D-MRI). This technique produces three-dimensional movies of the inside of the chest and&#xD;
+      abdomen while the patient is breathing. (The fourth dimension is time!)&#xD;
+&#xD;
+      This new way of medical imaging is being developed to help cancer patients undergoing&#xD;
+      radiation therapy. Radiation therapy is used to treat cancerous tumors. For radiation therapy&#xD;
+      to be effective, the precise size, shape, and location of the tumor within the body must be&#xD;
+      known. A particular difficulty for radiation treatment of lung and liver cancer is that the&#xD;
+      tumor moves during treatment because the patient is breathing. Therefore, tumor motion must&#xD;
+      also be incorporated into the treatment plan. This study aims to improve radiation treatment&#xD;
+      planning through better targeting and dose estimation based on 4D-MRI. Before this new&#xD;
+      imaging method can be used for radiation treatment planning, it must be tested in living,&#xD;
+      breathing volunteers.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Radiotherapy for cancer has been a forerunner of personalized medicine, developing&#xD;
+      individualized treatments based on patient-specific anatomical information. Despite many&#xD;
+      advances in radiotherapy over the past decade, which have effectively enhanced local or&#xD;
+      loco-regional tumor control for many patients, there remains substantial room for&#xD;
+      improvement. The challenges for radiotherapy to further widen the therapeutic window in the&#xD;
+      era of precision medicine are mainly two-fold: (a) further improve radiation dose conformity&#xD;
+      to the defined target volume, and (b) adapt novel biological strategies for personalized&#xD;
+      treatment. Four-dimensional (4D) imaging and deformable image registration (DIR) are key&#xD;
+      tools in modern radiotherapy, playing critical roles in many recent advances, including 4D&#xD;
+      radiotherapy, adaptive radiotherapy, and treatment assessment. However, current 4D imaging&#xD;
+      and DIR technologies are facing significant challenges as the requirement for precision&#xD;
+      increases.&#xD;
+&#xD;
+      The current standard of 4D imaging in radiotherapy is 4D-CT. However, it has two major&#xD;
+      limitations preventing it from precision radiotherapy applications: (a) low soft-tissue&#xD;
+      contrast. 4D-CT is therefore not ideal for abdominal applications; (b) motion artifacts&#xD;
+      caused by irregular breathing. 4D-CT motion artifacts have been shown to cause errors in&#xD;
+      various radiotherapy applications, including motion measurement, target volume delineation,&#xD;
+      dose calculation, DIR, and lung ventilation calculation. 4D-MRI is an emerging 4D imaging&#xD;
+      technology for radiotherapy. It has superior soft-tissue contrast to 4D-CT and is therefore&#xD;
+      superb for abdominal imaging. Despite many recent advances in 4D-MRI, current 4D-MRI&#xD;
+      implementations have inadequate image quality for precision radiotherapy application due to&#xD;
+      at least one of the following deficiencies: low temporal and/or spatial resolutions, long&#xD;
+      image acquisition time, and suboptimal contrast in the lungs. Resulting 4D-MRI images lack&#xD;
+      sufficient anatomical details for clinical applications, which can adversely affect the&#xD;
+      performance of DIR. Current DIR techniques focus on morphological similarity but not on the&#xD;
+      physiological plausibility of the deformation. Studies have shown that an increased&#xD;
+      morphological similarity of the aligned data does not always imply increased registration&#xD;
+      accuracy. Therefore, more sophisticated approaches are desirable.&#xD;
+&#xD;
+      The investigators will take a systematic approach to address the aforementioned limitations&#xD;
+      of 4D imaging and deformable image registration (DIR) based on the development and&#xD;
+      cross-fertilization of two major techniques: ultra-quality 4D-MRI and physiological-based&#xD;
+      hybrid DIR. There are two parts of this research, comprising three main objectives:&#xD;
+&#xD;
+      Part 1. Technical development in healthy subjects: The investigators will extend their&#xD;
+      existing pulse sequence strategy for ultra-quality 3D MRI to enable ultra-quality 4D-MRI.&#xD;
+      Compared to 4D-CT and current 4D-MRI techniques, the proposed ultra-quality 4D-MRI technique&#xD;
+      offers the following advantages: (a) high spatial resolution (1.5 mm isotropic) with rich&#xD;
+      image features (e.g. vessel trees) in the whole torso; (b) high temporal pseudo-resolution&#xD;
+      (&gt;20 phases/cycle); and (c) (nearly) free of motion artifacts.&#xD;
+&#xD;
+      • Objective 1: Develop an MRI pulse sequence and image reconstruction pipeline that generates&#xD;
+      images meeting these three design goals.&#xD;
+&#xD;
+      Part 2. Evaluation of 4D-MRI in a patient study: 4D-MRI will be compared with existing DIR&#xD;
+      and 4D-CT methods. There will be two classes of comparisons, each formulated as a separate&#xD;
+      objective:&#xD;
+&#xD;
+        -  Objective 2: Compare motion modelling based on 4D-MRI with deformable image registration&#xD;
+           (DIR) in healthy volunteers and cancer patients. An improved motion modeling method will&#xD;
+           be developed that is tailored for the ultra-quality 4D-MRI applications. The&#xD;
+           investigators hypothesize that a new motion modeling method based on 4D-MRI will&#xD;
+           outperform current DIR algorithms for respiratory motion estimation. This hypothesis&#xD;
+           will be tested by comparing the new method to five DIR algorithms which include a mix of&#xD;
+           commercial software and publicly available algorithms.&#xD;
+&#xD;
+        -  Objective 3: Compare 4D-MRI with 4D-CT in lung and liver cancer patients. The overall&#xD;
+           hypothesis of this objective is that the ultra-quality 4D-MRI provides better image&#xD;
+           quality than 4D-CT for motion management of radiotherapy in the lungs and the liver,&#xD;
+           especially in patients with irregular breathing.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 5, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2025</completion_date>
+  <primary_completion_date type="Anticipated">July 1, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Image quality metrics in healthy volunteers</measure>
+    <time_frame>single imaging session, lasting up to 2 hours</time_frame>
+    <description>General 4D-MRI image quality will be assessed based on signal-to-noise ratio, number of distinct images per breathing cycle, total necessary imaging time, and image quality index.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Image quality metrics in cancer patients</measure>
+    <time_frame>single imaging session, lasting up to 2 hours</time_frame>
+    <description>We hypothesize that our ultra-quality 4D-MRI methodology will outperform 4D-CT for motion management of radiotherapy in the lungs and the liver. We will test this hypothesis by comparing image quality based on tumor volume consistency, number of trackable landmarks, motion measurement accuracy, and image quality index.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>DVF errors in healthy volunteers and cancer patients</measure>
+    <time_frame>single imaging session, lasting up to 2 hours</time_frame>
+    <description>We hypothesize that our motion modeling method based on 4D-MRI will outperform current DIR algorithms for respiratory motion estimation. We will test this hypothesis by comparing our method to five existing DIR algorithms, based on the magnitude error (Em) and the angular error (Ea) of the calculated deformation vector field (DVF).</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Healthy Volunteers</condition>
+  <condition>Liver Cancer</condition>
+  <condition>Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>Healthy</arm_group_label>
+    <description>Healthy volunteers from the local community</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Liver cancer</arm_group_label>
+    <description>Patients undergoing radiotherapy for liver cancer</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Lung cancer</arm_group_label>
+    <description>Patients undergoing radiotherapy for lung cancer</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Magnetic Resonance Imaging</intervention_name>
+    <description>Four-dimensional MRI of torso</description>
+    <arm_group_label>Healthy</arm_group_label>
+    <arm_group_label>Liver cancer</arm_group_label>
+    <arm_group_label>Lung cancer</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Up to 30 lung cancer patients, 30 liver cancer patients, and 40 healthy human volunteers&#xD;
+        will receive MRI examinations at the University of Virginia to directly measure respiratory&#xD;
+        motion in the thorax and abdomen. All subject populations will include roughly equal male&#xD;
+        and female representations. The subject populations will have minority and ethnic&#xD;
+        representation typical of the local population area that includes the University of&#xD;
+        Virginia. No specific racial or ethnic group will be excluded. All subjects must have the&#xD;
+        ability to understand the requirements of the study and must provide informed consent with&#xD;
+        a personal signature. No persons from vulnerable populations will be included in this&#xD;
+        study.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:The inclusion criteria for lung and liver cancer patients are:&#xD;
+&#xD;
+          -  Patient is 21 or older&#xD;
+&#xD;
+          -  Patient has primary or metastatic tumor(s) in the lungs or the liver&#xD;
+&#xD;
+          -  Diameter of the tumor(s) is less than 7 cm&#xD;
+&#xD;
+          -  Patient will receive radiation therapy (ordered by the treating Radiation Oncologist)&#xD;
+             as part of their treatment regimen&#xD;
+&#xD;
+          -  Patient will undergo a planning CT scan with tumor motion assessment (planning 4D-CT&#xD;
+             ordered by the treating Radiation Oncologist) as part of their treatment regimen&#xD;
+&#xD;
+          -  Patient has signed informed consent and is willing to comply with the 4D-MRI imaging&#xD;
+             protocol&#xD;
+&#xD;
+        The inclusion criteria for healthy volunteers are:&#xD;
+&#xD;
+          -  Subject is 18 or older&#xD;
+&#xD;
+          -  Subject has signed informed consent and is willing to comply with the 4D-MRI imaging&#xD;
+             protocol&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Any condition for which a MRI procedure is contraindicated including presence of&#xD;
+             metallic material in the body, such as pacemakers, non- MRI compatible surgical clips,&#xD;
+             shrapnel, etc.&#xD;
+&#xD;
+          -  Subjects who have difficulty lying flat on their back for extended periods of time&#xD;
+&#xD;
+          -  Patients with any serious/poorly controlled medical or psychological conditions that&#xD;
+             would complicate protocol compliance&#xD;
+&#xD;
+          -  Too large to adequately fit in the magnet bore or RF coils&#xD;
+&#xD;
+          -  Claustrophobia&#xD;
+&#xD;
+          -  Females who are pregnant or lactating&#xD;
+&#xD;
+          -  Presence of active or chronic infection&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>82 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>G. Wilson Miller, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Univsersity of Virginia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Roselove N Nunoo-Asare, MA</last_name>
+    <phone>4342436074</phone>
+    <email>RNN3B@VIRGINIA.EDU</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Roselove Nunoo-Asare, MA</last_name>
+      <phone>540-295-5399</phone>
+      <email>rnunoo.asare@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>November 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 30, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 8, 2020</study_first_posted>
+  <last_update_submitted>December 7, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 7, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 9, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Virginia</investigator_affiliation>
+    <investigator_full_name>G. Wilson Miller, MD</investigator_full_name>
+    <investigator_title>Associate Professor of Radiology and Medical Imaging</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Data acquired from cancer patients using the optimized 4D-MRI protocol will be used to construct digital phantoms for use by the radiotherapy research community to improve radiotherapy planning methods.</ipd_description>
+    <ipd_time_frame>Starting in approximately 2023, with no anticipated end date</ipd_time_frame>
+    <ipd_access_criteria>undecided</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

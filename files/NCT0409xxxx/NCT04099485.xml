@@ -1,0 +1,592 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04099485</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CV185-764</org_study_id>
+    <nct_id>NCT04099485</nct_id>
+  </id_info>
+  <brief_title>EHR-Embedded Decision Support to Prevent Stroke in Patients With AF</brief_title>
+  <official_title>EHR-Embedded Decision Support to Prevent Stroke in Patients With AF</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Cincinnati</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background and Significance - Atrial fibrillation (AF) is the most common significant cardiac&#xD;
+      rhythm disorder and is a powerful common risk factor for stroke. Randomized trials have&#xD;
+      demonstrated that anticoagulation can reduce the risk of stroke in patients with AF. Yet,&#xD;
+      there continues to be widespread underutilization of this therapy. To address this practice&#xD;
+      gap locally and improve stroke prevention for patients with AF in the UC Health system, the&#xD;
+      investigators have assembled an interprofessional team, the Cincinnati Atrial Fibrillation&#xD;
+      Initiative (CAFI).&#xD;
+&#xD;
+      Objectives - The objective of this project, &quot;EHR-Embedded Decision Support to Prevent Stroke&#xD;
+      in Patients with AF&quot;, is to improve thromboprophylaxis treatment decisions for patients with&#xD;
+      non-valvular AF and to increase awareness of the underutilization of appropriate&#xD;
+      thromboprophylaxis in the University of Cincinnati Health system, including vulnerable&#xD;
+      populations with health disparities. To achieve this objective, the investigators will&#xD;
+      implement and evaluate the effectiveness of an Atrial Fibrillation Decision Support Tool&#xD;
+      (AFDST), embedded within the UC Health electronic health record (EHR) that will: (a) identify&#xD;
+      at the point of care, patients who might benefit substantially from a change in their current&#xD;
+      thromboprophylaxis; (b) provide patient-tailored guidance to support decision-making; and (c)&#xD;
+      provide an opportunity to refer the patient to a pharmacist-staffed AF Thromboprophylaxis&#xD;
+      Shared Decision-Making consultation service.&#xD;
+&#xD;
+      Overview of Study Design - The overarching goal is to improve the rate of &quot;appropriate&#xD;
+      thromboprophylaxis&quot; by eliminating system barriers through provision of appropriate decision&#xD;
+      support in the right place and at the right time, that improves provider and patient&#xD;
+      knowledge about AF-related stroke risks, bleeding risks, practice gaps in prevention, and how&#xD;
+      to think about balancing risks and benefits of anticoagulation therapy, and by improving&#xD;
+      patient engagement in decision-making. The investigators have designed interventions based on&#xD;
+      a conceptual model that attributes the gap between evidence and practice to the following&#xD;
+      issues: 1) provider knowledge, 2) patient understanding and engagement, 3) sociodemographic&#xD;
+      factors that create barriers to care and treatment, and 4) systems barriers such as time&#xD;
+      constraints for busy clinicians and inadequate electronic health record-integrated decision&#xD;
+      support.&#xD;
+&#xD;
+      The investigators will achieve the overarching goal through two aims. The first aim will be&#xD;
+      addressed by a randomized controlled trial that examines two strategies - 1) AFDST without&#xD;
+      best practice advisory [BPA] (current state), or 2) AFDST with BPA and semi-automated order&#xD;
+      set to refer patients to an AF Thromboprophylaxis Shared Decision-Making Service. The&#xD;
+      investigators will use the RE-AIM framework for the evaluation of implementation studies to&#xD;
+      assess outcomes of effectiveness, reach, and adoption.&#xD;
+&#xD;
+      The second aim is to evaluate the impact of shared decision-making tools and services. The&#xD;
+      investigators believe that a shared decision-making specialty service that utilizes an&#xD;
+      EHR-embedded Atrial Fibrillation Shared Decision Making Tool (AFSDM) tool will improve a&#xD;
+      number of metrics for quality care. These include, among others, decrease decisional&#xD;
+      conflict, improve patient satisfaction with decision-making, improve patient knowledge, and&#xD;
+      improve adherence with final shared treatment decisions.&#xD;
+&#xD;
+      Methods - The first aim will be accomplished through a clinical study in which AF patients in&#xD;
+      the UC Health primary care network will be randomized into one of two study arms. Briefly,&#xD;
+      these arms are: 1) Atrial Fibrillation Decision-Support Tool (AFDST); 2) AFDST with addition&#xD;
+      of best practice advisory (BPA) and option to refer to shared decision-making consultation&#xD;
+      services. Patients will enter the study as their clinicians receive BPAs, or in the case of&#xD;
+      the first study arm, when BPAs would have been generated as clinicians open medical records&#xD;
+      of patients for whom current thromboprophylaxis is not optimal.&#xD;
+&#xD;
+      The second aim will be accomplished through a pre/post study design evaluating the impact of&#xD;
+      shared decision-making tools and services. Patients will be consented and enrolled following&#xD;
+      their referral to the pharmacist-staffed AF shared decision-making service. Patients&#xD;
+      consenting to participation in this aspect of the study, will have a shared decision-making&#xD;
+      visit with one of the anticoagulation pharmacists. Information to be collected will include a&#xD;
+      number of validated measures of decision quality, patient engagement and confidence, and&#xD;
+      connection with the clinical team gathered prior to and at the conclusion of the shared&#xD;
+      decision-making visit.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      C.2.1 Specific Aim 1 - Randomized Comparative Effectiveness Study to Evaluate Atrial&#xD;
+      Fibrillation Decision-Support Tool (AFDST) vs. AFDST with addition of best practice advisory&#xD;
+      (BPA) and semi-automated order set to refer patients to AF Thromboprophylaxis Shared&#xD;
+      Decision-Making Service.&#xD;
+&#xD;
+      The investigators will improve the rate of &quot;appropriate thromboprophylaxis&quot; by eliminating&#xD;
+      system barriers through provision of appropriate decision support in the right place and at&#xD;
+      the right time, that improves provider and patient knowledge about AF-related stroke risks,&#xD;
+      bleeding risks, practice gaps in prevention, and how to think about balancing risks and&#xD;
+      benefits of anticoagulation therapy, and by improving patient engagement in decision-making.&#xD;
+&#xD;
+      H1 - Addition of BPA (including semi-automated order set to generate referral to an AF&#xD;
+      Thromboprophylaxis Shared Decision-Making Service) to an EHR-embedded AFDST will improve&#xD;
+      rates of &quot;appropriate thromboprophylaxis&quot; compared with the current state of an EHR-embedded&#xD;
+      AFDST without BPA or Shared Decision-Making Service.&#xD;
+&#xD;
+      The investigators will examine this hypothesis by conducting a randomized controlled trial&#xD;
+      that implements the respective bundles at ambulatory sites, using the RE-AIM framework for&#xD;
+      evaluation of implementation studies.(36-41) Outcomes will include - effectiveness, reach,&#xD;
+      and adoption.&#xD;
+&#xD;
+      Triggers for BPAs - New AF - Develop a BPA that will fire automatically whenever a patient&#xD;
+      without a prior history of AF receives a diagnosis of AF (either newly incident AF, or new&#xD;
+      patient to the system with prior diagnosis of AF). The BPA would provide a direct link to the&#xD;
+      AFDST, providing real-time decision support for initial treatment.&#xD;
+&#xD;
+      Change in Clinical Risk Factors - Implement automated process to identify situations where&#xD;
+      AFDST recommendation has changed due to changes in risk factors such that current treatment&#xD;
+      is not &quot;optimal.&quot; Persistent AF and non-optimal thromboprophylaxis - Implement automated&#xD;
+      process to review AFDST recommendations when clinician is in patient chart. Generate BPA if&#xD;
+      current therapy is not &quot;optimal.&quot; To minimize alerts, the investigators will generate&#xD;
+      advisories only for patients who would gain significant benefit from a change in treatment&#xD;
+      (e.g., &gt; 0.5 QALYs). Based on prior studies, this is likely to be the most commonly triggered&#xD;
+      BPA. Clinicians will indicate whether they would like the BPA to fire again, or suppress&#xD;
+      future alerts for that patient.&#xD;
+&#xD;
+      C.2.2 Specific Aim 2 - Evaluate the impact of shared decision-making tools and services.&#xD;
+&#xD;
+      H2 - A shared decision-making specialty service that utilizes an EHR-embedded Atrial&#xD;
+      Fibrillation Shared Decision Making Tool (AFSDM) tool will improve a number of metrics for&#xD;
+      quality care. These include, among others, decrease decisional conflict, improve patient&#xD;
+      satisfaction with decision-making, improve patient knowledge, and improve adherence with&#xD;
+      final shared treatment decisions.&#xD;
+&#xD;
+      The investigators will evaluate this hypothesis using a pre/post study design of patients&#xD;
+      referred to the AF shared decision-making service. Outcomes will include validated measures&#xD;
+      of decision quality, patient engagement, and connection with the clinical team completed&#xD;
+      prior to, and at the conclusion of, the visit.&#xD;
+&#xD;
+      Develop application software - The AFSDM application will provide patient education about&#xD;
+      AF-related stroke risk, treatment options, and their risks and benefits in an inclusive&#xD;
+      manner that considers barriers to treatment that may inordinately affect vulnerable&#xD;
+      populations. The AFSDM will use individual patient preferences and values for health states,&#xD;
+      and patient-specific EHR data to generate recommendations.&#xD;
+&#xD;
+      Provide Shared Decision-Making Services - Develop AF Thromboprophylaxis Shared&#xD;
+      Decision-Making services for clinicians who are not comfortable making thromboprophylaxis&#xD;
+      decisions themselves. These services will be located in the UC Health anticoagulation clinic.&#xD;
+&#xD;
+      Facilitate Access to this Service - Use the AFDST to identify patients who might benefit from&#xD;
+      a change in treatment (see above, Triggers for BPAs) and embed electronic support to simplify&#xD;
+      referral process.&#xD;
+&#xD;
+      BPA will provide options for clinicians to directly address the thromboprophylaxis decision&#xD;
+      themselves, or easily refer patients to the appropriate AF Thromboprophylaxis Shared&#xD;
+      Decision-Making service.&#xD;
+&#xD;
+      Clinicians can indicate whether they want the Shared Decision-Making service to make the&#xD;
+      treatment decision and prescribe therapy, or only generate a recommendation to the referring&#xD;
+      clinician.&#xD;
+&#xD;
+      C.3. Target Population: Practices, Clinicians, and Patients - The UC Health primary care&#xD;
+      network (PCN) consists of 20 primary care practices and 144 clinicians located in the Greater&#xD;
+      Cincinnati and Tri-state area, serving more than 69,000 patients. Practices include 2 urban&#xD;
+      residency-training sites (Internal Medicine and Medicine-Pediatrics), the UCMC Internal&#xD;
+      Medicine Faculty Practice, and the Burnet Family Medicine Practice, all of which serve&#xD;
+      vulnerable patient populations. All practices and the inpatient facility use Epic® as a&#xD;
+      common EHR. A centralized data warehouse containing clinical information for the health&#xD;
+      system is housed in the university's Center for Health Informatics (CHI). UCMC is a&#xD;
+      tertiary/quaternary medical center, safety-net institution with 630 beds (283 of these are&#xD;
+      adult medical/surgical beds) serving vulnerable patient populations in the Cincinnati&#xD;
+      metropolitan area, which includes northern Kentucky and South-Eastern Indiana. Thus, the&#xD;
+      investigators estimate a total of 144 ambulatory clinicians, eligible to be randomized into&#xD;
+      this study. The investigators serve a diverse ethnic and sociodemographic patient base that&#xD;
+      includes both urban residents and rural Appalachians. While the overall proportion of Black&#xD;
+      patients in the UC Health AF cohort is 32%, 4 of the primary care practices (3 UCMC&#xD;
+      hospital-based sites and 1 community site), caring for 711 AF patients, serve a&#xD;
+      disproportionately large proportion (47% - 58%) of Black patients. Forty percent of patients&#xD;
+      are insured by Medicaid or managed Medicaid and 30% by Medicare or managed Medicare; 2% are&#xD;
+      uninsured.&#xD;
+&#xD;
+      C.3.1. Ambulatory Study Sites - Ambulatory visits will take place in the primary care&#xD;
+      practices and pharmacist-staffed Anticoagulation Clinic at UC Medical Center Hospital. As&#xD;
+      described above, the BPA only will fire for patients for whom the AFDST suggests an optimal&#xD;
+      treatment different from current therapy who would gain a benefit of more than 0.5 QALYs by&#xD;
+      changing current treatment. If an advisory has already fired at a previous ambulatory visit,&#xD;
+      the investigators will prevent the BPA from firing again, unless their primary clinician has&#xD;
+      requested the alert be allowed to fire again.&#xD;
+&#xD;
+      C.3.2. Estimated Patient Numbers - A recent data pull from the UC Health EHR identified&#xD;
+      roughly 4,700 active patients fitting these criteria in the UC Health system. Based on&#xD;
+      earlier studies, in the UC Health AF cohort, 41% of patients were receiving &quot;non-optimal&quot;&#xD;
+      thromboprophylaxis (1,927), and 49% of those (944) could gain 0.5 QALYs or more if they were&#xD;
+      to receive &quot;optimal therapy.&quot; Conservatively, the investigators estimate enrollment of 800&#xD;
+      patients (400 in each of 2 study arms) during the 18-month planned enrollment period. In&#xD;
+      addition, roughly 1,460 patients with new diagnoses of AF were seen during the most recent&#xD;
+      calendar year. Of these roughly 80% were new patients entering the system with prior&#xD;
+      diagnoses of AF and roughly 20% were established patients with newly incident AF. Thus, the&#xD;
+      investigators anticipate influx of roughly 1,215 patients with prior diagnoses of AF into the&#xD;
+      system annually. Of these, roughly 245 (1,215 x .41 x .49) might benefit substantially from a&#xD;
+      change in their current thromboprophylaxis, resulting in the potential accrual of another 122&#xD;
+      patients in each study arm if needed. If the investigators still find they are not making&#xD;
+      patient enrollment milestones, they will lower the BPA triggering threshold for anticipated&#xD;
+      gain in QALYs from 0.5 to a reasonable but smaller gain.&#xD;
+&#xD;
+      C.4. Study Design and Methods C.4.1. Design of the AFDST - The current version of the AFDST&#xD;
+      is an external web application that is launched by clicking on an activity button while in&#xD;
+      the patient's EHR record. An AF data mart consisting of a set of Clarity® data tables is&#xD;
+      maintained and refreshed every 24 hours. All UC Health patients fitting inclusion and&#xD;
+      exclusion criteria are in the data mart. Information needed to calculate stroke risk&#xD;
+      (CHA2DS2VASc(18)), major hemorrhage (HASBLED(19)), and intracerebral hemorrhage(29) are&#xD;
+      contained in the data mart after being extracted using the active problem list and a&#xD;
+      combination of laboratory values and clinical measurements. These data prepopulate the AFDST&#xD;
+      when the tool is launched. The investigators ask clinicians to verify this information by&#xD;
+      adding or removing risk factors they believe are incorrect. They may also alter risk factors&#xD;
+      to use the tool to explore alternate clinical scenarios. Stroke risk and bleeding risk&#xD;
+      (extracranial and intracranial) are modified by appropriate measures of efficacy and relative&#xD;
+      hazards for each treatment. Time in therapeutic range, needed to calculate the HASBLED score,&#xD;
+      is determined by interpolating international normalized ratio values through time over the&#xD;
+      past 1 year, similar to the method by Rosendaal et al.(42) Current antithrombotic therapy&#xD;
+      (oral anticoagulant or antiplatelet therapy) is retrieved from the active medication list.&#xD;
+      Efficacy of treatment and relative risk of complications including major bleeding and&#xD;
+      intracranial hemorrhage are informed by the most up-to-date literature including&#xD;
+      meta-analyses(43, 44) and network meta-analyses(45) of the new agents in general populations&#xD;
+      and in the elderly(46, 47) along with systematic reviews of the literature, given the absence&#xD;
+      of head-to-head trials comparing the DOACs to one another.(10, 48) Logic is included to avoid&#xD;
+      recommendations for specific DOACs based on renal function, along with decision support to&#xD;
+      provide specific alternate dosing recommendations as appropriate (e.g., based on age and&#xD;
+      weight).&#xD;
+&#xD;
+      C.4.2. Study Design Details for Aim 1 - At the beginning of the study, the investigators will&#xD;
+      take a snapshot of current thromboprophylaxis practice in the UC Health Primary Care network&#xD;
+      by accessing all primary care patients in the AF data store. The investigators estimate this&#xD;
+      will entail roughly 4,700 patients. The investigators will run the AFDST on all of these&#xD;
+      patients and compare current antithrombotic therapy with treatment recommended by the AFDST&#xD;
+      to ascertain the proportion of this cohort that is receiving recommended antithrombotic&#xD;
+      therapy. This will give us an updated estimate of the care gap, and the potential for&#xD;
+      improving outcomes through this intervention.&#xD;
+&#xD;
+      When a clinician is in the chart of an AF patient, the AFDST will run in the background and&#xD;
+      determine whether the patient would gain more than 0.5 QALYs were their current&#xD;
+      thromboprophylaxis changed. Depending upon whether the patient is in the usual care or active&#xD;
+      intervention study arm, either a hidden best practice advisory or an actual best practice&#xD;
+      advisory will be triggered. This will automatically enroll the patient into the study, and&#xD;
+      this visit will be noted as their index visit.&#xD;
+&#xD;
+      If for any reason, we are not able to implement full functionality of the plan described&#xD;
+      above, we will proceed with the following more manual alternative plan. At the end of each&#xD;
+      week, we will generate a report of all patients in our AF data mart who have had either a&#xD;
+      primary care visit with one of our GIM attendings or UC Health primary care physicians. We&#xD;
+      will run the AFDST for each of these patients to see if they would gain an estimated benefit&#xD;
+      greater than 0.5 QALYs were their current thromboprophylaxis changed. Those patients will be&#xD;
+      enrolled in the study, and this visit will be noted as their index visit. In addition, the&#xD;
+      PI, project manager, and study nurses will receive an Epic alert whenever any enrolled&#xD;
+      patient has an Emergency Department visit or is hospitalized at UCMC. We will use this alert&#xD;
+      as a trigger to review those patients' charts to assess for the occurrence of any adverse&#xD;
+      events (AE). This information will be captured on the case report forms. Outcomes for&#xD;
+      specific aim 2 will be determined at the end of the study.&#xD;
+&#xD;
+      C.4.4. Sample Size Calculations for Primary Outcome - All sample size estimates assume 90%&#xD;
+      power in a two-tailed, alpha = .05 significance test. For the AFDST group (current state) we&#xD;
+      assume, based on similar past assessments, that no more than 4% of patients with&#xD;
+      &quot;non-optimal&quot; treatment will be switched to &quot;appropriate thromboprophylaxis&quot; as determined by&#xD;
+      the AFDST. Given that 4% rate, detecting a 10% rate of change to &quot;appropriate&#xD;
+      thromboprophylaxis&quot; in the group also receiving BPAs would require 397 independently sampled&#xD;
+      patients in each group. Note also that we believe that the 4% estimate for the AFDST group is&#xD;
+      optimistic in that we are likely to observe a lower rate, thus lowering the rate detectable&#xD;
+      in the other group.&#xD;
+&#xD;
+      C.4.5. Clinical Significance of Estimated Changes in &quot;Appropriate Thromboprophylaxis&quot; - Given&#xD;
+      the current 2.2 million patients in the United States with AF, if the investigators are&#xD;
+      successful in demonstrating a 10% improvement in appropriate thromboprophylaxis, the broad&#xD;
+      implementation of AF decision support with BPAs could result in improved treatment for more&#xD;
+      than 44,000 patients, and a population gain of more than 22,000 QALYs. Similarly, an 18%&#xD;
+      improvement through the addition of AF Shared Decision-Making services, could improve&#xD;
+      treatment for almost 80,000 patients, with a population gain of almost 40,000 QALYs.&#xD;
+&#xD;
+      C.4.6. Study Design Details for Aim 2 - Aim 2 is focused on the development and evaluation of&#xD;
+      an Atrial Fibrillation Shared Decision Making tool (AFSDM) and an AF Thromboprophylaxis&#xD;
+      Shared Decision-Making service that will use this tool to engage referred patients in a&#xD;
+      shared decision-making conversation about AF thromboprophylaxis treatment options. To&#xD;
+      accomplish these goals, the investigators propose the following specific steps:&#xD;
+&#xD;
+      Develop the AFSDM - In the previously described pilot/feasibility study of the AFSDM, the&#xD;
+      investigators used a software application written in Visual Basic®, the Gambler® (developed&#xD;
+      by the PI and a past fellow in 1992) to assess patient values and preferences using the&#xD;
+      Standard Gamble technique.(35) This needs to be re-programmed and integrated into the AFSDM&#xD;
+      using a contemporary web-based language. The AFSDM integrates processes of - 1) utility&#xD;
+      assessment for health states (major gastrointestinal bleed, as an exemplar for major&#xD;
+      extracranial bleeding events, stroke with minor and with major long-term neurological&#xD;
+      sequelae, and taking a medication [warfarin] that requires monthly or bimonthly medical&#xD;
+      visits to check INRs and dosing adjustments); 2) patient and family education regarding the&#xD;
+      risks and benefits of treatment; 3) performance of patient-specific decision analyses; and 4)&#xD;
+      real-time communication of results. The investigators will perform utility assessments for&#xD;
+      relevant health states using the standard gamble technique.(35) This is a validated method&#xD;
+      commonly used to assess patients' values and preferences for health outcomes in decision&#xD;
+      analyses. It is particularly appropriate for choices that entail risk, as risk attitude is&#xD;
+      incorporated holistically in utility assessments using this technique. The investigators will&#xD;
+      develop software to computerize these assessments and seamlessly integrate them with the&#xD;
+      decision support tool. The investigators will include educational materials for use by the&#xD;
+      shared decision-making service to inform patients better about AF-related stroke risk,&#xD;
+      available treatments and the risks and benefits of those treatments. In addition, the&#xD;
+      investigators anticipate that, for many patients, the decision analytic results will not&#xD;
+      favor a clear best treatment recommendation among the various DOACs, as they have similar&#xD;
+      efficacies and risks. As shown in the report for a hypothetical patient in Figure 1,&#xD;
+      quality-adjusted life expectancy for apixaban dabigatran, rivaroxaban, and edoxaban fall&#xD;
+      within 0.1 QALYs of each other. From a decision analytic perspective, they are all reasonable&#xD;
+      choices. Therefore, the best choice for this patient will also need to account for more&#xD;
+      nuanced considerations. Based on previous work by the investigative team assessing factors&#xD;
+      that patients feel are important in decision-making beyond treatment efficacy and side&#xD;
+      effects, these include - out of pocket cost, frequency of administration (e.g., daily or&#xD;
+      twice daily), availability of reversal agents, need to take with food, complexity of&#xD;
+      food-drug or drug-drug interactions, and need to have blood work done on a recurring basis&#xD;
+      (e.g., once or twice-monthly visits for INR). Figure 2 shows the type of customized&#xD;
+      information that will be provided to support discussion of these more nuanced issues.&#xD;
+      Although relative costs are shown in the placards above, the investigators plan to get&#xD;
+      specific information for each patient's out of pocket cost for these agents depending upon&#xD;
+      their insurance plan, coverage, and pharmacy.&#xD;
+&#xD;
+      Educational Materials for Patients Embedded in the AFSDM - Utilizing the overall structure&#xD;
+      and internal logic of the earlier computerized utility assessment tool, the &quot;Gambler,&quot; the&#xD;
+      investigators will develop a new generation tool that makes use of current web-based&#xD;
+      client-server programming advances and multi-media technology.(49) In shared decision-making&#xD;
+      visits, using the AFSDM, utility assessments will be done for four health states/clinical&#xD;
+      outcomes: life while receiving anticoagulant therapy with warfarin, mild stroke, severe&#xD;
+      stroke, and major gastrointestinal bleed. The investigators will provide health state&#xD;
+      descriptions through a variety of user-selected formats, including text and multimedia. The&#xD;
+      investigators will film media clips for each of these health states, using professional&#xD;
+      patients or actual patients who have agreed to be filmed. Standard scenario descriptions will&#xD;
+      include the impact of the health state on their physical performance, life style and role&#xD;
+      functioning. In prior patient focus groups, patients have told us they prefer receiving&#xD;
+      information from patients of similar ethnicity, gender, and relative age to themselves. Thus,&#xD;
+      the investigators will develop a library of multimedia clips so that a patient will&#xD;
+      automatically receive health state scenario descriptions and clinical information from a&#xD;
+      patient of the same gender, race, and age range (within limits). The investigators will also&#xD;
+      provide the opportunity for additional, self-directed patient education, providing web-links&#xD;
+      to an array of sites they can access from home, or their local library, including the AHA's&#xD;
+      AFib Town, among others.&#xD;
+&#xD;
+      Develop and implement the AF Thromboprophylaxis Shared Decision-Making services - Across the&#xD;
+      nation, Anticoagulation Clinics (so-called &quot;coumadin clinics&quot;) are searching for new business&#xD;
+      models, as patients transition away from warfarin to treatment with DOACs. These&#xD;
+      pharmacist-staffed clinics are ideal for engaging patients in shared decision-making. Their&#xD;
+      expertise will also address increasing concerns about inappropriate usage and dosing of&#xD;
+      DOACs. Implementation will require the development of sustainable business models; education&#xD;
+      of Anticoagulation Clinic professional staff in use of the AFSDM; and outreach to clinicians&#xD;
+      about the availability of these services.&#xD;
+&#xD;
+      C.4.7. Health Disparities - To address health disparities for Black patients and other&#xD;
+      vulnerable populations that result in lower rates of anticoagulation therapy, the proposal&#xD;
+      intervenes at multiple points along the continuum of prevention and care. First, the&#xD;
+      investigators will implement interventions at multiple practice sites that provide care for&#xD;
+      vulnerable populations in the health care system. The next major gap relates to&#xD;
+      patient-specific factors. The investigators will be inclusive and mindful of economic,&#xD;
+      educational, access and other barriers to treatment among Black patients and other&#xD;
+      underrepresented minorities. For example, the investigators will provide descriptions of&#xD;
+      health states for which they are obtaining patient values and preferences using a bank of&#xD;
+      audio/video clips they create using professional patients matched to patient's race, gender&#xD;
+      and age. Shared decision-making discussions also will focus on issues such as how often lab&#xD;
+      testing must be done with each medication. The need to travel to clinic once or twice a&#xD;
+      month, as is the case when warfarin is prescribed, may not be feasible for someone who has a&#xD;
+      3-hour bus ride to see the doctor. Another topic of discussion is dietary restrictions. Due&#xD;
+      to their high vitamin K content, green, leafy vegetables, such as kale and collards, may&#xD;
+      interfere with the effectiveness of warfarin, but not the DOACs. Out-of-pocket cost and&#xD;
+      availability of adequate health insurance may also drive decisions towards or away from&#xD;
+      specific treatments. Attention to these details will enhance the effectiveness of&#xD;
+      interventions for all patient populations.&#xD;
+&#xD;
+      C.4.9. Sample Size Calculations for Impact of Shared Decision-Making Consultation on&#xD;
+      Decisional Conflict - The investigators will offer enrollment to patients referred to these&#xD;
+      services in a study evaluating their experience with the shared decision-making visit. The&#xD;
+      following numbers are based upon a conservative enrollment rate of 30%, (120 of 400 patients&#xD;
+      in that group) and shows the minimal point change in decisional conflict the investigators&#xD;
+      would be able to detect, using paired t-tests for pre vs post, a two-tailed alpha = .05, and&#xD;
+      90% power. In preliminary studies, the average score for decisional conflict prior to the&#xD;
+      visit was 31 (100-point scale), post-visit mean was 9. Mean change was 22.3 (95% CI, 17.2 -&#xD;
+      27.3) with a standard deviation of the change of 20. With those parameters the investigators&#xD;
+      could detect a mean improvement in decisional conflict as small as 6.0 points, slightly more&#xD;
+      than a minimally important change (33), but much smaller than the mean change of 22.3 seen in&#xD;
+      preliminary work. The stated numbers do not account for the effects of covariates, which&#xD;
+      would increase power slightly, or of clustering, which would reduce power slightly.&#xD;
+&#xD;
+      C.4.10. Data Analysis Plans - Data will be stored in the UC Secure Data Center using&#xD;
+      Microsoft SQL™ and managed by the Center for Health Informatics. The investigators will&#xD;
+      create SAS data files as necessary for statistical analyses using unique coded patient&#xD;
+      identifiers. The major outcome of interest is &quot;appropriate thromboprophylaxis&quot;. The&#xD;
+      investigators will assess overall rates of &quot;appropriate thromboprophylaxis&quot; in each study&#xD;
+      arm, along with change rates following advisories and shared decision-making consultations&#xD;
+      for &quot;non-optimal&quot; thromboprophylaxis following each intervention. The investigators realize&#xD;
+      that the active intervention consists of a bundle that includes both a BPA and the option to&#xD;
+      refer the patient to a Shared Decision-Making service. The investigators first will analyze&#xD;
+      differences in &quot;appropriate thromboprophylaxis&quot; between the two study arms, regardless of&#xD;
+      whether physicians ordered a consultation or not. The investigators will perform exploratory&#xD;
+      analyses comparing &quot;appropriate thromboprophylaxis&quot; between study arm one (AFDST alone) and&#xD;
+      those in study arm two who did or did not get referred for a Shared Decision-Making&#xD;
+      consultation, to better understand the incremental benefit of the consult service over and&#xD;
+      above the BPA added to the decision support tool. The investigators realize there may not be&#xD;
+      sufficient power for these exploratory analyses to provide definitive results.&#xD;
+&#xD;
+      All hypotheses will be addressed by modeling continuous measures (such as the decisional&#xD;
+      conflict scale) or rates (such as appropriate thromboprophylaxis), to compare groups, and the&#xD;
+      effects of groups and/or covariates. In the simplest cases, these can be t-tests, chi-square&#xD;
+      tests of independent proportions, or McNemar tests. The addition of patient-level covariates&#xD;
+      (e.g., gender, age, race, health literacy, numeracy, CHA2DS2VASc and HASBLED scores) or&#xD;
+      physician/practice-level covariates (e.g., ambulatory or inpatient site of care, faculty&#xD;
+      physician, staff clinician, medical specialty) will be accomplished using generalized linear&#xD;
+      models. When possible the investigators will account for provider and/or clinic effects by&#xD;
+      treating them as random effects or as clusters, using a GEE approach. All such models can be&#xD;
+      estimated using SAS procedures GLM, GENMOD, MIXED, and GLIMMIX. Sample sizes permitting, the&#xD;
+      investigators will conduct secondary analyses on subgroups based on physician/practice&#xD;
+      factors and patient factors, similar to those described above as covariates. Alpha for each&#xD;
+      test will be a two-tailed 0.05, unadjusted for multiple tests. The investigators will perform&#xD;
+      simple descriptive analyses of clinical outcomes, such as stroke or bleeding. However, the&#xD;
+      investigators do not expect that differences in event rates following sequential&#xD;
+      interventions will be large enough to demonstrate statistically significant differences in&#xD;
+      clinical outcomes.&#xD;
+&#xD;
+      The investigators recognize that the behavior of the clinicians is critical to assessing the&#xD;
+      outcome of this project. Each clinical practice has its own culture through which&#xD;
+      interventions will be filtered prior to any changes in practice. Drs. Kues, Arduser, and&#xD;
+      Costanzo will assess the implementation of practice changes and physicians' experiences using&#xD;
+      the AFDST through the various EHR interventions via semi-structured interviews with key&#xD;
+      practice personnel and observations. Interviews will be audio recorded, coded and analyzed&#xD;
+      using Nvivo®, a qualitative software analysis program. Research questions the investigators&#xD;
+      will address through qualitative analyses include clinicians' perceptions regarding: 1) ease&#xD;
+      of AFDST use and workflow integration, 2) usefulness of AFDST in patient care, 3) how or&#xD;
+      whether they used the AFDST to involve the patient in a shared decision-making discussion, 4)&#xD;
+      reasons for ignoring or bypassing BPAs for some of their patients, and 5) suggestions for&#xD;
+      improving either the tool or its integration into the EHR and workflow.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 18, 2020</start_date>
+  <completion_date type="Anticipated">December 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>For the first aim AF patients in our UC Health primary care network will be randomized into one of two study arms: 1) Atrial Fibrillation Decision-Support Tool (AFDST); 2) AFDST with addition of best practice advisory (BPA) and option to refer to shared decision-making consultation services. Patients will enter the study as their clinicians receive BPAs, or in the case of the first study arm, when BPAs would have been generated as clinicians open medical records of patients for whom current thromboprophylaxis is not optimal.&#xD;
+The second aim is a pre/post study evaluating the impact of shared decision-making tools and services. Patients consenting to participation in this aspect of the study, will have a shared decision-making visit with one of our anticoagulation pharmacists.</intervention_model_description>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>&quot;Appropriate Thromboprophylaxis&quot;</measure>
+    <time_frame>by study completion, up to 18 months</time_frame>
+    <description>The primary outcome of interest for aim 1 is effectiveness, measured as the percent of patients with &quot;appropriate thromboprophylaxis&quot; based on the AFDST recommendation. If oral anticoagulant therapy is recommended, current treatment with any oral anticoagulant agent will be considered concordant with recommendations. We will assess post-intervention treatment at the completion of the study (up to 18 months) to determine the proportion of patients in each study arm receiving &quot;appropriate thromboprophylaxis.&quot;</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients for whom BPA is generated divided by number of BPAs acknowledged by physician activation of AFDST.</measure>
+    <time_frame>18 months</time_frame>
+    <description>Reach is defined as the total number of patients for whom the BPA was acknowledged by activating the AFDST, divided by the total numbers of patients for whom advisories were generated.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of clinicians receiving a BPA divided by number who acknowledge the BPA by activating AFDST.</measure>
+    <time_frame>18 months</time_frame>
+    <description>Adoption is defined as the total number of clinicians who acknowledge any advisory, divided by the total number of clinicians who receive advisories. We will measure reach, adoption, and effectiveness following both implementation of BPAs and implementation of semi-automated referral orders for shared decision-making consultation. We also will collect overall usage data to see how often the AFDST is invoked both prior to and following study initiation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Strokes</measure>
+    <time_frame>18 months</time_frame>
+    <description>Strokes resulting in hospitalization at the University of Cincinnati Medical Center.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Major bleeds</measure>
+    <time_frame>18 months</time_frame>
+    <description>Major bleeds resulting in hospitalization at the University of Cincinnati Medical Center.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">144</enrollment>
+  <condition>Atrial Fibrillation</condition>
+  <arm_group>
+    <arm_group_label>Current State</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Clinicians of patients randomized to this arm will have access to the Atrial Fibrillation Decision-Support Tool (AFDST) embedded in our EHR (as they do now), but will not receive BPAs alerting them to patients who might benefit significantly from a change in anticoagulation treatment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>AFDST with BPA</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Clinicians of patients randomized to this arm will receive BPAs when they are in the medical record of an AF patient who might gain significantly from a change in anticoagulation treatment. In addition, clinicians will have the ability to refer patients to a pharmacist-staffed AF Thromboprophylaxis Shared Decision-Making Service based in our Anticoagulation Clinic.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Electronic Health Record Best Practice Advisory</intervention_name>
+    <description>The AFDST is a decision support tool that is embedded in our electronic health record system. Currently, this is a passive tool that requires the clinician to launch the tool if an analysis is desired. The experimental arm of this study will add a best practice advisory (BPA) that will trigger when a clinician is in the medical record of an AF patient who might gain substantial benefit (survival and quality of life) if treatment were changed from the current anticoagulation plan, which might be no anticoagulant therapy.</description>
+    <arm_group_label>AFDST with BPA</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  • Diagnosis of non-valvular atrial fibrillation or atrial flutter (I48.x)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  • Diagnosis of valvular heart disease (mitral valve disease (I05.x), aortic valve&#xD;
+             disease (I06.x), mitral and aortic valve disease (I08.x)), presence of prosthetic&#xD;
+             heart valve (Z95.2), or presence of xenogenic heart valve (Z95.3), or presence of&#xD;
+             other heart valve replacement (Z95.4).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ruth Wise, MSN</last_name>
+    <phone>513-558-7581</phone>
+    <email>ruth.wise@uc.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mark H Eckman, MD</last_name>
+    <phone>513558-7464</phone>
+    <email>mark.eckman@uc.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>University of Cincinnati Health System</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45257</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ruth Wise, MSN,MDes</last_name>
+      <phone>513-368-7563</phone>
+      <email>ruth.wise@uc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Mark H Eckman, MD, MS</last_name>
+      <phone>513 558-7464</phone>
+      <email>mark.eckman@uc.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Eckman MH, Costea A, Attari M, Munjal J, Wise RE, Knochelmann C, Flaherty ML, Baker P, Ireton R, Harnett BM, Leonard AC, Steen D, Rose A, Kues J. Shared decision-making tool for thromboprophylaxis in atrial fibrillation - A feasibility study. Am Heart J. 2018 May;199:13-21. doi: 10.1016/j.ahj.2018.01.003. Epub 2018 Jan 12.</citation>
+    <PMID>29754650</PMID>
+  </reference>
+  <reference>
+    <citation>Eckman MH, Costea A, Attari M, Munjal J, Wise RE, Knochelmann C, Flaherty ML, Baker P, Ireton R, Harnett BM, Leonard AC, Steen D, Rose A, Kues J. Atrial fibrillation decision support tool: Population perspective. Am Heart J. 2017 Dec;194:49-60. doi: 10.1016/j.ahj.2017.08.016. Epub 2017 Aug 23.</citation>
+    <PMID>29223435</PMID>
+  </reference>
+  <reference>
+    <citation>Eckman MH, Lip GY, Wise RE, Speer B, Sullivan M, Walker N, Kissela B, Flaherty ML, Kleindorfer D, Baker P, Ireton R, Hoskins D, Harnett BM, Aguilar C, Leonard AC, Arduser L, Steen D, Costea A, Kues J. Impact of an Atrial Fibrillation Decision Support Tool on thromboprophylaxis for atrial fibrillation. Am Heart J. 2016 Jun;176:17-27. doi: 10.1016/j.ahj.2016.02.009. Epub 2016 Feb 19.</citation>
+    <PMID>27264216</PMID>
+  </reference>
+  <reference>
+    <citation>Shah SJ, Eckman MH, Aspberg S, Go AS, Singer DE. Effect of Variation in Published Stroke Rates on the Net Clinical Benefit of Anticoagulation for Atrial Fibrillation. Ann Intern Med. 2018 Oct 16;169(8):517-527. doi: 10.7326/M17-2762. Epub 2018 Sep 25.</citation>
+    <PMID>30264130</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>September 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>September 20, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 23, 2019</study_first_posted>
+  <last_update_submitted>April 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Cincinnati</investigator_affiliation>
+    <investigator_full_name>Mark Eckman, M.D.</investigator_full_name>
+    <investigator_title>Professor of Clinical Medicine</investigator_title>
+  </responsible_party>
+  <keyword>anticoagulation</keyword>
+  <keyword>decision sciences</keyword>
+  <keyword>clinical informatics</keyword>
+  <keyword>implementation research</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

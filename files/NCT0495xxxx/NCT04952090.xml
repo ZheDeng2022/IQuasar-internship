@@ -1,0 +1,159 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04952090</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SNUEMS_HUMAN_EEG</org_study_id>
+    <nct_id>NCT04952090</nct_id>
+  </id_info>
+  <brief_title>Development of Consciousness Measure and Monitor Device Based on Electroencephalography</brief_title>
+  <official_title>Development of Consciousness Measure and Monitor Device Based on Quantitative Electroencephalography Analysis In Emergency Patient</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Research Foundation of Korea</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to develop a consciousness measuring and monitoring device using a&#xD;
+      single-channel electroencephalogram (EEG).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study objectives:&#xD;
+&#xD;
+        1. To develop a single-channel EEG database of emergency department (ED) patients with&#xD;
+           altered mental status.&#xD;
+&#xD;
+        2. To analyze single-channel EEG recordings and extract significant parameters.&#xD;
+&#xD;
+        3. To develop a consciousness prediction model using single-channel EEG.&#xD;
+&#xD;
+      Study design: observational multicenter study in 6 tertiary hospital EDs in Korea (Seoul&#xD;
+      National University Hospital, Seoul Metropolitan Government Seoul National University Boramae&#xD;
+      Medical Center, Kyungpook National University Hospital, Chungbuk National University&#xD;
+      Hospital, Chonnam National University Hospital, Korea University Ansan Hospital).&#xD;
+&#xD;
+      The investigators will obtain single-channel EEG data of ED patients with altered&#xD;
+      consciousness and develop a prospective database of the data.&#xD;
+&#xD;
+      With the constructed database, a consciousness prediction model using single-channel EEG will&#xD;
+      be developed.&#xD;
+&#xD;
+      The prediction performance of the developed model using area under receiver operating&#xD;
+      characteristic curve (AUC) will be evaluated.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 28, 2020</start_date>
+  <completion_date type="Anticipated">May 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 31, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Consciousness level using the Glasgow Coma Scale (GCS) scale.</measure>
+    <time_frame>At the time of study completion (May 31, 2023, anticipated).</time_frame>
+    <description>The GCS score ranges from 15 to 3 points, with a higher score indicating an alert consciousness and a lower score indicating decreased consciousness.&#xD;
+A binary outcome of GCS&lt;=8 and GCS&gt;8 will be used in this study.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Consciousness level using the AVPU (Alert; Verbal; Pain; Unresponsive) scale.</measure>
+    <time_frame>At the time of study completion (May 31, 2023, anticipated).</time_frame>
+    <description>A multi-class outcome (A: alert, V: verbal, P: pain, U: unresponsive) will be used in this study.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Electroencephalography</condition>
+  <condition>Consciousness</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients with a decreased level of consciousness who have visited the study hospital&#xD;
+        EDs and have stayed at the ED for less than 12 hours at the time of enrollment will be&#xD;
+        included.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adult ED patients with a decreased level of consciousness (verbal, pain, or&#xD;
+             unresponsive using the AVPU scale, and a GCS-E score of less than 4) who have stayed&#xD;
+             at the ED for less than 12 hours at the time of enrollment.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with the difficulty of applying EEG due to head trauma or skull deformities.&#xD;
+&#xD;
+          -  Patients for whom standard treatment may be significantly delayed by applying the EEG&#xD;
+             device.&#xD;
+&#xD;
+          -  Patients with a guardian who do not agree to enroll in this study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ki Hong Kim</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Seoul National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Dong Hyun Choi</last_name>
+    <phone>+82-2-2072-4052</phone>
+    <email>donghyun369@snu.ac.kr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Seoul National University Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ki Hong Kim</last_name>
+      <phone>+82-2-2072-4052</phone>
+      <email>emphysiciankkh@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>June 20, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 27, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>June 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

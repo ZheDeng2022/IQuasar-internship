@@ -1,0 +1,724 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03002311</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201504079</org_study_id>
+    <nct_id>NCT03002311</nct_id>
+  </id_info>
+  <brief_title>Improving Follow-Up for Discharged Emergency Care Patients</brief_title>
+  <official_title>Improving Medical Care With Electronic Interventions Based on Automated Text and Phone Messages</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Epharmix, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study's purpose is to test the effects of an electronic health intervention platform&#xD;
+      developed by Epharmix (also known as CareSignal), which features two-way SMS text messages&#xD;
+      and phone calls intended to improve clinical outcomes compared to the standard of care. This&#xD;
+      was a randomized open, blinded end-point (PROBE) trial of adult patients discharged from the&#xD;
+      ED and referred to a provider for follow-up care. Participants in the intervention arm&#xD;
+      received a self-scheduling text or phone message that automatically connected them to their&#xD;
+      referral provider to schedule a follow-up appointment and sent them appointment reminders.&#xD;
+      Those in the control arm received standard of care written instructions to contact listed&#xD;
+      referral providers. The primary outcome was time to the follow-up appointment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Telemedicine is a modern field of clinical medicine that strives to incorporate&#xD;
+      telecommunication and information technology for diagnosing and managing health care at a&#xD;
+      distance. Interventions range from telephone reminders to remote physician consultation by&#xD;
+      streamed by webcam. Simple technology such as telephone and SMS texting are becoming common&#xD;
+      forms of communication and may improve patient adherence and engagement. Automated telephone&#xD;
+      appointment reminders have improved adherence with follow-up appointments in some settings,&#xD;
+      but have mixed results in patients discharged from the emergency department (ED). Increasing&#xD;
+      adherence to follow-up care has been a priority in the ED to improve patient outcomes and&#xD;
+      reduce unnecessary future visits.&#xD;
+&#xD;
+      An electronic intervention platform has been developed by Epharmix (now HealthSignal), uses&#xD;
+      SMS text messaging for adherence tracking and data collection applications, to supplement&#xD;
+      clinical care. Specific messages include: proactively asking patients or a designated patient&#xD;
+      advocate if the patient has experienced a medical event; requesting specific care-related&#xD;
+      information; and providing health care education. Patients receiving the messages are also&#xD;
+      provided with key contact information for their designated health care provider to promote&#xD;
+      patient engagement, as well as prompt and appropriate medical follow-up care. The service&#xD;
+      will maintain both a dedicated SMS and phone line for recording events or adverse reactions.&#xD;
+      Events designated as critical prompt a phone call from nursing staff. Overall, this study&#xD;
+      aims to determine whether an electronic intervention system that sends SMS text messages will&#xD;
+      improve adherence to follow-up appointments after an ED visit.&#xD;
+&#xD;
+      Patients age 18 years or older at Barnes Jewish Hospital are included in this study. We&#xD;
+      conducted a prospective randomized open, blinded end-point (PROBE) trial of 278 adult&#xD;
+      patients discharged from the ED and referred to a provider for follow-up care. Participants&#xD;
+      in the intervention arm received a self-scheduling text or phone message using the Epharmix&#xD;
+      (now HealthSignal) platform that connected them to their referral provider to schedule a&#xD;
+      follow-up appointment and sent them appointment reminders. Those in the control arm received&#xD;
+      standard-of-care written instructions to contact listed referral providers. The primary&#xD;
+      outcome was time to appointment. The secondary outcome was time to return visit to the ED.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2016</start_date>
+  <completion_date type="Actual">March 9, 2018</completion_date>
+  <primary_completion_date type="Actual">September 18, 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>SMS text messaging to prompt adherence with follow-up appointment.</intervention_model_description>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adherence to Follow-up Appointment</measure>
+    <time_frame>Up to 120 days</time_frame>
+    <description>The primary outcome was the effect of the intervention on time to follow-up appointment using an intention-to-treat analysis and plotting the cumulative incidence functions (CIFs). Follow-up adherence was defined as a recorded visit in the EMR to the referral primary or specialty care provider within 120 days after ED discharge to address a similar diagnosis (or complaint) at the index ED visit.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Revisits to the ED</measure>
+    <time_frame>Up to 120 days</time_frame>
+    <description>The secondary outcome was revisits to the ED after discharge.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">327</enrollment>
+  <condition>General Medicine</condition>
+  <condition>Emergency Medicine</condition>
+  <condition>Mobile Health</condition>
+  <arm_group>
+    <arm_group_label>Control</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Epharmix/CareSignal eHealth Intervention</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>After randomization, participants receive text reminders to have a follow-up visit. The participant can respond to these messages via numerical or binary answers (Y/N).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Epharmix/CareSignal eHealth</intervention_name>
+    <description>The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm if they attended.</description>
+    <arm_group_label>Epharmix/CareSignal eHealth Intervention</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. age 18 years or older,&#xD;
+&#xD;
+          2. accessible short message service (SMS) capable mobile phone or residential landline,&#xD;
+&#xD;
+          3. able to read English or have English-speaking family member to assist with phone&#xD;
+             communications,&#xD;
+&#xD;
+          4. discharged directly from the Barnes Jewish hospital (St. Louis, MO) emergency&#xD;
+             department (ED), and&#xD;
+&#xD;
+          5. given a clinical referral to make an outpatient follow-up appointment at time of&#xD;
+             discharge to a specific clinic or provider&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. unable or refused to provide consent,&#xD;
+&#xD;
+          2. could not be contacted by a phone call or SMS,&#xD;
+&#xD;
+          3. non-English speaking,&#xD;
+&#xD;
+          4. were admitted to the hospital, and&#xD;
+&#xD;
+          5. already had a follow-up appointment scheduled before being discharged from the ED&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>5 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Will R Ross, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Barnes Jewish Hospital</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Whittier WL. Surveillance of hemodialysis vascular access. Semin Intervent Radiol. 2009 Jun;26(2):130-8. doi: 10.1055/s-0029-1222457.</citation>
+    <PMID>21326504</PMID>
+  </reference>
+  <reference>
+    <citation>Cummings KM, Becker MH, Kirscht JP, Levin NW. Intervention strategies to improve compliance with medical regimens by ambulatory hemodialysis patients. J Behav Med. 1981 Mar;4(1):111-27.</citation>
+    <PMID>7288877</PMID>
+  </reference>
+  <reference>
+    <citation>Parikh A, Gupta K, Wilson AC, Fields K, Cosgrove NM, Kostis JB. The effectiveness of outpatient appointment reminder systems in reducing no-show rates. Am J Med. 2010 Jun;123(6):542-8. doi: 10.1016/j.amjmed.2009.11.022.</citation>
+    <PMID>20569761</PMID>
+  </reference>
+  <reference>
+    <citation>Junod Perron N, Dao MD, Righini NC, Humair JP, Broers B, Narring F, Haller DM, Gaspoz JM. Text-messaging versus telephone reminders to reduce missed appointments in an academic primary care clinic: a randomized controlled trial. BMC Health Serv Res. 2013 Apr 4;13:125. doi: 10.1186/1472-6963-13-125.</citation>
+    <PMID>23557331</PMID>
+  </reference>
+  <reference>
+    <citation>Bame SI, Petersen N, Wray NP. Variation in hemodialysis patient compliance according to demographic characteristics. Soc Sci Med. 1993 Oct;37(8):1035-43.</citation>
+    <PMID>8235736</PMID>
+  </reference>
+  <reference>
+    <citation>Lua PL, Neni WS. A randomised controlled trial of an SMS-based mobile epilepsy education system. J Telemed Telecare. 2013 Jan;19(1):23-8. doi: 10.1177/1357633X12473920. Epub 2013 Feb 6.</citation>
+    <PMID>23390210</PMID>
+  </reference>
+  <reference>
+    <citation>Lua PL, Neni WS. Health-related quality of life improvement via telemedicine for epilepsy: printed versus SMS-based education intervention. Qual Life Res. 2013 Oct;22(8):2123-32. doi: 10.1007/s11136-013-0352-6. Epub 2013 Jan 18.</citation>
+    <PMID>23329469</PMID>
+  </reference>
+  <reference>
+    <citation>Dall TM, Storm MV, Chakrabarti R, Drogan O, Keran CM, Donofrio PD, Henderson VW, Kaminski HJ, Stevens JC, Vidic TR. Supply and demand analysis of the current and future US neurology workforce. Neurology. 2013 Jul 30;81(5):470-8. doi: 10.1212/WNL.0b013e318294b1cf. Epub 2013 Apr 17.</citation>
+    <PMID>23596071</PMID>
+  </reference>
+  <reference>
+    <citation>Lieberman DZ, Kelly TF, Douglas L, Goodwin FK. A randomized comparison of online and paper mood charts for people with bipolar disorder. J Affect Disord. 2010 Jul;124(1-2):85-9. doi: 10.1016/j.jad.2009.10.019. Epub 2009 Nov 6.</citation>
+    <PMID>19896202</PMID>
+  </reference>
+  <reference>
+    <citation>Sawan M, Salam MT, Le Lan J, Kassab A, Gelinas S, Vannasing P, Lesage F, Lassonde M, Nguyen DK. Wireless recording systems: from noninvasive EEG-NIRS to invasive EEG devices. IEEE Trans Biomed Circuits Syst. 2013 Apr;7(2):186-95. doi: 10.1109/TBCAS.2013.2255595.</citation>
+    <PMID>23853301</PMID>
+  </reference>
+  <reference>
+    <citation>Chaudhry SI, Mattera JA, Curtis JP, Spertus JA, Herrin J, Lin Z, Phillips CO, Hodshon BV, Cooper LS, Krumholz HM. Telemonitoring in patients with heart failure. N Engl J Med. 2010 Dec 9;363(24):2301-9. doi: 10.1056/NEJMoa1010029. Epub 2010 Nov 16. Erratum in: N Engl J Med. 2011 Feb 3;364(5):490. N Engl J Med. 2013 Nov 7;369(19):1869.</citation>
+    <PMID>21080835</PMID>
+  </reference>
+  <results_reference>
+    <citation>Bauer KL, Sogade OO, Gage BF, Ruoff B, Lewis L. Improving Follow-up Attendance for Discharged Emergency Care Patients Using Automated Phone System to Self-schedule: A Randomized Controlled Trial. Acad Emerg Med. 2021 Feb;28(2):197-205. doi: 10.1111/acem.14080. Epub 2020 Aug 5.</citation>
+    <PMID>32654257</PMID>
+  </results_reference>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 23, 2016</study_first_submitted>
+  <study_first_submitted_qc>December 20, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">December 23, 2016</study_first_posted>
+  <results_first_submitted>October 2, 2020</results_first_submitted>
+  <results_first_submitted_qc>November 2, 2020</results_first_submitted_qc>
+  <results_first_posted type="Actual">November 24, 2020</results_first_posted>
+  <last_update_submitted>November 2, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 2, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Bioinformatics</keyword>
+  <keyword>Electronic pharmacology</keyword>
+  <keyword>Mobile health</keyword>
+  <keyword>Electronic health</keyword>
+  <keyword>Adherence</keyword>
+  <keyword>Digital health</keyword>
+  <keyword>Health information technology</keyword>
+  <keyword>mHealth</keyword>
+  <keyword>eHealth</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol, Statistical Analysis Plan, and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>June 26, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/11/NCT03002311/Prot_SAP_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <recruitment_details>The enrollment period for the study took place between January 1, 2016 and June 30, 2017.</recruitment_details>
+      <pre_assignment_details>Of 933 patients screened, 35% were enrolled. Of those screened, 4.5% of patients were excluded because they did not have a phone and 2.0% were excluded because they were non-English speaking. The largest groups excluded were those who did not want to participate (n=300) and those who were given a specific referral (n=107).</pre_assignment_details>
+      <group_list>
+        <group group_id="P1">
+          <title>Control</title>
+          <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+        </group>
+        <group group_id="P2">
+          <title>Epharmix/CareSignal eHealth Intervention</title>
+          <description>Epharmix/CareSignal eHealth: The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm attendance.</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="147"/>
+                <participants group_id="P2" count="180"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="128"/>
+                <participants group_id="P2" count="150"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="19"/>
+                <participants group_id="P2" count="30"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+          <drop_withdraw_reason_list>
+            <drop_withdraw_reason>
+              <title>Lost to Follow-up</title>
+              <participants_list>
+                <participants group_id="P1" count="13"/>
+                <participants group_id="P2" count="26"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Referral provider called to schedule app</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="3"/>
+              </participants_list>
+            </drop_withdraw_reason>
+            <drop_withdraw_reason>
+              <title>Physician Decision</title>
+              <participants_list>
+                <participants group_id="P1" count="3"/>
+                <participants group_id="P2" count="1"/>
+              </participants_list>
+            </drop_withdraw_reason>
+          </drop_withdraw_reason_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>19 patients in the control arm were excluded: 3 were admitted to the hospital, 3 had their provider schedule an appointment, and 13 had no outcome data.&#xD;
+30 patients in the phone intervention arm were excluded: 1 was admitted to the hospital, 3 had their provider schedule an appointment, and 26 had no outcome data.</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Control</title>
+          <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+        </group>
+        <group group_id="B2">
+          <title>Epharmix/CareSignal eHealth Intervention</title>
+          <description>Epharmix/CareSignal eHealth: The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm attendance.</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="128"/>
+            <count group_id="B2" value="150"/>
+            <count group_id="B3" value="278"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Median</param>
+          <dispersion>Inter-Quartile Range</dispersion>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="36.5" lower_limit="26.5" upper_limit="48.0"/>
+                    <measurement group_id="B2" value="38.4" lower_limit="27.3" upper_limit="54.3"/>
+                    <measurement group_id="B3" value="37.5" lower_limit="27" upper_limit="51"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="82"/>
+                    <measurement group_id="B2" value="98"/>
+                    <measurement group_id="B3" value="180"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="46"/>
+                    <measurement group_id="B2" value="52"/>
+                    <measurement group_id="B3" value="98"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ethnicity (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="5"/>
+                    <measurement group_id="B3" value="8"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Not Hispanic or Latino</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="124"/>
+                    <measurement group_id="B2" value="143"/>
+                    <measurement group_id="B3" value="267"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="2"/>
+                    <measurement group_id="B3" value="3"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race (NIH/OMB)</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <title>American Indian or Alaska Native</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Asian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Native Hawaiian or Other Pacific Islander</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Black or African American</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="87"/>
+                    <measurement group_id="B2" value="100"/>
+                    <measurement group_id="B3" value="187"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>White</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="30"/>
+                    <measurement group_id="B2" value="40"/>
+                    <measurement group_id="B3" value="70"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>More than one race</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Unknown or Not Reported</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="21"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>United States</title>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="128"/>
+                    <measurement group_id="B2" value="150"/>
+                    <measurement group_id="B3" value="278"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Adherence to Follow-up Appointment</title>
+        <description>The primary outcome was the effect of the intervention on time to follow-up appointment using an intention-to-treat analysis and plotting the cumulative incidence functions (CIFs). Follow-up adherence was defined as a recorded visit in the EMR to the referral primary or specialty care provider within 120 days after ED discharge to address a similar diagnosis (or complaint) at the index ED visit.</description>
+        <time_frame>Up to 120 days</time_frame>
+        <population>Modified intent-to treat-analysis: Participants were excluded if they were admitted to the hospital after consenting, if their doctor called to schedule the follow-up appointment, or if they were lost to follow up.</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Control</title>
+            <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+          </group>
+          <group group_id="O2">
+            <title>Epharmix/CareSignal eHealth Intervention</title>
+            <description>Epharmix/CareSignal eHealth: The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm attendance.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Adherence to Follow-up Appointment</title>
+          <description>The primary outcome was the effect of the intervention on time to follow-up appointment using an intention-to-treat analysis and plotting the cumulative incidence functions (CIFs). Follow-up adherence was defined as a recorded visit in the EMR to the referral primary or specialty care provider within 120 days after ED discharge to address a similar diagnosis (or complaint) at the index ED visit.</description>
+          <population>Modified intent-to treat-analysis: Participants were excluded if they were admitted to the hospital after consenting, if their doctor called to schedule the follow-up appointment, or if they were lost to follow up.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="128"/>
+                <count group_id="O2" value="150"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="30"/>
+                    <measurement group_id="O2" value="74"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <non_inferiority_desc>We conducted a conditional power analysis 120 days after 6 months of enrollment. We determined the effect size based on the difference of proportions of follow-up attendance in the intervention and control arms. We used the effect size of 20% to estimate the sample size needed for a two-sided alpha of 0.05 at 90% power and a 1:1 ratio to require 266 participants. Loss to follow-up was estimated to be 20%, increasing target enrollment to 334 total participants.</non_inferiority_desc>
+            <p_value>&lt;0.001</p_value>
+            <method>Gray's test</method>
+            <method_desc>We compared the cumulative incidence function.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+      <outcome>
+        <type>Secondary</type>
+        <title>Revisits to the ED</title>
+        <description>The secondary outcome was revisits to the ED after discharge.</description>
+        <time_frame>Up to 120 days</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Control</title>
+            <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+          </group>
+          <group group_id="O2">
+            <title>Epharmix/CareSignal eHealth Intervention</title>
+            <description>Epharmix/CareSignal eHealth: The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm attendance.</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Revisits to the ED</title>
+          <description>The secondary outcome was revisits to the ED after discharge.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="128"/>
+                <count group_id="O2" value="150"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="50"/>
+                    <measurement group_id="O2" value="60"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <analysis_list>
+          <analysis>
+            <group_id_list>
+              <group_id>O1</group_id>
+              <group_id>O2</group_id>
+            </group_id_list>
+            <non_inferiority_type>Superiority</non_inferiority_type>
+            <non_inferiority_desc>This was a secondary analysis so no power analysis was done.</non_inferiority_desc>
+            <p_value>0.8</p_value>
+            <p_value_desc>We used a two-sided alpha of 0.05 to determine significance.</p_value_desc>
+            <method>Gray's test</method>
+            <method_desc>We compared the cumulative incidence functions.</method_desc>
+          </analysis>
+        </analysis_list>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>120 days</time_frame>
+      <desc>SAEs consisted of deaths (none observed) or unplanned hospital admissions (see table).</desc>
+      <group_list>
+        <group group_id="E1">
+          <title>Control</title>
+          <description>Receiving current standard of care as designated by emergency department (ED) standard operating practice.</description>
+        </group>
+        <group group_id="E2">
+          <title>Epharmix/CareSignal eHealth Intervention</title>
+          <description>Epharmix/CareSignal eHealth: The self-scheduling text and phone messaging system was built by Epharmix/CareSignal. Participants in the intervention group began receiving text or voice messages (for landlines) starting 1 hour following ED discharge if during normal business hours, or at 1000 the next business morning. Automated messages were sent up to 3 days in a row or until the participant responded or opted out. The phone system would ultimately connect them directly to their referral provider or clinic to schedule an appointment. Once participants hung up with the referral clinic, the intervention texted or called back to solicit the appointment date. If a date was entered, the system sent reminders at 14 days, 7 days, 3 days, and 1 day before the appointment. After the appointment, the intervention texted or called participants to confirm attendance.</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="128"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="150"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="16" subjects_at_risk="128"/>
+                <counts group_id="E2" subjects_affected="16" subjects_at_risk="150"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>General disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Unplanned hospitalization</sub_title>
+                <description>Unplanned hospitalizations consisted of non-elective hospitalizations within the 120-day windom.</description>
+                <counts group_id="E1" events="16" subjects_affected="16" subjects_at_risk="128"/>
+                <counts group_id="E2" events="16" subjects_affected="16" subjects_at_risk="150"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>5</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="128"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="150"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Brian F. Gage, MD</name_or_title>
+      <organization>WASHINGTON UNIVERSITY MEDICAL SCHOOL</organization>
+      <phone>3144548697</phone>
+      <email>bgage@wustl.edu</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

@@ -1,0 +1,256 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04827381</url>
+  </required_header>
+  <id_info>
+    <org_study_id>D21050</org_study_id>
+    <secondary_id>02000763</secondary_id>
+    <secondary_id>R01LM012815</secondary_id>
+    <nct_id>NCT04827381</nct_id>
+  </id_info>
+  <brief_title>Improving Patient and Caregiver Engagement by Sharing Annotated Audio-recorded Clinic Visits</brief_title>
+  <official_title>Improving Patient and Caregiver Engagement Through the Application of Data Science Methods to Audio Recorded Clinic Visits Stored in Personal Health Libraries</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dartmouth-Hitchcock Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Library of Medicine (NLM)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Dartmouth-Hitchcock Medical Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In this project, the investigators will conduct a three-arm patient-randomized pilot trial in&#xD;
+      older adults with multimorbidity in ambulatory care settings to determine the feasibility,&#xD;
+      usability, and acceptability of an audio-based PHL developed with older adults and&#xD;
+      caregivers, HealthPAL.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Providing digital recordings of clinical visits to patients has emerged as a new strategy to&#xD;
+      promote patient and family engagement in care. With advances in natural language processing,&#xD;
+      an opportunity exists to maximize the value of visit recordings for patients by automatically&#xD;
+      annotate key visit information (e.g., medications, tests &amp; imaging) with linkages to&#xD;
+      trustworthy online resources. These resources can be curated in an audio-based personal&#xD;
+      health library (PHL). In this project, the investigators will conduct a three-arm&#xD;
+      patient-randomized pilot trial in older adults with multimorbidity in ambulatory care&#xD;
+      settings to determine the feasibility, usability, and acceptability of an audio-based PHL&#xD;
+      developed with older adults and caregivers, HealthPAL. Participants in the intervention arms&#xD;
+      will receive access to an audio-based PHL with either 1) a clinic visit recording where key&#xD;
+      information is annotated and hyperlinks to trustworthy health information are provided&#xD;
+      (HealthPAL), 2) a clinic visit recording without annotations or hyperlinks, or 3) the third&#xD;
+      group of participants will receive usual care (control) with no recordings. Usability metrics&#xD;
+      and satisfaction will be assessed at two weeks. Preliminary data on the impact of HealthPAL&#xD;
+      on patient ability to seek, find and use health information with high confidence and patient&#xD;
+      activation, as well caregiver preparedness will also be gathered.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 15, 2021</start_date>
+  <completion_date type="Anticipated">November 2021</completion_date>
+  <primary_completion_date type="Actual">October 7, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Single-site, three-arm, parallel group, patient-randomized, blocked, controlled, pilot trial with two-week follow up</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Participant retention (Feasibility)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>The proportion of included participants completing the two-week (T1) follow up assessment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Listening rates (Acceptability)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>The proportion of patients who listen to their recordings.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>System Usability Scale (SUS)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>10-item PROM. A score ≥68 points (0-100) indicates above average usability</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Acceptability of Intervention Measure (AIM)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>Four-item PROM assessing acceptability of intervention. Higher score indicates higher acceptability of the intervention.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Intervention Appropriateness Measure (IAM)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>Four-item PROM assessing feasibility of intervention. Higher score indicates greater appropriateness of the intervention.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Feasibility of Intervention Measure (FIM)</measure>
+    <time_frame>Two weeks from baseline</time_frame>
+    <description>Four-item PROM assessing feasibility of intervention. Higher score indicates higher feasibility of the intervention.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Change in patient activation as reported by the Patient Activation Measure - Short Form (PAM-SF)</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>13-item Patient Reported Outcome Measure. Four domains: Patient: i) recognizes their role; ii) has knowledge and confidence; iii) takes steps to manage care; and iv) can manage care under stress. PAM-SF scores range from 0-100, higher scores indicates greater activation.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in health literacy as measured by the eHealth Literacy Scale (eHEALS)</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>Eight-item PROM assessing ability to seek, find, use and assess the quality of online health. Scores on eHEALS range between 8 and 40 with higher scores indicating greater subjective health literacy.&#xD;
+information.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Brief Health Literacy Scale (BHLS)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Three item PROM to assess patient's confidence and ability to understand medical information. Scores on the BHLS range between 3 and 15, with higher scores indicating higher subjective health literacy.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Patient Health Questionnaire Depression Scale (PHQ-8)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Eight item PROM depression scale. Scores are based on a 4-level scale with 0 indicating &quot;Not at all&quot; and 3 indicating &quot;Nearly every day&quot;. PHQ-8 scores range from 0 - 24. Higher scores indicate higher levels of depression.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Generalized Anxiety Disorder-7 (GAD-7)</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Seven item PROM of anxiety. Scores are based on a 4-level scale with 0 indicating &quot;Not at all&quot; and 3 indicating &quot;Nearly every day&quot;. GAD-7 scores range from 0 - 21. Higher scores indicate higher levels of anxiety.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in Medical Outcomes Study General Adherence (MOSGA) score</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>Five-item PROM of patient adherence to treatment. Scores are measured on a 5-item, 6-level scale, with a score of 1 indicating &quot;None of the time&quot; and a score of 6 indicating &quot;All of the time&quot;. Scores range from 6 to 30, with higher scores indicating higher levels of adherence. Items 1 and 3 are scored in reverse.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in refill and medication adherence as measured by the Adherence to Refills &amp; Medications-7 (ARMS-7)</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>Seven-item PROM of medication adherence. Scores are measured on a 7-item, 4-level scale, with a score of 1 indicating &quot;None&quot; and a score of 4 indicating &quot;All&quot;. Scores range from 7 to 28, with lower scores indicating higher levels of adherence.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change in self-reported mental and physical health as measured by the GLOBAL Patient-Reported Outcomes Measurement Information System (PROMIS) 10</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>The PROMIS Global-10 is a 10-item patient-reported questionnaire in which the response options are presented as 5-point (as well as a single 11-point) rating scales. The results of the questions are used to calculate two summary scores: a Global Physical Health Score and a Global Mental Health score.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Change preparedness as measured by the Preparedness for Caregiving Scale (PCS)</measure>
+    <time_frame>Baseline and two weeks from baseline</time_frame>
+    <description>Nine-item PROM measuring Caregiver confidence. Scores are based on a 9-item, 5-level scale, with 0 indicating not at all prepared, and 4 indicating very well prepared. Scores range from 0 to 45, with higher scores indicating higher levels of preparedness.</description>
+  </other_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">45</enrollment>
+  <condition>Multimorbidity</condition>
+  <arm_group>
+    <arm_group_label>Usual care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Patients visiting their clinician will receive the normal, written after-visit-summary (available on paper or via the patient portal).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Annotated Audio</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In addition to usual care, patients will be given access to an annotated audio-based PHL, HealthPal to listen to outside of the clinic. HealthPAL will allow participants to replay the audio recording of their clinic visit which will be annotated with key information discussed (e.g., medications). The recording will also contain hyperlinks related to annotations, that will direct participants to the online health information resource at Medline Plus. Access to their HealthPAL can also be shared with a caregiver.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Audio</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>In addition to usual care, patients will also be given access to an audio-based PHL, HealthPal to listen to outside of the clinic. HealthPAL will allow participants to replay the audio recording of their clinic visit (no annotations or hyperlinks). Access to their HealthPAL can also be shared with a caregiver.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Annotated Audio</intervention_name>
+    <description>In addition to usual care, patients will be given access to an annotated audio-based PHL, HealthPal to listen to outside of the clinic. HealthPAL will allow participants to replay the audio recording of their clinic visit which will be annotated with key information discussed (e.g., medications). The recording will also contain hyperlinks related to annotations, that will direct participants to the online health information resource at Medline Plus. Access to their HealthPAL can also be shared with a caregiver.</description>
+    <arm_group_label>Annotated Audio</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Audio</intervention_name>
+    <description>In addition to usual care, patients will also be given access to an audio-based PHL, HealthPal to listen to outside of the clinic. HealthPAL will allow participants to replay the audio recording of their clinic visit (no annotations or hyperlinks). Access to their HealthPAL can also be shared with a caregiver.</description>
+    <arm_group_label>Audio</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  (1) ≥ 65 years&#xD;
+&#xD;
+          -  (2) with multimorbidity&#xD;
+&#xD;
+          -  (3) plan on receiving ongoing care at the clinic for the subsequent month&#xD;
+&#xD;
+          -  (4) access to internet.&#xD;
+&#xD;
+        The investigators will only include patients of clinicians (MDs, NPs) who (1) are based at&#xD;
+        the study clinic; (2) who treat adult patients.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  (1) who have a six-item screener (SIS) of cognitive function score ≤ 4 and/or for&#xD;
+             those with a defined caregiver, whose proxy has not provided consent for the patient's&#xD;
+             participation&#xD;
+&#xD;
+          -  (2) with schizophrenia, or other psychotic disorders, substance-abuse disorders, and&#xD;
+             with uncorrectable vision or hearing impairment&#xD;
+&#xD;
+          -  (3) who reside in nursing homes, long-term care, skilled nursing, or hospice.&#xD;
+&#xD;
+        The investigators will exclude clinicians who (1) are trainees, e.g., medical students or&#xD;
+        residents; or (2) commonly audio or video record clinic visits for patient's personal use.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>65 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paul J Barr, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dartmouth College</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Dartmouth-Hitchcock Medical Center</name>
+      <address>
+        <city>Manchester</city>
+        <state>New Hampshire</state>
+        <zip>03104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>March 30, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 30, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 1, 2021</study_first_posted>
+  <last_update_submitted>November 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Dartmouth-Hitchcock Medical Center</investigator_affiliation>
+    <investigator_full_name>Paul J. Barr</investigator_full_name>
+    <investigator_title>Associate Professor, The Dartmouth Institute for Health Policy &amp; Clinical Practice Geisel School of Medicine at Dartmouth</investigator_title>
+  </responsible_party>
+  <keyword>Patient recording</keyword>
+  <keyword>Personal health library</keyword>
+  <keyword>Patient communication</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

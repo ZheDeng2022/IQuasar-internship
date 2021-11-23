@@ -1,0 +1,154 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04535466</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYSU_AI01</org_study_id>
+    <nct_id>NCT04535466</nct_id>
+  </id_info>
+  <brief_title>Diagnosis Predictive Modle for Dense Density Breast Tissue Based on Radiomics</brief_title>
+  <official_title>Development of an Artificial Intelligence Precise Diagnosis Predictive Modle for Dense Density Breast Tissue Based on Radiomics</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      It is a prospective, observational cohort study of patients with dense breast tissue. The&#xD;
+      study was based on the radiomics and other clinicopathological information of patients to&#xD;
+      establish the diagnostic system for breast disease by using artificial intelligence.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2020</start_date>
+  <completion_date type="Anticipated">September 1, 2020</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>2 Years</target_duration>
+  <primary_outcome>
+    <measure>the predictive model's area under curve(AUC)</measure>
+    <time_frame>follow up for 2 year for individuals</time_frame>
+    <description>To assess the predictive accuracy of the radiomic-based and clinical-based model by using operating characteristic curve (ROC) analysis and calculating the area under the curves (AUC).</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Breast Diseases</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Dense Breast Density</condition>
+  <condition>Predictive Cancer Model</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Female patients aged 18-80 were included in our study who were diagnosed and treated at Sun&#xD;
+        Yat-sen memorial hospital .&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Female patients with dense breast density tissue&#xD;
+&#xD;
+          -  Digital breast tomosynthesis was performed&#xD;
+&#xD;
+          -  Breast ultrasound examination was performed&#xD;
+&#xD;
+          -  Pathologic examination of breast lesions was performed&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Incomplete clinicopathologic data&#xD;
+&#xD;
+          -  Female patients with fatty glands of the breast&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yaping Yang, Doctor</last_name>
+    <phone>86020-34071145</phone>
+    <email>yangyap2@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Breast tumor center of Sun Yat-sen Memorial Hospital</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <zip>510120</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yaping yang, Doctor</last_name>
+      <phone>0086-020-34071145</phone>
+      <email>yangyap2@mail.sysu.edu.cn</email>
+    </contact>
+    <investigator>
+      <last_name>Herui Yao, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chang Gong, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yunfang Yu, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yue Hu, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ran Gu, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Junwei Li, Doctor</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 31, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 2, 2020</study_first_posted>
+  <last_update_submitted>August 31, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 31, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 2, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</investigator_affiliation>
+    <investigator_full_name>Yaping yang</investigator_full_name>
+    <investigator_title>Clinical Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

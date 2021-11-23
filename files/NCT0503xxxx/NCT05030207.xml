@@ -1,0 +1,270 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05030207</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REACT</org_study_id>
+    <nct_id>NCT05030207</nct_id>
+  </id_info>
+  <brief_title>Respiratory Adaptive Computed Tomography: Feasibility Study on Real-Time Gated 4DCT for Lung Cancer Radiotherapy</brief_title>
+  <acronym>REACT</acronym>
+  <official_title>Respiratory Adaptive Computed Tomography: A Pilot Feasibility Study on the Use of Real-Time Gated 4DCT for Lung Cancer Radiation Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Sydney</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Western Sydney Local Health District</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Sydney</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study does not involve a therapeutic intervention as standard radiation therapy&#xD;
+      treatment will be prescribed. This study involves one additional 4DCT scan (i.e. the&#xD;
+      Real-Time Gated 4DCT scan) acquired immediately before or following the conventional 4DCT&#xD;
+      scan. This will take place on the day of the patient's treatment simulation, as per the&#xD;
+      current standard of care. The scanning sequence (i.e. conventional first versus gated first)&#xD;
+      will be randomised.&#xD;
+&#xD;
+      The Real-Time Gated 4DCT is anticipated to take longer than the conventional 4DCT scan, due&#xD;
+      to its gated (beam-pause) nature. However, upper limits for timing will be implemented in the&#xD;
+      software, and the scan aborted for highly erratic breathing traces that would not benefit&#xD;
+      from a Real-Time Gated 4DCT scan.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Four-dimensional computed tomography (4DCT) is considered the standard of care for modern&#xD;
+      high-precision stereotactic ablative body radiotherapy (SABR) techniques. Clinical 4DCT works&#xD;
+      by acquiring CT slices and breathing data synchronously as the patient moves through the&#xD;
+      rotating X-ray imager. The CT slices are sorted into 5-10 'phase images' (mid-exhale,&#xD;
+      peak-exhale, mid-inhale, peak-inhale, etc.) and stitched together to form a 3D+breathing&#xD;
+      induced tumour/organ motion or '4D' representation of the breathing anatomy. Current best&#xD;
+      practice in radiation therapy is for clinicians to perform manual delineation or 'contouring'&#xD;
+      of lung tumours on one or more 4DCT phase images to ensure proper coverage by the treatment&#xD;
+      beam despite breathing motion. In the presence of irregular breathing, mismatches arise&#xD;
+      between CT slices that are in the same breathing phase but imaged at different couch&#xD;
+      positions. As a result, the images produced suffer from various kinds of discontinuities&#xD;
+      including truncation, duplication or overlap. Yamamoto found that irregular breathing caused&#xD;
+      at least one error &gt;4mm in 90% (45 out of 50) abdominal and thoracic patient scans. The main&#xD;
+      consequence of 4DCT image errors is that they can introduce tumour volume and position&#xD;
+      uncertainties as large as 30% between different 4D phase bins or different observers.&#xD;
+&#xD;
+      This can potentially reduce the likelihood of tumour control by up to one-third and lead to&#xD;
+      unnecessary irradiation of healthy lung tissue, contributing to major dose-limiting side&#xD;
+      effects like radiation pneumonitis, which is symptomatic in up to 30% of patients and fatal&#xD;
+      in 2%. The proposed solution is Real-Time Gated 4DCT using prospective regularity gating,&#xD;
+      which will be implemented for the first time on lung cancer patients.&#xD;
+&#xD;
+      The Real-Time Gated 4DCT method detects and then pauses the CT beam during irregular&#xD;
+      breathing events. We will analyse the patient's breathing pattern to prospectively gate&#xD;
+      acquisition in real-time. Real-time gated 4DCT ensures that the X-ray imager is switched on&#xD;
+      only when the breathing is regular; the scan gets paused otherwise. The benefits for the&#xD;
+      patient of gating a 4DCT scan have been demonstrated in previous studies:&#xD;
+&#xD;
+        -  a reduction of breathing motion errors by 50%&#xD;
+&#xD;
+        -  a reduction of imaging dose. Delineation of tumours and organs in CT scans is the first&#xD;
+           step in a lung cancer patient's radiation therapy journey. Accurate delineation is&#xD;
+           pivotal to patient outcomes because errors propagate throughout treatment and can lead&#xD;
+           to radiation dose missing parts of the tumour or unnecessarily irradiating healthy&#xD;
+           tissue or organs. Unfortunately, the most important imaging modality used for the&#xD;
+           delineation of lung cancers, 4DCT, is error prone. Radiation Oncologists (ROs) are faced&#xD;
+           with an enormous challenge and are required to delineate tumours when 90% of clinical&#xD;
+           scans suffer severe imaging errors. These errors obfuscate the true tumour&#xD;
+           position/shape and reduce the chance of tumour control by up to one third.&#xD;
+&#xD;
+      The main culprit for imaging errors is irregular breathing: i.e. natural breathing&#xD;
+      variations, which are heightened for lung cancer patients but not accounted for by clinical&#xD;
+      scanners. A solution to this problem was proposed, which is to gate the CT scanner (i.e.&#xD;
+      pausing the beam) whenever a breathing condition occurs that is likely to produce an imaging&#xD;
+      artefact.&#xD;
+&#xD;
+      Research Question The primary endpoint is that the number of image artifacts using the&#xD;
+      Real-time gated scan will produce fewer artefacts than the conventional scan.&#xD;
+&#xD;
+      Secondary endpoints involve examining image quality and the impact on treatment planning with&#xD;
+      the benefits to the patient being:&#xD;
+&#xD;
+        1. Consistent/predictable image quality: Consistent image quality will assist radiation&#xD;
+           oncologists in identifying tumour and organ interfaces and therefore reduce delineation&#xD;
+           errors.&#xD;
+&#xD;
+        2. Improvements in treatment plans: More accurate delineation will lead to improved&#xD;
+           treatment plans and therefore improved patient outcomes.&#xD;
+&#xD;
+      This clinical trial is a first-in-humans pilot feasibility study and the aim is therefore to&#xD;
+      prove feasibility of Real-Time Gated 4DCT, with the aim of leading to an efficacy trial. As&#xD;
+      such, patient scans will be acquired across a broad range of patient breathing conditions to&#xD;
+      optimise the Real-Time Gated technique and to plan a larger, hypothesis-driven phase II&#xD;
+      clinical trial to follow. Automatic cut-offs for these erratic breathing traces will be built&#xD;
+      into the Real-Time Gated 4DCT software.&#xD;
+&#xD;
+      Rationale for Current Study In-silico studies suggest that the Real-Time Gated 4DCT approach,&#xD;
+      can reduce imaging errors by up to 50% whilst also reducing imaging dose by &gt;20%. It has been&#xD;
+      estimated that the current rate of artifacts using conventional 4DCT is at least 60% and&#xD;
+      possibly up to 95%. A reduction to at most 35% (25% of images with fewer artifacts) would be&#xD;
+      clinically worthwhile.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2021</start_date>
+  <completion_date type="Anticipated">October 2023</completion_date>
+  <primary_completion_date type="Anticipated">October 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Single site, 1 arm unblinded, pilot feasibility clinical trial to investigate the feasibility of acquiring Real-Time Gated 4DCT scans for lung cancer patients undergoing radiation therapy and to determine the incidence of imaging artifacts in comparison to conventional 4DCT</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The feasibility of using Real-Time Gated 4DCT instead of Conventional 4DCT for planning radiotherapy for lung cancer.</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>A change in the anticipated rate of image artifacts in images acquired from Conventional of 60% to 35% or less in images acquired from Real-Time Gated 4DCT.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Patient tolerance to the experimental scan (Real-Time Gated 4DCT)</measure>
+    <time_frame>1 minute at end of planning session</time_frame>
+    <description>The radiation therapist conducting the radiation therapy study scan will complete a survey consisting of two yes/no questions after the planning session to assess patient tolerance (1. whether the patient finishes the scan without getting off the couch. 2. If the patient voiced any complaints during the scan and seem uncomfortable.)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>clinician confidence in acquiring a Real-Time Gated 4DCT scan</measure>
+    <time_frame>5 minutes at end of planning session</time_frame>
+    <description>The radiation therapist conducting the radiation therapy study scan will complete an in-house survey of 10 questions after the treatment session to evaluate their experience with REACT software and its usability.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>clinician confidence in delineation on a Real-Time Gated 4DCT scan</measure>
+    <time_frame>5-10 minutes, following delineation of standard care and study scans.</time_frame>
+    <description>The radiation oncologist performing the delineation on the radiation therapy planning scan images and study scan images will complete an in-house survey of 10 questions to evaluate his experience with REACT and his confidence with using REACT for delineation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Effect on Real-Time Gated 4DCT image quality of patient characteristics: breathing type, breathing period, BMI, tumour location, breathing amplitude, breathing regularity, pulmonary function, ECOG status.</measure>
+    <time_frame>40 minutes, prior to and during the planning session</time_frame>
+    <description>Correlation between image quality (the number of artifacts greater than 4mm in the images acquired from Real-Time Gated 4DCT) and participant characteristics known to affect image quality in conventional scans: Breathing period ( seconds) and breathing amplitude will be measured using the Varian real-time position management system; body mass index (weight(kg) x height(m)2); tumour location;, breathing regularity (root mean square error (RMSE) of 6 breaths/min was obtained), pulmonary function, Performance status (Eastern Cooperative Oncology Group (ECOG) performance scale).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in scanning time between Real-Time Gated 4DCT compared with Conventional 4DCT for planning of radiotherapy for lung cancer</measure>
+    <time_frame>30 minutes</time_frame>
+    <description>Time in minutes from start to end of scan.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Quality of treatment plan using images acquired during Real-Time Gated 4DCT compared with images acquired during Conventional 4DCT</measure>
+    <time_frame>1 week</time_frame>
+    <description>Contouring and planning using the Real-Time Gated 4DCT image set to develop a treatment plan of prescribed radiation therapy. Treatment plans will be assessed using the 3%/3mm and 2%/2mm gamma pass index.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>Real-Time Gated 4DCT and Conventional 4DCT</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During the simulation (radiotherapy planning) session, the participant will undergo both the experimental 'Real-Time Gated 4DCT' and standard 'Conventional 4DCT'.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Real-time Gated 4DCT</intervention_name>
+    <description>Real-time gated four-dimensional cone beam computed tomography (4DCT) will be conducted at the simulation session. The Real-Time Gated 4DCT will be conducted while the patient moves through the rotating X-ray imager. This method detects and then pauses the CT beam during irregular breathing events.</description>
+    <arm_group_label>Real-Time Gated 4DCT and Conventional 4DCT</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Conventional 4DCT</intervention_name>
+    <description>Four-dimensional computed tomography (4DCT), the standard of care for modern high-precision stereotactic ablative body radiotherapy (SABR), will be conducted at the simulation session. It will run continuously while the patient moves through the rotating X-ray imager.</description>
+    <arm_group_label>Real-Time Gated 4DCT and Conventional 4DCT</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18 years or older&#xD;
+&#xD;
+          -  Have the ability to give informed consent&#xD;
+&#xD;
+          -  A diagnosis of lung cancer with an indication for radiation therapy&#xD;
+&#xD;
+          -  Radiation therapy treatment involving the acquisition of a 4DCT scan for treatment&#xD;
+             planning&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant women&#xD;
+&#xD;
+          -  Patients &lt;18 years&#xD;
+&#xD;
+          -  Patients who in the opinion of the treating physician could not tolerate the extra&#xD;
+             time on the CT couch for an extra scan&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ricky O'Brien, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Sydney</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Shona J Silvester, MMedSc</last_name>
+    <phone>+61286271185</phone>
+    <email>Shona.Silvester@sydney.edu.au</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Natalie A Plant, MHSc</last_name>
+    <phone>+61286271133</phone>
+    <email>Natalie.Plant@sydney.edu.au</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Blacktown Hospital</name>
+      <address>
+        <city>Blacktown</city>
+        <state>New South Wales</state>
+        <zip>2148</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>June 24, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 1, 2021</study_first_posted>
+  <last_update_submitted>October 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Radiotherapy</keyword>
+  <keyword>4DCT</keyword>
+  <keyword>Real-time gated 4DCT</keyword>
+  <keyword>Imaging artifacts</keyword>
+  <keyword>Computed tomography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,250 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04843176</url>
+  </required_header>
+  <id_info>
+    <org_study_id>UW 20-445</org_study_id>
+    <nct_id>NCT04843176</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence vs. LIRADS in Diagnosing HCC on CT</brief_title>
+  <official_title>A Prototype Artificial Intelligence Algorithm Versus Liver Imaging Reporting and Data System (LI-RADS) Criteria in Diagnosing Hepatocellular Carcinoma on Computed Tomography: a Randomized Trial</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Education University of Hong Kong</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The University of Hong Kong</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Liver cancer is the sixth most commonly diagnosed cancer and the fourth leading cause of&#xD;
+      cancer death worldwide. It is the 3rd most common cause of cancer death in Hong Kong. The&#xD;
+      five-year survival rates of liver cancer differ greatly with disease staging, ranging from&#xD;
+      91.5% in early-stage to 11% in late-stage. The early and accurate diagnosis of liver cancer&#xD;
+      is paramount in improving cancer survival. Liver cancer is diagnosed radiologically via cross&#xD;
+      sectional imaging, e.g. computed tomography (CT), without the routine use of liver biopsy.&#xD;
+      However, with current internationally-recommended radiological reporting methods, up to 49%&#xD;
+      of liver lesions may be inconclusive, resulting in repeated scans and a delay in diagnosis&#xD;
+      and treatment. An artificial intelligence (AI) algorithm that that can accurately diagnosed&#xD;
+      liver cancer has been developed. Based on an interim analysis, the algorithm achieved a high&#xD;
+      diagnostic accuracy. The AI algorithm is now ready for implementation.&#xD;
+&#xD;
+      This study aims to prospective validate this AI algorithm in comparison with the current&#xD;
+      standard of radiological reporting in a randomized manner in the at-risk population&#xD;
+      undergoing triphasic contrast CT. This research project is totally independent and separated&#xD;
+      from the actual clinical reporting of the CT scan by the duty radiologist. The primary study&#xD;
+      outcome is the diagnostic accuracy of liver cancer, which will be unbiasedly based on a&#xD;
+      composite clinical reference standard.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Liver cancer is the sixth most commonly diagnosed cancer and the fourth leading cause of&#xD;
+      cancer death worldwide. The main disease burden is found in East Asia, in which the&#xD;
+      age-standardized incidence is 26.8 and 8.7 per 100,000 in men and women respectively. In&#xD;
+      2017, among the top 10 most common cancers in Hong Kong, liver cancer had the highest case&#xD;
+      fatality rate of 84.6%. The five-year survival rates of hepatocellular carcinoma (HCC) differ&#xD;
+      greatly with disease staging, ranging from 91.5% in &lt;2 cm with surgical resection to 11% in&#xD;
+      &gt;5 cm with adjacent organ involvement. The early and accurate diagnosis of HCC is paramount&#xD;
+      in improving cancer survival.&#xD;
+&#xD;
+      Unlike other common cancers, HCC is diagnosed by highly characteristic dynamic patterns on&#xD;
+      contrast-enhanced cross sectional imaging, without the need of pathological confirmation. The&#xD;
+      Liver Imaging Reporting and Data System (LI-RADS) was established to standardize the lexicon,&#xD;
+      interpretation and communication of radiological findings related to HCC. However, up to 49%&#xD;
+      of nodules identified in computed tomography (CT) in the at-risk population are categorized&#xD;
+      by LI-RADS as indeterminate, further delaying the establishment of diagnosis.&#xD;
+&#xD;
+      There are currently studies pioneering the application of artificial intelligence (AI) in the&#xD;
+      field of medical imaging. A interdisciplinary research team of clinicians, radiologists and&#xD;
+      statistical scientists, based on the clinical and radiological database of over 4,000 liver&#xD;
+      images, and have developed an AI algorithm to accurately diagnose liver cancer on CT. Based&#xD;
+      on retrospective data, an interim analysis found the AI algorithm able to achieve a&#xD;
+      diagnostic accuracy of &gt;97% and a negative predictive value of &gt;99%.&#xD;
+&#xD;
+      Can this novel prototype AI algorithm achieve a better performance in diagnosing HCC in the&#xD;
+      at-risk population when compared to LI-RADS? This question is especially relevant when the&#xD;
+      key to improved survival is early diagnosis, of which AI can potentially improve. Currently,&#xD;
+      errors in radiologist reporting are estimated to be 3-5% on a day-to-basis, equating to 40&#xD;
+      million errors per annum worldwide. This prototype algorithm can be a solution to reduce&#xD;
+      human misinterpretation of radiological findings.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 19, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2026</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Scanned images are randomized individually 1:1 to either the prototype AI algorithm or LI-RADS criteria interpretation by two specialist gastrointestinal radiologists</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>Single (Investigator)</masking>
+    <masking_description>. Both radiologists will be blinded to the clinical characteristics and subsequent management of participants, with any discordance in assessment resolved by consensus before reaching a final decision.</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy for HCC</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants diagnosed with HCC using a composite clinical reference standard. A lesion will be considered positive for HCC based on histology (biopsy, surgical resection or explant) or achieving LR-5 criteria in subsequent imaging. A lesion will be considered negative for HCC if it demonstrated stability at imaging for at least 12 months, unequivocal spontaneous reduction, or disappearance in the absence of tumor treatment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Other diagnostic performance parameters for HCC</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of participants diagnosed with HCC using a composite clinical reference standard. A lesion will be considered positive for HCC based on histology (biopsy, surgical resection or explant) or achieving LR-5 criteria in subsequent imaging. A lesion will be considered negative for HCC if it demonstrated stability at imaging for at least 12 months, unequivocal spontaneous reduction, or disappearance in the absence of tumor treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Interpretation time</measure>
+    <time_frame>12 months</time_frame>
+    <description>Mean time for AI interpretation for recruited participants</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Occurrence of technical failures</measure>
+    <time_frame>12 months</time_frame>
+    <description>Number of technical failures overall</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">250</enrollment>
+  <condition>HCC</condition>
+  <condition>Liver Cancer</condition>
+  <arm_group>
+    <arm_group_label>Prototype AI algorithm</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>In-house prototype deep learning artificial intelligence algorithm</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LI_RADS interpretation</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>LI-RADS criteria will be assessed independently by two specified abdominal radiologists with at least 10 years of experience in cross-sectional abdominal imaging</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Prototype artificial intelligence algorithm</intervention_name>
+    <description>Developed by the University of Hong Kong</description>
+    <arm_group_label>Prototype AI algorithm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>LI-RADS</intervention_name>
+    <description>The Liver Imaging Reporting and Data System (LI-RADS) was established to standardize the lexicon, interpretation and communication of radiological findings related to HCC</description>
+    <arm_group_label>LI_RADS interpretation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  1. Age &gt;=18 years. 2. Defined as the at-risk population requiring regular liver&#xD;
+             ultrasonography surveillance. These include:&#xD;
+&#xD;
+               1. Cirrhotic patients of any disease etiology,&#xD;
+&#xD;
+               2. Chronic hepatitis B patients of age ≥40 years for men, age ≥50 years for women or&#xD;
+                  with a family history of HCC.&#xD;
+&#xD;
+                  3. At least one new-onset focal liver nodule detected on liver ultrasonography.&#xD;
+&#xD;
+                  Exclusion Criteria:&#xD;
+&#xD;
+                    1. Liver nodules of &lt;1 cm. Currently such nodules are not reported using&#xD;
+                       LI-RADS criteria but are recommended for a repeat scan in 3-6 months. In&#xD;
+                       patients with multiple liver nodules, the largest nodule will be assessed.&#xD;
+&#xD;
+                    2. Patients with contraindications for contrast CT imaging, including a history&#xD;
+                       of contrast anaphylaxis and impaired renal function (glomerular filtration&#xD;
+                       rate &lt;30 ml/min).&#xD;
+&#xD;
+                    3. Patients with prior transarterial chemoembolization or other interventional&#xD;
+                       procedures with intrahepatic injection of lipiodol. Lipiodol is extremely&#xD;
+                       hyperdense on computed tomography and will preclude objective&#xD;
+                       interpretation. Such patients were also excluded in the development of our&#xD;
+                       prototype AI algorithm.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Wai-Kay Seto, MD</last_name>
+    <phone>85222553579</phone>
+    <email>wkseto@hku.hk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Keith Chiu, FRCR</last_name>
+    <phone>85222553111</phone>
+    <email>kwhchiu@hku.hk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Medicine, The University of Hong Kong, Queen Mary Hospital</name>
+      <address>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Wai-Kay Seto, MD</last_name>
+      <phone>+85222553579</phone>
+      <email>wkseto@hku.hk</email>
+    </contact>
+    <investigator>
+      <last_name>Keith Chiu, FRCR</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lung Yi Mak, FRCP</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Man-Fung Yuen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Hong Kong</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>April 6, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 13, 2021</study_first_posted>
+  <last_update_submitted>April 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>HCC</keyword>
+  <keyword>liver cancer</keyword>
+  <keyword>AI</keyword>
+  <keyword>deep learning</keyword>
+  <keyword>CT</keyword>
+  <keyword>imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Liver Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Available to bona fide researchers who approach to principal investigator</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

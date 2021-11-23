@@ -1,0 +1,163 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04563416</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2018SDU-QILU-3</org_study_id>
+    <nct_id>NCT04563416</nct_id>
+  </id_info>
+  <brief_title>Application of Artificial Intelligence for Early Diagnosis of Gastric Cancer During Optical Enhancement Magnifying Endoscopy</brief_title>
+  <official_title>Application of Artificial Intelligence for Early Diagnosis of Gastric Cancer During Optical Enhancement Magnifying Endoscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shandong University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Previous prospective randomized controlled study demonstrated higher accuracy rate of&#xD;
+      diagnosing early gastric cancers by Magnifying image-enhanced endoscopy than conventional&#xD;
+      white-light endoscopy. Nevertheless, it is difficult to differentiate early gastric cancer&#xD;
+      from noncancerous lesions for beginner. we developed a new computer-aided system to assist&#xD;
+      endoscopists in identifying early gastric cancers in magnifying optical enhancement images.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Gastric cancer is the third most common cause of cancer-associated deaths worldwide&#xD;
+      especially in Asia.Early detection and treatment would cure the disease with 5-year survival&#xD;
+      rate greater than 90%.However, the sensitivity of conventional endoscopy with white-light&#xD;
+      imaging (C-WLI) in diagnosis of early gastric cancers (EGCs) is merely 40%. Magnifying&#xD;
+      image-enhanced endoscopy (IEE) techniques such as magnifying narrow band imaging (M-NBI) have&#xD;
+      been developed and 2 RCT report that white-light imaging combine with M-NBI can increase the&#xD;
+      sensitivity to 95%. The strategy that using white-light imaging to detect the suspicious&#xD;
+      lesion and using M-IEE techniques to make a diagnosis of early gastric cancer is recommend in&#xD;
+      screening endoscopy.&#xD;
+&#xD;
+      Optical enhancement (OE) which is one of the M-IEE techniques was developed by HOYA Co.&#xD;
+      (Tokyo, Japan) . This technology combines digital signal processing and optical filterers to&#xD;
+      clear display of mucosal microsurface (MS) and microvessel (MV). The advantage of OE is to&#xD;
+      overcome the darkness of NBI which leads to less usefulness for detect-ability in the full&#xD;
+      extended gastrointestinal lumen.Nevertheless, it is difficult to differentiate early gastric&#xD;
+      cancer from noncancerous lesions for beginner, and expertise with sub-optimal inter-observer&#xD;
+      agreement is essential for the use of M-IEE.&#xD;
+&#xD;
+      Nowadays, Artificial intelligence (AI) using deep machine learning has made a major&#xD;
+      breakthrough in gastroenterology, which using gradient descent method and backpropagation to&#xD;
+      automatically extract specific images features. The diagnostic accuracy in identifying upper&#xD;
+      gastrointestinal cancer was 0.955 in C-WLI . Polyps can be identified in real time with 96%&#xD;
+      accuracy in screening colonoscopy. AI show an outstanding application in detection and&#xD;
+      diagnosis.&#xD;
+&#xD;
+      This study aims to develop a M-OE assistance model in the diagnosis of EGCs by distinguishing&#xD;
+      cancer or not.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 10, 2020</start_date>
+  <completion_date type="Anticipated">December 30, 2020</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>the diagnosis efficiency of the computer-assist diagnosis tool</measure>
+    <time_frame>12 months</time_frame>
+    <description>the sensitivity, specificity and accuracy of the computer-assist diagnosis tool</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">80</enrollment>
+  <condition>Artificial Intelligence</condition>
+  <condition>Optical Enhancement Endoscopy</condition>
+  <condition>Magnifying Endoscopy</condition>
+  <arm_group>
+    <arm_group_label>Patients who need undergo magnifying endoscopy</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive patients suspected of early gastric cancer and receive optical magnifying OE&#xD;
+        endoscopy examination.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  patients receive optical magnifying OE endoscopy examination&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with advanced cancer, lymphoma,active stage of ulcer and artificial ulcer&#xD;
+             after ESD were excluded.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yanqing Li, PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Study Principal Investigator Qilu Hospital, Shandong University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Yanqing Li, PHD</last_name>
+    <phone>86-531-82169236</phone>
+    <email>liyanqing@sdu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Gastroenterology, Qilu Hospital, Shandong University</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>250012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yanqing Li, PhD. MD.</last_name>
+      <phone>18678827666</phone>
+      <email>liyanqing@sdu.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>September 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 22, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 24, 2020</study_first_posted>
+  <last_update_submitted>September 22, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 22, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Shandong University</investigator_affiliation>
+    <investigator_full_name>Yanqing Li</investigator_full_name>
+    <investigator_title>Vice president of Qilu Hospital</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

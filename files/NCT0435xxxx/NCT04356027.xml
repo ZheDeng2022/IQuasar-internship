@@ -1,0 +1,582 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04356027</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ABT-CIP-10331</org_study_id>
+    <nct_id>NCT04356027</nct_id>
+  </id_info>
+  <brief_title>FUnctional diagnoSIs of corONary Stenosis (FUSION)</brief_title>
+  <acronym>FUSION</acronym>
+  <official_title>Validation of OCT-based FUnctional diagnoSIs of corONary Stenosis (FUSION)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Abbott Medical Devices</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Abbott Medical Devices</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the FUSION study is to validate the diagnostic performance of Virtual Flow&#xD;
+      Reserve (VFR) by comparing it against a reference standard, fractional flow reserve (FFR).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is a single-arm, prospective, multi-center study collecting OCT pullback images of&#xD;
+      lesions pre-percutaneous coronary intervention (PCI) and (optional) post-PCI procedure, and&#xD;
+      the corresponding pressure tracings and physiology indices. Up to 30 centers in the US will&#xD;
+      enroll approximately 310 patients. The expected duration of enrollment is approximately 15&#xD;
+      months. The total duration of the clinical investigation is expected to be approximately 27&#xD;
+      months.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 26, 2020</start_date>
+  <completion_date type="Actual">October 15, 2021</completion_date>
+  <primary_completion_date type="Actual">October 15, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity and specificity of Virtual Flow Reserve (VFR) against Fractional Flow Reserve (FFR)</measure>
+    <time_frame>1 hour</time_frame>
+    <description>Sensitivity and specificity of the VFR compared with FFR each of which will be tested against a prespecified performance goal. FFR with a binary cut-off of 0.80 will be used as the reference standard for comparison.&#xD;
+FFR or VFR value ≤ 0.80 will be considered positive (ischemia-causing), and FFR or VFR value &gt; 0.80 will be considered negative (non-ischemia-causing)&#xD;
+Sensitivity is defined as the proportion of VFR positive lesions, in the group of FFR positive lesions.&#xD;
+Sensitivity=TP/(TP+FN), where TP denotes the number of True Positives (both VFR and FFR positive) and FN denotes the number of False Negatives (VFR negative but FFR positive).&#xD;
+Specificity is defined as the proportion of VFR negative lesions in the group of FFR negative lesions.&#xD;
+Specificity=TN/(TN+FP), where TN denotes the number of True Negatives (both VFR and FFR negatives) and FP denotes the number of False Positives (VFR positive but FFR negative).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall diagnostic accuracy</measure>
+    <time_frame>1 hour</time_frame>
+    <description>Overall diagnostic accuracy is defined as the proportion of correctly classified lesions among all lesions.&#xD;
+Overall Diagnostic Accuracy= (TP+TN)/(TP+TN+FP+FN), where TP denotes the number of True Positives, FN denotes the number of False Negatives, TN denotes the number of True Negatives, and FN denotes the number of False Negatives.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Positive predictive value (PPV)</measure>
+    <time_frame>1 hour</time_frame>
+    <description>PPV is defined as the proportion of lesions with the disease and with a positive test result among the group of lesions with a positive test result.&#xD;
+PPV= TP/(TP+FP), where TP denotes the number of True Positives and FP denotes the number of False Positives.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Negative predictive value (NPV)</measure>
+    <time_frame>1 hour</time_frame>
+    <description>NPV is defined as the proportion of lesions without the disease and with a negative test result among the group of lesions with negative test results.&#xD;
+NPV= TN/(TN+FN), where TN denotes the number of True Negatives and FN denotes the number of False Negatives.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between VFR and FFR</measure>
+    <time_frame>1 hour</time_frame>
+    <description>The correlation between VFR and FFR will be estimated as the R^2 correlation coefficient from the simple linear regression model using VFR value as the independent variable and FFR as the dependent variable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Area under curve (AUC) against FFR</measure>
+    <time_frame>1 hour</time_frame>
+    <description>AUC will be estimated as the area under the ROC curve. ROC curve will be constructed using specificity on the x-axis and sensitivity on the y-axis. Sensitivity and specificity are calculated at various values of VFR and FFR, and the AUC curve will be drawn using logistic regression.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">312</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Coronary Stenosis</condition>
+  <arm_group>
+    <arm_group_label>Standard of Care: Angiography, OCT, FFR, and VFR</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients will have Pre-OCT Angiography, OCT pullbacks, a FFR measurement and a VFR analysis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>ICA (Invasive Coronary Angiography)</intervention_name>
+    <description>Patients will undergo a Pre-PCI Angiography</description>
+    <arm_group_label>Standard of Care: Angiography, OCT, FFR, and VFR</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>OCT</intervention_name>
+    <description>OCT pullback images will be collected pre-PCI and (optional) post-PCI procedure</description>
+    <arm_group_label>Standard of Care: Angiography, OCT, FFR, and VFR</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>FFR</intervention_name>
+    <description>FFR will be measured</description>
+    <arm_group_label>Standard of Care: Angiography, OCT, FFR, and VFR</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>VFR Analysis</intervention_name>
+    <description>VFR will be calculated offline using the OCT pullback images</description>
+    <arm_group_label>Standard of Care: Angiography, OCT, FFR, and VFR</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age ≥18 years&#xD;
+&#xD;
+          -  Patient provides written informed consent&#xD;
+&#xD;
+          -  Scheduled for clinically indicated coronary catheterization with the intent to perform&#xD;
+             physiologic assessment to guide physician clinical course (in lesions with visual %&#xD;
+             diameter stenosis 40-90%), if clinically indicated&#xD;
+&#xD;
+          -  Subject is undergoing invasive FFR with Adenosine (high-dose intra-coronary (IC) [200&#xD;
+             μg for the left and or 100 μg for the right coronary artery] or 140 μg/kg/min for&#xD;
+             intravenous (IV)) used as hyperemic stimulus&#xD;
+&#xD;
+          -  Clinical presentation with or history of stable angina, unstable angina, or silent&#xD;
+             ischemia (defined as abnormal stress test or abnormal invasive physiology assessment)&#xD;
+             that has led to the procedure&#xD;
+&#xD;
+        General Exclusion Criteria:&#xD;
+&#xD;
+          -  Prior history of myocardial infarction (MI) in the target vessel&#xD;
+&#xD;
+          -  Presence of acute ST Elevation Myocardial Infarction (STEMI)&#xD;
+&#xD;
+          -  Culprit vessel of Non-ST Elevation Myocardial Infarction (NSTEMI)&#xD;
+&#xD;
+          -  TIMI flow &lt; Grade 3 at baseline or visible thrombus&#xD;
+&#xD;
+          -  Prior history of coronary artery bypass grafting (CABG)&#xD;
+&#xD;
+          -  Prior heart transplant&#xD;
+&#xD;
+          -  Severe valvular heart disease or history of valve repair or replacement&#xD;
+&#xD;
+          -  Prior history of PCI with stent in target vessel, or target vessel involves in-stent&#xD;
+             restenosis.&#xD;
+&#xD;
+          -  Target coronary vessel is supplied by major collaterals or is supplying major&#xD;
+             collaterals to a CTO (chronic total occlusion)&#xD;
+&#xD;
+          -  CTO in the target vessel&#xD;
+&#xD;
+          -  Severe diffuse disease observed in target vessel defined as the presence of diffuse,&#xD;
+             serial gross luminal irregularities present in the majority of the coronary tree&#xD;
+&#xD;
+          -  Presence of myocardial bridge (MB), regardless of vessel location&#xD;
+&#xD;
+          -  Contraindication for FFR examination or administration of vasodilators&#xD;
+&#xD;
+          -  Known LVEF ≤45%&#xD;
+&#xD;
+          -  Target lesion involves Left Main coronary artery or ostial right coronary artery&#xD;
+&#xD;
+          -  Known renal insufficiency (eGFR &lt; 30 ml/kg/m^2 or serum creatinine ≥ 2.5 mg/dL) unless&#xD;
+             patient is on dialysis&#xD;
+&#xD;
+          -  Heart Failure NYHA Class III or IV&#xD;
+&#xD;
+          -  Subject is pregnant (For a female subject of childbearing potential, a pregnancy test&#xD;
+             must be performed within 14 days (≤14 days) prior to the index procedure per site&#xD;
+             standard test)&#xD;
+&#xD;
+          -  Subject has or had active COVID-19 symptoms and/or a positive test result within the&#xD;
+             prior 2 months&#xD;
+&#xD;
+          -  Participation in another clinical study of an investigational drug or device&#xD;
+&#xD;
+          -  Presence of aneurysm in the target vessel&#xD;
+&#xD;
+        Imaging and Pressure Tracing Exclusion Criteria:&#xD;
+&#xD;
+          -  Artifact in pre-PCI OCT for the target lesion or in the event of multiple target&#xD;
+             lesions, artifact in pre-PCI OCT for ALL target lesions&#xD;
+&#xD;
+          -  Target lesion requires any preparation (including but not limited to balloon&#xD;
+             dilatation, atherectomy, etc.) prior to pre-PCI OCT and physiology measurement, or in&#xD;
+             case of multiple target lesions, ALL target lesions require-any preparation (including&#xD;
+             but not limited to balloon dilatation, atherectomy, etc.) prior to pre-PCI OCT and&#xD;
+             physiology measurement&#xD;
+&#xD;
+          -  Severe vessel tortuosity or calcification in the target vessel such that it is&#xD;
+             unlikely that the OCT catheter can be delivered&#xD;
+&#xD;
+          -  Target lesion not imaged by OCT or in the event of multiple target lesions, ALL target&#xD;
+             lesions not imaged by OCT&#xD;
+&#xD;
+          -  Pressure drift of &gt; 0.03; i.e. Pd and Pa ratio value &lt; 0.97 or &gt; 1.03, unless&#xD;
+             physiology measurements are repeated after re-equalization&#xD;
+&#xD;
+          -  Target lesion or significant CAD beyond 60mm from coronary ostium; i.e. not able to&#xD;
+             clearly image and capture all disease segment with OCT in 1 run&#xD;
+&#xD;
+          -  Incorrectly done or unsuccessful catheter purge and/or contrast flush&#xD;
+&#xD;
+          -  Presence of plaque rupture and/or intravascular hematoma in target vessel (visual %&#xD;
+             diameter stenosis ≥ 40%)&#xD;
+&#xD;
+          -  Inability to receive intracoronary nitroglycerin prior to OCT or FFR&#xD;
+&#xD;
+          -  Use of flush media other than radiographic contrast&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Allen Jeremias, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>St. Francis Hospital,Roslyn,NY, United States</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Heart Center Research, LLC.</name>
+      <address>
+        <city>Huntsville</city>
+        <state>Alabama</state>
+        <zip>35801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>HonorHealth</name>
+      <address>
+        <city>Scottsdale</city>
+        <state>Arizona</state>
+        <zip>85258</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Arkansas Heart Hospital</name>
+      <address>
+        <city>Little Rock</city>
+        <state>Arkansas</state>
+        <zip>72211</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Palo Alto Medical Center</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>94604</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCLA Medical Center Santa Monica</name>
+      <address>
+        <city>Santa Monica</city>
+        <state>California</state>
+        <zip>90404</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Holy Cross Hospital</name>
+      <address>
+        <city>Fort Lauderdale</city>
+        <state>Florida</state>
+        <zip>33308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Cardiac &amp; Vascular Institute Research Foundation, LLC</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32605</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Tampa General Hospital</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33606</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Atlanta VA Medical Center</name>
+      <address>
+        <city>Decatur</city>
+        <state>Georgia</state>
+        <zip>30033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Loyola University Medical Center</name>
+      <address>
+        <city>Maywood</city>
+        <state>Illinois</state>
+        <zip>60153</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Via Christi Regional Medical Center - St. Francis Campus</name>
+      <address>
+        <city>Wichita</city>
+        <state>Kansas</state>
+        <zip>67214-3882</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cardiovascular Research Institute of Kansas</name>
+      <address>
+        <city>Wichita</city>
+        <state>Kansas</state>
+        <zip>67226</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham &amp; Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Beth Israel Deaconess Medical Center</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Hospital</name>
+      <address>
+        <city>Coon Rapids</city>
+        <state>Minnesota</state>
+        <zip>55433</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Patrick Hospital</name>
+      <address>
+        <city>Missoula</city>
+        <state>Montana</state>
+        <zip>59802</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Montefiore Medical Center - Moses Division</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <zip>10467</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York University Hospital</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York-Presbyterian/Columbia University Medical Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Francis Hospital</name>
+      <address>
+        <city>Roslyn</city>
+        <state>New York</state>
+        <zip>11576</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>VA Medical Center Durham</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27705</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Providence St. Vincent Medical Center</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97225</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Holy Spirit Hospital</name>
+      <address>
+        <city>Camp Hill</city>
+        <state>Pennsylvania</state>
+        <zip>17011</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Greenville Health System</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29605-5601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Spartanburg Regional Medical Center</name>
+      <address>
+        <city>Spartanburg</city>
+        <state>South Carolina</state>
+        <zip>29303</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Austin Heart</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <zip>78756</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Texas Medical Branch (UTMB)</name>
+      <address>
+        <city>Galveston</city>
+        <state>Texas</state>
+        <zip>77555-0144</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Memorial Hermann Hospital</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>April 20, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 21, 2020</study_first_posted>
+  <last_update_submitted>November 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Virtual Flow Reserve (VFR)</keyword>
+  <keyword>Optical Coherence Tomography (OCT)</keyword>
+  <keyword>Fractional Flow Reserve (FFR)</keyword>
+  <keyword>Percutaneous Coronary Intervention (PCI)</keyword>
+  <keyword>OPTIS System</keyword>
+  <keyword>Dragonfly</keyword>
+  <keyword>PressureWire X</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Coronary Stenosis</mesh_term>
+    <mesh_term>Constriction, Pathologic</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,165 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04695015</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB00006761-M2020434</org_study_id>
+    <nct_id>NCT04695015</nct_id>
+  </id_info>
+  <brief_title>Research of Pathological Imaging Diagnosis of Ocular Tumors Based on New Artificial Intelligence Algorithm</brief_title>
+  <official_title>Research of Pathological Imaging Diagnosis of Ocular Tumors Based on New Artificial Intelligence Algorithm</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to establish a standardized process for obtaining digital&#xD;
+      pathological image information of ocular tumors; use modern pathological techniques to obtain&#xD;
+      the co-expression information of multiple biomarkers in the pathological tissues of ocular&#xD;
+      tumors, and finally construct standardized digital ocular tumors with biomarkers Pathology&#xD;
+      image database.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is a prospective study. Patients with common and representative ocular tumors in&#xD;
+      the Department of Ophthalmology, Peking University Third Hospital, will be selected and&#xD;
+      enrolled after informed consent to collect basic clinical information, preoperative blood&#xD;
+      samples, and ocular tumors Obtain pathological image annotation data and genomics-related&#xD;
+      data from ocular tumor tissue specimens, use blood samples for genomics information analysis,&#xD;
+      provide multi-dimensional data for the development of artificial intelligence algorithms, and&#xD;
+      establish artificial intelligence-assisted image data for eye tumors Standardize the process&#xD;
+      and establish a multi-modal ocular tumor standardized database of &quot;clinical&#xD;
+      information-tissue samples-pathological images-genomics data&quot;. The database and the diagnosis&#xD;
+      system are correlated with each other to provide optimal image data for later machine&#xD;
+      learning and related algorithm establishment, and finally the investigators will be completed&#xD;
+      the design of a new artificial intelligence-assisted diagnosis system for eye tumors.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 31, 2020</start_date>
+  <completion_date type="Anticipated">June 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To compare the diagnostic accuracy of OPAL and IHC for melanoma and other tumors.</measure>
+    <time_frame>Up to 24 weeks.</time_frame>
+    <description>The result of OPAL automatic analysis will be compared with IHC manual counting analysis.The accuracy of the study will be declared &quot;success&quot; if OPAL automatic analysis meet more than 85% of the manual count for all antibody.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Melanoma (Skin)</condition>
+  <condition>Melanoma in Situ</condition>
+  <condition>Nevus Eye</condition>
+  <condition>Sebaceous Gland Carcinoma of the Eyelid</condition>
+  <condition>Basal Cell Carcinoma</condition>
+  <condition>Squamous Cell Carcinoma in Situ</condition>
+  <condition>Ocular Tumor</condition>
+  <arm_group>
+    <arm_group_label>Melanoma and Nevus</arm_group_label>
+    <description>Patients diagnosed with melanoma or/and nevus on the skin around the eye before surgery.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Basal cell carcinoma;Squamous cell carcinoma;Sebaceous gland carcinoma</arm_group_label>
+    <description>Patients diagnosed with basal cell carcinoma, squamous cell carcinoma, sebaceous gland carcinoma before surgery.</description>
+  </arm_group>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      After the blood samples are treated with EDTA anti coagulation, the second-generation&#xD;
+      sequencing is performed from the DNA level and the RNA level to collect relevant genomics&#xD;
+      information, and establish an ocular tumor fusion genome database. Investigators will&#xD;
+      establish a complete sequencing data annotation database based on the existing tumor&#xD;
+      sequencing data annotation and analysis of soft nail sets and tumor sequencing data related&#xD;
+      public databases (such as the cosmic database).&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patients from the Department of Ophthalmology, Peking University Third Hospital who has an&#xD;
+        eye tumor and undergoes surgery.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients diagnosed with eye tumors and undergoing eye tumor surgery.&#xD;
+&#xD;
+          2. Patients sign informed consent for sample collection and sample transfer agreement,&#xD;
+             and can cooperate with long-term regular follow-up requirements.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients who are unable to undergo tumor surgery or retain samples due to various&#xD;
+             reasons .&#xD;
+&#xD;
+          2. Patients who are positive for hepatitis B, HIV, and syphilis.&#xD;
+&#xD;
+          3. Patient compliance is poor.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Chun Zhang, MD/PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Chun Zhang, MD/PHD</last_name>
+    <phone>+8618601031059</phone>
+    <email>zhangc1@yahoo.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Defu Wu, master</last_name>
+    <phone>+8613733899823</phone>
+    <email>65319052@163.com</email>
+  </overall_contact_backup>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>November 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 5, 2021</study_first_posted>
+  <last_update_submitted>January 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Peking University</investigator_affiliation>
+    <investigator_full_name>Chun Zhang</investigator_full_name>
+    <investigator_title>professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Melanoma</mesh_term>
+    <mesh_term>Carcinoma, Basal Cell</mesh_term>
+    <mesh_term>Carcinoma in Situ</mesh_term>
+    <mesh_term>Eye Neoplasms</mesh_term>
+    <mesh_term>Adenocarcinoma, Sebaceous</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

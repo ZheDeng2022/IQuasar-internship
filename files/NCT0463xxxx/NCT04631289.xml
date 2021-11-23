@@ -1,0 +1,166 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04631289</url>
+  </required_header>
+  <id_info>
+    <org_study_id>met on AKI</org_study_id>
+    <nct_id>NCT04631289</nct_id>
+  </id_info>
+  <brief_title>Preadmission Metformin Exposure and Incidence of Acute Kidney Injury</brief_title>
+  <official_title>Association of Preadmission Metformin Exposure and Incidence of Acute Kidney Injury Within 7 Days in Patients With Type 2 Diabetes in Intensive Care Unit: a Retrospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital of Guangzhou Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital of Guangzhou Medical University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      More than 50% of ICU patients suffer from Acute kidney injury (AKI). Metformin shows&#xD;
+      protective properties in kidney disease. Our study aimed to validate AKI incidence among&#xD;
+      diabetes patients in the ICU with or without preadmission metformin exposure. We included&#xD;
+      non-AKI patients with type 2 diabetes in Medical Information Mart for Intensive Care&#xD;
+      (MIMIC)-III database. Incidence of AKI and mortality were compared between those with and&#xD;
+      without preadmission prescriptions.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Emerged as a major public healthy problem, Acute kidney injury (AKI) is now influencing&#xD;
+      millions of people worldwide and leading to reduced survival, increased progression of latent&#xD;
+      chronic kidney disease (CKD), and even new onset of CKD. More than half of intensive care&#xD;
+      unit (ICU) patients underwent AKI in a recent multinational cross-sectional study, often&#xD;
+      resulting in the need for renal replacement therapy with a high socio-economic impact for the&#xD;
+      patients.The effective precaution and treatment strategy remains limited.&#xD;
+&#xD;
+      As the most general and first-line biguanide antihyperglycemic drug, metformin has&#xD;
+      anti-inflammatory characteristics and is related with decreased all-cause mortality compared&#xD;
+      with other antihyperglycemics.. In some clinical trials and experimental studies conducted on&#xD;
+      divergent rodent models representing various types of kidney diseases going from AKI to CKD,&#xD;
+      metformin has been shown beneficial effects on the kidney. Moreover, preadmission metformin&#xD;
+      exposure is associated with a lower rate of 28-day mortality among AKI patients showed in&#xD;
+      several clinical studies.&#xD;
+&#xD;
+      However, in critical care patients with type 2 diabetes, the evidence of preadmission&#xD;
+      metformin usage decreasing a risk of AKI incidence is still absented. Therefore we performed&#xD;
+      a retrospective cohort study to validate the association of preadmission metformin exposure&#xD;
+      and AKI incidence in patients with diabetes in the ICU .&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">August 1, 2020</start_date>
+  <completion_date type="Actual">November 10, 2020</completion_date>
+  <primary_completion_date type="Actual">September 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of AKI</measure>
+    <time_frame>within 7days in the ICU</time_frame>
+    <description>AKI was defined according to the Kidney Disease: Improving Global Outcomes (KDIGO) criteria.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">3841</enrollment>
+  <condition>AKI</condition>
+  <arm_group>
+    <arm_group_label>metformin/non-metformin group</arm_group_label>
+    <description>Preadmission metformin exposure was defined as a record of metformin usage in &quot;Medications on admission&quot; in MIMIC-III.&#xD;
+Metformin group included non-AKI type 2 diabetes patients with preadmission metformin exposure.&#xD;
+Non-metformin group included non-AKI type 2 diabetes patients without preadmission metformin exposure.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Type 2 diabetes patients without AKI were eligible in our study. AKI was defined according&#xD;
+        to the Kidney Disease: Improving Global Outcomes (KDIGO) criteria. KDIGO criteria are as&#xD;
+        follows: increase in SCr to ≥1.5 times baseline must have occurred within the prior 7 days;&#xD;
+        or ≥0.3 mg/dl increase in serum creatinine (SCr) occurred within 48 h; or urine volume &lt;0.5&#xD;
+        ml/kg/h for 6 h or more. The minimum of the SCr values available within the 7 days before&#xD;
+        admission was used as the baseline SCr[12]. When the preadmission SCr was not available,&#xD;
+        the first SCr measured at admission was used as the baseline SCr. The diagnosis of type 2&#xD;
+        diabetes was based on International Classification of Disease, Ninth Revision (ICD-9). We&#xD;
+        only included adult patients (age&gt;16 years).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  type 2 diabetes&#xD;
+&#xD;
+          -  &gt;16 years old and &lt;90 years old&#xD;
+&#xD;
+          -  without AKI&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  CKD&#xD;
+&#xD;
+          -  data error&#xD;
+&#xD;
+          -  type 1 diabetes&#xD;
+&#xD;
+          -  diabetes patients with pregnancy&#xD;
+&#xD;
+          -  no metformin record&#xD;
+&#xD;
+          -  with AKI&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>90 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shikun Qian</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Second Affiliated Hospital of Guangzhou Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>SAHGuangzhouMU</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 12, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 12, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 17, 2020</study_first_posted>
+  <last_update_submitted>November 12, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 12, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Metformin;AKI; Type 2 diabetes; ICU</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

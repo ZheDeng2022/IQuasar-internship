@@ -1,0 +1,236 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04682756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>XMa</org_study_id>
+    <nct_id>NCT04682756</nct_id>
+  </id_info>
+  <brief_title>A Multicenter Study on Early Diagnosis of NSTE-ACS Patients Based on Machine Learning Model</brief_title>
+  <official_title>A Multicenter Study on Early Diagnosis of NSTE-ACS Patients Based on Machine Learning Model</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>First Affiliated Hospital of Xinjiang Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Shihezi University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>First Affiliated Hospital of Xinjiang Medical University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early diagnosis of NSTEMI and UA patients is mainly through the construction of machine&#xD;
+      learning model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The patients with NSTEMI and UA were included. After manual labeling, the admiss- ion record&#xD;
+      characteristics of patients were selected. 75% of the data is used to build the model, and&#xD;
+      25% of the data is used to verify the validity of the model. Five classification models of&#xD;
+      one-dimensional convolution (CNN), naive Bayesian (NB), support vector machine (SVM), random&#xD;
+      forest (RF) and ensemble learning were constructed to identify and diagnose NSTEMI and UA&#xD;
+      patients. Multi-fold cross-validation and ROC-AUC curve are used to measure the advantages&#xD;
+      and disadvantages of the models.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">December 20, 2020</start_date>
+  <completion_date type="Anticipated">June 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 20, 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Other</time_perspective>
+  </study_design_info>
+  <target_duration>3 Months</target_duration>
+  <primary_outcome>
+    <measure>Accurate diagnosis of NSTEMI from patients with acute chest pain</measure>
+    <time_frame>Within 1 year</time_frame>
+    <description>NSTEMI patients are accurately diagnosed from patients with acute chest pain through a trained machine learning algorithm. Our model uses multi-fold cross-validation and ROC-AUC curve as the measurement index, 75% of the data are modeled, and 25% of the data verify the effect of the model. For this reason, we will calculate the accuracy, specificity and likelihood ratio when the sensitivity cutoff value is 0.9.</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">2500</enrollment>
+  <condition>NSTEMI - Non-ST Segment Elevation MI</condition>
+  <condition>Unstable Angina</condition>
+  <arm_group>
+    <arm_group_label>CNN model</arm_group_label>
+    <description>Electronic health information of NSTEMI and UA patients in two chest pain centers from 2017 to 2019 was collected，After manual labeling, the characteristics of patient admission records were selected, and through the construction of one-dimensional convolution (CNN) model. Taking the multi-fold cross-validation and ROC-AUC curve as the measurement index, 75% of the data are modeled and 25% of the data are used to verify the effect of the model.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>XG boost</arm_group_label>
+    <description>Through the construction of XG boost model,taking the multi-fold cross-validation and ROC-AUC curve as the measurement index, 75% of the data are modeled and 25% of the data are used to verify the effect of the model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>The model of machine learning</intervention_name>
+    <description>Early diagnosis of NTEMI patients by machine learning model</description>
+    <arm_group_label>CNN model</arm_group_label>
+    <arm_group_label>XG boost</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with NSTEMI and UA were included in the Chest Pain Center of the First Affiliated&#xD;
+        Hospital of Xinjiang Medical University and the First Affiliated Hospital of Medical&#xD;
+        College of Shihezi University from 2017 to 2019.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients were included and excluded strictly according to the diagnostic criteria of&#xD;
+             Chinese guidelines for diagnosis and treatment of Non-STsegment elevation acute&#xD;
+             coronary syndrome (2016). The patients were admitted to the hospital with chest pain&#xD;
+             as the main complaint, and were admitted to the first affiliated Hospital of Xinjiang&#xD;
+             Medical University and the first affiliated Hospital of Medical College of Shihezi&#xD;
+             Univ- ersity. the patients were diagnosed as NSTEMI and UA by coronary angiography&#xD;
+             (age range from 30 to 75 years old).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        - 1. Patients with STEMI, aortic dissecting aneurysm, pneumothorax and other&#xD;
+        non-cardiogenic chest pain. 2.Severe hepatorenal failure, primary tumor without surgical&#xD;
+        treatment, non-severe infection complicated with shock and pregnant women. 3.Previous&#xD;
+        severe valvular disease, viral myocarditis, pericardial effusion, cardiac pacemaker&#xD;
+        implantation, cardiogenic shock with serious complications, hypertensive heart disease,&#xD;
+        various cardiomyopathy, congenital heart disease, etc.&#xD;
+&#xD;
+        4.Patients with heart disease, AECOPD, lung tumor and hyperthyroidism were diagnosed in the&#xD;
+        past.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Aikeliyaer Ainiwaer, M.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>First Affiliated Hospital of Xinjiang Medical University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Quan Qi, Ph.D</last_name>
+    <role>Study Director</role>
+    <affiliation>College of Information and Technology, Shihezi University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Yi Ying Du, M.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>First Affiliated Hospital of Xinjiang Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The first affiliated Hospital of Xinjiang Medical University</name>
+      <address>
+        <city>Ürümqi</city>
+        <state>Xinjiang</state>
+        <zip>830000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Cuocolo R, Perillo T, De Rosa E, Ugga L, Petretta M. Current applications of big data and machine learning in cardiology. J Geriatr Cardiol. 2019 Aug;16(8):601-607. doi: 10.11909/j.issn.1671-5411.2019.08.002. Review.</citation>
+    <PMID>31555327</PMID>
+  </reference>
+  <reference>
+    <citation>Ambale-Venkatesh B, Yang X, Wu CO, Liu K, Hundley WG, McClelland R, Gomes AS, Folsom AR, Shea S, Guallar E, Bluemke DA, Lima JAC. Cardiovascular Event Prediction by Machine Learning: The Multi-Ethnic Study of Atherosclerosis. Circ Res. 2017 Oct 13;121(9):1092-1101. doi: 10.1161/CIRCRESAHA.117.311312. Epub 2017 Aug 9.</citation>
+    <PMID>28794054</PMID>
+  </reference>
+  <reference>
+    <citation>Weng SF, Reps J, Kai J, Garibaldi JM, Qureshi N. Can machine-learning improve cardiovascular risk prediction using routine clinical data? PLoS One. 2017 Apr 4;12(4):e0174944. doi: 10.1371/journal.pone.0174944. eCollection 2017.</citation>
+    <PMID>28376093</PMID>
+  </reference>
+  <reference>
+    <citation>Patel BB, Sperotto F, Molina M, Kimura S, Delgado MI, Santillana M, Kheir JN. Avoidable Serum Potassium Testing in the Cardiac ICU: Development and Testing of a Machine-Learning Model. Pediatr Crit Care Med. 2021 Apr 1;22(4):392-400. doi: 10.1097/PCC.0000000000002626.</citation>
+    <PMID>33332868</PMID>
+  </reference>
+  <reference>
+    <citation>Groepenhoff F, Eikendal ALM, Bots SH, van Ommen AM, Overmars LM, Kapteijn D, Pasterkamp G, Reiber JHC, Hautemann D, Menken R, Wittekoek ME, Hofstra L, Onland-Moret NC, Haitjema S, Hoefer I, Leiner T, den Ruijter HM. Cardiovascular imaging of women and men visiting the outpatient clinic with chest pain or discomfort: design and rationale of the ARGUS Study. BMJ Open. 2020 Dec 15;10(12):e040712. doi: 10.1136/bmjopen-2020-040712.</citation>
+    <PMID>33323438</PMID>
+  </reference>
+  <reference>
+    <citation>Kwon JM, Jeon KH, Kim HM, Kim MJ, Lim S, Kim KH, Song PS, Park J, Choi RK, Oh BH. Deep-learning-based risk stratification for mortality of patients with acute myocardial infarction. PLoS One. 2019 Oct 31;14(10):e0224502. doi: 10.1371/journal.pone.0224502. eCollection 2019.</citation>
+    <PMID>31671144</PMID>
+  </reference>
+  <reference>
+    <citation>Chowdhury MEH, Alzoubi K, Khandakar A, Khallifa R, Abouhasera R, Koubaa S, Ahmed R, Hasan MA. Wearable Real-Time Heart Attack Detection and Warning System to Reduce Road Accidents. Sensors (Basel). 2019 Jun 20;19(12). pii: E2780. doi: 10.3390/s19122780.</citation>
+    <PMID>31226858</PMID>
+  </reference>
+  <reference>
+    <citation>Wu CC, Hsu WD, Islam MM, Poly TN, Yang HC, Nguyen PA, Wang YC, Li YJ. An artificial intelligence approach to early predict non-ST-elevation myocardial infarction patients with chest pain. Comput Methods Programs Biomed. 2019 May;173:109-117. doi: 10.1016/j.cmpb.2019.01.013. Epub 2019 Jan 31.</citation>
+    <PMID>31046985</PMID>
+  </reference>
+  <reference>
+    <citation>Bernatz S, Ackermann J, Mandel P, Kaltenbach B, Zhdanovich Y, Harter PN, Döring C, Hammerstingl R, Bodelle B, Smith K, Bucher A, Albrecht M, Rosbach N, Basten L, Yel I, Wenzel M, Bankov K, Koch I, Chun FK, Köllermann J, Wild PJ, Vogl TJ. Comparison of machine learning algorithms to predict clinically significant prostate cancer of the peripheral zone with multiparametric MRI using clinical assessment categories and radiomic features. Eur Radiol. 2020 Dec;30(12):6757-6769. doi: 10.1007/s00330-020-07064-5. Epub 2020 Jul 16.</citation>
+    <PMID>32676784</PMID>
+  </reference>
+  <reference>
+    <citation>Md Idris N, Chiam YK, Varathan KD, Wan Ahmad WA, Chee KH, Liew YM. Feature selection and risk prediction for patients with coronary artery disease using data mining. Med Biol Eng Comput. 2020 Dec;58(12):3123-3140. doi: 10.1007/s11517-020-02268-9. Epub 2020 Nov 6.</citation>
+    <PMID>33155096</PMID>
+  </reference>
+  <reference>
+    <citation>Allen B, Molokie R, Royston TJ. Early Detection of Acute Chest Syndrome Through Electronic Recording and Analysis of Auscultatory Percussion. IEEE J Transl Eng Health Med. 2020 Sep 30;8:4900108. doi: 10.1109/JTEHM.2020.3027802. eCollection 2020.</citation>
+    <PMID>33094035</PMID>
+  </reference>
+  <reference>
+    <citation>Eberhard M, Nadarevic T, Cousin A, von Spiczak J, Hinzpeter R, Euler A, Morsbach F, Manka R, Keller DI, Alkadhi H. Machine learning-based CT fractional flow reserve assessment in acute chest pain: first experience. Cardiovasc Diagn Ther. 2020 Aug;10(4):820-830. doi: 10.21037/cdt-20-381.</citation>
+    <PMID>32968637</PMID>
+  </reference>
+  <reference>
+    <citation>Ma Q, Ma Y, Yu T, Sun Z, Hou Y. Radiomics of Non-Contrast-Enhanced T1 Mapping: Diagnostic and Predictive Performance for Myocardial Injury in Acute ST-Segment-Elevation Myocardial Infarction. Korean J Radiol. 2021 Apr;22(4):535-546. doi: 10.3348/kjr.2019.0969. Epub 2020 Nov 30.</citation>
+    <PMID>33289360</PMID>
+  </reference>
+  <reference>
+    <citation>Lee HC, Park JS, Choe JC, Ahn JH, Lee HW, Oh JH, Choi JH, Cha KS, Hong TJ, Jeong MH; Korea Acute Myocardial Infarction Registry (KAMIR) and Korea Working Group on Myocardial Infarction (KorMI) Investigators. Prediction of 1-Year Mortality from Acute Myocardial Infarction Using Machine Learning. Am J Cardiol. 2020 Oct 15;133:23-31. doi: 10.1016/j.amjcard.2020.07.048. Epub 2020 Jul 26.</citation>
+    <PMID>32811651</PMID>
+  </reference>
+  <reference>
+    <citation>Zheng Y, Li T. Letter to the Editor concerning the article &quot;Machine learning for prediction of 30-day mortality after ST elevation myocardial infarction&quot;. Int J Cardiol. 2018 Sep 1;266:41. doi: 10.1016/j.ijcard.2017.11.061.</citation>
+    <PMID>29887469</PMID>
+  </reference>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>December 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 24, 2020</study_first_posted>
+  <last_update_submitted>December 29, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 29, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 31, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>First Affiliated Hospital of Xinjiang Medical University</investigator_affiliation>
+    <investigator_full_name>Xiang Ma</investigator_full_name>
+    <investigator_title>Department of Cardiology</investigator_title>
+  </responsible_party>
+  <keyword>NSTEMI</keyword>
+  <keyword>UA</keyword>
+  <keyword>Machine Learning</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Angina, Unstable</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Machine learning model to identify patients with UA and NSTMI</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,231 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04977700</url>
+  </required_header>
+  <id_info>
+    <org_study_id>328</org_study_id>
+    <secondary_id>1R21CA241637-01A1</secondary_id>
+    <nct_id>NCT04977700</nct_id>
+  </id_info>
+  <brief_title>Using Physical Tracking to Predict Sunburn</brief_title>
+  <official_title>Using Retrospective and Real-Time Physical Activity Tracking to Predict Risk of Sunburn in Outdoor Exercisers on Strava</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Klein Buendel, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Colorado State University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Klein Buendel, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Recreational UV exposure is associated with every form of skin cancer and individuals who&#xD;
+      engage in more physical activity have a higher prevalence of sunburn, a proximal biomarker of&#xD;
+      melanoma risk, perhaps explaining why melanoma is the only cancer with which physical&#xD;
+      activity is positively correlated. Mobile technology for tracking physical activity has&#xD;
+      become increasingly prevalent and Strava, an activity tracking app and social networking site&#xD;
+      for athletes, is one of the most popular of these technologies. This research will test the&#xD;
+      feasibility of delivering location-based, ecologically-valid sun safety advice to Strava&#xD;
+      users at times when they are predicted to be engaged in outdoor physical activity, by&#xD;
+      utilizing Strava's public open-source Applications Programming Interface.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Skin cancer is the most common cancer in the United States. Over 5.4 million cases of&#xD;
+      keratinocyte cancers (basal and squamous cell) are diagnosed annually and incidence of&#xD;
+      melanoma has increased 3% each year for the past 30 years. In the 2014 Call to Action to&#xD;
+      Prevent Skin Cancer, the U. S. Surgeon General included strategies for coordinating messages&#xD;
+      on sun safety and physical activity, recognizing the need for sun safety among populations&#xD;
+      that engage in physical activity outdoors. Recreational UV exposure is associated with every&#xD;
+      form of skin cancer; individuals who engage in more physical activity have a higher&#xD;
+      prevalence of sunburn. Melanoma is the only cancer with which physical activity is positively&#xD;
+      correlated. Strava, a tracking app and social networking site for athletes, is one of the&#xD;
+      most popular of mobile technologies for logging physical activity and providing social&#xD;
+      feedback on activities by other Strava users. The goal of this R21 research is to test the&#xD;
+      feasibility of interfacing with the Strava website and its mobile app to develop an algorithm&#xD;
+      that a) predicts when individuals are likely to be engaged in physical activity outdoors in&#xD;
+      the sun when ultraviolet radiation is high and b) delivers sun safety advice tailored to the&#xD;
+      time, location, and personal risk (e.g., skin sun sensitivity) of the Strava users. Concept&#xD;
+      focus groups with Strava users (n=16) and non-users (n=16) will provide input on the&#xD;
+      feasibility, content, and functions in the Strava Sun (SS) intervention. The algorithm that&#xD;
+      predicts future outdoor exercise will be developed using machine learning modeling on&#xD;
+      activity data provided by Strava users (n=1000). The SS intervention will be programmed to&#xD;
+      deliver ecologically-valid sun safety advice through Strava's open-source Applications&#xD;
+      Programming Interface (API) via email and comments in the Strava interface. The sun safety&#xD;
+      advice will be tailored to location, time, season and user's personal risk, employing advice&#xD;
+      algorithms we developed for a sun safety mobile app, sunZapp, and a social media message&#xD;
+      library in our Go Sun Smart intervention for outdoor recreation resorts. SS will be tested&#xD;
+      for usability (n=30 Strava users) prior to conducting a pilot field trial to establish&#xD;
+      feasibility of SS in practice (n=226 Strava users). The project is significant and&#xD;
+      innovative. A sun protection interface for the Strava platform will provide individuals who&#xD;
+      engage in regular physical activity personalized, ecologically-valid advice to help them&#xD;
+      practice sun safety during outdoor activities. It will contain a novel machine learning&#xD;
+      algorithm that predicts future high-risk behavior, i.e., outdoor physical activity, to&#xD;
+      provide precision prevention advice. The intervention will be delivered over an established&#xD;
+      and popular technology platform with over 42 million registered users.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">July 6, 2020</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2022</primary_completion_date>
+  <phase>Early Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Frequency of using sun protection practices</measure>
+    <time_frame>Baseline</time_frame>
+    <description>5-point frequency rating on use of sunscreen, sunglasses, long-sleeved shirts, long pants, hat with a brim, shade, and time outside midday hours while engaged in physical activity outdoors in the past four months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Frequency of using sun protection practices</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>5-point frequency rating on use of sunscreen, sunglasses, long-sleeved shirts, long pants, hat with a brim, shade, and time outside midday hours while engaged in physical activity outdoors in the past four months.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Prevalence of sunburn</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Participants will be asked if their skin was sunburned (described as being red and/or painful from exposure to the sun) in the past four months, and if so, how many times.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Prevalence of sunburn</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>Participants will be asked if their skin was sunburned (described as being red and/or painful from exposure to the sun) in the past four months, and if so, how many times.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>International Physical Activity Questionnaire</measure>
+    <time_frame>Baseline</time_frame>
+    <description>Survey to assess physical activity behaviors</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>International Physical Activity Questionnaire</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>Survey to assess physical activity behaviors</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Response efficacy of sun protection</measure>
+    <time_frame>Baseline</time_frame>
+    <description>5-point Likert-type (strongly agree to strongly disagree) ratings of sun protection while engaged in outdoor physical activity reducing sunburn and risk for skin cancer.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Response efficacy of sun protection</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>5-point Likert-type (strongly agree to strongly disagree) ratings of sun protection while engaged in outdoor physical activity reducing sunburn and risk for skin cancer.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Barriers to sun protection while engaged in outdoor physical Activity</measure>
+    <time_frame>Baseline</time_frame>
+    <description>5-point Likert-type (strongly agree to strongly disagree) of statements describing why individuals might not practice sun protection while engaged in outdoor physical activity (e.g., it is too hot to wear long-sleeved shirts; sunscreen is too messy; sunscreen gets in my eyes; I forget).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Barriers to sun protection while engaged in outdoor physical Activity</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>5-point Likert-type (strongly agree to strongly disagree) of statements describing why individuals might not practice sun protection while engaged in outdoor physical activity (e.g., it is too hot to wear long-sleeved shirts; sunscreen is too messy; sunscreen gets in my eyes; I forget).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Recall of sun protection messages</measure>
+    <time_frame>Posttest 4 months after randomization</time_frame>
+    <description>How many times participants read the notifications in Strava from SS, how much they liked receiving them, willingness to receive sun safety message through Strava and preferred type of message.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1288</enrollment>
+  <condition>Prevention</condition>
+  <arm_group>
+    <arm_group_label>Intervention Group</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will be enrolled on a rolling basis and participate in SS for 4 months in the intervention condition. After pretesting, participants will receive sun protection messages from SS through emails/comments based on algorithm results from their profile and activity data. All participants will complete posttest survey 4 months from randomization.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Group</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>A small control group will be included to see if a no-treatment control condition is acceptable to users and estimate follow-up rates for planning a randomized trial. Participants will be enrolled on a rolling basis and will complete a pretest at randomization. All participants will complete a posttest survey 4 months from randomization.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Intervention Group</intervention_name>
+    <description>Test the developed algorithm that delivers location-based, tailored sun safety advice to Strava users through Strava comments for acceptability, ways of interacting with it, and barriers/willingness to allowing access.</description>
+    <arm_group_label>Intervention Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18 or older; reside in the United States; read/write in English; upload outdoor&#xD;
+             activity to Strava ≥3 times per week&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Younger than 18; reside outside of the United States; read/write in a language other&#xD;
+             than English; uploads Strava activity less than 3 times per week OR does not use&#xD;
+             Strava; having a cognitive or visual impairment that would interfere with&#xD;
+             participating; having another family member participating in the research; having&#xD;
+             participated in the focus group and usability testing&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Julia Berteletti, MSW</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Klein Buendel, Inc.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Klein Buendel, Inc.</name>
+      <address>
+        <city>Golden</city>
+        <state>Colorado</state>
+        <zip>80401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 15, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 27, 2021</study_first_posted>
+  <last_update_submitted>July 15, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 15, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>skin cancer</keyword>
+  <keyword>physical activity</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Sunburn</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

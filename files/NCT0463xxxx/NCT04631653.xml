@@ -1,0 +1,162 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04631653</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SE20294A</org_study_id>
+    <nct_id>NCT04631653</nct_id>
+  </id_info>
+  <brief_title>Verisee Software for Diabetic Retinopathy Screening</brief_title>
+  <official_title>The Clinical Benefit of an Artificial Intelligence Software Implementation on Diabetic Retinopathy Screening</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Taichung Veterans General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Taichung Veterans General Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to improve the diagnostic accuracy and the clinical referral rate for&#xD;
+      diabetic retinopathy by using a deep learning-based software.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diabetic retinopathy (DR) is the leading cause of blindness among working-age patients with&#xD;
+      type 2 diabetes. According to previous studies, early screening and timely treatment can&#xD;
+      reduce the risk of worsening DR and blindness. International guidelines recommend that&#xD;
+      screening for DR be performed at least once every year for patients with type 2 diabetes. The&#xD;
+      investigators will implement a validated deep learning-based software, VeriSee®, in clinics,&#xD;
+      and evaluate the benefits on diagnostic accuracy and the clinical referral rate for diabetic&#xD;
+      retinopathy after implementation of this software.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>Examine the diagnostic accuracy in referred participants</intervention_model_description>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>diagnostic accuracy</measure>
+    <time_frame>12 months</time_frame>
+    <description>diagnostic accuracy compared to the baseline</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Screening rate of diabetic retinopathy</measure>
+    <time_frame>12 months</time_frame>
+    <description>Screening rate of diabetic retinopathy in patients with diabetes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Changes in HbA1c</measure>
+    <time_frame>3 months</time_frame>
+    <description>Changes in HbA1c</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Referral rate of diabetic retinopathy</measure>
+    <time_frame>12 months</time_frame>
+    <description>Successful referral rate for referrable diabetic retinopathy</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Diabetic Retinopathy</condition>
+  <arm_group>
+    <arm_group_label>Verisee</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Screening diabetic retinopathy using Verisee software</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>VeriSee®</intervention_name>
+    <description>Screening of diabetic retinopathy using a validated deep learning-based software,VeriSee®</description>
+    <arm_group_label>Verisee</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults&#xD;
+&#xD;
+          -  Patients with diabetes&#xD;
+&#xD;
+          -  Cooperation to fundal scopic examination&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Diabetic duration &lt; 5 years in patients with type 1 diabetes&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>I-Te Lee, MD,PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Taichung Veterans General Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>I-Te Lee, MD,PhD</last_name>
+    <phone>+886-4-23592525</phone>
+    <phone_ext>3070</phone_ext>
+    <email>itlee@vghtc.gov.tw</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Yu-Hsuan Li, MD</last_name>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Division of Endocrinology and Metabolism in Taichung Veterans General Hospital</name>
+      <address>
+        <city>Taichung</city>
+        <zip>407</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>October 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 15, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 17, 2020</study_first_posted>
+  <last_update_submitted>November 15, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 15, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 17, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Retinal Diseases</mesh_term>
+    <mesh_term>Diabetic Retinopathy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

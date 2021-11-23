@@ -1,0 +1,175 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04888143</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BOZORG SCHEIN 2019</org_study_id>
+    <nct_id>NCT04888143</nct_id>
+  </id_info>
+  <brief_title>Optimization of Cochlear Implant Fitting in Patients With Functional Contralateral Hearing Using an Evolutionary Algorithm.</brief_title>
+  <acronym>Algo Fréq</acronym>
+  <official_title>Optimization of Cochlear Implant Fitting in Patients With Functional Contralateral Hearing Using an Evolutionary Algorithm.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire Dijon</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire Dijon</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      360 million people worldwide suffer from disabling hearing loss. The prevalence of hearing&#xD;
+      impairment, all stages combined, in the French population is 7% (4 million people), of which&#xD;
+      9% have severe impairment and 3% have profound or total impairment.&#xD;
+&#xD;
+      Cochlear implants are indicated in severe to profound deafness in some cases. The principle&#xD;
+      of the cochlear implant is to directly stimulate the fibres of the auditory nerve via&#xD;
+      electrodes inserted into the cochlea. It stimulates the auditory nerve and sends electrical&#xD;
+      impulses to the brain where they are interpreted as sounds.&#xD;
+&#xD;
+      The steps in hearing rehabilitation are surgical placement of the cochlear implant,&#xD;
+      activation, and follow-up adjustments.&#xD;
+&#xD;
+      There is no formal consensus on the exact adjustment procedures during activation or&#xD;
+      follow-up, but principles are followed depending on the cochlear implant adjustment centers&#xD;
+      (jack). All centers focus on sound intensity adjustments to achieve the goals of tonal&#xD;
+      audiometry in open-field silence with cochlear implant alone between 20 and 40 db (30 db most&#xD;
+      frequently). However, it is common practice to observe that this means of assessment does not&#xD;
+      really represent the performance of the individual because hearing a sound does not mean that&#xD;
+      someone will be able to recognize it and interpret it. Some of the patients who achieve these&#xD;
+      goals have difficulty hearing well in a noisy environment. Speech audiometry in silence and&#xD;
+      especially in noise would be a better reflection of patient needs.&#xD;
+&#xD;
+      Bimodal hearing is having a cochlear implant and a contralateral hearing aid. In cochlear&#xD;
+      implants, having bimodal binaural hearing improves the patients ability to understand speech&#xD;
+      in silent and noisy contexts. It should thus be considered when a second cochlear implant is&#xD;
+      not indicated in the contralateral ear.&#xD;
+&#xD;
+      It has been shown that intelligibility and musical perception are altered when the frequency&#xD;
+      allocations are different from the manufacturer's default frequency allocations. The possible&#xD;
+      redundancy between the acoustic and electrical information on the contralateral ear can lead&#xD;
+      to metallic distortion of the voice, which is perceived as less natural. This is due to a&#xD;
+      different stimulation of the cochlear tonotopic zones concerning conversational frequencies,&#xD;
+      between the implanted side and the device side. However, the frequency distribution is not&#xD;
+      subject to adjustment in current practice. A modification of the frequency distribution is&#xD;
+      possible on cochlear implants, which could improve the intelligibility and comfort of the&#xD;
+      implanted patient.&#xD;
+&#xD;
+      This working hypothesis will be studied, and a simple protocol for frequency reallocation of&#xD;
+      the cochlear implant will be developed to optimize the daily hearing performance of the&#xD;
+      implanted patients. An evolutionary algorithm will be used. The search for new adjustment&#xD;
+      solutions will be carried out within the safety limits imposed by the adjusters (detection&#xD;
+      and comfort loudness threshold).&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 8, 2020</start_date>
+  <completion_date type="Anticipated">June 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>percentage of words recognized</measure>
+    <time_frame>Through study completion, an average of 2 months</time_frame>
+    <description>Measurement of intelligibility in noise in bimodal situations</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">21</enrollment>
+  <condition>Profound Deafness</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>questionnaires</intervention_name>
+    <description>evaluation of hearing performance and quality of life questionnaires</description>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Evolutionary algorithm</intervention_name>
+    <description>application of the evolutionary algorithm and customized frequency allocation on a separate program.</description>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Person having given his or her non-opposition&#xD;
+&#xD;
+          -  Implanted post lingual profound deafness and one functional contralateral ear (normal&#xD;
+             hearing or mild to severe hearing loss with hearing aids)&#xD;
+&#xD;
+          -  Have more than 6 months of experience with cochlear implants&#xD;
+&#xD;
+          -  Daily use of their two hearing aids for more than 6 hours a day&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  person subject to a legal protection measure (guardianship, tutorship)&#xD;
+&#xD;
+          -  person subject to a measure of judicial control&#xD;
+&#xD;
+          -  pregnant, parturient or breastfeeding woman&#xD;
+&#xD;
+          -  adult unable to express consent&#xD;
+&#xD;
+          -  minor&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Alexis Bozorg Grayeli</last_name>
+    <phone>03 80 29 37 58</phone>
+    <email>alexis.bozorggrayeli@chu-dijon.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Chu Dijon Bourgogne</name>
+      <address>
+        <city>Dijon</city>
+        <zip>21000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alexis Bozorg Grayeli</last_name>
+      <phone>03 80 29 37 58</phone>
+      <email>alexis.bozorggrayeli@chu-dijon.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>May 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 17, 2021</study_first_posted>
+  <last_update_submitted>May 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 17, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Deafness</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

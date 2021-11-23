@@ -1,0 +1,197 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04832646</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020PI262</org_study_id>
+    <nct_id>NCT04832646</nct_id>
+  </id_info>
+  <brief_title>VOLTage Mapping in Atrial Fibrillation</brief_title>
+  <acronym>VOLT-AF</acronym>
+  <official_title>VOLTage Mapping in Atrial Fibrillation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Central Hospital, Nancy, France</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Central Hospital, Nancy, France</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to retrospectively analyze electroanatomical data collected&#xD;
+      during persistent atrial fibrillation ablation procedures, combined with pre-ablation cardiac&#xD;
+      CT data, in order to:&#xD;
+&#xD;
+        -  define a new method for quantifying left atrial voltage in atrial fibrillation via a&#xD;
+           total energy map instead of a peak-to-peak amplitude map&#xD;
+&#xD;
+        -  confirm the association between epicardial fat localization and atrial conduction&#xD;
+           slowing&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:&#xD;
+&#xD;
+      Atrial fibrillation (AF) is the most common arrhythmia, with an estimated prevalence in 2010&#xD;
+      of 33.5 million people (3% of the world population). It is now estimated that 1 in 4&#xD;
+      middle-aged adults in Europe and the United States will develop AF in their lifetime. Of&#xD;
+      course, the aging of the population is considered one of the major explanations for this&#xD;
+      pandemic phenomenon, as well as the ever-increasing prevalence of overweight and obesity.&#xD;
+      Complications related to this arrhythmia are numerous and frequent, with thromboembolic&#xD;
+      events having a major impact on morbidity. Thus, it is estimated that AF is responsible for a&#xD;
+      quarter of ischemic strokes and increases the risk of stroke fivefold. At the same time,&#xD;
+      there is an increased risk of long-term heart failure, which is responsible for excess&#xD;
+      mortality. Finally, patients with AF frequently have an impaired quality of life and a higher&#xD;
+      rate of hospitalization than patients in sinus rhythm (10 to 40% of patients with AF are&#xD;
+      hospitalized at least once a year). An association between AF and cognitive decline and risk&#xD;
+      of vascular dementia (even in patients treated with anticoagulants) has also been described.&#xD;
+      Depending on the temporality of AF, it is referred to as paroxysmal, persistent, or permanent&#xD;
+      AF.&#xD;
+&#xD;
+      Endocavitary ablation for the treatment of atrial fibrillation was first described by the&#xD;
+      Bordeaux team of Prof. Michel Haïssaguerre in the early 1990s, who demonstrated the role of&#xD;
+      electrical discharges from the pulmonary veins in the initiation of (paroxysmal) AF. The&#xD;
+      following years therefore saw the development of tools to electrically isolate the pulmonary&#xD;
+      veins from the left atrium, and then to try to identify and treat additional pathological&#xD;
+      areas in the atria for more advanced (persistent) forms of AF. The advent of&#xD;
+      three-dimensional modeling technologies has made it possible to develop intracardiac&#xD;
+      navigation systems to guide AF ablation in 3D, while limiting fluoroscopy time for the&#xD;
+      patient and staff.&#xD;
+&#xD;
+      In persistent AF, unlike paroxysmal AF, the technique used and the ablation targets are less&#xD;
+      codified, with success rates lower than those obtained in paroxysmal AF. Indeed, unlike&#xD;
+      paroxysmal AF, the pathophysiology of which is well understood, there is no unicist consensus&#xD;
+      theory for persistent AF. Based on the hypothesis of the predominance of the substrate over&#xD;
+      the pulmonary venous trigger in the self-maintenance of persistent AF, teams have highlighted&#xD;
+      the major role of left atrial fibrosis in this pathology, which is the cause of conduction&#xD;
+      heterogeneity in the left atrium. Work to elucidate the triggers of this fibrotic disease&#xD;
+      emphasizes the key role of periatrial epicardial fat, which secretes pro-fibrotic mediators&#xD;
+      and deregulates the atrial ganglionic plexi. An association has also been made between&#xD;
+      epicardial fat volume and the incidence and maintenance of atrial fibrillation. In addition,&#xD;
+      recent work demonstrates that the peri-atrial adipocyte environment modulates not only&#xD;
+      fibrosis but also the conductive properties of atrial cells.&#xD;
+&#xD;
+      During endocavitary ablation of atrial fibrillation, multi-electrode diagnostic catheters&#xD;
+      allow precise electroanatomical reconstruction of the left atrium, quantifying its geometry&#xD;
+      but also the local electrical signals (electrograms), in terms of amplitude (voltage map) and&#xD;
+      temporality relative to a reference (activation map). It is therefore theoretically possible&#xD;
+      to build a map of conduction velocities in sinus rhythm or electroentrainment in the atrium,&#xD;
+      by calculating the velocity and vector of electrical depolarization between each electrogram.&#xD;
+      In parallel, before any AF ablation, an injected cardiac CT scan is performed for&#xD;
+      three-dimensional atrial reconstruction. This scan also allows the quantification of the&#xD;
+      atrial epicardial fat in terms of volume and density. We therefore want to develop an&#xD;
+      algorithm allowing the construction of a map of velocities in sinus rhythm, fused to the&#xD;
+      three-dimensional reconstruction of the location of the atrial epicardial fat.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">April 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>correlation between voltage map in sinus rhythm and the new voltage map in atrial fibrillation using total energy calculation</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>correlation between atrial epicardial fat deposits and atrial conduction velocities slowing</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+  </secondary_outcome>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Atrial Fibrillation, Persistent</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>atrial fibrillation ablation</intervention_name>
+    <description>persistent atrial fibrillation ablation with both AF and sinus rhythm map available</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted for a procedure in the interventional electrophysiology department of the&#xD;
+        CHRU de Nancy for AF ablation between March 2019 and March 2021, for whom electroanatomical&#xD;
+        and scannographic data are available&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Persistant Atrial fibrillation ablation&#xD;
+&#xD;
+          -  Voltage map in sinus rhythm and in atrial fibrillation&#xD;
+&#xD;
+          -  Cardiac CT scan performed before ablation&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Incomplete data, poor quality ECG recordings.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Charles GUENANCIA, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>CHRU Nancy</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Charles Guenancia, MD, PhD</last_name>
+    <phone>+33684693094</phone>
+    <email>charles.guenancia@chu-dijon.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University Hospital of Nancy</name>
+      <address>
+        <city>Vandoeuvre les nancy</city>
+        <zip>54500</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christian De Chillou, MD, PhD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>April 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 6, 2021</study_first_posted>
+  <last_update_submitted>April 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Central Hospital, Nancy, France</investigator_affiliation>
+    <investigator_full_name>GUENANCIA Charles</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

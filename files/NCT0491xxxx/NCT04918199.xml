@@ -1,0 +1,184 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04918199</url>
+  </required_header>
+  <id_info>
+    <org_study_id>iBoxvsHuman</org_study_id>
+    <nct_id>NCT04918199</nct_id>
+  </id_info>
+  <brief_title>Human Versus Computer-based Predictions of Long Allograft Survival</brief_title>
+  <acronym>iBox vs Human</acronym>
+  <official_title>Computer Based, vs Human Based Assessment of Kidney Allograft Failure Prediction and Stratification</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Paris Translational Research Center for Organ Transplantation</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Paris Translational Research Center for Organ Transplantation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The clinical decision-making after kidney transplantation is mainly driven by patient&#xD;
+      individual assessment. However, this task remains difficult and uncertain due to the&#xD;
+      integration of complex and numerous parameters. We aim to evaluate and compare the ability of&#xD;
+      transplant physicians to predict long term allograft survival compared with a computer-based&#xD;
+      survival prediction algorithm (iBox system).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      400 kidney transplant recipients among the cohort of 4,000 patients from the Paris Transplant&#xD;
+      Group prospective kidney transplant cohort (NCT03474003) were randomly selected. We generated&#xD;
+      an anonymized electronic health record for each included patient including a total of 60&#xD;
+      classical kidney transplant prognostic parameters comprising baseline transplant and&#xD;
+      recipient characteristics, together with post-transplant parameters including allograft&#xD;
+      function, proteinuria, histology, diagnoses, and immunological profile collected during the&#xD;
+      first-year post-transplant. The time of risk evaluation for the human and the iBox system&#xD;
+      were at 1-year post transplant and the death censored allograft survival predictions made at&#xD;
+      7 years after risk assessment. We enrolled transplant physicians at various stages of their&#xD;
+      careers (residents, fellows and seniors) to assign death censored graft survival&#xD;
+      probabilities at 7 years post risk assessment. The physicians were blinded to the actual&#xD;
+      patient outcome (allograft failure) and the iBox predictions. The physicians-based&#xD;
+      predictions will then be compared with the iBox system, a validated computer-based kidney&#xD;
+      survival prediction system.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death censored allograft failure seven years after risk assessment</measure>
+    <time_frame>7 years</time_frame>
+    <description>Predictions performances to predict allograft failure defined as a patient's definitive return to dialysis or preemptive kidney retransplantation after risk assessment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of the parameters' importance in the prediction for physicians</measure>
+    <time_frame>7 years</time_frame>
+    <description>Mean decrease in accuracy from a random survival forest from each physician will be used to determine the relative importance of the first ten parameters that led to their predictions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Inter-rater agreement</measure>
+    <time_frame>7 years</time_frame>
+    <description>Fleiss kappa will be used to measure inter-rater agreement between each physician's ranking</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Kidney Transplant Failure</condition>
+  <arm_group>
+    <arm_group_label>Paris Transplant Group cohort</arm_group_label>
+    <description>400 (10%) of the patients were randomly selected from 4,000 consecutive patients over 18 years of age prospectively enrolled at the time of kidney transplantation from a living or deceased donor at Necker Hospital, Saint-Louis Hospital, Foch Hospital, and Toulouse Hospital between January 1, 2005, and January 1, 2014, in France.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Computer based assessment (iBox)</intervention_name>
+    <description>Individual allograft survival probabilities of death censored allograft survival seven years after the time of risk evaluation, computed using the iBox (NCT03474003), a qualified prognostication system designed to predict long term allograft survival up to seven years after evaluation.</description>
+    <arm_group_label>Paris Transplant Group cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Physician assessement</intervention_name>
+    <description>Based on anonymized electronic health records, physicians have to determine a percentage of death censored allograft survival seven years after the time of risk evaluation,</description>
+    <arm_group_label>Paris Transplant Group cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        400 (10%) of the patients were randomly selected with an evaluation available at one-year&#xD;
+        post-transplant from the Paris Transplant Group cohort, which gathers 4,000 consecutive&#xD;
+        patients over 18 years of age prospectively enrolled at the time of kidney transplantation&#xD;
+        from a living or deceased donor at Necker Hospital, Saint-Louis Hospital, Foch Hospital,&#xD;
+        and Toulouse Hospital between January 1, 2005, and January 1, 2014, in France.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  transplant evaluation available at one year post-transplant&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  no&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Alexandre Loupy, MD, PhD</last_name>
+    <phone>(33)612491082</phone>
+    <email>alexandre.loupy@inserm.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Gillian Divard, MD, MPH</last_name>
+    <phone>(33)631421663</phone>
+    <email>gillian.divard@inserm.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Paris Translational Centre for Organ Transplantation</name>
+      <address>
+        <city>Paris</city>
+        <state>Île-de-France</state>
+        <zip>75015</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alexandre Loupy, MD, PhD</last_name>
+      <phone>(33)612491082</phone>
+      <email>alexandre.loupy@inserm.fr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Gillian Divard, MD, MPH</last_name>
+      <phone>(33)631421663</phone>
+      <email>gillian.divard@inserm.fr</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Loupy A, Aubert O, Orandi BJ, Naesens M, Bouatou Y, Raynaud M, Divard G, Jackson AM, Viglietti D, Giral M, Kamar N, Thaunat O, Morelon E, Delahousse M, Kuypers D, Hertig A, Rondeau E, Bailly E, Eskandary F, Böhmig G, Gupta G, Glotz D, Legendre C, Montgomery RA, Stegall MD, Empana JP, Jouven X, Segev DL, Lefaucheur C. Prediction system for risk of allograft loss in patients receiving kidney transplants: international derivation and validation study. BMJ. 2019 Sep 17;366:l4923. doi: 10.1136/bmj.l4923.</citation>
+    <PMID>31530561</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 7, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 8, 2021</study_first_posted>
+  <last_update_submitted>June 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>iBox</keyword>
+  <keyword>individual risk prediction</keyword>
+  <keyword>kidney transplantation</keyword>
+  <keyword>long-term allograft outcome</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,156 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04690790</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EMRP56109N</org_study_id>
+    <nct_id>NCT04690790</nct_id>
+  </id_info>
+  <brief_title>Pulmonary Nodule Localization Prospective Validation</brief_title>
+  <official_title>Pulmonary Nodule Localization Under Thoracoscopic Surgery- a Machine Learning Based Retrospective Analysis and Prospective Validation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>E-DA Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>E-DA Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Localization is the key for successful excision of small target nodules under thoracoscopy,&#xD;
+      but the procedure also brings risks to patients. However, the criteria is still unclear. The&#xD;
+      investigators will validate the prediction model produced by institutional retrospective&#xD;
+      analysis in the prospective cohort.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Excision of targeted lung nodules during thoracoscopy sometimes needs placing a mark before&#xD;
+      surgery. The procedure of mark placement (localization) could probably cause damages to the&#xD;
+      patients. However, the criteria for patient selection is still not clear. Through respective&#xD;
+      analysis, the investigators have set up a prediction model and wish to validate this model&#xD;
+      prospectively.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 23, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>1 Year</target_duration>
+  <primary_outcome>
+    <measure>Nodule detection</measure>
+    <time_frame>During surgery</time_frame>
+    <description>Whether the nodule could be detected by conventional visualization or palpation</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Video-assisted Thoracic Surgery</condition>
+  <condition>Pulmonary Nodules</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Thoracoscopy</intervention_name>
+    <description>Patients who are indicated for thoracoscopic nodulectomy.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients indicated for thoracoscopic nodulectomy&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age ≧ 20 years&#xD;
+&#xD;
+          -  Lung nodule size ≦2cm on the pre-operative computed tomography (CT)&#xD;
+&#xD;
+          -  Nodulectomy is performed under thoracoscopy&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt; 20 years&#xD;
+&#xD;
+          -  Lung nodule size &gt; 2cm on CT or in the final pathology report&#xD;
+&#xD;
+          -  Open surgery for nodulectomy&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ming-Wei Kao, M.D., M.S.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>E-DA Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Ming-Wei Kao, M.D., M.S.</last_name>
+    <phone>+886-7-6150011</phone>
+    <phone_ext>252523</phone_ext>
+    <email>ed107576@edah.org.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>E-DA Hospital</name>
+      <address>
+        <city>Kaohsiung</city>
+        <zip>824</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yuan-Kun Tu</last_name>
+      <phone>+886-7-6150011</phone>
+      <email>ed103390@edah.org.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Ming-Wei Kao</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>December 28, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 28, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 31, 2020</study_first_posted>
+  <last_update_submitted>January 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>E-DA Hospital</investigator_affiliation>
+    <investigator_full_name>Tu, Yuan-Kun</investigator_full_name>
+    <investigator_title>president</investigator_title>
+  </responsible_party>
+  <keyword>Video-assisted thoracic surgery</keyword>
+  <keyword>Thoracoscopy</keyword>
+  <keyword>Localization</keyword>
+  <keyword>Pulmonary nodules</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Pulmonary Nodules</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

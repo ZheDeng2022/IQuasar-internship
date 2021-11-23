@@ -1,0 +1,247 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04568642</url>
+  </required_header>
+  <id_info>
+    <org_study_id>02020/404</org_study_id>
+    <nct_id>NCT04568642</nct_id>
+  </id_info>
+  <brief_title>Comparing Closed-loop FiO2 Controller With Conventional Control of FiO2</brief_title>
+  <official_title>Randomized Crossover Trial to Compare Closed-loop FiO2 Controller With Conventional Control of FiO2 During Mechanical Ventilation of Pediatric Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dr. Behcet Uz Children's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Dr. Behcet Uz Children's Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      During mechanical ventilation (MV) hypoxemic or hyperoxemic events should be carefully&#xD;
+      monitored and a quick response should be provided by the caregiver at the bedside. Pediatric&#xD;
+      mechanical ventilation consensus conference (PEMVECC) guidelines suggest to measure SpO2 in&#xD;
+      all ventilated children and furthermore to measure partial arterial oxygen pressure (PaO2) in&#xD;
+      moderate-to-severe disease. There were no predefined upper and lower limits for oxygenation&#xD;
+      in pediatric guidelines, however, Pediatric acute lung injury consensus conference PALICC&#xD;
+      guidelines proposed SpO2 between 92 - 97% when positive end-expiratory pressure (PEEP) is&#xD;
+      smaller than 10 cm H2O and SpO2 of 88 - 92% when PEEP is bigger or equal to 10 cm H2O. [1]&#xD;
+      For healthy lung, PEMVECC proposed the SpO2&gt;95% when breathing a FiO2 of 21%.[2] As a rule of&#xD;
+      thumb, the minimum fraction of inspired O2 (FiO2) to reach these targets should be used. A&#xD;
+      recent Meta-analyze showed that automated FiO2 adjustment provides a significant improvement&#xD;
+      of time in target saturations, reduces periods of hyperoxia, and severe hypoxia in preterm&#xD;
+      infants on positive pressure respiratory support. [3] This study aims to compare the&#xD;
+      closed-loop FiO2 controller with conventional control of FiO2 during mechanical ventilation&#xD;
+      of pediatric patients&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study has a crossover design. Patients will start in standard ASV 1.1 settings, then&#xD;
+      attending physician will assess the ventilation parameters according to study protocol and&#xD;
+      will note them in the case report form as he starts the data recording with MemoryBox (MB)in&#xD;
+      the mixed mode. Afterwards, the clinician will start the first phase by either keeping the&#xD;
+      patient in ASV 1.1 without any closed-loop controllers activated or switching to ASV 1.1 with&#xD;
+      only FiO2 controller activated according to the randomization. After 2.5 hours of recording&#xD;
+      in the first phase, the clinician will switch the patient to the second phase regarding&#xD;
+      randomization order. If the patient was ventilated without FiO2 controller activated in the&#xD;
+      first phase, the controller will be activated in the second phase. The patient will stay in&#xD;
+      the second phase for 2.5 hours as well. The first 0.5 hours of the first phase will be&#xD;
+      considered as run-in phase and the first 0.5 hours of the second phase will be considered as&#xD;
+      wash-out phase. Therefore the first 0.5 hours of each phase will be excluded from data&#xD;
+      analysis due to cross-over study design.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Crossover Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>optimum range time</measure>
+    <time_frame>2 hour</time_frame>
+    <description>Percentage of time spent in the defined optimum SpO2 range (percentage)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Acceptable range time</measure>
+    <time_frame>2 hour</time_frame>
+    <description>Percentage of time spent in the defined acceptable SpO2 range (percentage)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Suboptimum range time</measure>
+    <time_frame>2 hour</time_frame>
+    <description>Percentage of time spent in the defined suboptimum SpO2 range (percentage)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Manuel adjustments</measure>
+    <time_frame>2 hour</time_frame>
+    <description>number of FiO2 controller manuel adjustments</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">23</enrollment>
+  <condition>Acute Respiratory Failure</condition>
+  <condition>Acute Hypoxemic Respiratory Failure</condition>
+  <condition>Acute Hypoxemic and Hypercapnic Respiratory Failure</condition>
+  <arm_group>
+    <arm_group_label>Conventional</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Device: conventional FiO2 will be selected by the clinician according to the SpO2 target</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Closed-loop</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Device: conventional FiO2 will be selected by the closed-loop algorithm according to the SpO2 target</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Activate FiO2 controller</intervention_name>
+    <description>Closed-loop FiO2 controller will be activated in the experimental arm</description>
+    <arm_group_label>Closed-loop</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Deactivate FiO2 controller</intervention_name>
+    <description>Closed-loop FiO2 controller will be deactivated in the experimental arm</description>
+    <arm_group_label>Conventional</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Pediatric patients between 1 months and 18 years&#xD;
+&#xD;
+          -  Patients above 7kg of IBW&#xD;
+&#xD;
+          -  Informed consent was signed by next of kin&#xD;
+&#xD;
+          -  Requiring FiO2 ≥ 25% to keep SpO2 in the target ranges defined by the clinician&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Candidate for extubation in the next 5 hours.&#xD;
+&#xD;
+          -  Patient included in another interventional study in the last 30 days&#xD;
+&#xD;
+          -  Hemodynamically instable patients (defined as a need for continuous infusion of&#xD;
+             epinephrine or norepinephrine &gt; 1 mg/h)&#xD;
+&#xD;
+          -  Patients with congenital or acquired hemoglobinopathies effecting SpO2 measurement&#xD;
+&#xD;
+          -  Patient included in another interventional research study under consent&#xD;
+&#xD;
+          -  Patient already enrolled in the present study in a previous episode of acute&#xD;
+             respiratory failure&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>1 Month</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Gokhan Ceylan, MD</last_name>
+    <phone>+41794542397</phone>
+    <email>drgokhanceylan@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Health Sciences University Izmir Behçet Uz Child Health and Diseases education and research hospital</name>
+      <address>
+        <city>İzmir</city>
+        <state>Turkey/izmir</state>
+        <zip>35200</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hasan Agın</last_name>
+      <phone>+905362013162</phone>
+      <email>hasanagin@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Gokhan Ceylan</last_name>
+      <phone>+41794542397</phone>
+      <email>drgokhanceylan@gmail.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Turkey</country>
+  </location_countries>
+  <reference>
+    <citation>Santschi M, Jouvet P, Leclerc F, Gauvin F, Newth CJ, Carroll CL, Flori H, Tasker RC, Rimensberger PC, Randolph AG; PALIVE Investigators; Pediatric Acute Lung Injury and Sepsis Investigators Network (PALISI); European Society of Pediatric and Neonatal Intensive Care (ESPNIC). Acute lung injury in children: therapeutic practice and feasibility of international clinical trials. Pediatr Crit Care Med. 2010 Nov;11(6):681-9. doi: 10.1097/PCC.0b013e3181d904c0.</citation>
+    <PMID>20228688</PMID>
+  </reference>
+  <reference>
+    <citation>Pediatric Acute Lung Injury Consensus Conference Group. Pediatric acute respiratory distress syndrome: consensus recommendations from the Pediatric Acute Lung Injury Consensus Conference. Pediatr Crit Care Med. 2015 Jun;16(5):428-39. doi: 10.1097/PCC.0000000000000350.</citation>
+    <PMID>25647235</PMID>
+  </reference>
+  <reference>
+    <citation>Kneyber MCJ, de Luca D, Calderini E, Jarreau PH, Javouhey E, Lopez-Herce J, Hammer J, Macrae D, Markhorst DG, Medina A, Pons-Odena M, Racca F, Wolf G, Biban P, Brierley J, Rimensberger PC; section Respiratory Failure of the European Society for Paediatric and Neonatal Intensive Care. Recommendations for mechanical ventilation of critically ill children from the Paediatric Mechanical Ventilation Consensus Conference (PEMVECC). Intensive Care Med. 2017 Dec;43(12):1764-1780. doi: 10.1007/s00134-017-4920-z. Epub 2017 Sep 22.</citation>
+    <PMID>28936698</PMID>
+  </reference>
+  <reference>
+    <citation>Mitra S, Singh B, El-Naggar W, McMillan DD. Automated versus manual control of inspired oxygen to target oxygen saturation in preterm infants: a systematic review and meta-analysis. J Perinatol. 2018 Apr;38(4):351-360. doi: 10.1038/s41372-017-0037-z. Epub 2018 Jan 2.</citation>
+    <PMID>29296004</PMID>
+  </reference>
+  <reference>
+    <citation>Waitz M, Schmid MB, Fuchs H, Mendler MR, Dreyhaupt J, Hummler HD. Effects of automated adjustment of the inspired oxygen on fluctuations of arterial and regional cerebral tissue oxygenation in preterm infants with frequent desaturations. J Pediatr. 2015 Feb;166(2):240-4.e1. doi: 10.1016/j.jpeds.2014.10.007. Epub 2014 Nov 18.</citation>
+    <PMID>25454938</PMID>
+  </reference>
+  <reference>
+    <citation>Dani C. Automated control of inspired oxygen (FiO(2) ) in preterm infants: Literature review. Pediatr Pulmonol. 2019 Mar;54(3):358-363. doi: 10.1002/ppul.24238. Epub 2019 Jan 10. Review.</citation>
+    <PMID>30632296</PMID>
+  </reference>
+  <reference>
+    <citation>Lal M, Tin W, Sinha S. Automated control of inspired oxygen in ventilated preterm infants: crossover physiological study. Acta Paediatr. 2015 Nov;104(11):1084-9. doi: 10.1111/apa.13137.</citation>
+    <PMID>26194933</PMID>
+  </reference>
+  <reference>
+    <citation>Platen PV, Pomprapa A, Lachmann B, Leonhardt S. The dawn of physiological closed-loop ventilation-a review. Crit Care. 2020 Mar 29;24(1):121. doi: 10.1186/s13054-020-2810-1. Review.</citation>
+    <PMID>32223754</PMID>
+  </reference>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>September 24, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 24, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 29, 2020</study_first_posted>
+  <last_update_submitted>November 16, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 16, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 17, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Dr. Behcet Uz Children's Hospital</investigator_affiliation>
+    <investigator_full_name>Hasan ağın</investigator_full_name>
+    <investigator_title>Professor doctor, Head of pediatric intensive care unit (PICU)</investigator_title>
+  </responsible_party>
+  <keyword>Acute respiratory failure (ARF)</keyword>
+  <keyword>Pediatric acute respiratory distress syndrome (PARDS),</keyword>
+  <keyword>Acute lung injury (ALI),</keyword>
+  <keyword>SpO2</keyword>
+  <keyword>FiO2</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

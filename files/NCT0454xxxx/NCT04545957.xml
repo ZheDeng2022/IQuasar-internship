@@ -1,0 +1,270 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04545957</url>
+  </required_header>
+  <id_info>
+    <org_study_id>19-759</org_study_id>
+    <nct_id>NCT04545957</nct_id>
+  </id_info>
+  <brief_title>Jump: MR Simulation For Radiation Therapy Master Protocol</brief_title>
+  <acronym>JUMP</acronym>
+  <official_title>Judging MR Simulation Procedures: A Phase I-II Study of the Use of Magnetic Resonance Imaging Simulation in the Planning of Radiation Treatments</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Dana-Farber Cancer Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Dana-Farber Cancer Institute</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>Yes</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a master protocol for a prospective Phase I-II study evaluating feasibility and&#xD;
+      efficacy of incorporating magnetic resonance imaging (MRI) simulation into the planning of&#xD;
+      radiation treatments.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a Phase I/II clinical trial. A Phase I clinical trial tests the feasibility and&#xD;
+      safety of an investigational intervention. &quot;Investigational&quot; means that the process targeting&#xD;
+      high doses of radiation to the tumor based on MRI is still being studied. This research study&#xD;
+      is a Feasibility Study, which means it is the first-time investigators at this institution&#xD;
+      are examining this type of MR-guided dose planning. The U.S. Food and Drug Administration&#xD;
+      (FDA) has cleared MRI planning for use.&#xD;
+&#xD;
+        -  In Phase I of this study, will prospectively determine the feasibility of using an MRI&#xD;
+           simulator to plan radiation therapy.&#xD;
+&#xD;
+        -  In Phase II, the efficacy of adjusting RT based on MRI simulation will be explored,&#xD;
+           either by utilizing an MRI-simulation and synthetic CT to plan treatment or by&#xD;
+           dose-painting based on functional MRI data&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 14, 2020</start_date>
+  <completion_date type="Anticipated">October 10, 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 10, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Feasibility of acquiring MRI simulation prior to radiation therapy planning</measure>
+    <time_frame>1 Year</time_frame>
+    <description>Feasibility is defined as successfully enrolling patients, successfully acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of patients with QOL decline exceeding 2 x MID</measure>
+    <time_frame>baseline up to 24 months</time_frame>
+    <description>12 points; MID of the EPIC-26 urinary irritative/obstructive domain is 6 points) measured by EPIC-26 urinary irritation/obstruction domain from baseline to 2 years</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Treatment-Related Adverse Events as Assessed by CTCAE v4.0</measure>
+    <time_frame>24 Months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MRI evidence of disease at 2 years from treatment initiation.</measure>
+    <time_frame>24 Months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>PSA progression (nadir + 2) at 2 years from treatment initiation</measure>
+    <time_frame>24 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Progression free survival</measure>
+    <time_frame>24 months</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in target volumes between CT simulation and MRI simulation</measure>
+    <time_frame>24 Months</time_frame>
+    <description>To ascertain the effects of MRI simulation on size of target volumes and OAR, the volume (cc) will be compared between CT vs MR simulation by t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution. The extent of overlap calculated with the Sorensen-Dice coefficient and Hausdorff distance.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in coverage of target volumes between CT simulation and MRI simulation</measure>
+    <time_frame>24 Months</time_frame>
+    <description>The dose to OARS using the CT-simulation and MR-simulation derived plans will be compared using the t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in dose to organs at risk (OARs) between CT simulation and MRI simulation</measure>
+    <time_frame>24 Months</time_frame>
+    <description>The dose to OARS using the CT-simulation and MR-simulation derived plans will be compared using the t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Performance of the synthetic CT in RT planning</measure>
+    <time_frame>24 Months</time_frame>
+    <description>To assess performance of the synthetic CT in RT planning, fluence patterns from the synthetic CT plan will be copied onto the CT simulation electron density grids and dose recalculated. Accuracy of synthetic CT dose calculations to target volumes and OARs will be assessed with a goal of &lt;1% difference in target and OAR dose between synthetic CT plans and CT simulation plans</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">86</enrollment>
+  <condition>Prostate Cancer</condition>
+  <condition>Recurrent Adenocarcinoma</condition>
+  <condition>Liver Cancer</condition>
+  <condition>Head and Neck Cancer</condition>
+  <arm_group>
+    <arm_group_label>Phase I MRI Simulation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>This research study involves a screening period to determine eligibility.&#xD;
+- Radiation mapping to define the target for radiation.acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Phase II MR Simulation Protocol: Track A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>MR-only Radiation Therapy Simulation MRI-simulation and synthetic CT to plan treatment</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Phase II MR Simulation Protocol: Track B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Adjusted Margin or / Dose Painted RT Based on Imaging of MR Simulator (e.g. biological imaging or higher resolution imaging)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>MRI Simulator</intervention_name>
+    <description>Radiation mapping to define the target for radiation.acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data.</description>
+    <arm_group_label>Phase I MRI Simulation</arm_group_label>
+    <arm_group_label>Phase II MR Simulation Protocol: Track A</arm_group_label>
+    <arm_group_label>Phase II MR Simulation Protocol: Track B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Radiation Therapy</intervention_name>
+    <description>In Phase I, radiation will be institutional standard per disease site. In Phase II, either radiation according to MR-based dose painting or adjusted RT. These adjusted doses and/or RT will vary per disease site and will be pre-specified in the subprotocols.</description>
+    <arm_group_label>Phase I MRI Simulation</arm_group_label>
+    <arm_group_label>Phase II MR Simulation Protocol: Track A</arm_group_label>
+    <arm_group_label>Phase II MR Simulation Protocol: Track B</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participants must have a confirmed malignancy requiring radiation therapy.&#xD;
+&#xD;
+          -  Age: 18 years or older&#xD;
+&#xD;
+          -  ECOG performance status ≤2 (Karnofsky ≥60%, see Appendix A)&#xD;
+&#xD;
+          -  Ability to understand and the willingness to sign a written informed consent document.&#xD;
+&#xD;
+          -  Disease-specific eligibility criteria will be specified in the appropriate&#xD;
+             subprotocol.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  For MRI involving contrast, history of allergic reactions attributed to&#xD;
+             gadoliniumbased IV contrast. Note: If patient will not receive contrast, this is not&#xD;
+             applicable&#xD;
+&#xD;
+          -  Participants who cannot undergo an MRI&#xD;
+&#xD;
+          -  Disease-specific exclusion criteria will be specified in the appropriate subprotocol&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lisa Singer, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Brigham and Women's Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lisa Singer, MD</last_name>
+    <phone>617-732-5734</phone>
+    <email>lsinger1@bwh.harvard.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Brigham and Women Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa Singer, MD, PhD</last_name>
+      <phone>617-732-5734</phone>
+    </contact>
+    <investigator>
+      <last_name>Lisa Singer, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Dana Farber Cancer Institute</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa Singer, MD, PHD</last_name>
+      <phone>617-732-5734</phone>
+    </contact>
+    <investigator>
+      <last_name>Lisa Singer, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>September 4, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 11, 2020</study_first_posted>
+  <last_update_submitted>March 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Dana-Farber Cancer Institute</investigator_affiliation>
+    <investigator_full_name>Lisa Singer, MD PhD</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Prostate Cancer</keyword>
+  <keyword>Recurrent Adenocarcinoma</keyword>
+  <keyword>Liver Cancer</keyword>
+  <keyword>Head and Neck Cancer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Prostatic Neoplasms</mesh_term>
+    <mesh_term>Adenocarcinoma</mesh_term>
+    <mesh_term>Head and Neck Neoplasms</mesh_term>
+    <mesh_term>Liver Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to Sponsor Investigator or designee. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Data can be shared no earlier than 1 year following the date of publication</ipd_time_frame>
+    <ipd_access_criteria>Contact the Partners Innovations team at http://www.partners.org/innovation</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

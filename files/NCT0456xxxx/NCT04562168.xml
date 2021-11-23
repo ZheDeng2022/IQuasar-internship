@@ -1,0 +1,295 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04562168</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P20/159-P</org_study_id>
+    <nct_id>NCT04562168</nct_id>
+  </id_info>
+  <brief_title>Using AI as a Diagnostic Decision Support Tool to Help the Diagnosis of Skin Disease in Primary Healthcare in Catalonia</brief_title>
+  <official_title>Using Artificial Intelligence as a Diagnostic Decision Support Tool to Help the Diagnosis of Skin Disease in Primary Healthcare in Catalonia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jordi Gol i Gurina Foundation</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>iDoc24</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institut Català de la Salut</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Jordi Gol i Gurina Foundation</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background: Dermatological conditions are a relevant health problem. Machine learning models&#xD;
+      are increasingly being applied to dermatology as a diagnostic decision support tool using&#xD;
+      image analysis, specially for skin cancer detection and classification.&#xD;
+&#xD;
+      Objective: The objective of this study is to perform a prospective validation of an image&#xD;
+      analysis ML model, which is capable of screening 44 different skin disease types, comparing&#xD;
+      its diagnostic capacity with that of General Practitioners (GPs) and dermatologists.&#xD;
+&#xD;
+      Methods: In this prospective study 100 consecutive patients who visit a participant GP with a&#xD;
+      skin problem in central Catalonia will be recruited, data collection is planned to last 7&#xD;
+      months. Skin diseases anonymized pictures will be taken and introduced in the ML model&#xD;
+      interface, which will return top 5 accuracy diagnosis. The same image will be also sent as a&#xD;
+      teledermatology consultation, following the current workflow. GP, ML model and&#xD;
+      dermatologist/s assessments will be compared to calculate the precision, sensitivity,&#xD;
+      specificity and accuracy of the ML model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      A secure anonymous stand alone web interface that is compatible to any mobile device will be&#xD;
+      integrated with the Autoderm API. The study conducted in this project will consist in a&#xD;
+      prospective study aimed to evaluate the ML model performance, comparing its diagnostic&#xD;
+      capacity with GPs and dermatologists.&#xD;
+&#xD;
+      To conduct the study the following procedure will be executed until the required number of&#xD;
+      samples is reached:&#xD;
+&#xD;
+        1. A suitable patient with skin concern is asked to participate and sign the patient's&#xD;
+           study agreement.&#xD;
+&#xD;
+        2. GP will diagnose the skin condition.&#xD;
+&#xD;
+        3. GP (or nurse) will take one good quality image of the skin condition.&#xD;
+&#xD;
+        4. GP will send the photograph as a teledermatology consultation following the current&#xD;
+           workflow.&#xD;
+&#xD;
+        5. The image is entered in the Autoderm ML interface.&#xD;
+&#xD;
+        6. Dermatologist will diagnose the skin condition.&#xD;
+&#xD;
+      The study will be conducted in primary care centers managed by the Catalan Health Institute.&#xD;
+      Participant PCP will be located in rural and metropolitan areas in Central Catalonia, which&#xD;
+      includes the regions of Anoia, Bages, Moianès, Berguedà and Osona. The reference population&#xD;
+      included in the study will be about 512,050. The recruitment of prospective subjects will&#xD;
+      consist on a consecutive basis.&#xD;
+&#xD;
+      General practitioners will collect data from consecutive patients who meet the inclusion&#xD;
+      criteria after obtaining written informed consent. Collected data will be reported&#xD;
+      exclusively in case report form (attached at Annex V and VI).&#xD;
+&#xD;
+      The GP will diagnose the skin condition and will fill the &quot;Face-to-face assessment by GP&quot;.&#xD;
+      For each patient, the GP using a smartphone camera will take a close up good quality image of&#xD;
+      the skin problem. The image will be anonymous and it will be not possible to identify&#xD;
+      patients. The GP will use the Autoderm ML interface to upload the anonymized image and will&#xD;
+      fill the &quot;Assessment provided by the ML model&quot; questionnaire with the top 3 diagnoses&#xD;
+      generated by the ML model.&#xD;
+&#xD;
+      In order to get a second opinion, the GP will incorporate the anonymized image and an&#xD;
+      accurate description of the skin lesion into the patient's medical history following the&#xD;
+      current teledermatology flow. The GP will fill &quot;Assessment by teledermatology&quot; questionnaire&#xD;
+      after receiving the information, being response time about 2-7 days.&#xD;
+&#xD;
+      In case of dermatology referral, the GP will fill &quot;Assessment by in person dermatologist&quot;, by&#xD;
+      accessing electronic health records as they become available, being the average waiting time&#xD;
+      for referral from 30 to 90 days.&#xD;
+&#xD;
+      Questionnaire case number will be the same for all questionnaires and it will not be possible&#xD;
+      to identify the patient, as case number will be predefined before the initiation of the data&#xD;
+      collection phase.&#xD;
+&#xD;
+      To compare the performance of the ML model with that of the GPs and dermatologists, it will&#xD;
+      be required a sample size of 100 images of skin diseases from patients who meet the inclusion&#xD;
+      criteria. The proposed sample size is based on sample size calculation used in similar&#xD;
+      research.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">January 15, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Sensitivity of the ML model</measure>
+    <time_frame>1 year</time_frame>
+    <description>True positive rate of the ML model</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Specificity of the ML model</measure>
+    <time_frame>1 year</time_frame>
+    <description>True negative rate of the ML model</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Accuracy of the ML model</measure>
+    <time_frame>1 year</time_frame>
+    <description>Ratio of number of correct predictions to the total number of input samples</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area under the receiver operating characteristic curve of the ML model</measure>
+    <time_frame>1 year</time_frame>
+    <description>Diagnostic ability of the ML model</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rate of the eligible participants who agree to participate in the study</measure>
+    <time_frame>1 year</time_frame>
+    <description>Frequency of patients who agree to participate in the clinical trial and are eligible.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Skin Diseases</condition>
+  <arm_group>
+    <arm_group_label>Diagnostic Test: ML model</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The diagnostic capacity of the ML model will be compared with that of the general practitioners and with dermatologist.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Autoderm® dermatology search engine (ML model) testing</intervention_name>
+    <description>GP using a smartphone camera will take an image of the skin problem and will use the Autoderm ML interface to upload the anonymized image. The obtained predicted diagnosis will be recorded in case report form.</description>
+    <arm_group_label>Diagnostic Test: ML model</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients who have cutaneous disease reason-for-visit.&#xD;
+&#xD;
+          -  Patients who provide written informed consent.&#xD;
+&#xD;
+          -  Patients who are 18 years of age or older.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients with advanced dementia.&#xD;
+&#xD;
+          -  Patients with a cutaneous lesion which can't be photographed with a smartphone and&#xD;
+             images with poor quality.&#xD;
+&#xD;
+          -  Patients who have conditions associated with risk of poor protocol compliance.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>CAP Navàs</name>
+      <address>
+        <city>Navàs</city>
+        <state>Barcelona</state>
+        <zip>08670</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <results_reference>
+    <citation>Lim HW, Collins SAB, Resneck JS Jr, Bolognia JL, Hodge JA, Rohrer TA, Van Beek MJ, Margolis DJ, Sober AJ, Weinstock MA, Nerenz DR, Smith Begolka W, Moyano JV. The burden of skin disease in the United States. J Am Acad Dermatol. 2017 May;76(5):958-972.e2. doi: 10.1016/j.jaad.2016.12.043. Epub 2017 Mar 1.</citation>
+    <PMID>28259441</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Schofield JK, Fleming D, Grindlay D, Williams H. Skin conditions are the commonest new reason people present to general practitioners in England and Wales. Br J Dermatol. 2011 Nov;165(5):1044-50. doi: 10.1111/j.1365-2133.2011.10464.x. Epub 2011 Sep 22.</citation>
+    <PMID>21692764</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Dokotor.se [Internet]. Survey Telemedicine statistics Dokotor.se, the % of queries that are dermatology related 2019 [cited 2019]</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Activitat assistencial de la xarxa sanitària de Catalunya, any 2012: registre del conjunt mínim bàsic de dades (CMBD). Barcelona: Departament de Salut. 2013.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Lowell BA, Froelich CW, Federman DG, Kirsner RS. Dermatology in primary care: Prevalence and patient disposition. J Am Acad Dermatol. 2001 Aug;45(2):250-5.</citation>
+    <PMID>11464187</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Porta N, San Juan J, Grasa MP, Simal E, Ara M, Querol MA. [Diagnostic agreement between primary care physicians and dermatologists in the health area of a referral hospital]. Actas Dermosifiliogr. 2008 Apr;99(3):207-12. Spanish.</citation>
+    <PMID>18358196</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>López Seguí F, Franch Parella J, Gironès García X, Mendioroz Peña J, García Cuyàs F, Adroher Mas C, García-Altés A, Vidal-Alaball J. A Cost-Minimization Analysis of a Medical Record-based, Store and Forward and Provider-to-provider Telemedicine Compared to Usual Care in Catalonia: More Agile and Efficient, Especially for Users. Int J Environ Res Public Health. 2020 Mar 18;17(6). pii: E2008. doi: 10.3390/ijerph17062008.</citation>
+    <PMID>32197434</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Börve A, Dahlén Gyllencreutz J, Terstappen K, Johansson Backman E, Aldenbratt A, Danielsson M, Gillstedt M, Sandberg C, Paoli J. Smartphone teledermoscopy referrals: a novel process for improved triage of skin cancer patients. Acta Derm Venereol. 2015 Feb;95(2):186-90. doi: 10.2340/00015555-1906.</citation>
+    <PMID>24923283</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Ferrer RT, Bezares AP, Mañes AL, Mas AV, Gutiérrez IT, Lladó CN, Estaràs GM. [Diagnostic reliability of an asynchronous teledermatology consultation]. Aten Primaria. 2009 Oct;41(10):552-7. doi: 10.1016/j.aprim.2008.11.012. Epub 2009 Jun 5. Spanish.</citation>
+    <PMID>19500880</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gomolin A, Netchiporouk E, Gniadecki R, Litvinov IV. Artificial Intelligence Applications in Dermatology: Where Do We Stand? Front Med (Lausanne). 2020 Mar 31;7:100. doi: 10.3389/fmed.2020.00100. eCollection 2020. Review.</citation>
+    <PMID>32296706</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Esteva A, Kuprel B, Novoa RA, Ko J, Swetter SM, Blau HM, Thrun S. Dermatologist-level classification of skin cancer with deep neural networks. Nature. 2017 Feb 2;542(7639):115-118. doi: 10.1038/nature21056. Epub 2017 Jan 25. Erratum in: Nature. 2017 Jun 28;546(7660):686.</citation>
+    <PMID>28117445</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Liu Y, Jain A, Eng C, Way DH, Lee K, Bui P, Kanada K, de Oliveira Marinho G, Gallegos J, Gabriele S, Gupta V, Singh N, Natarajan V, Hofmann-Wellenhof R, Corrado GS, Peng LH, Webster DR, Ai D, Huang SJ, Liu Y, Dunn RC, Coz D. A deep learning system for differential diagnosis of skin diseases. Nat Med. 2020 Jun;26(6):900-908. doi: 10.1038/s41591-020-0842-3. Epub 2020 May 18.</citation>
+    <PMID>32424212</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Kamulegeya LH, Okello M, Bwanika JM, Musinguzi D, Lubega W, Rusoke D, et al. Using artificial intelligence on dermatology conditions in Uganda: A case for diversity in training data sets for machine learning. bioRxiv [Internet]. 2019 Jan 1;826057. Available from: http://biorxiv.org/content/early/2019/10/31/826057.abstract .</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Evaluation of the diagnostic accuracy of an online artificial intelligence app for skin disease diagnosis. Alexander Larson, Degree Project in Medicine, Sahlgrenska University Hospital Department of Dermatology and Venereology, Gothenburg, Sweden 2018.</citation>
+  </results_reference>
+  <results_reference>
+    <citation>Brinker TJ, Hekler A, Enk AH, Klode J, Hauschild A, Berking C, Schilling B, Haferkamp S, Schadendorf D, Holland-Letz T, Utikal JS, von Kalle C; Collaborators. Deep learning outperformed 136 of 157 dermatologists in a head-to-head dermoscopic melanoma image classification task. Eur J Cancer. 2019 May;113:47-54. doi: 10.1016/j.ejca.2019.04.001. Epub 2019 Apr 10.</citation>
+    <PMID>30981091</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Haenssle HA, Fink C, Schneiderbauer R, Toberer F, Buhl T, Blum A, Kalloo A, Hassen ABH, Thomas L, Enk A, Uhlmann L; Reader study level-I and level-II Groups, Alt C, Arenbergerova M, Bakos R, Baltzer A, Bertlich I, Blum A, Bokor-Billmann T, Bowling J, Braghiroli N, Braun R, Buder-Bakhaya K, Buhl T, Cabo H, Cabrijan L, Cevic N, Classen A, Deltgen D, Fink C, Georgieva I, Hakim-Meibodi LE, Hanner S, Hartmann F, Hartmann J, Haus G, Hoxha E, Karls R, Koga H, Kreusch J, Lallas A, Majenka P, Marghoob A, Massone C, Mekokishvili L, Mestel D, Meyer V, Neuberger A, Nielsen K, Oliviero M, Pampena R, Paoli J, Pawlik E, Rao B, Rendon A, Russo T, Sadek A, Samhaber K, Schneiderbauer R, Schweizer A, Toberer F, Trennheuser L, Vlahova L, Wald A, Winkler J, Wölbing P, Zalaudek I. Man against machine: diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists. Ann Oncol. 2018 Aug 1;29(8):1836-1842. doi: 10.1093/annonc/mdy166.</citation>
+    <PMID>29846502</PMID>
+  </results_reference>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 28, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 24, 2020</study_first_posted>
+  <last_update_submitted>February 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Machine Learning</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Data accuracy</keyword>
+  <keyword>Computed Assisted Diagnosis</keyword>
+  <keyword>Neural Network Computer</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Skin Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The protocol will be published.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Clinical Study Report (CSR)</ipd_info_type>
+    <ipd_time_frame>End of the study</ipd_time_frame>
+    <ipd_access_criteria>Information will be published in international scientific journals</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

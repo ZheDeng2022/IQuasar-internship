@@ -1,0 +1,354 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04359745</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5.0 15/01/21</org_study_id>
+    <nct_id>NCT04359745</nct_id>
+  </id_info>
+  <brief_title>Improving Treatment of Glioblastoma: Distinguishing Progression From Pseudoprogression</brief_title>
+  <official_title>Improving Treatment of Glioblastoma by Distinguishing Progression From Pseudoprogression by Applying Machine Learning Techniques to Routine Clinical Data</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Guy's and St Thomas' NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Guy's and St Thomas' NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Glioblastoma is the most aggressive kind of brain cancer and leads on average to 20 years of&#xD;
+      life lost, more than any other cancer. MRI images of the brain are taken before the&#xD;
+      operation, and every few months after treatment, to see if the cancer regrows. It can be hard&#xD;
+      for doctors to tell if what they see in these images represent growing cancer or a sideeffect&#xD;
+      of treatment. The similarity of the appearance of the treatment side-effects to cancer is&#xD;
+      confusing and is known as &quot;pseudoprogression&quot; (as opposed to true cancer progression).&#xD;
+&#xD;
+      If doctors mistake the appearance of treatment side-effects for growing cancer, they may&#xD;
+      think that the treatment is failing and change the patient's treatment too early or put them&#xD;
+      into a clinical trial. This means that patients may not be given the full treatment and the&#xD;
+      results from some clinical trials cannot be trusted.&#xD;
+&#xD;
+      The aim of this study is to provide doctors with a computer program that will use MRI images&#xD;
+      of the brain that are routinely obtained throughout treatment, in order to help them more&#xD;
+      accurately identify when the cancer regrows.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The impact of pseudoprogression is significant on patient care and medical research. The&#xD;
+      existing evidence shows that it is feasible to use Support Vector Machine and Deep Learning&#xD;
+      classification models for predicting survival using routine MRI images as well as&#xD;
+      differentiating progression from pseudoprogression. The investigators wish to capture signal&#xD;
+      changing over time in routine MRI images using parametric response maps (via a&#xD;
+      state-of-the-art postoperative-to preoperative image registration method that they have&#xD;
+      developed) and use such classifiers to differentiate progression from pseudoprogression. The&#xD;
+      research the investigators are proposing is needed in order to provide a solution to the&#xD;
+      problem of pseudoprogression and be implemented across the NHS easily and efficiently.&#xD;
+      Importantly, this does not depend on advanced imaging techniques.&#xD;
+&#xD;
+      Data collected at KCH from the last 24 months shows that, even at a leading glioma imaging&#xD;
+      centre, only 66% of patients had advanced imaging (e.g. DSC-MRI) performed at the time of&#xD;
+      increase in contrast-enhancement i.e. possible progression. The primary aim of this research&#xD;
+      is to use routine clinical MRI data in order to train the classifier. This will increase the&#xD;
+      utility of the classifier, as such routine MRI data can be acquired by all imaging centres,&#xD;
+      and the new classifier can therefore provide a much more cost-efficient solution than an&#xD;
+      alternative classifier which may depend on advanced imaging techniques.&#xD;
+&#xD;
+      Initial training, testing and cross validation of a classification model will be carried out&#xD;
+      using MRI data of glioblastoma obtained from publicly-accessible imaging archives and King's&#xD;
+      College Hospital (KCH), London. For clinical validation, the trained model will undergo&#xD;
+      testing using MRI data from patients recruited prospectively.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 21, 2019</start_date>
+  <completion_date type="Anticipated">May 26, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 26, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Accuracy of the artificial intelligence model</measure>
+    <time_frame>Up to 36 months</time_frame>
+    <description>Defined by a confusion matrix of sensitivity and specificity to true positives and true negatives.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Failure rate of the artificial intelligence model</measure>
+    <time_frame>Up to 36 months</time_frame>
+    <description>The rate which the test cannot provide an outcome (e.g. due to poor quality or missing data)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Glioblastoma</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with high-grade glioblastoma&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosed with glioblastoma (World Health Organisation grade IV)&#xD;
+&#xD;
+          -  Patient undergoing the standard Stupp treatment regimen&#xD;
+&#xD;
+          -  Have had a pre-surgery scan and at least one follow-up scan post-chemoradiation&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Insufficient clinical and radiological follow-up&#xD;
+&#xD;
+          -  The patient's treatment deviates greatly from the standard Stupp regimen, such as they&#xD;
+             are recruited into interventional trials and sufficient information is not known about&#xD;
+             the patient's trial treatment&#xD;
+&#xD;
+          -  Patients receiving treatment with Angiogenesis inhibitors such as bevacizumab prior to&#xD;
+             completion of the Stupp regimen&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Thomas Booth</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>King's College London</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Thomas C Booth, Dr</last_name>
+    <phone>02078489568</phone>
+    <email>thomas.booth@kcl.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Shuaib, MSc</last_name>
+    <email>haris.shuaib@kcl.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Royal Sussex County Hospital, Brighton and Sussex University Hospitals NHS Trust</name>
+      <address>
+        <city>Brighton</city>
+        <zip>BN2 5BE</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Juliet Brock</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Velindre Cancer Centre, Velindre University NHS Trust</name>
+      <address>
+        <city>Cardiff</city>
+        <zip>CF14 2TL</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>James Powell</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Ninewells Hospital and Medical School, NHS Tayside</name>
+      <address>
+        <city>Dundee</city>
+        <zip>DD1 9SY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Avinash Kanodia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hull Royal Infirmary, Hull University Teaching Hospitals NHS Trust</name>
+      <address>
+        <city>Hull</city>
+        <zip>HU3 2KZ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Chris Rowland Hill</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Leeds General Infirmary, The Leeds Teaching Hospitals NHS Trust</name>
+      <address>
+        <city>Leeds</city>
+        <zip>LS1 3EX</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Ryan Mathew</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Guy's Hospital, Guy's and St Thomas' NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>SE1 9RT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Haris Shuaib</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>King's College Hospital, King's College Hospital NHS Trust</name>
+      <address>
+        <city>London</city>
+        <zip>SE5 9RS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Thomas Booth</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Charing Cross Hospital, Imperial College Healthcare NHS Trust</name>
+      <address>
+        <city>London</city>
+        <zip>W6 8RF</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Matthew Williams</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National Hospital for Neurology and Neurosurgery, University College London Hospitals NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <zip>WC1N 3BG</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Steffi Thust</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Christie Hospital, The Christie NHS Foundation Trust</name>
+      <address>
+        <city>Manchester</city>
+        <zip>M20 4BX</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Sean Tenant</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Freeman Hospital, Newcastle upon Tyne hospitals NHS foundation trust</name>
+      <address>
+        <city>Newcastle Upon Tyne</city>
+        <zip>NE7 7DN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Joanne Lewis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Royal Marsden Hospital, Royal Marsden NHS Foundation Trust</name>
+      <address>
+        <city>Sutton</city>
+        <zip>SM2 5PT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Liam Welsh</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>April 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>April 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 24, 2020</study_first_posted>
+  <last_update_submitted>March 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 18, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MRI imaging</keyword>
+  <keyword>Glioblastoma</keyword>
+  <keyword>Glioma</keyword>
+  <keyword>Neoplasms</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Glioblastoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Fully anonymised datasets (including imaging and relevant clinical data) may be shared at the end of the study with public repositories for the purposes of furthering research and extending collaborations as long as all the regulations related to the database have been fully approved by the HRA and REC.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

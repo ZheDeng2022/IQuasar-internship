@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04643665</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1111111111111</org_study_id>
+    <nct_id>NCT04643665</nct_id>
+  </id_info>
+  <brief_title>Prediction of Pulmonary Graft Dysfunction After Double-lung Transplantation (PGD3-AI Study)</brief_title>
+  <official_title>Prediction of Grade 3 Pulmonary Graft Dysfunction After Double-lung Transplantation From Donor, Recipient and Intraoperative Variables</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hopital Foch</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hopital Foch</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The thundering evolution of lung transplantation management during the past ten years and&#xD;
+      primary graft dysfunction (PGD) new definition have led to new predictive factors of PGD.&#xD;
+      Therefore, we retrospectively analyzed a monocentric database using a machine-learning&#xD;
+      method, to determine the predictive factors of grade 3 PGD (PGD3), defined as a PaO2/FiO2&#xD;
+      ratio &lt; 200 or being under extracorporeal membrane oxygenation (ECMO) at postoperative day 3.&#xD;
+&#xD;
+      We included all double lung transplantation from 2012 to 2019 and excluded multi-organ&#xD;
+      transplant, cardiopulmonary bypass, or repeated transplantation during the study period for&#xD;
+      the same patient. Recipient, donor and intraoperative data were added in a gradient boosting&#xD;
+      algorithm step-by-step according to standard transplantation stages. Dataset will be split&#xD;
+      randomly as 80% training set and 20% testing set. Relationship between predictive factors and&#xD;
+      PGD3 will be represented as ShHapley Additive exPlanation (SHAP) values.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The standardized anesthetic management has been previously described 18 and is detailed on&#xD;
+      the web site http://anesthesie-foch.org/protocoles-anesthesie/ (&quot;The Foch lung transplant&#xD;
+      anesthesia protocol&quot;).&#xD;
+&#xD;
+      Continuous variables are presented as median + interquartile range (IQR) or mean and 95%CI,&#xD;
+      and were compared using independent T-test or Mann-Whitney test. Categorical variables are&#xD;
+      presented as n (%) and were compared using Chi-squared test or Fisher's exact test. We&#xD;
+      applied machine learning algorithm to predict 3-day ahead primary graft dysfunction after&#xD;
+      lung transplant surgery among patients. Machine learning is a branch of artificial&#xD;
+      intelligence where computer systems can learn from available data and identify patterns with&#xD;
+      minimal human intervention. Machine learning algorithm tests on data and performance metrics&#xD;
+      were used to obtain the higher performing algorithm. In this study, we performed a XGBoost&#xD;
+      (Gradient Boosting) algorithm which was a combination of decisions trees. Each decision tree&#xD;
+      typically learned from its precursor and passed on the improved function to the following.&#xD;
+      The weighted combination of these trees provided the prediction.&#xD;
+&#xD;
+      No particular data transformation has been performed on numerical variables. Categorical&#xD;
+      variables have been encoded as integer, without any further pre-processing steps. In&#xD;
+      particular, no specific processing has been performed to deal with missing data. The default&#xD;
+      behavior of XGBoost has been used. It consists in treating missing data as a specific&#xD;
+      modality. During the training step of XGBoost models, missing values are treated as other&#xD;
+      values, and left or right decisions at any branch of a tree are learned by optimizing the&#xD;
+      outcome.&#xD;
+&#xD;
+      In order to reflect the sequential nature of this predictive medicine problem, nine steps&#xD;
+      have been defined to take into account incrementally observed variables acquired at various&#xD;
+      stages of the surgery.&#xD;
+&#xD;
+      Step 1: recipient variables Step 2: donor variables Step 3: arrival in the OR Step 4: after&#xD;
+      anesthetic induction Step 5: during first pneumonectomy Step 6: after first graft&#xD;
+      implantation Step 7: second pneumonectomy Step 8: second graft implantation Step 9: end&#xD;
+      surgery status At each of the nine steps, a cross-validation procedure is employed to assess&#xD;
+      the predictive performance of a machine learning model (XGBoost). One repetition of the&#xD;
+      cross-validation procedure is designed as follows: the dataset of subjects is randomly split&#xD;
+      into eight disjoint parts. Successively, the performance of the XGBoost model on each of the&#xD;
+      eight subset,while training the machine learning model using the remaining seven subsets. For&#xD;
+      such a repetition, the predictive probability of 3-day ahead primary graft dysfunction for&#xD;
+      each subject is retained to finally compute the area under ROC (receiving operator curve). To&#xD;
+      evaluate the variability of the predictive performance of the machine learning model, this&#xD;
+      cross-validation procedure is repeated fifty times, with randomly chosen subjects partitions.&#xD;
+      For each of the fifty times eight times nine (repetitions, partitions, surgical steps), hence&#xD;
+      3600 models training, a conservative approach has been adopted for XGBoost training,&#xD;
+      consisting in a unique set of training parameters. These parameters have been chosen to&#xD;
+      prevent overfitting due to a relatively small number of subjects compared to the number of&#xD;
+      variables, especially categorical variables, which yield a high degree of freedom.&#xD;
+      Specifically XGBoost has been trained for 400 rounds (no early stopping), a maximum depth of&#xD;
+      5 for each tree, a minimum child weight of 3, and a learning parameter eta equals to 0.0002.&#xD;
+      Besides those conservative parameters chosen to prevent overfitting, only 40 percents of&#xD;
+      available columns are selected for tree construction at each round, and 95 % of subjects.&#xD;
+      These parameters have been kept fixed and chosen to ensure stability of results. Small&#xD;
+      perturbations around these values could result in local performance improvements, but would&#xD;
+      not be practically chosen given the size of the dataset.&#xD;
+&#xD;
+      In order to gain some insights into the most useful variables in terms of predictive power,&#xD;
+      we then conducted a post-hoc analysis based on the following methodology: at each surgical&#xD;
+      step, 400 models have been trained for the repeated cross-validation procedure. For each&#xD;
+      model, we retain the rank of each variable as given by the variable importance procedure of&#xD;
+      XGBoost. The average rank of each variable for each step is then computed by averaging the&#xD;
+      ranks obtained by variables for each of the 400 models. At step 9, variables are ordered&#xD;
+      based on their average rank (increasing average ranks). They are then incrementally used as&#xD;
+      input of a new cross-validation procedure (repeated 20 times).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2012</start_date>
+  <completion_date type="Actual">October 5, 2020</completion_date>
+  <primary_completion_date type="Actual">December 31, 2019</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>risk factors for grade 3 pulmonary graft dysfunction at postoperative day 3</measure>
+    <time_frame>3 days</time_frame>
+    <description>PaO2/FiO2 ratio &lt; 200 or being under extracorporeal membrane oxygenation (ECMO) at postoperative day 3 due to hypoxemia</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">478</enrollment>
+  <condition>Transplant Dysfunction</condition>
+  <condition>Transplantation, Lung</condition>
+  <arm_group>
+    <arm_group_label>No grade 3 Pulmonary graft dysfunction at postoperative day 3</arm_group_label>
+    <description>patients having not a grade 3 Pulmonary graft dysfunction at postoperative day 3</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Grade 3 Pulmonary graft dysfunction at postoperative day 3</arm_group_label>
+    <description>patients having a grade 3 Pulmonary graft dysfunction at postoperative day 3</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Double-lung transplantation</intervention_name>
+    <arm_group_label>Grade 3 Pulmonary graft dysfunction at postoperative day 3</arm_group_label>
+    <arm_group_label>No grade 3 Pulmonary graft dysfunction at postoperative day 3</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Lung transplanted patients&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  double-lung transplantation&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  multi-organ transplant&#xD;
+&#xD;
+          -  use of a cardiopulmonary bypass&#xD;
+&#xD;
+          -  repeated transplantation during the study period for the same patient.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elisabeth Hulier Ammar, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Hopital Foch</affiliation>
+  </overall_official>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 25, 2020</study_first_posted>
+  <last_update_submitted>November 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 25, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

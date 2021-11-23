@@ -1,0 +1,332 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04606849</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1051464</org_study_id>
+    <nct_id>NCT04606849</nct_id>
+  </id_info>
+  <brief_title>Adaptation and Pilot Implementation of ePNa Clinical Decision Support for Utah Urgent Care Clinics</brief_title>
+  <official_title>Adaptation and Pilot Implementation of a Validated, Electronic Real-Time Clinical Decision Support Tool for Care of Pneumonia Patients in 10 Utah Urgent Care Centers</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Intermountain Health Care, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Stanford University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Intermountain Health Care, Inc.</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      We plan to adapt an innovative, validated emergency department (ED) CDS tool based on&#xD;
+      consensus guidelines for pneumonia care (ePNa) to function in urgent care clinics (Instacares&#xD;
+      at Intermountain) and combine it seamlessly with Stanford's CheXED artificial intelligence&#xD;
+      model using an interoperable platform currently under development by Care Transformation&#xD;
+      Information Services at Intermountain. We will then deploy it to one of two groups of&#xD;
+      Instacares (randomly selected) using the CFIR framework for Implementation Science best&#xD;
+      practice.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Clinicians' ability to accurately diagnose pneumonia and then choose the most appropriate&#xD;
+      treatment options is enhanced by well-designed clinical decision support (CDS). Pneumonia CDS&#xD;
+      has historically been focused on inpatient settings, but ambulatory care settings with high&#xD;
+      pneumonia patient volumes also might benefit. The investigators propose to adapt an&#xD;
+      innovative, validated emergency department (ED) CDS tool based on consensus guidelines for&#xD;
+      pneumonia care (ePNa) and deploy it to urgent care centers (UCC) using the CFIR framework.&#xD;
+      Electronic tools such as ePNa may become even more useful within UCCs as the COVID-19&#xD;
+      pandemic evolves, since recommendations can be readily updated as better methods of diagnosis&#xD;
+      and effective treatment develop. ePNa within the ED has already been adapted to recommend&#xD;
+      SARS-coV-2 testing for patients with pneumonia and signs and symptoms characteristic of viral&#xD;
+      pneumonia.&#xD;
+&#xD;
+      The proposal supports four aims:&#xD;
+&#xD;
+        1. Adapt ePNa for UCC and after in silico testing, pilot it among &quot;super user&quot; clinicians&#xD;
+           during UCC shifts and assess its usability. ePNa needs adaptation for more limited&#xD;
+           patient data available in UCCs, calibration of severity measures for lower observed&#xD;
+           mortality, and a chest imaging prompt in patients with pneumonia signs and symptoms.&#xD;
+           ePNa for UCC will incorporate Stanford University's artificial intelligence CheXED model&#xD;
+           to provide electronic classification of chest images in &lt;10 seconds for elements of&#xD;
+           pneumonia diagnosis and treatment (radiographic pneumonia, single vs multiple lobes, and&#xD;
+           pleural effusion).&#xD;
+&#xD;
+        2. Using the CFIR framework, our prior ED implementation experience, a focus group of UCC&#xD;
+           clinicians, semi-structured interviews, and direct observations of workflow including&#xD;
+           ePNa guided transitions of care between clinicians, the investigators will identify&#xD;
+           barriers and facilitators to adaptation and implementation of ePNa to UCCs.&#xD;
+&#xD;
+        3. Test the implementation strategy by deploying ePNa at one of two randomly chosen&#xD;
+           Intermountain Healthcare UCC clusters each with about 800 annual pneumonia patients -&#xD;
+           the other a usual care control.&#xD;
+&#xD;
+        4. Co-primary outcomes are a) accuracy of pneumonia diagnosis defined by compatible chief&#xD;
+           complaint plus ≥ 1 pneumonia sign/symptom and radiographic confirmation will be ≥10%&#xD;
+           higher in the ePNa cluster, and b) the percent of UCC pneumonia patients transferred to&#xD;
+           an emergency department for further evaluation will decrease by ≥ 3% in the ePNa cluster&#xD;
+           replaced by more direct hospital admissions or discharge home. Safety measures will be&#xD;
+           unplanned subsequent 7-day ED visits/hospitalizations and 30-day mortality. Based on&#xD;
+           this rigorous pilot study, the investigators anticipate a subsequent multi-system&#xD;
+           cluster-randomized trial.&#xD;
+&#xD;
+      Our work incorporates the Five Rights of CDS to ensure that the strengths of this technology&#xD;
+      are optimized in the clinical environment. The investigators will leverage experience in&#xD;
+      innovative pneumonia research, pioneering CDS, and implementation science available at&#xD;
+      Intermountain to successfully complete this proposal.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">November 12, 2020</start_date>
+  <completion_date type="Anticipated">September 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Health Services Research</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>ePNa utilization and impact on the UCC clinical environment</measure>
+    <time_frame>through study completion, year 3 of the study</time_frame>
+    <description>Frequency of clinicians' disagreement with different ePNa recommendations will be monitored along with a tally of the structured reasons for disagreement entered by clinicians into ePNa.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of unplanned subsequent ED Visits</measure>
+    <time_frame>within 7 days of initial encounter</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of unplanned hospitalizations</measure>
+    <time_frame>within 7 days of initial encounter</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Accuracy of pneumonia diagnosis given</measure>
+    <time_frame>through study completion, year 3 of the study</time_frame>
+    <description>defined by compatible chief complaint (cough, dyspnea, chest pain, fever) plus . 1 pneumonia sign/symptom (temperature . 38.0C or &lt; 36.0C, white blood cell count &gt;10,000/ul or &lt;4000/ul), bandemia &gt;10%, SpO2&lt;90% on room air, respiratory rate &gt;20/minute)19 and radiographic confirmation</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The change in the transfer rate of UCC pneumonia patients to an ED</measure>
+    <time_frame>through study completion, year 3 of the study</time_frame>
+    <description>we want a decrease of . 3% in the ePNa cluster with those transfers replaced by direct hospital admissions or discharge home.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Use of fewer health care resources</measure>
+    <time_frame>through study completion, year 3 of the study</time_frame>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">4000</enrollment>
+  <condition>Pneumonia</condition>
+  <arm_group>
+    <arm_group_label>Physician Survey</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>A modified version of a previously validated REDCap questionnaire will be administered to Instacare clinicians in the cluster where ePNa-CheXED was deployed via email at 6 months after ePNa-CheXED implementation. Our questionnaire includes questions on respondent demographics and Likert-style questions about respondents' experiences with ePNa. We will validate our modified questionnaire by calculating component loadings and Cronbach Alphas (i.e., internal consistency) of Likert questions loading onto the same components</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Adapt ePNa-CheXED for InstaCares</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Adapt ePNa-CheXED for Instacares and after in silico testing, pilot it among &quot;super user&quot; clinicians during Instacare shifts and assess its usability. ePNa needs adaptation for more limited patient data available in Instacare clinics, calibration of severity measures for lower observed mortality, and a chest imaging prompt in patients with pneumonia signs and symptoms. ePNa-CheXED will incorporate Stanford University's artificial intelligence CheXED model to provide electronic classification of chest images in &lt;1 second for elements of pneumonia diagnosis and treatment (radiographic pneumonia, single vs multiple lobes, and pleural effusion).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Physician Survey</intervention_name>
+    <description>Our questionnaire includes questions on respondent demographics and Likert-style questions about respondent experiences with ePNa. We will validate our modified questionnaire by calculating component loadings and Cronbach Alphas (i.e., internal consistency) of Likert questions loading onto the same components.</description>
+    <arm_group_label>Physician Survey</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ePNa-CheXED</intervention_name>
+    <description>ePNa-CheXED will incorporate Stanford University's artificial intelligence CheXED model to provide electronic classification of chest images in &lt;1 second for elements of pneumonia diagnosis and treatment (radiographic pneumonia, single vs multiple lobes, and pleural effusion).</description>
+    <arm_group_label>Adapt ePNa-CheXED for InstaCares</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All patients ≥ 12 years of age with pneumonia: defined by the J-18.X pneumonia code or&#xD;
+             acute respiratory failure or sepsis with secondary pneumonia codes&#xD;
+&#xD;
+        Survey All physicians and advanced practice clinicians who are employed and actively seeing&#xD;
+        patients in the 4 Utah Valley Instacares&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients without radiographic confirmation of pneumonia&#xD;
+&#xD;
+          -  Subsequent episodes of pneumonia within 12 months (so as not to over-represent&#xD;
+             patients with recurrent pneumonia caused by recurrent aspiration or structural lung&#xD;
+             disease).&#xD;
+&#xD;
+        Survey No providers will be excluded from the survey invitation&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nathan Dean, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Intermountain Health Care, Inc.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>American Fork Instacare</name>
+      <address>
+        <city>American Fork</city>
+        <state>Utah</state>
+        <zip>84003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Layton Instacare</name>
+      <address>
+        <city>Layton</city>
+        <state>Utah</state>
+        <zip>84041</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Lehi Instacare</name>
+      <address>
+        <city>Lehi</city>
+        <state>Utah</state>
+        <zip>84043</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Intermountain Medical Center</name>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <zip>84107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Ogden Instacare</name>
+      <address>
+        <city>N. Ogden</city>
+        <state>Utah</state>
+        <zip>84414</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Orem Instacare</name>
+      <address>
+        <city>Orem</city>
+        <state>Utah</state>
+        <zip>84057</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Utah Valley Instacare</name>
+      <address>
+        <city>Provo</city>
+        <state>Utah</state>
+        <zip>84604</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Herefordshire Instacare</name>
+      <address>
+        <city>Roy</city>
+        <state>Utah</state>
+        <zip>84067</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Saratoga Springs Instacare</name>
+      <address>
+        <city>Saratoga Springs</city>
+        <state>Utah</state>
+        <zip>84045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>South Ogden Instacare</name>
+      <address>
+        <city>South Ogden</city>
+        <state>Utah</state>
+        <zip>84403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Springville Instacare</name>
+      <address>
+        <city>Springville</city>
+        <state>Utah</state>
+        <zip>84663</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>October 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 28, 2020</study_first_posted>
+  <last_update_submitted>February 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>In order to protect patient privacy and comply with relevant regulations, identified data will be unavailable. Requests for deidentified data from qualified researchers with appropriate ethics board approvals and relevant data use agreements will be processed by the Intermountain Office of Research, officeofresearch@imail.org</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

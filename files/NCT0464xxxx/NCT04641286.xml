@@ -1,0 +1,161 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04641286</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KCH20-069</org_study_id>
+    <secondary_id>MR/T005351/1</secondary_id>
+    <nct_id>NCT04641286</nct_id>
+  </id_info>
+  <brief_title>Clinical Outcome Modelling of Rapid Dynamics in Acute Stroke</brief_title>
+  <official_title>Clinical Outcome Modelling of Rapid Dynamics in Acute Stroke With Joint-detail, Remote, Body Motion Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>King's College Hospital NHS Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University College, London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>King's College Hospital NHS Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Stroke - still the second commonest cause of death and principal cause of adult neurological&#xD;
+      disability in the Western World - is characterised by rapid changes over time and marked&#xD;
+      variability in outcomes. A patient may improve or deteriorate over minutes, and the resultant&#xD;
+      disability may range from an obvious complete paralysis to subtle, task dependent&#xD;
+      incoordination of a single limb.&#xD;
+&#xD;
+      Unlike many other neurological disorders, stroke can be exquisitely sensitive to prompt and&#xD;
+      intelligently tailored treatment, rewarding innovation in the delivery of care with&#xD;
+      real-world, tangible impact on patient outcomes. Optimal treatment therefore requires both&#xD;
+      detailed characterisation of the patient's clinical picture and its pattern of change over&#xD;
+      time.&#xD;
+&#xD;
+      Arguably the most important aspect of the patient's clinical picture -- body movement --&#xD;
+      remains remarkably poorly documented: quantified only subjectively and at infrequent&#xD;
+      intervals in the patient's clinical evolution. The combination of artificial intelligence&#xD;
+      with high-performance computing now enables automatic extraction of a patient's skeletal&#xD;
+      frame resolved down to major joints, like that of a stick-man, to be delivered simply,&#xD;
+      safely, and inexpensively, without the use of cumbersome body worn markers. Central to this&#xD;
+      technology is patient privacy, with the skeletal frame extracted in real time, ensuring no&#xD;
+      video data, from which patients can be identified, to be stored or transmitted by the device.&#xD;
+&#xD;
+      Our motion categorisation system -- MoCat -- will be used to study the rapid dynamics of&#xD;
+      acute stroke, seamlessly embedded in the clinical stream. By quantifying the change in motor&#xD;
+      deficit over time we shall examine the relationship between these trajectories with clinical&#xD;
+      outcomes and develop predictive models that can support clinical management and optimise&#xD;
+      service delivery.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 7, 2021</start_date>
+  <completion_date type="Anticipated">September 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Quantify the contribution of joint-level motor dynamics to high-dimensional, predictive models of major clinical outcomes in acute stroke through comparisons of predictive fidelity.</measure>
+    <time_frame>Up to 24 weeks</time_frame>
+    <description>The predictive fidelity will be quantified by out-of-sample receiver operating characteristic curves for binary variables and mean squared error for real number variables.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Stroke</arm_group_label>
+    <description>Individuals admitted to the Hyper Acute Stroke Unit.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Body motion categorisation</intervention_name>
+    <description>All patients will receive passive motion categorisation monitoring</description>
+    <arm_group_label>Stroke</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients admitted to the stroke unit with a putative diagnosis of an acute stroke.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Putative diagnosis of an acute stroke&#xD;
+&#xD;
+          -  Admission on the stroke unit&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Under 18 years of age&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Yee Mah</last_name>
+    <role>Study Chair</role>
+    <affiliation>King's College Hospital NHS Trust</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lead Stroke Research Co-ordionator</last_name>
+    <phone>02032999000</phone>
+    <email>j.aeron-thomas@nhs.net</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>King's College Hospital NHS Foundation Trust</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lead Stroke Reserach Co-ordinator</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>September 22, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 20, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 23, 2020</study_first_posted>
+  <last_update_submitted>July 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

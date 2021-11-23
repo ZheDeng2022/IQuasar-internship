@@ -1,0 +1,188 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04969588</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202002212A3</org_study_id>
+    <nct_id>NCT04969588</nct_id>
+  </id_info>
+  <brief_title>Kinect Equations for Body Indices and Body Composition</brief_title>
+  <official_title>Development and Validation of Kinect Equations to Estimate Body Indices and Body Composition</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chang Gung Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ministry of Science and Technology, Taiwan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Chang Gung Memorial Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This perspective observational study will recruited 240 participants for investigating the&#xD;
+      feasibility of using Microsoft Azure Kinect developer kit as a method for body indices and&#xD;
+      body composition. Reference methods will be dual energy X-ray absorptiometry and&#xD;
+      bioelectrical impedance analysis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The purpose of this research is to validate the precision and accuracy of Microsoft Azure&#xD;
+      Kinect Developer Kit in the application of body anthropometric index and body composition&#xD;
+      measures. This study assumes that depth camera along with skeletal tracking package can&#xD;
+      estimate the 3D joint position and skeletal length. A dual energy X-ray absorptiometry&#xD;
+      scanner, a medical device with a daily background dose of radiation will be used as the gold&#xD;
+      standard.&#xD;
+&#xD;
+      This study aims to investigate the correlation and agreement of using Kinect in estimating&#xD;
+      skeletal length and body composition in human.A total of 240 participants including children&#xD;
+      and adults will be recruited for measurements in a 3-year period.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2021</start_date>
+  <completion_date type="Anticipated">July 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Assess association and agreement in body indices and body composition between Kinect and standard methods.</measure>
+    <time_frame>36 months</time_frame>
+    <description>Correlation and agreement between depth camera results are compared to the results of dual energy X-ray absorptiometry and bioelectrical impedance analysis.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Develop and validate Kinect equations to predict body indices and body composition.</measure>
+    <time_frame>36 months</time_frame>
+    <description>Prediction equations for body indices and body composition are created using dual energy X-ray absorptiometry and bioelectrical impedance analysis as reference tools.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">240</enrollment>
+  <condition>Anthropometry</condition>
+  <condition>Body Composition</condition>
+  <arm_group>
+    <arm_group_label>Children and adult</arm_group_label>
+    <description>Participants aged 6-65 years old are recruited for the measurements of depth camera, bioelectrical impedance analysis and dual energy X-ray absorptiometry.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Microsoft Azure Kinect Developer Kit</intervention_name>
+    <description>3D images and 3D joint coordinates are obtained.</description>
+    <arm_group_label>Children and adult</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Bioelectrical impedance analyzer</intervention_name>
+    <description>Fat mass, fat-free mass and percentage body fat in total body and body segments are estimated.</description>
+    <arm_group_label>Children and adult</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Dual Energy X-ray Absorptiometry</intervention_name>
+    <description>Skeletal length and body composition are estimated.</description>
+    <arm_group_label>Children and adult</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Apparently healthy participants aged 6-65 years are recruited for this study within 3&#xD;
+        years. Estimated enrolled number are 240. Eligible participants will visit study site once&#xD;
+        and take the measurements.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Healthy children and adult&#xD;
+&#xD;
+          -  Age 6-65 years&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Chronic illness or chronic medication use (&gt; 3 months)&#xD;
+&#xD;
+          -  Pregnant&#xD;
+&#xD;
+          -  Metal implant(s) or splint(s)&#xD;
+&#xD;
+          -  Pacemaker implantation&#xD;
+&#xD;
+          -  Limb defect(s) or injury&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Li-Wen Lee, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Chang Gung Memorial Hospital, Chiayi, Taiwan</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Li-Wen Lee, MD, PhD</last_name>
+    <phone>+886 5 3621 000</phone>
+    <phone_ext>2382</phone_ext>
+    <email>m4572@cgmh.org.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Chang Gung Memorial Hospital</name>
+      <address>
+        <city>Chiayi City</city>
+        <zip>61363</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Li-Wen Lee, MD, PhD</last_name>
+      <phone>+886 5 3621 000</phone>
+      <phone_ext>2382</phone_ext>
+      <email>m4572@cgmh.org.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Li-Wen Lee, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>July 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 20, 2021</study_first_posted>
+  <last_update_submitted>August 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 31, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Chang Gung Memorial Hospital</investigator_affiliation>
+    <investigator_full_name>Li-Wen Lee</investigator_full_name>
+    <investigator_title>Consultant Radiologist</investigator_title>
+  </responsible_party>
+  <keyword>Anthropometry</keyword>
+  <keyword>Body Composition</keyword>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,259 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04623528</url>
+  </required_header>
+  <id_info>
+    <org_study_id>S64242</org_study_id>
+    <nct_id>NCT04623528</nct_id>
+  </id_info>
+  <brief_title>Characterization of the Liver Parenchyma Using Parametric T1 and T2 Magnetic Resonance Relaxometry</brief_title>
+  <official_title>Characterization of the Liver Parenchyma Using Parametric T1 and T2 Magnetic Resonance Relaxometry</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universitaire Ziekenhuizen Leuven</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>King's College London</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universitaire Ziekenhuizen Leuven</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      -  To determine normal T1 and T2 values of the liver, and to assess the impact of age and&#xD;
+           gender&#xD;
+&#xD;
+        -  To determine the relation between markers of right heart decompensation and T1/T2 values&#xD;
+           of the liver in patients with pulmonary hypertension, patients with dilated&#xD;
+           cardiomyopathy, and patients with constrictive pericarditis (or constrictive physiology)&#xD;
+&#xD;
+        -  To determine inter/intra-observer reproducibility for liver T1/T2 assessment&#xD;
+&#xD;
+        -  To test/develop multi-feature texture analysis for T1/T2 analysis of the liver and&#xD;
+           implement machine learning to derive indicative features (MR-derived measures only vs&#xD;
+           combined with other clinical readouts)&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Although liver biopsy is the current standard for histological characterization of the liver&#xD;
+      parenchyma, this invasive procedure has a significant risk of - potentially lethal -bleeding.&#xD;
+      Moreover, as liver disease may focally or heterogeneously affect the liver, histological&#xD;
+      findings may be false negative or not be representative. Non-invasive imaging modalities&#xD;
+      (e.g. ultrasound (US), computed tomography (CT) and magnetic resonance imaging (MRI), on the&#xD;
+      other hand, provide valuable information with regard to global and regional tissue&#xD;
+      characterization, and may be of help in guiding/targeting liver biopsy. Moreover, in recent&#xD;
+      years new developments have opened the door towards a better, more comprehensive appreciation&#xD;
+      of the status of the liver. One of these is elastography assessing the mechanical,&#xD;
+      viscoelastic properties of the liver, thus providing valuable information with regard to the&#xD;
+      liver stiffness (or elasticity), and be used for accurate staging of liver fibrosis (1,2).&#xD;
+      Another approach is tissue characterization using the relaxation behaviour of liver tissue in&#xD;
+      a high-field magnetic environment ('relaxometry'). As relaxation times are tissue specific,&#xD;
+      focal or diffuse pathology may alter (i.e. shorten or prolong) relaxation times. These&#xD;
+      alterations can be used to depict and to quantify disease severity. In the field of cardiac&#xD;
+      imaging relaxometry has caused a paradigm shift, but for liver imaging this has received&#xD;
+      relatively limited interest so far. Best known is T2* relaxometry allowing to diagnose and&#xD;
+      follow-up patients with haemochromatosis. Recently, a few papers have described the use of T1&#xD;
+      and T1-rho relaxometry to diagnosis liver congestion in Fontan patients, and to depict liver&#xD;
+      fibrosis, respectively (3,4).&#xD;
+&#xD;
+      As part of a comprehensive cardiac MRI exam, we started performing routinely T1 and T2&#xD;
+      relaxometry of the heart in 2014. The technique was validated against a standardized,&#xD;
+      commercially-available phantom in an inter-national study (5). Practically, T1 and T2 mapping&#xD;
+      includes measurements in both cardiac short-axis and horizontal long-axis before and after&#xD;
+      the administration of intravenous commercially available gadolinium chelates. As in cardiac&#xD;
+      short-axis direction the liver is partially encompassed, we will use these images to measure&#xD;
+      T1 and T2 relaxation times of the liver. As all data are stored on PACS, it is our aim to&#xD;
+      re-use these T1 and T2 mapping studies to determine the T1 and T2 relaxation of the liver in&#xD;
+      normal conditions.&#xD;
+&#xD;
+      Firstly, we will derive from our cardiac MRI database a representative group of studies&#xD;
+      labelled as normal (i.e. normal cardiac MRI findings). In the medical patient file the serum&#xD;
+      biomarkers for liver disease will be checked (see below), as well as findings at&#xD;
+      echocardiography (exclusion of right heart failure, exclusion of severe tricuspid&#xD;
+      insufficiency), abdominal ultrasound / computed tomography (exclusion of liver disease, i.e.&#xD;
+      hemochromatosis, steatosis, hepatic congestion, and liver cirrhosis). Only MRI studies will&#xD;
+      be included if liver disease is excluded. In a next step, a representative region of interest&#xD;
+      will be manually drawn (&gt; 100 pixels) in a region not including the liver vessels. These&#xD;
+      analyses will be performed on the pre- and post-contrast T1 map, and on the T2 map. The goal&#xD;
+      is to determine normal values in at least 100 subjects, allowing to assess the impact of&#xD;
+      aging and gender.&#xD;
+&#xD;
+      Secondly, we will measure liver T1 and T2 values in patients with different forms of right&#xD;
+      heart failure, and assess the relation between liver T1 and T2 values and findings at&#xD;
+      echocardiography, serum biomarkers, and right heart catheterization indicative of right heart&#xD;
+      failure. The latter information will be retrieved from the medical patient file. As in right&#xD;
+      heart failure, the filling pressure increases in the caval and hepatic veins, hereby causing&#xD;
+      hepatic congestion. It is the hypothesis that in these circumstances T1 and T2 liver values&#xD;
+      are increased. Also, in latter stages when liver fibrosis initiates and evolves towards&#xD;
+      cardiac cirrhotic liver, we hypothesize increased T1 values. The aim is to evaluate whether&#xD;
+      mean T1 and/or T2 of the liver parenchyma obtained at MRI can be used as imaging biomarker of&#xD;
+      right heart decompensation. As concomitant liver disease (see above) may hamper correct&#xD;
+      interpretation of our findings, pre-existing liver disease needs to be excluded. For this, a&#xD;
+      similar approach as in the normal population will be used. The target patient population is&#xD;
+      three-fold. First, patients with pulmonary hypertension with/without evidence of right heart&#xD;
+      failure, who underwent a right heart catheterization with invasive pressure measurements (if&#xD;
+      not available, pulmonary artery pressure estimations at transthoracic echocardiography will&#xD;
+      be used), and signs of right heart failure at transthoracic echocardiography can be used.&#xD;
+      Second, patients with dilated cardiomyopathy, defined as LV ejection fraction &lt; 35% with and&#xD;
+      without concomitant right ventricular (RV) dysfunction (i.e. RV EF &lt; 35%). Third, patients&#xD;
+      with constrictive pericarditis or inflammatory pericarditis with constrictive physiology&#xD;
+      (i.e. increased respiratory-related ventricular coupling/interdependence). This group will be&#xD;
+      compared to a group of patients with inflammatory pericarditis without constrictive&#xD;
+      physiology (i.e., preserved ventricular coupling).&#xD;
+&#xD;
+      Thirdly, to assess the inter- and intra-observed reproducibility of liver T1 / T2 values,&#xD;
+      measurements will be performed by two readers independently performing the measurements. One&#xD;
+      reader will repeat the measurements respecting one week interval between the analyses. This&#xD;
+      group involves 10 randomly selected studies in the normal group and 10 studies in the patient&#xD;
+      group. Analysis include assessment of the intraclass correlation coefficient (ICC) and&#xD;
+      coefficient of variation (CoV).&#xD;
+&#xD;
+      Finally, as step towards a more automated approach, we will evaluate/develop texture&#xD;
+      analysis. This mathematical approach looks at patterns between pixels not visible by the&#xD;
+      human eye and results in image 'features' that go beyond the typical mean (or median) and&#xD;
+      deviations. It has shown to be a robust technique in many applications in the field of&#xD;
+      medical imaging, and most likely will be useful for liver imaging as well. The large group of&#xD;
+      derived image features needs to be further analysed using machine learning approaches&#xD;
+      (with/without other clinical readouts). Machine learning of features coupled to a diagnosis&#xD;
+      ('target') has the potential to augment traditional risk scores with novel imaging&#xD;
+      biomarkers. Regularization approaches based on e.g. support vector machines, random forests&#xD;
+      or convolutional neural networks (CNNs) will be implemented.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 2014</start_date>
+  <completion_date type="Actual">October 2020</completion_date>
+  <primary_completion_date type="Actual">January 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Value of MR relaxometry to depict liver congestion</measure>
+    <time_frame>through study completion, an average of 1 year</time_frame>
+    <description>Comparing T1, T2 values of the liver with established techniques to depict liver congestion, eg serum liver biomarkers, right atrial pressure measurement/estimation at cardiac catheterization/transthoracic echocardiography</description>
+  </primary_outcome>
+  <number_of_groups>6</number_of_groups>
+  <enrollment type="Actual">224</enrollment>
+  <condition>Cardiomyopathy, Congestive</condition>
+  <condition>Pulmonary Hypertension</condition>
+  <condition>Constrictive Pericarditis</condition>
+  <condition>Cardiomyopathy, Dilated</condition>
+  <arm_group>
+    <arm_group_label>Pericarditis patients with constrictive physiology</arm_group_label>
+    <description>Patients with pericarditis and signs of constrictive physiology (increased ventricular coupling)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pericarditis patients without constrictive physiology</arm_group_label>
+    <description>Patients with pericarditis but without signs of constrictive physiology (normal ventricular coupling)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dilated cardiomyopathy patients with biventricular systolic dysfunction</arm_group_label>
+    <description>Patients with nonischemic dilated cardiomyopathy and left ventricular and right ventricular ejection fraction less than 35%</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Dilated cardiomyopathy patients with preserved right ventricular systolic dysfunction</arm_group_label>
+    <description>Patients with nonischemic dilated cardiomyopathy and left ventricular ejection fraction less than 35%, and right ventricular function &gt;45%</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Patients with pulmonary arterial hypertension</arm_group_label>
+    <description>Cohort of patients with pulmonary hypertension, either idiopathic or secondary to pulmonary emboli</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control group</arm_group_label>
+    <description>Cohort of subjects with no evidence of pericarditis, pulmonary hypertension, dilated cardiomyopathy and normal findings at cardiovascular magnetic resonance imaging</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>T1 and T2 relaxometry of the liver parenchyma</intervention_name>
+    <description>Evaluate T1 and T2 relaxomatry of the liver parenchyma to depict liver congestion in the different patient groups</description>
+    <arm_group_label>Control group</arm_group_label>
+    <arm_group_label>Dilated cardiomyopathy patients with biventricular systolic dysfunction</arm_group_label>
+    <arm_group_label>Dilated cardiomyopathy patients with preserved right ventricular systolic dysfunction</arm_group_label>
+    <arm_group_label>Patients with pulmonary arterial hypertension</arm_group_label>
+    <arm_group_label>Pericarditis patients with constrictive physiology</arm_group_label>
+    <arm_group_label>Pericarditis patients without constrictive physiology</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        -  pericarditis patients, defined by current standard criteria, with and without&#xD;
+             increased ventricular coupling (using free breathing cine MRI)&#xD;
+&#xD;
+          -  dilated cardiomyopathy, defined by current standard criteria, based on left&#xD;
+             ventricular ejection fraction (i.e. 35%) and right ventricular ejection (i.e. &gt; 45% or&#xD;
+             &lt; 35%), defined as DCM without and with right ventricular (RV) dysfunction,&#xD;
+             respectively&#xD;
+&#xD;
+          -  pulmonary artery patients, defined by current standard criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  based on current standard criteria for defining constrictive pericarditis, dilated&#xD;
+             cardiomyopathy and pulmonary hypertension&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  claustrophobia&#xD;
+&#xD;
+          -  pregnancy&#xD;
+&#xD;
+          -  contra-indications for MRI&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jan Bogaert, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Universitaire Ziekenhuizen Leuven</affiliation>
+  </overall_official>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 2, 2020</study_first_submitted>
+  <study_first_submitted_qc>November 4, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 10, 2020</study_first_posted>
+  <last_update_submitted>November 4, 2020</last_update_submitted>
+  <last_update_submitted_qc>November 4, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 10, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universitaire Ziekenhuizen Leuven</investigator_affiliation>
+    <investigator_full_name>Prof Dr Jan Bogaert</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Magnetic Resonance Imaging</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension, Pulmonary</mesh_term>
+    <mesh_term>Cardiomyopathies</mesh_term>
+    <mesh_term>Pericarditis</mesh_term>
+    <mesh_term>Cardiomyopathy, Dilated</mesh_term>
+    <mesh_term>Pericarditis, Constrictive</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>No plan to share IPD with other researchers</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

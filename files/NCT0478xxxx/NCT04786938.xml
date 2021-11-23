@@ -1,0 +1,231 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04786938</url>
+  </required_header>
+  <id_info>
+    <org_study_id>16943</org_study_id>
+    <nct_id>NCT04786938</nct_id>
+  </id_info>
+  <brief_title>Effect of Probiotics on the Fecal Resistome During Helicobacter Pylori Eradication Therapy</brief_title>
+  <official_title>Effect of Saccaromyces Boulardii CNCM I-745 Supplementation on the Fecal Resistome of Patients Treated Against Helicobacter Pylori Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Universidad San Francisco de Quito</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Universidad Tecnológica Equinoccial</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Biocodex</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Universidad San Francisco de Quito</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Eradication therapy against Helicobacter pylori (Hp) carries adverse effects, such as&#xD;
+      altering the intestinal microbiota's structure and function and selecting commensals and&#xD;
+      pathogens resistant to antibiotics. This last undesirable effect turns the microbiota into a&#xD;
+      reservoir of resistance genes. Saccharomyces boulardii CNCM I-745 (Sb) can improve dysbiosis&#xD;
+      and reduce the abundance of multi-resistant bacteria. The objective of the current project is&#xD;
+      to characterize the resistome of individuals treated with anti-H. pylori therapy in the&#xD;
+      presence or absence of Sb in fecal samples. Applying metagenomics and using next-generation&#xD;
+      sequencing tools, the investigators seek to demonstrate the beneficial effect of Sb on the&#xD;
+      gut microbiota by reducing the abundance of resistance genes and characterizing bacteria&#xD;
+      modulated by this probiotic-yeast. The investigators expect to find an increase in the&#xD;
+      diversity and relative abundance of antibiotic resistance genes (ARGs) in the intestine of&#xD;
+      participants who did not receive Sb during Hp eradication therapy and one month after&#xD;
+      completing treatment. The increase in ARGs is probably correlated with the presence of&#xD;
+      Clostridia and Bacteroides.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Antibiotic use is one of the most common therapeutic strategies of modern medicine. Together&#xD;
+      with the significant beneficial effects of antibiotic use, side effects accompany the use of&#xD;
+      these drugs, including the increasing appearance of antibiotic-resistant microbes, a global&#xD;
+      public health problem. Other significant side effects include gastrointestinal-related&#xD;
+      symptoms such as diarrhea, pain, intestinal discomfort, and flatulence, which can be the&#xD;
+      consequence of dysbiosis. A common strategy to limit antibiotic-associated side effects is&#xD;
+      the addition of probiotics, as S. boulardii CNCM I-745 (Sb). The use of bacterial probiotics&#xD;
+      to reduce antibiotic-associated side effects has several potential limitations, including the&#xD;
+      destruction of probiotics, development of probiotics strains resistant to antibiotics, and&#xD;
+      passage of antibiotic-resistant genes to pathogenic bacteria through horizontal gene&#xD;
+      transfer. Sb is a probiotic yeast whose benefits on intestinal dysbiosis have been associated&#xD;
+      with establishing a favorable growth environment for the normal intestinal microbiota. Due to&#xD;
+      the yeast nature of this probiotic, the limitations of bacterial-probiotics cannot be&#xD;
+      accounted for during Sb use. Consequently, it is crucial to study the molecular mechanism&#xD;
+      elicited by Sb on intestinal microbiota, including changes in resistome.&#xD;
+&#xD;
+      In our previous study regarding the supplementation with Sb on the treatment against H.&#xD;
+      pylori (Hp) infection, patients that received the probiotic had a significantly lower&#xD;
+      frequency of gastrointestinal symptoms. Additionally, those patients have a higher number of&#xD;
+      bacterial diversity evenness (P=0.0156), higher abundance of Enterobactereacea, and lower&#xD;
+      abundance of Bacteroides and Clostridia upon treatment completion and one month later.&#xD;
+      Bacteroides and Clostridia have been previously implicated as antibiotic multi-resistant&#xD;
+      pro-inflammatory strains. The objective of the current project is to characterize the&#xD;
+      resistome of individuals treated with anti-H. pylori therapy in the presence or absence of Sb&#xD;
+      in fecal samples.&#xD;
+&#xD;
+      Specific aims To determine the resistome changes before and after Hp eradication treatment in&#xD;
+      patients that have received or not Sb.&#xD;
+&#xD;
+      To compare the resistome patterns between patients treated for Hp infection that have&#xD;
+      received or not SB, at the time of completion of treatment and one month after finishing&#xD;
+      them.&#xD;
+&#xD;
+      Based on the shotgun metagenomics, the researchers seek to characterize the microbiome and&#xD;
+      resistome in fecal samples and understand the microbiome's functional characteristics,&#xD;
+      including virulence genes, metabolic pathways, and mobile genetic elements.&#xD;
+&#xD;
+      Methodology DNA obtained from the previous microbiome characterization will be used in this&#xD;
+      project. In case DNA is not enough, the researchers will extract DNA from the frozen stored&#xD;
+      samples using the Power Soil kit.&#xD;
+&#xD;
+      DNA will be shipped to UNC Chapel Hill or the University of Minnesota, where genomic&#xD;
+      libraries will be constructed. Hi-Seq Illumina runs will be used to produce a sequencing&#xD;
+      deepness of 10 million per sample.&#xD;
+&#xD;
+      FASTQC will be used for reads quality control and multiQC as reports generator from the raw&#xD;
+      reads. Trimmomatic will be used to trim Illumina adapters and to cut reads on the average&#xD;
+      quality. As human DNA is present on the fecal samples, the investigators have to remove the&#xD;
+      host DNA using the mapping software BWA and SAMtools. Using the Resfinder database, the&#xD;
+      investigators must align the filtered reads and generate a count table using&#xD;
+      ResistomeAnalyzer. Finally, the researchers can create rarefaction curves based on the table&#xD;
+      made using AMRPlusPlus.&#xD;
+&#xD;
+      Expected results The researchers expect to find a higher diversity and abundance of&#xD;
+      antibiotic resistance genes (genome intrinsic and carried by mobile genetic elements) on the&#xD;
+      group that did not receive Sb at the end of treatment and one month after its completion.&#xD;
+      This would be correlated with the lower abundance of Clostridia and Bacteroides encountered&#xD;
+      in the 16S rRNA gene microbiome characterization.&#xD;
+&#xD;
+      The investigators will also be able to sub-characterize the resistome diversity and abundance&#xD;
+      of antibiotic resistance genes encountered typically on Enterobacteriaceae. A previous&#xD;
+      analysis found a higher abundance of Enterobacteriaceae in the group that received Sb&#xD;
+      (previously reported in a mouse model by Sovran et al. 2018). Additionally, since the&#xD;
+      researchers will obtain the raw reads on the shotgun sequencing, they could further&#xD;
+      characterize the bacteria modulated by the use of Sb at strain level (Bacteroides,&#xD;
+      Clostridia, and Enterobacteriaceae). Together, the researchers expect to obtain valuable data&#xD;
+      on the use of Sb regarding antibiotic resistance and further microbiome characteristics,&#xD;
+      including genes of bacterial pathogenicity. These results will contribute to clarify the&#xD;
+      beneficial effects of Sb addition in patients treated for Hp infection.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 7, 2016</start_date>
+  <completion_date type="Actual">June 9, 2017</completion_date>
+  <primary_completion_date type="Actual">June 9, 2017</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>A total of 72 H. pylori-positive patients were enrolled, and they were randomly assigned to group conventional (A) and group conventional plus S. boulardi (B). Patients in group A received 14-day triple therapy consisting of amoxicillin 1 g three times a day, tinidazole 1 g once a day, and omeprazole 40 mg twice a day. Patients in group B received triple therapy supplemented with S. boulardii CNCM I-745 (approximately 22.5 x 10^9 CFU) for 14 days.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Modifications in the fecal resistome during a probiotic administration</measure>
+    <time_frame>Participating patients were asked to provide three fecal samples during the study, the first before initiation of antibiotics, the second immediately after completion of antibiotics, and the last sample 1 month after finishing the treatment.</time_frame>
+    <description>Changes in abundance and diversity of antimicrobial resistance genes in fecal micobiota from individuals treated against a H. pylori infection with Saccharomyces boulardii CNCM I-745 as an additional therapy to conventional treatment regimen.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">72</enrollment>
+  <condition>Gut Resistome</condition>
+  <arm_group>
+    <arm_group_label>Saccharomyces boulardii</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Conventional treatment (amoxicillin 1 g three times a day, tinidazole 1g four times a day, and omeprazole 40mg twice a day; n=34) plus S. boulardii CNCM I-745 (approximately 22.5 x109 CFU</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No intervention</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Conventional treatment (amoxicillin 1 g three times a day, tinidazole 1g four times a day, and omeprazole 40mg twice a day; n=34)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Saccharomyces Boulardii-Containing Product in Oral Dose Form</intervention_name>
+    <description>S. boulardii CNCM I-745 (approximately 22.5 x109 CFU)</description>
+    <arm_group_label>Saccharomyces boulardii</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with typical dyspepsia symptoms from whom an upper gastrointestinal endoscopy&#xD;
+             with biopsies was done for histopathological examination.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnancy or lactation.&#xD;
+&#xD;
+          -  Subjects diagnosed with another gastrointestinal disease such as inflammatory bowel&#xD;
+             disease and malabsorption syndromes.&#xD;
+&#xD;
+          -  Subjects taking or are planning to take pre- pro- or symbiotic.&#xD;
+&#xD;
+          -  Subjects that have received antibiotics in the last month for any reason.&#xD;
+&#xD;
+          -  Subjects who have received corticosteroids chronically for any reason; have received&#xD;
+             medication to inhibit nutrient absorption; use of NSAID during the last month that&#xD;
+             cannot stop the treatment.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Paúl A Cárdenas, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Universidad San Francisco de Quito</affiliation>
+  </overall_official>
+  <link>
+    <url>https://pubmed.ncbi.nlm.nih.gov/32125555/</url>
+    <description>Related Info</description>
+  </link>
+  <reference>
+    <citation>Cárdenas PA, Garcés D, Prado-Vivar B, Flores N, Fornasini M, Cohen H, Salvador I, Cargua O, Baldeón ME. Effect of Saccharomyces boulardii CNCM I-745 as complementary treatment of Helicobacter pylori infection on gut microbiome. Eur J Clin Microbiol Infect Dis. 2020 Jul;39(7):1365-1372. doi: 10.1007/s10096-020-03854-3. Epub 2020 Mar 3.</citation>
+    <PMID>32125555</PMID>
+  </reference>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>March 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 3, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 8, 2021</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 4, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Universidad San Francisco de Quito</investigator_affiliation>
+    <investigator_full_name>Paúl Cárdenas, PhD</investigator_full_name>
+    <investigator_title>Professor at the Institute of Microbiology</investigator_title>
+  </responsible_party>
+  <keyword>Saccharomyces boulardii</keyword>
+  <keyword>eradication therapy</keyword>
+  <keyword>Helicobacter Pylori [H. Pylori]</keyword>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>Individual participant data that underlie the results reported in this article, after deidentification (DNA sequences).</ipd_description>
+    <ipd_time_frame>DNA sequences (raw reads): immediately following publication. No end date.</ipd_time_frame>
+    <ipd_access_criteria>Investigators whose proposed use of the data has been approved by an independent review committee (&quot;learned intermediary&quot;) identified for this purpose.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

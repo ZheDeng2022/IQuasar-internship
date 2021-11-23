@@ -1,0 +1,848 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03475992</url>
+  </required_header>
+  <id_info>
+    <org_study_id>TN.32.1.17.SATF</org_study_id>
+    <nct_id>NCT03475992</nct_id>
+  </id_info>
+  <brief_title>Pilot Clinical Study on a Low-power Electromagnetic Wave Breast Imaging Device for Cancer Screening Purposes.</brief_title>
+  <official_title>Pilot Clinical Evaluation of a Microwave Imaging System for Early Breast Cancer Detection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>MVG Industries SAS</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>HRB Clinical Research Facility, Galway (CRFG)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>MVG Industries SAS</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The trialed investigational medical imaging device is a low-power microwave breast imaging&#xD;
+      system for cancer screening purposes. It is an active device which uses non-ionizing&#xD;
+      radiation.&#xD;
+&#xD;
+      Microwave imaging is an emerging imaging modality for the early detection of the breast&#xD;
+      cancer. The physical basis of microwave imaging is the dielectric contrast between healthy&#xD;
+      and cancerous breast tissues at microwave frequencies. Microwave imaging can potentially be&#xD;
+      used for monitoring neoadjuvant chemotherapy treatment, breast health monitoring, and for&#xD;
+      routine screening and diagnosis of the breast cancer at the early-stage. The non-invasive and&#xD;
+      the non-ionizing characteristics of microwaves should allow for frequent scans of the breast&#xD;
+      using microwave imaging, unlike X-ray mammography. In addition to safety, microwave imaging&#xD;
+      does not require uncomfortable breast compression and it is potentially a lower-cost&#xD;
+      modality.&#xD;
+&#xD;
+      This is a first-in-human clinical test of the investigational device, which has been so far&#xD;
+      tested only with experimental phantoms modelling the human female breast.&#xD;
+&#xD;
+      The clinical data that will be collected in the context of this study is intended to provide&#xD;
+      early safety information for the investigational medical imaging device. In addition, this&#xD;
+      exploratory data will guide the refinement of the device hardware and the imaging algorithm&#xD;
+      design, before decision to proceed (or not) with further clinical tests.&#xD;
+&#xD;
+      Furthermore, this study will be used to guide sample size calculation for a subsequent study&#xD;
+      designed to evaluate efficacy should that appear warranted once this study is completed.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a single-site early-phase pilot clinical study, taking place at Galway University&#xD;
+      Hospital/HRB Clinical Research Facility, Galway.&#xD;
+&#xD;
+      Patients will have a conventional history and breast examinations (Mammogram and / or&#xD;
+      Ultrasound and Clinical assessment) performed by the physician, as per normal practice in the&#xD;
+      Symptomatic Breast Unit of University Hospital Galway.&#xD;
+&#xD;
+      If patients are interested in the study, provide written informed consent and are deemed&#xD;
+      eligible, they will attend the Clinical Research Facility Galway for a Microwave Breast&#xD;
+      Imaging (MBI) scan. The data from the scan will be collected and stored securely. Patients&#xD;
+      will be followed up 7-21 days after the microwave breast investigation or before surgery,&#xD;
+      whichever comes first. Patients will be assessed for their experience of the microwave breast&#xD;
+      investigation, and for any adverse events.&#xD;
+&#xD;
+      The investigational medical imaging device consists of two subsystems, both performing a&#xD;
+      non-invasive examination:&#xD;
+&#xD;
+        -  the Microwave Breast Imaging subsystem (MBI subsystem);&#xD;
+&#xD;
+        -  the Optical Breast Contour Detection subsystem (OBCD subsystem);&#xD;
+&#xD;
+      The MBI subsystem is an active device which uses non-ionizing radiation. It illuminates the&#xD;
+      breast with low-power electromagnetic waves in the microwave frequency spectrum, which&#xD;
+      penetrate the breast under examination. The subsystem collects the scattered electromagnetic&#xD;
+      waves and recovers useful information on the breast tissue consistency, given the dielectric&#xD;
+      contrast of these tissues.&#xD;
+&#xD;
+      Multi-static radar detection technology is employed in the MBI subsystem for breast image&#xD;
+      formation.The well-established Microwave Vision Group (MVG) technology for fast antenna&#xD;
+      measurement, using multiple sensors in a vertical arch configuration, has been transposed to&#xD;
+      a horizontal arch of sensors. In addition, vertical translation of the horizontal arch has&#xD;
+      been enabled, such that 3D multi-static short-range radar imaging is possible.&#xD;
+&#xD;
+      The sensors are in contact with a cylindrical container filled with a liquid; the so-called&#xD;
+      coupling liquid has been designed to have electromagnetic (EM) properties appropriately&#xD;
+      selected such that the EM wave penetration in the breast is maximized.&#xD;
+&#xD;
+      During the MBI scan, the patient is lying in a face down position on a special bed,&#xD;
+      integrated with the MBI subsystem. The breast under examination is immersed in the coupling&#xD;
+      liquid, through a dedicated circular opening of the bed. The breast is then scanned. This&#xD;
+      vertical scan takes approximately 10-15 minutes to complete, depending on the size of each&#xD;
+      breast.&#xD;
+&#xD;
+      In order to compute the required volume of coupling liquid, such that the container of the&#xD;
+      MBI subsystem is optimally filled after immersion of the breast, a simple process for optical&#xD;
+      assessment of the total volume of the breast takes place just before starting the MBI scan.&#xD;
+&#xD;
+      The Optical Breast Contour Detection (OBCD) subsystem serves to provide the total volume of&#xD;
+      the breast, and also its external contour, as a priori information to the MBI subsystem. The&#xD;
+      OBCD subsystem consists of a 3D optical camera placed below the examination table, at a&#xD;
+      distance of several tens of centimetres below the breast. An azimuthal scan of the 3D camera&#xD;
+      permits to reconstruct the external surface of the breast.&#xD;
+&#xD;
+      In order for the breast contour to be a useful a priori information for the MBI subsystem, it&#xD;
+      is important that the patient is lying in the same face down position during both the MBI and&#xD;
+      OBCD scans. Thus, an identical examination table, as the one integrated with the MBI&#xD;
+      subsystem, is also integrated with the OBCD subsystem. During the OBCD scan, the patient is&#xD;
+      lying on the examination table, with her breast under examination inserted in the circular&#xD;
+      opening of the examination table. For this scan, there is no coupling liquid; the breast is&#xD;
+      in the air, hanging below the examination table.&#xD;
+&#xD;
+      Both the breast bearing the palpable lump and the contralateral breast will be scanned. The&#xD;
+      contralateral breast scan will serve as control in the data analysis.&#xD;
+&#xD;
+      The MBI scan duration of each breast should not exceed 15 minutes. The recorded data will be&#xD;
+      checked and in the case of non-optimal positioning of the patient, the scan may be repeated.&#xD;
+&#xD;
+      It is expected that the duration of the microwave breast investigation (including OBCD scan&#xD;
+      of both breasts for breast volume assessment, preparation of the MBI subsystem, MBI scan of&#xD;
+      both breasts, and data verification) should not exceed 1 hour. If the Data Quality Check&#xD;
+      suggests repetition of the MBI scan, and upon agreement by the patient, the total duration of&#xD;
+      the microwave breast investigation will be extended.&#xD;
+&#xD;
+      The written radiology reports from conventional imaging will be acquired and used to evaluate&#xD;
+      the performance of the MBI subsystem in terms of detecting and estimating the size and&#xD;
+      consistency of the breast lump.&#xD;
+&#xD;
+      MBI data analysis will be performed off-line, at MVG premises (France), and is expected to be&#xD;
+      completed few months after the end-date of data collection. Following the assessment of the&#xD;
+      MBI results by the medical experts involved in the study, a decision will be made regarding&#xD;
+      the potential of this emerging imaging modality and the interest in proceeding with clinical&#xD;
+      studies involving larger sample sizes. Based on these results, MVG will decide and plan&#xD;
+      actions for refinement of the system, towards an upgraded version to be used for potential&#xD;
+      future tests with a more significant impact.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">October 10, 2018</start_date>
+  <completion_date type="Actual">May 7, 2020</completion_date>
+  <primary_completion_date type="Actual">May 7, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>The study is performed on 3 groups of patients:&#xD;
+Group 1: 15 patients with pre-diagnosed breast cancer (core needle biopsy performed ≥14 days before the microwave breast investigation).&#xD;
+Group 2: 10 patients with breast cyst. No prior biopsy&#xD;
+Group 3: 5 patients with pre-diagnosed benign lesion (core needle biopsy performed ≥14 days before the microwave breast investigation).</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of Serious Adverse Events, Directly Related to Normal Functioning of the Device</measure>
+    <time_frame>Through study completion, up to 21 days</time_frame>
+    <description>To provide early safety information for the proposed investigational medical imaging device.</description>
+  </primary_outcome>
+  <other_outcome>
+    <measure>Capacity of the Low-power Microwave Breast Imaging (MBI) System to Detect Pre-diagnosed Palpable Breast Lesions. Detection Rate for Malignant and Benign Breast Lesions.</measure>
+    <time_frame>Duration of study - 19 months</time_frame>
+    <description>Percentage of total number of biopsy-confirmed malignant breast lesions being detected with MBI; Percentage of total number of pre-diagnosed breast cysts being detected with MBI; Percentage of total number of biopsy-confirmed benign breast lesions being detected with MBI.</description>
+  </other_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">25</enrollment>
+  <condition>Breast Cancer</condition>
+  <condition>Breast Cyst</condition>
+  <arm_group>
+    <arm_group_label>Pre-diagnosed breast cancer</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pre-diagnosed breast cyst</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Pre-diagnosed benign lesion</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Low-power microwave breast imaging system</intervention_name>
+    <description>Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+    <arm_group_label>Pre-diagnosed benign lesion</arm_group_label>
+    <arm_group_label>Pre-diagnosed breast cancer</arm_group_label>
+    <arm_group_label>Pre-diagnosed breast cyst</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Subjects must be able and willing to give written informed consent and to comply with&#xD;
+             the requirements of this study protocol&#xD;
+&#xD;
+          2. Subject must have attended the Symptomatic Breast Unit with a palpable breast lump&#xD;
+&#xD;
+          3. Subjects must have had a mammogram in the clinical assessment period (≤ 6 weeks before&#xD;
+             the microwave breast investigation)&#xD;
+&#xD;
+          4. Subjects must be able to comfortably lie reasonably still in a prone position for up&#xD;
+             to 15 minutes&#xD;
+&#xD;
+          5. Subjects with bra size larger than 32B and cup size larger or equal to B.&#xD;
+&#xD;
+          6. Subjects whose breast size is adapted to the cylindrical container of the MBI system&#xD;
+             with sufficient margin to allow the presence of transition liquid around the breast.&#xD;
+             Final decision to be taken by the physicians based on their judgement.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Subjects unable to provide written informed consent&#xD;
+&#xD;
+          2. Subjects who are pregnant or breast-feeding&#xD;
+&#xD;
+          3. Subjects who have had previous surgery to the breast&#xD;
+&#xD;
+          4. Subjects who have previously received chemotherapy or radiotherapy to the breast&#xD;
+&#xD;
+          5. Subjects who have had a breast biopsy less than two weeks prior to imaging&#xD;
+&#xD;
+          6. Subjects with any active or metallic implant (e.g. cardiac pacemaker, stents, internal&#xD;
+             cardiac defibrillator, cardiac resynchronisation device, nerve stimulator…), or&#xD;
+             subjects bearing any non-removable metallic object (e.g. piercing) on their torso&#xD;
+&#xD;
+          7. Post-biopsy patients whose breast tissue is not healed sufficiently for the imaging&#xD;
+             procedure, in the opinion of the investigator&#xD;
+&#xD;
+          8. Patients who have had or plan to have a breast cyst aspiration before MBI.&#xD;
+&#xD;
+          9. Subjects with significant co-morbidities which, in the opinion of the investigator,&#xD;
+             may influence the result of the study&#xD;
+&#xD;
+         10. Subjects with prior or concurrent malignancy&#xD;
+&#xD;
+         11. Subjects under the age of 18 years old&#xD;
+&#xD;
+         12. Subjects with evidence of inflammation and/or erythema of the breast as well as any&#xD;
+             subjects who have a break in the skin which would be in contact with the coupling&#xD;
+             fluid&#xD;
+&#xD;
+         13. Subjects who would be unsuitable for an MBI scan, unlikely to attend a follow up&#xD;
+             visit, or would otherwise be unsuitable for such an investigation, in the opinion of&#xD;
+             the Investigator&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michael Kerin, Prof.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Galway University Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>HRB Clinical Research Facility Galway</name>
+      <address>
+        <city>Galway</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Ireland</country>
+  </location_countries>
+  <link>
+    <url>http://www.mvg-world.com/en</url>
+    <description>The manufacturer of the trialed investigational medical device and sponsor of the clinical investigation</description>
+  </link>
+  <link>
+    <url>http://www.nuigalway.ie/hrb_crfg/</url>
+    <description>The investigational site</description>
+  </link>
+  <link>
+    <url>http://www.nuigalway.ie/our-research/people/michaelkerin/</url>
+    <description>The principal investigator</description>
+  </link>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>March 12, 2018</study_first_submitted>
+  <study_first_submitted_qc>March 16, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 23, 2018</study_first_posted>
+  <results_first_submitted>April 13, 2021</results_first_submitted>
+  <results_first_submitted_qc>May 11, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 7, 2021</results_first_posted>
+  <last_update_submitted>May 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+    <mesh_term>Breast Cyst</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>January 19, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/92/NCT03475992/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Pre-diagnosed Breast Cancer - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="P2">
+          <title>Pre-diagnosed Breast Cyst</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="P3">
+          <title>Pre-diagnosed Benign Lesion - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="9"/>
+                <participants group_id="P3" count="5"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="11"/>
+                <participants group_id="P2" count="9"/>
+                <participants group_id="P3" count="5"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+                <participants group_id="P3" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <population>Overall, there have been twenty-five (25) patients scanned with the low-power Microwave Breast Imaging (MBI) system. Out of the twenty-five (25) patients, twenty-four (24) were included in the final analysis. The patient who was excluded from the final analysis was a patient who presented with a palpable lump which was subsequently determined to be normal breast tissue</population>
+      <group_list>
+        <group group_id="B1">
+          <title>Pre-diagnosed Breast Cancer - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="B2">
+          <title>Pre-diagnosed Breast Cyst</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="B3">
+          <title>Pre-diagnosed Benign Lesion - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="B4">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="11"/>
+            <count group_id="B2" value="8"/>
+            <count group_id="B3" value="5"/>
+            <count group_id="B4" value="24"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="11"/>
+                    <count group_id="B2" value="8"/>
+                    <count group_id="B3" value="5"/>
+                    <count group_id="B4" value="24"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="64.6" lower_limit="42" upper_limit="83"/>
+                    <measurement group_id="B2" value="38.3" lower_limit="35" upper_limit="49"/>
+                    <measurement group_id="B3" value="39.4" lower_limit="36" upper_limit="47"/>
+                    <measurement group_id="B4" value="50.5" lower_limit="35" upper_limit="83"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="11"/>
+                    <count group_id="B2" value="8"/>
+                    <count group_id="B3" value="5"/>
+                    <count group_id="B4" value="24"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="5"/>
+                    <measurement group_id="B4" value="24"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="0"/>
+                    <measurement group_id="B2" value="0"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race/Ethnicity, Customized</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <title>Race</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="11"/>
+                    <count group_id="B2" value="8"/>
+                    <count group_id="B3" value="5"/>
+                    <count group_id="B4" value="24"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Irish</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="10"/>
+                    <measurement group_id="B2" value="7"/>
+                    <measurement group_id="B3" value="5"/>
+                    <measurement group_id="B4" value="22"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Brazilian</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="1"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="0"/>
+                    <measurement group_id="B4" value="2"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>Ireland</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="11"/>
+                    <count group_id="B2" value="8"/>
+                    <count group_id="B3" value="5"/>
+                    <count group_id="B4" value="24"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="11"/>
+                    <measurement group_id="B2" value="8"/>
+                    <measurement group_id="B3" value="5"/>
+                    <measurement group_id="B4" value="24"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Volumetric Breast Density</title>
+          <population>The &quot;For processing&quot; DICOM mammography data was unavailable for four (4) of the twenty-four (24) analysed patients due to accidental deletion/retention of data. This data is required to compute the Volumetric Breast Density (VBD) with the Volpara VDM software.&#xD;
+VBD was computed on both breasts of each patient (total number of samples = 40).</population>
+          <units>Percentage(%) of dense tissue volume</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="9"/>
+                    <count group_id="B2" value="7"/>
+                    <count group_id="B3" value="4"/>
+                    <count group_id="B4" value="20"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="8.01" lower_limit="4.00" upper_limit="15.40"/>
+                    <measurement group_id="B2" value="18.04" lower_limit="8.40" upper_limit="27.40"/>
+                    <measurement group_id="B3" value="13.22" lower_limit="5.80" upper_limit="25.45"/>
+                    <measurement group_id="B4" value="12.56" lower_limit="4.00" upper_limit="25.45"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Breast Volume</title>
+          <population>The &quot;For processing&quot; DICOM mammography data was unavailable for four (4) of the twenty-four (24) analysed patients due to accidental deletion/retention of data. This data is required to compute the Breast Volume with the Volpara VDM software.&#xD;
+The volume of both breasts of each patient was computed (total number of samples = 40).</population>
+          <units>milliliters (mL)</units>
+          <param>Mean</param>
+          <dispersion>Full Range</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="9"/>
+                    <count group_id="B2" value="7"/>
+                    <count group_id="B3" value="4"/>
+                    <count group_id="B4" value="20"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="757.3" lower_limit="293" upper_limit="1369"/>
+                    <measurement group_id="B2" value="647.8" lower_limit="150" upper_limit="1338"/>
+                    <measurement group_id="B3" value="646.5" lower_limit="222.7" upper_limit="1105.6"/>
+                    <measurement group_id="B4" value="696.8" lower_limit="150" upper_limit="1369"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Number of Serious Adverse Events, Directly Related to Normal Functioning of the Device</title>
+        <description>To provide early safety information for the proposed investigational medical imaging device.</description>
+        <time_frame>Through study completion, up to 21 days</time_frame>
+        <population>All patients who had a low-power Microwave Breast Imaging (MBI) scan completed</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Pre-diagnosed Breast Cancer - Biopsy Confirmed</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+          <group group_id="O2">
+            <title>Pre-diagnosed Breast Cyst</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+          <group group_id="O3">
+            <title>Pre-diagnosed Benign Lesion - Biopsy Confirmed</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Number of Serious Adverse Events, Directly Related to Normal Functioning of the Device</title>
+          <description>To provide early safety information for the proposed investigational medical imaging device.</description>
+          <population>All patients who had a low-power Microwave Breast Imaging (MBI) scan completed</population>
+          <units>Serious Adverse Events</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="9"/>
+                <count group_id="O3" value="5"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="0"/>
+                    <measurement group_id="O2" value="0"/>
+                    <measurement group_id="O3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Other Pre-specified</type>
+        <title>Capacity of the Low-power Microwave Breast Imaging (MBI) System to Detect Pre-diagnosed Palpable Breast Lesions. Detection Rate for Malignant and Benign Breast Lesions.</title>
+        <description>Percentage of total number of biopsy-confirmed malignant breast lesions being detected with MBI; Percentage of total number of pre-diagnosed breast cysts being detected with MBI; Percentage of total number of biopsy-confirmed benign breast lesions being detected with MBI.</description>
+        <time_frame>Duration of study - 19 months</time_frame>
+        <population>Overall, there have been twenty-five (25) patients scanned with the low-power Microwave Breast Imaging (MBI) system. Out of the twenty-five (25) patients, twenty-four (24) were included in the final analysis. The patient who was excluded from the final analysis was a patient who presented with a palpable lump which was subsequently determined to be normal breast tissue</population>
+        <group_list>
+          <group group_id="O1">
+            <title>Pre-diagnosed Breast Cancer - Biopsy Confirmed</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+          <group group_id="O2">
+            <title>Pre-diagnosed Breast Cyst</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+          <group group_id="O3">
+            <title>Pre-diagnosed Benign Lesion - Biopsy Confirmed</title>
+            <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Capacity of the Low-power Microwave Breast Imaging (MBI) System to Detect Pre-diagnosed Palpable Breast Lesions. Detection Rate for Malignant and Benign Breast Lesions.</title>
+          <description>Percentage of total number of biopsy-confirmed malignant breast lesions being detected with MBI; Percentage of total number of pre-diagnosed breast cysts being detected with MBI; Percentage of total number of biopsy-confirmed benign breast lesions being detected with MBI.</description>
+          <population>Overall, there have been twenty-five (25) patients scanned with the low-power Microwave Breast Imaging (MBI) system. Out of the twenty-five (25) patients, twenty-four (24) were included in the final analysis. The patient who was excluded from the final analysis was a patient who presented with a palpable lump which was subsequently determined to be normal breast tissue</population>
+          <units>Percentage(%) of lesions being detected</units>
+          <param>Number</param>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="11"/>
+                <count group_id="O2" value="8"/>
+                <count group_id="O3" value="5"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="82"/>
+                    <measurement group_id="O2" value="100"/>
+                    <measurement group_id="O3" value="80"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>Safety data collected over 15 months</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Pre-diagnosed Breast Cancer - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="E2">
+          <title>Pre-diagnosed Breast Cyst</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+No prior biopsy&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+        <group group_id="E3">
+          <title>Pre-diagnosed Benign Lesion - Biopsy Confirmed</title>
+          <description>Low-power microwave breast imaging system.&#xD;
+Core needle biopsy performed ≥14 days before the microwave breast investigation&#xD;
+Low-power microwave breast imaging system: Investigate the capacity of microwave imaging to detect and characterise diagnosed palpable breast lump</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="9"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="5"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="9"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="5"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <default_assessment>Non-systematic Assessment</default_assessment>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" subjects_affected="1" subjects_at_risk="9"/>
+                <counts group_id="E3" subjects_affected="0" subjects_at_risk="5"/>
+              </event>
+            </event_list>
+          </category>
+          <category>
+            <title>Eye disorders</title>
+            <event_list>
+              <event>
+                <sub_title>Eyelid infection-stye</sub_title>
+                <description>Stye on upper eyelid of patient's right eye</description>
+                <counts group_id="E1" events="0" subjects_affected="0" subjects_at_risk="11"/>
+                <counts group_id="E2" events="1" subjects_affected="1" subjects_at_risk="9"/>
+                <counts group_id="E3" events="0" subjects_affected="0" subjects_at_risk="5"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>Principal Investigators are NOT employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There IS an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <limitations_and_caveats>First in Human, exploratory, open clinical study was conducted in order to gather clinical data to support refinement of Prototype # 1 of the low-power MBI system as well as initial safety information</limitations_and_caveats>
+    <point_of_contact>
+      <name_or_title>Luc Duchesne</name_or_title>
+      <organization>MVG Industries</organization>
+      <phone>0033169298156</phone>
+      <email>luc.duchesne@mvg-world.com</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

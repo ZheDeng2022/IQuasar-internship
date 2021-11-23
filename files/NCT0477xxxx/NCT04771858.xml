@@ -1,0 +1,254 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04771858</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MV-dmac 3445707</org_study_id>
+    <nct_id>NCT04771858</nct_id>
+  </id_info>
+  <brief_title>Digital Gait Analysis in the Home Environment of Patients With Multiple Sclerosis</brief_title>
+  <acronym>MSgoesHome</acronym>
+  <official_title>MSgoesHome - Digital Gait Analysis in the Home Environment of Patients With Multiple Sclerosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical Valley Digital Health Application Center GmbH</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Celgene Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>NeuroSys GmbH</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fraunhofer Institute for Integrated Circuits IIS</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Portabiles HealthCare Technologies GmbH</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Regensburg</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Medical Valley Digital Health Application Center GmbH</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of this study is the development of novel telemedical examination methods based on&#xD;
+      sensor-based gait analysis in patients with multiple sclerosis (MS). In a first step, the&#xD;
+      basic technical feasibility of measuring gait parameters in MS patients under standardized&#xD;
+      conditions in the clinic and in the home environment of the study participants will be&#xD;
+      investigated.&#xD;
+&#xD;
+      In a subsequent two-week study phase, gait parameters (real-life monitoring) and standardized&#xD;
+      gait tests will be continuously recorded in the home environment of the study participants.&#xD;
+      The comparability of the collected gait parameters from standardized gait tests and real-life&#xD;
+      monitoring to clinical scales (e.g. EDSS) will investigate the medical applicability of gait&#xD;
+      analysis as a target parameter in MS patients.&#xD;
+&#xD;
+      New algorithms for detecting indication-specific gait patterns from gait analysis in&#xD;
+      patients' daily lives and their possible changes over time (progression) will be explored and&#xD;
+      implemented into the study system. In addition, a patient app annotates the standardized gait&#xD;
+      tests and collects questionnaire-based data from the study participants during real-life&#xD;
+      monitoring. Via a study tablet, the data of the gait analysis and the patient app are&#xD;
+      transmitted to a study platform (Digital Patient Manager). The clinical assessment data&#xD;
+      (neurological examination, questionnaires) can be entered via a web front-end of the study&#xD;
+      platform and assigned to the patient via a pseudonym.&#xD;
+&#xD;
+      A further aim of this study is to validate the technology used for its applicability in the&#xD;
+      home environment. By means of structured interviews after the study phase, the study&#xD;
+      participants will be asked about compliance and adherence.&#xD;
+&#xD;
+      The following scientific questions will be investigated in this project:&#xD;
+&#xD;
+      (a) Is gait analysis a feasible and meaningful target parameter for MS centers? b) Are gait&#xD;
+      parameters from real-life monitoring suitable biomarkers for the detection of MS symptoms? c)&#xD;
+      Can gait parameters from standardized gait tests be compared with different testing&#xD;
+      environments (clinic / home environment)? d) How do gait parameters from standardized gait&#xD;
+      tests differ from gait data from real-life monitoring? e) How is the telemedical application&#xD;
+      for the collection of gait parameters evaluated by the patients? f) Can disease progression&#xD;
+      be detected using sensor-based gait parameters from the home environment?&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 9, 2021</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">August 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of detected gait cycles per patient per day</measure>
+    <time_frame>day 1 to day 14</time_frame>
+    <description>Number of sensor-detected gait cycles (one gait cycle are two steps) per patient per day</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Daily sensor wear time per patient</measure>
+    <time_frame>day 1 to day 14</time_frame>
+    <description>Percentage of sensor wear time per patient per day - range from 0 hours (0%) to 6 hours (100%)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Completeness of days during 14-day field period per patient with sensor records</measure>
+    <time_frame>day 1 to day 14</time_frame>
+    <description>Percentage of days with sensor data recorded per patient - range from 0 days (0%) to 14 days (100%)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>System Usability Scale (SUS)</measure>
+    <time_frame>day 14 (closeout visit)</time_frame>
+    <description>SUS score per patient - range from 0 to 100 score points (Higher scores mean a better outcome.)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Difference in time of 25-Foot-Walk-Test (25FWT) performed at home versus 25-Foot-Walk-Test (25FWT) performed at clinic</measure>
+    <time_frame>day 1</time_frame>
+    <description>Difference in time, measured in seconds, of 25FWT performed at home and performed at clinic</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in time of 25-Foot-Walk-Test (25FWT) performed at home versus 25-Foot-Walk-Test (25FWT) performed at clinic</measure>
+    <time_frame>day 14</time_frame>
+    <description>Difference in time, measured in seconds, of 25FWT performed at home and performed in clinic</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in gait parameters during 25-Foot-Walk-Test (25FWT) performed at home versus 25-Foot-Walk-Test (25FWT) performed at clinic</measure>
+    <time_frame>day 1</time_frame>
+    <description>Difference in gait parameters (gait length in cm, speed in m/s, contact angle in degree, swing-through phase in percent, standing phase in percent, lateral swing in cm, toe clearance in cm, lifting angle of toes in cm, impact intensity in g, variability of these parameters and symmetry between left and right foot) during 25FWT performed at home versus 25FWT performed at clinic</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Difference in gait parameters during 25-Foot-Walk-Test (25FWT) performed at home versus 25-Foot-Walk-Test (25FWT) performed at clinic</measure>
+    <time_frame>day 14</time_frame>
+    <description>Difference in gait parameters (gait length in cm, speed in m/s, contact angle in degree, swing-through phase in percent, standing phase in percent, lateral swing in cm, toe clearance in cm, lifting angle of toes in cm, impact intensity in g, variability of these parameters and symmetry between left and right foot) during 25FWT performed at home versus 25FWT performed at clinic</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of change of Expanded Disability Status Scale (EDSS) and change of 25-Foot-Walk-Test (25FWT) performed at home</measure>
+    <time_frame>day 1 and day 14</time_frame>
+    <description>Correlation of change of EDSS (range from 0.0 to 10.0, Lower scores mean a better outcome.) and change of time to execute 25FWT in seconds performed at home</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of change of Expanded Disability Status Scale (EDSS) and change of 25-Foot-Walk-Test (25FWT) performed at clinic</measure>
+    <time_frame>day 1 and day 14</time_frame>
+    <description>Correlation of change of EDSS (range from 0.0 to 10.0, Lower scores mean a better outcome.) and change of time to execute 25FWT in seconds performed at clinic</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">70</enrollment>
+  <condition>Multiple Sclerosis</condition>
+  <arm_group>
+    <arm_group_label>Study Group</arm_group_label>
+    <description>No intervention</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients are recruited at the University Hospital Regensburg via the routine university&#xD;
+        outpatient clinic of the Department and Polyclinic of Neurology.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Diagnosis of multiple sclerosis according to McDonald criteria&#xD;
+&#xD;
+          -  Expanded Disability Status Scale (EDSS) 1-6&#xD;
+&#xD;
+          -  Age &gt; 18 years&#xD;
+&#xD;
+          -  Ability to speak and read&#xD;
+&#xD;
+          -  Ability to use an application running on a smart device&#xD;
+&#xD;
+          -  Patient informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Severe difficulty walking with frequent falls&#xD;
+&#xD;
+          -  Inability to walk at least 10 meters&#xD;
+&#xD;
+          -  Permanent use of a wheelchair&#xD;
+&#xD;
+          -  Severe spasticity&#xD;
+&#xD;
+          -  Cognitive impairment with inability to give consent to protocol&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ralf Linker, Professor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Neurology, University of Regensburg, Regensburg 93053, Germany</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jochen Klucken, Professor</last_name>
+    <phone>+49 951 96430016</phone>
+    <email>jochen.klucken@mv-dmac.de</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Till Gladow</last_name>
+    <phone>+49 951 96430032</phone>
+    <email>till.gladow@mv-dmac.de</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Department of Neurology, University of Regensburg</name>
+      <address>
+        <city>Regensburg</city>
+        <state>Bavaria</state>
+        <zip>93053</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ralf Linker, Professor</last_name>
+      <phone>+49 941 941 3001</phone>
+      <email>ralf.linker@ukr.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Klemens Angstwurm, PD Dr.</last_name>
+      <phone>+49 941 941 3350</phone>
+      <email>klemens.angstwurm@medbo.de</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>February 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 24, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 25, 2021</study_first_posted>
+  <last_update_submitted>April 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gait Analysis</keyword>
+  <keyword>Home-Monitoring</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Multiple Sclerosis</mesh_term>
+    <mesh_term>Sclerosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

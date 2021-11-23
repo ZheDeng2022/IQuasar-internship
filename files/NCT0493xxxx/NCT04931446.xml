@@ -1,0 +1,249 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04931446</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CSPAC-NEN-2</org_study_id>
+    <nct_id>NCT04931446</nct_id>
+  </id_info>
+  <brief_title>Neuroendocrine Neoplasm Based on Multi-omics Integrated Analysis</brief_title>
+  <official_title>Research on Neuroendocrine Neoplasm in a Single Center Based on Multi-omics Integrated Analysis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Xian-Jun Yu</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fudan University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This project intends to analyze the molecular biological characteristics of NEN based on&#xD;
+      multi-omics, develop an exclusive NEN multi-omics big data platform, and carry out molecular&#xD;
+      subtypes and potential targets prediction, so as to improve the therapeutic effect of&#xD;
+      neuroendocrine tumors.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      In recent years, the innovation of high-throughput sequencing technology has greatly promoted&#xD;
+      the understanding of disease mechanisms at the molecular level. It is an indisputable fact&#xD;
+      that there are large differences in the prognosis of tumors with the same pathological type&#xD;
+      and stage clinically. A large number of studies have proved that the difference in prognosis&#xD;
+      is closely related to the heterogeneity of the tumor. In the past few years, individualized&#xD;
+      precision treatment can greatly improve the prognosis of patients. Studies have shown that&#xD;
+      subgroup classification of colorectal cancer based on somatic mutations and signal pathway&#xD;
+      activation in the TCGA database has greatly improved the accuracy of diagnosis and the&#xD;
+      effectiveness of treatment. Lehmann's team divided the samples into six types based on the&#xD;
+      gene expression profile of triple-negative breast cancer: immunomodulatory type, mesenchymal&#xD;
+      type, mesenchymal stem-like type, androgen receptor type, and two basal-like types. This&#xD;
+      typing method combines the role of normal matrix and immune cell transcription levels in the&#xD;
+      tumor microenvironment, and explores their clinical characteristics and treatment strategies&#xD;
+      according to different subtypes. However, no single omics is sufficient to elucidate the&#xD;
+      complex pathogenesis of tumors. Therefore, the integrated analysis of multiple omics is a&#xD;
+      development trend, which will help clarify the pathogenesis of tumors and discover potential&#xD;
+      drug treatment targets. The interactive analysis of phenotypic data and molecular omics data&#xD;
+      can not only help us analyze the correlation between biological phenotypes and molecular&#xD;
+      phenotypes, but also allow us to understand the microscopic molecular mechanism of&#xD;
+      macro-biological phenotypes. For example, imaging phenotypes based on CT and MRI can be used&#xD;
+      to explore important protein markers related to them, which provides experimental and&#xD;
+      theoretical basis for guiding future clinical drug targeted therapy and drug resistance&#xD;
+      mechanism research. What's more interesting is that the relationship between molecular&#xD;
+      classification of tumors based on molecular omics and the establishment of phenotypic&#xD;
+      recognition models such as imaging omics can also make phenotypics such as imaging omics&#xD;
+      become a guide for targeted tumor therapy. An important method. Therefore, for neuroendocrine&#xD;
+      tumors with a high degree of heterogeneity, it is very necessary to analyze them from the&#xD;
+      perspective of multiple omics. However, in the current public databases TCGA and GEO, the&#xD;
+      exclusive NEN genomics data is extremely scarce, and there are almost no data such as&#xD;
+      proteomics, epiomics, metabolomics, and imagingomics. Therefore, it is urgent to carry out&#xD;
+      exclusive NEN multi-omics big data analysis to comprehensively and in-depth study the genesis&#xD;
+      and development mechanism of neuroendocrine tumors.&#xD;
+&#xD;
+      This project intends to analyze the molecular biological characteristics of NEN based on&#xD;
+      multi-omics analysis, develop an exclusive NEN multi-omics big data platform, and carry out&#xD;
+      molecular subtypes. We hope that this study can find the molecular mechanism and potential&#xD;
+      intervention targets of NEN recurrence and metastasis, and provide clinicians with safe and&#xD;
+      effective treatment strategies, thereby improving the therapeutic effect of neuroendocrine&#xD;
+      tumors.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2021</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>NEN mechanism analysis based on Multi-omics</measure>
+    <time_frame>One year</time_frame>
+    <description>Collect NEN tissue specimens and peripheral blood specimens for genomics, transcriptomics, proteomics, phosphorylation, metabolomics and other multiple omics sequencing analysis, so as to find the relationship between these molecular omics and phenotypes, explore NEN mechanism, including driver genes, activation of signal pathways, etc., and screen sensitive drugs based on potential targets. Use multi-omics data to establish NEN big data analysis platform, including sensitive target prediction, related gene prediction, survival analysis, and so on.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>NEN immune microenvironment analysis</measure>
+    <time_frame>One year</time_frame>
+    <description>The GSVA software and CIBORSORT method are used to predict the content and ratio of various immune cell subtypes based on NEN mRNA expression.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Neuroendocrine Neoplasm</condition>
+  <arm_group>
+    <arm_group_label>Gastroenteropancreatic neuroendocrine neoplasms</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Biopsy/surgical tissue and peripheral blood</intervention_name>
+    <description>Retrieve specimens stored in the tissue bank, the main types of samples are RNAlater specimens, liquid nitrogen frozen specimens and peripheral blood specimens</description>
+    <arm_group_label>Gastroenteropancreatic neuroendocrine neoplasms</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Collect gastrointestinal pancreatic neuroendocrine tumor samples stored in the tissue bank&#xD;
+        of Fudan University Affiliated Tumor Hospital from January 31, 2010 to March 31, 2021&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Received surgical treatment at Fudan University Affiliated Cancer Hospital from&#xD;
+             January 2010 to January 2021;&#xD;
+&#xD;
+          2. Postoperative pathology proved to be neuroendocrine tumor;&#xD;
+&#xD;
+          3. Has signed an informed consent form for tissue bank sample collection, agreeing to use&#xD;
+             the specimens and related clinical data for scientific research.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Merge other malignant tumors;&#xD;
+&#xD;
+          2. The clinical data is missing.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xianjun Yu, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Fudan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xianjun Yu, MD, PhD</last_name>
+    <phone>+86-13801669875</phone>
+    <email>yuxianjun@fudanpci.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center; Pancreatic Cancer Institute, Fudan University</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200032</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>XianJun Yu, M.D., Ph.D.</last_name>
+      <phone>+86-21-6417-5590</phone>
+      <email>yuxianjun@fudanpci.org</email>
+    </contact>
+    <investigator>
+      <last_name>Xianjun Yu, M.D., Ph.D.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Alizadeh AA, Aranda V, Bardelli A, Blanpain C, Bock C, Borowski C, Caldas C, Califano A, Doherty M, Elsner M, Esteller M, Fitzgerald R, Korbel JO, Lichter P, Mason CE, Navin N, Pe'er D, Polyak K, Roberts CW, Siu L, Snyder A, Stower H, Swanton C, Verhaak RG, Zenklusen JC, Zuber J, Zucman-Rossi J. Toward understanding and exploiting tumor heterogeneity. Nat Med. 2015 Aug;21(8):846-53. doi: 10.1038/nm.3915.</citation>
+    <PMID>26248267</PMID>
+  </reference>
+  <reference>
+    <citation>Hausser J, Alon U. Tumour heterogeneity and the evolutionary trade-offs of cancer. Nat Rev Cancer. 2020 Apr;20(4):247-257. doi: 10.1038/s41568-020-0241-6. Epub 2020 Feb 24. Review.</citation>
+    <PMID>32094544</PMID>
+  </reference>
+  <reference>
+    <citation>Cancer Genome Atlas Network. Comprehensive molecular characterization of human colon and rectal cancer. Nature. 2012 Jul 18;487(7407):330-7. doi: 10.1038/nature11252.</citation>
+    <PMID>22810696</PMID>
+  </reference>
+  <reference>
+    <citation>Lehmann BD, Jovanović B, Chen X, Estrada MV, Johnson KN, Shyr Y, Moses HL, Sanders ME, Pietenpol JA. Refinement of Triple-Negative Breast Cancer Molecular Subtypes: Implications for Neoadjuvant Chemotherapy Selection. PLoS One. 2016 Jun 16;11(6):e0157368. doi: 10.1371/journal.pone.0157368. eCollection 2016.</citation>
+    <PMID>27310713</PMID>
+  </reference>
+  <reference>
+    <citation>Halaburkova A, Cahais V, Novoloaca A, Araujo MGDS, Khoueiry R, Ghantous A, Herceg Z. Pan-cancer multi-omics analysis and orthogonal experimental assessment of epigenetic driver genes. Genome Res. 2020 Oct;30(10):1517-1532. doi: 10.1101/gr.268292.120. Epub 2020 Sep 22.</citation>
+    <PMID>32963031</PMID>
+  </reference>
+  <reference>
+    <citation>Taber A, Christensen E, Lamy P, Nordentoft I, Prip F, Lindskrog SV, Birkenkamp-Demtröder K, Okholm TLH, Knudsen M, Pedersen JS, Steiniche T, Agerbæk M, Jensen JB, Dyrskjøt L. Molecular correlates of cisplatin-based chemotherapy response in muscle invasive bladder cancer by integrated multi-omics analysis. Nat Commun. 2020 Sep 25;11(1):4858. doi: 10.1038/s41467-020-18640-0.</citation>
+    <PMID>32978382</PMID>
+  </reference>
+  <reference>
+    <citation>Sailem HZ, Bakal C. Identification of clinically predictive metagenes that encode components of a network coupling cell shape to transcription by image-omics. Genome Res. 2017 Feb;27(2):196-207. doi: 10.1101/gr.202028.115. Epub 2016 Nov 18.</citation>
+    <PMID>27864353</PMID>
+  </reference>
+  <reference>
+    <citation>Su H, Shen Y, Xing F, Qi X, Hirshfield KM, Yang L, Foran DJ. Robust automatic breast cancer staging using a combination of functional genomics and image-omics. Annu Int Conf IEEE Eng Med Biol Soc. 2015;2015:7226-9. doi: 10.1109/EMBC.2015.7320059.</citation>
+    <PMID>26737959</PMID>
+  </reference>
+  <reference>
+    <citation>Frilling A, Modlin IM, Kidd M, Russell C, Breitenstein S, Salem R, Kwekkeboom D, Lau WY, Klersy C, Vilgrain V, Davidson B, Siegler M, Caplin M, Solcia E, Schilsky R; Working Group on Neuroendocrine Liver Metastases. Recommendations for management of patients with neuroendocrine liver metastases. Lancet Oncol. 2014 Jan;15(1):e8-21. doi: 10.1016/S1470-2045(13)70362-0. Review.</citation>
+    <PMID>24384494</PMID>
+  </reference>
+  <reference>
+    <citation>Mayo SC, de Jong MC, Pulitano C, Clary BM, Reddy SK, Gamblin TC, Celinksi SA, Kooby DA, Staley CA, Stokes JB, Chu CK, Ferrero A, Schulick RD, Choti MA, Mentha G, Strub J, Bauer TW, Adams RB, Aldrighetti L, Capussotti L, Pawlik TM. Surgical management of hepatic neuroendocrine tumor metastasis: results from an international multi-institutional analysis. Ann Surg Oncol. 2010 Dec;17(12):3129-36. doi: 10.1245/s10434-010-1154-5. Epub 2010 Jun 29.</citation>
+    <PMID>20585879</PMID>
+  </reference>
+  <reference>
+    <citation>Pavel M, Baudin E, Couvelard A, Krenning E, Öberg K, Steinmüller T, Anlauf M, Wiedenmann B, Salazar R; Barcelona Consensus Conference participants. ENETS Consensus Guidelines for the management of patients with liver and other distant metastases from neuroendocrine neoplasms of foregut, midgut, hindgut, and unknown primary. Neuroendocrinology. 2012;95(2):157-76. doi: 10.1159/000335597. Epub 2012 Feb 15.</citation>
+    <PMID>22262022</PMID>
+  </reference>
+  <reference>
+    <citation>Rindi G, D'Adda T, Froio E, Fellegara G, Bordi C. Prognostic factors in gastrointestinal endocrine tumors. Endocr Pathol. 2007 Fall;18(3):145-9. Review.</citation>
+    <PMID>18058263</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 18, 2021</study_first_posted>
+  <last_update_submitted>June 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 18, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Fudan University</investigator_affiliation>
+    <investigator_full_name>Xian-Jun Yu</investigator_full_name>
+    <investigator_title>President of Shanghai Pancreatic Cancer Institute</investigator_title>
+  </responsible_party>
+  <keyword>Neuroendocrine Neoplasm</keyword>
+  <keyword>Multi-omics Analysis</keyword>
+  <keyword>Molecular Subtypes</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Neuroendocrine Tumors</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,192 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04784351</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2017P002583b</org_study_id>
+    <nct_id>NCT04784351</nct_id>
+  </id_info>
+  <brief_title>Prediction of Expected Length of Hospital Stay Using Machine Learning</brief_title>
+  <official_title>Prediction of Expected Length of Hospital Stay Using Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brigham and Women's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Biofourmis Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brigham and Women's Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a retrospective observational study drawing on data from the Brigham and Women's Home&#xD;
+      Hospital database. Sociodemographic and clinic data from a training cohort were used to train&#xD;
+      a machine learning algorithm to predict length of stay throughout a patient's admission. This&#xD;
+      algorithm was then validated in a validation cohort.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 20, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2021</completion_date>
+  <primary_completion_date type="Anticipated">August 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Length of Stay</measure>
+    <time_frame>From date of admission to date of discharge (1 to 24 days)</time_frame>
+    <description>The time spent by each patient in Home Hospital from time of admission to time of discharge, measured in hours</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Infection</condition>
+  <condition>Heart Failure</condition>
+  <condition>Chronic Obstructive Pulmonary Disease</condition>
+  <condition>Asthma</condition>
+  <condition>Gout Flare</condition>
+  <condition>Chronic Kidney Diseases</condition>
+  <condition>Hypertensive Urgency</condition>
+  <condition>Atrial Fibrillation Rapid</condition>
+  <condition>Anticoagulants; Increased</condition>
+  <arm_group>
+    <arm_group_label>Training</arm_group_label>
+    <description>A subset of patients that are used to train the machine learning algorithm.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Validation</arm_group_label>
+    <description>A subset of patients that are &quot;held back&quot; and used to validate the algorithm's accuracy.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Subjects admitted at Brigham and Women's Hospital and Brigham and Women's Faulkner Hospital&#xD;
+        who meet primary diagnosis, age, and residence within 5 mile requirements and are enrolled&#xD;
+        in home hospital.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Was a subject in the Brigham and Women's Home Hospital study and has a completed record in&#xD;
+        the study's database.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>David Levine, MD MPH MA</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Associate Physician</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Faulkner Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Lubelski D, Ehresman J, Feghali J, Tanenbaum J, Bydon A, Theodore N, Witham T, Sciubba DM. Prediction calculator for nonroutine discharge and length of stay after spine surgery. Spine J. 2020 Jul;20(7):1154-1158. doi: 10.1016/j.spinee.2020.02.022. Epub 2020 Mar 13.</citation>
+    <PMID>32179154</PMID>
+  </reference>
+  <reference>
+    <citation>Karnuta JM, Churchill JL, Haeberle HS, Nwachukwu BU, Taylor SA, Ricchetti ET, Ramkumar PN. The value of artificial neural networks for predicting length of stay, discharge disposition, and inpatient costs after anatomic and reverse shoulder arthroplasty. J Shoulder Elbow Surg. 2020 Nov;29(11):2385-2394. doi: 10.1016/j.jse.2020.04.009. Epub 2020 Jun 9.</citation>
+    <PMID>32713541</PMID>
+  </reference>
+  <reference>
+    <citation>Ramkumar PN, Navarro SM, Haeberle HS, Karnuta JM, Mont MA, Iannotti JP, Patterson BM, Krebs VE. Development and Validation of a Machine Learning Algorithm After Primary Total Hip Arthroplasty: Applications to Length of Stay and Payment Models. J Arthroplasty. 2019 Apr;34(4):632-637. doi: 10.1016/j.arth.2018.12.030. Epub 2018 Dec 27.</citation>
+    <PMID>30665831</PMID>
+  </reference>
+  <reference>
+    <citation>Ma X, Si Y, Wang Z, Wang Y. Length of stay prediction for ICU patients using individualized single classification algorithm. Comput Methods Programs Biomed. 2020 Apr;186:105224. doi: 10.1016/j.cmpb.2019.105224. Epub 2019 Nov 20.</citation>
+    <PMID>31765937</PMID>
+  </reference>
+  <reference>
+    <citation>Daghistani TA, Elshawi R, Sakr S, Ahmed AM, Al-Thwayee A, Al-Mallah MH. Predictors of in-hospital length of stay among cardiac patients: A machine learning approach. Int J Cardiol. 2019 Aug 1;288:140-147. doi: 10.1016/j.ijcard.2019.01.046. Epub 2019 Jan 19.</citation>
+    <PMID>30685103</PMID>
+  </reference>
+  <reference>
+    <citation>Bacchi S, Oakden-Rayner L, Menon DK, Jannes J, Kleinig T, Koblar S. Stroke prognostication for discharge planning with machine learning: A derivation study. J Clin Neurosci. 2020 Sep;79:100-103. doi: 10.1016/j.jocn.2020.07.046. Epub 2020 Aug 5.</citation>
+    <PMID>33070874</PMID>
+  </reference>
+  <reference>
+    <citation>Navarro SM, Wang EY, Haeberle HS, Mont MA, Krebs VE, Patterson BM, Ramkumar PN. Machine Learning and Primary Total Knee Arthroplasty: Patient Forecasting for a Patient-Specific Payment Model. J Arthroplasty. 2018 Dec;33(12):3617-3623. doi: 10.1016/j.arth.2018.08.028. Epub 2018 Sep 5.</citation>
+    <PMID>30243882</PMID>
+  </reference>
+  <reference>
+    <citation>Young AJ, Hare A, Subramanian M, Weaver JL, Kaufman E, Sims C. Using Machine Learning to Make Predictions in Patients Who Fall. J Surg Res. 2021 Jan;257:118-127. doi: 10.1016/j.jss.2020.07.047. Epub 2020 Aug 18.</citation>
+    <PMID>32823009</PMID>
+  </reference>
+  <reference>
+    <citation>Sinha I, Aluthge DP, Chen ES, Sarkar IN, Ahn SH. Machine Learning Offers Exciting Potential for Predicting Postprocedural Outcomes: A Framework for Developing Random Forest Models in IR. J Vasc Interv Radiol. 2020 Jun;31(6):1018-1024.e4. doi: 10.1016/j.jvir.2019.11.030. Epub 2020 May 4.</citation>
+    <PMID>32376173</PMID>
+  </reference>
+  <reference>
+    <citation>Merrill RK, Ferrandino RM, Hoffman R, Shaffer GW, Ndu A. Machine Learning Accurately Predicts Short-Term Outcomes Following Open Reduction and Internal Fixation of Ankle Fractures. J Foot Ankle Surg. 2019 May;58(3):410-416. doi: 10.1053/j.jfas.2018.09.004. Epub 2019 Feb 23.</citation>
+    <PMID>30803914</PMID>
+  </reference>
+  <reference>
+    <citation>Nemati M, Ansary J, Nemati N. Machine-Learning Approaches in COVID-19 Survival Analysis and Discharge-Time Likelihood Prediction Using Clinical Data. Patterns (N Y). 2020 Aug 14;1(5):100074. doi: 10.1016/j.patter.2020.100074. Epub 2020 Jul 4.</citation>
+    <PMID>32835314</PMID>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 5, 2021</study_first_posted>
+  <last_update_submitted>April 14, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 14, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brigham and Women's Hospital</investigator_affiliation>
+    <investigator_full_name>David Levine</investigator_full_name>
+    <investigator_title>Attending Physician</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Diseases, Obstructive</mesh_term>
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+    <mesh_term>Kidney Diseases</mesh_term>
+    <mesh_term>Renal Insufficiency, Chronic</mesh_term>
+    <mesh_term>Atrial Fibrillation</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

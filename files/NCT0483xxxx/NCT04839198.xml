@@ -1,0 +1,171 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04839198</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HSC-SPH-20-1159</org_study_id>
+    <secondary_id>R00DA046564</secondary_id>
+    <nct_id>NCT04839198</nct_id>
+  </id_info>
+  <brief_title>Using Machine Learning to Develop Just-in-Time Adaptive Interventions for Smoking Cessation</brief_title>
+  <official_title>Using Machine Learning to Develop Just-in-Time Adaptive Interventions for Smoking Cessation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The University of Texas Health Science Center, Houston</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The University of Texas Health Science Center, Houston</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the feasibility and preliminary effectiveness of&#xD;
+      delivering a personalized, just-in-time adaptive intervention driven by machine learning&#xD;
+      prediction of smoking lapse risk in real time.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 1, 2021</start_date>
+  <completion_date type="Anticipated">November 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">August 31, 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of patients who quit smoking as confirmed by absence of salivary cotinine</measure>
+    <time_frame>4-weeks after quit day</time_frame>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Smoking Cessation</condition>
+  <arm_group>
+    <arm_group_label>Adaptive Treatment plus usual care</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Android Wear smartwatch</intervention_name>
+    <description>All participants will wear an Android Wear smartwatch, and will complete ecological momentary assessments (EMA).</description>
+    <arm_group_label>Adaptive Treatment plus usual care</arm_group_label>
+    <arm_group_label>Usual care</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Adaptive Treatment</intervention_name>
+    <description>Participants will have access to a &quot;Dashboard&quot; button in the InsightTM app that displays personalized statistics based on their progress and patterns in the study.The dashboard will update as more data is collected about the participant's smoking habits, starting in the pre-quit period and continuing through the post-quit period. Second, in the post-quit period, participants will receive treatment messages when the machine learning algorithm determines that they are at high risk for lapse.At the follow-up visit, participants will complete a survey to evaluate what they liked and disliked about the intervention, how accurate they thought the app was in predicting their risk, and how useful they found the dashboard.</description>
+    <arm_group_label>Adaptive Treatment plus usual care</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Nicotine Patch</intervention_name>
+    <description>At Visit 2, participants will be asked to begin their attempt to quit smoking and will receive a 12-week supply of nicotine replacement therapy (i.e., nicotine patches and gum)</description>
+    <arm_group_label>Adaptive Treatment plus usual care</arm_group_label>
+    <arm_group_label>Usual care</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>interviewing-based counseling</intervention_name>
+    <description>At Visit 2, participants will be asked to begin their attempt to quit smoking and meet with a Tobacco Treatment Specialist, who will provide motivational interviewing-based counseling, help the participants develop a quit plan, and discuss relapse prevention. During the 6-weeks of the study, participants will have the option of attending up to 6 counseling sessions with the Tobacco Treatment Specialist, either in-person or via phone or web.</description>
+    <arm_group_label>Adaptive Treatment plus usual care</arm_group_label>
+    <arm_group_label>Usual care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  a score greater than or equal to 4 on the Rapid Estimate of Adult Literacy in Medicine&#xD;
+             Short Form (REALM-SF),12&#xD;
+&#xD;
+          -  willingness to quit smoking 14 days after the baseline visit&#xD;
+&#xD;
+          -  no contraindications to using Nicotine replacement therapy (NRT).&#xD;
+&#xD;
+          -  If participants would like to use their own phone to complete the EMAs, they must&#xD;
+             additionally have an Android smartphone (Android 5.2 or higher), and be willing to&#xD;
+             install the InsightTM mHealth app on their phone.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  currently smoking less than 5 cigarettes per day&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Emily Hebert, DrPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The University of Texas Health Science Center, Houston</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Emily Hebert, DrPH</last_name>
+    <phone>‪(512) 391-1351</phone>
+    <email>Emily.T.Hebert@uth.tmc.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The University of Texas Health Science Center at Houston</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Emily Hebert, DrPH</last_name>
+      <phone>512-391-1351</phone>
+      <email>Emily.T.Hebert@uth.tmc.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>April 7, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 9, 2021</study_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 28, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The University of Texas Health Science Center, Houston</investigator_affiliation>
+    <investigator_full_name>Emily Hebert</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>Nicotine patch</keyword>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Nicotine</mesh_term>
+  </intervention_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

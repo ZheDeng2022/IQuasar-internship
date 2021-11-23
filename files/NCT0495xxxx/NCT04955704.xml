@@ -1,0 +1,143 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04955704</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PNEUMONIA06142021</org_study_id>
+    <nct_id>NCT04955704</nct_id>
+  </id_info>
+  <brief_title>Performance Study for InferRead CT Pneumonia.AI</brief_title>
+  <official_title>Performance Study for InferRead CT Pneumonia.AI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Infervision</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Maryland, College Park</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Infervision</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A retrospective, blineded, multicenter study of the InferRead CT Pneumonia.AI to evaluate the&#xD;
+      performance in identifying non-contrast chest CT scans containing pneumonia findings.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a retrospective, blinded, multicenter study for the InferRead CT Pneumonia.AI. The&#xD;
+      primary endpoint will evaluate the software's performance in identifying non-contrast chest&#xD;
+      CT scans containing pneumonia. It will evaluate InferRead CT Pneumonia.AI in terms of&#xD;
+      sensitivity and specificity with respect to a ground truth, as established by trained&#xD;
+      thoracic radiologists, in the detection of penumonia. In addition, the study will compare&#xD;
+      time to notification for the InferRead CT Pneumonia.AI software with respect to the time to&#xD;
+      notification for the standard of care as established from available radiological reports.&#xD;
+&#xD;
+        1. To evaluate the performance of InferRead CT Pneumonia.AI.&#xD;
+&#xD;
+        2. To evaluate the effect of different factors such as CT manufacturer, CT scanning&#xD;
+           protocols and patient characteristics on the performance of InferRead CT Pneumonia.AI&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 1, 2021</start_date>
+  <completion_date type="Anticipated">January 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Primary Endpoint</measure>
+    <time_frame>1/1/2022 - 2/28/2022</time_frame>
+    <description>The Sensitivity (SE) of InferRead CT Pneumonia.AI is higher than 0.80. H0: YSE ≤ 0.80 HA: YSE &gt; 0.80&#xD;
+The Specificity (SP) of InferRead CT Pneumonia.AI is higher than 0.80. H0: YSP ≤ 0.80 HA: YSP &gt; 0.80</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Secondary Endpoint</measure>
+    <time_frame>1/1/2022 - 2/28/2022</time_frame>
+    <description>The Average Per Case Processing Time of InferRead CT Pneumonia.AI is lower than Time-to-open-exam in the standard of care&#xD;
+H0: Per Case Processing Time ≥ Time-to-open-exam HA: Per Case Processing Time &lt; Time-to-open-exam&#xD;
+The Average Per Case Processing Time of InferRead CT Pneumonia.AI includes the time to receive the DICOM exam and the shows AI results on the studylist. The standard of care time-to-open-exam is defined as the time from the initial scan of the patient to the time when the radiologist first opens the exam for review.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">423</enrollment>
+  <condition>Pneumonia</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>InferRead CT Pneumonia.AI</intervention_name>
+    <description>InferRead CT Pneumonia.AI reads chest CT DICOM images from medical imaging storage devices and triages cases by detecting pneumonia lesions and then flagging suspected cases in the study list. InferRead CT Pneumonia.AI is a tool to assist clinicians and it does not replace the interpretation and diagnosis by clinicians.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        This retrospective study will be used to assess the performance of the subject device. The&#xD;
+        principal investigator will collect DICOM data and relevant clinical information based on&#xD;
+        the selection criteria. DICOM will be de-identified of PHI and stored in a secure location.&#xD;
+&#xD;
+        The validation dataset will contain non-contrast chest CT scans from patients in the United&#xD;
+        States that are either negative or have confirmed pneumonia (viral or bacterial). Data will&#xD;
+        come from at least 3 hospitals and cover a variety of data attributes.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Non-contrast chest CT DICOM scans&#xD;
+&#xD;
+          2. Contains both lung lobes&#xD;
+&#xD;
+          3. Slice thickness is less than 3 mm.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Incomplete scan or corrupted scan&#xD;
+&#xD;
+          2. Irregular scanning, increased intrapulmonary density due to insufficient inspiration,&#xD;
+             and respiratory artifacts affecting the physician's judgment.&#xD;
+&#xD;
+          3. Altered or absent lung morphology in the postoperative patient.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Frank Wu</last_name>
+    <phone>8579981888</phone>
+    <email>frank.wu@infervision.ai</email>
+  </overall_contact>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 22, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 9, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pneumonia</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

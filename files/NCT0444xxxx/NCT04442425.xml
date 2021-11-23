@@ -1,0 +1,330 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04442425</url>
+  </required_header>
+  <id_info>
+    <org_study_id>200130</org_study_id>
+    <secondary_id>20-C-0130</secondary_id>
+    <nct_id>NCT04442425</nct_id>
+  </id_info>
+  <brief_title>Machine Learning to Analyze Facial Imaging, Voice and Spoken Language for the Capture and Classification of Cancer/Tumor Pain</brief_title>
+  <official_title>A Feasibility Study Investigating the Use of Machine Learning to Analyze Facial Imaging, Voice and Spoken Language for the Capture and Classification of Cancer/Tumor Pain</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background:&#xD;
+&#xD;
+      Cancer pain can have a very negative effect on people s daily lives. Researchers want to use&#xD;
+      machine learning to detect facial expressions and voice signals. They want to help people&#xD;
+      with cancer by creating a model to measure pain. They want the model to reflect diverse faces&#xD;
+      and facial expressions.&#xD;
+&#xD;
+      Objective:&#xD;
+&#xD;
+      To find out whether facial recognition technology can be used to classify pain in a diverse&#xD;
+      set of people with cancer. Also, to find out whether voice recognition technology can be used&#xD;
+      to assess pain.&#xD;
+&#xD;
+      Eligibility:&#xD;
+&#xD;
+      People ages 12 and older who are undergoing treatment for cancer&#xD;
+&#xD;
+      Design:&#xD;
+&#xD;
+      Participants will be screened with:&#xD;
+&#xD;
+      Cancer history&#xD;
+&#xD;
+      Information about their gender and skin type&#xD;
+&#xD;
+      Information about their access to a smart phone and wireless internet&#xD;
+&#xD;
+      Questions about their cancer pain&#xD;
+&#xD;
+      Participants will have check-ins at the clinic and at home. These will occur over about 3&#xD;
+      months. They will have 2-4 check-ins at the clinic. They will check in at home about 3 times&#xD;
+      per week.&#xD;
+&#xD;
+      During check-ins, participants will answer questions and talk about their cancer pain. They&#xD;
+      will use a mobile phone or a computer with a camera and microphone to complete a&#xD;
+      questionnaire. They will record a video of themselves reading a 15-second passage of text and&#xD;
+      responding to a question.&#xD;
+&#xD;
+      During the clinic check-ins, professional lighting, video equipment, and cameras will be used&#xD;
+      for the recordings.&#xD;
+&#xD;
+      During remote check-ins, participants will be asked to complete the questionnaire and&#xD;
+      recordings alone. They should be in a quiet and bright room. The room should have a white&#xD;
+      wall or background.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background:&#xD;
+&#xD;
+        -  Pain related to cancer/tumors can be widespread, wield debilitating effects on daily&#xD;
+           life, and interfere with otherwise positive outcomes from targeted treatment.&#xD;
+&#xD;
+        -  The underpinnings of this study are chiefly motivated by the need to develop and&#xD;
+           validate objective methods for measuring pain using a model that is relevant in breadth&#xD;
+           and depth to a diversity of patient populations.&#xD;
+&#xD;
+        -  Inadequate assessment and management of cancer/tumor pain can lead to functional and&#xD;
+           psychological deterioration and negatively impact quality of life.&#xD;
+&#xD;
+        -  Research of objective measurement scales of pain based on automated detection of facial&#xD;
+           expression using machine learning is expanding but has been limited to certain&#xD;
+           demographic cohorts.&#xD;
+&#xD;
+        -  Machine learning models demonstrate poor performance when training sets lack adequate&#xD;
+           diversity of training data, including visibly different faces and facial expressions,&#xD;
+           which yields opportunity in the proposed study to lay a guiding foundation by&#xD;
+           constructing a more general and generalizable model based on faces of varying sex and&#xD;
+           skin phototypes.&#xD;
+&#xD;
+      Objectives:&#xD;
+&#xD;
+      -The primary objective of this study is to determine the feasibility of using facial&#xD;
+      recognition technology to classify cancer related pain in a demographically diverse set of&#xD;
+      participants with cancer/tumors who are participating on a clinical trial.&#xD;
+&#xD;
+      Eligibility:&#xD;
+&#xD;
+        -  Adults and children (12 years of age or older) with a diagnosis of a cancer or tumor who&#xD;
+           are on a clinical study for their underlying cancer/tumor.&#xD;
+&#xD;
+        -  Participant must have access to internet connected smart phone or computer with camera&#xD;
+           and microphone and must be willing to pay any charges from service provider/carrier&#xD;
+           associated with the use of the device&#xD;
+&#xD;
+      Design:&#xD;
+&#xD;
+        -  The design is a single institution, observational, non-intervention clinical study at&#xD;
+           the National Institutes of Health Clinical Center.&#xD;
+&#xD;
+        -  All participants will participate in the same activities in two different settings&#xD;
+           (remotely and in-clinic) for a three-month period.&#xD;
+&#xD;
+        -  At home, participants will utilize a mobile application for self-reporting of pain and&#xD;
+           will audio- visually record themselves reading a passage of text and describing how they&#xD;
+           feel. In the clinic, participants will perform the same activities with optimal lighting&#xD;
+           and videography, along with infrared video capture.&#xD;
+&#xD;
+        -  Visual (RGB) and infrared facial images, audio signal, self-reported pain and natural&#xD;
+           language verbalizations of participant feelings feel will be captured. Audio signal and&#xD;
+           video data will be annotated with self-reported pain and clinical data to create a&#xD;
+           supervised machine learning model that will learn to automatically detect pain.&#xD;
+&#xD;
+        -  Care will be taken with the study sample to include a diversity of genders and skin&#xD;
+           types (a proxy for racial diversity) to establish a broad applicability of the model in&#xD;
+           the clinical setting. Additionally, video recordings of participant natural language to&#xD;
+           describe their pain and how they feel will be transcribed and auto-processed against the&#xD;
+           Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse Events&#xD;
+           (PRO-CTCAE) library to explore the presence and progression of self-reporting of adverse&#xD;
+           events.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date type="Actual">October 27, 2020</start_date>
+  <completion_date type="Anticipated">January 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Feasibility of using facial recognition technology to classify pain</measure>
+    <time_frame>3 months</time_frame>
+    <description>The primary objective of this study is to determine the feasibility of using facial recognition technology to classify pain in a demographically diverse set of patients with cancer who are participating on a clinical trial.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>To determine the feasibility of using voice recognition technology</measure>
+    <time_frame>3 months</time_frame>
+    <description>Voice recognition technology</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To transcribe patient video responses to assess pain using free-text</measure>
+    <time_frame>3 months</time_frame>
+    <description>Video responses to assess pain using free-text</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To determine the feasibility of combining RGB and thermal images with voice recognition transcribed verbal responses</measure>
+    <time_frame>3 months</time_frame>
+    <description>RGB and thermal images</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>To use natural language processing algorithms to assess pain</measure>
+    <time_frame>3 months</time_frame>
+    <description>Natural language processing algorithms to assess pain</description>
+  </secondary_outcome>
+  <number_of_groups>16</number_of_groups>
+  <enrollment type="Anticipated">120</enrollment>
+  <condition>Cancer</condition>
+  <condition>Neoplasms</condition>
+  <condition>Solid Tumors</condition>
+  <arm_group>
+    <arm_group_label>1DF/NoPain_IV-VI_Female</arm_group_label>
+    <description>Worst pain in past month = 0; Skin Type IVVI, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>1DM/NoPain_IV-VI_Male</arm_group_label>
+    <description>Worst pain in past month = 0; Skin Type IVVI, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>1LF/NoPain_I-III_Female</arm_group_label>
+    <description>Worst pain in past month = 0; Skin Type I-III, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>1LM/NoPain_I-III_Male</arm_group_label>
+    <description>Worst pain in past month = 0; Skin Type I-III, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2DF/MildPain_IV-VI_Female</arm_group_label>
+    <description>Worst pain in past month = 1-3; Skin Type IVVI, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2DM/MildPain_IV-VI_Male</arm_group_label>
+    <description>Worst pain in past month = 1-3; Skin Type IVVI, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2LF/MildPain_I-III_Female</arm_group_label>
+    <description>Worst pain in past month = 1-3; Skin Type IIII, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2LM/MildPain_I-III_Male</arm_group_label>
+    <description>Worst pain in past month = 1-3; Skin Type IIII, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3DF/ModPain_IV-VI_Female</arm_group_label>
+    <description>Worst pain in past month = 4-6; Skin Type IVVI, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3DM/ModPain_IV-VI_Male</arm_group_label>
+    <description>Worst pain in past month = 4-6; Skin Type IVVI, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3LF/ModPain_I-III_Female</arm_group_label>
+    <description>Worst pain in past month = 4-6; Skin Type IIII, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3LM/ModPain_I-III_Male</arm_group_label>
+    <description>Worst pain in past month = 4-6; Skin Type IIII, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4DF/SeverePain_IV-VI_Female</arm_group_label>
+    <description>Worst pain in past month = 7-10; Skin Type IVVI, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4DM/SeverePain_IV-VI_Male</arm_group_label>
+    <description>Worst pain in past month = 7-10; Skin Type IVVI, Male</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4LF/SeverePain_I-III_Female</arm_group_label>
+    <description>Worst pain in past month = 7-10; Skin Type IIII, Female</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4LM/SeverePain_I-III_Male</arm_group_label>
+    <description>Worst pain in past month = 7-10; Skin Type IIII, Male</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with histologically or cytologically proven advanced malignancies who are&#xD;
+        undergoing treatment for cancer.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        -  INCLUSION CRITERIA:&#xD;
+&#xD;
+          -  Ability of subject to understand and willingness to sign a written informed consent&#xD;
+             document.&#xD;
+&#xD;
+          -  Male or female subjects (including NIH staff) aged greater than or equal to 12 years.&#xD;
+&#xD;
+          -  Participants with diagnosis of a cancer or tumor&#xD;
+&#xD;
+          -  Participant must be on a protocol for their cancer/tumor at NIH&#xD;
+&#xD;
+          -  Must have access to a smart phone (iPhone or Android) with either a data plan and/or&#xD;
+             access to wireless internet (wifi) or a computer with a camera and microphone and&#xD;
+             access to internet and must be willing to use their device and assume any associated&#xD;
+             charges from service providers.&#xD;
+&#xD;
+        EXCLUSION CRITERIA:&#xD;
+&#xD;
+          -  Participants with brain or central nervous system (CNS) metastases. However, if a&#xD;
+             participant has completed curative intent radiotherapy or surgery and has remained&#xD;
+             asymptomatic for the prior three months, then he/she will be eligible to participate.&#xD;
+&#xD;
+          -  Participants with Parkinson s disease.&#xD;
+&#xD;
+          -  Known current alcohol or drug abuse.&#xD;
+&#xD;
+          -  Any psychiatric condition that would prohibit the understanding or rendering of&#xD;
+             informed consent.&#xD;
+&#xD;
+          -  Non-English speaking subjects.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>12 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>James L Gulley, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Cancer Institute (NCI)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Institutes of Health Clinical Center</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_2020-C-0130.html</url>
+    <description>NIH Clinical Center Detailed Web Page</description>
+  </link>
+  <verification_date>August 31, 2021</verification_date>
+  <study_first_submitted>June 19, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 22, 2020</study_first_posted>
+  <last_update_submitted>September 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Telehealth</keyword>
+  <keyword>Self-Reported Pain</keyword>
+  <keyword>Facial Recognition Technology</keyword>
+  <keyword>Pain Score</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

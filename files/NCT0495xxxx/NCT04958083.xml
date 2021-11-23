@@ -1,0 +1,276 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04958083</url>
+  </required_header>
+  <id_info>
+    <org_study_id>4D Motion-2 IRAS284431</org_study_id>
+    <nct_id>NCT04958083</nct_id>
+  </id_info>
+  <brief_title>4D Motion of the Aorta in the Chest and Simulated Wall Stress Distribution in Relation to Aortic Events</brief_title>
+  <acronym>4D MOTION-2</acronym>
+  <official_title>4D Motion of the Aorta in the Chest and Simulated Wall Stress Distribution in Relation to Aortic Events</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Royal Brompton &amp; Harefield NHS Foundation Trust</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Royal Brompton &amp; Harefield NHS Foundation Trust</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Aortic disease is a life-threatening condition requires swift surgery or intervention. With&#xD;
+      modern techniques and vascular prostheses, still quite a few patients suffer&#xD;
+      surgery/intervention related complications such as suture line pseudoaneurysm, stent- induced&#xD;
+      re-entry tear, and aneurysmal expansion. Previous studies suggest that these complications&#xD;
+      may be related to the abnormal aortic motion pattern and biomechanical stress induced by&#xD;
+      vascular prostheses. The relationship between aortic motion changes and aortic adverse events&#xD;
+      after treatment still remains unclear.&#xD;
+&#xD;
+      A dynamic protocol (multiphase contrast-enhanced ECG-gated) CT scan is able to measure the&#xD;
+      spatial motion of the ascending aorta, and finite element modelling is able to simulate both&#xD;
+      surgery or endovascular intervention and analyse the biomechanical interaction between&#xD;
+      vascular prostheses and tissue based on the patient-specific images. This project is aiming&#xD;
+      to explore and identify the interaction of 4D aortic motion and the biomechanical changes&#xD;
+      after surgery or endovascular treatment.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Overall design The study population will consist of patients to be examined for proximal&#xD;
+      aortic conditions (dissection or aneurysm) requiring surgery or endovascular intervention. A&#xD;
+      patient cohort will be recruited to explore the effects of surgical or endovascular&#xD;
+      prosthesis on the adjacent aorta, and its impact on late clinical outcomes.&#xD;
+&#xD;
+      Patient recruitment Patients who have proximal aortic conditions and are referred to the&#xD;
+      aortic team in Royal Brompton and Harefield Hospitals will be screened for eligibility. For&#xD;
+      this pilot study and in view of the volume of aortic surgery in the Trust (approx. 100 cases&#xD;
+      per year), 30 patients will be recruited in the first year of this project to be followed for&#xD;
+      at least one year for clinical outcomes.&#xD;
+&#xD;
+      Imaging protocol After obtaining written informed consent, a new dynamic (multiphase&#xD;
+      ECG-gated contrast- enhanced) CT imaging protocol will be used for participants to replace&#xD;
+      the standard (ECG- gated contrast-enhanced) CT protocol both prior to and after surgical or&#xD;
+      endovascular intervention. The therapeutic pathway and clinical decision making will not be&#xD;
+      affected by the new imaging protocol. Study participants will receive the same standard of&#xD;
+      treatment and care as well as follow up surveillance as all other patients not participating&#xD;
+      in this study. The same dynamic CT image protocol will be offered prior to hospital&#xD;
+      discharge.&#xD;
+&#xD;
+      Image processing and motion analysis Image processing and analysis will be performed offline,&#xD;
+      and thus not affect the clinical pathway or delay standard treatment. Dynamic images will be&#xD;
+      extracted from the Trust PACS. Suitable sets of images will be anonymized, reconstructed&#xD;
+      using a Trust approved software and downloaded to a protected area on a Trust server for&#xD;
+      offline analysis. The analysis of 4D motion of the aortic root will be conducted using image&#xD;
+      processing software authorised by the Trust (3D Slicer). Detailed analysis requires the&#xD;
+      identification of end- systolic and end-diastolic frames, followed by measurements in 6&#xD;
+      degrees of freedom (3 directions of displacement and 3 axial rotations in a global coordinate&#xD;
+      system). The raw motion data will be transferred to a patient-specific anatomical coordinate&#xD;
+      system (identified by the individual sinotubular junction) for further statistics with Matlab&#xD;
+      (Mathworks, USA).&#xD;
+&#xD;
+      Finite element modelling The spatial patient-specific model will be reconstructed from CT&#xD;
+      image and then automatically meshed for further simulation. The finite element analysis will&#xD;
+      be performed by using a commercial structural mechanics solver (Abaqus; Dassault Systèmes,&#xD;
+      France). The 4D motion data will be applied as the boundary condition to describe the motion&#xD;
+      of the ascending aorta in the model. The pulsatile pressure load from the blood flow will be&#xD;
+      applied to the inner surface of the model. Virtual surgery or endovascular intervention&#xD;
+      simulation will then be performed on this model to determine key biomechanical parameters,&#xD;
+      such as principal stresses and shear strain, which later will be correlated to clinical&#xD;
+      adverse events during follow-up. The results will allow us to elucidate the role of&#xD;
+      biomechanical changes in clinical events after surgery/intervention and to identify which&#xD;
+      parameter might predict adverse outcome in these patients.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">August 2021</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>motion differential</measure>
+    <time_frame>6 months after the last participant has post-procedure dynamic CT scan</time_frame>
+    <description>Quantitative assessment of differential of aortic motion before and after surgery/intervention</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>motion predicting aortic events</measure>
+    <time_frame>6 months after the last participant finished 1 year clinical follow up</time_frame>
+    <description>Motion differences before-after procedure with regards to later aortic events.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>wall stress distribution</measure>
+    <time_frame>6 months after the last participant has post-procedure dynamic CT scan</time_frame>
+    <description>Quantitative description of peak longitudinal and circumferential wall stress before and after surgery/intervention.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Aortic Dissection</condition>
+  <arm_group>
+    <arm_group_label>aortopathy patient</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients who have proximal aortic conditions and are referred to the aortic team in Royal Brompton and Harefield Hospitals will be screened for eligibility. For this pilot study and in view of the volume of aortic surgery in the Trust (approx. 100 cases per year), 30 patients will be recruited in the first year of this project to be followed for at least one year for clinical outcomes.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>multiphase ECG-gated contrast-enhanced CT</intervention_name>
+    <description>Compared with current standard CT imaging, the dynamic CT protocol provides incremental functional information, which is potentially helpful to the individuals under study (such as early awareness for future complications and potential prediction of outcomes). Due to the nature of the acquisition, a wider R-R acquisition window will result in a higher radiation burden than a standard protocol. However, the study protocol will replace the standard routine CT image protocol as it contains both the routine anatomic information and incremental functional information. The time required for the image acquisition and associated radiation will be slightly higher; the additional information from multiple reconstructed phases will justify a slightly higher radiation burden in a usually elderly population. The estimated radiation dose for the standard imaging protocol is approximately 8 mSv. The estimated radiation dose for the modified dynamic CT image acquisition is approximately 18 mSv.</description>
+    <arm_group_label>aortopathy patient</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients above 18 years with proximal aortic dissection/aneurysm.&#xD;
+&#xD;
+          2. Patients subjected to aortic surgery or intervention at Royal Brompton and Harefield&#xD;
+             Hospital.&#xD;
+&#xD;
+          3. Patients agreeing to participate in this study and willing to give written consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patients not suitable for surgery or intervention.&#xD;
+&#xD;
+          2. Patients with pre-existing cancer condition or cancer predisposition.&#xD;
+&#xD;
+          3. Patients who are pregnant.&#xD;
+&#xD;
+          4. Patient with critical renal function who cannot tolerate to standard amount contrast&#xD;
+             agent.&#xD;
+&#xD;
+          5. Patients who cannot give written informed consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>95 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Christoph Nienaber, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Royal Brompton and Harefield Hospitals</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Christoph Nienaber, MD, PhD</last_name>
+    <phone>+4402073528121</phone>
+    <phone_ext>2817</phone_ext>
+    <email>c.nienaber@rbht.nhs.uk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Royal Brompton Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Xun Yuan, MBBS, MMed</last_name>
+      <email>x.yuan@rbht.nhs.uk</email>
+    </contact>
+    <contact_backup>
+      <last_name>Christoph Nienaber, MD, PhD</last_name>
+      <email>c.nienaber@rbht.nhs.uk</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <results_reference>
+    <citation>Suenaga E, Sato M, Fumoto H. Ascending aortic replacement for acute type A aortic dissection in octogenarians. Gen Thorac Cardiovasc Surg. 2016 Mar;64(3):138-43. doi: 10.1007/s11748-015-0613-0. Epub 2015 Dec 16.</citation>
+    <PMID>26670778</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Pape LA, Awais M, Woznicki EM, Suzuki T, Trimarchi S, Evangelista A, Myrmel T, Larsen M, Harris KM, Greason K, Di Eusanio M, Bossone E, Montgomery DG, Eagle KA, Nienaber CA, Isselbacher EM, O'Gara P. Presentation, Diagnosis, and Outcomes of Acute Aortic Dissection: 17-Year Trends From the International Registry of Acute Aortic Dissection. J Am Coll Cardiol. 2015 Jul 28;66(4):350-8. doi: 10.1016/j.jacc.2015.05.029.</citation>
+    <PMID>26205591</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Eggebrecht H, Nienaber CA, Neuhäuser M, Baumgart D, Kische S, Schmermund A, Herold U, Rehders TC, Jakob HG, Erbel R. Endovascular stent-graft placement in aortic dissection: a meta-analysis. Eur Heart J. 2006 Feb;27(4):489-98. Epub 2005 Oct 14. Review.</citation>
+    <PMID>16227309</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Fattori R, Nienaber CA, Rousseau H, Beregi JP, Heijmen R, Grabenwöger M, Piquet P, Lovato L, Dabbech C, Kische S, Gaxotte V, Schepens M, Ehrlich M, Bartoli JM; Talent Thoracic Retrospective Registry. Results of endovascular repair of the thoracic aorta with the Talent Thoracic stent graft: the Talent Thoracic Retrospective Registry. J Thorac Cardiovasc Surg. 2006 Aug;132(2):332-9.</citation>
+    <PMID>16872959</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Hassoun HT, Matsumura JS. The COOK TX2 thoracic stent graft: preliminary experience and trial design. Semin Vasc Surg. 2006 Mar;19(1):32-9. Review.</citation>
+    <PMID>16533690</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Kwolek CJ, Fairman R. Update on thoracic aortic endovascular grafting using the medtronic talent device. Semin Vasc Surg. 2006 Mar;19(1):25-31. Review.</citation>
+    <PMID>16533689</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Makaroun MS, Dillavou ED, Kee ST, Sicard G, Chaikof E, Bavaria J, Williams D, Cambria RP, Mitchell RS. Endovascular treatment of thoracic aortic aneurysms: results of the phase II multicenter trial of the GORE TAG thoracic endoprosthesis. J Vasc Surg. 2005 Jan;41(1):1-9.</citation>
+    <PMID>15696036</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Moon MC, Greenberg RK, Morales JP, Martin Z, Lu Q, Dowdall JF, Hernandez AV. Computed tomography-based anatomic characterization of proximal aortic dissection with consideration for endovascular candidacy. J Vasc Surg. 2011 Apr;53(4):942-9. doi: 10.1016/j.jvs.2010.10.067. Epub 2011 Feb 23.</citation>
+    <PMID>21345636</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Sobocinski J, O'Brien N, Maurel B, Bartoli M, Goueffic Y, Sassard T, Midulla M, Koussa M, Vincentelli A, Haulon S. Endovascular approaches to acute aortic type A dissection: a CT-based feasibility study. Eur J Vasc Endovasc Surg. 2011 Oct;42(4):442-7. doi: 10.1016/j.ejvs.2011.04.037. Epub 2011 Jul 20.</citation>
+    <PMID>21764338</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Szeto WY, McGarvey M, Pochettino A, Moser GW, Hoboken A, Cornelius K, Woo EY, Carpenter JP, Fairman RM, Bavaria JE. Results of a new surgical paradigm: endovascular repair for acute complicated type B aortic dissection. Ann Thorac Surg. 2008 Jul;86(1):87-93; discussion 93-4. doi: 10.1016/j.athoracsur.2008.04.003.</citation>
+    <PMID>18573403</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yuan X, Mitsis A, Semple T, Castro Verdes M, Cambronero-Cortinas E, Tang Y, Nienaber CA. False lumen intervention to promote remodelling and thrombosis-The FLIRT concept in aortic dissection. Catheter Cardiovasc Interv. 2018 Oct 1;92(4):732-740. doi: 10.1002/ccd.27599. Epub 2018 Mar 30.</citation>
+    <PMID>29602262</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Roques F, Michel P, Goldstone AR, Nashef SA. The logistic EuroSCORE. Eur Heart J. 2003 May;24(9):881-2.</citation>
+    <PMID>12727160</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Charlson ME, Pompei P, Ales KL, MacKenzie CR. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation. J Chronic Dis. 1987;40(5):373-83.</citation>
+    <PMID>3558716</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Yuan X, Kan X, Xu XY, Nienaber CA. Finite element modeling to predict procedural success of thoracic endovascular aortic repair in type A aortic dissection. JTCVS Tech. 2020 Oct 13;4:40-47. doi: 10.1016/j.xjtc.2020.10.006. eCollection 2020 Dec.</citation>
+    <PMID>34317961</PMID>
+  </results_reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 12, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>aortic disease</keyword>
+  <keyword>finite element analysis</keyword>
+  <keyword>virtual stenting</keyword>
+  <keyword>focal wall stress</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aneurysm, Dissecting</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

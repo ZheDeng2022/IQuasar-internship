@@ -1,0 +1,172 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04527094</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI_PRF</org_study_id>
+    <nct_id>NCT04527094</nct_id>
+  </id_info>
+  <brief_title>Machine Learning Model to Predict Postoperative Respiratory Failure</brief_title>
+  <official_title>Development and Prospective Evaluation of a Machine Learning Model to Predict Postoperative Respiratory Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main objective of this study is to develop a machine learning model that predicts&#xD;
+      postoperative respiratory failure within 7 postoperative day using a real-world, local&#xD;
+      preoperative and intraoperative electronic health records, not administrative codes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Postoperative pulmonary complications are known to increase the length of hospital stay and&#xD;
+      healthcare cost. One of the most serious form of these complications is postoperative&#xD;
+      respiratory failure, which is also associated with morbidity and mortality. A lot of risk&#xD;
+      stratification models have been developed for identifying patients at increased risk of&#xD;
+      postoperative respiratory failure. However, these models were built by using a traditional&#xD;
+      logistic regression analysis. A logistic regression analysis had disadvantages of assuming&#xD;
+      the relationship between dependent and independent variables as linear. Recent advances in&#xD;
+      artificial intelligence make it possible to manage and analyze big data. Prediction model&#xD;
+      using a machine learning technique and large-scale data can improve the accuracy of&#xD;
+      prediction performance than those of previous models using traditional statistics.&#xD;
+      Furthermore, a machine learning technique may be a useful adjuvant tool in making clinical&#xD;
+      decisions or real-time prediction if it is integrated into the healthcare system. However, to&#xD;
+      our knowledge, there was no study investigating the predictive factors of postoperative&#xD;
+      respiratory failure using a machine-learning approach. Therefore, the main objective of this&#xD;
+      study is to develop a machine learning model that predicts postoperative respiratory failure&#xD;
+      within 7 postoperative day using a real-world, local preoperative and intraoperative&#xD;
+      electronic health records, not administrative codes and evaluate its performance&#xD;
+      prospectively.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">November 1, 2020</start_date>
+  <completion_date type="Anticipated">August 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>the incidence of postoperative respiratory failure after general anesthesia</measure>
+    <time_frame>within postoperative day 7</time_frame>
+    <description>Postoperative respiratory failure which was defined as any reintubation in the operating room, general ward, or intensive care unit after primary extubation at the end of the surgery</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">8000</enrollment>
+  <condition>Noncardiac Surgery</condition>
+  <arm_group>
+    <arm_group_label>AI_PRF</arm_group_label>
+    <description>Adults patients undergoing general anesthesia</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Prediction of postoperative respiratory failure using a machine learning</intervention_name>
+    <description>The performance of a machine learning model to predict postoperative respiratory failure after general anesthesia within postoperative day 7 was tested prospectively.</description>
+    <arm_group_label>AI_PRF</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients undergoing general anesthesia for noncardiac surgery&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adults patients undergoing general anesthesia for noncardiac surgery&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age under 18 years&#xD;
+&#xD;
+          -  Surgery duration &lt; 1 hr&#xD;
+&#xD;
+          -  Surgery performed only under local anesthesia or peripheral nerve block&#xD;
+&#xD;
+          -  Surgery related to a prior postoperative complication&#xD;
+&#xD;
+          -  Organ transplantation&#xD;
+&#xD;
+          -  Cardiac surgery&#xD;
+&#xD;
+          -  Surgery performed outside the operating room&#xD;
+&#xD;
+          -  Length of hospital stay &lt; 24 h&#xD;
+&#xD;
+          -  Patients who had tracheostoma prior to surgery&#xD;
+&#xD;
+          -  Patients scheduled for tracheostomy&#xD;
+&#xD;
+          -  Patients who were not extubated at the end of the surgery in the operating room&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Hyun-Kyu Yoon, MD</last_name>
+    <phone>02-2072-0065</phone>
+    <email>hyunkyu18@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hyun-Kyu Yoon</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Hyun-Kyu Yoon, MD</last_name>
+      <phone>02-2072-0065</phone>
+      <email>Hyunkyu18@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>October 2020</verification_date>
+  <study_first_submitted>August 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 21, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 26, 2020</study_first_posted>
+  <last_update_submitted>October 19, 2020</last_update_submitted>
+  <last_update_submitted_qc>October 19, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 22, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Seoul National University Hospital</investigator_affiliation>
+    <investigator_full_name>Hyun-Kyu Yoon</investigator_full_name>
+    <investigator_title>clinical assistant professor</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <keyword>Risk Factors</keyword>
+  <keyword>Postoperative respiratory failure</keyword>
+  <keyword>Validation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

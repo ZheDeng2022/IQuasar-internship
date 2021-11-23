@@ -1,0 +1,634 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04998019</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202829</org_study_id>
+    <secondary_id>1R01MH122375-01A1</secondary_id>
+    <nct_id>NCT04998019</nct_id>
+  </id_info>
+  <brief_title>PositiveLinks: mHealth for DC Cohort</brief_title>
+  <official_title>Pragmatic Efficacy Trial of mHealth to Improve HIV Outcomes in the DC Cohort</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>George Washington University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Virginia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>George Washington University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To achieve the end of the HIV epidemic, concerted efforts will be needed to address the HIV&#xD;
+      care continuum, including improving retention in care (RIC) and viral suppression (VS) among&#xD;
+      persons with HIV (PWH). In the U.S., less than 50% of PWH are RIC and even fewer are VS.&#xD;
+      Studies have shown that these PWH have poorer clinical outcomes and are at risk of&#xD;
+      transmitting HIV to others, hence the need for innovative solutions to improve retention in&#xD;
+      care and subsequent viral suppression. Theory-based mHealth interventions have been shown to&#xD;
+      be promising in reaching these at-risk groups and improving HIV-related outcomes.&#xD;
+      PositiveLinks is a clinic-deployed mHealth platform that includes patient and provider&#xD;
+      smartphone apps, a web portal for clinic staff and providers to manage patient cohorts, an&#xD;
+      online implementation guide, and a learning management system to train and certify clinic&#xD;
+      staff. It has theory-based features including daily queries of adherence, mood, and stress,&#xD;
+      graphical feedback for self-monitoring, secure messaging with staff, appointment reminders,&#xD;
+      anonymized peer support, information resources, and document upload capability to support&#xD;
+      insurance re-enrollment. A 12-month prospective study in poorly retained PWH found that PL&#xD;
+      increased RIC and VS, with app use related to benefit as well as improved social support and&#xD;
+      stigma. PL is a promising existing mHealth tool for PWH, yet its efficacy has not been tested&#xD;
+      in a randomized trial, nor in urban populations. The investigators will test the efficacy of&#xD;
+      PositiveLinks to improve RIC and VS among a cohort of PWH in a high HIV prevalence city of&#xD;
+      Washington, DC. Participants will be identified from the DC Cohort, a longitudinal&#xD;
+      prospective cohort of PWH receiving HIV care at 15 clinics in DC. First, the investigators&#xD;
+      will conduct formative research to assess the feasibility, acceptability and usability of&#xD;
+      PositiveLinks among this urban cohort and conduct subsequent adaptations based on these&#xD;
+      findings. The investigators will then conduct an efficacy study through a cluster randomized&#xD;
+      controlled trial at 13 DC Cohort sites among 560 PWH. Clinics will be randomized to PL or&#xD;
+      usual care. Primary outcomes will include VS, RIC, and visit constancy at 12 months. Finally,&#xD;
+      the investigators will conduct mixed methods implementation science research guided by the&#xD;
+      Consolidated Framework for Implementation Research and RE-AIM to identify site, patient,&#xD;
+      provider, and system factors that characterize best practices in program implementation. If&#xD;
+      successful, this research will lead to the development of a novel and efficacious approach to&#xD;
+      improving RIC and VS among PWH which could lead to dissemination research that will&#xD;
+      contribute to HIV epidemic control. This project is responsive to NIH priorities, National&#xD;
+      HIV/AIDS Strategy, and Ending the HIV Epidemic goals as it is cross-cutting, seeks to reduce&#xD;
+      health inequities, and to improve health outcomes to achieve sustained viral suppression in a&#xD;
+      geographic hotspot for HIV.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim 1: To determine the feasibility, acceptability, and usability of PL, the investigators&#xD;
+      will conduct mixed methods research among the DC Cohort Executive Committee members (one&#xD;
+      focus group with a maximum of 20 members), providers from each of the DC Cohort participating&#xD;
+      clinics (individual in-depth interviews with a maximum of 28 providers), members of the DC&#xD;
+      Regional Planning Commission on Health and HIV (COHAH; one focus group with a maximum of 50&#xD;
+      members), and PLWH who receiving care at each of the DC Cohort participating clinics (four&#xD;
+      focus groups with a maximum of 8 clinic patients in each group for a total of 32; user&#xD;
+      testing sessions followed by a survey with a maximum of 14 clinic patients; and beta testing&#xD;
+      preceded by a short demographic survey and followed by a brief in-depth interview and survey&#xD;
+      with a maximum of 14 clinic patients). Following user testing, the research and developer&#xD;
+      teams will review formative results and finalize the optimal set of app features for this&#xD;
+      urban cohort of PLWH. Following beta testing, the research and developer team will review&#xD;
+      results and make final app modifications. The prototype will pass stringent testing showing&#xD;
+      the app to be 100% bug-free, with no data loss. The app has robust transmission retries and&#xD;
+      data caching on the phone during periods of internet signal loss. Once connection is&#xD;
+      restored, all cached events are automatically sent to the PL servers on AWS (Amazon Web&#xD;
+      Services) S3 and are synchronized. The investigators will proceed to beta testing when it&#xD;
+      passes data reliability testing (retry, cache, re-send) at a 0% failure rate.&#xD;
+&#xD;
+      For the focus group, interview, and user testing participants, consent will be obtained&#xD;
+      verbally and a waiver of documentation of consent is requested. For beta-testing&#xD;
+      participants, written informed consent will be obtained. For the EC focus group, COHAH focus&#xD;
+      group, and provider interviews, participants will be sent a link to a brief REDCap survey&#xD;
+      prior to the study activities. The surveys will not be linked to their identities. For the&#xD;
+      focus groups with PLWH, participants will also be sent a link to a brief REDCap survey prior&#xD;
+      to the focus groups. During the user testing sessions, participants will be asked to download&#xD;
+      the app onto their phones. Users will be shown various app features by the study team and&#xD;
+      asked to share their impressions. Following the sessions, testers will be provided a link to&#xD;
+      the REDCap user testing survey. Users will be assigned a unique survey ID that will be linked&#xD;
+      to their DC Cohort ID so that they can be compensated. During the beta testing, participants&#xD;
+      will be asked to attend a virtual training session where participants will download the&#xD;
+      PositiveLinks app onto their personal smartphone, a study team member will set up the&#xD;
+      participants' PositiveLinks app account, and a study team member will demonstrate how to&#xD;
+      access PositiveLinks and its features.&#xD;
+&#xD;
+      Throughout the beta testing period, the study team will continuously collect data paradata or&#xD;
+      data related to app usage. This includes the frequency with which each participant uses app&#xD;
+      features as well as in-app data such as content information from check-in entries and&#xD;
+      comments, reminders, and community message board comments. Data collection will also include&#xD;
+      a 15-minute virtual user interview to debrief usage, likes and dislikes, identify bugs, and&#xD;
+      provide recommendations after one month of PL use. Along with an interview, participants will&#xD;
+      also complete a quick survey that will question participants overall experience with the app.&#xD;
+&#xD;
+      Aim 2: Aim 2 will entail a Cluster Randomized Clinical Trial that randomizes DC Cohort clinic&#xD;
+      patients (n=560) to either PL (n=7 clinics), or to the usual care conditions for engaging and&#xD;
+      retaining people in HIV care (n=7 clinics). Participants will be persons living with HIV who&#xD;
+      are previously enrolled in the DC Cohort or are eligible to enroll in the DC Cohort and have&#xD;
+      factors that may put them at risk for poor retention in care or lack of viral suppression&#xD;
+      (e.g. not virally suppressed, not retained in care, gap in care &gt;=6 months, newly diagnosed,&#xD;
+      etc.). Participants from clinics randomized to PL will get the patient smartphone app; clinic&#xD;
+      staff will receive the provider portal and provider smartphone app, the provider online LMS&#xD;
+      (learning management system), and the RA (research associate) will use the administrative&#xD;
+      website to enroll participants. Patients randomized to PL will use it for 12 months or more;&#xD;
+      they can opt to use it as long as it is available during the study (access depending on&#xD;
+      enrollment date). Participants from clinics randomized to Usual Care: Participants from&#xD;
+      clinics randomized to Usual Care will receive usual clinic retention and medication adherence&#xD;
+      support services for 12 months . The usual care condition ranges from having no ancillary&#xD;
+      support to only case management, to Ryan White funding and comprehensive services (adherence&#xD;
+      support, patient navigation, mental health, substance abuse, dental services and food&#xD;
+      banks).Participants will be assessed at baseline, 6 months, and 12 months to measure the&#xD;
+      primary outcomes of a) viral suppression (i.e., VL&lt;200 copies/ml) at 12 months, b) Visit&#xD;
+      Constancy (i.e., proportion of 4-month time intervals in which 1 HIV care visit was completed&#xD;
+      in 1 year, and c) Retention in care (i.e., 2 appointments separated by 90 days within 12&#xD;
+      months per HRSA-1)&#xD;
+&#xD;
+      Aim 3: The investigators will conduct mixed methods research (in-depth interviews and focus&#xD;
+      groups) guided by the Consolidated Framework for Implementation Research and RE-AIM to&#xD;
+      identify site, patient, provider, and system factors that are barriers and facilitators of&#xD;
+      processes and outcomes of implementation at the 7 sites randomized to PL.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 5, 2021</start_date>
+  <completion_date type="Anticipated">June 2025</completion_date>
+  <primary_completion_date type="Anticipated">April 2025</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>cluster randomized trial</intervention_model_description>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Viral Suppression</measure>
+    <time_frame>Month 12 from baseline</time_frame>
+    <description>Viral Suppression will be the nearest viral load measurement to the 12-month study time point for the participant, +/-90 days.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Retention in Care</measure>
+    <time_frame>Month 12 from baseline</time_frame>
+    <description>Retention in Care will be measured by Visit Constancy (i.e., proportion of 4-month time intervals with one visit with an HIV care provider completed in the 12-month time period of study participation)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Retention in Care</measure>
+    <time_frame>Month 12 from baseline</time_frame>
+    <description>Retention in Care will be measured by HRSA-1 (i.e.,keeping 2 HIV care appointments separated by 90 days within the 12-month time period of study participation)</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">803</enrollment>
+  <condition>HIV/AIDS</condition>
+  <arm_group>
+    <arm_group_label>PositiveLinks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants from clinics randomized to PL will get the patient smartphone app; clinic staff will receive the provider portal and provider smartphone app, the provider online LMS (learning management system), and the research assistant will use the administrative website to enroll participants. Patients randomized to PL will use it for 12 months or more; they can opt to use it as long as it is available during the study(access depending on enrollment date).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Usual Care</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Participants from clinics randomized to Usual Care (UC) will receive usual clinic retention and medication adherence support services for 12M. Based on site assessments, and descriptions from the clinics, the UC condition ranges from having no ancillary support to only case management, to Ryan White funding and comprehensive services (adherence support, patient navigation, mental health, substance abuse, dental services and food banks)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>PositiveLinks</intervention_name>
+    <description>The PositiveLinks (PL) patient mobile app delivers appointment reminders, daily queries (&quot;check-ins&quot;) of mood, stress and medication adherence, tailored educational resources, access to the PL team for individualized assistance, and the opportunity to interact with other users on a secure, anonymous community message board (CMB).</description>
+    <arm_group_label>PositiveLinks</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  PLWH and eligible for/enrolled in DC Cohort study age 16 or older&#xD;
+&#xD;
+          -  speaks and reads English or Spanish at 4th grade level or above&#xD;
+&#xD;
+          -  can provide informed consent; if a minor, is in charge of own HIV care&#xD;
+&#xD;
+          -  plans to reside in the DC metro area for the next 12M&#xD;
+&#xD;
+          -  has at least one of the following indicators of poor retention (in order of priority):&#xD;
+&#xD;
+               -  detectable virus,&#xD;
+&#xD;
+               -  not retained in care,&#xD;
+&#xD;
+               -  returning to care after a gap of ≥6 months, d) no visit constancy&#xD;
+&#xD;
+               -  newly diagnosed or initiating HIV care&#xD;
+&#xD;
+               -  recently transferred from a different HIV care site&#xD;
+&#xD;
+               -  evidence of HIV care receipt at a DC Cohort site and a non-DC Cohort site based&#xD;
+                  on the DOH (Department of Health) linkage(~9%).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  age below 16, or if patient is 16-17; parent is in charge of HIV care&#xD;
+&#xD;
+          -  unable to provide legal, independent consent to participate&#xD;
+&#xD;
+          -  PLWH receiving care at two DC Cohort sites (~10%) will be excluded&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Amanda D Castel, MD, MPH</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>George Washington University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Karen Ingersoll, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Virginia</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Amanda D Castel, MD, MPH</last_name>
+    <phone>202-994-8325</phone>
+    <email>acastel@gwu.edu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Catherine L Chantre, MSc</last_name>
+    <email>cchantre12@gwu.edu</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>MetroHealth</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Annick Hebou, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Unity Medical Center</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gebeyehu Teferi, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Georgetown University</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20007</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Princy Kumar, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>La Clinica Del Pueblo</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20009</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ricardo Fernandez, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Children's National Medical Center Pediatric Clinic</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Natella Rakhmanina, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Medstar Washington Hospital Center</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maria Elena Ruiz, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Washington Health Institute</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20017</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jose Bordon, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Family and Medical Counseling Service</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20020</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Serlin, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Whitman-Walker Health</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20036</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephen Abbott, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>George Washington Medical Faculty Associates</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hana Akselrod, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Howard University Hospital Adult Clinic</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jhansi Gajjala, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Howard University Hospital Pediatric Clinic</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sohail Rana, MD</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Veterans Affairs Medical Center</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20422</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Debra Benator, MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.positivelinks4ric.com/</url>
+    <description>PositiveLinks app</description>
+  </link>
+  <reference>
+    <citation>Canan CE, Waselewski ME, Waldman ALD, Reynolds G, Flickinger TE, Cohn WF, Ingersoll K, Dillingham R. Long term impact of PositiveLinks: Clinic-deployed mobile technology to improve engagement with HIV care. PLoS One. 2020 Jan 6;15(1):e0226870. doi: 10.1371/journal.pone.0226870. eCollection 2020.</citation>
+    <PMID>31905209</PMID>
+  </reference>
+  <reference>
+    <citation>Flickinger TE, DeBolt C, Xie A, Kosmacki A, Grabowski M, Waldman AL, Reynolds G, Conaway M, Cohn WF, Ingersoll K, Dillingham R. Addressing Stigma Through a Virtual Community for People Living with HIV: A Mixed Methods Study of the PositiveLinks Mobile Health Intervention. AIDS Behav. 2018 Oct;22(10):3395-3406. doi: 10.1007/s10461-018-2174-6.</citation>
+    <PMID>29882048</PMID>
+  </reference>
+  <reference>
+    <citation>Laurence C, Wispelwey E, Flickinger TE, Grabowski M, Waldman AL, Plews-Ogan E, Debolt C, Reynolds G, Cohn W, Ingersoll K, Dillingham R. Development of PositiveLinks: A Mobile Phone App to Promote Linkage and Retention in Care for People With HIV. JMIR Form Res. 2019 Mar 20;3(1):e11578. doi: 10.2196/11578.</citation>
+    <PMID>30892269</PMID>
+  </reference>
+  <reference>
+    <citation>Cohn WF, Canan CE, Knight S, Waldman AL, Dillingham R, Ingersoll K, Schexnayder J, Flickinger TE. An Implementation Strategy to Expand Mobile Health Use in HIV Care Settings: Rapid Evaluation Study Using the Consolidated Framework for Implementation Research. JMIR Mhealth Uhealth. 2021 Apr 28;9(4):e19163. doi: 10.2196/19163.</citation>
+    <PMID>33908893</PMID>
+  </reference>
+  <reference>
+    <citation>Flickinger TE, DeBolt C, Waldman AL, Reynolds G, Cohn WF, Beach MC, Ingersoll K, Dillingham R. Social Support in a Virtual Community: Analysis of a Clinic-Affiliated Online Support Group for Persons Living with HIV/AIDS. AIDS Behav. 2017 Nov;21(11):3087-3099. doi: 10.1007/s10461-016-1587-3.</citation>
+    <PMID>27766448</PMID>
+  </reference>
+  <reference>
+    <citation>Dillingham R, Ingersoll K, Flickinger TE, Waldman AL, Grabowski M, Laurence C, Wispelwey E, Reynolds G, Conaway M, Cohn WF. PositiveLinks: A Mobile Health Intervention for Retention in HIV Care and Clinical Outcomes with 12-Month Follow-Up. AIDS Patient Care STDS. 2018 Jun;32(6):241-250. doi: 10.1089/apc.2017.0303.</citation>
+    <PMID>29851504</PMID>
+  </reference>
+  <reference>
+    <citation>Flickinger TE, Ingersoll K, Swoger S, Grabowski M, Dillingham R. Secure Messaging Through PositiveLinks: Examination of Electronic Communication in a Clinic-Affiliated Smartphone App for Patients Living with HIV. Telemed J E Health. 2020 Mar;26(3):359-364. doi: 10.1089/tmj.2018.0261. Epub 2019 Mar 21.</citation>
+    <PMID>30900961</PMID>
+  </reference>
+  <reference>
+    <citation>Castel AD, Kalmin MM, Hart RL, Young HA, Hays H, Benator D, Kumar P, Elion R, Parenti D, Ruiz ME, Wood A, D'Angelo L, Rakhmanina N, Rana S, Bryant M, Hebou A, Fernández R, Abbott S, Peterson J, Wood K, Subramanian T, Binkley J, Happ LP, Kharfen M, Masur H, Greenberg AE. Disparities in achieving and sustaining viral suppression among a large cohort of HIV-infected persons in care - Washington, DC. AIDS Care. 2016 Nov;28(11):1355-64. doi: 10.1080/09540121.2016.1189496. Epub 2016 Jun 13.</citation>
+    <PMID>27297952</PMID>
+  </reference>
+  <reference>
+    <citation>Castel AD, Terzian A, Hart R, Rayeed N, Kalmin MM, Young H, Greenberg AE; DC Cohort Executive Committee. Use of national standards to monitor HIV care and treatment in a high prevalence city-Washington, DC. PLoS One. 2017 Oct 5;12(10):e0186036. doi: 10.1371/journal.pone.0186036. eCollection 2017.</citation>
+    <PMID>28982127</PMID>
+  </reference>
+  <reference>
+    <citation>Greenberg AE, Hays H, Castel AD, Subramanian T, Happ LP, Jaurretche M, Binkley J, Kalmin MM, Wood K, Hart R; DC Cohort Executive Committee. Development of a large urban longitudinal HIV clinical cohort using a web-based platform to merge electronically and manually abstracted data from disparate medical record systems: technical challenges and innovative solutions. J Am Med Inform Assoc. 2016 May;23(3):635-43. doi: 10.1093/jamia/ocv176. Epub 2015 Dec 31.</citation>
+    <PMID>26721732</PMID>
+  </reference>
+  <reference>
+    <citation>Simoni JM, Frick PA, Pantalone DW, Turner BJ. Antiretroviral adherence interventions: a review of current literature and ongoing studies. Top HIV Med. 2003 Nov-Dec;11(6):185-98. Review.</citation>
+    <PMID>14724327</PMID>
+  </reference>
+  <reference>
+    <citation>Amico KR, Harman JJ, Johnson BT. Efficacy of antiretroviral therapy adherence interventions: a research synthesis of trials, 1996 to 2004. J Acquir Immune Defic Syndr. 2006 Mar;41(3):285-97.</citation>
+    <PMID>16540929</PMID>
+  </reference>
+  <reference>
+    <citation>Carey JW, Carnes N, Schoua-Glusberg A, Kenward K, Gelaude D, Denson D, Gall E, Randall LA, Frew PM. Barriers and Facilitators for Clinical Care Engagement Among HIV-Positive African American and Latino Men Who Have Sex with Men. AIDS Patient Care STDS. 2018 May;32(5):191-201. doi: 10.1089/apc.2018.0018. Epub 2018 Apr 18.</citation>
+    <PMID>29668307</PMID>
+  </reference>
+  <reference>
+    <citation>Crawford TN. Poor retention in care one-year after viral suppression: a significant predictor of viral rebound. AIDS Care. 2014;26(11):1393-9. doi: 10.1080/09540121.2014.920076. Epub 2014 May 21.</citation>
+    <PMID>24848440</PMID>
+  </reference>
+  <reference>
+    <citation>Giordano TP, Gifford AL, White AC Jr, Suarez-Almazor ME, Rabeneck L, Hartman C, Backus LI, Mole LA, Morgan RO. Retention in care: a challenge to survival with HIV infection. Clin Infect Dis. 2007 Jun 1;44(11):1493-9. Epub 2007 Apr 23.</citation>
+    <PMID>17479948</PMID>
+  </reference>
+  <reference>
+    <citation>Rana AI, van den Berg JJ, Lamy E, Beckwith CG. Using a Mobile Health Intervention to Support HIV Treatment Adherence and Retention Among Patients at Risk for Disengaging with Care. AIDS Patient Care STDS. 2016 Apr;30(4):178-84. doi: 10.1089/apc.2016.0025.</citation>
+    <PMID>27028183</PMID>
+  </reference>
+  <reference>
+    <citation>Higa DH, Marks G, Crepaz N, Liau A, Lyles CM. Interventions to improve retention in HIV primary care: a systematic review of U.S. studies. Curr HIV/AIDS Rep. 2012 Dec;9(4):313-25. doi: 10.1007/s11904-012-0136-6. Review.</citation>
+    <PMID>22996171</PMID>
+  </reference>
+  <reference>
+    <citation>Ingersoll KS, Dillingham RA, Hettema JE, Conaway M, Freeman J, Reynolds G, Hosseinbor S. Pilot RCT of bidirectional text messaging for ART adherence among nonurban substance users with HIV. Health Psychol. 2015 Dec;34S:1305-15. doi: 10.1037/hea0000295.</citation>
+    <PMID>26651472</PMID>
+  </reference>
+  <reference>
+    <citation>Amico KR. Evidence for Technology Interventions to Promote ART Adherence in Adult Populations: a Review of the Literature 2012-2015. Curr HIV/AIDS Rep. 2015 Dec;12(4):441-50. doi: 10.1007/s11904-015-0286-4. Review.</citation>
+    <PMID>26412085</PMID>
+  </reference>
+  <reference>
+    <citation>Cooper V, Clatworthy J, Whetham J, Consortium E. mHealth Interventions To Support Self-Management In HIV: A Systematic Review. Open AIDS J. 2017 Nov 21;11:119-132. doi: 10.2174/1874613601711010119. eCollection 2017. Review.</citation>
+    <PMID>29290888</PMID>
+  </reference>
+  <reference>
+    <citation>Bauermeister JA, Golinkoff JM, Muessig KE, Horvath KJ, Hightow-Weidman LB. Addressing engagement in technology-based behavioural HIV interventions through paradata metrics. Curr Opin HIV AIDS. 2017 Sep;12(5):442-446. doi: 10.1097/COH.0000000000000396. Review.</citation>
+    <PMID>28617711</PMID>
+  </reference>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>July 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 6, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 10, 2021</study_first_posted>
+  <last_update_submitted>August 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 10, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>George Washington University</investigator_affiliation>
+    <investigator_full_name>Amanda D. Castel</investigator_full_name>
+    <investigator_title>Professor of Epidemiology</investigator_title>
+  </responsible_party>
+  <keyword>mobile Health</keyword>
+  <keyword>HIV care continuum</keyword>
+  <keyword>implementation science</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Acquired Immunodeficiency Syndrome</mesh_term>
+    <mesh_term>HIV Infections</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Informed Consent Form: COHAH focus group</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adult user testing</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_001.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adolescent user testing</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_002.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adult beta testing</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_003.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adolescent beta testing</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_004.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adult focus group</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_005.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: Adolescent focus group</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>April 26, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_006.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form: DC Cohort Executive Committee</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>August 14, 2020</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/19/NCT04998019/ICF_007.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

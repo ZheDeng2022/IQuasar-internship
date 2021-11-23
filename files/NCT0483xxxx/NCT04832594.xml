@@ -1,0 +1,268 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04832594</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KSRAD001</org_study_id>
+    <nct_id>NCT04832594</nct_id>
+  </id_info>
+  <brief_title>Using AI to Select Women for Supplemental MRI in Breast Cancer Screening</brief_title>
+  <acronym>ScreenTrustMRI</acronym>
+  <official_title>Image Analysis With Artificial Intelligence to Increase Precision in Breast Cancer Screening - the ScreenTrust MRI Substudy: a Prospective Trial of AI to Select Women for Supplemental Screening MRI</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Karolinska University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>KTH Royal Institute of Technology</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Region Stockholm</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Bröstcancerförbundet, Sweden</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Karolinska University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective clinical trial aiming to determine the ability of an AI pipeline to&#xD;
+      identify women who would benefit from supplemental MRI in terms of decreasing the number of&#xD;
+      cancers having a significantly delayed detection&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      All women attending mammography screening at Karolinska University Hospital will have their&#xD;
+      mammograms analyzed by AI (Figure 1). The specific AI-implementation (AI tool) in this study&#xD;
+      is a result of AI predictions from three equally weighted component AI models analyzing&#xD;
+      mammograms: (i) masking predictor, (ii) risk predictor and (iii) cancer signs predictor (by&#xD;
+      one commercial CAD model and one in-house academic CAD model); the age of the woman is also&#xD;
+      taken into account by multiplying the score with (110-age)/70. The purpose of the age factor&#xD;
+      is to attain a relatively similar proportion of MRI exams in the lower and higher age groups.&#xD;
+      The aim of the AI tool is to identify women with the highest probability of having a delay in&#xD;
+      cancer detection, i.e., having had a false negative screening mammogram.&#xD;
+&#xD;
+      The specific AI tool and its settings will remain the same during the study. For each&#xD;
+      examination, the AI tool will produce an AI Joint Score and an AI Masking Score. Women having&#xD;
+      an AI Masking Score above the threshold and an AI Joint Score above the threshold will be&#xD;
+      invited to the study unless they met exclusion criteria. Women who decide to participate,&#xD;
+      will be randomized to MRI or no-MRI (standard-of-care).&#xD;
+&#xD;
+      A Signa Premier 3T MRI scanner from GE Healthcare will be used. The MRI protocol will contain&#xD;
+      a T2-weighted Dixon sequence and a T1-weighted dynamic contrast enhanced series, and will&#xD;
+      remain the same through the course of the study. All MRI exams will be assessed by two&#xD;
+      radiologists, where the second reader will have access to the assessment of the first reader.&#xD;
+      In case of disagreement, a consensus discussion between two radiologists will be held. The&#xD;
+      MRI exams will be assessed according to BI-RADS, and follow-up will depend on the BI-RADS&#xD;
+      category (Figure 2). Women with BI-RADS 1-2 will have no further diagnostics and will be sent&#xD;
+      a 'healthy letter'. Women with BI-RADS 3 to 5 will be recalled for 2nd look ultrasound. Women&#xD;
+      with BI-RADS 4-5 will be included in the regular process for established cancer suspicion and&#xD;
+      be discussed in a multidisciplinary team conference. For women with BI-RADS 3, the follow-up&#xD;
+      will be handled within the breast radiology unit.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">July 1, 2025</completion_date>
+  <primary_completion_date type="Anticipated">April 1, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>For each screening mammography examination, the AI tool will produce an AI Joint Score and an AI Masking Score. Women having an AI Masking Score above the threshold and an AI Joint Score above the threshold will be invited to the study unless they met exclusion criteria. Women who decide to participate, will be randomized to MRI or no-MRI (standard-of-care).</intervention_model_description>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Significantly Delayed Breast Cancer Detection per 1000 women</measure>
+    <time_frame>Until 27 months from study inclusion (includes cancer detected at subsequent screening within this time frame). Cancer detected at the initial screening mammography or MRI shall not be included.</time_frame>
+    <description>Composite end-point defined by either: 1. Interval Cancer, 2. Cancer with lymph node metastasis, 3. Cancer with invasive component larger than 15 mm</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>MRI-detected breast cancer</measure>
+    <time_frame>Diagnosis during work-up within 2 months of the initial screening MRI</time_frame>
+    <description>Breast cancer detected at the initial screening MRI for women in the Intervention arm of the study</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Invasiveness</measure>
+    <time_frame>All diagnosed breast cancer within 27 months of study inclusion</time_frame>
+    <description>In situ and/or Invasive cancer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Histology</measure>
+    <time_frame>All diagnosed breast cancer within 27 months of study inclusion</time_frame>
+    <description>Ductal, Lobular, Mucinous, Tubular, Other</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Lymph node metastasis</measure>
+    <time_frame>All diagnosed breast cancer within 27 months of study inclusion</time_frame>
+    <description>0 nodes, 1-3 nodes, 4 or more nodes</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tumor size</measure>
+    <time_frame>All diagnosed breast cancer within 27 months of study inclusion</time_frame>
+    <description>Size (in millimetre) for the invasive and the in situ component</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Receptor status</measure>
+    <time_frame>All diagnosed breast cancer within 27 months of study inclusion</time_frame>
+    <description>ER positive/negative, PR positive/negative, HER2 positive/negative</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Age</measure>
+    <time_frame>At study inclusion</time_frame>
+    <description>Age of the woman</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Distribution of AI scores</measure>
+    <time_frame>At study inclusion</time_frame>
+    <description>Histogram, mean, median and dispersion measures for the AI Scores</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>BI-RADS codes</measure>
+    <time_frame>At study inclusion and until end of 27 month follow-up</time_frame>
+    <description>For each MRI examination, the BI-RADS code for fibroglandular volume, background enhancement and breast lesions</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Biopsy result</measure>
+    <time_frame>Diagnosis during work-up within 2 months of the MRI examination</time_frame>
+    <description>Pathology assessment of biopsy: normal tissue, benign lesion, cancer in situ, invasive cancer</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant questionnaire</measure>
+    <time_frame>At study inclusion</time_frame>
+    <description>Participant questionnaire replies for MRI contraindications and for Breast cancer-related history</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">2500</enrollment>
+  <condition>Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Supplemental MRI</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Women randomized to MRI will be examined using a shortened MRI protocol on a Signa Premier 3T MRI scanner. The MRI examination will be reviewed by two radiologists and assigned BI-RADS score. Appropriate clinical work-up will follow according to the BI-RADS score. BI-RADS 3 or higher at initial MRI will be recalled for a second look ultrasound.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>No MRI (standard-of-care)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>Standard-of-care. Both arms will have had a regular screening mammography examination prior to randomization. The &quot;No MRI&quot; arm will have no further intervention.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>AI selection for supplemental breast MRI</intervention_name>
+    <description>An AI tool will generate scores used to determine eligibility. Women randomized to MRI will be examined in an MRI scanner.</description>
+    <arm_group_label>Supplemental MRI</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Complete four-view screening mammography examination&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Women in surveillance program referred from the hereditary cancer unit&#xD;
+&#xD;
+          -  Breast implants&#xD;
+&#xD;
+          -  Prior breast cancer&#xD;
+&#xD;
+          -  Breast feeding&#xD;
+&#xD;
+          -  MRI contraindication requiring radiologist assessment&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>74 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Fredrik Strand, MDPhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Karolinska University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Fredrik Strand, MDPhD</last_name>
+    <phone>+46709795511</phone>
+    <email>fredrik.strand@sll.se</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Karolinska University Hospital</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>17164</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fredrik Strand, MD PhD</last_name>
+      <phone>+46851770000</phone>
+      <email>fredrik.strand@ki.se</email>
+    </contact>
+    <investigator>
+      <last_name>Fredrik Strand, MD PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 31, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 6, 2021</study_first_posted>
+  <last_update_submitted>April 5, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 5, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Karolinska University Hospital</investigator_affiliation>
+    <investigator_full_name>Fredrik Strand</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Artificial Intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>The final trial dataset will be available for the research team of the principal investigator. Pseudonymized data can be made available for external research audit. Anonymous data may be shared with academic researchers.</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_info_type>Statistical Analysis Plan (SAP)</ipd_info_type>
+    <ipd_info_type>Informed Consent Form (ICF)</ipd_info_type>
+    <ipd_time_frame>Available during study time and until 2 years after publication of any manuscript resulting from the study</ipd_time_frame>
+    <ipd_access_criteria>Data Transfer Agreement must be signed. Request must be made by an academic researcher at an internationally recognized university.</ipd_access_criteria>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>March 31, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/94/NCT04832594/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

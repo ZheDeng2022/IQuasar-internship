@@ -1,0 +1,315 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04806165</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202007008</org_study_id>
+    <secondary_id>K08MH120341</secondary_id>
+    <nct_id>NCT04806165</nct_id>
+  </id_info>
+  <brief_title>Treatment Uptake Chatbot for Eating Disorders</brief_title>
+  <official_title>Developing an Optimized Conversational Agent or &quot;Chatbot&quot; to Facilitate Mental Health Services Use in Individuals With Eating Disorders</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Washington University School of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Mental Health (NIMH)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Washington University School of Medicine</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Eating disorders (EDs) are serious mental illnesses associated with high morbidity and&#xD;
+      mortality, clinical impairment, and comorbid psychopathology. Although evidence-based&#xD;
+      treatments for EDs have been established, the treatment gap is wide. Indeed, &lt;20% of&#xD;
+      individuals with EDs receive treatment. There is need for a novel solution not only to&#xD;
+      identify individuals with EDs but also to encourage mental health services use and to address&#xD;
+      treatment barriers. This study aims to implement a conversational agent or &quot;chatbot&quot; that is&#xD;
+      optimized to increase mental health services use among individuals with EDs through such&#xD;
+      features as: 1) education on the seriousness and consequences of EDs; 2) engaging the user in&#xD;
+      motivational interviewing to overcome barriers to care; 3) providing a personalized&#xD;
+      recommendation for seeking intervention; 4) repeated check-ins with the user to encourage&#xD;
+      follow-up with care. This study will utilize a randomized optimization trial with adults who&#xD;
+      have completed screening on the National Eating Disorders Association (NEDA) website and&#xD;
+      screen positive for an ED but are not in treatment to determine chatbot feasibility and to&#xD;
+      generate data on the effect of the chatbot on motivation for treatment and mental health&#xD;
+      services use. This trial will employ the Multiphase Optimization Strategy framework, using a&#xD;
+      2^4 full factorial design, to randomly assign participants to a combination of the four&#xD;
+      proposed intervention components (n=16 conditions) to isolate the active ingredients.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 9, 2021</start_date>
+  <completion_date type="Anticipated">May 9, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 9, 2022</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Factorial Assignment</intervention_model>
+    <primary_purpose>Other</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of participants who report receipt of any type of mental health help for eating, shape, or weight concerns</measure>
+    <time_frame>14 weeks</time_frame>
+    <description>Self-report receipt of mental health help for eating, shape, or weight concerns.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in motivation (comprised of importance and readiness) to change and seek help for eating, shape, or weight concerns, as well as willingness to seek help</measure>
+    <time_frame>Baseline, 2 weeks, 6 weeks, 14 weeks</time_frame>
+    <description>Likert scale (1-7) items</description>
+  </primary_outcome>
+  <number_of_arms>16</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Eating Disorders</condition>
+  <arm_group>
+    <arm_group_label>Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Personalized Recommendation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Motivational Interviewing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Core Modules Only</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Motivational Interviewing, Personalized Recommendation, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Motivational Interviewing, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Motivational Interviewing, Personalized Recommendation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Personalized Recommendation, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Personalized Recommendation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Motivational Interviewing</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Personalized Recommendation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Personalized Recommendation, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Personalized Recommendation, Repeated Administration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Personalized Recommendation</intervention_name>
+    <description>A discussion with the chatbot, including identifying a personalized recommendation for accessing help for their eating disorder.</description>
+    <arm_group_label>Personalized Recommendation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Motivational Interviewing</intervention_name>
+    <description>A discussion with the chatbot, including motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder.</description>
+    <arm_group_label>Motivational Interviewing</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Core Modules Only</intervention_name>
+    <description>A discussion with the chatbot, including only the core modules.</description>
+    <arm_group_label>Core Modules Only</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Motivational Interviewing, Personalized Recommendation, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder, identifying a personalized recommendation for accessing help for their eating disorder, and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Motivational Interviewing, Personalized Recommendation, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Motivational Interviewing, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Motivational Interviewing, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Motivational Interviewing, Personalized Recommendation</intervention_name>
+    <description>A discussion with the chatbot, including motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder and identifying a personalized recommendation for accessing help for their eating disorder.</description>
+    <arm_group_label>Motivational Interviewing, Personalized Recommendation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Personalized Recommendation, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including identifying a personalized recommendation for accessing help for their eating disorder and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Personalized Recommendation, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders.</description>
+    <arm_group_label>Psychoeducation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Personalized Recommendation</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders and identifying a personalized recommendation for accessing help for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Personalized Recommendation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Motivational Interviewing</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders and motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Motivational Interviewing</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Motivational Interviewing, Personalized Recommendation</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders, motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder, and identifying a personalized recommendation for accessing help for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Personalized Recommendation</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Personalized Recommendation, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders, identifying a personalized recommendation for accessing help for their eating disorder, and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Personalized Recommendation, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Motivational Interviewing, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders, motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder, and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Repeated Administration</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Psychoeducation, Motivational Interviewing, Personalized Recommendation, Repeated Administration</intervention_name>
+    <description>A discussion with the chatbot, including psychoeducational content to increase knowledge related to eating disorders, motivational interviewing techniques to help overcome barriers to seeking care for their eating disorder, identifying a personalized recommendation for accessing help for their eating disorder, and follow ups over the course of 2 weeks to encourage help seeking for their eating disorder.</description>
+    <arm_group_label>Psychoeducation, Motivational Interviewing, Personalized Recommendation, Repeated Administration</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  U.S. resident&#xD;
+&#xD;
+          -  English-speaking&#xD;
+&#xD;
+          -  Age 18 years or older&#xD;
+&#xD;
+          -  Owns a personal smartphone&#xD;
+&#xD;
+          -  Screens positive for a Diagnostic and Statistical Manual of Mental Disorders, 5th&#xD;
+             Edition (DSM-5) clinical or subclinical eating disorder&#xD;
+&#xD;
+          -  Not currently receiving treatment for an eating disorder&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Non-U.S. resident&#xD;
+&#xD;
+          -  Younger than 18 years old&#xD;
+&#xD;
+          -  Does not own a personal smartphone&#xD;
+&#xD;
+          -  Does not screen positive for a DSM-5 clinical or subclinical eating disorder&#xD;
+&#xD;
+          -  Screens positive for Avoidant Restrictive Food Intake Disorder&#xD;
+&#xD;
+          -  Currently receiving treatment for an eating disorder&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Ellen E Fitzsimmons-Craft, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Washington University School of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Washington University School of Medicine</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>March 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 17, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 19, 2021</study_first_posted>
+  <last_update_submitted>October 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 6, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Feeding and Eating Disorders</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,915 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04317313</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-350</org_study_id>
+    <nct_id>NCT04317313</nct_id>
+  </id_info>
+  <brief_title>18F-FDG PET Radiomics of Diffuse Large B-cell Lymphoma</brief_title>
+  <official_title>Synergistic Effect of 18F-FDG PET Radiomics and International Prognostic Index on Outcome Prediction in Diffuse Large B-cell Lymphoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Second Affiliated Hospital, School of Medicine, Zhejiang University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to investigate the prognostic value of 18F-fluorodeoxyglucose (18F-FDG)&#xD;
+      positron emission tomography (PET) radiomics in diffuse large B-cell lymphoma (DLBCL) and its&#xD;
+      additional value to the International Prognostic Index (IPI).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Several studies have shown that 18F-FDG PET radiomics is predictive of survival in DLBCL.&#xD;
+      However, to the best of the investigator's knowledge, a multi-feature radiomic signature for&#xD;
+      prognosis assessment of DLBCL has not yet been described. Furthermore, it remains unclear&#xD;
+      whether PET-based radiomics could add more prognostic values to the IPI in DLBCL.&#xD;
+&#xD;
+      This study aims to develop 18F-FDG PET radiomic signature, and investigate whether the&#xD;
+      radiomic signature could improve the prognostic value of the IPI score in predicting&#xD;
+      progression-free survival (PFS) and overall survival (OS) in DLBCL.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Actual">July 30, 2021</completion_date>
+  <primary_completion_date type="Actual">July 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Overall Survival</measure>
+    <time_frame>From date of the initial diagnosis until the date of death from any cause, whichever came first, up to 8 years</time_frame>
+    <description>the period from the initial diagnosis to the death from any cause</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Progression-free Survival</measure>
+    <time_frame>From date of the initial diagnosis until the date of first documented progression, relapse or death from any cause, whichever came first, up to 8 years</time_frame>
+    <description>the period from the initial diagnosis to the progression, relapse or death from any cause</description>
+  </primary_outcome>
+  <enrollment type="Actual">152</enrollment>
+  <condition>Lymphoma, Large B-Cell, Diffuse</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>FDG PET radiomic feature evaluation</intervention_name>
+    <description>A total of 1245 radiomic features will be calculated and extracted from baseline FDG PET scans. These features include shape features, first order features, textural features and wavelet features.&#xD;
+In the second part, based on the results of least absolute shrinkage and selection operator Cox regression algorithm, the most significant radiomic features will be selected to construct the radiomic signature.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The target study population of this retrospective study is patients with DLBCL who have&#xD;
+        undergone pre-treatment 18F-FDG PET/CT prior to the R-CHOP or R-EPOCH chemotherapy. The&#xD;
+        study will assess the relationships between PET-derived radiomic features with the patient&#xD;
+        outcome data.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. histopathologically confirmed diffuse large B-cell lymphoma (DLBCL);&#xD;
+&#xD;
+          2. Over 18 years old when diagnosed;&#xD;
+&#xD;
+          3. Have undergone pre-treatment 18F-FDG PET/CT;&#xD;
+&#xD;
+          4. Have been initially treated with the combination of rituximab, cyclophosphamide,&#xD;
+             doxorubicin, vincristine and prednisone (R-CHOP) or R-EPOCH (etoposide, prednisone,&#xD;
+             vincristine, cyclophosphamide, doxorubicin).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Have primary central nervous system (CNS) lymphoma or second primary cancer;&#xD;
+&#xD;
+          2. Have undergone surgical resection;&#xD;
+&#xD;
+          3. With an incomplete follow-up.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mei Tian, M.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Second Affiliated Hospital, School of Medicine, Zhejiang University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Second Affiliated Hospital, School of Medicine, Zhejiang University</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310009</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>March 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>March 19, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 23, 2020</study_first_posted>
+  <results_first_submitted>May 9, 2021</results_first_submitted>
+  <results_first_submitted_qc>June 3, 2021</results_first_submitted_qc>
+  <results_first_posted type="Actual">June 25, 2021</results_first_posted>
+  <last_update_submitted>September 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>PET; Diffuse large B-cell lymphoma; Prognosis; Radiomics;</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lymphoma</mesh_term>
+    <mesh_term>Lymphoma, B-Cell</mesh_term>
+    <mesh_term>Lymphoma, Large B-Cell, Diffuse</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>July 29, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT04317313/Prot_SAP_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+
+  <clinical_results>
+
+    <participant_flow>
+      <group_list>
+        <group group_id="P1">
+          <title>Training Cohort</title>
+          <description>Patients diagnosed between July 2013 and March 2017. All patients underwent pre-treatment 18F-FDG PET/CT. PET/CT images were acquired on a Biograph mCT scanner (Siemens Healthcare, Germany) 60-70 min after intravenous injection of 18F-FDG (3.7 MBq/kg).</description>
+        </group>
+        <group group_id="P2">
+          <title>Validation Cohort</title>
+          <description>Patients diagnosed between April 2017 and July 2019. All patients underwent pre-treatment 18F-FDG PET/CT. PET/CT images were acquired on a Biograph mCT scanner (Siemens Healthcare, Germany) 60-70 min after intravenous injection of 18F-FDG (3.7 MBq/kg).</description>
+        </group>
+      </group_list>
+      <period_list>
+        <period>
+          <title>Overall Study</title>
+          <milestone_list>
+            <milestone>
+              <title>STARTED</title>
+              <participants_list>
+                <participants group_id="P1" count="100"/>
+                <participants group_id="P2" count="52"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="100"/>
+                <participants group_id="P2" count="52"/>
+              </participants_list>
+            </milestone>
+            <milestone>
+              <title>NOT COMPLETED</title>
+              <participants_list>
+                <participants group_id="P1" count="0"/>
+                <participants group_id="P2" count="0"/>
+              </participants_list>
+            </milestone>
+          </milestone_list>
+        </period>
+      </period_list>
+    </participant_flow>
+
+    <baseline>
+      <group_list>
+        <group group_id="B1">
+          <title>Training Cohort</title>
+          <description>Patients diagnosed between July 2013 and March 2017</description>
+        </group>
+        <group group_id="B2">
+          <title>Validation Cohort</title>
+          <description>Patients diagnosed between April 2017 and July 2019</description>
+        </group>
+        <group group_id="B3">
+          <title>Total</title>
+          <description>Total of all reporting groups</description>
+        </group>
+      </group_list>
+      <analyzed_list>
+        <analyzed>
+          <units>Participants</units>
+          <scope>Overall</scope>
+          <count_list>
+            <count group_id="B1" value="100"/>
+            <count group_id="B2" value="52"/>
+            <count group_id="B3" value="152"/>
+          </count_list>
+        </analyzed>
+      </analyzed_list>
+      <measure_list>
+        <measure>
+          <title>Age</title>
+          <units>years</units>
+          <param>Mean</param>
+          <dispersion>Standard Deviation</dispersion>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="57.8" spread="14.6"/>
+                    <measurement group_id="B2" value="59.4" spread="15.7"/>
+                    <measurement group_id="B3" value="58.3" spread="14.9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Sex: Female, Male</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Female</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="52"/>
+                    <measurement group_id="B2" value="24"/>
+                    <measurement group_id="B3" value="76"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Male</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="48"/>
+                    <measurement group_id="B2" value="28"/>
+                    <measurement group_id="B3" value="76"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Race and Ethnicity Not Collected</title>
+          <population>Race and Ethnicity were not collected from any participant.</population>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="0"/>
+                    <count group_id="B2" value="0"/>
+                    <count group_id="B3" value="0"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B3" value="0"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Region of Enrollment</title>
+          <units>participants</units>
+          <param>Number</param>
+          <class_list>
+            <class>
+              <title>China</title>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="B1" value="100"/>
+                    <measurement group_id="B2" value="52"/>
+                    <measurement group_id="B3" value="152"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>lactate dehydrogenase</title>
+          <description>Normal: 190-245 U/L; Elevated: &gt; 245 U/L</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Normal</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="45"/>
+                    <measurement group_id="B2" value="21"/>
+                    <measurement group_id="B3" value="66"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Elevated</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="55"/>
+                    <measurement group_id="B2" value="31"/>
+                    <measurement group_id="B3" value="86"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>β2-microglobulin</title>
+          <description>Normal: 1.0 - 3.0 μg/L; Elevated: &gt; 3.0 μg/L</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Normal</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="67"/>
+                    <measurement group_id="B2" value="31"/>
+                    <measurement group_id="B3" value="98"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Elevated</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="33"/>
+                    <measurement group_id="B2" value="21"/>
+                    <measurement group_id="B3" value="54"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Ann Arbor stage</title>
+          <description>Ann Arbor stage was evaluated based on the Lugano classification. Stage I: only one node or a group of adjacent nodes involved. Stage II: two or more nodal groups on the same side of the diaphragm. Stage III: nodes on both sides of the diaphragm, or nodes above the diaphragm with spleen involvement. Stage IV: additional noncontiguous extralymphatic involvement. Stage I/II were classified as limited stage (with better prognosis), while stage III/IV were defined as advanced stage (with worse prognosis).</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Ⅰ-Ⅱ</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="38"/>
+                    <measurement group_id="B2" value="15"/>
+                    <measurement group_id="B3" value="53"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Ⅲ-Ⅳ</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="62"/>
+                    <measurement group_id="B2" value="37"/>
+                    <measurement group_id="B3" value="99"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Performance status</title>
+          <description>Performance status was evaluated according to the Eastern Cooperative Oncology Group (ECOG) criteria.&#xD;
+Score 0: Fully active, able to carry on all pre-disease performance without restriction; Score 1: Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature; Score 2: Ambulatory and capable of all self-care but unable to carry out any work activities. Up and about more than 50% of waking hours; Score 3: Capable of only limited self-care, confined to bed or chair more than 50% of waking hours; Score 4: Completely disabled.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt; 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="76"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="108"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>≥ 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="24"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="44"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>B symptoms</title>
+          <description>The B symptoms were defined as the occurrence of one or more of three symptoms: weight loss (&gt;10% over 6 months), heavy night sweats and fever (&gt;38°C).</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Yes</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                    <measurement group_id="B2" value="20"/>
+                    <measurement group_id="B3" value="48"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>No</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72"/>
+                    <measurement group_id="B2" value="32"/>
+                    <measurement group_id="B3" value="104"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Extranodal sites</title>
+          <description>Extranodal sites included the bone marrow, gastrointestinal tract, liver, lung, central nervous system, and other sites. The numbers of extranodal disease sites were recorded as 0, 1, or more than 1.</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>&lt; 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="71"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="101"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>≥ 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="29"/>
+                    <measurement group_id="B2" value="22"/>
+                    <measurement group_id="B3" value="51"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>International Prognostic Index</title>
+          <description>The International Prognostic Index was defined according to the number of the following risk factors: elevated LDH, age &gt;60 years, ECOG performance score ≥2, involvement of more than one extranodal site, and Ann Arbor stage III/IV.&#xD;
+Score 0/1: Low risk; Score 2: Low-intermediate risk; Score 3: High-intermediate risk; Score 4: High risk</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>≤ 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="54"/>
+                    <measurement group_id="B2" value="30"/>
+                    <measurement group_id="B3" value="84"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>&gt; 2</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="46"/>
+                    <measurement group_id="B2" value="22"/>
+                    <measurement group_id="B3" value="68"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Cell of origin</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>germinal center B-cell like</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="28"/>
+                    <measurement group_id="B2" value="14"/>
+                    <measurement group_id="B3" value="42"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>non-germinal center B-cell like</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72"/>
+                    <measurement group_id="B2" value="38"/>
+                    <measurement group_id="B3" value="110"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Treatment</title>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>Chemotherapy alone</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="72"/>
+                    <measurement group_id="B2" value="41"/>
+                    <measurement group_id="B3" value="113"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Chemotherapy + radiotherapy</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="25"/>
+                    <measurement group_id="B2" value="10"/>
+                    <measurement group_id="B3" value="35"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>Chemotherapy + autologous stem cell transplantation</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="3"/>
+                    <measurement group_id="B2" value="1"/>
+                    <measurement group_id="B3" value="4"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+        <measure>
+          <title>Chemotherapy regimens</title>
+          <description>R-CHOP: rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone;&#xD;
+R-EPOCH: rituximab, etoposide, prednisone, vincristine, cyclophosphamide, and doxorubicin</description>
+          <units>Participants</units>
+          <param>Count of Participants</param>
+          <class_list>
+            <class>
+              <analyzed_list>
+                <analyzed>
+                  <units>Participants</units>
+                  <scope>Class</scope>
+                  <count_list>
+                    <count group_id="B1" value="100"/>
+                    <count group_id="B2" value="52"/>
+                    <count group_id="B3" value="152"/>
+                  </count_list>
+                </analyzed>
+              </analyzed_list>
+              <category_list>
+                <category>
+                  <title>R-CHOP</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="95"/>
+                    <measurement group_id="B2" value="48"/>
+                    <measurement group_id="B3" value="143"/>
+                  </measurement_list>
+                </category>
+                <category>
+                  <title>R-EPOCH</title>
+                  <measurement_list>
+                    <measurement group_id="B1" value="5"/>
+                    <measurement group_id="B2" value="4"/>
+                    <measurement group_id="B3" value="9"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </measure_list>
+    </baseline>
+
+    <outcome_list>
+      <outcome>
+        <type>Primary</type>
+        <title>Overall Survival</title>
+        <description>the period from the initial diagnosis to the death from any cause</description>
+        <time_frame>From date of the initial diagnosis until the date of death from any cause, whichever came first, up to 8 years</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Training Cohort</title>
+            <description>Patients diagnosed between July 2013 and March 2017</description>
+          </group>
+          <group group_id="O2">
+            <title>Validation Cohort</title>
+            <description>Patients diagnosed between April 2017 and July 2019</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Overall Survival</title>
+          <description>the period from the initial diagnosis to the death from any cause</description>
+          <units>months</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+                <count group_id="O2" value="52"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="56" lower_limit="4" upper_limit="96"/>
+                    <measurement group_id="O2" value="29" lower_limit="4.5" upper_limit="50"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+      <outcome>
+        <type>Primary</type>
+        <title>Progression-free Survival</title>
+        <description>the period from the initial diagnosis to the progression, relapse or death from any cause</description>
+        <time_frame>From date of the initial diagnosis until the date of first documented progression, relapse or death from any cause, whichever came first, up to 8 years</time_frame>
+        <group_list>
+          <group group_id="O1">
+            <title>Training Cohort</title>
+            <description>Patients diagnosed between July 2013 and March 2017</description>
+          </group>
+          <group group_id="O2">
+            <title>Validation Cohort</title>
+            <description>Patients diagnosed between April 2017 and July 2019</description>
+          </group>
+        </group_list>
+        <measure>
+          <title>Progression-free Survival</title>
+          <description>the period from the initial diagnosis to the progression, relapse or death from any cause</description>
+          <units>months</units>
+          <param>Median</param>
+          <dispersion>Full Range</dispersion>
+          <analyzed_list>
+            <analyzed>
+              <units>Participants</units>
+              <scope>Measure</scope>
+              <count_list>
+                <count group_id="O1" value="100"/>
+                <count group_id="O2" value="52"/>
+              </count_list>
+            </analyzed>
+          </analyzed_list>
+          <class_list>
+            <class>
+              <category_list>
+                <category>
+                  <measurement_list>
+                    <measurement group_id="O1" value="52.5" lower_limit="4" upper_limit="96"/>
+                    <measurement group_id="O2" value="28" lower_limit="4" upper_limit="50"/>
+                  </measurement_list>
+                </category>
+              </category_list>
+            </class>
+          </class_list>
+        </measure>
+      </outcome>
+    </outcome_list>
+
+    <reported_events>
+      <time_frame>From patient diagnosis to the end of the study, up to 1 year</time_frame>
+      <group_list>
+        <group group_id="E1">
+          <title>Training Cohort</title>
+          <description>Patients diagnosed between July 2013 and March 2017</description>
+        </group>
+        <group group_id="E2">
+          <title>Validation Cohort</title>
+          <description>Patients diagnosed between April 2017 and July 2019</description>
+        </group>
+      </group_list>
+      <serious_events>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, all-cause mortality</sub_title>
+                <counts group_id="E1" subjects_affected="27" subjects_at_risk="100"/>
+                <counts group_id="E2" subjects_affected="14" subjects_at_risk="52"/>
+              </event>
+              <event>
+                <sub_title>Total, serious adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="100"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="52"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </serious_events>
+      <other_events>
+        <frequency_threshold>0</frequency_threshold>
+        <category_list>
+          <category>
+            <title>Total</title>
+            <event_list>
+              <event>
+                <sub_title>Total, other adverse events</sub_title>
+                <counts group_id="E1" subjects_affected="0" subjects_at_risk="100"/>
+                <counts group_id="E2" subjects_affected="0" subjects_at_risk="52"/>
+              </event>
+            </event_list>
+          </category>
+        </category_list>
+      </other_events>
+    </reported_events>
+
+    <certain_agreements>
+      <pi_employee>All Principal Investigators ARE employed by the organization sponsoring the study.</pi_employee>
+      <restrictive_agreement>There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. </restrictive_agreement>
+    </certain_agreements>
+    <point_of_contact>
+      <name_or_title>Dr. Xiaohui Zhang</name_or_title>
+      <organization>Second Affiliated Hospital, School of Medicine, Zhejiang University</organization>
+      <phone>+86-571-87767188</phone>
+      <email>zhanghui4127@zju.edu.cn</email>
+    </point_of_contact>
+  </clinical_results>
+</clinical_study>
+

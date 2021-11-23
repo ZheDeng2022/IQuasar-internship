@@ -1,0 +1,162 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04615689</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Gut microbiota and UTI</org_study_id>
+    <nct_id>NCT04615689</nct_id>
+  </id_info>
+  <brief_title>The Association of Gut Microbiota With Urinary Tract Infection in Infants</brief_title>
+  <official_title>The Association of Gut Microbiota With Urinary Tract Infection in Infants</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hallym University Kangnam Sacred Heart Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hallym University Kangnam Sacred Heart Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This prospective case-control study will compare the gut microbiota between the infants with&#xD;
+      febrile urinary tract infection and healthy infants.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The investigators hypothesize that the gut environment reflected by intestinal microbiota&#xD;
+      influences the risk of urinary tract infection. This prospective case-control study will&#xD;
+      compare the gut microbiota between the infants with febrile urinary tract infection and&#xD;
+      healthy infants. The investigators will sequence the V3-V4 of the bacterial 16SrRNA genes&#xD;
+      from the feces and analyze the sequencing data by QIIME2.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 1, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The differential compositional analysis of the gut microbiota between healthy controls and infants with febrile urinary tract infection.</measure>
+    <time_frame>An average of 1 year, after the completion of recruitment.</time_frame>
+    <description>The investigators will sequence the V3-V4 of the bacterial 16SrRNA genes from the feces and analyze the sequencing data by QIIME2. From the OTU table, the investigators will conduct the differential compositional analysis of the gut microbiota between healthy controls and infants with febrile urinary tract infection, using the linear discriminant analysis and analysis of differential abundance taking sample variation into account in R program and QIIME2.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The differential functional analysis of the gut microbiota between healthy controls and infants with febrile urinary tract infection.</measure>
+    <time_frame>An average of 1 year, after the completion of recruitment.</time_frame>
+    <description>The investigators will predict the functional analysis from the OTU table and compare those results between healthy controls and infants with febrile urinary tract infection, using PICRUST2 analysis.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">20</enrollment>
+  <condition>Urinary Tract Infections</condition>
+  <arm_group>
+    <arm_group_label>Infants with febrile urinary tract infection</arm_group_label>
+    <description>The investigators will recruit infants hospitalized for acute febrile urinary tract infection. Before starting antibiotics treatment, The investigators will collect feces with the informed consents from infants' parents.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy infants</arm_group_label>
+    <description>The investigators will recruit healthy controls from the clinics for routine check up with the informed consents from infants' parents.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>The collection of feces</intervention_name>
+    <description>When the infants will be diagnosed with urinary tract infection, feces will be collected. Feces will be collected from healthy infants with informed consent.</description>
+    <arm_group_label>Healthy infants</arm_group_label>
+    <arm_group_label>Infants with febrile urinary tract infection</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      The investigators will sequence the V3-V4 of the bacterial 16SrRNA genes from the feces.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Infants hospitalized for febrile urinary tract infection. Healthy controls who visited at&#xD;
+        primary care clinic for routine check up with informed consent.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis of febrile urinary tract infection.&#xD;
+&#xD;
+          -  Infants&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Congenital kidney disease&#xD;
+&#xD;
+          -  Congenital heart disease&#xD;
+&#xD;
+          -  Other metabolic disease&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Months</minimum_age>
+    <maximum_age>15 Months</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>KY YOUNG CHO, M.D, Ph.D</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hallym University Kangnam Sacred Heart Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Byung Ok Kwak, M.D.,Ph.D</last_name>
+    <phone>+82-2-6960-1300</phone>
+    <email>qquack00@hallym.or.kr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hallym University Kangnam Sacred Heart Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <zip>07440</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>October 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 29, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 4, 2020</study_first_posted>
+  <last_update_submitted>July 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Hallym University Kangnam Sacred Heart Hospital</investigator_affiliation>
+    <investigator_full_name>Ky Young Cho</investigator_full_name>
+    <investigator_title>Associate Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Infections</mesh_term>
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Urinary Tract Infections</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

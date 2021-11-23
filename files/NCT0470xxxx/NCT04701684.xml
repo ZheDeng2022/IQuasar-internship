@@ -1,0 +1,667 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04701684</url>
+  </required_header>
+  <id_info>
+    <org_study_id>XCY607-130512</org_study_id>
+    <nct_id>NCT04701684</nct_id>
+  </id_info>
+  <brief_title>WE-TRUST (Workflow Optimization to Reduce Time to Endovascular Reperfusion for Ultra-fast Stroke Treatment)</brief_title>
+  <official_title>WE-TRUST (Workflow Optimization to Reduce Time to Endovascular Reperfusion for Ultra-fast Stroke Treatment)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Philips Healthcare</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Philips Healthcare</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_unapproved_device>Yes</is_unapproved_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The WE-TRUST study is a multi-center randomized clinical trial to assess the impact of a&#xD;
+      Direct to Angio Suite (DTAS) workflow on stroke patient outcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Outcomes for stroke patients are closely tied to how fast they receive treatment. Currently,&#xD;
+      when a possible stroke patient arrives at the emergency department, typically first a CT or&#xD;
+      MRI exam is acquired for stroke triage. In case of an ischemic stroke the patient is then&#xD;
+      treated in an interventional suite.&#xD;
+&#xD;
+      In the DTAS workflow stroke patients are diagnosed and treated in the interventional suite&#xD;
+      without interruption. The Cone-Beam CT (CBCT) capabilities of the interventional X-ray system&#xD;
+      are utilized to perform triage, directly followed by stroke treatment.&#xD;
+&#xD;
+      The primary objective of the WE-TRUST study is to demonstrate that the DTAS triage workflow&#xD;
+      involving CBCT results in superior patient outcome in ischemic stroke patients with confirmed&#xD;
+      Large Vessel Occlusion as compared to the conventional CT/MR triage workflow.&#xD;
+&#xD;
+      The WE-TRUST study will be running in 16 sites to enroll 500+ patients globally.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 23, 2021</start_date>
+  <completion_date type="Anticipated">December 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Distribution of ordinal modified Rankin Scale (mRS) scores at 90 ± 14 days follow-up</measure>
+    <time_frame>90 ± 14 days follow-up</time_frame>
+    <description>The difference in the distribution of ordinal modified Rankin Scale (mRS) scores at 90 ± 14 days follow-up in the ITT population to determine the performance of the DTAS triage imaging workflow involving Stroke CBCT reconstructions by the investigational device in comparison to the conventional CT/MR triage imaging workflow. The 90 day mRS score will be evaluated by a blinded assessor of a pool of blinded assessors (i.e., a specialist with mRS certification) at the local hospital by performing a structured interview of the patient in person using the Rankin Focused Assessment (RFA) structured mRS questionnaire. If subject is unable to return to the clinic for the day 90 ± 14 visit, a (video) call in which the mRS score is assessed by a blinded assessor is preferable to no assessment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Median time measurements (door-to-arterial puncture time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-arterial puncture time: Time patient arrives at the Comprehensive Stroke Center door to the time the skin of the patient is touched to perform first arterial puncture.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Median time measurements (door-to-reperfusion time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-reperfusion time: Time patient arrives at the Comprehensive Stroke Center door to the time of successful vessel recanalization (eTICI ≥ 2b)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Distribution of ordinal modified Rankin Scale (mRS) scores</measure>
+    <time_frame>90 ± 14 days follow-up</time_frame>
+    <description>The distribution of ordinal modified Rankin Scale (mRS) scores at 90 ± 14 days follow-up in both arms in the ITD population to determine the difference of the DTAS triage imaging workflow involving Stroke CBCT reconstructions by the investigational device in comparison to the conventional CT/MR triage imaging workflow in all randomized suspected stroke patients</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Safety: Adverse events (mortality at 90 days)</measure>
+    <time_frame>At 90 days post-procedure</time_frame>
+    <description>Mortality and stroke-related mortality</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety: Adverse events (symptomatic ICH)</measure>
+    <time_frame>At 24 (-12/+24) hours</time_frame>
+    <description>All intracerebral hemorrhages will be classified by the blinded Core Lab using the Heidelberg Bleeding Classification. Symptomatic ICH will be defined as per a modified SITS-MOST definition [31]: Symptomatic intracerebral hemorrhage is defined as local or remote parenchymal hemorrhage type 2, subarachnoid hemorrhage, and/or intraventricular hemorrhage on the 24 (-12/+24) hours post-treatment imaging scan, combined with a neurological deterioration of 4 points or more on the NIHSS from baseline, or from the lowest NIHSS value between baseline and 24 h, or leading to death.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety: Adverse events (asymptomatic ICH)</measure>
+    <time_frame>At 24 (-12/+24) hours</time_frame>
+    <description>All intracerebral hemorrhages will be classified (blinded) by using the Heidelberg Bleeding Classification. All the intracerebral hemorrhages which are not symptomatic, are classified as asymptomatic.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety: Adverse events (other)</measure>
+    <time_frame>From start of enrollment until hospital discharge (e.g. up to 5 days)</time_frame>
+    <description>including information of the seriousness, treatment needed, resolution and relevant judgment concerning the causal relationship with the investigational device, market released CBCT acquisition, comparator (CT/MR) or procedure will be summarized for safety information.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety: Adverse Device Effects</measure>
+    <time_frame>From start of enrollment until hospital discharge (e.g. up to 5 days)</time_frame>
+    <description>including information of the seriousness, treatment needed, resolution and relevant judgment concerning the causal relationship with the investigational devices or procedure will be summarized for safety information.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Safety: Number of participants with Device Deficiencies that could have led to Serious Adverse Event</measure>
+    <time_frame>From start of enrollment until hospital discharge (e.g. up to 5 days)</time_frame>
+    <description>including any corrective actions taken during the study, if any, will be summarized for safety information.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (door-to-randomization time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-randomization time: Time patient arrives at the Comprehensive Stroke Center door to the time of randomization</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (door-to-imaging time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-imaging time: Time patient arrives at the Comprehensive Stroke Center door to the time of initial triage imaging acquisition (i.e. non-contrast CBCT or CT/MR)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (randomization-to-imaging time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Randomization-to-imaging time: Time of randomization to the time of initial triage imaging acquisition (i.e. non-contrast CBCT or CT/MR)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (randomization-to-puncture time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Randomization-to-puncture time: Time of randomization to the time the skin of the patient is touched to perform first arterial puncture</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (door-to-thrombolytics administration time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-thrombolytics administration time: Time patient arrives at the CSC door to the time of start of thrombolytics administration.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (onset-to-door time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Onset-to-door time: Time patient last seen well to the time the patient arrives at the Comprehensive Stroke Center door</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (onset-to-arterial puncture time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Onset-to-arterial puncture time: Time patient last seen well to the time the skin of the patient is touched to perform first arterial puncture</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (onset-to-successful reperfusion (eTICI ≥ 2b) time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Onset-to-successful reperfusion (eTICI ≥ 2b) time: Time patient last seen well to the time of successful vessel recanalization (based on angiogram).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (Emergency Medical Services call-to-door time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Emergency Medical Services call-to-door time: Time from the call to Emergency Medical Services to the time the patient arrives at the Comprehensive Stroke Center door (total ambulance service time)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (Comprehensive Stroke Center notification call-to-door time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Comprehensive Stroke Center notification call-to-door time: Time from notification call to the Comprehensive Stroke Center stroke team to the time the patient arrives at the Comprehensive Stroke Center door</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (imaging-to-thrombolytics administration time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Imaging-to-thrombolytics administration time: Time from initial triage imaging acquisition (i.e. non-contrast CBCT or CT/MR) to the time of start of thrombolytics administration.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (imaging-to-arterial puncture time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Imaging-to-arterial puncture time: Time from initial triage imaging acquisition (i.e. non-contrast CBCT or CT/MR) to the time the skin of the patient is touched to perform first arterial puncture</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (Door-to-device deployment (first pass) time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Door-to-device deployment (first pass) time: Time patient arrives at the CSC door to the time of device deployment (first pass).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (imaging-to-successful reperfusion (eTICI ≥ 2b) time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Imaging-to-successful reperfusion (eTICI ≥ 2b) time: Time from initial triage imaging acquisition (i.e. non-contrast CBCT or CT/MR) to time of successful vessel recanalization (based on angiogram).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (arterial puncture-to-successful reperfusion (eTICI ≥ 2b) time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Arterial puncture-to-successful reperfusion (eTICI ≥ 2b) time: Time the skin of the patient is touched to perform first arterial puncture to the time of successful vessel recanalization.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Median time measurements (arterial puncture-to-skin closure time)</measure>
+    <time_frame>Peri-procedural time</time_frame>
+    <description>Arterial puncture-to-skin closure time: Time the skin of the patient is touched to perform first arterial puncture to the time of skin closure (total EVT procedure time)</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Degree of disability (other clinical outcome)</measure>
+    <time_frame>At discharge or 5-7 days post-procedure, and at 90 ± 14 days post-procedure</time_frame>
+    <description>Defined as modified Rankin Scale score (scores 0-6) distribution at discharge or at 5-7 days post-procedure, whichever comes first, and at 90 ± 14 days.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: NIHSS (other clinical outcome)</measure>
+    <time_frame>At admission (baseline), discharge or at 5-7 days post-procedure, whichever comes; and at 90 ± 14 days post-procedure</time_frame>
+    <description>The National Institutes of Health Stroke Scale is a tool used to objectively quantify the impairment caused by a stroke. The NIHSS is composed of 11 items, each of which scores a specific ability between a 0 and 4. For each item, a score of 0 typically indicates normal function in that specific ability, while a higher score is indicative of some level of impairment. The individual scores from each item are summed in order to calculate a patient's total NIHSS score. The maximum possible score is 42, with the minimum score being a 0</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Functional independence (other clinical outcome)</measure>
+    <time_frame>At 90 ± 14 days post-procedure</time_frame>
+    <description>Functional independence defined as mRS ≤ 2 at 90 days. The scale runs from 0-6, running from perfect health without symptoms (0) to death (6).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: UW-mRS (other clinical outcome)</measure>
+    <time_frame>At 90 ± 14 days post-procedure</time_frame>
+    <description>Utility-Weighted modified Ranking Scale. The scale runs from 0-6, running from perfect health without symptoms (0) to death (6).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Dichotomized mRS score (other clinical outcome)</measure>
+    <time_frame>At 90 ± 14 days post-procedure</time_frame>
+    <description>Dichotomized mRS score (0-3 versus 4-6). The scale runs from 0-6, running from perfect health without symptoms (0) to death (6).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Infarct volume (other clinical outcome)</measure>
+    <time_frame>At 24 (-12/+24) hours post-procedure</time_frame>
+    <description>Infarct volume evaluated on CT or MRI</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Dramatic early favorable response (other clinical outcome)</measure>
+    <time_frame>At 24 (-12/+24) hours</time_frame>
+    <description>Defined as an NIHSS score of 0-2 or NIHSS improvement ≥ 8 points. The National Institutes of Health Stroke Scale is a tool used to objectively quantify the impairment caused by a stroke. The NIHSS is composed of 11 items, each of which scores a specific ability between a 0 and 4. For each item, a score of 0 typically indicates normal function in that specific ability, while a higher score is indicative of some level of impairment. The individual scores from each item are summed in order to calculate a patient's total NIHSS score. The maximum possible score is 42, with the minimum score being a 0</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: Successful vessel recanalization (other clinical outcome)</measure>
+    <time_frame>At the end of the endovascular procedure</time_frame>
+    <description>Defined as expanded Thrombolysis in Cerebral Infarction) (eTICI) grade 2b, 2c or 3 on the post-procedure angiogram</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Exploratory: X-ray radiation exposure (other clinical outcome)</measure>
+    <time_frame>On day 1</time_frame>
+    <description>Total X-ray Radiation Exposure measured as effective dose (mSv).</description>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">564</enrollment>
+  <condition>Stroke, Acute</condition>
+  <arm_group>
+    <arm_group_label>Direct tot Angiography Suite (DTAS) triage workflow</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Conventional CT/MR triage workflow</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>Direct to Angio Suite (DTAS) Philips' CBCT triage</intervention_name>
+    <description>Stroke patients are diagnosed and treated (mechanical thrombectomy) in the same angio suite</description>
+    <arm_group_label>Direct tot Angiography Suite (DTAS) triage workflow</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Conventional CT/MR triage</intervention_name>
+    <description>First a CT or MRI exam is acquired for triage. In case of an ischemic stroke the patient is then treated in an interventional suite.</description>
+    <arm_group_label>Conventional CT/MR triage workflow</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Subject is 18 years of age or older, or of legal age to give informed consent per&#xD;
+             state or national law.&#xD;
+&#xD;
+          -  Baseline NIHSS score obtained prior to randomization must be equal or higher than 10&#xD;
+             points.&#xD;
+&#xD;
+          -  Subjects with no significant pre-stroke functional disability (modified Rankin scale 0&#xD;
+             - 2).&#xD;
+&#xD;
+          -  Subjects suspected of acute ischemic stroke with an estimated arrival time at a stroke&#xD;
+             center (clinical investigational site participating in this study) &lt; 6 hours from&#xD;
+             symptom onset. Symptom onset is defined as point in time the patient was last known&#xD;
+             well (at baseline).&#xD;
+&#xD;
+          -  Informed consent obtained from patient or his or her legally designated representative&#xD;
+             (if locally required).&#xD;
+&#xD;
+          -  Angiography suite immediately available.&#xD;
+&#xD;
+          -  Endovascular treatment team immediately available (Neurologist, Neurointerventionist,&#xD;
+             Anesthesiologist, Nursing, Technicians as per local standard practice)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Clinical exclusion criteria:&#xD;
+&#xD;
+          -  Known hemorrhagic diathesis, coagulation factor deficiency, or oral anticoagulant&#xD;
+             therapy with INR &gt; 3.0&#xD;
+&#xD;
+          -  Known baseline platelet count &lt; 30.000/μL&#xD;
+&#xD;
+          -  Baseline blood glucose of &lt; 50mg/dL (&lt; 2.78mmol/l)&#xD;
+&#xD;
+          -  For patients receiving thrombolysis: severe, sustained hypertension (SBP &gt; 185 mm Hg&#xD;
+             or DBP &gt; 110 mm Hg). Note: If the blood pressure can be successfully reduced and&#xD;
+             maintained at the acceptable level using AHA/ASA guidelines recommended medication&#xD;
+             (including IV antihypertensive drips), the patient can be enrolled.&#xD;
+&#xD;
+          -  Patients from a transfer center (Primary Stroke Center) with a CT/MR that is not&#xD;
+             required to be redone in the Comprehensive Stroke Center as per discretion of the&#xD;
+             physician or per local standards (e.g. CT/MR less then 90 minutes old).&#xD;
+&#xD;
+          -  Patients in coma (NIHSS item of consciousness &gt;1) defined as totally unresponsive;&#xD;
+             responding only with reflexes or being areflexic (Intubated patients for transfer&#xD;
+             could be randomized only in case an NIHSS is obtained by a neurologist prior&#xD;
+             transportation).&#xD;
+&#xD;
+          -  Patients with extreme vomiting&#xD;
+&#xD;
+          -  Patients that are extremely agitated&#xD;
+&#xD;
+          -  Seizures at stroke onset which would preclude obtaining a baseline NIHSS&#xD;
+&#xD;
+          -  Serious, advanced, or terminal illness with anticipated life expectancy of less than&#xD;
+             one year.&#xD;
+&#xD;
+          -  Patients acquired stroke while in-hospital&#xD;
+&#xD;
+          -  History of life threatening allergy (more than rash) to contrast medium&#xD;
+&#xD;
+          -  Cerebral vasculitis&#xD;
+&#xD;
+          -  Patients with a pre-existing neurological or psychiatric disease that would confound&#xD;
+             the neurological or functional evaluations, mRS score at baseline must be ≤2. This&#xD;
+             excludes patients who are severely demented, require constant assistance in a nursing&#xD;
+             home type setting or who live at home but are not fully independent in activities of&#xD;
+             daily living (toileting, dressing, eating, cooking and preparing meals, etc.)&#xD;
+&#xD;
+          -  Unlikely to be available for 90-day follow-up (e.g. no fixed home address, visitor&#xD;
+             from overseas).&#xD;
+&#xD;
+          -  Patients with unstable clinical status who require emergent life support care&#xD;
+&#xD;
+          -  Any condition that, in the judgment of the investigator could impose hazards to the&#xD;
+             patient if study therapy is initiated or affect the participation of the patient in&#xD;
+             the study.&#xD;
+&#xD;
+          -  Subject participates in a potentially confounding drug or device trial during the&#xD;
+             course of the study.&#xD;
+&#xD;
+          -  Woman of childbearing potential who is known to be pregnant on admission.&#xD;
+&#xD;
+          -  Subject meets an exclusion criteria according to national law (e.g. age, pregnant&#xD;
+             woman, breast feeding woman)&#xD;
+&#xD;
+          -  Subject is Philips employee or their family members residing with this Philips&#xD;
+             employee.&#xD;
+&#xD;
+        Neuroimaging exclusion criteria:&#xD;
+&#xD;
+          -  Evidence of acute hemorrhage on CT, MRI, or CBCT (the presence of GRE microbleeds is&#xD;
+             allowed).&#xD;
+&#xD;
+          -  Significant mass effect with midline shift.&#xD;
+&#xD;
+          -  Subjects with occlusions in multiple vascular territories (e.g., bilateral anterior&#xD;
+             circulation, or anterior/posterior circulation)&#xD;
+&#xD;
+          -  Evidence of intracranial tumor (except small meningioma).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raul G Nogueira</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Grady Memorial Hospital/Emory University, Atlanta</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Marc Ribo</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Vall d'Hebron University Hospital, Barcelona</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gerrits</last_name>
+    <phone>+31 6 55 48 29 31</phone>
+    <email>carin.gerrits@philips.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Eshuis</last_name>
+    <phone>+31 6 28 73 92 80</phone>
+    <email>peter.g.eshuis@philips.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Baptist Medical Center</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32207</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ricardo Hanel</last_name>
+      <email>rhanel@lyerlyneuro.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Grady Memorial Hospital/Emory University</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30303</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Raul Nogueira</last_name>
+      <email>raul.g.nogueira@emory.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Massachusetts</name>
+      <address>
+        <city>Worcester</city>
+        <state>Massachusetts</state>
+        <zip>01605</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ajit Puri</last_name>
+      <email>ajit.puri@umassmemorial.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Matthew Gounis</last_name>
+      <email>Matthew.Gounis@umassmed.edu</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>La Sagrada Familia Clinic</name>
+      <address>
+        <city>José Hernández</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Pedro Lylyk</last_name>
+      <email>plylyk@lylyk.com.ar</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Geral de Fortaleza</name>
+      <address>
+        <city>Fortaleza</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Francisco Mont' Alverne</last_name>
+      <email>f_montalverne@yahoo.com.br</email>
+    </contact>
+    <contact_backup>
+      <last_name>Fabricio Oliveira Lima</last_name>
+      <email>fabricio_oliveira_lima@yahoo.com.br</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Estadual Central</name>
+      <address>
+        <city>Vitória</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Derval Pimentel</last_name>
+      <email>dervalpimentel@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Leandro De Assis Barbosa</last_name>
+      <email>leandro.assisbarbosa@gmail.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Hospices Civils de Lyon</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Omer Eker</last_name>
+      <email>omer.eker@chu-lyon.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Bicêtre Hospital</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Laurent Spelle</last_name>
+      <email>laurent@spelle.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Klinikum rechts der Isar der TU München</name>
+      <address>
+        <city>Munich</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Tobias Boeckh-Behrens</last_name>
+      <email>boeckh-behrens@tum.de</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Haaglanden Medical Center</name>
+      <address>
+        <city>Den Haag</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ido van den Wijngaard</last_name>
+      <email>i.van.den.wijngaard@haaglandenmc.nl</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>St. Antonius Ziekenhuis</name>
+      <address>
+        <city>Nieuwegein</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jan Albert Vos</last_name>
+      <email>j.a.vos@antoniusziekenhuis.nl</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wouter Schonewille</last_name>
+      <email>w.schonewille@antoniusziekenhuis.nl</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari de Bellvitge</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Maria Angeles de Miquel</last_name>
+      <email>mademiquel@bellvitgehospital.cat</email>
+    </contact>
+    <contact_backup>
+      <last_name>Pere Cardona Portela</last_name>
+      <email>pcardonap@bellvitgehospital.cat</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Vall d'Hebron University Hospital</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marc Ribo</last_name>
+      <email>marcriboj@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Virgen del Rocio</name>
+      <address>
+        <city>Sevilla</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Alejandro Gonzalez</last_name>
+      <email>ggjandro@gmail.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Francisco Moniche</last_name>
+      <email>pmoniche@gmail.com</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>İstanbul Aydin University medical park florya hospital</name>
+      <address>
+        <city>Istanbul</city>
+        <country>Turkey</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Serdar Geyik</last_name>
+      <email>drserdarg@hotmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Brazil</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Netherlands</country>
+    <country>Spain</country>
+    <country>Turkey</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://www.wetrust-study.com/</url>
+    <description>WE-TRUST study information website</description>
+  </link>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>December 21, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 7, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 8, 2021</study_first_posted>
+  <last_update_submitted>July 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 13, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

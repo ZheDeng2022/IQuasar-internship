@@ -1,0 +1,138 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04541849</url>
+  </required_header>
+  <id_info>
+    <org_study_id>202004016RINB</org_study_id>
+    <nct_id>NCT04541849</nct_id>
+  </id_info>
+  <brief_title>Predicting Clinical Outcomes of Critically Ill Patients</brief_title>
+  <official_title>Predicting Clinical Outcomes of Critically Ill Patients in Intensive Care Units With De-identification Database</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Taiwan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Taiwan University Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Australian and New Zealand Intensive Care Society (ANZICS) has built an Center of Outcome and&#xD;
+      Resource Evaluation (CORE) adult patients database (APD) of adult critically ill patients.&#xD;
+      ANZICS CORE APD has built an international collaboration of ICU database. National Taiwan&#xD;
+      University Hospital has joined this international collaboration and built the data according&#xD;
+      to the APD data dictionary with same value domain attributes and data element attributes. We&#xD;
+      retrospectively collected the data of patients discharged from the March 1, 2019 to March 20,&#xD;
+      2020. This study aims to use the data to predict the clinical outcomes of these patients&#xD;
+      using statistical methods and machine learning.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 10, 2020</start_date>
+  <completion_date type="Anticipated">March 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>30-day mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>mortality status at 30 days after admission to intensive care unit</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>length of stay in intensive care unit</measure>
+    <time_frame>Time of discharge from intensive care unit, a median of 2-7 days</time_frame>
+    <description>number of days in intensive care unite</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">6000</enrollment>
+  <condition>Critical Illness</condition>
+  <arm_group>
+    <arm_group_label>Critically ill patients</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Critical Care</intervention_name>
+    <description>Critical care in the intensive care units</description>
+    <arm_group_label>Critically ill patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Critically ill patients admitted to intensive care units&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Critically ill patients admitted to intensive care units&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  patients aged less than 20 years&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yu-Chang Yeh, MD, PhD</last_name>
+    <phone>+886-9-10513711</phone>
+    <email>tonyyeh@ntuh.gov.tw</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yu-Chang Yeh, MD, PhD</last_name>
+      <phone>+886-910513711</phone>
+      <email>tonyyeh@ntuh.gov.tw</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>November 2021</verification_date>
+  <study_first_submitted>August 30, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 7, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 9, 2020</study_first_posted>
+  <last_update_submitted>November 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>There is not a plan to make individual participant data available according to the regulation of research ethic committee of National Taiwan University Hospital.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

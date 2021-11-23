@@ -1,0 +1,198 @@
+<clinical_study>
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on November 19, 2021</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04223934</url>
+  </required_header>
+  <id_info>
+    <org_study_id>O4BP-001</org_study_id>
+    <nct_id>NCT04223934</nct_id>
+  </id_info>
+  <brief_title>Tailored Drug Titration Using Artificial Intelligence</brief_title>
+  <official_title>ARTERY Outcomes: Tailored Drug Titration Through Artificial Intelligence - an Interventional Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Optima Integrated Health</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of California, San Francisco</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Optima Integrated Health</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the ARTERY Outcomes study is to compare optima-for-blood pressure (optima4BP),&#xD;
+      a clinical decision support system for hypertension (HTN) treatment optimization to standard&#xD;
+      of care in patients with essential HTN.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Nearly 34 million Americans have their blood pressure (BP) uncontrolled. Hypertension (HTN)&#xD;
+      claims 1000 deaths every day. Despite medication and life-style management, the cost of HTN&#xD;
+      associated hospitalizations had escalated to $113 billion in 2016, or 15% of all hospital&#xD;
+      costs, with &gt;135 million Emergency Department (ED) visits.&#xD;
+&#xD;
+      Uncontrolled HTN for even a few weeks is associated with increased risk for acute&#xD;
+      cardiovascular (CVD) events [stroke, heart failure (HF), myocardial infarction (MI)] and&#xD;
+      death. Medication treatment optimization to BP goal reduces the incidence of stroke by&#xD;
+      35-40%, HF by up to 64%, and MI by 15-25%.&#xD;
+&#xD;
+      optima-for-blood pressure [optima4BP] transforms the episodic and reactive nature of&#xD;
+      uncontrolled HTN pharmacological treatment management into a process that is continuous,&#xD;
+      proactive, and personalized. The innovation simulates the established clinical reasoning&#xD;
+      treatment decision process undertaken during a patient's visit.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">February 18, 2020</start_date>
+  <completion_date type="Anticipated">March 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 30, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>Randomized, intervention versus control.</intervention_model_description>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Participant)</masking>
+    <masking_description>Patient blinded to assignment [intervention versus control].</masking_description>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Reduction in systolic BP [SBP] (mmHg) measured remotely [Time frame: 0 - 6 months]</measure>
+    <time_frame>6 months</time_frame>
+    <description>optima4BP leads ≥4mmHg of SBP reduction compared to Standard of Care</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of Adverse Events [Time Frame: full 12 months]</measure>
+    <time_frame>6 months and 12 months</time_frame>
+    <description>Frequency and severity of adverse events (AEs) between baseline and the end of the study.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained remote SBP Target during observational period [Time Frame: 6 - 12 months (end of study)]</measure>
+    <time_frame>6 months</time_frame>
+    <description>Without optima4BP intervention, the O4BP arm will maintain a ≥4mmHg remote systolic blood pressure (SBP) reduction compared to the SOC arm</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Hypertension</condition>
+  <arm_group>
+    <arm_group_label>optima4BP</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treating physicians receive periodic (every 5-8 weeks) medication treatment recommendations intended to optimize the current patient treatment.&#xD;
+The recommendations are generated based on periodic remote data collected from the patient and from the Electronic Health Record. The analysis of the data allows assessment of the patient's response to current treatment and need for a treatment optimization. If a treatment optimization is needed, one is generated and sent to the treating physician for consideration.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard of Care (SOC)</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The treating physician follows usual care practices.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>optima4BP</intervention_name>
+    <description>optima4BP establishes a &quot;no gaps&quot; computational framework in determining the most effective treatment change that can optimize a patient's HTN management towards BP Target. All possible drug combination options available through the 16 anti-HTN drug classes and subclasses are quantitatively evaluated in the context of 5 actions: add a drug, remove a drug, replace a drug, increase a drug dose, and decrease a drug dose. The pharmacological intervention efficacy ranking is computed and the highest ranked treatment recommendation is selected for consideration by the treating physician.</description>
+    <arm_group_label>optima4BP</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Two or more blood pressure (BP) readings of ≥ 140/90 mmHg during UCSF primary care or&#xD;
+             cardiology office visits within the last 12 months&#xD;
+&#xD;
+          -  Therapy with medications from at least 1 anti-HTN pharmacological agents at the time&#xD;
+             of the last office visit&#xD;
+&#xD;
+          -  At least minimally &quot;tech-savvy&quot; defined as Ownership of a compatible smartphone and&#xD;
+             Ability to access the internet&#xD;
+&#xD;
+          -  Active Electronic Health Record MyChart account&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Home anti-HTN medication therapy doesn't match the electronic health record medication&#xD;
+             list&#xD;
+&#xD;
+          -  Anti-HTN medication therapy changed within 30 days prior to enrollment&#xD;
+&#xD;
+          -  Inability to operate a BP cuff&#xD;
+&#xD;
+          -  Incompatible smartphone device (Galaxy S5 Android 5.0)&#xD;
+&#xD;
+          -  Less than minimally &quot;tech-savvy&quot; defined as Inability to use the Internet&#xD;
+&#xD;
+          -  Non-compliance with medical follow-up (&gt;3 &quot;no shows&quot; in the previous 12 months)&#xD;
+&#xD;
+          -  Planned coronary revascularization in the next 12 months&#xD;
+&#xD;
+          -  Myocardial infarction, coronary revascularization, stroke, cardiac or aortic surgery&#xD;
+             in the previous 90 days&#xD;
+&#xD;
+          -  GFR &lt; 30 (CKD stage IV/ V)&#xD;
+&#xD;
+          -  Treating physician rules out the patient due to superseding health management concerns&#xD;
+&#xD;
+          -  Treating physician rules out the patient due to other concerns&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gabriela Voskerician, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Optima Integrated Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Liviu Klein, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of California, San Francisco</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of California San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>January 8, 2020</study_first_submitted>
+  <study_first_submitted_qc>January 8, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 13, 2020</study_first_posted>
+  <last_update_submitted>September 7, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 7, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Individual patient data will not be made available to other researchers.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+
